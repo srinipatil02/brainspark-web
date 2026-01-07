@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import Link from 'next/link';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
@@ -8,6 +8,9 @@ import { FirestoreQuestion } from '@/types';
 import { ConceptChatWidget } from '@/components/chat';
 import { ConceptContext } from '@/lib/chatTypes';
 import { useSetProgress } from '@/hooks/useSetProgress';
+import { GradingResult } from '@/types/grading';
+import { gradeAnswer, shouldCelebrate, getEncouragingMessage } from '@/services/gradingService';
+import { GradingResultCard } from '@/components/GradingResultCard';
 
 interface SetMetadata {
   id: string;
@@ -381,16 +384,29 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
   const [questions, setQuestions] = useState<FirestoreQuestion[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState('');
+  const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null);
   const [showHint, setShowHint] = useState(false);
   const [showSolution, setShowSolution] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
 
-  const { progress, progressPercent, markCompleted, isQuestionCompleted } = useSetProgress(
-    setMeta.id,
-    questions.length
-  );
+  // Grading state
+  const [gradingResult, setGradingResult] = useState<GradingResult | null>(null);
+  const [isGrading, setIsGrading] = useState(false);
+  const [hasSubmitted, setHasSubmitted] = useState(false);
+
+  const {
+    progress,
+    progressPercent,
+    markCompleted,
+    isQuestionCompleted,
+    getResult,
+    totalScore,
+    totalMaxScore,
+    scorePercent,
+    correctCount,
+  } = useSetProgress(setMeta.id, questions.length);
 
   // Fetch questions for this set
   useEffect(() => {
@@ -428,6 +444,58 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
 
   const currentQuestion = questions[currentQuestionIndex];
   const isComplete = isQuestionCompleted(currentQuestionIndex);
+  const previousResult = getResult(currentQuestionIndex);
+
+  // Track previous question index to detect navigation vs progress updates
+  const prevQuestionIndexRef = useRef(currentQuestionIndex);
+
+  // Load previous results ONLY when navigating to a different question
+  // This prevents overwriting fresh grading results after submission
+  useEffect(() => {
+    const isNavigation = prevQuestionIndexRef.current !== currentQuestionIndex;
+    prevQuestionIndexRef.current = currentQuestionIndex;
+
+    // Only load stored results when navigating to a different question
+    if (!isNavigation) {
+      return; // Don't overwrite current state on progress updates
+    }
+
+    if (previousResult) {
+      // Load previous grading result - use stored feedback if available
+      setHasSubmitted(true);
+
+      // Fallback feedback for older results that don't have stored feedback
+      const fallbackFeedback = {
+        summary: previousResult.correctness === 'correct'
+          ? 'You answered this question correctly!'
+          : previousResult.correctness === 'partial'
+            ? 'You partially answered this question.'
+            : 'Review the solution to understand the correct answer.',
+        whatWasRight: [],
+        whatWasMissing: [],
+        misconceptions: [],
+        suggestions: [],
+      };
+
+      // Normalize all fields to prevent undefined errors
+      setGradingResult({
+        score: previousResult.score ?? 0,
+        maxScore: previousResult.maxScore ?? 1,
+        percentage: previousResult.percentage ?? 0,
+        correctness: previousResult.correctness || 'incorrect',
+        feedback: previousResult.feedback || fallbackFeedback,
+        gradedAt: previousResult.gradedAt || new Date().toISOString(),
+        gradedBy: previousResult.gradedBy || 'auto',
+        confidence: 1,
+      });
+      setUserAnswer(previousResult.answer || '');
+    } else {
+      setHasSubmitted(false);
+      setGradingResult(null);
+      setUserAnswer('');
+      setSelectedOptionId(null);
+    }
+  }, [currentQuestionIndex, previousResult]);
 
   const navigateToQuestion = (index: number) => {
     if (index === currentQuestionIndex) return;
@@ -435,8 +503,11 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
     setTimeout(() => {
       setCurrentQuestionIndex(index);
       setUserAnswer('');
+      setSelectedOptionId(null);
       setShowHint(false);
       setShowSolution(false);
+      setGradingResult(null);
+      setHasSubmitted(false);
       setTimeout(() => setIsTransitioning(false), 50);
     }, 150);
   };
@@ -454,24 +525,90 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
   };
 
 
-  const handleMarkComplete = () => {
-    markCompleted(currentQuestionIndex, userAnswer);
+  // Submit answer for grading
+  const handleSubmitAnswer = async () => {
+    if (!currentQuestion) return;
 
-    // Check if all questions are now complete
-    const completedCount = questions.filter((_, idx) =>
-      idx === currentQuestionIndex ? true : isQuestionCompleted(idx)
-    ).length;
+    // For MCQ, require selection; for others, require text
+    const isMCQ = currentQuestion.questionType === 'MCQ';
+    if (isMCQ && !selectedOptionId) return;
+    if (!isMCQ && !userAnswer.trim()) return;
 
-    if (completedCount === questions.length) {
-      // All questions completed - celebrate!
-      setShowConfetti(true);
-      setTimeout(() => setShowConfetti(false), 4000);
+    setIsGrading(true);
+
+    try {
+      // Find correct option for MCQ
+      const correctOption = currentQuestion.mcqOptions?.find(o => o.isCorrect);
+
+      const result = await gradeAnswer({
+        questionId: currentQuestion.questionId,
+        questionType: currentQuestion.questionType,
+        questionStem: currentQuestion.stem,
+        modelSolution: currentQuestion.solution || '',
+        studentAnswer: isMCQ ? (selectedOptionId || '') : userAnswer,
+        selectedOptionId: selectedOptionId || undefined,
+        correctOptionId: correctOption?.id,
+        mcqOptions: currentQuestion.mcqOptions?.map(o => ({
+          id: o.id,
+          text: o.text,
+          isCorrect: o.isCorrect,
+          feedback: o.feedback,
+        })),
+        curriculum: currentQuestion.curriculum ? {
+          subject: currentQuestion.curriculum.subject,
+          year: currentQuestion.curriculum.year,
+          topic: currentQuestion.curriculum.strand,
+        } : undefined,
+        difficulty: currentQuestion.difficulty ?? 3,  // Default to medium difficulty if not set
+      });
+
+      setGradingResult(result);
+      setHasSubmitted(true);
+
+      // Save to progress
+      markCompleted(currentQuestionIndex, isMCQ ? (selectedOptionId || '') : userAnswer, result);
+
+      // Celebrate if perfect!
+      if (shouldCelebrate(result)) {
+        setShowConfetti(true);
+        setTimeout(() => setShowConfetti(false), 3000);
+      }
+
+      // Check if all questions now complete
+      const newCompletedCount = questions.filter((_, idx) =>
+        idx === currentQuestionIndex ? true : isQuestionCompleted(idx)
+      ).length;
+
+      if (newCompletedCount === questions.length) {
+        // All questions completed - big celebration!
+        setTimeout(() => {
+          setShowConfetti(true);
+          setTimeout(() => setShowConfetti(false), 5000);
+        }, 1000);
+      }
+    } catch (error) {
+      console.error('Grading failed:', error);
+      // Still allow progression even if grading fails
+      setHasSubmitted(true);
+    } finally {
+      setIsGrading(false);
     }
+  };
+
+  // Retry the current question
+  const handleRetry = () => {
+    setHasSubmitted(false);
+    setGradingResult(null);
+    setUserAnswer('');
+    setSelectedOptionId(null);
   };
 
   // Build concept context for AI chat
   const conceptContext = useMemo<ConceptContext>(() => {
-    const topics = questions.map(q => q.stem.split(/[.!?]/)[0].substring(0, 100)).filter(Boolean);
+    const topics = questions
+      .filter(q => q?.stem)
+      .map(q => (q.stem.split(/[.!?]/)[0] || '').substring(0, 100))
+      .filter(Boolean);
     const vocabulary: Record<string, string> = {};
 
     return {
@@ -557,31 +694,53 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
       <Confetti show={showConfetti} />
 
       <main className="max-w-3xl mx-auto px-4 py-6">
-        {/* Compact Question Navigator */}
+        {/* Compact Question Navigator with Grading Status */}
         <div className="flex items-center justify-center gap-1.5 mb-6">
-          {questions.map((_, idx) => (
-            <button
-              key={idx}
-              onClick={() => navigateToQuestion(idx)}
-              className={`
-                w-9 h-9 rounded-full font-semibold text-sm transition-all duration-200
-                ${idx === currentQuestionIndex
-                  ? `${colorClasses.progressBg} text-white shadow-lg scale-110`
-                  : isQuestionCompleted(idx)
-                    ? 'bg-green-500 text-white'
-                    : 'bg-white text-gray-500 hover:bg-gray-100 shadow-sm border border-gray-200'
-                }
-              `}
-            >
-              {isQuestionCompleted(idx) && idx !== currentQuestionIndex ? (
-                <svg className="w-4 h-4 mx-auto" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-              ) : (
-                idx + 1
-              )}
-            </button>
-          ))}
+          {questions.map((_, idx) => {
+            const result = getResult(idx);
+            const isCurrent = idx === currentQuestionIndex;
+
+            // Determine button style based on grading result
+            let buttonStyle = 'bg-white text-gray-500 hover:bg-gray-100 shadow-sm border border-gray-200';
+            let iconOrNumber: React.ReactNode = idx + 1;
+
+            if (isCurrent) {
+              buttonStyle = `${colorClasses.progressBg} text-white shadow-lg scale-110`;
+            } else if (result) {
+              if (result.correctness === 'correct') {
+                buttonStyle = 'bg-green-500 text-white';
+                iconOrNumber = (
+                  <svg className="w-4 h-4 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                );
+              } else if (result.correctness === 'partial') {
+                buttonStyle = 'bg-orange-500 text-white';
+                iconOrNumber = <span className="text-sm">~</span>;
+              } else {
+                buttonStyle = 'bg-red-400 text-white';
+                iconOrNumber = (
+                  <svg className="w-4 h-4 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                );
+              }
+            } else if (isQuestionCompleted(idx)) {
+              // Completed but no grading result (legacy)
+              buttonStyle = 'bg-gray-400 text-white';
+            }
+
+            return (
+              <button
+                key={idx}
+                onClick={() => navigateToQuestion(idx)}
+                title={result ? `${result.score}/${result.maxScore} points` : undefined}
+                className={`w-9 h-9 rounded-full font-semibold text-sm transition-all duration-200 ${buttonStyle}`}
+              >
+                {iconOrNumber}
+              </button>
+            );
+          })}
         </div>
 
         {/* Question Card - Main Focus */}
@@ -630,22 +789,93 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
                 }}
               />
 
-              {/* Answer Input */}
-              <div className="mb-5">
-                <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
-                  <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
-                  </svg>
-                  Your Answer
-                </label>
-                <textarea
-                  value={userAnswer}
-                  onChange={(e) => setUserAnswer(e.target.value)}
-                  className={`w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 ${colorClasses.focusRing} focus:border-transparent bg-gray-50 focus:bg-white transition-colors resize-none`}
-                  rows={4}
-                  placeholder="Type your answer here..."
-                />
-              </div>
+              {/* Answer Input - Different UI for MCQ vs Text */}
+              {currentQuestion.questionType === 'MCQ' && currentQuestion.mcqOptions ? (
+                // MCQ Options
+                <div className="mb-5 space-y-3">
+                  <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
+                    <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                    </svg>
+                    Select your answer
+                  </label>
+                  {currentQuestion.mcqOptions.map((option) => {
+                    const isSelected = selectedOptionId === option.id;
+                    const showResult = hasSubmitted && gradingResult;
+                    const isCorrect = option.isCorrect;
+
+                    let optionStyle = 'border-gray-200 bg-gray-50 hover:bg-gray-100 hover:border-gray-300';
+                    if (isSelected && !showResult) {
+                      optionStyle = `border-${setMeta.color}-500 bg-${setMeta.color}-50 ring-2 ring-${setMeta.color}-200`;
+                    } else if (showResult) {
+                      if (isCorrect) {
+                        optionStyle = 'border-green-500 bg-green-50';
+                      } else if (isSelected && !isCorrect) {
+                        optionStyle = 'border-red-500 bg-red-50';
+                      }
+                    }
+
+                    return (
+                      <button
+                        key={option.id}
+                        onClick={() => !hasSubmitted && setSelectedOptionId(option.id)}
+                        disabled={hasSubmitted}
+                        className={`w-full p-4 text-left border-2 rounded-xl transition-all ${optionStyle} ${hasSubmitted ? 'cursor-default' : 'cursor-pointer'}`}
+                      >
+                        <div className="flex items-start gap-3">
+                          <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold ${
+                            showResult && isCorrect
+                              ? 'bg-green-500 text-white'
+                              : showResult && isSelected && !isCorrect
+                                ? 'bg-red-500 text-white'
+                                : isSelected
+                                  ? `bg-${setMeta.color}-500 text-white`
+                                  : 'bg-gray-200 text-gray-600'
+                          }`}>
+                            {showResult && isCorrect ? (
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                              </svg>
+                            ) : showResult && isSelected && !isCorrect ? (
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" />
+                              </svg>
+                            ) : (
+                              option.id
+                            )}
+                          </div>
+                          <span className={`text-gray-800 ${showResult && isCorrect ? 'font-semibold' : ''}`}>
+                            {option.text}
+                          </span>
+                        </div>
+                        {showResult && isSelected && option.feedback && (
+                          <p className={`mt-2 ml-11 text-sm ${isCorrect ? 'text-green-700' : 'text-red-700'}`}>
+                            {option.feedback}
+                          </p>
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+              ) : (
+                // Text Answer (SHORT_ANSWER or EXTENDED_RESPONSE)
+                <div className="mb-5">
+                  <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
+                    <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                    </svg>
+                    Your Answer
+                  </label>
+                  <textarea
+                    value={userAnswer}
+                    onChange={(e) => setUserAnswer(e.target.value)}
+                    disabled={hasSubmitted}
+                    className={`w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 ${colorClasses.focusRing} focus:border-transparent bg-gray-50 focus:bg-white transition-colors resize-none ${hasSubmitted ? 'opacity-75 cursor-not-allowed' : ''}`}
+                    rows={currentQuestion.questionType === 'EXTENDED_RESPONSE' ? 8 : 4}
+                    placeholder="Type your answer here..."
+                  />
+                </div>
+              )}
 
               {/* Hint */}
               {currentQuestion.hints && currentQuestion.hints.length > 0 && (
@@ -707,17 +937,46 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
                 )}
               </div>
 
-              {/* Mark Complete Button */}
-              {!isComplete && (
+              {/* Grading Result */}
+              {hasSubmitted && gradingResult && (
+                <div className="mb-5">
+                  <GradingResultCard
+                    result={gradingResult}
+                    showDetails={true}
+                    onRetry={gradingResult.correctness !== 'correct' ? handleRetry : undefined}
+                    colorTheme={setMeta.color}
+                  />
+                </div>
+              )}
+
+              {/* Submit Button or Already Completed */}
+              {!hasSubmitted ? (
                 <button
-                  onClick={handleMarkComplete}
-                  className={`w-full py-3.5 px-4 ${colorClasses.progressBg} text-white rounded-xl font-semibold hover:shadow-lg transition-all duration-200 flex items-center justify-center gap-2`}
+                  onClick={handleSubmitAnswer}
+                  disabled={
+                    isGrading ||
+                    (currentQuestion.questionType === 'MCQ' ? !selectedOptionId : !userAnswer.trim())
+                  }
+                  className={`w-full py-3.5 px-4 ${colorClasses.progressBg} text-white rounded-xl font-semibold hover:shadow-lg transition-all duration-200 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed`}
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Mark as Complete
+                  {isGrading ? (
+                    <>
+                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                      Grading...
+                    </>
+                  ) : (
+                    <>
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      Submit Answer
+                    </>
+                  )}
                 </button>
+              ) : (
+                <div className="text-center text-sm text-gray-500">
+                  Answer submitted • {gradingResult ? `${gradingResult.score}/${gradingResult.maxScore} points` : 'Completed'}
+                </div>
               )}
               </div>
             </div>
@@ -746,7 +1005,7 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
           </button>
         </div>
 
-        {/* AI Chat Widget - Floating */}
+        {/* AI Chat Widget */}
         <div className="fixed bottom-6 right-6 z-50">
           <ConceptChatWidget
             conceptCardId={setMeta.id}

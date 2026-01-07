@@ -50,6 +50,12 @@ export {
   writingGradingHealth
 } from "./writing-grading/endpoint";
 
+// Curriculum Grading (SHORT_ANSWER, EXTENDED_RESPONSE)
+export {
+  gradeAnswer,
+  gradeAnswerHealth
+} from "./curriculum-grading/endpoint";
+
 // Teacher Module - REMOVED (35 functions)
 // These functions were removed to reduce deployment size and maintenance burden.
 // If needed, they can be restored from git history.
