@@ -1,0 +1,560 @@
+// functions/src/new-architecture/learning-triggers.ts
+import * as functions from "firebase-functions";
+import * as admin from "firebase-admin";
+
+const db = admin.firestore();
+
+// Auto-update skill tree when quest completed
+export const updateSkillTreeOnQuestCompletion = functions.firestore
+  .document('newQuestProgress/{progressId}')
+  .onUpdate(async (change, context) => {
+    try {
+      const questData = change.after.data();
+      const previousQuestData = change.before.data();
+      
+      // Check if quest just completed
+      if (questData?.status === 'completed' && 
+          previousQuestData?.status !== 'completed') {
+        
+        const userId = questData.userId;
+        const questId = questData.questId;
+        
+        console.log(`🏆 Quest completed: ${questId} by user: ${userId}`);
+        
+        // Get quest details to find target skills
+        const questDoc = await db.collection('newLearningQuests').doc(questId).get();
+        const questInfo = questDoc.data();
+        
+        if (questInfo) {
+          const targetSkills = questInfo.targetSkills || [];
+          const confidenceGain = calculateConfidenceGain(questData);
+          
+          // Update skill tree based on quest performance
+          await updateUserSkillTree(userId, targetSkills, confidenceGain);
+          
+          // Update parent dashboard
+          await updateParentDashboard(userId, questData, questInfo);
+          
+          // Check for achievement unlocks
+          await checkAndUnlockAchievements(userId, questData, questInfo);
+        }
+      }
+      
+    } catch (error) {
+      console.error('❌ Failed to update skill tree on quest completion:', error);
+    }
+  });
+
+// Generate adaptive daily mission
+export const generateDailyMission = functions.https.onCall(async (data, context) => {
+  if (!context.auth) {
+    throw new functions.https.HttpsError('unauthenticated', 'User must be authenticated');
+  }
+  
+  const userId = context.auth.uid;
+  const timeMinutes = data.timeMinutes || 15;
+  
+  try {
+    console.log(`🎯 Generating daily mission for user: ${userId}`);
+    
+    // Analyze user skill tree and learning history
+    const skillTree = await getUserSkillTree(userId);
+    const recentQuests = await getRecentQuests(userId, 7); // Last 7 days
+    const learningAnalytics = await getLearningAnalytics(userId);
+    
+    // Generate personalized quest
+    const questStructure = await generateAdaptiveQuestStructure({
+      userId,
+      skillTree,
+      recentQuests,
+      analytics: learningAnalytics,
+      timeMinutes,
+      questType: 'dailyMission'
+    });
+    
+    // Save quest to collection
+    const questId = generateQuestId();
+    await db.collection('newLearningQuests').doc(questId).set({
+      questId,
+      userId,
+      type: 'dailyMission',
+      ...questStructure,
+      createdAt: admin.firestore.FieldValue.serverTimestamp()
+    });
+    
+    console.log(`✅ Daily mission generated: ${questId}`);
+    return { questId, success: true };
+    
+  } catch (error) {
+    console.error('❌ Daily mission generation failed:', { 
+      userId, 
+      error: error.message 
+    });
+    throw new functions.https.HttpsError('internal', 'Failed to generate daily mission');
+  }
+});
+
+// Real-time confidence tracking
+export const updateConfidenceOnCardInteraction = functions.firestore
+  .document('newConceptCardSessions/{sessionId}')
+  .onUpdate(async (change, context) => {
+    try {
+      const sessionData = change.after.data();
+      const previousData = change.before.data();
+      
+      // Check if session was just completed
+      if (sessionData?.status === 'completed' && 
+          previousData?.status !== 'completed') {
+        
+        const userId = sessionData.userId;
+        const cardId = sessionData.cardId;
+        const skillId = sessionData.skillId;
+        
+        if (sessionData.finalConfidence && skillId) {
+          console.log(`📊 Updating confidence for skill: ${skillId} by user: ${userId}`);
+          
+          // Update skill tree confidence for related skill
+          await updateSkillConfidence(userId, skillId, sessionData.finalConfidence);
+          
+          // Log comprehensive analytics event
+          await logLearningEvent(userId, {
+            eventType: 'confidence_update',
+            skillId,
+            cardId,
+            oldConfidence: sessionData.initialConfidence || 'need_to_review',
+            newConfidence: sessionData.finalConfidence,
+            interactionDuration: sessionData.frontViewTimeSeconds + sessionData.backViewTimeSeconds,
+            widgetEngagement: sessionData.widgetInteractions,
+            timestamp: admin.firestore.FieldValue.serverTimestamp()
+          });
+          
+          // Trigger analytics aggregation
+          await updateLearningAnalytics(userId, sessionData);
+        }
+      }
+      
+    } catch (error) {
+      console.error('❌ Failed to update confidence on card interaction:', error);
+    }
+  });
+
+// Comprehensive analytics event logging
+export const logDetailedLearningEvent = functions.https.onCall(async (data, context) => {
+  if (!context.auth) {
+    throw new functions.https.HttpsError('unauthenticated', 'User must be authenticated');
+  }
+  
+  const { eventType, eventData, sessionContext } = data;
+  const userId = context.auth.uid;
+  
+  try {
+    console.log(`📈 Logging detailed learning event: ${eventType} for user: ${userId}`);
+    
+    // Create detailed analytics entry
+    const analyticsEntry = {
+      userId,
+      timestamp: admin.firestore.FieldValue.serverTimestamp(),
+      eventType,
+      eventData,
+      sessionContext,
+      
+      // Computed insights
+      learningVelocity: await computeLearningVelocity(userId),
+      engagementScore: await computeEngagementScore(userId, eventData),
+      strugglingIndicators: await detectStruggleSignals(userId, eventData),
+      
+      // Predictive modeling
+      riskFactors: await assessRiskFactors(userId, eventData),
+      nextOptimalAction: await predictNextOptimalAction(userId, eventData)
+    };
+    
+    // Store in analytics collection
+    await db.collection('newLearningAnalytics')
+      .doc(userId)
+      .collection('detailedEvents')
+      .add(analyticsEntry);
+    
+    // Trigger real-time insight generation
+    await generateRealTimeInsights(userId, analyticsEntry);
+    
+    return { success: true };
+    
+  } catch (error) {
+    console.error('❌ Analytics logging failed:', { 
+      userId, 
+      eventType, 
+      error: error.message 
+    });
+    throw new functions.https.HttpsError('internal', 'Failed to log analytics event');
+  }
+});
+
+// Automated daily report generation
+export const generateDailyReports = functions.pubsub
+  .schedule('0 7 * * *')
+  .timeZone('America/New_York')
+  .onRun(async (context) => {
+    try {
+      console.log('📊 Generating daily reports');
+      
+      // Generate reports for all active users
+      const activeUsers = await db.collection('newUserProfiles')
+        .where('lastActiveAt', '>', admin.firestore.Timestamp.fromDate(
+          new Date(Date.now() - 7 * 24 * 60 * 60 * 1000) // Last 7 days
+        ))
+        .get();
+      
+      const reportPromises = activeUsers.docs.map(async (userDoc) => {
+        const userId = userDoc.id;
+        const userData = userDoc.data();
+        
+        try {
+          // Generate student daily summary
+          const studentReport = await generateComprehensiveReport({
+            userId,
+            reportType: 'daily_summary',
+            audience: 'student',
+            includeComparisons: false,
+            includeRecommendations: true
+          });
+          
+          // Generate parent insights if parent linked
+          if (userData.learningProfile?.parentLinkedAccounts?.length > 0) {
+            const parentReport = await generateComprehensiveReport({
+              userId,
+              reportType: 'parent_insight',
+              audience: 'parent',
+              includeComparisons: true,
+              includeRecommendations: true
+            });
+            
+            // Send to parent dashboard
+            await updateParentDashboard(userData.learningProfile.parentLinkedAccounts[0], {
+              childUserId: userId,
+              dailyReport: parentReport,
+              generatedAt: admin.firestore.FieldValue.serverTimestamp()
+            });
+          }
+          
+          return { userId, success: true };
+          
+        } catch (error) {
+          console.error(`Failed to generate daily report for ${userId}:`, error);
+          return { userId, success: false };
+        }
+      });
+      
+      const results = await Promise.allSettled(reportPromises);
+      const successful = results.filter(r => r.status === 'fulfilled').length;
+      
+      console.log(`✅ Generated daily reports: ${successful}/${results.length} successful`);
+      
+    } catch (error) {
+      console.error('❌ Failed to generate daily reports:', error);
+    }
+  });
+
+// Weekly comprehensive analytics
+export const generateWeeklyAnalytics = functions.pubsub
+  .schedule('0 8 * * 1')
+  .timeZone('America/New_York')
+  .onRun(async (context) => {
+    try {
+      console.log('📊 Generating weekly analytics');
+      
+      // Generate comprehensive weekly reports every Monday at 8 AM
+      const allUsers = await db.collection('newUserProfiles').get();
+      
+      let processedCount = 0;
+      
+      for (const userDoc of allUsers.docs) {
+        const userId = userDoc.id;
+        
+        try {
+          // Aggregate weekly learning data
+          const weeklyData = await aggregateWeeklyLearningData(userId);
+          
+          // Generate insights using ML/AI analysis
+          const insights = await generateWeeklyInsights(weeklyData);
+          
+          // Create comprehensive weekly report
+          const weeklyReport = await generateComprehensiveReport({
+            userId,
+            reportType: 'weekly_progress',
+            audience: 'comprehensive',
+            timeframe: '1_week',
+            includeComparisons: true,
+            includeRecommendations: true,
+            includePredictiveInsights: true,
+            weeklyData,
+            insights
+          });
+          
+          // Store report
+          await db.collection('newReportsAndInsights').add({
+            ...weeklyReport,
+            generatedAt: admin.firestore.FieldValue.serverTimestamp()
+          });
+          
+          // Update user profile with latest insights
+          await db.collection('newUserProfiles').doc(userId).update({
+            'latestInsights': insights,
+            'lastReportGenerated': admin.firestore.FieldValue.serverTimestamp()
+          });
+          
+          processedCount++;
+          
+        } catch (error) {
+          console.error(`Weekly analytics failed for user ${userId}:`, error);
+        }
+      }
+      
+      console.log(`✅ Generated weekly analytics for ${processedCount} users`);
+      
+    } catch (error) {
+      console.error('❌ Failed to generate weekly analytics:', error);
+    }
+  });
+
+// Parent dashboard data aggregation
+export const updateParentDashboardDaily = functions.pubsub
+  .schedule('0 6 * * *')
+  .timeZone('America/New_York')
+  .onRun(async (context) => {
+    try {
+      console.log('👨‍👩‍👧‍👦 Updating parent dashboards');
+      
+      // Run daily at 6 AM to update all parent dashboards
+      const parentChildRelations = await db.collection('parentChildRelationships')
+        .where('status', '==', 'active')
+        .get();
+      
+      const updatePromises = parentChildRelations.docs.map(async (doc) => {
+        const { parentUid, childUid } = doc.data();
+        return updateDailyParentInsights(parentUid, childUid);
+      });
+      
+      await Promise.all(updatePromises);
+      console.log(`✅ Updated ${updatePromises.length} parent dashboards`);
+      
+    } catch (error) {
+      console.error('❌ Failed to update parent dashboards:', error);
+    }
+  });
+
+// Helper functions
+
+function calculateConfidenceGain(questProgress: any): number {
+  // Calculate confidence gain based on quest performance
+  const phases = questProgress.phaseProgress || [];
+  let totalConfidenceGain = 0;
+  let phaseCount = 0;
+  
+  for (const phase of phases) {
+    const activities = phase.activityProgress || [];
+    let phaseGain = 0;
+    
+    for (const activity of activities) {
+      if (activity.score > 0.8) {
+        phaseGain += 0.2; // High performance
+      } else if (activity.score > 0.6) {
+        phaseGain += 0.1; // Good performance
+      }
+    }
+    
+    totalConfidenceGain += phaseGain;
+    phaseCount++;
+  }
+  
+  return phaseCount > 0 ? totalConfidenceGain / phaseCount : 0;
+}
+
+async function updateUserSkillTree(userId: string, targetSkills: string[], confidenceGain: number) {
+  try {
+    const skillProgressRef = db.collection('newSkillProgress').doc(userId);
+    const updates: any = {};
+    
+    for (const skillId of targetSkills) {
+      updates[`skills.${skillId}.masteryLevel`] = admin.firestore.FieldValue.increment(confidenceGain);
+      updates[`skills.${skillId}.lastUpdated`] = admin.firestore.FieldValue.serverTimestamp();
+      
+      // Check if skill should be promoted to next level
+      const currentProgress = await skillProgressRef.get();
+      const currentMastery = currentProgress.data()?.skills?.[skillId]?.masteryLevel || 0;
+      
+      if (currentMastery + confidenceGain >= 1.0) {
+        updates[`skills.${skillId}.status`] = 'mastered';
+        updates[`skills.${skillId}.masteredAt`] = admin.firestore.FieldValue.serverTimestamp();
+      }
+    }
+    
+    await skillProgressRef.update(updates);
+    
+  } catch (error) {
+    console.error('Failed to update user skill tree:', error);
+  }
+}
+
+async function updateParentDashboard(parentUid: string, data: any, questInfo?: any) {
+  try {
+    // Update parent dashboard with child's progress
+    const parentDashboardRef = db.collection('newParentDashboards').doc(parentUid);
+    
+    await parentDashboardRef.set({
+      lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
+      recentActivity: admin.firestore.FieldValue.arrayUnion({
+        type: 'quest_completion',
+        childUserId: data.userId,
+        questTitle: questInfo?.title || 'Learning Quest',
+        completedAt: admin.firestore.FieldValue.serverTimestamp(),
+        performance: data.overallProgress || 0,
+      })
+    }, { merge: true });
+    
+  } catch (error) {
+    console.error('Failed to update parent dashboard:', error);
+  }
+}
+
+async function checkAndUnlockAchievements(userId: string, questData: any, questInfo: any) {
+  try {
+    const achievements = [];
+    
+    // Check for quest completion streak
+    const recentQuests = await getRecentQuests(userId, 7);
+    if (recentQuests.filter(q => q.status === 'completed').length >= 7) {
+      achievements.push('week_warrior');
+    }
+    
+    // Check for high performance
+    if (questData.overallProgress >= 0.95) {
+      achievements.push('perfectionist');
+    }
+    
+    // Check for skill mastery
+    if (questInfo.targetSkills?.length > 0) {
+      achievements.push('skill_builder');
+    }
+    
+    if (achievements.length > 0) {
+      await db.collection('newUserProfiles').doc(userId).update({
+        'achievements.unlocked': admin.firestore.FieldValue.arrayUnion(...achievements),
+        'achievements.lastUnlocked': admin.firestore.FieldValue.serverTimestamp(),
+      });
+    }
+    
+  } catch (error) {
+    console.error('Failed to check achievements:', error);
+  }
+}
+
+async function getUserSkillTree(userId: string): Promise<any> {
+  try {
+    const skillDoc = await db.collection('newSkillProgress').doc(userId).get();
+    return skillDoc.exists ? skillDoc.data() : {};
+  } catch (error) {
+    console.error('Failed to get user skill tree:', error);
+    return {};
+  }
+}
+
+async function getRecentQuests(userId: string, days: number): Promise<any[]> {
+  try {
+    const cutoffDate = new Date();
+    cutoffDate.setDate(cutoffDate.getDate() - days);
+    
+    const questsQuery = await db.collection('newQuestProgress')
+      .where('userId', '==', userId)
+      .where('startedAt', '>=', admin.firestore.Timestamp.fromDate(cutoffDate))
+      .get();
+    
+    return questsQuery.docs.map(doc => doc.data());
+  } catch (error) {
+    console.error('Failed to get recent quests:', error);
+    return [];
+  }
+}
+
+async function getLearningAnalytics(userId: string): Promise<any> {
+  try {
+    const analyticsDoc = await db.collection('newLearningAnalytics').doc(userId).get();
+    return analyticsDoc.exists ? analyticsDoc.data() : {};
+  } catch (error) {
+    console.error('Failed to get learning analytics:', error);
+    return {};
+  }
+}
+
+async function generateAdaptiveQuestStructure(params: any): Promise<any> {
+  // This would be a complex AI-driven quest generation algorithm
+  // For now, returning a simplified structure
+  return {
+    title: `Daily Challenge: ${new Date().toLocaleDateString()}`,
+    description: 'A personalized learning mission just for you',
+    difficulty: 'intermediate',
+    estimatedMinutes: params.timeMinutes,
+    targetSkills: [], // Would be populated based on analysis
+    phases: [], // Would be generated based on user needs
+  };
+}
+
+function generateQuestId(): string {
+  return `quest_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+}
+
+// Placeholder functions for complex analytics
+async function updateSkillConfidence(userId: string, skillId: string, confidence: string) {
+  // Implementation would update skill confidence levels
+}
+
+async function logLearningEvent(userId: string, eventData: any) {
+  // Implementation would log to analytics collection
+}
+
+async function updateLearningAnalytics(userId: string, sessionData: any) {
+  // Implementation would update analytics aggregations
+}
+
+async function computeLearningVelocity(userId: string): Promise<number> {
+  return 0.75; // Placeholder
+}
+
+async function computeEngagementScore(userId: string, eventData: any): Promise<number> {
+  return 0.85; // Placeholder
+}
+
+async function detectStruggleSignals(userId: string, eventData: any): Promise<string[]> {
+  return []; // Placeholder
+}
+
+async function assessRiskFactors(userId: string, eventData: any): Promise<string[]> {
+  return []; // Placeholder
+}
+
+async function predictNextOptimalAction(userId: string, eventData: any): Promise<string> {
+  return 'continue_learning'; // Placeholder
+}
+
+async function generateRealTimeInsights(userId: string, analyticsEntry: any) {
+  // Implementation would generate insights
+}
+
+async function generateComprehensiveReport(params: any): Promise<any> {
+  return {
+    reportId: `report_${Date.now()}`,
+    ...params,
+    summary: 'Comprehensive learning report',
+  };
+}
+
+async function aggregateWeeklyLearningData(userId: string): Promise<any> {
+  return {}; // Placeholder
+}
+
+async function generateWeeklyInsights(weeklyData: any): Promise<any> {
+  return {}; // Placeholder
+}
+
+async function updateDailyParentInsights(parentUid: string, childUid: string) {
+  // Implementation would update parent insights
+}

@@ -1,0 +1,421 @@
+/**
+ * JSON Parsing Robustness Tests
+ * Specifically tests the ability to handle various JSON response formats
+ */
+
+import { describe, it, expect } from '@jest/globals';
+import { GeminiProvider } from '../src/ai-providers/gemini-provider';
+
+describe('JSON Parsing Robustness Tests', () => {
+  let provider: GeminiProvider;
+
+  beforeEach(() => {
+    provider = new GeminiProvider({ apiKey: 'test-key' }, 'gemini-2-5-flash');
+  });
+
+  // Helper to access private parseResponse method
+  const parseResponse = (text: string) => {
+    return (provider as any).parseResponse(text, 'test-request-id');
+  };
+
+  describe('Valid JSON Formats', () => {
+    it('should parse clean JSON correctly', () => {
+      const validJson = `{
+        "stem": "What is 2 + 2?",
+        "questionType": "MCQ",
+        "mcqOptions": [
+          {"id": "A", "text": "3", "isCorrect": false, "feedback": "Incorrect"},
+          {"id": "B", "text": "4", "isCorrect": true, "feedback": "Correct!"},
+          {"id": "C", "text": "5", "isCorrect": false, "feedback": "Too high"}
+        ],
+        "solution": "2 + 2 = 4 by basic addition",
+        "hints": [
+          {"level": 1, "content": "Think about counting", "revealsCriticalInfo": false},
+          {"level": 2, "content": "Use your fingers", "revealsCriticalInfo": false},
+          {"level": 3, "content": "Add 2 to 2", "revealsCriticalInfo": true}
+        ]
+      }`;
+
+      const result = parseResponse(validJson);
+      expect(result.stem).toBe("What is 2 + 2?");
+      expect(result.questionType).toBe("MCQ");
+      expect(result.mcqOptions).toHaveLength(3);
+      expect(result.hints).toHaveLength(3);
+    });
+
+    it('should parse JSON with rich mathematical content', () => {
+      const mathJson = `{
+        "stem": "Find the value of **x** when **2x + 3 = 11**",
+        "questionType": "SPECIFIC_INPUT",
+        "specificInput": {
+          "expectedType": "number",
+          "acceptableAnswers": [
+            {"value": "4", "tolerance": 0, "format": "integer"}
+          ]
+        },
+        "solution": "**Step 1:** Subtract 3 from both sides\\n**2x + 3 - 3 = 11 - 3**\\n**2x = 8**\\n\\n**Step 2:** Divide both sides by 2\\n**x = 4**",
+        "hints": [
+          {"level": 1, "content": "Start by isolating the term with x", "revealsCriticalInfo": false},
+          {"level": 2, "content": "Subtract 3 from both sides", "revealsCriticalInfo": false},
+          {"level": 3, "content": "Then divide by the coefficient of x", "revealsCriticalInfo": true}
+        ],
+        "contextualInformation": "Linear equations appear in many real-world scenarios like calculating costs",
+        "realWorldApplication": "Used in budgeting, engineering calculations, and scientific formulas"
+      }`;
+
+      const result = parseResponse(mathJson);
+      expect(result.stem).toContain("**x**");
+      expect(result.specificInput).toBeDefined();
+      expect(result.specificInput.acceptableAnswers[0].value).toBe("4");
+      expect(result.solution).toContain("**Step 1:**");
+      expect(result.contextualInformation).toBeTruthy();
+    });
+  });
+
+  describe('JSON with Prefixes and Suffixes', () => {
+    it('should handle AI response with markdown code blocks', () => {
+      const wrappedJson = `\`\`\`json
+{
+  "stem": "Calculate the area of a rectangle with length 5m and width 3m",
+  "questionType": "SPECIFIC_INPUT",
+  "specificInput": {
+    "expectedType": "measurement",
+    "acceptableAnswers": [{"value": "15", "tolerance": 0.1, "format": "decimal"}],
+    "units": "m²"
+  },
+  "solution": "Area = length × width = 5 × 3 = 15 m²",
+  "hints": [
+    {"level": 1, "content": "Remember the formula for rectangle area", "revealsCriticalInfo": false}
+  ]
+}
+\`\`\``;
+
+      const result = parseResponse(wrappedJson);
+      expect(result.stem).toContain("rectangle");
+      expect(result.specificInput.units).toBe("m²");
+    });
+
+    it('should handle AI response with explanatory text before JSON', () => {
+      const prefixedJson = `Here's a great mathematics question for Year 7 students:
+
+{
+  "stem": "A pizza is divided into 8 equal slices. If Sarah eats 3 slices, what fraction of the pizza did she eat?",
+  "questionType": "SPECIFIC_INPUT",
+  "specificInput": {
+    "expectedType": "fraction",
+    "acceptableAnswers": [
+      {"value": "3/8", "format": "fraction"},
+      {"value": "0.375", "tolerance": 0.001, "format": "decimal"}
+    ]
+  },
+  "solution": "Sarah ate 3 out of 8 slices, so she ate 3/8 of the pizza.",
+  "hints": [
+    {"level": 1, "content": "Think about parts of a whole", "revealsCriticalInfo": false}
+  ]
+}`;
+
+      const result = parseResponse(prefixedJson);
+      expect(result.stem).toContain("pizza");
+      expect(result.specificInput.acceptableAnswers).toHaveLength(2);
+    });
+
+    it('should handle AI response with text after JSON', () => {
+      const suffixedJson = `{
+  "stem": "What is the next prime number after 17?",
+  "questionType": "SPECIFIC_INPUT",
+  "specificInput": {
+    "expectedType": "number",
+    "acceptableAnswers": [{"value": "19", "format": "integer"}]
+  },
+  "solution": "The prime numbers after 17 are: 19, 23, 29... So 19 is next.",
+  "hints": [
+    {"level": 1, "content": "Prime numbers are only divisible by 1 and themselves", "revealsCriticalInfo": false}
+  ]
+}
+
+This question tests understanding of prime numbers and is appropriate for the specified competency level.`;
+
+      const result = parseResponse(suffixedJson);
+      expect(result.stem).toContain("prime number");
+      expect(result.specificInput.acceptableAnswers[0].value).toBe("19");
+    });
+  });
+
+  describe('JSON with Special Characters and Formatting', () => {
+    it('should handle JSON with mathematical symbols', () => {
+      const symbolJson = `{
+        "stem": "Calculate **√(16) + π²** rounded to 2 decimal places",
+        "questionType": "SPECIFIC_INPUT",
+        "specificInput": {
+          "expectedType": "number",
+          "acceptableAnswers": [{"value": "13.87", "tolerance": 0.01, "format": "decimal"}]
+        },
+        "solution": "√(16) = 4, π² ≈ 9.87, so 4 + 9.87 = 13.87",
+        "hints": [
+          {"level": 1, "content": "Calculate √16 first", "revealsCriticalInfo": false},
+          {"level": 2, "content": "π ≈ 3.14159, so π² ≈ 9.87", "revealsCriticalInfo": false},
+          {"level": 3, "content": "Add: 4 + 9.87 = 13.87", "revealsCriticalInfo": true}
+        ]
+      }`;
+
+      const result = parseResponse(symbolJson);
+      expect(result.stem).toContain("√");
+      expect(result.stem).toContain("π²");
+      expect(result.solution).toContain("≈");
+    });
+
+    it('should handle JSON with escaped characters', () => {
+      const escapedJson = `{
+        "stem": "A student says \\"2 + 2 = 5\\". Explain why this is incorrect.",
+        "questionType": "SHORT_ANSWER",
+        "shortAnswer": {
+          "maxWords": 30,
+          "keyPoints": [
+            {"point": "Basic addition rules", "weight": 0.5, "required": true},
+            {"point": "Correct answer is 4", "weight": 0.5, "required": true}
+          ]
+        },
+        "solution": "2 + 2 = 4 by the fundamental rules of addition. The student's answer \\"5\\" is incorrect.",
+        "hints": [
+          {"level": 1, "content": "Think about basic addition", "revealsCriticalInfo": false}
+        ]
+      }`;
+
+      const result = parseResponse(escapedJson);
+      expect(result.stem).toContain('"2 + 2 = 5"');
+      expect(result.shortAnswer.keyPoints).toHaveLength(2);
+    });
+  });
+
+  describe('Truncated and Malformed JSON', () => {
+    it('should detect incomplete JSON and throw appropriate error', () => {
+      const truncatedJson = `{
+        "stem": "What is the area of a circle with radius 5?",
+        "questionType": "SPECIFIC_INPUT",
+        "specificInput": {
+          "expectedType": "measurement",
+          "acceptableAnswers": [{"value": "78.54", "tolerance": 0.1}]
+        },
+        "solution": "Area = πr² = π × 5² = 25π ≈ 78.54"`;
+        // Missing closing braces and hints
+
+      expect(() => parseResponse(truncatedJson)).toThrow('Invalid JSON response from Gemini');
+    });
+
+    it('should detect missing required fields', () => {
+      const incompleteJson = `{
+        "stem": "Test question",
+        "questionType": "MCQ",
+        "mcqOptions": [
+          {"id": "A", "text": "Option A", "isCorrect": true}
+        ]
+      }`;
+      // Missing solution and hints
+
+      expect(() => parseResponse(incompleteJson)).toThrow('Missing or invalid solution field');
+    });
+
+    it('should detect invalid question structure', () => {
+      const invalidJson = `{
+        "stem": "Test question",
+        "questionType": "MCQ",
+        "solution": "Test solution",
+        "hints": "This should be an array"
+      }`;
+
+      expect(() => parseResponse(invalidJson)).toThrow('Missing or invalid hints field');
+    });
+  });
+
+  describe('Edge Cases and Stress Tests', () => {
+    it('should handle very long content', () => {
+      const longContent = "A".repeat(5000); // 5000 character string
+      const longJson = `{
+        "stem": "Analyze the following data: ${longContent}",
+        "questionType": "SHORT_ANSWER",
+        "shortAnswer": {
+          "maxWords": 200,
+          "keyPoints": [{"point": "Analysis quality", "weight": 1.0, "required": true}]
+        },
+        "solution": "The data shows patterns in ${longContent.substring(0, 100)}...",
+        "hints": [
+          {"level": 1, "content": "Look for patterns in the data", "revealsCriticalInfo": false}
+        ]
+      }`;
+
+      const result = parseResponse(longJson);
+      expect(result.stem.length).toBeGreaterThan(5000);
+      expect(result.solution).toBeTruthy();
+    });
+
+    it('should handle nested JSON structures', () => {
+      const nestedJson = `{
+        "stem": "Complex question with nested data",
+        "questionType": "SHORT_ANSWER",
+        "shortAnswer": {
+          "maxWords": 100,
+          "keyPoints": [
+            {
+              "point": "Understanding of concept A",
+              "weight": 0.4,
+              "required": true,
+              "subCriteria": {
+                "demonstrates": "Clear explanation",
+                "includes": "Relevant examples"
+              }
+            },
+            {
+              "point": "Application of concept B", 
+              "weight": 0.6,
+              "required": false
+            }
+          ],
+          "sampleAnswers": [
+            {
+              "answer": "Sample response demonstrating understanding",
+              "score": 0.85,
+              "feedback": "Good understanding with minor gaps"
+            }
+          ]
+        },
+        "solution": "Comprehensive answer covering both concepts",
+        "hints": [
+          {"level": 1, "content": "Consider both concepts A and B", "revealsCriticalInfo": false}
+        ],
+        "widgets": [
+          {
+            "widgetType": "concept_mapper",
+            "config": {
+              "concepts": ["A", "B"],
+              "relationships": ["causes", "supports"]
+            },
+            "placement": "stem"
+          }
+        ]
+      }`;
+
+      const result = parseResponse(nestedJson);
+      expect(result.shortAnswer.keyPoints[0]).toHaveProperty('subCriteria');
+      expect(result.widgets).toHaveLength(1);
+      expect(result.widgets[0].config.concepts).toContain("A");
+    });
+
+    it('should handle multiple MCQ options with rich feedback', () => {
+      const richMCQJson = `{
+        "stem": "Which of the following best describes photosynthesis?",
+        "questionType": "MCQ",
+        "mcqOptions": [
+          {
+            "id": "A",
+            "text": "Plants eat sunlight",
+            "isCorrect": false,
+            "feedback": "Incorrect. Plants don't 'eat' sunlight, they convert light energy into chemical energy through photosynthesis."
+          },
+          {
+            "id": "B", 
+            "text": "Plants convert light energy and CO₂ into glucose and oxygen",
+            "isCorrect": true,
+            "feedback": "Correct! Photosynthesis is: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂"
+          },
+          {
+            "id": "C",
+            "text": "Plants breathe in oxygen and breathe out carbon dioxide",
+            "isCorrect": false,
+            "feedback": "This describes respiration, not photosynthesis. Photosynthesis produces oxygen as a byproduct."
+          },
+          {
+            "id": "D",
+            "text": "Plants grow bigger by absorbing water",
+            "isCorrect": false,
+            "feedback": "While plants need water, photosynthesis specifically refers to the conversion of light energy into chemical energy."
+          }
+        ],
+        "solution": "**Photosynthesis** is the process by which plants convert light energy (usually from the sun) and carbon dioxide from the air into glucose (sugar) and oxygen. The chemical equation is: **6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂**",
+        "hints": [
+          {"level": 1, "content": "Think about what plants need from their environment", "revealsCriticalInfo": false},
+          {"level": 2, "content": "Consider the inputs and outputs of the process", "revealsCriticalInfo": false},
+          {"level": 3, "content": "Look for the option that mentions converting light energy", "revealsCriticalInfo": true}
+        ]
+      }`;
+
+      const result = parseResponse(richMCQJson);
+      expect(result.mcqOptions).toHaveLength(4);
+      expect(result.mcqOptions[1].isCorrect).toBe(true);
+      expect(result.mcqOptions[0].feedback).toContain("don't 'eat' sunlight");
+      expect(result.solution).toContain("**Photosynthesis**");
+    });
+  });
+
+  describe('Real-world AI Response Patterns', () => {
+    it('should handle typical Gemini response format', () => {
+      const geminiResponse = `I'll create a mathematics question for Year 8 students about linear equations.
+
+\`\`\`json
+{
+  "stem": "Solve for **x** in the equation: **3x - 7 = 14**",
+  "questionType": "SPECIFIC_INPUT",
+  "specificInput": {
+    "expectedType": "number",
+    "acceptableAnswers": [
+      {"value": "7", "tolerance": 0, "format": "integer"},
+      {"value": "7.0", "tolerance": 0.01, "format": "decimal"}
+    ]
+  },
+  "solution": "**Step 1:** Add 7 to both sides\\n3x - 7 + 7 = 14 + 7\\n3x = 21\\n\\n**Step 2:** Divide both sides by 3\\nx = 21 ÷ 3\\nx = 7",
+  "hints": [
+    {"level": 1, "content": "Start by getting the x term by itself", "revealsCriticalInfo": false},
+    {"level": 2, "content": "Add 7 to both sides first", "revealsCriticalInfo": false},
+    {"level": 3, "content": "Then divide both sides by 3", "revealsCriticalInfo": true}
+  ],
+  "contextualInformation": "Linear equations are used in many real-world situations like calculating costs, distances, and time",
+  "realWorldApplication": "For example, if a taxi charges $7 base fee plus $3 per kilometer, and your total fare is $14, you can use 3x + 7 = 14 to find how many kilometers you traveled"
+}
+\`\`\`
+
+This question tests algebraic manipulation skills at the developing level.`;
+
+      const result = parseResponse(geminiResponse);
+      expect(result.stem).toContain("3x - 7 = 14");
+      expect(result.specificInput.acceptableAnswers).toHaveLength(2);
+      expect(result.contextualInformation).toBeTruthy();
+      expect(result.realWorldApplication).toContain("taxi");
+    });
+
+    it('should handle Claude-style response with detailed explanations', () => {
+      const claudeResponse = `Here's a carefully crafted question that meets your requirements:
+
+{
+  "stem": "A rectangular garden has a perimeter of 24 meters. If the length is 3 meters more than twice the width, what are the dimensions of the garden?",
+  "questionType": "SHORT_ANSWER",
+  "shortAnswer": {
+    "maxWords": 75,
+    "keyPoints": [
+      {"point": "Set up equations correctly", "weight": 0.3, "required": true},
+      {"point": "Solve system of equations", "weight": 0.4, "required": true},
+      {"point": "State final dimensions clearly", "weight": 0.3, "required": true}
+    ],
+    "sampleAnswers": [
+      {
+        "answer": "Let w = width. Then length = 2w + 3. Perimeter equation: 2w + 2(2w + 3) = 24. Solving: 2w + 4w + 6 = 24, so 6w = 18, w = 3. Length = 2(3) + 3 = 9. Dimensions: 3m × 9m.",
+        "score": 1.0,
+        "feedback": "Perfect solution with clear working"
+      }
+    ]
+  },
+  "solution": "**Let w = width of garden**\\n**Then length = 2w + 3** (given relationship)\\n\\n**Perimeter formula:** P = 2l + 2w\\n**24 = 2(2w + 3) + 2w**\\n**24 = 4w + 6 + 2w**\\n**24 = 6w + 6**\\n**18 = 6w**\\n**w = 3 meters**\\n\\n**Length = 2(3) + 3 = 9 meters**\\n\\n**Final answer: Garden is 3m wide and 9m long**",
+  "hints": [
+    {"level": 1, "content": "Define variables for width and length, then use the given relationship", "revealsCriticalInfo": false},
+    {"level": 2, "content": "Set up the perimeter equation: 2l + 2w = 24", "revealsCriticalInfo": false},
+    {"level": 3, "content": "Substitute l = 2w + 3 into the perimeter equation", "revealsCriticalInfo": true}
+  ]
+}
+
+This problem integrates algebra with geometry and requires multi-step problem solving appropriate for the consolidating level.`;
+
+      const result = parseResponse(claudeResponse);
+      expect(result.shortAnswer.sampleAnswers).toHaveLength(1);
+      expect(result.solution).toContain("**Let w = width");
+      expect(result.shortAnswer.keyPoints[1].weight).toBe(0.4);
+    });
+  });
+});

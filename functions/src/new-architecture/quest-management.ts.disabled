@@ -1,0 +1,776 @@
+// functions/src/new-architecture/quest-management.ts
+import {onDocumentUpdated} from "firebase-functions/v2/firestore";
+import {onSchedule} from "firebase-functions/v2/scheduler";
+import {onRequest} from "firebase-functions/v2/https";
+import {logger} from "firebase-functions";
+import * as admin from "firebase-admin";
+
+const db = admin.firestore();
+
+export const generateDailyQuests = onSchedule({
+  schedule: "every day 06:00",
+  timeZone: "America/New_York"
+}, async (event) => {
+    try {
+      logger.info('🎯 Generating daily quests');
+      
+      // Get all active users from last 14 days
+      const twoWeeksAgo = new Date();
+      twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
+      
+      const activeUsersQuery = await db.collection('newUserProfiles')
+        .where('lastActiveAt', '>=', admin.firestore.Timestamp.fromDate(twoWeeksAgo))
+        .get();
+      
+      const batch = db.batch();
+      let processedCount = 0;
+      
+      for (const userDoc of activeUsersQuery.docs) {
+        const userId = userDoc.id;
+        const userData = userDoc.data();
+        
+        try {
+          const dailyQuest = await generateUserDailyQuest(userId, userData);
+          
+          if (dailyQuest) {
+            const questRef = db.collection('newLearningQuests').doc(dailyQuest.questId);
+            batch.set(questRef, dailyQuest);
+            
+            // Create user assignment
+            const assignmentRef = db.collection('newQuestAssignments').doc(`${userId}_daily_${getTodayIdentifier()}`);
+            batch.set(assignmentRef, {
+              userId,
+              questId: dailyQuest.questId,
+              questType: 'daily_mission',
+              assignedAt: admin.firestore.FieldValue.serverTimestamp(),
+              expiresAt: admin.firestore.Timestamp.fromDate(getTomorrowMidnight()),
+              status: 'assigned',
+            });
+          }
+          
+          processedCount++;
+          
+          if (processedCount % 500 === 0) {
+            await batch.commit();
+          }
+          
+        } catch (error) {
+          logger.error(`Failed to generate daily quest for ${userId}:`, error);
+        }
+      }
+      
+      if (processedCount % 500 !== 0) {
+        await batch.commit();
+      }
+      
+      logger.info(`✅ Generated daily quests for ${processedCount} users`);
+      
+    } catch (error) {
+      logger.error('❌ Failed to generate daily quests:', error);
+    }
+  });
+
+async function generateUserDailyQuest(userId: string, userData: any): Promise<any | null> {
+  try {
+    // Get user's learning profile and recent activity
+    const learningProfile = userData.learningProfile || {};
+    // const progressStats = userData.progressStats || {};
+    
+    // Get user's skill progress
+    const skillProgressDoc = await db.collection('newSkillProgress').doc(userId).get();
+    const skillProgress = skillProgressDoc.exists ? skillProgressDoc.data()?.skills || {} : {};
+    
+    // Get user's recent analytics to identify focus areas
+    const analyticsDoc = await db.collection('newLearningAnalytics').doc(userId).get();
+    const analyticsData = analyticsDoc.exists ? analyticsDoc.data() : {};
+    
+    // Identify target skills based on user needs
+    const targetSkills = identifyTargetSkills(learningProfile, skillProgress, analyticsData);
+    
+    if (targetSkills.length === 0) {
+      logger.info(`No target skills identified for user ${userId}`);
+      return null;
+    }
+    
+    // Generate quest structure
+    const questId = `daily_${userId}_${getTodayIdentifier()}`;
+    const quest = {
+      questId,
+      title: generateQuestTitle(targetSkills, learningProfile),
+      description: generateQuestDescription(targetSkills),
+      subject: learningProfile.preferredSubject || 'mathematics',
+      targetSkills: targetSkills.slice(0, 2), // Limit to 2 skills for daily quest
+      difficulty: determineDifficulty(learningProfile, skillProgress),
+      estimatedMinutes: 15, // Daily quests are short
+      questType: 'daily_mission',
+      
+      phases: [
+        {
+          phaseId: `${questId}_learn`,
+          title: 'Learn',
+          description: 'Review key concepts',
+          orderIndex: 0,
+          activities: [
+            {
+              activityId: `${questId}_card1`,
+              type: 'concept_card',
+              title: `Study ${targetSkills[0]} concepts`,
+              resourceId: await findBestConceptCard(targetSkills[0]),
+              orderIndex: 0,
+              isRequired: true,
+              parameters: {
+                skillId: targetSkills[0],
+                minTimeSeconds: 60,
+              },
+            },
+          ],
+          completionCriteria: {
+            minimumActivitiesCompleted: 1,
+            minimumAccuracy: 0.0,
+            requireAllRequired: true,
+            customCriteria: {},
+          },
+          phaseData: {},
+        },
+        {
+          phaseId: `${questId}_practice`,
+          title: 'Practice',
+          description: 'Apply what you learned',
+          orderIndex: 1,
+          activities: [
+            {
+              activityId: `${questId}_questions`,
+              type: 'question_set',
+              title: `Practice ${targetSkills[0]} questions`,
+              resourceId: await findBestQuestionSet(targetSkills[0]),
+              orderIndex: 0,
+              isRequired: true,
+              parameters: {
+                skillId: targetSkills[0],
+                questionCount: 3,
+                difficultyLevel: determineDifficulty(learningProfile, skillProgress),
+              },
+            },
+          ],
+          completionCriteria: {
+            minimumActivitiesCompleted: 1,
+            minimumAccuracy: 0.6,
+            requireAllRequired: true,
+            customCriteria: {},
+          },
+          phaseData: {},
+        },
+      ],
+      
+      rewards: {
+        experiencePoints: 25,
+        skillBadges: [],
+        achievements: ['daily_learner'],
+        unlocks: {},
+      },
+      
+      prerequisites: [],
+      adaptationRules: {
+        adjustDifficultyOnStruggle: true,
+        provideBonusActivities: false,
+        adaptiveTimeEstimate: true,
+      },
+      
+      createdAt: admin.firestore.FieldValue.serverTimestamp(),
+      lastUpdatedAt: admin.firestore.FieldValue.serverTimestamp(),
+      isActive: true,
+      expiresAt: admin.firestore.Timestamp.fromDate(getTomorrowMidnight()),
+    };
+    
+    return quest;
+    
+  } catch (error) {
+    logger.error('Failed to generate user daily quest:', error);
+    return null;
+  }
+}
+
+function identifyTargetSkills(learningProfile: any, skillProgress: any, analyticsData: any): string[] {
+  const targetSkills = [];
+  
+  // Priority 1: Struggling concepts
+  const strugglingConcepts = learningProfile.strugglingConcepts || [];
+  targetSkills.push(...strugglingConcepts.slice(0, 2));
+  
+  // Priority 2: Skills that need review (not practiced recently)
+  const skillIds = Object.keys(skillProgress);
+  const needsReview = skillIds.filter(skillId => {
+    const skill = skillProgress[skillId];
+    const lastPracticed = skill.lastPracticed;
+    
+    if (!lastPracticed) return true;
+    
+    const daysSinceLastPractice = getDaysSince(lastPracticed.toDate());
+    return daysSinceLastPractice > 7; // Haven't practiced in a week
+  });
+  
+  targetSkills.push(...needsReview.slice(0, 2));
+  
+  // Priority 3: Preferred subject skills
+  const preferredSubject = learningProfile.preferredSubject;
+  if (preferredSubject && targetSkills.length < 3) {
+    // This would require a skill lookup by subject
+    targetSkills.push(`${preferredSubject}_foundation`);
+  }
+  
+  // Remove duplicates and return
+  return [...new Set(targetSkills)].slice(0, 3);
+}
+
+function generateQuestTitle(targetSkills: string[], learningProfile: any): string {
+  const titles = [
+    `Today's Challenge: ${formatSkillName(targetSkills[0])}`,
+    `Master ${formatSkillName(targetSkills[0])} Today`,
+    `Daily Practice: ${formatSkillName(targetSkills[0])}`,
+    `Strengthen Your ${formatSkillName(targetSkills[0])} Skills`,
+  ];
+  
+  return titles[Math.floor(Math.random() * titles.length)];
+}
+
+function generateQuestDescription(targetSkills: string[]): string {
+  return `A focused 15-minute learning session to strengthen your understanding of ${formatSkillName(targetSkills[0])}. Start with concept review, then practice with targeted questions.`;
+}
+
+function determineDifficulty(learningProfile: any, skillProgress: any): string {
+  const confidenceLevel = learningProfile.confidenceLevel || 'moderate';
+  const adaptivityLevel = learningProfile.adaptivityLevel || 'moderate';
+  
+  if (confidenceLevel === 'low' || adaptivityLevel === 'gentle') {
+    return 'foundation';
+  } else if (confidenceLevel === 'high' && adaptivityLevel === 'challenging') {
+    return 'advanced';
+  } else {
+    return 'intermediate';
+  }
+}
+
+async function findBestConceptCard(skillId: string): Promise<string> {
+  try {
+    // Find concept cards for this skill
+    const cardsQuery = await db.collection('newConceptCards')
+      .where('skillId', '==', skillId)
+      .where('isActive', '==', true)
+      .limit(1)
+      .get();
+    
+    if (!cardsQuery.empty) {
+      return cardsQuery.docs[0].id;
+    }
+    
+    // Fallback to any available card
+    const fallbackQuery = await db.collection('newConceptCards')
+      .where('isActive', '==', true)
+      .limit(1)
+      .get();
+    
+    return fallbackQuery.empty ? 'default_card' : fallbackQuery.docs[0].id;
+    
+  } catch (error) {
+    logger.error('Failed to find concept card:', error);
+    return 'default_card';
+  }
+}
+
+async function findBestQuestionSet(skillId: string): Promise<string> {
+  try {
+    // This would look up question sets by skill
+    // For now, return a placeholder
+    return `questions_${skillId}`;
+    
+  } catch (error) {
+    logger.error('Failed to find question set:', error);
+    return 'default_questions';
+  }
+}
+
+function formatSkillName(skillId: string): string {
+  return skillId
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, l => l.toUpperCase());
+}
+
+function getTodayIdentifier(): string {
+  return new Date().toISOString().split('T')[0];
+}
+
+function getTomorrowMidnight(): Date {
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  tomorrow.setHours(0, 0, 0, 0);
+  return tomorrow;
+}
+
+function getDaysSince(date: Date): number {
+  const now = new Date();
+  const diffTime = Math.abs(now.getTime() - date.getTime());
+  return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+}
+
+export const cleanupExpiredQuests = onSchedule({
+  schedule: "every day 02:00",
+  timeZone: "America/New_York"
+}, async (event) => {
+    try {
+      logger.info('🧹 Cleaning up expired quests');
+      
+      const now = admin.firestore.Timestamp.now();
+      
+      // Find expired quest assignments
+      const expiredAssignmentsQuery = await db.collection('newQuestAssignments')
+        .where('expiresAt', '<', now)
+        .where('status', '==', 'assigned')
+        .get();
+      
+      const batch = db.batch();
+      let cleanedCount = 0;
+      
+      for (const doc of expiredAssignmentsQuery.docs) {
+        // Mark as expired instead of deleting for analytics
+        batch.update(doc.ref, {
+          status: 'expired',
+          expiredAt: admin.firestore.FieldValue.serverTimestamp(),
+        });
+        
+        cleanedCount++;
+        
+        if (cleanedCount % 500 === 0) {
+          await batch.commit();
+        }
+      }
+      
+      if (cleanedCount % 500 !== 0) {
+        await batch.commit();
+      }
+      
+      logger.info(`✅ Marked ${cleanedCount} quest assignments as expired`);
+      
+    } catch (error) {
+      logger.error('❌ Failed to cleanup expired quests:', error);
+    }
+  });
+
+export const adaptQuestDifficulty = onDocumentUpdated(
+  "newQuestProgress/{progressId}",
+  async (event) => {
+    try {
+      const beforeData = event.data?.before?.data();
+      const afterData = event.data?.after?.data();
+      
+      if (!beforeData || !afterData) return;
+      
+      // Check if quest was just completed
+      if (beforeData?.status !== 'completed' && afterData?.status === 'completed') {
+        const userId = afterData.userId;
+        const questId = afterData.questId;
+        // const overallProgress = afterData.overallProgress || 0;
+        
+        // Analyze performance for adaptation
+        await analyzeQuestPerformance(userId, questId, afterData);
+      }
+      
+    } catch (error) {
+      logger.error('❌ Failed to adapt quest difficulty:', error);
+    }
+  });
+
+async function analyzeQuestPerformance(userId: string, questId: string, questProgress: any) {
+  try {
+    // Calculate performance metrics
+    const totalActivities = questProgress.phaseProgress?.reduce((total: number, phase: any) => {
+      return total + (phase.activityProgress?.length || 0);
+    }, 0) || 0;
+    
+    const completedActivities = questProgress.phaseProgress?.reduce((total: number, phase: any) => {
+      return total + (phase.activityProgress?.filter((a: any) => a.status === 'completed').length || 0);
+    }, 0) || 0;
+    
+    const averageScore = questProgress.phaseProgress?.reduce((totalScore: number, phase: any) => {
+      const phaseActivities = phase.activityProgress || [];
+      const phaseScore = phaseActivities.reduce((sum: number, activity: any) => sum + (activity.score || 0), 0);
+      return totalScore + phaseScore;
+    }, 0) / Math.max(completedActivities, 1) || 0;
+    
+    // Update user's learning profile based on performance
+    const profileUpdate: any = {};
+    
+    if (averageScore >= 0.9 && completedActivities === totalActivities) {
+      // Excellent performance - increase difficulty preference
+      profileUpdate['learningProfile.adaptivityLevel'] = 'challenging';
+      profileUpdate['learningProfile.confidenceLevel'] = 'high';
+    } else if (averageScore < 0.6 || completedActivities < totalActivities * 0.8) {
+      // Struggling - decrease difficulty
+      profileUpdate['learningProfile.adaptivityLevel'] = 'gentle';
+      if (averageScore < 0.4) {
+        profileUpdate['learningProfile.confidenceLevel'] = 'low';
+      }
+    }
+    
+    if (Object.keys(profileUpdate).length > 0) {
+      await db.collection('newUserProfiles').doc(userId).update(profileUpdate);
+      
+      logger.info(`📊 Adapted learning profile for user ${userId} based on quest ${questId} performance`);
+    }
+    
+  } catch (error) {
+    logger.error('Failed to analyze quest performance:', error);
+  }
+}
+
+// New Cloud Function for quest recommendations (HTTP version)
+export const questRecommendationsApi = onRequest({
+  cors: true,
+}, async (req, res) => {
+  // Set CORS headers manually
+  res.set('Access-Control-Allow-Origin', 'https://thebrainspark-project.web.app');
+  res.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.set('Access-Control-Allow-Credentials', 'true');
+
+  // Handle preflight request
+  if (req.method === 'OPTIONS') {
+    res.status(204).send('');
+    return;
+  }
+
+  try {
+    // Extract auth token from Authorization header
+    const authHeader = req.get('Authorization');
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+      res.status(401).json({ error: 'Authentication required' });
+      return;
+    }
+
+    const idToken = authHeader.split('Bearer ')[1];
+    let uid: string;
+    
+    try {
+      const decodedToken = await admin.auth().verifyIdToken(idToken);
+      uid = decodedToken.uid;
+    } catch (error) {
+      res.status(401).json({ error: 'Invalid authentication token' });
+      return;
+    }
+    
+    logger.info(`🎯 Getting quest recommendations for user: ${uid}`);
+    
+    // Get user profile
+    const userDoc = await db.collection('newUserProfiles').doc(uid).get();
+    if (!userDoc.exists) {
+      res.status(404).json({ error: 'User profile not found' });
+      return;
+    }
+    
+    const userProfile = userDoc.data();
+    const learningProfile = userProfile?.learningProfile || {};
+    
+    // Get user's progress data
+    const [skillProgressDoc] = await Promise.all([
+      db.collection('newSkillProgress').doc(uid).get(),
+    ]);
+    
+    const skillProgress = skillProgressDoc.exists ? skillProgressDoc.data()?.skills || {} : {};
+    
+    // Get available quests based on user's subjects and year level
+    const subjects = learningProfile.subjects || ['mathematics'];
+    const primarySubject = subjects[0];
+    
+    const availableQuestsQuery = await db.collection('learningQuests')
+      .where('subject', '==', primarySubject)
+      .where('isActive', '==', true)
+      .limit(20)
+      .get();
+    
+    if (availableQuestsQuery.empty) {
+      // Return fallback recommendation
+      const fallbackRecommendation = {
+        questId: 'fallback-quest',
+        title: 'Your Next Adventure Awaits!',
+        theme: 'Learning Explorer',
+        roleDescription: 'Explorer',
+        scenario: 'Embark on an exciting learning journey and master new skills!',
+        estimatedMinutes: 15,
+        progressData: {
+          totalConcepts: 1,
+          confidentConcepts: 0,
+          completionPercentage: 0.0,
+          progressDescription: '0/1 concepts confident',
+          encouragementText: 'Ready to start your adventure!'
+        },
+        achievementBadges: ['⭐', '🏆', '🎖️'],
+        nextMilestone: 'Begin Your Adventure'
+      };
+      res.json(fallbackRecommendation);
+      return;
+    }
+    
+    // Find the most suitable quest
+    let selectedQuest: any = null;
+    const quests = availableQuestsQuery.docs.map(doc => ({id: doc.id, ...doc.data()}));
+    
+    // Prioritize quests based on user profile
+    for (const quest of quests) {
+      const questData = quest as any;
+      
+      // For new users, prioritize foundation difficulty quests
+      if (userProfile?.isNewSystemUser && questData.difficulty === 'foundation') {
+        selectedQuest = quest;
+        break;
+      }
+      
+      // Calculate user's overall progress
+      const subjectProgressValue = await calculateUserSubjectProgress(uid, primarySubject, skillProgress);
+      
+      // Match difficulty to user progress
+      if (subjectProgressValue > 0.3 && questData.difficulty === 'developing') {
+        selectedQuest = quest;
+        break;
+      }
+      
+      if (subjectProgressValue > 0.6 && questData.difficulty === 'proficient') {
+        selectedQuest = quest;
+        break;
+      }
+    }
+    
+    // Fallback to first available quest
+    selectedQuest = selectedQuest || quests[0];
+    
+    // Calculate progress for this quest
+    const questProgress = await calculateQuestProgress(selectedQuest, userProfile, skillProgress);
+    
+    // Build recommendation response
+    const selectedQuestData = selectedQuest as any;
+    const recommendation = {
+      questId: selectedQuestData.questId || selectedQuest.id,
+      title: selectedQuestData.title || 'Learning Adventure',
+      theme: extractTheme(selectedQuest),
+      roleDescription: extractRoleDescription(selectedQuest),
+      scenario: extractScenario(selectedQuest),
+      estimatedMinutes: selectedQuestData.estimatedMinutes || 15,
+      progressData: questProgress,
+      achievementBadges: extractAchievementBadges(selectedQuest),
+      nextMilestone: extractNextMilestone(questProgress)
+    };
+    
+    logger.info(`✅ Generated quest recommendation: ${recommendation.questId} for user: ${uid}`);
+    res.json(recommendation);
+    
+  } catch (error) {
+    logger.error('❌ Error getting quest recommendations:', error);
+    res.status(500).json({ 
+      error: 'Failed to get quest recommendations',
+      details: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
+});
+
+async function calculateUserSubjectProgress(userId: string, subject: string, skillProgress: any): Promise<number> {
+  try {
+    // Get all skills for this subject from skill progress
+    const subjectSkills = Object.keys(skillProgress).filter(skillId => 
+      skillId.startsWith(`${subject}-`)
+    );
+    
+    if (subjectSkills.length === 0) return 0.0;
+    
+    let totalProgress = 0.0;
+    let skillCount = 0;
+    
+    for (const skillId of subjectSkills) {
+      const skill = skillProgress[skillId];
+      const assessmentAttempts = skill.assessmentAttempts || [];
+      const cardsCompleted = skill.cardsCompleted || [];
+      const confidenceRatings = skill.confidenceRatings || [];
+      
+      // Learning progress (cards completed with confidence)
+      let learningProgress = cardsCompleted.length * 0.2; // Base progress for completion
+      
+      if (confidenceRatings.length > 0) {
+        const avgConfidence = confidenceRatings.reduce((sum: number, r: any) => sum + r.rating, 0) / confidenceRatings.length;
+        learningProgress = Math.min(1.0, learningProgress * avgConfidence);
+      }
+      
+      // Assessment progress (best scores)
+      let assessmentProgress = 0.0;
+      if (assessmentAttempts.length > 0) {
+        const assessmentScores: {[key: string]: number} = {};
+        for (const attempt of assessmentAttempts) {
+          const type = attempt.type;
+          const score = attempt.score;
+          assessmentScores[type] = Math.max(assessmentScores[type] || 0.0, score);
+        }
+        
+        if (Object.keys(assessmentScores).length > 0) {
+          assessmentProgress = Object.values(assessmentScores).reduce((a, b) => a + b, 0) / Object.keys(assessmentScores).length;
+        }
+      }
+      
+      // Combined skill progress
+      const skillProgressValue = (learningProgress * 0.5) + (assessmentProgress * 0.5);
+      totalProgress += skillProgressValue;
+      skillCount++;
+    }
+    
+    return skillCount > 0 ? totalProgress / skillCount : 0.0;
+    
+  } catch (error) {
+    logger.error('Error calculating subject progress:', error);
+    return 0.0;
+  }
+}
+
+async function calculateQuestProgress(quest: any, userProfile: any, skillProgress: any): Promise<any> {
+  try {
+    // Count concept learning activities from quest phases
+    let totalConcepts = 0;
+    const phases = quest.phases || [];
+    
+    if (phases.length === 0) {
+      totalConcepts = quest.targetSkills?.length || 1;
+    } else {
+      for (const phase of phases) {
+        const activities = phase.activities || [];
+        totalConcepts += activities.filter((activity: any) => 
+          activity.type === 'concept_card' || 
+          activity.type === 'concept_learning' ||
+          activity.type === 'skill_check'
+        ).length;
+      }
+    }
+    
+    // Ensure minimum of 1 concept
+    if (totalConcepts === 0) totalConcepts = 1;
+    
+    // Calculate confident concepts based on skill progress
+    let confidentConcepts = 0;
+    const targetSkills = quest.targetSkills || [];
+    
+    if (targetSkills.length > 0) {
+      let skillsWithProgress = 0;
+      for (const skillId of targetSkills) {
+        const skill = skillProgress[skillId];
+        if (skill && skill.cardsCompleted && skill.cardsCompleted.length > 0) {
+          skillsWithProgress++;
+        }
+      }
+      
+      confidentConcepts = Math.round((skillsWithProgress / targetSkills.length) * totalConcepts);
+    } else if (userProfile.isNewSystemUser) {
+      confidentConcepts = 0;
+    } else {
+      confidentConcepts = Math.round(totalConcepts * 0.1);
+    }
+    
+    // Ensure confidentConcepts doesn't exceed totalConcepts
+    confidentConcepts = Math.min(confidentConcepts, totalConcepts);
+    
+    const completionPercentage = totalConcepts > 0 ? confidentConcepts / totalConcepts : 0.0;
+    
+    return {
+      totalConcepts,
+      confidentConcepts,
+      completionPercentage,
+      progressDescription: `${confidentConcepts}/${totalConcepts} concepts confident`,
+      encouragementText: getEncouragementText(completionPercentage),
+      lastAccessed: userProfile.lastActivityAt
+    };
+    
+  } catch (error) {
+    logger.error('Error calculating quest progress:', error);
+    return {
+      totalConcepts: 1,
+      confidentConcepts: 0,
+      completionPercentage: 0.0,
+      progressDescription: '0/1 concepts confident',
+      encouragementText: 'Ready to start your adventure!',
+      lastAccessed: null
+    };
+  }
+}
+
+function extractTheme(quest: any): string {
+  const text = `${quest.title || ''} ${quest.description || ''}`.toLowerCase();
+  
+  if (text.includes('detective')) return 'Detective Agency';
+  if (text.includes('agent')) return 'Secret Agent Mission';
+  if (text.includes('architect')) return 'Master Architect';
+  if (text.includes('explorer')) return 'Adventure Explorer';
+  if (text.includes('wizard')) return 'Math Wizard Academy';
+  if (text.includes('sports') || text.includes('data')) return 'Sports Data Analyst';
+  
+  return quest.title || 'Learning Adventure';
+}
+
+function extractRoleDescription(quest: any): string {
+  const text = `${quest.title || ''} ${quest.description || ''}`.toLowerCase();
+  
+  if (text.includes('detective')) return 'Junior Detective';
+  if (text.includes('agent')) return 'Secret Agent';
+  if (text.includes('architect')) return 'Apprentice Architect';
+  if (text.includes('explorer')) return 'Adventure Explorer';
+  if (text.includes('wizard')) return 'Math Wizard';
+  if (text.includes('data')) return 'Data Analyst';
+  
+  return 'Learning Explorer';
+}
+
+function extractScenario(quest: any): string {
+  if (quest.description && quest.description.length > 0) {
+    return quest.description;
+  }
+  
+  return 'Embark on an exciting learning journey and master new skills!';
+}
+
+function extractAchievementBadges(quest: any): string[] {
+  const badges: string[] = [];
+  const targetSkills = quest.targetSkills || [];
+  
+  if (targetSkills.some((skill: string) => skill.includes('probability'))) {
+    badges.push('🎲', '🔄', '⚖️');
+  } else if (targetSkills.some((skill: string) => skill.includes('geometry') || skill.includes('angle'))) {
+    badges.push('📐', '🔍', '🏗️');
+  } else if (targetSkills.some((skill: string) => skill.includes('algebra'))) {
+    badges.push('🧮', '📊', '🎯');
+  } else {
+    badges.push('⭐', '🏆', '🎖️');
+  }
+  
+  return badges;
+}
+
+function extractNextMilestone(questProgress: any): string {
+  const completionPercentage = questProgress.completionPercentage || 0.0;
+  
+  if (completionPercentage === 0.0) {
+    return 'Begin Your Adventure';
+  } else if (completionPercentage < 0.3) {
+    return 'Foundation Explorer';
+  } else if (completionPercentage < 0.7) {
+    return 'Skill Builder';
+  } else if (completionPercentage < 1.0) {
+    return 'Almost Master';
+  } else {
+    return 'Quest Master';
+  }
+}
+
+function getEncouragementText(completionPercentage: number): string {
+  if (completionPercentage === 0.0) {
+    return 'Ready to start your adventure!';
+  } else if (completionPercentage < 0.3) {
+    return 'Great start! Keep exploring!';
+  } else if (completionPercentage < 0.7) {
+    return 'You\'re making excellent progress!';
+  } else if (completionPercentage < 1.0) {
+    return 'Almost there! You\'re doing amazing!';
+  } else {
+    return 'Quest mastered! Ready for the next adventure?';
+  }
+}

@@ -1,0 +1,41 @@
+/**
+ * Jest test setup file
+ */
+
+// Load environment variables from .env file
+import dotenv from 'dotenv';
+dotenv.config();
+
+// Mock Firebase Admin if not in test environment with real credentials
+if (process.env.NODE_ENV === 'test' && !process.env.FIREBASE_PROJECT_ID) {
+  // Mock Firebase Admin for unit tests
+  jest.mock('firebase-admin', () => ({
+    apps: [],
+    initializeApp: jest.fn(),
+    credential: {
+      applicationDefault: jest.fn()
+    },
+    firestore: jest.fn(() => ({
+      collection: jest.fn(() => ({
+        doc: jest.fn(() => ({
+          get: jest.fn(),
+          set: jest.fn(),
+          update: jest.fn()
+        }))
+      }))
+    }))
+  }));
+}
+
+// Set test timeout for AI provider calls
+jest.setTimeout(180000); // 3 minutes
+
+// Console override for cleaner test output
+const originalConsole = global.console;
+global.console = {
+  ...originalConsole,
+  log: process.env.VERBOSE_TESTS ? originalConsole.log : jest.fn(),
+  info: process.env.VERBOSE_TESTS ? originalConsole.info : jest.fn(),
+  warn: originalConsole.warn,
+  error: originalConsole.error
+};

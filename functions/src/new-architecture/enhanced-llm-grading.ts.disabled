@@ -1,0 +1,595 @@
+// functions/src/new-architecture/enhanced-llm-grading.ts
+import * as functions from "firebase-functions";
+import * as admin from "firebase-admin";
+
+const db = admin.firestore();
+
+export const enhancedLLMGrading = functions.https.onCall(async (data, context) => {
+  if (!context.auth) {
+    throw new functions.https.HttpsError('unauthenticated', 'User must be authenticated');
+  }
+
+  const { 
+    questionId, 
+    userAnswer, 
+    questionContext,
+    gradingOptions = {},
+    learningContext = {}
+  } = data;
+  
+  const userId = context.auth.uid;
+
+  try {
+    console.log(`🎯 Enhanced LLM grading for question: ${questionId} by user: ${userId}`);
+
+    // Get question details
+    const questionDoc = await db.collection('questions').doc(questionId).get();
+    if (!questionDoc.exists) {
+      throw new functions.https.HttpsError('not-found', 'Question not found');
+    }
+    
+    const questionData = questionDoc.data()!;
+
+    // Get user's learning profile for personalized grading
+    const userProfile = await getUserLearningProfile(userId);
+    
+    // Get user's skill progress for context
+    const skillProgress = await getUserSkillProgress(userId, questionData.skillId);
+    
+    // Get recent performance for adaptation
+    const recentPerformance = await getRecentPerformance(userId, questionData.skillId);
+
+    // Enhance the grading request with comprehensive context
+    const enhancedGradingRequest = {
+      question: {
+        id: questionId,
+        text: questionData.question,
+        expectedAnswer: questionData.expectedAnswer,
+        subject: questionData.subject,
+        skillId: questionData.skillId,
+        difficulty: questionData.difficulty,
+        tags: questionData.tags,
+        rubric: questionData.rubric,
+      },
+      userAnswer: {
+        response: userAnswer,
+        submittedAt: admin.firestore.FieldValue.serverTimestamp(),
+        answerPath: learningContext.answerPath || [],
+        timeSpent: learningContext.timeSpent || 0,
+        attemptsCount: learningContext.attemptsCount || 1,
+      },
+      userContext: {
+        userId,
+        learningProfile: userProfile,
+        skillProgress: skillProgress,
+        recentPerformance: recentPerformance,
+        confidenceLevel: learningContext.confidenceLevel || 'moderate',
+        struggleIndicators: identifyStruggleIndicators(recentPerformance),
+      },
+      gradingOptions: {
+        includeDetailedFeedback: gradingOptions.includeDetailedFeedback ?? true,
+        includeHints: gradingOptions.includeHints ?? true,
+        includeLearningPath: gradingOptions.includeLearningPath ?? true,
+        adaptDifficulty: gradingOptions.adaptDifficulty ?? true,
+        generateRemediation: gradingOptions.generateRemediation ?? true,
+        ...gradingOptions,
+      },
+    };
+
+    // Perform enhanced LLM grading
+    const gradingResult = await performEnhancedGrading(enhancedGradingRequest);
+
+    // Log detailed analytics for learning insights
+    await logGradingAnalytics(userId, questionId, enhancedGradingRequest, gradingResult);
+
+    // Update user skill progress based on results
+    await updateSkillProgressFromGrading(userId, questionData.skillId, gradingResult);
+
+    // Generate follow-up recommendations
+    const followUpRecommendations = await generateFollowUpRecommendations(
+      userId, 
+      gradingResult, 
+      userProfile, 
+      skillProgress
+    );
+
+    // Prepare comprehensive response
+    const response = {
+      grading: {
+        score: gradingResult.score,
+        isCorrect: gradingResult.isCorrect,
+        confidence: gradingResult.confidence,
+        reasoning: gradingResult.reasoning,
+      },
+      feedback: {
+        detailed: gradingResult.detailedFeedback,
+        positive: gradingResult.positiveFeedback,
+        constructive: gradingResult.constructiveFeedback,
+        encouragement: gradingResult.encouragement,
+      },
+      learning: {
+        conceptsCovered: gradingResult.conceptsCovered,
+        misconceptions: gradingResult.misconceptions,
+        strengths: gradingResult.strengths,
+        areasForImprovement: gradingResult.areasForImprovement,
+      },
+      nextSteps: {
+        recommendations: followUpRecommendations,
+        suggestedResources: gradingResult.suggestedResources,
+        adaptivePath: gradingResult.adaptivePath,
+        confidenceBuilding: gradingResult.confidenceBuilding,
+      },
+      analytics: {
+        learningVelocity: gradingResult.learningVelocity,
+        masteryIndicators: gradingResult.masteryIndicators,
+        strugglingSignals: gradingResult.strugglingSignals,
+        engagementMetrics: gradingResult.engagementMetrics,
+      },
+      metadata: {
+        gradedAt: admin.firestore.FieldValue.serverTimestamp(),
+        gradingVersion: '2.0',
+        userId,
+        questionId,
+        processingTime: gradingResult.processingTime,
+      },
+    };
+
+    console.log(`✅ Enhanced LLM grading completed for user: ${userId}`);
+    return response;
+
+  } catch (error) {
+    console.error('❌ Enhanced LLM grading failed:', error);
+    throw new functions.https.HttpsError('internal', 'Grading failed');
+  }
+});
+
+export const generateLearningHints = functions.https.onCall(async (data, context) => {
+  if (!context.auth) {
+    throw new functions.https.HttpsError('unauthenticated', 'User must be authenticated');
+  }
+
+  const { 
+    questionId, 
+    userProgress,
+    hintLevel = 1,
+    learningContext = {}
+  } = data;
+  
+  const userId = context.auth.uid;
+
+  try {
+    console.log(`💡 Generating learning hints for question: ${questionId} by user: ${userId}`);
+
+    // Get question and user context
+    const [questionDoc, userProfile, skillProgress] = await Promise.all([
+      db.collection('questions').doc(questionId).get(),
+      getUserLearningProfile(userId),
+      getUserSkillProgress(userId, learningContext.skillId)
+    ]);
+
+    if (!questionDoc.exists) {
+      throw new functions.https.HttpsError('not-found', 'Question not found');
+    }
+
+    const questionData = questionDoc.data()!;
+
+    // Generate adaptive hints based on user's learning profile
+    const hints = await generateAdaptiveHints({
+      question: questionData,
+      userProgress,
+      userProfile,
+      skillProgress,
+      hintLevel,
+      learningContext,
+    });
+
+    // Log hint usage for analytics
+    await logHintUsage(userId, questionId, hintLevel, hints);
+
+    return {
+      hints,
+      hintLevel,
+      nextHintAvailable: hintLevel < 3,
+      learningSupport: hints.learningSupport,
+      conceptualGuidance: hints.conceptualGuidance,
+      encouragement: hints.encouragement,
+    };
+
+  } catch (error) {
+    console.error('❌ Failed to generate learning hints:', error);
+    throw new functions.https.HttpsError('internal', 'Failed to generate hints');
+  }
+});
+
+export const assessLearningProgress = functions.https.onCall(async (data, context) => {
+  if (!context.auth) {
+    throw new functions.https.HttpsError('unauthenticated', 'User must be authenticated');
+  }
+
+  const { 
+    skillId, 
+    assessmentType = 'comprehensive',
+    timeframe = '1_week'
+  } = data;
+  
+  const userId = context.auth.uid;
+
+  try {
+    console.log(`📊 Assessing learning progress for skill: ${skillId} by user: ${userId}`);
+
+    // Gather comprehensive learning data
+    const [
+      skillProgress,
+      recentAttempts,
+      conceptCardInteractions,
+      questProgress,
+      analyticsData
+    ] = await Promise.all([
+      getUserSkillProgress(userId, skillId),
+      getRecentAttempts(userId, skillId, timeframe),
+      getConceptCardInteractions(userId, skillId, timeframe),
+      getQuestProgress(userId, skillId, timeframe),
+      getLearningAnalytics(userId, skillId, timeframe)
+    ]);
+
+    // Perform comprehensive assessment
+    const assessment = await performLearningAssessment({
+      userId,
+      skillId,
+      skillProgress,
+      recentAttempts,
+      conceptCardInteractions,
+      questProgress,
+      analyticsData,
+      assessmentType,
+      timeframe,
+    });
+
+    // Generate actionable insights
+    const insights = await generateLearningInsights(assessment);
+
+    // Create adaptive recommendations
+    const recommendations = await generateAdaptiveRecommendations(assessment, insights);
+
+    return {
+      assessment,
+      insights,
+      recommendations,
+      metadata: {
+        assessedAt: admin.firestore.FieldValue.serverTimestamp(),
+        skillId,
+        userId,
+        assessmentType,
+        timeframe,
+      },
+    };
+
+  } catch (error) {
+    console.error('❌ Failed to assess learning progress:', error);
+    throw new functions.https.HttpsError('internal', 'Assessment failed');
+  }
+});
+
+// Helper functions
+
+async function getUserLearningProfile(userId: string): Promise<any> {
+  try {
+    const userDoc = await db.collection('newUserProfiles').doc(userId).get();
+    return userDoc.exists ? userDoc.data()?.learningProfile || {} : {};
+  } catch (error) {
+    console.error('Failed to get user learning profile:', error);
+    return {};
+  }
+}
+
+async function getUserSkillProgress(userId: string, skillId?: string): Promise<any> {
+  try {
+    const skillDoc = await db.collection('newSkillProgress').doc(userId).get();
+    const skillProgress = skillDoc.exists ? skillDoc.data()?.skills || {} : {};
+    
+    if (skillId) {
+      return skillProgress[skillId] || {};
+    }
+    
+    return skillProgress;
+  } catch (error) {
+    console.error('Failed to get user skill progress:', error);
+    return {};
+  }
+}
+
+async function getRecentPerformance(userId: string, skillId: string): Promise<any> {
+  try {
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - 7); // Last 7 days
+    
+    const attemptsQuery = await db.collection('newLearningEvents')
+      .where('userId', '==', userId)
+      .where('eventType', '==', 'question_attempt')
+      .where('eventData.skillId', '==', skillId)
+      .where('timestamp', '>=', admin.firestore.Timestamp.fromDate(cutoff))
+      .orderBy('timestamp', 'desc')
+      .limit(10)
+      .get();
+    
+    return attemptsQuery.docs.map(doc => doc.data());
+  } catch (error) {
+    console.error('Failed to get recent performance:', error);
+    return [];
+  }
+}
+
+function identifyStruggleIndicators(recentPerformance: any[]): string[] {
+  const indicators = [];
+  
+  if (recentPerformance.length > 0) {
+    const accuracy = recentPerformance.filter(p => p.eventData?.isCorrect).length / recentPerformance.length;
+    
+    if (accuracy < 0.6) {
+      indicators.push('low_accuracy');
+    }
+    
+    const averageTime = recentPerformance.reduce((sum, p) => sum + (p.eventData?.timeSpent || 0), 0) / recentPerformance.length;
+    
+    if (averageTime > 300) { // More than 5 minutes
+      indicators.push('extended_time');
+    }
+    
+    const recentAttempts = recentPerformance.filter(p => {
+      const attemptTime = p.timestamp?.toDate() || new Date();
+      const now = new Date();
+      return (now.getTime() - attemptTime.getTime()) < (24 * 60 * 60 * 1000); // Last 24 hours
+    });
+    
+    if (recentAttempts.length > 5) {
+      indicators.push('multiple_attempts');
+    }
+  }
+  
+  return indicators;
+}
+
+async function performEnhancedGrading(request: any): Promise<any> {
+  // This would integrate with the existing LLM grading service
+  // For now, returning a comprehensive mock response
+  
+  const score = Math.random() > 0.3 ? Math.random() * 0.3 + 0.7 : Math.random() * 0.6;
+  const isCorrect = score >= 0.7;
+  
+  return {
+    score,
+    isCorrect,
+    confidence: 0.85,
+    reasoning: 'Enhanced analysis of student response with learning context',
+    detailedFeedback: generateDetailedFeedback(request, score, isCorrect),
+    positiveFeedback: generatePositiveFeedback(request, score),
+    constructiveFeedback: generateConstructiveFeedback(request, score),
+    encouragement: generateEncouragement(request, score),
+    conceptsCovered: identifyConceptsCovered(request),
+    misconceptions: identifyMisconceptions(request, score),
+    strengths: identifyStrengths(request, score),
+    areasForImprovement: identifyImprovementAreas(request, score),
+    suggestedResources: generateSuggestedResources(request, score),
+    adaptivePath: generateAdaptivePath(request, score),
+    confidenceBuilding: generateConfidenceBuilding(request, score),
+    learningVelocity: calculateLearningVelocity(request),
+    masteryIndicators: identifyMasteryIndicators(request, score),
+    strugglingSignals: identifyStrugglingSignals(request, score),
+    engagementMetrics: calculateEngagementMetrics(request),
+    processingTime: Math.random() * 2000 + 1000, // 1-3 seconds
+  };
+}
+
+async function logGradingAnalytics(userId: string, questionId: string, request: any, result: any): Promise<void> {
+  try {
+    await db.collection('newLearningEvents').add({
+      userId,
+      eventType: 'enhanced_grading',
+      timestamp: admin.firestore.FieldValue.serverTimestamp(),
+      eventData: {
+        questionId,
+        score: result.score,
+        isCorrect: result.isCorrect,
+        confidence: result.confidence,
+        timeSpent: request.userAnswer.timeSpent,
+        attemptsCount: request.userAnswer.attemptsCount,
+        struggleIndicators: request.userContext.struggleIndicators,
+        learningVelocity: result.learningVelocity,
+        masteryIndicators: result.masteryIndicators,
+      },
+    });
+  } catch (error) {
+    console.error('Failed to log grading analytics:', error);
+  }
+}
+
+async function updateSkillProgressFromGrading(userId: string, skillId: string, gradingResult: any): Promise<void> {
+  try {
+    const updates: any = {};
+    
+    updates[`skills.${skillId}.practiceCount`] = admin.firestore.FieldValue.increment(1);
+    updates[`skills.${skillId}.lastPracticed`] = admin.firestore.FieldValue.serverTimestamp();
+    
+    if (gradingResult.isCorrect) {
+      updates[`skills.${skillId}.correctCount`] = admin.firestore.FieldValue.increment(1);
+    }
+    
+    // Update mastery level based on performance
+    const masteryDelta = calculateMasteryDelta(gradingResult);
+    if (masteryDelta !== 0) {
+      updates[`skills.${skillId}.masteryLevel`] = admin.firestore.FieldValue.increment(masteryDelta);
+    }
+    
+    await db.collection('newSkillProgress').doc(userId).update(updates);
+  } catch (error) {
+    console.error('Failed to update skill progress:', error);
+  }
+}
+
+function calculateMasteryDelta(gradingResult: any): number {
+  if (gradingResult.isCorrect && gradingResult.score > 0.9) {
+    return 0.1; // Excellent performance
+  } else if (gradingResult.isCorrect && gradingResult.score > 0.7) {
+    return 0.05; // Good performance
+  } else if (!gradingResult.isCorrect && gradingResult.score < 0.3) {
+    return -0.05; // Poor performance
+  }
+  return 0; // No change for average performance
+}
+
+async function generateFollowUpRecommendations(userId: string, gradingResult: any, userProfile: any, skillProgress: any): Promise<any[]> {
+  const recommendations = [];
+  
+  if (!gradingResult.isCorrect) {
+    recommendations.push({
+      type: 'concept_review',
+      title: 'Review Key Concepts',
+      description: 'Study the concept cards related to this topic',
+      priority: 'high',
+      estimatedTime: 10,
+    });
+    
+    recommendations.push({
+      type: 'practice_similar',
+      title: 'Practice Similar Questions',
+      description: 'Try more questions on the same topic',
+      priority: 'medium',
+      estimatedTime: 15,
+    });
+  } else if (gradingResult.score > 0.9) {
+    recommendations.push({
+      type: 'advance_difficulty',
+      title: 'Try Advanced Questions',
+      description: 'Challenge yourself with harder problems',
+      priority: 'medium',
+      estimatedTime: 20,
+    });
+  }
+  
+  return recommendations;
+}
+
+// Additional helper functions for comprehensive grading
+function generateDetailedFeedback(request: any, score: number, isCorrect: boolean): string {
+  return isCorrect 
+    ? 'Excellent work! Your approach demonstrates solid understanding of the concept.'
+    : 'Your answer shows some understanding, but there are areas for improvement.';
+}
+
+function generatePositiveFeedback(request: any, score: number): string {
+  return 'Great effort on this problem! Keep up the good work.';
+}
+
+function generateConstructiveFeedback(request: any, score: number): string {
+  return score < 0.7 
+    ? 'Consider reviewing the key concepts and trying a similar problem.'
+    : 'You\'re on the right track! Focus on the details for even better results.';
+}
+
+function generateEncouragement(request: any, score: number): string {
+  return 'Every attempt is a step toward mastery. Keep learning!';
+}
+
+function identifyConceptsCovered(request: any): string[] {
+  return request.question.tags || [];
+}
+
+function identifyMisconceptions(request: any, score: number): string[] {
+  return score < 0.5 ? ['concept_confusion', 'procedural_error'] : [];
+}
+
+function identifyStrengths(request: any, score: number): string[] {
+  return score > 0.7 ? ['problem_solving', 'concept_application'] : [];
+}
+
+function identifyImprovementAreas(request: any, score: number): string[] {
+  return score < 0.7 ? ['conceptual_understanding', 'attention_to_detail'] : [];
+}
+
+function generateSuggestedResources(request: any, score: number): any[] {
+  return [
+    { type: 'concept_card', title: 'Review Key Concepts', resourceId: 'card_basic' },
+    { type: 'practice_set', title: 'Practice Questions', resourceId: 'practice_basic' },
+  ];
+}
+
+function generateAdaptivePath(request: any, score: number): any {
+  return {
+    nextDifficulty: score > 0.8 ? 'increase' : score < 0.6 ? 'decrease' : 'maintain',
+    recommendedTopics: [],
+    learningSequence: [],
+  };
+}
+
+function generateConfidenceBuilding(request: any, score: number): any {
+  return {
+    strategies: ['positive_reinforcement', 'scaffolded_practice'],
+    activities: ['confidence_building_exercises'],
+  };
+}
+
+function calculateLearningVelocity(request: any): number {
+  return 0.75; // Placeholder
+}
+
+function identifyMasteryIndicators(request: any, score: number): string[] {
+  return score > 0.8 ? ['consistent_accuracy', 'efficient_problem_solving'] : [];
+}
+
+function identifyStrugglingSignals(request: any, score: number): string[] {
+  return score < 0.6 ? ['low_accuracy', 'conceptual_gaps'] : [];
+}
+
+function calculateEngagementMetrics(request: any): any {
+  return {
+    timeOnTask: request.userAnswer.timeSpent || 0,
+    attemptPersistence: request.userAnswer.attemptsCount || 1,
+    engagementLevel: 'moderate',
+  };
+}
+
+// Placeholder implementations for hint generation and assessment functions
+async function generateAdaptiveHints(params: any): Promise<any> {
+  return {
+    hints: [
+      'Think about the key concept involved in this problem.',
+      'Break the problem down into smaller steps.',
+      'Consider what you know about this topic.',
+    ],
+    learningSupport: 'Focus on understanding the underlying concept.',
+    conceptualGuidance: 'Review the relationship between the variables.',
+    encouragement: 'You can do this! Take your time and think it through.',
+  };
+}
+
+async function logHintUsage(userId: string, questionId: string, hintLevel: number, hints: any): Promise<void> {
+  // Implementation would log hint usage analytics
+}
+
+async function getRecentAttempts(userId: string, skillId: string, timeframe: string): Promise<any[]> {
+  return []; // Placeholder
+}
+
+async function getConceptCardInteractions(userId: string, skillId: string, timeframe: string): Promise<any[]> {
+  return []; // Placeholder
+}
+
+async function getQuestProgress(userId: string, skillId: string, timeframe: string): Promise<any[]> {
+  return []; // Placeholder
+}
+
+async function getLearningAnalytics(userId: string, skillId: string, timeframe: string): Promise<any> {
+  return {}; // Placeholder
+}
+
+async function performLearningAssessment(params: any): Promise<any> {
+  return {}; // Placeholder
+}
+
+async function generateLearningInsights(assessment: any): Promise<any> {
+  return {}; // Placeholder
+}
+
+async function generateAdaptiveRecommendations(assessment: any, insights: any): Promise<any[]> {
+  return []; // Placeholder
+}

@@ -294,10 +294,11 @@ export function useAllSetsProgress() {
     if (!user || authLoading) return;
 
     let unsubscribe: (() => void) | undefined;
+    const userId = user.uid; // Capture uid to avoid null check issues in async closure
 
     async function setupListener() {
       const { collection, onSnapshot: onSnapshotFn } = await import('firebase/firestore');
-      const progressRef = collection(db, 'users', user.uid, 'progress');
+      const progressRef = collection(db, 'users', userId, 'progress');
 
       unsubscribe = onSnapshotFn(progressRef, (snapshot) => {
         const progress: AllSetsProgress = {};

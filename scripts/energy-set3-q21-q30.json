@@ -1,0 +1,357 @@
+{
+  "metadata": {
+    "setNumber": 3,
+    "title": "Energy Transfer",
+    "questionRange": "Q21-Q30"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-y8-energy-021",
+      "questionType": "multiple-choice",
+      "stem": "A student pushes a box across the floor. Energy is transferred from the student to the box. What form of energy does the student use?",
+      "options": [
+        "Chemical energy from food",
+        "Light energy from the sun",
+        "Sound energy from talking",
+        "Nuclear energy from atoms"
+      ],
+      "correctAnswer": 0,
+      "solution": "The student uses chemical energy stored in their body from food they have eaten. When muscles contract to push the box, chemical energy is converted to kinetic energy (movement). This is why we need to eat food - it provides the chemical energy our bodies use for all activities. The food we eat contains energy that was originally captured from sunlight by plants during photosynthesis. When we digest food, our bodies break down molecules to release this stored chemical energy, which powers muscle contractions and all other body functions.",
+      "difficulty": 1,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what the student needs to eat before they have energy to do physical work.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Your muscles get energy from food you've eaten. What type of energy is stored in food?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 21
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-022",
+      "questionType": "short-answer",
+      "stem": "A kettle uses 2000 watts of power and is switched on for 3 minutes. How much energy does it use? (Show your working. Use Energy = Power × Time)",
+      "solution": "First convert 3 minutes to seconds: 3 × 60 = 180 seconds.\n\nEnergy = Power × Time\nEnergy = 2000 W × 180 s\nEnergy = 360,000 joules (or 360 kJ)\n\nThe kettle uses 360,000 joules of electrical energy. Power is measured in watts (W), which means joules per second. So 2000 watts means 2000 joules every second. Over 180 seconds, the total energy used is 2000 × 180 = 360,000 joules. This electrical energy is transferred to heat energy that boils the water.",
+      "difficulty": 2,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "First convert the time from minutes to seconds. Remember: 1 minute = 60 seconds.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Use the formula Energy = Power × Time. Power is 2000 W, time is 180 seconds.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 22
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-023",
+      "questionType": "explanation",
+      "stem": "Describe the energy transfers that occur when you charge your mobile phone overnight.",
+      "solution": "When charging a mobile phone, electrical energy from the power point flows through the charging cable to the phone's battery. The charger converts electrical energy from the mains (240V AC) into a lower voltage suitable for the phone. Inside the battery, electrical energy is converted and stored as chemical energy. Some energy is also wasted as heat energy - you may notice the phone or charger gets warm. When you use the phone later, the stored chemical energy in the battery is converted back to electrical energy to power the screen, processor, and other components. This demonstrates that energy can be transferred and transformed between different forms, but the total amount of energy remains constant.",
+      "difficulty": 2,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what type of energy comes from the power point, and what type of energy is stored in a battery.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Electrical energy → Chemical energy (stored in battery). Also consider heat energy that is wasted.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 23
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-024",
+      "questionType": "multiple-choice",
+      "stem": "A light bulb receives 100 joules of electrical energy but only produces 20 joules of light energy. What is its efficiency?",
+      "options": [
+        "20%",
+        "50%",
+        "80%",
+        "100%"
+      ],
+      "correctAnswer": 0,
+      "solution": "Efficiency = (Useful energy output ÷ Total energy input) × 100%\nEfficiency = (20 J ÷ 100 J) × 100%\nEfficiency = 0.2 × 100%\nEfficiency = 20%\n\nThe light bulb is 20% efficient, meaning only 20% of the electrical energy is converted to useful light energy. The remaining 80 joules (80%) is wasted as heat energy. This is why traditional incandescent light bulbs get very hot when they're on. Modern LED bulbs are much more efficient - they convert a higher percentage of electrical energy to light, wasting less as heat. This is better for the environment and saves electricity costs.",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Efficiency = (Useful energy output ÷ Total energy input) × 100%. Which energy is useful for a light bulb?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Calculate: (20 ÷ 100) × 100%. The useful energy is the light energy produced.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 24
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-025",
+      "questionType": "short-answer",
+      "stem": "A crane lifts a 500 kg steel beam to the top of a building. Explain what happens to energy during this process.",
+      "solution": "The crane uses electrical energy to power its motor. The motor converts electrical energy to kinetic energy (movement) as it lifts the beam. As the beam rises higher, it gains gravitational potential energy - energy stored due to its height above the ground. The work done by the crane transfers energy to the beam. Some energy is also wasted as heat due to friction in the crane's machinery and sound energy from the motor. When the beam is at the top, it has maximum gravitational potential energy. If the beam were to fall, this potential energy would convert back to kinetic energy. This demonstrates the law of conservation of energy - energy changes form but is not created or destroyed.",
+      "difficulty": 2,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Consider what powers the crane, and what type of energy the beam gains as it rises higher.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Electrical energy → Kinetic energy → Gravitational potential energy (stored in the raised beam).",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 25
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-026",
+      "questionType": "multiple-choice",
+      "stem": "Power is defined as the rate of energy transfer. What are the units of power?",
+      "options": [
+        "Joules",
+        "Watts",
+        "Newtons",
+        "Metres per second"
+      ],
+      "correctAnswer": 1,
+      "solution": "Power is measured in watts (W). One watt equals one joule of energy transferred per second. So watts = joules ÷ seconds. For example, a 60 W light bulb uses 60 joules of energy every second. A 2000 W kettle uses 2000 joules every second. The higher the wattage, the faster energy is being used or transferred. This is why powerful appliances like kettles, heaters and ovens have high wattage ratings - they transfer large amounts of energy quickly. Understanding power ratings helps us compare how much energy different devices use and estimate electricity costs.",
+      "difficulty": 1,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Look at any electrical appliance at home - what units are shown on the power rating label?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Joules measure energy. Power measures how fast energy is transferred, and is measured in watts.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 26
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-027",
+      "questionType": "explanation",
+      "stem": "An electric motor in a fan converts electrical energy to kinetic energy (movement). Explain why the motor becomes warm when it runs for a long time.",
+      "solution": "The motor becomes warm because not all the electrical energy is converted to useful kinetic energy (movement of the fan blades). Some energy is always wasted as heat due to friction between moving parts inside the motor and electrical resistance in the motor's wires. This wasted heat energy makes the motor warm or hot. The motor is not 100% efficient. For example, if a motor is 75% efficient, then 75% of electrical energy becomes kinetic energy while 25% becomes unwanted heat. This is why many motors have cooling fins or fans - to help dissipate the excess heat. All energy transformations produce some waste heat, which is why no device can ever be 100% efficient.",
+      "difficulty": 2,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what happens to the energy that doesn't become movement. Where does it go?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Friction between moving parts and electrical resistance convert some electrical energy to heat instead of movement.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 27
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-028",
+      "questionType": "short-answer",
+      "stem": "A solar panel receives 1000 joules of light energy from the sun and converts 200 joules to electrical energy. Calculate the efficiency of the solar panel.",
+      "solution": "Efficiency = (Useful energy output ÷ Total energy input) × 100%\n\nEfficiency = (200 J ÷ 1000 J) × 100%\nEfficiency = 0.2 × 100%\nEfficiency = 20%\n\nThe solar panel is 20% efficient. This means only 20% of the sun's light energy is converted to useful electrical energy. The remaining 80% (800 joules) is wasted, mostly as heat - which is why solar panels get warm in the sun. Modern solar panels typically have efficiencies between 15-22%, so this is a realistic value. Scientists are working to develop more efficient solar panels to capture more of the sun's energy.",
+      "difficulty": 2,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Use the efficiency formula: (Useful energy output ÷ Total energy input) × 100%",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Useful output is 200 J, total input is 1000 J. Calculate (200 ÷ 1000) × 100%",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 28
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-029",
+      "questionType": "multiple-choice",
+      "stem": "A toaster uses 1200 watts of power. How much energy does it use in 2 minutes?",
+      "options": [
+        "2400 joules",
+        "144,000 joules",
+        "1200 joules",
+        "72,000 joules"
+      ],
+      "correctAnswer": 1,
+      "solution": "First convert 2 minutes to seconds: 2 × 60 = 120 seconds.\n\nEnergy = Power × Time\nEnergy = 1200 W × 120 s\nEnergy = 144,000 joules (or 144 kJ)\n\nThe toaster uses 144,000 joules of electrical energy in 2 minutes. Since power is measured in watts (joules per second), we multiply the power by the time in seconds to get total energy. The toaster converts this electrical energy to heat energy that toasts the bread. This is quite a lot of energy, which is why toasters draw significant electrical current and can trip circuit breakers if too many high-power appliances run simultaneously.",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Remember to convert minutes to seconds first. Then use Energy = Power × Time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "2 minutes = 120 seconds. Energy = 1200 W × 120 s = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 29
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-030",
+      "questionType": "explanation",
+      "stem": "A car's engine converts chemical energy from petrol into kinetic energy (movement). Describe the complete energy chain and explain why cars need radiators.",
+      "solution": "The energy chain in a car engine:\n1. Chemical energy stored in petrol molecules\n2. Combustion (burning) converts chemical energy to heat and kinetic energy\n3. Heat energy makes gases expand, pushing pistons\n4. Kinetic energy of pistons turns the crankshaft\n5. Kinetic energy transferred to wheels, moving the car\n\nCars need radiators because only about 25-30% of the petrol's chemical energy becomes useful kinetic energy. The remaining 70-75% is wasted as heat. Without a radiator to remove this excess heat, the engine would overheat and be damaged. The radiator uses coolant liquid to absorb heat from the engine and release it to the air. This demonstrates that real energy transformations are inefficient - much energy is always wasted as unwanted heat.",
+      "difficulty": 2,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Start with the chemical energy in petrol. What happens when petrol burns? What energy is wasted?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Chemical → Heat → Kinetic. Not all energy becomes movement - lots of waste heat is produced that must be removed.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 30
+      },
+      "status": "active"
+    }
+  ]
+}

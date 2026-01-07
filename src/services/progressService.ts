@@ -127,7 +127,7 @@ export async function getSubjectProgress(userId: string, subject: string): Promi
     const subjectAttempts = allAttempts; // Simplified for now
 
     const totalAttempts = subjectAttempts.length;
-    const correctAttempts = subjectAttempts.filter((a: { isCorrect?: boolean }) => a.isCorrect).length;
+    const correctAttempts = subjectAttempts.filter((a) => (a as { isCorrect?: boolean }).isCorrect).length;
 
     return {
       subject,

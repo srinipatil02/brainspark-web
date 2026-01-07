@@ -1,0 +1,573 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // --- Helpers ---
+    function isSignedIn() { return request.auth != null; }
+    function hasRole(role) { return isSignedIn() && request.auth.token.role == role; }
+    function isAdmin() { return hasRole('admin'); }
+
+
+    // Parent linkage: parent doc id == auth.uid and stores childIds[]
+    function parentLinkedToStudent(sid) {
+      return isSignedIn() && hasRole('parent') &&
+        (sid in get(/databases/$(database)/documents/parents/$(request.auth.uid)).data.childIds);
+    }
+
+    // --- Users ---
+    match /users/{uid} {
+      allow read, write: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      
+      // Practice later queue for users
+      match /practiceLater/{itemId} {
+        allow read, write: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      }
+    }
+
+    // --- Parents (doc id recommended == auth.uid) ---
+    match /parents/{pid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == get(/databases/$(database)/documents/parents/$(pid)).data.userId);
+      allow create: if isSignedIn();
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == get(/databases/$(database)/documents/parents/$(pid)).data.userId);
+      allow delete: if isAdmin();
+    }
+
+    // --- Students ---
+    match /students/{sid} {
+      // student can read/write own doc (use doc ID for ownership); linked parents can read; admins all
+      allow read:   if isAdmin() || (isSignedIn() && request.auth.uid == sid) || parentLinkedToStudent(sid);
+      allow create: if isAdmin() || isSignedIn();
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == sid);
+      allow delete: if isAdmin();
+
+      // Attempts: append-only; validated payload
+      match /attempts/{aid} {
+        allow read: if isAdmin() || (isSignedIn() && request.auth.uid == sid) || parentLinkedToStudent(sid);
+        allow create: if (isSignedIn() && request.auth.uid == sid) && isValidAttempt();
+        allow update, delete: if false;
+
+        function isValidAttempt() {
+          return request.resource.data.keys().hasAll(['questionId','answer','correct','timeMs','usedHints','createdAt']) &&
+                 request.resource.data.questionId is string &&
+                 request.resource.data.correct is bool &&
+                 request.resource.data.timeMs is int &&
+                 request.resource.data.timeMs >= 0 && request.resource.data.timeMs <= 120000 &&
+                 request.resource.data.usedHints is int && request.resource.data.usedHints >= 0 && request.resource.data.usedHints <= 5 &&
+                 request.resource.data.createdAt is timestamp;
+        }
+      }
+
+      // Daily scores: server-only writes
+      match /daily_scores/{dateId} {
+        allow read: if isAdmin() || (isSignedIn() && request.auth.uid == sid) || parentLinkedToStudent(sid);
+        allow create, update, delete: if isAdmin();
+      }
+
+      // SRS queue: student-managed
+      match /srs/{iid} {
+        allow read, write: if isAdmin() || (isSignedIn() && request.auth.uid == sid);
+      }
+
+      // Rewards ledger: server-only writes (append-only)
+      match /rewards/{rid} {
+        allow read: if isAdmin() || (isSignedIn() && request.auth.uid == sid) || parentLinkedToStudent(sid);
+        allow create: if isAdmin();
+        allow update, delete: if false;
+      }
+    }
+
+    // --- Content ---
+    match /subjects/{subjectId} { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /topics/{topicId}     { allow read: if isSignedIn(); allow write: if isAdmin(); }
+
+    // Questions & versions (including AI-generated questions)
+    match /questions/{qid} {
+      allow read: if isSignedIn();
+      allow create: if isAdmin() || (isSignedIn() && request.resource.data.status in ['draft', 'pending_review']);
+      allow update: if isAdmin() || (isSignedIn() && resource.data.createdBy == request.auth.uid && resource.data.status in ['draft', 'pending_review']);
+      allow delete: if isAdmin();
+      match /versions/{vid} {
+        allow read, write: if isAdmin();
+      }
+    }
+    
+    // Question search index (for optimized search/filtering)
+    match /question_search_index/{qid} {
+      allow read: if isSignedIn();
+      allow create, update, delete: if isAdmin();
+    }
+
+    // Stimuli (reading passages, etc.)
+    match /stimuli/{stid} {
+      allow read: if isSignedIn();
+      allow create, update, delete: if isAdmin();
+    }
+
+    // Sets (question groupings)
+    match /sets/{setid} {
+      allow read: if isSignedIn();
+      allow create: if isAdmin() || (isSignedIn() && request.resource.data.status == 'temporary' && request.resource.data.createdBy == request.auth.uid);
+      allow update, delete: if isAdmin();
+    }
+
+    // Attempts (student performance tracking)
+    match /attempts/{aid} {
+      allow read: if isSignedIn() && request.auth.uid == resource.data.userId;
+      allow create: if isSignedIn() && request.auth.uid == request.resource.data.userId;
+      allow update: if isSignedIn() && request.auth.uid == resource.data.userId;
+      allow delete: if isAdmin();
+      
+      // Answers within attempts
+      match /answers/{questionId} {
+        allow read: if isSignedIn() && request.auth.uid == get(/databases/$(database)/documents/attempts/$(aid)).data.userId;
+        allow create: if isSignedIn() && request.auth.uid == get(/databases/$(database)/documents/attempts/$(aid)).data.userId;
+        allow update: if isSignedIn() && request.auth.uid == get(/databases/$(database)/documents/attempts/$(aid)).data.userId;
+        allow delete: if isAdmin();
+      }
+    }
+
+    // Bite-size modules
+    match /modules/{mid} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // Leaderboards (admin-managed docs)
+    match /leaderboards/{scopeId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // Analytics rollups
+    match /analytics_rollups/{rid} {
+      allow read, write: if isAdmin();
+    }
+
+    // Analytics events (for debugging and development)
+    match /analytics/{eventId} {
+      allow create: if isSignedIn(); // Allow users to create analytics events
+      allow read, update, delete: if isAdmin();
+    }
+
+    // Link codes (server-managed) — read allowed to none; Functions write with Admin SDK
+    match /link_codes/{code} {
+      allow read, write: if false;
+    }
+
+    // Rate limits (server-managed)
+    match /rate_limits/{doc} {
+      allow read, write: if false;
+    }
+
+    // User progress tracking
+    match /user_progress/{uid} {
+      allow read, write: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+    }
+
+    // User daily progress aggregates (user-write allowed for progress tracking)
+    match /userDaily/{uid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+      allow write: if isAdmin() || (isSignedIn() && request.auth.uid == uid); // Allow users to write their own progress
+      match /days/{dayId} {
+        allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+        allow write: if isAdmin() || (isSignedIn() && request.auth.uid == uid); // Allow users to write their own daily progress
+      }
+    }
+
+    // Topic mastery tracking (server-write only)
+    match /userTopic/{uid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+      allow write: if false; // Only Cloud Functions can write
+      match /topics/{topicId} {
+        allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+        allow write: if false; // Only Cloud Functions can write
+      }
+    }
+
+    // User set progress tracking (for resumable attempts and completion status)
+    match /userSetProgress/{uid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+      allow write: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      match /sets/{setId} {
+        allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+        allow write: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      }
+    }
+
+    // === NEW ARCHITECTURE COLLECTIONS ===
+    
+    // New user profiles (enhanced user data)
+    match /newUserProfiles/{uid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+      allow write: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+    }
+    
+    // New skill progress tracking 
+    match /newSkillProgress/{uid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+      allow write: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      
+      // Sub-collection: individual skill progress
+      match /skills/{skillId} {
+        allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+        allow create, update: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+        allow delete: if isAdmin();
+      }
+    }
+    
+    // New learning analytics
+    match /newLearningAnalytics/{uid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+      allow create, update: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      allow delete: if isAdmin();
+      
+      // Sub-collection: detailed events for analytics
+      match /detailedEvents/{eventId} {
+        allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+        allow create: if isSignedIn() && request.auth.uid == uid;
+        allow update, delete: if isAdmin();
+      }
+      
+      // Sub-collection: session analytics
+      match /sessions/{sessionId} {
+        allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid) || parentLinkedToStudent(uid);
+        allow create, update: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+        allow delete: if isAdmin();
+      }
+    }
+    
+    // Learning events (for analytics processing)
+    match /newLearningEvents/{eventId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isSignedIn() && request.auth.uid == request.resource.data.userId;
+      allow update, delete: if isAdmin();
+    }
+    
+    // Quest progress tracking
+    match /newQuestProgress/{progressId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow delete: if isAdmin();
+    }
+    
+    // Quest assignments (daily quests, etc.)
+    match /newQuestAssignments/{assignmentId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow write: if isAdmin();
+    }
+    
+    // Personalized content recommendations
+    match /newPersonalizedContent/{uid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      allow write: if isAdmin();
+    }
+    
+    // Weekly reports
+    match /newWeeklyReports/{reportId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow write: if isAdmin();
+    }
+    
+    // === UNIVERSAL CONTENT COLLECTIONS ===
+    
+    // Universal skills (read-only for users)
+    match /universalSkills/{skillId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // Universal skills with kebab-case collection name (read-only for users)
+    match /universal-skills/{skillId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // Universal concept cards (read-only for users)
+    match /universalCards/{cardId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // New concept cards (read-only for users)
+    match /newConceptCards/{cardId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // Concept card interactions (user can read/write their own data)
+    match /newCardInteractions/{interactionId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow delete: if isAdmin();
+    }
+    
+    // Learning quests (read-only for users)
+    match /learningQuests/{questId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // Curriculum mappings (read-only for users)
+    match /curriculumMappings/{mappingId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // Curriculum mappings with kebab-case collection name (read-only for users)
+    match /curriculum-mappings/{mappingId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // Skill trees (read-only for users)
+    match /skillTrees/{treeId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // Skill trees with kebab-case collection name (read-only for users)
+    match /skill-trees/{treeId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // Question sets (read-only for users)
+    match /question-sets/{setId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // === AI SERVICES COLLECTIONS ===
+    
+    // AI cache (user-specific caching for AI-generated content)
+    match /ai_cache/{cacheId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow delete: if isAdmin();
+    }
+    
+    // Batch jobs (user can manage their own batch generation jobs)
+    match /batch_jobs/{jobId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow delete: if isAdmin();
+    }
+    
+    // AI error logs (user-specific error tracking)
+    match /ai_errors/{errorId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    // AI generation logs (for monitoring and analytics)
+    match /ai_generation_logs/{logId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    // User AI preferences (personalized AI generation settings)
+    match /user_ai_preferences/{uid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      allow create, update: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      allow delete: if isAdmin();
+    }
+    
+    // AI validation results (for quality assurance)
+    match /ai_validation_results/{resultId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    
+    // User question generation history
+    match /user_question_history/{uid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      allow create, update: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      allow delete: if isAdmin();
+      
+      // Sub-collection: individual generated questions
+      match /generated/{questionId} {
+        allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+        allow create: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+        allow update: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+        allow delete: if isAdmin();
+      }
+    }
+    
+    // Security validation logs (admin-only for security monitoring)
+    match /security_logs/{logId} {
+      allow read, write: if isAdmin();
+    }
+    
+    // AI usage statistics (for cost tracking and optimization)
+    match /ai_usage_stats/{statId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    // === ASSESSMENT SYSTEM COLLECTIONS ===
+    
+    // Assessment sessions (students can create and manage their own sessions)
+    match /assessmentSessions/{sessionId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.studentId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.studentId);
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.studentId);
+      allow delete: if isAdmin();
+    }
+    
+    // Assessment attempts (students can create and manage their own attempts)
+    match /assessmentAttempts/{attemptId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.studentId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.studentId);
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.studentId);
+      allow delete: if isAdmin();
+    }
+    
+    // Assessment results (students can read their own results, admin can manage all)
+    match /assessmentResults/{resultId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.studentId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.studentId);
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    // Assessment analytics (students can create their own analytics events)
+    match /assessmentAnalytics/{analyticsId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.studentId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.studentId);
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    // Assessment events (detailed event tracking for analytics)
+    match /assessment_events/{eventId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow delete: if isAdmin();
+    }
+    
+    // Question attempts (detailed tracking for assessment analytics)
+    match /question_attempts/{attemptId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow delete: if isAdmin();
+    }
+    
+    // Hint usage tracking
+    match /hint_usage/{hintId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    // Assessment results storage
+    match /assessment_results/{resultId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    // User assessment statistics summary
+    match /user_assessment_stats/{userId} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == userId);
+      allow update: if isAdmin() || (isSignedIn() && request.auth.uid == userId);
+      allow delete: if isAdmin();
+    }
+    
+    // === TEACHER MODULE COLLECTIONS ===
+    
+    // Student-Teacher Assignments
+    match /studentTeacherAssignments/{assignmentId} {
+      allow read: if isAdmin() || 
+                     (isSignedIn() && request.auth.uid == resource.data.studentId) ||
+                     (isSignedIn() && request.auth.uid == resource.data.teacherId);
+      allow create: if isAdmin() || 
+                      (isSignedIn() && request.auth.token.role == 'teacher' && 
+                       request.auth.uid == request.resource.data.teacherId);
+      allow update: if isAdmin() || 
+                      (isSignedIn() && request.auth.token.role == 'teacher' && 
+                       request.auth.uid == resource.data.teacherId);
+      allow delete: if isAdmin();
+    }
+    
+    // Teacher Assessments
+    match /teacherAssessments/{assessmentId} {
+      allow read: if isAdmin() || 
+                     (isSignedIn() && request.auth.uid == resource.data.teacherId);
+      allow create: if isAdmin() || 
+                      (isSignedIn() && request.auth.token.role == 'teacher' && 
+                       request.auth.uid == request.resource.data.teacherId);
+      allow update: if isAdmin() || 
+                      (isSignedIn() && request.auth.token.role == 'teacher' && 
+                       request.auth.uid == resource.data.teacherId);
+      allow delete: if isAdmin();
+    }
+    
+    // Assessment Assignments (teacher-created assignments to students)
+    match /assessmentAssignments/{assignmentId} {
+      allow read: if isAdmin() || 
+                     (isSignedIn() && request.auth.uid == resource.data.studentId) ||
+                     (isSignedIn() && request.auth.uid == resource.data.teacherId);
+      allow create: if isAdmin() || 
+                      (isSignedIn() && request.auth.token.role == 'teacher' && 
+                       request.auth.uid == request.resource.data.teacherId);
+      allow update: if isAdmin() || 
+                      (isSignedIn() && request.auth.uid == resource.data.studentId) ||
+                      (isSignedIn() && request.auth.uid == resource.data.teacherId);
+      allow delete: if isAdmin();
+    }
+    
+    // Teacher Assessment Attempts
+    match /teacherAssessmentAttempts/{attemptId} {
+      allow read: if isAdmin() || 
+                     (isSignedIn() && request.auth.uid == resource.data.studentId) ||
+                     (isSignedIn() && request.auth.uid == resource.data.teacherId);
+      allow create: if isAdmin() || 
+                      (isSignedIn() && request.auth.uid == request.resource.data.studentId);
+      allow update: if isAdmin() || 
+                      (isSignedIn() && request.auth.uid == resource.data.studentId);
+      allow delete: if isAdmin();
+    }
+    
+    // Teacher Question Attempts
+    match /teacherQuestionAttempts/{attemptId} {
+      allow read: if isAdmin() || 
+                     (isSignedIn() && request.auth.uid == resource.data.studentId) ||
+                     (isSignedIn() && request.auth.uid == resource.data.teacherId);
+      allow create: if isAdmin() || 
+                      (isSignedIn() && request.auth.uid == request.resource.data.studentId);
+      allow update: if isAdmin() || 
+                      (isSignedIn() && request.auth.uid == resource.data.studentId);
+      allow delete: if isAdmin();
+    }
+    
+    // Help Flags
+    match /helpFlags/{flagId} {
+      allow read: if isAdmin() || 
+                     (isSignedIn() && request.auth.uid == resource.data.studentId) ||
+                     (isSignedIn() && request.auth.uid == resource.data.teacherId);
+      allow create: if isAdmin() || 
+                      (isSignedIn() && request.auth.uid == request.resource.data.studentId);
+      allow update: if isAdmin() || 
+                      (isSignedIn() && request.auth.uid == resource.data.teacherId);
+      allow delete: if isAdmin();
+    }
+  }
+}

@@ -9,6 +9,7 @@ interface Topic {
   description: string;
   questionCount: number;
   progress: number;
+  isRich?: boolean; // Rich content with AI chat
 }
 
 interface Subject {
@@ -38,10 +39,12 @@ const subjects: Subject[] = [
     icon: 'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z',
     color: 'green',
     topics: [
-      { id: 'physics', title: 'Physics', description: 'Forces, energy, and motion', questionCount: 22, progress: 0 },
-      { id: 'chemistry', title: 'Chemistry', description: 'Elements, compounds, and reactions', questionCount: 20, progress: 0 },
-      { id: 'biology', title: 'Biology', description: 'Living organisms and ecosystems', questionCount: 18, progress: 0 },
-      { id: 'earth-science', title: 'Earth Science', description: 'Geology, weather, and space', questionCount: 15, progress: 0 },
+      { id: 'year8-cells', title: 'Cells', description: 'Cell structure, function, and energy', questionCount: 70, progress: 0, isRich: true },
+      { id: 'year8-states-of-matter', title: 'States of Matter', description: 'Particle model, solids, liquids, gases, and state changes', questionCount: 50, progress: 0, isRich: true },
+      { id: 'year8-elements-compounds', title: 'Elements & Compounds', description: 'Atoms, periodic table, compounds, formulas, and everyday chemistry', questionCount: 50, progress: 0, isRich: true },
+      { id: 'year8-chemical-reactions', title: 'Chemical Reactions', description: 'Reaction indicators, reactants, products, and mass conservation', questionCount: 50, progress: 0, isRich: true },
+      { id: 'year8-rocks-minerals', title: 'Rocks & Minerals', description: 'Rock cycle, rock types, mineral properties, and geological processes', questionCount: 50, progress: 0, isRich: true },
+      { id: 'year8-energy', title: 'Energy', description: 'Energy forms, transformations, transfers, and conservation', questionCount: 50, progress: 0, isRich: true },
     ],
   },
 ];
@@ -80,28 +83,45 @@ export default function Curriculum() {
 
         <main className="max-w-4xl mx-auto px-4 py-8">
           <div className="space-y-4">
-            {selectedSubject.topics.map((topic) => (
-              <Link key={topic.id} href={`/curriculum/${selectedSubject.id}/${topic.id}`}>
-                <div className="bg-white rounded-xl shadow-sm border p-5 hover:shadow-md transition-shadow">
-                  <div className="flex items-center justify-between mb-3">
-                    <div>
-                      <h3 className="text-lg font-semibold text-gray-900">{topic.title}</h3>
-                      <p className="text-gray-500 text-sm">{topic.description}</p>
+            {selectedSubject.topics.map((topic) => {
+              // Rich topics have their own dedicated pages with AI chat
+              const href = topic.isRich
+                ? `/curriculum/${selectedSubject.id}/${topic.id}`
+                : `/curriculum/${selectedSubject.id}/${topic.id}`;
+
+              return (
+                <Link key={topic.id} href={href}>
+                  <div className={`bg-white rounded-xl shadow-sm border p-5 hover:shadow-md transition-shadow ${topic.isRich ? 'ring-2 ring-purple-200 ring-offset-2' : ''}`}>
+                    <div className="flex items-center justify-between mb-3">
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <h3 className="text-lg font-semibold text-gray-900">{topic.title}</h3>
+                          {topic.isRich && (
+                            <span className="px-2 py-0.5 text-xs font-medium bg-purple-100 text-purple-700 rounded-full flex items-center gap-1">
+                              <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6z" />
+                              </svg>
+                              AI Tutor
+                            </span>
+                          )}
+                        </div>
+                        <p className="text-gray-500 text-sm">{topic.description}</p>
+                      </div>
+                      <span className="text-sm text-gray-400">{topic.questionCount} questions</span>
                     </div>
-                    <span className="text-sm text-gray-400">{topic.questionCount} questions</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
-                      <div
-                        className={`h-full ${selectedSubject.color === 'blue' ? 'bg-blue-500' : 'bg-green-500'} transition-all`}
-                        style={{ width: `${topic.progress}%` }}
-                      />
+                    <div className="flex items-center gap-3">
+                      <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
+                        <div
+                          className={`h-full ${selectedSubject.color === 'blue' ? 'bg-blue-500' : 'bg-green-500'} transition-all`}
+                          style={{ width: `${topic.progress}%` }}
+                        />
+                      </div>
+                      <span className="text-sm font-medium text-gray-600">{topic.progress}%</span>
                     </div>
-                    <span className="text-sm font-medium text-gray-600">{topic.progress}%</span>
                   </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              );
+            })}
           </div>
         </main>
       </div>

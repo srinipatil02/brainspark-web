@@ -1,0 +1,476 @@
+// functions/src/new-architecture/content-management.ts
+import * as functions from "firebase-functions";
+import * as admin from "firebase-admin";
+
+const db = admin.firestore();
+
+export const onConceptCardUpdate = functions.firestore
+  .document('newConceptCards/{cardId}')
+  .onWrite(async (change, context) => {
+    try {
+      const cardId = context.params.cardId;
+      
+      if (!change.after.exists) {
+        // Card was deleted
+        await handleCardDeletion(cardId);
+        return;
+      }
+      
+      const cardData = change.after.data();
+      const previousData = change.before.exists ? change.before.data() : null;
+      
+      // Update search index
+      await updateCardSearchIndex(cardId, cardData);
+      
+      // If card was published or updated
+      if (cardData?.isActive && (!previousData || !previousData.isActive)) {
+        await notifyUsersOfNewCard(cardData);
+      }
+      
+      // Update skill associations
+      if (cardData?.skillId !== previousData?.skillId) {
+        await updateSkillCardAssociations(cardData.skillId, previousData?.skillId, cardId);
+      }
+      
+      console.log(`✅ Processed concept card update: ${cardId}`);
+      
+    } catch (error) {
+      console.error('❌ Failed to process concept card update:', error);
+    }
+  });
+
+async function updateCardSearchIndex(cardId: string, cardData: any) {
+  try {
+    const searchDocument = {
+      cardId,
+      title: cardData.title || '',
+      skillId: cardData.skillId || '',
+      subject: cardData.subject || '',
+      keywords: extractKeywords(cardData),
+      difficulty: cardData.skillLevel || 1,
+      lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
+      isActive: cardData.isActive || false,
+    };
+    
+    await db.collection('newContentSearch').doc(cardId).set(searchDocument);
+    
+  } catch (error) {
+    console.error('Failed to update card search index:', error);
+  }
+}
+
+function extractKeywords(cardData: any): string[] {
+  const keywords = [];
+  
+  // Extract from title
+  if (cardData.title) {
+    keywords.push(...cardData.title.toLowerCase().split(/\s+/));
+  }
+  
+  // Extract from front content
+  if (cardData.front?.keyQuestionMd) {
+    keywords.push(...extractWordsFromMarkdown(cardData.front.keyQuestionMd));
+  }
+  
+  if (cardData.front?.whyMattersMd) {
+    keywords.push(...extractWordsFromMarkdown(cardData.front.whyMattersMd));
+  }
+  
+  // Extract from back content
+  if (cardData.back?.explanationMd) {
+    keywords.push(...extractWordsFromMarkdown(cardData.back.explanationMd));
+  }
+  
+  // Remove duplicates and filter out common words
+  const commonWords = new Set(['the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'is', 'are', 'was', 'were', 'be', 'been', 'being']);
+  const uniqueKeywords = [...new Set(keywords)]
+    .filter(word => word.length > 2 && !commonWords.has(word))
+    .slice(0, 20); // Limit to 20 keywords
+  
+  return uniqueKeywords;
+}
+
+function extractWordsFromMarkdown(markdown: string): string[] {
+  // Remove markdown formatting and extract words
+  const cleanText = markdown
+    .replace(/[#*_`\[\]()]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .toLowerCase()
+    .trim();
+  
+  return cleanText.split(/\s+/).filter(word => word.length > 0);
+}
+
+async function notifyUsersOfNewCard(cardData: any) {
+  try {
+    // Find users who might be interested in this card
+    const skillId = cardData.skillId;
+    if (!skillId) return;
+    
+    // Get users who are currently learning or struggling with this skill
+    const interestedUsersQuery = await db.collection('newSkillProgress')
+      .where(`skills.${skillId}.status`, 'in', ['learning', 'struggling'])
+      .limit(100)
+      .get();
+    
+    const notifications = [];
+    
+    for (const doc of interestedUsersQuery.docs) {
+      const userId = doc.id;
+      notifications.push({
+        userId,
+        type: 'new_content',
+        title: 'New Learning Resource Available',
+        message: `A new concept card for ${formatSkillName(skillId)} is now available!`,
+        data: {
+          cardId: cardData.cardId,
+          skillId,
+          contentType: 'concept_card',
+        },
+        createdAt: admin.firestore.FieldValue.serverTimestamp(),
+        read: false,
+      });
+    }
+    
+    // Batch write notifications
+    if (notifications.length > 0) {
+      const batch = db.batch();
+      notifications.forEach(notification => {
+        const notificationRef = db.collection('newNotifications').doc();
+        batch.set(notificationRef, notification);
+      });
+      
+      await batch.commit();
+      console.log(`📢 Sent ${notifications.length} notifications for new card`);
+    }
+    
+  } catch (error) {
+    console.error('Failed to notify users of new card:', error);
+  }
+}
+
+async function updateSkillCardAssociations(newSkillId: string | null, oldSkillId: string | null, cardId: string) {
+  try {
+    const batch = db.batch();
+    
+    // Remove from old skill association
+    if (oldSkillId) {
+      const oldAssocRef = db.collection('newSkillContentMap').doc(oldSkillId);
+      batch.update(oldAssocRef, {
+        conceptCards: admin.firestore.FieldValue.arrayRemove(cardId),
+      });
+    }
+    
+    // Add to new skill association
+    if (newSkillId) {
+      const newAssocRef = db.collection('newSkillContentMap').doc(newSkillId);
+      batch.set(newAssocRef, {
+        skillId: newSkillId,
+        conceptCards: admin.firestore.FieldValue.arrayUnion(cardId),
+        lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
+      }, { merge: true });
+    }
+    
+    await batch.commit();
+    
+  } catch (error) {
+    console.error('Failed to update skill card associations:', error);
+  }
+}
+
+async function handleCardDeletion(cardId: string) {
+  try {
+    const batch = db.batch();
+    
+    // Remove from search index
+    batch.delete(db.collection('newContentSearch').doc(cardId));
+    
+    // Remove from all skill associations
+    const skillMapsQuery = await db.collection('newSkillContentMap')
+      .where('conceptCards', 'array-contains', cardId)
+      .get();
+    
+    for (const doc of skillMapsQuery.docs) {
+      batch.update(doc.ref, {
+        conceptCards: admin.firestore.FieldValue.arrayRemove(cardId),
+      });
+    }
+    
+    await batch.commit();
+    
+  } catch (error) {
+    console.error('Failed to handle card deletion:', error);
+  }
+}
+
+export const generateContentRecommendations = functions.pubsub
+  .schedule('every 6 hours')
+  .onRun(async (context) => {
+    try {
+      console.log('🎯 Generating content recommendations');
+      
+      // Get users who have been active in the last 24 hours
+      const yesterday = new Date();
+      yesterday.setDate(yesterday.getDate() - 1);
+      
+      const recentUsersQuery = await db.collection('newUserProfiles')
+        .where('lastActiveAt', '>=', admin.firestore.Timestamp.fromDate(yesterday))
+        .limit(500)
+        .get();
+      
+      const batch = db.batch();
+      let processedCount = 0;
+      
+      for (const userDoc of recentUsersQuery.docs) {
+        const userId = userDoc.id;
+        const userData = userDoc.data();
+        
+        try {
+          const recommendations = await generateUserContentRecommendations(userId, userData);
+          
+          if (recommendations.length > 0) {
+            const recommendationRef = db.collection('newContentRecommendations').doc(userId);
+            batch.set(recommendationRef, {
+              userId,
+              recommendations,
+              generatedAt: admin.firestore.FieldValue.serverTimestamp(),
+              expiresAt: admin.firestore.Timestamp.fromDate(
+                new Date(Date.now() + 6 * 60 * 60 * 1000) // 6 hours
+              ),
+            }, { merge: true });
+          }
+          
+          processedCount++;
+          
+          if (processedCount % 500 === 0) {
+            await batch.commit();
+          }
+          
+        } catch (error) {
+          console.error(`Failed to generate recommendations for ${userId}:`, error);
+        }
+      }
+      
+      if (processedCount % 500 !== 0) {
+        await batch.commit();
+      }
+      
+      console.log(`✅ Generated content recommendations for ${processedCount} users`);
+      
+    } catch (error) {
+      console.error('❌ Failed to generate content recommendations:', error);
+    }
+  });
+
+async function generateUserContentRecommendations(userId: string, userData: any): Promise<any[]> {
+  try {
+    const recommendations = [];
+    
+    // Get user's skill progress
+    const skillProgressDoc = await db.collection('newSkillProgress').doc(userId).get();
+    const skillProgress = skillProgressDoc.exists ? skillProgressDoc.data()?.skills || {} : {};
+    
+    // Get user's learning analytics
+    const analyticsDoc = await db.collection('newLearningAnalytics').doc(userId).get();
+    const analyticsData = analyticsDoc.exists ? analyticsDoc.data() : {};
+    
+    const learningProfile = userData.learningProfile || {};
+    
+    // Recommendation 1: Review cards for skills that haven't been practiced recently
+    const skillsNeedingReview = Object.keys(skillProgress).filter(skillId => {
+      const skill = skillProgress[skillId];
+      const lastPracticed = skill.lastPracticed;
+      
+      if (!lastPracticed) return true;
+      
+      const daysSince = getDaysSince(lastPracticed.toDate());
+      return daysSince > 5 && skill.status !== 'mastered';
+    });
+    
+    if (skillsNeedingReview.length > 0) {
+      const reviewSkill = skillsNeedingReview[0];
+      const cards = await getCardsForSkill(reviewSkill);
+      
+      if (cards.length > 0) {
+        recommendations.push({
+          type: 'review_recommendation',
+          priority: 'high',
+          title: 'Time for a Review',
+          description: `Review ${formatSkillName(reviewSkill)} to keep it fresh`,
+          contentType: 'concept_card',
+          contentId: cards[0].cardId,
+          skillId: reviewSkill,
+          estimatedMinutes: 5,
+          reason: 'skill_retention',
+        });
+      }
+    }
+    
+    // Recommendation 2: New content based on struggling concepts
+    const strugglingConcepts = learningProfile.strugglingConcepts || [];
+    if (strugglingConcepts.length > 0) {
+      const strugglingSkill = strugglingConcepts[0];
+      const cards = await getCardsForSkill(strugglingSkill);
+      
+      if (cards.length > 0) {
+        recommendations.push({
+          type: 'support_recommendation',
+          priority: 'high',
+          title: 'Extra Support Available',
+          description: `Additional resources for ${formatSkillName(strugglingSkill)}`,
+          contentType: 'concept_card',
+          contentId: cards[0].cardId,
+          skillId: strugglingSkill,
+          estimatedMinutes: 8,
+          reason: 'skill_support',
+        });
+      }
+    }
+    
+    // Recommendation 3: Next level content for mastered skills
+    const masteredSkills = Object.keys(skillProgress).filter(skillId => 
+      skillProgress[skillId].status === 'mastered'
+    );
+    
+    if (masteredSkills.length > 0) {
+      const masteredSkill = masteredSkills[0];
+      const advancedCards = await getAdvancedCardsForSkill(masteredSkill);
+      
+      if (advancedCards.length > 0) {
+        recommendations.push({
+          type: 'advancement_recommendation',
+          priority: 'medium',
+          title: 'Ready for the Next Level?',
+          description: `Advanced concepts building on ${formatSkillName(masteredSkill)}`,
+          contentType: 'concept_card',
+          contentId: advancedCards[0].cardId,
+          skillId: masteredSkill,
+          estimatedMinutes: 12,
+          reason: 'skill_advancement',
+        });
+      }
+    }
+    
+    // Recommendation 4: Subject-based exploration
+    const preferredSubject = learningProfile.preferredSubject;
+    if (preferredSubject && recommendations.length < 3) {
+      const subjectCards = await getPopularCardsForSubject(preferredSubject);
+      
+      if (subjectCards.length > 0) {
+        recommendations.push({
+          type: 'exploration_recommendation',
+          priority: 'low',
+          title: 'Explore New Topics',
+          description: `Discover interesting ${preferredSubject} concepts`,
+          contentType: 'concept_card',
+          contentId: subjectCards[0].cardId,
+          skillId: subjectCards[0].skillId,
+          estimatedMinutes: 10,
+          reason: 'subject_exploration',
+        });
+      }
+    }
+    
+    return recommendations.slice(0, 4); // Limit to 4 recommendations
+    
+  } catch (error) {
+    console.error('Failed to generate user content recommendations:', error);
+    return [];
+  }
+}
+
+async function getCardsForSkill(skillId: string): Promise<any[]> {
+  try {
+    const cardsQuery = await db.collection('newConceptCards')
+      .where('skillId', '==', skillId)
+      .where('isActive', '==', true)
+      .orderBy('createdAt', 'desc')
+      .limit(3)
+      .get();
+    
+    return cardsQuery.docs.map(doc => ({ cardId: doc.id, ...doc.data() }));
+    
+  } catch (error) {
+    console.error('Failed to get cards for skill:', error);
+    return [];
+  }
+}
+
+async function getAdvancedCardsForSkill(skillId: string): Promise<any[]> {
+  try {
+    const cardsQuery = await db.collection('newConceptCards')
+      .where('skillId', '==', skillId)
+      .where('skillLevel', '>=', 2)
+      .where('isActive', '==', true)
+      .limit(2)
+      .get();
+    
+    return cardsQuery.docs.map(doc => ({ cardId: doc.id, ...doc.data() }));
+    
+  } catch (error) {
+    console.error('Failed to get advanced cards for skill:', error);
+    return [];
+  }
+}
+
+async function getPopularCardsForSubject(subject: string): Promise<any[]> {
+  try {
+    const cardsQuery = await db.collection('newConceptCards')
+      .where('subject', '==', subject)
+      .where('isActive', '==', true)
+      .orderBy('createdAt', 'desc')
+      .limit(3)
+      .get();
+    
+    return cardsQuery.docs.map(doc => ({ cardId: doc.id, skillId: doc.data().skillId, ...doc.data() }));
+    
+  } catch (error) {
+    console.error('Failed to get popular cards for subject:', error);
+    return [];
+  }
+}
+
+function formatSkillName(skillId: string): string {
+  return skillId
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, l => l.toUpperCase());
+}
+
+function getDaysSince(date: Date): number {
+  const now = new Date();
+  const diffTime = Math.abs(now.getTime() - date.getTime());
+  return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+}
+
+export const cleanupExpiredRecommendations = functions.pubsub
+  .schedule('every 12 hours')
+  .onRun(async (context) => {
+    try {
+      console.log('🧹 Cleaning up expired content recommendations');
+      
+      const now = admin.firestore.Timestamp.now();
+      
+      const expiredQuery = await db.collection('newContentRecommendations')
+        .where('expiresAt', '<', now)
+        .limit(1000)
+        .get();
+      
+      if (expiredQuery.empty) {
+        console.log('✅ No expired recommendations to clean up');
+        return;
+      }
+      
+      const batch = db.batch();
+      
+      for (const doc of expiredQuery.docs) {
+        batch.delete(doc.ref);
+      }
+      
+      await batch.commit();
+      
+      console.log(`✅ Cleaned up ${expiredQuery.docs.length} expired recommendations`);
+      
+    } catch (error) {
+      console.error('❌ Failed to cleanup expired recommendations:', error);
+    }
+  });

@@ -1,0 +1,382 @@
+{
+  "setNumber": 5,
+  "title": "Energy Resources",
+  "questionRange": "Q41-Q50",
+  "questions": [
+    {
+      "questionId": "nsw-y8-energy-041",
+      "questionType": "multiple-choice",
+      "stem": "Which statement BEST describes the difference between renewable and non-renewable energy sources?",
+      "options": [
+        "Renewable energy can be replaced naturally in a short time, while non-renewable takes millions of years to form",
+        "Renewable energy is always cheaper than non-renewable energy",
+        "Renewable energy produces more power than non-renewable energy",
+        "Renewable energy doesn't cause any environmental problems at all"
+      ],
+      "correctAnswer": 0,
+      "solution": "**Answer: A**\n\n**Renewable energy** can be replaced by nature in a **short time** (days, months, or years):\n- Solar: Sun shines every day\n- Wind: Created daily by sun heating Earth\n- Hydro: Rain refills dams regularly\n- Biomass: Trees regrow in years\n\n**Non-renewable energy** took **millions of years** to form:\n- Coal: 300 million years (ancient plants)\n- Oil/Gas: 100 million years (ancient sea life)\n- Once used, effectively gone forever on human timescale\n\n**Why other options wrong:**\n- **B) Cost:** Varies by location and technology, not the defining difference\n- **C) Power:** Non-renewable currently produces ~80% of global energy\n- **D) Environmental:** Renewables have some impact (e.g., wind turbines affect birds, dams flood land)",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU155"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about timescale: How long does it take nature to make more coal vs more wind?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Renewable = nature replaces quickly (sun daily, trees in years). Non-renewable = millions of years to form (coal, oil). That's the key difference!",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 41
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-042",
+      "questionType": "multiple-choice",
+      "stem": "A school installs solar panels on the roof. What is the MAIN advantage of solar energy compared to coal power?",
+      "options": [
+        "Solar panels produce zero greenhouse gas emissions during operation",
+        "Solar panels are cheaper to install than coal plants",
+        "Solar panels work just as well at night as during the day",
+        "Solar panels require no maintenance at all"
+      ],
+      "correctAnswer": 0,
+      "solution": "**Answer: A - Zero emissions**\n\n**Solar panels:**\n- Convert sunlight \u2192 electricity directly\n- Produce **ZERO CO\u2082** while operating\n- No fuel burned, no pollution\n- Help fight climate change\n\n**Coal plants:**\n- Burn coal \u2192 produces ~900 kg CO\u2082 per MWh\n- Also: sulfur dioxide (acid rain), nitrogen oxides (smog), particulates (air pollution)\n- Major contributor to global warming\n\n**Why others wrong:**\n- **B) Cost:** Solar has high upfront cost (saves money long-term through free sunlight)\n- **C) Night:** Solar doesn't work at night (major disadvantage!)\n- **D) Maintenance:** Solar panels need occasional cleaning and eventual replacement",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU155"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Compare what comes out: What does burning coal produce vs sunlight hitting panels?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Solar: Light\u2192electricity (no combustion = zero CO\u2082). Coal: Burning\u2192steam\u2192electricity (produces huge CO\u2082). Environmental benefit is the main advantage!",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 42
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-043",
+      "questionType": "explanation",
+      "stem": "Explain how a wind turbine transforms energy. Include:\n1. The energy transformation sequence\n2. Why wind is renewable\n3. ONE advantage and ONE disadvantage vs coal",
+      "solution": "**1. ENERGY TRANSFORMATION:**\nKinetic (wind) \u2192 Kinetic (blades) \u2192 Electrical (generator)\n- Wind (moving air) has kinetic energy\n- Wind pushes blades, making them rotate\n- Rotating shaft turns generator, producing electricity\n\n**2. WHY RENEWABLE:**\n- Sun heats Earth unevenly every day\n- Creates wind continuously\n- Nature replaces wind daily (not millions of years like coal)\n- Won't run out while sun shines\n\n**3. ADVANTAGE:** Zero CO\u2082 emissions (coal produces huge amounts)\n\n**4. DISADVANTAGE:** Intermittent - only works when windy (coal works 24/7)",
+      "difficulty": 2,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU155"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Energy forms: What type of energy does moving air have? What spins? What does generator make?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Kinetic\u2192Kinetic\u2192Electrical. Renewable: sun makes wind daily. Pro: no emissions. Con: needs wind to work.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 43
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-044",
+      "questionType": "short-answer",
+      "stem": "A solar panel generates 4 kilowatts (kW) of power for 5 hours on a sunny day.\n\nCalculate the total energy produced in kilowatt-hours (kWh).\n\nShow your working: Energy (kWh) = Power (kW) \u00d7 Time (hours)",
+      "solution": "**Answer: 20 kWh**\n\n**Given:**\n- Power = 4 kW\n- Time = 5 hours\n\n**Formula:**\nEnergy = Power \u00d7 Time\n\n**Calculation:**\nEnergy = 4 kW \u00d7 5 hours\nEnergy = **20 kWh**\n\n**What this means:**\n- 20 kWh could power a fridge for ~20 days\n- Or run a TV for ~100 hours\n- Typical home uses ~20 kWh per day",
+      "difficulty": 1,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU155"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Energy = Power \u00d7 Time. You have 4 kW for 5 hours. Multiply!",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "4 kW \u00d7 5 hours = 20 kWh. Simple multiplication!",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 44
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-045",
+      "questionType": "multiple-choice",
+      "stem": "Fossil fuels (coal, oil, gas) were formed from:\n\nWhat were they originally?",
+      "options": [
+        "Ancient plants and animals that lived millions of years ago",
+        "Rocks and minerals heated deep underground",
+        "Volcanic eruptions that created oil and coal",
+        "Meteorites that crashed into Earth"
+      ],
+      "correctAnswer": 0,
+      "solution": "**Answer: A - Ancient living things**\n\n**Coal:** Ancient plants (300 million years ago)\n- Swamp forests died\n- Buried under mud (no oxygen)\n- Pressure + heat over millions of years\n- Became coal\n\n**Oil & Natural Gas:** Ancient sea creatures (100 million years ago)\n- Tiny marine organisms (plankton) died\n- Settled on ocean floor\n- Buried under sediments\n- Heat + pressure \u2192 oil and gas\n\n**Why called \"fossil\" fuels:**\n- Made from fossils (remains) of ancient life\n- Stored ancient sunlight energy (photosynthesis)\n- Took millions of years to form",
+      "difficulty": 1,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU155"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about the word 'fossil' - what are fossils? What does that tell you about where coal and oil came from?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Fossil = ancient dead organisms. Fossil fuels = ancient dead plants (coal) and sea creatures (oil/gas) transformed over millions of years!",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 45
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-046",
+      "questionType": "short-answer",
+      "stem": "An old light bulb uses 100 J of electrical energy and produces 10 J of light energy. The rest is wasted as heat.\n\nCalculate the **efficiency** of the light bulb as a percentage.\n\nFormula: Efficiency = (Useful energy out \u00f7 Total energy in) \u00d7 100%",
+      "solution": "**Answer: 10%**\n\n**Given:**\n- Total energy in = 100 J\n- Useful energy out (light) = 10 J\n- Wasted (heat) = 90 J\n\n**Calculation:**\nEfficiency = (Useful \u00f7 Total) \u00d7 100%\nEfficiency = (10 \u00f7 100) \u00d7 100%\nEfficiency = 0.1 \u00d7 100%\nEfficiency = **10%**\n\n**What this means:**\n- Only 10% becomes useful light\n- 90% wasted as heat\n- Very inefficient!\n- LED bulbs are ~90% efficient (much better)",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU155"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Efficiency = (useful out \u00f7 total in) \u00d7 100%. Light is useful (10 J), total input is 100 J.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "(10 \u00f7 100) \u00d7 100% = 10%. Only 10% efficient - 90% wasted as heat!",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 46
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-047",
+      "questionType": "multiple-choice",
+      "stem": "Hydroelectric power stations generate electricity using:\n\nWhat energy transformation occurs?",
+      "options": [
+        "Gravitational potential energy \u2192 Kinetic energy \u2192 Electrical energy",
+        "Chemical energy \u2192 Heat energy \u2192 Electrical energy",
+        "Nuclear energy \u2192 Heat energy \u2192 Electrical energy",
+        "Light energy \u2192 Chemical energy \u2192 Electrical energy"
+      ],
+      "correctAnswer": 0,
+      "solution": "**Answer: A - GPE \u2192 KE \u2192 Electrical**\n\n**How hydroelectric works:**\n\n**Step 1:** Water stored high in dam\n- Has gravitational potential energy (GPE = mgh)\n- Height gives it energy\n\n**Step 2:** Water falls down pipes\n- GPE converts to kinetic energy\n- Water speeds up as it falls\n\n**Step 3:** Fast water spins turbines\n- Turbines connected to generators\n- Generators produce electricity\n\n**Complete transformation:**\nGPE (height) \u2192 KE (falling water) \u2192 Electrical (generator)\n\n**Example:** Snowy Mountains Scheme in NSW uses this method!",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU155"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Where is water stored? (high up = GPE). What happens when it falls? (moves = KE). What do turbines make?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Water high in dam (GPE) \u2192 falls (KE) \u2192 spins turbines (electrical). GPE\u2192KE\u2192Electrical!",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 47
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-048",
+      "questionType": "explanation",
+      "stem": "Biomass (wood, crops, waste) can be used as an energy source.\n\nExplain:\n1. How biomass stores energy\n2. Why biomass is considered renewable\n3. ONE environmental concern about using biomass",
+      "solution": "**1. HOW BIOMASS STORES ENERGY:**\n- Plants use photosynthesis: sunlight + CO\u2082 + water \u2192 glucose\n- Glucose stores **chemical energy** in molecular bonds\n- Energy originally from sun, now stored in plant material\n\n**2. WHY RENEWABLE:**\n- Trees/crops regrow in years (not millions of years)\n- Can replant forests sustainably\n- Sun provides energy for new growth continuously\n- As long as managed properly, won't run out\n\n**3. ENVIRONMENTAL CONCERN:**\n- Burning releases CO\u2082 (like fossil fuels)\n- If trees cut faster than replanted \u2192 deforestation\n- Habitat loss for animals\n- Only renewable if replanted!",
+      "difficulty": 2,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU155"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "How do plants make food? (photosynthesis stores energy). Can you grow more trees? (yes = renewable). What happens when you burn wood?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "1) Photosynthesis stores sun's energy as chemical energy. 2) Trees regrow in years (renewable). 3) Burning releases CO\u2082, deforestation if not replanted.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 48
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-049",
+      "questionType": "multiple-choice",
+      "stem": "Australia has excellent potential for solar energy because:\n\nWhat makes Australia ideal for solar power?",
+      "options": [
+        "Australia receives high levels of sunlight throughout the year in most areas",
+        "Australia has the cheapest solar panels in the world",
+        "Australia invented solar panel technology",
+        "Australia has no other energy sources available"
+      ],
+      "correctAnswer": 0,
+      "solution": "**Answer: A - High sunlight levels**\n\n**Why Australia is ideal for solar:**\n\n**Geography:**\n- Large land area at low latitudes (closer to equator)\n- Mostly sunny, dry climate\n- ~3,000 hours of sunshine per year (world's highest!)\n- Deserts perfect for large solar farms\n\n**Solar resource:**\n- More sunlight = more energy generated\n- Australian outback gets ~6-7 kWh/m\u00b2/day\n- Compare: UK gets ~2-3 kWh/m\u00b2/day\n\n**Current use:**\n- Australia has highest rooftop solar uptake globally\n- Many homes have solar panels\n- Growing solar farms in sunny regions\n\n**Perfect combination:** Lots of sun + lots of space = huge solar potential!",
+      "difficulty": 1,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU155"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What do solar panels need to work? Does Australia have a lot of that resource?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Solar panels need sunlight. Australia has LOTS of sunshine (deserts, sunny climate). More sun = more solar energy!",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 49
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-050",
+      "questionType": "explanation",
+      "stem": "Australia currently gets most electricity from coal, but is transitioning to renewable energy.\n\nExplain TWO reasons why this transition is important for Australia's future.",
+      "solution": "**REASON 1: Climate Change (Environmental)**\n\n**Coal's impact:**\n- Australia produces ~400 million tons CO\u2082/year from electricity\n- Coal contributes to global warming\n- Climate change affects Australia: droughts, bushfires, coral bleaching\n\n**Renewable benefits:**\n- Solar/wind produce zero emissions\n- Reduces Australia's carbon footprint\n- Helps meet Paris Agreement targets\n- Protects environment for future generations\n\n**REASON 2: Energy Security (Practical)**\n\n**Coal limitations:**\n- Finite resource (will eventually run out)\n- Aging coal plants need replacement anyway\n- Coal prices fluctuate\n\n**Renewable advantages:**\n- Sun and wind are free and endless\n- No fuel costs once built\n- Australia has excellent solar/wind resources\n- Energy independence (don't need to import fuel)\n- Creates new jobs in renewable industry\n\n**Conclusion:** Transitioning ensures both environmental protection AND long-term energy security!",
+      "difficulty": 2,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU155"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think: What does coal burning produce? (CO\u2082). Will coal last forever? (no). What are benefits of renewable energy?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "1) Environmental: Coal\u2192CO\u2082\u2192climate change. Renewables=zero emissions. 2) Practical: Coal runs out, renewables don't. Energy security!",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 50
+      },
+      "status": "active"
+    }
+  ]
+}

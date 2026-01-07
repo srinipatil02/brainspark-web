@@ -1,0 +1,508 @@
+/**
+ * Comprehensive AI Providers Integration Tests
+ * Tests JSON parsing robustness across all providers and topics
+ */
+
+import { describe, it, expect, beforeAll } from '@jest/globals';
+import { AIService } from '../src/ai-providers/ai-service';
+import { GeminiProvider } from '../src/ai-providers/gemini-provider';
+import { ClaudeProvider } from '../src/ai-providers/claude-provider';
+import { DeepSeekProvider } from '../src/ai-providers/deepseek-provider';
+import { QuestionGenerationRequest, GeneratedQuestion } from '../src/ai-providers/types';
+import * as admin from 'firebase-admin';
+
+// Initialize Firebase Admin for testing
+if (!admin.apps.length) {
+  admin.initializeApp({
+    projectId: 'thebrainspark-project-test',
+    credential: admin.credential.applicationDefault()
+  });
+}
+
+// Test configurations for different providers
+const testConfigs = {
+  gemini: {
+    apiKey: process.env.GEMINI_API_KEY || 'test-key',
+    name: 'Gemini 2.5 Flash',
+    timeout: 120000 // 2 minutes
+  },
+  claude: {
+    apiKey: process.env.CLAUDE_API_KEY || 'test-key',
+    name: 'Claude Sonnet 4',
+    timeout: 120000 // 2 minutes
+  },
+  deepseek: {
+    apiKey: process.env.DEEPSEEK_API_KEY || 'test-key',
+    name: 'DeepSeek Chat',
+    timeout: 120000 // 2 minutes
+  }
+};
+
+// Comprehensive test requests across different mathematics topics
+const testRequests: QuestionGenerationRequest[] = [
+  // Algebra - MCQ
+  {
+    skillId: 'algebra-linear-equations-developing-a',
+    skillName: 'Linear Equations Understanding',
+    competencyLevel: 'developing-a',
+    questionType: 'MCQ',
+    difficulty: 4,
+    subject: 'mathematics',
+    year: 8,
+    curriculumSystem: 'NSW Mathematics K-10',
+    skillDetails: {
+      description: 'Solving linear equations with one variable',
+      learningObjectives: ['Understand equation balance', 'Apply inverse operations'],
+      commonMisconceptions: ['Forgetting to apply operations to both sides', 'Sign errors']
+    }
+  },
+  
+  // Geometry - Specific Input
+  {
+    skillId: 'geometry-area-rectangle-proficient-a',
+    skillName: 'Rectangle Area Calculation',
+    competencyLevel: 'proficient-a',
+    questionType: 'SPECIFIC_INPUT',
+    difficulty: 3,
+    subject: 'mathematics',
+    year: 7,
+    curriculumSystem: 'NSW Mathematics K-10',
+    skillDetails: {
+      description: 'Calculate areas of rectangles and squares',
+      realWorldApplications: ['Room planning', 'Garden design', 'Floor tiling'],
+      prerequisiteSkills: ['Multiplication', 'Unit conversion']
+    }
+  },
+  
+  // Statistics - Short Answer
+  {
+    skillId: 'statistics-data-interpretation-extending',
+    skillName: 'Advanced Data Interpretation',
+    competencyLevel: 'extending',
+    questionType: 'SHORT_ANSWER',
+    difficulty: 8,
+    subject: 'mathematics',
+    year: 10,
+    curriculumSystem: 'NSW Mathematics K-10',
+    skillDetails: {
+      description: 'Interpret complex statistical displays and draw conclusions',
+      assessmentCriteria: ['Data analysis accuracy', 'Reasoning quality', 'Communication clarity'],
+      extensions: ['Correlation analysis', 'Bias identification', 'Statistical significance']
+    }
+  },
+  
+  // Number Theory - MCQ (High Difficulty)
+  {
+    skillId: 'number-theory-prime-factorization-consolidating-b',
+    skillName: 'Prime Factorization Mastery',
+    competencyLevel: 'consolidating-b',
+    questionType: 'MCQ',
+    difficulty: 7,
+    subject: 'mathematics',
+    year: 9,
+    curriculumSystem: 'NSW Mathematics K-10',
+    skillDetails: {
+      description: 'Find prime factorizations of composite numbers',
+      cognitiveLevel: 'apply',
+      widgets: ['prime_factorization_tree', 'number_line_explorer']
+    }
+  },
+  
+  // Probability - Specific Input
+  {
+    skillId: 'probability-compound-events-proficient-b',
+    skillName: 'Compound Event Probability',
+    competencyLevel: 'proficient-b',
+    questionType: 'SPECIFIC_INPUT',
+    difficulty: 6,
+    subject: 'mathematics',
+    year: 9,
+    curriculumSystem: 'NSW Mathematics K-10',
+    skillDetails: {
+      description: 'Calculate probabilities of compound independent events',
+      interactiveElements: ['probability_tree', 'sample_space_builder'],
+      realWorldApplications: ['Weather forecasting', 'Game strategy', 'Medical diagnosis']
+    }
+  }
+];
+
+// JSON parsing test cases for robustness
+const jsonTestCases = [
+  {
+    name: 'Valid complete JSON',
+    json: `{
+      "stem": "Test question with **markdown**",
+      "questionType": "MCQ",
+      "mcqOptions": [
+        {"id": "A", "text": "Option A", "isCorrect": true, "feedback": "Correct!"}
+      ],
+      "solution": "Complete solution",
+      "hints": [{"level": 1, "content": "Test hint", "revealsCriticalInfo": false}]
+    }`
+  },
+  {
+    name: 'JSON with markdown code blocks',
+    json: `\`\`\`json
+    {
+      "stem": "Test question",
+      "questionType": "MCQ",
+      "solution": "Test solution",
+      "hints": []
+    }
+    \`\`\``
+  },
+  {
+    name: 'JSON with AI prefix text',
+    json: `Here's the question you requested:
+
+    {
+      "stem": "Test question",
+      "questionType": "SPECIFIC_INPUT",
+      "solution": "Test solution",
+      "hints": []
+    }`
+  },
+  {
+    name: 'JSON with trailing text',
+    json: `{
+      "stem": "Test question",
+      "questionType": "SHORT_ANSWER",
+      "solution": "Test solution",
+      "hints": []
+    }
+    
+    This question tests understanding of the concept.`
+  }
+];
+
+describe('AI Providers Integration Tests', () => {
+  // Skip real API tests if API keys are not available
+  const skipRealAPITests = !process.env.GEMINI_API_KEY || !process.env.CLAUDE_API_KEY || !process.env.DEEPSEEK_API_KEY;
+
+  beforeAll(() => {
+    if (skipRealAPITests) {
+      console.log('⚠️ Skipping real API tests - Set GEMINI_API_KEY, CLAUDE_API_KEY, and DEEPSEEK_API_KEY to run real integration tests');
+    }
+  });
+
+  describe('Schema Compliance Tests', () => {
+    it('should validate GeneratedQuestion interface completeness', () => {
+      const requiredFields = [
+        'questionId', 'questionType', 'stem', 'solution', 'hints',
+        'curriculum', 'skills', 'difficulty', 'estimatedTime', 'qcs',
+        'searchableTags', 'aiMetadata', 'version', 'status', 'createdAt'
+      ];
+
+      // This test ensures our TypeScript interface matches the schema requirements
+      const sampleQuestion: GeneratedQuestion = {
+        questionId: 'qb-12345678-1234-1234-1234-123456789012',
+        questionType: 'MCQ',
+        stem: 'Test question',
+        solution: 'Test solution',
+        hints: [{ level: 1, content: 'Test hint', revealsCriticalInfo: false }],
+        curriculum: {
+          system: 'NSW Mathematics K-10',
+          codes: ['MA4-1WM'],
+          year: 8,
+          subject: 'mathematics'
+        },
+        skills: {
+          primarySkill: 'test-skill',
+          competencyLevel: 'developing-a',
+          cognitiveLevel: 'understand'
+        },
+        difficulty: 5,
+        estimatedTime: 180,
+        qcs: 7,
+        searchableTags: [{ category: 'topic', value: 'test' }],
+        aiMetadata: {
+          generatedBy: 'gemini-2-5-flash',
+          generatedAt: new Date().toISOString(),
+          promptVersion: '2.0',
+          seedPrompt: 'Test prompt',
+          validationStatus: 'generated'
+        },
+        version: 1,
+        status: 'draft',
+        createdAt: new Date().toISOString()
+      };
+
+      // Verify all required fields are present
+      requiredFields.forEach(field => {
+        expect(sampleQuestion).toHaveProperty(field);
+      });
+    });
+  });
+
+  describe('JSON Parsing Robustness', () => {
+    let geminiProvider: GeminiProvider;
+
+    beforeAll(() => {
+      geminiProvider = new GeminiProvider(testConfigs.gemini, 'gemini-2-5-flash');
+    });
+
+    jsonTestCases.forEach(testCase => {
+      it(`should handle ${testCase.name}`, () => {
+        // Access the private parseResponse method through reflection for testing
+        const parseResponse = (geminiProvider as any).parseResponse.bind(geminiProvider);
+        
+        expect(() => {
+          const result = parseResponse(testCase.json, 'test-request-id');
+          expect(result).toHaveProperty('stem');
+          expect(result).toHaveProperty('questionType');
+        }).not.toThrow();
+      });
+    });
+
+    it('should handle malformed JSON gracefully', () => {
+      const malformedJson = `{
+        "stem": "Test question",
+        "questionType": "MCQ",
+        "solution": "Incomplete...`;
+      
+      const parseResponse = (geminiProvider as any).parseResponse.bind(geminiProvider);
+      
+      expect(() => {
+        parseResponse(malformedJson, 'test-request-id');
+      }).toThrow('Invalid JSON response from Gemini');
+    });
+
+    it('should validate required fields exist after parsing', () => {
+      const incompleteJson = `{
+        "stem": "Test question",
+        "questionType": "MCQ"
+      }`;
+      
+      const parseResponse = (geminiProvider as any).parseResponse.bind(geminiProvider);
+      
+      expect(() => {
+        parseResponse(incompleteJson, 'test-request-id');
+      }).toThrow('Missing or invalid solution field');
+    });
+  });
+
+  describe('Provider-Specific Tests', () => {
+    // Only skip if explicitly set to skip or in CI without keys
+    const skipRealAPITests = process.env.SKIP_API_TESTS === 'true' || (process.env.CI === 'true' && !process.env.GEMINI_API_KEY);
+
+    describe('Gemini Provider', () => {
+      let provider: GeminiProvider;
+
+      beforeEach(() => {
+        provider = new GeminiProvider(testConfigs.gemini, 'gemini-2-5-flash');
+      });
+
+      it('should validate configuration correctly', () => {
+        expect(provider.validateConfig()).toBe(true);
+      });
+
+      (skipRealAPITests ? it.skip : it)('should generate questions for different topics', async () => {
+        for (const request of testRequests.slice(0, 2)) { // Test first 2 to avoid rate limits
+          try {
+            const response = await provider.generateQuestion(request);
+            
+            expect(response.success).toBe(true);
+            expect(response.question).toBeDefined();
+            
+            if (response.question) {
+              // Validate schema compliance
+              expect(response.question.questionId).toMatch(/^qb-[a-f0-9-]{36,40}$/);
+              expect(response.question.questionType).toBe(request.questionType);
+              expect(response.question.stem).toBeTruthy();
+              expect(response.question.solution).toBeTruthy();
+              expect(response.question.hints).toHaveLength(3);
+              expect(response.question.aiMetadata.generatedBy).toContain('gemini');
+              expect(response.question.version).toBe(1);
+              expect(response.question.status).toBe('draft');
+              
+              // Validate question type specific fields
+              if (request.questionType === 'MCQ') {
+                expect(response.question.mcqOptions).toBeDefined();
+                expect(response.question.mcqOptions!.length).toBeGreaterThanOrEqual(2);
+              }
+              
+              if (request.questionType === 'SPECIFIC_INPUT') {
+                expect(response.question.specificInput).toBeDefined();
+                expect(response.question.specificInput!.acceptableAnswers.length).toBeGreaterThan(0);
+              }
+              
+              if (request.questionType === 'SHORT_ANSWER') {
+                expect(response.question.shortAnswer).toBeDefined();
+                expect(response.question.shortAnswer!.keyPoints.length).toBeGreaterThan(0);
+              }
+              
+              console.log(`✅ Gemini successfully generated ${request.questionType} for ${request.skillName}`);
+            }
+          } catch (error) {
+            console.error(`❌ Gemini failed for ${request.skillName}:`, error);
+            throw error;
+          }
+        }
+      }, 180000); // 3 minutes timeout for AI provider calls
+    });
+
+    describe('Claude Provider', () => {
+      let provider: ClaudeProvider;
+
+      beforeEach(() => {
+        provider = new ClaudeProvider(testConfigs.claude);
+      });
+
+      it('should validate configuration correctly', () => {
+        if (testConfigs.claude.apiKey !== 'test-key') {
+          expect(provider.validateConfig()).toBe(true);
+        }
+      });
+
+      (skipRealAPITests ? it.skip : it)('should generate questions with proper schema compliance', async () => {
+        const request = testRequests[1]; // Test geometry question
+        
+        try {
+          const response = await provider.generateQuestion(request);
+          
+          expect(response.success).toBe(true);
+          expect(response.question).toBeDefined();
+          
+          if (response.question) {
+            expect(response.question.aiMetadata.generatedBy).toBe('claude-sonnet-4');
+            expect(response.question.curriculum.system).toBe(request.curriculumSystem);
+            expect(response.question.skills.competencyLevel).toBe(request.competencyLevel);
+            
+            console.log(`✅ Claude successfully generated question for ${request.skillName}`);
+          }
+        } catch (error) {
+          console.error(`❌ Claude failed for ${request.skillName}:`, error);
+          throw error;
+        }
+      }, 180000); // 3 minutes timeout
+    });
+
+    describe('DeepSeek Provider', () => {
+      let provider: DeepSeekProvider;
+
+      beforeEach(() => {
+        provider = new DeepSeekProvider(testConfigs.deepseek, 'deepseek-chat');
+      });
+
+      it('should validate configuration correctly', () => {
+        if (testConfigs.deepseek.apiKey !== 'test-key') {
+          expect(provider.validateConfig()).toBe(true);
+        }
+      });
+
+      (skipRealAPITests ? it.skip : it)('should generate questions with enhanced content', async () => {
+        const request = testRequests[2]; // Test statistics question
+        
+        try {
+          const response = await provider.generateQuestion(request);
+          
+          expect(response.success).toBe(true);
+          expect(response.question).toBeDefined();
+          
+          if (response.question) {
+            expect(response.question.aiMetadata.generatedBy).toBe('deepseek-chat');
+            expect(response.question.difficulty).toBe(request.difficulty);
+            expect(response.question.estimatedTime).toBeGreaterThan(0);
+            
+            console.log(`✅ DeepSeek successfully generated question for ${request.skillName}`);
+          }
+        } catch (error) {
+          console.error(`❌ DeepSeek failed for ${request.skillName}:`, error);
+          throw error;
+        }
+      }, 180000); // 3 minutes timeout
+    });
+  });
+
+  describe('AI Service Integration', () => {
+    (skipRealAPITests ? it.skip : it)('should select appropriate provider and maintain schema compliance', async () => {
+      const request = testRequests[0]; // Test algebra MCQ
+      
+      try {
+        const response = await AIService.generateQuestion('gemini-2-5-flash', request);
+        
+        expect(response.success).toBe(true);
+        expect(response.question).toBeDefined();
+        
+        if (response.question) {
+          // Comprehensive schema validation
+          const question = response.question;
+          
+          // Core fields
+          expect(question.questionId).toMatch(/^qb-[a-f0-9-]{36,40}$/);
+          expect(['MCQ', 'SPECIFIC_INPUT', 'SHORT_ANSWER']).toContain(question.questionType);
+          expect(question.stem.length).toBeGreaterThan(10);
+          expect(question.solution.length).toBeGreaterThan(10);
+          
+          // Hints validation
+          expect(question.hints).toHaveLength(3);
+          question.hints.forEach((hint, index) => {
+            expect(hint.level).toBe(index + 1);
+            expect(hint.content.length).toBeGreaterThan(5);
+            expect(typeof hint.revealsCriticalInfo).toBe('boolean');
+          });
+          
+          // Curriculum validation
+          expect(question.curriculum.system).toBeTruthy();
+          expect(question.curriculum.year).toBeGreaterThan(0);
+          expect(question.curriculum.subject).toBeTruthy();
+          expect(Array.isArray(question.curriculum.codes)).toBe(true);
+          
+          // Skills validation
+          expect(question.skills.primarySkill).toBeTruthy();
+          expect(question.skills.competencyLevel).toBeTruthy();
+          expect(question.skills.cognitiveLevel).toBeTruthy();
+          
+          // Metadata validation
+          expect(question.aiMetadata.generatedBy).toBeTruthy();
+          expect(question.aiMetadata.generatedAt).toBeTruthy();
+          expect(question.aiMetadata.promptVersion).toBeTruthy();
+          expect(question.aiMetadata.validationStatus).toBe('generated');
+          
+          // Searchable tags validation
+          expect(Array.isArray(question.searchableTags)).toBe(true);
+          expect(question.searchableTags.length).toBeGreaterThan(0);
+          
+          console.log(`✅ AI Service generated compliant question: ${question.questionId}`);
+        }
+      } catch (error) {
+        console.error(`❌ AI Service integration failed:`, error);
+        throw error;
+      }
+    }, 60000);
+  });
+
+  describe('Error Handling and Recovery', () => {
+    it('should handle provider failures gracefully', async () => {
+      const invalidConfig = { apiKey: 'invalid-key-12345' };
+      const provider = new GeminiProvider(invalidConfig, 'gemini-2-5-flash');
+      
+      const request = testRequests[0];
+      
+      try {
+        const response = await provider.generateQuestion(request);
+        expect(response.success).toBe(false);
+        expect(response.error).toBeDefined();
+        expect(response.error).toContain('API key');
+      } catch (error) {
+        // Expected to throw authentication error
+        expect(error).toBeDefined();
+      }
+    });
+
+    it('should validate question completeness', () => {
+      const geminiProvider = new GeminiProvider(testConfigs.gemini, 'gemini-2-5-flash');
+      const validateQuestion = (geminiProvider as any).validateGeneratedQuestion.bind(geminiProvider);
+      
+      const incompleteQuestion = {
+        questionId: 'test-id',
+        questionType: 'MCQ',
+        // Missing required fields: stem, solution, hints
+      };
+      
+      expect(() => {
+        validateQuestion(incompleteQuestion);
+      }).toThrow();
+    });
+  });
+});

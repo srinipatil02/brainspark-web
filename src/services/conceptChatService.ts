@@ -39,7 +39,7 @@ export async function sendConceptChatMessage(
       conceptContext,
       options: {
         includeFollowUps: true,
-        maxResponseLength: 500,
+        maxResponseLength: 5, // Number of sentences (1-10)
         ...options,
       },
     };
@@ -87,6 +87,7 @@ function handleChatError(error: unknown): ConceptChatResponse {
  * The backend may return them in various formats:
  * - Delimited: [FOLLOW_UP]question[/FOLLOW_UP]
  * - Numbered: "1. Question?" at the end
+ * - QUESTION_N: format from backend
  * - Array in suggestedFollowUps field
  */
 export function extractFollowUpQuestions(response: string, providedFollowUps?: string[]): string[] {
@@ -105,9 +106,20 @@ export function extractFollowUpQuestions(response: string, providedFollowUps?: s
     if (question) followUps.push(question);
   }
 
-  if (followUps.length > 0) return followUps;
+  if (followUps.length > 0) return followUps.slice(0, 4);
 
-  // Pattern 2: "Follow-up questions:" section
+  // Pattern 2: QUESTION_N: format from ---FOLLOW_UP_QUESTIONS--- section
+  const questionPattern = /QUESTION_\d+:\s*(.+?)(?=QUESTION_\d+:|---END|$)/g;
+  while ((match = questionPattern.exec(response)) !== null) {
+    const question = match[1].trim();
+    if (question && question.length > 5) {
+      followUps.push(question);
+    }
+  }
+
+  if (followUps.length > 0) return followUps.slice(0, 4);
+
+  // Pattern 3: "Follow-up questions:" section
   const followUpSection = response.match(/(?:follow[- ]?up questions?|want to explore|might wonder):?\s*\n?([\s\S]*?)(?:\n\n|$)/i);
   if (followUpSection) {
     const lines = followUpSection[1].split('\n');
@@ -120,16 +132,19 @@ export function extractFollowUpQuestions(response: string, providedFollowUps?: s
     }
   }
 
-  // Limit to 3 follow-up questions
-  return followUps.slice(0, 3);
+  // Limit to 4 follow-up questions
+  return followUps.slice(0, 4);
 }
 
 /**
  * Remove follow-up question markers from the main response
  */
 export function cleanResponseContent(response: string): string {
-  // Remove delimited follow-ups
+  // Remove delimited follow-ups [FOLLOW_UP]...[/FOLLOW_UP]
   let cleaned = response.replace(/\[FOLLOW_UP\].*?\[\/FOLLOW_UP\]/g, '');
+
+  // Remove ---FOLLOW_UP_QUESTIONS--- section and everything after it
+  cleaned = cleaned.replace(/---FOLLOW_UP_QUESTIONS---[\s\S]*/g, '');
 
   // Remove "Follow-up questions:" section if it exists
   cleaned = cleaned.replace(/(?:follow[- ]?up questions?|you might want to explore|you might wonder):?\s*\n?(?:[\d\-•*]\s*[.):]?\s*.+\?\s*\n?)+/gi, '');

@@ -1,0 +1,428 @@
+// functions/src/new-architecture/reporting-functions.ts
+import * as functions from "firebase-functions";
+import * as admin from "firebase-admin";
+
+const db = admin.firestore();
+
+export const generateComprehensiveReport = functions.https.onCall(async (data, context) => {
+  if (!context.auth) {
+    throw new functions.https.HttpsError('unauthenticated', 'User must be authenticated');
+  }
+
+  const { 
+    userId, 
+    reportType, 
+    timeframe = '1_week',
+    audience = 'student',
+    includeComparisons = false,
+    includeRecommendations = true,
+    includePredictiveInsights = false 
+  } = data;
+
+  try {
+    console.log(`📊 Generating comprehensive report: ${reportType} for user: ${userId}`);
+
+    // Get user profile and learning data
+    const [userProfile, skillProgress, learningAnalytics] = await Promise.all([
+      getUserProfile(userId),
+      getUserSkillProgress(userId),
+      getLearningAnalytics(userId, timeframe)
+    ]);
+
+    // Generate report based on type
+    let report;
+    switch (reportType) {
+      case 'daily_summary':
+        report = await generateDailySummaryReport(userId, userProfile, skillProgress, learningAnalytics);
+        break;
+      case 'weekly_progress':
+        report = await generateWeeklyProgressReport(userId, userProfile, skillProgress, learningAnalytics);
+        break;
+      case 'parent_insight':
+        report = await generateParentInsightReport(userId, userProfile, skillProgress, learningAnalytics);
+        break;
+      case 'skill_mastery':
+        report = await generateSkillMasteryReport(userId, userProfile, skillProgress, learningAnalytics);
+        break;
+      case 'learning_trajectory':
+        report = await generateLearningTrajectoryReport(userId, userProfile, skillProgress, learningAnalytics);
+        break;
+      default:
+        throw new functions.https.HttpsError('invalid-argument', `Unknown report type: ${reportType}`);
+    }
+
+    // Add comparative analysis if requested
+    if (includeComparisons) {
+      report.comparativeAnalysis = await generateComparativeAnalysis(userId, report, audience);
+    }
+
+    // Add recommendations if requested
+    if (includeRecommendations) {
+      report.recommendations = await generateRecommendations(userId, report, userProfile);
+    }
+
+    // Add predictive insights if requested
+    if (includePredictiveInsights) {
+      report.predictiveInsights = await generatePredictiveInsights(userId, report, learningAnalytics);
+    }
+
+    // Add metadata
+    report.metadata = {
+      generatedAt: admin.firestore.FieldValue.serverTimestamp(),
+      reportType,
+      timeframe,
+      audience,
+      userId,
+      version: '2.0',
+    };
+
+    console.log(`✅ Comprehensive report generated for user: ${userId}`);
+    return report;
+
+  } catch (error) {
+    console.error('❌ Failed to generate comprehensive report:', error);
+    throw new functions.https.HttpsError('internal', 'Failed to generate report');
+  }
+});
+
+export const generateParentInsights = functions.https.onCall(async (data, context) => {
+  if (!context.auth) {
+    throw new functions.https.HttpsError('unauthenticated', 'User must be authenticated');
+  }
+
+  const { parentUserId, childUserId, insightType = 'weekly' } = data;
+
+  try {
+    console.log(`👨‍👩‍👧‍👦 Generating parent insights for child: ${childUserId}`);
+
+    // Verify parent-child relationship
+    const relationshipDoc = await db.collection('parentChildRelationships')
+      .where('parentUid', '==', parentUserId)
+      .where('childUid', '==', childUserId)
+      .where('status', '==', 'active')
+      .limit(1)
+      .get();
+
+    if (relationshipDoc.empty) {
+      throw new functions.https.HttpsError('permission-denied', 'Invalid parent-child relationship');
+    }
+
+    // Get child's learning data
+    const [childProfile, skillProgress, learningAnalytics, recentQuests] = await Promise.all([
+      getUserProfile(childUserId),
+      getUserSkillProgress(childUserId),
+      getLearningAnalytics(childUserId, '1_week'),
+      getRecentQuests(childUserId, 7)
+    ]);
+
+    // Generate parent-specific insights
+    const insights = {
+      learningMomentum: calculateLearningMomentum(learningAnalytics),
+      strengthsAndChallenges: identifyStrengthsAndChallenges(skillProgress, learningAnalytics),
+      engagementPatterns: analyzeEngagementPatterns(learningAnalytics),
+      learningTimeAnalysis: analyzeLearningTime(learningAnalytics),
+      strugglingAreas: identifyStrugglingAreas(skillProgress, learningAnalytics),
+      celebrationMoments: identifyCelebrationMoments(recentQuests, skillProgress),
+      recommendedActions: generateParentActions(childProfile, skillProgress, learningAnalytics),
+      progressTrend: calculateProgressTrend(learningAnalytics),
+      nextMilestones: identifyNextMilestones(skillProgress),
+      supportSuggestions: generateSupportSuggestions(childProfile, skillProgress),
+    };
+
+    console.log(`✅ Parent insights generated for child: ${childUserId}`);
+    return {
+      ...insights,
+      childUserId,
+      parentUserId,
+      generatedAt: admin.firestore.FieldValue.serverTimestamp(),
+      insightType,
+    };
+
+  } catch (error) {
+    console.error('❌ Failed to generate parent insights:', error);
+    throw new functions.https.HttpsError('internal', 'Failed to generate parent insights');
+  }
+});
+
+export const generateLearningInsights = functions.https.onCall(async (data, context) => {
+  if (!context.auth) {
+    throw new functions.https.HttpsError('unauthenticated', 'User must be authenticated');
+  }
+
+  const { userId, analysisType = 'comprehensive' } = data;
+
+  try {
+    console.log(`🧠 Generating learning insights for user: ${userId}`);
+
+    // Get comprehensive learning data
+    const [skillProgress, learningAnalytics, questHistory, cardInteractions] = await Promise.all([
+      getUserSkillProgress(userId),
+      getLearningAnalytics(userId, '1_month'),
+      getQuestHistory(userId, 30),
+      getCardInteractions(userId, 30)
+    ]);
+
+    // Generate insights
+    const insights = {
+      learningStyle: detectLearningStyle(cardInteractions, questHistory),
+      optimalLearningTimes: identifyOptimalLearningTimes(learningAnalytics),
+      conceptualUnderstanding: assessConceptualUnderstanding(skillProgress, cardInteractions),
+      retentionPatterns: analyzeRetentionPatterns(skillProgress, learningAnalytics),
+      motivationFactors: identifyMotivationFactors(questHistory, learningAnalytics),
+      adaptivityRecommendations: generateAdaptivityRecommendations(learningAnalytics),
+      learningEfficiency: calculateLearningEfficiency(learningAnalytics, skillProgress),
+      strugglingPatterns: identifyStrugglingPatterns(skillProgress, questHistory),
+      strengthAreas: identifyStrengthAreas(skillProgress, learningAnalytics),
+      nextOptimalActions: predictOptimalActions(skillProgress, learningAnalytics),
+    };
+
+    console.log(`✅ Learning insights generated for user: ${userId}`);
+    return {
+      ...insights,
+      userId,
+      generatedAt: admin.firestore.FieldValue.serverTimestamp(),
+      analysisType,
+    };
+
+  } catch (error) {
+    console.error('❌ Failed to generate learning insights:', error);
+    throw new functions.https.HttpsError('internal', 'Failed to generate learning insights');
+  }
+});
+
+// Helper functions for report generation
+
+async function getUserProfile(userId: string): Promise<any> {
+  const doc = await db.collection('newUserProfiles').doc(userId).get();
+  return doc.exists ? doc.data() : {};
+}
+
+async function getUserSkillProgress(userId: string): Promise<any> {
+  const doc = await db.collection('newSkillProgress').doc(userId).get();
+  return doc.exists ? doc.data() : {};
+}
+
+async function getLearningAnalytics(userId: string, timeframe: string): Promise<any> {
+  const doc = await db.collection('newLearningAnalytics').doc(userId).get();
+  return doc.exists ? doc.data() : {};
+}
+
+async function getRecentQuests(userId: string, days: number): Promise<any[]> {
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - days);
+  
+  const questsQuery = await db.collection('newQuestProgress')
+    .where('userId', '==', userId)
+    .where('startedAt', '>=', admin.firestore.Timestamp.fromDate(cutoff))
+    .orderBy('startedAt', 'desc')
+    .get();
+  
+  return questsQuery.docs.map(doc => doc.data());
+}
+
+async function getQuestHistory(userId: string, days: number): Promise<any[]> {
+  return getRecentQuests(userId, days);
+}
+
+async function getCardInteractions(userId: string, days: number): Promise<any[]> {
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - days);
+  
+  const interactionsQuery = await db.collection('newConceptCardSessions')
+    .where('userId', '==', userId)
+    .where('startedAt', '>=', admin.firestore.Timestamp.fromDate(cutoff))
+    .orderBy('startedAt', 'desc')
+    .get();
+  
+  return interactionsQuery.docs.map(doc => doc.data());
+}
+
+async function generateDailySummaryReport(userId: string, userProfile: any, skillProgress: any, learningAnalytics: any): Promise<any> {
+  const today = new Date().toISOString().split('T')[0];
+  const todayStats = learningAnalytics.dailyStats?.[today] || {};
+  
+  return {
+    type: 'daily_summary',
+    summary: {
+      questionsAttempted: todayStats.questionsAttempted || 0,
+      questionsCorrect: todayStats.questionsCorrect || 0,
+      conceptCardsStudied: todayStats.conceptCardsStudied || 0,
+      studyTimeMinutes: Math.round((todayStats.studyTimeSeconds || 0) / 60),
+      questsCompleted: todayStats.questsCompleted || 0,
+    },
+    highlights: generateDailyHighlights(todayStats, skillProgress),
+    todaysGoals: generateTodaysGoals(userProfile, skillProgress),
+    encouragement: generateEncouragementMessage(todayStats, userProfile),
+  };
+}
+
+async function generateWeeklyProgressReport(userId: string, userProfile: any, skillProgress: any, learningAnalytics: any): Promise<any> {
+  const weeklyData = aggregateWeeklyData(learningAnalytics);
+  
+  return {
+    type: 'weekly_progress',
+    summary: weeklyData,
+    skillProgression: analyzeSkillProgression(skillProgress),
+    learningPatterns: analyzeLearningPatterns(learningAnalytics),
+    achievements: identifyWeeklyAchievements(weeklyData, skillProgress),
+    areasForImprovement: identifyImprovementAreas(skillProgress, learningAnalytics),
+    weeklyGoals: generateWeeklyGoals(userProfile, skillProgress),
+  };
+}
+
+async function generateParentInsightReport(userId: string, userProfile: any, skillProgress: any, learningAnalytics: any): Promise<any> {
+  return {
+    type: 'parent_insight',
+    childProgress: summarizeChildProgress(skillProgress, learningAnalytics),
+    engagementLevel: calculateEngagementLevel(learningAnalytics),
+    learningHabits: analyzeLearningHabits(learningAnalytics),
+    socialEmotionalGrowth: assessSocialEmotionalGrowth(userProfile, learningAnalytics),
+    academicProgress: assessAcademicProgress(skillProgress),
+    recommendationsForParents: generateParentRecommendations(userProfile, skillProgress),
+    celebrationOpportunities: identifyParentCelebrationOpportunities(skillProgress, learningAnalytics),
+  };
+}
+
+async function generateSkillMasteryReport(userId: string, userProfile: any, skillProgress: any, learningAnalytics: any): Promise<any> {
+  return {
+    type: 'skill_mastery',
+    masteredSkills: identifyMasteredSkills(skillProgress),
+    skillsInProgress: identifySkillsInProgress(skillProgress),
+    strugglingSkills: identifyStrugglingSkills(skillProgress),
+    skillConnections: identifySkillConnections(skillProgress),
+    masteryTrajectory: calculateMasteryTrajectory(skillProgress, learningAnalytics),
+    nextSkillTargets: recommendNextSkillTargets(skillProgress),
+  };
+}
+
+async function generateLearningTrajectoryReport(userId: string, userProfile: any, skillProgress: any, learningAnalytics: any): Promise<any> {
+  return {
+    type: 'learning_trajectory',
+    learningVelocity: calculateLearningVelocity(learningAnalytics),
+    difficultyProgression: analyzeDifficultyProgression(learningAnalytics),
+    conceptualGrowth: analyzeConceptualGrowth(skillProgress),
+    futureProjections: generateFutureProjections(skillProgress, learningAnalytics),
+    learningMilestones: identifyLearningMilestones(skillProgress),
+    adaptiveRecommendations: generateAdaptiveRecommendations(learningAnalytics),
+  };
+}
+
+// Placeholder implementation for various analysis functions
+function calculateLearningMomentum(analytics: any): any {
+  return { momentum: 'positive', trend: 'improving' };
+}
+
+function identifyStrengthsAndChallenges(skillProgress: any, analytics: any): any {
+  return { strengths: [], challenges: [] };
+}
+
+function analyzeEngagementPatterns(analytics: any): any {
+  return { pattern: 'consistent', peakTimes: ['afternoon'] };
+}
+
+function analyzeLearningTime(analytics: any): any {
+  return { averageDaily: 25, trend: 'increasing' };
+}
+
+function identifyStrugglingAreas(skillProgress: any, analytics: any): any {
+  return [];
+}
+
+function identifyCelebrationMoments(quests: any[], skillProgress: any): any {
+  return [];
+}
+
+function generateParentActions(profile: any, skillProgress: any, analytics: any): any {
+  return [];
+}
+
+function calculateProgressTrend(analytics: any): any {
+  return { direction: 'positive', rate: 'moderate' };
+}
+
+function identifyNextMilestones(skillProgress: any): any {
+  return [];
+}
+
+function generateSupportSuggestions(profile: any, skillProgress: any): any {
+  return [];
+}
+
+function generateDailyHighlights(todayStats: any, skillProgress: any): any {
+  return [];
+}
+
+function generateTodaysGoals(userProfile: any, skillProgress: any): any {
+  return [];
+}
+
+function generateEncouragementMessage(todayStats: any, userProfile: any): string {
+  return 'Great work today! Keep up the learning momentum.';
+}
+
+function aggregateWeeklyData(analytics: any): any {
+  return {};
+}
+
+function analyzeSkillProgression(skillProgress: any): any {
+  return {};
+}
+
+function analyzeLearningPatterns(analytics: any): any {
+  return {};
+}
+
+function identifyWeeklyAchievements(weeklyData: any, skillProgress: any): any {
+  return [];
+}
+
+function identifyImprovementAreas(skillProgress: any, analytics: any): any {
+  return [];
+}
+
+function generateWeeklyGoals(userProfile: any, skillProgress: any): any {
+  return [];
+}
+
+async function generateComparativeAnalysis(userId: string, report: any, audience: string): Promise<any> {
+  return {};
+}
+
+async function generateRecommendations(userId: string, report: any, userProfile: any): Promise<any> {
+  return [];
+}
+
+async function generatePredictiveInsights(userId: string, report: any, analytics: any): Promise<any> {
+  return {};
+}
+
+// Additional placeholder functions for comprehensive analysis
+function summarizeChildProgress(skillProgress: any, analytics: any): any { return {}; }
+function calculateEngagementLevel(analytics: any): any { return {}; }
+function analyzeLearningHabits(analytics: any): any { return {}; }
+function assessSocialEmotionalGrowth(profile: any, analytics: any): any { return {}; }
+function assessAcademicProgress(skillProgress: any): any { return {}; }
+function generateParentRecommendations(profile: any, skillProgress: any): any { return []; }
+function identifyParentCelebrationOpportunities(skillProgress: any, analytics: any): any { return []; }
+function identifyMasteredSkills(skillProgress: any): any { return []; }
+function identifySkillsInProgress(skillProgress: any): any { return []; }
+function identifyStrugglingSkills(skillProgress: any): any { return []; }
+function identifySkillConnections(skillProgress: any): any { return {}; }
+function calculateMasteryTrajectory(skillProgress: any, analytics: any): any { return {}; }
+function recommendNextSkillTargets(skillProgress: any): any { return []; }
+function calculateLearningVelocity(analytics: any): any { return {}; }
+function analyzeDifficultyProgression(analytics: any): any { return {}; }
+function analyzeConceptualGrowth(skillProgress: any): any { return {}; }
+function generateFutureProjections(skillProgress: any, analytics: any): any { return {}; }
+function identifyLearningMilestones(skillProgress: any): any { return []; }
+function generateAdaptiveRecommendations(analytics: any): any { return []; }
+function detectLearningStyle(cardInteractions: any[], questHistory: any[]): any { return {}; }
+function identifyOptimalLearningTimes(analytics: any): any { return {}; }
+function assessConceptualUnderstanding(skillProgress: any, cardInteractions: any[]): any { return {}; }
+function analyzeRetentionPatterns(skillProgress: any, analytics: any): any { return {}; }
+function identifyMotivationFactors(questHistory: any[], analytics: any): any { return {}; }
+function generateAdaptivityRecommendations(analytics: any): any { return []; }
+function calculateLearningEfficiency(analytics: any, skillProgress: any): any { return {}; }
+function identifyStrugglingPatterns(skillProgress: any, questHistory: any[]): any { return {}; }
+function identifyStrengthAreas(skillProgress: any, analytics: any): any { return []; }
+function predictOptimalActions(skillProgress: any, analytics: any): any { return []; }

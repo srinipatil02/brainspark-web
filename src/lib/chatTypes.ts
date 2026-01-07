@@ -19,7 +19,7 @@ export interface ConceptChatOptions {
   includeExamples?: boolean;
   maxComplexity?: 'auto' | 'basic' | 'intermediate' | 'advanced';
   includeFollowUps?: boolean;
-  maxResponseLength?: number;
+  maxResponseLength?: number; // Number of sentences (1-10)
   socraticMode?: boolean;
 }
 

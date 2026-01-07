@@ -1,0 +1,364 @@
+{
+  "metadata": {
+    "setNumber": 2,
+    "title": "Heat & Temperature",
+    "questionRange": "Q11-Q20"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-y8-energy-011",
+      "questionType": "multiple-choice",
+      "stem": "What is the main difference between heat and temperature?",
+      "options": [
+        "Heat is the total energy of particles, temperature measures the average energy",
+        "Heat is measured in degrees, temperature is measured in joules",
+        "Heat only exists in hot objects, temperature exists in all objects",
+        "Heat moves between objects, temperature stays in one place"
+      ],
+      "correctAnswer": 0,
+      "solution": "Heat and temperature are related but different concepts. Heat is the total thermal energy in an object - it depends on how many particles there are and how fast they're moving. Temperature measures the average kinetic energy of the particles - how fast they're typically moving. Think of it this way: a cup of hot water and a bathtub of hot water might have the same temperature (particles moving at the same average speed), but the bathtub contains much more heat because it has many more particles. Temperature tells us how hot something feels, while heat tells us the total amount of thermal energy present.",
+      "difficulty": 1,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what happens when you compare a cup of boiling water to a bathtub of warm water - which has more total energy?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Heat is about the total amount of energy, while temperature is about the average energy per particle.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 11
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-012",
+      "questionType": "short-answer",
+      "stem": "Telephone wires are left slightly loose between poles. Explain why this is important, using the concept of thermal expansion.",
+      "solution": "Telephone wires are left loose to allow for thermal expansion. When temperature increases on hot days, the metal wires expand and get longer. If the wires were stretched tight, they would have no room to expand and could snap or pull the poles over. In cold weather, the wires contract and get shorter, which is why they appear tighter. The loose installation provides slack so the wires can safely expand and contract with temperature changes without breaking. This is an important practical application of thermal expansion that engineers must consider when designing infrastructure in Australia's varying climate.",
+      "difficulty": 2,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what happens to the metal wire when it gets hot on a summer day.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Metal expands when heated and contracts when cooled. What would happen if there was no slack?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 12
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-013",
+      "questionType": "multiple-choice",
+      "stem": "A metal spoon left in a hot cup of tea becomes warm to touch. Which method of heat transfer is primarily responsible for this?",
+      "options": [
+        "Conduction - heat travels through the solid metal",
+        "Convection - hot liquid flows up the spoon",
+        "Radiation - heat waves travel from the tea to the spoon",
+        "Evaporation - steam heats the spoon"
+      ],
+      "correctAnswer": 0,
+      "solution": "The metal spoon heats up primarily through conduction. Conduction is the transfer of heat through a solid material when particles collide with neighbouring particles, passing energy along. In metals, this happens very efficiently because metals have free-moving electrons that can carry energy quickly. The heat from the hot tea at the bottom of the spoon causes particles to vibrate more rapidly, and these vibrations are passed from particle to particle up through the metal handle. This is why the entire spoon eventually becomes warm, even the end that isn't touching the liquid. Metals are excellent thermal conductors, which is why we need to be careful with metal utensils in hot drinks.",
+      "difficulty": 1,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "The spoon is a solid object. Which heat transfer method works through solids?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Heat traveling through a solid material from particle to particle is called conduction.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 13
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-014",
+      "questionType": "explanation",
+      "stem": "Explain why coastal areas in Australia often experience sea breezes during the day. Include the term 'convection' in your answer.",
+      "solution": "Sea breezes occur due to convection currents caused by different heating rates of land and water. During the day, the sun heats both the land and the ocean. Land heats up much faster than water because it has a lower specific heat capacity. The hot land heats the air above it, causing the air to expand, become less dense, and rise. This creates a low-pressure area over the land. Meanwhile, the air over the cooler ocean remains denser and at higher pressure. The cooler, denser ocean air moves in toward the land to replace the rising warm air, creating a sea breeze. This convection cycle continues as long as the land remains warmer than the ocean, which is why sea breezes are common on warm Australian afternoons.",
+      "difficulty": 2,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Consider how land and water heat up at different rates during the day. What happens to air when it's heated?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Warm air rises over the land, and cooler air from the ocean moves in to replace it. This circular movement is convection.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 14
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-015",
+      "questionType": "multiple-choice",
+      "stem": "Which of the following is the best thermal insulator?",
+      "options": [
+        "Copper",
+        "Steel",
+        "Air trapped in foam",
+        "Aluminium"
+      ],
+      "correctAnswer": 2,
+      "solution": "Air trapped in foam is the best thermal insulator among these options. Insulators are materials that slow down heat transfer. Air is naturally a poor conductor of heat because its particles are spread far apart and don't collide frequently enough to transfer energy efficiently. When air is trapped in small pockets within foam, it cannot move to create convection currents, making it an excellent insulator. This is why materials like polystyrene foam, foam drink cups, and insulation in walls contain trapped air. In contrast, copper, steel, and aluminium are all metals, which are excellent thermal conductors due to their free-moving electrons. These metals would allow heat to transfer rapidly and are therefore poor insulators.",
+      "difficulty": 1,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what keeps your drink cold in a foam cup. Are metals good or bad at transferring heat?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Metals are conductors (they transfer heat easily). Air, especially when trapped so it can't move, is an excellent insulator.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 15
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-016",
+      "questionType": "short-answer",
+      "stem": "Oven mitts are made from thick fabric rather than thin cotton. Explain why this design makes them more effective at protecting your hands from heat.",
+      "solution": "Thick fabric oven mitts are more effective because they contain more trapped air between the fibres, making them better thermal insulators. The thickness provides multiple layers of material with air pockets throughout. Air is a poor conductor of heat, so these trapped air spaces slow down the heat transfer from the hot oven dish to your hand. Thin cotton has fewer air pockets and less material for the heat to travel through, so heat transfers more quickly to your hand. Additionally, the thickness increases the distance heat must travel, giving it more time to dissipate. This is why thick oven mitts can protect you from hot objects while thin fabric would let too much heat through and burn you.",
+      "difficulty": 1,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what's trapped inside thick fabric. Is it a good or bad conductor of heat?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Thick fabric has more air spaces trapped between fibres. Air is an excellent insulator that slows heat transfer.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 16
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-017",
+      "questionType": "multiple-choice",
+      "stem": "How does heat from the Sun reach Earth?",
+      "options": [
+        "Through conduction via particles in space",
+        "Through convection currents in the atmosphere",
+        "Through radiation as electromagnetic waves",
+        "Through direct contact between the Sun and Earth"
+      ],
+      "correctAnswer": 2,
+      "solution": "Heat from the Sun reaches Earth through radiation. Radiation is the transfer of energy as electromagnetic waves (including infrared light and visible light) that can travel through empty space. Unlike conduction and convection, radiation doesn't need particles or a medium to travel through. The space between the Sun and Earth is a near-vacuum with very few particles, so conduction and convection cannot occur. The Sun emits electromagnetic radiation that travels through space at the speed of light. When this radiation reaches Earth, it's absorbed by the atmosphere, land, and oceans, warming them up. This is the only way heat can transfer through the vacuum of space, which is why radiation is so important for life on Earth.",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what exists (or doesn't exist) between the Sun and Earth. Can conduction or convection work without particles?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Space is mostly empty (a vacuum). Only radiation can transfer energy through empty space without needing particles.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 17
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-018",
+      "questionType": "explanation",
+      "stem": "A liquid-in-glass thermometer uses thermal expansion to measure temperature. Describe how this thermometer works and why the liquid rises when temperature increases.",
+      "solution": "A liquid-in-glass thermometer contains a liquid (usually coloured alcohol or mercury) in a sealed glass tube with a bulb at the bottom and a narrow tube above it. When the thermometer is placed in a warm environment, the liquid in the bulb absorbs heat energy. This causes the liquid particles to move faster and spread further apart, making the liquid expand and take up more space. Because the bulb and narrow tube are sealed, the only place for the expanding liquid to go is up the narrow tube. The higher the temperature, the more the liquid expands and the higher it rises. The tube has markings that correspond to specific temperatures. When the liquid cools, particles slow down and move closer together, causing the liquid to contract and fall back down the tube.",
+      "difficulty": 2,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What happens to the particles in a liquid when it gets warmer? Do they move closer together or further apart?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "When heated, liquid particles move faster and spread out (expand). The liquid needs more space, so it rises up the narrow tube.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 18
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-019",
+      "questionType": "multiple-choice",
+      "stem": "Water is boiling in a saucepan on a stove. Which heat transfer method is primarily responsible for heating the water throughout the pan?",
+      "options": [
+        "Conduction through the water molecules",
+        "Radiation from the hot bottom of the pan",
+        "Convection currents in the water",
+        "Evaporation from the surface"
+      ],
+      "correctAnswer": 2,
+      "solution": "Water throughout the pan heats primarily through convection currents. Here's how it works: The bottom of the pan heats by conduction from the stove element. Water touching the hot bottom absorbs this heat and warms up. Warm water becomes less dense and rises toward the top. Cooler, denser water from the top sinks to the bottom to replace it. This creates a circular convection current. Hot water rises, cools slightly at the top, sinks back down, gets reheated, and rises again. These continuous convection currents distribute heat throughout the entire pan of water. While conduction does occur between water molecules, it's slow. Convection is much more efficient at heating liquids because the actual movement of the warm water carries heat energy throughout the pan quickly.",
+      "difficulty": 2,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what happens to water when it's heated. Does warm water sink or rise? Does cold water sink or rise?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Warm water rises and cold water sinks, creating a circular movement called a convection current. This carries heat throughout the liquid.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 19
+      },
+      "status": "active"
+    },
+    {
+      "questionId": "nsw-y8-energy-020",
+      "questionType": "short-answer",
+      "stem": "A hot air balloon rises into the sky when the air inside is heated. Explain the scientific principle that allows this to happen.",
+      "solution": "Hot air balloons rise due to thermal expansion and density differences. When the burner heats the air inside the balloon, the air particles gain energy and move faster. As they move faster, they spread further apart, causing the air to expand. This expansion means the same number of particles now occupy a larger volume, making the air less dense (lighter). The cooler air outside the balloon is denser (heavier) because its particles are closer together. According to the principle of buoyancy, less dense objects float in denser fluids. The hot, less dense air inside the balloon is pushed upward by the denser cool air surrounding it, causing the balloon to rise. The higher the temperature inside, the greater the difference in density and the faster the balloon rises.",
+      "difficulty": 2,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": ["ACSSU155"],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Physical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What happens to air particles when they're heated? Do they get closer together or further apart? How does this affect density?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Hot air expands and becomes less dense (lighter) than cold air. Less dense air floats upward in denser air, carrying the balloon with it.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-science-energy-medium",
+        "sequenceInPaper": 20
+      },
+      "status": "active"
+    }
+  ]
+}
