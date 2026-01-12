@@ -1,0 +1,453 @@
+{
+  "topic": "Rocks and Minerals",
+  "topicId": "rocks-minerals",
+  "outcomeCode": "ACSSU153",
+  "year": 8,
+  "researchedAt": "2026-01-10",
+
+  "curriculumAlignment": {
+    "outcomeDescription": "Sedimentary, igneous and metamorphic rocks contain minerals and are formed by processes that occur within Earth over a variety of timescales",
+    "v9ContentDescriptor": "Classify rocks as sedimentary, igneous or metamorphic based on their observable properties and how they are formed; identify that all rocks are composed of one or more minerals",
+    "strand": "Earth and Space Sciences",
+    "stage": "Stage 4",
+    "syllabus": "NSW Science 7-10 (2023)",
+    "prerequisiteOutcomes": ["ACSSU134"],
+    "progressionOutcomes": ["ACSSU180", "ACSSU189"],
+    "elaborations": [
+      "Representing the stages in the formation of igneous, metamorphic and sedimentary rocks, including indications of timescales involved",
+      "Identifying a range of common rock types using a key based on observable physical and chemical properties",
+      "Recognising that rocks are a collection of different minerals",
+      "Considering the role of forces and energy in the formation of different types of rocks and minerals",
+      "Recognising that some rocks and minerals, such as ores, provide valuable resources"
+    ]
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Three rock types",
+      "description": "Rocks are classified into three main types based on formation: igneous (from cooled magma/lava), sedimentary (from compressed sediments), metamorphic (from heat/pressure transformation)",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c2", "c3", "c4", "c5"]
+    },
+    {
+      "id": "c2",
+      "name": "Igneous rock formation",
+      "description": "Igneous rocks form when molten rock (magma/lava) cools and solidifies. Intrusive rocks cool slowly underground (large crystals), extrusive rocks cool quickly on surface (small crystals)",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c6", "c7", "c8"]
+    },
+    {
+      "id": "c3",
+      "name": "Sedimentary rock formation",
+      "description": "Sedimentary rocks form when sediments (weathered rock particles, shells, organic matter) are deposited, buried, compacted, and cemented over time",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c6", "c7", "c9"]
+    },
+    {
+      "id": "c4",
+      "name": "Metamorphic rock formation",
+      "description": "Metamorphic rocks form when existing rocks are transformed by extreme heat and/or pressure without melting (recrystallization)",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c6", "c7", "c8"]
+    },
+    {
+      "id": "c5",
+      "name": "Minerals vs rocks",
+      "description": "Minerals are naturally occurring inorganic solids with a definite chemical composition and crystalline structure. Rocks are aggregates of one or more minerals",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c9", "c10"]
+    },
+    {
+      "id": "c6",
+      "name": "Rock cycle",
+      "description": "The continuous process of rock formation, breakdown, and reformation through geological processes (weathering, erosion, deposition, burial, metamorphism, melting, cooling)",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c8"]
+    },
+    {
+      "id": "c7",
+      "name": "Geological timescales",
+      "description": "Rock formation processes occur over vastly different timescales - from hours (volcanic eruptions) to millions of years (mountain formation)",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c8"]
+    },
+    {
+      "id": "c8",
+      "name": "Tectonic forces and energy",
+      "description": "Earth's internal heat and plate tectonics provide the energy and forces that drive rock formation processes (magma generation, mountain building, burial)",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": []
+    },
+    {
+      "id": "c9",
+      "name": "Mineral identification properties",
+      "description": "Minerals are identified by physical properties: hardness (Mohs scale), streak, luster, cleavage/fracture, color, crystal shape",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c10"]
+    },
+    {
+      "id": "c10",
+      "name": "Rock and mineral resources",
+      "description": "Rocks and minerals as valuable resources: ores (metal sources), building materials, fossil fuels, and their extraction/sustainability considerations",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": []
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "misconception": "Rocks and minerals are the same thing",
+      "correction": "Minerals are pure substances with a specific chemical composition and crystal structure (e.g., quartz, feldspar). Rocks are made of one or more minerals combined together (e.g., granite contains quartz, feldspar, and mica)",
+      "prevalence": "high",
+      "source": "Beyond Penguins (OSU); Generation Genius",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m2",
+      "misconception": "The rock cycle follows one predetermined order",
+      "correction": "Any rock type can transform into any other type directly - the cycle has multiple pathways. Sedimentary can melt directly to become igneous without being metamorphic first",
+      "prevalence": "high",
+      "source": "Khan Academy; ERIC research",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m3",
+      "misconception": "Metamorphic rocks melt to form",
+      "correction": "Metamorphic rocks form without melting - they stay solid throughout the transformation. Only if temperature exceeds the melting point does the rock become magma (then igneous when it cools)",
+      "prevalence": "high",
+      "source": "Geology misconceptions research (Tandfonline)",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m4",
+      "misconception": "Geological processes only happen over millions of years",
+      "correction": "Some processes are very fast (volcanic eruption in hours, obsidian cooling in minutes) while others take millions of years (mountain formation, sedimentary rock layers)",
+      "prevalence": "high",
+      "source": "KnowAtom; ERIC research",
+      "questionPhase": 2,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m5",
+      "misconception": "Earth's surface is constant and unchanging",
+      "correction": "Earth's surface is constantly being reshaped by geological processes including weathering, erosion, volcanic activity, and plate tectonics",
+      "prevalence": "high",
+      "source": "KnowAtom 8th Grade Science",
+      "questionPhase": 3,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m6",
+      "misconception": "Soil is the precursor of rocks (soil changes to clay to rock)",
+      "correction": "Soil forms FROM weathered rocks, not the other way around. Soil is the product of rock breakdown, not the starting material for rock formation",
+      "prevalence": "medium",
+      "source": "Beyond Penguins (OSU)",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m7",
+      "misconception": "Minerals form separately, then come together to form rocks",
+      "correction": "Minerals typically crystallize together as the rock forms - from cooling magma, from precipitation, or during recrystallization. They don't join pre-formed",
+      "prevalence": "medium",
+      "source": "Tandfonline geology misconceptions",
+      "questionPhase": 3,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m8",
+      "misconception": "Small rock fragments aren't rocks (they're 'stones')",
+      "correction": "Size doesn't determine if something is a rock. A small piece of granite is still a rock, not a different material. 'Stone' is just an informal term",
+      "prevalence": "medium",
+      "source": "Beyond Penguins (OSU)",
+      "questionPhase": 2,
+      "diagnosticValue": "low"
+    },
+    {
+      "id": "m9",
+      "misconception": "All metals are hard (high hardness on Mohs scale)",
+      "correction": "Many metals are quite soft - gold can be scratched with a fingernail (hardness 2.5), lead is even softer. Diamond is the hardest material, not a metal",
+      "prevalence": "medium",
+      "source": "MDPI Geosciences 2024",
+      "questionPhase": 3,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m10",
+      "misconception": "Earth's mantle is liquid magma",
+      "correction": "The mantle is mostly solid rock that flows very slowly over geological time (like thick honey). Only localized pockets melt to form magma. The outer core is liquid, not the mantle",
+      "prevalence": "high",
+      "source": "10 Common Misconceptions Earth Sciences (Labster)",
+      "questionPhase": 4,
+      "diagnosticValue": "high"
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "Uluru (Ayers Rock) - arkose sandstone monolith",
+      "concepts": ["c1", "c3", "c7"],
+      "curiosityHook": "How did a giant rock 348 meters tall form in the middle of a flat desert? And why is it red?",
+      "questionPhase": 2,
+      "australianRelevance": "Australia's most famous rock formation, UNESCO World Heritage site, cultural significance to Anangu people"
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Pilbara ancient rocks (4 billion years old)",
+      "concepts": ["c1", "c7", "c8"],
+      "curiosityHook": "Why does Western Australia have some of the oldest rocks on Earth, and what can they tell us about early Earth?",
+      "questionPhase": 4,
+      "australianRelevance": "Pilbara contains rocks nearly as old as Earth itself; Jack Hills zircons date to 4.4 billion years"
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Victorian gold rush nuggets in quartz veins",
+      "concepts": ["c2", "c5", "c10"],
+      "curiosityHook": "Why is gold found in white quartz rocks, and why were so many massive nuggets found in Victoria?",
+      "questionPhase": 3,
+      "australianRelevance": "Victoria's gold rush shaped Australian history; many world's largest nuggets found here; orogenic gold deposits"
+    },
+    {
+      "id": "p4",
+      "phenomenon": "Pilbara iron ore banded iron formations",
+      "concepts": ["c3", "c7", "c10"],
+      "curiosityHook": "How did Australia end up with the world's largest iron ore deposits, and what do the colored bands tell us about ancient Earth?",
+      "questionPhase": 4,
+      "australianRelevance": "35% of Australia's exports; banded iron formations are over 2 billion years old; evidence of early oxygen atmosphere"
+    },
+    {
+      "id": "p5",
+      "phenomenon": "Blue Mountains sandstone cliffs",
+      "concepts": ["c1", "c3", "c6"],
+      "curiosityHook": "How did flat layers of sandstone become towering cliffs with a hazy blue appearance?",
+      "questionPhase": 2,
+      "australianRelevance": "World Heritage Area near Sydney; shows dramatic weathering and erosion; eucalyptus oil creates blue haze"
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Volcanic islands of Lord Howe Island",
+      "concepts": ["c1", "c2", "c7"],
+      "curiosityHook": "Why is this island shaped like a crescent, and what happened to the rest of the volcano?",
+      "questionPhase": 3,
+      "australianRelevance": "World's most southerly coral reef; remnant of 7-million-year-old volcano; basalt rocks clearly visible"
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Coober Pedy opal mining",
+      "concepts": ["c3", "c5", "c9"],
+      "curiosityHook": "Why does Australia produce 95% of the world's opals, and why do people live underground in Coober Pedy?",
+      "questionPhase": 3,
+      "australianRelevance": "'Opal capital of the world'; unique mineral formation in sedimentary rock; underground homes due to extreme heat"
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Mount Isa copper-zinc-lead deposits",
+      "concepts": ["c5", "c9", "c10"],
+      "curiosityHook": "How did three valuable metals end up concentrated together in the same location?",
+      "questionPhase": 4,
+      "australianRelevance": "One of Australia's most productive mining regions; polymetallic ore deposits; Queensland economy"
+    },
+    {
+      "id": "p9",
+      "phenomenon": "Granite tors of Wilsons Promontory",
+      "concepts": ["c1", "c2", "c6"],
+      "curiosityHook": "Why do these granite boulders look like they're balancing on top of each other?",
+      "questionPhase": 2,
+      "australianRelevance": "Victoria's most famous national park; dramatic granite landscape; evidence of spheroidal weathering"
+    },
+    {
+      "id": "p10",
+      "phenomenon": "Great Barrier Reef limestone formation",
+      "concepts": ["c1", "c3", "c7"],
+      "curiosityHook": "The Great Barrier Reef is made of rock, not just coral. How do living creatures create stone?",
+      "questionPhase": 3,
+      "australianRelevance": "World's largest reef system; biogenic limestone; connection between living organisms and rock formation"
+    }
+  ],
+
+  "scaffoldingSequence": [
+    {
+      "phase": 1,
+      "name": "Rock Types Foundation",
+      "focus": "Identifying and distinguishing the three rock types by their formation and observable properties",
+      "concepts": ["c1", "c2", "c3", "c4"],
+      "questionCount": 20,
+      "difficulty": "foundational"
+    },
+    {
+      "phase": 2,
+      "name": "Minerals and Properties",
+      "focus": "Understanding minerals as rock building blocks, mineral identification properties, rocks vs minerals distinction",
+      "concepts": ["c5", "c9"],
+      "questionCount": 20,
+      "difficulty": "foundational-to-intermediate"
+    },
+    {
+      "phase": 3,
+      "name": "Processes and Connections",
+      "focus": "Rock cycle pathways, transformation processes, challenging misconceptions about formation",
+      "concepts": ["c6", "c7"],
+      "questionCount": 20,
+      "difficulty": "intermediate"
+    },
+    {
+      "phase": 4,
+      "name": "Deep Earth and Applications",
+      "focus": "Tectonic forces, energy sources, resources, complex multi-step transformations",
+      "concepts": ["c8", "c10"],
+      "questionCount": 20,
+      "difficulty": "intermediate-to-advanced"
+    }
+  ],
+
+  "vocabularyProgression": {
+    "phase1": ["igneous", "sedimentary", "metamorphic", "magma", "lava", "sediment", "crystal", "formation", "molten"],
+    "phase2": ["mineral", "hardness", "streak", "luster", "cleavage", "Mohs scale", "quartz", "feldspar", "mica", "ore"],
+    "phase3": ["rock cycle", "weathering", "erosion", "deposition", "compaction", "cementation", "recrystallization", "intrusive", "extrusive"],
+    "phase4": ["tectonic", "mantle", "crust", "plate boundary", "subduction", "geological time", "billion years", "sustainable", "extraction"]
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": [
+      "Start with observable rock samples before introducing formation processes - concrete before abstract",
+      "Use visual rock cycle diagrams that show multiple pathways, not just one circular sequence",
+      "Introduce one rock type fully before comparing to others - avoid simultaneous introduction",
+      "Connect geological timescales to familiar references (human lifetime, recorded history, dinosaurs)",
+      "Use hands-on mineral testing before introducing Mohs scale numbers"
+    ],
+    "engagementStrategies": [
+      "Start with local Australian geology examples students might have visited (Uluru, Blue Mountains)",
+      "Use prediction activities: 'Will this rock scratch glass?' before testing",
+      "Show before/after photos of geological changes (volcanic eruptions, landslides)",
+      "Connect to construction materials around school - identify rocks in buildings",
+      "Use gold/gem mining stories to hook interest in mineral identification"
+    ],
+    "motivationFactors": [
+      "Connect to Australian mining industry and economy (iron ore, gold, opals)",
+      "Relate to adventure activities (rock climbing, caving, beach exploration)",
+      "Link to careers (geologist, mining engineer, jeweler, stonemason)",
+      "Connect to Aboriginal cultural significance of rock formations",
+      "Relate to natural disasters (volcanic eruptions, landslides) for relevance"
+    ],
+    "desirableDifficulties": [
+      "Mix rock type identification questions rather than grouping by type",
+      "Include 'trick' questions about rock cycle pathways to challenge predetermined order misconception",
+      "Vary timescales in questions (fast vs slow processes) to prevent anchoring",
+      "Require identification AND explanation of formation process together",
+      "Include Australian examples mixed with international for transfer"
+    ],
+    "spacedRepetitionPoints": ["c1", "c5", "c6", "c9"],
+    "testingEffectOpportunities": [
+      "Mineral identification quizzes using property descriptions",
+      "Rock cycle pathway prediction before revealing",
+      "Timescale estimation activities",
+      "Formation process sequencing"
+    ]
+  },
+
+  "questionDesignGuidelines": {
+    "mcqDistractorStrategy": "Use documented misconceptions as distractors: rock/mineral confusion (m1), predetermined cycle order (m2), metamorphic melting (m3), timescale misconceptions (m4)",
+    "shortAnswerFocus": "Require process explanations for transformations; ask students to connect observations to formation processes",
+    "diagramQuestions": "At least 35% of questions should involve rock cycle diagrams, rock sample images, or mineral property testing scenarios",
+    "calculationOpportunities": "Limited - focus on qualitative. Could include Mohs scale relative comparisons",
+    "realWorldApplication": "At least 50% should reference Australian geological features or mining industry",
+    "misconceptionTargeting": "Each phase should address 2-3 key misconceptions with questions designed to reveal and correct them"
+  },
+
+  "differentiationNotes": {
+    "supportStrategies": [
+      "Provide rock type identification flowcharts",
+      "Use color-coded graphic organizers for three rock types",
+      "Offer sentence starters: 'This rock is igneous because...'",
+      "Provide physical rock samples for tactile learners",
+      "Use simplified rock cycle diagrams with clear arrows"
+    ],
+    "extensionOpportunities": [
+      "Investigate radiometric dating methods for rocks",
+      "Research specific mineral crystal structures",
+      "Explore Australian geological history in depth",
+      "Investigate environmental impacts of mining",
+      "Study plate tectonics and its role in rock formation",
+      "Research careers in geology and mining"
+    ]
+  },
+
+  "sources": [
+    {
+      "name": "ACARA - ACSSU153 Content Description",
+      "type": "curriculum",
+      "url": "https://v8.australiancurriculum.edu.au/Search/?q=ACSSU153"
+    },
+    {
+      "name": "Beyond Penguins and Polar Bears - Common Misconceptions About Rocks and Minerals",
+      "type": "misconceptions",
+      "url": "https://beyondpenguins.ehe.osu.edu/issue/rocks-and-minerals/common-misconceptions-about-rocks-and-minerals"
+    },
+    {
+      "name": "MDPI Geosciences - Secondary Education Students' Misconceptions on Geology",
+      "type": "research",
+      "url": "https://www.mdpi.com/2076-3263/15/9/338"
+    },
+    {
+      "name": "Kortz and Murray - Barriers to Learning Rocks (ERIC)",
+      "type": "research",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1164759.pdf"
+    },
+    {
+      "name": "Geology misconceptions targeted by US national standards (Tandfonline)",
+      "type": "research",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/09500693.2020.1715509"
+    },
+    {
+      "name": "Khan Academy - The Rock Cycle",
+      "type": "pedagogical",
+      "url": "https://www.khanacademy.org/science/middle-school-earth-and-space-science/x87d03b443efbea0a:the-geosphere/x87d03b443efbea0a:the-rock-cycle/a/the-rock-cycle"
+    },
+    {
+      "name": "RSC Education - How to teach the chemistry of the rock cycle at 11-14",
+      "type": "pedagogical",
+      "url": "https://edu.rsc.org/cpd/how-to-teach-the-chemistry-of-the-rock-cycle-at-11-14/4012977.article"
+    },
+    {
+      "name": "Geoscience Australia - Australian Mineral Facts",
+      "type": "context",
+      "url": "https://www.ga.gov.au/education/minerals-energy/australian-mineral-facts"
+    },
+    {
+      "name": "Parks Australia - Uluru Geology",
+      "type": "context",
+      "url": "https://uluru.gov.au/discover/nature/geology/"
+    },
+    {
+      "name": "Australian Museum - Earth: Rocks and Minerals Education Program",
+      "type": "pedagogical",
+      "url": "https://australian.museum/learn/teachers/at-the-museum/earth-rocks-minerals/"
+    },
+    {
+      "name": "Resources Victoria - Gold Geology",
+      "type": "context",
+      "url": "https://resources.vic.gov.au/geology-exploration/minerals/metals/gold"
+    },
+    {
+      "name": "National Geographic - The Rock Cycle",
+      "type": "pedagogical",
+      "url": "https://education.nationalgeographic.org/resource/rock-cycle/"
+    },
+    {
+      "name": "Labster - 10 Common Misconceptions about Earth Sciences",
+      "type": "misconceptions",
+      "url": "https://www.labster.com/blog/common-misconceptions-earth-sciences"
+    },
+    {
+      "name": "KnowAtom - The Rock Cycle 8th Grade Science",
+      "type": "pedagogical",
+      "url": "https://www.knowatom.com/science-phenomena-videos/8th-grade-science/the-rock-cycle"
+    }
+  ]
+}

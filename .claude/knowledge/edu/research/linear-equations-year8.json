@@ -1,0 +1,399 @@
+{
+  "topic": "Linear Equations",
+  "topicId": "linear-equations",
+  "outcomeCode": "ACMNA194",
+  "nswOutcomeCode": "MA4-EQU-C-01",
+  "year": 8,
+  "researchedAt": "2026-01-11",
+  "sources": [
+    "https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-019-0183-2",
+    "https://files.eric.ed.gov/fulltext/EJ1294052.pdf",
+    "https://www.researchgate.net/publication/296935886_Student_Difficulties_and_Misconceptions_in_Solving_Simple_Linear_Equations",
+    "https://bjorklab.psych.ucla.edu/research/",
+    "https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory.pdf"
+  ],
+
+  "curriculumAlignment": {
+    "outcomeDescription": "Solve linear equations using algebraic and graphical techniques, including equations with variables on both sides",
+    "strand": "Number and Algebra",
+    "stage": "Stage 4",
+    "prerequisiteOutcomes": ["ACMNA190"],
+    "progressionOutcomes": ["ACMNA194", "ACMNA215", "ACMNA240"],
+    "prerequisiteTopics": ["algebraic-techniques", "integers-operations"],
+    "progressionTopics": ["linear-relationships", "simultaneous-equations"]
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Equality and balance",
+      "description": "Understanding the equal sign as a relational symbol meaning 'is the same as', not 'calculate the answer'",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c2", "c3", "c4"],
+      "criticalForSuccess": true
+    },
+    {
+      "id": "c2",
+      "name": "Inverse operations",
+      "description": "Using opposite operations (addition/subtraction, multiplication/division) to isolate variables",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c4", "c5", "c6"],
+      "criticalForSuccess": true
+    },
+    {
+      "id": "c3",
+      "name": "Maintaining balance",
+      "description": "Performing the same operation on both sides of an equation to maintain equality",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c4", "c5", "c6", "c7"],
+      "criticalForSuccess": true
+    },
+    {
+      "id": "c4",
+      "name": "One-step equations",
+      "description": "Solving equations requiring a single inverse operation (e.g., x + 5 = 12, 3x = 15)",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c5"],
+      "criticalForSuccess": false
+    },
+    {
+      "id": "c5",
+      "name": "Two-step equations",
+      "description": "Solving equations requiring two operations in correct order (e.g., 2x + 3 = 11)",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c6", "c7", "c8"],
+      "criticalForSuccess": true
+    },
+    {
+      "id": "c6",
+      "name": "Variables on both sides",
+      "description": "Collecting like terms when variable appears on both sides (e.g., 3x + 2 = x + 10)",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c8", "c9"],
+      "criticalForSuccess": false
+    },
+    {
+      "id": "c7",
+      "name": "Equations with brackets",
+      "description": "Expanding brackets before solving using distributive law (e.g., 2(x + 3) = 14)",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c8"],
+      "criticalForSuccess": false
+    },
+    {
+      "id": "c8",
+      "name": "Equations with fractions",
+      "description": "Handling fractional coefficients and terms (e.g., x/2 + 3 = 7, (2x-1)/3 = 5)",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c9"],
+      "criticalForSuccess": false
+    },
+    {
+      "id": "c9",
+      "name": "Word problems to equations",
+      "description": "Translating real-world situations into linear equations and interpreting solutions",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": [],
+      "criticalForSuccess": true
+    },
+    {
+      "id": "c10",
+      "name": "Verifying solutions",
+      "description": "Checking answers by substituting back into original equation",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": [],
+      "criticalForSuccess": true
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "misconception": "The equal sign means 'calculate the answer' or 'put the answer here'",
+      "correction": "The equal sign is a relational symbol meaning 'is the same as' - both sides must have the same value",
+      "prevalence": "high",
+      "source": "AAAS Project 2061; Driver et al.",
+      "questionPhase": 1,
+      "exampleError": "In 8 + 4 = __ + 5, student writes 12 instead of 7",
+      "remediation": "Use balance scale visualisations; emphasise 'same value on both sides'"
+    },
+    {
+      "id": "m2",
+      "misconception": "Operations can be applied to just one side of the equation",
+      "correction": "Whatever operation is performed on one side must be performed on the other to maintain equality",
+      "prevalence": "high",
+      "source": "Erbas & Cetinkaya, 2011",
+      "questionPhase": 2,
+      "exampleError": "x + 5 = 12 becomes x = 12 + 5 = 17",
+      "remediation": "Use physical balance scales; emphasise 'what you do to one side, do to the other'"
+    },
+    {
+      "id": "m3",
+      "misconception": "The negative sign only means subtraction, not a property of the number",
+      "correction": "Negative numbers are distinct values; the negative sign is part of the number itself",
+      "prevalence": "high",
+      "source": "Vlassis, 2004",
+      "questionPhase": 2,
+      "exampleError": "In x - (-3) = 7, student subtracts 3 instead of adding 3",
+      "remediation": "Review integer operations; use number line; separate subtraction operation from negative sign"
+    },
+    {
+      "id": "m4",
+      "misconception": "Ignoring brackets and order of operations",
+      "correction": "Brackets indicate multiplication applies to everything inside; must expand before solving",
+      "prevalence": "medium",
+      "source": "Kieran, 1992",
+      "questionPhase": 3,
+      "exampleError": "6(x + 3) written as 6x + 3 instead of 6x + 18",
+      "remediation": "Emphasise distributive law; practice expanding brackets separately first"
+    },
+    {
+      "id": "m5",
+      "misconception": "Adding terms incorrectly across the equals sign",
+      "correction": "Only like terms on the same side can be combined; moving terms requires inverse operations",
+      "prevalence": "medium",
+      "source": "Booth, 1988",
+      "questionPhase": 2,
+      "exampleError": "3x + 2 = 10 becomes 3x + 2 + 10 = 15x",
+      "remediation": "Clear separation of 'collecting' vs 'solving'; work on one term at a time"
+    },
+    {
+      "id": "m6",
+      "misconception": "Solving in wrong order for multi-step equations",
+      "correction": "Undo operations in reverse order: deal with addition/subtraction before multiplication/division",
+      "prevalence": "medium",
+      "source": "Kieran, 2007",
+      "questionPhase": 3,
+      "exampleError": "2x + 6 = 14 → divide by 2 first → x + 6 = 7 → x = 1 (instead of x = 4)",
+      "remediation": "Teach 'unwrapping' analogy; reverse BODMAS order"
+    },
+    {
+      "id": "m7",
+      "misconception": "Variable represents a specific unknown rather than a placeholder for any value",
+      "correction": "In equations, x represents a specific unknown value that can be determined; in inequalities it can represent many values",
+      "prevalence": "medium",
+      "source": "Küchemann, 1981",
+      "questionPhase": 1,
+      "exampleError": "Student thinks x must always equal the same thing in all problems",
+      "remediation": "Vary letter used; discuss how x changes meaning based on context"
+    },
+    {
+      "id": "m8",
+      "misconception": "Fractions in equations are handled like whole numbers",
+      "correction": "Multiply both sides by the denominator to eliminate fractions, or find common denominator",
+      "prevalence": "medium",
+      "source": "Herscovics & Linchevski, 1994",
+      "questionPhase": 4,
+      "exampleError": "x/2 + 3 = 7 → x + 3 = 14 (only multiplied first term)",
+      "remediation": "Emphasise multiplying ENTIRE both sides; bracket all terms when multiplying"
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "Mobile phone plans - comparing costs",
+      "concepts": ["c5", "c6", "c9"],
+      "curiosityHook": "Which phone plan is actually cheaper? The one with lower monthly cost or lower upfront cost?",
+      "context": "Plan A: $20/month + $200 phone. Plan B: $35/month + $50 phone. When are they equal?",
+      "questionPhase": 2,
+      "australianRelevance": "Telstra, Optus, Vodafone plan comparisons"
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Uber/rideshare pricing vs taxi",
+      "concepts": ["c5", "c9"],
+      "curiosityHook": "When is it cheaper to take an Uber instead of a taxi?",
+      "context": "Taxi: $4.50 flag fall + $2.19/km. Uber: $2.50 base + $1.45/km + $0.40/min",
+      "questionPhase": 3,
+      "australianRelevance": "Common teenage experience with transport choices"
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Streaming service decisions",
+      "concepts": ["c4", "c5", "c9"],
+      "curiosityHook": "Should you buy the movie or just subscribe for a month?",
+      "context": "Netflix $16.99/month vs buying movies at $24.99 each. How many movies make subscription worthwhile?",
+      "questionPhase": 2,
+      "australianRelevance": "Netflix, Stan, Disney+ prevalent in Australian homes"
+    },
+    {
+      "id": "p4",
+      "phenomenon": "Part-time job earnings",
+      "concepts": ["c4", "c5", "c9"],
+      "curiosityHook": "How many hours do you need to work to afford that new game?",
+      "context": "Earning $12.50/hour casual rate. Want to buy $89 game. How many hours?",
+      "questionPhase": 1,
+      "australianRelevance": "Many Year 8 students getting first part-time jobs"
+    },
+    {
+      "id": "p5",
+      "phenomenon": "Sports statistics - catching up in a race",
+      "concepts": ["c6", "c9"],
+      "curiosityHook": "Can the slower runner catch up if they got a head start?",
+      "context": "Runner A at 8 m/s starts 50m ahead. Runner B at 10 m/s. When does B catch A?",
+      "questionPhase": 3,
+      "australianRelevance": "Athletics carnival, swimming races"
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Temperature conversion",
+      "concepts": ["c5", "c7"],
+      "curiosityHook": "Why do Americans say it's 100 degrees when it doesn't feel that hot?",
+      "context": "F = 9C/5 + 32. Convert between Celsius and Fahrenheit",
+      "questionPhase": 3,
+      "australianRelevance": "Understanding US weather reports, cooking temperatures"
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Gaming - levelling up calculations",
+      "concepts": ["c5", "c8", "c9"],
+      "curiosityHook": "How many quests until you reach level 50?",
+      "context": "Start at level 23, each quest gives 450 XP, need 12,150 XP to reach level 50",
+      "questionPhase": 2,
+      "australianRelevance": "Fortnite, Minecraft, Roblox popular with age group"
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Saving for a goal",
+      "concepts": ["c4", "c5", "c9"],
+      "curiosityHook": "How long until you can afford that concert ticket?",
+      "context": "Have $45 saved, add $15/week. Concert ticket costs $180. How many weeks?",
+      "questionPhase": 2,
+      "australianRelevance": "Concerts, music festivals popular teen goal"
+    }
+  ],
+
+  "scaffoldingSequence": [
+    {
+      "phase": 1,
+      "name": "Foundation - Understanding Equality",
+      "focus": "Relational understanding of equals sign; balance model",
+      "concepts": ["c1", "c3"],
+      "activities": [
+        "Physical balance scale manipulation",
+        "True/false equality statements",
+        "Finding missing values to balance"
+      ],
+      "questionCount": 10
+    },
+    {
+      "phase": 2,
+      "name": "Building - One and Two-Step Equations",
+      "focus": "Inverse operations; systematic solving",
+      "concepts": ["c2", "c4", "c5", "c10"],
+      "activities": [
+        "One-step equations with all four operations",
+        "Two-step equations introduction",
+        "Verification by substitution"
+      ],
+      "questionCount": 25
+    },
+    {
+      "phase": 3,
+      "name": "Extending - Complex Equations",
+      "focus": "Variables both sides; brackets",
+      "concepts": ["c6", "c7"],
+      "activities": [
+        "Collecting like terms",
+        "Expanding before solving",
+        "Multi-step problem sequences"
+      ],
+      "questionCount": 25
+    },
+    {
+      "phase": 4,
+      "name": "Mastery - Advanced and Applied",
+      "focus": "Fractions; word problems; real-world applications",
+      "concepts": ["c8", "c9"],
+      "activities": [
+        "Equations with fractional coefficients",
+        "Translating words to equations",
+        "Real-world problem solving"
+      ],
+      "questionCount": 20
+    }
+  ],
+
+  "vocabularyProgression": {
+    "phase1": ["equation", "equals", "balance", "solve", "unknown", "variable"],
+    "phase2": ["inverse", "opposite operation", "isolate", "coefficient", "constant", "substitute", "verify"],
+    "phase3": ["like terms", "collect", "expand", "brackets", "distributive law", "simplify"],
+    "phase4": ["linear equation", "solution", "translate", "model", "interpret", "fractional coefficient"]
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": [
+      "Introduce balance model visually before algebraic manipulation",
+      "Use worked examples with fading (Cooper & Sweller, 1987)",
+      "Break multi-step problems into explicit sub-steps",
+      "Limit new notation and vocabulary per lesson",
+      "Physical manipulation before symbolic manipulation"
+    ],
+    "engagementStrategies": [
+      "Start with puzzle/mystery framing ('What number am I thinking of?')",
+      "Use personally relevant contexts (phone plans, gaming, part-time work)",
+      "Allow predictions before teaching methods",
+      "Error analysis activities - find the mistake",
+      "Competition element - fastest correct solution"
+    ],
+    "motivationFactors": [
+      "Connect to financial literacy and real purchasing decisions",
+      "Link to gaming progression systems",
+      "Show relevance to future careers",
+      "Quick wins with one-step equations build confidence",
+      "Celebrate systematic approach over 'just knowing'"
+    ],
+    "spacedRepetitionPoints": ["c1", "c2", "c3", "c5", "c10"],
+    "interleaving": {
+      "recommended": true,
+      "rationale": "Rohrer & Taylor (2007) found 30-40% improvement when mixing equation types",
+      "implementation": "After phase 2, mix one-step and two-step; after phase 3, mix all types"
+    },
+    "desirableDifficulties": [
+      "Vary surface features while keeping structure similar",
+      "Include 'no solution' and 'identity' equations in later phases",
+      "Reverse problems - create equation from solution",
+      "Mix integer and fraction coefficients"
+    ],
+    "testingEffect": {
+      "implementation": "Frequent low-stakes retrieval practice",
+      "timing": "Quiz after each phase; cumulative review every 3rd lesson",
+      "format": "Mix recall (solve from scratch) with recognition (identify correct step)"
+    }
+  },
+
+  "differentiationStrategies": {
+    "struggling": [
+      "Extended work with balance model manipulatives",
+      "More one-step equation practice before progressing",
+      "Sentence frames for word problems",
+      "Calculator allowed for arithmetic to focus on algebraic thinking"
+    ],
+    "advanced": [
+      "Challenge problems with nested brackets",
+      "Create own word problems for peers",
+      "Introduction to inequalities",
+      "Simultaneous equations preview"
+    ]
+  },
+
+  "assessmentGuidelines": {
+    "formative": [
+      "Exit tickets with one equation per lesson",
+      "Error analysis tasks",
+      "Explain-your-reasoning questions"
+    ],
+    "summative": [
+      "Mix of procedural and application questions",
+      "Include verification step in marking criteria",
+      "Real-world problem requiring equation setup and solution"
+    ],
+    "successCriteria": [
+      "Can explain why balance must be maintained",
+      "Solves two-step equations accurately",
+      "Can verify solutions by substitution",
+      "Can translate simple word problems to equations"
+    ]
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "topic": "Chemical Reactions",
+  "topicId": "chemical-reactions",
+  "outcomeCode": "ACSSU225",
+  "year": 8,
+  "researchedAt": "2026-01-10",
+
+  "curriculumAlignment": {
+    "outcomeDescription": "Chemical change involves substances reacting to form new substances",
+    "strand": "Chemical Sciences",
+    "stage": "Stage 4",
+    "syllabus": "NSW Science 7-10 (2023)",
+    "prerequisiteOutcomes": ["ACSSU152"],
+    "progressionOutcomes": ["ACSSU178", "ACSSU179"],
+    "elaborations": [
+      "Identifying the differences between chemical and physical changes",
+      "Identifying evidence that a chemical change has taken place",
+      "Investigating simple reactions such as combining elements to make a compound",
+      "Recognising that the chemical properties of a substance will affect its use",
+      "Investigating chemical reactions employed by Aboriginal and Torres Strait Islander Peoples"
+    ]
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Physical vs chemical changes",
+      "description": "Physical changes alter appearance but not composition; chemical changes form new substances",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c2", "c3"]
+    },
+    {
+      "id": "c2",
+      "name": "Signs of chemical reactions",
+      "description": "Observable evidence: colour change, gas production, precipitate, temperature change, light/sound",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c3", "c4", "c5"]
+    },
+    {
+      "id": "c3",
+      "name": "Reactants and products",
+      "description": "Substances that react (reactants) combine or break apart to form new substances (products)",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c4", "c5", "c7"]
+    },
+    {
+      "id": "c4",
+      "name": "Word equations",
+      "description": "Representing reactions using names: reactants → products",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c7"]
+    },
+    {
+      "id": "c5",
+      "name": "Combustion reactions",
+      "description": "Rapid reactions with oxygen producing heat and light; fuels burn to form carbon dioxide and water",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c6", "c8"]
+    },
+    {
+      "id": "c6",
+      "name": "Oxidation and corrosion",
+      "description": "Slower reactions with oxygen; rusting of iron forms iron oxide over time",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c8"]
+    },
+    {
+      "id": "c7",
+      "name": "Conservation of mass",
+      "description": "Total mass of reactants equals total mass of products; atoms rearrange but are not created or destroyed",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c10"]
+    },
+    {
+      "id": "c8",
+      "name": "Types of reactions",
+      "description": "Synthesis, decomposition, combustion, and other reaction types have predictable patterns",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c9"]
+    },
+    {
+      "id": "c9",
+      "name": "Energy in reactions",
+      "description": "Exothermic reactions release energy; endothermic reactions absorb energy",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c10"]
+    },
+    {
+      "id": "c10",
+      "name": "Reaction rates",
+      "description": "Factors affecting speed: temperature, concentration, surface area, catalysts",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": []
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "misconception": "Dissolving is a chemical reaction because the substance disappears",
+      "correction": "Dissolving is a physical change - the substance spreads out but its particles remain unchanged; it can be recovered by evaporation",
+      "prevalence": "high",
+      "source": "Driver et al., 1994; RSC Education",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m2",
+      "misconception": "Melting and boiling are chemical changes because the substance looks different",
+      "correction": "Changes of state are physical changes - the same molecules exist before and after, only their arrangement changes",
+      "prevalence": "high",
+      "source": "Ahtee and Varjola, 1998; RSC Chemical Misconceptions",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m3",
+      "misconception": "Atoms can be destroyed or created during a chemical reaction",
+      "correction": "Atoms are never created or destroyed in chemical reactions - they are only rearranged to form new substances",
+      "prevalence": "high",
+      "source": "AAAS Project 2061 SCM075",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m4",
+      "misconception": "Mass is lost when something burns because it gets lighter",
+      "correction": "Mass is conserved - gases (CO2, H2O vapour) escape into the air; if measured in a closed system, mass stays the same",
+      "prevalence": "high",
+      "source": "Stavy, 1990; AAAS Project 2061",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m5",
+      "misconception": "All chemical reactions need flames or fire to occur",
+      "correction": "Many chemical reactions occur without flames - rusting, digestion, photosynthesis, and baking soda reactions all happen without fire",
+      "prevalence": "medium",
+      "source": "RSC Chemical Misconceptions; Kind, 2004",
+      "questionPhase": 2,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m6",
+      "misconception": "Chemical reactions happen because atoms want full outer electron shells",
+      "correction": "Atoms don't 'want' anything - reactions occur when the products are more stable (lower energy) than the reactants",
+      "prevalence": "high",
+      "source": "Taber, 1998; RSC Chemical Misconceptions",
+      "questionPhase": 4,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m7",
+      "misconception": "Rusting only happens when iron is wet",
+      "correction": "Rusting requires both oxygen AND water; iron in dry air or in water without oxygen does not rust",
+      "prevalence": "medium",
+      "source": "RSC Education; Driver et al.",
+      "questionPhase": 3,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m8",
+      "misconception": "The bubbles in boiling water are made of hydrogen and oxygen (the water is breaking apart)",
+      "correction": "Bubbles in boiling water are water vapour (steam) - a physical change; water molecules stay intact",
+      "prevalence": "high",
+      "source": "Driver et al., 1994",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m9",
+      "misconception": "Only the total number of atoms matters for conservation, not the types",
+      "correction": "Conservation of mass requires the same number of EACH type of atom on both sides - not just the total count",
+      "prevalence": "medium",
+      "source": "AAAS Project 2061 SCM065",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m10",
+      "misconception": "Exothermic reactions are always explosive or violent",
+      "correction": "Many exothermic reactions are slow and gentle - hand warmers, composting, and rusting all release heat slowly",
+      "prevalence": "medium",
+      "source": "RSC Chemical Misconceptions",
+      "questionPhase": 4,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m11",
+      "misconception": "Products of a reaction have the same properties as the reactants",
+      "correction": "Products are entirely new substances with different properties - sodium (explosive metal) + chlorine (toxic gas) = table salt",
+      "prevalence": "medium",
+      "source": "Talanquer, 2009; 'inheritance assumption'",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m12",
+      "misconception": "Catalysts are used up in reactions because they make reactions faster",
+      "correction": "Catalysts speed up reactions but are not consumed - they can be recovered unchanged after the reaction",
+      "prevalence": "medium",
+      "source": "RSC Chemical Misconceptions",
+      "questionPhase": 4,
+      "diagnosticValue": "medium"
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "Striking a match and watching it burn",
+      "concepts": ["c2", "c5", "c9"],
+      "curiosityHook": "What makes a match burst into flame with just a quick scratch?",
+      "questionPhase": 2,
+      "australianRelevance": "Campfires, BBQs, bushfire education"
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Rusty car parts or outdoor furniture",
+      "concepts": ["c1", "c2", "c6"],
+      "curiosityHook": "Why does metal turn orange-brown and crumbly when left outside?",
+      "questionPhase": 3,
+      "australianRelevance": "Coastal areas, Australian outback"
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Baking soda and vinegar volcano",
+      "concepts": ["c2", "c3", "c4"],
+      "curiosityHook": "Where do all those bubbles come from when you mix baking soda and vinegar?",
+      "questionPhase": 2,
+      "australianRelevance": "Classic school science experiment"
+    },
+    {
+      "id": "p4",
+      "phenomenon": "Cooking an egg - white turning solid",
+      "concepts": ["c1", "c2", "c9"],
+      "curiosityHook": "Why can't you 'uncook' an egg even if you cool it down?",
+      "questionPhase": 3,
+      "australianRelevance": "Kitchen science, breakfast"
+    },
+    {
+      "id": "p5",
+      "phenomenon": "Bread rising in the oven",
+      "concepts": ["c2", "c3", "c5", "c9"],
+      "curiosityHook": "What creates the air bubbles that make bread fluffy and light?",
+      "questionPhase": 3,
+      "australianRelevance": "Baking, home cooking"
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Glow sticks at concerts and parties",
+      "concepts": ["c2", "c8", "c9"],
+      "curiosityHook": "How does bending a plastic tube create light without electricity or heat?",
+      "questionPhase": 4,
+      "australianRelevance": "School discos, New Year's Eve"
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Browning of a cut apple",
+      "concepts": ["c1", "c2", "c6"],
+      "curiosityHook": "Why does a fresh apple slice turn brown within minutes?",
+      "questionPhase": 2,
+      "australianRelevance": "Lunch boxes, fruit preparation"
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Great Barrier Reef coral bleaching and ocean acidification",
+      "concepts": ["c2", "c3", "c6", "c9"],
+      "curiosityHook": "How is carbon dioxide in the air dissolving coral reefs in the ocean?",
+      "questionPhase": 4,
+      "australianRelevance": "Iconic Australian landmark, climate education"
+    },
+    {
+      "id": "p9",
+      "phenomenon": "Aboriginal quicklime and medicine production",
+      "concepts": ["c5", "c8", "c9"],
+      "curiosityHook": "How did First Nations peoples use fire to create chemicals that made medicines more effective?",
+      "questionPhase": 4,
+      "australianRelevance": "Aboriginal and Torres Strait Islander science, cultural heritage"
+    },
+    {
+      "id": "p10",
+      "phenomenon": "Fireworks display on Australia Day or New Year's Eve",
+      "concepts": ["c2", "c5", "c8", "c9"],
+      "curiosityHook": "How do different chemicals create all those different colours in fireworks?",
+      "questionPhase": 3,
+      "australianRelevance": "National celebrations"
+    },
+    {
+      "id": "p11",
+      "phenomenon": "Hand warmers for cold sports games",
+      "concepts": ["c6", "c9", "c10"],
+      "curiosityHook": "How does shaking a little packet produce heat that lasts for hours?",
+      "questionPhase": 4,
+      "australianRelevance": "Winter sports, camping"
+    },
+    {
+      "id": "p12",
+      "phenomenon": "Car exhaust fumes and air pollution",
+      "concepts": ["c3", "c4", "c5"],
+      "curiosityHook": "What exactly comes out of a car's exhaust pipe and why is it harmful?",
+      "questionPhase": 3,
+      "australianRelevance": "City air quality, environmental awareness"
+    }
+  ],
+
+  "scaffoldingSequence": [
+    {
+      "phase": 1,
+      "name": "Distinguish Change Types",
+      "focus": "Identifying physical vs chemical changes through observable evidence",
+      "concepts": ["c1", "c2"],
+      "questionCount": 15,
+      "difficulty": "foundational"
+    },
+    {
+      "phase": 2,
+      "name": "Understand Reactions",
+      "focus": "Reactants, products, word equations, and simple reaction types",
+      "concepts": ["c3", "c4", "c5"],
+      "questionCount": 25,
+      "difficulty": "foundational-to-intermediate"
+    },
+    {
+      "phase": 3,
+      "name": "Apply Conservation",
+      "focus": "Conservation of mass, oxidation/corrosion, and reaction types",
+      "concepts": ["c6", "c7", "c8"],
+      "questionCount": 25,
+      "difficulty": "intermediate"
+    },
+    {
+      "phase": 4,
+      "name": "Extend and Apply",
+      "focus": "Energy changes, reaction rates, complex applications",
+      "concepts": ["c9", "c10"],
+      "questionCount": 15,
+      "difficulty": "intermediate-to-advanced"
+    }
+  ],
+
+  "vocabularyProgression": {
+    "phase1": ["physical change", "chemical change", "reversible", "irreversible", "evidence", "observation", "colour change", "gas", "precipitate"],
+    "phase2": ["reactant", "product", "reaction", "combustion", "fuel", "oxygen", "carbon dioxide", "water vapour", "word equation"],
+    "phase3": ["oxidation", "corrosion", "rust", "conservation", "mass", "atoms", "rearrange", "synthesis", "decomposition"],
+    "phase4": ["exothermic", "endothermic", "energy", "catalyst", "reaction rate", "activation energy", "surface area", "concentration"]
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": [
+      "Start with familiar everyday examples before introducing chemical terminology",
+      "Use demonstrations and videos to show reactions - reduces need for mental visualization",
+      "Keep word equations simple initially; avoid symbol equations until concepts are solid",
+      "Use compare/contrast tables for physical vs chemical changes"
+    ],
+    "engagementStrategies": [
+      "Begin with 'magic' demonstrations (colour changes, gas production) to create curiosity",
+      "Allow predictions before revealing what happens - builds investment in learning",
+      "Use cooking analogies - students understand that cooking changes food permanently",
+      "Connect to fire safety and bushfire awareness for Australian relevance"
+    ],
+    "motivationFactors": [
+      "Connect to cooking and food science",
+      "Link to environmental issues (coral bleaching, pollution)",
+      "Relate to forensic science and crime investigation",
+      "Include Aboriginal science and cultural knowledge"
+    ],
+    "desirableDifficulties": [
+      "Interleave physical and chemical change examples to improve discrimination",
+      "Include retrieval practice on earlier concepts (particle model, states of matter)",
+      "Vary contexts between everyday, laboratory, and environmental scenarios"
+    ],
+    "spacedRepetitionPoints": ["c1", "c2", "c3", "c7"],
+    "testingEffectOpportunities": [
+      "Prediction questions before demonstrations",
+      "Classify examples as physical or chemical change",
+      "Write word equations for given scenarios",
+      "Explain conservation of mass in different reaction contexts"
+    ]
+  },
+
+  "questionDesignGuidelines": {
+    "mcqDistractorStrategy": "Use documented misconceptions as distractors (e.g., 'dissolving is a chemical change', 'atoms are destroyed')",
+    "shortAnswerFocus": "Require explanation of WHY a change is chemical, citing evidence; explain conservation of mass",
+    "diagramQuestions": "Include before/after particle diagrams showing atom rearrangement",
+    "calculationOpportunities": "Simple mass conservation calculations (mass of reactants = mass of products)",
+    "realWorldApplication": "At least 50% of questions should use real-world contexts (cooking, rusting, burning, environment)"
+  },
+
+  "differentiationNotes": {
+    "supportStrategies": [
+      "Provide evidence checklist for identifying chemical reactions",
+      "Use sentence starters for word equations",
+      "Break conservation of mass into visual step-by-step examples",
+      "Use graphic organizers for reaction types"
+    ],
+    "extensionOpportunities": [
+      "Introduce symbol equations and balancing",
+      "Investigate factors affecting reaction rates quantitatively",
+      "Research industrial chemistry applications",
+      "Explore biochemical reactions (digestion, respiration, photosynthesis)"
+    ]
+  },
+
+  "crossTopicConnections": [
+    {
+      "topic": "States of Matter",
+      "connection": "Particle model explains why chemical reactions involve atom rearrangement",
+      "conceptLink": "c7"
+    },
+    {
+      "topic": "Elements and Compounds",
+      "connection": "Understanding elements and compounds is prerequisite for understanding reactions",
+      "conceptLink": "c3"
+    },
+    {
+      "topic": "Energy",
+      "connection": "Energy transformations during reactions connect to broader energy concepts",
+      "conceptLink": "c9"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Driver, R. et al. (1994). Making sense of secondary science",
+      "type": "research",
+      "url": null
+    },
+    {
+      "name": "AAAS Project 2061 Science Assessment",
+      "type": "assessment",
+      "url": "http://assessment.aaas.org/topics"
+    },
+    {
+      "name": "RSC Education - Chemical Misconceptions by Keith Taber",
+      "type": "pedagogical",
+      "url": "https://edu.rsc.org/resources/chemical-misconceptions-i-chemical-reactions/1141.article"
+    },
+    {
+      "name": "RSC Education - Beyond Appearances by Vanessa Kind",
+      "type": "research",
+      "url": "https://edu.rsc.org/resources/beyond-appearances-students-misconceptions-about-basic-chemical-ideas/2202.article"
+    },
+    {
+      "name": "Australian Curriculum - ACSSU225 Elaborations",
+      "type": "curriculum",
+      "url": "https://k10outline.scsa.wa.edu.au/home/teaching/codes/science/year-8/acssu225"
+    },
+    {
+      "name": "ACARA Teacher Background Information - Aboriginal Chemical Processes",
+      "type": "curriculum",
+      "url": "https://www.australiancurriculum.edu.au/TeacherBackgroundInfo?id=56821"
+    },
+    {
+      "name": "Great Barrier Reef Marine Park Authority - Ocean Acidification",
+      "type": "environmental",
+      "url": "https://www2.gbrmpa.gov.au/learn/threats/oceans"
+    },
+    {
+      "name": "Ahtee & Varjola (1998). Journal of Research in Science Teaching",
+      "type": "research",
+      "url": null
+    },
+    {
+      "name": "Stavy, R. (1990). Science Education",
+      "type": "research",
+      "url": null
+    },
+    {
+      "name": "Talanquer, V. (2009). International Journal of Science Education",
+      "type": "research",
+      "url": null
+    },
+    {
+      "name": "NSW Education - Cognitive Load Theory",
+      "type": "pedagogical",
+      "url": "https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory.pdf"
+    },
+    {
+      "name": "Oak National Academy - Chemical Reactions KS3",
+      "type": "pedagogical",
+      "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons/chemical-reactions-oxidation"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "setNumber": 6,
+    "phase": "application",
+    "focus": "Two-step equations with real-world context"
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-051",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A taxi charges a $5 flag fall plus $3 per kilometre.\n\nIf the total fare is $26, how many kilometres was the trip?\n\nLet x = number of kilometres. Set up and solve the equation.",
+      "solution": "**Solution:**\n\n**Set up:** Flag fall + cost per km = total\n$$5 + 3x = 26$$\n\n**Step 1:** Subtract 5: $3x = 21$\n\n**Step 2:** Divide by 3: $x = 7$\n\n**Answer: 7 kilometres**\n\n**Check:** $5 + 3(7) = 5 + 21 = 26$ ✓",
+      "hints": [
+        {"level": 1, "content": "Write an equation: flag fall + (cost per km × km) = total", "revealsCriticalInfo": false},
+        {"level": 2, "content": "5 + 3x = 26. Now solve.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "3x = 21, so x = 7", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Total fare = flag fall + travel cost", "encouragement": "Real-world algebra!", "questionPrompt": "What's the equation?"},
+        {"level": 2, "content": "5 + 3x = 26", "encouragement": "Now it's just two-step!", "questionPrompt": "Subtract 5, then...?"},
+        {"level": 3, "content": "3x = 21, x = 7", "encouragement": "7 km trip!", "questionPrompt": "Check: $5 + $21 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5 + 3x = 26",
+        "expectedAnswers": ["7", "x = 7", "7 km", "7 kilometres", "7 kilometers", "7.0"],
+        "gradingGuidance": "Word problem requiring equation setup. Student must identify 5 + 3x = 26, then solve. Award partial credit for correct equation setup even if solution has errors.",
+        "sampleSolutions": ["5 + 3x = 26\n3x = 21\nx = 7 km"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "equation setup", "two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 21, "conceptsUsed": ["word-problems", "two-step-equations"], "buildsOn": ["linear-eq-y8-050"], "preparesFor": ["linear-eq-y8-052"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can use algebra in real life!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set6", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-052",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A phone plan has a $15 monthly fee plus $0.10 per text message.\n\nIf the monthly bill is $25, how many text messages were sent?\n\nLet t = number of texts.",
+      "solution": "**Solution:**\n\n**Set up:** $15 + 0.10t = 25$\n\n**Step 1:** Subtract 15: $0.10t = 10$\n\n**Step 2:** Divide by 0.10: $t = 100$\n\n**Answer: 100 text messages**",
+      "hints": [
+        {"level": 1, "content": "Monthly fee + text cost = total bill", "revealsCriticalInfo": false},
+        {"level": 2, "content": "15 + 0.10t = 25", "revealsCriticalInfo": false},
+        {"level": 3, "content": "0.10t = 10, so t = 100", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Fee + (cost per text × texts) = bill", "encouragement": "Set up the equation!", "questionPrompt": "What's the equation?"},
+        {"level": 2, "content": "0.10t = 10", "encouragement": "Divide by 0.10!", "questionPrompt": "10 ÷ 0.10 = ?"},
+        {"level": 3, "content": "t = 100 texts", "encouragement": "Decimals work too!", "questionPrompt": "Check: $15 + $10 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "15 + 0.10t = 25",
+        "expectedAnswers": ["100", "t = 100", "100 texts", "100 messages", "100.0"],
+        "gradingGuidance": "Word problem with decimal coefficient. 15 + 0.10t = 25. Solving: 0.10t = 10, t = 100.",
+        "sampleSolutions": ["15 + 0.10t = 25\n0.10t = 10\nt = 100"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "decimals", "two-step equations"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 22, "conceptsUsed": ["word-problems", "decimals"], "buildsOn": ["linear-eq-y8-051"], "preparesFor": ["linear-eq-y8-053"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Decimals don't scare me!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set6", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-053",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$10x + 7 = 87$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 7: $10x = 80$\n\n**Step 2:** Divide by 10: $x = 8$\n\n**Answer: x = 8**",
+      "hints": [
+        {"level": 1, "content": "Subtract 7 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "10x = 80", "revealsCriticalInfo": false},
+        {"level": 3, "content": "80 ÷ 10 = 8", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "87 - 7 = 80", "encouragement": "Nice round number!", "questionPrompt": "Now divide?"},
+        {"level": 2, "content": "10x = 80", "encouragement": "Easy division!", "questionPrompt": "80 ÷ 10 = ?"},
+        {"level": 3, "content": "x = 8", "encouragement": "Perfect!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "10x + 7 = 87",
+        "expectedAnswers": ["8", "x = 8", "x=8", "x= 8", "x =8", "8.0", "x = 8.0"],
+        "gradingGuidance": "Subtract 7, divide by 10. Nice numbers.",
+        "sampleSolutions": ["10x + 7 = 87\n10x = 80\nx = 8"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 23, "conceptsUsed": ["two-step-equations"], "buildsOn": ["linear-eq-y8-052"], "preparesFor": ["linear-eq-y8-054"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Back to pure equations!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set6", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-054",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A streaming service costs $8 per month plus $4 for each movie rented.\n\nIf the total monthly cost was $28, how many movies were rented?\n\nLet m = number of movies.",
+      "solution": "**Solution:**\n\n**Set up:** $8 + 4m = 28$\n\n**Step 1:** Subtract 8: $4m = 20$\n\n**Step 2:** Divide by 4: $m = 5$\n\n**Answer: 5 movies**",
+      "hints": [
+        {"level": 1, "content": "Monthly cost + movie rentals = total", "revealsCriticalInfo": false},
+        {"level": 2, "content": "8 + 4m = 28", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4m = 20, m = 5", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Base cost + rental cost = total", "encouragement": "Real world!", "questionPrompt": "Set up equation?"},
+        {"level": 2, "content": "4m = 20", "encouragement": "Two-step!", "questionPrompt": "20 ÷ 4 = ?"},
+        {"level": 3, "content": "m = 5 movies", "encouragement": "Perfect!", "questionPrompt": "Check: $8 + $20 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "8 + 4m = 28",
+        "expectedAnswers": ["5", "m = 5", "5 movies", "5.0"],
+        "gradingGuidance": "Word problem. 8 + 4m = 28. Solving: 4m = 20, m = 5.",
+        "sampleSolutions": ["8 + 4m = 28\n4m = 20\nm = 5"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 24, "conceptsUsed": ["word-problems", "two-step-equations"], "buildsOn": ["linear-eq-y8-053"], "preparesFor": ["linear-eq-y8-055"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Algebra solves real problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set6", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-055",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$12x - 36 = 60$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 36: $12x = 96$\n\n**Step 2:** Divide by 12: $x = 8$\n\n**Answer: x = 8**",
+      "hints": [
+        {"level": 1, "content": "Add 36 to both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "12x = 96", "revealsCriticalInfo": false},
+        {"level": 3, "content": "96 ÷ 12 = 8", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "60 + 36 = 96", "encouragement": "Add first!", "questionPrompt": "Now divide?"},
+        {"level": 2, "content": "12x = 96", "encouragement": "12 times table!", "questionPrompt": "96 ÷ 12 = ?"},
+        {"level": 3, "content": "x = 8", "encouragement": "12 × 8 = 96!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "12x - 36 = 60",
+        "expectedAnswers": ["8", "x = 8", "x=8", "x= 8", "x =8", "8.0", "x = 8.0"],
+        "gradingGuidance": "Add 36, divide by 12.",
+        "sampleSolutions": ["12x - 36 = 60\n12x = 96\nx = 8"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 25, "conceptsUsed": ["two-step-equations"], "buildsOn": ["linear-eq-y8-054"], "preparesFor": ["linear-eq-y8-056"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Larger coefficients handled!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set6", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-056",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A gym membership costs $20 to join plus $6 per week.\n\nAfter how many weeks will the total cost be $68?\n\nLet w = number of weeks.",
+      "solution": "**Solution:**\n\n**Set up:** $20 + 6w = 68$\n\n**Step 1:** Subtract 20: $6w = 48$\n\n**Step 2:** Divide by 6: $w = 8$\n\n**Answer: 8 weeks**",
+      "hints": [
+        {"level": 1, "content": "Join fee + weekly cost = total", "revealsCriticalInfo": false},
+        {"level": 2, "content": "20 + 6w = 68", "revealsCriticalInfo": false},
+        {"level": 3, "content": "6w = 48, w = 8", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "One-time fee + recurring cost", "encouragement": "Common pattern!", "questionPrompt": "Set up equation?"},
+        {"level": 2, "content": "6w = 48", "encouragement": "6 times table!", "questionPrompt": "48 ÷ 6 = ?"},
+        {"level": 3, "content": "w = 8 weeks", "encouragement": "Great!", "questionPrompt": "Check: $20 + $48 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "20 + 6w = 68",
+        "expectedAnswers": ["8", "w = 8", "8 weeks", "8.0"],
+        "gradingGuidance": "Word problem. 20 + 6w = 68. Solving: 6w = 48, w = 8.",
+        "sampleSolutions": ["20 + 6w = 68\n6w = 48\nw = 8"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 26, "conceptsUsed": ["word-problems", "two-step-equations"], "buildsOn": ["linear-eq-y8-055"], "preparesFor": ["linear-eq-y8-057"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Algebra everywhere!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set6", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-057",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$11x + 22 = 99$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 22: $11x = 77$\n\n**Step 2:** Divide by 11: $x = 7$\n\n**Answer: x = 7**",
+      "hints": [
+        {"level": 1, "content": "Subtract 22 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "11x = 77", "revealsCriticalInfo": false},
+        {"level": 3, "content": "77 ÷ 11 = 7", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "99 - 22 = 77", "encouragement": "Pattern: all 7s and 11s!", "questionPrompt": "Divide?"},
+        {"level": 2, "content": "11x = 77", "encouragement": "11 × 7!", "questionPrompt": "77 ÷ 11 = ?"},
+        {"level": 3, "content": "x = 7", "encouragement": "Nice pattern!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "11x + 22 = 99",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "Subtract 22, divide by 11. Nice pattern: multiples of 11.",
+        "sampleSolutions": ["11x + 22 = 99\n11x = 77\nx = 7"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 27, "conceptsUsed": ["two-step-equations"], "buildsOn": ["linear-eq-y8-056"], "preparesFor": ["linear-eq-y8-058"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Patterns make it fun!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set6", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-058",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$9x - 27 = 54$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 27: $9x = 81$\n\n**Step 2:** Divide by 9: $x = 9$\n\n**Answer: x = 9**",
+      "hints": [
+        {"level": 1, "content": "Add 27 to both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "9x = 81 (9² = 81)", "revealsCriticalInfo": false},
+        {"level": 3, "content": "81 ÷ 9 = 9", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "54 + 27 = 81", "encouragement": "That's 9²!", "questionPrompt": "Recognize it?"},
+        {"level": 2, "content": "9x = 81", "encouragement": "Perfect square!", "questionPrompt": "81 ÷ 9 = ?"},
+        {"level": 3, "content": "x = 9", "encouragement": "x = coefficient!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "9x - 27 = 54",
+        "expectedAnswers": ["9", "x = 9", "x=9", "x= 9", "x =9", "9.0", "x = 9.0"],
+        "gradingGuidance": "Add 27, divide by 9. Perfect square: 81 = 9².",
+        "sampleSolutions": ["9x - 27 = 54\n9x = 81\nx = 9"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "perfect squares"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 28, "conceptsUsed": ["two-step-equations", "perfect-squares"], "buildsOn": ["linear-eq-y8-057"], "preparesFor": ["linear-eq-y8-059"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Perfect squares are satisfying!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set6", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-059",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A pizza shop charges $12 delivery fee plus $9 per pizza.\n\nIf the total bill was $48, how many pizzas were ordered?\n\nLet p = number of pizzas.",
+      "solution": "**Solution:**\n\n**Set up:** $12 + 9p = 48$\n\n**Step 1:** Subtract 12: $9p = 36$\n\n**Step 2:** Divide by 9: $p = 4$\n\n**Answer: 4 pizzas**",
+      "hints": [
+        {"level": 1, "content": "Delivery + pizza cost = total", "revealsCriticalInfo": false},
+        {"level": 2, "content": "12 + 9p = 48", "revealsCriticalInfo": false},
+        {"level": 3, "content": "9p = 36, p = 4", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Set up: delivery + pizzas = bill", "encouragement": "Real world!", "questionPrompt": "Equation?"},
+        {"level": 2, "content": "9p = 36", "encouragement": "9 × 4!", "questionPrompt": "36 ÷ 9 = ?"},
+        {"level": 3, "content": "p = 4 pizzas", "encouragement": "Yum!", "questionPrompt": "Check: $12 + $36 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "12 + 9p = 48",
+        "expectedAnswers": ["4", "p = 4", "4 pizzas", "4.0"],
+        "gradingGuidance": "Word problem. 12 + 9p = 48. Solving: 9p = 36, p = 4.",
+        "sampleSolutions": ["12 + 9p = 48\n9p = 36\np = 4"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 29, "conceptsUsed": ["word-problems", "two-step-equations"], "buildsOn": ["linear-eq-y8-058"], "preparesFor": ["linear-eq-y8-060"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Pizza algebra!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set6", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-060",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A concert ticket costs $25 plus a $5 booking fee per ticket.\n\nMaya spent $90 in total. How many tickets did she buy?\n\nLet t = number of tickets.",
+      "solution": "**Solution:**\n\n**Set up:** Each ticket costs $25 + $5 = $30\n$$30t = 90$$\n\n**Step 1:** Divide by 30: $t = 3$\n\n**Answer: 3 tickets**\n\n*Alternative setup: 25t + 5t = 90*",
+      "hints": [
+        {"level": 1, "content": "Total per ticket = $25 + $5 = $30", "revealsCriticalInfo": false},
+        {"level": 2, "content": "30t = 90", "revealsCriticalInfo": false},
+        {"level": 3, "content": "90 ÷ 30 = 3", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Each ticket costs $30 total", "encouragement": "Combine the costs!", "questionPrompt": "How many $30 in $90?"},
+        {"level": 2, "content": "30t = 90", "encouragement": "One-step now!", "questionPrompt": "90 ÷ 30 = ?"},
+        {"level": 3, "content": "t = 3 tickets", "encouragement": "Application phase complete!", "questionPrompt": "Check: 3 × $30 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "30t = 90",
+        "expectedAnswers": ["3", "t = 3", "3 tickets", "3.0"],
+        "gradingGuidance": "Word problem requiring combining costs. Can set up as 30t = 90 or (25+5)t = 90. Either correct.",
+        "sampleSolutions": ["30t = 90\nt = 3", "25t + 5t = 90\n30t = 90\nt = 3"],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "combining like terms"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 30, "conceptsUsed": ["word-problems", "combining-terms"], "buildsOn": ["linear-eq-y8-059"], "preparesFor": ["linear-eq-y8-061"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Application phase complete - real-world mastery!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set6", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

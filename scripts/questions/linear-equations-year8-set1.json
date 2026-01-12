@@ -1,0 +1,765 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "setNumber": 1,
+    "phase": "foundation",
+    "focus": "One-step equations with addition and subtraction"
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-001",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$x + 5 = 12$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nSubtract 5 from both sides:\n$$x + 5 - 5 = 12 - 5$$\n$$x = 7$$\n\n**Answer: x = 7**\n\n**Check:** $7 + 5 = 12$ ✓",
+      "hints": [
+        {"level": 1, "content": "What operation is being done to x?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "To undo addition, use subtraction.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Subtract 5 from both sides", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is a one-step equation - just one operation to undo!",
+          "encouragement": "You've got this - simpler than it looks!",
+          "questionPrompt": "What's being done to x in this equation?"
+        },
+        {
+          "level": 2,
+          "content": "Whatever you do to one side, do to the other to keep it balanced.",
+          "encouragement": "Think of it like a balance scale!",
+          "questionPrompt": "If we're adding 5 to x, what undoes addition?"
+        },
+        {
+          "level": 3,
+          "content": "Subtraction undoes addition. Subtract 5 from both sides.",
+          "encouragement": "You're learning inverse operations - a key algebra skill!",
+          "questionPrompt": "What is 12 minus 5?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x + 5 = 12",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "One-step equation requiring subtraction. Accept answer with or without 'x ='. Student should show subtraction of 5 from both sides. Full credit for correct answer even with minimal working at this level.",
+        "sampleSolutions": [
+          "x + 5 = 12\nx + 5 - 5 = 12 - 5\nx = 7",
+          "x + 5 = 12\nx = 12 - 5\nx = 7"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "subtraction", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 1,
+        "conceptsUsed": ["one-step-equations", "inverse-operations"],
+        "buildsOn": [],
+        "preparesFor": ["linear-eq-y8-002", "linear-eq-y8-003"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can solve simple equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-002",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$x + 8 = 15$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nSubtract 8 from both sides:\n$$x + 8 - 8 = 15 - 8$$\n$$x = 7$$\n\n**Answer: x = 7**\n\n**Check:** $7 + 8 = 15$ ✓",
+      "hints": [
+        {"level": 1, "content": "What number is being added to x?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Use the opposite operation to isolate x.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Subtract 8 from both sides", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Look at what's happening to x - something is being added to it.",
+          "encouragement": "Same pattern as before!",
+          "questionPrompt": "What number is added to x?"
+        },
+        {
+          "level": 2,
+          "content": "To get x alone, undo the addition.",
+          "encouragement": "You know what to do!",
+          "questionPrompt": "What's the opposite of adding 8?"
+        },
+        {
+          "level": 3,
+          "content": "Subtract 8 from both sides: 15 - 8 = ?",
+          "encouragement": "Almost there!",
+          "questionPrompt": "Calculate 15 - 8"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x + 8 = 15",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "One-step equation requiring subtraction. Student should subtract 8 from both sides. Accept minimal working for this introductory level.",
+        "sampleSolutions": [
+          "x + 8 = 15\nx + 8 - 8 = 15 - 8\nx = 7",
+          "x + 8 = 15\nx = 15 - 8\nx = 7"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "subtraction", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 2,
+        "conceptsUsed": ["one-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-001"],
+        "preparesFor": ["linear-eq-y8-003", "linear-eq-y8-004"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can solve simple equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-003",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$x - 4 = 9$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nAdd 4 to both sides:\n$$x - 4 + 4 = 9 + 4$$\n$$x = 13$$\n\n**Answer: x = 13**\n\n**Check:** $13 - 4 = 9$ ✓",
+      "hints": [
+        {"level": 1, "content": "What operation is being done to x?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "To undo subtraction, use addition.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Add 4 to both sides", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Something is being subtracted from x this time.",
+          "encouragement": "Notice the minus sign!",
+          "questionPrompt": "What's being subtracted from x?"
+        },
+        {
+          "level": 2,
+          "content": "To undo subtraction, use the opposite operation.",
+          "encouragement": "Opposite operations are your friend!",
+          "questionPrompt": "What's the opposite of subtracting 4?"
+        },
+        {
+          "level": 3,
+          "content": "Add 4 to both sides: 9 + 4 = ?",
+          "encouragement": "You've got this!",
+          "questionPrompt": "Calculate 9 + 4"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x - 4 = 9",
+        "expectedAnswers": ["13", "x = 13", "x=13", "x= 13", "x =13", "13.0", "x = 13.0"],
+        "gradingGuidance": "One-step equation requiring addition. Student should add 4 to both sides. Common error: subtracting instead of adding.",
+        "sampleSolutions": [
+          "x - 4 = 9\nx - 4 + 4 = 9 + 4\nx = 13",
+          "x - 4 = 9\nx = 9 + 4\nx = 13"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "addition", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 3,
+        "conceptsUsed": ["one-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-001", "linear-eq-y8-002"],
+        "preparesFor": ["linear-eq-y8-004", "linear-eq-y8-005"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can solve equations with subtraction too!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-004",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$x - 7 = 11$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nAdd 7 to both sides:\n$$x - 7 + 7 = 11 + 7$$\n$$x = 18$$\n\n**Answer: x = 18**\n\n**Check:** $18 - 7 = 11$ ✓",
+      "hints": [
+        {"level": 1, "content": "Look at the sign before the 7.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Subtraction is undone by addition.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Add 7 to both sides", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "What operation connects x and 7?",
+          "encouragement": "Check the sign carefully!",
+          "questionPrompt": "Is 7 being added or subtracted from x?"
+        },
+        {
+          "level": 2,
+          "content": "Since 7 is being subtracted, add it to both sides.",
+          "encouragement": "Inverse operations work every time!",
+          "questionPrompt": "What's 11 + 7?"
+        },
+        {
+          "level": 3,
+          "content": "x = 11 + 7 = ?",
+          "encouragement": "Just one more step!",
+          "questionPrompt": "Calculate the sum"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x - 7 = 11",
+        "expectedAnswers": ["18", "x = 18", "x=18", "x= 18", "x =18", "18.0", "x = 18.0"],
+        "gradingGuidance": "One-step equation requiring addition. Student should add 7 to both sides.",
+        "sampleSolutions": [
+          "x - 7 = 11\nx - 7 + 7 = 11 + 7\nx = 18",
+          "x - 7 = 11\nx = 11 + 7\nx = 18"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "addition", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 4,
+        "conceptsUsed": ["one-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-003"],
+        "preparesFor": ["linear-eq-y8-005", "linear-eq-y8-006"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I'm getting confident with these!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-005",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$x + 12 = 20$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nSubtract 12 from both sides:\n$$x + 12 - 12 = 20 - 12$$\n$$x = 8$$\n\n**Answer: x = 8**\n\n**Check:** $8 + 12 = 20$ ✓",
+      "hints": [
+        {"level": 1, "content": "What's being added to x?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Undo the addition.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Subtract 12 from both sides", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "12 is being added to x.",
+          "encouragement": "You know the pattern now!",
+          "questionPrompt": "What undoes adding 12?"
+        },
+        {
+          "level": 2,
+          "content": "Subtract 12 from both sides to isolate x.",
+          "encouragement": "Keep that balance!",
+          "questionPrompt": "What's 20 - 12?"
+        },
+        {
+          "level": 3,
+          "content": "20 - 12 = 8, so x = 8",
+          "encouragement": "Perfect!",
+          "questionPrompt": "Does 8 + 12 = 20?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x + 12 = 20",
+        "expectedAnswers": ["8", "x = 8", "x=8", "x= 8", "x =8", "8.0", "x = 8.0"],
+        "gradingGuidance": "One-step equation. Student should subtract 12 from both sides.",
+        "sampleSolutions": [
+          "x + 12 = 20\nx + 12 - 12 = 20 - 12\nx = 8",
+          "x + 12 = 20\nx = 20 - 12\nx = 8"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "subtraction", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 5,
+        "conceptsUsed": ["one-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-001", "linear-eq-y8-002"],
+        "preparesFor": ["linear-eq-y8-006", "linear-eq-y8-007"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can handle bigger numbers!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-006",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$x - 15 = 6$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nAdd 15 to both sides:\n$$x - 15 + 15 = 6 + 15$$\n$$x = 21$$\n\n**Answer: x = 21**\n\n**Check:** $21 - 15 = 6$ ✓",
+      "hints": [
+        {"level": 1, "content": "15 is being subtracted from x.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Add 15 to undo the subtraction.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 6 + 15", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "What operation do you see?",
+          "encouragement": "Look at the minus sign!",
+          "questionPrompt": "Is 15 added or subtracted?"
+        },
+        {
+          "level": 2,
+          "content": "To undo -15, add 15 to both sides.",
+          "encouragement": "Inverse operations!",
+          "questionPrompt": "What's 6 + 15?"
+        },
+        {
+          "level": 3,
+          "content": "6 + 15 = 21",
+          "encouragement": "You've got it!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x - 15 = 6",
+        "expectedAnswers": ["21", "x = 21", "x=21", "x= 21", "x =21", "21.0", "x = 21.0"],
+        "gradingGuidance": "One-step equation. Student should add 15 to both sides.",
+        "sampleSolutions": [
+          "x - 15 = 6\nx - 15 + 15 = 6 + 15\nx = 21",
+          "x - 15 = 6\nx = 6 + 15\nx = 21"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "addition", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 6,
+        "conceptsUsed": ["one-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-003", "linear-eq-y8-004"],
+        "preparesFor": ["linear-eq-y8-007", "linear-eq-y8-008"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "Bigger numbers, same technique!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-007",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$x + 23 = 50$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nSubtract 23 from both sides:\n$$x + 23 - 23 = 50 - 23$$\n$$x = 27$$\n\n**Answer: x = 27**\n\n**Check:** $27 + 23 = 50$ ✓",
+      "hints": [
+        {"level": 1, "content": "What's added to x?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Subtract that number from both sides.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "50 - 23 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "23 is being added to x.",
+          "encouragement": "Same pattern, different numbers!",
+          "questionPrompt": "What should you do to 23?"
+        },
+        {
+          "level": 2,
+          "content": "Subtract 23 from both sides.",
+          "encouragement": "You know this!",
+          "questionPrompt": "Calculate 50 - 23"
+        },
+        {
+          "level": 3,
+          "content": "50 - 23 = 27",
+          "encouragement": "Perfect calculation!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x + 23 = 50",
+        "expectedAnswers": ["27", "x = 27", "x=27", "x= 27", "x =27", "27.0", "x = 27.0"],
+        "gradingGuidance": "One-step equation with larger numbers. Student should subtract 23 from both sides. Watch for arithmetic errors.",
+        "sampleSolutions": [
+          "x + 23 = 50\nx + 23 - 23 = 50 - 23\nx = 27",
+          "x + 23 = 50\nx = 50 - 23\nx = 27"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "subtraction", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 7,
+        "conceptsUsed": ["one-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-005"],
+        "preparesFor": ["linear-eq-y8-008", "linear-eq-y8-009"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can handle any numbers!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-008",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$x - 19 = 31$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nAdd 19 to both sides:\n$$x - 19 + 19 = 31 + 19$$\n$$x = 50$$\n\n**Answer: x = 50**\n\n**Check:** $50 - 19 = 31$ ✓",
+      "hints": [
+        {"level": 1, "content": "What's being subtracted from x?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Add that number to both sides.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "31 + 19 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "19 is subtracted from x.",
+          "encouragement": "Spot the subtraction!",
+          "questionPrompt": "What undoes subtraction?"
+        },
+        {
+          "level": 2,
+          "content": "Add 19 to both sides.",
+          "encouragement": "Inverse operations!",
+          "questionPrompt": "What's 31 + 19?"
+        },
+        {
+          "level": 3,
+          "content": "31 + 19 = 50",
+          "encouragement": "Nice round number!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x - 19 = 31",
+        "expectedAnswers": ["50", "x = 50", "x=50", "x= 50", "x =50", "50.0", "x = 50.0"],
+        "gradingGuidance": "One-step equation with larger numbers. Student should add 19 to both sides.",
+        "sampleSolutions": [
+          "x - 19 = 31\nx - 19 + 19 = 31 + 19\nx = 50",
+          "x - 19 = 31\nx = 31 + 19\nx = 50"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "addition", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 8,
+        "conceptsUsed": ["one-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-006"],
+        "preparesFor": ["linear-eq-y8-009", "linear-eq-y8-010"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I'm mastering one-step equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-009",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for y:\n\n$$y + 17 = 42$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nSubtract 17 from both sides:\n$$y + 17 - 17 = 42 - 17$$\n$$y = 25$$\n\n**Answer: y = 25**\n\n**Check:** $25 + 17 = 42$ ✓",
+      "hints": [
+        {"level": 1, "content": "Same technique - different variable name!", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Subtract 17 from both sides.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "42 - 17 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The variable is y instead of x, but the method is the same!",
+          "encouragement": "Variables are just placeholders!",
+          "questionPrompt": "What's being done to y?"
+        },
+        {
+          "level": 2,
+          "content": "17 is added to y, so subtract 17 from both sides.",
+          "encouragement": "Same technique, different letter!",
+          "questionPrompt": "What's 42 - 17?"
+        },
+        {
+          "level": 3,
+          "content": "42 - 17 = 25",
+          "encouragement": "You can solve for any variable!",
+          "questionPrompt": "So y = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "y + 17 = 42",
+        "expectedAnswers": ["25", "y = 25", "y=25", "y= 25", "y =25", "25.0", "y = 25.0"],
+        "gradingGuidance": "One-step equation with different variable. Student should subtract 17 from both sides. Accept answers using y instead of x.",
+        "sampleSolutions": [
+          "y + 17 = 42\ny + 17 - 17 = 42 - 17\ny = 25",
+          "y + 17 = 42\ny = 42 - 17\ny = 25"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "variables", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 9,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "variable-flexibility"],
+        "buildsOn": ["linear-eq-y8-005", "linear-eq-y8-007"],
+        "preparesFor": ["linear-eq-y8-010", "linear-eq-y8-011"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can solve for any variable!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-010",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for n:\n\n$$n - 28 = 47$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nAdd 28 to both sides:\n$$n - 28 + 28 = 47 + 28$$\n$$n = 75$$\n\n**Answer: n = 75**\n\n**Check:** $75 - 28 = 47$ ✓",
+      "hints": [
+        {"level": 1, "content": "What's being subtracted from n?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Add 28 to both sides.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "47 + 28 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "n is just another variable - solve it the same way!",
+          "encouragement": "You've got this pattern down!",
+          "questionPrompt": "What operation do you see?"
+        },
+        {
+          "level": 2,
+          "content": "28 is subtracted, so add 28 to both sides.",
+          "encouragement": "Inverse operations every time!",
+          "questionPrompt": "What's 47 + 28?"
+        },
+        {
+          "level": 3,
+          "content": "47 + 28 = 75",
+          "encouragement": "Great arithmetic!",
+          "questionPrompt": "So n = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "n - 28 = 47",
+        "expectedAnswers": ["75", "n = 75", "n=75", "n= 75", "n =75", "75.0", "n = 75.0"],
+        "gradingGuidance": "One-step equation with different variable and larger numbers. Student should add 28 to both sides. Check arithmetic carefully.",
+        "sampleSolutions": [
+          "n - 28 = 47\nn - 28 + 28 = 47 + 28\nn = 75",
+          "n - 28 = 47\nn = 47 + 28\nn = 75"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "variables", "solving equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 10,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "variable-flexibility"],
+        "buildsOn": ["linear-eq-y8-009"],
+        "preparesFor": ["linear-eq-y8-011", "linear-eq-y8-012"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "Set 1 complete - I've mastered addition and subtraction equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

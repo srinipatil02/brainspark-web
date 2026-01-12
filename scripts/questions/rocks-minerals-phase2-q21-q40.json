@@ -1,0 +1,940 @@
+[
+  {
+    "questionId": "rocks-minerals-y8-021",
+    "questionType": "MCQ",
+    "stem": "People often confuse **rocks** and **minerals**.\n\nWhat is the key difference between a rock and a mineral?",
+    "mcqOptions": [
+      {"id": "A", "text": "A mineral is a pure substance; a rock is made of one or more minerals", "isCorrect": true, "feedback": "Correct! Minerals are the building blocks that make up rocks."},
+      {"id": "B", "text": "Rocks are bigger than minerals", "isCorrect": false, "feedback": "Size doesn't define the difference - it's about composition."},
+      {"id": "C", "text": "Minerals are found underground; rocks are found on the surface", "isCorrect": false, "feedback": "Both can be found anywhere - location isn't the difference."},
+      {"id": "D", "text": "Rocks are natural; minerals are man-made", "isCorrect": false, "feedback": "Both rocks and minerals are natural."}
+    ],
+    "solution": "**Minerals:**\n- Naturally occurring **inorganic** solids\n- Have a **definite chemical composition**\n- Have a **crystalline structure**\n- Examples: Quartz (SiO₂), Feldspar, Mica, Calcite\n\n**Rocks:**\n- **Aggregates** (mixtures) of one or more minerals\n- Don't have a fixed chemical formula\n- Classified by how they form, not composition\n- Examples: Granite (quartz + feldspar + mica), Limestone (calcite)\n\n**Analogy:** Minerals are like ingredients; rocks are like recipes made from those ingredients.",
+    "hints": [
+      {"level": 1, "content": "Think of minerals as 'pure' substances and rocks as 'mixtures'.", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Minerals are the building blocks; rocks are made of one or more minerals combined.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 21,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["rocks-minerals-y8-001"],
+      "preparesFor": ["rocks-minerals-y8-022", "rocks-minerals-y8-023"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set3",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-022",
+    "questionType": "MCQ",
+    "stem": "A student says: \"Granite and quartz are the same thing - they're both rocks.\"\n\nIs this statement correct?",
+    "mcqOptions": [
+      {"id": "A", "text": "No - granite is a rock; quartz is a mineral that's found IN granite", "isCorrect": true, "feedback": "Correct! Granite is a rock made of several minerals including quartz."},
+      {"id": "B", "text": "Yes - granite and quartz are both types of igneous rocks", "isCorrect": false, "feedback": "Quartz is a mineral, not a rock."},
+      {"id": "C", "text": "No - granite is a mineral; quartz is a rock", "isCorrect": false, "feedback": "It's the opposite - granite is the rock, quartz is the mineral."},
+      {"id": "D", "text": "Yes - they're both made of silicon dioxide", "isCorrect": false, "feedback": "Only quartz is pure silicon dioxide. Granite contains multiple minerals."}
+    ],
+    "solution": "The statement is **INCORRECT**.\n\n**Quartz:**\n- Is a **MINERAL**\n- Chemical formula: SiO₂ (silicon dioxide)\n- Has a definite crystal structure\n- Is a single pure substance\n\n**Granite:**\n- Is a **ROCK** (igneous)\n- Made of MULTIPLE minerals:\n  - Quartz (clear/white crystals)\n  - Feldspar (pink/white crystals)\n  - Mica (black flakes)\n- Has no single chemical formula\n\n**Key insight:** Quartz is one of the minerals that makes up granite. You can see quartz crystals within granite, but they are not the same thing.",
+    "hints": [
+      {"level": 1, "content": "Is quartz a pure substance or a mixture of substances?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Quartz (a mineral) is one of several minerals found inside granite (a rock).", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 22,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["rocks-minerals-y8-021"],
+      "preparesFor": ["rocks-minerals-y8-024"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set3",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-023",
+    "questionType": "MCQ",
+    "stem": "**Quartz** is one of the most common minerals on Earth.\n\nWhich statement best describes quartz?",
+    "mcqOptions": [
+      {"id": "A", "text": "A mineral with the chemical formula SiO₂ and a crystalline structure", "isCorrect": true, "feedback": "Correct! Quartz is silicon dioxide with a specific crystal structure."},
+      {"id": "B", "text": "A rock made of compressed sand grains", "isCorrect": false, "feedback": "That describes sandstone, not quartz."},
+      {"id": "C", "text": "A type of igneous rock formed from lava", "isCorrect": false, "feedback": "Quartz is a mineral, not a rock."},
+      {"id": "D", "text": "A mixture of silicon and oxygen in varying amounts", "isCorrect": false, "feedback": "Quartz has a FIXED composition (SiO₂), not varying amounts."}
+    ],
+    "solution": "**Quartz** is a **mineral** with:\n\n**Chemical composition:** SiO₂ (silicon dioxide)\n- Always the same ratio of silicon to oxygen\n- This fixed composition is what makes it a mineral\n\n**Crystal structure:**\n- Atoms arranged in a specific, repeating pattern\n- Forms six-sided (hexagonal) crystals\n\n**Properties:**\n- Hardness: 7 on Mohs scale (scratches glass)\n- Colors: Clear, white, pink, purple (amethyst), smoky\n- Very common in Earth's crust\n\n**Where quartz is found:**\n- In igneous rocks (granite)\n- In metamorphic rocks (quartzite)\n- In sedimentary rocks (sandstone)\n- As pure crystals in geodes",
+    "hints": [
+      {"level": 1, "content": "Minerals have a definite chemical composition - what's quartz made of?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Quartz is always SiO₂ (silicon dioxide) with a crystalline structure.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 23,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["rocks-minerals-y8-021"],
+      "preparesFor": ["rocks-minerals-y8-026"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set3",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-024",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Granite** is a common igneous rock used in kitchen benchtops and buildings.\n\nHow many different minerals does granite typically contain? Name them and describe what each looks like.",
+    "solution": "**Granite typically contains THREE main minerals:**\n\n**1. Quartz**\n- **Appearance:** Clear, white, or grey glassy crystals\n- **Proportion:** About 20-35% of granite\n- **Properties:** Hard (7 on Mohs scale), glassy lustre\n\n**2. Feldspar**\n- **Appearance:** Pink, white, or cream-coloured crystals\n- **Proportion:** About 50-70% of granite\n- **Types:** Orthoclase (pink) or Plagioclase (white)\n- **Properties:** Slightly softer than quartz, often the dominant colour\n\n**3. Mica**\n- **Appearance:** Black or silvery flakes that sparkle\n- **Proportion:** About 5-15% of granite\n- **Types:** Biotite (black) or Muscovite (silver)\n- **Properties:** Soft, splits into thin sheets, gives granite its sparkle\n\n**How to identify them in granite:**\n- Look for the three different colours/textures\n- Pink/white rectangular shapes = feldspar\n- Clear glassy areas = quartz\n- Black sparkly flakes = mica\n\nThis combination of minerals is what gives granite its speckled appearance.",
+    "hints": [
+      {"level": 1, "content": "Look at a piece of granite - you can see different coloured crystals. How many colours do you see?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Granite has three main minerals: one pink/white, one clear/grey, and one black and sparkly.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 24,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["rocks-minerals-y8-022"],
+      "preparesFor": ["rocks-minerals-y8-036"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set3",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-025",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Your friend picks up a piece of granite and says \"Look at this mineral I found!\"\n\nExplain why this statement is incorrect. Use the terms 'rock' and 'mineral' in your answer.",
+    "solution": "**Why the statement is incorrect:**\n\nGranite is a **ROCK**, not a **mineral**. Here's the difference:\n\n**Minerals:**\n- Are pure substances with ONE chemical composition\n- Have a specific crystal structure\n- Are the \"building blocks\" of rocks\n- Examples: quartz, feldspar, mica\n\n**Rocks:**\n- Are made of ONE OR MORE minerals combined\n- Don't have a fixed chemical formula\n- Are classified by how they form\n\n**Granite specifically:**\n- Is an igneous rock (formed from cooled magma)\n- Contains AT LEAST three different minerals:\n  - Quartz (clear/white)\n  - Feldspar (pink/cream)\n  - Mica (black flakes)\n\n**Correct statement:** \"Look at this rock I found! It's granite - I can see quartz, feldspar, and mica minerals inside it.\"\n\n**Simple analogy:** Calling granite a mineral is like calling a cake an egg. The egg is an ingredient IN the cake, just like quartz is a mineral IN granite.",
+    "hints": [
+      {"level": 1, "content": "How many different types of crystals can you see in granite? Can a single mineral have multiple appearances?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Granite contains multiple minerals (quartz, feldspar, mica), so it's a rock, not a mineral.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 25,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["rocks-minerals-y8-022", "rocks-minerals-y8-024"],
+      "preparesFor": ["rocks-minerals-y8-026"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set3",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-026",
+    "questionType": "MCQ",
+    "stem": "Geologists use the **Mohs scale** when identifying minerals.\n\nWhat does the Mohs scale measure?",
+    "mcqOptions": [
+      {"id": "A", "text": "Hardness - how resistant a mineral is to scratching", "isCorrect": true, "feedback": "Correct! The Mohs scale ranks minerals from 1 (softest) to 10 (hardest)."},
+      {"id": "B", "text": "Colour - how dark or light a mineral appears", "isCorrect": false, "feedback": "Colour is a separate property, not measured by Mohs scale."},
+      {"id": "C", "text": "Weight - how heavy a mineral sample is", "isCorrect": false, "feedback": "Weight/density is measured differently, not with Mohs scale."},
+      {"id": "D", "text": "Age - how old the mineral is", "isCorrect": false, "feedback": "Age is determined by radiometric dating, not Mohs scale."}
+    ],
+    "solution": "The **Mohs scale** measures **hardness** - a mineral's resistance to being scratched.\n\n**The scale runs from 1 to 10:**\n\n| Mohs # | Mineral | Scratch Test |\n|--------|---------|-------------|\n| 1 | Talc | Scratched by fingernail |\n| 2 | Gypsum | Scratched by fingernail |\n| 2.5 | Fingernail | - |\n| 3 | Calcite | Scratched by copper coin |\n| 4 | Fluorite | Scratched by knife |\n| 5 | Apatite | Scratched by knife |\n| 5.5 | Glass | - |\n| 6 | Feldspar | Scratches glass |\n| 7 | Quartz | Scratches glass easily |\n| 8 | Topaz | Scratches quartz |\n| 9 | Corundum | Very hard |\n| 10 | Diamond | Hardest natural mineral |\n\n**How to use it:** A harder mineral scratches a softer one. If mineral A scratches mineral B, then A is harder than B.",
+    "hints": [
+      {"level": 1, "content": "Think about what property would be useful to test by scratching minerals together.", "revealsCriticalInfo": false},
+      {"level": 2, "content": "The Mohs scale ranks minerals by hardness, from talc (1) to diamond (10).", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 26,
+      "conceptsUsed": ["c9"],
+      "buildsOn": ["rocks-minerals-y8-023"],
+      "preparesFor": ["rocks-minerals-y8-027", "rocks-minerals-y8-029"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set3",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-027",
+    "questionType": "MCQ",
+    "stem": "Glass has a hardness of about **5.5** on the Mohs scale.\n\nWhich mineral would be able to scratch glass?",
+    "mcqOptions": [
+      {"id": "A", "text": "Quartz (hardness 7)", "isCorrect": true, "feedback": "Correct! Quartz (7) is harder than glass (5.5), so it can scratch glass."},
+      {"id": "B", "text": "Calcite (hardness 3)", "isCorrect": false, "feedback": "Calcite (3) is softer than glass (5.5), so glass would scratch calcite."},
+      {"id": "C", "text": "Gypsum (hardness 2)", "isCorrect": false, "feedback": "Gypsum (2) is much softer than glass (5.5)."},
+      {"id": "D", "text": "Talc (hardness 1)", "isCorrect": false, "feedback": "Talc (1) is the softest mineral and definitely can't scratch glass."}
+    ],
+    "solution": "**Quartz (hardness 7)** can scratch glass because it is **harder** than glass.\n\n**The rule:** A harder material scratches a softer material.\n\n**Comparing to glass (hardness 5.5):**\n- Talc (1) - SOFTER than glass ✗\n- Gypsum (2) - SOFTER than glass ✗\n- Calcite (3) - SOFTER than glass ✗\n- Fluorite (4) - SOFTER than glass ✗\n- Apatite (5) - SOFTER than glass ✗\n- **Quartz (7)** - HARDER than glass ✓\n\n**Practical scratch tests:**\n- Fingernail (2.5) - tests minerals softer than 2.5\n- Copper coin (3.5) - tests minerals softer than 3.5\n- Steel knife (5.5) - tests minerals softer than 5.5\n- Glass (5.5) - tests minerals softer than 5.5\n\nQuartz easily scratches glass, which is a useful identification test.",
+    "hints": [
+      {"level": 1, "content": "Which number is higher than 5.5?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Only minerals with hardness GREATER than 5.5 can scratch glass.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 27,
+      "conceptsUsed": ["c9"],
+      "buildsOn": ["rocks-minerals-y8-026"],
+      "preparesFor": ["rocks-minerals-y8-029"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set3",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-028",
+    "questionType": "MCQ",
+    "stem": "When identifying minerals, geologists test the **streak** of a mineral.\n\nWhat is a mineral's streak?",
+    "mcqOptions": [
+      {"id": "A", "text": "The colour of powder left when the mineral is rubbed on a porcelain plate", "isCorrect": true, "feedback": "Correct! Streak is the colour of a mineral's powder, which can differ from its surface colour."},
+      {"id": "B", "text": "The pattern of lines visible on the mineral's surface", "isCorrect": false, "feedback": "That would be striations or crystal faces, not streak."},
+      {"id": "C", "text": "How fast the mineral forms in nature", "isCorrect": false, "feedback": "Formation rate is not related to streak."},
+      {"id": "D", "text": "The direction light reflects off the mineral", "isCorrect": false, "feedback": "That describes lustre, not streak."}
+    ],
+    "solution": "**Streak** is the colour of a mineral's **powder** when rubbed on an unglazed porcelain plate (streak plate).\n\n**Why streak is useful:**\n- Streak colour is MORE RELIABLE than surface colour\n- Surface colour can vary due to impurities\n- Streak colour is usually consistent\n\n**Examples:**\n| Mineral | Surface Colour | Streak Colour |\n|---------|---------------|---------------|\n| Pyrite | Gold/Brass | Black |\n| Hematite | Silver-black OR Red | Red-brown |\n| Gold | Gold | Gold |\n| Quartz | Various | White/Colourless |\n\n**Famous example:** Pyrite (\"fool's gold\") looks gold but has a BLACK streak. Real gold has a GOLD streak.\n\n**Limitation:** Only works for minerals softer than the streak plate (hardness ~7). Harder minerals won't leave a mark.",
+    "hints": [
+      {"level": 1, "content": "Think about what happens when you drag a mineral across a rough surface.", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Streak is the colour of the powder a mineral leaves behind when rubbed on porcelain.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 28,
+      "conceptsUsed": ["c9"],
+      "buildsOn": ["rocks-minerals-y8-026"],
+      "preparesFor": ["rocks-minerals-y8-030", "rocks-minerals-y8-040"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set3",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-029",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student finds an unknown mineral. They discover it can scratch glass but cannot scratch quartz.\n\nUsing the Mohs scale, what can you determine about this mineral's hardness? (Glass = 5.5, Quartz = 7)",
+    "solution": "**Analysis:**\n\n**What we know:**\n- The mineral scratches glass (hardness 5.5)\n- The mineral cannot scratch quartz (hardness 7)\n\n**The principle:** A mineral can only scratch something SOFTER than itself.\n\n**Therefore:**\n- The mineral is HARDER than glass (>5.5)\n- The mineral is SOFTER than or equal to quartz (≤7)\n\n**Conclusion:**\nThe mineral's hardness is **between 5.5 and 7** on the Mohs scale.\n\n**Possible minerals in this range:**\n- Feldspar (hardness 6)\n- Pyrite (hardness 6-6.5)\n\n**To narrow it down further, the student could:**\n1. Test against other minerals of known hardness (like feldspar at 6)\n2. Check other properties (streak, lustre, crystal shape)\n3. Test if quartz can scratch the unknown mineral (if yes, unknown is softer than 7)",
+    "hints": [
+      {"level": 1, "content": "If it scratches glass, it must be harder than 5.5. If it can't scratch quartz, what does that tell you?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "The hardness must be greater than 5.5 but less than or equal to 7.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 29,
+      "conceptsUsed": ["c9"],
+      "buildsOn": ["rocks-minerals-y8-026", "rocks-minerals-y8-027"],
+      "preparesFor": ["rocks-minerals-y8-036"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set3",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-030",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Some minerals can be many different colours. For example, quartz can be clear, white, pink, purple, or brown.\n\nExplain why **colour alone** is NOT a reliable way to identify minerals.",
+    "solution": "**Why colour is unreliable for mineral identification:**\n\n**1. Same mineral, many colours**\n- **Quartz** can be: clear, white, pink (rose quartz), purple (amethyst), brown (smoky quartz), yellow (citrine)\n- **Corundum** can be: red (ruby), blue (sapphire), or other colours\n- The same mineral can look completely different!\n\n**2. Cause of colour variation:**\n- **Impurities:** Tiny amounts of other elements change colour\n- Example: Pure corundum is colourless; chromium impurities make it red (ruby); iron/titanium make it blue (sapphire)\n- **Radiation damage:** Can alter colours over time\n- **Crystal structure defects:** Affect light absorption\n\n**3. Different minerals, same colour**\n- Many minerals are white: quartz, calcite, feldspar, talc\n- Many minerals are black: obsidian, magnetite, biotite, hornblende\n- Colour alone can't distinguish between them\n\n**More reliable identification properties:**\n- **Streak** (powder colour is more consistent)\n- **Hardness** (Mohs scale)\n- **Crystal shape**\n- **Lustre** (metallic, glassy, etc.)\n- **Cleavage/fracture** (how it breaks)\n\n**Best practice:** Use MULTIPLE properties together, not just colour.",
+    "hints": [
+      {"level": 1, "content": "Think about quartz - can you always tell it's quartz just by looking at its colour?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "The same mineral can have many colours (due to impurities), and different minerals can share the same colour.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 30,
+      "conceptsUsed": ["c9"],
+      "buildsOn": ["rocks-minerals-y8-028"],
+      "preparesFor": ["rocks-minerals-y8-040"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set3",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-031",
+    "questionType": "MCQ",
+    "stem": "**Uluru** (Ayers Rock) in central Australia is famous for its deep red colour.\n\nWhat causes Uluru's distinctive red colour?",
+    "mcqOptions": [
+      {"id": "A", "text": "Iron minerals in the rock have rusted (oxidised) over millions of years", "isCorrect": true, "feedback": "Correct! The iron in the arkose sandstone has oxidised, creating the red-orange colour."},
+      {"id": "B", "text": "Aboriginal people painted it with red ochre thousands of years ago", "isCorrect": false, "feedback": "The colour is natural, caused by chemical weathering of the rock itself."},
+      {"id": "C", "text": "It was formed from red volcanic lava", "isCorrect": false, "feedback": "Uluru is sedimentary sandstone, not volcanic rock."},
+      {"id": "D", "text": "Red desert sand has stained the surface over time", "isCorrect": false, "feedback": "Actually, the sand comes from the rock! The rock's iron content causes both colours."}
+    ],
+    "solution": "**Uluru's red colour is caused by iron oxidation (rusting).**\n\n**Uluru's composition:**\n- Made of **arkose sandstone** (a sedimentary rock)\n- Contains minerals including **feldspar** and iron-bearing minerals\n- Formed about 550 million years ago from eroded mountains\n\n**How the colour formed:**\n1. The sandstone contains iron-bearing minerals\n2. Over millions of years, **oxygen** reacted with the iron\n3. This created **iron oxides** (rust) on the surface\n4. Iron oxide is red-orange in colour\n5. The \"skin\" of rust is only a few millimetres thick!\n\n**Fun fact:** Fresh Uluru rock (from inside) is actually **grey**! The red is only on the weathered surface.\n\n**Colour changes:** Uluru appears to change colour at sunrise and sunset because the angle of sunlight affects how the iron oxide surface reflects light.",
+    "hints": [
+      {"level": 1, "content": "What happens when iron is exposed to air and moisture over long periods?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "The iron in the rock has oxidised (rusted), creating the characteristic red colour.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 31,
+      "conceptsUsed": ["c3", "c5"],
+      "buildsOn": ["rocks-minerals-y8-003"],
+      "preparesFor": ["rocks-minerals-y8-032"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set4",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-032",
+    "questionType": "SHORT_ANSWER",
+    "stem": "The **Blue Mountains** near Sydney are famous for their dramatic sandstone cliffs. The sandstone was originally deposited as flat layers on an ancient seabed.\n\nExplain how flat layers of sandstone became tall vertical cliffs.",
+    "solution": "**From flat seabed to vertical cliffs:**\n\n**Step 1: Deposition (250-300 million years ago)**\n- Sand was deposited on an ancient seabed\n- Layers built up over millions of years\n- Compaction and cementation formed sandstone\n- Layers were originally HORIZONTAL\n\n**Step 2: Uplift**\n- Tectonic forces pushed the land upward\n- The flat seabed rose to form a plateau\n- The sandstone layers remained horizontal but were now high above sea level\n\n**Step 3: Erosion (ongoing)**\n- Rivers and streams carved into the plateau\n- Water flowed through cracks and joints in the rock\n- **Vertical weathering** occurred along natural fractures\n\n**Step 4: Cliff formation**\n- The sandstone is relatively resistant at the top\n- Softer layers beneath eroded faster\n- This created **undercutting**\n- Large blocks eventually collapsed, leaving vertical cliff faces\n\n**Result:** The once-flat layers now form spectacular vertical cliffs up to 200 metres high.\n\n**The blue haze:** Eucalyptus oil released by trees scatters blue light, giving the mountains their name.",
+    "hints": [
+      {"level": 1, "content": "Think about what forces could lift rock from the seabed AND what could carve away rock to leave cliffs.", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Tectonic uplift raised the layers, then erosion carved valleys and created cliffs.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 32,
+      "conceptsUsed": ["c3", "c6"],
+      "buildsOn": ["rocks-minerals-y8-013", "rocks-minerals-y8-031"],
+      "preparesFor": ["rocks-minerals-y8-055"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set4",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-033",
+    "questionType": "MCQ",
+    "stem": "At **Wilsons Promontory** in Victoria, you can see large granite boulders that appear to be balancing on top of each other. These are called **granite tors**.\n\nHow did these rounded boulders form?",
+    "mcqOptions": [
+      {"id": "A", "text": "Underground granite was exposed by erosion, then weathered into rounded shapes", "isCorrect": true, "feedback": "Correct! Granite formed underground, was exposed, then weathered from corners and edges inward."},
+      {"id": "B", "text": "Glaciers carried and deposited them during the ice age", "isCorrect": false, "feedback": "Victoria didn't have significant glaciation, and these formed from weathering in place."},
+      {"id": "C", "text": "Volcanic explosions threw rounded rocks into piles", "isCorrect": false, "feedback": "Granite forms from slow cooling underground, not volcanic explosions."},
+      {"id": "D", "text": "Waves from an ancient ocean shaped them into spheres", "isCorrect": false, "feedback": "These formed on land through weathering, not ocean processes."}
+    ],
+    "solution": "**How granite tors form:**\n\n**Step 1: Granite formation (deep underground)**\n- Magma cooled SLOWLY deep underground\n- Formed granite with large crystals\n- Originally a solid mass, not separate boulders\n\n**Step 2: Joint formation**\n- As overlying rock eroded away, pressure decreased\n- The granite developed cracks called **joints**\n- These divided the granite into large rectangular blocks\n\n**Step 3: Subsurface weathering**\n- Water seeped into joints while still underground\n- Chemical weathering attacked block corners and edges\n- Corners weathered fastest (3 surfaces exposed)\n- Edges weathered next fastest (2 surfaces exposed)\n- This is called **spheroidal weathering**\n\n**Step 4: Exposure**\n- Erosion removed the soil and weathered material\n- Rounded core stones (tors) were revealed\n- They appear to be \"balancing\" but formed in place\n\n**Result:** Rounded boulders stacked on each other - characteristic granite tor landscape.",
+    "hints": [
+      {"level": 1, "content": "Think about how granite forms (underground) and what happens to corners when they're weathered.", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Underground weathering rounded the blocks before erosion exposed them as tors.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 33,
+      "conceptsUsed": ["c2", "c6"],
+      "buildsOn": ["rocks-minerals-y8-007", "rocks-minerals-y8-024"],
+      "preparesFor": ["rocks-minerals-y8-054"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set4",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-034",
+    "questionType": "MCQ",
+    "stem": "A student says: \"All geological processes take millions of years.\"\n\nWhich example shows this statement is INCORRECT?",
+    "mcqOptions": [
+      {"id": "A", "text": "Obsidian (volcanic glass) can form in minutes to hours when lava cools rapidly", "isCorrect": true, "feedback": "Correct! Obsidian forms very quickly - some rocks form fast, others take millions of years."},
+      {"id": "B", "text": "The Grand Canyon was formed by the Colorado River", "isCorrect": false, "feedback": "This is true, but the Grand Canyon DID take millions of years to form."},
+      {"id": "C", "text": "Fossils are found in sedimentary rocks", "isCorrect": false, "feedback": "This is true, and fossil formation does take long periods."},
+      {"id": "D", "text": "Mountains are formed by tectonic plate collisions", "isCorrect": false, "feedback": "This is true, and mountain building does take millions of years."}
+    ],
+    "solution": "The statement is **INCORRECT** - geological processes happen at vastly different speeds.\n\n**FAST processes (seconds to years):**\n- **Volcanic eruption:** Lava flows in minutes\n- **Obsidian formation:** Hours (rapid cooling of lava)\n- **Earthquake:** Seconds to minutes\n- **Landslide:** Seconds to minutes\n- **Volcanic ash deposition:** Days\n\n**SLOW processes (thousands to millions of years):**\n- **Mountain formation:** Millions of years\n- **Sedimentary rock formation:** Thousands to millions of years\n- **Continental drift:** Centimetres per year\n- **Deep metamorphism:** Millions of years\n- **Grand Canyon formation:** ~6 million years\n\n**Perspective:**\n- Obsidian: Minutes to hours\n- Volcanic island growth: Years to decades\n- Sedimentary layers: Thousands of years\n- Mountain ranges: Tens of millions of years\n\n**Key point:** Geological time scales vary enormously!",
+    "hints": [
+      {"level": 1, "content": "Think about volcanic eruptions - how quickly does lava cool into rock?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Some volcanic rocks (like obsidian) form in minutes to hours from rapidly cooling lava.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 34,
+      "conceptsUsed": ["c7"],
+      "buildsOn": ["rocks-minerals-y8-010"],
+      "preparesFor": ["rocks-minerals-y8-051", "rocks-minerals-y8-052"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set4",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-035",
+    "questionType": "MCQ",
+    "stem": "A student claims: \"Soil turns into clay, and then clay turns into rock over time.\"\n\nWhat is wrong with this statement?",
+    "mcqOptions": [
+      {"id": "A", "text": "It's backwards - soil forms FROM weathered rocks, not the other way around", "isCorrect": true, "feedback": "Correct! Rocks break down to form soil, not the reverse."},
+      {"id": "B", "text": "Clay can never become rock", "isCorrect": false, "feedback": "Actually, clay CAN become rock (shale), but that's not what's wrong here."},
+      {"id": "C", "text": "Soil and clay are the same thing", "isCorrect": false, "feedback": "Soil contains clay plus other materials, but this isn't the main issue."},
+      {"id": "D", "text": "The process takes too long to observe", "isCorrect": false, "feedback": "Time isn't the issue - the direction of the process is wrong."}
+    ],
+    "solution": "The statement has the **direction reversed**.\n\n**The correct relationship:**\n\n**Rocks → Soil** (not Soil → Rocks)\n\n**How soil forms FROM rocks:**\n1. **Weathering** breaks rocks into smaller pieces\n2. Physical weathering: frost, roots, thermal expansion\n3. Chemical weathering: acid rain, oxidation\n4. Rock fragments mix with organic matter (dead plants/animals)\n5. Result: **SOIL**\n\n**What about clay becoming rock?**\n- Clay particles CAN become sedimentary rock\n- Clay → compressed → **Shale** (sedimentary rock)\n- But this is different from \"soil becoming rock\"\n- It requires burial, compaction, and cementation\n\n**The cycle:**\n- Rock → weathering → sediments (including clay) → compaction → sedimentary rock\n- Soil is a PRODUCT of rock breakdown, not a precursor to rocks\n\n**Key misconception corrected:** Soil is the result of rock weathering, not the starting material for rock formation.",
+    "hints": [
+      {"level": 1, "content": "Think about what happens when rocks are exposed to weather over long periods.", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Weathering breaks rocks down INTO soil, not the reverse. Soil is a product of rock breakdown.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 35,
+      "conceptsUsed": ["c3", "c6"],
+      "buildsOn": ["rocks-minerals-y8-011", "rocks-minerals-y8-012"],
+      "preparesFor": ["rocks-minerals-y8-041"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set4",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-036",
+    "questionType": "SHORT_ANSWER",
+    "stem": "You find an unknown mineral with these properties:\n- Scratches glass but not quartz\n- Leaves a white streak on a porcelain plate\n- Has a glassy lustre\n- Crystals appear rectangular\n\nWhat mineral might this be? Explain your reasoning using the properties listed.",
+    "solution": "**Most likely mineral: FELDSPAR**\n\n**Reasoning from each property:**\n\n**1. Hardness test: Scratches glass (5.5) but not quartz (7)**\n- Hardness must be between 5.5 and 7\n- Feldspar has hardness of **6**\n- This fits perfectly!\n\n**2. White streak**\n- Feldspar typically has a white to colourless streak\n- Consistent with feldspar ✓\n\n**3. Glassy lustre**\n- Feldspar has a glassy (vitreous) lustre on fresh surfaces\n- Consistent with feldspar ✓\n\n**4. Rectangular crystals**\n- Feldspar has two cleavage planes at ~90°\n- This creates rectangular or blocky crystal shapes\n- Consistent with feldspar ✓\n\n**Additional confirmation:**\n- Feldspar is the most common mineral in Earth's crust\n- Found in granite and many other rocks\n- Common colours: white, pink, grey\n\n**Process used:**\n1. Narrowed down hardness to 5.5-7 range\n2. Checked other properties match a mineral in that range\n3. All properties consistent with feldspar\n\n**Alternative:** Could be apatite (hardness 5) but it doesn't typically have rectangular crystals.",
+    "hints": [
+      {"level": 1, "content": "First narrow down the hardness range, then look for minerals that match ALL the properties.", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Hardness 5.5-7, white streak, glassy, rectangular - this describes feldspar (hardness 6).", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 36,
+      "conceptsUsed": ["c9"],
+      "buildsOn": ["rocks-minerals-y8-029", "rocks-minerals-y8-028"],
+      "preparesFor": ["rocks-minerals-y8-076"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set4",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-037",
+    "questionType": "MCQ",
+    "stem": "At the beach, you pick up a small, smooth pebble. Your friend says: \"That's not a rock - it's too small. Rocks are big.\"\n\nIs your friend correct?",
+    "mcqOptions": [
+      {"id": "A", "text": "No - size doesn't determine if something is a rock; a pebble is still rock material", "isCorrect": true, "feedback": "Correct! A small piece of granite is still granite. Size doesn't change what something is."},
+      {"id": "B", "text": "Yes - pebbles are classified separately from rocks", "isCorrect": false, "feedback": "Pebbles are just small pieces of rock - they're still rock."},
+      {"id": "C", "text": "Yes - pebbles become rocks when they get bigger", "isCorrect": false, "feedback": "Pebbles don't grow into rocks - they're already pieces of rock."},
+      {"id": "D", "text": "No - pebbles are minerals, not rocks", "isCorrect": false, "feedback": "Pebbles can be either rocks or minerals, depending on their composition."}
+    ],
+    "solution": "Your friend is **INCORRECT**.\n\n**Size does NOT define whether something is a rock:**\n\n- A small piece of granite is still **granite**\n- A small piece of basalt is still **basalt**\n- The composition and formation determine rock type, not size\n\n**Size terminology is just descriptive:**\n| Name | Size |\n|------|------|\n| Boulder | >256 mm |\n| Cobble | 64-256 mm |\n| Pebble | 4-64 mm |\n| Granule | 2-4 mm |\n| Sand | 0.0625-2 mm |\n| Silt/Clay | <0.0625 mm |\n\n**These are ALL rock material** - just different sizes!\n\n**The key point:**\n- 'Rock' refers to the material and how it formed\n- 'Pebble', 'boulder', 'sand' describe size only\n- A granite pebble and a granite mountain are both granite rock\n\n**Common confusion with 'stones':**\n- 'Stone' is informal, not scientific\n- It often just means 'small rock'\n- Scientifically, it's still rock material",
+    "hints": [
+      {"level": 1, "content": "If you broke a big rock in half, would each piece stop being a rock?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Size describes how big something is, not what it's made of. Small rocks are still rocks.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 37,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["rocks-minerals-y8-001"],
+      "preparesFor": ["rocks-minerals-y8-038"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set4",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-038",
+    "questionType": "MCQ",
+    "stem": "A rock sample has the following characteristics:\n- Dark colour (black to dark grey)\n- Very fine-grained (crystals too small to see)\n- Dense and heavy\n- No visible layers or fossils\n\nWhat type of rock is this most likely?",
+    "mcqOptions": [
+      {"id": "A", "text": "Basalt (igneous) - fine-grained from rapid lava cooling", "isCorrect": true, "feedback": "Correct! Dark, fine-grained, dense, no layers - classic basalt characteristics."},
+      {"id": "B", "text": "Granite (igneous) - formed from cooled magma", "isCorrect": false, "feedback": "Granite has LARGE visible crystals and is usually light-coloured."},
+      {"id": "C", "text": "Shale (sedimentary) - formed from compressed mud", "isCorrect": false, "feedback": "Shale has visible layers and is less dense than basalt."},
+      {"id": "D", "text": "Marble (metamorphic) - transformed limestone", "isCorrect": false, "feedback": "Marble has visible crystals and is usually lighter in colour."}
+    ],
+    "solution": "This rock is most likely **BASALT** (an extrusive igneous rock).\n\n**Matching the evidence:**\n\n**Dark colour:** ✓\n- Basalt is dark grey to black\n- Rich in iron and magnesium minerals\n- Called a \"mafic\" rock\n\n**Very fine-grained:** ✓\n- Forms from lava cooling QUICKLY on Earth's surface\n- Crystals don't have time to grow large\n- Need magnification to see individual crystals\n\n**Dense and heavy:** ✓\n- Higher density than granite\n- Contains dense iron-magnesium minerals\n\n**No layers or fossils:** ✓\n- Igneous rocks don't have layers (those are sedimentary)\n- Too hot for fossils to survive\n\n**Why not the others?**\n- **Granite:** Light-coloured, LARGE visible crystals\n- **Shale:** Has layers, lighter, formed from mud\n- **Marble:** Visible crystals, usually light-coloured\n\n**Where basalt is found:**\n- Volcanic islands (Hawaii)\n- Ocean floor\n- Volcanic plateaus\n- Ancient lava flows",
+    "hints": [
+      {"level": 1, "content": "Fine-grained igneous rocks form from FAST cooling. Where does fast cooling happen?", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Dark, fine-grained, dense, no layers = extrusive igneous rock that cooled quickly (basalt).", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 2,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 38,
+      "conceptsUsed": ["c1", "c2"],
+      "buildsOn": ["rocks-minerals-y8-005", "rocks-minerals-y8-008"],
+      "preparesFor": ["rocks-minerals-y8-057"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set4",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-039",
+    "questionType": "MCQ",
+    "stem": "Use the table below to identify a mineral.\n\n| Mineral | Hardness | Streak | Lustre |\n|---------|----------|--------|--------|\n| Pyrite | 6-6.5 | Black | Metallic |\n| Gold | 2.5-3 | Gold | Metallic |\n| Quartz | 7 | White | Glassy |\n| Calcite | 3 | White | Glassy |\n\nA mineral has metallic lustre, hardness of 6, and leaves a black streak. What is it?",
+    "mcqOptions": [
+      {"id": "A", "text": "Pyrite", "isCorrect": true, "feedback": "Correct! Metallic lustre + hardness 6 + black streak = Pyrite ('fool's gold')."},
+      {"id": "B", "text": "Gold", "isCorrect": false, "feedback": "Gold has a gold streak and is much softer (2.5-3)."},
+      {"id": "C", "text": "Quartz", "isCorrect": false, "feedback": "Quartz has glassy lustre and white streak."},
+      {"id": "D", "text": "Calcite", "isCorrect": false, "feedback": "Calcite has glassy lustre and is softer (3)."}
+    ],
+    "solution": "The mineral is **PYRITE** (also called \"fool's gold\").\n\n**Matching properties:**\n\n| Property | Given | Pyrite | Match? |\n|----------|-------|--------|--------|\n| Lustre | Metallic | Metallic | ✓ |\n| Hardness | 6 | 6-6.5 | ✓ |\n| Streak | Black | Black | ✓ |\n\n**Why not the others?**\n\n**Gold:**\n- Hardness: 2.5-3 (given was 6) ✗\n- Streak: Gold, not black ✗\n\n**Quartz:**\n- Lustre: Glassy, not metallic ✗\n- Streak: White, not black ✗\n\n**Calcite:**\n- Lustre: Glassy, not metallic ✗\n- Hardness: 3 (given was 6) ✗\n\n**Fun fact:** Pyrite looks like gold (golden metallic colour) but its BLACK streak instantly distinguishes it from real gold (which has a gold streak). This is why streak tests are so useful!",
+    "hints": [
+      {"level": 1, "content": "Find the mineral that matches ALL THREE properties: metallic lustre, hardness 6, black streak.", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Only one mineral in the table has all three: metallic lustre, hardness 6-6.5, and black streak.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 39,
+      "conceptsUsed": ["c9"],
+      "buildsOn": ["rocks-minerals-y8-026", "rocks-minerals-y8-028"],
+      "preparesFor": ["rocks-minerals-y8-050"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set4",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-040",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Geologists often use the **streak test** even when they can clearly see a mineral's colour.\n\nExplain why geologists prefer to test streak rather than just looking at a mineral's surface colour.",
+    "solution": "**Why streak is more reliable than surface colour:**\n\n**1. Streak colour is more CONSISTENT**\n- A mineral's streak is usually the same regardless of impurities\n- Surface colour can vary widely in the same mineral\n- Example: Hematite can be silver, black, red, or brown on the surface, but ALWAYS has a red-brown streak\n\n**2. Impurities affect surface colour more than streak**\n- Tiny amounts of impurities can dramatically change surface colour\n- When ground to powder, the true colour of the pure mineral shows through\n- Example: Pure quartz is colourless, but impurities make rose quartz (pink), amethyst (purple), citrine (yellow)\n- All types of quartz have a WHITE streak\n\n**3. Surface colour can be affected by:**\n- Weathering and oxidation\n- Tarnishing\n- Thin coatings\n- Lighting conditions\n- These don't affect the streak colour\n\n**4. Streak helps distinguish look-alikes**\n- Pyrite (\"fool's gold\") - gold surface, BLACK streak\n- Real gold - gold surface, GOLD streak\n- Without streak test, they look similar!\n\n**Limitations:**\n- Only works for minerals softer than the streak plate (~7)\n- Harder minerals (quartz, diamond) don't leave a mark\n\n**Conclusion:** Streak reveals the mineral's TRUE colour, unaffected by impurities or surface conditions.",
+    "hints": [
+      {"level": 1, "content": "Think about what can affect a mineral's surface colour but wouldn't affect its powder colour.", "revealsCriticalInfo": false},
+      {"level": 2, "content": "Surface colour can vary due to impurities and weathering, but streak colour stays consistent for each mineral.", "revealsCriticalInfo": true}
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 40,
+      "conceptsUsed": ["c9"],
+      "buildsOn": ["rocks-minerals-y8-028", "rocks-minerals-y8-030"],
+      "preparesFor": ["rocks-minerals-y8-076"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set4",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  }
+]

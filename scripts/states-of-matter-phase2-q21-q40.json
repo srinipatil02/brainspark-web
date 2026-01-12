@@ -1,0 +1,1376 @@
+[
+  {
+    "questionId": "som-y8-021",
+    "questionType": "MCQ",
+    "stem": "You leave ice cream out on a hot Australian summer day. Within 10 minutes, it becomes a puddle of liquid.\n\nWhich statement best explains what happened to the **particles** in the ice cream?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The particles melted and became liquid particles",
+        "isCorrect": false,
+        "feedback": "Particles don't 'melt' - they are already the smallest units. The particles themselves don't change, only their arrangement and movement."
+      },
+      {
+        "id": "B",
+        "text": "The particles gained energy, moved faster, and broke free from fixed positions",
+        "isCorrect": true,
+        "feedback": "Correct! Heat energy increased the kinetic energy of particles. This caused them to vibrate faster, overcome the forces holding them in place, and start sliding past each other (becoming liquid)."
+      },
+      {
+        "id": "C",
+        "text": "The heat destroyed the solid particles and created new liquid particles",
+        "isCorrect": false,
+        "feedback": "Particles are not destroyed during melting. The same particles that were in the solid ice cream are now in the liquid - they've just changed how they move."
+      },
+      {
+        "id": "D",
+        "text": "The sun's rays pushed the particles apart",
+        "isCorrect": false,
+        "feedback": "Heat doesn't 'push' particles. It transfers energy to particles, increasing their motion, which allows them to overcome attractive forces."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nWhen ice cream melts:\n1. **Heat energy** from the surrounding air transfers to the ice cream particles\n2. Particles gain **kinetic energy** and begin vibrating faster\n3. Eventually they have enough energy to **overcome the forces** holding them in fixed positions\n4. Particles can now **slide past each other** - this is the liquid state\n\nThe particles themselves haven't changed - they're the same molecules. Only their **arrangement** (from ordered to disordered) and **movement** (from vibrating in place to sliding) has changed.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what heat does to particles. Does it change what they are, or how they behave?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "In a solid, particles are locked in position. What must happen for them to become a liquid where they can flow?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 1,
+      "conceptsUsed": ["c1", "c6", "c7"],
+      "buildsOn": ["som-y8-006", "som-y8-012"],
+      "preparesFor": ["som-y8-025", "som-y8-041"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p1",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 21
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-022",
+    "questionType": "MCQ",
+    "stem": "You step out of a hot shower and notice steam rising from your skin and disappearing into the air.\n\nWhat happens to the water particles when the steam 'disappears'?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They stop existing - the water is destroyed",
+        "isCorrect": false,
+        "feedback": "Matter cannot be created or destroyed. The water particles still exist - they've just spread out so much you can't see them."
+      },
+      {
+        "id": "B",
+        "text": "They slow down and become invisible solid particles",
+        "isCorrect": false,
+        "feedback": "The particles don't become solid. They remain as gas particles spread out in the air."
+      },
+      {
+        "id": "C",
+        "text": "They spread far apart into the surrounding air as gas particles",
+        "isCorrect": true,
+        "feedback": "Correct! The water vapour (gas) particles spread out through the air by diffusion. They're still there as a gas, just too spread out to see."
+      },
+      {
+        "id": "D",
+        "text": "They combine with air particles to form a new substance",
+        "isCorrect": false,
+        "feedback": "The water particles remain as water (H₂O). They mix with air but don't combine chemically."
+      }
+    ],
+    "solution": "The answer is **C**.\n\nWhen steam 'disappears':\n1. **Water vapour** is water in the gas state - particles are moving fast and far apart\n2. Through **diffusion**, these fast-moving particles spread into the surrounding air\n3. They become so **spread out** that we can't see them anymore (below visible concentration)\n4. The particles are still **water molecules (H₂O)** - they haven't changed chemically\n\nVisible steam near your body is actually tiny water droplets suspended in air. As these spread out and mix with dry air, they become invisible water vapour.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Can matter just disappear? What does conservation of mass tell us?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Gas particles spread out rapidly. What happens when water vapour particles spread into a large room?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 2,
+      "conceptsUsed": ["c5", "c8"],
+      "buildsOn": ["som-y8-009", "som-y8-015"],
+      "preparesFor": ["som-y8-028", "som-y8-045"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p2",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 22
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-023",
+    "questionType": "MCQ",
+    "stem": "A student puts a spoonful of sugar into hot tea and stirs it. The sugar seems to 'disappear'.\n\nAnother student puts an ice cube on a warm plate. The ice seems to 'disappear' too.\n\nWhat is the difference between these two situations?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Both are the same process - melting",
+        "isCorrect": false,
+        "feedback": "Only the ice is melting (changing state). The sugar undergoes a different process."
+      },
+      {
+        "id": "B",
+        "text": "Both are the same process - dissolving",
+        "isCorrect": false,
+        "feedback": "Only the sugar is dissolving (mixing with a solvent). Ice changes state without a solvent."
+      },
+      {
+        "id": "C",
+        "text": "Sugar dissolves (mixes with water), ice melts (changes from solid to liquid)",
+        "isCorrect": true,
+        "feedback": "Correct! Dissolving and melting are different processes. Sugar particles spread out among water particles (dissolving). Ice particles gain energy and change from solid to liquid state (melting)."
+      },
+      {
+        "id": "D",
+        "text": "Sugar melts (becomes liquid sugar), ice dissolves (mixes with air)",
+        "isCorrect": false,
+        "feedback": "This has the processes reversed. Sugar dissolves in water; ice melts into liquid water."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**Dissolving** (sugar in tea):\n- Sugar particles **separate** and spread out among water particles\n- The sugar is still there - just mixed with the water\n- This requires a **solvent** (liquid to dissolve into)\n- It's a **mixing** process, not a state change\n\n**Melting** (ice on plate):\n- Ice particles gain energy and change from **solid to liquid**\n- This is a **change of state**\n- No mixing with another substance is required\n- The particles stay together, just in a different arrangement\n\nThis addresses the common misconception that melting and dissolving are the same!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Does sugar need something else (like water) to 'disappear'? Does ice?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Dissolving involves mixing particles. Melting involves changing the arrangement and movement of particles within the same substance.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 3,
+      "conceptsUsed": ["c6", "c7"],
+      "buildsOn": ["som-y8-007", "som-y8-014"],
+      "preparesFor": ["som-y8-043", "som-y8-044"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "misconceptionId": "m6",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 23
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-024",
+    "questionType": "MCQ",
+    "stem": "You're cooking dinner and put some butter in a pan on the stove. The butter starts as a solid cube but quickly turns into a liquid that spreads across the pan.\n\nWhich row correctly describes the particles in solid butter versus liquid butter?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Solid: particles far apart, moving slowly | Liquid: particles close together, moving fast",
+        "isCorrect": false,
+        "feedback": "In solids, particles are actually close together (not far apart). The spacing difference between solid and liquid is small."
+      },
+      {
+        "id": "B",
+        "text": "Solid: particles close and vibrating in place | Liquid: particles close but sliding past each other",
+        "isCorrect": true,
+        "feedback": "Correct! Both solids and liquids have particles close together, but the key difference is their movement - vibrating in place versus sliding freely."
+      },
+      {
+        "id": "C",
+        "text": "Solid: large particles packed tightly | Liquid: smaller particles spread out",
+        "isCorrect": false,
+        "feedback": "Particles don't change size when matter changes state. The same particles exist in both the solid and liquid butter."
+      },
+      {
+        "id": "D",
+        "text": "Solid: no particle movement | Liquid: particles moving in circles",
+        "isCorrect": false,
+        "feedback": "Particles in solids DO move - they vibrate in place. And liquid particles move randomly, not in circles."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nComparing particle behaviour:\n\n| Property | Solid Butter | Liquid Butter |\n|----------|--------------|---------------|\n| **Spacing** | Close together | Close together |\n| **Arrangement** | Regular pattern | Random |\n| **Movement** | Vibrate in place | Slide past each other |\n\nKey insight: The particles in both solid and liquid butter are **close together**. The main difference is:\n- In solid: particles are **locked in position**, only vibrating\n- In liquid: particles can **move around** and slide past neighbours\n\nThis is why butter flows as a liquid - particles can move past each other to take the shape of the pan.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Are particles in a solid really far apart? Think about density.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Both solids and liquids are dense. The difference is whether particles can move past each other or are locked in place.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 4,
+      "conceptsUsed": ["c3", "c4", "c6"],
+      "buildsOn": ["som-y8-005", "som-y8-008"],
+      "preparesFor": ["som-y8-030", "som-y8-042"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p10",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 24
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-025",
+    "questionType": "MCQ",
+    "stem": "A balloon filled with air has mass that can be measured on a sensitive scale.\n\nA student says: \"Air is not really matter because you can't see it or hold it.\"\n\nWhich evidence best disproves this claim?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Air can be felt as wind",
+        "isCorrect": false,
+        "feedback": "While this shows air exists, it doesn't directly prove air is matter. Matter is defined by having mass and taking up space."
+      },
+      {
+        "id": "B",
+        "text": "A balloon weighs more when inflated than when empty",
+        "isCorrect": true,
+        "feedback": "Correct! This proves air has mass. Since air also takes up space (fills the balloon), it meets both requirements to be considered matter."
+      },
+      {
+        "id": "C",
+        "text": "We need air to breathe",
+        "isCorrect": false,
+        "feedback": "While true, this doesn't prove air is matter - it just shows air is important for life."
+      },
+      {
+        "id": "D",
+        "text": "Air is made of invisible particles",
+        "isCorrect": false,
+        "feedback": "This is true, but doesn't directly prove air is matter without demonstrating mass and volume."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nTo be classified as **matter**, something must have:\n1. **Mass** - it weighs something\n2. **Volume** - it takes up space\n\nThe balloon experiment proves both:\n- **Mass**: An inflated balloon weighs slightly more than an empty one (measurable on a sensitive scale)\n- **Volume**: The air fills the balloon, showing it takes up space\n\nThis disproves the misconception that gases aren't 'real' matter. Air is made of gas particles (mainly nitrogen and oxygen molecules) that have mass, even though they're spread far apart and invisible.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What two properties define something as 'matter'?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Matter must have mass (weighs something) and take up space. Which option proves air has mass?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 5,
+      "conceptsUsed": ["c2", "c5"],
+      "buildsOn": ["som-y8-002", "som-y8-009"],
+      "preparesFor": ["som-y8-033", "som-y8-046"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "misconceptionId": "m8",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 25
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-026",
+    "questionType": "MCQ",
+    "stem": "Water can exist as ice, liquid water, or steam. \n\nWhat stays the **same** about water in all three states?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The arrangement of particles",
+        "isCorrect": false,
+        "feedback": "Particle arrangement is different in each state - ordered in ice, random in liquid and gas."
+      },
+      {
+        "id": "B",
+        "text": "The speed of particle movement",
+        "isCorrect": false,
+        "feedback": "Particle speed changes dramatically - slow vibration in ice, faster in liquid, fastest in steam."
+      },
+      {
+        "id": "C",
+        "text": "The type of particles (H₂O molecules)",
+        "isCorrect": true,
+        "feedback": "Correct! Whether ice, water, or steam, it's always made of the same H₂O molecules. Only their arrangement and movement changes."
+      },
+      {
+        "id": "D",
+        "text": "The spacing between particles",
+        "isCorrect": false,
+        "feedback": "Spacing is very different - particles are close in ice and water, but far apart in steam."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**What stays the SAME** across all three states:\n- The **chemical composition** - always H₂O molecules\n- The **identity** of the substance - still water\n- The **mass** of individual molecules\n\n**What CHANGES** between states:\n- **Arrangement** (ordered → random)\n- **Spacing** (close → far apart in gas)\n- **Movement** (vibrating → sliding → flying)\n- **Energy** of particles (increasing)\n\nThis is a key principle: **state changes are physical changes**, not chemical changes. The molecules remain the same H₂O throughout!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what a state change is. Does the substance become something different, or just change form?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The particles themselves stay the same - it's how they're arranged and moving that changes.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 6,
+      "conceptsUsed": ["c1", "c2", "c7"],
+      "buildsOn": ["som-y8-001", "som-y8-003"],
+      "preparesFor": ["som-y8-027", "som-y8-049"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 26
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-027",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Your younger sibling asks you: \"Where does the water go when a puddle dries up on a hot day?\"\n\nUsing the particle model, explain what happens to the water particles.",
+    "solution": "When a puddle dries up:\n\n1. **Energy transfer**: The sun heats the water, transferring energy to the water particles\n\n2. **Increased particle motion**: Water particles at the surface gain kinetic energy and move faster\n\n3. **Evaporation**: Particles with enough energy break free from the liquid surface and become gas particles (water vapour)\n\n4. **Diffusion**: These gas particles spread out into the surrounding air through random motion\n\n5. **The water is still there**: The H₂O molecules haven't disappeared - they've just spread out into the air as invisible water vapour\n\nSo you could tell your sibling: \"The water particles got energy from the sun, started moving really fast, escaped into the air as a gas, and spread out so much we can't see them anymore - but they're still there floating in the air!\"",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Does the water actually disappear? What does 'evaporate' mean at the particle level?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Energy from the sun makes particles move faster. What happens when liquid particles have enough energy?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "The water becomes water vapour (gas). Where do these gas particles go? Remember diffusion!",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 7,
+      "conceptsUsed": ["c5", "c6", "c7", "c8"],
+      "buildsOn": ["som-y8-009", "som-y8-022"],
+      "preparesFor": ["som-y8-035", "som-y8-050"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 27
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-028",
+    "questionType": "MCQ",
+    "stem": "You spray perfume in the corner of a classroom. Within a few minutes, students on the opposite side of the room can smell it.\n\nWhich statement best explains how this happens?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Air currents blow the perfume across the room",
+        "isCorrect": false,
+        "feedback": "While air currents can help, perfume would still spread even in perfectly still air due to particle motion."
+      },
+      {
+        "id": "B",
+        "text": "Perfume particles move randomly and spread from high to low concentration",
+        "isCorrect": true,
+        "feedback": "Correct! This is diffusion - gas particles move randomly in all directions, spreading from where there's lots of them (high concentration) to where there's few (low concentration)."
+      },
+      {
+        "id": "C",
+        "text": "The perfume is attracted to people's noses",
+        "isCorrect": false,
+        "feedback": "Particles don't target destinations. They move randomly in all directions."
+      },
+      {
+        "id": "D",
+        "text": "Perfume particles are lighter than air and float across",
+        "isCorrect": false,
+        "feedback": "Diffusion happens regardless of whether particles are heavier or lighter than air. It's about random motion."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThis demonstrates **diffusion**:\n\n1. Perfume is released as **gas particles** (that's why you can smell it)\n2. Gas particles have **high kinetic energy** and move rapidly in random directions\n3. Particles collide with air molecules and each other, bouncing in all directions\n4. Over time, particles spread from **high concentration** (near the spray) to **low concentration** (across the room)\n5. When enough particles reach your nose, you can smell them\n\nDiffusion happens without any wind or fans - it's driven purely by the **random motion** of particles. However, it's faster in gases than liquids because gas particles move more freely.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "How do gas particles move? Do they go in one direction or bounce around randomly?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about the word 'diffusion' - particles spread out from crowded areas to empty areas.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 8,
+      "conceptsUsed": ["c5", "c8"],
+      "buildsOn": ["som-y8-009", "som-y8-015"],
+      "preparesFor": ["som-y8-045", "som-y8-055"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p5",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 28
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-029",
+    "questionType": "MCQ",
+    "stem": "A solid metal rod is heated at one end. After a while, the other end becomes warm too.\n\nHow does heat travel through the solid metal?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Hot metal particles move from one end to the other",
+        "isCorrect": false,
+        "feedback": "In solids, particles cannot move location - they're locked in fixed positions. Only their vibration changes."
+      },
+      {
+        "id": "B",
+        "text": "Particles vibrate faster and pass energy to neighbouring particles",
+        "isCorrect": true,
+        "feedback": "Correct! Particles at the hot end vibrate faster. They bump into neighbours, transferring energy along the rod, even though the particles themselves don't move location."
+      },
+      {
+        "id": "C",
+        "text": "The spaces between particles get bigger, letting heat through",
+        "isCorrect": false,
+        "feedback": "Heat doesn't travel through empty spaces. It's transferred through particle-to-particle collisions."
+      },
+      {
+        "id": "D",
+        "text": "New hot particles are created at the heated end",
+        "isCorrect": false,
+        "feedback": "Particles aren't created or destroyed during heating. The same particles just gain more energy."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nHeat travels through solids by **conduction**:\n\n1. Particles at the heated end gain thermal energy\n2. They begin to **vibrate faster** and with greater amplitude\n3. These vibrating particles **bump into neighbouring particles**\n4. Energy transfers to the neighbours, making them vibrate faster too\n5. This continues along the rod - a chain reaction of energy transfer\n6. The particles themselves **stay in fixed positions** - only the energy moves\n\nThis is different from liquids/gases where particles can actually move and carry energy with them (convection).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Can particles in a solid actually move from place to place, or are they stuck?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Particles in solids vibrate in place. How could energy transfer if the particles can't move?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 9,
+      "conceptsUsed": ["c3", "c6"],
+      "buildsOn": ["som-y8-005", "som-y8-012"],
+      "preparesFor": ["som-y8-047", "som-y8-052"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 29
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-030",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Compare how particles in a solid, liquid, and gas respond when you try to compress them (squeeze into a smaller space).\n\nWhich state is easiest to compress? Explain why using the particle model.",
+    "solution": "**Gases are easiest to compress**, followed by liquids, with solids being hardest.\n\n**Explanation using the particle model:**\n\n| State | Particle Spacing | Compressibility | Reason |\n|-------|-----------------|-----------------|--------|\n| Solid | Particles touching | Nearly impossible | No space between particles to squeeze into |\n| Liquid | Particles close | Very difficult | Small gaps, but particles already nearly touching |\n| Gas | Particles far apart | Easy | Lots of empty space between particles can be reduced |\n\n**Key insight**: Compressibility depends on the space between particles:\n- **Gases** have particles far apart with lots of empty space → easy to push particles closer together\n- **Liquids and solids** have particles already close together → little room to compress further\n\nExample: You can easily squeeze a syringe full of air, but trying to squeeze one full of water is nearly impossible.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the spacing between particles in each state. Which has the most 'empty space'?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "To compress something, particles need to get closer together. Which state has room for particles to get closer?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 10,
+      "conceptsUsed": ["c3", "c4", "c5"],
+      "buildsOn": ["som-y8-004", "som-y8-008", "som-y8-009"],
+      "preparesFor": ["som-y8-046", "som-y8-062"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 30
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-031",
+    "questionType": "MCQ",
+    "stem": "A student heats water from 20°C to 90°C.\n\nWhich change occurs to the water particles?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Particles get bigger as they absorb heat",
+        "isCorrect": false,
+        "feedback": "Particles never change size during heating. They stay exactly the same size but move faster."
+      },
+      {
+        "id": "B",
+        "text": "More particles are created from the heat energy",
+        "isCorrect": false,
+        "feedback": "Heat doesn't create particles. The same number of particles exist before and after heating."
+      },
+      {
+        "id": "C",
+        "text": "Particles move faster and have more kinetic energy",
+        "isCorrect": true,
+        "feedback": "Correct! Temperature is a measure of average particle kinetic energy. Higher temperature = faster particle motion."
+      },
+      {
+        "id": "D",
+        "text": "Particles change from H₂O to a different molecule",
+        "isCorrect": false,
+        "feedback": "Heating doesn't change what the particles are. H₂O molecules remain H₂O molecules."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**Temperature and particle motion are directly related:**\n\n- Temperature is a measure of **average kinetic energy** of particles\n- Heating adds **thermal energy** to particles\n- This energy converts to **kinetic energy** (movement energy)\n- Particles move **faster** at higher temperatures\n\n**What DOESN'T change:**\n- Particle size (stays the same)\n- Number of particles (no creation/destruction)\n- Type of particle (still H₂O)\n\nAt 20°C, water particles are moving. At 90°C, the same particles are moving much faster - that's the only difference!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What is temperature actually measuring about particles?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Temperature measures how fast particles are moving (their kinetic energy). What happens to motion when you add heat?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 11,
+      "conceptsUsed": ["c6", "c10"],
+      "buildsOn": ["som-y8-012", "som-y8-014"],
+      "preparesFor": ["som-y8-041", "som-y8-053"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 31
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-032",
+    "questionType": "MCQ",
+    "stem": "Chocolate melts at about 34°C, which is just below body temperature (37°C).\n\nWhy does chocolate melt in your mouth but not in your hand (usually)?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Your mouth is wetter than your hand",
+        "isCorrect": false,
+        "feedback": "Wetness isn't the key factor here. Melting is about temperature, not moisture."
+      },
+      {
+        "id": "B",
+        "text": "Your mouth is warmer than your hand, providing more energy to particles",
+        "isCorrect": true,
+        "feedback": "Correct! The inside of your mouth (37°C) is above chocolate's melting point, while your hand surface is cooler. More heat = more particle energy = faster melting."
+      },
+      {
+        "id": "C",
+        "text": "Saliva chemically dissolves the chocolate",
+        "isCorrect": false,
+        "feedback": "Melting is a physical change (state change), not a chemical change. Saliva doesn't chemically change the chocolate."
+      },
+      {
+        "id": "D",
+        "text": "Your mouth has special enzymes that break down chocolate",
+        "isCorrect": false,
+        "feedback": "While saliva does contain enzymes, melting chocolate is about heat energy, not chemical breakdown."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nChocolate melts at about **34°C** (melting point).\n\n**Inside your mouth**: ~37°C\n- Above the melting point\n- Chocolate particles gain enough energy to break free from fixed positions\n- Chocolate melts quickly\n\n**Hand surface**: ~32-33°C\n- Just below the melting point\n- Not quite enough energy to fully overcome particle attractions\n- Chocolate softens but doesn't fully melt (unless held for a while)\n\nThis is why chocolate bars come with warnings about melting on hot days - when air temperature exceeds 34°C, particles everywhere gain enough energy to become liquid!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What determines whether something melts - temperature or wetness?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Compare the temperatures. Your mouth is 37°C. Chocolate melts at 34°C. What about your hand?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 12,
+      "conceptsUsed": ["c6", "c7"],
+      "buildsOn": ["som-y8-021", "som-y8-024"],
+      "preparesFor": ["som-y8-044", "som-y8-063"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 32
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-033",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Look at this table showing the same substance in different states:\n\n| State | Mass | Volume |\n|-------|------|--------|\n| Ice (solid) | 100g | 109 cm³ |\n| Water (liquid) | 100g | 100 cm³ |\n| Steam (gas) | 100g | 170,000 cm³ |\n\nUsing the particle model, explain why the mass stays the same but the volume changes so dramatically.",
+    "solution": "**Mass stays the same** because:\n- The **same particles** exist in all three states\n- The same number of H₂O molecules (approximately 3.3 × 10²⁴) are present\n- No particles are created or destroyed during state changes\n- Mass = number of particles × mass per particle (unchanged)\n\n**Volume changes dramatically** because:\n- Volume depends on **particle spacing**\n\n| State | Particle Spacing | Volume Result |\n|-------|-----------------|---------------|\n| Solid (ice) | Close but slightly spread due to unique crystal structure | 109 cm³ |\n| Liquid (water) | Closest packing | 100 cm³ |\n| Gas (steam) | Very far apart | 170,000 cm³ |\n\nThe **1700x volume increase** from liquid to gas shows how far apart gas particles really are! The particles themselves haven't changed size - they've just spread out with lots of empty space between them.\n\n*Note: Ice being larger than liquid water is unusual - most solids are denser than their liquids.*",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What determines mass - the particles themselves or how they're arranged?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Volume depends on spacing between particles. How does particle spacing differ between states?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Same particles = same mass. Different spacing = different volume. Gas particles are VERY spread out!",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 13,
+      "conceptsUsed": ["c2", "c3", "c4", "c5"],
+      "buildsOn": ["som-y8-002", "som-y8-004", "som-y8-009"],
+      "preparesFor": ["som-y8-046", "som-y8-054"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 33
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-034",
+    "questionType": "MCQ",
+    "stem": "A cold drink can on a hot day develops water droplets on the outside.\n\nWhere does this water come from?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Water leaks through tiny holes in the can",
+        "isCorrect": false,
+        "feedback": "Drink cans are sealed and waterproof. The water comes from outside the can."
+      },
+      {
+        "id": "B",
+        "text": "Water vapour in the air condenses on the cold surface",
+        "isCorrect": true,
+        "feedback": "Correct! Invisible water vapour in the air hits the cold can surface, loses energy, and changes from gas to liquid droplets."
+      },
+      {
+        "id": "C",
+        "text": "The can creates water from the metal",
+        "isCorrect": false,
+        "feedback": "Metal cannot create water. Water is made of hydrogen and oxygen (H₂O), not metal."
+      },
+      {
+        "id": "D",
+        "text": "Cold air carries more water than warm air",
+        "isCorrect": false,
+        "feedback": "Actually, warm air holds more water vapour than cold air. That's why water condenses when air cools down."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThis is **condensation** - the reverse of evaporation:\n\n1. Air contains **water vapour** (water as a gas) - you can't see it\n2. Water vapour particles are moving fast with high kinetic energy\n3. When they hit the **cold can surface**, they lose thermal energy\n4. With less energy, they can no longer stay as gas\n5. Particles slow down, come together, and form **liquid water droplets**\n\nThe water was always there in the air - it was just invisible as a gas. The cold surface provides a place for it to condense back into visible liquid.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Is there water in the air around us, even when we can't see it?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "What happens to gas particles when they lose energy by hitting a cold surface?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 14,
+      "conceptsUsed": ["c5", "c7", "c9"],
+      "buildsOn": ["som-y8-022", "som-y8-027"],
+      "preparesFor": ["som-y8-043", "som-y8-050"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p3",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 34
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-035",
+    "questionType": "MCQ",
+    "stem": "You wake up early and see dew drops on the grass, even though it didn't rain.\n\nUsing the particle model, what happened overnight?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Water seeped up from underground through the grass",
+        "isCorrect": false,
+        "feedback": "Dew comes from the air, not from underground water."
+      },
+      {
+        "id": "B",
+        "text": "The grass created water through a chemical reaction",
+        "isCorrect": false,
+        "feedback": "Grass doesn't create water. Dew is water that was already in the air."
+      },
+      {
+        "id": "C",
+        "text": "Air temperature dropped, causing water vapour particles to slow down and condense",
+        "isCorrect": true,
+        "feedback": "Correct! As night cooled the grass, water vapour particles lost energy, slowed down, and condensed into liquid droplets on the cold surfaces."
+      },
+      {
+        "id": "D",
+        "text": "The moon's gravity pulled water out of the air",
+        "isCorrect": false,
+        "feedback": "Gravity doesn't cause condensation. Temperature change is responsible for dew formation."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**Dew formation overnight:**\n\n1. During the day, the air holds **water vapour** (invisible gas)\n2. At night, temperatures drop - ground and grass cool faster than air\n3. Water vapour particles near the cold grass **lose thermal energy**\n4. With less energy, gas particles **slow down** and can no longer stay apart\n5. They **condense** into liquid droplets on the cold grass blades\n\nThis is the same process as water droplets on a cold drink can - just happening on a larger scale across nature. The 'dew point' is the temperature at which condensation starts to occur.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What happens to temperature overnight? What happens to particle motion when it gets cold?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Water vapour in the air cools down and changes state. What do we call gas turning to liquid?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 15,
+      "conceptsUsed": ["c5", "c7", "c9"],
+      "buildsOn": ["som-y8-034"],
+      "preparesFor": ["som-y8-043", "som-y8-050"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p4",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 35
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-036",
+    "questionType": "SHORT_ANSWER",
+    "stem": "In a science experiment, you heat a beaker of water until it boils.\n\nDescribe what is happening to the water particles:\na) Just before boiling (at 99°C)\nb) At boiling point (100°C)\nc) During boiling",
+    "solution": "**a) Just before boiling (99°C):**\n- Particles are moving **rapidly** but still mostly in liquid form\n- Some particles at the surface have enough energy to escape as gas (evaporation)\n- Most particles are **sliding past each other** as liquid\n- Kinetic energy is high but not quite at the boiling threshold\n\n**b) At boiling point (100°C):**\n- Particles have reached the **critical energy level**\n- The energy is now sufficient for particles **throughout the liquid** (not just surface) to become gas\n- Attractions between particles can be completely overcome\n- Temperature stops rising even though heat is still being added\n\n**c) During boiling:**\n- **Bubbles form throughout the liquid** - these are pockets of water vapour (gas)\n- Particles in bubbles have broken free from liquid attractions\n- These gas particles move **rapidly in random directions**\n- Energy being added goes into **breaking particle bonds** (latent heat) rather than increasing temperature\n- Particles escaping at the surface create visible steam",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about particle energy at each stage. What's the key difference between evaporation and boiling?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Evaporation happens at the surface. Boiling happens throughout the liquid. Why?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "At boiling point, all particles have enough energy to become gas. Energy goes into state change, not temperature increase.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 16,
+      "conceptsUsed": ["c4", "c5", "c6", "c7", "c9"],
+      "buildsOn": ["som-y8-021", "som-y8-027", "som-y8-031"],
+      "preparesFor": ["som-y8-047", "som-y8-053"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 36
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-037",
+    "questionType": "MCQ",
+    "stem": "When making popcorn, the kernels heat up until they suddenly 'pop' into fluffy shapes.\n\nWhat causes the popping?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The corn kernel explodes like a tiny bomb",
+        "isCorrect": false,
+        "feedback": "It's not a chemical explosion. The process involves a rapid state change of water inside the kernel."
+      },
+      {
+        "id": "B",
+        "text": "Water inside the kernel turns to steam and expands rapidly",
+        "isCorrect": true,
+        "feedback": "Correct! Water trapped inside turns to steam (gas) when heated enough. The steam expands dramatically (about 1700x volume), bursting the kernel open."
+      },
+      {
+        "id": "C",
+        "text": "The starch inside melts and pushes outward",
+        "isCorrect": false,
+        "feedback": "While starch does play a role in the fluffy texture, the popping force comes from water turning to steam."
+      },
+      {
+        "id": "D",
+        "text": "Heat makes the kernel grow bigger",
+        "isCorrect": false,
+        "feedback": "The kernel itself doesn't grow. The pop happens because of what's happening to water inside."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**The popcorn popping process:**\n\n1. Corn kernels contain about 14% **water** trapped inside\n2. The hard outer shell seals this water in\n3. When heated, the water particles gain energy and move faster\n4. At about 180°C, the water **turns to steam** (gas)\n5. Gas particles need MUCH more space - steam takes up ~1700x the volume of liquid water\n6. Pressure builds inside the sealed kernel\n7. Eventually the shell **bursts open** - POP!\n8. The starch inside expands into the fluffy white part\n\nThis is the same state change as boiling water, but trapped inside the kernel, it creates pressure instead of escaping freely.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Corn kernels contain water. What happens to water when it gets very hot?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "How much more space does steam take compared to liquid water? What happens if it's trapped?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 17,
+      "conceptsUsed": ["c5", "c6", "c7"],
+      "buildsOn": ["som-y8-033", "som-y8-036"],
+      "preparesFor": ["som-y8-062", "som-y8-067"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p6",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 37
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-038",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A science teacher demonstrates that a drop of food colouring spreads through hot water much faster than through cold water.\n\nUsing the particle model, explain this observation.",
+    "solution": "**Observation:** Food colouring spreads faster in hot water than cold water.\n\n**Particle model explanation:**\n\nIn **hot water**:\n- Water particles have **high kinetic energy** (moving fast)\n- Food colouring particles are bumped and jostled **more frequently**\n- Random collisions push colouring particles in all directions **rapidly**\n- **Diffusion rate is high** - particles spread quickly\n\nIn **cold water**:\n- Water particles have **lower kinetic energy** (moving slowly)\n- Collisions with food colouring particles happen **less often**\n- Colouring particles get pushed around **more slowly**\n- **Diffusion rate is low** - particles spread gradually\n\n**Key principle:** Temperature affects particle speed. Faster-moving particles cause faster diffusion because they collide more frequently and transfer more energy per collision.\n\n**Real-world connection:** This is why tea brews faster in hot water - the dissolved particles spread more quickly!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What's different about particle motion in hot water versus cold water?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Diffusion happens through particle collisions. How does temperature affect how often particles collide?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 18,
+      "conceptsUsed": ["c6", "c8"],
+      "buildsOn": ["som-y8-028", "som-y8-031"],
+      "preparesFor": ["som-y8-055", "som-y8-058"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 38
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-039",
+    "questionType": "MCQ",
+    "stem": "A student creates this particle diagram showing melting:\n\n**Before heating (solid):** ●●●●●●●●● (particles touching in rows)\n**After heating (liquid):** ● ● ● ● ● ● ● (particles far apart)\n\nWhat mistake has the student made?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The particles should be smaller in the liquid",
+        "isCorrect": false,
+        "feedback": "Particle size doesn't change during state changes. The same particles exist in both states."
+      },
+      {
+        "id": "B",
+        "text": "The liquid particles should still be close together, just not in fixed positions",
+        "isCorrect": true,
+        "feedback": "Correct! This is a common mistake. Liquid particles are still close together (similar to solids) - they're just not locked in position. Only gas particles are far apart."
+      },
+      {
+        "id": "C",
+        "text": "There should be more particles in the liquid",
+        "isCorrect": false,
+        "feedback": "The number of particles doesn't change during state changes."
+      },
+      {
+        "id": "D",
+        "text": "The solid particles should be moving",
+        "isCorrect": false,
+        "feedback": "While solid particles do vibrate, the main error is the spacing in the liquid diagram."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**The common misconception:** Many students think liquids have particles far apart (like a middle ground between solids and gases).\n\n**The reality:**\n\n| State | Particle Spacing | Why? |\n|-------|-----------------|------|\n| Solid | Close together (touching) | Strong forces hold particles in place |\n| Liquid | **Close together** (still nearly touching) | Particles close but can slide past each other |\n| Gas | Far apart | Particles have overcome attractive forces |\n\nThe **correct liquid diagram** would show particles nearly as close as in the solid, but in a random (not ordered) arrangement:\n- Solid: ●●●●●● (ordered, fixed)\n- Liquid: ●●●●●● (close but random, can move)\n- Gas: ●   ●   ●   ● (far apart)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about density. Are liquids closer in density to solids or gases?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Liquids have similar density to solids, which means particles are still close together. Only the arrangement changes.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 19,
+      "conceptsUsed": ["c3", "c4", "c5"],
+      "buildsOn": ["som-y8-004", "som-y8-008", "som-y8-024"],
+      "preparesFor": ["som-y8-042", "som-y8-048"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "misconceptionId": "m3",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 39
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-040",
+    "questionType": "SHORT_ANSWER",
+    "stem": "You're at the beach on a hot Australian summer day (40°C). You notice:\n- Ice in your drink melts within minutes\n- The sand is too hot to walk on barefoot\n- There's a cool breeze coming off the ocean\n\nChoose ONE of these observations and explain it using the particle model.",
+    "solution": "**Any ONE of the following explanations would be correct:**\n\n---\n\n**Option 1: Ice melting quickly**\n\nThe 40°C air has particles with high kinetic energy. When these fast-moving air particles collide with the ice, they transfer thermal energy to the ice particles. The ice particles gain energy and vibrate faster. When they have enough energy, they break free from their fixed positions and become liquid water. At 40°C, this happens very quickly because there's a large temperature difference (40°C - 0°C = 40°C difference) driving rapid energy transfer.\n\n---\n\n**Option 2: Hot sand**\n\nThe sun's energy is absorbed by sand particles, increasing their kinetic energy (they vibrate faster). Sand is a good absorber of heat and doesn't transfer heat well internally, so surface particles become extremely energetic. When your foot touches the sand, these high-energy sand particles collide with your skin particles, rapidly transferring thermal energy and causing the burning sensation.\n\n---\n\n**Option 3: Sea breeze**\n\nWater has high heat capacity - its particles can absorb lots of energy without temperature rising much. The ocean stays cooler than the land. Air particles above the cool ocean have lower kinetic energy than air particles above hot land. Cool ocean air (lower-energy particles) moves in to replace rising hot land air (higher-energy particles), creating a breeze.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Pick whichever observation you can explain best. Think about energy transfer between particles.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "All three involve particle energy. Higher temperature = faster particle motion = more energy transfer.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Focus on: What are the particles doing? How is energy being transferred? Why does temperature matter?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 20,
+      "conceptsUsed": ["c6", "c7", "c9"],
+      "buildsOn": ["som-y8-021", "som-y8-029", "som-y8-031"],
+      "preparesFor": ["som-y8-041", "som-y8-053", "som-y8-063"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-states-of-matter-phase2",
+      "sequenceInPaper": 40
+    },
+    "status": "draft"
+  }
+]

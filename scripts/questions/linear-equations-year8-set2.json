@@ -1,0 +1,765 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "setNumber": 2,
+    "phase": "foundation",
+    "focus": "One-step equations with multiplication and division"
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-011",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$2x = 10$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nDivide both sides by 2:\n$$\\frac{2x}{2} = \\frac{10}{2}$$\n$$x = 5$$\n\n**Answer: x = 5**\n\n**Check:** $2 \\times 5 = 10$ ✓",
+      "hints": [
+        {"level": 1, "content": "What does 2x mean?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "To undo multiplication, use division.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Divide both sides by 2", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "2x means '2 times x' - multiplication!",
+          "encouragement": "New operation, same principle!",
+          "questionPrompt": "What's the opposite of multiplication?"
+        },
+        {
+          "level": 2,
+          "content": "Division undoes multiplication. Divide both sides by 2.",
+          "encouragement": "Inverse operations work here too!",
+          "questionPrompt": "What's 10 ÷ 2?"
+        },
+        {
+          "level": 3,
+          "content": "10 ÷ 2 = 5",
+          "encouragement": "You've got it!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2x = 10",
+        "expectedAnswers": ["5", "x = 5", "x=5", "x= 5", "x =5", "5.0", "x = 5.0"],
+        "gradingGuidance": "One-step equation requiring division. Student should divide both sides by 2. Accept answer with or without 'x ='.",
+        "sampleSolutions": [
+          "2x = 10\n2x ÷ 2 = 10 ÷ 2\nx = 5",
+          "2x = 10\nx = 10/2\nx = 5"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "division", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 11,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "division"],
+        "buildsOn": ["linear-eq-y8-010"],
+        "preparesFor": ["linear-eq-y8-012", "linear-eq-y8-013"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can solve multiplication equations too!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set2",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-012",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$3x = 15$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nDivide both sides by 3:\n$$\\frac{3x}{3} = \\frac{15}{3}$$\n$$x = 5$$\n\n**Answer: x = 5**\n\n**Check:** $3 \\times 5 = 15$ ✓",
+      "hints": [
+        {"level": 1, "content": "x is being multiplied by 3.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Divide both sides by 3.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "15 ÷ 3 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "3x means 3 times x.",
+          "encouragement": "Same pattern as before!",
+          "questionPrompt": "What undoes multiplication by 3?"
+        },
+        {
+          "level": 2,
+          "content": "Divide by 3 to isolate x.",
+          "encouragement": "You know this!",
+          "questionPrompt": "What's 15 ÷ 3?"
+        },
+        {
+          "level": 3,
+          "content": "15 ÷ 3 = 5",
+          "encouragement": "Perfect!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3x = 15",
+        "expectedAnswers": ["5", "x = 5", "x=5", "x= 5", "x =5", "5.0", "x = 5.0"],
+        "gradingGuidance": "One-step equation requiring division by 3.",
+        "sampleSolutions": [
+          "3x = 15\n3x ÷ 3 = 15 ÷ 3\nx = 5",
+          "3x = 15\nx = 15/3\nx = 5"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "division", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 12,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "division"],
+        "buildsOn": ["linear-eq-y8-011"],
+        "preparesFor": ["linear-eq-y8-013", "linear-eq-y8-014"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "Division equations are easy!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set2",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-013",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{4} = 3$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nMultiply both sides by 4:\n$$\\frac{x}{4} \\times 4 = 3 \\times 4$$\n$$x = 12$$\n\n**Answer: x = 12**\n\n**Check:** $\\frac{12}{4} = 3$ ✓",
+      "hints": [
+        {"level": 1, "content": "x is being divided by 4.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "To undo division, multiply.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Multiply both sides by 4", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "x/4 means x divided by 4.",
+          "encouragement": "Division equations need multiplication!",
+          "questionPrompt": "What's the opposite of division?"
+        },
+        {
+          "level": 2,
+          "content": "Multiply both sides by 4.",
+          "encouragement": "Inverse operations!",
+          "questionPrompt": "What's 3 × 4?"
+        },
+        {
+          "level": 3,
+          "content": "3 × 4 = 12",
+          "encouragement": "You've got it!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x/4 = 3",
+        "expectedAnswers": ["12", "x = 12", "x=12", "x= 12", "x =12", "12.0", "x = 12.0"],
+        "gradingGuidance": "One-step equation with division. Student should multiply both sides by 4. Common error: dividing instead of multiplying.",
+        "sampleSolutions": [
+          "x/4 = 3\nx/4 × 4 = 3 × 4\nx = 12",
+          "x ÷ 4 = 3\nx = 3 × 4\nx = 12"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "multiplication", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 13,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "multiplication"],
+        "buildsOn": ["linear-eq-y8-011", "linear-eq-y8-012"],
+        "preparesFor": ["linear-eq-y8-014", "linear-eq-y8-015"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can solve division equations by multiplying!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set2",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-014",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{5} = 7$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nMultiply both sides by 5:\n$$\\frac{x}{5} \\times 5 = 7 \\times 5$$\n$$x = 35$$\n\n**Answer: x = 35**\n\n**Check:** $\\frac{35}{5} = 7$ ✓",
+      "hints": [
+        {"level": 1, "content": "What's being done to x?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Multiply by 5 to undo division.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "7 × 5 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "x is divided by 5.",
+          "encouragement": "Same technique!",
+          "questionPrompt": "What undoes division by 5?"
+        },
+        {
+          "level": 2,
+          "content": "Multiply both sides by 5.",
+          "encouragement": "You know this pattern!",
+          "questionPrompt": "What's 7 × 5?"
+        },
+        {
+          "level": 3,
+          "content": "7 × 5 = 35",
+          "encouragement": "Great!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x/5 = 7",
+        "expectedAnswers": ["35", "x = 35", "x=35", "x= 35", "x =35", "35.0", "x = 35.0"],
+        "gradingGuidance": "One-step equation with division by 5. Student should multiply both sides by 5.",
+        "sampleSolutions": [
+          "x/5 = 7\nx/5 × 5 = 7 × 5\nx = 35",
+          "x ÷ 5 = 7\nx = 7 × 5\nx = 35"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "multiplication", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 14,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "multiplication"],
+        "buildsOn": ["linear-eq-y8-013"],
+        "preparesFor": ["linear-eq-y8-015", "linear-eq-y8-016"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "Division equations are straightforward!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set2",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-015",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$4x = 24$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nDivide both sides by 4:\n$$\\frac{4x}{4} = \\frac{24}{4}$$\n$$x = 6$$\n\n**Answer: x = 6**\n\n**Check:** $4 \\times 6 = 24$ ✓",
+      "hints": [
+        {"level": 1, "content": "x is multiplied by 4.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Divide by 4.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "24 ÷ 4 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "4x means 4 times x.",
+          "encouragement": "Multiplication equation!",
+          "questionPrompt": "What undoes × 4?"
+        },
+        {
+          "level": 2,
+          "content": "Divide both sides by 4.",
+          "encouragement": "Inverse operations!",
+          "questionPrompt": "What's 24 ÷ 4?"
+        },
+        {
+          "level": 3,
+          "content": "24 ÷ 4 = 6",
+          "encouragement": "Perfect!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4x = 24",
+        "expectedAnswers": ["6", "x = 6", "x=6", "x= 6", "x =6", "6.0", "x = 6.0"],
+        "gradingGuidance": "One-step equation requiring division by 4.",
+        "sampleSolutions": [
+          "4x = 24\n4x ÷ 4 = 24 ÷ 4\nx = 6",
+          "4x = 24\nx = 24/4\nx = 6"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "division", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 15,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "division"],
+        "buildsOn": ["linear-eq-y8-011", "linear-eq-y8-012"],
+        "preparesFor": ["linear-eq-y8-016", "linear-eq-y8-017"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I'm getting faster at these!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set2",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-016",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$7x = 56$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nDivide both sides by 7:\n$$\\frac{7x}{7} = \\frac{56}{7}$$\n$$x = 8$$\n\n**Answer: x = 8**\n\n**Check:** $7 \\times 8 = 56$ ✓",
+      "hints": [
+        {"level": 1, "content": "x is multiplied by 7.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Divide by 7.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "56 ÷ 7 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "7x = 7 times x",
+          "encouragement": "You know the pattern!",
+          "questionPrompt": "What's the inverse of multiplying by 7?"
+        },
+        {
+          "level": 2,
+          "content": "Divide both sides by 7.",
+          "encouragement": "Same technique!",
+          "questionPrompt": "What's 56 ÷ 7?"
+        },
+        {
+          "level": 3,
+          "content": "56 ÷ 7 = 8",
+          "encouragement": "Think times tables!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "7x = 56",
+        "expectedAnswers": ["8", "x = 8", "x=8", "x= 8", "x =8", "8.0", "x = 8.0"],
+        "gradingGuidance": "One-step equation requiring division by 7. Uses times tables knowledge.",
+        "sampleSolutions": [
+          "7x = 56\n7x ÷ 7 = 56 ÷ 7\nx = 8",
+          "7x = 56\nx = 56/7\nx = 8"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "division", "times tables"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 16,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "division"],
+        "buildsOn": ["linear-eq-y8-015"],
+        "preparesFor": ["linear-eq-y8-017", "linear-eq-y8-018"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "Times tables help with algebra!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set2",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-017",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{6} = 9$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nMultiply both sides by 6:\n$$\\frac{x}{6} \\times 6 = 9 \\times 6$$\n$$x = 54$$\n\n**Answer: x = 54**\n\n**Check:** $\\frac{54}{6} = 9$ ✓",
+      "hints": [
+        {"level": 1, "content": "x is divided by 6.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Multiply by 6.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "9 × 6 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "x/6 means x divided by 6.",
+          "encouragement": "Division equation!",
+          "questionPrompt": "What undoes division?"
+        },
+        {
+          "level": 2,
+          "content": "Multiply both sides by 6.",
+          "encouragement": "Inverse operations!",
+          "questionPrompt": "What's 9 × 6?"
+        },
+        {
+          "level": 3,
+          "content": "9 × 6 = 54",
+          "encouragement": "Great multiplication!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x/6 = 9",
+        "expectedAnswers": ["54", "x = 54", "x=54", "x= 54", "x =54", "54.0", "x = 54.0"],
+        "gradingGuidance": "One-step equation with division. Student should multiply both sides by 6.",
+        "sampleSolutions": [
+          "x/6 = 9\nx/6 × 6 = 9 × 6\nx = 54",
+          "x ÷ 6 = 9\nx = 9 × 6\nx = 54"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "multiplication", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 17,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "multiplication"],
+        "buildsOn": ["linear-eq-y8-013", "linear-eq-y8-014"],
+        "preparesFor": ["linear-eq-y8-018", "linear-eq-y8-019"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can handle bigger numbers!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set2",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-018",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$9x = 81$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nDivide both sides by 9:\n$$\\frac{9x}{9} = \\frac{81}{9}$$\n$$x = 9$$\n\n**Answer: x = 9**\n\n**Check:** $9 \\times 9 = 81$ ✓",
+      "hints": [
+        {"level": 1, "content": "x is multiplied by 9.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Divide by 9.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "81 ÷ 9 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "9x = 9 times x",
+          "encouragement": "Perfect square involved!",
+          "questionPrompt": "What undoes × 9?"
+        },
+        {
+          "level": 2,
+          "content": "Divide both sides by 9.",
+          "encouragement": "Think: 9 × ? = 81",
+          "questionPrompt": "What's 81 ÷ 9?"
+        },
+        {
+          "level": 3,
+          "content": "81 ÷ 9 = 9 (9² = 81)",
+          "encouragement": "Nice! Same number!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "9x = 81",
+        "expectedAnswers": ["9", "x = 9", "x=9", "x= 9", "x =9", "9.0", "x = 9.0"],
+        "gradingGuidance": "One-step equation. 81 is a perfect square (9²), so x = 9.",
+        "sampleSolutions": [
+          "9x = 81\n9x ÷ 9 = 81 ÷ 9\nx = 9",
+          "9x = 81\nx = 81/9\nx = 9"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "division", "perfect squares"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 18,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "division"],
+        "buildsOn": ["linear-eq-y8-016"],
+        "preparesFor": ["linear-eq-y8-019", "linear-eq-y8-020"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "Perfect squares make nice equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set2",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-019",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for y:\n\n$$5y = 45$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nDivide both sides by 5:\n$$\\frac{5y}{5} = \\frac{45}{5}$$\n$$y = 9$$\n\n**Answer: y = 9**\n\n**Check:** $5 \\times 9 = 45$ ✓",
+      "hints": [
+        {"level": 1, "content": "y is multiplied by 5.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Divide by 5.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "45 ÷ 5 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Different variable, same method!",
+          "encouragement": "y works just like x!",
+          "questionPrompt": "What undoes × 5?"
+        },
+        {
+          "level": 2,
+          "content": "Divide both sides by 5.",
+          "encouragement": "You've got this!",
+          "questionPrompt": "What's 45 ÷ 5?"
+        },
+        {
+          "level": 3,
+          "content": "45 ÷ 5 = 9",
+          "encouragement": "Perfect!",
+          "questionPrompt": "So y = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5y = 45",
+        "expectedAnswers": ["9", "y = 9", "y=9", "y= 9", "y =9", "9.0", "y = 9.0"],
+        "gradingGuidance": "One-step equation with variable y. Student should divide by 5.",
+        "sampleSolutions": [
+          "5y = 45\n5y ÷ 5 = 45 ÷ 5\ny = 9",
+          "5y = 45\ny = 45/5\ny = 9"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "division", "variable flexibility"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 19,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "variable-flexibility"],
+        "buildsOn": ["linear-eq-y8-015", "linear-eq-y8-016"],
+        "preparesFor": ["linear-eq-y8-020", "linear-eq-y8-021"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can solve for any variable!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set2",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-020",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for n:\n\n$$\\frac{n}{8} = 12$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nMultiply both sides by 8:\n$$\\frac{n}{8} \\times 8 = 12 \\times 8$$\n$$n = 96$$\n\n**Answer: n = 96**\n\n**Check:** $\\frac{96}{8} = 12$ ✓",
+      "hints": [
+        {"level": 1, "content": "n is divided by 8.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Multiply by 8.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "12 × 8 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "n/8 means n divided by 8.",
+          "encouragement": "Division equation with n!",
+          "questionPrompt": "What undoes division by 8?"
+        },
+        {
+          "level": 2,
+          "content": "Multiply both sides by 8.",
+          "encouragement": "You know this pattern!",
+          "questionPrompt": "What's 12 × 8?"
+        },
+        {
+          "level": 3,
+          "content": "12 × 8 = 96",
+          "encouragement": "Great calculation!",
+          "questionPrompt": "So n = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "n/8 = 12",
+        "expectedAnswers": ["96", "n = 96", "n=96", "n= 96", "n =96", "96.0", "n = 96.0"],
+        "gradingGuidance": "One-step equation with division and larger numbers. Student should multiply by 8.",
+        "sampleSolutions": [
+          "n/8 = 12\nn/8 × 8 = 12 × 8\nn = 96",
+          "n ÷ 8 = 12\nn = 12 × 8\nn = 96"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "multiplication", "variable flexibility"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 20,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "multiplication", "variable-flexibility"],
+        "buildsOn": ["linear-eq-y8-017", "linear-eq-y8-019"],
+        "preparesFor": ["linear-eq-y8-021", "linear-eq-y8-022"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "Set 2 complete - I've mastered multiplication and division equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set2",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

@@ -1,0 +1,1224 @@
+[
+  {
+    "questionId": "eft-y8-041",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student says: *\"A book sitting on a shelf has no energy because it's not moving.\"*\n\nIs this statement correct? Explain your answer using scientific reasoning.",
+    "solution": "This statement is **incorrect**.\n\nThe book does have energy - specifically **gravitational potential energy (GPE)**. Even though the book is not moving, it has stored energy due to its **position above the ground**.\n\nIf the book falls, this stored GPE will transform into **kinetic energy** as it moves. The fact that energy can be released when the book falls proves the energy was there all along.\n\n**Energy doesn't require movement** - objects can store energy through their position, chemical bonds, or other properties. Only **kinetic energy** requires motion; other forms like GPE, chemical, and elastic energy can exist in stationary objects.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens if the book falls off the shelf. Where does the energy for its movement come from?"
+      },
+      {
+        "level": 2,
+        "content": "Remember that energy can be stored as well as being used for movement. What type of energy depends on position?"
+      },
+      {
+        "level": 3,
+        "content": "Gravitational potential energy exists whenever an object is above the ground, even when stationary."
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 1,
+      "conceptsUsed": ["c2", "c5"],
+      "buildsOn": ["eft-y8-010", "eft-y8-015"],
+      "preparesFor": ["eft-y8-065", "eft-y8-070"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Challenge the belief that stationary objects have no energy (m1)"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set5",
+      "sequenceInPaper": 1
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-042",
+    "questionType": "MCQ",
+    "stem": "A car increases its speed from 20 km/h to 40 km/h. What happens to its kinetic energy?\n\nRecall: $KE = \\frac{1}{2}mv^2$",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "It doubles (increases by 2 times)",
+        "isCorrect": false,
+        "feedback": "This is a common misconception! Because kinetic energy depends on velocity **squared** ($v^2$), doubling the velocity means the KE increases by $2^2 = 4$ times, not 2 times."
+      },
+      {
+        "id": "B",
+        "text": "It quadruples (increases by 4 times)",
+        "isCorrect": true,
+        "feedback": "Correct! When velocity doubles from 20 to 40 km/h, the $v^2$ term means: $(2v)^2 = 4v^2$. So kinetic energy increases by **4 times**, not 2 times. This is why high-speed crashes are so much more dangerous."
+      },
+      {
+        "id": "C",
+        "text": "It stays the same",
+        "isCorrect": false,
+        "feedback": "Kinetic energy definitely increases when speed increases. The formula $KE = \\frac{1}{2}mv^2$ shows that KE depends on velocity."
+      },
+      {
+        "id": "D",
+        "text": "It halves (decreases by 2 times)",
+        "isCorrect": false,
+        "feedback": "Kinetic energy increases when speed increases, not decreases. Check the relationship in the formula $KE = \\frac{1}{2}mv^2$."
+      }
+    ],
+    "solution": "The answer is **B - it quadruples (increases by 4 times)**.\n\nUsing the kinetic energy formula $KE = \\frac{1}{2}mv^2$:\n\n- At 20 km/h: $KE_1 = \\frac{1}{2}m(20)^2 = \\frac{1}{2}m(400)$\n- At 40 km/h: $KE_2 = \\frac{1}{2}m(40)^2 = \\frac{1}{2}m(1600)$\n\nComparing: $\\frac{KE_2}{KE_1} = \\frac{1600}{400} = 4$\n\nBecause velocity is **squared** in the formula, **doubling velocity quadruples kinetic energy**. This is why even small increases in speed dramatically increase the energy in collisions.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look carefully at the formula. Is velocity multiplied or squared?"
+      },
+      {
+        "level": 2,
+        "content": "When you double a number and then square it, what happens? Try: $(2 \\times v)^2$"
+      },
+      {
+        "level": 3,
+        "content": "Calculate: $40^2 = 1600$ and $20^2 = 400$. What is 1600 ÷ 400?"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 2,
+      "conceptsUsed": ["c1", "c5"],
+      "buildsOn": ["eft-y8-022", "eft-y8-028"],
+      "preparesFor": ["eft-y8-055", "eft-y8-072"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Challenge the belief that doubling speed doubles kinetic energy (m2)"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set5",
+      "sequenceInPaper": 2
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-043",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A hydroelectric power station generates electricity from water falling down from a dam.\n\nDescribe the **complete energy transformation chain** from the water at the top of the dam to the electricity produced. Include at least 3 energy forms.",
+    "solution": "The energy transformation chain in a hydroelectric power station is:\n\n**Gravitational Potential Energy → Kinetic Energy → Kinetic Energy (turbine) → Electrical Energy**\n\n**Step-by-step explanation:**\n\n1. **GPE**: Water stored high in the dam has **gravitational potential energy** due to its elevated position\n\n2. **KE (water)**: As water falls, GPE transforms into **kinetic energy** - the water speeds up as it drops\n\n3. **KE (turbine)**: The moving water strikes turbine blades, transferring its kinetic energy to make the turbine **spin**\n\n4. **Electrical Energy**: The spinning turbine is connected to a generator which transforms the kinetic energy into **electrical energy**\n\nThis demonstrates how energy can **transform through multiple stages** while following the **law of conservation of energy** - the total energy remains constant throughout the process.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Start with the water at the top. What type of energy does it have because of its height?"
+      },
+      {
+        "level": 2,
+        "content": "As the water falls, what happens to its speed? What energy does moving water have?"
+      },
+      {
+        "level": 3,
+        "content": "The water hits turbine blades and makes them spin. Then the generator converts this rotational movement into..."
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 3,
+      "conceptsUsed": ["c5", "c1", "c2"],
+      "buildsOn": ["eft-y8-030", "eft-y8-035"],
+      "preparesFor": ["eft-y8-062", "eft-y8-075"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Analyze complex multi-step energy transformation in hydroelectric power (p6)"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set5",
+      "sequenceInPaper": 3
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-044",
+    "questionType": "MCQ",
+    "stem": "A battery in a torch runs out. A student says: *\"The energy has been used up and destroyed.\"*\n\nWhat is wrong with this statement?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Nothing is wrong - energy is used up when devices run",
+        "isCorrect": false,
+        "feedback": "This violates the **law of conservation of energy**, which states that energy cannot be created or destroyed, only transformed."
+      },
+      {
+        "id": "B",
+        "text": "Energy was transformed into light, heat, and sound - not destroyed",
+        "isCorrect": true,
+        "feedback": "Correct! The **law of conservation of energy** states that energy cannot be destroyed. The chemical energy in the battery was **transformed** into light (useful), heat, and sound (mostly wasted). The energy still exists, just in different forms spread throughout the environment."
+      },
+      {
+        "id": "C",
+        "text": "Energy cannot be used - it always stays in the battery",
+        "isCorrect": false,
+        "feedback": "Energy definitely leaves the battery and is transformed into other forms like light and heat. The issue is whether it's 'destroyed' or 'transformed'."
+      },
+      {
+        "id": "D",
+        "text": "Only electrical energy can be destroyed, not chemical energy",
+        "isCorrect": false,
+        "feedback": "No form of energy can be destroyed. All energy forms follow the law of conservation of energy - they can only be transformed."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThe student's statement violates the **law of conservation of energy**, which is a fundamental principle in physics:\n\n**Energy cannot be created or destroyed - it can only be transformed from one form to another.**\n\nIn the torch:\n- **Chemical energy** (battery) → **Electrical energy** → **Light energy** (useful) + **Heat energy** (wasted) + **Sound energy** (wasted)\n\nThe energy hasn't been \"used up\" or \"destroyed\" - it has been **transformed** and **dispersed** into the environment. The battery is flat because its **stored chemical energy** has been converted into other forms that are now spread out and no longer useful for powering the torch.\n\nThis is why we say energy is **dissipated** or **transferred**, never **destroyed**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about one of the most important laws in science: what does the law of conservation of energy state?"
+      },
+      {
+        "level": 2,
+        "content": "When the torch was on, you saw light and felt heat. Where did this energy come from, and does it still exist?"
+      },
+      {
+        "level": 3,
+        "content": "Energy transforms from chemical → electrical → light + heat. The energy still exists, just in different forms."
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 100,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 4,
+      "conceptsUsed": ["c5", "c6"],
+      "buildsOn": ["eft-y8-032", "eft-y8-038"],
+      "preparesFor": ["eft-y8-058", "eft-y8-067"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Challenge the belief that energy is used up or destroyed (m3)"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set5",
+      "sequenceInPaper": 4
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-045",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A 2 kg object is lifted to a height of 5 meters above the ground.\n\nCalculate the gravitational potential energy stored in the object.\n\nUse: $GPE = mgh$ where $g = 10 \\, \\text{N/kg}$",
+    "solution": "Using the formula $GPE = mgh$:\n\n**Given:**\n- Mass ($m$) = 2 kg\n- Height ($h$) = 5 m\n- Gravitational field strength ($g$) = 10 N/kg\n\n**Calculation:**\n\n$GPE = mgh$\n\n$GPE = 2 \\times 10 \\times 5$\n\n$GPE = 100 \\, \\text{J}$\n\n**Answer: The object has 100 joules (J) of gravitational potential energy.**\n\nThis stored energy could be transformed into **kinetic energy** if the object falls, demonstrating the principle of **energy transformation**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Identify the three values you need: mass (m), gravitational field strength (g), and height (h)."
+      },
+      {
+        "level": 2,
+        "content": "Substitute the values into the formula: $GPE = m \\times g \\times h$"
+      },
+      {
+        "level": 3,
+        "content": "Calculate: $2 \\times 10 \\times 5 = ?$ Don't forget the unit: joules (J)"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 5,
+      "conceptsUsed": ["c2", "c5"],
+      "buildsOn": ["eft-y8-024", "eft-y8-029"],
+      "preparesFor": ["eft-y8-051", "eft-y8-056"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Practice calculating GPE with the formula"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set5",
+      "sequenceInPaper": 5
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-046",
+    "questionType": "SHORT_ANSWER",
+    "stem": "When a car brakes to a stop, the **kinetic energy** of the moving car is transformed.\n\nDescribe what happens to this kinetic energy. Where does it go? Why can't we get it back to make the car move again?",
+    "solution": "When a car brakes, the **kinetic energy** is transformed into **heat energy** (thermal energy) through **friction**.\n\n**What happens:**\n\n1. The brake pads press against the brake discs, creating **friction**\n2. This friction transforms the car's **kinetic energy** into **heat energy**\n3. The brake discs and pads get **very hot** (you can sometimes see them glowing red!)\n4. This heat energy is **dissipated** (spread out) into the surrounding air\n\n**Why we can't get it back:**\n\nThe heat energy becomes **dispersed** throughout the environment. Once energy is spread out as heat in the air, it's **no longer concentrated enough** to do useful work like moving the car. The energy still exists (conservation of energy), but it's in a **less useful form** that cannot easily be converted back into motion.\n\nThis is why cars need a constant energy input (fuel) to keep moving - the kinetic energy is continuously being lost to heat through friction.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what you feel when you rub your hands together quickly. What happens to the kinetic energy of your moving hands?"
+      },
+      {
+        "level": 2,
+        "content": "The brake pads press against the discs. This creates friction. What does friction produce?"
+      },
+      {
+        "level": 3,
+        "content": "The kinetic energy becomes heat energy. This heat spreads out into the air. Can scattered heat energy easily be collected back?"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 6,
+      "conceptsUsed": ["c5", "c6", "c7"],
+      "buildsOn": ["eft-y8-033", "eft-y8-037"],
+      "preparesFor": ["eft-y8-059", "eft-y8-068"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Explain energy transformation and dissipation in car brakes (p7)"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set5",
+      "sequenceInPaper": 6
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-047",
+    "questionType": "MCQ",
+    "stem": "A student pushes hard against a brick wall for 10 seconds, but the wall doesn't move.\n\nHas energy been transferred to the wall?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Yes, because the student applied a force",
+        "isCorrect": false,
+        "feedback": "Applying a force doesn't always transfer energy. Energy transfer requires **movement** in the direction of the force. Since the wall didn't move, no energy was transferred to the wall."
+      },
+      {
+        "id": "B",
+        "text": "No, because energy transfer requires movement (work done)",
+        "isCorrect": true,
+        "feedback": "Correct! For energy to be transferred, there must be **movement** in the direction of the force. This is called **work done**. Since the wall didn't move, no work was done on the wall and no energy was transferred to it. However, the student's muscles did use **chemical energy**, which was converted to heat in their body."
+      },
+      {
+        "id": "C",
+        "text": "Yes, because the student got tired",
+        "isCorrect": false,
+        "feedback": "The student getting tired shows they used chemical energy in their muscles, but this energy was converted to heat in their **own body**, not transferred to the wall."
+      },
+      {
+        "id": "D",
+        "text": "Yes, all forces always transfer energy",
+        "isCorrect": false,
+        "feedback": "This is a common misconception. Forces only transfer energy when there is **movement** in the direction of the force. Force ≠ energy transfer."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThis question addresses the misconception that **force equals energy** (m5).\n\n**Key principle:** Energy is only transferred when there is **movement** (displacement) in the direction of the force. This is the definition of **work done**:\n\n$W = F \\times d$\n\nWhere:\n- $W$ = work done (energy transferred)\n- $F$ = force applied\n- $d$ = distance moved in the direction of the force\n\nSince the wall didn't move ($d = 0$), no work was done and **no energy was transferred to the wall**.\n\nHowever, the student's **muscles** did use chemical energy, which was converted to **heat energy** in their body (which is why they got tired and felt warm). But this energy stayed in the student's body - it wasn't transferred to the wall.\n\n**Remember:** Force and energy are different things. Energy transfer requires both force AND movement.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the definition of work done. What two things are needed for energy to be transferred?"
+      },
+      {
+        "level": 2,
+        "content": "For energy transfer, you need force AND movement. Did the wall move?"
+      },
+      {
+        "level": 3,
+        "content": "If distance moved = 0, then work done = force × 0 = 0. No energy was transferred to the wall."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 110,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 7,
+      "conceptsUsed": ["c5", "c6"],
+      "buildsOn": ["eft-y8-031", "eft-y8-036"],
+      "preparesFor": ["eft-y8-063", "eft-y8-071"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Challenge the belief that energy equals force (m5)"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set5",
+      "sequenceInPaper": 7
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-048",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A cricket ball is bowled at high speed. As it travels through the air toward the batter, it gradually slows down.\n\nExplain what happens to the ball's kinetic energy as it slows down. Use the law of conservation of energy in your answer.",
+    "solution": "As the cricket ball slows down, its **kinetic energy decreases**. However, according to the **law of conservation of energy**, this energy is not destroyed - it is **transformed** into other forms.\n\n**Energy transformation:**\n\nThe ball's kinetic energy is transformed into:\n\n1. **Heat energy** - Created by **air resistance** (friction with air molecules). Both the ball and the surrounding air heat up slightly.\n\n2. **Sound energy** - You can hear the ball whooshing through the air as it displaces air molecules.\n\n**Why the ball slows:**\n\nThe ball experiences a **resistive force** from the air (drag/air resistance) opposing its motion. This force does **negative work** on the ball, transforming its kinetic energy into heat and sound.\n\n**Conservation principle:**\n\nThe **total amount of energy** remains constant:\n\n**Initial KE = Final KE + Heat Energy + Sound Energy**\n\nThe ball slows because its kinetic energy is continuously being **dissipated** (spread out) into the environment, but the total energy in the system is **conserved**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "The ball has kinetic energy because it's moving. When it slows down, where does this energy go?"
+      },
+      {
+        "level": 2,
+        "content": "Think about what opposes the ball's motion through the air. What is this resistance called, and what does it produce?"
+      },
+      {
+        "level": 3,
+        "content": "Air resistance creates friction. Friction transforms kinetic energy into heat and sound. The law of conservation says energy is transformed, not destroyed."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 8,
+      "conceptsUsed": ["c1", "c5", "c6"],
+      "buildsOn": ["eft-y8-028", "eft-y8-040"],
+      "preparesFor": ["eft-y8-057", "eft-y8-069"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Explain energy transformation and conservation in moving cricket ball (p8)"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set5",
+      "sequenceInPaper": 8
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-049",
+    "questionType": "MCQ",
+    "stem": "A solar panel receives 1000 J of light energy from the Sun. It produces 180 J of electrical energy.\n\nWhat is the efficiency of the solar panel?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "820%",
+        "isCorrect": false,
+        "feedback": "Efficiency cannot be greater than 100%. This value (820) represents the wasted energy, not the efficiency."
+      },
+      {
+        "id": "B",
+        "text": "18%",
+        "isCorrect": true,
+        "feedback": "Correct! Using the efficiency formula: $\\eta = \\frac{E_{useful}}{E_{input}} \\times 100\\% = \\frac{180}{1000} \\times 100\\% = 18\\%$. This means 18% of the input energy is converted to useful electrical energy, while 82% is wasted (mostly as heat)."
+      },
+      {
+        "id": "C",
+        "text": "82%",
+        "isCorrect": false,
+        "feedback": "This is the percentage of energy that is **wasted** (1000 - 180 = 820 J). Efficiency is the ratio of useful output to total input."
+      },
+      {
+        "id": "D",
+        "text": "5.6%",
+        "isCorrect": false,
+        "feedback": "Check your calculation. Efficiency = (useful output ÷ total input) × 100%. Try again with 180 ÷ 1000."
+      }
+    ],
+    "solution": "The answer is **B - 18%**.\n\nUsing the **efficiency formula**:\n\n$\\eta = \\frac{E_{useful \\, output}}{E_{total \\, input}} \\times 100\\%$\n\n**Given:**\n- Input energy = 1000 J (light energy)\n- Useful output = 180 J (electrical energy)\n\n**Calculation:**\n\n$\\eta = \\frac{180}{1000} \\times 100\\%$\n\n$\\eta = 0.18 \\times 100\\%$\n\n$\\eta = 18\\%$\n\n**Interpretation:**\n\nOnly **18% of the light energy** is converted into useful electrical energy. The remaining **82% (820 J)** is **wasted**, primarily as:\n- **Heat energy** (warming the solar panel)\n- **Reflected light** (light bouncing off the panel)\n\nNo device is 100% efficient - some energy is always transformed into less useful forms. Modern solar panels typically have efficiencies between 15-22%.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Recall the efficiency formula: efficiency = (useful output ÷ total input) × 100%"
+      },
+      {
+        "level": 2,
+        "content": "The useful output is the electrical energy (180 J). The total input is the light energy received (1000 J)."
+      },
+      {
+        "level": 3,
+        "content": "Calculate: (180 ÷ 1000) × 100 = ?"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 100,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 9,
+      "conceptsUsed": ["c7", "c5"],
+      "buildsOn": ["eft-y8-034", "eft-y8-039"],
+      "preparesFor": ["eft-y8-054", "eft-y8-060"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Calculate efficiency using the standard formula"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set5",
+      "sequenceInPaper": 9
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-050",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Two objects have the same temperature: a cup of hot coffee (200 mL) and a bathtub of hot water (100 L).\n\nA student says: *\"They have the same temperature, so they contain the same amount of heat energy.\"*\n\nIs this statement correct? Explain your answer.",
+    "solution": "This statement is **incorrect**.\n\nThis addresses the misconception that **heat equals temperature** (m6).\n\n**Temperature vs Heat Energy:**\n\n- **Temperature** measures how fast particles are vibrating/moving (average kinetic energy per particle)\n- **Heat energy** is the **total** thermal energy in an object, which depends on both temperature AND the amount of substance (mass)\n\n**In this example:**\n\nEven though both have the **same temperature**, the bathtub contains **far more heat energy** because it contains much more water (100 L vs 0.2 L - that's **500 times more**).\n\n**Analogy:** \nThink of money:\n- Temperature = value per coin (e.g., both are $1 coins)\n- Heat energy = total wealth (100 coins vs 50,000 coins)\n\nBoth have the same value \"per particle\" (temperature), but the bathtub has vastly more **total energy** because it has many more particles.\n\n**Practical consequence:**\nThe bathtub would take much longer to cool down and could warm a room much more than the cup of coffee, proving it contains more total heat energy.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the difference between temperature and total heat energy. What else besides temperature affects how much total heat energy something contains?"
+      },
+      {
+        "level": 2,
+        "content": "Temperature tells you how fast the particles are moving. But how many particles are there in a cup vs a bathtub?"
+      },
+      {
+        "level": 3,
+        "content": "The bathtub has 500 times more water. Even though the temperature per particle is the same, the total heat energy depends on both temperature AND amount of substance."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 140,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 10,
+      "conceptsUsed": ["c4", "c5"],
+      "buildsOn": ["eft-y8-018", "eft-y8-026"],
+      "preparesFor": ["eft-y8-064", "eft-y8-073"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Challenge the belief that heat equals temperature (m6)"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set5",
+      "sequenceInPaper": 10
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-051",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A 0.5 kg ball is dropped from a height of 10 meters.\n\n**a)** Calculate the gravitational potential energy at the top ($GPE = mgh$, use $g = 10 \\, \\text{N/kg}$)\n\n**b)** Just before it hits the ground, all this GPE has transformed into kinetic energy. What is the ball's kinetic energy just before impact?",
+    "solution": "**Part a) Calculate GPE at the top:**\n\nUsing $GPE = mgh$:\n\n**Given:**\n- Mass ($m$) = 0.5 kg\n- Height ($h$) = 10 m\n- $g$ = 10 N/kg\n\n**Calculation:**\n\n$GPE = 0.5 \\times 10 \\times 10$\n\n$GPE = 50 \\, \\text{J}$\n\n**Part b) Kinetic energy just before impact:**\n\nAccording to the **law of conservation of energy**, energy cannot be created or destroyed, only transformed.\n\nAs the ball falls:\n- **GPE decreases** (height decreases)\n- **KE increases** (speed increases)\n- **Total energy remains constant**\n\nJust before impact:\n- GPE ≈ 0 J (height ≈ 0)\n- All the original GPE has transformed into KE\n\n**Therefore: KE = 50 J**\n\n**Explanation:**\n\nThe ball started with 50 J of gravitational potential energy and zero kinetic energy (at rest). Just before hitting the ground, it has 50 J of kinetic energy and zero gravitational potential energy. The total mechanical energy (GPE + KE) remained 50 J throughout the fall.\n\nThis demonstrates the **conservation of mechanical energy** in free fall (ignoring air resistance).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "For part a, substitute the values into the GPE formula. For part b, think about the law of conservation of energy."
+      },
+      {
+        "level": 2,
+        "content": "Part a: GPE = 0.5 × 10 × 10 = ? For part b: where did the GPE go? It transformed into..."
+      },
+      {
+        "level": 3,
+        "content": "Part a: 50 J. Part b: All the GPE (50 J) transforms into KE, so KE at bottom = 50 J."
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 140,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 11,
+      "conceptsUsed": ["c2", "c1", "c5", "c6"],
+      "buildsOn": ["eft-y8-045", "eft-y8-044"],
+      "preparesFor": ["eft-y8-066", "eft-y8-074"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Apply conservation of energy to GPE → KE transformation"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set6",
+      "sequenceInPaper": 11
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-052",
+    "questionType": "MCQ",
+    "stem": "A roller coaster car is at the top of the first hill (60 m high) traveling at 5 m/s. At the bottom of the hill (height = 0 m) it's traveling at 35 m/s.\n\nWhich statement best explains this using energy concepts?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The car gained energy from nowhere",
+        "isCorrect": false,
+        "feedback": "This violates the law of conservation of energy. Energy must come from somewhere - it cannot be created from nothing."
+      },
+      {
+        "id": "B",
+        "text": "Gravitational potential energy transformed into kinetic energy",
+        "isCorrect": true,
+        "feedback": "Correct! At the top, the car had high **GPE** (due to height) and low **KE** (slow speed). As it descended, **GPE decreased** while **KE increased**. The energy transformed from GPE → KE, causing the speed to increase dramatically. This demonstrates the **law of conservation of energy**."
+      },
+      {
+        "id": "C",
+        "text": "The car's mass increased, creating more energy",
+        "isCorrect": false,
+        "feedback": "Mass doesn't change during the ride, and changes in mass don't create energy anyway. The energy transformation is from GPE to KE."
+      },
+      {
+        "id": "D",
+        "text": "The track pushed the car, adding kinetic energy",
+        "isCorrect": false,
+        "feedback": "The track supports the car but doesn't push it forward on the downward slope. Gravity provides the force, and the GPE transforms into KE."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Energy analysis of the roller coaster:**\n\n**At the top:**\n- High **GPE** (elevated 60 m)\n- Low **KE** (only 5 m/s)\n- Total mechanical energy = GPE + KE\n\n**At the bottom:**\n- Low **GPE** (height = 0 m)\n- High **KE** (35 m/s - much faster!)\n- Total mechanical energy = GPE + KE (same as before)\n\n**What happened:**\n\nAs the car descended, **gravitational potential energy** was continuously **transformed** into **kinetic energy**. The total mechanical energy remained constant (conservation of energy), but the **distribution** changed:\n\n**GPE (top) → KE (bottom)**\n\nThis is why roller coasters don't need engines after the first hill - they use the energy transformation from GPE to KE to power the ride. The car must be lifted to a great height initially to store enough GPE to complete the circuit.\n\n**Note:** In reality, some energy is also transformed into heat due to friction and air resistance, so the car won't quite reach the same height on the next hill unless energy is added.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Compare the energy forms at the top (high position, low speed) vs bottom (low position, high speed)."
+      },
+      {
+        "level": 2,
+        "content": "What energy does the car have because of its height? What energy does it have because of its speed? Which decreased and which increased?"
+      },
+      {
+        "level": 3,
+        "content": "GPE (top) transformed into KE (bottom). This is why the car speeds up as it goes down."
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 12,
+      "conceptsUsed": ["c1", "c2", "c5", "c6"],
+      "buildsOn": ["eft-y8-051", "eft-y8-048"],
+      "preparesFor": ["eft-y8-070", "eft-y8-076"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Analyze energy transformation in a roller coaster system"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set6",
+      "sequenceInPaper": 12
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-053",
+    "questionType": "SHORT_ANSWER",
+    "stem": "An LED light bulb and an old incandescent light bulb both produce 800 lumens of light (same brightness).\n\n- LED bulb: Uses 10 W of electrical power\n- Incandescent bulb: Uses 60 W of electrical power\n\nWhich bulb is more energy efficient? Explain your reasoning.",
+    "solution": "The **LED bulb is much more energy efficient**.\n\n**Reasoning:**\n\nBoth bulbs produce the **same useful output** (800 lumens of light), but the LED requires much **less energy input** (10 W vs 60 W).\n\n**Efficiency comparison:**\n\nWhile we can't calculate exact efficiency percentages without knowing the energy values in joules, we can compare:\n\n- **LED**: 10 W input → 800 lumens output\n- **Incandescent**: 60 W input → 800 lumens output\n\nThe LED produces the same amount of light using only **1/6 of the energy** (10 ÷ 60 = 1/6).\n\n**Where does the \"wasted\" energy go?**\n\nIn the incandescent bulb, most of the electrical energy (about 50 W out of 60 W) is transformed into **heat energy** rather than light. This is why incandescent bulbs get very hot.\n\nThe LED bulb wastes far less energy as heat - most of the input energy becomes useful **light energy**.\n\n**Practical implications:**\n- LED bulbs cost less to run (lower electricity bills)\n- LED bulbs last longer (less heat damage)\n- LED bulbs are better for the environment (less energy wasted)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Both produce the same useful output (light). Which one needs less input energy to produce this output?"
+      },
+      {
+        "level": 2,
+        "content": "Efficiency means getting the same result with less energy input. Compare 10 W vs 60 W for the same brightness."
+      },
+      {
+        "level": 3,
+        "content": "The LED uses only 10 W to produce the same light that requires 60 W from the incandescent. The LED is more efficient because it wastes less energy as heat."
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 130,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 13,
+      "conceptsUsed": ["c7", "c5"],
+      "buildsOn": ["eft-y8-049", "eft-y8-046"],
+      "preparesFor": ["eft-y8-060", "eft-y8-078"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Compare efficiency of different technologies producing same output"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set6",
+      "sequenceInPaper": 13
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-054",
+    "questionType": "SHORT_ANSWER",
+    "stem": "An electric kettle is rated at 2000 W. It takes 120 seconds to boil water, using 240,000 J of electrical energy.\n\nThe water gains 192,000 J of heat energy during this time.\n\nCalculate the efficiency of the kettle.\n\nUse: $\\eta = \\frac{E_{useful}}{E_{input}} \\times 100\\%$",
+    "solution": "Using the efficiency formula:\n\n$\\eta = \\frac{E_{useful \\, output}}{E_{total \\, input}} \\times 100\\%$\n\n**Given:**\n- Energy input (electrical) = 240,000 J\n- Useful energy output (heat to water) = 192,000 J\n\n**Calculation:**\n\n$\\eta = \\frac{192,000}{240,000} \\times 100\\%$\n\n$\\eta = 0.8 \\times 100\\%$\n\n$\\eta = 80\\%$\n\n**Answer: The kettle is 80% efficient.**\n\n**Interpretation:**\n\n- **80%** of the electrical energy is transformed into **useful heat energy** that heats the water\n- **20%** (48,000 J) is **wasted** as heat that escapes to the surrounding air, through the kettle's walls, and through the heating element\n\nThis is actually quite good efficiency for a heating appliance. The wasted energy heats the kitchen air and the kettle body rather than the water.\n\n**Energy flow:**\n\n**Electrical Energy (240,000 J) → Heat to water (192,000 J) + Heat to surroundings (48,000 J)**",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Identify what is the useful output (heat gained by water) and what is the total input (electrical energy used)."
+      },
+      {
+        "level": 2,
+        "content": "Substitute into the formula: efficiency = (192,000 ÷ 240,000) × 100%"
+      },
+      {
+        "level": 3,
+        "content": "Calculate: 192,000 ÷ 240,000 = 0.8. Then multiply by 100 to get percentage: 0.8 × 100 = 80%"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 14,
+      "conceptsUsed": ["c7", "c5", "c4"],
+      "buildsOn": ["eft-y8-049", "eft-y8-053"],
+      "preparesFor": ["eft-y8-060", "eft-y8-077"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Practice calculating efficiency with real appliance data"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set6",
+      "sequenceInPaper": 14
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-055",
+    "questionType": "MCQ",
+    "stem": "A car traveling at 30 m/s has 360,000 J of kinetic energy.\n\nThe car accelerates to 60 m/s. How much kinetic energy does it now have?\n\nRecall: $KE = \\frac{1}{2}mv^2$",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "720,000 J (doubled)",
+        "isCorrect": false,
+        "feedback": "This is a common error! Because KE depends on velocity **squared**, doubling the velocity means $(2v)^2 = 4v^2$, so KE increases by 4 times, not 2 times."
+      },
+      {
+        "id": "B",
+        "text": "1,440,000 J (quadrupled)",
+        "isCorrect": true,
+        "feedback": "Correct! When velocity doubles from 30 to 60 m/s, the $v^2$ term means: $(60)^2 = 3600$ compared to $(30)^2 = 900$. The ratio is $3600 ÷ 900 = 4$, so KE **quadruples** to $360,000 \\times 4 = 1,440,000$ J. This is why high-speed accidents are so much more dangerous."
+      },
+      {
+        "id": "C",
+        "text": "180,000 J (halved)",
+        "isCorrect": false,
+        "feedback": "KE increases when velocity increases, not decreases. The KE should be larger than the original 360,000 J."
+      },
+      {
+        "id": "D",
+        "text": "2,160,000 J (sextupled)",
+        "isCorrect": false,
+        "feedback": "This is too high. The velocity doubled, and since KE ∝ $v^2$, the KE should quadruple (multiply by 4), not multiply by 6."
+      }
+    ],
+    "solution": "The answer is **B - 1,440,000 J**.\n\n**Detailed explanation:**\n\nBecause kinetic energy depends on the **square of velocity** ($v^2$), doubling the velocity quadruples the kinetic energy.\n\n**Mathematical proof:**\n\nAt 30 m/s: $KE_1 = \\frac{1}{2}m(30)^2 = \\frac{1}{2}m(900) = 360,000$ J\n\nAt 60 m/s: $KE_2 = \\frac{1}{2}m(60)^2 = \\frac{1}{2}m(3600)$\n\n**Ratio:**\n\n$\\frac{KE_2}{KE_1} = \\frac{3600}{900} = 4$\n\nTherefore:\n\n$KE_2 = 4 \\times 360,000 = 1,440,000$ J\n\n**General rule:**\n\nIf velocity increases by a factor of $n$, then KE increases by a factor of $n^2$:\n- 2× velocity → 4× KE\n- 3× velocity → 9× KE\n- 10× velocity → 100× KE\n\nThis is why vehicle safety standards focus so heavily on speed limits - a small increase in speed creates a large increase in collision energy.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "In the formula KE = ½mv², what happens to v² when v doubles?"
+      },
+      {
+        "level": 2,
+        "content": "If velocity changes from v to 2v, then v² changes from v² to (2v)² = 4v². The KE is multiplied by..."
+      },
+      {
+        "level": 3,
+        "content": "When velocity doubles, KE quadruples (×4). Calculate: 360,000 × 4 = 1,440,000 J"
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 110,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 15,
+      "conceptsUsed": ["c1", "c5"],
+      "buildsOn": ["eft-y8-042", "eft-y8-051"],
+      "preparesFor": ["eft-y8-072", "eft-y8-079"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Reinforce that doubling speed quadruples KE using calculation (m2)"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set6",
+      "sequenceInPaper": 15
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-056",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A pendulum swings back and forth. At point A (highest point), it is momentarily stationary. At point B (lowest point), it is moving at maximum speed.\n\nDescribe the energy transformations that occur as the pendulum swings from A → B → A (one complete swing). Use the terms GPE and KE in your answer.",
+    "solution": "The pendulum demonstrates continuous energy transformation between **gravitational potential energy** and **kinetic energy**:\n\n**A → B (swinging down):**\n- **At A (top)**: Maximum GPE, zero KE (momentarily stationary)\n- **During descent**: GPE transforms into KE\n- **At B (bottom)**: Zero GPE (lowest point), maximum KE (fastest speed)\n\n**B → A (swinging up):**\n- **At B (bottom)**: Maximum KE, zero GPE\n- **During ascent**: KE transforms back into GPE\n- **At A (top)**: Maximum GPE, zero KE (momentarily stops)\n\n**Energy transformation cycle:**\n\n**GPE ⇄ KE**\n\nThe arrows go both ways because the energy continuously transforms back and forth between these two forms.\n\n**Conservation of energy:**\n\nAt any point: **Total Energy = GPE + KE = constant**\n\nIn reality, the pendulum gradually slows down because some energy is transformed into **heat** due to air resistance and friction at the pivot. This is why pendulum clocks need winding - to replace the energy lost to friction.\n\n**Key insight:** The pendulum is a beautiful demonstration of energy conservation and transformation - energy shifts between stored (GPE) and moving (KE) forms.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "At the highest points, the pendulum stops momentarily. What type of energy does it have? At the lowest point, it's moving fastest. What type of energy?"
+      },
+      {
+        "level": 2,
+        "content": "As the pendulum falls from A to B, its height decreases (GPE decreases) and its speed increases (KE increases). What is happening to the energy?"
+      },
+      {
+        "level": 3,
+        "content": "At top (A): max GPE, zero KE. At bottom (B): zero GPE, max KE. The energy transforms: GPE → KE going down, then KE → GPE going back up."
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 16,
+      "conceptsUsed": ["c1", "c2", "c5", "c6"],
+      "buildsOn": ["eft-y8-051", "eft-y8-052"],
+      "preparesFor": ["eft-y8-070", "eft-y8-074"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Analyze cyclic energy transformation in a pendulum system"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set6",
+      "sequenceInPaper": 16
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-057",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A space probe travels through deep space far from any planets or stars. There is no air resistance.\n\nThe probe's engines are turned off. It continues traveling at a constant velocity of 10 km/s.\n\nExplain why the probe's kinetic energy remains constant even though no energy is being supplied by the engines. Use the law of conservation of energy in your explanation.",
+    "solution": "The probe's kinetic energy remains constant because of the **law of conservation of energy** and **Newton's First Law** (inertia).\n\n**Key points:**\n\n1. **No forces acting**: In deep space with no air resistance and far from gravitational forces, there are **no forces** acting on the probe to slow it down or speed it up.\n\n2. **Conservation of energy**: According to the law of conservation of energy, energy cannot be created or destroyed. Since there are no forces doing work on the probe:\n   - No energy is being **added** to the system\n   - No energy is being **removed** from the system\n   - Therefore, the kinetic energy **stays constant**\n\n3. **No transformation**: For KE to decrease, it would need to transform into another form (like heat from friction). But with **no air resistance** and **no friction**, there is no mechanism to transform the kinetic energy into other forms.\n\n4. **Constant velocity**: Since $KE = \\frac{1}{2}mv^2$ and both mass (m) and velocity (v) remain constant, the kinetic energy must remain constant.\n\n**Why engines aren't needed:**\n\nOn Earth, vehicles need constant engine power because **friction** and **air resistance** continuously transform kinetic energy into heat. In space, with no friction, the probe **coasts** indefinitely at constant velocity - no energy input needed!\n\nThis is why space travel is actually very fuel-efficient once you're in space - engines are only needed to change speed or direction, not to maintain motion.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what makes objects slow down on Earth. Are those factors present in deep space?"
+      },
+      {
+        "level": 2,
+        "content": "For kinetic energy to change, energy must either be added or transformed into other forms. What forces would cause these transformations?"
+      },
+      {
+        "level": 3,
+        "content": "With no air resistance or friction, nothing opposes the probe's motion. No energy is transformed to heat, so KE remains constant. This is conservation of energy in action."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 160,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 17,
+      "conceptsUsed": ["c1", "c5", "c6"],
+      "buildsOn": ["eft-y8-048", "eft-y8-044"],
+      "preparesFor": ["eft-y8-069", "eft-y8-075"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Deep reasoning about conservation of energy in absence of dissipative forces"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set6",
+      "sequenceInPaper": 17
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-058",
+    "questionType": "MCQ",
+    "stem": "A phone battery stores 10,000 J of chemical energy. After a day of use, the battery is flat.\n\nAccording to the law of conservation of energy, what happened to the 10,000 J?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "It was destroyed and no longer exists",
+        "isCorrect": false,
+        "feedback": "This violates the law of conservation of energy. Energy cannot be destroyed - it can only transform into other forms."
+      },
+      {
+        "id": "B",
+        "text": "It is still in the battery, just in a different form",
+        "isCorrect": false,
+        "feedback": "The energy has left the battery. While some remains as heat in the battery, most has been transferred to run the phone and has dissipated."
+      },
+      {
+        "id": "C",
+        "text": "It transformed into light, sound, heat, and electromagnetic energy used by the phone",
+        "isCorrect": true,
+        "feedback": "Correct! The 10,000 J of **chemical energy** was transformed into: **electrical energy** (powering circuits) → **light energy** (screen), **sound energy** (speaker), **electromagnetic energy** (wireless signals), and **heat energy** (processor and battery warming). The energy still exists, just transformed and dispersed throughout the environment."
+      },
+      {
+        "id": "D",
+        "text": "It evaporated into the air",
+        "isCorrect": false,
+        "feedback": "Energy doesn't 'evaporate'. While some energy did dissipate as heat into the air, this is just one of several energy transformations that occurred."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**Energy transformation chain in a phone:**\n\n**Chemical Energy (battery)** → **Electrical Energy** → Multiple outputs:\n\n1. **Light Energy**: Screen display (LEDs/OLED)\n2. **Sound Energy**: Speaker and vibrations\n3. **Electromagnetic Energy**: WiFi, cellular, Bluetooth signals\n4. **Heat Energy**: From the processor, battery, and all components (wasted)\n\n**Law of conservation of energy:**\n\nThe 10,000 J was not destroyed - it was **transformed** into various forms and **dissipated** into the environment. By the end of the day:\n\n- Screen produced light that was absorbed by your eyes and surroundings\n- Speaker produced sound waves that dissipated in the air\n- Wireless transmissions carried signals to cell towers\n- Heat warmed the phone and surrounding air\n\n**Total energy** = 10,000 J (still exists, just spread out in different forms)\n\nThis is why **\"using\" energy** is technically incorrect - we should say **\"transforming\" energy**. The battery is flat because its concentrated, useful chemical energy has been transformed into dispersed, less useful forms (mainly heat).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What does the law of conservation of energy tell us about whether energy can be destroyed?"
+      },
+      {
+        "level": 2,
+        "content": "Think about what your phone does: display light, make sounds, send wireless signals. Each requires energy. What happened to the battery's chemical energy?"
+      },
+      {
+        "level": 3,
+        "content": "The chemical energy transformed into electrical energy, which then became light, sound, electromagnetic waves, and heat. The energy exists, just in different forms."
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 18,
+      "conceptsUsed": ["c5", "c6", "c7"],
+      "buildsOn": ["eft-y8-044", "eft-y8-046"],
+      "preparesFor": ["eft-y8-067", "eft-y8-077"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Reinforce that energy transforms and disperses, never destroyed (m3)"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set6",
+      "sequenceInPaper": 18
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-059",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Modern hybrid cars can capture energy during braking and store it in a battery (regenerative braking).\n\n**a)** Describe the energy transformations that occur during regenerative braking.\n\n**b)** Why is this more efficient than traditional brakes that just use friction? Explain in terms of useful vs wasted energy.",
+    "solution": "**Part a) Energy transformations in regenerative braking:**\n\n**Kinetic Energy (moving car) → Electrical Energy (generator) → Chemical Energy (stored in battery)**\n\nDetailed process:\n1. The car's **kinetic energy** drives the electric motor (now acting as a generator)\n2. The generator transforms this kinetic energy into **electrical energy**\n3. The electrical energy is stored as **chemical energy** in the battery\n4. This stored energy can later be used to power the car again\n\n**Part b) Why regenerative braking is more efficient:**\n\n**Traditional brakes:**\n- **Kinetic Energy → Heat Energy (friction)**\n- The kinetic energy is transformed into **heat** at the brake pads/discs\n- This heat **dissipates** into the air - it's **wasted** and cannot be recovered\n- **0% energy recovery**\n\n**Regenerative brakes:**\n- **Kinetic Energy → Electrical → Chemical Energy (stored)**\n- The kinetic energy is captured and **stored** in the battery as **useful energy**\n- This energy can be **reused** to accelerate the car later\n- Typical **30-70% energy recovery** (some energy still lost as heat)\n\n**Efficiency advantage:**\n\nRegenerative braking converts what would be **wasted heat energy** into **useful stored energy**. This is why hybrid cars are more fuel-efficient, especially in city driving with frequent stops - they **recycle** braking energy instead of wasting it.\n\n**Key principle:** Efficiency is improved when we capture and reuse energy that would otherwise be wasted.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "For part a: The moving car has KE. When it slows, where does this energy go in regenerative braking? For part b: Compare where the energy ends up in traditional vs regenerative braking."
+      },
+      {
+        "level": 2,
+        "content": "Part a: KE → electrical (generator) → chemical (battery). Part b: Traditional brakes waste energy as heat. Regenerative brakes store it for reuse."
+      },
+      {
+        "level": 3,
+        "content": "Part a: KE → electrical → chemical (battery storage). Part b: Regenerative is more efficient because it captures and stores energy instead of wasting it as heat that dissipates."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 19,
+      "conceptsUsed": ["c5", "c6", "c7"],
+      "buildsOn": ["eft-y8-046", "eft-y8-053", "eft-y8-054"],
+      "preparesFor": ["eft-y8-078", "eft-y8-080"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Compare energy efficiency in regenerative vs traditional braking systems"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set6",
+      "sequenceInPaper": 19
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-060",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Three different power stations generate the same amount of electrical energy (1,000,000 J):\n\n| Power Station Type | Energy Input (J) | Electrical Output (J) |\n|-------------------|-----------------|---------------------|\n| Coal | 2,500,000 | 1,000,000 |\n| Natural Gas | 2,000,000 | 1,000,000 |\n| Hydroelectric | 1,250,000 | 1,000,000 |\n\n**a)** Calculate the efficiency of each power station.\n\n**b)** Rank them from most to least efficient.\n\n**c)** Explain what happens to the \"lost\" energy in each case.",
+    "solution": "**Part a) Calculate efficiency:**\n\nUsing: $\\eta = \\frac{E_{useful}}{E_{input}} \\times 100\\%$\n\n**Coal:**\n$\\eta = \\frac{1,000,000}{2,500,000} \\times 100\\% = 0.4 \\times 100\\% = 40\\%$\n\n**Natural Gas:**\n$\\eta = \\frac{1,000,000}{2,000,000} \\times 100\\% = 0.5 \\times 100\\% = 50\\%$\n\n**Hydroelectric:**\n$\\eta = \\frac{1,000,000}{1,250,000} \\times 100\\% = 0.8 \\times 100\\% = 80\\%$\n\n**Part b) Ranking (most to least efficient):**\n\n1. **Hydroelectric: 80%** (most efficient)\n2. **Natural Gas: 50%**\n3. **Coal: 40%** (least efficient)\n\n**Part c) What happens to the \"lost\" energy:**\n\nIn all cases, the \"lost\" energy is transformed into **heat energy** that is dissipated into the environment:\n\n- **Coal**: 60% wasted (1,500,000 J) as heat from combustion, steam condensers, and cooling systems\n- **Natural Gas**: 50% wasted (1,000,000 J) as heat from combustion and cooling\n- **Hydroelectric**: 20% wasted (250,000 J) as heat from friction in turbines and electrical resistance\n\nThis **waste heat** is usually released into the atmosphere or into nearby water bodies (rivers/cooling ponds). The energy still exists (conservation of energy) but is **dispersed** and no longer useful for generating electricity.\n\n**Why hydroelectric is most efficient:**\nHydroelectric doesn't involve combustion (burning fuel), which always releases large amounts of waste heat. It directly converts mechanical energy (falling water) to electrical energy with fewer transformation steps, so less energy is lost along the way.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "For part a: Use the efficiency formula for each. For part b: Compare the percentages. For part c: Think about what form wasted energy usually takes."
+      },
+      {
+        "level": 2,
+        "content": "Part a: Divide 1,000,000 by each input value, then × 100. Part b: Higher percentage = more efficient. Part c: The lost energy becomes heat."
+      },
+      {
+        "level": 3,
+        "content": "Part a: Coal = 40%, Gas = 50%, Hydro = 80%. Part b: Hydro > Gas > Coal. Part c: Lost energy transforms to heat and dissipates into the environment."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 200,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 20,
+      "conceptsUsed": ["c7", "c5", "c6"],
+      "buildsOn": ["eft-y8-049", "eft-y8-054", "eft-y8-043"],
+      "preparesFor": ["eft-y8-078", "eft-y8-080"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!",
+      "purpose": "Compare efficiency across different energy systems with calculations"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set6",
+      "sequenceInPaper": 20
+    },
+    "status": "draft"
+  }
+]

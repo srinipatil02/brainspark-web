@@ -1,0 +1,334 @@
+{
+  "topic": "Energy Forms and Transformations",
+  "topicSlug": "energy-forms-transformations",
+  "outcomeCode": "ACSSU155",
+  "year": 8,
+  "researchedAt": "2026-01-09",
+
+  "curriculumAlignment": {
+    "outcomeCode": "ACSSU155",
+    "outcomeDescription": "Energy appears in different forms, including movement (kinetic energy), heat and potential energy, and energy transformations and transfers cause change within systems",
+    "strand": "Physical Sciences",
+    "stage": "Stage 4",
+    "prerequisiteOutcomes": ["ACSSU082"],
+    "progressionOutcomes": ["ACSSU182", "ACSSU190"],
+    "keyIndicators": [
+      "Identify different forms of energy",
+      "Describe energy transformations in common devices",
+      "Apply the law of conservation of energy",
+      "Calculate kinetic and potential energy",
+      "Explain efficiency and energy loss as heat"
+    ]
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Energy forms",
+      "description": "Different types of energy: kinetic, potential (gravitational, elastic, chemical), thermal, light, sound, electrical",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c2", "c3", "c4"]
+    },
+    {
+      "id": "c2",
+      "name": "Kinetic energy",
+      "description": "Energy of motion, dependent on mass and velocity squared (KE = 1/2 mv^2)",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c5", "c6", "c7"]
+    },
+    {
+      "id": "c3",
+      "name": "Gravitational potential energy",
+      "description": "Stored energy due to height above ground (GPE = mgh)",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c5", "c6", "c7"]
+    },
+    {
+      "id": "c4",
+      "name": "Other potential energies",
+      "description": "Elastic potential (stretched/compressed objects) and chemical potential (stored in bonds)",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c5", "c6"]
+    },
+    {
+      "id": "c5",
+      "name": "Energy transformations",
+      "description": "Energy changes from one form to another but is never created or destroyed",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c6", "c7"]
+    },
+    {
+      "id": "c6",
+      "name": "Conservation of energy",
+      "description": "Total energy in a closed system remains constant; energy is transferred, not lost",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c7", "c8"]
+    },
+    {
+      "id": "c7",
+      "name": "Energy efficiency",
+      "description": "Ratio of useful energy output to total energy input; some energy always becomes thermal",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c8"]
+    },
+    {
+      "id": "c8",
+      "name": "Energy degradation",
+      "description": "Energy spreads out and becomes less useful over time; explains why perpetual motion is impossible",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": []
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "misconception": "Objects at rest have no energy",
+      "correction": "Stationary objects can have potential energy (gravitational, elastic, chemical) even without moving",
+      "prevalence": "high",
+      "source": "Driver et al., 1994; AAAS Project 2061",
+      "questionPhase": 3
+    },
+    {
+      "id": "m2",
+      "misconception": "Doubling speed doubles kinetic energy",
+      "correction": "Kinetic energy depends on velocity squared, so doubling speed quadruples kinetic energy (KE = 1/2 mv^2)",
+      "prevalence": "high",
+      "source": "Physics Education Research",
+      "questionPhase": 3
+    },
+    {
+      "id": "m3",
+      "misconception": "Energy is used up or consumed",
+      "correction": "Energy is never used up; it transforms into other forms, often spreading as thermal energy",
+      "prevalence": "very high",
+      "source": "Driver et al., 1994",
+      "questionPhase": 3
+    },
+    {
+      "id": "m4",
+      "misconception": "Only gravitational potential energy exists",
+      "correction": "Potential energy includes elastic (springs, rubber bands) and chemical (food, fuels, batteries)",
+      "prevalence": "medium",
+      "source": "Science education literature",
+      "questionPhase": 2
+    },
+    {
+      "id": "m5",
+      "misconception": "Energy and force are the same thing",
+      "correction": "Force is a push or pull; energy is the capacity to do work. Force can transfer energy but they are different concepts",
+      "prevalence": "high",
+      "source": "AAAS Project 2061",
+      "questionPhase": 3
+    },
+    {
+      "id": "m6",
+      "misconception": "Heat and temperature are the same",
+      "correction": "Heat is thermal energy being transferred; temperature measures average particle kinetic energy",
+      "prevalence": "very high",
+      "source": "Driver et al., 1994",
+      "questionPhase": 3
+    },
+    {
+      "id": "m7",
+      "misconception": "Heavier objects fall faster so have more kinetic energy at impact",
+      "correction": "All objects fall at the same rate (ignoring air resistance), but heavier objects do have more KE because KE depends on mass",
+      "prevalence": "medium",
+      "source": "Physics Education Research",
+      "questionPhase": 4
+    },
+    {
+      "id": "m8",
+      "misconception": "100% efficiency is achievable with better technology",
+      "correction": "Some energy always spreads as thermal energy due to friction, air resistance; perfect efficiency violates thermodynamics",
+      "prevalence": "medium",
+      "source": "Thermodynamics education research",
+      "questionPhase": 4
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "Roller coaster ride",
+      "concepts": ["c2", "c3", "c5", "c6"],
+      "curiosityHook": "Why don't roller coasters need an engine after the first hill?",
+      "explanation": "GPE at top converts to KE going down; each subsequent hill must be shorter due to energy lost to friction",
+      "questionPhase": 2
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Bouncing ball losing height",
+      "concepts": ["c2", "c3", "c5", "c7"],
+      "curiosityHook": "Why does a bouncing ball eventually stop?",
+      "explanation": "Each bounce converts some kinetic energy to thermal and sound energy, reducing the height it can reach",
+      "questionPhase": 2
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Phone battery heating up",
+      "concepts": ["c4", "c5", "c7"],
+      "curiosityHook": "Why does your phone get warm when playing games?",
+      "explanation": "Chemical energy in battery transforms to electrical, then some becomes unwanted thermal energy (inefficiency)",
+      "questionPhase": 2
+    },
+    {
+      "id": "p4",
+      "phenomenon": "Food gives you energy to exercise",
+      "concepts": ["c4", "c5", "c6"],
+      "curiosityHook": "How does a sandwich help you run a race?",
+      "explanation": "Chemical potential energy in food transforms to kinetic energy of muscle movement plus thermal energy",
+      "questionPhase": 2
+    },
+    {
+      "id": "p5",
+      "phenomenon": "Trampoline jumping",
+      "concepts": ["c2", "c3", "c4", "c5"],
+      "curiosityHook": "How can a trampoline make you jump higher than you started?",
+      "explanation": "Your kinetic energy stores as elastic PE in the trampoline, then returns as kinetic energy",
+      "questionPhase": 2
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Hydroelectric power station",
+      "concepts": ["c3", "c2", "c5", "c7"],
+      "curiosityHook": "How does falling water light up a city?",
+      "explanation": "Water's GPE converts to KE as it falls, then to electrical energy through turbines and generators",
+      "questionPhase": 3
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Car brakes getting hot",
+      "concepts": ["c2", "c5", "c7"],
+      "curiosityHook": "Where does a car's motion go when it brakes?",
+      "explanation": "Kinetic energy transforms to thermal energy through friction in brake pads; energy isn't destroyed",
+      "questionPhase": 3
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Cricket ball speed",
+      "concepts": ["c2", "c5"],
+      "curiosityHook": "Why is a fast bowler's delivery so much more dangerous than a slow one?",
+      "explanation": "Doubling speed quadruples kinetic energy; fast bowlers transfer much more energy on impact",
+      "questionPhase": 3
+    },
+    {
+      "id": "p9",
+      "phenomenon": "Solar panels on rooftops",
+      "concepts": ["c5", "c7"],
+      "curiosityHook": "How does sunlight become electricity?",
+      "explanation": "Light energy transforms to electrical energy; efficiency is typically 15-22% with the rest becoming heat",
+      "questionPhase": 4
+    },
+    {
+      "id": "p10",
+      "phenomenon": "Regenerative braking in electric cars",
+      "concepts": ["c2", "c4", "c5", "c7"],
+      "curiosityHook": "How do electric cars get extra range when going downhill?",
+      "explanation": "Instead of wasting KE as heat in brakes, regenerative braking converts it back to chemical PE in the battery",
+      "questionPhase": 4
+    }
+  ],
+
+  "scaffoldingSequence": [
+    "Energy forms identification → Kinetic energy concept → Potential energy types → Energy transformations → Conservation principle → Efficiency calculations → Energy degradation understanding"
+  ],
+
+  "vocabularyProgression": {
+    "phase1": ["energy", "kinetic", "potential", "motion", "height", "stored", "transfer"],
+    "phase2": ["gravitational", "elastic", "chemical", "thermal", "transformation", "joule"],
+    "phase3": ["conservation", "system", "friction", "efficiency", "useful energy", "wasted"],
+    "phase4": ["degradation", "equilibrium", "entropy", "sustainability", "renewable", "dissipation"]
+  },
+
+  "formulasAndCalculations": {
+    "kineticEnergy": {
+      "formula": "KE = 1/2 × m × v²",
+      "latex": "KE = \\frac{1}{2}mv^2",
+      "variables": {
+        "KE": "kinetic energy (joules, J)",
+        "m": "mass (kilograms, kg)",
+        "v": "velocity (metres per second, m/s)"
+      },
+      "keyInsight": "Velocity is squared, so doubling speed quadruples energy"
+    },
+    "gravitationalPotentialEnergy": {
+      "formula": "GPE = m × g × h",
+      "latex": "GPE = mgh",
+      "variables": {
+        "GPE": "gravitational potential energy (joules, J)",
+        "m": "mass (kilograms, kg)",
+        "g": "gravitational field strength (9.8 m/s² on Earth)",
+        "h": "height (metres, m)"
+      },
+      "keyInsight": "Height is measured from a reference point; the choice of zero is arbitrary"
+    },
+    "efficiency": {
+      "formula": "Efficiency = (useful energy output / total energy input) × 100%",
+      "latex": "\\eta = \\frac{E_{out}}{E_{in}} \\times 100\\%",
+      "variables": {
+        "efficiency": "percentage of energy usefully converted",
+        "useful output": "energy that does the intended job",
+        "total input": "all energy put into the system"
+      },
+      "keyInsight": "Efficiency is always less than 100% due to friction and other losses"
+    }
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": [
+      "Introduce energy forms with familiar examples before abstract definitions",
+      "Use visual diagrams showing energy flow and transformations",
+      "Separate kinetic energy formula understanding from calculations initially",
+      "Present conservation law after students see multiple transformation examples"
+    ],
+    "engagementStrategies": [
+      "Start with sports examples (cricket, football) to hook student interest",
+      "Use prediction activities: 'Which ball will go higher?' before explaining",
+      "Create cognitive dissonance with bouncing ball losing height vs conservation",
+      "Connect to sustainability and climate change for relevance"
+    ],
+    "motivationFactors": [
+      "Relate to video games and phone battery life",
+      "Connect to sports performance and athletic training",
+      "Link to renewable energy and environmental responsibility",
+      "Show how understanding energy helps in everyday decisions"
+    ],
+    "commonStumblingPoints": [
+      "Velocity squared in KE formula is counterintuitive",
+      "Understanding that 'lost' energy hasn't disappeared",
+      "Distinguishing between energy and force",
+      "Applying conservation when energy seems to 'run out'"
+    ],
+    "spacedRepetitionPoints": ["c2", "c3", "c5", "c6"],
+    "desirableDifficulties": [
+      "Have students predict before calculating",
+      "Mix energy forms questions to prevent pattern matching",
+      "Include near-transfer problems (familiar context, new values)",
+      "Include far-transfer problems (new contexts, same principles)"
+    ]
+  },
+
+  "assessmentStrategies": {
+    "formativeIdeas": [
+      "Energy flow diagrams for everyday devices",
+      "Predict-observe-explain activities with bouncing balls",
+      "Sorting activities: Which objects have which types of energy?",
+      "Error analysis: Find the mistake in this energy calculation"
+    ],
+    "summativeExpectations": [
+      "Calculate KE and GPE for given scenarios",
+      "Trace energy transformations through multi-step processes",
+      "Explain why perpetual motion is impossible",
+      "Calculate efficiency and identify energy losses",
+      "Apply conservation to predict outcomes"
+    ]
+  },
+
+  "crossCurricularLinks": {
+    "mathematics": ["Substitution into formulas", "Percentage calculations", "Graphing energy vs height/speed"],
+    "technology": ["Sustainable energy systems", "Energy-efficient design"],
+    "geography": ["Renewable energy resources", "Energy and climate change"],
+    "pdhpe": ["Energy in food and exercise", "Sports performance and energy transfer"]
+  }
+}

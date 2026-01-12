@@ -5,59 +5,149 @@ import Link from 'next/link';
 import { useAllSetsProgress } from '@/hooks/useSetProgress';
 
 // Difficulty levels with their question sets
+// Each set has a unique firestoreSetId for direct querying
 const difficultyLevels = [
   {
     id: 'medium',
     name: 'Standard',
     description: 'Build solid understanding of particle theory and state changes',
-    firestoreSetId: 'year8-science-states-of-matter-medium',
     color: 'sky',
     icon: '🧊',
     sets: [
+      // Phase 1: Foundation (Q1-20)
       {
         setNumber: 1,
         id: 'year8-science-states-of-matter-set1',
-        title: 'Particle Model',
-        subtitle: 'Understanding the particle theory of matter',
+        title: 'States & Particles',
+        subtitle: 'Introduction to the three states and particle model',
         icon: '⚛️',
         questions: 10,
-        topics: ['Particle arrangement', 'Spacing', 'Movement', 'Energy'],
+        topics: ['Three states', 'Particle model', 'Arrangement', 'Movement'],
+        phase: 'Foundation',
       },
       {
         setNumber: 2,
         id: 'year8-science-states-of-matter-set2',
-        title: 'Solid State',
-        subtitle: 'Properties and behavior of solids',
-        icon: '🧊',
+        title: 'Particle Properties',
+        subtitle: 'How particles behave in solids, liquids, and gases',
+        icon: '🔬',
         questions: 10,
-        topics: ['Fixed shape', 'Vibration', 'Density', 'Compression'],
+        topics: ['Spacing', 'Energy', 'Forces', 'Comparing states'],
+        phase: 'Foundation',
       },
+      // Phase 2: Application (Q21-40)
       {
         setNumber: 3,
         id: 'year8-science-states-of-matter-set3',
-        title: 'Liquid State',
-        subtitle: 'Properties and behavior of liquids',
-        icon: '💧',
+        title: 'Real-World States',
+        subtitle: 'Applying particle theory to everyday phenomena',
+        icon: '🌡️',
         questions: 10,
-        topics: ['Flow', 'Volume', 'Surface tension', 'Viscosity'],
+        topics: ['Melting ice cream', 'Steam', 'Diffusion', 'Compression'],
+        phase: 'Application',
       },
       {
         setNumber: 4,
         id: 'year8-science-states-of-matter-set4',
-        title: 'Gas State',
-        subtitle: 'Properties and behavior of gases',
-        icon: '💨',
+        title: 'Energy & Change',
+        subtitle: 'Temperature, energy transfer, and state changes',
+        icon: '🔥',
         questions: 10,
-        topics: ['Expansion', 'Pressure', 'Diffusion', 'Compression'],
+        topics: ['Temperature', 'Kinetic energy', 'Heating', 'Boiling'],
+        phase: 'Application',
       },
+      // Phase 3: Connection (Q41-60)
       {
         setNumber: 5,
         id: 'year8-science-states-of-matter-set5',
-        title: 'State Changes',
-        subtitle: 'Melting, freezing, boiling & condensation',
-        icon: '🔄',
+        title: 'Challenging Ideas',
+        subtitle: 'Addressing misconceptions about matter',
+        icon: '💡',
         questions: 10,
-        topics: ['Melting point', 'Boiling point', 'Energy transfer', 'Reversibility'],
+        topics: ['Common mistakes', 'Dissolving vs melting', 'Gas mass', 'Particle size'],
+        phase: 'Connection',
+      },
+      {
+        setNumber: 6,
+        id: 'year8-science-states-of-matter-set6',
+        title: 'Connecting Concepts',
+        subtitle: 'Linking particle theory across states',
+        icon: '🔗',
+        questions: 10,
+        topics: ['State transitions', 'Energy flow', 'Particle diagrams', 'Predictions'],
+        phase: 'Connection',
+      },
+      // Phase 4: Mastery (Q61-80)
+      {
+        setNumber: 7,
+        id: 'year8-science-states-of-matter-set7',
+        title: 'Complex Scenarios',
+        subtitle: 'Applying knowledge to new situations',
+        icon: '🧪',
+        questions: 10,
+        topics: ['Multi-step problems', 'Explanations', 'Analysis', 'Synthesis'],
+        phase: 'Mastery',
+      },
+      {
+        setNumber: 8,
+        id: 'year8-science-states-of-matter-set8',
+        title: 'Mastery Challenge',
+        subtitle: 'Demonstrating deep understanding',
+        icon: '🏆',
+        questions: 10,
+        topics: ['Expert reasoning', 'Novel contexts', 'Critical thinking', 'Integration'],
+        phase: 'Mastery',
+      },
+      // Classic Sets (9-13) - Original question bank
+      {
+        setNumber: 9,
+        id: 'year8-science-states-of-matter-set9',
+        title: 'Classic: Particle Model',
+        subtitle: 'Foundation questions on particle theory',
+        icon: '📚',
+        questions: 10,
+        topics: ['Particle arrangement', 'Movement', 'Spacing', 'States'],
+        phase: 'Classic',
+      },
+      {
+        setNumber: 10,
+        id: 'year8-science-states-of-matter-set10',
+        title: 'Classic: State Properties',
+        subtitle: 'Properties of solids, liquids, and gases',
+        icon: '📖',
+        questions: 10,
+        topics: ['Solid properties', 'Liquid properties', 'Gas properties', 'Comparisons'],
+        phase: 'Classic',
+      },
+      {
+        setNumber: 11,
+        id: 'year8-science-states-of-matter-set11',
+        title: 'Classic: Changes',
+        subtitle: 'State changes and energy',
+        icon: '📝',
+        questions: 10,
+        topics: ['Melting', 'Freezing', 'Evaporation', 'Condensation'],
+        phase: 'Classic',
+      },
+      {
+        setNumber: 12,
+        id: 'year8-science-states-of-matter-set12',
+        title: 'Classic: Applications',
+        subtitle: 'Real-world applications',
+        icon: '📋',
+        questions: 10,
+        topics: ['Everyday examples', 'Problem solving', 'Explanations', 'Predictions'],
+        phase: 'Classic',
+      },
+      {
+        setNumber: 13,
+        id: 'year8-science-states-of-matter-set13',
+        title: 'Classic: Mastery',
+        subtitle: 'Advanced particle theory',
+        icon: '🎓',
+        questions: 10,
+        topics: ['Complex scenarios', 'Deep understanding', 'Synthesis', 'Analysis'],
+        phase: 'Classic',
       },
     ],
   },
@@ -107,6 +197,62 @@ function getColorClasses(color: string) {
       text: 'text-blue-600',
       border: 'border-blue-200',
       progress: 'stroke-blue-500',
+    },
+    indigo: {
+      bg: 'bg-indigo-500',
+      bgLight: 'bg-indigo-50',
+      text: 'text-indigo-600',
+      border: 'border-indigo-200',
+      progress: 'stroke-indigo-500',
+    },
+    orange: {
+      bg: 'bg-orange-500',
+      bgLight: 'bg-orange-50',
+      text: 'text-orange-600',
+      border: 'border-orange-200',
+      progress: 'stroke-orange-500',
+    },
+    teal: {
+      bg: 'bg-teal-500',
+      bgLight: 'bg-teal-50',
+      text: 'text-teal-600',
+      border: 'border-teal-200',
+      progress: 'stroke-teal-500',
+    },
+    slate: {
+      bg: 'bg-slate-500',
+      bgLight: 'bg-slate-50',
+      text: 'text-slate-600',
+      border: 'border-slate-200',
+      progress: 'stroke-slate-500',
+    },
+    stone: {
+      bg: 'bg-stone-500',
+      bgLight: 'bg-stone-50',
+      text: 'text-stone-600',
+      border: 'border-stone-200',
+      progress: 'stroke-stone-500',
+    },
+    zinc: {
+      bg: 'bg-zinc-500',
+      bgLight: 'bg-zinc-50',
+      text: 'text-zinc-600',
+      border: 'border-zinc-200',
+      progress: 'stroke-zinc-500',
+    },
+    gray: {
+      bg: 'bg-gray-500',
+      bgLight: 'bg-gray-50',
+      text: 'text-gray-600',
+      border: 'border-gray-200',
+      progress: 'stroke-gray-500',
+    },
+    neutral: {
+      bg: 'bg-neutral-500',
+      bgLight: 'bg-neutral-50',
+      text: 'text-neutral-600',
+      border: 'border-neutral-200',
+      progress: 'stroke-neutral-500',
     },
   };
   return colors[color] || colors.sky;
@@ -182,7 +328,11 @@ export default function Year8StatesOfMatterPage() {
   ).length;
 
   // Get color for each set based on its position
-  const setColors = ['sky', 'emerald', 'amber', 'purple', 'blue'];
+  // 13 unique colors for 13 sets (8 new + 5 classic)
+  const setColors = [
+    'blue', 'indigo', 'orange', 'red', 'amber', 'teal', 'purple', 'emerald',  // Sets 1-8 (Learning Arc)
+    'slate', 'stone', 'zinc', 'gray', 'neutral'  // Sets 9-13 (Classic)
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-blue-50">
@@ -201,7 +351,7 @@ export default function Year8StatesOfMatterPage() {
                 Year 8 Science: States of Matter
               </h1>
               <p className="text-gray-500 text-sm">
-                NSW Curriculum ACSSU151 • 50 questions total
+                NSW Curriculum ACSSU151 • {totalQuestions} questions total
               </p>
             </div>
           </div>
@@ -342,15 +492,15 @@ export default function Year8StatesOfMatterPage() {
         {/* Quick Stats */}
         <div className="mt-8 grid grid-cols-3 gap-4">
           <div className="bg-white rounded-xl p-4 shadow text-center border border-gray-100">
-            <div className="text-3xl font-bold text-sky-600">50</div>
+            <div className="text-3xl font-bold text-sky-600">{totalQuestions}</div>
             <div className="text-sm text-gray-500">Total Questions</div>
           </div>
           <div className="bg-white rounded-xl p-4 shadow text-center border border-gray-100">
-            <div className="text-3xl font-bold text-amber-600">~100</div>
+            <div className="text-3xl font-bold text-amber-600">~{totalQuestions * 2}</div>
             <div className="text-sm text-gray-500">Total Minutes</div>
           </div>
           <div className="bg-white rounded-xl p-4 shadow text-center border border-gray-100">
-            <div className="text-3xl font-bold text-purple-600">5</div>
+            <div className="text-3xl font-bold text-purple-600">{currentLevel.sets.length}</div>
             <div className="text-sm text-gray-500">Question Sets</div>
           </div>
         </div>

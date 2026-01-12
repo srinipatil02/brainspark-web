@@ -1,0 +1,1522 @@
+[
+  {
+    "questionId": "som-y8-041",
+    "questionType": "MCQ",
+    "stem": "A student says: \"When you heat ice to make water, the water molecules get bigger because they have more energy.\"\n\nWhat is wrong with this statement?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Nothing - the molecules do get bigger when heated",
+        "isCorrect": false,
+        "feedback": "Molecules themselves do NOT change size during heating. The particles stay the same size - only their movement and spacing change."
+      },
+      {
+        "id": "B",
+        "text": "The molecules stay the same size, but they move faster and spread apart",
+        "isCorrect": true,
+        "feedback": "Correct! When heated, particles gain **kinetic energy** which makes them move faster and overcome attractive forces, allowing them to spread apart. The molecules themselves remain the same size throughout all state changes."
+      },
+      {
+        "id": "C",
+        "text": "The molecules actually get smaller when heated",
+        "isCorrect": false,
+        "feedback": "Molecules don't change size at all during heating or cooling. They always stay the same size."
+      },
+      {
+        "id": "D",
+        "text": "Ice molecules and water molecules are completely different",
+        "isCorrect": false,
+        "feedback": "Ice and liquid water are made of identical H₂O molecules. Only the arrangement and movement of the molecules change, not the molecules themselves."
+      }
+    ],
+    "solution": "The correct answer is **B**.\n\nThis is a common misconception (m2). When a substance is heated, the **particles themselves do not change size**. What actually happens is:\n\n1. The particles gain **thermal energy** (heat energy)\n2. This increases their **kinetic energy** (movement energy)\n3. They vibrate faster (in solids) or move faster (in liquids/gases)\n4. The increased movement allows them to **overcome attractive forces**\n5. This causes them to **spread apart** (increased spacing)\n\nA water molecule (H₂O) is exactly the same size whether it's in ice, liquid water, or steam. The difference between states is how the molecules are **arranged** and how **fast they're moving**, not the size of the molecules themselves.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what a molecule is made of. Can atoms grow bigger just because they're warmer?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Energy affects how particles MOVE, not their actual size. What changes when you add energy to particles?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "The molecules stay the same size but gain kinetic energy, making them move faster and spread apart from each other.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "identifying-misconceptions",
+      "secondarySkills": ["particle-model-application", "energy-concepts"],
+      "competencyLevel": "developing",
+      "cognitiveLevel": "analyze",
+      "prerequisites": ["particle-theory-basics", "states-of-matter"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 1,
+      "conceptsUsed": ["c9"],
+      "misconceptionAddressed": "m2",
+      "buildsOn": ["som-y8-025", "som-y8-030"],
+      "preparesFor": ["som-y8-055", "som-y8-058"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "approach": "direct-challenge",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "medium"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-042",
+    "questionType": "SHORT_ANSWER",
+    "stem": "When you open a bottle of perfume in one corner of a room, people across the room can smell it after a few minutes.\n\nUsing the particle model, explain WHY this happens and what this process is called.",
+    "solution": "This process is called **diffusion** (c8).\n\nDiffusion occurs because:\n\n1. **Perfume particles are in constant, random motion** - they have kinetic energy that makes them move in all directions\n2. **The particles spread from high concentration to low concentration** - there are many perfume particles near the bottle and few across the room\n3. **Particles collide with air molecules** - these collisions cause the perfume particles to gradually spread throughout the room\n4. **No external force is needed** - the particles' natural random motion causes the spreading\n\nThe perfume particles **don't disappear** or change - they simply spread out until they're evenly distributed throughout the available space. This is why everyone in the room can eventually smell the perfume, even though it started in just one corner.\n\nDiffusion happens faster in gases (like air) than in liquids because gas particles move faster and have more space between them.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how gas particles move. Do they stay still or are they constantly moving?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "This process involves particles moving from an area where there are many of them to areas where there are fewer. What is this called?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "The process is called diffusion. Explain how the random motion of particles causes them to spread from high to low concentration.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "explaining-phenomena",
+      "secondarySkills": ["particle-model-application", "diffusion"],
+      "competencyLevel": "developing",
+      "cognitiveLevel": "apply",
+      "prerequisites": ["particle-motion", "gas-properties"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 2,
+      "conceptsUsed": ["c6", "c8"],
+      "phenomenonExplained": "p5",
+      "buildsOn": ["som-y8-028", "som-y8-032"],
+      "preparesFor": ["som-y8-056", "som-y8-059"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "approach": "real-world-explanation",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "medium"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": false
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-043",
+    "questionType": "MCQ",
+    "stem": "A student claims: \"Particles in a solid don't move at all - they're completely frozen in place.\"\n\nWhich statement BEST corrects this misconception?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The student is correct - solid particles have no movement",
+        "isCorrect": false,
+        "feedback": "This is incorrect. Even in solids at room temperature, particles are constantly vibrating due to their kinetic energy."
+      },
+      {
+        "id": "B",
+        "text": "Solid particles vibrate in fixed positions - they have kinetic energy but can't move from place to place",
+        "isCorrect": true,
+        "feedback": "Correct! Solid particles DO move - they vibrate constantly in their fixed positions. They have kinetic energy but the strong forces between particles prevent them from moving away from their positions. The only way to have NO movement would be at absolute zero (-273°C), which is impossible to reach."
+      },
+      {
+        "id": "C",
+        "text": "Solid particles move around freely like gas particles",
+        "isCorrect": false,
+        "feedback": "This is incorrect. Solid particles can't move around freely - they're held in fixed positions by strong attractive forces. They can only vibrate in place."
+      },
+      {
+        "id": "D",
+        "text": "Solid particles only start moving when you heat them up",
+        "isCorrect": false,
+        "feedback": "Solid particles are ALWAYS vibrating at any temperature above absolute zero. Heating them makes them vibrate faster, but they're already moving even at room temperature."
+      }
+    ],
+    "solution": "The correct answer is **B**.\n\nThis addresses misconception m1. The key points are:\n\n1. **All particles have kinetic energy at temperatures above absolute zero (-273°C)**\n2. **Kinetic energy means movement** - particles cannot have energy without moving\n3. In solids, particles **vibrate in fixed positions** - they shake back and forth rapidly\n4. The **strong attractive forces** between particles prevent them from leaving their positions\n5. As temperature increases, vibration increases - but vibration exists at ALL temperatures\n\nThe difference between states is NOT whether particles move, but HOW they move:\n- **Solids**: Vibrate in fixed positions\n- **Liquids**: Slide past each other while staying close\n- **Gases**: Move freely in all directions\n\nThe only way to stop particle movement entirely would be to reach absolute zero, which is physically impossible.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what kinetic energy means. Can particles have energy without moving?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "All particles above absolute zero have kinetic energy. In solids, what type of movement do particles make?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Solid particles vibrate in their fixed positions - they never stop moving completely unless you could reach absolute zero temperature.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "identifying-misconceptions",
+      "secondarySkills": ["kinetic-theory", "particle-motion"],
+      "competencyLevel": "developing",
+      "cognitiveLevel": "analyze",
+      "prerequisites": ["particle-theory", "kinetic-energy"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 3,
+      "conceptsUsed": ["c6", "c9"],
+      "misconceptionAddressed": "m1",
+      "buildsOn": ["som-y8-015", "som-y8-026"],
+      "preparesFor": ["som-y8-052", "som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "approach": "direct-challenge",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "medium"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": false
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-044",
+    "questionType": "SHORT_ANSWER",
+    "stem": "After a hot shower, the bathroom mirror fogs up with tiny water droplets.\n\nExplain what happened to the water molecules and what this process is called. In your answer, describe the energy changes involved.",
+    "solution": "This process is called **condensation** (p3).\n\nWhat happens to the water molecules:\n\n1. **Hot shower produces water vapor** (gas) - steam containing water molecules with high kinetic energy\n2. **Vapor particles collide with the cold mirror** - the mirror surface is cooler than the air\n3. **Particles lose thermal energy** to the cold mirror - energy transfers from the warm vapor to the cool surface\n4. **Kinetic energy decreases** - particles slow down and can't stay as a gas\n5. **Attractive forces pull particles together** - slower-moving particles get close enough for intermolecular forces to hold them\n6. **Liquid water droplets form** on the mirror surface\n\nKey point: The water molecules **don't change** (m9) - an H₂O molecule in steam is identical to an H₂O molecule in the liquid droplets. What changes is:\n- How fast they're moving (kinetic energy)\n- How far apart they are (spacing)\n- How they're arranged (random gas → liquid clusters)\n\nThe **phase change** from gas to liquid is called condensation, and it occurs because the particles lose energy and slow down.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the state of water in the shower (steam/vapor) and the state on the mirror (liquid droplets). What change occurred?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The mirror is cooler than the steam. What happens to particle energy when they touch a cold surface?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "This is condensation - gas changing to liquid. Explain how particles lose kinetic energy and attractive forces pull them together.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "explaining-phenomena",
+      "secondarySkills": ["energy-transfer", "phase-changes"],
+      "competencyLevel": "developing",
+      "cognitiveLevel": "apply",
+      "prerequisites": ["states-of-matter", "energy-and-particles"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 4,
+      "conceptsUsed": ["c9", "c7"],
+      "phenomenonExplained": "p3",
+      "misconceptionAddressed": "m9",
+      "buildsOn": ["som-y8-022", "som-y8-035"],
+      "preparesFor": ["som-y8-054", "som-y8-057"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "approach": "real-world-explanation",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "medium"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-045",
+    "questionType": "MCQ",
+    "stem": "A student observes an ice cube melting and says: \"The ice particles are disappearing and turning into water particles.\"\n\nWhat is the BEST explanation of what's actually happening?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The student is correct - ice particles disappear and new water particles form",
+        "isCorrect": false,
+        "feedback": "Particles don't disappear or transform into different particles. The same H₂O molecules exist before and after melting."
+      },
+      {
+        "id": "B",
+        "text": "The same H₂O particles gain energy, vibrate faster, break free from fixed positions, and slide past each other",
+        "isCorrect": true,
+        "feedback": "Correct! During melting, the SAME particles remain (no particles disappear - m7). They simply gain thermal energy, which increases their kinetic energy. This makes them vibrate faster until they overcome the forces holding them in fixed positions. They then slide past each other as a liquid while remaining the same H₂O molecules."
+      },
+      {
+        "id": "C",
+        "text": "Ice particles split into smaller water particles",
+        "isCorrect": false,
+        "feedback": "Molecules don't split during phase changes. An H₂O molecule stays as H₂O in ice, water, and steam."
+      },
+      {
+        "id": "D",
+        "text": "Water particles absorb the ice particles",
+        "isCorrect": false,
+        "feedback": "There's no difference between 'ice particles' and 'water particles' - they're all H₂O molecules. Only their arrangement and movement change."
+      }
+    ],
+    "solution": "The correct answer is **B**.\n\nThis corrects misconception m7 (particles disappear during melting). The critical understanding:\n\n**What stays the same:**\n- The particles themselves (H₂O molecules)\n- The number of particles\n- The chemical composition\n- The size of each particle\n\n**What changes:**\n1. **Energy increases** - particles gain thermal energy from surroundings\n2. **Movement increases** - kinetic energy rises, vibrations become stronger\n3. **Forces are overcome** - particles vibrate hard enough to break free from fixed positions\n4. **Arrangement changes** - from regular, fixed pattern (solid) to irregular, sliding pattern (liquid)\n5. **Spacing increases slightly** - particles move a bit farther apart (though still touching)\n\nNo particles disappear, transform, or get created. The **same particles** simply gain energy and change how they're moving and arranged. This is what a **phase change** means - change in state, not change in substance.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Are ice and water made of different molecules, or the same molecules arranged differently?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "During melting, particles gain energy. Do they disappear, or do they just change how they're moving?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "The same H₂O particles remain - they gain energy, overcome forces holding them in place, and slide past each other instead of staying fixed.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "identifying-misconceptions",
+      "secondarySkills": ["phase-changes", "particle-conservation"],
+      "competencyLevel": "developing",
+      "cognitiveLevel": "analyze",
+      "prerequisites": ["particle-model", "melting-process"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 5,
+      "conceptsUsed": ["c9", "c6"],
+      "misconceptionAddressed": "m7",
+      "buildsOn": ["som-y8-020", "som-y8-033"],
+      "preparesFor": ["som-y8-053", "som-y8-058"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "approach": "direct-challenge",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "medium"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-046",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Early morning dew appears on grass even though it didn't rain overnight.\n\nExplain how this happens using the particle model. Include:\n- What state change occurs\n- The energy changes involved\n- Why it happens at night/early morning",
+    "solution": "Dew formation (p4) involves **condensation** - water vapor (gas) changing to liquid water.\n\n**How it happens:**\n\n1. **Water vapor in the air** - air always contains some water molecules in gaseous form\n2. **Grass cools down at night** - without the sun, grass surfaces lose thermal energy and become cold\n3. **Water vapor particles contact cold grass** - gas particles in the air collide with the cold surface\n4. **Particles lose kinetic energy** - when they touch the cold grass, thermal energy transfers away from the gas particles\n5. **Particles slow down** - reduced kinetic energy means slower movement\n6. **Attractive forces take effect** - slower particles get close enough that intermolecular forces can pull them together\n7. **Liquid droplets form** on the grass surface\n\n**Why at night/early morning:**\n- Night is when surfaces cool down the most (no solar heating)\n- Early morning is coldest (maximum cooling has occurred)\n- Cold surfaces provide the energy removal needed for condensation\n- As the sun rises and warms surfaces, dew evaporates back into vapor\n\n**Key concept:** The water molecules don't change (m9) - they're H₂O in both vapor and dew. Only their kinetic energy, spacing, and arrangement change during the phase change.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Where does the water come from? Think about water in the air around us.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "This involves a gas (water vapor) changing to a liquid. What must happen to particle energy for this change to occur?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Water vapor in the air loses kinetic energy when it contacts cold grass. This slows the particles down enough for attractive forces to pull them together as liquid.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 200,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "explaining-phenomena",
+      "secondarySkills": ["energy-transfer", "phase-changes", "condensation"],
+      "competencyLevel": "developing",
+      "cognitiveLevel": "apply",
+      "prerequisites": ["gas-properties", "energy-and-particles", "condensation-process"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 6,
+      "conceptsUsed": ["c9", "c7", "c6"],
+      "phenomenonExplained": "p4",
+      "misconceptionAddressed": "m9",
+      "buildsOn": ["som-y8-035", "som-y8-044"],
+      "preparesFor": ["som-y8-057", "som-y8-059"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "approach": "real-world-explanation",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-047",
+    "questionType": "MCQ",
+    "stem": "A teacher says: \"Liquids are exactly halfway between solids and gases in every way.\"\n\nWhich statement BEST explains why this is oversimplified?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The teacher is correct - liquids are perfectly in the middle",
+        "isCorrect": false,
+        "feedback": "While liquids have some intermediate properties, they're not 'halfway' in all aspects. This oversimplifies the complexity of each state."
+      },
+      {
+        "id": "B",
+        "text": "Liquids are more similar to solids than gases - particles touch in both liquids and solids but are far apart in gases",
+        "isCorrect": true,
+        "feedback": "Correct! This challenges misconception m3. Liquids and solids share important properties: particles are **touching** and have strong attractive forces. In gases, particles are **far apart** and forces are weak. So liquids are NOT exactly halfway - they're closer to solids in spacing and forces, but closer to gases in freedom of movement. Each state has unique properties, not a simple linear progression."
+      },
+      {
+        "id": "C",
+        "text": "Liquids are more similar to gases because both can flow",
+        "isCorrect": false,
+        "feedback": "While liquids and gases both flow, liquids are actually more similar to solids in particle spacing and force strength. The ability to flow is just one property."
+      },
+      {
+        "id": "D",
+        "text": "There's no relationship between the three states at all",
+        "isCorrect": false,
+        "feedback": "The states are related through energy and particle arrangement, but the relationship isn't a simple 'halfway' progression."
+      }
+    ],
+    "solution": "The correct answer is **B**.\n\nThis addresses misconception m3. Here's a more accurate comparison:\n\n**Particle Spacing:**\n- Solids: Touching, very close\n- Liquids: Touching, very close (similar to solids!)\n- Gases: Far apart (major difference)\n\n**Attractive Forces:**\n- Solids: Very strong\n- Liquids: Strong (similar to solids!)\n- Gases: Very weak (major difference)\n\n**Movement:**\n- Solids: Vibrate in fixed positions\n- Liquids: Slide past each other (closer to gases)\n- Gases: Move freely in all directions\n\n**Volume:**\n- Solids: Fixed\n- Liquids: Fixed (similar to solids!)\n- Gases: Expands to fill container (major difference)\n\nLiquids share MORE properties with solids (spacing, forces, fixed volume) than with gases. The main difference is that liquid particles can **move past each other** while solid particles cannot.\n\nEach state has **unique characteristics** - it's not a simple linear scale with liquids perfectly in the middle.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Compare liquids to solids and gases in terms of particle spacing. Are particles touching or separated?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "In liquids and solids, particles are close together and touching. In gases, they're far apart. Which two states are more similar?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Liquids share more properties with solids (touching particles, strong forces, fixed volume) than with gases. They're not exactly 'halfway' in all properties.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "comparing-states",
+      "secondarySkills": ["identifying-misconceptions", "particle-properties"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "analyze",
+      "prerequisites": ["states-of-matter-basics", "particle-arrangement"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 7,
+      "conceptsUsed": ["c6", "c7"],
+      "misconceptionAddressed": "m3",
+      "buildsOn": ["som-y8-018", "som-y8-027"],
+      "preparesFor": ["som-y8-055", "som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "approach": "comparative-analysis",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": false
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-048",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Compare diffusion in liquids versus diffusion in gases.\n\nExplain why diffusion occurs at different rates in these two states, using your knowledge of particle arrangement and movement.",
+    "solution": "**Diffusion in gases is FASTER than diffusion in liquids** because of differences in particle arrangement and movement (c6, c8).\n\n**In gases:**\n- Particles are **far apart** with lots of empty space\n- Particles move **very fast** (high kinetic energy)\n- Particles travel in **straight lines** between collisions\n- **Few obstacles** - particles can travel longer distances before colliding\n- **Result**: Rapid spreading throughout the space (minutes)\n- **Example**: Perfume spreading across a room\n\n**In liquids:**\n- Particles are **touching** with very little space between them\n- Particles move **slower** than gas particles\n- Particles constantly **collide** with neighboring particles\n- **Many obstacles** - particles must push past others to move\n- **Result**: Slower spreading (hours to days)\n- **Example**: Food coloring spreading in water\n\n**Why the difference:**\n1. **Spacing** - gas particles have more room to move freely\n2. **Speed** - gas particles have higher kinetic energy\n3. **Collisions** - gas particles experience fewer collisions per distance traveled\n4. **Path** - gas particles can move more directly; liquid particles must navigate around neighbors\n\nIn both cases, diffusion occurs due to **random particle motion** and movement from **high to low concentration**. The state of matter only affects the RATE, not whether diffusion occurs.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about particle spacing and movement in gases versus liquids. Which state has more space between particles?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "In gases, particles are far apart and move fast. In liquids, particles are touching. How does this affect how easily particles can spread?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Diffusion is faster in gases because particles are farther apart, move faster, and experience fewer collisions as they spread from high to low concentration.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 200,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "comparing-processes",
+      "secondarySkills": ["diffusion", "particle-motion", "state-properties"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "analyze",
+      "prerequisites": ["diffusion-basics", "particle-arrangement", "kinetic-energy"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 8,
+      "conceptsUsed": ["c6", "c8", "c9"],
+      "buildsOn": ["som-y8-042", "som-y8-032"],
+      "preparesFor": ["som-y8-056", "som-y8-059"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "approach": "comparative-analysis",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": false
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-049",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student claims: \"When water boils and turns into steam, the H₂O molecules break apart into separate hydrogen and oxygen atoms.\"\n\nExplain why this statement is incorrect. What ACTUALLY happens to the molecules during boiling?",
+    "solution": "This statement is **completely incorrect** and represents a serious misconception (m9) that confuses **physical changes** with **chemical changes**.\n\n**What's wrong with the claim:**\n\nBoiling is a **phase change** (physical change), NOT a chemical reaction. The H₂O molecules remain **completely intact** - they do NOT break apart.\n\n**What ACTUALLY happens during boiling:**\n\n1. **Water molecules gain thermal energy** from the heat source\n2. **Kinetic energy increases** - molecules move faster and faster\n3. **Molecules overcome attractive forces** between each other (not the bonds within each molecule)\n4. **Molecules separate from each other** and move freely as gas\n5. **Same H₂O molecules** exist in steam as existed in liquid water\n\n**Key distinctions:**\n\n**Phase change (boiling) - PHYSICAL:**\n- Breaks forces BETWEEN molecules (intermolecular forces)\n- Molecules stay intact: H₂O → H₂O (gas)\n- Reversible by cooling (condensation)\n- No new substances formed\n\n**Chemical reaction - CHEMICAL:**\n- Breaks bonds WITHIN molecules\n- Molecules break apart: H₂O → H₂ + O₂\n- Requires different process (electrolysis, not just heating)\n- New substances formed\n\n**Evidence it's NOT a chemical change:**\n- Steam can condense back to pure water (reversible)\n- No energy required to reverse it (just cooling)\n- Properties remain the same (still water)\n- You can drink condensed steam safely\n\nThe H₂O molecule is held together by **strong covalent bonds** within the molecule. Phase changes only overcome the much weaker **intermolecular forces** between separate molecules.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the difference between a phase change and a chemical reaction. Does boiling create new substances?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Can you condense steam back into pure water? If molecules broke apart during boiling, could you get the same substance back by cooling?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Boiling is a physical change that breaks forces between molecules, not the bonds within molecules. H₂O molecules stay intact as H₂O in both liquid and gas.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 200,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "distinguishing-change-types",
+      "secondarySkills": ["identifying-misconceptions", "molecular-structure"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "analyze",
+      "prerequisites": ["phase-changes", "chemical-vs-physical", "molecular-structure"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 9,
+      "conceptsUsed": ["c9", "c7"],
+      "misconceptionAddressed": "m9",
+      "buildsOn": ["som-y8-044", "som-y8-045"],
+      "preparesFor": ["som-y8-058", "som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "approach": "direct-challenge",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-050",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Popcorn kernels suddenly pop and expand when heated.\n\nUsing the particle model and your knowledge of energy changes, explain:\n1. What happens to the water particles inside the kernel\n2. Why the kernel suddenly bursts open\n3. What state changes are involved",
+    "solution": "Popcorn popping (p6) is a dramatic example of **phase change** and **pressure** due to particle behavior.\n\n**1. What happens to water particles inside the kernel:**\n\n- Kernels contain **water molecules** inside a hard shell\n- As heating occurs, water gains **thermal energy**\n- **Kinetic energy of water particles increases** - they move faster\n- Eventually water reaches boiling point and becomes **steam (gas)**\n- Steam particles move **much faster** and are **much farther apart** than liquid\n- Steam particles collide with the kernel walls with **high force**\n- **Pressure builds** inside the sealed kernel\n\n**2. Why the kernel suddenly bursts:**\n\n- The hard shell **traps** the steam initially\n- Pressure continues to increase as more water turns to steam\n- Steam particles are hitting the walls from inside with increasing force\n- Eventually the **pressure exceeds the shell's strength**\n- The kernel **bursts open** - the shell can't contain the pressure\n- Steam **rapidly escapes** and expands\n- The starch inside puffs up as pressure is released\n\n**3. State changes involved:**\n\n- **Liquid water → steam (gas)** - this is **vaporization/boiling**\n- This is a **phase change** requiring energy input (thermal energy from heating)\n- The particles themselves (H₂O) don't change - only their arrangement, spacing, and kinetic energy change\n\n**Key particle model concepts:**\n- Gas particles have much higher kinetic energy than liquid particles\n- Gas particles are much farther apart (need more space)\n- Many fast-moving particles hitting walls creates pressure\n- The sudden expansion demonstrates how dramatic the volume change is from liquid to gas",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What state is the water inside the kernel initially? What state does it become when heated?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "When water turns to steam, what happens to particle spacing and speed? What effect does this have inside a sealed container?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Water boils into steam (phase change). Steam particles move fast and spread out, creating high pressure that bursts the kernel shell.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 220,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "explaining-phenomena",
+      "secondarySkills": ["phase-changes", "pressure-concepts", "energy-transfer"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "apply",
+      "prerequisites": ["boiling", "gas-properties", "kinetic-energy"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 10,
+      "conceptsUsed": ["c9", "c7", "c6"],
+      "phenomenonExplained": "p6",
+      "buildsOn": ["som-y8-035", "som-y8-038"],
+      "preparesFor": ["som-y8-057", "som-y8-059"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "approach": "multi-concept-synthesis",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-051",
+    "questionType": "MCQ",
+    "stem": "Two students are debating:\n\n**Student A:** \"When ice melts, particles get bigger because they absorb heat energy.\"\n\n**Student B:** \"When ice melts, particles stay the same size but move faster and farther apart.\"\n\nWho is correct and why?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Student A is correct - particles absorb energy and grow larger",
+        "isCorrect": false,
+        "feedback": "Particles do NOT change size when they gain energy. This is misconception m2. Energy affects movement and spacing, not particle size."
+      },
+      {
+        "id": "B",
+        "text": "Student B is correct - particles gain kinetic energy, move faster, and overcome forces to spread apart",
+        "isCorrect": true,
+        "feedback": "Correct! Student B accurately describes melting. The H₂O molecules remain the same size, but gaining thermal energy increases their kinetic energy. This makes them vibrate faster until they overcome the forces holding them in fixed positions. They then slide past each other with slightly larger spacing, but the molecules themselves haven't changed size at all."
+      },
+      {
+        "id": "C",
+        "text": "Both are partially correct - particles get bigger AND move faster",
+        "isCorrect": false,
+        "feedback": "Particles do NOT get bigger. Only Student B is correct. Particles change their movement and spacing, not their size."
+      },
+      {
+        "id": "D",
+        "text": "Neither is correct - particles don't change at all during melting",
+        "isCorrect": false,
+        "feedback": "Particles DO change, but not in size. They change in kinetic energy, movement pattern, and spacing. Student B correctly describes these changes."
+      }
+    ],
+    "solution": "The correct answer is **B** - Student B is correct.\n\nThis question directly challenges misconception m2 (particles get bigger when heated).\n\n**What Student A got wrong:**\n- Particles are made of atoms with fixed sizes\n- Atoms and molecules cannot \"grow\" from absorbing energy\n- Energy affects particle BEHAVIOR, not particle SIZE\n- This is a fundamental misunderstanding of what thermal energy does\n\n**What Student B got right:**\n\nDuring melting:\n1. **Particles gain thermal energy** from surroundings\n2. This increases **kinetic energy** (energy of movement)\n3. **Particles vibrate faster** with more energy\n4. **Forces between particles are overcome** - particles break free from fixed positions\n5. **Spacing increases slightly** as particles slide past each other\n6. **Arrangement becomes irregular** instead of fixed pattern\n\n**Critical understanding:**\n- An H₂O molecule is the same size at -10°C (ice) and +10°C (water)\n- The BEHAVIOR changes (vibrating in place vs. sliding around)\n- The SPACING changes (very close vs. still close but moving)\n- The SIZE remains constant\n\nThis is why we can reverse melting (freeze water back to ice) and get exactly the same substance - the particles never changed themselves.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what particles are made of. Can atoms change size just from being warmer?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Energy affects how particles MOVE and how far APART they are. Does energy change the actual size of a particle?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Student B is correct. Particles stay the same size but gain kinetic energy, move faster, and overcome forces to spread farther apart.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "evaluating-claims",
+      "secondarySkills": ["identifying-misconceptions", "particle-properties"],
+      "competencyLevel": "developing",
+      "cognitiveLevel": "evaluate",
+      "prerequisites": ["particle-model", "kinetic-energy", "melting"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 11,
+      "conceptsUsed": ["c9", "c6"],
+      "misconceptionAddressed": "m2",
+      "buildsOn": ["som-y8-041", "som-y8-045"],
+      "preparesFor": ["som-y8-058", "som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "approach": "debate-evaluation",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "medium"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-052",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student asks: \"If particles in a solid are vibrating, why don't solids eventually shake themselves apart?\"\n\nAnswer this question by explaining:\n- Why solid particles vibrate\n- What keeps them in place despite vibrating\n- What would need to happen for them to break free",
+    "solution": "This is an excellent question that addresses misconception m1 and demonstrates deep thinking about particle motion!\n\n**Why solid particles vibrate:**\n\n- All particles above absolute zero (-273°C) have **kinetic energy**\n- Kinetic energy means particles MUST be moving\n- In solids, this energy causes **vibration** in fixed positions\n- The vibration is constant - particles never stop moving\n- Room temperature solid particles are vibrating many billions of times per second\n\n**What keeps them in place despite vibrating:**\n\n1. **Strong attractive forces** between particles (intermolecular forces)\n2. These forces act like **springs or elastic bands** connecting neighboring particles\n3. When a particle vibrates away from neighbors, **forces pull it back**\n4. When it vibrates toward neighbors, **forces push it back**\n5. The particle **oscillates back and forth** around an equilibrium position\n6. The **force strength is greater** than the kinetic energy at that temperature\n7. Result: Particles vibrate IN PLACE but can't escape their positions\n\n**What would need to happen for them to break free:**\n\n1. **Increase thermal energy** (heat the solid)\n2. This increases **kinetic energy** of particles\n3. Particles vibrate **faster and with larger amplitude** (bigger movements)\n4. Eventually kinetic energy becomes **strong enough to overcome attractive forces**\n5. Particles break free from fixed positions - **melting occurs**\n6. Now particles can slide past each other (liquid state)\n\n**Analogy:**\nImagine balls connected by springs. Shaking them (vibration) doesn't separate them because the springs (forces) pull them back. Only by shaking VERY hard (high energy) can you overcome the spring strength and separate them.\n\n**Key insight:** Whether particles stay in place or break free depends on the **balance between kinetic energy** (trying to separate them) and **attractive forces** (holding them together). Temperature determines which force wins!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what holds particles together in a solid. Are there forces between particles?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Particles vibrate, but forces between them pull them back to their positions. What would happen if you increased the vibration energy?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Strong attractive forces keep particles in place despite vibration. Only when kinetic energy (from heating) becomes greater than force strength do particles break free (melting).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 220,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "explaining-forces-energy-balance",
+      "secondarySkills": ["particle-motion", "intermolecular-forces", "phase-changes"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "analyze",
+      "prerequisites": ["particle-motion", "kinetic-energy", "forces-between-particles"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 12,
+      "conceptsUsed": ["c6", "c9"],
+      "misconceptionAddressed": "m1",
+      "buildsOn": ["som-y8-043", "som-y8-030"],
+      "preparesFor": ["som-y8-058", "som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "approach": "deep-reasoning",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": false
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-053",
+    "questionType": "MCQ",
+    "stem": "During an experiment, a student carefully measures the mass of ice before and after it melts. They find the mass stays exactly the same.\n\nWhich explanation BEST uses the particle model to explain this observation?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Some ice particles disappeared but new water particles formed to replace them",
+        "isCorrect": false,
+        "feedback": "This is incorrect and reflects misconception m7. No particles disappear or get created during melting. The same particles exist throughout."
+      },
+      {
+        "id": "B",
+        "text": "The exact same H₂O particles exist before and after - only their arrangement and movement changed, not their number",
+        "isCorrect": true,
+        "feedback": "Correct! Mass stays the same because melting is a physical change where NO particles are lost or gained. The same H₂O molecules simply rearrange from a fixed pattern (solid) to a sliding pattern (liquid) and change their movement from vibrating in place to sliding past each other. Same particles = same mass. This demonstrates the law of conservation of mass."
+      },
+      {
+        "id": "C",
+        "text": "The particles got smaller when melting, but there are more of them now",
+        "isCorrect": false,
+        "feedback": "Particles don't change size during phase changes (misconception m2), and the number of particles doesn't change either. Both claims are incorrect."
+      },
+      {
+        "id": "D",
+        "text": "Water particles weigh the same as ice particles by coincidence",
+        "isCorrect": false,
+        "feedback": "It's not a coincidence - they're the SAME particles! Ice and water are both made of H₂O molecules. The mass is identical because the particles are identical."
+      }
+    ],
+    "solution": "The correct answer is **B**.\n\nThis question reinforces understanding of misconception m7 (particles disappearing) and demonstrates the **law of conservation of mass** through the particle model.\n\n**Why mass stays the same:**\n\n1. **Same particles throughout**\n   - Ice is made of H₂O molecules\n   - Liquid water is made of H₂O molecules\n   - They're IDENTICAL molecules, just arranged differently\n\n2. **No particles lost**\n   - No molecules escape (in a closed container)\n   - No molecules disappear or get destroyed\n   - Every particle present at start is still there at end\n\n3. **No particles gained**\n   - No new molecules created\n   - No particles added from outside\n   - Same count of molecules\n\n4. **Physical change, not chemical**\n   - Melting only changes particle arrangement and movement\n   - No bonds broken within molecules\n   - No new substances formed\n   - Reversible process\n\n**What DID change:**\n- ✓ Arrangement: regular pattern → irregular pattern\n- ✓ Movement: vibrating in place → sliding around\n- ✓ Spacing: very close → still close but slightly more room\n- ✓ State: solid → liquid\n\n**What did NOT change:**\n- ✗ Number of particles\n- ✗ Type of particles (still H₂O)\n- ✗ Size of particles\n- ✗ Mass of particles\n- ✗ Total mass\n\nThis is why **mass is conserved** in all physical changes - the particles themselves never change, only their arrangement and behavior.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to the number of particles during melting. Do any particles disappear or get created?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Melting is a physical change that rearranges particles. If you have the same particles before and after, what happens to the mass?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "The same H₂O particles exist before and after melting - only their arrangement changes. Same particles means same mass.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "applying-conservation-laws",
+      "secondarySkills": ["particle-model", "identifying-misconceptions"],
+      "competencyLevel": "developing",
+      "cognitiveLevel": "apply",
+      "prerequisites": ["particle-model", "physical-changes", "conservation-of-mass"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 13,
+      "conceptsUsed": ["c6", "c9"],
+      "misconceptionAddressed": "m7",
+      "buildsOn": ["som-y8-045", "som-y8-033"],
+      "preparesFor": ["som-y8-058", "som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "approach": "evidence-based",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "medium"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-054",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Explain why sweating cools you down.\n\nYour answer should include:\n- What state change is involved\n- Where the energy comes from for this change\n- Why this energy transfer makes you feel cooler",
+    "solution": "Sweating cools you down through **evaporation** - a phase change that requires energy input.\n\n**What state change is involved:**\n\n- **Evaporation**: liquid water (sweat) → water vapor (gas)\n- This is the same process as boiling but occurs at body temperature (not just at 100°C)\n- Evaporation happens when particles at the liquid's surface gain enough energy to escape as gas\n\n**Where the energy comes from:**\n\n1. **Thermal energy is taken FROM YOUR SKIN**\n2. When sweat sits on your skin, water molecules need energy to evaporate\n3. They absorb this energy from your warm skin (heat transfer)\n4. The water particles gain enough kinetic energy to overcome attractive forces\n5. They escape from the liquid and become gas particles\n6. **Crucially**: This energy came from your body's thermal energy\n\n**Why this energy transfer makes you feel cooler:**\n\n1. **Your skin loses thermal energy** to the evaporating sweat\n2. Less thermal energy in your skin = **lower skin temperature**\n3. Skin particles now have less kinetic energy (moving slower)\n4. You perceive this as **feeling cooler**\n5. Blood near the cooled skin also cools down\n6. This cooler blood circulates, cooling your whole body\n\n**The cooling mechanism:**\n- Phase changes require energy (evaporation needs energy input)\n- That energy must come from somewhere (your skin)\n- Removing energy from your skin cools it down\n- This is why you feel cool when sweat evaporates\n\n**Key insight:** It's not the wet sweat that cools you - it's the EVAPORATION of sweat. Sweat that just sits there without evaporating doesn't cool you (which is why high humidity makes you feel hot even when sweating - the sweat can't evaporate easily into already-moist air).\n\n**Energy flow:** Your skin → sweat → water vapor (gas)\n\nThis is the same principle used in evaporative cooling systems and why blowing on hot food cools it down (increases evaporation rate).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What state is sweat when it's on your skin? What state is it when it disappears into the air?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Evaporation (liquid to gas) requires energy. Where does this energy come from when sweat evaporates?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Sweat evaporates (liquid → gas) by taking thermal energy from your skin. Removing this energy from your skin lowers its temperature, making you feel cooler.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 200,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "explaining-phenomena",
+      "secondarySkills": ["energy-transfer", "evaporation", "phase-changes"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "apply",
+      "prerequisites": ["evaporation", "energy-and-particles", "phase-changes"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 14,
+      "conceptsUsed": ["c9", "c7"],
+      "buildsOn": ["som-y8-044", "som-y8-046"],
+      "preparesFor": ["som-y8-059", "som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "approach": "mechanism-explanation",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-055",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Create a table comparing solids, liquids, and gases across FOUR properties:\n\n1. Particle spacing\n2. Particle arrangement\n3. Particle movement\n4. Strength of forces between particles\n\nFor each property, explain which states are most similar and which is most different.",
+    "solution": "**Comparison Table:**\n\n| Property | Solid | Liquid | Gas |\n|----------|-------|--------|-----|\n| **Particle Spacing** | Very close, touching | Very close, touching | Far apart, lots of space |\n| **Particle Arrangement** | Regular, fixed pattern | Irregular, random | Irregular, random |\n| **Particle Movement** | Vibrate in fixed positions | Slide past each other | Move freely in all directions |\n| **Force Strength** | Very strong | Strong | Very weak |\n\n**Analysis of similarities and differences:**\n\n**1. Particle Spacing:**\n- **Most similar**: Solids and liquids (both have particles touching)\n- **Most different**: Gases (particles are far apart with large spaces between them)\n- **Key insight**: This challenges misconception m3 - liquids are more like solids than gases in spacing\n\n**2. Particle Arrangement:**\n- **Most similar**: Liquids and gases (both have irregular, random arrangements)\n- **Most different**: Solids (regular, ordered pattern)\n- **Key insight**: Organization vs. randomness is the key distinction\n\n**3. Particle Movement:**\n- **Most similar**: Liquids and gases (both allow particles to move from place to place)\n- **Most different**: Solids (particles can only vibrate in fixed positions, can't travel)\n- **Key insight**: Freedom of movement distinguishes solids from the other two states\n\n**4. Force Strength:**\n- **Most similar**: Solids and liquids (both have strong attractive forces)\n- **Most different**: Gases (very weak forces, particles barely attract each other)\n- **Key insight**: Strong forces explain why solids and liquids both have fixed volumes\n\n**Overall Pattern:**\n\nLiquids are NOT simply \"halfway\" between solids and gases (m3):\n- For spacing and forces: liquids resemble **solids**\n- For arrangement and movement freedom: liquids resemble **gases**\n\nEach state has **unique characteristics** - it's not a simple linear progression. Understanding these similarities and differences explains observable properties like:\n- Why solids and liquids have fixed volume (strong forces, particles touching)\n- Why gases compress easily (weak forces, lots of space)\n- Why liquids and gases flow (particles can move past each other)\n- Why only solids keep their shape (particles locked in position)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about each state systematically. In solids, are particles close together or far apart? How does this compare to liquids and gases?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "For each row, identify which two states share similar properties and which state is different. Are liquids always in the middle?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Liquids and solids both have particles touching with strong forces. Liquids and gases both have irregular arrangement and mobile particles. Liquids aren't simply 'halfway' in all properties.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "comparing-and-contrasting",
+      "secondarySkills": ["organizing-information", "pattern-recognition"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "analyze",
+      "prerequisites": ["states-of-matter", "particle-properties"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 15,
+      "conceptsUsed": ["c6", "c7"],
+      "misconceptionAddressed": "m3",
+      "buildsOn": ["som-y8-047", "som-y8-027"],
+      "preparesFor": ["som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "approach": "systematic-comparison",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": false
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-056",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A drop of food coloring is placed in the center of a glass of water. Without stirring, the color gradually spreads throughout the water over several hours.\n\nExplain:\n1. What process is occurring\n2. Why it happens without stirring\n3. Why it takes several hours instead of seconds\n4. How this demonstrates that liquid particles are moving",
+    "solution": "**1. What process is occurring:**\n\n**Diffusion** (c8) - the spreading of particles from an area of high concentration (where the food coloring is dense) to areas of low concentration (clear water) until evenly distributed.\n\n**2. Why it happens without stirring:**\n\nDiffusion occurs due to the **natural, random motion of particles**:\n\n- Liquid particles (both water and food coloring) have **kinetic energy**\n- This kinetic energy causes **constant, random movement**\n- Particles move in all directions randomly\n- Food coloring particles **collide with water particles**\n- Each collision changes direction, causing random walk pattern\n- **No external force needed** - particle motion is continuous\n- Over time, random motion causes net movement from high to low concentration\n- Eventually reaches **even distribution** (equilibrium)\n\n**3. Why it takes several hours instead of seconds:**\n\nDiffusion in liquids is SLOW because:\n\n1. **Particles are touching** - very little space between them\n2. **Many obstacles** - food coloring particle must navigate around billions of water molecules\n3. **Frequent collisions** - particles constantly bump into neighbors\n4. **Slow movement** - liquid particles move slower than gas particles (lower kinetic energy)\n5. **Indirect path** - particles follow a zigzag random walk, not a straight line\n6. Each particle might move only a few nanometers before colliding and changing direction\n\nIn contrast, diffusion in gases takes seconds because particles are far apart, move faster, and have fewer collisions.\n\n**4. How this demonstrates liquid particles are moving:**\n\nThis is **direct evidence** that liquid particles are constantly in motion:\n\n- If particles were **stationary**, the food coloring would never spread\n- The color spreading proves particles are **continuously moving**\n- The random spread pattern (not just straight down) proves movement is **random in all directions**\n- The eventual even distribution proves **all particles are moving**, not just the food coloring\n- The gradual nature proves particles move continuously but slowly\n\n**Key insight:** You can't SEE individual particle motion, but you CAN see its effect (diffusion). This is how scientists know particles are constantly moving even in liquids and solids - we observe the **consequences** of their motion.\n\nThis also refutes misconception m1 - if particles didn't move, diffusion would be impossible!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What do we call it when particles spread from high concentration to low concentration? What causes particles to move without stirring?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about particle spacing and speed in liquids. How do these factors affect how quickly particles can spread?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Diffusion occurs due to random particle motion. It's slow in liquids because particles are touching, collide frequently, and must navigate around many obstacles.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "explaining-phenomena",
+      "secondarySkills": ["diffusion", "particle-motion", "evidence-based-reasoning"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "apply",
+      "prerequisites": ["diffusion-basics", "particle-motion", "kinetic-energy"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 16,
+      "conceptsUsed": ["c6", "c8", "c9"],
+      "buildsOn": ["som-y8-042", "som-y8-048"],
+      "preparesFor": ["som-y8-059", "som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "approach": "multi-part-explanation",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": false
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-057",
+    "questionType": "MCQ",
+    "stem": "Three beakers contain the same amount of water at different temperatures: 5°C, 25°C, and 80°C.\n\nWhich statement about the water particles in these beakers is TRUE?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Particles in the 80°C water are larger than particles in the 5°C water",
+        "isCorrect": false,
+        "feedback": "This reflects misconception m2. Particles don't change size with temperature - they're the same H₂O molecules at all temperatures. Only their kinetic energy changes."
+      },
+      {
+        "id": "B",
+        "text": "All three beakers contain the same H₂O molecules, but particles have different kinetic energies",
+        "isCorrect": true,
+        "feedback": "Correct! The particles are identical H₂O molecules in all three beakers. What differs is their KINETIC ENERGY: 80°C particles are moving faster (higher kinetic energy) than 25°C particles, which are moving faster than 5°C particles. Higher temperature = higher average kinetic energy = faster particle motion. The size, structure, and type of particles remain the same."
+      },
+      {
+        "id": "C",
+        "text": "The 5°C water has particles that aren't moving because it's cold",
+        "isCorrect": false,
+        "feedback": "Even at 5°C, water particles are constantly moving. Only at absolute zero (-273°C) would particle motion stop, which is impossible to reach. Cold water has slower-moving particles, not stationary ones."
+      },
+      {
+        "id": "D",
+        "text": "Hot water contains more particles than cold water",
+        "isCorrect": false,
+        "feedback": "Equal volumes of liquid water at different temperatures contain essentially the same number of particles. Temperature affects particle SPEED, not particle COUNT."
+      }
+    ],
+    "solution": "The correct answer is **B**.\n\nThis question reinforces multiple key concepts and challenges misconception m2:\n\n**What stays the SAME across all temperatures:**\n- ✓ Type of particle (H₂O molecules)\n- ✓ Size of particles\n- ✓ Structure of particles (two H atoms, one O atom)\n- ✓ Chemical properties\n- ✓ Number of particles (approximately, for same volume)\n\n**What CHANGES with temperature:**\n- ✓ **Kinetic energy** of particles\n- ✓ **Speed** of particle movement\n- ✓ **Average particle velocity**\n\n**Temperature and kinetic energy relationship:**\n\n- **5°C water**: Particles moving relatively slowly (low kinetic energy)\n- **25°C water**: Particles moving at moderate speed (medium kinetic energy)\n- **80°C water**: Particles moving rapidly (high kinetic energy)\n\n**What temperature actually measures:**\n\nTemperature is a measure of the **average kinetic energy** of particles:\n- Higher temperature = higher average kinetic energy = faster moving particles\n- Lower temperature = lower average kinetic energy = slower moving particles\n\n**Important clarifications:**\n\n1. Particles at 5°C are still moving - just slower than at 80°C\n2. No particle motion would only occur at absolute zero (-273°C)\n3. Heating increases particle speed, not particle size\n4. Same substance (water) means same particles at all temperatures\n\nThis understanding is crucial for explaining why heating causes state changes - increasing kinetic energy eventually overcomes forces holding particles together.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Are the water molecules in hot water chemically different from water molecules in cold water?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Temperature measures the average kinetic energy of particles. What does this tell you about particle motion at different temperatures?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Same H₂O molecules in all three beakers, but particles in hotter water have higher kinetic energy and move faster.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "temperature-kinetic-energy-relationship",
+      "secondarySkills": ["identifying-misconceptions", "particle-properties"],
+      "competencyLevel": "developing",
+      "cognitiveLevel": "apply",
+      "prerequisites": ["kinetic-energy", "temperature-concept"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 17,
+      "conceptsUsed": ["c9"],
+      "misconceptionAddressed": "m2",
+      "buildsOn": ["som-y8-041", "som-y8-051"],
+      "preparesFor": ["som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "approach": "temperature-analysis",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "medium"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-058",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student makes this claim: \"When you freeze water into ice, the water molecules change into ice molecules which are completely different.\"\n\nUsing the particle model and your understanding of physical vs. chemical changes, write a detailed explanation of why this claim is wrong.",
+    "solution": "This claim is **completely incorrect** and demonstrates a fundamental misunderstanding (m9) of what happens during freezing.\n\n**Why the claim is wrong:**\n\n**1. No molecular transformation occurs:**\n- \"Water molecules\" and \"ice molecules\" are THE SAME THING - both are H₂O\n- The molecule H₂O (two hydrogen atoms bonded to one oxygen atom) does NOT change during freezing\n- Same chemical formula before and after: H₂O → H₂O\n- Same molecular structure, same bonds within molecules\n- Every molecule present in liquid water is still present in ice\n\n**2. Freezing is a PHYSICAL change, not a chemical change:**\n\n**Physical Change (freezing):**\n- ✓ Changes state (liquid → solid)\n- ✓ Changes particle arrangement (irregular → regular pattern)\n- ✓ Changes particle movement (sliding → vibrating in place)\n- ✓ Changes particle spacing (slightly farther apart in ice)\n- ✓ DOES NOT change the molecules themselves\n- ✓ Reversible (can melt back to identical water)\n- ✓ No new substance formed\n\n**Chemical Change (would be different):**\n- ✗ Breaks bonds WITHIN molecules\n- ✗ Forms new molecules with different properties\n- ✗ Creates new substances\n- ✗ Difficult or impossible to reverse\n- ✗ This is NOT what happens during freezing\n\n**3. What ACTUALLY changes during freezing:**\n\n**Energy changes:**\n- Particles **lose thermal energy** to surroundings (heat removal)\n- **Kinetic energy decreases** - particles slow down\n- Particles move slower and slower\n\n**Arrangement changes:**\n- From **irregular** (liquid) to **regular pattern** (solid)\n- Particles become **locked into fixed positions**\n- Crystal structure forms\n\n**Movement changes:**\n- From **sliding past each other** (liquid)\n- To **vibrating in fixed positions** (solid)\n- Particles still move (vibration) but can't change location\n\n**Spacing changes:**\n- Slightly **more space** in ice than liquid water (unusual property)\n- This is why ice floats on water\n\n**4. Evidence it's the same molecules:**\n- When you melt ice, you get exactly the same water back\n- Same chemical properties (still H₂O, still drinkable, etc.)\n- Same mass (no particles lost or gained)\n- Can freeze and melt repeatedly without any change to the water\n\n**Correct statement:** \"When you freeze water into ice, the H₂O molecules lose energy and arrange themselves into a regular, fixed pattern while continuing to vibrate in place. The molecules themselves remain identical - only their arrangement, movement, and kinetic energy change.\"\n\nThis distinction between physical and chemical changes is crucial for understanding all phase changes!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Is freezing a physical change or a chemical change? What's the difference?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Can you melt ice to get exactly the same water back? If molecules actually changed, would this be possible?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Freezing is a physical change where H₂O molecules stay as H₂O. Only their arrangement, movement, and energy change - the molecules themselves remain identical.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "distinguishing-change-types",
+      "secondarySkills": ["identifying-misconceptions", "particle-model", "evidence-based-reasoning"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "evaluate",
+      "prerequisites": ["physical-vs-chemical", "freezing-process", "molecular-structure"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 18,
+      "conceptsUsed": ["c9", "c6"],
+      "misconceptionAddressed": "m9",
+      "buildsOn": ["som-y8-049", "som-y8-045"],
+      "preparesFor": ["som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "approach": "comprehensive-refutation",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-059",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Explain why diffusion happens faster on a hot day than a cold day.\n\nYour answer should connect:\n- Temperature and kinetic energy\n- Particle motion and speed\n- The rate of diffusion",
+    "solution": "Diffusion is faster on hot days because **temperature directly affects particle kinetic energy and speed**, which determines how quickly particles spread.\n\n**The connection chain:**\n\n**1. Temperature → Kinetic Energy:**\n\n- **Temperature is a measure of average kinetic energy** of particles\n- **Hot day** = higher air temperature = particles have higher average kinetic energy\n- **Cold day** = lower air temperature = particles have lower average kinetic energy\n- More thermal energy in the environment = more energy transferred to particles\n\n**2. Kinetic Energy → Particle Speed:**\n\n- **Higher kinetic energy** = particles move **faster**\n- **Lower kinetic energy** = particles move **slower**\n- On a hot day: all particles (air, perfume, odor molecules, etc.) are moving more rapidly\n- On a cold day: all particles are moving more slowly\n- This applies to both the diffusing particles AND the particles they're moving through\n\n**3. Particle Speed → Diffusion Rate:**\n\nFaster-moving particles cause faster diffusion because:\n\n- **Faster particles travel farther** in the same time\n- **More frequent collisions** between particles\n- Each collision **redistributes particles** more quickly\n- Particles spread from high to low concentration **more rapidly**\n- **Less time** needed to reach even distribution\n\n**Quantitative relationship:**\n\nThe rate of diffusion approximately **doubles for every 10°C temperature increase** because:\n- Particle speed increases with temperature\n- More kinetic energy = more vigorous random motion\n- Faster spreading throughout available space\n\n**Concrete example:**\n\n**Hot day (35°C):**\n- Open perfume bottle\n- Perfume molecules have high kinetic energy\n- Molecules move rapidly through fast-moving air particles\n- Everyone in the room smells it within **1-2 minutes**\n\n**Cold day (5°C):**\n- Open same perfume bottle\n- Perfume molecules have lower kinetic energy\n- Molecules move slowly through slow-moving air particles\n- Might take **5-10 minutes** for everyone to smell it\n\n**Key insight:**\n\nDiffusion ALWAYS happens (particles are always moving), but the RATE varies with temperature. Hot = fast diffusion, Cold = slow diffusion.\n\nThis also explains why:\n- Food spoils faster when warm (bacteria spread faster)\n- Tea steeps faster in hot water (tea particles diffuse faster)\n- Smells seem stronger on hot days (faster diffusion to your nose)\n- Chemical reactions proceed faster at higher temperatures (reactant particles collide more frequently)\n\n**Summary equation:**\n\nHigher Temperature → Higher Kinetic Energy → Faster Particle Movement → Faster Diffusion",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What does temperature tell you about particle kinetic energy? How does kinetic energy affect particle speed?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "On a hot day, particles have more kinetic energy and move faster. How does faster particle movement affect how quickly particles spread?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Higher temperature → higher kinetic energy → faster particle motion → faster diffusion. Hot days mean particles move faster, so they spread from high to low concentration more quickly.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 200,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "connecting-concepts",
+      "secondarySkills": ["temperature-effects", "diffusion", "kinetic-energy"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "analyze",
+      "prerequisites": ["diffusion", "kinetic-energy", "temperature"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 19,
+      "conceptsUsed": ["c8", "c9", "c6"],
+      "buildsOn": ["som-y8-042", "som-y8-048", "som-y8-056"],
+      "preparesFor": ["som-y8-060"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "approach": "concept-connection",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": false
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "questionId": "som-y8-060",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student is reviewing what they've learned about states of matter and particles. They write:\n\n\"I used to think that:\n- Particles in solids don't move\n- Heating makes particles bigger\n- Liquids are exactly halfway between solids and gases\n- Particles disappear during melting\"\n\nFor EACH misconception, write a brief explanation of what ACTUALLY happens according to the particle model. Use scientific vocabulary in your explanations.",
+    "solution": "This is an excellent self-assessment! Here are the scientific corrections for each misconception:\n\n**Misconception 1: \"Particles in solids don't move\" (m1)**\n\n**What ACTUALLY happens:**\n\nParticles in solids **DO move** - they constantly **vibrate** in fixed positions. All particles above absolute zero (-273°C) possess **kinetic energy**, which means they MUST be moving. In solids, **strong intermolecular forces** hold particles in fixed positions, but the particles continuously vibrate back and forth. As temperature increases, vibration amplitude increases. The particles only stop moving at absolute zero, which is impossible to reach. The difference between states isn't WHETHER particles move, but HOW they move: solids vibrate in place, liquids slide past each other, gases move freely.\n\n**Misconception 2: \"Heating makes particles bigger\" (m2)**\n\n**What ACTUALLY happens:**\n\nHeating does NOT change particle size - particles remain the same size at all temperatures. What heating DOES change is **kinetic energy**: when thermal energy is added, particles gain kinetic energy and **move faster**. This increased movement causes particles to **overcome intermolecular forces** and **spread farther apart**, increasing spacing between them. But the particles themselves (atoms and molecules) maintain constant size. An H₂O molecule is identical in size at -10°C (ice), +20°C (water), and +110°C (steam) - only its kinetic energy, movement pattern, and spacing from neighbors change.\n\n**Misconception 3: \"Liquids are exactly halfway between solids and gases\" (m3)**\n\n**What ACTUALLY happens:**\n\nLiquids are NOT simply halfway between solids and gases in all properties. A more accurate comparison:\n\n- **Particle spacing**: Liquids resemble SOLIDS (particles touching in both)\n- **Intermolecular forces**: Liquids resemble SOLIDS (strong forces in both)\n- **Volume**: Liquids resemble SOLIDS (fixed volume in both)\n- **Particle arrangement**: Liquids resemble GASES (irregular, random in both)\n- **Particle mobility**: Liquids resemble GASES (particles can move location in both)\n\nLiquids actually share MORE properties with solids (spacing, forces, volume) than with gases. Each state has **unique characteristics** - it's not a linear progression with liquids perfectly centered. Understanding these specific similarities and differences explains observable properties better than thinking of liquids as \"halfway between.\"\n\n**Misconception 4: \"Particles disappear during melting\" (m7)**\n\n**What ACTUALLY happens:**\n\nDuring melting, **NO particles disappear or get created**. The EXACT SAME particles exist before and after the phase change - this is why mass is conserved. Melting is a **physical change** where the same H₂O molecules simply change their:\n\n1. **Arrangement**: from regular, fixed pattern (solid) → irregular pattern (liquid)\n2. **Movement**: from vibrating in fixed positions (solid) → sliding past each other (liquid)\n3. **Kinetic energy**: particles gain thermal energy and move faster\n4. **Spacing**: slightly more space in liquid (though particles still touching)\n\nThe molecules themselves remain chemically identical. This is why you can freeze water back into ice repeatedly - the same molecules exist throughout all phase changes. If particles actually disappeared, mass would decrease and the process wouldn't be reversible.\n\n**Overall Key Understanding:**\n\nPhase changes involve changes in **particle arrangement, movement, kinetic energy, and spacing** - NOT changes in **particle identity, size, number, or chemical structure**. The particles themselves remain constant; only their BEHAVIOR changes.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "For each misconception, think about what you've learned about kinetic energy, particle motion, and what actually changes vs. stays the same during phase changes.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Focus on: (1) all particles above absolute zero move, (2) energy affects speed not size, (3) compare liquids to both other states property by property, (4) same particles throughout phase changes.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 3,
+        "content": "Solids: particles vibrate. Heating: particles move faster, not grow bigger. Liquids: share properties with both states, not simply halfway. Melting: same particles rearrange, none disappear.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Physical World",
+      "substrand": "Matter"
+    },
+    "skills": {
+      "primarySkill": "synthesizing-understanding",
+      "secondarySkills": ["identifying-misconceptions", "scientific-explanation", "particle-model-mastery"],
+      "competencyLevel": "proficient",
+      "cognitiveLevel": "evaluate",
+      "prerequisites": ["all-phase-3-concepts"]
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 20,
+      "conceptsUsed": ["c6", "c7", "c8", "c9"],
+      "misconceptionAddressed": "m1, m2, m3, m7",
+      "buildsOn": ["som-y8-041", "som-y8-043", "som-y8-045", "som-y8-047", "som-y8-051", "som-y8-052", "som-y8-053", "som-y8-058"],
+      "preparesFor": ["phase-4-questions"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "approach": "comprehensive-synthesis",
+      "targetFeeling": "Aha! Now I really understand!",
+      "scaffoldingLevel": "high"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false,
+      "hasChemicalFormulas": true
+    },
+    "paperMetadata": {
+      "section": "science",
+      "setId": "year8-science-states-of-matter-medium",
+      "title": "Year 8 States of Matter - Phase 3: Connection"
+    },
+    "status": "draft",
+    "version": 1
+  }
+]

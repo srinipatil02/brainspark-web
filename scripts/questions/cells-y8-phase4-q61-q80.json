@@ -1,0 +1,1170 @@
+[
+  {
+    "questionId": "cells-y8-061",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A scientist is designing an artificial cell that must perform photosynthesis and use that energy to move around. Which organelles must be included in this artificial cell, and how would they work together to achieve both goals?",
+    "solution": "To create an artificial cell that can **photosynthesize AND move**, the scientist needs these essential organelles working together:\n\n**Required Organelles:**\n\n**1. CHLOROPLASTS (for photosynthesis)**\n- **Function**: Capture light energy and convert it to chemical energy (glucose)\n- **Process**: 6CO₂ + 6H₂O + Light → C₆H₁₂O₆ + 6O₂\n- **Output**: Glucose (energy storage) and oxygen\n\n**2. MITOCHONDRIA (for energy release)**\n- **Function**: Break down glucose to release usable energy (ATP)\n- **Process**: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP\n- **Output**: ATP (usable energy for movement) and CO₂\n- **Why needed**: Chloroplasts make glucose, but movement requires ATP\n\n**3. CELL MEMBRANE (for boundary and movement structures)**\n- **Function**: Contains the cell, controls exchange with environment\n- **Allows**: CO₂ to enter (for photosynthesis), O₂ to exit/enter, waste removal\n- **Movement structures**: Cilia, flagella, or pseudopods attached to membrane\n\n**4. NUCLEUS (for control and coordination)**\n- **Function**: Contains DNA with instructions for all cell processes\n- **Controls**: When to photosynthesize, when to move, protein production\n- **Coordinates**: Activities of all organelles\n\n**5. RIBOSOMES (for making proteins)**\n- **Function**: Build proteins needed for all processes\n- **Makes**: Enzymes for photosynthesis and respiration, structural proteins for movement\n\n**6. CYTOPLASM (medium for reactions)**\n- **Function**: Provides environment for chemical reactions\n- **Contains**: Dissolved nutrients, proteins, and water\n\n**How They Work Together:**\n\n1. **Light phase**: Chloroplasts capture light → Make glucose\n2. **Energy phase**: Mitochondria break down glucose → Produce ATP\n3. **Movement phase**: ATP powers flagella/cilia/pseudopods → Cell moves\n4. **Coordination**: Nucleus directs all activities through gene expression\n5. **Support**: Ribosomes make enzymes needed for each process\n\n**The Energy Flow:**\nSunlight → Chloroplasts → Glucose → Mitochondria → ATP → Movement structures → Motion\n\n**Key Insight:** The artificial cell essentially needs to be like a plant cell (with chloroplasts) combined with movement capabilities (like some protists such as Euglena). In nature, Euglena is an example of a single-celled organism that does exactly this!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the energy pathway: What organelle captures light? What organelle releases that stored energy as ATP? What powers movement?"
+      },
+      {
+        "level": 2,
+        "content": "You need chloroplasts (make glucose from light), mitochondria (convert glucose to ATP), and structures for movement that use ATP. Also consider what controls these processes."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 1,
+      "conceptsUsed": ["c5", "c6", "c7"],
+      "buildsOn": ["cells-y8-048", "cells-y8-059"],
+      "preparesFor": ["cells-y8-070", "cells-y8-075"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Synthesize understanding of multiple organelles to design a functional system"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set7",
+      "sequenceInPaper": 61
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-062",
+    "questionType": "MCQ",
+    "stem": "A patient has a genetic condition where their mitochondria don't function properly. Which symptoms would you expect this patient to experience?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Fatigue and muscle weakness, especially during physical activity",
+        "isCorrect": true,
+        "feedback": "Correct! Mitochondria produce ATP through cellular respiration. Without functioning mitochondria, cells can't efficiently release energy from glucose. Muscles need lots of ATP for contraction, so muscle weakness and fatigue are common symptoms of mitochondrial diseases."
+      },
+      {
+        "id": "B",
+        "text": "Green coloration of the skin due to excess chlorophyll",
+        "isCorrect": false,
+        "feedback": "Human cells don't have chloroplasts or chlorophyll. Mitochondrial problems affect energy production, not skin color. This would be related to chloroplast function in plants, not mitochondria in humans."
+      },
+      {
+        "id": "C",
+        "text": "Inability to digest food in the stomach",
+        "isCorrect": false,
+        "feedback": "Digestion occurs in the digestive system organs (stomach, intestines), not inside cells' mitochondria. Mitochondrial problems affect how cells USE the nutrients after digestion, not digestion itself."
+      },
+      {
+        "id": "D",
+        "text": "Faster growth than normal individuals",
+        "isCorrect": false,
+        "feedback": "Mitochondrial dysfunction would cause SLOWER growth, not faster. Growth requires energy (ATP), and without functioning mitochondria, cells can't produce enough ATP for normal growth and repair."
+      }
+    ],
+    "solution": "The answer is **fatigue and muscle weakness, especially during physical activity**.\n\n**Why mitochondrial dysfunction causes these symptoms:**\n\n**The role of mitochondria:**\n- **Powerhouses** of the cell\n- Perform **cellular respiration**: Glucose + O₂ → CO₂ + H₂O + ATP\n- Produce most of the cell's **ATP** (energy currency)\n- Every cell activity requiring energy depends on ATP from mitochondria\n\n**What happens when mitochondria don't work:**\n\n| Body System | Effect of Mitochondrial Dysfunction |\n|-------------|------------------------------------|\n| **Muscles** | Can't contract efficiently → weakness, fatigue |\n| **Brain** | Insufficient energy → confusion, seizures |\n| **Heart** | Weak contractions → heart problems |\n| **Growth** | Insufficient energy for cell division → poor growth |\n| **Nervous system** | Energy-hungry neurons affected → coordination problems |\n\n**Why muscles are especially affected:**\n- Muscle cells need **lots of ATP** for contraction\n- Muscle cells have **many mitochondria** (hundreds to thousands per cell!)\n- Physical activity dramatically increases ATP demand\n- Without efficient mitochondria, ATP can't be produced fast enough\n- Result: Muscles fatigue quickly, feel weak\n\n**Real-world connection:**\n- **Mitochondrial diseases** affect about 1 in 5,000 people\n- Often inherited from the mother (mitochondria have their own DNA)\n- Examples: MELAS, Leigh syndrome, LHON\n- Current research explores treatments including gene therapy and mitochondrial replacement\n\n**Key concept:** The severity of symptoms depends on which cells are most affected, but high-energy-demand tissues (muscles, brain, heart) always suffer most.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what mitochondria produce and which body activities require the most of this product."
+      },
+      {
+        "level": 2,
+        "content": "Mitochondria produce ATP (energy). Muscles need lots of ATP to contract. Without functioning mitochondria, cells struggle to produce enough ATP, especially during high-energy activities."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 2,
+      "conceptsUsed": ["c5", "c7"],
+      "buildsOn": ["cells-y8-042", "cells-y8-053"],
+      "preparesFor": ["cells-y8-068", "cells-y8-074"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply understanding of mitochondrial function to predict medical symptoms"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set7",
+      "sequenceInPaper": 62
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-063",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Scientists have found bacteria living in volcanic hot springs at 95°C and in Antarctic ice at -15°C. These are called extremophiles. Explain what modifications these cells must have to their cell membranes and proteins to survive in these extreme conditions.",
+    "solution": "Extremophiles survive in extreme conditions through **specialized cellular adaptations**:\n\n**THERMOPHILES (Heat-loving, 95°C):**\n\n**Cell Membrane Adaptations:**\n- Normal membranes would become too **fluid** (like melting butter) at high temperatures\n- Thermophile membranes contain:\n  - **Saturated fatty acids** (no double bonds) - pack tightly, more stable\n  - **Longer fatty acid chains** - stronger intermolecular forces\n  - **Branched lipids** (in archaea) - interlocking structure\n  - **Ether links** instead of ester links - more heat-stable bonds\n- Result: Membrane remains **functional** and doesn't fall apart at high temperatures\n\n**Protein Adaptations:**\n- Normal proteins would **denature** (unfold and lose shape) at high temperatures\n- Thermophile proteins have:\n  - More **ionic bonds** and **disulfide bridges** - hold shape firmly\n  - **Compact, tightly-folded structure** - harder to unfold\n  - More **proline** amino acids - restrict flexibility\n  - **Chaperone proteins** - help refold any damaged proteins\n  - Higher **optimal temperature** for enzyme function\n- Result: Proteins remain **stable and functional** at extreme heat\n\n**PSYCHROPHILES (Cold-loving, -15°C):**\n\n**Cell Membrane Adaptations:**\n- Normal membranes would become too **rigid** (like freezing butter) at low temperatures\n- Psychrophile membranes contain:\n  - **Unsaturated fatty acids** (with double bonds) - create kinks, prevent tight packing\n  - **Shorter fatty acid chains** - more fluid\n  - **Polyunsaturated lipids** - remain flexible in cold\n- Result: Membrane remains **fluid enough** for transport and function\n\n**Protein Adaptations:**\n- Normal enzymes would be **too slow** at low temperatures (reactions slow down in cold)\n- Psychrophile proteins have:\n  - More **flexible** structure - can still change shape in cold\n  - Fewer **stabilizing bonds** - more movable\n  - **Antifreeze proteins** - prevent ice crystal formation\n  - **Cold-adapted enzymes** - work efficiently at low temperatures\n  - Higher **catalytic efficiency** - compensates for slower molecular motion\n- Result: Enzymes remain **active enough** for metabolism in extreme cold\n\n**Summary Table:**\n\n| Feature | Thermophiles (Hot) | Psychrophiles (Cold) |\n|---------|-------------------|---------------------|\n| **Membrane fats** | Saturated, long, rigid | Unsaturated, short, fluid |\n| **Protein stability** | High (many bonds) | Low (flexible) |\n| **Special features** | Heat-stable bonds | Antifreeze proteins |\n| **Challenge solved** | Prevent melting/denaturing | Prevent freezing/slowing |\n\n**Key Insight:** These adaptations show that the same basic cell structures (membranes, proteins) can be **modified** to work in vastly different conditions. This is evolution in action - natural selection favoring cells with modifications that help survival in each environment.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to fats and proteins at extreme temperatures. What problems would cells face, and what modifications might solve them?"
+      },
+      {
+        "level": 2,
+        "content": "In heat: membranes get too fluid (solution: saturated fats, tight packing) and proteins unfold (solution: extra bonds). In cold: membranes get too rigid (solution: unsaturated fats) and reactions slow down (solution: more flexible proteins, antifreeze compounds)."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 3,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["cells-y8-052", "cells-y8-060"],
+      "preparesFor": ["cells-y8-069", "cells-y8-076"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply knowledge of membrane and protein structure to explain extremophile adaptations"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set7",
+      "sequenceInPaper": 63
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-064",
+    "questionType": "MCQ",
+    "stem": "A student says: 'If I remove all the chloroplasts from a plant, it will die immediately because cells can't get any energy.' What is the flaw in this reasoning?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Mitochondria can still release energy from stored glucose - the plant won't die immediately but will eventually starve",
+        "isCorrect": true,
+        "feedback": "Correct! Plant cells also have mitochondria that can break down stored glucose (starch) to produce ATP. Without chloroplasts, the plant can't make NEW glucose, but it can survive on stored reserves for a while. It will eventually starve when reserves run out."
+      },
+      {
+        "id": "B",
+        "text": "The nucleus can take over the job of making energy",
+        "isCorrect": false,
+        "feedback": "The nucleus stores DNA and controls cell activities, but it cannot produce energy or glucose. Energy production is the job of mitochondria (ATP) and chloroplasts (glucose)."
+      },
+      {
+        "id": "C",
+        "text": "Plant cells don't actually need chloroplasts for anything",
+        "isCorrect": false,
+        "feedback": "Chloroplasts are essential for photosynthesis - making glucose from light. Without them long-term, plants cannot produce food and will die. But they don't die immediately because of stored energy."
+      },
+      {
+        "id": "D",
+        "text": "The cell wall can produce energy instead",
+        "isCorrect": false,
+        "feedback": "The cell wall provides structural support and protection, but it cannot produce energy or food. It has no metabolic function."
+      }
+    ],
+    "solution": "The answer is **mitochondria can still release energy from stored glucose - the plant won't die immediately but will eventually starve**.\n\n**The flaw in the student's reasoning:**\n\nThe student forgot that:\n1. **Mitochondria** exist in ALL plant cells (not just chloroplasts)\n2. Plants **store glucose** as starch in roots, stems, and leaves\n3. Energy can be released from these stores even without making new glucose\n\n**What actually happens without chloroplasts:**\n\n**Immediate (hours to days):**\n- Photosynthesis stops completely (no new glucose made)\n- **Mitochondria continue working** - breaking down stored starch\n- ATP is still produced for cell activities\n- Plant appears normal initially\n\n**Short term (days to weeks):**\n- Stored glucose/starch reserves are **gradually depleted**\n- No new glucose is being produced\n- Plant **cannot grow** (growth requires glucose)\n- May start to look pale or yellow (chlorophyll not being replaced)\n\n**Long term (weeks+):**\n- All stored glucose **runs out**\n- Mitochondria have **nothing to break down**\n- ATP production **stops**\n- Cells die from **energy starvation**\n- Plant dies\n\n**The two-organelle system:**\n\n| Organelle | Function | Can it work alone? |\n|-----------|----------|--------------------|\n| **Chloroplasts** | MAKE glucose from light | No - cell still needs ATP from mitochondria |\n| **Mitochondria** | RELEASE energy from glucose | Temporarily - but needs glucose supply |\n\n**Key Insight:** Plants have a 'savings account' of glucose (starch) that mitochondria can use. Without chloroplasts, they're living off savings - which will eventually run out.\n\n**Real-world examples:**\n- Seeds germinating in soil (use stored energy until they reach light)\n- Potatoes in a dark cupboard (can sprout using stored starch)\n- Plants kept in darkness (survive temporarily on reserves)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the roles of both chloroplasts AND mitochondria. Do plant cells have only one organelle for energy-related processes?"
+      },
+      {
+        "level": 2,
+        "content": "Plants have mitochondria too! While chloroplasts MAKE glucose, mitochondria RELEASE energy from stored glucose. Without chloroplasts, mitochondria can still work with stored energy... for a while."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 4,
+      "conceptsUsed": ["c5", "c6", "c7"],
+      "buildsOn": ["cells-y8-048", "cells-y8-056"],
+      "preparesFor": ["cells-y8-070", "cells-y8-077"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Challenge oversimplified understanding of plant energy systems"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set7",
+      "sequenceInPaper": 64
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-065",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Cancer cells divide uncontrollably, much faster than normal cells. Based on your understanding of cell structures, predict:\na) Which organelle must be very active in cancer cells?\nb) Why do cancer treatments often target rapidly dividing cells?\nc) Why might cancer treatment cause hair loss as a side effect?",
+    "solution": "**a) Which organelle must be very active in cancer cells?**\n\nThe **NUCLEUS** must be extremely active because:\n\n1. **Cell division requires DNA replication**\n   - The nucleus contains DNA with all genetic instructions\n   - Before every cell division, ALL DNA must be copied\n   - Faster division = more DNA replication = very active nucleus\n\n2. **Protein production for growth**\n   - Division requires building new cell structures\n   - Nucleus controls which genes are expressed\n   - Must activate genes for division-related proteins\n\n**RIBOSOMES** are also very active:\n- Must make more proteins for new cells\n- Structural proteins, enzymes, membrane proteins all needed\n- Working constantly to supply materials for rapid growth\n\n**MITOCHONDRIA** work overtime:\n- Cell division requires lots of ATP energy\n- More divisions = more energy needed\n- Cancer cells often have abnormal energy metabolism\n\n**b) Why do cancer treatments target rapidly dividing cells?**\n\n1. **Cancer cells divide faster than most normal cells**\n   - Targeting fast-dividing cells preferentially damages cancer\n   - Normal cells divide slowly and recover between treatments\n\n2. **Vulnerable during division**\n   - DNA is exposed during replication\n   - Cells are more fragile during division\n   - Easier to damage or kill cells that are actively dividing\n\n3. **Treatment strategies:**\n   - Chemotherapy: Drugs that disrupt DNA replication or cell division\n   - Radiation: Damages DNA, especially in dividing cells\n   - Targeted therapies: Block specific growth signals\n\n**c) Why cancer treatment causes hair loss?**\n\n**Hair follicle cells are among the FASTEST DIVIDING normal cells in the body:**\n\n| Cell Type | Division Rate | Treatment Effect |\n|-----------|---------------|------------------|\n| **Hair follicles** | Very fast (divide daily) | **Severely affected** → Hair loss |\n| **Gut lining** | Very fast | Nausea, digestive issues |\n| **Bone marrow** | Very fast | Reduced blood cell production |\n| **Cancer cells** | Very fast (abnormal) | **Targeted - desired effect** |\n| **Muscle cells** | Slow | Mostly unaffected |\n| **Nerve cells** | Very slow/none | Mostly unaffected |\n\n**The explanation:**\n- Cancer treatments target fast-dividing cells\n- Hair follicles divide rapidly to grow hair\n- Treatment can't distinguish between cancer cells and other fast-dividing cells\n- Result: Hair follicle cells are damaged alongside cancer cells\n- Hair falls out because follicle cells are killed\n- Hair usually regrows after treatment ends (follicles recover)\n\n**Key Insight:** Cancer treatments exploit the difference between cancer cells and MOST normal cells. The side effects occur because some normal cells also divide quickly.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens inside cells during division. Which organelles are involved in copying DNA, making new proteins, and providing energy for all this activity?"
+      },
+      {
+        "level": 2,
+        "content": "The nucleus controls DNA replication for division. Cancer treatments target rapidly dividing cells because cancer divides fast. Hair follicles are among the fastest-dividing normal cells, which explains why hair falls out during treatment."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 5,
+      "conceptsUsed": ["c4", "c5", "c7"],
+      "buildsOn": ["cells-y8-051", "cells-y8-055", "cells-y8-057"],
+      "preparesFor": ["cells-y8-071", "cells-y8-078"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply cell biology knowledge to understand cancer and cancer treatment"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set7",
+      "sequenceInPaper": 65
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-066",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Viruses are not considered living organisms because they cannot carry out life processes on their own. However, viruses can reproduce inside host cells. Using your knowledge of cell organelles, explain what viruses must 'borrow' from the host cell to reproduce.",
+    "solution": "Viruses must **borrow** the host cell's organelles and machinery because they lack their own:\n\n**What viruses have:**\n- Genetic material (DNA or RNA) - instructions for making more viruses\n- Protein coat (capsid) - protective shell\n- Sometimes a lipid envelope - outer membrane layer\n\n**What viruses DON'T have (and must borrow):**\n\n**1. RIBOSOMES (borrowed for protein synthesis)**\n- Viruses cannot make their own proteins\n- They hijack the host's ribosomes to read their viral genetic instructions\n- Host ribosomes then make viral proteins instead of host proteins\n- This is essential - no ribosomes = no viral proteins = no new viruses\n\n**2. ENERGY (ATP from mitochondria)**\n- Making new virus particles requires energy\n- Viruses have no mitochondria\n- They use ATP produced by the host cell's mitochondria\n- Host cell exhausts its energy reserves making viruses\n\n**3. RAW MATERIALS (from cytoplasm and stores)**\n- Amino acids (to make viral proteins)\n- Nucleotides (to copy viral genetic material)\n- Lipids (for viral envelopes, if needed)\n- All come from the host cell's supplies\n\n**4. ENZYMES (for various processes)**\n- DNA or RNA polymerase (to copy viral genetic material)\n- Various processing enzymes\n- Some viruses bring their own, but many use host enzymes\n\n**5. CELLULAR MACHINERY**\n- Endoplasmic reticulum - for protein processing\n- Golgi apparatus - for packaging\n- Transport systems - for moving materials around\n\n**The viral reproduction process:**\n\n1. **Entry**: Virus attaches to cell membrane, genetic material enters cell\n2. **Hijacking**: Viral genes take control of cell's nucleus and ribosomes\n3. **Replication**: Host machinery copies viral genetic material\n4. **Translation**: Host ribosomes make viral proteins\n5. **Assembly**: New virus particles form from components\n6. **Release**: New viruses burst out (often killing the cell) or bud off\n\n**Why viruses aren't 'alive':**\n\n| Life Characteristic | Living Cell | Virus |\n|---------------------|-------------|-------|\n| Contains ribosomes | Yes | No |\n| Produces own energy | Yes (mitochondria) | No |\n| Can reproduce alone | Yes | No (needs host) |\n| Has own metabolism | Yes | No |\n| Responds to stimuli | Yes | No |\n\n**Key Insight:** Viruses are like 'genetic parasites' - they're just genetic instructions that hijack cellular machinery. They blur the line between living and non-living because they can replicate, but only by exploiting the organelles of truly living cells.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what organelles are needed to make proteins, produce energy, and copy genetic material. Viruses don't have these - so where must they get them?"
+      },
+      {
+        "level": 2,
+        "content": "Viruses need ribosomes (to make proteins), ATP from mitochondria (for energy), and raw materials like amino acids and nucleotides. They hijack all of these from the host cell."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 280,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 6,
+      "conceptsUsed": ["c5", "c7"],
+      "buildsOn": ["cells-y8-051", "cells-y8-060"],
+      "preparesFor": ["cells-y8-072", "cells-y8-079"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply understanding of essential organelle functions to explain viral parasitism"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set7",
+      "sequenceInPaper": 66
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-067",
+    "questionType": "MCQ",
+    "stem": "A researcher discovers a new single-celled organism. Under the microscope, she observes that it has a cell wall, chloroplasts, AND it can actively swim using flagella. Based on these observations, this organism is MOST similar to:",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Euglena - a protist that has plant-like and animal-like characteristics",
+        "isCorrect": true,
+        "feedback": "Correct! Euglena is a single-celled organism that has chloroplasts for photosynthesis (plant-like) and flagella for movement (animal-like). The new organism having both features suggests it's similar to Euglena - organisms that blur the line between plant and animal categories."
+      },
+      {
+        "id": "B",
+        "text": "A typical plant cell - because it has a cell wall and chloroplasts",
+        "isCorrect": false,
+        "feedback": "While plant cells have cell walls and chloroplasts, they don't actively swim with flagella. Most plant cells are fixed in place. The movement capability makes this organism different from typical plant cells."
+      },
+      {
+        "id": "C",
+        "text": "A typical animal cell - because it can move",
+        "isCorrect": false,
+        "feedback": "Animal cells can move, but they DON'T have cell walls or chloroplasts. This organism has features from both plant and animal cells, so it's not a typical animal cell."
+      },
+      {
+        "id": "D",
+        "text": "A bacterial cell - because it's single-celled",
+        "isCorrect": false,
+        "feedback": "Bacteria are single-celled, but they don't have chloroplasts (the organelles). While some bacteria have chlorophyll for photosynthesis, they lack the membrane-bound chloroplasts described. Also, bacterial cells are much simpler than this organism."
+      }
+    ],
+    "solution": "The answer is **Euglena - a protist that has plant-like and animal-like characteristics**.\n\n**Analyzing the observations:**\n\n| Feature | Typical Plant | Typical Animal | Bacteria | **Euglena** |\n|---------|--------------|----------------|----------|-------------|\n| Cell wall | ✓ | ✗ | ✓ (different type) | ✓ (flexible pellicle) |\n| Chloroplasts | ✓ | ✗ | ✗ | **✓** |\n| Flagella for swimming | ✗ | Some have | Some have | **✓** |\n| Single-celled | ✗ (mostly) | ✗ (mostly) | ✓ | **✓** |\n\n**Why Euglena is the best match:**\n\n1. **Has chloroplasts** - Can photosynthesize like a plant\n2. **Has a cell covering** - The pellicle (flexible outer layer)\n3. **Has flagella** - Can actively swim like some animal cells\n4. **Single-celled** - Matches the observation\n\n**About Euglena:**\n- Found in freshwater environments (ponds, streams)\n- **Mixotrophic** - can photosynthesize OR consume food particles\n- Moves toward light (phototaxis) to optimize photosynthesis\n- Has an 'eyespot' to detect light\n- Changes behavior based on conditions:\n  - In light: Uses chloroplasts, acts plant-like\n  - In dark: Can absorb nutrients, acts more animal-like\n\n**Why this matters:**\n- Traditional categories (plant vs. animal) don't always work\n- Many organisms have features of multiple categories\n- **Protists** are a diverse group that includes many such organisms\n- Cell structure determines function, not arbitrary categories\n\n**Key Insight:** When an organism has features from multiple cell types, look for organisms that share that unique combination. Euglena (and similar protists) demonstrate that evolution can create organisms that combine the best features of different cell types.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about which organisms can both photosynthesize (have chloroplasts) AND move (have flagella). Neither typical plant cells nor animal cells have both features."
+      },
+      {
+        "level": 2,
+        "content": "Euglena is a protist that has chloroplasts for photosynthesis (plant-like) and flagella for movement (animal-like). It represents organisms that don't fit neatly into plant or animal categories."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 7,
+      "conceptsUsed": ["c3", "c6", "c7"],
+      "buildsOn": ["cells-y8-034", "cells-y8-043"],
+      "preparesFor": ["cells-y8-073", "cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply knowledge of cell types to classify an organism with mixed characteristics"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set7",
+      "sequenceInPaper": 67
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-068",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Antibiotics are drugs that kill bacteria but don't harm human cells. Many antibiotics work by targeting bacterial ribosomes. Explain why this works (why does targeting ribosomes kill bacteria?) and why this doesn't harm human cells.",
+    "solution": "**Why targeting bacterial ribosomes is an effective antibiotic strategy:**\n\n**Part 1: Why targeting ribosomes kills bacteria**\n\nRibosomes are **essential** for bacterial survival:\n\n1. **Protein synthesis is critical**\n   - Ribosomes make ALL proteins in a cell\n   - Proteins include: enzymes for metabolism, structural components, transport proteins\n   - Without proteins, cells cannot function\n\n2. **What happens when ribosomes are blocked:**\n   - No new enzymes → metabolism stops\n   - No new structural proteins → cell wall/membrane can't be maintained\n   - No new transport proteins → nutrients can't enter\n   - Existing proteins break down and can't be replaced\n   - Result: Bacteria die or can't reproduce\n\n3. **Bacteria divide rapidly**\n   - Need constant protein production to grow and divide\n   - Blocking ribosomes stops growth immediately\n   - Very effective against actively growing bacteria\n\n**Part 2: Why human cells aren't harmed**\n\n**The key difference: Bacterial and human ribosomes are STRUCTURALLY DIFFERENT**\n\n| Feature | Bacterial Ribosomes | Human Ribosomes |\n|---------|--------------------|-----------------|\n| **Size** | 70S (smaller) | 80S (larger) |\n| **Subunits** | 30S + 50S | 40S + 60S |\n| **Shape** | Different structure | Different structure |\n| **Binding sites** | Specific to bacteria | Specific to eukaryotes |\n\n**How antibiotics exploit this difference:**\n\n1. **Selective binding**\n   - Antibiotics are designed to fit bacterial ribosome shape\n   - They physically bind to specific sites on the 70S ribosome\n   - Human 80S ribosomes have different shape at these sites\n   - Antibiotic doesn't fit human ribosomes - like wrong key for a lock\n\n2. **Examples of ribosome-targeting antibiotics:**\n   - **Streptomycin**: Binds to 30S subunit, causes misreading of genetic code\n   - **Tetracycline**: Blocks tRNA from binding to 30S subunit\n   - **Erythromycin**: Binds to 50S subunit, blocks protein chain growth\n   - **Chloramphenicol**: Prevents peptide bond formation at 50S\n\n3. **Selective toxicity**\n   - Antibiotics are toxic to bacteria but not humans\n   - This is called 'selective toxicity'\n   - Based on structural differences between cell types\n\n**Important consideration: Mitochondria**\n- Human mitochondria have ribosomes similar to bacterial ribosomes (70S)\n- This is because mitochondria evolved from ancient bacteria!\n- Some antibiotics CAN affect mitochondria at high doses\n- This is why antibiotic side effects can include fatigue (reduced mitochondrial function)\n- Doctors balance effectiveness against side effects\n\n**Key Insight:** Effective drugs target features that differ between pathogen cells and human cells. The structural difference between prokaryotic (70S) and eukaryotic (80S) ribosomes is a perfect target for selective antibiotic action.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about why ribosomes are essential (they make proteins). Then consider: are bacterial ribosomes exactly the same as human ribosomes?"
+      },
+      {
+        "level": 2,
+        "content": "Ribosomes are essential because without them, cells can't make proteins and die. Bacterial ribosomes (70S) are structurally different from human ribosomes (80S), so antibiotics can target bacterial ribosomes specifically without affecting human ones."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 280,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 8,
+      "conceptsUsed": ["c7"],
+      "buildsOn": ["cells-y8-055", "cells-y8-062"],
+      "preparesFor": ["cells-y8-074", "cells-y8-079"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply understanding of ribosome function and cell differences to explain antibiotic selectivity"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set7",
+      "sequenceInPaper": 68
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-069",
+    "questionType": "MCQ",
+    "stem": "A student argues: 'Since plant cells have both chloroplasts AND mitochondria, but animal cells only have mitochondria, plants must produce more ATP than animals.' Is this reasoning correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "No - chloroplasts make glucose, not ATP directly; mitochondria produce ATP in both cell types",
+        "isCorrect": true,
+        "feedback": "Correct! Chloroplasts capture light energy to make glucose (photosynthesis), but they don't produce usable ATP for the cell's general needs. Mitochondria in BOTH plant and animal cells produce ATP through cellular respiration. Having chloroplasts means plants can make their own food, not more ATP."
+      },
+      {
+        "id": "B",
+        "text": "Yes - more energy organelles means more ATP production",
+        "isCorrect": false,
+        "feedback": "Chloroplasts don't produce ATP for general cell use - they make glucose by capturing light energy. The student's reasoning confuses 'energy organelles' with 'ATP-producing organelles.' Mitochondria are the ATP producers in both cell types."
+      },
+      {
+        "id": "C",
+        "text": "Yes - plants need more energy because they're larger than animals",
+        "isCorrect": false,
+        "feedback": "Plant size has nothing to do with whether they produce more ATP. Also, many animals are much larger than many plants. The student's reasoning about chloroplasts producing ATP is the main error."
+      },
+      {
+        "id": "D",
+        "text": "No - chloroplasts and mitochondria do the exact same job",
+        "isCorrect": false,
+        "feedback": "While it's true the reasoning is flawed, chloroplasts and mitochondria do NOT do the same job. Chloroplasts capture light energy to make glucose (photosynthesis), while mitochondria break down glucose to make ATP (cellular respiration). They're complementary, not identical."
+      }
+    ],
+    "solution": "The answer is **No - chloroplasts make glucose, not ATP directly; mitochondria produce ATP in both cell types**.\n\n**The student's error:**\n\nThe student assumes chloroplasts produce ATP like mitochondria do, but they have different functions:\n\n**Comparison of the two organelles:**\n\n| Feature | Chloroplasts | Mitochondria |\n|---------|-------------|-------------|\n| **Process** | Photosynthesis | Cellular respiration |\n| **Primary product** | Glucose (C₆H₁₂O₆) | ATP |\n| **Energy transformation** | Light → Chemical (glucose) | Chemical → Chemical (ATP) |\n| **Found in** | Plant cells (green parts) | ALL cells (plant AND animal) |\n| **When active** | Only in light | 24/7 |\n\n**What actually happens:**\n\n1. **In plant cells:**\n   - Chloroplasts make glucose from sunlight, CO₂, and water\n   - This glucose is then sent to mitochondria\n   - Mitochondria convert glucose → ATP (usable energy)\n\n2. **In animal cells:**\n   - No chloroplasts (can't make own glucose)\n   - Must eat food to get glucose\n   - Mitochondria convert glucose → ATP (usable energy)\n\n3. **ATP production is similar:**\n   - Both plant and animal mitochondria produce ATP the same way\n   - Number of mitochondria varies by cell energy needs, not cell type\n   - Active muscle cells (animal) may have MORE mitochondria than leaf cells!\n\n**The correct understanding:**\n\n- **Chloroplasts** = Food MAKERS (store energy in glucose)\n- **Mitochondria** = Energy RELEASERS (convert glucose to ATP)\n- Having both doesn't mean more ATP - it means plants can make their own food\n\n**Analogy:**\n- Chloroplasts are like a **farm** (produces food)\n- Mitochondria are like a **power plant** (produces usable electricity)\n- Having a farm doesn't mean you have more electricity; it just means you don't need to buy food\n\n**Key Insight:** Don't confuse 'making glucose' with 'making ATP.' Chloroplasts store energy; mitochondria release it. Both types of cells need mitochondria for ATP production.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What does each organelle actually produce? Do chloroplasts make ATP directly, or do they make something else that mitochondria then use?"
+      },
+      {
+        "level": 2,
+        "content": "Chloroplasts make glucose (storing energy), not ATP. Mitochondria in BOTH plant and animal cells make ATP from glucose. Having chloroplasts means plants make their own food - it doesn't mean they make more ATP."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 9,
+      "conceptsUsed": ["c5", "c6", "c7"],
+      "buildsOn": ["cells-y8-047", "cells-y8-048", "cells-y8-064"],
+      "preparesFor": ["cells-y8-075", "cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Challenge the misconception that more organelles means more ATP production"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set7",
+      "sequenceInPaper": 69
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-070",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Scientists want to develop a new type of biofuel by engineering bacteria to produce ethanol (alcohol) more efficiently. Based on your understanding of cells and cellular processes, explain:\na) Why bacteria might be useful for this purpose\nb) What cellular processes would need to be enhanced\nc) What challenges might scientists face",
+    "solution": "**Engineering bacteria for biofuel production:**\n\n**a) Why bacteria are useful for biofuel production:**\n\n1. **Rapid reproduction**\n   - Bacteria divide very quickly (every 20-30 minutes under ideal conditions)\n   - Can produce large populations in hours\n   - More bacteria = more biofuel production potential\n\n2. **Simple cell structure**\n   - No nucleus (prokaryotes) - easier to modify genetically\n   - Fewer regulatory systems to work around\n   - Genes can be inserted and expressed quickly\n\n3. **Already produce ethanol naturally**\n   - Some bacteria perform fermentation: Glucose → Ethanol + CO₂\n   - Just need to enhance existing pathways\n   - Not starting from scratch\n\n4. **Easy to grow and maintain**\n   - Grow in simple nutrient solutions\n   - Don't need soil, sunlight (unless photosynthetic)\n   - Can be grown in tanks (bioreactors) year-round\n   - Relatively cheap to scale up\n\n5. **Diverse metabolisms**\n   - Different bacteria can use different starting materials\n   - Some can break down plant waste, agricultural residues\n   - Flexible in terms of 'feedstock'\n\n**b) Cellular processes to enhance:**\n\n1. **Fermentation pathway**\n   - Enzymes that convert glucose to ethanol\n   - Need to increase enzyme production (more ribosomes working on this)\n   - May need to add genes for more efficient enzymes from other organisms\n\n2. **Sugar uptake**\n   - Cell membrane transport proteins for glucose\n   - Enhance ability to bring in raw materials\n   - May need to add ability to break down complex sugars (cellulose)\n\n3. **Energy metabolism**\n   - Balance between growth and ethanol production\n   - Redirect cellular resources toward ethanol pathway\n   - Optimize mitochondria-like respiration processes\n\n4. **Ethanol tolerance**\n   - Ethanol is toxic to cells at high concentrations\n   - Need to enhance cell membrane stability\n   - Improve ethanol export mechanisms to get it out of the cell\n\n5. **Waste management**\n   - Handle metabolic byproducts\n   - Remove CO₂ efficiently\n   - Prevent toxic buildup\n\n**c) Challenges scientists face:**\n\n| Challenge | Explanation | Potential Solution |\n|-----------|-------------|--------------------|\n| **Ethanol toxicity** | Ethanol damages cell membranes and proteins | Engineer more resistant membranes; pump ethanol out quickly |\n| **Competition with growth** | Cells use energy for reproduction, not just ethanol | Modify cell cycle control; balance growth and production |\n| **Efficiency limits** | Fermentation has maximum theoretical yield | Engineering alternative pathways; use different feedstocks |\n| **Genetic stability** | Modified genes may be lost over generations | Use multiple gene copies; integrate into chromosome |\n| **Contamination** | Other organisms may outcompete modified bacteria | Sterile conditions; antibiotic resistance markers |\n| **Scale-up** | Lab results don't always work at industrial scale | Optimize bioreactor design; continuous flow systems |\n| **Feedstock variability** | Different plant materials have different compositions | Engineer bacteria to handle multiple sugar types |\n\n**Key Insight:** Cellular engineering requires understanding how organelles and pathways work together. Success depends on modifying multiple systems - ribosomes for enzyme production, membranes for transport and tolerance, metabolic pathways for efficiency. It's not just one gene change; it's a systems-level challenge.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what makes bacteria easy to work with (fast reproduction, simple structure). Consider what cellular process makes ethanol (fermentation) and what might limit production (toxicity, efficiency)."
+      },
+      {
+        "level": 2,
+        "content": "Bacteria are useful because they reproduce quickly and are easy to modify. To enhance ethanol production, scientists would work on fermentation enzymes (made by ribosomes), sugar transport (membrane), and ethanol tolerance. Challenges include ethanol being toxic to cells and balancing growth with production."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 320,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 10,
+      "conceptsUsed": ["c5", "c7", "c8"],
+      "buildsOn": ["cells-y8-046", "cells-y8-061", "cells-y8-063"],
+      "preparesFor": ["cells-y8-076", "cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply cell biology knowledge to a biotechnology application"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 70
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-071",
+    "questionType": "MCQ",
+    "stem": "Red blood cells in mammals lose their nucleus as they mature. Despite this, they can still function for about 120 days. However, they cannot divide to make more red blood cells. What does this tell us about the relationship between the nucleus and cell division?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The nucleus is essential for cell division because it contains DNA with instructions for replication",
+        "isCorrect": true,
+        "feedback": "Correct! Without a nucleus and its DNA, cells cannot divide. DNA contains all the instructions for making a copy of itself and building a new cell. Red blood cells trade their nucleus for more hemoglobin space, but this means they can never reproduce - new ones must come from nucleated cells in bone marrow."
+      },
+      {
+        "id": "B",
+        "text": "The nucleus is not important for cell division - cells can divide without it",
+        "isCorrect": false,
+        "feedback": "The example shows the opposite! Red blood cells WITHOUT nuclei cannot divide. This proves the nucleus IS essential for division. Cells need the DNA in the nucleus to replicate and create new cells."
+      },
+      {
+        "id": "C",
+        "text": "Red blood cells don't need to divide because they're too small",
+        "isCorrect": false,
+        "feedback": "Cell size isn't why red blood cells don't divide. They CANNOT divide because they lack a nucleus with DNA. They're actually replaced by division of nucleated stem cells in bone marrow."
+      },
+      {
+        "id": "D",
+        "text": "All cells lose their nucleus eventually and stop dividing",
+        "isCorrect": false,
+        "feedback": "This is not true. Red blood cells are unusual - most cells keep their nuclei throughout their lives. Losing the nucleus is a specific adaptation of red blood cells to carry more hemoglobin."
+      }
+    ],
+    "solution": "The answer is **the nucleus is essential for cell division because it contains DNA with instructions for replication**.\n\n**What red blood cells teach us:**\n\nThe fact that red blood cells **without nuclei cannot divide** provides clear evidence that the nucleus is **essential for cell division**.\n\n**Why the nucleus is required for division:**\n\n1. **DNA replication**\n   - Before division, ALL DNA must be copied\n   - The copying machinery reads existing DNA\n   - Without DNA (no nucleus), nothing to copy\n\n2. **Instructions for division**\n   - DNA contains genes that control cell division\n   - Proteins for division (like those forming the spindle) must be made\n   - No DNA = no instructions = no division proteins\n\n3. **Genetic information transfer**\n   - Each new cell needs a complete set of DNA\n   - Without a nucleus, there's no DNA to pass on\n   - Division would create cells with no instructions\n\n**The red blood cell trade-off:**\n\n| Feature | With Nucleus | Without Nucleus (RBCs) |\n|---------|-------------|------------------------|\n| Can divide | Yes | **No** |\n| Has DNA | Yes | **No** |\n| Space for hemoglobin | Less | **More** |\n| Oxygen-carrying capacity | Lower | **Higher** |\n| Lifespan | Variable | ~120 days |\n| Can repair itself | Yes | **No** |\n| Can be replaced | By own division | Only by bone marrow |\n\n**The evolutionary advantage:**\n- By losing the nucleus, RBCs gain ~30% more space for hemoglobin\n- More hemoglobin = more oxygen carried\n- Trade-off: Cannot divide or repair themselves\n- Solution: Bone marrow constantly makes new RBCs (2 million per second!)\n\n**Other evidence the nucleus controls division:**\n- Cancer often involves mutations in nuclear DNA affecting division genes\n- Removing the nucleus from an egg cell prevents development\n- Cells with damaged nuclei often stop dividing (cellular senescence)\n\n**Key Insight:** Red blood cells are a natural experiment showing what happens without a nucleus. Their inability to divide proves the nucleus's essential role in cell reproduction. The body compensates by having nucleated stem cells produce new RBCs continuously.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What does the nucleus contain that cells need to divide? What happens to cells that lack this?"
+      },
+      {
+        "level": 2,
+        "content": "The nucleus contains DNA, which has all the instructions for cell division. Without DNA, cells cannot replicate their genetic material or create the proteins needed for division. This is why RBCs without nuclei cannot divide."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 11,
+      "conceptsUsed": ["c4", "c7"],
+      "buildsOn": ["cells-y8-028", "cells-y8-057", "cells-y8-065"],
+      "preparesFor": ["cells-y8-077", "cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Use red blood cells as evidence for the nucleus's role in cell division"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 71
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-072",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Some desert plants have CAM photosynthesis - they open their stomata (pores) at night to collect CO₂ and close them during the day to prevent water loss. The CO₂ is stored and used for photosynthesis during the day.\n\nExplain how this adaptation affects the activity of chloroplasts throughout a 24-hour period, and why this is advantageous in a desert environment.",
+    "solution": "**CAM photosynthesis and chloroplast activity in desert plants:**\n\n**The challenge of desert environments:**\n- **Extreme heat** during the day increases water loss through evaporation\n- **Stomata** (pores for gas exchange) allow CO₂ in but also let water vapor out\n- Plants face a trade-off: Open stomata to get CO₂ = lose precious water\n- In deserts, water loss can be fatal\n\n**The CAM solution:**\n\n**NIGHT TIME (stomata OPEN):**\n\n1. **Gas exchange**\n   - Stomata open when it's cool and humid\n   - CO₂ enters the leaf through open stomata\n   - Much less water loss at night (cooler, higher humidity)\n\n2. **CO₂ storage**\n   - CO₂ is fixed into organic acids (malic acid)\n   - Stored in the large central vacuole\n   - Vacuole can store significant amounts\n\n3. **Chloroplast activity: LOW**\n   - No light = no light-dependent reactions in chloroplasts\n   - Chloroplasts are relatively inactive\n   - Cannot perform the second stage of photosynthesis yet\n\n**DAY TIME (stomata CLOSED):**\n\n1. **Water conservation**\n   - Stomata closed prevents water loss during hot day\n   - No new CO₂ can enter\n   - Plant relies on stored CO₂\n\n2. **CO₂ release**\n   - Organic acids in vacuole are broken down\n   - CO₂ is released inside the cell\n   - Delivered to chloroplasts\n\n3. **Chloroplast activity: HIGH**\n   - Light-dependent reactions capture light energy\n   - Stored CO₂ is used in Calvin cycle (light-independent reactions)\n   - Glucose is produced\n   - Full photosynthesis occurs despite closed stomata\n\n**24-hour cycle summary:**\n\n| Time | Stomata | CO₂ Status | Chloroplast Activity | Water Loss |\n|------|---------|------------|---------------------|------------|\n| Night | OPEN | Collecting, storing as acid | Low (no light) | Minimal |\n| Day | CLOSED | Releasing stored CO₂ | High (full photosynthesis) | Minimal |\n\n**Why this is advantageous in deserts:**\n\n1. **Water conservation is critical**\n   - Stomata closed during hottest, driest part of day\n   - Up to 90% less water loss compared to normal plants\n   - Survival advantage in water-scarce environments\n\n2. **Still able to photosynthesize**\n   - Doesn't sacrifice energy production\n   - Uses stored CO₂ during the day\n   - Maintains growth and survival\n\n3. **Optimized for extreme conditions**\n   - Normal plants would wilt and die keeping stomata open\n   - CAM plants thrive where others cannot\n   - Examples: Cacti, succulents, pineapples\n\n**The organelle connection:**\n\n- **Vacuole**: Essential for CO₂ storage (as organic acid)\n- **Chloroplasts**: Active only during day when light available\n- **Cell membrane/stomata**: Regulated opening controls gas exchange timing\n- **Mitochondria**: Provide ATP for acid synthesis at night\n\n**Key Insight:** CAM photosynthesis shows how organisms can modify the TIMING of cellular processes to survive in extreme environments. The basic organelles are the same, but their activity patterns are adapted to the environment.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about when chloroplasts can work (need light) and when the plant collects CO₂ (at night). How does storing CO₂ allow the chloroplasts to work during the day even with closed stomata?"
+      },
+      {
+        "level": 2,
+        "content": "At night: stomata open, CO₂ collected and stored in vacuoles (as acid), chloroplasts inactive (no light). During day: stomata closed, stored CO₂ released, chloroplasts active for photosynthesis, water loss prevented. This allows plants to photosynthesize while conserving water."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 12,
+      "conceptsUsed": ["c6", "c7", "c8"],
+      "buildsOn": ["cells-y8-043", "cells-y8-056", "cells-y8-063"],
+      "preparesFor": ["cells-y8-078", "cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply understanding of chloroplast function to explain a specialized photosynthetic adaptation"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 72
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-073",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student suggests: 'We should add chloroplasts to human skin cells so we can make our own food from sunlight, like plants do.' Evaluate this idea by explaining:\na) What would need to happen for this to work\nb) At least THREE reasons why this wouldn't provide enough energy for humans",
+    "solution": "**Evaluating the idea of photosynthetic humans:**\n\n**a) What would need to happen for this to work:**\n\n1. **Chloroplast insertion**\n   - Chloroplasts would need to be inserted into skin cells\n   - They would need to function in an animal cell environment\n   - The cell membrane would need to support chloroplast nutrition\n\n2. **Genetic modifications**\n   - Human cells would need genes to maintain chloroplasts\n   - Chloroplasts have their own DNA but need support from nuclear genes\n   - Many plant genes would need to be added to human DNA\n\n3. **Cellular infrastructure**\n   - Systems to transport chloroplast products (glucose)\n   - CO₂ delivery to skin cells\n   - Removal of oxygen produced\n   - Large central vacuole (like plant cells) may be needed\n\n4. **Physical changes**\n   - Skin would turn green (chlorophyll)\n   - May need larger surface area\n   - Skin would need to be transparent enough for light penetration\n\n**b) THREE+ reasons why this wouldn't provide enough energy:**\n\n**Reason 1: SURFACE AREA IS TOO SMALL**\n\n| Comparison | Surface Area | Energy Needs |\n|------------|-------------|-------------|\n| Plant leaf | Large, thin, maximized for light | Low metabolic rate |\n| Human skin | ~2 m² total | High metabolic rate |\n| Requirement ratio | Human needs ~200 m² of leaf surface to match energy needs | Impossible! |\n\n- A human would need 100x more skin surface area than they actually have\n- Plants have huge leaf surface area relative to their energy needs\n- Humans need far more energy than photosynthesis could provide\n\n**Reason 2: HUMAN ENERGY DEMANDS ARE TOO HIGH**\n\n- Humans need ~2000 calories (8,400 kJ) per day\n- Photosynthesis produces only about 1-2% efficiency\n- Even perfect photosynthesis at skin level couldn't meet demand\n- We're warm-blooded (endothermic) - need constant energy\n- Plants don't need energy for movement, body heat, brain function\n\n**Reason 3: LIGHT EXPOSURE IS INSUFFICIENT**\n\n- We don't spend 12+ hours in direct sunlight\n- We wear clothes (blocking light)\n- We live/work indoors much of the time\n- Cloudy days, night time = no photosynthesis\n- Plants can't store much energy; it's use-it-or-lose-it\n\n**Reason 4: DEPTH OF LIGHT PENETRATION**\n\n- Light doesn't penetrate deeply into tissues\n- Only the very surface would get light\n- Most of the body can't be reached by light\n- Internal organs couldn't photosynthesize\n\n**Reason 5: BRAIN AND MUSCLE DEMANDS**\n\n- Human brain alone uses ~20% of our energy\n- Brain needs constant glucose supply\n- Muscles need huge amounts of ATP for movement\n- Plants don't have these high-energy-demand tissues\n\n**The math:**\n- Photosynthesis at skin level might produce ~300-500 kJ/day at best\n- Humans need ~8,400 kJ/day\n- That's only ~4-6% of our needs\n- We'd still need to eat almost everything we currently eat!\n\n**What HAS evolved with chloroplasts:**\n- Some sea slugs can acquire chloroplasts from algae they eat\n- Chloroplasts function for a few months\n- BUT: These slugs have very low metabolic rates and don't rely solely on photosynthesis\n- Works as a supplement, not a replacement\n\n**Key Insight:** This thought experiment shows that cell biology must be understood in context. Having organelles isn't enough - the whole system (surface area, energy demands, lifestyle) must work together. Evolution hasn't produced photosynthetic mammals because the energy economics don't work.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the differences between plants and humans: surface area for light capture, energy needs, lifestyle. Would skin-based photosynthesis be able to match human energy requirements?"
+      },
+      {
+        "level": 2,
+        "content": "Key issues: 1) Skin surface area too small compared to plant leaves, 2) Human energy needs are much higher than plants (warm-blooded, active, big brain), 3) Limited light exposure (clothes, indoors, night). Photosynthesis in skin could provide maybe 5% of energy needs at best."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 320,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 13,
+      "conceptsUsed": ["c5", "c6", "c7"],
+      "buildsOn": ["cells-y8-048", "cells-y8-053", "cells-y8-067"],
+      "preparesFor": ["cells-y8-079", "cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Evaluate a sci-fi concept using realistic cell biology understanding"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 73
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-074",
+    "questionType": "MCQ",
+    "stem": "A student examines two different muscle tissues under a microscope: cardiac (heart) muscle and skeletal (arm) muscle. They notice that cardiac muscle cells have many more mitochondria than skeletal muscle cells. What is the BEST explanation for this observation?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Heart muscle contracts continuously without rest and needs constant ATP production",
+        "isCorrect": true,
+        "feedback": "Correct! The heart beats non-stop (about 100,000 times per day) and can never rest. Cardiac muscle cells need many mitochondria to produce ATP continuously. Skeletal muscles can rest between uses, so they need fewer mitochondria for their average activity level."
+      },
+      {
+        "id": "B",
+        "text": "Heart muscle is larger than arm muscle, so it needs more mitochondria",
+        "isCorrect": false,
+        "feedback": "This isn't correct - we're comparing mitochondria PER CELL, not total. The reason is about continuous use, not size. Even a small heart cell has more mitochondria than a larger skeletal muscle cell because of constant activity."
+      },
+      {
+        "id": "C",
+        "text": "Heart muscle is made of a different type of cell that naturally has more mitochondria",
+        "isCorrect": false,
+        "feedback": "While cardiac muscle is a different cell type, the number of mitochondria isn't random - it's determined by energy needs. The heart's constant activity is why cardiac cells evolved to have more mitochondria."
+      },
+      {
+        "id": "D",
+        "text": "Arm muscles are less important than heart muscles, so they have fewer mitochondria",
+        "isCorrect": false,
+        "feedback": "Importance isn't the factor - it's about how often the muscle is used. Arm muscles rest between uses, so they don't need constant ATP production. The heart never rests, requiring continuous ATP generation."
+      }
+    ],
+    "solution": "The answer is **heart muscle contracts continuously without rest and needs constant ATP production**.\n\n**The relationship between activity and mitochondria:**\n\n**Cardiac (heart) muscle:**\n- Beats ~100,000 times per day\n- **Never rests** - works 24/7 from before birth until death\n- **Each beat** requires ATP for contraction and relaxation\n- Cannot 'take a break' - would cause death\n- Contains **~5,000 mitochondria per cell** (about 25-30% of cell volume)\n- Has the highest mitochondrial density of any tissue\n\n**Skeletal (arm) muscle:**\n- Works only when you consciously use it\n- **Rests** between activities\n- Can recover ATP stores during rest periods\n- Contains **~1,000-2,000 mitochondria per cell**\n- Can increase mitochondria with training (but still less than heart)\n\n**Comparison:**\n\n| Feature | Cardiac Muscle | Skeletal Muscle |\n|---------|---------------|----------------|\n| Activity pattern | Continuous, rhythmic | Intermittent, voluntary |\n| Rest periods | **None** | Yes (most of the time) |\n| ATP demand | **Constant, high** | Variable, can recover |\n| Mitochondria/cell | ~5,000 (25-30% volume) | ~1,000-2,000 |\n| Can fatigue | Almost never | Yes (during intense use) |\n| Energy source | Mainly fatty acids | Glucose and fatty acids |\n\n**Why more mitochondria = more ATP:**\n- Each mitochondrion can only produce a limited amount of ATP\n- More mitochondria = higher maximum ATP production\n- Continuous use requires **sustained** production, not just bursts\n- Like having more power plants = more continuous electricity\n\n**The principle: Structure matches function**\n- Cells adapt their organelle numbers to match their needs\n- High-energy cells have more mitochondria\n- This principle applies throughout biology:\n  - Liver cells (high metabolism) - many mitochondria\n  - Fat cells (storage) - few mitochondria\n  - Brown fat cells (heat production) - packed with mitochondria\n\n**Key Insight:** The number of organelles in a cell isn't random - it reflects the cell's function. The heart's relentless activity demands the highest mitochondrial density in the body.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Compare how often heart muscle works versus arm muscle. Which one never gets to rest? What would this mean for ATP needs?"
+      },
+      {
+        "level": 2,
+        "content": "Heart muscle beats continuously (~100,000 times/day) and never rests. This requires constant ATP production, so cardiac cells need many more mitochondria than skeletal muscles which can rest between uses."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 14,
+      "conceptsUsed": ["c5", "c7"],
+      "buildsOn": ["cells-y8-053", "cells-y8-062", "cells-y8-068"],
+      "preparesFor": ["cells-y8-078", "cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply structure-function relationship to explain differences in organelle numbers"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 74
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-075",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Scientists are developing artificial cells for medical purposes. One design includes a cell membrane, ribosomes, and DNA, but no nucleus (the DNA floats in the cytoplasm like in bacteria). Predict what this artificial cell could do and what it could NOT do compared to a normal human cell.",
+    "solution": "**Analysis of the artificial cell design:**\n\n**What the artificial cell has:**\n- Cell membrane - boundary and selective permeability\n- Ribosomes - protein synthesis machinery\n- DNA (in cytoplasm) - genetic instructions\n- Presumably cytoplasm - medium for reactions\n\n**What it LACKS:**\n- Nucleus (DNA unprotected, like bacteria)\n- Mitochondria - no ATP production from respiration\n- Other organelles (ER, Golgi, lysosomes, etc.)\n\n**What this artificial cell COULD do:**\n\n1. **Make proteins**\n   - Has DNA with instructions\n   - Has ribosomes to assemble proteins\n   - Like bacteria, can transcribe and translate genes\n   - Could produce specific proteins (enzymes, therapeutic proteins)\n\n2. **Maintain a boundary**\n   - Cell membrane controls what enters/exits\n   - Can contain its components\n   - Could interact with its environment\n\n3. **Read and express genes**\n   - DNA contains instructions\n   - Can be transcribed to mRNA\n   - Ribosomes can translate to proteins\n   - Simpler system than nucleus-containing cells\n\n4. **Potential medical applications**\n   - Drug delivery (membrane can carry/release drugs)\n   - Produce therapeutic proteins at target site\n   - Deliver genes or RNA to cells\n   - Act as a 'bioreactor' inside the body\n\n**What this artificial cell could NOT do:**\n\n1. **Produce its own energy efficiently**\n   - No mitochondria for cellular respiration\n   - Would need ATP supplied externally\n   - Or rely on very inefficient fermentation\n   - **Limited lifespan** without energy production\n\n2. **Divide or reproduce**\n   - No organized nucleus for DNA replication\n   - Lacks cell division machinery\n   - Cannot make copies of itself\n   - Each cell would be 'one use'\n\n3. **Protect its DNA effectively**\n   - Nuclear envelope protects DNA in normal cells\n   - Exposed DNA is vulnerable to damage\n   - May accumulate errors quickly\n   - **Shorter functional life**\n\n4. **Process and package proteins properly**\n   - No endoplasmic reticulum for protein folding\n   - No Golgi apparatus for modification and sorting\n   - Proteins may not function correctly\n   - Limited protein complexity\n\n5. **Respond to complex signals**\n   - Lacks sophisticated signaling organelles\n   - Cannot adapt like normal cells\n   - Limited 'intelligence'\n\n6. **Digest waste or recycle components**\n   - No lysosomes for breakdown\n   - Waste would accumulate\n   - Cannot recycle damaged components\n\n**Comparison summary:**\n\n| Function | Artificial Cell | Normal Human Cell |\n|----------|----------------|-------------------|\n| Make proteins | ✓ (simple) | ✓ (complex, processed) |\n| Produce ATP | ✗ | ✓ (mitochondria) |\n| Divide | ✗ | ✓ |\n| Protect DNA | ✗ (exposed) | ✓ (in nucleus) |\n| Process proteins | ✗ | ✓ (ER, Golgi) |\n| Long lifespan | ✗ | ✓ |\n| Self-repair | ✗ | ✓ |\n\n**Best uses for this artificial cell:**\n- Short-term drug delivery\n- Temporary protein production\n- 'Disposable' cell-like system\n- Research tool\n- Would need to be constantly replaced\n\n**Key Insight:** This exercise shows that each organelle contributes something essential. Removing organelles limits function. A minimal cell design works for specific tasks but lacks the versatility and longevity of complete cells.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what functions each missing organelle provides. What can the cell do with just DNA and ribosomes? What would it need mitochondria for?"
+      },
+      {
+        "level": 2,
+        "content": "The cell CAN make proteins (has DNA + ribosomes). It CANNOT: produce its own ATP (no mitochondria), divide (no organized nucleus), process proteins properly (no ER/Golgi), or protect its DNA. It would be useful for short-term, simple tasks like drug delivery."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 15,
+      "conceptsUsed": ["c4", "c5", "c7", "c8"],
+      "buildsOn": ["cells-y8-060", "cells-y8-061", "cells-y8-066", "cells-y8-069"],
+      "preparesFor": ["cells-y8-079", "cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply knowledge of organelle functions to predict capabilities of minimal artificial cells"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 75
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-076",
+    "questionType": "MCQ",
+    "stem": "Deep-sea fish live in complete darkness where no light can reach. These fish still have functioning mitochondria in their cells. A student asks: 'How can they get energy without sunlight?' What is the BEST explanation?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They eat organisms that ultimately got energy from sunlight near the surface (through the food chain)",
+        "isCorrect": true,
+        "feedback": "Correct! Energy flows from the sun → photosynthetic organisms (surface) → animals that eat them → deep-sea organisms. Even deep-sea fish get energy from the sun indirectly through the food chain. Their mitochondria release energy from food that originated at the sunlit surface."
+      },
+      {
+        "id": "B",
+        "text": "Their mitochondria can produce energy without any external source",
+        "isCorrect": false,
+        "feedback": "Mitochondria cannot create energy from nothing - this would violate the law of conservation of energy. Mitochondria release energy stored in food molecules. The question is where that food energy originally came from."
+      },
+      {
+        "id": "C",
+        "text": "Deep-sea fish don't actually need energy to survive",
+        "isCorrect": false,
+        "feedback": "All living organisms need energy for cellular processes. Deep-sea fish are very much alive and active - they swim, sense prey, reproduce. All of this requires ATP from mitochondria."
+      },
+      {
+        "id": "D",
+        "text": "Their cells have evolved to work without mitochondria",
+        "isCorrect": false,
+        "feedback": "Deep-sea fish definitely have mitochondria - the question states this. They need mitochondria to release energy from food. The question is about where the original energy source comes from, not whether they need mitochondria."
+      }
+    ],
+    "solution": "The answer is **they eat organisms that ultimately got energy from sunlight near the surface (through the food chain)**.\n\n**Understanding energy flow in ecosystems:**\n\n**The origin of all biological energy:**\n\n1. **Sunlight** hits Earth's surface (including ocean surface)\n2. **Photosynthetic organisms** (phytoplankton, algae, plants) capture light energy\n3. **Energy stored** in glucose and other organic molecules\n4. **Food chain** transfers this energy through organisms\n5. **Deep-sea organisms** eventually receive this energy through food\n\n**The deep-sea food chain:**\n\n| Level | Organism | Energy Source |\n|-------|----------|---------------|\n| 1 | Surface phytoplankton | Sunlight (photosynthesis) |\n| 2 | Small surface animals | Eat phytoplankton |\n| 3 | Mid-depth animals | Eat surface animals |\n| 4 | Deep-sea fish | Eat mid-depth animals, 'marine snow' |\n| 5 | Deepest scavengers | Eat dead organisms that sink down |\n\n**'Marine snow' - the deep-sea food supply:**\n- Dead organisms and waste from above constantly sink\n- Called 'marine snow' because it looks like snowfall\n- Contains organic matter with stored energy\n- Feeds entire deep-sea ecosystem\n- Eventually traceable back to photosynthesis at the surface\n\n**What happens in the deep-sea fish:**\n\n1. **Fish eats** prey (containing glucose/organic molecules)\n2. **Digestion** breaks food into usable molecules\n3. **Mitochondria** perform cellular respiration:\n   - Glucose + O₂ → CO₂ + H₂O + ATP\n4. **ATP** powers all cell activities\n5. **Energy** was originally captured from sunlight, weeks/months ago, at surface\n\n**Exception - chemosynthesis:**\n\nSome deep-sea ecosystems near hydrothermal vents use a different energy source:\n- Bacteria use chemical energy from vent minerals (H₂S, methane)\n- Called **chemosynthesis** (instead of photosynthesis)\n- Creates food without sunlight\n- Supports unique food chains (giant tube worms, vent crabs)\n- BUT most deep-sea life still depends on surface photosynthesis\n\n**Key Insight:** Even in complete darkness, energy can be traced back to an original source. For most deep-sea life, that source is ultimately the sun - captured by photosynthesis at the surface and transferred down through the food chain. Mitochondria don't create energy; they release energy already stored in food molecules.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about where the energy in food originally comes from. Follow the food chain backward - what do deep-sea fish eat, and what did those organisms eat?"
+      },
+      {
+        "level": 2,
+        "content": "Deep-sea fish eat other organisms. Those organisms ate others, and so on, eventually leading back to photosynthetic organisms at the surface. The sun's energy is captured there and transferred down through the food chain. Mitochondria release energy from food - they don't create it."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 16,
+      "conceptsUsed": ["c5", "c6", "c7"],
+      "buildsOn": ["cells-y8-047", "cells-y8-063", "cells-y8-070"],
+      "preparesFor": ["cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Apply understanding of energy flow to explain how organisms survive without direct sunlight"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 76
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-077",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Stem cells are unique because they can divide to produce many different types of specialized cells (like muscle cells, nerve cells, or blood cells). Using your knowledge of cell structures and the nucleus, explain how one cell can give rise to different cell types even though they all have the same DNA.",
+    "solution": "**How stem cells produce different cell types:**\n\n**The puzzle:**\n- All cells from one organism have **identical DNA**\n- Yet muscle cells, nerve cells, and skin cells are very different\n- How does one type of cell become many types?\n\n**The answer: GENE EXPRESSION**\n\n**What is gene expression?**\n- DNA contains thousands of genes (instructions for different proteins)\n- Not ALL genes are active in every cell\n- **Different cells activate different genes**\n- Which genes are 'on' determines cell type\n\n**The process of differentiation:**\n\n1. **Stem cell starts with all genes available**\n   - Complete DNA in nucleus\n   - All genes potentially accessible\n   - Cell is 'undecided' about its fate\n\n2. **Signals determine cell fate**\n   - Chemical signals from surrounding cells\n   - Position in body\n   - Timing during development\n   - Signals reach the nucleus\n\n3. **Gene activation/silencing**\n   - Some genes are **turned ON** (activated)\n   - Other genes are **turned OFF** (silenced)\n   - This is controlled by regulatory proteins\n   - DNA packaging also controls access to genes\n\n4. **Different cell types result**\n   - **Muscle cell**: Genes for muscle proteins ON, others OFF\n   - **Nerve cell**: Genes for nerve proteins ON, others OFF\n   - **Blood cell**: Genes for hemoglobin ON, others OFF\n\n**Comparison of cell types:**\n\n| Cell Type | Key Genes ACTIVE | Key Proteins Made | Key Organelles |\n|-----------|-----------------|-------------------|----------------|\n| Muscle cell | Actin, myosin genes | Contractile proteins | Many mitochondria |\n| Nerve cell | Neurotransmitter genes | Signaling proteins | Long extensions |\n| Blood cell (RBC) | Hemoglobin genes | Hemoglobin | Loses nucleus! |\n| Skin cell | Keratin genes | Protective proteins | Tough structure |\n| Pancreas cell | Insulin genes | Insulin | Lots of ER, Golgi |\n\n**The role of the nucleus:**\n\n1. **Storage**: Contains all genetic information\n2. **Regulation**: Controls which genes are expressed\n3. **Response**: Receives signals and adjusts gene expression\n4. **Coordination**: Ensures right proteins are made for cell type\n\n**Key mechanisms in the nucleus:**\n\n- **Transcription factors**: Proteins that turn genes on/off\n- **Chromatin structure**: Tight packing silences genes, loose allows access\n- **Epigenetics**: Chemical modifications that control gene access without changing DNA\n- **mRNA processing**: Nucleus decides which instructions reach ribosomes\n\n**Analogy:**\n\nThink of DNA as a **recipe book** containing thousands of recipes:\n- **Stem cell**: Has the whole book, hasn't decided what to cook\n- **Signals**: Tell the cell which pages to open\n- **Differentiation**: Cell commits to making certain recipes only\n- **Specialized cell**: Can only make its specific 'dishes' (proteins)\n\nThe recipes (genes) are all there, but only some are being used!\n\n**Why this matters:**\n\n- **Medical applications**: Stem cells could repair damaged tissues\n- **Understanding disease**: Cancer involves wrong genes being activated\n- **Regeneration**: Some animals can re-activate stem cell programs\n- **Development**: Explains how one fertilized egg becomes a whole organism\n\n**Key Insight:** The nucleus doesn't just store DNA - it actively CONTROLS which parts of the DNA are used. This gene regulation is what allows identical DNA to produce hundreds of different cell types, each with its own specialized structure and function.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "If all cells have the same DNA, what must be different between cell types? Think about whether all genes are active in every cell."
+      },
+      {
+        "level": 2,
+        "content": "The key is gene expression - different cells activate different genes from the same DNA. The nucleus controls which genes are 'on' or 'off'. Muscle cells turn on muscle genes; nerve cells turn on nerve genes. Same DNA, different genes active = different cell types."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 17,
+      "conceptsUsed": ["c4", "c7"],
+      "buildsOn": ["cells-y8-051", "cells-y8-065", "cells-y8-071"],
+      "preparesFor": ["cells-y8-079", "cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Explain how identical DNA produces diverse cell types through gene regulation"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 77
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-078",
+    "questionType": "SHORT_ANSWER",
+    "stem": "In a science fiction movie, aliens are discovered whose cells have chloroplasts but no mitochondria. Evaluate whether this is scientifically plausible by explaining what problems these alien cells would face and whether they could survive.",
+    "solution": "**Scientific evaluation of chloroplast-only alien cells:**\n\n**What chloroplasts do:**\n- Capture light energy\n- Convert CO₂ + H₂O → Glucose + O₂ (photosynthesis)\n- Store energy in glucose molecules\n- Work only when light is available\n\n**What mitochondria do:**\n- Break down glucose using oxygen\n- Convert Glucose + O₂ → CO₂ + H₂O + ATP (cellular respiration)\n- Produce ATP - the usable energy currency\n- Work 24/7 regardless of light\n\n**Problems the alien cells would face:**\n\n**Problem 1: NO USABLE ENERGY (ATP)**\n\n- Chloroplasts make glucose, NOT ATP for general cell use\n- Cells need ATP for EVERY activity:\n  - Protein synthesis\n  - Active transport across membranes\n  - Cell division\n  - Movement\n  - Maintaining structures\n- **Without mitochondria, glucose can't be converted to ATP efficiently**\n- The cell would be like a car with a full gas tank but no engine\n\n**Problem 2: NIGHT TIME = DEATH**\n\n- Chloroplasts only work in light\n- No photosynthesis at night\n- No stored ATP (that's mitochondria's job)\n- **Every dark period would be a survival crisis**\n\n**Problem 3: ENERGY EFFICIENCY**\n\n| Process | ATP yield per glucose |\n|---------|----------------------|\n| Mitochondria (aerobic respiration) | ~36-38 ATP |\n| Without mitochondria (fermentation) | ~2 ATP |\n\n- Would need to consume **18x more glucose** for same energy\n- Extremely inefficient\n\n**Could they survive? Possible workarounds:**\n\n**Scenario 1: An alternative ATP-producing organelle**\n- Maybe they have a different organelle that makes ATP\n- Not mitochondria, but performs similar function\n- This would be plausible for alien life\n\n**Scenario 2: Modified chloroplasts**\n- Some Earth organisms have chloroplasts that can produce some ATP\n- Maybe alien chloroplasts are more advanced\n- Could have evolved dual function\n\n**Scenario 3: Different energy currency**\n- Maybe aliens don't use ATP\n- Have a different energy molecule\n- Chloroplasts could produce it directly\n\n**Scenario 4: Constant light environment**\n- Alien planet always has light (binary star system?)\n- Never experience darkness\n- Could continuously photosynthesize\n\n**Scientific verdict:**\n\n| Assessment | Verdict |\n|------------|--------|\n| Using Earth biochemistry | **Implausible** - would not survive |\n| With modified biochemistry | **Possible** - but would be very different |\n| With environmental help | **Possible** - constant light scenario |\n| As described (identical to Earth chloroplasts) | **Very unlikely to survive** |\n\n**Why Earth cells have both:**\n\n- Chloroplasts capture energy → store as glucose\n- Mitochondria release energy → produce ATP\n- They're **complementary**, not redundant\n- Photosynthesis alone is not enough for cellular life\n\n**The deeper issue:**\n\nAll known cellular life needs:\n1. A way to **capture/obtain** energy (food or photosynthesis)\n2. A way to **convert** that energy to usable form (ATP)\n3. Both are essential - having just one doesn't work\n\n**Key Insight:** This thought experiment shows that chloroplasts and mitochondria have different, complementary roles. Having chloroplasts without mitochondria (or equivalent) would be like having a solar panel but no batteries or wires - you can capture energy but can't use it. The alien would need some way to convert glucose to ATP, whether mitochondria or something else.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what chloroplasts produce (glucose) versus what cells actually need for energy (ATP). Who converts glucose to ATP?"
+      },
+      {
+        "level": 2,
+        "content": "Chloroplasts make glucose but not ATP for the cell. Without mitochondria, the aliens couldn't efficiently convert glucose to usable energy (ATP). They'd be like having fuel but no engine. They might survive if they have some alternative ATP-producing system or if their biochemistry is very different from Earth life."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 18,
+      "conceptsUsed": ["c5", "c6", "c7"],
+      "buildsOn": ["cells-y8-048", "cells-y8-064", "cells-y8-072", "cells-y8-074"],
+      "preparesFor": ["cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Evaluate a hypothetical scenario using understanding of organelle interdependence"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 78
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-079",
+    "questionType": "MCQ",
+    "stem": "Scientists estimate that mitochondria evolved from ancient bacteria that were engulfed by larger cells about 2 billion years ago. This is supported by evidence that mitochondria have their own DNA and ribosomes. What type of ribosomes would you expect mitochondria to have?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "70S ribosomes, similar to bacterial ribosomes, not 80S like the rest of the cell",
+        "isCorrect": true,
+        "feedback": "Correct! Mitochondria have 70S ribosomes like bacteria, not 80S ribosomes like the rest of the eukaryotic cell. This is strong evidence that mitochondria descended from ancient bacteria. The mitochondrial ribosomes retained their bacterial characteristics even after billions of years inside host cells."
+      },
+      {
+        "id": "B",
+        "text": "80S ribosomes, like all eukaryotic cells have",
+        "isCorrect": false,
+        "feedback": "If mitochondria evolved from bacteria, their ribosomes should resemble bacterial ribosomes (70S), not eukaryotic ribosomes (80S). The fact that mitochondrial ribosomes ARE 70S is evidence supporting bacterial ancestry."
+      },
+      {
+        "id": "C",
+        "text": "No ribosomes at all - they use the cell's ribosomes",
+        "isCorrect": false,
+        "feedback": "Mitochondria have their own ribosomes and make some of their own proteins. Having their own ribosomes (and DNA) is part of the evidence that they were once independent organisms that got engulfed by larger cells."
+      },
+      {
+        "id": "D",
+        "text": "Completely unique ribosomes unlike any other",
+        "isCorrect": false,
+        "feedback": "Mitochondrial ribosomes aren't completely unique - they closely resemble bacterial 70S ribosomes. This similarity is evidence for the bacterial origin of mitochondria (endosymbiont theory)."
+      }
+    ],
+    "solution": "The answer is **70S ribosomes, similar to bacterial ribosomes, not 80S like the rest of the cell**.\n\n**The Endosymbiont Theory:**\n\nMitochondria (and chloroplasts) are believed to have evolved from ancient bacteria that were engulfed by larger cells:\n\n1. **~2 billion years ago**: Large cell engulfed a smaller bacterium\n2. **Instead of digesting it**: The bacterium survived inside\n3. **Mutual benefit developed**: \n   - Bacterium gained protection and nutrients\n   - Host cell gained efficient energy production\n4. **Over time**: Became permanently integrated\n5. **Result**: Mitochondria - organelles with bacterial ancestry\n\n**Evidence supporting this theory:**\n\n| Feature | Mitochondria | Bacteria | Rest of Eukaryotic Cell |\n|---------|-------------|----------|------------------------|\n| **Ribosomes** | **70S** | **70S** | 80S |\n| **DNA shape** | Circular | Circular | Linear |\n| **DNA location** | In organelle | In cytoplasm | In nucleus |\n| **Membrane type** | Double membrane | Single membrane | Various |\n| **Reproduction** | Binary fission-like | Binary fission | Cell division |\n| **Size** | ~bacterial size | Small | Larger cell |\n\n**Why ribosome type is strong evidence:**\n\n- Ribosomes are **ancient** - their structure changes very slowly over evolution\n- If mitochondria were just made by the cell, they'd have 80S ribosomes\n- Having 70S ribosomes (like bacteria) indicates **separate origin**\n- This is **exactly what we'd predict** if mitochondria came from bacteria\n\n**Why this matters for medicine (callback to Q68):**\n\n- Antibiotics target 70S bacterial ribosomes\n- This is why some antibiotics can affect mitochondria too\n- Mitochondrial ribosomes are bacterial-like!\n- High antibiotic doses can cause fatigue (mitochondrial stress)\n\n**The same story for chloroplasts:**\n\n- Chloroplasts also have 70S ribosomes\n- Also have circular DNA\n- Came from ancient photosynthetic bacteria (cyanobacteria)\n- Plants have TWO endosymbionts: mitochondria AND chloroplasts\n\n**Key Insight:** The ribosome type in mitochondria is a 'molecular fossil' - evidence of their bacterial ancestry preserved over 2 billion years. This is one of the most well-supported theories in biology, connecting organelle function to evolutionary history.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "If mitochondria came from bacteria, what would you expect their ribosomes to look like - bacterial or eukaryotic?"
+      },
+      {
+        "level": 2,
+        "content": "Bacteria have 70S ribosomes. Eukaryotic cells (outside mitochondria) have 80S ribosomes. If mitochondria descended from bacteria, they should have retained bacterial-type 70S ribosomes - and they do!"
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 19,
+      "conceptsUsed": ["c5", "c7"],
+      "buildsOn": ["cells-y8-066", "cells-y8-068", "cells-y8-073", "cells-y8-075", "cells-y8-077"],
+      "preparesFor": ["cells-y8-080"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Connect organelle structure to evolutionary origin through ribosome evidence"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 79
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-080",
+    "questionType": "SHORT_ANSWER",
+    "stem": "You are a cell biologist presenting to a group of students. Create an analogy comparing a cell to a city, explaining how at least 6 different cell structures function like parts of a city. Then explain ONE way this analogy breaks down or is incomplete.",
+    "solution": "**THE CELL AS A CITY: An Extended Analogy**\n\n**Structure-by-structure comparison:**\n\n| Cell Structure | City Equivalent | Function |\n|----------------|-----------------|----------|\n| **1. Cell Membrane** | City walls/borders | Controls what enters and exits; provides protection; security checkpoints decide what gets through |\n| **2. Nucleus** | City Hall / Government | Contains all important information (DNA = laws/plans); makes decisions that control the whole cell/city |\n| **3. Mitochondria** | Power plants | Convert fuel (glucose) into usable energy (ATP/electricity) that powers all activities |\n| **4. Ribosomes** | Factories | Build products (proteins) following instructions from headquarters (nucleus) |\n| **5. Endoplasmic Reticulum** | Highway system/roads | Transport network connecting different parts; rough ER has factories along it |\n| **6. Golgi Apparatus** | Post office / Packaging center | Packages and labels products, sends them to correct destinations |\n| **7. Lysosomes** | Recycling center / Waste disposal | Break down waste, old materials, and invaders; clean up the city |\n| **8. Vacuole** | Warehouse / Water tower | Storage for water, nutrients, waste; large storage facility |\n| **9. Cell Wall (plants)** | Outer fortress walls | Rigid protection; structural support; defines shape |\n| **10. Chloroplasts (plants)** | Solar farms | Capture sunlight energy; convert to usable form (like solar panels making electricity) |\n| **11. Cytoplasm** | Everything between buildings | The space where things happen; medium for transport and reactions |\n| **12. Cytoskeleton** | Steel framework / Roads | Structural support; transport tracks; maintains shape |\n\n**Detailed explanations of 6 structures:**\n\n**1. NUCLEUS = CITY HALL**\n- Contains all the plans and information (DNA = city records)\n- Makes decisions controlling the whole city\n- Sends out instructions (mRNA = memos/orders)\n- Protected by walls (nuclear envelope = secure building)\n- Workers inside process information (not everyone can enter)\n\n**2. MITOCHONDRIA = POWER PLANTS**\n- Take in fuel (glucose = coal/gas) and oxygen\n- Convert fuel to usable energy (ATP = electricity)\n- Produce waste (CO₂ = smoke)\n- Multiple power plants in busy areas (lots of mitochondria in active cells)\n- City can't function without electricity/ATP\n\n**3. RIBOSOMES = FACTORIES**\n- Receive instructions from City Hall (mRNA from nucleus)\n- Build products (proteins = manufactured goods)\n- Some are independent (free ribosomes = independent workshops)\n- Some are along highways (rough ER = industrial districts)\n- Produce everything the city needs to function\n\n**4. CELL MEMBRANE = BORDER WITH CHECKPOINTS**\n- Surrounds and defines the city limits\n- Security checkpoints decide what enters/exits\n- Some things pass freely (small molecules = ordinary citizens)\n- Others need special permits (large molecules = need transport proteins)\n- Can communicate with neighboring cities (cell signaling)\n\n**5. CHLOROPLASTS = SOLAR FARMS (plant cities only)**\n- Capture energy from the sun\n- Convert to stored form (glucose = battery storage)\n- Only in some cities (only plant cells)\n- Only work during daylight\n- Make the city self-sufficient in energy production\n\n**6. GOLGI APPARATUS = POST OFFICE**\n- Receives packages from factories\n- Modifies and adds labels (like addressing packages)\n- Sorts items for different destinations\n- Ships to correct locations in and outside the city\n- Essential for distribution system\n\n**ONE WAY THE ANALOGY BREAKS DOWN:**\n\n**The cell can REPRODUCE itself; a city cannot:**\n\n- A cell can divide to create an exact copy of itself (mitosis)\n- The entire city - all buildings, roads, power plants - is duplicated\n- Every structure is copied and divided between two new cells\n- This happens from instructions in City Hall (nucleus)\n\nA real city cannot:\n- Duplicate all its buildings spontaneously\n- Split into two fully functional cities\n- Have City Hall contain complete plans to rebuild everything\n\nThis reproduction ability is **fundamental to life** and has no real city equivalent.\n\n**Other ways the analogy breaks down:**\n\n1. **Scale**: Cells are microscopic; millions could fit in a city\n2. **Speed**: Cell processes happen in milliseconds; city processes take hours/days\n3. **Intelligence**: Cells have no consciousness; cities have thinking citizens\n4. **Evolution**: Cells can evolve over generations; city structures don't naturally evolve\n5. **Self-repair**: Cells can heal damage automatically; cities need workers to repair\n\n**Key Insight:** Analogies help us understand complex systems by relating them to familiar concepts. However, every analogy has limits. The cell-city analogy is useful for understanding organelle functions, but it fails to capture unique cellular properties like reproduction, evolution, and the molecular scale of operations.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what each cell structure DOES and find a city equivalent that performs a similar function. For the breakdown, think about what cells can do that cities cannot."
+      },
+      {
+        "level": 2,
+        "content": "Good matches: Nucleus = City Hall (control), Mitochondria = Power plants (energy), Ribosomes = Factories (make things), Cell membrane = Border (controls entry/exit), Golgi = Post office (packaging/shipping), Lysosomes = Recycling center (waste). The analogy breaks down because cells can reproduce themselves by dividing - cities cannot copy themselves."
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 360,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 20,
+      "conceptsUsed": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],
+      "buildsOn": ["cells-y8-059", "cells-y8-060", "cells-y8-061", "cells-y8-075"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!",
+      "purpose": "Synthesize all cell biology knowledge into a comprehensive creative analogy while recognizing its limitations"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set8",
+      "sequenceInPaper": 80
+    },
+    "status": "draft"
+  }
+]

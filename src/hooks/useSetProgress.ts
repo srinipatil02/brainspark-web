@@ -10,6 +10,8 @@ import {
   Correctness,
   getMasteryLevel,
   MasteryLevel,
+  SetAttempt,
+  QuestionResultSnapshot,
 } from '@/types/grading';
 
 // -----------------------------------------------------------------------------
@@ -24,6 +26,11 @@ export interface SetProgress {
   totalMaxScore: number;  // cumulative max possible score
   lastAccessed: number;  // timestamp
   totalQuestions: number;
+  // NEW: Attempt tracking
+  currentAttemptStarted?: string;  // ISO timestamp when current attempt started
+  attemptHistory?: SetAttempt[];   // All completed attempts
+  bestScore?: number;              // Best score achieved
+  bestPercentage?: number;         // Best percentage achieved
 }
 
 export interface AllSetsProgress {
@@ -111,6 +118,10 @@ function normalizeProgress(data: Partial<SetProgress> | null | undefined, totalQ
       totalMaxScore: 0,
       lastAccessed: Date.now(),
       totalQuestions,
+      currentAttemptStarted: undefined,
+      attemptHistory: [],
+      bestScore: 0,
+      bestPercentage: 0,
     };
   }
 
@@ -122,6 +133,90 @@ function normalizeProgress(data: Partial<SetProgress> | null | undefined, totalQ
     totalMaxScore: typeof data.totalMaxScore === 'number' ? data.totalMaxScore : 0,
     lastAccessed: typeof data.lastAccessed === 'number' ? data.lastAccessed : Date.now(),
     totalQuestions: typeof data.totalQuestions === 'number' ? data.totalQuestions : totalQuestions,
+    currentAttemptStarted: data.currentAttemptStarted,
+    attemptHistory: Array.isArray(data.attemptHistory) ? data.attemptHistory : [],
+    bestScore: typeof data.bestScore === 'number' ? data.bestScore : 0,
+    bestPercentage: typeof data.bestPercentage === 'number' ? data.bestPercentage : 0,
+  };
+}
+
+// Generate a unique attempt ID
+function generateAttemptId(): string {
+  return `attempt-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+}
+
+// Build SetAttempt from current progress
+function buildSetAttempt(
+  setId: string,
+  progress: SetProgress,
+  startedAt: string
+): SetAttempt {
+  const results = progress.results || {};
+  const resultEntries = Object.entries(results);
+
+  // Count by correctness
+  let questionsCorrect = 0;
+  let questionsPartial = 0;
+  let questionsIncorrect = 0;
+
+  // Collect concepts
+  const allConceptsAssessed: string[] = [];
+  const allConceptsMastered: string[] = [];
+  const allConceptsToReview: string[] = [];
+  const allMisconceptions: string[] = [];
+
+  // Build question snapshots
+  const questionResults: QuestionResultSnapshot[] = [];
+
+  for (const [indexStr, result] of resultEntries) {
+    const questionIndex = parseInt(indexStr, 10);
+
+    // Count correctness
+    if (result.correctness === 'correct') questionsCorrect++;
+    else if (result.correctness === 'partial') questionsPartial++;
+    else questionsIncorrect++;
+
+    // Collect concepts from this question
+    if (result.conceptsAssessed) allConceptsAssessed.push(...result.conceptsAssessed);
+    if (result.conceptsMastered) allConceptsMastered.push(...result.conceptsMastered);
+    if (result.conceptsToReview) allConceptsToReview.push(...result.conceptsToReview);
+    if (result.feedback?.misconceptions) allMisconceptions.push(...result.feedback.misconceptions);
+
+    // Snapshot
+    questionResults.push({
+      questionIndex,
+      answer: result.answer,
+      score: result.score,
+      maxScore: result.maxScore,
+      percentage: result.percentage,
+      correctness: result.correctness,
+      conceptsToReview: result.conceptsToReview,
+    });
+  }
+
+  // Calculate percentage
+  const percentage = progress.totalMaxScore > 0
+    ? Math.round((progress.totalScore / progress.totalMaxScore) * 100)
+    : 0;
+
+  return {
+    attemptId: generateAttemptId(),
+    setId,
+    startedAt,
+    completedAt: new Date().toISOString(),
+    questionsAttempted: resultEntries.length,
+    questionsCorrect,
+    questionsPartial,
+    questionsIncorrect,
+    totalScore: progress.totalScore,
+    totalMaxScore: progress.totalMaxScore,
+    percentage,
+    masteryLevel: getMasteryLevel(percentage),
+    conceptsAssessed: [...new Set(allConceptsAssessed)],
+    conceptsMastered: [...new Set(allConceptsMastered)],
+    conceptsToReview: [...new Set(allConceptsToReview)],
+    misconceptions: [...new Set(allMisconceptions)],
+    questionResults,
   };
 }
 
@@ -140,10 +235,36 @@ async function getSetProgressFromFirestore(userId: string, setId: string): Promi
   }
 }
 
+// Recursively remove undefined values from object (Firestore doesn't accept undefined)
+function removeUndefinedDeep(value: unknown): unknown {
+  if (value === undefined) {
+    return null; // Convert undefined to null for Firestore
+  }
+  if (value === null || typeof value !== 'object') {
+    return value;
+  }
+  if (Array.isArray(value)) {
+    return value.map(item => removeUndefinedDeep(item));
+  }
+  const cleaned: Record<string, unknown> = {};
+  for (const [key, val] of Object.entries(value)) {
+    if (val !== undefined) {
+      cleaned[key] = removeUndefinedDeep(val);
+    }
+  }
+  return cleaned;
+}
+
+function removeUndefined(obj: SetProgress): Record<string, unknown> {
+  return removeUndefinedDeep(obj) as Record<string, unknown>;
+}
+
 async function saveSetProgressToFirestore(userId: string, setId: string, progress: SetProgress) {
   try {
     const docRef = doc(db, 'users', userId, 'progress', setId);
-    await setDoc(docRef, progress, { merge: true });
+    // Clean undefined values before saving to Firestore
+    const cleanedProgress = removeUndefined(progress);
+    await setDoc(docRef, cleanedProgress, { merge: true });
   } catch (e) {
     console.error('Failed to save progress to Firestore:', e);
   }
@@ -300,6 +421,10 @@ export function useSetProgress(setId: string, totalQuestions: number = 10) {
         gradedBy: gradingResult.gradedBy,
         attemptNumber: (prev.results[questionIndex]?.attemptNumber || 0) + 1,
         feedback: gradingResult.feedback,  // Store the detailed AI feedback
+        // Concept tracking for weakness analysis
+        conceptsAssessed: gradingResult.conceptsAssessed,
+        conceptsMastered: gradingResult.conceptsMastered,
+        conceptsToReview: gradingResult.conceptsToReview,
       } : undefined;
 
       // Calculate new scores
@@ -363,8 +488,8 @@ export function useSetProgress(setId: string, totalQuestions: number = 10) {
     });
   }, [user, setId]);
 
-  // Reset set progress
-  const resetProgress = useCallback(async () => {
+  // Start a new attempt (reset current progress but keep history)
+  const startNewAttempt = useCallback(async () => {
     const newProgress: SetProgress = {
       completedQuestions: [],
       answers: {},
@@ -373,10 +498,43 @@ export function useSetProgress(setId: string, totalQuestions: number = 10) {
       totalMaxScore: 0,
       lastAccessed: Date.now(),
       totalQuestions,
+      currentAttemptStarted: new Date().toISOString(),
+      attemptHistory: progress.attemptHistory || [],
+      bestScore: progress.bestScore || 0,
+      bestPercentage: progress.bestPercentage || 0,
     };
 
     await saveProgress(newProgress);
-  }, [totalQuestions, saveProgress]);
+  }, [totalQuestions, saveProgress, progress.attemptHistory, progress.bestScore, progress.bestPercentage]);
+
+  // Complete the current attempt and save to history
+  const completeAttempt = useCallback(async (): Promise<SetAttempt | null> => {
+    const startedAt = progress.currentAttemptStarted || new Date().toISOString();
+    const attempt = buildSetAttempt(setId, progress, startedAt);
+
+    // Update best scores
+    const newBestScore = Math.max(progress.bestScore || 0, attempt.totalScore);
+    const newBestPercentage = Math.max(progress.bestPercentage || 0, attempt.percentage);
+
+    // Add to history (keep last 10 attempts)
+    const newHistory = [...(progress.attemptHistory || []), attempt].slice(-10);
+
+    const newProgress: SetProgress = {
+      ...progress,
+      attemptHistory: newHistory,
+      bestScore: newBestScore,
+      bestPercentage: newBestPercentage,
+      lastAccessed: Date.now(),
+    };
+
+    await saveProgress(newProgress);
+    return attempt;
+  }, [setId, progress, saveProgress]);
+
+  // Reset set progress (alias for startNewAttempt for backwards compatibility)
+  const resetProgress = useCallback(async () => {
+    await startNewAttempt();
+  }, [startNewAttempt]);
 
   // Computed values
   const completedCount = (progress.completedQuestions || []).length;
@@ -390,7 +548,18 @@ export function useSetProgress(setId: string, totalQuestions: number = 10) {
   const correctCount = Object.values(progress.results || {}).filter(
     r => r.correctness === 'correct'
   ).length;
+  const partialCount = Object.values(progress.results || {}).filter(
+    r => r.correctness === 'partial'
+  ).length;
+  const incorrectCount = Object.values(progress.results || {}).filter(
+    r => r.correctness === 'incorrect'
+  ).length;
   const masteryLevel: MasteryLevel = getMasteryLevel(scorePercent);
+
+  // Attempt history
+  const attemptHistory = progress.attemptHistory || [];
+  const attemptCount = attemptHistory.length;
+  const currentAttemptNumber = attemptCount + 1;
 
   return {
     progress,
@@ -403,11 +572,22 @@ export function useSetProgress(setId: string, totalQuestions: number = 10) {
     totalMaxScore: progress.totalMaxScore,
     scorePercent,
     correctCount,
+    partialCount,
+    incorrectCount,
     masteryLevel,
+    // Attempt tracking
+    attemptHistory,
+    attemptCount,
+    currentAttemptNumber,
+    bestScore: progress.bestScore || 0,
+    bestPercentage: progress.bestPercentage || 0,
+    currentAttemptStarted: progress.currentAttemptStarted,
     // Functions
     markCompleted,
     saveAnswer,
     resetProgress,
+    startNewAttempt,
+    completeAttempt,
     isQuestionCompleted: (index: number) => (progress.completedQuestions || []).includes(index),
     getAnswer: (index: number) => progress.answers?.[index] || '',
     getResult: (index: number) => progress.results?.[index] || null,

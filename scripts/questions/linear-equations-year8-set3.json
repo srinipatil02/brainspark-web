@@ -1,0 +1,765 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "setNumber": 3,
+    "phase": "foundation",
+    "focus": "Mixed one-step and introduction to two-step equations"
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-021",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$x + 34 = 67$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nSubtract 34 from both sides:\n$$x + 34 - 34 = 67 - 34$$\n$$x = 33$$\n\n**Answer: x = 33**\n\n**Check:** $33 + 34 = 67$ ✓",
+      "hints": [
+        {"level": 1, "content": "What's being added to x?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Subtract 34 from both sides.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "67 - 34 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is a one-step equation with larger numbers.",
+          "encouragement": "Same technique, bigger numbers!",
+          "questionPrompt": "What operation do you see?"
+        },
+        {
+          "level": 2,
+          "content": "Subtract 34 to isolate x.",
+          "encouragement": "You've done this before!",
+          "questionPrompt": "What's 67 - 34?"
+        },
+        {
+          "level": 3,
+          "content": "67 - 34 = 33",
+          "encouragement": "Nice subtraction!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x + 34 = 67",
+        "expectedAnswers": ["33", "x = 33", "x=33", "x= 33", "x =33", "33.0", "x = 33.0"],
+        "gradingGuidance": "One-step equation with larger numbers. Tests subtraction with regrouping.",
+        "sampleSolutions": [
+          "x + 34 = 67\nx + 34 - 34 = 67 - 34\nx = 33",
+          "x + 34 = 67\nx = 67 - 34\nx = 33"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "subtraction", "larger numbers"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 21,
+        "conceptsUsed": ["one-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-007", "linear-eq-y8-010"],
+        "preparesFor": ["linear-eq-y8-022", "linear-eq-y8-023"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I can handle any one-step equation!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set3",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-022",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$6x = 72$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nDivide both sides by 6:\n$$\\frac{6x}{6} = \\frac{72}{6}$$\n$$x = 12$$\n\n**Answer: x = 12**\n\n**Check:** $6 \\times 12 = 72$ ✓",
+      "hints": [
+        {"level": 1, "content": "x is multiplied by 6.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Divide by 6.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "72 ÷ 6 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "6x = 6 times x",
+          "encouragement": "You know this pattern!",
+          "questionPrompt": "What undoes × 6?"
+        },
+        {
+          "level": 2,
+          "content": "Divide both sides by 6.",
+          "encouragement": "Think: 6 × ? = 72",
+          "questionPrompt": "What's 72 ÷ 6?"
+        },
+        {
+          "level": 3,
+          "content": "72 ÷ 6 = 12",
+          "encouragement": "Great!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "6x = 72",
+        "expectedAnswers": ["12", "x = 12", "x=12", "x= 12", "x =12", "12.0", "x = 12.0"],
+        "gradingGuidance": "One-step equation requiring division by 6.",
+        "sampleSolutions": [
+          "6x = 72\n6x ÷ 6 = 72 ÷ 6\nx = 12",
+          "6x = 72\nx = 72/6\nx = 12"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "division", "times tables"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 22,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "division"],
+        "buildsOn": ["linear-eq-y8-016", "linear-eq-y8-018"],
+        "preparesFor": ["linear-eq-y8-023", "linear-eq-y8-024"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "Times tables make division easy!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set3",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-023",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{7} = 11$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nMultiply both sides by 7:\n$$\\frac{x}{7} \\times 7 = 11 \\times 7$$\n$$x = 77$$\n\n**Answer: x = 77**\n\n**Check:** $\\frac{77}{7} = 11$ ✓",
+      "hints": [
+        {"level": 1, "content": "x is divided by 7.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Multiply by 7.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "11 × 7 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "x/7 means x divided by 7.",
+          "encouragement": "Division equation!",
+          "questionPrompt": "What undoes ÷ 7?"
+        },
+        {
+          "level": 2,
+          "content": "Multiply both sides by 7.",
+          "encouragement": "7 × 11 = ?",
+          "questionPrompt": "Calculate 11 × 7"
+        },
+        {
+          "level": 3,
+          "content": "11 × 7 = 77",
+          "encouragement": "Nice!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x/7 = 11",
+        "expectedAnswers": ["77", "x = 77", "x=77", "x= 77", "x =77", "77.0", "x = 77.0"],
+        "gradingGuidance": "One-step equation with division. Student should multiply by 7.",
+        "sampleSolutions": [
+          "x/7 = 11\nx/7 × 7 = 11 × 7\nx = 77",
+          "x ÷ 7 = 11\nx = 11 × 7\nx = 77"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "multiplication"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 23,
+        "conceptsUsed": ["one-step-equations", "inverse-operations", "multiplication"],
+        "buildsOn": ["linear-eq-y8-017", "linear-eq-y8-020"],
+        "preparesFor": ["linear-eq-y8-024", "linear-eq-y8-025"]
+      },
+      "pedagogy": {
+        "type": "foundational",
+        "targetFeeling": "I've mastered one-step equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set3",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-024",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$2x + 1 = 7$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 1 from both sides:\n$$2x + 1 - 1 = 7 - 1$$\n$$2x = 6$$\n\n**Step 2:** Divide both sides by 2:\n$$\\frac{2x}{2} = \\frac{6}{2}$$\n$$x = 3$$\n\n**Answer: x = 3**\n\n**Check:** $2(3) + 1 = 6 + 1 = 7$ ✓",
+      "hints": [
+        {"level": 1, "content": "This equation has TWO operations. Start by dealing with +1.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Subtract 1 first, then divide by 2.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "2x = 6, so x = 3", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is a TWO-step equation! Two operations to undo.",
+          "encouragement": "You've got this - it's just two one-step equations!",
+          "questionPrompt": "What should you undo first: the +1 or the ×2?"
+        },
+        {
+          "level": 2,
+          "content": "Work 'outside in' - deal with +1 before ×2.",
+          "encouragement": "Reverse order of operations!",
+          "questionPrompt": "After subtracting 1 from both sides, what equation do you have?"
+        },
+        {
+          "level": 3,
+          "content": "Now you have 2x = 6, which is a one-step equation!",
+          "encouragement": "You turned it into something you know!",
+          "questionPrompt": "What's 6 ÷ 2?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2x + 1 = 7",
+        "expectedAnswers": ["3", "x = 3", "x=3", "x= 3", "x =3", "3.0", "x = 3.0"],
+        "gradingGuidance": "First two-step equation! Student should: (1) Subtract 1 to get 2x = 6, (2) Divide by 2 to get x = 3. Award partial credit for correct first step. Common error: dividing first instead of subtracting.",
+        "sampleSolutions": [
+          "2x + 1 = 7\n2x + 1 - 1 = 7 - 1\n2x = 6\n2x ÷ 2 = 6 ÷ 2\nx = 3",
+          "2x + 1 = 7\n2x = 7 - 1\n2x = 6\nx = 6/2\nx = 3"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "inverse operations", "order of operations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 24,
+        "conceptsUsed": ["two-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-011", "linear-eq-y8-001"],
+        "preparesFor": ["linear-eq-y8-025", "linear-eq-y8-026"]
+      },
+      "pedagogy": {
+        "type": "bridge",
+        "targetFeeling": "I can solve TWO-step equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set3",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-025",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$3x + 2 = 11$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 2 from both sides:\n$$3x + 2 - 2 = 11 - 2$$\n$$3x = 9$$\n\n**Step 2:** Divide both sides by 3:\n$$\\frac{3x}{3} = \\frac{9}{3}$$\n$$x = 3$$\n\n**Answer: x = 3**\n\n**Check:** $3(3) + 2 = 9 + 2 = 11$ ✓",
+      "hints": [
+        {"level": 1, "content": "Two steps needed. Deal with +2 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "After subtracting 2, you get 3x = 9.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "9 ÷ 3 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Another two-step equation!",
+          "encouragement": "Same pattern as before!",
+          "questionPrompt": "What should you subtract first?"
+        },
+        {
+          "level": 2,
+          "content": "Subtract 2: 11 - 2 = 9, so 3x = 9",
+          "encouragement": "Now you have a one-step equation!",
+          "questionPrompt": "What's 9 ÷ 3?"
+        },
+        {
+          "level": 3,
+          "content": "9 ÷ 3 = 3",
+          "encouragement": "You've got it!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3x + 2 = 11",
+        "expectedAnswers": ["3", "x = 3", "x=3", "x= 3", "x =3", "3.0", "x = 3.0"],
+        "gradingGuidance": "Two-step equation. Student should subtract 2, then divide by 3. Nice numbers make this accessible.",
+        "sampleSolutions": [
+          "3x + 2 = 11\n3x + 2 - 2 = 11 - 2\n3x = 9\n3x ÷ 3 = 9 ÷ 3\nx = 3",
+          "3x + 2 = 11\n3x = 11 - 2\n3x = 9\nx = 9/3\nx = 3"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "inverse operations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 25,
+        "conceptsUsed": ["two-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-024"],
+        "preparesFor": ["linear-eq-y8-026", "linear-eq-y8-027"]
+      },
+      "pedagogy": {
+        "type": "practice",
+        "targetFeeling": "Two-step equations are manageable!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set3",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-026",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$4x - 3 = 13$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 3 to both sides:\n$$4x - 3 + 3 = 13 + 3$$\n$$4x = 16$$\n\n**Step 2:** Divide both sides by 4:\n$$\\frac{4x}{4} = \\frac{16}{4}$$\n$$x = 4$$\n\n**Answer: x = 4**\n\n**Check:** $4(4) - 3 = 16 - 3 = 13$ ✓",
+      "hints": [
+        {"level": 1, "content": "Notice the minus sign! Add 3 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "After adding 3: 4x = 16", "revealsCriticalInfo": false},
+        {"level": 3, "content": "16 ÷ 4 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "There's a subtraction this time. What undoes -3?",
+          "encouragement": "Watch the signs!",
+          "questionPrompt": "Should you add or subtract 3?"
+        },
+        {
+          "level": 2,
+          "content": "Add 3 to both sides: 13 + 3 = 16",
+          "encouragement": "Now you have 4x = 16!",
+          "questionPrompt": "What's 16 ÷ 4?"
+        },
+        {
+          "level": 3,
+          "content": "16 ÷ 4 = 4",
+          "encouragement": "Perfect square!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4x - 3 = 13",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "Two-step equation with subtraction. Student must ADD 3 (not subtract). Common error: subtracting 3 instead of adding.",
+        "sampleSolutions": [
+          "4x - 3 = 13\n4x - 3 + 3 = 13 + 3\n4x = 16\n4x ÷ 4 = 16 ÷ 4\nx = 4",
+          "4x - 3 = 13\n4x = 13 + 3\n4x = 16\nx = 16/4\nx = 4"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "inverse operations", "sign awareness"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 26,
+        "conceptsUsed": ["two-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-024", "linear-eq-y8-025"],
+        "preparesFor": ["linear-eq-y8-027", "linear-eq-y8-028"]
+      },
+      "pedagogy": {
+        "type": "practice",
+        "targetFeeling": "I watch the signs carefully!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set3",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-027",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$5x + 4 = 29$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 4 from both sides:\n$$5x + 4 - 4 = 29 - 4$$\n$$5x = 25$$\n\n**Step 2:** Divide both sides by 5:\n$$\\frac{5x}{5} = \\frac{25}{5}$$\n$$x = 5$$\n\n**Answer: x = 5**\n\n**Check:** $5(5) + 4 = 25 + 4 = 29$ ✓",
+      "hints": [
+        {"level": 1, "content": "Subtract 4 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "5x = 25 (a perfect square!)", "revealsCriticalInfo": false},
+        {"level": 3, "content": "25 ÷ 5 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Two-step: subtract 4, then divide by 5.",
+          "encouragement": "You know the pattern!",
+          "questionPrompt": "What's 29 - 4?"
+        },
+        {
+          "level": 2,
+          "content": "5x = 25",
+          "encouragement": "Nice numbers!",
+          "questionPrompt": "What's 25 ÷ 5?"
+        },
+        {
+          "level": 3,
+          "content": "25 ÷ 5 = 5",
+          "encouragement": "x equals the coefficient!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5x + 4 = 29",
+        "expectedAnswers": ["5", "x = 5", "x=5", "x= 5", "x =5", "5.0", "x = 5.0"],
+        "gradingGuidance": "Two-step equation. Subtract 4, then divide by 5. Nice numbers: 25 ÷ 5 = 5.",
+        "sampleSolutions": [
+          "5x + 4 = 29\n5x + 4 - 4 = 29 - 4\n5x = 25\n5x ÷ 5 = 25 ÷ 5\nx = 5",
+          "5x + 4 = 29\n5x = 29 - 4\n5x = 25\nx = 25/5\nx = 5"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "inverse operations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 27,
+        "conceptsUsed": ["two-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-025"],
+        "preparesFor": ["linear-eq-y8-028", "linear-eq-y8-029"]
+      },
+      "pedagogy": {
+        "type": "practice",
+        "targetFeeling": "I'm getting faster at two-step equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set3",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-028",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$2x - 5 = 9$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 5 to both sides:\n$$2x - 5 + 5 = 9 + 5$$\n$$2x = 14$$\n\n**Step 2:** Divide both sides by 2:\n$$\\frac{2x}{2} = \\frac{14}{2}$$\n$$x = 7$$\n\n**Answer: x = 7**\n\n**Check:** $2(7) - 5 = 14 - 5 = 9$ ✓",
+      "hints": [
+        {"level": 1, "content": "Add 5 to undo the -5.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2x = 14", "revealsCriticalInfo": false},
+        {"level": 3, "content": "14 ÷ 2 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Subtraction in the equation means add to both sides.",
+          "encouragement": "Watch those signs!",
+          "questionPrompt": "What's 9 + 5?"
+        },
+        {
+          "level": 2,
+          "content": "2x = 14",
+          "encouragement": "One-step left!",
+          "questionPrompt": "What's 14 ÷ 2?"
+        },
+        {
+          "level": 3,
+          "content": "14 ÷ 2 = 7",
+          "encouragement": "Great!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2x - 5 = 9",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "Two-step equation. Add 5, then divide by 2.",
+        "sampleSolutions": [
+          "2x - 5 = 9\n2x - 5 + 5 = 9 + 5\n2x = 14\n2x ÷ 2 = 14 ÷ 2\nx = 7",
+          "2x - 5 = 9\n2x = 9 + 5\n2x = 14\nx = 14/2\nx = 7"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "inverse operations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 28,
+        "conceptsUsed": ["two-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-026"],
+        "preparesFor": ["linear-eq-y8-029", "linear-eq-y8-030"]
+      },
+      "pedagogy": {
+        "type": "practice",
+        "targetFeeling": "Two-step equations are becoming automatic!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set3",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-029",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for y:\n\n$$3y + 7 = 22$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 7 from both sides:\n$$3y + 7 - 7 = 22 - 7$$\n$$3y = 15$$\n\n**Step 2:** Divide both sides by 3:\n$$\\frac{3y}{3} = \\frac{15}{3}$$\n$$y = 5$$\n\n**Answer: y = 5**\n\n**Check:** $3(5) + 7 = 15 + 7 = 22$ ✓",
+      "hints": [
+        {"level": 1, "content": "Same method with variable y.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Subtract 7, then divide by 3.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "15 ÷ 3 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Different variable, same technique!",
+          "encouragement": "You can solve for any variable!",
+          "questionPrompt": "What's 22 - 7?"
+        },
+        {
+          "level": 2,
+          "content": "3y = 15",
+          "encouragement": "One more step!",
+          "questionPrompt": "What's 15 ÷ 3?"
+        },
+        {
+          "level": 3,
+          "content": "15 ÷ 3 = 5",
+          "encouragement": "Perfect!",
+          "questionPrompt": "So y = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3y + 7 = 22",
+        "expectedAnswers": ["5", "y = 5", "y=5", "y= 5", "y =5", "5.0", "y = 5.0"],
+        "gradingGuidance": "Two-step equation with variable y. Subtract 7, divide by 3.",
+        "sampleSolutions": [
+          "3y + 7 = 22\n3y + 7 - 7 = 22 - 7\n3y = 15\n3y ÷ 3 = 15 ÷ 3\ny = 5",
+          "3y + 7 = 22\n3y = 22 - 7\n3y = 15\ny = 15/3\ny = 5"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "variable flexibility"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 29,
+        "conceptsUsed": ["two-step-equations", "variable-flexibility"],
+        "buildsOn": ["linear-eq-y8-027"],
+        "preparesFor": ["linear-eq-y8-030", "linear-eq-y8-031"]
+      },
+      "pedagogy": {
+        "type": "practice",
+        "targetFeeling": "I can solve for any variable!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set3",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-030",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for n:\n\n$$4n - 8 = 20$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 8 to both sides:\n$$4n - 8 + 8 = 20 + 8$$\n$$4n = 28$$\n\n**Step 2:** Divide both sides by 4:\n$$\\frac{4n}{4} = \\frac{28}{4}$$\n$$n = 7$$\n\n**Answer: n = 7**\n\n**Check:** $4(7) - 8 = 28 - 8 = 20$ ✓",
+      "hints": [
+        {"level": 1, "content": "Add 8 to deal with -8.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "4n = 28", "revealsCriticalInfo": false},
+        {"level": 3, "content": "28 ÷ 4 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Subtraction means add to undo it!",
+          "encouragement": "Watch the sign!",
+          "questionPrompt": "What's 20 + 8?"
+        },
+        {
+          "level": 2,
+          "content": "4n = 28",
+          "encouragement": "Almost there!",
+          "questionPrompt": "What's 28 ÷ 4?"
+        },
+        {
+          "level": 3,
+          "content": "28 ÷ 4 = 7",
+          "encouragement": "Foundation phase complete!",
+          "questionPrompt": "So n = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4n - 8 = 20",
+        "expectedAnswers": ["7", "n = 7", "n=7", "n= 7", "n =7", "7.0", "n = 7.0"],
+        "gradingGuidance": "Two-step equation with variable n. Add 8, divide by 4. Caps foundation phase.",
+        "sampleSolutions": [
+          "4n - 8 = 20\n4n - 8 + 8 = 20 + 8\n4n = 28\n4n ÷ 4 = 28 ÷ 4\nn = 7",
+          "4n - 8 = 20\n4n = 20 + 8\n4n = 28\nn = 28/4\nn = 7"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "variable flexibility"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 30,
+        "conceptsUsed": ["two-step-equations", "variable-flexibility"],
+        "buildsOn": ["linear-eq-y8-028", "linear-eq-y8-029"],
+        "preparesFor": ["linear-eq-y8-031", "linear-eq-y8-032"]
+      },
+      "pedagogy": {
+        "type": "capstone",
+        "targetFeeling": "Foundation complete - I've mastered one and two-step equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set3",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

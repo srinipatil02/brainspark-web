@@ -1,0 +1,1230 @@
+[
+  {
+    "questionId": "chem-react-y8-041",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student reacts 10g of magnesium with excess oxygen to form magnesium oxide.\n\nThe student measures the mass of the product and finds it is 16.6g.\n\n**Using the law of conservation of mass, explain where the extra mass came from.**",
+    "solution": "The extra mass came from the **oxygen** that reacted with the magnesium.\n\nAccording to the **law of conservation of mass**, atoms are **not created or destroyed** during a chemical reaction - they only **rearrange**. The total mass of **reactants** must equal the total mass of **products**.\n\nIn this case:\n- Mass of magnesium (reactant) = 10g\n- Mass of oxygen (reactant) = 6.6g\n- Mass of magnesium oxide (product) = 16.6g\n\nThe oxygen atoms **combined** with the magnesium atoms to form magnesium oxide, which is why the product has a greater mass than the magnesium alone. The mass didn't magically appear - it came from the oxygen gas in the air.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what the magnesium reacted WITH. Was only one substance involved?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The question says 'excess oxygen' - this oxygen is also a reactant. What happens to its mass?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 41,
+      "conceptsUsed": ["c7", "c1"],
+      "buildsOn": ["chem-react-y8-025", "chem-react-y8-030"],
+      "preparesFor": ["chem-react-y8-042", "chem-react-y8-046"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set5",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-042",
+    "questionType": "MCQ",
+    "stem": "A piece of steel wool (8g) is burned in air, producing iron oxide that has a mass of 11.2g.\n\nWhich statement BEST explains this observation?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Some iron atoms were created during the reaction",
+        "isCorrect": false,
+        "feedback": "Atoms cannot be created during chemical reactions - they only rearrange. This violates the law of conservation of mass."
+      },
+      {
+        "id": "B",
+        "text": "Oxygen atoms from the air combined with iron atoms, increasing the total mass",
+        "isCorrect": true,
+        "feedback": "Correct! The oxygen from the air is a reactant that combines with iron. The product (iron oxide) contains BOTH iron and oxygen atoms, so its mass is greater than the iron alone."
+      },
+      {
+        "id": "C",
+        "text": "The heat from burning made the atoms heavier",
+        "isCorrect": false,
+        "feedback": "Heat doesn't change the mass of atoms. The mass increase comes from oxygen atoms joining the iron atoms."
+      },
+      {
+        "id": "D",
+        "text": "Some of the iron turned into oxygen",
+        "isCorrect": false,
+        "feedback": "Iron atoms don't turn into oxygen atoms - they are different elements. The oxygen came from the air."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nWhen steel wool (iron) burns, it undergoes a **chemical reaction** with **oxygen** from the air:\n\n**Iron + Oxygen → Iron oxide**\n\nThe law of **conservation of mass** states that the total mass of reactants equals the total mass of products. In this case:\n- Mass of iron = 8g\n- Mass of oxygen (from air) = 3.2g\n- Mass of iron oxide = 11.2g (8g + 3.2g)\n\nThe oxygen atoms **combined** with the iron atoms to form a new compound (iron oxide). Since we're adding oxygen atoms to the iron atoms, the product has a **greater mass** than the iron alone.\n\nThis is why things often **gain mass** when they react with oxygen (oxidation reactions).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Remember that atoms cannot be created or destroyed. Where could extra atoms come from?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The steel wool was burned 'in air'. What substance in air could react with the iron?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 42,
+      "conceptsUsed": ["c7", "c1", "c3"],
+      "buildsOn": ["chem-react-y8-041"],
+      "preparesFor": ["chem-react-y8-047"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set5",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-043",
+    "questionType": "SHORT_ANSWER",
+    "stem": "When a candle burns, it seems to disappear and the mass decreases.\n\n**Does this mean that atoms were destroyed? Explain your answer using the law of conservation of mass.**",
+    "solution": "**No, atoms were NOT destroyed.**\n\nThe law of **conservation of mass** states that atoms are **never created or destroyed** during chemical reactions - they only **rearrange** to form new substances.\n\nWhen a candle burns, it reacts with **oxygen** from the air. The wax (containing carbon and hydrogen atoms) undergoes a **combustion reaction** to produce **carbon dioxide** and **water vapour**:\n\n**Candle wax + Oxygen → Carbon dioxide + Water vapour**\n\nBoth products are **gases** that escape into the air, which is why the candle appears to decrease in mass. If we could capture all the gases and measure them, we would find that:\n\n**Mass of (wax + oxygen) = Mass of (carbon dioxide + water vapour)**\n\nThe atoms didn't disappear - they just rearranged into **gaseous products** that floated away. This is a common misconception when observing combustion reactions.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what products are formed when something burns. What state are they in?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "When candles burn, they produce carbon dioxide and water. What happens to these products?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 100,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 43,
+      "conceptsUsed": ["c7", "c8", "c4"],
+      "buildsOn": ["chem-react-y8-042"],
+      "preparesFor": ["chem-react-y8-052"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set5",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-044",
+    "questionType": "MCQ",
+    "stem": "A chemistry student performs the following experiment:\n\n| Stage | Mass |\n|-------|------|\n| Empty sealed flask | 50g |\n| Flask + baking soda + vinegar (before mixing) | 80g |\n| Flask + products (after reaction, still sealed) | ? |\n\nWhat will be the mass of the sealed flask after the reaction?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Less than 80g because gas is produced",
+        "isCorrect": false,
+        "feedback": "Even though gas is produced, the flask is SEALED, so no gas can escape. All atoms remain inside the flask."
+      },
+      {
+        "id": "B",
+        "text": "Exactly 80g because mass is conserved",
+        "isCorrect": true,
+        "feedback": "Correct! The law of conservation of mass states that the total mass of reactants equals the total mass of products. Since the flask is sealed, no atoms can enter or leave, so the mass stays exactly 80g."
+      },
+      {
+        "id": "C",
+        "text": "More than 80g because new substances form",
+        "isCorrect": false,
+        "feedback": "Forming new substances doesn't create new atoms - it just rearranges existing atoms. The total mass cannot increase in a sealed system."
+      },
+      {
+        "id": "D",
+        "text": "Impossible to predict without knowing the products",
+        "isCorrect": false,
+        "feedback": "The law of conservation of mass applies to ALL chemical reactions. In a sealed system, mass is always conserved regardless of what products form."
+      }
+    ],
+    "solution": "The answer is **B** - exactly **80g**.\n\nThis question demonstrates the **law of conservation of mass** in a **closed system** (sealed flask).\n\nKey principles:\n1. **Atoms are not created or destroyed** during chemical reactions\n2. Atoms only **rearrange** to form new substances\n3. In a **sealed container**, no atoms can escape or enter\n\nWhen baking soda reacts with vinegar, it produces carbon dioxide gas, water, and sodium acetate. Even though gas is produced, the flask is **sealed**, so:\n\n**Mass before reaction = Mass after reaction**\n**80g = 80g**\n\nIf the flask were UNSEALED, gas would escape and the measured mass would decrease - but the **total mass** (including escaped gas) would still be conserved.\n\nThis is why chemists often use sealed containers when demonstrating conservation of mass.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Notice that the flask is SEALED. What does this mean for the atoms inside?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Can any atoms escape from a sealed container? What does the law of conservation of mass say?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 44,
+      "conceptsUsed": ["c7"],
+      "buildsOn": ["chem-react-y8-043"],
+      "preparesFor": ["chem-react-y8-045"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set5",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-045",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Look at this data from a chemical reaction:\n\n| Substance | Mass Before | Mass After |\n|-----------|-------------|------------|\n| Hydrogen gas | 2g | 0g |\n| Oxygen gas | 16g | 0g |\n| Water | 0g | 18g |\n\n**Explain how this data supports the law of conservation of mass.**",
+    "solution": "This data **perfectly demonstrates** the law of conservation of mass.\n\nThe law states that the **total mass of reactants equals the total mass of products** because atoms are only **rearranged**, not created or destroyed.\n\nIn this reaction:\n- **Reactants**: Hydrogen (2g) + Oxygen (16g) = **18g total**\n- **Products**: Water = **18g total**\n\nThe **hydrogen atoms** and **oxygen atoms** combined to form **water molecules**. All the atoms that were in the reactants are now in the products - just in a different arrangement:\n\n**2H₂ + O₂ → 2H₂O**\n\nNo atoms were created or destroyed, which is why the total mass remained constant at 18g. The reactants completely converted to products, leaving 0g of hydrogen and oxygen remaining.\n\nThis is a **synthesis reaction** where simpler substances (hydrogen and oxygen) combine to form a more complex substance (water).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Add up the total mass before the reaction and the total mass after. What do you notice?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Compare: (2g + 16g) before vs (18g) after. What does this tell you about conservation of mass?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 45,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["chem-react-y8-044"],
+      "preparesFor": ["chem-react-y8-051"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set5",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-046",
+    "questionType": "MCQ",
+    "stem": "A student says: **\"When wood burns to ash, the mass decreases because atoms are destroyed in the fire.\"**\n\nWhat is wrong with this statement?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Atoms are not destroyed; they escape as gases like carbon dioxide and water vapour",
+        "isCorrect": true,
+        "feedback": "Correct! Atoms are NEVER destroyed in chemical reactions. When wood burns, carbon and hydrogen atoms combine with oxygen to form CO₂ and H₂O (both gases) that escape into the air. The ash is just the mineral residue left behind."
+      },
+      {
+        "id": "B",
+        "text": "The mass doesn't actually decrease - it stays exactly the same",
+        "isCorrect": false,
+        "feedback": "The measured mass of the solid DOES decrease because gaseous products escape. However, the TOTAL mass (including gases) is conserved."
+      },
+      {
+        "id": "C",
+        "text": "Wood doesn't contain atoms, so none can be destroyed",
+        "isCorrect": false,
+        "feedback": "Wood DOES contain atoms (mainly carbon, hydrogen, and oxygen). The issue is that atoms aren't destroyed - they form gaseous products."
+      },
+      {
+        "id": "D",
+        "text": "Fire doesn't cause chemical reactions, only physical changes",
+        "isCorrect": false,
+        "feedback": "Burning (combustion) is definitely a CHEMICAL reaction. New substances are formed (CO₂, H₂O, ash) with different properties than wood."
+      }
+    ],
+    "solution": "The answer is **A**.\n\nThis is a **common misconception** about combustion reactions. The student's error is believing that **atoms are destroyed**.\n\nWhat actually happens when wood burns:\n1. Wood contains **carbon** and **hydrogen** atoms (plus other elements)\n2. These react with **oxygen** from the air in a **combustion reaction**\n3. Products formed: **carbon dioxide (CO₂)** and **water vapour (H₂O)** - both **gases**\n4. These gases **escape into the air**, which is why the visible mass decreases\n5. The **ash** left behind is mainly minerals that don't burn\n\nThe law of **conservation of mass** states:\n**Mass of (wood + oxygen) = Mass of (gases + ash)**\n\nIf we could capture and weigh ALL the gases produced, we'd find that no mass was lost. The atoms weren't destroyed - they were **rearranged** into gaseous products that we can't see.\n\nThis is why **mass appears to decrease** in combustion reactions when performed in open air.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what products form when wood burns. What state of matter are they in?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Combustion produces carbon dioxide and water vapour. These are gases - what happens to them?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 100,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 46,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["chem-react-y8-043"],
+      "preparesFor": ["chem-react-y8-047"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set5",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-047",
+    "questionType": "SHORT_ANSWER",
+    "stem": "You notice an old car has **rust** (iron oxide) forming on its doors.\n\nThe rust weighs MORE than the original iron that corroded.\n\n**Explain where the extra mass came from and why rust needs BOTH oxygen AND water to form.**",
+    "solution": "**Part 1 - Where the extra mass came from:**\n\nThe extra mass came from **oxygen atoms** in the air that combined with the **iron atoms** during the **oxidation reaction**. When iron rusts, it forms **iron oxide**:\n\n**Iron + Oxygen → Iron oxide (rust)**\n\nThe rust contains BOTH iron atoms AND oxygen atoms, so it has a **greater mass** than the iron alone. This follows the law of **conservation of mass** - no atoms were created, but oxygen atoms were added to the iron.\n\n**Part 2 - Why rust needs BOTH oxygen AND water:**\n\nRust is a **chemical reaction** that requires:\n- **Oxygen** - to combine with iron atoms\n- **Water** - acts as a **catalyst/medium** that allows the reaction to occur\n\nWater helps **dissolve** oxygen and allows **ions** to move, which speeds up the corrosion process. Without water (in very dry conditions), iron oxidizes extremely slowly. Without oxygen, no oxidation can occur.\n\nThis is why cars rust faster in **humid coastal areas** (lots of water and oxygen) than in **dry desert areas**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Rust is also called 'iron oxide'. What does the word 'oxide' tell you?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about what iron needs to react with. Does dry iron (no water) rust quickly?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 110,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 47,
+      "conceptsUsed": ["c7", "c3"],
+      "buildsOn": ["chem-react-y8-042", "chem-react-y8-046"],
+      "preparesFor": ["chem-react-y8-058"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set5",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-048",
+    "questionType": "MCQ",
+    "stem": "A student performs a reaction and counts the atoms:\n\n**Before reaction:** 12 hydrogen atoms, 6 oxygen atoms\n**After reaction:** 10 hydrogen atoms, 8 oxygen atoms\n\nWhat can you conclude about this data?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The data is correct because the total number of atoms stayed the same (18 atoms)",
+        "isCorrect": false,
+        "feedback": "While the TOTAL is 18 atoms both times, conservation of mass requires the same number of EACH TYPE of atom. You can't convert hydrogen atoms into oxygen atoms."
+      },
+      {
+        "id": "B",
+        "text": "The data must contain an error because you cannot have different numbers of each atom type",
+        "isCorrect": true,
+        "feedback": "Correct! The law of conservation of mass states that atoms are not created or destroyed. You must have the SAME NUMBER of each type of atom before and after. This data shows 2 hydrogen atoms 'disappeared' and 2 oxygen atoms 'appeared' - which is impossible."
+      },
+      {
+        "id": "C",
+        "text": "This is possible because some hydrogen was converted to oxygen",
+        "isCorrect": false,
+        "feedback": "Atoms cannot be converted from one element to another in chemical reactions. Hydrogen atoms stay as hydrogen atoms - they just rearrange to form new molecules."
+      },
+      {
+        "id": "D",
+        "text": "This is normal for reactions involving gases",
+        "isCorrect": false,
+        "feedback": "The state of matter doesn't matter - conservation of mass applies to ALL chemical reactions. Each type of atom must be conserved."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThis question highlights a critical aspect of the law of **conservation of mass**: you need the **same number of EACH TYPE of atom** before and after, not just the same total.\n\n**Before:** 12 H atoms, 6 O atoms\n**After:** 10 H atoms, 8 O atoms\n\nProblems with this data:\n- **2 hydrogen atoms disappeared** (12 → 10)\n- **2 oxygen atoms appeared** (6 → 8)\n\nThis is **impossible** because:\n1. **Atoms cannot be destroyed** (so H atoms can't disappear)\n2. **Atoms cannot be created** (so O atoms can't appear from nowhere)\n3. **Elements cannot change** (H atoms don't convert to O atoms)\n\nIn a correctly measured reaction:\n- **Hydrogen before = Hydrogen after**\n- **Oxygen before = Oxygen after**\n- Every other element is also conserved\n\nThe student must have made a counting error or some atoms escaped/entered the system.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Don't just count the TOTAL atoms. Count each TYPE separately. What do you notice?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Compare hydrogen before vs after. Compare oxygen before vs after. Can atoms of one element turn into another?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 100,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 48,
+      "conceptsUsed": ["c7"],
+      "buildsOn": ["chem-react-y8-045"],
+      "preparesFor": ["chem-react-y8-049"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set5",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-049",
+    "questionType": "SHORT_ANSWER",
+    "stem": "When you **cook an egg**, it changes from a clear, runny liquid to a white, solid substance.\n\nA student says: **\"This proves that the protein molecules were destroyed and replaced with new ones.\"**\n\n**Is the student correct? Explain what actually happened to the protein molecules.**",
+    "solution": "**No, the student is NOT correct.**\n\nThe protein molecules were **not destroyed** - they underwent a **chemical change** where their structure was **rearranged**.\n\nWhat actually happens when you cook an egg:\n1. **Raw egg proteins** are folded in a specific shape (in their **natural structure**)\n2. **Heat** provides energy that breaks the weak bonds holding the protein in its folded shape\n3. The protein molecules **unfold** and **rearrange** into different shapes\n4. The unfolded proteins **bond together** in new ways, forming a solid network\n5. This creates the **white, solid** texture we see\n\nThis is called **denaturation** - a type of **chemical change** where:\n- The **same atoms** are present (no atoms destroyed/created)\n- The atoms are **rearranged** into different structures\n- The **properties change** dramatically (liquid → solid, clear → white)\n- The change is **irreversible** (you can't uncook an egg)\n\nThis follows the law of **conservation of mass** - all the original atoms are still there, just in a different arrangement. The proteins weren't destroyed and replaced; they were **rearranged**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens in chemical reactions. Are molecules destroyed or do they change structure?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The law of conservation of mass says atoms aren't destroyed. What happens to protein molecules when heated?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 110,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 49,
+      "conceptsUsed": ["c7", "c4"],
+      "buildsOn": ["chem-react-y8-048"],
+      "preparesFor": ["chem-react-y8-054"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set5",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-050",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A baker adds yeast to bread dough. The dough **rises** and increases in volume.\n\n**Explain what chemical reaction is occurring and why the dough rises. Does the total mass of the dough increase, decrease, or stay the same?**",
+    "solution": "**Chemical reaction occurring:**\n\nYeast performs **cellular respiration**, breaking down sugars in the dough:\n\n**Sugar (glucose) + Oxygen → Carbon dioxide + Water + Energy**\n\nThis is a type of **decomposition reaction** where complex sugar molecules are broken down into simpler products.\n\n**Why the dough rises:**\n\nThe **carbon dioxide (CO₂) gas** produced by the yeast gets trapped in the dough, forming **tiny bubbles**. These gas bubbles cause the dough to **expand** and rise. This is why bread has a spongy texture - it's full of CO₂ bubbles.\n\n**Effect on mass:**\n\nIf the dough is in an **open container**, the total mass will **slightly decrease** because:\n- **Carbon dioxide gas escapes** into the air\n- Some **water vapour** may evaporate\n\nHowever, the law of **conservation of mass** still applies:\n**Mass of (sugar + oxygen) = Mass of (CO₂ + water + energy)**\n\nThe mass appears to decrease only because the gaseous products escape. If we could capture all the CO₂ and water vapour, the total mass would be conserved.\n\nThis is the same principle used in baking powder and baking soda - they release CO₂ gas to make cakes and muffins rise.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Yeast is a living organism that breaks down sugars. What gas is commonly produced?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about what happens when a gas is produced inside dough. What state is carbon dioxide in?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 110,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 50,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["chem-react-y8-043", "chem-react-y8-049"],
+      "preparesFor": ["chem-react-y8-051"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set5",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-051",
+    "questionType": "MCQ",
+    "stem": "Which type of reaction is represented by:\n\n**Carbon + Oxygen → Carbon dioxide**",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Decomposition",
+        "isCorrect": false,
+        "feedback": "Decomposition is when one complex substance breaks down into simpler substances. This reaction shows substances COMBINING, not breaking down."
+      },
+      {
+        "id": "B",
+        "text": "Synthesis",
+        "isCorrect": true,
+        "feedback": "Correct! This is a synthesis reaction where two or more simpler substances (carbon and oxygen) combine to form a more complex substance (carbon dioxide). It's also a combustion reaction since carbon is burning."
+      },
+      {
+        "id": "C",
+        "text": "Neutralization",
+        "isCorrect": false,
+        "feedback": "Neutralization specifically refers to acid + base reactions. This reaction involves carbon and oxygen, not an acid and base."
+      },
+      {
+        "id": "D",
+        "text": "Physical change",
+        "isCorrect": false,
+        "feedback": "This is a CHEMICAL reaction, not a physical change. New substances are formed with different properties."
+      }
+    ],
+    "solution": "The answer is **B** - this is a **synthesis reaction**.\n\n**Synthesis reactions** have the pattern:\n**A + B → AB**\n\nTwo or more **simpler substances** combine to form a **more complex substance**.\n\nIn this case:\n- **Carbon (C)** - an element\n- **Oxygen (O₂)** - an element  \n- **Carbon dioxide (CO₂)** - a compound\n\nThe elements carbon and oxygen **combine** to form the compound carbon dioxide.\n\nThis reaction is ALSO a **combustion reaction** because carbon is burning (reacting with oxygen, releasing energy). Many reactions can fit into multiple categories.\n\n**Contrast with decomposition:**\nDecomposition is the OPPOSITE pattern: **AB → A + B**\nExample: **Water → Hydrogen + Oxygen** (breaking DOWN a complex substance)\n\nRemember: \n- **Synthesis** = building UP (combining)\n- **Decomposition** = breaking DOWN (separating)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at the pattern: are things combining or breaking apart? How many reactants vs products?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "You start with TWO substances (carbon and oxygen) and end with ONE substance (carbon dioxide). What type is this?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 80,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 51,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["chem-react-y8-045"],
+      "preparesFor": ["chem-react-y8-052"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set6",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-052",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Identify whether each reaction is **synthesis** or **decomposition**:\n\n**A)** Hydrogen + Oxygen → Water\n\n**B)** Hydrogen peroxide → Water + Oxygen\n\n**C)** Sodium + Chlorine → Sodium chloride (salt)\n\n**Explain how you determined the type for each reaction.**",
+    "solution": "**A) Synthesis**\n\n**B) Decomposition**\n\n**C) Synthesis**\n\n**Explanation:**\n\nThe key is to look at the **pattern** of reactants and products:\n\n**Synthesis reactions:** Multiple substances COMBINE to form one substance\n- **Pattern: A + B → AB**\n- Reaction A: Two elements (H₂ and O₂) combine to form one compound (H₂O) ✓\n- Reaction C: Two elements (Na and Cl₂) combine to form one compound (NaCl) ✓\n\n**Decomposition reactions:** One substance BREAKS DOWN into multiple substances\n- **Pattern: AB → A + B**\n- Reaction B: One compound (H₂O₂) breaks down into two simpler substances (H₂O and O₂) ✓\n\n**Memory aid:**\n- **Synthesis** = \"**syn-thesis**\" means putting together (synthesize = create by combining parts)\n- **Decomposition** = \"**de-compose**\" means breaking apart (decompose = break down into pieces)\n\nYou can identify the type by **counting** reactants vs products:\n- **Many → One** = Synthesis\n- **One → Many** = Decomposition",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Count how many substances are on each side of the arrow. Look for the pattern of combining vs breaking apart.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Synthesis means combining (many → one). Decomposition means breaking down (one → many).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 100,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 52,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["chem-react-y8-051"],
+      "preparesFor": ["chem-react-y8-053"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set6",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-053",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Photosynthesis** is the reaction where plants make their own food:\n\n**Carbon dioxide + Water → Glucose + Oxygen**\n\n**What type of reaction is this (synthesis or decomposition)? Explain your reasoning.**",
+    "solution": "This is a **synthesis reaction**.\n\n**Reasoning:**\n\nIn this reaction:\n- **Reactants:** Two substances (carbon dioxide AND water)\n- **Products:** Two substances (glucose AND oxygen)\n\nAt first, this might seem confusing because there are multiple products. However, the key is to focus on what's being **built**:\n\nPlants are **synthesizing (building)** the complex molecule **glucose (C₆H₁₂O₆)** from simpler molecules (CO₂ and H₂O). This is the defining characteristic of a synthesis reaction - **creating a more complex substance**.\n\nThe oxygen is a **by-product** released during this process.\n\nThink of it this way:\n- The **main purpose** is to BUILD glucose (synthesis)\n- Simple molecules (CO₂, H₂O) → Complex molecule (glucose)\n\n**Alternative perspective:**\nYou could also view this as:\n- 6CO₂ + 6H₂O → 1C₆H₁₂O₆ + 6O₂\n- Multiple small molecules combining to form ONE large, complex molecule\n\nThis is a **synthesis reaction** that requires **energy from sunlight** to occur, which is why plants need light to grow.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what the plant is MAKING. Is glucose more complex or simpler than CO₂ and H₂O?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Synthesis means building complex substances from simpler ones. What is the complex substance being built?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 100,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 53,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["chem-react-y8-052"],
+      "preparesFor": ["chem-react-y8-055"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set6",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-054",
+    "questionType": "MCQ",
+    "stem": "A student says: **\"Products of a chemical reaction always have the same properties as the reactants because they contain the same atoms.\"**\n\nWhich example BEST shows why this statement is incorrect?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Ice melting to water - same substance, different state",
+        "isCorrect": false,
+        "feedback": "This is a physical change, not a chemical reaction. The substance (H₂O) stays the same, just changing state."
+      },
+      {
+        "id": "B",
+        "text": "Hydrogen + Oxygen → Water - explosive gases form a liquid that puts out fires",
+        "isCorrect": true,
+        "feedback": "Correct! This perfectly demonstrates that products have COMPLETELY DIFFERENT properties than reactants. Hydrogen (explosive) and oxygen (supports burning) combine to form water (liquid that extinguishes fires). Same atoms, totally different arrangement = totally different properties."
+      },
+      {
+        "id": "C",
+        "text": "Sugar dissolving in water - still tastes sweet",
+        "isCorrect": false,
+        "feedback": "Dissolving is a physical change, not a chemical reaction. The sugar molecules stay the same, just spread out in water."
+      },
+      {
+        "id": "D",
+        "text": "Mixing red and blue paint to make purple",
+        "isCorrect": false,
+        "feedback": "This is a physical mixture, not a chemical reaction. No new substances are formed."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThis question addresses a **critical misconception**: that products have the same properties as reactants.\n\n**Why the student is wrong:**\n\nWhile it's TRUE that the same atoms are present (conservation of mass), the **arrangement** of atoms determines properties:\n\n**Example: Hydrogen + Oxygen → Water**\n\n**Reactant properties:**\n- **Hydrogen (H₂):** Colourless gas, highly explosive, lighter than air\n- **Oxygen (O₂):** Colourless gas, supports combustion, necessary for burning\n\n**Product properties:**\n- **Water (H₂O):** Liquid at room temperature, extinguishes fires, denser than air\n\nThe **same atoms** (hydrogen and oxygen) are present, but they're **bonded differently**:\n- In H₂: hydrogen-hydrogen bonds\n- In O₂: oxygen-oxygen bonds  \n- In H₂O: hydrogen-oxygen bonds\n\nDifferent **molecular structure** → Different **properties**\n\nThis is why chemical reactions are so useful - we can take substances with certain properties and **rearrange** their atoms to create substances with completely different, more useful properties.\n\n**Other examples:**\n- Carbon + Oxygen → CO₂ (solid + gas → gas)\n- Iron + Oxygen → Rust (grey metal + invisible gas → reddish-brown solid)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look for an example where the reactants and products have VERY different properties. Which is a chemical reaction?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about the properties of hydrogen and oxygen gases vs the properties of water. Are they similar?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 100,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 54,
+      "conceptsUsed": ["c1", "c7"],
+      "buildsOn": ["chem-react-y8-049"],
+      "preparesFor": ["chem-react-y8-056"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set6",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-055",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Combustion** reactions always follow this pattern:\n\n**Fuel + Oxygen → Carbon dioxide + Water (+ Energy)**\n\nExplain why combustion is classified as BOTH:\n- A **synthesis** reaction (in some ways)\n- An **oxidation** reaction\n\nGive specific examples to support your explanation.",
+    "solution": "**Combustion as OXIDATION (primary classification):**\n\nCombustion is definitely an **oxidation reaction** because:\n- The fuel **combines with oxygen**\n- \"**Oxidation**\" literally means \"combining with oxygen\"\n- Oxygen atoms bond to carbon and hydrogen atoms from the fuel\n\n**Example:** When methane burns:\n**CH₄ + 2O₂ → CO₂ + 2H₂O**\n\nThe carbon is **oxidized** (gains oxygen) to form CO₂\nThe hydrogen is **oxidized** (gains oxygen) to form H₂O\n\n**Combustion as SYNTHESIS (partial):**\n\nIf you look at individual steps, you can see synthesis patterns:\n- **Carbon + Oxygen → Carbon dioxide** (C + O₂ → CO₂)\n  - Two elements combining to form a compound = **synthesis**\n- **Hydrogen + Oxygen → Water** (H₂ + O₂ → H₂O)  \n  - Two elements combining to form a compound = **synthesis**\n\nSo combustion involves **synthesis steps** where oxygen combines with elements to form compounds.\n\n**Complete picture:**\n\nCombustion is MAINLY an **oxidation reaction**, but it can be viewed as involving **synthesis processes** because simpler substances (elements or simple compounds) combine with oxygen to form more complex products (oxides).\n\nThe key is that **one reaction can fit multiple categories** depending on how you analyze it.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what 'oxidation' means. What element is always involved in combustion?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Look at the pattern: fuel + oxygen → products. Are things combining or breaking apart?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 55,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["chem-react-y8-051", "chem-react-y8-053"],
+      "preparesFor": ["chem-react-y8-057"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set6",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-056",
+    "questionType": "MCQ",
+    "stem": "**Fireworks** produce different colored lights:\n- Strontium compounds → Red light\n- Copper compounds → Blue light  \n- Barium compounds → Green light\n\nWhy do different elements produce different colors when they burn?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Different elements have different masses",
+        "isCorrect": false,
+        "feedback": "While different elements do have different masses, this doesn't explain the different colors. Mass doesn't determine light color."
+      },
+      {
+        "id": "B",
+        "text": "Different elements have different atomic structures that release different amounts of energy as colored light",
+        "isCorrect": true,
+        "feedback": "Correct! Each element has a unique atomic structure. When heated, electrons absorb energy and jump to higher levels, then release specific amounts of energy as light when they fall back. Different elements = different energy releases = different colors. This is why fireworks can be designed to produce specific colors."
+      },
+      {
+        "id": "C",
+        "text": "The color comes from the oxygen they react with, not the elements themselves",
+        "isCorrect": false,
+        "feedback": "All these reactions involve oxygen, but they produce different colors. The color comes from the specific element (strontium, copper, or barium), not the oxygen."
+      },
+      {
+        "id": "D",
+        "text": "The products of combustion always have different colors than the reactants",
+        "isCorrect": false,
+        "feedback": "This is too general and doesn't explain WHY different elements produce different colors. Many combustion products are colorless gases."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThis question connects **chemical reactions** to **atomic structure**:\n\n**Why different elements produce different colors:**\n\n1. **Each element has unique atoms** with specific numbers of electrons\n2. When heated (combustion), **electrons absorb energy** and jump to higher energy levels\n3. When electrons **fall back down**, they release this energy as **light**\n4. The **amount of energy** released depends on the **atomic structure** of that specific element\n5. Different energy amounts = **different wavelengths of light** = **different colors**\n\n**Examples:**\n- **Strontium:** Releases energy that corresponds to **red light** wavelength\n- **Copper:** Releases energy that corresponds to **blue light** wavelength\n- **Barium:** Releases energy that corresponds to **green light** wavelength\n\n**Real-world application:**\n\nFirework manufacturers use this knowledge to create spectacular displays:\n- Want red? Add **strontium** compounds\n- Want blue? Add **copper** compounds  \n- Want white? Add **magnesium or aluminum**\n- Want gold? Add **iron** or **charcoal**\n\nThis is the same principle used in:\n- **Flame tests** in chemistry labs (identifying unknown elements)\n- **Neon signs** (different gases produce different colors)\n- **LED lights** (different materials produce different colors)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what makes each element unique. What's different about strontium atoms vs copper atoms?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Light color is related to energy. Different atoms have different structures that release different amounts of energy.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 100,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 56,
+      "conceptsUsed": ["c8", "c1"],
+      "buildsOn": ["chem-react-y8-054"],
+      "preparesFor": ["chem-react-y8-060"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set6",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-057",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A car engine burns petrol (C₈H₁₈) in oxygen:\n\n**2C₈H₁₈ + 25O₂ → 16CO₂ + 18H₂O**\n\n**Part A:** Show that this equation follows the law of conservation of mass by counting each type of atom.\n\n**Part B:** Explain where the mass of carbon dioxide in car exhaust comes from, given that petrol is a liquid.",
+    "solution": "**Part A - Conservation of mass:**\n\nCounting atoms on each side:\n\n**Reactants (left side):**\n- **Carbon:** 2 × 8 = **16 C atoms**\n- **Hydrogen:** 2 × 18 = **36 H atoms**  \n- **Oxygen:** 25 × 2 = **50 O atoms**\n- **Total: 16 C + 36 H + 50 O**\n\n**Products (right side):**\n- **Carbon:** 16 × 1 = **16 C atoms** (in CO₂)\n- **Hydrogen:** 18 × 2 = **36 H atoms** (in H₂O)\n- **Oxygen:** (16 × 2) + 18 = **50 O atoms** (in CO₂ and H₂O)\n- **Total: 16 C + 36 H + 50 O**\n\nThe **same number of each type of atom** appears on both sides, confirming the law of conservation of mass. Atoms were **rearranged** but not created or destroyed.\n\n**Part B - Where CO₂ mass comes from:**\n\nThe mass of carbon dioxide comes from **TWO sources**:\n\n1. **Carbon atoms** from the petrol (liquid)\n2. **Oxygen atoms** from the air (gas)\n\nWhile petrol is a liquid, it contains **carbon atoms**. During combustion, these carbon atoms **combine with oxygen** from the air to form **CO₂ gas**.\n\nThe CO₂ has **greater mass** than just the carbon alone because it includes oxygen atoms. This demonstrates:\n- **Conservation of mass** (C + O = CO₂)\n- **Combustion** reaction pattern (fuel + oxygen → oxides)\n- Why exhaust gases contain mass even though they're invisible",
+    "hints": [
+      {
+        "level": 1,
+        "content": "For Part A, count each element separately. Multiply the subscripts by the coefficients in front.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "For Part B, remember that CO₂ contains carbon AND oxygen. Where does each come from?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 57,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["chem-react-y8-048", "chem-react-y8-055"],
+      "preparesFor": ["chem-react-y8-061"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set6",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-058",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Two identical iron nails are left in different conditions for one month:\n\n| Nail | Conditions | Result |\n|------|-----------|--------|\n| A | Dry desert air (no water) | Slight darkening, minimal rust |\n| B | Humid coastal air (salty water spray) | Heavy orange-brown rust |\n\n**Explain why Nail B rusted much more than Nail A, using your knowledge of the conditions needed for rusting.**",
+    "solution": "Nail B rusted much more because **rusting requires BOTH oxygen AND water**, and Nail B had both in abundance.\n\n**Why rusting needs BOTH conditions:**\n\n**1. Oxygen is needed:**\nRusting is an **oxidation reaction** where iron combines with oxygen:\n**Iron + Oxygen → Iron oxide (rust)**\n\nBoth nails had access to oxygen from the air, so this condition was met for both.\n\n**2. Water is needed:**\nWater acts as a **medium/catalyst** that:\n- **Dissolves oxygen**, making it more available to react\n- **Allows ions to move**, which speeds up the chemical reaction\n- Creates an **electrolyte** (especially with salt) that accelerates corrosion\n\nWithout water, oxidation happens VERY slowly.\n\n**Comparing the nails:**\n\n**Nail A (dry desert):**\n- ✓ Oxygen present\n- ✗ No water (very dry)\n- Result: **Minimal rusting** (very slow reaction)\n\n**Nail B (humid coastal):**\n- ✓ Oxygen present\n- ✓ Water present (humidity + spray)\n- ✓ **BONUS: Salt** in seawater accelerates rusting even more\n- Result: **Heavy rusting** (fast reaction)\n\n**Real-world application:**\nThis is why cars rust faster in coastal areas than in dry inland regions, and why bridges near the ocean need special protective coatings.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Rusting needs more than just oxygen. What else is required for iron to rust quickly?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about the conditions: what was PRESENT in the coastal air that was ABSENT in the desert air?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 110,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 58,
+      "conceptsUsed": ["c3", "c7"],
+      "buildsOn": ["chem-react-y8-047"],
+      "preparesFor": ["chem-react-y8-059"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set6",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-059",
+    "questionType": "MCQ",
+    "stem": "A student wants to classify these reactions:\n\n**Reaction 1:** Photosynthesis - CO₂ + H₂O → C₆H₁₂O₆ + O₂\n**Reaction 2:** Cellular respiration - C₆H₁₂O₆ + O₂ → CO₂ + H₂O\n\nWhat is the relationship between these two reactions?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They are the same reaction, just written differently",
+        "isCorrect": false,
+        "feedback": "They are different reactions happening in different directions. The reactants of one are the products of the other."
+      },
+      {
+        "id": "B",
+        "text": "They are opposite reactions - the products of one are the reactants of the other",
+        "isCorrect": true,
+        "feedback": "Correct! These reactions are REVERSE processes. Photosynthesis builds glucose from CO₂ and H₂O (synthesis), while cellular respiration breaks glucose down into CO₂ and H₂O (decomposition). This creates a cycle: plants make glucose that animals break down for energy, producing CO₂ that plants use again."
+      },
+      {
+        "id": "C",
+        "text": "They are both synthesis reactions",
+        "isCorrect": false,
+        "feedback": "Photosynthesis is synthesis (building glucose), but cellular respiration is decomposition (breaking down glucose). They're opposite types."
+      },
+      {
+        "id": "D",
+        "text": "They are both decomposition reactions",
+        "isCorrect": false,
+        "feedback": "Cellular respiration is decomposition, but photosynthesis is synthesis (building glucose from simpler molecules). They're opposite types."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThis question reveals a beautiful **connection** in nature:\n\n**Photosynthesis (in plants):**\n- **Type:** Synthesis (building glucose)\n- **Direction:** CO₂ + H₂O → Glucose + O₂\n- **Energy:** Requires light energy (input)\n- **Location:** Plant cells (chloroplasts)\n\n**Cellular respiration (in animals and plants):**\n- **Type:** Decomposition (breaking down glucose)  \n- **Direction:** Glucose + O₂ → CO₂ + H₂O\n- **Energy:** Releases chemical energy (output)\n- **Location:** All cells (mitochondria)\n\n**The beautiful cycle:**\n\n1. Plants perform **photosynthesis** → produce glucose and oxygen\n2. Animals eat plants → get glucose\n3. Animals perform **cellular respiration** → break down glucose, use oxygen\n4. This produces CO₂ and H₂O → exhaled/released\n5. Plants use this CO₂ and H₂O for photosynthesis → cycle continues!\n\n**Key insight:**\nThe **same atoms** continuously cycle through both reactions:\n- Carbon cycles between CO₂ and glucose\n- Oxygen cycles between O₂ and H₂O and CO₂\n- Hydrogen cycles between H₂O and glucose\n\nThis demonstrates **conservation of mass** on a global scale - Earth's atoms are constantly being **rearranged** but never created or destroyed.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look carefully at what's on the left side of one equation and the right side of the other. What do you notice?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "In Reaction 1, glucose is produced. In Reaction 2, glucose is consumed. What does this tell you?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 110,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 59,
+      "conceptsUsed": ["c8", "c7"],
+      "buildsOn": ["chem-react-y8-053", "chem-react-y8-057"],
+      "preparesFor": ["chem-react-y8-061"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set6",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-060",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A chemistry teacher performs three demonstrations:\n\n**Demo 1:** Burns magnesium ribbon - produces bright white light and white powder (mass increases)\n\n**Demo 2:** Burns steel wool - glows orange-red, forms black powder (mass increases)\n\n**Demo 3:** Burns wooden splint - produces orange flame, forms ash (mass appears to decrease)\n\n**All three are combustion reactions with oxygen. Using your knowledge of conservation of mass, reaction types, and properties of products, explain:**\n\n**A)** Why the mass increases in Demos 1 and 2, but appears to decrease in Demo 3\n\n**B)** Why different substances produce different colored flames even though they all react with oxygen",
+    "solution": "**Part A - Mass changes:**\n\nAll three reactions follow the **law of conservation of mass**, but they appear different because of what happens to the products:\n\n**Demos 1 & 2 (mass INCREASES):**\n- Products are **solid** (white powder, black powder)\n- These solids **remain** on the scale\n- Visible mass = Mass of original metal + Mass of oxygen that reacted\n- Example: **Magnesium + Oxygen → Magnesium oxide (solid)**\n\n**Demo 3 (mass APPEARS to decrease):**\n- Products are mainly **gases** (CO₂, H₂O vapour)\n- These gases **escape** into the air\n- Only **ash** (solid mineral residue) remains\n- The measured mass decreases, but **total mass is conserved**\n- Example: **Wood + Oxygen → CO₂ (gas) + H₂O (gas) + Ash (solid)**\n\nIf Demo 3 were performed in a **sealed container**, the mass would stay constant because the gases couldn't escape.\n\n**Part B - Different colored flames:**\n\nDifferent substances produce different colors because:\n\n1. **Each element has unique atomic structure**\n2. When heated, **electrons absorb energy** and jump to higher energy levels\n3. When electrons **fall back**, they release energy as **light**\n4. The **amount of energy** released depends on the element's structure\n5. Different energy amounts = **different wavelengths** = **different colors**\n\n**Examples:**\n- **Magnesium:** Releases high energy → **bright white** light\n- **Iron** (in steel wool): Releases medium energy → **orange-red** glow\n- **Carbon/sodium** (in wood): Release specific energies → **orange/yellow** flame\n\nEven though all three react with oxygen, the **specific element** being oxidized determines the flame color, not the oxygen itself.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "For Part A: Think about the STATE of the products. Are they solid, liquid, or gas? What happens to gases?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "For Part B: Different elements have different atomic structures. How does this affect the energy they release as light?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 60,
+      "conceptsUsed": ["c7", "c8", "c1", "c4"],
+      "buildsOn": ["chem-react-y8-046", "chem-react-y8-056", "chem-react-y8-057"],
+      "preparesFor": ["chem-react-y8-061"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set6",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  }
+]

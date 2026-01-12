@@ -1,0 +1,1206 @@
+{
+  "topic": "Mathematical Reasoning",
+  "examSection": "NSW Selective High School Placement Test",
+  "targetYear": "Year 6 (for Year 7 entry)",
+  "researchedAt": "2026-01-12",
+  "version": "2.0",
+  "lastUpdated": "2026-01-12",
+  "updateNotes": "Comprehensive update adding 20 question archetypes, distractor patterns, visual diagram types, and additional misconceptions based on deep analysis of official NSW practice tests",
+
+  "testOverview": {
+    "duration": "40 minutes",
+    "questionCount": 35,
+    "answerFormat": "Multiple choice (5 options A-E)",
+    "weighting": "25%",
+    "calculatorAllowed": false,
+    "timePerQuestion": "~68 seconds",
+    "noNegativeMarking": true
+  },
+
+  "curriculumAlignment": {
+    "basis": "NSW K-6 Mathematics Curriculum",
+    "stage": "Stage 3 (Years 5-6)",
+    "note": "Questions draw upon concepts students learn at school up to Year 6 - no extra knowledge required",
+    "contentStrands": [
+      "Number and Algebra",
+      "Measurement and Geometry",
+      "Statistics and Probability"
+    ],
+    "emphasis": "Mathematical reasoning and problem-solving over procedural calculation"
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Mental Calculation Fluency",
+      "description": "Rapid and accurate mental arithmetic without calculator",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c2", "c3", "c4"],
+      "criticalSkills": [
+        "Addition/subtraction within 1000",
+        "Times tables to 12x12",
+        "Division facts",
+        "Doubling and halving",
+        "Estimation and checking"
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Fraction-Decimal-Percentage Fluency",
+      "description": "Understanding and converting between rational number representations",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c5", "c6"],
+      "criticalSkills": [
+        "Equivalent fractions",
+        "Comparing fractions with different denominators",
+        "Converting between forms",
+        "Operations with fractions",
+        "Percentage calculations"
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Proportional Reasoning",
+      "description": "Understanding multiplicative relationships and scaling",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c6", "c10"],
+      "criticalSkills": [
+        "Ratios in simplest form",
+        "Dividing in ratio",
+        "Scale drawings",
+        "Unit rates",
+        "Multiplicative comparison"
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Order of Operations",
+      "description": "Applying BODMAS/PEMDAS correctly in multi-step calculations",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c5"],
+      "criticalSkills": [
+        "Brackets first",
+        "Indices/powers",
+        "Division and multiplication (left to right)",
+        "Addition and subtraction (left to right)"
+      ]
+    },
+    {
+      "id": "c5",
+      "name": "Algebraic Thinking",
+      "description": "Using variables, patterns, and generalisation",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c9"],
+      "criticalSkills": [
+        "Finding nth term rules",
+        "Substitution",
+        "Solving simple equations",
+        "Expressing patterns algebraically",
+        "Inverse operations"
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "Measurement and Calculation",
+      "description": "Perimeter, area, volume calculations and unit conversions",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c7"],
+      "criticalSkills": [
+        "Perimeter of polygons",
+        "Area of rectangles, triangles, composite shapes",
+        "Volume of rectangular prisms",
+        "Metric conversions",
+        "Time calculations"
+      ]
+    },
+    {
+      "id": "c7",
+      "name": "Spatial Reasoning",
+      "description": "Visualising and reasoning about 2D and 3D shapes",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": [],
+      "criticalSkills": [
+        "Properties of shapes",
+        "Angle relationships",
+        "Nets of 3D shapes",
+        "Views from different angles",
+        "Counting cubes in structures"
+      ]
+    },
+    {
+      "id": "c8",
+      "name": "Data Interpretation",
+      "description": "Reading and analysing statistical displays",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": [],
+      "criticalSkills": [
+        "Reading graphs (bar, pie, line)",
+        "Calculating mean, median, mode, range",
+        "Drawing conclusions from data",
+        "Identifying misleading graphs"
+      ]
+    },
+    {
+      "id": "c9",
+      "name": "Pattern Recognition",
+      "description": "Identifying and extending numerical and visual patterns",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": [],
+      "criticalSkills": [
+        "Arithmetic sequences",
+        "Geometric sequences",
+        "Multi-rule patterns",
+        "Number relationships"
+      ]
+    },
+    {
+      "id": "c10",
+      "name": "Problem Solving Strategies",
+      "description": "Applying reasoning to multi-step word problems",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": [],
+      "criticalSkills": [
+        "Identifying relevant information",
+        "Working backwards",
+        "Systematic approaches",
+        "Checking reasonableness"
+      ]
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "topic": "Fractions",
+      "misconception": "1/5 is smaller than 1/10 because 5 is smaller than 10",
+      "correction": "With unit fractions, the larger the denominator, the smaller the fraction. Think: sharing a pizza among 10 people gives smaller pieces than sharing among 5.",
+      "prevalence": "high",
+      "source": "Driver et al., Children's Errors in Mathematics",
+      "questionPhase": 2,
+      "testingStrategy": "Present fraction comparison questions that expose whole-number thinking"
+    },
+    {
+      "id": "m2",
+      "topic": "Decimals",
+      "misconception": "0.123 is greater than 0.45 because 123 > 45",
+      "correction": "Compare place values: 0.45 = 0.450, which has 4 tenths vs 1 tenth in 0.123",
+      "prevalence": "high",
+      "source": "Siegler & Lortie-Forgues (2017)",
+      "questionPhase": 2,
+      "testingStrategy": "Include decimal comparisons with different digit counts"
+    },
+    {
+      "id": "m3",
+      "topic": "Decimals",
+      "misconception": "0.47 < 0.2 because hundredths are smaller than tenths",
+      "correction": "The quantity matters: 47 hundredths is more than 2 tenths (47/100 > 20/100)",
+      "prevalence": "medium",
+      "source": "Siegler & Lortie-Forgues (2017)",
+      "questionPhase": 3,
+      "testingStrategy": "Mix decimal comparisons requiring place value reasoning"
+    },
+    {
+      "id": "m4",
+      "topic": "Ratios",
+      "misconception": "Using additive reasoning: if 2:3 → then 4:5 (adding 2 to each)",
+      "correction": "Ratios use multiplicative relationships: 2:3 → 4:6 (multiply both by 2)",
+      "prevalence": "high",
+      "source": "Dougherty et al. (2017)",
+      "questionPhase": 3,
+      "testingStrategy": "Include ratio problems that catch additive thinking errors"
+    },
+    {
+      "id": "m5",
+      "topic": "Fractions",
+      "misconception": "Adding same number to numerator and denominator doesn't change the fraction (e.g., 2/3 = 4/5)",
+      "correction": "Only multiplying/dividing both by same number preserves the fraction's value",
+      "prevalence": "medium",
+      "source": "Mathematics education research",
+      "questionPhase": 2,
+      "testingStrategy": "Equivalent fraction questions with additive distractors"
+    },
+    {
+      "id": "m6",
+      "topic": "Area/Perimeter",
+      "misconception": "Confusing area and perimeter formulas - using multiplication for perimeter",
+      "correction": "Perimeter = distance around (add sides); Area = surface space (multiply dimensions)",
+      "prevalence": "high",
+      "source": "Machaba (2016), Outhred & Mitchelmore (2000)",
+      "questionPhase": 2,
+      "testingStrategy": "Questions requiring both area and perimeter to expose confusion"
+    },
+    {
+      "id": "m7",
+      "topic": "Area/Perimeter",
+      "misconception": "Same perimeter = same area (or vice versa)",
+      "correction": "Rectangles with equal perimeter can have different areas (e.g., 1×9 and 4×6 both have P=20, but A=9 vs A=24)",
+      "prevalence": "medium",
+      "source": "Mathematics education research",
+      "questionPhase": 3,
+      "testingStrategy": "Include questions comparing shapes with same perimeter but different areas"
+    },
+    {
+      "id": "m8",
+      "topic": "Volume",
+      "misconception": "Using perimeter or area formula for volume",
+      "correction": "Volume = length × width × height (3 dimensions); measured in cubic units",
+      "prevalence": "medium",
+      "source": "Mathematics education research",
+      "questionPhase": 3,
+      "testingStrategy": "Volume problems with 2D formula results as distractors"
+    },
+    {
+      "id": "m9",
+      "topic": "Probability",
+      "misconception": "Equiprobability bias: all outcomes equally likely (e.g., two dice sums all equal probability)",
+      "correction": "Some outcomes have more combinations: sum of 7 has 6 ways, sum of 2 has only 1 way",
+      "prevalence": "high",
+      "source": "Shaughnessy & Ciancetta (2002)",
+      "questionPhase": 3,
+      "testingStrategy": "Include compound probability questions exposing equiprobability bias"
+    },
+    {
+      "id": "m10",
+      "topic": "Probability",
+      "misconception": "Two coins: HH, TT, HT are equally likely outcomes",
+      "correction": "HT can occur two ways (HT or TH), so P(one of each) = 2/4 = 1/2, not 1/3",
+      "prevalence": "high",
+      "source": "NCETM Probability research",
+      "questionPhase": 3,
+      "testingStrategy": "Coin/dice problems requiring systematic outcome counting"
+    },
+    {
+      "id": "m11",
+      "topic": "Order of Operations",
+      "misconception": "Working left to right regardless of operation precedence",
+      "correction": "BODMAS: Brackets, Orders, Division/Multiplication, Addition/Subtraction",
+      "prevalence": "high",
+      "source": "Common mathematics errors",
+      "questionPhase": 1,
+      "testingStrategy": "Include expressions where left-to-right gives wrong answer"
+    },
+    {
+      "id": "m12",
+      "topic": "Algebra",
+      "misconception": "Equal sign means 'the answer is' rather than 'is the same as'",
+      "correction": "Equal sign shows equivalence: 5 + 2 = 3 + 4 is valid because both equal 7",
+      "prevalence": "high",
+      "source": "NCTM algebraic thinking research",
+      "questionPhase": 2,
+      "testingStrategy": "Include equations where number appears on right side of equals"
+    },
+    {
+      "id": "m13",
+      "topic": "Negative Numbers",
+      "misconception": "-5 is larger than -2 because 5 > 2",
+      "correction": "On number line, further left = smaller. -5 is 5 below zero, -2 is only 2 below",
+      "prevalence": "medium",
+      "source": "Number sense research",
+      "questionPhase": 2,
+      "testingStrategy": "Include negative number comparisons and operations"
+    },
+    {
+      "id": "m14",
+      "topic": "Spatial Reasoning",
+      "misconception": "A rotated shape is a different shape",
+      "correction": "Rotation preserves shape identity; a rotated square is still a square",
+      "prevalence": "medium",
+      "source": "Van Hiele geometry research",
+      "questionPhase": 2,
+      "testingStrategy": "Include shape recognition with non-standard orientations"
+    },
+    {
+      "id": "m15",
+      "topic": "Angles",
+      "misconception": "Estimating angles by visual appearance without reference to right angles",
+      "correction": "Use 90° as benchmark: acute < 90°, obtuse > 90°, reflex > 180°",
+      "prevalence": "medium",
+      "source": "Geometry education research",
+      "questionPhase": 2,
+      "testingStrategy": "Angle estimation and calculation problems"
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "Sharing pizza equally among friends",
+      "concepts": ["c2"],
+      "curiosityHook": "Why does cutting a pizza into 8 pieces give you more pieces but less pizza per piece than cutting into 4?",
+      "questionPhase": 1,
+      "applicationContext": "Fractions as division, equivalent portions"
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Sales discounts and best deals",
+      "concepts": ["c2", "c3"],
+      "curiosityHook": "Is 25% off better than buy-2-get-1-free? How do you know?",
+      "questionPhase": 3,
+      "applicationContext": "Percentages, comparison, value calculation"
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Recipe scaling for different group sizes",
+      "concepts": ["c3"],
+      "curiosityHook": "A recipe serves 4 people. How do you adjust it for a party of 15?",
+      "questionPhase": 2,
+      "applicationContext": "Ratios, proportional reasoning, scaling"
+    },
+    {
+      "id": "p4",
+      "phenomenon": "Packing boxes in a shipping container",
+      "concepts": ["c6", "c7"],
+      "curiosityHook": "How many shoeboxes can fit in a large shipping container?",
+      "questionPhase": 3,
+      "applicationContext": "Volume, spatial reasoning, division"
+    },
+    {
+      "id": "p5",
+      "phenomenon": "Reading a map and estimating distances",
+      "concepts": ["c3", "c6"],
+      "curiosityHook": "If 1 cm on the map = 5 km in real life, how far is it between two cities 8 cm apart?",
+      "questionPhase": 2,
+      "applicationContext": "Scale, multiplication, measurement"
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Sports statistics and player performance",
+      "concepts": ["c8", "c2"],
+      "curiosityHook": "Which cricketer has the better batting average, and what does that really tell us?",
+      "questionPhase": 3,
+      "applicationContext": "Mean, data interpretation, comparison"
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Building with LEGO bricks",
+      "concepts": ["c7"],
+      "curiosityHook": "How many different views can you see from a 3D LEGO structure?",
+      "questionPhase": 2,
+      "applicationContext": "Spatial reasoning, 3D visualization"
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Board game probability and strategy",
+      "concepts": ["c9"],
+      "curiosityHook": "In Monopoly, which properties are you most likely to land on after rolling two dice?",
+      "questionPhase": 3,
+      "applicationContext": "Probability, sample space, strategic thinking"
+    },
+    {
+      "id": "p9",
+      "phenomenon": "Tiling a floor or wall",
+      "concepts": ["c6"],
+      "curiosityHook": "How many square tiles do you need to cover a rectangular bathroom floor?",
+      "questionPhase": 2,
+      "applicationContext": "Area, division, practical measurement"
+    },
+    {
+      "id": "p10",
+      "phenomenon": "Train timetables and journey planning",
+      "concepts": ["c1", "c10"],
+      "curiosityHook": "If you miss the 9:15 train, which later train gets you there fastest?",
+      "questionPhase": 2,
+      "applicationContext": "Time calculations, problem solving"
+    }
+  ],
+
+  "scaffoldingSequence": {
+    "phase1": {
+      "name": "Foundations",
+      "focus": "Number fluency and basic operations",
+      "topics": ["Mental calculation", "Basic fractions", "Order of operations", "Place value"],
+      "questionTypes": "Direct calculation, simple word problems"
+    },
+    "phase2": {
+      "name": "Connections",
+      "focus": "Linking concepts and applying to contexts",
+      "topics": ["Fraction-decimal-percentage conversions", "Ratio basics", "Area and perimeter", "Basic probability"],
+      "questionTypes": "Multi-step problems, contextual applications"
+    },
+    "phase3": {
+      "name": "Reasoning",
+      "focus": "Complex problem solving and mathematical reasoning",
+      "topics": ["Proportional reasoning", "Algebraic thinking", "Spatial reasoning", "Data analysis"],
+      "questionTypes": "Non-routine problems, requiring multiple concepts"
+    },
+    "phase4": {
+      "name": "Integration",
+      "focus": "Synthesising across strands under time pressure",
+      "topics": ["Mixed problem types", "Multi-step reasoning", "Strategy selection"],
+      "questionTypes": "Exam-style questions with distractors targeting misconceptions"
+    }
+  },
+
+  "vocabularyProgression": {
+    "phase1": ["sum", "difference", "product", "quotient", "factor", "multiple", "numerator", "denominator", "fraction", "decimal"],
+    "phase2": ["equivalent", "percentage", "ratio", "proportion", "perimeter", "area", "volume", "probability", "mean", "median"],
+    "phase3": ["simplify", "expression", "equation", "variable", "coefficient", "term", "scale factor", "sample space", "theoretical", "experimental"],
+    "phase4": ["inverse operation", "algebraic reasoning", "proportional relationship", "compound shape", "net", "cross-section"]
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": [
+      "Working memory limited to ~4 items for children - chunk problems into steps",
+      "Multi-step word problems require storing intermediate results while processing",
+      "Unfamiliar contexts increase cognitive load - use familiar Australian scenarios",
+      "Visual representations (diagrams, number lines) offload working memory"
+    ],
+    "engagementStrategies": [
+      "Use cognitive offloading: scratch paper, jotting intermediate answers",
+      "Teach chunking: break complex problems into manageable sub-problems",
+      "Connect to real-world contexts meaningful to Year 6 students",
+      "Use prediction before calculation to engage reasoning",
+      "Provide worked examples before independent practice"
+    ],
+    "motivationFactors": [
+      "Connect maths to student interests (sports, games, technology)",
+      "Emphasise that reasoning ability can be developed with practice",
+      "Celebrate strategic thinking, not just correct answers",
+      "Use slightly challenging problems (zone of proximal development)"
+    ],
+    "spacedRepetitionPoints": ["c1", "c2", "c4", "c6"],
+    "testTakingStrategies": [
+      "Read the question twice before calculating",
+      "Estimate first to check reasonableness",
+      "Use process of elimination on multiple choice",
+      "Flag difficult questions and return later",
+      "Check units match the question requirements",
+      "Don't leave any questions blank (no negative marking)"
+    ]
+  },
+
+  "questionDesignPrinciples": {
+    "distractorDesign": [
+      "Include common misconception answers as distractors",
+      "Use computational error results (off-by-one, wrong operation)",
+      "Include partial solution answers for multi-step problems",
+      "Use plausible-looking numbers from misread data"
+    ],
+    "difficultyProgression": [
+      "Start with direct application of single concept",
+      "Progress to multi-step problems requiring concept integration",
+      "Advance to non-routine problems requiring strategy selection",
+      "Challenge with problems requiring reasoning beyond standard procedures"
+    ],
+    "contextVariation": [
+      "Pure numerical/symbolic problems",
+      "Word problems with realistic Australian contexts",
+      "Data interpretation from graphs/tables",
+      "Spatial/visual reasoning problems",
+      "Pattern recognition and extension"
+    ]
+  },
+
+  "assessmentCriteria": {
+    "accuracy": "Correct answer from 5 options",
+    "timeManagement": "~68 seconds per question average",
+    "strategicThinking": "Selecting efficient solution paths",
+    "reasonableness": "Checking answers make sense in context"
+  },
+
+  "questionFramingAndStructure": {
+    "overview": {
+      "description": "Almost ALL Mathematical Reasoning questions are word problems presented in unfamiliar contexts that require students to translate language into mathematical operations and combine multiple concepts to reach a solution.",
+      "keyInsight": "The test assesses mathematical REASONING, not procedural calculation. Questions are deliberately framed in novel situations to test whether students truly understand mathematics or have just memorised procedures.",
+      "coreSkillsTested": [
+        "Translating word problems into mathematical equations/operations",
+        "Applying foundational math knowledge quickly and accurately",
+        "Combining multiple concepts within a single problem",
+        "Managing cognitive load across multi-step solutions"
+      ]
+    },
+
+    "questionCategories": [
+      {
+        "id": "qc1",
+        "name": "Multi-Step Word Problems",
+        "percentage": "~50-60%",
+        "description": "Problems requiring 2-4 sequential operations with intermediate results",
+        "conceptsCombined": ["Arithmetic", "Fractions/Percentages", "Logic"],
+        "framingPatterns": [
+          "Price/cost problems with multiple items and constraints",
+          "Time and journey problems with multiple legs",
+          "Age problems with relationships between people",
+          "Work problems involving rates and sharing"
+        ],
+        "exampleStructure": {
+          "stimulus": "A burger and a drink cost $6.00. Chips and a drink cost $3.75. A burger, chips and a drink cost $8.50.",
+          "question": "What is the cost of a burger and chips?",
+          "conceptsRequired": ["Simultaneous reasoning", "Subtraction", "Addition"],
+          "steps": [
+            "Find drink cost: Compare equations to isolate variables",
+            "Find individual prices using subtraction",
+            "Combine required items"
+          ],
+          "cognitiveLoad": "High - must track multiple unknowns and relationships"
+        }
+      },
+      {
+        "id": "qc2",
+        "name": "Data Interpretation Problems",
+        "percentage": "~15-20%",
+        "description": "Problems requiring reading graphs, tables, or charts then performing calculations",
+        "conceptsCombined": ["Graph reading", "Arithmetic", "Percentages", "Mean/Median"],
+        "framingPatterns": [
+          "Read values from graph → perform calculation",
+          "Compare data across categories",
+          "Find missing values using totals/averages",
+          "Interpret trends and make predictions"
+        ],
+        "exampleStructure": {
+          "stimulus": "A bar graph shows class sizes for Classes 1-5. Total students in school = 160.",
+          "question": "How many students are in Class 6?",
+          "conceptsRequired": ["Graph scale interpretation", "Addition", "Subtraction"],
+          "steps": [
+            "Determine the graph scale from a known value",
+            "Read and sum all visible class sizes",
+            "Subtract from total to find Class 6"
+          ],
+          "cognitiveLoad": "Medium-High - requires scale inference and multiple reads"
+        }
+      },
+      {
+        "id": "qc3",
+        "name": "Spatial/Geometric Problems",
+        "percentage": "~15-20%",
+        "description": "Problems involving 2D/3D shapes, properties, and visualisation",
+        "conceptsCombined": ["Shape properties", "Arithmetic", "Spatial reasoning"],
+        "framingPatterns": [
+          "Calculate faces + edges + vertices of 3D shapes",
+          "Find area/perimeter of composite shapes",
+          "Interpret nets and identify matching 3D shapes",
+          "Count cubes in 3D structures (visible and hidden)"
+        ],
+        "exampleStructure": {
+          "stimulus": "A pyramid has a pentagonal base.",
+          "question": "What is the sum of the number of faces, edges, and vertices?",
+          "conceptsRequired": ["3D geometry knowledge", "Systematic counting", "Addition"],
+          "steps": [
+            "Identify faces: 1 base + 5 triangular sides = 6",
+            "Count edges: 5 base + 5 lateral = 10",
+            "Count vertices: 5 base + 1 apex = 6",
+            "Sum all: 6 + 10 + 6 = 22"
+          ],
+          "cognitiveLoad": "Medium - requires systematic enumeration"
+        }
+      },
+      {
+        "id": "qc4",
+        "name": "Pattern and Sequence Problems",
+        "percentage": "~10-15%",
+        "description": "Problems requiring identification and application of number patterns",
+        "conceptsCombined": ["Pattern recognition", "Algebraic thinking", "Operations"],
+        "framingPatterns": [
+          "Find missing term in a sequence",
+          "Determine the rule and apply it",
+          "Predict nth term",
+          "Number grids with row/column relationships"
+        ],
+        "exampleStructure": {
+          "stimulus": "Number pattern: 2, 5, 14, ▲, 122, 365",
+          "question": "What is the value of ▲?",
+          "conceptsRequired": ["Pattern analysis", "Algebraic reasoning"],
+          "steps": [
+            "Test relationships: ×3-1? No. ×n+? Test multiple hypotheses",
+            "Identify rule: multiply by n, then add n (or similar)",
+            "Apply rule to find missing term"
+          ],
+          "cognitiveLoad": "High - requires hypothesis testing"
+        }
+      },
+      {
+        "id": "qc5",
+        "name": "Ratio and Proportion Problems",
+        "percentage": "~10-15%",
+        "description": "Problems involving multiplicative relationships and scaling",
+        "conceptsCombined": ["Ratios", "Fractions", "Percentages", "Division"],
+        "framingPatterns": [
+          "Divide quantity in given ratio",
+          "Scale recipes or mixtures",
+          "Map scale problems",
+          "Rate and unit rate calculations"
+        ],
+        "exampleStructure": {
+          "stimulus": "I have an equal number of $1 and $2 coins. Total value is $54. $1 coins weigh 9g, $2 coins weigh 7g.",
+          "question": "What is the total weight of all coins?",
+          "conceptsRequired": ["Ratio reasoning", "Division", "Multiplication", "Addition"],
+          "steps": [
+            "Each pair ($1 + $2) = $3",
+            "Number of pairs: $54 ÷ $3 = 18",
+            "Weight: 18 × 9g + 18 × 7g = 162g + 126g = 288g"
+          ],
+          "cognitiveLoad": "High - multiple concept integration"
+        }
+      },
+      {
+        "id": "qc6",
+        "name": "Probability and Statistics Problems",
+        "percentage": "~5-10%",
+        "description": "Problems involving chance, averages, and data analysis",
+        "conceptsCombined": ["Probability", "Fractions", "Ratios", "Mean calculation"],
+        "framingPatterns": [
+          "Calculate probability from given constraints",
+          "Find missing value to achieve target mean",
+          "Combine probabilities",
+          "Work with conditional constraints"
+        ],
+        "exampleStructure": {
+          "stimulus": "Mean of 12 numbers is 12. A new number is added and the mean becomes 17.",
+          "question": "What is the new number?",
+          "conceptsRequired": ["Mean formula", "Algebra", "Subtraction"],
+          "steps": [
+            "Original sum: 12 × 12 = 144",
+            "New sum: 13 × 17 = 221",
+            "New number: 221 - 144 = 77"
+          ],
+          "cognitiveLoad": "Medium - requires mean formula manipulation"
+        }
+      },
+      {
+        "id": "qc7",
+        "name": "Time and Timetable Problems",
+        "percentage": "~5-10%",
+        "description": "Problems involving time zones, durations, schedules",
+        "conceptsCombined": ["Time calculation", "Table reading", "Addition/Subtraction"],
+        "framingPatterns": [
+          "Multi-leg journey with stopovers",
+          "Time zone conversions across countries",
+          "Reading train/bus timetables",
+          "Calculating total time away"
+        ],
+        "exampleStructure": {
+          "stimulus": "Jessica leaves Sydney at 7am on a 3-hour flight to Shanghai (+2hrs timezone), then after 4-hour stopover flies 14 hours to London (-8hrs from Shanghai).",
+          "question": "What time is it in Sydney when she arrives in London?",
+          "conceptsRequired": ["Time addition", "Timezone conversion", "Duration tracking"],
+          "steps": [
+            "Track each leg: departure + flight + stopover + flight",
+            "Convert between timezones at each point",
+            "Calculate final Sydney time"
+          ],
+          "cognitiveLoad": "Very High - multiple time conversions and tracking"
+        }
+      }
+    ],
+
+    "multiConceptIntegration": {
+      "principle": "Questions rarely test single concepts in isolation. Instead, they deliberately combine 2-4 concepts requiring students to recognise which mathematical tools apply.",
+      "commonCombinations": [
+        {
+          "concepts": ["Fractions", "Percentages", "Word problem translation"],
+          "example": "A shop offers 20% off. If the sale price is $48, what was the original price?"
+        },
+        {
+          "concepts": ["Area", "Perimeter", "Composite shapes"],
+          "example": "Find the area of an L-shaped figure given some dimensions and the perimeter"
+        },
+        {
+          "concepts": ["Ratio", "Proportion", "Money"],
+          "example": "Three friends share costs in ratio 2:3:5. If the total is $120, how much does each pay?"
+        },
+        {
+          "concepts": ["Mean", "Missing value", "Inverse operations"],
+          "example": "The average of 5 numbers is 8. Four numbers are 6, 7, 9, 10. What is the fifth?"
+        },
+        {
+          "concepts": ["3D shapes", "Counting", "Systematic enumeration"],
+          "example": "How many unit cubes are in a 3×4×5 rectangular prism with a 1×2×3 hole?"
+        },
+        {
+          "concepts": ["Probability", "Ratios", "Fractions"],
+          "example": "A bag has twice as many red as blue marbles. P(green) = 0.3. What is P(red)?"
+        }
+      ]
+    },
+
+    "problemSolvingStrategies": {
+      "workBackwards": {
+        "description": "Start from the answer and reverse operations - useful when final result is given",
+        "whenToUse": "Problems giving the end state and asking for starting value",
+        "example": "After a 25% discount, price is $60. Original price?",
+        "process": "If 75% = $60, then 100% = $60 ÷ 0.75 = $80"
+      },
+      "makeOrganisedList": {
+        "description": "Systematically enumerate possibilities",
+        "whenToUse": "Problems with multiple combinations or outcomes",
+        "example": "How many ways to make 50c with 10c and 20c coins?",
+        "process": "List: (5×10c), (3×10c,1×20c), (1×10c,2×20c) = 3 ways"
+      },
+      "drawDiagram": {
+        "description": "Create visual representation to clarify relationships",
+        "whenToUse": "Spatial problems, journey problems, part-whole relationships",
+        "example": "Venn diagram for overlapping areas problem"
+      },
+      "guessCheckRefine": {
+        "description": "Make educated guess, test, adjust based on result",
+        "whenToUse": "When working forwards is complex; use middle MC option first",
+        "example": "For MC questions, test option C first to narrow down"
+      },
+      "simplifyProblem": {
+        "description": "Break into smaller sub-problems",
+        "whenToUse": "Complex multi-step problems",
+        "example": "Solve for one unknown first, then use it to find others"
+      }
+    },
+
+    "questionDifficultyProgression": {
+      "questions1to15": {
+        "difficulty": "Foundation to Intermediate",
+        "timeTarget": "30-60 seconds each",
+        "characteristics": [
+          "Single or two-step problems",
+          "Familiar contexts",
+          "Direct application of one concept",
+          "Clear question structure"
+        ]
+      },
+      "questions16to25": {
+        "difficulty": "Intermediate to Advanced",
+        "timeTarget": "60-90 seconds each",
+        "characteristics": [
+          "Multi-step problems",
+          "2-3 concepts combined",
+          "Some unfamiliar contexts",
+          "May require strategy selection"
+        ]
+      },
+      "questions26to35": {
+        "difficulty": "Advanced to Challenging",
+        "timeTarget": "90-120 seconds each",
+        "characteristics": [
+          "Complex multi-step reasoning",
+          "3-4 concepts integrated",
+          "Novel/unfamiliar contexts",
+          "Require sophisticated problem-solving strategies",
+          "Often include challenging spatial or algebraic reasoning"
+        ]
+      }
+    },
+
+    "wordProblemTranslationSkills": {
+      "keyPhrases": {
+        "addition": ["in total", "altogether", "combined", "sum of", "increased by", "more than"],
+        "subtraction": ["difference", "how many more", "how many fewer", "decreased by", "less than", "remaining"],
+        "multiplication": ["times as many", "product of", "total of n groups of", "each", "per"],
+        "division": ["shared equally", "divided into", "how many groups", "ratio", "per each"],
+        "equals": ["is", "was", "will be", "gives", "yields", "results in"]
+      },
+      "commonTraps": [
+        "Keywords can be misleading - 'more than' can indicate subtraction in comparison problems",
+        "Order matters: 'A is 5 more than B' means A = B + 5, not B = A + 5",
+        "Multiple unknowns require tracking relationships, not just operations"
+      ],
+      "translationProcess": [
+        "1. Read entire problem twice",
+        "2. Identify WHAT is being asked (the unknown)",
+        "3. Identify GIVEN information (known values and relationships)",
+        "4. Determine relationships between quantities",
+        "5. Select operations needed",
+        "6. Execute in correct order",
+        "7. Check answer makes sense in context"
+      ]
+    },
+
+    "questionArchetypes": {
+      "description": "Specific recurring question patterns from official NSW Selective practice tests",
+      "archetypes": [
+        {
+          "id": "qa1",
+          "name": "Playlist/Sequence Duration",
+          "pattern": "Multiple items with progressively changing values",
+          "example": "Ngali has a music playlist. The first song is 4 minutes long. There are 3 more songs, and each song is 30 seconds shorter than the song before it. What is the total length?",
+          "conceptsRequired": ["Arithmetic sequences", "Time calculations", "Summation"],
+          "solutionApproach": "List all values (4:00, 3:30, 3:00, 2:30), sum them",
+          "commonErrors": ["Forgetting to count the first item", "Applying change in wrong direction"]
+        },
+        {
+          "id": "qa2",
+          "name": "Weight/Mass Equivalence",
+          "pattern": "Two types of objects with known ratio and one known weight",
+          "example": "Kevin has some identical cubes and some identical spheres. The weight of 8 cubes is the same as the weight of 5 spheres. One sphere weighs 560g. How much does one cube weigh?",
+          "conceptsRequired": ["Ratio reasoning", "Unit rates", "Division"],
+          "solutionApproach": "Find total weight of 5 spheres → divide by 8 cubes",
+          "commonErrors": ["Dividing by wrong number", "Confusing which is heavier"]
+        },
+        {
+          "id": "qa3",
+          "name": "3D Shape Properties",
+          "pattern": "Calculate sum of faces, edges, vertices for non-standard shape",
+          "example": "What is the sum of the number of faces, edges and vertices of a pyramid with a pentagonal base?",
+          "conceptsRequired": ["3D geometry knowledge", "Systematic enumeration", "Addition"],
+          "solutionApproach": "Faces: 1 base + n sides = 6; Edges: n base + n lateral = 10; Vertices: n base + 1 apex = 6; Sum = 22",
+          "commonErrors": ["Forgetting the apex", "Double-counting shared edges"]
+        },
+        {
+          "id": "qa4",
+          "name": "Multi-Leg Journey with Time Zones",
+          "pattern": "Travel across multiple locations with different time zones and stopovers",
+          "example": "Jessica leaves Sydney at 7am on a 3-hour flight to Shanghai (+2hrs timezone), then after 4-hour stopover flies 14 hours to London (-8hrs from Shanghai). What time is it in Sydney when she arrives?",
+          "conceptsRequired": ["Time addition", "Time zone conversion", "Duration tracking"],
+          "solutionApproach": "Track elapsed time, convert only when asked for specific timezone answer",
+          "commonErrors": ["Adding time zones instead of tracking elapsed time", "Converting at wrong step"]
+        },
+        {
+          "id": "qa5",
+          "name": "Simultaneous Price Equations",
+          "pattern": "Multiple menu items with combined prices, find individual or new combination",
+          "example": "A burger and a drink cost $6.00. Chips and a drink cost $3.75. A burger, chips and a drink cost $8.50. What is the cost of a burger and chips?",
+          "conceptsRequired": ["Simultaneous reasoning", "Subtraction", "Addition"],
+          "solutionApproach": "Find drink by comparing equations; find individual items; combine as requested",
+          "commonErrors": ["Adding all three equations", "Finding wrong item"]
+        },
+        {
+          "id": "qa6",
+          "name": "Coin/Object Pairing",
+          "pattern": "Equal numbers of two different valued items with known total",
+          "example": "I have an equal number of $1 and $2 coins. Total value is $54. $1 coins weigh 9g, $2 coins weigh 7g. What is the total weight?",
+          "conceptsRequired": ["Pairing strategy", "Division", "Two-step multiplication"],
+          "solutionApproach": "Each pair = $3; Number of pairs = $54÷$3 = 18; Weight = 18×9g + 18×7g",
+          "commonErrors": ["Dividing total by individual coin value", "Forgetting both coin types"]
+        },
+        {
+          "id": "qa7",
+          "name": "Venn Diagram Area Problem",
+          "pattern": "Overlapping regions with given totals for each category",
+          "example": "Island total area = 164 km². Area with hills = 132 km². Area with bush = 80 km². How much has neither?",
+          "conceptsRequired": ["Venn diagram logic", "Set theory basics", "Subtraction"],
+          "solutionApproach": "Use inclusion-exclusion: A∪B = A + B - A∩B; Find overlap; Subtract from total",
+          "commonErrors": ["Adding areas without considering overlap", "Subtracting wrong value"]
+        },
+        {
+          "id": "qa8",
+          "name": "Missing Value for Target Mean",
+          "pattern": "Given mean and most values, find the missing one",
+          "example": "The mean of 12 numbers is 12. A new number is added and the mean becomes 17. What is the new number?",
+          "conceptsRequired": ["Mean formula", "Inverse operations", "Subtraction"],
+          "solutionApproach": "Old sum = 12×12 = 144; New sum = 13×17 = 221; New number = 221-144 = 77",
+          "commonErrors": ["Confusing mean with sum", "Using wrong count"]
+        },
+        {
+          "id": "qa9",
+          "name": "Pattern Sequence with Complex Rule",
+          "pattern": "Number sequence with non-obvious multi-operation rule",
+          "example": "What is the missing number: 2, 5, 14, ▲, 122, 365?",
+          "conceptsRequired": ["Pattern analysis", "Hypothesis testing", "Algebraic reasoning"],
+          "solutionApproach": "Test multiple rules (×n, +n, combination); Verify pattern fits all terms",
+          "commonErrors": ["Assuming simple arithmetic sequence", "Not testing rule on all given terms"]
+        },
+        {
+          "id": "qa10",
+          "name": "Three-Way Relationship Vote/Score Problem",
+          "pattern": "Three quantities with relative differences and total/average given",
+          "example": "Alfred received 13 more votes than Glenda. Glenda received 14 fewer than Shane. Average votes = 33,000. How many did Alfred get?",
+          "conceptsRequired": ["Variable relationships", "Mean calculation", "Solving equations"],
+          "solutionApproach": "Express all in terms of one variable; Use mean = total/3; Solve and back-substitute",
+          "commonErrors": ["Mixing up more/fewer relationships", "Incorrect variable assignment"]
+        },
+        {
+          "id": "qa11",
+          "name": "Percentage Equivalence/Comparison",
+          "pattern": "X% of A equals Y% of B, find relationship",
+          "example": "10% of Joey's money = 25% of Peter's money. Joey's money is what % of Peter's?",
+          "conceptsRequired": ["Percentage relationships", "Ratio formation", "Algebraic manipulation"],
+          "solutionApproach": "Set up equation: 0.10J = 0.25P; Solve for J/P; Convert to percentage",
+          "commonErrors": ["Inverting the ratio", "Forgetting to convert to percentage"]
+        },
+        {
+          "id": "qa12",
+          "name": "Multi-Ratio Recipe Problem",
+          "pattern": "Multiple ratios connecting three or more ingredients",
+          "example": "Recipe needs 2× as much milk as sugar and 3× as much sugar as butter. How much sugar in 312kg of frosting?",
+          "conceptsRequired": ["Chain ratios", "Unit conversion", "Proportional reasoning"],
+          "solutionApproach": "Express all in terms of one ingredient (butter:sugar:milk = 1:3:6); Find parts; Calculate",
+          "commonErrors": ["Confusing ratio direction", "Missing kg→g conversion"]
+        },
+        {
+          "id": "qa13",
+          "name": "Reverse Percentage (Find Original)",
+          "pattern": "Final value after percentage change, find original",
+          "example": "After 25% discount, price is $60. What was the original price?",
+          "conceptsRequired": ["Reverse percentages", "Fraction reasoning", "Division"],
+          "solutionApproach": "$60 represents 75% → Original = $60 ÷ 0.75 = $80",
+          "commonErrors": ["Adding 25% to $60 instead of dividing", "Using wrong percentage base"]
+        },
+        {
+          "id": "qa14",
+          "name": "Cube Structure with Paint/Hidden Cubes",
+          "pattern": "3D structure painted, count cubes with specific face coverage",
+          "example": "A rectangular prism made of small cubes is painted. How many small cubes have grey paint on exactly 2 faces?",
+          "conceptsRequired": ["3D visualization", "Systematic counting", "Edge/corner identification"],
+          "solutionApproach": "Identify positions: corners=3 faces, edges=2 faces, faces=1 face, interior=0 faces",
+          "commonErrors": ["Forgetting interior cubes", "Miscounting edge positions"]
+        },
+        {
+          "id": "qa15",
+          "name": "Scale/Proportion Weight Problem",
+          "pattern": "Similar objects with known dimensions, find weight of larger",
+          "example": "Two solid rectangular prisms from same material. Smaller weighs 600g with dimensions A. Larger has dimensions B. What does larger weigh?",
+          "conceptsRequired": ["Scale factors", "Volume ratio", "Cubing for 3D scaling"],
+          "solutionApproach": "Find linear scale factor; Cube it for volume ratio; Multiply weight",
+          "commonErrors": ["Using linear scale factor for weight", "Squaring instead of cubing"]
+        },
+        {
+          "id": "qa16",
+          "name": "Timetable Navigation",
+          "pattern": "Use schedule/table to calculate total time or optimal route",
+          "example": "Christine catches the second train, shops for 1hr, and returns on next available train. How long is she away?",
+          "conceptsRequired": ["Table reading", "Time calculation", "Duration addition"],
+          "solutionApproach": "Extract relevant times from table; Add travel + activity + return travel",
+          "commonErrors": ["Misreading table rows/columns", "Missing wait time"]
+        },
+        {
+          "id": "qa17",
+          "name": "Age Relationship Problem",
+          "pattern": "Ages at different points in time with relationships",
+          "example": "Three years ago, Sunil and Helen's total age was 27. In five years, what will be their total age?",
+          "conceptsRequired": ["Time progression", "Algebraic reasoning", "Addition"],
+          "solutionApproach": "8 years pass (from -3 to +5); Two people age 8 years each = 16 years total added; 27 + 16 = 43",
+          "commonErrors": ["Only adding years once", "Miscounting the time span"]
+        },
+        {
+          "id": "qa18",
+          "name": "Systematic Counting/Combinations",
+          "pattern": "How many ways to arrange/select with constraints",
+          "example": "Using digits 3,4,5,6, how many 4-digit numbers greater than 6000 can be made?",
+          "conceptsRequired": ["Systematic listing", "Constraints application", "Factorial reasoning"],
+          "solutionApproach": "First digit must be 6; Remaining 3 positions have 3! arrangements = 6",
+          "commonErrors": ["Forgetting constraints", "Allowing repeated digits when not permitted"]
+        },
+        {
+          "id": "qa19",
+          "name": "Shaded Region Area",
+          "pattern": "Composite shape with region removed or highlighted",
+          "example": "A square has a quarter-circle removed. Find the shaded area.",
+          "conceptsRequired": ["Area formulas", "Subtraction method", "π calculations"],
+          "solutionApproach": "Calculate whole shape area; Subtract removed shape area",
+          "commonErrors": ["Using diameter instead of radius", "Forgetting to use quarter/half of circle"]
+        },
+        {
+          "id": "qa20",
+          "name": "Speed-Distance-Time Multi-Part",
+          "pattern": "Journey with different speeds/distances, find average or total",
+          "example": "First 120km takes 2hrs; next 180km takes 4hrs. What is average speed for entire journey?",
+          "conceptsRequired": ["Distance formula", "Average speed ≠ average of speeds", "Division"],
+          "solutionApproach": "Total distance = 300km; Total time = 6hrs; Average speed = 50km/h",
+          "commonErrors": ["Averaging the two speeds (wrong!)", "Using wrong units"]
+        }
+      ]
+    },
+
+    "distractorPatterns": {
+      "description": "How incorrect answers are designed to catch common errors",
+      "patterns": [
+        {
+          "type": "Partial Solution",
+          "description": "Answer represents completing only part of the multi-step problem",
+          "example": "If question needs A×B÷C, one distractor is just A×B"
+        },
+        {
+          "type": "Wrong Operation",
+          "description": "Result of using addition instead of subtraction (or vice versa), multiplication instead of division",
+          "example": "If answer is 100-35=65, distractor might be 100+35=135"
+        },
+        {
+          "type": "Misconception Answer",
+          "description": "Answer that results from applying a known misconception",
+          "example": "For reverse percentage, adding the percentage instead of dividing"
+        },
+        {
+          "type": "Place Value Error",
+          "description": "Off by factor of 10, 100, or 1000 due to unit conversion or decimal error",
+          "example": "Answer in kg when question asks for grams"
+        },
+        {
+          "type": "Inverted Ratio",
+          "description": "Using the inverse of the correct ratio relationship",
+          "example": "If A:B = 2:5, using 5:2 instead"
+        },
+        {
+          "type": "One-Off Error",
+          "description": "Answer that is one more or one less than correct",
+          "example": "Counting problem where student counts start or end position wrong"
+        },
+        {
+          "type": "Middle Value Trap",
+          "description": "Numbers that look reasonable and fall between extremes",
+          "example": "If correct answer is 288, distractors might be 180, 240, 300, 360"
+        },
+        {
+          "type": "Formula Confusion",
+          "description": "Result of applying wrong formula (area vs perimeter, mean vs median)",
+          "example": "Using perimeter formula when area is asked"
+        }
+      ],
+      "testStrategy": "Work backwards from answer options to test which one satisfies all conditions; if answer options are ordered, test middle option first to eliminate half"
+    },
+
+    "visualDiagramQuestions": {
+      "description": "Questions that include diagrams, images, or visual information",
+      "types": [
+        {
+          "type": "Graphs and Charts",
+          "variants": ["Bar graphs", "Line graphs", "Pie charts", "Pictographs"],
+          "skills": ["Scale interpretation", "Reading coordinates", "Comparing values", "Calculating from data"]
+        },
+        {
+          "type": "Tables and Timetables",
+          "variants": ["Train schedules", "Price lists", "Two-way tables", "Frequency tables"],
+          "skills": ["Row/column navigation", "Cross-referencing", "Finding patterns"]
+        },
+        {
+          "type": "Geometric Diagrams",
+          "variants": ["Shapes with measurements", "Angle diagrams", "Composite figures"],
+          "skills": ["Applying formulas", "Using given measurements", "Identifying shapes"],
+          "note": "Often marked 'NOT DRAWN TO SCALE' - use given numbers, not appearance"
+        },
+        {
+          "type": "3D Representations",
+          "variants": ["Isometric cube structures", "Nets of shapes", "Front/side/top views"],
+          "skills": ["Spatial visualization", "Hidden cube counting", "Net folding"]
+        },
+        {
+          "type": "Number Lines and Grids",
+          "variants": ["Coordinate planes", "Number lines with marks", "Grid patterns"],
+          "skills": ["Position reading", "Coordinate geometry", "Distance calculation"]
+        }
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "name": "NSW Department of Education - Selective High School Practice Tests",
+      "url": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test/selective-high-school-practice-tests",
+      "type": "Official practice materials"
+    },
+    {
+      "name": "Siegler & Lortie-Forgues (2017) - Rational number misconceptions",
+      "url": "https://siegler.tc.columbia.edu/wp-content/uploads/2019/02/2018-TianSiegler-rationalnumbers.pdf",
+      "type": "Academic research"
+    },
+    {
+      "name": "Third Space Learning - Common Primary Maths Misconceptions",
+      "url": "https://thirdspacelearning.com/blog/common-errors-misconceptions-primary-maths-ks1-ks2/",
+      "type": "Educational resource"
+    },
+    {
+      "name": "Machaba (2016) - Area and Perimeter Misconceptions",
+      "url": "https://www.researchgate.net/publication/311456749_The_concepts_of_area_and_perimeter_Insights_and_misconceptions_of_Grade_10_learners",
+      "type": "Academic research"
+    },
+    {
+      "name": "PMC - Effective Word-Problem Instruction Using Schemas",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6130842/",
+      "type": "Academic research"
+    },
+    {
+      "name": "Siemon et al. (2018) - Multiplicative Thinking Research",
+      "url": "https://www.researchgate.net/publication/237298794_FROM_ADDITIVE_TO_MULTIPLICATIVE_THINKING_-_THE_BIG_CHALLENGE_OF_THE_MIDDLE_YEARS",
+      "type": "Academic research"
+    },
+    {
+      "name": "NSW Department of Education - Cognitive Load Theory Practice Guide",
+      "url": "https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory-practice-guide.pdf",
+      "type": "Educational guidance"
+    },
+    {
+      "name": "Edutopia - 7 Research-Backed Ways to Boost Working Memory in Math",
+      "url": "https://www.edutopia.org/article/7-research-backed-ways-to-boost-working-memory-in-math/",
+      "type": "Educational resource"
+    },
+    {
+      "name": "SAPUB - Identifying Students' Specific Misconceptions in Learning Probability",
+      "url": "http://article.sapub.org/10.5923.j.ijps.20140302.01.html",
+      "type": "Academic research"
+    },
+    {
+      "name": "Topdrawer AAMT - Geometric Reasoning Misunderstandings",
+      "url": "https://topdrawer.aamt.edu.au/Geometric-reasoning/Misunderstandings",
+      "type": "Educational resource"
+    },
+    {
+      "name": "Matrix Education - 15 Selective Test Practice Questions",
+      "url": "https://www.matrix.edu.au/15-selective-test-practice-questions/",
+      "type": "Sample questions with analysis"
+    },
+    {
+      "name": "OC Test Prep - Mathematical Reasoning Question Types",
+      "url": "https://www.octestprep.com/oc-mathematical-reasoning-questions",
+      "type": "Question category breakdown"
+    },
+    {
+      "name": "BrainTree - NSW Selective School Test Components Guide 2026",
+      "url": "https://braintreecoaching.com.au/blog/nsw-selective-school-test-components-complete-guide-2026",
+      "type": "Test structure analysis"
+    },
+    {
+      "name": "Alpha One Coaching - Mathematical Reasoning Tips",
+      "url": "https://www.alphaonecollege.com.au/blog/math-tips",
+      "type": "Problem-solving strategies"
+    },
+    {
+      "name": "Cognitively Guided Instruction - Word Problem Types (Carpenter et al.)",
+      "url": "https://achievethecore.org/file/2425",
+      "type": "Academic research on problem structures"
+    },
+    {
+      "name": "NSW DoE - SHS 2023 Maths Practice Test Questions",
+      "url": "https://education.nsw.gov.au/content/dam/main-education/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools-and-opportunity-classes-parents/documents/shs-practice-tests-2023/SHS-2023-Maths-practice-test-questions.pdf",
+      "type": "Official 2023 practice test"
+    },
+    {
+      "name": "NSW DoE - SHS 2022 Mathematical Reasoning Question Paper",
+      "url": "https://education.nsw.gov.au/content/dam/main-education/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools-and-opportunity-classes-parents/documents/shs-practice-tests-2022/0322_SHSPT_MATHEMATICAL_REASONING_QUESTION_PAPER.pdf",
+      "type": "Official 2022 practice test"
+    },
+    {
+      "name": "Scholarly Training - Selective Practice Test Questions",
+      "url": "https://scholarlytraining.com/selective-practice-test-free-english-maths-thinking-skills-questions-for-2024-selective-exam/",
+      "type": "Sample questions with worked solutions"
+    },
+    {
+      "name": "Third Space Learning - Systematic Listing Strategies",
+      "url": "https://thirdspacelearning.com/gcse-maths/probability/systematic-listing-strategies/",
+      "type": "Counting and enumeration methods"
+    },
+    {
+      "name": "Third Space Learning - Area of Compound Shapes",
+      "url": "https://thirdspacelearning.com/gcse-maths/geometry-and-measure/area-of-compound-shapes/",
+      "type": "Shaded region problem techniques"
+    },
+    {
+      "name": "Third Space Learning - Reverse Percentages",
+      "url": "https://thirdspacelearning.com/gcse-maths/number/reverse-percentages/",
+      "type": "Finding original values after percentage change"
+    },
+    {
+      "name": "Third Space Learning - Speed Distance Time",
+      "url": "https://thirdspacelearning.com/gcse-maths/ratio-and-proportion/speed-distance-time-triangle/",
+      "type": "Multi-part journey problems"
+    },
+    {
+      "name": "Third Space Learning - Average Speed Formula",
+      "url": "https://thirdspacelearning.com/gcse-maths/ratio-and-proportion/average-speed-formula/",
+      "type": "Average speed calculations"
+    },
+    {
+      "name": "Online Math Learning - Age Word Problems",
+      "url": "https://www.onlinemathlearning.com/age-problems.html",
+      "type": "Age relationship problem patterns"
+    },
+    {
+      "name": "ICAS Assessments - Secret of Multiple Choice Questions",
+      "url": "https://www.icasassessments.com/blog/hidden-secret-of-multiple-choice/",
+      "type": "Distractor design principles"
+    },
+    {
+      "name": "NSW DoE - Understanding Units of Measurement",
+      "url": "https://education.nsw.gov.au/teaching-and-learning/curriculum/literacy-and-numeracy/teaching-and-learning-resources/numeracy/understanding-units-of-measurement",
+      "type": "Unit conversion curriculum alignment"
+    },
+    {
+      "name": "Demme Learning - Distractor Rationale for MCQs",
+      "url": "https://demmelearning.com/blog/distractor-rationale/",
+      "type": "How distractors target misconceptions"
+    }
+  ]
+}

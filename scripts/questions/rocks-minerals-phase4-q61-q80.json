@@ -1,0 +1,1100 @@
+[
+  {
+    "questionId": "rocks-minerals-y8-061",
+    "questionType": "MCQ",
+    "stem": "A student says: 'Earth's mantle is liquid magma that flows like water.'\n\nWhich statement **best** corrects this misconception?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The mantle is mostly solid rock that flows very slowly over millions of years, like thick honey. Only small pockets contain magma.",
+        "isCorrect": true,
+        "feedback": "Correct! The mantle is **solid rock** heated to high temperatures. It flows extremely slowly through **plastic deformation** (like Play-Doh under pressure), not as liquid. The extreme pressure keeps it solid despite temperatures of 1000-3700°C."
+      },
+      {
+        "id": "B",
+        "text": "The mantle is completely solid and never moves - only the outer core is liquid.",
+        "isCorrect": false,
+        "feedback": "While the outer core is liquid, the mantle **does move** - it's solid but flows very slowly through convection currents. This movement drives plate tectonics."
+      },
+      {
+        "id": "C",
+        "text": "The entire mantle is liquid magma, which is why volcanic eruptions can happen anywhere.",
+        "isCorrect": false,
+        "feedback": "This reinforces the misconception. The mantle is **mostly solid**. Magma forms only in specific locations (hot spots, subduction zones, rifts) where pressure drops or water lowers melting point."
+      },
+      {
+        "id": "D",
+        "text": "The upper mantle is liquid but the lower mantle is solid due to extreme pressure.",
+        "isCorrect": false,
+        "feedback": "Actually, both upper and lower mantle are **mostly solid**. The upper mantle has a partially molten zone (asthenosphere) with only 1-2% melt, not fully liquid."
+      }
+    ],
+    "solution": "The correct answer is **A**.\n\nThe mantle is **not liquid magma** - it is **solid rock** that behaves plastically under extreme heat and pressure. Think of it like **heated wax or Play-Doh** - solid, but able to deform and flow very slowly over geological time (millimeters per year).\n\n**Why it's solid despite extreme heat:**\n- Temperature: 1000-3700°C (hot enough to melt rock at surface)\n- **Pressure**: Extreme pressure from overlying rock keeps atoms packed tightly, preventing melting\n- Only where pressure **drops** (rifts, rising plumes) or **water is added** (subduction zones) does rock actually melt to form magma\n\n**Evidence it's solid:**\n- Seismic waves (S-waves) travel through the mantle - they can't travel through liquids\n- Mantle flow is measured in **cm/year**, not like water\n- Only the **outer core** is liquid (confirmed by S-wave shadow zone)\n\nThis misconception matters because understanding mantle convection (solid rock flowing) explains plate tectonics and the rock cycle.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to rock under extreme **pressure**. Does pressure make it easier or harder for rock to melt?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider: If the mantle were liquid, could **seismic S-waves** (shear waves) travel through it? What does the fact that S-waves pass through the mantle tell us about its state?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 61,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-041", "rocks-minerals-y8-042"],
+      "preparesFor": ["rocks-minerals-y8-066", "rocks-minerals-y8-070"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set7",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-062",
+    "questionType": "SHORT_ANSWER",
+    "stem": "The rock cycle continuously transforms igneous, sedimentary, and metamorphic rocks into each other.\n\n**What is the ultimate energy source that drives the rock cycle?** Explain how this energy powers the transformations between rock types.",
+    "solution": "The rock cycle is driven by **two energy sources**:\n\n**1. Earth's Internal Heat (primary driver):**\n- Heat from **radioactive decay** in Earth's core and mantle\n- Powers **mantle convection** - solid rock flows slowly, creating convection currents\n- Drives **plate tectonics** - plates move, collide, and subduct\n- Creates **metamorphic rocks** through heat and pressure at convergent boundaries\n- Melts rock to form **magma**, which cools to create igneous rocks\n- Builds **mountains** through uplift, exposing rocks to weathering\n\n**2. Solar Energy (secondary):**\n- Powers the **water cycle** (evaporation, precipitation)\n- Drives **weathering** and **erosion** that break down surface rocks\n- Transports **sediments** through rivers to deposition sites\n- Enables formation of **sedimentary rocks**\n\n**How they work together:**\nInternal heat → tectonic uplift → mountains exposed to solar-driven weathering → sediments deposited → buried and compressed (sedimentary) → subducted by tectonic forces → heated/metamorphosed or melted (igneous) → cycle continues.\n\nWithout Earth's internal heat, there would be no plate movement, no mountain building, and the rock cycle would eventually stop as erosion wore everything flat.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what causes tectonic plates to move. Where does that energy come from? Is it from the Sun or from inside the Earth?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider two energy sources: **Earth's internal heat** (drives tectonics, metamorphism, melting) and **solar energy** (drives weathering through the water cycle). Which is the primary driver of the rock cycle?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 62,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-021", "rocks-minerals-y8-043"],
+      "preparesFor": ["rocks-minerals-y8-067", "rocks-minerals-y8-079"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set7",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-063",
+    "questionType": "SHORT_ANSWER",
+    "stem": "At a **subduction zone**, an oceanic plate slides beneath a continental plate.\n\nExplain the **sequence of rock transformations** that occur as the oceanic plate descends into the mantle. Include at least THREE different rock types that form during this process.",
+    "solution": "As an oceanic plate subducts beneath a continental plate, a **sequence of rock transformations** occurs:\n\n**Stage 1: Starting Material**\n- **Basaltic igneous rock** (oceanic crust) with sedimentary layers on top\n- Contains water trapped in minerals and sediments\n\n**Stage 2: Shallow Subduction (10-30 km depth)**\n- Increasing pressure and temperature\n- Sedimentary rocks → **metamorphic rocks** (slate → schist → gneiss)\n- Water squeezed out of minerals begins rising\n\n**Stage 3: Deep Subduction (50-150 km depth)**\n- Extreme pressure and heat (but still solid)\n- Basalt transforms into **high-pressure metamorphic rocks** (eclogite)\n- More water released from minerals\n\n**Stage 4: Partial Melting**\n- Water from subducting plate **lowers melting point** of overlying mantle wedge\n- Mantle rock partially melts to form **magma**\n- Magma rises toward surface (less dense than surrounding rock)\n\n**Stage 5: Surface Volcanism**\n- Magma erupts through volcanoes on the continental plate\n- Cools to form new **andesitic/rhyolitic igneous rocks**\n- Creates volcanic arc (e.g., Andes Mountains, Pacific Ring of Fire)\n\n**Summary:** Igneous → Metamorphic → Melted → New Igneous, driven by subduction.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Start with what's being subducted (oceanic crust = basalt + sediments). As it descends, what happens to rocks under increasing pressure and temperature?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about the sequence: sediments compressed → **metamorphic rocks** → water released lowers melting point → **magma forms** → rises and cools to create new **igneous rocks**. What triggers each transformation?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 63,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-042", "rocks-minerals-y8-044"],
+      "preparesFor": ["rocks-minerals-y8-064", "rocks-minerals-y8-069"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set7",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-064",
+    "questionType": "SHORT_ANSWER",
+    "stem": "If Earth's mantle is **mostly solid rock**, why is there molten magma at some plate boundaries but not others?\n\nExplain the conditions required for solid mantle rock to melt and form magma.",
+    "solution": "Solid mantle rock melts to form magma only when **specific conditions** are met. The mantle is solid despite high temperatures because extreme **pressure** keeps it that way.\n\n**Three ways to create magma from solid mantle:**\n\n**1. Decompression Melting (divergent boundaries, hot spots):**\n- Mantle rock **rises** toward the surface\n- **Pressure decreases** as it ascends\n- Lower pressure allows rock to melt **without adding heat**\n- Example: Mid-ocean ridges where plates pull apart\n\n**2. Flux Melting (subduction zones):**\n- Water from subducting plate is released into overlying mantle\n- Water **lowers the melting point** of mantle rock by 100-200°C\n- Rock melts at the **same pressure and temperature** where it was previously solid\n- Example: Pacific Ring of Fire volcanoes\n\n**3. Heat-Induced Melting (hot spots):**\n- Unusually hot **mantle plumes** rise from deep in the mantle\n- Extra heat raises temperature above melting point\n- Example: Hawaii, Yellowstone\n\n**Why not everywhere?**\nIn most of the mantle, the combination of high pressure, moderate temperature, and lack of water keeps rock solid. Only where these conditions change (pressure drops, water added, or extra heat) does melting occur.\n\nThis explains why volcanoes occur at **specific locations** (plate boundaries, hot spots) rather than randomly across Earth's surface.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Consider what keeps the mantle solid despite high temperatures. What would need to **change** to allow melting - temperature, pressure, or composition?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Three melting mechanisms: **reducing pressure** (divergent boundaries), **adding water** (subduction zones), or **increasing temperature** (hot spots). Which happens at which type of plate boundary?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 64,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-061", "rocks-minerals-y8-063"],
+      "preparesFor": ["rocks-minerals-y8-066", "rocks-minerals-y8-067"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set7",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-065",
+    "questionType": "SHORT_ANSWER",
+    "stem": "The **Pilbara region** of Western Australia contains some of Earth's oldest rocks - ancient granite and metamorphic rocks dated at **3.5-4.0 billion years old**. The Jack Hills zircon crystals found there are **4.4 billion years old**, making them the oldest known Earth materials.\n\nWhat can these ancient Pilbara rocks tell us about **Earth's early history** and the processes that have shaped our planet? Provide at least TWO specific insights.",
+    "solution": "The **Pilbara ancient rocks** provide crucial evidence about Earth's early history:\n\n**1. Early Plate Tectonics Were Active:**\n- The presence of **granite** (igneous rock rich in silica) suggests **subduction zones** existed 3.5+ billion years ago\n- Granite forms from partial melting at convergent boundaries, requiring plate tectonics\n- This means the **rock cycle** was operating within Earth's first billion years\n- Evidence: Layered volcanic rocks (greenstone belts) show patterns consistent with ancient island arcs\n\n**2. Early Oceans and Atmosphere:**\n- **Pilbara stromatolites** (fossilized bacterial mats) in 3.5 billion-year-old rocks prove liquid water existed\n- Water is essential for many rock-forming processes (weathering, sedimentary deposition)\n- Jack Hills **zircon crystals** contain oxygen isotopes indicating they formed in the presence of **liquid water**\n- This pushes back evidence for Earth's oceans to 4.4 billion years ago (only 160 million years after Earth formed)\n\n**3. Continental Crust Formation:**\n- These rocks represent some of Earth's **first continental crust**\n- Their survival for billions of years shows continents are **stable** compared to oceanic crust (which recycles every 200 million years)\n- Metamorphic rocks show they've been through multiple cycles of **mountain building and erosion**\n\n**4. Early Life Evidence:**\n- Pilbara rocks contain some of Earth's **oldest fossils** (3.5 billion-year-old stromatolites)\n- Shows life emerged very early in Earth's history\n\n**Why this matters:**\nThe Pilbara rocks are a geological time capsule, revealing that Earth had liquid water, plate tectonics, and possibly life within its first billion years - much earlier than previously thought.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what types of rocks are present (granite, metamorphic) and what processes form them. What does this tell you about Earth's geological activity 4 billion years ago?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider: **Granite** requires subduction to form. **Zircon crystals** with certain oxygen isotopes indicate liquid water was present. What do these clues reveal about early Earth's conditions and processes?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 270,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 65,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-022", "rocks-minerals-y8-043"],
+      "preparesFor": ["rocks-minerals-y8-077", "rocks-minerals-y8-078"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set7",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-066",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Challenge question:** If the mantle is solid rock, not liquid, how can **tectonic plates move** across Earth's surface?\n\nExplain the mechanism that allows solid mantle rock to flow and drive plate tectonics.",
+    "solution": "Tectonic plates move because the **solid mantle beneath them flows very slowly** through a process called **plastic deformation** or **convection**.\n\n**How Solid Rock Can Flow:**\n\n**1. Extreme Heat Creates Plasticity:**\n- Mantle rock is heated to **1000-3700°C** by radioactive decay in Earth's core\n- At these temperatures, solid rock becomes **ductile** - it can deform and flow like Play-Doh or warm wax\n- It's still **solid** (atoms are bonded), but bonds can slowly break and reform, allowing movement\n\n**2. Mantle Convection:**\n- Hot rock near the core is **less dense** → rises slowly upward\n- Cool rock near the surface is **more dense** → sinks slowly downward\n- This creates **convection currents** (circular flow patterns) in the solid mantle\n- Movement rate: **few centimeters per year** (same speed as fingernail growth)\n\n**3. Plates Ride on Flowing Mantle:**\n- Tectonic plates (lithosphere) are thin, rigid slabs floating on the **asthenosphere** (plastic upper mantle)\n- As mantle convects beneath them, plates are **dragged along**\n- Additional forces: **slab pull** (subducting plate pulls the rest down) and **ridge push** (new crust at mid-ocean ridges)\n\n**Key Insight:**\n'Solid' doesn't mean 'rigid' at geological timescales. Under extreme heat and pressure over millions of years, solid rock **flows like a very thick fluid**. This is called **plastic flow** - the atoms remain bonded (solid), but the overall mass can deform and move.\n\n**Evidence:**\n- Seismic waves prove mantle is solid (S-waves travel through it)\n- GPS measurements show plates moving 2-10 cm/year\n- Mantle xenoliths (rock samples) brought up by volcanoes show solid crystalline structure",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to materials when they're heated but still remain solid. Can you think of any examples where solids can slowly deform or flow? (Hint: Think of glacier ice, or how metal can be bent when heated)",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The key is **plastic deformation** - at high temperatures, solid rock becomes ductile and flows very slowly through **convection currents**. Hot mantle rises, cool mantle sinks, creating circular flow that drags plates along. How fast does this happen?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 270,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 66,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-061", "rocks-minerals-y8-064"],
+      "preparesFor": ["rocks-minerals-y8-067", "rocks-minerals-y8-070"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set7",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-067",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Trace the **energy pathway** from the original energy source through the complete formation of a metamorphic rock at a convergent plate boundary.\n\nYour answer should identify: (1) the energy source, (2) how that energy is transferred, and (3) how it causes the rock transformation.",
+    "solution": "The energy pathway for metamorphic rock formation at a convergent boundary:\n\n**STEP 1: Original Energy Source**\n- **Radioactive decay** of isotopes (uranium-238, thorium-232, potassium-40) in Earth's core and mantle\n- These unstable atoms release energy as they decay into stable elements\n- This has been heating Earth's interior for 4.6 billion years\n\n**STEP 2: Energy Transfer - Mantle Convection**\n- Heat from radioactive decay warms mantle rock\n- Warm rock becomes less dense and **rises** (convection current)\n- Cool rock sinks, creating circular flow patterns\n- This transfers heat from deep interior toward the surface\n\n**STEP 3: Energy Transfer - Plate Tectonics**\n- Convection currents drag tectonic plates along\n- At **convergent boundaries**, plates collide\n- **Kinetic energy** of plate movement is converted to:\n  - **Pressure** (rocks compressed)\n  - **Heat** (friction generates additional thermal energy)\n\n**STEP 4: Rock Transformation**\n- Sedimentary or igneous rock caught in collision zone experiences:\n  - **Directed pressure** (up to thousands of atmospheres) → flattens and aligns mineral crystals\n  - **Heat** (200-800°C) → chemical bonds break and reform, creating new minerals\n- Original rock structure is **destroyed and rebuilt** without melting\n- Result: **Metamorphic rock** (e.g., shale → slate → schist → gneiss)\n\n**Energy Flow Summary:**\nRadioactive decay → Heat energy → Mantle convection → Plate movement (kinetic energy) → Pressure + Heat at convergent boundary → Metamorphic transformation\n\n**Key Insight:**\nAll metamorphic rocks at convergent boundaries ultimately trace their formation energy back to **radioactive decay** deep in Earth's interior. Without this continuous energy source, plate tectonics would stop, and no new metamorphic rocks would form.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Start with Earth's internal heat source. What process generates heat deep inside Earth that has continued for billions of years?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Trace the pathway: **Radioactive decay** → heats mantle → **convection currents** → drive plate movement → plates collide → **pressure and heat** → metamorphism. How is energy transferred at each stage?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 270,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 67,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-062", "rocks-minerals-y8-066"],
+      "preparesFor": ["rocks-minerals-y8-079"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set7",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-068",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A geologist examines a rock sample and determines it has been **metamorphosed** (transformed by heat and pressure).\n\nExplain how this surface rock connects to processes occurring **deep in Earth's interior**. Include at least THREE connections between surface features and deep Earth processes.",
+    "solution": "A metamorphic rock at Earth's surface reveals multiple connections to **deep Earth processes**:\n\n**Connection 1: Mantle Convection → Plate Movement**\n- **Deep process:** Hot mantle rock (heated by radioactive decay) rises, cool rock sinks, creating convection currents\n- **Surface connection:** These currents drive plate tectonics, causing plates to collide at convergent boundaries\n- **Rock link:** Metamorphic rock formed where plates collided, subjecting rock to extreme pressure\n\n**Connection 2: Subduction → Pressure and Heat**\n- **Deep process:** One tectonic plate descends into the mantle (subduction), reaching depths of 100+ km\n- **Surface connection:** Rocks dragged down experience increasing temperature (up to 800°C) and pressure (thousands of atmospheres)\n- **Rock link:** These conditions cause metamorphism - minerals recrystallize without melting, creating foliated textures (aligned crystals)\n\n**Connection 3: Mountain Building → Uplift**\n- **Deep process:** Collision of plates transfers energy from mantle convection into crustal deformation\n- **Surface connection:** Rock layers are **folded, compressed, and uplifted** to form mountain ranges\n- **Rock link:** Metamorphic rocks formed deep underground (10-30 km) are slowly uplifted to the surface over millions of years through erosion and isostatic rebound\n\n**Connection 4: Earth's Internal Heat**\n- **Deep process:** Radioactive decay in core and mantle maintains Earth's internal temperature gradient\n- **Surface connection:** Heat conducts from deep interior toward surface\n- **Rock link:** This geothermal gradient provides the **heat** necessary for metamorphism (temperature increases ~25°C per km depth)\n\n**Connection 5: Crustal Recycling**\n- **Deep process:** Subducted rocks may reach mantle depths where some melt and return to surface as magma\n- **Surface connection:** Volcanic arcs form above subduction zones\n- **Rock link:** Some metamorphic rocks represent partially recycled crustal material\n\n**Big Picture:**\nEvery metamorphic rock tells a story of Earth's **internal energy** being expressed at the surface through plate tectonics. The rock's mere existence proves that deep mantle processes (convection, radioactive heating) are actively shaping Earth's surface.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what causes metamorphism: heat and pressure. Where do these come from? What deep Earth processes generate the conditions needed to transform rocks?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Connect the dots: **Mantle heat** → convection → **plate movement** → collision/subduction → pressure and heat → **metamorphism** → uplift brings deep rocks to surface. Each step links surface rock to deep processes.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 270,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 68,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-063", "rocks-minerals-y8-067"],
+      "preparesFor": ["rocks-minerals-y8-079"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set7",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-069",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Prediction challenge:**\n\nTwo oceanic plates are converging (moving toward each other). Both plates are made of **basalt** and are approximately the same age and density.\n\nPredict what will happen at this convergent boundary. What types of rocks will form, and what geological features might develop? Explain your reasoning.",
+    "solution": "When two oceanic plates of similar age and density converge, a **complex tectonic scenario** develops:\n\n**Initial Challenge:**\n- Both plates are similar density (basalt, ~3.0 g/cm³)\n- Neither plate is significantly more buoyant\n- Eventually, small density differences or pre-existing weaknesses determine which plate subducts\n\n**Predicted Outcome:**\n\n**1. Oceanic-Oceanic Subduction Zone Forms:**\n- The slightly **older, cooler, denser** plate will eventually begin subducting beneath the other\n- Creates a **deep ocean trench** (e.g., Mariana Trench - deepest point on Earth at 11 km)\n\n**2. Rock Transformations:**\n\n**Sedimentary:**\n- Sediments scraped off subducting plate accumulate in an **accretionary wedge**\n- Deep ocean sediments (clay, silica) compressed into sedimentary rocks\n\n**Metamorphic:**\n- Subducting basalt experiences increasing pressure and temperature\n- Transforms: Basalt → **blueschist** (high pressure, low temperature) → **eclogite** (very high pressure)\n- Water released from metamorphosing minerals\n\n**Igneous:**\n- Water from subducting plate lowers melting point of overlying mantle\n- Partial melting produces **basaltic-to-andesitic magma**\n- Magma rises through oceanic crust\n\n**3. Geological Features:**\n\n**Volcanic Island Arc:**\n- Chain of underwater/surface volcanoes parallel to trench (100-200 km from trench)\n- Examples: Japan, Philippines, Aleutian Islands, Tonga\n- Volcanoes erupt **andesite and basalt**\n\n**Deep Ocean Trench:**\n- Deepest parts of ocean where plate descends\n\n**Earthquakes:**\n- Frequent seismic activity along subduction zone\n- Earthquakes can be very deep (up to 700 km) as plate descends\n\n**4. Long-term Evolution:**\n- Volcanic islands build up over millions of years\n- May eventually form new **continental crust** (andesite is more silica-rich than basalt)\n- Island arc may collide with continent, adding to continental margin\n\n**Key Insight:**\nOceanic-oceanic convergence creates **island arcs** (not continental mountains like oceanic-continental convergence). This process is how some continental crust originally formed - through volcanic island arc accretion onto existing continents.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "When both plates are oceanic basalt, one will still subduct (the older, cooler, denser one). What happens at oceanic-oceanic subduction zones? Think about the Mariana Islands or Japan.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Expected sequence: One plate subducts → creates **ocean trench** → water released causes mantle melting → magma rises through oceanic crust → forms **volcanic island arc**. What rock types form at each stage?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 69,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-063", "rocks-minerals-y8-064"],
+      "preparesFor": ["rocks-minerals-y8-079"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set7",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-070",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student explains volcanic eruptions this way:\n\n*'The mantle is liquid magma. When pressure builds up, the liquid magma bursts through cracks in the crust, causing eruptions.'*\n\nIdentify **THREE errors** in this explanation and provide the correct scientific explanation for each.",
+    "solution": "This explanation contains several fundamental misconceptions about Earth's interior and volcanic processes:\n\n**ERROR 1: 'The mantle is liquid magma'**\n\n**Correction:**\nThe mantle is **mostly solid rock** (99%+), not liquid magma. It's composed of solid silicate minerals like olivine and pyroxene. Despite temperatures of 1000-3700°C, extreme pressure keeps the rock in solid state.\n\n**Evidence:**\n- Seismic S-waves (shear waves) travel through the mantle - they cannot travel through liquids\n- Mantle xenoliths (rock samples) brought up by volcanoes show solid crystalline structure\n- Only the outer core is liquid (confirmed by S-wave shadow zone)\n\nThe mantle behaves **plastically** - it can flow very slowly over millions of years while remaining solid, similar to how glaciers flow.\n\n**ERROR 2: 'Pressure builds up in the magma'**\n\n**Correction:**\nMagma doesn't already exist waiting to erupt. It must first **form** through specific melting processes:\n\n**Three ways magma forms:**\n1. **Decompression melting:** Solid mantle rock rises and pressure decreases, allowing it to melt (divergent boundaries, hot spots)\n2. **Flux melting:** Water from subducting plates lowers the melting point of mantle rock (subduction zones)\n3. **Heat-induced melting:** Extra-hot mantle plumes provide additional heat (hot spots)\n\nOnce magma forms, it rises because it's **less dense** than surrounding solid rock, not because of 'pressure building up.'\n\n**ERROR 3: Implied cause - 'magma bursts through cracks'**\n\n**Correction:**\nVolcanic eruptions don't happen randomly 'through cracks.' They occur at **specific locations** determined by plate tectonics:\n\n**Where volcanoes form:**\n- **~75% at subduction zones** (Pacific Ring of Fire) - flux melting from water released by subducting plate\n- **~15% at divergent boundaries** (mid-ocean ridges) - decompression melting as plates pull apart\n- **~10% at hot spots** (Hawaii, Yellowstone) - mantle plumes provide extra heat\n\nEruptions occur when magma accumulates in a **magma chamber**, dissolved gases (water vapor, CO₂, SO₂) exsolve as pressure decreases, and gas expansion drives the eruption.\n\n**CORRECT EXPLANATION:**\n'Most of Earth's mantle is **solid rock** that flows slowly. Volcanoes occur at specific tectonic locations where conditions allow solid mantle rock to **melt**, forming magma. The magma rises (being less dense than solid rock) and accumulates in chambers. Eruptions are driven by **dissolved gases** that expand as magma approaches the surface, not by pressure in the mantle itself.'",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Review what you learned about Earth's layers. Is the mantle actually liquid? What evidence tells us about its state? Think about seismic waves.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Three errors to address: (1) Mantle state - it's **solid**, not liquid magma; (2) Magma formation - it must **form** through specific melting processes, not pre-exist; (3) Location - eruptions occur at **specific tectonic settings**, not random cracks.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 70,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-061", "rocks-minerals-y8-064", "rocks-minerals-y8-066"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set7",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-071",
+    "questionType": "SHORT_ANSWER",
+    "stem": "The **Pilbara region** of Western Australia contains massive deposits of **banded iron formations (BIF)** - rocks with distinctive red and black stripes formed over **2 billion years ago**. These iron ore deposits are so rich they constitute over **35% of Australia's total exports** by value.\n\nExplain:\n1. How these ancient iron deposits formed\n2. Why they are only found in very old rocks (2+ billion years)\n3. What they reveal about Earth's early atmosphere",
+    "solution": "The **Pilbara banded iron formations** are one of Earth's most important geological and biological archives:\n\n**1. HOW THEY FORMED (2.5-2.0 billion years ago):**\n\n**Stage 1: Iron-Rich Oceans**\n- Early Earth's oceans contained **dissolved iron (Fe²⁺)** from volcanic activity and weathering\n- Iron stayed dissolved because there was **no free oxygen** in the atmosphere\n- Ancient oceans were essentially 'rusty water' with high iron concentration\n\n**Stage 2: Oxygen Production**\n- **Cyanobacteria** (photosynthetic bacteria) evolved ~2.4 billion years ago\n- They produced oxygen as a waste product: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂\n- Oxygen released into the ocean reacted with dissolved iron\n\n**Stage 3: Iron Precipitation**\n- Oxygen + dissolved iron → **iron oxide (rust)** precipitated out of seawater\n- Chemical reaction: 4Fe²⁺ + O₂ + 10H₂O → 4Fe(OH)₃ (rust) → settles as sediment\n- Created **red/orange layers** (hematite Fe₂O₃, magnetite Fe₃O₄)\n\n**Stage 4: Banding**\n- **Seasonal cycles** in bacterial activity created alternating layers:\n  - Red bands: Iron oxide (from oxygen-producing seasons)\n  - Black bands: Silica-rich chert (from low-oxygen seasons)\n- Layers built up over millions of years, compressed into solid rock\n\n**2. WHY ONLY IN ANCIENT ROCKS:**\n\nBanded iron formations **stopped forming** after ~1.8 billion years ago because:\n\n**The Great Oxidation Event:**\n- Once all dissolved ocean iron was 'used up' (precipitated), oxygen began accumulating in the **atmosphere**\n- After ~2 billion years ago, atmospheric oxygen prevented iron from dissolving in large quantities\n- Modern oceans have **very little dissolved iron** - any iron entering oceans quickly oxidizes and settles\n- No more conditions for BIF formation\n\n**Modern Iron Deposits:**\n- Today's iron ore comes from **bog iron** (freshwater wetlands) or **laterite** (weathered tropical soils)\n- These are much smaller, less concentrated deposits\n- Ancient BIFs represent a **unique window** in Earth's history when conditions were just right\n\n**3. WHAT THEY REVEAL ABOUT EARLY ATMOSPHERE:**\n\n**Evidence for Atmospheric Transformation:**\n- BIFs prove Earth's atmosphere was originally **oxygen-free** (allowing iron to dissolve)\n- The timing of BIF formation (2.5-1.8 Ga) marks the **Great Oxidation Event**\n- Before: <0.1% oxygen in atmosphere\n- After: ~1-2% oxygen (eventually reaching today's 21%)\n\n**Evidence for Early Life:**\n- BIFs are indirect evidence of **photosynthetic bacteria** (cyanobacteria)\n- The regular banding suggests **seasonal biological cycles** 2 billion years ago\n- This oxygen 'poisoned' many anaerobic organisms but enabled evolution of complex life\n\n**Global Climate Impact:**\n- Oxygen reacted with methane (a greenhouse gas) in the atmosphere\n- This may have triggered the **Huronian Glaciation** (2.4-2.1 Ga) - Earth's first major ice age\n\n**Australian Significance:**\nThe Pilbara BIFs are Earth's **most economically valuable** ancient rocks. They represent:\n- A geological 'smoking gun' for the oxygen revolution\n- Evidence that life fundamentally changed Earth's chemistry\n- A non-renewable resource - we're mining rocks that can never form again\n\nAustralia exports ~800 million tonnes of iron ore annually, mostly to China for steel production. These rocks are literally **fossilized pollution** from ancient bacteria!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what conditions would allow iron to dissolve in ocean water. What changed about Earth's atmosphere ~2 billion years ago that would cause dissolved iron to precipitate out?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The key is **oxygen**. Early oceans had dissolved iron because there was no oxygen. **Cyanobacteria** produced oxygen through photosynthesis, which reacted with iron to form iron oxide (rust) that settled. The banding shows seasonal cycles of this process. Why can't this happen today?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 71,
+      "conceptsUsed": ["c10"],
+      "buildsOn": ["rocks-minerals-y8-065"],
+      "preparesFor": ["rocks-minerals-y8-077", "rocks-minerals-y8-078"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set8",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-072",
+    "questionType": "MCQ",
+    "stem": "Mining companies search for **ore deposits** - rock concentrations rich enough in valuable minerals to be worth extracting.\n\nWhich factor is **MOST important** in determining whether a mineral deposit is classified as an ore?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The deposit must contain at least 50% pure metal by mass.",
+        "isCorrect": false,
+        "feedback": "Most ore deposits contain far less than 50% metal. For example, copper ore with just 0.5-2% copper can be economically viable. The key is whether extraction is **profitable**, not the percentage."
+      },
+      {
+        "id": "B",
+        "text": "The mineral concentration must be high enough that extraction is economically profitable at current market prices.",
+        "isCorrect": true,
+        "feedback": "Correct! **Ore** is defined economically, not just geologically. A deposit becomes ore when: (1) metal concentration is sufficient, (2) extraction technology exists, (3) market price makes it profitable, and (4) environmental/social factors permit mining. The same deposit can be 'ore' when prices are high but 'not ore' when prices drop."
+      },
+      {
+        "id": "C",
+        "text": "The deposit must be located within 100 meters of Earth's surface for easy access.",
+        "isCorrect": false,
+        "feedback": "While depth affects extraction cost, it doesn't define ore. Some ore deposits are mined at depths exceeding 3-4 km (e.g., South African gold mines). What matters is whether the **total extraction cost** is less than the mineral's value."
+      },
+      {
+        "id": "D",
+        "text": "The minerals must be rare elements like gold or platinum - common minerals cannot be ores.",
+        "isCorrect": false,
+        "feedback": "Common minerals can definitely be ores! **Iron ore** is extremely abundant, as is **bauxite** (aluminum ore). What matters is whether there's sufficient **market demand** and whether extraction is profitable, not rarity."
+      }
+    ],
+    "solution": "The correct answer is **B**.\n\n**Ore** is an **economic concept**, not just a geological one. A rock is classified as ore when it contains valuable minerals in sufficient concentration that **extraction is profitable** after accounting for:\n\n**Factors Determining Ore Status:**\n\n1. **Mineral Concentration:**\n   - Must be higher than average crustal abundance\n   - Example: Gold ore might contain 5-10 grams per tonne (compare to crustal average of 0.004 grams per tonne)\n   - Iron ore typically 30-60% iron (crustal average ~5%)\n\n2. **Market Price:**\n   - Ore status **changes** with metal prices\n   - Example: Low-grade copper deposits become ore when copper prices rise\n   - Rare earth elements became valuable ores when technology demand increased\n\n3. **Extraction Technology:**\n   - Better processing technology can make low-grade deposits profitable\n   - Example: Heap leaching made low-grade gold deposits economically viable\n\n4. **Location and Accessibility:**\n   - Proximity to infrastructure (roads, power, water)\n   - Depth of deposit affects mining cost\n   - Environmental and social license to operate\n\n**Key Insight:**\nThe **same mineral deposit** might be:\n- **Ore** when metal prices are high, technology is efficient, and markets are accessible\n- **Not ore** when prices drop, costs increase, or regulations change\n\nThis is why mining companies constantly reassess their ore reserves - what's economically viable changes with market conditions.\n\n**Australian Example:**\nPilbara iron ore deposits contain ~60% iron - high enough to be profitable even with low iron prices and high transportation costs (shipping to Asia). Lower-grade deposits elsewhere are not economically viable.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what makes mining companies decide to dig up rock. Is it just about what's in the rock, or also about whether they can make money from it?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider that 'ore' is an **economic term**. The same deposit might be ore when metal prices are high but not ore when prices drop. What does this tell you about the definition?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 72,
+      "conceptsUsed": ["c10"],
+      "buildsOn": ["rocks-minerals-y8-051", "rocks-minerals-y8-052"],
+      "preparesFor": ["rocks-minerals-y8-073", "rocks-minerals-y8-075"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set8",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-073",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Mount Isa** in Queensland is one of Australia's most productive mining regions. The same geological formation contains economic concentrations of **three different metals**:\n- Copper (Cu) ores\n- Zinc (Zn) ores  \n- Lead (Pb) ores\n\nExplain why these three metals occur together in the same location. What geological process would create a **polymetallic ore deposit** like Mount Isa?",
+    "solution": "Mount Isa's **polymetallic ore deposit** formed through a specific sequence of geological processes that concentrated multiple metals together:\n\n**HOW POLYMETALLIC DEPOSITS FORM:**\n\n**Stage 1: Hydrothermal Fluid Generation (~1600 million years ago)**\n- Deep underground, **hot water** (100-400°C) circulated through fractured rocks\n- Heat source: Nearby magma intrusion or geothermal gradient\n- Water dissolved metals from surrounding rocks:\n  - Copper from basaltic rocks\n  - Lead and zinc from sedimentary rocks\n  - Sulfur from various sources\n\n**Stage 2: Metal Transport in Solution**\n- Hot, acidic, high-pressure fluids can **dissolve and transport** metals that normally don't dissolve\n- Different metals dissolve at different temperatures and pH conditions\n- Fluids migrated through **faults and fractures** in the rock\n\n**Stage 3: Chemical Precipitation (Ore Deposition)**\n- As hydrothermal fluids **cooled**, **pressure dropped**, or **chemical conditions changed**, dissolved metals precipitated:\n  - **Copper**: Precipitated at highest temperatures (300-400°C) as **chalcopyrite** (CuFeS₂)\n  - **Lead**: Precipitated at moderate temperatures (200-300°C) as **galena** (PbS)\n  - **Zinc**: Precipitated at lower temperatures (100-200°C) as **sphalerite** (ZnS)\n- Metals deposited in **veins** and **replacement zones** within sedimentary rocks\n\n**Stage 4: Zoning Pattern**\n- Because different metals precipitate at different temperatures, Mount Isa shows **zonation**:\n  - **Inner zone** (hottest): Copper-rich ores\n  - **Middle zone**: Lead-zinc mixed ores\n  - **Outer zone** (coolest): Zinc-rich ores\n\n**WHY THESE THREE METALS TOGETHER:**\n\n1. **Similar Chemical Behavior:**\n   - Copper, lead, and zinc are all **chalcophile** elements (sulfur-loving)\n   - They readily form **sulfide minerals** (combine with sulfur)\n   - All three dissolve in similar hydrothermal conditions\n\n2. **Sequential Precipitation:**\n   - Same fluid carried all three metals\n   - As the fluid cooled during ascent, metals precipitated in sequence\n   - This created a **single deposit** with multiple metal zones\n\n3. **Geological Setting:**\n   - Mount Isa formed in a **sedimentary basin** with active faulting\n   - Faults provided pathways for hydrothermal fluids\n   - Reactive sedimentary rocks (limestone, shale) facilitated metal deposition\n\n**MODERN SIGNIFICANCE:**\n\nPolymetallic deposits like Mount Isa are **economically valuable** because:\n- Mining one deposit yields multiple valuable products\n- Reduces per-unit extraction costs (shared infrastructure)\n- Makes lower-grade zones economically viable when multiple metals are recovered\n\nMount Isa has been mined for over 90 years and remains one of Australia's largest base metal producers, contributing billions to the economy.\n\n**Key Insight:**\nPolymetallic deposits don't form by coincidence - they reflect **systematic chemical processes** where a single hydrothermal event deposited multiple metals through temperature-controlled precipitation. The metals that occur together depend on their chemical similarities and the specific temperature/pressure conditions during ore formation.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how metal ores form. What process involves hot water dissolving metals from rocks and then depositing them in concentrated zones? What happens as that water cools?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The key is **hydrothermal fluids** (hot, metal-rich water). These fluids can dissolve multiple metals, then deposit them as they cool - but different metals precipitate at different temperatures, creating zones. Why would copper, zinc, and lead all dissolve in the same fluid?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 270,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 73,
+      "conceptsUsed": ["c10"],
+      "buildsOn": ["rocks-minerals-y8-053"],
+      "preparesFor": ["rocks-minerals-y8-077"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set8",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-074",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Open-cut mining removes huge volumes of rock to extract valuable minerals. A typical iron ore mine in the Pilbara might move **200 million tonnes of rock per year**, but only a portion contains economically valuable iron.\n\nAnalyze the **environmental impacts** of large-scale mining operations. Include impacts on:\n1. Land and ecosystems\n2. Water systems\n3. Air quality\n4. Long-term geological changes",
+    "solution": "Large-scale mining operations create significant environmental impacts across multiple systems:\n\n**1. LAND AND ECOSYSTEM IMPACTS:**\n\n**Habitat Destruction:**\n- Mining removes **entire landscapes** - vegetation, topsoil, and geological features\n- Open-cut mines can be 2-4 km wide and 500+ meters deep\n- Destroys habitats for endemic species (e.g., Pilbara olive python, northern quoll)\n- Fragments remaining habitat, isolating wildlife populations\n\n**Waste Rock and Tailings:**\n- **Tailings**: Fine waste particles from ore processing (containing chemicals, heavy metals)\n- Stored in massive tailings dams that can cover square kilometers\n- Risk of dam failure (e.g., 2019 Brumadinho disaster in Brazil - 270 deaths)\n- Tailings remain toxic for decades to centuries\n\n**Soil Degradation:**\n- Topsoil (containing nutrients, seeds, microorganisms) is often lost\n- Compaction from heavy machinery reduces soil quality\n- Erosion of exposed surfaces increases sedimentation in waterways\n\n**2. WATER SYSTEM IMPACTS:**\n\n**Groundwater Depletion:**\n- Open-cut mines below water table require **dewatering** (pumping out groundwater)\n- Can lower water table across entire region\n- Affects surrounding ecosystems (wetlands, springs, vegetation)\n- Pilbara mines pump >100 billion liters per year\n\n**Water Contamination:**\n- **Acid mine drainage**: When sulfide minerals (pyrite) are exposed to air and water, they produce sulfuric acid\n- Acidic runoff dissolves heavy metals (lead, arsenic, mercury, cadmium)\n- Contaminated water enters streams, rivers, aquifers\n- Can persist for **hundreds of years** after mine closure\n\n**Sediment Loading:**\n- Erosion from exposed surfaces increases sediment in waterways\n- Smothers aquatic habitats, reduces light penetration\n- Affects water quality for communities and ecosystems downstream\n\n**3. AIR QUALITY IMPACTS:**\n\n**Dust Emissions:**\n- Mining operations generate **massive dust clouds**\n- Particulate matter (PM10, PM2.5) affects respiratory health\n- Dust can travel 10-50 km from mine site\n- Contains silica (causes silicosis), heavy metals, sulfates\n\n**Greenhouse Gas Emissions:**\n- Heavy machinery (haul trucks, excavators) burns diesel fuel\n- Processing ore requires significant energy (crushing, grinding, smelting)\n- Transportation to markets (ships, trains)\n- Australian mining sector: ~10% of national CO₂ emissions\n\n**Blasting:**\n- Explosives used to fracture rock produce:\n  - Nitrogen oxides (NOₓ)\n  - Carbon monoxide\n  - Noise pollution affecting wildlife and communities\n\n**4. LONG-TERM GEOLOGICAL CHANGES:**\n\n**Permanent Landscape Alteration:**\n- Open-cut mines create **permanent voids** in the landscape\n- Some are converted to lakes (often contaminated)\n- Others remain as steep-walled pits - safety hazards for wildlife and people\n\n**Subsidence:**\n- Underground mining can cause surface subsidence (collapse)\n- Damages surface infrastructure, alters drainage patterns\n- Can continue for decades after mine closure\n\n**Loss of Geological Heritage:**\n- Unique rock formations, fossil sites, mineral specimens destroyed\n- Ancient geological features (like Pilbara stromatolites) lost permanently\n- Cultural heritage sites (Indigenous rock art, ceremonial sites) impacted\n\n**Irreversible Resource Depletion:**\n- High-grade ores are non-renewable on human timescales\n- Once mined, these geological concentrations cannot reform\n- Future generations lose access to these resources\n\n**MITIGATION STRATEGIES (Used in Modern Mining):**\n\n1. **Progressive Rehabilitation:**\n   - Restore mined areas while operations continue\n   - Replace topsoil, revegetate with native species\n   - Reshape landforms to stable profiles\n\n2. **Water Management:**\n   - Treat acid mine drainage before release\n   - Capture and recycle process water\n   - Monitor groundwater quality and levels\n\n3. **Biodiversity Offsets:**\n   - Protect equivalent habitat elsewhere\n   - Establish conservation areas\n   - Breeding programs for threatened species\n\n4. **Technology Improvements:**\n   - Dust suppression systems\n   - Electric vehicles (reducing diesel emissions)\n   - More efficient ore processing (less waste)\n\n**CONCLUSION:**\n\nMining creates unavoidable environmental impacts, but modern practices can **minimize** damage through:\n- Careful site selection (avoiding high-conservation areas)\n- Progressive rehabilitation\n- Water treatment and recycling\n- Long-term monitoring and maintenance\n\nThe key tension: Society benefits from mineral resources (steel for buildings, copper for electronics), but mining imposes environmental costs. **Sustainable mining** aims to balance resource extraction with environmental protection, ensuring both current needs and long-term ecosystem health.\n\nAustralia's mining industry is increasingly required to demonstrate **environmental stewardship**, including plans for mine closure and rehabilitation before permits are granted.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens when you remove huge volumes of rock and process them. Consider impacts on the physical landscape, water that flows through it, air quality from dust and machinery, and what remains after mining stops.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Organize impacts by system: **Land** (habitat destruction, waste disposal), **Water** (groundwater depletion, acid drainage, contamination), **Air** (dust, emissions from machinery), **Long-term** (permanent landscape changes, resource depletion). What specific processes cause each impact?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 74,
+      "conceptsUsed": ["c10"],
+      "buildsOn": ["rocks-minerals-y8-054", "rocks-minerals-y8-056"],
+      "preparesFor": ["rocks-minerals-y8-075"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set8",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-075",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Australia's economy heavily depends on mineral exports (iron ore, coal, copper, gold, lithium). However, these resources are **non-renewable** - once mined, they cannot be replaced on human timescales.\n\nPropose a comprehensive strategy for **sustainable mineral resource management** in Australia that balances economic benefits with long-term sustainability. Your strategy should address at least THREE different aspects of sustainability.",
+    "solution": "A comprehensive **sustainable mineral resource management** strategy for Australia must balance current economic benefits with long-term environmental, social, and economic sustainability:\n\n**1. RESOURCE EFFICIENCY AND CIRCULAR ECONOMY:**\n\n**Maximize Recovery:**\n- Extract maximum value from each tonne of ore mined\n- Improve ore processing technology to recover low-grade deposits\n- Re-process old tailings with modern technology (often contain valuable minerals missed by older methods)\n\n**Promote Recycling and Reuse:**\n- **Metal recycling**: Aluminum requires 95% less energy than primary production; copper, steel also highly recyclable\n- Design products for **disassembly and material recovery** (smartphones, electronics, vehicles)\n- Develop urban mining (extracting metals from electronic waste)\n- Create economic incentives for recycling (e.g., container deposit schemes but for electronics)\n\n**Substitution:**\n- Research alternative materials for applications where possible\n- Example: Graphene or carbon fiber instead of some metals\n- Reduces demand for primary extraction\n\n**2. ECONOMIC DIVERSIFICATION:**\n\n**Value-Added Processing:**\n- Process minerals **in Australia** rather than exporting raw ore\n- Creates more jobs per tonne mined\n- Captures more economic value (e.g., produce steel rather than just selling iron ore)\n- Reduces international shipping emissions\n\n**Sovereign Wealth Fund:**\n- Invest mining royalties in **long-term wealth fund** (like Norway's oil fund)\n- Provides income after resources are depleted\n- Funds education, infrastructure, renewable energy transition\n- Example: Western Australia's Future Fund\n\n**Economic Transition Planning:**\n- Support mining communities to develop **alternative industries**\n- Tourism (geological heritage, Indigenous cultural tourism)\n- Renewable energy (solar, wind in resource-rich regions)\n- Technology and research hubs\n- Prevent 'ghost towns' when mines close\n\n**3. ENVIRONMENTAL PROTECTION AND REHABILITATION:**\n\n**Strict Environmental Standards:**\n- Mandatory **environmental impact assessments** before mining approval\n- Exclude areas of high conservation value (biodiversity hotspots, cultural heritage sites)\n- Real-time monitoring of water quality, air quality, biodiversity\n- Penalties for environmental damage that exceed profits from non-compliance\n\n**Progressive Rehabilitation:**\n- Restore land **during mining operations**, not just at closure\n- Legal requirement to return land to stable, self-sustaining ecosystem\n- **Financial bonds** held by government to ensure companies fund rehabilitation even if they go bankrupt\n- Long-term monitoring (10-20 years post-closure)\n\n**Water Stewardship:**\n- Minimize groundwater extraction through water recycling\n- Treat all contaminated water before release\n- Protect aquifers and surface water systems\n- Return dewatered water to environment when mining ceases\n\n**Biodiversity Offsets:**\n- For unavoidable habitat loss, protect equivalent high-quality habitat elsewhere\n- Establish conservation corridors\n- Fund breeding programs for threatened species\n\n**4. SOCIAL SUSTAINABILITY AND EQUITY:**\n\n**Indigenous Partnership and Rights:**\n- **Free, prior, and informed consent** from Traditional Owners before mining on their land\n- Share economic benefits through agreements, employment, business opportunities\n- Protect cultural heritage sites (modify mine plans if necessary)\n- Example: Rio Tinto's destruction of Juukan Gorge (46,000-year-old sites) shows what NOT to do\n\n**Community Benefit Sharing:**\n- Mining royalties fund local infrastructure, health, education\n- Employment and training for local residents\n- Diversification support for mining-dependent communities\n\n**Intergenerational Equity:**\n- Current generation benefits from mining, but future generations lose access to resources\n- Invest in **renewable resources** (education, technology, ecosystems) to compensate\n- Transparent reporting of remaining reserves\n\n**5. STRATEGIC RESOURCE MANAGEMENT:**\n\n**Critical Minerals Stockpiling:**\n- Reserve some deposits for **future national needs**\n- Example: Rare earth elements essential for technology\n- Don't export everything - maintain strategic reserves\n\n**Research and Innovation:**\n- Invest in geological science to find new deposits (deeper, lower-grade)\n- Develop cleaner extraction technologies\n- Research material substitutes and alternatives\n\n**International Cooperation:**\n- Share technology and best practices\n- Coordinate with other resource-rich nations\n- Prevent 'race to the bottom' on environmental standards\n\n**6. TRANSPARENCY AND GOVERNANCE:**\n\n**Public Reporting:**\n- Publish data on resource extraction, royalties, environmental impacts\n- Independent audits of mining company claims\n- Accessible information for affected communities\n\n**Adaptive Management:**\n- Regularly review policies based on new science and technology\n- Adjust extraction rates if environmental impacts exceed predictions\n- Flexibility to respond to changing market conditions\n\n**IMPLEMENTATION PRIORITIES:**\n\n**Short-term (1-5 years):**\n- Strengthen environmental regulations and enforcement\n- Increase recycling infrastructure and incentives\n- Establish sovereign wealth fund for mining royalties\n\n**Medium-term (5-20 years):**\n- Transition to value-added processing in Australia\n- Achieve 50%+ recycling rates for major metals\n- Complete rehabilitation of all closed mines\n\n**Long-term (20+ years):**\n- Circular economy where most minerals are recycled\n- Economic diversification so mining communities have alternatives\n- Knowledge-based economy less dependent on resource extraction\n\n**CONCLUSION:**\n\nSustainable mineral resource management recognizes that:\n- **Non-renewable resources** must be used wisely - once gone, they're gone\n- **Economic benefits** must be shared equitably and invested for the future\n- **Environmental impacts** must be minimized and remediated\n- **Social license** requires Indigenous rights, community benefits, and transparency\n\nAustralia can be a global leader by demonstrating that resource extraction can create wealth while protecting environment and supporting communities - both now and for generations to come.\n\nThe key question: *Are we managing these one-time resources as valuable assets for future Australians, or just converting them to cash as quickly as possible?*",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about sustainability in three dimensions: **environmental** (protecting ecosystems), **economic** (ensuring long-term prosperity), and **social** (fair distribution of benefits and costs). What strategies address each dimension?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider strategies like: **Recycling** (reduce need for new extraction), **economic diversification** (prepare for when resources run out), **environmental rehabilitation** (restore damaged land), **community investment** (share benefits with affected people). How would you implement each?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 75,
+      "conceptsUsed": ["c10"],
+      "buildsOn": ["rocks-minerals-y8-055", "rocks-minerals-y8-074"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set8",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-076",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Scientific Investigation Design:**\n\nYou have been given an **unknown rock sample** to identify. Design a systematic investigation using at least FIVE different tests to determine:\n1. What type of rock it is (igneous, sedimentary, or metamorphic)\n2. What specific rock name it might be\n\nFor each test, explain what you would observe and what that observation tells you about the rock.",
+    "solution": "A systematic investigation to identify an unknown rock sample:\n\n**TEST 1: VISUAL INSPECTION - Texture and Crystal/Grain Size**\n\n**Procedure:**\n- Examine rock with naked eye and hand lens (10× magnification)\n- Look for crystal size, grain size, arrangement pattern\n\n**Possible Observations and Interpretations:**\n\n*Large, interlocking crystals (2-5 mm+):*\n- **Interpretation**: **Intrusive igneous** (slow cooling underground)\n- Examples: Granite, diorite, gabbro\n\n*Fine-grained, no visible crystals (<1 mm):*\n- **Interpretation**: **Extrusive igneous** (fast cooling at surface) OR fine-grained sedimentary\n- Examples: Basalt, rhyolite, siltstone\n\n*Rounded grains visible:*\n- **Interpretation**: **Sedimentary** (transported grains)\n- Examples: Sandstone, conglomerate\n\n*Layered or banded appearance:*\n- **Interpretation**: **Metamorphic** (foliation) OR sedimentary (bedding)\n- Examples: Gneiss, schist, shale\n\n*Aligned, flaky minerals:*\n- **Interpretation**: **Metamorphic** (directional pressure)\n- Examples: Slate, schist, gneiss\n\n**TEST 2: ACID TEST - Reaction with Dilute Hydrochloric Acid (HCl)**\n\n**Procedure:**\n- Place 1-2 drops of dilute HCl (5-10%) on rock surface\n- Observe for fizzing/bubbling\n\n**Possible Observations and Interpretations:**\n\n*Strong fizzing:*\n- **Interpretation**: Contains **calcite (CaCO₃)** - carbonate mineral\n- Likely: **Limestone** (sedimentary) or **marble** (metamorphosed limestone)\n- Chemical reaction: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂ (gas bubbles)\n\n*No reaction:*\n- **Interpretation**: No carbonate minerals\n- Likely: Silicate-based rock (most igneous, many metamorphic, sandstone)\n\n**Safety Note:** Wear safety goggles, work in ventilated area\n\n**TEST 3: HARDNESS TEST - Mohs Scale**\n\n**Procedure:**\n- Test if rock scratches common materials:\n  - Fingernail (hardness 2.5)\n  - Copper coin (hardness 3)\n  - Steel nail (hardness 5.5)\n  - Glass plate (hardness 5.5)\n  - Quartz (hardness 7)\n\n**Possible Observations and Interpretations:**\n\n*Can be scratched by fingernail (hardness <2.5):*\n- **Interpretation**: Very soft minerals (talc, gypsum, clay)\n- Likely: **Shale**, **soapstone** (metamorphic talc), **gypsum rock**\n\n*Scratched by steel but not fingernail (hardness 3-5):*\n- **Interpretation**: Contains calcite or similar minerals\n- Likely: **Limestone**, **marble**\n\n*Cannot be scratched by steel (hardness >5.5):*\n- **Interpretation**: Contains hard silicate minerals (quartz, feldspar)\n- Likely: **Granite**, **basalt**, **quartzite** (metamorphic), **sandstone**\n\n**TEST 4: DENSITY TEST - Mass/Volume Measurement**\n\n**Procedure:**\n- Measure mass using balance\n- Measure volume using water displacement (graduated cylinder)\n- Calculate density: ρ = mass ÷ volume\n\n**Possible Observations and Interpretations:**\n\n*Low density (~2.3-2.7 g/cm³):*\n- **Interpretation**: Rich in light minerals (quartz, feldspar)\n- Likely: **Granite**, **rhyolite**, **sandstone**, **quartzite**\n\n*Medium density (~2.7-3.0 g/cm³):*\n- **Interpretation**: Intermediate composition or contains calcite\n- Likely: **Diorite**, **andesite**, **limestone**, **marble**\n\n*High density (~3.0-3.5 g/cm³):*\n- **Interpretation**: Rich in dark, heavy minerals (olivine, pyroxene, magnetite)\n- Likely: **Basalt**, **gabbro**, **iron-rich rocks**\n\n**TEST 5: BREAK TEST - Fracture Pattern**\n\n**Procedure:**\n- Carefully break rock with hammer (wear safety goggles!)\n- Observe fracture surface\n\n**Possible Observations and Interpretations:**\n\n*Breaks along flat, parallel planes (cleavage):*\n- **Interpretation**: **Metamorphic foliation** - minerals aligned by pressure\n- Likely: **Slate** (flat sheets), **schist** (shiny planes)\n\n*Irregular, rough fracture:*\n- **Interpretation**: Interlocking crystals or cemented grains\n- Likely: **Igneous rocks** (granite, basalt) or **sandstone**\n\n*Conchoidal fracture (smooth, curved, glass-like):*\n- **Interpretation**: Homogeneous, glassy material\n- Likely: **Obsidian** (volcanic glass), **chert** (sedimentary), **quartzite**\n\n*Breaks along layers:*\n- **Interpretation**: **Sedimentary bedding** planes\n- Likely: **Shale**, **sandstone**, **limestone**\n\n**ADDITIONAL TEST (BONUS): Streak Test**\n\n**Procedure:**\n- Rub rock across unglazed ceramic tile (streak plate)\n- Observe color of powder left behind\n\n**Interpretations:**\n- Red/brown streak: Contains iron oxides (hematite)\n- Black streak: Contains magnetite or other dark minerals\n- White/no streak: Light-colored silicate minerals\n\n**SYNTHESIS - EXAMPLE IDENTIFICATION:**\n\nSuppose observations were:\n1. **Texture**: Large, interlocking crystals (~3-5 mm)\n2. **Acid test**: No reaction\n3. **Hardness**: Cannot be scratched by steel nail\n4. **Density**: 2.65 g/cm³ (relatively low)\n5. **Fracture**: Irregular, rough break\n\n**Conclusion:**\n- **Rock type**: **Igneous** (interlocking crystals, no layering)\n- **Cooling history**: **Intrusive** (large crystals = slow cooling)\n- **Composition**: **Felsic** (light colored, low density, hard)\n- **Specific rock**: **GRANITE**\n\n**Alternative Example:**\n\nObservations:\n1. **Texture**: Fine-grained, visible layers/bands\n2. **Acid test**: No reaction  \n3. **Hardness**: Cannot be scratched by steel\n4. **Density**: 2.7 g/cm³\n5. **Fracture**: Breaks along foliation planes\n\n**Conclusion:**\n- **Rock type**: **Metamorphic** (foliation, banding)\n- **Parent rock**: Likely sedimentary (layered appearance)\n- **Metamorphic grade**: High (hard, well-developed foliation)\n- **Specific rock**: **GNEISS** (pronounced 'nice')\n\n**KEY PRINCIPLES:**\n\n1. **Multiple tests** provide more certainty than single observation\n2. **Contradictory results** may indicate complex history (e.g., metamorphosed sedimentary rock)\n3. **Systematic approach** is more reliable than guessing\n4. **Safety first** - always wear safety equipment when breaking rocks or using chemicals\n\nThis investigation demonstrates how geologists use **observable, measurable properties** to identify rocks and infer their formation history - a combination of careful observation and scientific reasoning.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the tests geologists use: visual inspection (texture, crystals, layers), hardness test, acid test (for carbonates), density measurement, and how the rock breaks. What does each test reveal about how the rock formed?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Design tests that distinguish between rock types: **Texture** (crystal size reveals cooling rate for igneous, layers suggest sedimentary/metamorphic), **Acid test** (carbonates fizz), **Hardness** (identifies minerals), **Density** (heavy vs light minerals), **Fracture pattern** (foliation vs bedding vs irregular). Combine results to narrow down identity.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 76,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-031", "rocks-minerals-y8-033", "rocks-minerals-y8-035"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set8",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-077",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Australia is one of the **most geologically diverse** countries on Earth, containing:\n- Some of Earth's oldest rocks (Jack Hills zircons, 4.4 billion years)\n- Massive mineral deposits (Pilbara iron ore, Mount Isa polymetallic ores)\n- Unique geological features (Uluru, the Great Barrier Reef, Nullarbor Plain)\n- Evidence of ancient supercontinents (Gondwana)\n\n**Synthesis question:** How did Australia's unique geological history create this extraordinary mineral wealth? Connect at least THREE geological processes across different time periods to explain Australia's modern resource endowment.",
+    "solution": "Australia's exceptional mineral wealth is the cumulative result of **billions of years of geological processes** operating on ancient, stable continental crust:\n\n**PROCESS 1: ANCIENT CRUST FORMATION (4.4 - 2.5 Billion Years Ago)**\n\n**What Happened:**\n- Australia contains some of **Earth's oldest continental crust**\n- Jack Hills zircons (Western Australia): **4.4 billion years old** - oldest Earth materials\n- Pilbara Craton: Ancient stable platform formed 3.5-2.5 billion years ago\n\n**How It Created Mineral Wealth:**\n\n**Iron Deposits (Banded Iron Formations - BIF):**\n- During 2.5-1.8 billion years ago, **cyanobacteria** produced oxygen through photosynthesis\n- Oxygen reacted with **dissolved iron** in ancient oceans\n- Iron precipitated as **iron oxides** (hematite, magnetite) in distinctive red-and-black banded layers\n- These BIFs are **unique to ancient Earth** - can't form in modern oxygenated oceans\n- Result: **Pilbara iron ore** - world's largest, highest-grade deposits (55-65% iron)\n- Australia now produces ~900 million tonnes/year (~37% of global production)\n\n**Gold in Greenstone Belts:**\n- Ancient volcanic activity created **greenstone belts** - metamorphosed volcanic and sedimentary rocks\n- Hydrothermal fluids concentrated **gold** in quartz veins\n- Example: Kalgoorlie-Boulder (Western Australia) - Super Pit gold mine\n\n**Stable Platform:**\n- Ancient cratons provided **stable base** that preserved these early deposits\n- Younger continents have had much of their early crust recycled through subduction\n\n**PROCESS 2: SUPERCONTINENT CYCLES AND TECTONIC ASSEMBLY (1.8 - 0.5 Billion Years Ago)**\n\n**What Happened:**\n- Australia was part of multiple **supercontinents**:\n  - **Nuna/Columbia** (1.8-1.5 Ga)\n  - **Rodinia** (1.1-0.75 Ga)  \n  - **Gondwana** (600-180 Ma)\n- Each assembly involved **continental collisions** and **subduction zones**\n\n**How It Created Mineral Wealth:**\n\n**Polymetallic Ore Deposits:**\n- **Mount Isa** (Queensland) formed ~1.6 billion years ago during crustal assembly\n- Tectonic activity created **faults and fractures**\n- Hot, metal-rich hydrothermal fluids circulated through crust\n- As fluids cooled, metals precipitated in zones:\n  - **Copper** (high temperature)\n  - **Lead** (moderate temperature)\n  - **Zinc** (lower temperature)\n- Single geological event created deposit containing multiple valuable metals\n\n**Rare Earth Elements (REE):**\n- Carbonatite intrusions (unusual igneous rocks) during continental rifting\n- Concentrated **rare earth elements** essential for modern technology\n- Example: Mount Weld (Western Australia) - world's richest REE deposit\n\n**Uranium:**\n- Olympic Dam (South Australia) - world's largest uranium deposit\n- Formed 1.6 billion years ago by hydrothermal processes during tectonic activity\n- Also contains copper, gold, silver\n\n**PROCESS 3: GONDWANA BREAKUP AND ISOLATION (180 Million Years Ago - Present)**\n\n**What Happened:**\n- **Gondwana supercontinent** began breaking apart ~180 million years ago\n- Australia separated from Antarctica ~45 million years ago\n- Became isolated, tectonically **stable** continent\n\n**How It Preserved Mineral Wealth:**\n\n**Lack of Recent Mountain Building:**\n- Australia has had **minimal tectonic activity** for last 50+ million years\n- No major mountain building (unlike Himalayas, Andes, Alps)\n- Limited erosion means ancient mineral deposits remain **near surface**\n- Example: Pilbara BIFs formed 2+ billion years ago but are still exposed and accessible\n\n**Weathering Concentration:**\n- Long period of **tropical weathering** in stable conditions\n- Created **laterite deposits** (aluminum-rich soils)\n- Concentrated minerals through **supergene enrichment**:\n  - Groundwater dissolved minerals from surface\n  - Re-deposited them at depth in concentrated zones\n  - Made lower-grade deposits economically viable\n\n**Coal Formation:**\n- Before separation, Australia was part of Gondwana's tropical regions\n- **Permian Period** (300-250 Ma): Vast swamp forests accumulated organic material\n- Burial and compression → **coal** formation\n- **Bowen Basin** (Queensland), **Sydney Basin** (NSW) - major coal deposits\n- Australia now 4th largest coal producer globally\n\n**PROCESS 4: VOLCANIC ACTIVITY AND RESOURCE CONCENTRATION (50 Million Years Ago - Present)**\n\n**What Happened:**\n- Although Australia is not on active plate boundary, **hotspot volcanism** occurred\n- Volcanic activity along eastern margin during Cenozoic Era\n\n**How It Created Mineral Wealth:**\n\n**Basalt Weathering:**\n- Volcanic basalt weathered in tropical conditions\n- Created **fertile soils** supporting agriculture\n- Released minerals (calcium, magnesium, potassium)\n\n**Sapphires and Gemstones:**\n- Basaltic volcanism brought **sapphires**, **zircons**, and other gemstones from deep crust to surface\n- Example: New England region (NSW), Central Queensland - sapphire fields\n\n**SYNTHESIS: WHY AUSTRALIA IS SO MINERAL-RICH**\n\n**1. Ancient Age (4.4+ billion years):**\n- More time to accumulate diverse mineral deposits\n- Preserved ancient deposits (BIFs) that can't form today\n\n**2. Tectonic Stability (50+ million years):**\n- Limited erosion kept deposits near surface\n- Easy, economical extraction (open-cut mining)\n- Minimal earthquakes/volcanic hazards for infrastructure\n\n**3. Supercontinent History:**\n- Multiple tectonic events created diverse deposit types\n- Collisions, rifting, subduction each contributed different ore types\n\n**4. Geological Diversity:**\n- Ancient cratons (iron, gold)\n- Sedimentary basins (coal, oil, gas)  \n- Volcanic provinces (gemstones)\n- Hydrothermal systems (copper, zinc, lead)\n\n**5. Geographic Size:**\n- **7.7 million km²** provides massive area for diverse geological processes\n- Different regions experienced different geological histories\n\n**ECONOMIC SIGNIFICANCE:**\n\nThis geological heritage makes Australia:\n- **World's largest exporter** of iron ore, coal, bauxite, lithium\n- **Top 5 producer** of gold, copper, zinc, nickel, uranium\n- **Mining sector**: ~10% of GDP, ~60% of exports (by value)\n- **Resource base** estimated at trillions of dollars\n\n**FUTURE PERSPECTIVE:**\n\nAustralia's mineral wealth is a **one-time endowment** from billions of years of geological processes:\n- Ancient BIFs can never form again (Earth's atmosphere has changed)\n- Once mined, high-grade deposits are gone forever\n- This makes **sustainable management** critical\n\n**Conclusion:**\nAustralia's mineral wealth isn't random luck - it's the **inevitable result** of:\n1. **Ancient continental crust** (4.4+ billion years of history)\n2. **Stable tectonic setting** (preserved deposits near surface)\n3. **Diverse geological processes** (multiple ore-forming events)\n4. **Geographic isolation** (minimal recent disturbance)\n\nEach mineral deposit tells a story of specific geological conditions at a particular time in Earth's history. Collectively, they make Australia a **geological museum** and global mining powerhouse.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Consider Australia's age (ancient cratons), its tectonic history (part of supercontinents, now isolated and stable), and the specific processes that concentrated minerals (hydrothermal activity, weathering, ancient ocean chemistry). How did each contribute?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Connect: (1) **Ancient crust** preserved unique deposits like Pilbara BIFs that formed when Earth's atmosphere was different; (2) **Supercontinent assembly** created hydrothermal ore deposits through tectonic activity; (3) **Tectonic stability** for 50+ million years kept deposits near surface with minimal erosion. Time + diverse processes + preservation = mineral wealth.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 77,
+      "conceptsUsed": ["c8", "c10"],
+      "buildsOn": ["rocks-minerals-y8-065", "rocks-minerals-y8-071", "rocks-minerals-y8-073"],
+      "preparesFor": ["rocks-minerals-y8-078"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set8",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-078",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Deep thinking question:**\n\nGeologists study rocks to understand Earth's history, even though most rocks form over timescales of **millions to billions of years** - far longer than human lifespans.\n\nExplain:\n1. Why is studying rocks important for understanding Earth's past, present, and future?\n2. What specific information can rocks reveal that no other source can provide?\n3. How does this knowledge have practical value for society today?",
+    "solution": "Studying rocks is fundamental to understanding Earth across all timescales because **rocks are Earth's archive** - physical records of processes, conditions, and events:\n\n**1. WHY STUDYING ROCKS IS IMPORTANT:**\n\n**Understanding Earth's Past:**\n\n**A. Ancient Conditions:**\n- Rocks record **environmental conditions** when they formed:\n  - **Sedimentary rocks**: Climate (glacial deposits vs. desert sandstone), sea level (marine vs. terrestrial), oxygen levels (banded iron formations)\n  - **Igneous rocks**: Tectonic setting (oceanic crust vs. continental), temperature, depth\n  - **Metamorphic rocks**: Pressure and temperature during mountain building\n\n**B. Life's History:**\n- **Fossils** preserved in sedimentary rocks reveal:\n  - Evolution of life over 3.5 billion years\n  - Mass extinction events (e.g., dinosaur extinction 66 million years ago)\n  - Ancient ecosystems and climates\n- Example: Pilbara stromatolites prove photosynthetic life existed 3.5 billion years ago\n\n**C. Plate Tectonic History:**\n- Rock types and structures reveal past tectonic settings:\n  - **Granite**: Ancient continental collisions\n  - **Pillow basalts**: Underwater volcanic eruptions at mid-ocean ridges\n  - **Folded metamorphic rocks**: Mountain building events\n- Allows reconstruction of ancient **supercontinent positions** (Pangaea, Gondwana, Rodinia)\n\n**D. Atmospheric Evolution:**\n- Banded iron formations: Prove oxygen appeared ~2.4 billion years ago (Great Oxidation Event)\n- Red beds (iron-rich sediments): Indicate oxygenated atmosphere\n- Isotope ratios in rocks: Reveal ancient temperatures, CO₂ levels\n\n**Understanding Earth's Present:**\n\n**A. Active Processes:**\n- Studying where and how rocks form today helps interpret ancient rocks\n- Example: Modern volcanic eruptions inform understanding of ancient basalts\n- **Uniformitarianism**: \"The present is the key to the past\"\n\n**B. Resource Location:**\n- Understanding rock formation → predicting where valuable minerals occur\n- Economic geology relies on knowing which geological processes concentrate ores\n- Example: Knowing hydrothermal processes form copper deposits → search for similar geological settings\n\n**C. Hazard Assessment:**\n- Rock types indicate geological hazards:\n  - **Volcanic rocks**: Past eruptions suggest future volcanic risk\n  - **Fault zones** in rocks: Earthquake hazards\n  - **Landslide-prone rock types**: Engineering and safety considerations\n\n**Understanding Earth's Future:**\n\n**A. Climate Change Context:**\n- Rocks record past **climate cycles**:\n  - Ice ages preserved in glacial deposits\n  - Warm periods recorded in coral reefs (now limestone)\n  - CO₂ levels inferred from isotope ratios\n- Provides context for current climate change:\n  - How fast has climate changed naturally?\n  - What were the consequences of past warming?\n  - How did life respond to ancient climate shifts?\n\n**B. Long-term Carbon Cycle:**\n- Rocks are part of **carbon cycle**:\n  - Limestone locks up carbon from atmosphere (CO₂ + CaCO₃)\n  - Weathering of silicate rocks removes atmospheric CO₂\n  - Volcanic eruptions release CO₂ from subducted carbonates\n- Understanding this cycle is critical for predicting future climate\n\n**C. Predicting Geological Events:**\n- Rock patterns help predict:\n  - Future earthquake locations (active fault zones)\n  - Volcanic eruptions (monitoring magma movement)\n  - Resource depletion (estimating remaining ore reserves)\n\n**2. UNIQUE INFORMATION ROCKS PROVIDE:**\n\nRocks are the **ONLY direct evidence** for:\n\n**A. Events Before Human Records:**\n- Human written history: ~5,000 years\n- Rock record: **4.6 billion years** (entire Earth history)\n- No other archive extends this far back\n\n**B. Deep Earth Processes:**\n- Mantle xenoliths (rock fragments brought up by volcanoes): Only samples of Earth's mantle\n- High-pressure minerals: Reveal conditions 100+ km underground\n- Cannot directly observe deep Earth - rocks are our only samples\n\n**C. Past Plate Positions:**\n- **Paleomagnetism**: Magnetic minerals in rocks record Earth's magnetic field direction when rock formed\n- Reveals ancient latitude and orientation of continents\n- Allows reconstruction of plate movements over hundreds of millions of years\n- No other method can determine ancient continental positions\n\n**D. Timing of Geological Events:**\n- **Radiometric dating**: Radioactive isotopes in rocks decay at known rates\n- Provides **absolute ages** (exact dates in years)\n- Example: Zircon crystals dated at 4.4 billion years prove Earth's crust formed early\n- Only rocks contain isotopes for precise dating\n\n**E. Ancient Life Forms:**\n- **Fossils** are the only direct evidence of extinct organisms\n- 99%+ of all species that ever lived are now extinct - only known from fossils\n- Reveals evolution, mass extinctions, ancient biodiversity\n\n**F. Rare Geological Events:**\n- **Impact craters**: Evidence of asteroid/comet impacts\n- **Shocked quartz**: High-pressure minerals only formed by impacts\n- Example: Iridium layer worldwide at 66 Ma proves asteroid impact killed dinosaurs\n- These events are too rare to observe directly\n\n**3. PRACTICAL VALUE FOR SOCIETY:**\n\n**A. Natural Resources:**\n\n**Mineral Exploration:**\n- Understanding ore formation → finding new deposits\n- Australia's economy: ~10% GDP from mining\n- Resources discovered through geological knowledge: iron, copper, gold, lithium, rare earths\n\n**Energy Resources:**\n- **Coal, oil, natural gas**: Form in specific sedimentary rock types\n- Geological mapping locates energy reserves\n- **Geothermal energy**: Requires understanding subsurface heat and rock permeability\n\n**Water Resources:**\n- **Aquifers** exist in porous sedimentary rocks\n- Geology determines where groundwater accumulates and flows\n- Critical for agriculture, drinking water in arid Australia\n\n**B. Engineering and Construction:**\n\n**Foundation Design:**\n- Building on solid rock (granite) vs. soft sediment (clay) requires different foundations\n- Skyscrapers need bedrock for stability\n- Tunnels, dams, bridges depend on rock strength and structure\n\n**Hazard Mitigation:**\n- **Landslides**: Certain rock types (clay-rich shales) prone to sliding\n- **Sinkholes**: Occur in limestone areas (dissolution creates cavities)\n- **Liquefaction**: Poorly consolidated sediments shake apart during earthquakes\n- Engineering must account for local geology\n\n**C. Environmental Management:**\n\n**Pollution Containment:**\n- Understanding rock permeability → designing waste disposal sites\n- Impermeable clay layers prevent contamination of aquifers\n- Geological studies required for nuclear waste repositories\n\n**Soil Quality:**\n- Soil forms from weathered rock\n- **Basalt** weathers to fertile soil (nutrients)\n- **Sandstone** produces nutrient-poor sandy soil\n- Agricultural productivity depends on underlying geology\n\n**D. Climate Science:**\n\n**Past Climate Records:**\n- Rock-preserved climate data extends millions of years\n- Reveals natural climate variability\n- Provides context: Is current warming unprecedented?\n- Informs climate models and predictions\n\n**Carbon Sequestration:**\n- Storing CO₂ in underground rock formations (carbon capture and storage)\n- Requires understanding rock porosity, permeability, cap rock integrity\n- Potential climate change mitigation strategy\n\n**E. Scientific Knowledge:**\n\n**Understanding Our Planet:**\n- How Earth formed and evolved\n- How life originated and diversified\n- How plate tectonics operates\n- Fundamental scientific questions answered through geology\n\n**Comparative Planetology:**\n- Studying Earth's rocks informs understanding of other planets\n- Mars rovers search for sedimentary rocks (evidence of past water)\n- Moon rocks reveal solar system formation\n\n**F. Cultural and Educational Value:**\n\n**Natural Heritage:**\n- Unique geological features (Uluru, Great Barrier Reef, Bungle Bungles) are cultural icons\n- Tourism based on geological wonders\n- Connection to deep time, perspective on human timescales\n\n**STEM Education:**\n- Geology engages students with Earth science\n- Develops critical thinking (interpreting incomplete evidence)\n- Career pathways in mining, environmental science, engineering\n\n**CONCLUSION:**\n\nRocks are **irreplaceable archives** of Earth's 4.6-billion-year history. They are:\n- The **only direct evidence** for ancient processes, environments, and life\n- **Practical resources** for society (minerals, energy, water, building materials)\n- **Guides for the future** (predicting hazards, understanding climate, managing resources)\n\nWith out studying rocks, we would:\n- Not know Earth's age or how it formed\n- Not understand plate tectonics or earthquakes/volcanoes\n- Not find mineral or energy resources efficiently\n- Not have context for current environmental changes\n- Not know that dinosaurs existed or when/how they went extinct\n\nGeology transforms **static rocks into dynamic stories** - revealing Earth's past, explaining its present, and informing our future. The fact that rocks form over millions of years makes them even more valuable: they record processes operating on timescales impossible for humans to observe directly, yet they are permanent physical evidence we can study, measure, and learn from.\n\n**As James Hutton (founder of modern geology) realized in 1788:**\n*'In the rocks we find no trace of a beginning, no prospect of an end'* - revealing Earth's immense age and ongoing transformation. This understanding fundamentally changed humanity's perspective on our planet and our place in time.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Consider what makes rocks unique: They preserve physical evidence of conditions, events, and life from Earth's entire history (4.6 billion years). What kinds of information are **only** available from studying rocks? How does understanding past processes help us today?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Organize your answer by timeframe: **Past** (rocks record ancient climate, life, plate movements - only source for events before human records), **Present** (finding resources, assessing hazards, understanding active processes), **Future** (predicting climate changes, locating resources, preparing for geological hazards). What practical applications benefit society?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 78,
+      "conceptsUsed": ["c8", "c10"],
+      "buildsOn": ["rocks-minerals-y8-065", "rocks-minerals-y8-071", "rocks-minerals-y8-077"],
+      "preparesFor": ["rocks-minerals-y8-079"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set8",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-079",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Ultimate synthesis challenge:**\n\nTrace a complete **rock cycle journey** starting from a piece of oceanic basalt forming at a mid-ocean ridge. Your journey must include:\n\n1. Transformation into ALL THREE rock types (igneous → sedimentary → metamorphic, or any sequence)\n2. At least TWO different tectonic settings (e.g., divergent boundary, convergent boundary, etc.)\n3. Specific processes and timescales for each transformation\n4. The energy sources driving each transformation\n\nWrite this as a **geological biography** following the rock through millions of years.",
+    "solution": "**THE JOURNEY OF BASALT: A 300-MILLION-YEAR ODYSSEY THROUGH THE ROCK CYCLE**\n\n---\n\n**CHAPTER 1: BIRTH AT THE MID-OCEAN RIDGE (0 million years ago)**\n\n**Setting:** Mid-Atlantic Ridge, 2500 m below sea surface  \n**Rock Type:** **Igneous (Basalt)**\n\nOur story begins deep beneath the ocean at a **divergent plate boundary** where the Eurasian and North American plates pull apart at ~2.5 cm/year.\n\n**Formation Process:**\n1. **Mantle upwelling**: Solid mantle rock rises beneath the ridge\n2. **Decompression melting**: Decreasing pressure allows rock to melt without adding heat\n3. **Magma ascent**: Basaltic magma (1200°C) rises through fractures in oceanic crust\n4. **Eruption**: Magma erupts underwater, instantly quenching in cold seawater\n5. **Pillow basalt formation**: Forms characteristic \"pillow\" shapes (rounded blobs)\n\n**Rock Characteristics:**\n- **Fine-grained** texture (rapid cooling = small crystals)\n- **Dark color** (rich in iron, magnesium - mafic composition)\n- **Minerals**: Plagioclase feldspar, pyroxene, olivine\n- **Density**: 3.0 g/cm³\n\n**Energy Source:** Earth's internal heat from radioactive decay → mantle convection → plate divergence\n\n**Duration:** Formation takes **hours to days** (cooling)\n\n---\n\n**CHAPTER 2: SEAFLOOR SPREADING (0-150 million years ago)**\n\n**Setting:** Spreading away from mid-ocean ridge  \n**Process:** **Seafloor spreading**\n\nOur basalt, now solid oceanic crust, is carried away from the ridge like a conveyor belt at 2.5 cm/year.\n\n**Changes During This Period:**\n- Sediment accumulation: Microscopic dead organisms (foraminifera, diatoms) rain down\n- Thin sediment layer builds up: ~500 m over 150 million years\n- Basalt cools and contracts, becoming denser\n- Chemical weathering by seawater alters some minerals\n\n**Distance Traveled:** 2.5 cm/year × 150 million years = **3,750 km** from ridge\n\n---\n\n**CHAPTER 3: SUBDUCTION BEGINS (150 million years ago)**\n\n**Setting:** Peru-Chile Trench, convergent boundary (oceanic-continental collision)  \n**Tectonic Setting:** **Convergent boundary** - oceanic plate subducts beneath South American continental plate\n\nOur basalt, now old and cold (therefore dense), encounters the South American plate. Being denser than continental crust (2.7 g/cm³), it begins descending into the mantle.\n\n**Transformation 1: BASALT → METAMORPHIC ROCK**\n\n**Depth: 20-40 km (150-155 million years ago)**\n\n**Conditions:**\n- **Temperature**: Rising from 200°C to 400°C\n- **Pressure**: 5,000-10,000 atmospheres (150-300 km of rock above)\n- **Directed pressure**: From converging plates\n\n**Metamorphic Process:**\n- Water trapped in basalt minerals is squeezed out\n- Minerals **recrystallize** without melting\n- New mineral assemblage forms: **blueschist** (blue amphibole minerals)\n- Rock develops **foliation** (aligned minerals from directed pressure)\n\n**Rock Type Change:** Basalt (igneous) → **Blueschist (metamorphic)**\n\n**Energy Source:** Kinetic energy of plate collision + geothermal heat\n\n**Duration:** Metamorphism occurs over **5-10 million years** as rock descends\n\n---\n\n**CHAPTER 4: DEEP SUBDUCTION (155-165 million years ago)**\n\n**Depth: 40-100 km**\n\n**Conditions:**\n- **Temperature**: 400-800°C\n- **Pressure**: 10,000-30,000 atmospheres\n\n**Further Metamorphism:**\n- Blueschist → **Eclogite** (very high-pressure metamorphic rock)\n- Extremely dense (3.4 g/cm³) - denser than mantle rock!\n- Minerals: Garnet (red) + omphacite (green pyroxene)\n- Water continues being released, rising into overlying mantle wedge\n\n**Critical Role:**\nWater released from our metamorphosing basalt **lowers the melting point** of overlying mantle rock by ~100-200°C, triggering volcanic activity above (Andes Mountains volcanoes).\n\n---\n\n**CHAPTER 5: PARTIAL MELTING AND RETURN (165 million years ago)**\n\n**Depth: 100-150 km**\n\n**What Happens:**\nSome of our eclogite begins to **partially melt** due to:\n- Extreme temperature (800-1000°C)\n- Water reducing melting point\n- Friction from plate movement\n\n**Transformation 2: METAMORPHIC → IGNEOUS**\n\n**Process:**\n1. ~10-20% of the rock melts (partial melting)\n2. Melt is **less dense** than solid rock → begins rising\n3. Magma ascends through mantle wedge and continental crust\n4. Accumulates in magma chamber beneath Andes Mountains\n5. Eventually erupts as **andesitic volcano** (or solidifies underground as **diorite**)\n\n**Let's follow the MELTED portion:**\n\n**Magma Composition:** **Andesitic** (intermediate - more silica than original basalt)\n- Why different? Partial melting preferentially melts silica-rich minerals\n- Magma also assimilates continental crust during ascent\n\n**Eruption (165 million years ago):**\n- Explosive eruption from Andean stratovolcano\n- Ash, pumice, lava flows\n- Lava cools to form **andesite** (fine-grained igneous rock)\n\n**Rock Type:** **Andesite (Igneous)** - back to igneous, but different composition!\n\n**Energy Source:** Heat from mantle + friction + radioactive decay\n\n---\n\n**CHAPTER 6: MOUNTAIN WEATHERING (165-250 million years ago)**\n\n**Setting:** Andes Mountains, 5000 m elevation  \n**Process:** **Weathering and erosion**\n\nOur andesite now sits in a volcanic mountain exposed to:\n\n**Physical Weathering:**\n- **Freeze-thaw**: Water enters cracks, freezes, expands, fractures rock\n- **Thermal expansion**: Daily heating/cooling creates stresses\n- Rock breaks into smaller fragments\n\n**Chemical Weathering:**\n- **Acid rain** (CO₂ + water = weak carbonic acid) dissolves minerals\n- Feldspar → **clay minerals** (kaolinite)\n- Iron minerals → **rust** (hematite - gives red color)\n\n**Energy Source:** **Solar energy** drives water cycle (rain, ice formation)\n\n**Erosion:**\n- **Glaciers** scrape rock fragments (80 million years ago during ice age)\n- **Rivers** transport sediment down mountains\n- **Gravity** causes landslides\n\nOur andesite is broken into **sand and clay particles**, transported 500 km to the coast.\n\n**Duration:** 85 million years of weathering and transport\n\n---\n\n**CHAPTER 7: DEPOSITION IN SEDIMENTARY BASIN (250-280 million years ago)**\n\n**Setting:** Coastal marine environment, river delta\n\n**Transformation 3: IGNEOUS → SEDIMENTARY**\n\n**Process:**\n1. **Deposition**: Sediment carried by river settles in delta\n   - Coarse sand deposited first (near shore)\n   - Fine clay carried further offshore\n2. **Burial**: New sediment continuously accumulates on top\n3. **Compaction**: Weight squeezes out water, packs grains together\n   - Depth increases: 0 → 500 m → 2000 m over 30 million years\n4. **Cementation**: Mineral-rich groundwater flows through sediment\n   - Dissolved silica (SiO₂) or calcite (CaCO₃) precipitates between grains\n   - Acts as \"glue\" binding grains together\n\n**Rock Type Change:** Andesite fragments → **Sandstone (Sedimentary)**\n\n**Rock Characteristics:**\n- **Visible grains** (0.1-2 mm sand particles)\n- **Layering (bedding)**: Different layers represent different deposition events\n- **Fossils**: Marine shells (brachiopods, mollusks) preserved\n- May contain **ripple marks** (ancient current patterns)\n\n**Energy Source:** Solar energy (water cycle) + gravity (burial)\n\n**Duration:** Deposition ~5 million years; lithification ~25 million years\n\n---\n\n**CHAPTER 8: COLLISION AND MOUNTAIN BUILDING (280-300 million years ago)**\n\n**Setting:** Continental collision zone  \n**Tectonic Setting:** **Convergent boundary** (continent-continent collision)\n\nThe sedimentary basin where our sandstone rests is caught between two converging continents.\n\n**Transformation 4: SEDIMENTARY → METAMORPHIC**\n\n**Process:**\n1. **Burial**: Sandstone is buried to 15-20 km depth\n2. **Heating**: Temperature reaches 400-600°C (geothermal gradient + friction)\n3. **Pressure**: 4,000-6,000 atmospheres from overlying rock\n4. **Directed stress**: Horizontal compression from plate collision\n\n**Metamorphism:**\n- Sand grains (quartz) **recrystallize** - edges dissolve and regrow, interlocking\n- Minerals align perpendicular to pressure direction\n- Fossils destroyed (recrystallized beyond recognition)\n\n**Rock Type Change:** Sandstone (sedimentary) → **Quartzite (Metamorphic)**\n\n**Rock Characteristics:**\n- **Very hard** (harder than original sandstone - interlocking crystals)\n- **Massive** or slightly foliated\n- **Glittering appearance** (recrystallized quartz)\n- **No visible bedding** (metamorphism destroyed original structure)\n\n**Mountain Building:**\n- Our quartzite is uplifted as part of a **mountain range** (similar to Himalayas)\n- Reaches elevation of 6000+ meters\n\n**Energy Source:** Kinetic energy of plate collision + Earth's internal heat\n\n**Duration:** 20 million years of burial, heating, and uplift\n\n---\n\n**CHAPTER 9: EXPOSURE AND THE CYCLE CONTINUES (300 million years ago - present)**\n\n**Setting:** Mountain peak, exposed to weathering\n\nOur rock - originally basalt, now quartzite - is exposed at the surface again after 300 million years.\n\n**Current Status:**\n- Extremely hard, resistant to weathering (quartzite is very durable)\n- Being slowly weathered by freeze-thaw, chemical dissolution\n- Eventually will break down into quartz sand\n- May be deposited in new sedimentary basin, beginning the cycle again\n\n**Complete Transformations:**\n1. **Basalt** (igneous) → formed at mid-ocean ridge\n2. **Blueschist/Eclogite** (metamorphic) → subduction zone metamorphism  \n3. **Andesite** (igneous) → volcanic eruption from melted portion\n4. **Sandstone** (sedimentary) → weathering, deposition, lithification\n5. **Quartzite** (metamorphic) → mountain-building metamorphism\n\n**Future Possibilities:**\n- Weathered to sand → new sedimentary rock\n- Subducted again → melted → new igneous rock\n- Further metamorphosed → higher-grade metamorphic rock\n- The cycle continues...\n\n---\n\n**ENERGY SUMMARY:**\n\nEvery transformation was driven by energy:\n\n**Internal Heat (Primary):**\n- Radioactive decay → mantle convection → plate tectonics\n- Powered: Seafloor spreading, subduction, metamorphism, melting, mountain building\n\n**Solar Energy (Secondary):**\n- Water cycle → weathering and erosion → sediment transport\n- Powered: Physical/chemical weathering, river transport, sedimentary deposition\n\n**Gravitational Energy:**\n- Burial (sediment weight)\n- Subduction (dense plate sinking)\n- Magma rise (density differences)\n\n---\n\n**KEY INSIGHTS:**\n\n1. **The rock cycle has no beginning or end** - rocks continuously transform\n2. **Timescales are immense** - 300 million years for this journey (equivalent to time from now back to before dinosaurs)\n3. **Plate tectonics drives most transformations** - without it, rock cycle would slow dramatically\n4. **Matter is conserved** - atoms in our rock have been recycled countless times over Earth's 4.6-billion-year history\n5. **Energy constantly flows** - from Earth's interior and the Sun, driving endless transformation\n\n**The same atoms that started as basalt at a mid-ocean ridge now exist as quartzite in a mountain - transformed by heat, pressure, water, and time.**\n\nAnd the cycle continues...",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Start with basalt forming at a divergent boundary (mid-ocean ridge). Follow it through: (1) Subduction → metamorphism, (2) Partial melting → new igneous rock, (3) Weathering → sediments → sedimentary rock, (4) Mountain building → metamorphic rock. What processes cause each transformation?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Organize as a timeline: **Basalt** (divergent boundary, decompression melting) → carried by seafloor spreading → **subduction** (pressure/heat → metamorphic) → partial melting → **andesite** eruption (igneous) → weathering/erosion → **sandstone** (sedimentary) → collision/burial → **quartzite** (metamorphic). Energy sources: internal heat (tectonic processes) + solar energy (weathering).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 79,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-062", "rocks-minerals-y8-063", "rocks-minerals-y8-067", "rocks-minerals-y8-068"],
+      "preparesFor": ["rocks-minerals-y8-080"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set8",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-080",
+    "questionType": "MCQ",
+    "stem": "A geologist examines a rock sample with these characteristics:\n\n- **Large, visible crystals** (3-5 mm) of quartz, feldspar, and mica\n- **Wavy, folded bands** of light and dark minerals\n- Some bands contain **fossils** of marine shells\n- The rock is found in a **mountain range** far from any ocean\n\nWhich statement **BEST explains** this combination of features?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "This is impossible - a single rock cannot have both large crystals (igneous feature), foliation (metamorphic feature), and fossils (sedimentary feature).",
+        "isCorrect": false,
+        "feedback": "Actually, this is possible but indicates a **complex geological history**. The rock has experienced multiple processes: originally sedimentary (fossils), later metamorphosed (foliation, recrystallization). The description reveals **multiple stages** in the rock cycle, not a contradiction."
+      },
+      {
+        "id": "B",
+        "text": "This is metamorphic rock (gneiss) that formed from sedimentary layers containing fossils. The folded bands show it was compressed during mountain building when the region was uplifted from an ancient ocean floor.",
+        "isCorrect": true,
+        "feedback": "Correct! This is **gneiss**, a high-grade metamorphic rock. The evidence: (1) **Large crystals** (recrystallization during metamorphism), (2) **Folded bands** (directed pressure during mountain building), (3) **Fossils** (preserved from original sedimentary rock - though partially destroyed by metamorphism), (4) **Mountain location far from ocean** (tectonic uplift). This rock's history: Marine sediments deposited → buried → metamorphosed during continental collision → uplifted into mountains. The fossils prove this mountain range was once an ancient sea floor!"
+      },
+      {
+        "id": "C",
+        "text": "This is sedimentary rock that was deposited in an ancient ocean and later uplifted into mountains without any metamorphism.",
+        "isCorrect": false,
+        "feedback": "The **folded, wavy bands** and **recrystallized large crystals** indicate metamorphism, not original sedimentary features. Sedimentary layers are typically horizontal and parallel, with smaller grains. The large crystals formed through metamorphic recrystallization under heat and pressure."
+      },
+      {
+        "id": "D",
+        "text": "This is igneous rock (granite) that coincidentally formed near sedimentary layers, and the 'fossils' are actually mineral inclusions that look like shells.",
+        "isCorrect": false,
+        "feedback": "While granite does have large crystals, it would not have **folded, wavy banding** (igneous rocks typically lack directional fabric). Additionally, genuine marine fossils would not form in igneous rock - they would be destroyed by the heat. The folding pattern is characteristic of metamorphic deformation."
+      }
+    ],
+    "solution": "The correct answer is **B**.\n\nThis rock sample demonstrates a **complex geological history** involving multiple processes:\n\n**EVIDENCE ANALYSIS:**\n\n**1. Large Crystals (3-5 mm):**\n- Original sedimentary grains were smaller\n- Crystals **grew larger** through **metamorphic recrystallization**\n- Indicates high temperature and long time for crystal growth\n- Process: Heat and pressure caused minerals to dissolve and recrystallize into larger, interlocking crystals\n\n**2. Wavy, Folded Bands:**\n- **Foliation**: Characteristic of metamorphic rocks\n- Minerals aligned perpendicular to pressure direction\n- **Folding**: Indicates intense compression during mountain building\n- Original sedimentary layering (bedding) was deformed and recrystallized\n\n**3. Fossils:**\n- **Critical evidence**: Proves rock originated as **marine sedimentary deposits**\n- Shells accumulated on ancient ocean floor\n- Buried and lithified into sedimentary rock (limestone or shale)\n- Some fossils survived metamorphism (though partially recrystallized)\n\n**4. Mountain Location:**\n- **Tectonic uplift**: Continental collision pushed ancient seafloor to high elevation\n- Modern example: **Himalayas** contain marine fossils (from ancient Tethys Ocean floor)\n- Distance from ocean proves this was an ancient ocean, now closed\n\n**GEOLOGICAL HISTORY RECONSTRUCTION:**\n\n**Stage 1 (200-300 million years ago): Sedimentary Deposition**\n- Shallow sea covered region\n- Marine organisms (shells, corals) lived and died\n- Shells accumulated on sea floor with mud and sand\n- Lithified into **fossiliferous limestone or shale**\n\n**Stage 2 (100-200 million years ago): Burial**\n- Continued sediment deposition buried rock 10-20 km deep\n- Increasing pressure and temperature\n\n**Stage 3 (50-100 million years ago): Metamorphism**\n- **Continental collision** (convergent boundary)\n- Pressure: Thousands of atmospheres\n- Temperature: 400-700°C (below melting point)\n- Metamorphic changes:\n  - Minerals recrystallized into larger crystals\n  - Layers folded and deformed\n  - Foliation developed (banding of light/dark minerals)\n  - Some fossils destroyed, some partially preserved\n- Result: **Gneiss** (high-grade metamorphic rock)\n\n**Stage 4 (50 million years ago - present): Uplift and Exposure**\n- Mountain building continued\n- **Isostatic rebound**: Buoyant continental crust rises\n- Erosion removes overlying rock, exposing deep metamorphic rocks\n- Result: Ancient ocean floor now at mountain peak, thousands of meters above sea level\n\n**ROCK CLASSIFICATION:**\n\n**Primary Rock Type:** **Gneiss** (metamorphic)\n\n**Parent Rock:** Fossiliferous sedimentary rock (limestone or shale)\n\n**Metamorphic Grade:** High (large crystals, well-developed foliation)\n\n**REAL-WORLD EXAMPLES:**\n\n1. **Himalayas**: Contains marine fossils at 8000+ m elevation\n   - Ancient Tethys Ocean floor uplifted during India-Asia collision\n   - Marine limestone metamorphosed to marble\n\n2. **Appalachian Mountains (eastern USA)**: Contain metamorphosed marine sediments\n   - Formed during assembly of supercontinent Pangaea\n   - Gneiss with folded layers visible in road cuts\n\n3. **Australian examples**: Parts of Great Dividing Range show similar features\n   - Ancient seafloor metamorphosed during tectonic events\n\n**WHY OTHER OPTIONS ARE WRONG:**\n\n**Option A:** Falsely assumes features cannot coexist\n- Rocks can have **polygenetic** (multiple-origin) features\n- Metamorphism **transforms** sedimentary rocks, preserving some features while creating new ones\n\n**Option C:** Ignores metamorphic evidence\n- Sedimentary rocks don't have large recrystallized crystals or intense folding\n- Original sedimentary features would be more prominent\n\n**Option D:** Ignores fossil evidence and folding\n- Granite doesn't fold (too rigid when solid)\n- Fossils don't form in igneous environments\n- Mineral inclusions look very different from biological structures\n\n**KEY INSIGHT:**\n\nThis single rock sample tells a **200-million-year story**:\n- Originated in ancient ocean\n- Buried and metamorphosed during continental collision\n- Uplifted to mountain peak\n- Now exposed by erosion\n\nThe **combination of features** reveals the rock cycle in action - sedimentary rocks can become metamorphic while retaining evidence (fossils) of their sedimentary origin. This demonstrates that rocks are **historical records**, and learning to read them reveals Earth's dynamic past.\n\n**Mountain ranges containing marine fossils provide powerful evidence for plate tectonics** - they prove that Earth's surface has been dramatically reorganized over geological time, with ocean floors thrust upward to become the highest peaks.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Don't assume the features are contradictory - think about a rock's **history**. Could it have started as one type and been transformed? What do the fossils tell you about its origin? What do the large crystals and folding tell you about what happened later?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The fossils prove this was originally **sedimentary** (formed in ocean). The large crystals and folded banding indicate it was later **metamorphosed** during mountain building. This is **gneiss** - metamorphic rock that preserves evidence of its sedimentary past. What does finding marine fossils in mountains tell you about Earth's tectonic history?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 80,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["rocks-minerals-y8-076", "rocks-minerals-y8-079"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set8",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  }
+]

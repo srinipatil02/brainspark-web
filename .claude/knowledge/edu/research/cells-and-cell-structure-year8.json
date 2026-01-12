@@ -1,0 +1,445 @@
+{
+  "topic": "Cells and Cell Structure",
+  "topicId": "cells-and-cell-structure",
+  "outcomeCode": "ACSSU149",
+  "year": 8,
+  "researchedAt": "2026-01-07",
+
+  "curriculumAlignment": {
+    "outcomeDescription": "Cells are the basic units of living things; they have specialised structures and functions",
+    "strand": "Biological Sciences",
+    "stage": "Stage 4",
+    "syllabus": "NSW Science 7-10 (2023)",
+    "elaborations": [
+      "Examining a variety of cells using a light microscope, digital technology, or simulations",
+      "Distinguishing plant cells from animal or fungal cells",
+      "Identifying structures within cells and describing their function",
+      "Recognising that some organisms consist of a single cell",
+      "Recognising that cells reproduce via cell division"
+    ],
+    "prerequisiteOutcomes": ["ACSSU044"],
+    "progressionOutcomes": ["ACSSU150", "ACSSU175"]
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Cell theory",
+      "description": "All living things are made of cells; cells are the basic unit of life; cells come from pre-existing cells",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c2", "c3", "c4", "c5"]
+    },
+    {
+      "id": "c2",
+      "name": "Cell structure basics",
+      "description": "All cells have a cell membrane, cytoplasm, and genetic material (DNA)",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c3", "c4", "c5", "c6"]
+    },
+    {
+      "id": "c3",
+      "name": "Plant vs animal cells",
+      "description": "Plant cells have cell walls, chloroplasts, and large central vacuoles; animal cells do not",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c6", "c7"]
+    },
+    {
+      "id": "c4",
+      "name": "Nucleus and genetic material",
+      "description": "The nucleus contains DNA and controls cell activities; it's the 'control centre' of the cell",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c10"]
+    },
+    {
+      "id": "c5",
+      "name": "Mitochondria and energy",
+      "description": "Mitochondria release energy from food through cellular respiration; the 'powerhouses' of the cell",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c7"]
+    },
+    {
+      "id": "c6",
+      "name": "Chloroplasts and photosynthesis",
+      "description": "Chloroplasts contain chlorophyll and carry out photosynthesis in plant cells",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c7"]
+    },
+    {
+      "id": "c7",
+      "name": "Cell organelle functions",
+      "description": "Each organelle has a specific function that contributes to the cell's survival",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c8", "c9"]
+    },
+    {
+      "id": "c8",
+      "name": "Cell membrane and transport",
+      "description": "The cell membrane controls what enters and exits the cell; it's selectively permeable",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": []
+    },
+    {
+      "id": "c9",
+      "name": "Unicellular vs multicellular",
+      "description": "Some organisms are single-celled (bacteria, amoeba); most are multicellular with specialised cells",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c10"]
+    },
+    {
+      "id": "c10",
+      "name": "Cell division and growth",
+      "description": "Organisms grow by increasing cell number through division, not by cells getting larger",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": []
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "misconception": "The nucleus is the 'brain' of the cell and thinks",
+      "correction": "The nucleus is the control centre that stores DNA instructions, but it doesn't think - it's a molecule-based system that follows chemical processes",
+      "prevalence": "high",
+      "source": "Driver et al., 1994; BlueTree Education",
+      "questionPhase": 3,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m2",
+      "misconception": "Cells are solid inside (like a ball)",
+      "correction": "The interior of a cell is filled with cytoplasm - a jelly-like fluid containing organelles, not solid matter",
+      "prevalence": "high",
+      "source": "AAAS Project 2061 CEM007",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m3",
+      "misconception": "Cells are filled with air inside",
+      "correction": "Cells are filled with cytoplasm (mostly water-based) and organelles, not air",
+      "prevalence": "medium",
+      "source": "AAAS Project 2061 CEM008",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m4",
+      "misconception": "Some living parts of organisms are not made of cells",
+      "correction": "All living things are made entirely of cells - this is a fundamental principle of cell theory",
+      "prevalence": "high",
+      "source": "AAAS Project 2061 CEM003",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m5",
+      "misconception": "All plant cells have chloroplasts",
+      "correction": "Only plant cells exposed to light have chloroplasts; root cells and onion cells (underground) do not have chloroplasts",
+      "prevalence": "high",
+      "source": "BlueTree Education; Nature Scitable",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m6",
+      "misconception": "All animal cells have a nucleus",
+      "correction": "Red blood cells in mammals lose their nucleus when mature - this allows more room for haemoglobin",
+      "prevalence": "medium",
+      "source": "BlueTree Education",
+      "questionPhase": 4,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m7",
+      "misconception": "Mitochondria 'create' or 'produce' energy",
+      "correction": "Mitochondria transfer and transform energy from food into ATP - energy cannot be created, only converted from one form to another",
+      "prevalence": "high",
+      "source": "My GCSE Science; Driver et al.",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m8",
+      "misconception": "When organisms grow, their cells get bigger",
+      "correction": "Growth occurs by cells dividing and increasing in number, not by individual cells getting larger",
+      "prevalence": "high",
+      "source": "BlueTree Education; Driver et al.",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m9",
+      "misconception": "The cell membrane is a solid, rigid barrier",
+      "correction": "The cell membrane is a fluid, flexible structure with lipids and proteins constantly moving within it",
+      "prevalence": "medium",
+      "source": "Leveraging Student Misconceptions (UCPress)",
+      "questionPhase": 4,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m10",
+      "misconception": "Cells are not made of atoms",
+      "correction": "Cells are made entirely of atoms organised into molecules like proteins, lipids, carbohydrates, and nucleic acids",
+      "prevalence": "medium",
+      "source": "AAAS Project 2061",
+      "questionPhase": 4,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m11",
+      "misconception": "Only animals have DNA; plants and fungi do not",
+      "correction": "All living things (animals, plants, fungi, bacteria) have DNA - it's universal to all life",
+      "prevalence": "high",
+      "source": "AAAS Project 2061",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m12",
+      "misconception": "DNA replication occurs during mitosis",
+      "correction": "DNA synthesis occurs during interphase (S phase), before the cell enters mitosis",
+      "prevalence": "medium",
+      "source": "Dikmenli Research; Teaching Cyborg",
+      "questionPhase": 4,
+      "diagnosticValue": "medium"
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "A cut on your skin healing over days",
+      "concepts": ["c1", "c10", "c9"],
+      "curiosityHook": "How does your body know how to rebuild skin after a cut?",
+      "questionPhase": 2,
+      "australianRelevance": "Common childhood experience, beach/outdoor activities"
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Blood cells visible under a microscope",
+      "concepts": ["c1", "c9", "c7"],
+      "curiosityHook": "Your blood contains millions of cells - but why can't you see them?",
+      "questionPhase": 2,
+      "australianRelevance": "School science practicals, blood donation culture"
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Bruises changing colour as they heal",
+      "concepts": ["c1", "c10", "c7"],
+      "curiosityHook": "Why do bruises turn from red to purple to yellow-green?",
+      "questionPhase": 3,
+      "australianRelevance": "Sports injuries, active lifestyle"
+    },
+    {
+      "id": "p4",
+      "phenomenon": "Leaves appearing green in sunlight",
+      "concepts": ["c3", "c6"],
+      "curiosityHook": "Why are most leaves green, but flowers can be any colour?",
+      "questionPhase": 2,
+      "australianRelevance": "Australian bush, gum trees, native plants"
+    },
+    {
+      "id": "p5",
+      "phenomenon": "Observing cheek cells under a microscope",
+      "concepts": ["c1", "c2", "c4"],
+      "curiosityHook": "You have billions of cells lining just the inside of your mouth - how can we see them?",
+      "questionPhase": 1,
+      "australianRelevance": "Classic school microscopy practical"
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Onion skin cells under the microscope",
+      "concepts": ["c1", "c3", "c2"],
+      "curiosityHook": "Why can you see the cell wall clearly in onion cells but not in cheek cells?",
+      "questionPhase": 2,
+      "australianRelevance": "Classic school microscopy practical, home cooking"
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Feeling tired during intense exercise",
+      "concepts": ["c5", "c7"],
+      "curiosityHook": "Why do you run out of energy when exercising - what's happening inside your cells?",
+      "questionPhase": 3,
+      "australianRelevance": "Sports culture, beach activities, AFL/NRL"
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Yeast making bread rise",
+      "concepts": ["c9", "c5"],
+      "curiosityHook": "Yeast is alive - it's a single-celled organism that breathes out CO2 bubbles!",
+      "questionPhase": 3,
+      "australianRelevance": "Home baking, bakery culture"
+    },
+    {
+      "id": "p9",
+      "phenomenon": "Bacteria causing food to spoil",
+      "concepts": ["c9", "c1", "c10"],
+      "curiosityHook": "How can something you can't even see make your food go off?",
+      "questionPhase": 3,
+      "australianRelevance": "Food safety in hot Australian climate"
+    },
+    {
+      "id": "p10",
+      "phenomenon": "Pond water teeming with microscopic life",
+      "concepts": ["c9", "c1"],
+      "curiosityHook": "A single drop of pond water can contain thousands of living organisms - where are they?",
+      "questionPhase": 2,
+      "australianRelevance": "Bush walks, dam water, environmental education"
+    }
+  ],
+
+  "scaffoldingSequence": [
+    {
+      "phase": 1,
+      "name": "Discover the Microscopic World",
+      "focus": "Cell theory, scale of cells, microscopy introduction",
+      "concepts": ["c1"],
+      "questionCount": 10,
+      "difficulty": "foundational"
+    },
+    {
+      "phase": 2,
+      "name": "Basic Cell Structure",
+      "focus": "Common cell parts (membrane, cytoplasm, nucleus), plant vs animal cells",
+      "concepts": ["c2", "c3", "c4"],
+      "questionCount": 20,
+      "difficulty": "foundational-to-intermediate"
+    },
+    {
+      "phase": 3,
+      "name": "Organelle Functions",
+      "focus": "Mitochondria, chloroplasts, other organelles and their roles",
+      "concepts": ["c5", "c6", "c7", "c8"],
+      "questionCount": 25,
+      "difficulty": "intermediate"
+    },
+    {
+      "phase": 4,
+      "name": "Cells in Living Systems",
+      "focus": "Unicellular organisms, cell division, cell specialisation preview",
+      "concepts": ["c9", "c10"],
+      "questionCount": 25,
+      "difficulty": "intermediate-to-advanced"
+    }
+  ],
+
+  "vocabularyProgression": {
+    "phase1": ["cell", "microscope", "organism", "living", "magnification", "cell theory"],
+    "phase2": ["cell membrane", "cytoplasm", "nucleus", "cell wall", "vacuole", "chloroplast", "plant cell", "animal cell"],
+    "phase3": ["mitochondria", "organelle", "chlorophyll", "photosynthesis", "cellular respiration", "ribosome", "endoplasmic reticulum"],
+    "phase4": ["unicellular", "multicellular", "cell division", "mitosis", "specialised cell", "DNA", "chromosome", "interphase"]
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": [
+      "Introduce cells visually with microscopy images/videos before abstract diagrams (Mayer's multimedia principle)",
+      "Use analogies (cell as factory, city, school) to scaffold understanding of organelle functions",
+      "Keep cell diagrams simple initially - add organelles progressively as concepts are learned",
+      "Spatially integrate labels and cell structures (contiguity principle)"
+    ],
+    "engagementStrategies": [
+      "Start with hands-on microscopy of familiar samples (cheek cells, onion cells)",
+      "Use 'zoom in' narratives from body → organ → tissue → cell",
+      "Create curiosity with scale comparisons (how many cells on a pinhead?)",
+      "Connect to students' experiences (healing cuts, feeling tired)"
+    ],
+    "motivationFactors": [
+      "Connect to health and medicine (how doctors use cell knowledge)",
+      "Link to sports science (energy, muscle cells)",
+      "Relate to food science (yeast, bacteria, food safety)",
+      "Use Australian context (unique Australian organisms, Great Barrier Reef organisms)"
+    ],
+    "desirableDifficulties": [
+      "Interleave plant and animal cell comparisons rather than teaching separately",
+      "Include retrieval practice on cell theory throughout all phases",
+      "Vary contexts (human cells, plant cells, bacteria) to promote transfer"
+    ],
+    "spacedRepetitionPoints": ["c1", "c3", "c5", "c7"],
+    "testingEffectOpportunities": [
+      "Prediction tasks before microscopy observations",
+      "Label-free diagrams to test recall of organelle positions",
+      "Function-to-organelle matching without word banks"
+    ]
+  },
+
+  "questionDesignGuidelines": {
+    "mcqDistractorStrategy": "Use documented misconceptions as distractors (e.g., 'cells are filled with air', 'all plant cells have chloroplasts')",
+    "shortAnswerFocus": "Require functional explanations linking structure to function (e.g., 'Why do plant cells have cell walls?')",
+    "diagramQuestions": "Include unlabelled cell diagrams for identification; comparison diagrams of plant vs animal cells",
+    "calculationOpportunities": "Magnification calculations (total magnification = eyepiece × objective lens)",
+    "realWorldApplication": "At least 40% of questions should use real-world contexts (healing, food, exercise)"
+  },
+
+  "differentiationNotes": {
+    "supportStrategies": [
+      "Provide labelled cell diagram scaffolds",
+      "Use graphic organisers comparing plant and animal cells",
+      "Offer sentence starters for functional explanations",
+      "Break complex organelle functions into simpler cause-effect statements"
+    ],
+    "extensionOpportunities": [
+      "Explore prokaryotic vs eukaryotic cells",
+      "Investigate specialised cells (neurons, red blood cells, root hair cells)",
+      "Research the endosymbiotic theory (origins of mitochondria and chloroplasts)",
+      "Calculate cell sizes from microscope scale bars"
+    ]
+  },
+
+  "sources": [
+    {
+      "name": "Australian Curriculum: Science ACSSU149",
+      "type": "curriculum",
+      "url": "https://www.australiancurriculum.edu.au/f-10-curriculum/science/"
+    },
+    {
+      "name": "AAAS Project 2061 Science Assessment - Cells",
+      "type": "assessment",
+      "url": "http://assessment.aaas.org/topics"
+    },
+    {
+      "name": "Driver, R. et al. (1994). Making sense of secondary science",
+      "type": "research",
+      "url": null
+    },
+    {
+      "name": "BlueTree Education - Cells in Primary Science Misconceptions",
+      "type": "pedagogical",
+      "url": "https://www.bluetreeeducation.com/cells-primary-science/"
+    },
+    {
+      "name": "ResearchGate - Students' understanding of the cell and cellular structures",
+      "type": "research",
+      "url": "https://www.researchgate.net/publication/351179147"
+    },
+    {
+      "name": "UC Press - Leveraging Student Misconceptions in Biochemistry & Cell Biology",
+      "type": "research",
+      "url": "https://online.ucpress.edu/abt/article/83/1/5/115821"
+    },
+    {
+      "name": "Teaching Cyborg - Misconceptions in Cell Biology",
+      "type": "pedagogical",
+      "url": "https://teachingcyborg.com/2019/11/24/misconceptions-in-cell-biology/"
+    },
+    {
+      "name": "Nature Scitable - Plant Cells, Chloroplasts, Cell Walls",
+      "type": "scientific",
+      "url": "https://www.nature.com/scitable/topicpage/plant-cells-chloroplasts-and-cell-walls-14053956/"
+    },
+    {
+      "name": "Labster - 5 Exciting Ways to Teach Cell Structure",
+      "type": "pedagogical",
+      "url": "https://www.labster.com/blog/5-exciting-ways-teach-cell-structure-keep-students-engaged"
+    },
+    {
+      "name": "OpenSciEd - Cells & Systems Unit",
+      "type": "pedagogical",
+      "url": "https://openscied.org/instructional-materials/6-6-cells-systems/"
+    },
+    {
+      "name": "NSW Education - Cognitive Load Theory",
+      "type": "research",
+      "url": "https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory.pdf"
+    }
+  ]
+}

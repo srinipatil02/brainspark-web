@@ -55,13 +55,21 @@ function CircularProgress({ progress, size = 60, strokeWidth = 4 }: CircularProg
 export default function ElementsCompoundsTopicPage() {
   const [selectedDifficulty, setSelectedDifficulty] = useState<'medium'>('medium');
 
-  // Hook to track progress across all 5 sets (medium difficulty)
+  // Hook to track progress across all 13 sets (8 Learning Arc + 5 Classic)
   const mediumSetIds = [
-    'year8-science-elements-compounds-set1',
-    'year8-science-elements-compounds-set2',
-    'year8-science-elements-compounds-set3',
-    'year8-science-elements-compounds-set4',
-    'year8-science-elements-compounds-set5',
+    'year8-elements-compounds-mixtures-set1',
+    'year8-elements-compounds-mixtures-set2',
+    'year8-elements-compounds-mixtures-set3',
+    'year8-elements-compounds-mixtures-set4',
+    'year8-elements-compounds-mixtures-set5',
+    'year8-elements-compounds-mixtures-set6',
+    'year8-elements-compounds-mixtures-set7',
+    'year8-elements-compounds-mixtures-set8',
+    'year8-elements-compounds-mixtures-set9',
+    'year8-elements-compounds-mixtures-set10',
+    'year8-elements-compounds-mixtures-set11',
+    'year8-elements-compounds-mixtures-set12',
+    'year8-elements-compounds-mixtures-set13',
   ];
 
   const { allProgress, isLoaded, getCompletedCount } = useAllSetsProgress();
@@ -78,40 +86,114 @@ export default function ElementsCompoundsTopicPage() {
   const mediumOverallProgress = Math.round((totalCompleted / totalQuestions) * 100);
 
   const sets = [
+    // Phase 1: Foundation (Sets 1-2)
     {
       number: 1,
-      title: 'Atoms & Elements',
-      topics: ['Atomic structure', 'Elements', 'Chemical symbols', 'Properties of elements'],
-      icon: '⚛️',
+      title: 'Pure Substances & Mixtures',
+      topics: ['Matter classification', 'Pure substances', 'Mixtures', 'Particle basics'],
+      icon: '🔬',
       color: 'indigo',
+      phase: 'Foundation',
     },
     {
       number: 2,
-      title: 'Periodic Table',
-      topics: ['Groups', 'Periods', 'Metals & non-metals', 'Element patterns'],
-      icon: '📊',
-      color: 'violet',
+      title: 'Elements & Compounds Intro',
+      topics: ['Elements', 'Compounds', 'Atoms', 'Molecules'],
+      icon: '⚛️',
+      color: 'indigo',
+      phase: 'Foundation',
     },
+    // Phase 2: Application (Sets 3-4)
     {
       number: 3,
-      title: 'Compounds & Mixtures',
-      topics: ['Pure substances', 'Compounds', 'Mixtures', 'Separation techniques'],
-      icon: '🧪',
-      color: 'purple',
+      title: 'Symbols & Formulas',
+      topics: ['Chemical symbols', 'Periodic table', 'Molecular formulas', 'Subscripts'],
+      icon: '📊',
+      color: 'violet',
+      phase: 'Application',
     },
     {
       number: 4,
-      title: 'Chemical Formulas',
-      topics: ['Writing formulas', 'Reading formulas', 'Common compounds', 'Molecular models'],
-      icon: '📝',
-      color: 'fuchsia',
+      title: 'Real-World Applications',
+      topics: ['Gold karats', 'Steel vs iron', 'Air as mixture', 'Compound properties'],
+      icon: '🌍',
+      color: 'violet',
+      phase: 'Application',
     },
+    // Phase 3: Connection (Sets 5-6)
     {
       number: 5,
-      title: 'Elements in Everyday Life',
-      topics: ['Carbon chemistry', 'Metals in use', 'Compounds around us', 'Applications'],
-      icon: '🌍',
-      color: 'pink',
+      title: 'Misconception Challenges',
+      topics: ['Diatomic elements', 'O₂ confusion', 'Solutions vs compounds', 'Particle diagrams'],
+      icon: '🧪',
+      color: 'purple',
+      phase: 'Connection',
+    },
+    {
+      number: 6,
+      title: 'Deep Connections',
+      topics: ['Homogeneous mixtures', 'Property changes', 'Alloys', 'Chemical bonding'],
+      icon: '🔗',
+      color: 'purple',
+      phase: 'Connection',
+    },
+    // Phase 4: Mastery (Sets 7-8)
+    {
+      number: 7,
+      title: 'Synthesis & Prediction',
+      topics: ['Separation methods', 'Compound vs mixture', 'Multi-step reasoning', 'Evidence analysis'],
+      icon: '🎯',
+      color: 'fuchsia',
+      phase: 'Mastery',
+    },
+    {
+      number: 8,
+      title: 'Mastery Challenge',
+      topics: ['Complex scenarios', 'Diamond vs graphite', 'Real-world synthesis', 'Advanced problems'],
+      icon: '🏆',
+      color: 'fuchsia',
+      phase: 'Mastery',
+    },
+    // Classic Sets (Sets 9-13) - Original questions
+    {
+      number: 9,
+      title: 'Classic: Atomic Structure',
+      topics: ['Atoms', 'Subatomic particles', 'Electron shells', 'Bohr model'],
+      icon: '📚',
+      color: 'slate',
+      phase: 'Classic',
+    },
+    {
+      number: 10,
+      title: 'Classic: Periodic Table',
+      topics: ['Groups', 'Periods', 'Metals', 'Non-metals'],
+      icon: '📚',
+      color: 'slate',
+      phase: 'Classic',
+    },
+    {
+      number: 11,
+      title: 'Classic: Compounds & Bonding',
+      topics: ['Chemical bonds', 'Ionic compounds', 'Covalent bonds', 'Formulas'],
+      icon: '📚',
+      color: 'slate',
+      phase: 'Classic',
+    },
+    {
+      number: 12,
+      title: 'Classic: Mixtures & Separation',
+      topics: ['Solutions', 'Suspensions', 'Filtration', 'Distillation'],
+      icon: '📚',
+      color: 'slate',
+      phase: 'Classic',
+    },
+    {
+      number: 13,
+      title: 'Classic: Applied Chemistry',
+      topics: ['Everyday compounds', 'Chemical reactions', 'Conservation of mass', 'Applications'],
+      icon: '📚',
+      color: 'slate',
+      phase: 'Classic',
     },
   ];
 
@@ -218,7 +300,7 @@ export default function ElementsCompoundsTopicPage() {
                       <div className="flex items-center gap-3">
                         <span className="text-4xl">{set.icon}</span>
                         <div>
-                          <div className="text-sm opacity-90 font-medium">Set {set.number} of 5</div>
+                          <div className="text-sm opacity-90 font-medium">Set {set.number} of 13 • {set.phase}</div>
                           <h3 className="text-xl font-bold">{set.title}</h3>
                         </div>
                       </div>

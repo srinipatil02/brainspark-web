@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "setNumber": 8,
+    "phase": "connection",
+    "focus": "Equations with fractions"
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-071",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{3} + 2 = 5$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 2: $\\frac{x}{3} = 3$\n\n**Step 2:** Multiply by 3: $x = 9$\n\n**Answer: x = 9**\n\n**Check:** $\\frac{9}{3} + 2 = 3 + 2 = 5$ ✓",
+      "hints": [
+        {"level": 1, "content": "Isolate the fraction first - subtract 2.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "x/3 = 3. Now multiply by 3.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 9", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Get x/3 alone first", "encouragement": "Two-step with a fraction!", "questionPrompt": "5 - 2 = ?"},
+        {"level": 2, "content": "x/3 = 3", "encouragement": "Now clear the fraction!", "questionPrompt": "3 × 3 = ?"},
+        {"level": 3, "content": "x = 9", "encouragement": "Fractions aren't scary!", "questionPrompt": "Check it!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x/3 + 2 = 5",
+        "expectedAnswers": ["9", "x = 9", "x=9", "x= 9", "x =9", "9.0", "x = 9.0"],
+        "gradingGuidance": "Two-step with fraction. Subtract 2, then multiply by 3. Or multiply everything by 3 first to clear fractions.",
+        "sampleSolutions": ["x/3 + 2 = 5\nx/3 = 3\nx = 9", "Multiply by 3:\nx + 6 = 15\nx = 9"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "two-step equations"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 11, "conceptsUsed": ["fractions", "two-step-equations"], "buildsOn": ["linear-eq-y8-070"], "preparesFor": ["linear-eq-y8-072"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Fractions in equations!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set8", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-072",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{4} - 3 = 2$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 3: $\\frac{x}{4} = 5$\n\n**Step 2:** Multiply by 4: $x = 20$\n\n**Answer: x = 20**",
+      "hints": [
+        {"level": 1, "content": "Add 3 to isolate the fraction.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "x/4 = 5. Multiply by 4.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 20", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Get x/4 alone: add 3", "encouragement": "Watch the minus!", "questionPrompt": "2 + 3 = ?"},
+        {"level": 2, "content": "x/4 = 5", "encouragement": "Clear the fraction!", "questionPrompt": "5 × 4 = ?"},
+        {"level": 3, "content": "x = 20", "encouragement": "Perfect!", "questionPrompt": "Check: 20/4 - 3 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x/4 - 3 = 2",
+        "expectedAnswers": ["20", "x = 20", "x=20", "x= 20", "x =20", "20.0", "x = 20.0"],
+        "gradingGuidance": "Add 3, multiply by 4. Or clear fractions first.",
+        "sampleSolutions": ["x/4 - 3 = 2\nx/4 = 5\nx = 20"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "two-step equations"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 12, "conceptsUsed": ["fractions"], "buildsOn": ["linear-eq-y8-071"], "preparesFor": ["linear-eq-y8-073"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Subtraction with fractions!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set8", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-073",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x + 4}{2} = 7$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Multiply by 2: $x + 4 = 14$\n\n**Step 2:** Subtract 4: $x = 10$\n\n**Answer: x = 10**",
+      "hints": [
+        {"level": 1, "content": "The whole expression (x+4) is divided by 2.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Multiply both sides by 2: x + 4 = 14", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 10", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "(x+4) ÷ 2 = 7", "encouragement": "Clear the fraction first!", "questionPrompt": "7 × 2 = ?"},
+        {"level": 2, "content": "x + 4 = 14", "encouragement": "Now it's simple!", "questionPrompt": "14 - 4 = ?"},
+        {"level": 3, "content": "x = 10", "encouragement": "Perfect!", "questionPrompt": "Check: (10+4)/2 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "(x + 4)/2 = 7",
+        "expectedAnswers": ["10", "x = 10", "x=10", "x= 10", "x =10", "10.0", "x = 10.0"],
+        "gradingGuidance": "Expression over 2. Multiply by 2 first to clear fraction, then solve simple equation.",
+        "sampleSolutions": ["(x + 4)/2 = 7\nx + 4 = 14\nx = 10"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "grouped numerator"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 13, "conceptsUsed": ["fractions", "grouped-expressions"], "buildsOn": ["linear-eq-y8-072"], "preparesFor": ["linear-eq-y8-074"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Expressions in fractions!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set8", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-074",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x - 3}{5} = 4$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Multiply by 5: $x - 3 = 20$\n\n**Step 2:** Add 3: $x = 23$\n\n**Answer: x = 23**",
+      "hints": [
+        {"level": 1, "content": "Multiply both sides by 5 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "x - 3 = 20", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 23", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Clear the fraction: × 5", "encouragement": "Then it's easy!", "questionPrompt": "4 × 5 = ?"},
+        {"level": 2, "content": "x - 3 = 20", "encouragement": "One-step now!", "questionPrompt": "20 + 3 = ?"},
+        {"level": 3, "content": "x = 23", "encouragement": "Great!", "questionPrompt": "Check: (23-3)/5 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "(x - 3)/5 = 4",
+        "expectedAnswers": ["23", "x = 23", "x=23", "x= 23", "x =23", "23.0", "x = 23.0"],
+        "gradingGuidance": "Multiply by 5, then add 3.",
+        "sampleSolutions": ["(x - 3)/5 = 4\nx - 3 = 20\nx = 23"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "grouped numerator"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 14, "conceptsUsed": ["fractions"], "buildsOn": ["linear-eq-y8-073"], "preparesFor": ["linear-eq-y8-075"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Subtraction in numerator!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set8", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-075",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{5} + 4 = 9$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 4: $\\frac{x}{5} = 5$\n\n**Step 2:** Multiply by 5: $x = 25$\n\n**Answer: x = 25**",
+      "hints": [
+        {"level": 1, "content": "Subtract 4 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "x/5 = 5", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 25 (5² = 25)", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Get x/5 alone", "encouragement": "Subtract 4!", "questionPrompt": "9 - 4 = ?"},
+        {"level": 2, "content": "x/5 = 5", "encouragement": "5 × 5!", "questionPrompt": "5 × 5 = ?"},
+        {"level": 3, "content": "x = 25", "encouragement": "Perfect square!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x/5 + 4 = 9",
+        "expectedAnswers": ["25", "x = 25", "x=25", "x= 25", "x =25", "25.0", "x = 25.0"],
+        "gradingGuidance": "Subtract 4, multiply by 5. Nice: 5 × 5 = 25.",
+        "sampleSolutions": ["x/5 + 4 = 9\nx/5 = 5\nx = 25"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "perfect squares"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 15, "conceptsUsed": ["fractions", "perfect-squares"], "buildsOn": ["linear-eq-y8-074"], "preparesFor": ["linear-eq-y8-076"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Patterns help!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set8", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-076",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{6} - 5 = 3$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 5: $\\frac{x}{6} = 8$\n\n**Step 2:** Multiply by 6: $x = 48$\n\n**Answer: x = 48**",
+      "hints": [
+        {"level": 1, "content": "Add 5 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "x/6 = 8", "revealsCriticalInfo": false},
+        {"level": 3, "content": "8 × 6 = 48", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Get x/6 alone", "encouragement": "Add 5!", "questionPrompt": "3 + 5 = ?"},
+        {"level": 2, "content": "x/6 = 8", "encouragement": "Clear fraction!", "questionPrompt": "8 × 6 = ?"},
+        {"level": 3, "content": "x = 48", "encouragement": "Great!", "questionPrompt": "Check: 48/6 - 5 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x/6 - 5 = 3",
+        "expectedAnswers": ["48", "x = 48", "x=48", "x= 48", "x =48", "48.0", "x = 48.0"],
+        "gradingGuidance": "Add 5, multiply by 6.",
+        "sampleSolutions": ["x/6 - 5 = 3\nx/6 = 8\nx = 48"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 16, "conceptsUsed": ["fractions"], "buildsOn": ["linear-eq-y8-075"], "preparesFor": ["linear-eq-y8-077"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Getting fluent with fractions!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set8", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-077",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{2x}{3} = 8$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Multiply by 3: $2x = 24$\n\n**Step 2:** Divide by 2: $x = 12$\n\n**Answer: x = 12**",
+      "hints": [
+        {"level": 1, "content": "Multiply both sides by 3 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2x = 24", "revealsCriticalInfo": false},
+        {"level": 3, "content": "24 ÷ 2 = 12", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Clear the denominator: × 3", "encouragement": "Then two-step!", "questionPrompt": "8 × 3 = ?"},
+        {"level": 2, "content": "2x = 24", "encouragement": "Now divide!", "questionPrompt": "24 ÷ 2 = ?"},
+        {"level": 3, "content": "x = 12", "encouragement": "Perfect!", "questionPrompt": "Check: 2(12)/3 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2x/3 = 8",
+        "expectedAnswers": ["12", "x = 12", "x=12", "x= 12", "x =12", "12.0", "x = 12.0"],
+        "gradingGuidance": "Coefficient in numerator. Multiply by 3, divide by 2. Can also multiply by 3/2 directly.",
+        "sampleSolutions": ["2x/3 = 8\n2x = 24\nx = 12", "Multiply by 3/2:\nx = 8 × 3/2 = 12"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "coefficients"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 17, "conceptsUsed": ["fractions", "coefficients"], "buildsOn": ["linear-eq-y8-076"], "preparesFor": ["linear-eq-y8-078"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Coefficients in fractions!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set8", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-078",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{3x}{4} = 9$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Multiply by 4: $3x = 36$\n\n**Step 2:** Divide by 3: $x = 12$\n\n**Answer: x = 12**",
+      "hints": [
+        {"level": 1, "content": "Multiply by 4 to clear denominator.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "3x = 36", "revealsCriticalInfo": false},
+        {"level": 3, "content": "36 ÷ 3 = 12", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Clear denominator first", "encouragement": "× 4!", "questionPrompt": "9 × 4 = ?"},
+        {"level": 2, "content": "3x = 36", "encouragement": "3 × 12!", "questionPrompt": "36 ÷ 3 = ?"},
+        {"level": 3, "content": "x = 12", "encouragement": "Same answer as Q77!", "questionPrompt": "Interesting!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3x/4 = 9",
+        "expectedAnswers": ["12", "x = 12", "x=12", "x= 12", "x =12", "12.0", "x = 12.0"],
+        "gradingGuidance": "Multiply by 4, divide by 3.",
+        "sampleSolutions": ["3x/4 = 9\n3x = 36\nx = 12"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "coefficients"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 18, "conceptsUsed": ["fractions", "coefficients"], "buildsOn": ["linear-eq-y8-077"], "preparesFor": ["linear-eq-y8-079"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Confident with fractional coefficients!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set8", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-079",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for y:\n\n$$\\frac{y + 5}{3} = 6$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Multiply by 3: $y + 5 = 18$\n\n**Step 2:** Subtract 5: $y = 13$\n\n**Answer: y = 13**",
+      "hints": [
+        {"level": 1, "content": "Multiply both sides by 3.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "y + 5 = 18", "revealsCriticalInfo": false},
+        {"level": 3, "content": "y = 13", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Clear fraction: × 3", "encouragement": "Any variable!", "questionPrompt": "6 × 3 = ?"},
+        {"level": 2, "content": "y + 5 = 18", "encouragement": "Simple now!", "questionPrompt": "18 - 5 = ?"},
+        {"level": 3, "content": "y = 13", "encouragement": "Perfect!", "questionPrompt": "Check: (13+5)/3 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "(y + 5)/3 = 6",
+        "expectedAnswers": ["13", "y = 13", "y=13", "y= 13", "y =13", "13.0", "y = 13.0"],
+        "gradingGuidance": "Variable y. Multiply by 3, subtract 5.",
+        "sampleSolutions": ["(y + 5)/3 = 6\ny + 5 = 18\ny = 13"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "variable flexibility"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 19, "conceptsUsed": ["fractions", "variable-flexibility"], "buildsOn": ["linear-eq-y8-078"], "preparesFor": ["linear-eq-y8-080"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Any variable, any form!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set8", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-080",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for n:\n\n$$\\frac{2n - 4}{5} = 6$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Multiply by 5: $2n - 4 = 30$\n\n**Step 2:** Add 4: $2n = 34$\n\n**Step 3:** Divide by 2: $n = 17$\n\n**Answer: n = 17**",
+      "hints": [
+        {"level": 1, "content": "Multiply by 5 to clear fraction.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2n - 4 = 30, so 2n = 34", "revealsCriticalInfo": false},
+        {"level": 3, "content": "n = 17", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Clear fraction first!", "encouragement": "× 5", "questionPrompt": "6 × 5 = ?"},
+        {"level": 2, "content": "2n - 4 = 30", "encouragement": "Two-step now!", "questionPrompt": "Add 4, then...?"},
+        {"level": 3, "content": "n = 17", "encouragement": "Set 8 complete!", "questionPrompt": "Check it!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "(2n - 4)/5 = 6",
+        "expectedAnswers": ["17", "n = 17", "n=17", "n= 17", "n =17", "17.0", "n = 17.0"],
+        "gradingGuidance": "Complex fraction. Multiply by 5: 2n - 4 = 30. Then add 4: 2n = 34. Finally divide: n = 17.",
+        "sampleSolutions": ["(2n - 4)/5 = 6\n2n - 4 = 30\n2n = 34\nn = 17"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "multi-step", "coefficients"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 20, "conceptsUsed": ["fractions", "multi-step"], "buildsOn": ["linear-eq-y8-079"], "preparesFor": ["linear-eq-y8-081"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Fractions phase complete!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set8", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

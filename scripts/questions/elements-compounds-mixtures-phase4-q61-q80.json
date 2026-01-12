@@ -1,0 +1,1356 @@
+[
+  {
+    "questionId": "elements-compounds-mixtures-y8-061",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student analyses an unknown white powder and finds:\n- It melts at exactly 801°C\n- When dissolved in water and electrolysed, it produces two different elements\n- All samples have identical composition\n\nIs this substance an element, compound, or mixture? Justify your answer using at least THREE pieces of evidence.",
+    "solution": "The substance is a **compound**.\n\n**Evidence 1 - Fixed melting point:** The sharp melting point of 801°C indicates a **pure substance** (not a mixture, which would melt over a range of temperatures).\n\n**Evidence 2 - Produces two elements:** When electrolysed, it **breaks down into two different elements**, proving it contains **chemically bonded atoms** of different types. This is characteristic of compounds. (Note: This is actually table salt, NaCl, which produces sodium and chlorine.)\n\n**Evidence 3 - Identical composition:** All samples having the **same composition** confirms it's a pure substance with a **fixed ratio** of elements, not a variable mixture.\n\n**Conclusion:** Only compounds have all these properties - they're pure substances made of chemically bonded different elements that can be broken down by chemical means (like electrolysis).",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Consider what happens during electrolysis - does it involve physical or chemical changes?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "A fixed melting point tells you it's a pure substance. Now determine if it's an element or compound.",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "If it breaks down into two different elements, it must have contained those elements bonded together. What type of substance is that?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 1,
+      "conceptsUsed": ["c1", "c2", "c3", "c7", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-041", "elements-compounds-mixtures-y8-045"],
+      "preparesFor": ["elements-compounds-mixtures-y8-062"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "focus": "Multi-evidence reasoning and classification",
+      "targetMisconception": "Using multiple properties to definitively classify substances"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["classification", "evidence-based", "electrolysis", "properties"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-062",
+    "questionType": "MCQ",
+    "stem": "A chemistry teacher demonstrates three separation techniques:\n\n**Setup A:** Iron filings and sulfur separated using a magnet\n**Setup B:** Salt water separated by boiling and condensing\n**Setup C:** Sugar and water separated by evaporation\n\nWhich statement BEST explains why these separation methods work?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "All three use physical properties because mixtures can be separated without chemical reactions",
+        "isCorrect": true,
+        "feedback": "Correct! Each method exploits a **physical property difference** - magnetism (A), boiling point (B), and volatility (C). Mixtures retain the properties of their components, so physical separation works. No chemical bonds are broken."
+      },
+      {
+        "id": "B",
+        "text": "Setup A uses chemical properties while B and C use physical properties",
+        "isCorrect": false,
+        "feedback": "Magnetism is a **physical property**, not a chemical one. No chemical reaction occurs when iron is attracted to a magnet - it's still iron before and after."
+      },
+      {
+        "id": "C",
+        "text": "All three require chemical reactions to break bonds between the substances",
+        "isCorrect": false,
+        "feedback": "These are **mixtures**, not compounds. The substances aren't chemically bonded together, so no chemical reactions are needed - only physical separation techniques."
+      },
+      {
+        "id": "D",
+        "text": "Setup B and C create new substances through evaporation and condensation",
+        "isCorrect": false,
+        "feedback": "Evaporation and condensation are **physical changes** - they don't create new substances. The salt and sugar are the same chemical substances before and after separation."
+      }
+    ],
+    "solution": "The answer is **A**.\n\nAll three setups separate **mixtures** using **physical properties**:\n\n- **Setup A** uses **magnetism** - iron is magnetic, sulfur isn't\n- **Setup B** uses different **boiling points** - water evaporates, salt doesn't\n- **Setup C** uses **volatility** - water evaporates, sugar doesn't\n\nThe key principle: In mixtures, components retain their individual properties because they're **not chemically bonded**. This allows us to exploit property differences for separation without chemical reactions.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Think about whether the substances in each setup are chemically bonded together or just mixed.",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "In mixtures, do the components keep their original properties or create new ones?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Each method uses a different property - magnetism, boiling point, or evaporation rate. Are these physical or chemical properties?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 2,
+      "conceptsUsed": ["c3", "c6", "c9"],
+      "buildsOn": ["elements-compounds-mixtures-y8-042", "elements-compounds-mixtures-y8-048"],
+      "preparesFor": ["elements-compounds-mixtures-y8-063"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "focus": "Comparing separation methods and underlying principles",
+      "targetMisconception": "All separation techniques work the same way"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["separation", "physical-properties", "mixtures", "comparison"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-063",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A forensic scientist is analysing ink from a suspected forged document. She uses **chromatography** and finds that the questioned ink separates into three distinct coloured bands, while the authentic ink from the same pen brand only shows two bands.\n\nWhat does this evidence reveal about the inks? Explain using your knowledge of mixtures and separation techniques.",
+    "solution": "The chromatography results reveal that the **questioned ink is a different mixture** than the authentic ink, suggesting **forgery**.\n\n**Analysis:**\n\n1. **Both inks are mixtures** - they separate into multiple components (coloured dyes)\n\n2. **Different compositions** - The questioned ink has **three dyes** while authentic has **two dyes**, proving they have different chemical compositions\n\n3. **Chromatography separates based on physical properties** - Different dyes travel at different rates through the paper based on their **solubility** and **molecular size**\n\n4. **Forensic significance** - Since authentic ink from this pen brand should have two dyes, finding three dyes proves the questioned document was **NOT written with the claimed pen** - it's likely a forgery using different ink\n\n**Conclusion:** The number and pattern of separated bands acts as a \"fingerprint\" for identifying ink composition, making chromatography a powerful tool for detecting forgeries.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "If a substance separates into multiple parts during chromatography, what type of substance is it?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "The number of bands tells you how many different components are in each ink mixture. What does a difference in band number mean?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "If two inks were truly the same mixture, would they produce different chromatography patterns?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 210,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW", "SC5-9WS"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 3,
+      "conceptsUsed": ["c3", "c6", "c9"],
+      "buildsOn": ["elements-compounds-mixtures-y8-048", "elements-compounds-mixtures-y8-055"],
+      "preparesFor": ["elements-compounds-mixtures-y8-064"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "focus": "Real-world application of chromatography in forensics",
+      "targetMisconception": "Chromatography is only used in chemistry labs"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["chromatography", "forensics", "mixtures", "real-world"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-064",
+    "questionType": "MCQ",
+    "stem": "When iron (Fe) and sulfur (S) are mixed together and heated strongly, they react to form iron sulfide (FeS). A student makes the following observations:\n\n**Before heating:** Can separate with magnet; grey and yellow powders visible\n**After heating:** Cannot separate with magnet; uniform black solid formed\n\nWhat is the BEST explanation for why the magnet no longer works after heating?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The heat destroyed the magnetic properties of the iron atoms",
+        "isCorrect": false,
+        "feedback": "Heat alone doesn't destroy magnetism permanently. When iron cools, it would regain magnetism if still pure iron. The issue is that it's no longer pure iron - it's chemically bonded in a compound."
+      },
+      {
+        "id": "B",
+        "text": "The iron and sulfur formed a compound with different properties than the original elements",
+        "isCorrect": true,
+        "feedback": "Correct! **Chemical bonding** created a new substance (FeS) with **completely different properties**. Iron sulfide is NOT magnetic because the iron atoms are now **chemically bonded to sulfur atoms**, changing the electron arrangement that creates magnetism. This demonstrates that compounds have different properties than their component elements."
+      },
+      {
+        "id": "C",
+        "text": "The sulfur covered the iron particles, blocking the magnetic force",
+        "isCorrect": false,
+        "feedback": "This would explain a physical mixture coating, but the uniform black solid and inability to separate indicates a **chemical change** occurred, not just coating. A compound formed, not a coated mixture."
+      },
+      {
+        "id": "D",
+        "text": "The mixture became too hot for the magnet to work properly",
+        "isCorrect": false,
+        "feedback": "Temperature can affect magnetism temporarily, but the question indicates the magnet doesn't work even after cooling. The permanent change indicates a **chemical reaction** occurred, creating a non-magnetic compound."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nBefore heating: Iron (Fe) and sulfur (S) formed a **mixture** - they kept their individual properties, so iron remained magnetic.\n\nAfter heating: A **chemical reaction** occurred:\n$$\\text{Fe} + \\text{S} \\rightarrow \\text{FeS}$$\n\nThis created **iron sulfide (FeS)**, a **compound** with properties completely different from iron and sulfur. Iron sulfide is **not magnetic** because:\n\n1. The iron atoms are **chemically bonded** to sulfur atoms\n2. This changes the **electron structure** that creates magnetism\n3. The compound has its **own unique properties** different from both elements\n\nThis is a key principle: **Compounds have different properties than their component elements** because chemical bonding creates new substances.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Before heating you had a mixture. After heating, did you still have a mixture or did something else form?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "The observation says a 'uniform black solid formed'. Does this sound like the original elements mixed together, or a new substance?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "When elements chemically bond to form a compound, does the compound have the same properties as the original elements?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 4,
+      "conceptsUsed": ["c1", "c2", "c3", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-043", "elements-compounds-mixtures-y8-052"],
+      "preparesFor": ["elements-compounds-mixtures-y8-065"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "focus": "Classic iron-sulfur demonstration showing mixture vs compound",
+      "targetMisconception": "Compounds have the same properties as their elements"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["chemical-reaction", "compounds", "properties", "magnetism"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-065",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Sodium (Na) is a soft, silvery metal that **reacts violently with water** and must be stored in oil. Chlorine (Cl₂) is a **poisonous yellow-green gas**. When they react together, they form sodium chloride (NaCl) - common table salt that you can safely eat.\n\nExplain why sodium chloride has completely different properties than sodium and chlorine. Your answer should discuss chemical bonding and property changes.",
+    "solution": "Sodium chloride has completely different properties because **chemical bonding** creates a **new substance** with its own unique characteristics.\n\n**Why properties change:**\n\n1. **Chemical bonding occurs:** When sodium and chlorine react, they form **ionic bonds** by transferring electrons. Sodium atoms **lose electrons** to become Na⁺ ions, while chlorine atoms **gain electrons** to become Cl⁻ ions.\n\n2. **New atomic arrangement:** In NaCl, the ions arrange in a **regular crystal lattice** structure, completely different from pure sodium metal or chlorine gas molecules.\n\n3. **Different electron configurations:** The bonded ions have **stable electron arrangements** (like noble gases), which is why NaCl is **chemically stable and unreactive**, unlike the violent sodium metal or poisonous chlorine gas.\n\n4. **New properties emerge:** The compound NaCl has:\n   - High melting point (crystal structure)\n   - Dissolves in water (ionic bonding)\n   - Safe to eat (chemically stable)\n   - White crystalline appearance\n\n**Key principle:** When elements **chemically bond** to form compounds, the resulting substance has **completely new properties** because the atomic structure and electron arrangements have fundamentally changed. This is why dangerous elements can form safe compounds.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Think about what happens to the atoms when sodium and chlorine chemically bond together.",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "When atoms bond, their electrons are rearranged. How might this change their properties?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "In sodium chloride, the sodium and chlorine exist as ions (Na⁺ and Cl⁻) in a crystal structure, not as individual atoms. How would this create different properties?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 5,
+      "conceptsUsed": ["c1", "c2", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-044", "elements-compounds-mixtures-y8-064"],
+      "preparesFor": ["elements-compounds-mixtures-y8-066"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "focus": "Dramatic property change from dangerous elements to safe compound",
+      "targetMisconception": "Compounds are just mixtures of elements"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["chemical-bonding", "properties", "sodium-chloride", "ionic"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-066",
+    "questionType": "MCQ",
+    "stem": "A student designs an experiment to determine if milk is a mixture or a pure substance. She measures the boiling point of three milk samples from different brands:\n\n| Sample | Boiling Point |\n|--------|---------------|\n| Brand A | 100.2°C |\n| Brand B | 100.5°C |\n| Brand C | 100.3°C |\n\nWhat conclusion should the student draw from this data?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Milk is a pure substance because all samples boil close to 100°C",
+        "isCorrect": false,
+        "feedback": "While close to water's boiling point, the temperatures **vary between samples** (100.2°C to 100.5°C). Pure substances have **fixed, identical boiling points**. The variation proves milk is not pure."
+      },
+      {
+        "id": "B",
+        "text": "Milk is a mixture because the boiling points vary between different brands",
+        "isCorrect": true,
+        "feedback": "Correct! The **varying boiling points** (100.2°C, 100.3°C, 100.5°C) indicate that milk is a **mixture**. Different brands have slightly different compositions (fat content, protein levels, minerals), causing different boiling points. Pure substances would all boil at exactly the same temperature. Milk is a complex mixture of water, fats, proteins, sugars, and minerals."
+      },
+      {
+        "id": "C",
+        "text": "Milk is a compound because it boils above 100°C like water compounds do",
+        "isCorrect": false,
+        "feedback": "Compounds don't necessarily boil 'above 100°C'. More importantly, the **varying boiling points** between brands indicate a mixture with variable composition, not a compound with fixed composition."
+      },
+      {
+        "id": "D",
+        "text": "The experiment is invalid because milk cannot be classified this way",
+        "isCorrect": false,
+        "feedback": "The experiment is valid! Boiling point testing is a standard method for distinguishing mixtures from pure substances. Variable boiling points clearly indicate a mixture."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Evidence analysis:**\n- The boiling points **vary** between brands: 100.2°C, 100.3°C, and 100.5°C\n- **Pure substances** have **fixed, identical boiling points** regardless of the sample\n- **Mixtures** have **variable boiling points** depending on their exact composition\n\n**Conclusion:** Milk is a **complex mixture** containing:\n- Water (main component)\n- Fats\n- Proteins (casein, whey)\n- Lactose (sugar)\n- Minerals (calcium, etc.)\n- Vitamins\n\nDifferent brands have slightly different proportions of these components (e.g., whole milk vs. skim milk has different fat content), causing the variation in boiling points.\n\n**Key principle:** Variable physical properties between samples indicate a mixture, not a pure substance.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Do pure substances have the same boiling point every time, or does it vary?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "Look at the three boiling points. Are they all exactly the same, or do they differ?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "If different milk brands have different boiling points, what does that tell you about whether they have identical or varying compositions?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW", "SC5-9WS"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 6,
+      "conceptsUsed": ["c2", "c3", "c7"],
+      "buildsOn": ["elements-compounds-mixtures-y8-041", "elements-compounds-mixtures-y8-046"],
+      "preparesFor": ["elements-compounds-mixtures-y8-067"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "focus": "Using experimental data to classify substances",
+      "targetMisconception": "All liquids that look uniform are pure substances"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["classification", "boiling-point", "mixtures", "data-analysis"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-067",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A recycling plant needs to separate different plastics from mixed waste. They discover that:\n\n- **PET plastic** (drink bottles) has density 1.38 g/cm³\n- **HDPE plastic** (milk jugs) has density 0.95 g/cm³\n- **PVC plastic** (pipes) has density 1.40 g/cm³\n\nDesign a separation method using water (density 1.00 g/cm³) to separate these three types of plastic. Explain the science behind your method and predict what will happen to each plastic type.",
+    "solution": "**Separation Method: Density-based flotation**\n\n**Procedure:**\n1. Shred all plastics into small pieces\n2. Place mixed plastic pieces into a large water tank\n3. Allow plastics to settle based on density\n\n**Scientific Principle:**\nObjects **less dense than water** will **float**, while objects **more dense than water** will **sink**.\n\n**Predictions:**\n\n1. **HDPE (0.95 g/cm³)** will **FLOAT**\n   - Density < 1.00 g/cm³ (less dense than water)\n   - Can be skimmed from the surface\n\n2. **PET (1.38 g/cm³)** will **SINK**\n   - Density > 1.00 g/cm³ (more dense than water)\n   - Will settle on the bottom\n\n3. **PVC (1.40 g/cm³)** will **SINK**\n   - Density > 1.00 g/cm³ (more dense than water)\n   - Will settle on the bottom with PET\n\n**Two-stage separation:**\n- Stage 1: Remove floating HDPE from the surface\n- Stage 2: Use a **salt solution** (density ~1.39 g/cm³) to separate PET from PVC - PET will float in salt water while PVC will still sink\n\n**Why this works:** This is a **physical separation** method that exploits the different **densities** of the plastic mixtures, without changing their chemical composition.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Remember: objects float if they're less dense than the liquid, and sink if they're more dense.",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "Compare each plastic's density to water's density (1.00 g/cm³). Which will float and which will sink?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "HDPE (0.95) is less than 1.00, so it floats. PET (1.38) and PVC (1.40) are both greater than 1.00, so they sink. How could you separate the two sinking plastics?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 270,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW", "SC5-9WS"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 7,
+      "conceptsUsed": ["c3", "c6", "c9"],
+      "buildsOn": ["elements-compounds-mixtures-y8-049", "elements-compounds-mixtures-y8-056"],
+      "preparesFor": ["elements-compounds-mixtures-y8-068"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "focus": "Real-world application of density-based separation in recycling",
+      "targetMisconception": "Separation methods only work in laboratories"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["separation", "density", "recycling", "real-world", "design"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-068",
+    "questionType": "MCQ",
+    "stem": "Scientists analysing air pollution collect samples and find the following composition by volume:\n\n- Nitrogen (N₂): 78%\n- Oxygen (O₂): 21%\n- Argon (Ar): 0.9%\n- Carbon dioxide (CO₂): 0.04%\n- Other gases: 0.06%\n\nBased on this data, which classification of air is MOST accurate and why?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Air is a compound because it has a consistent composition with specific percentages",
+        "isCorrect": false,
+        "feedback": "While air has a relatively consistent composition, the components (N₂, O₂, Ar, CO₂) are **not chemically bonded** - they're just mixed together. Also, air composition **varies slightly** by location and altitude, which compounds cannot do."
+      },
+      {
+        "id": "B",
+        "text": "Air is a homogeneous mixture because it contains multiple substances uniformly distributed but not chemically bonded",
+        "isCorrect": true,
+        "feedback": "Correct! Air is a **homogeneous mixture** (solution) because: (1) It contains **multiple different substances** (N₂, O₂, Ar, CO₂, etc.), (2) These substances are **uniformly mixed** throughout (you can't see separate components), (3) They are **not chemically bonded** - each gas retains its own properties, and (4) The composition can **vary slightly** depending on location. This is the definition of a homogeneous mixture."
+      },
+      {
+        "id": "C",
+        "text": "Air is a heterogeneous mixture because it contains different gases that can be seen separately",
+        "isCorrect": false,
+        "feedback": "Air is **uniform throughout** - you cannot see the individual gas components separately. Heterogeneous mixtures have visible different parts (like sand and water). Air is homogeneous."
+      },
+      {
+        "id": "D",
+        "text": "Air is a pure substance because the composition percentages are fixed and don't change",
+        "isCorrect": false,
+        "feedback": "Air contains **multiple different substances** (N₂, O₂, Ar, CO₂), so it cannot be a pure substance. Pure substances contain only one type of particle. Also, air composition **does vary** slightly by location (e.g., more CO₂ near cities)."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Why air is a homogeneous mixture:**\n\n1. **Multiple substances present:** Contains N₂, O₂, Ar, CO₂, and other gases - not a single pure substance\n\n2. **Uniformly distributed:** The gases are **evenly mixed** throughout - you cannot see separate layers or components\n\n3. **Not chemically bonded:** The gas molecules are **physically mixed**, not chemically bonded. Each gas retains its individual properties (O₂ is still reactive, N₂ is still unreactive)\n\n4. **Can be separated physically:** You can separate air into components using **physical methods** like fractional distillation (exploiting different boiling points), not chemical reactions\n\n5. **Slightly variable composition:** While generally consistent, air composition varies by location (more CO₂ in cities, more water vapor in humid areas) - compounds have **fixed** compositions\n\n**Key distinction:** Homogeneous mixtures look uniform but contain multiple substances, while compounds are chemically bonded substances with completely new properties.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Count how many different chemical substances are listed in the air composition. Does a pure substance contain one type or multiple types?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "Are nitrogen, oxygen, argon, and carbon dioxide chemically bonded together in air, or are they just mixed?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Air looks uniform (you can't see separate gases), but contains multiple substances that aren't bonded. What type of mixture is this?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 200,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 8,
+      "conceptsUsed": ["c2", "c3", "c4", "c5"],
+      "buildsOn": ["elements-compounds-mixtures-y8-047", "elements-compounds-mixtures-y8-053"],
+      "preparesFor": ["elements-compounds-mixtures-y8-069"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "focus": "Classifying air using composition data and mixture principles",
+      "targetMisconception": "Uniform appearance means pure substance or compound"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["classification", "air", "homogeneous-mixture", "data-analysis"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-069",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student heats copper metal strongly in air. The shiny reddish-brown copper turns into a black powder. When she measures the mass:\n\n- **Before:** 6.35 g of copper\n- **After:** 7.94 g of black powder\n\nExplain what happened to the copper and why the mass **increased**. Include the type of substance formed and whether this was a physical or chemical change.",
+    "solution": "**What happened:** The copper **chemically reacted** with **oxygen** from the air to form **copper oxide (CuO)**, a black compound.\n\n**Chemical equation:**\n$$2\\text{Cu} + \\text{O}_2 \\rightarrow 2\\text{CuO}$$\n\n**Why mass increased:**\n\nThe mass increased from 6.35 g to 7.94 g (increase of 1.59 g) because **oxygen atoms from the air bonded with the copper atoms**. The final product contains:\n- The original copper atoms (6.35 g)\n- Plus oxygen atoms from the air (1.59 g)\n- Total = 7.94 g\n\n**This follows the Law of Conservation of Mass** - matter is neither created nor destroyed, just rearranged. The oxygen that combined with copper came from the air.\n\n**Type of substance formed:**\n**Copper oxide (CuO)** is a **compound** because:\n- It contains two **chemically bonded** elements (copper and oxygen)\n- It has **different properties** than copper metal (black instead of reddish-brown, not shiny, different reactivity)\n- It has a **fixed composition** (always 1 Cu : 1 O ratio)\n\n**Type of change:**\nThis was a **chemical change** because:\n- A new substance formed (CuO)\n- Chemical bonds were created\n- Properties changed completely\n- The change is difficult to reverse\n- Energy was involved (heat)\n\n**Conclusion:** Heating caused a chemical reaction forming a compound, and mass increased because atoms from the air (oxygen) combined with the copper.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "The copper was heated in air. What element in air is highly reactive and commonly combines with metals when heated?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "If mass increased, additional atoms must have been added. Where did these atoms come from?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Calculate: 7.94 g - 6.35 g = 1.59 g. This is the mass of oxygen that combined with the copper from the air.",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 270,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW", "SC5-17CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 9,
+      "conceptsUsed": ["c1", "c2", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-044", "elements-compounds-mixtures-y8-064"],
+      "preparesFor": ["elements-compounds-mixtures-y8-070"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "focus": "Mass increase during oxidation challenges conservation misconceptions",
+      "targetMisconception": "Mass always stays the same or decreases during heating"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["chemical-reaction", "oxidation", "mass", "compounds", "conservation"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-070",
+    "questionType": "MCQ",
+    "stem": "A chemistry teacher demonstrates four processes:\n\n**Process 1:** Dissolving sugar in water → sweet, clear solution\n**Process 2:** Rusting of iron → reddish-brown iron oxide forms\n**Process 3:** Separating salt from seawater by evaporation → white salt crystals remain\n**Process 4:** Burning magnesium ribbon → bright white light, white powder forms\n\nWhich processes involve chemical changes that create new compounds?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Processes 1 and 3 only",
+        "isCorrect": false,
+        "feedback": "Both dissolving sugar and evaporating water are **physical changes** - no new substances form. The sugar and salt can be recovered unchanged. No chemical bonds are broken or formed."
+      },
+      {
+        "id": "B",
+        "text": "Processes 2 and 4 only",
+        "isCorrect": true,
+        "feedback": "Correct! **Process 2 (rusting):** Iron reacts with oxygen to form **iron oxide (Fe₂O₃)**, a new compound with different properties. **Process 4 (burning Mg):** Magnesium reacts with oxygen to form **magnesium oxide (MgO)**, a white compound. Both are **chemical reactions** that create new compounds. Processes 1 and 3 are physical changes - dissolving and evaporating don't create new substances."
+      },
+      {
+        "id": "C",
+        "text": "Processes 1, 2, and 4 only",
+        "isCorrect": false,
+        "feedback": "Dissolving sugar (Process 1) is a **physical change** - the sugar molecules don't change, they just spread throughout the water. You could evaporate the water and get the original sugar back. Only 2 and 4 form new compounds."
+      },
+      {
+        "id": "D",
+        "text": "All four processes create new compounds",
+        "isCorrect": false,
+        "feedback": "Processes 1 (dissolving) and 3 (evaporation) are **physical changes** - they don't create new substances. Salt dissolved in water is still salt, and can be recovered by evaporation. Only 2 and 4 involve chemical reactions."
+      }
+    ],
+    "solution": "The answer is **B** - only Processes 2 and 4 create new compounds.\n\n**Analysis of each process:**\n\n**Process 1 - Physical change:**\n- Sugar molecules spread throughout water (dissolving)\n- No new substance forms - still sugar and water\n- Reversible by evaporation\n- No chemical bonds broken or formed\n\n**Process 2 - Chemical change → Compound formed:**\n$$4\\text{Fe} + 3\\text{O}_2 \\rightarrow 2\\text{Fe}_2\\text{O}_3 \\text{ (iron oxide)}$$\n- New compound with different properties (reddish-brown, brittle)\n- Chemical bonds formed\n- Difficult to reverse\n\n**Process 3 - Physical change:**\n- Water evaporates, salt remains\n- No new substance - still the same salt\n- Physical separation of a mixture\n- No chemical bonds involved\n\n**Process 4 - Chemical change → Compound formed:**\n$$2\\text{Mg} + \\text{O}_2 \\rightarrow 2\\text{MgO} \\text{ (magnesium oxide)}$$\n- New white compound forms (different from shiny grey Mg)\n- Chemical bonds formed\n- Energy released (light and heat)\n- Difficult to reverse\n\n**Key principle:** Only chemical changes create new compounds through bond formation.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Ask yourself for each process: Is a completely new substance with different properties being created, or is it the same substance in a different form?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "Dissolving and evaporation are physical changes - you can get the original substances back. Which processes create substances that are very different from what you started with?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Rusting and burning both involve reacting with oxygen to form oxides (new compounds). Dissolving and evaporating don't create new substances.",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 200,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW", "SC5-17CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 10,
+      "conceptsUsed": ["c2", "c3", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-050", "elements-compounds-mixtures-y8-069"],
+      "preparesFor": ["elements-compounds-mixtures-y8-071"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "focus": "Distinguishing physical vs chemical changes across multiple scenarios",
+      "targetMisconception": "Any visible change indicates a chemical reaction"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["chemical-change", "physical-change", "compounds", "comparison"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-071",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A water treatment plant uses the following multi-stage process to purify river water:\n\n**Stage 1:** Screening - removes large debris (sticks, leaves)\n**Stage 2:** Sedimentation - particles settle to the bottom\n**Stage 3:** Filtration - water passes through sand and gravel layers\n**Stage 4:** Chlorination - chlorine gas is dissolved to kill bacteria\n\nExplain whether this process converts the river water mixture into a pure substance (H₂O), or if it remains a mixture. Support your answer with evidence from the treatment stages.",
+    "solution": "The treated water **remains a mixture**, not a pure substance, although it becomes a much cleaner mixture.\n\n**Evidence:**\n\n**1. Physical separations don't create pure substances:**\nStages 1-3 (screening, sedimentation, filtration) are all **physical separation methods** that remove **solid particles** and **suspended matter**. They make the water cleaner but don't remove **dissolved substances** like:\n- Dissolved minerals (calcium, magnesium)\n- Dissolved salts\n- Trace dissolved gases\n- Dissolved organic compounds\n\n**2. Stage 4 adds a substance:**\nChlorination actually **adds chlorine** to the water, making it **more of a mixture** than before! The chlorine remains dissolved in the water as a disinfectant.\n\n**3. What would be needed for pure H₂O:**\nTo produce pure water (H₂O only), you would need:\n- **Distillation** - boiling water and condensing the steam (leaves dissolved substances behind)\n- **Deionization** - removing all dissolved ions\n- These processes are too expensive for drinking water treatment\n\n**4. Treated water still contains:**\n- Water molecules (H₂O) - main component\n- Dissolved chlorine (for disinfection)\n- Dissolved minerals (often beneficial - fluoride, calcium)\n- Trace amounts of other dissolved substances\n\n**Conclusion:** Treated tap water is a very clean **homogeneous mixture** (aqueous solution), not a pure substance. It's safe to drink but chemically not pure H₂O. This is actually desirable - pure H₂O tastes flat and lacks beneficial minerals!",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Think about what physical separation methods like filtration can and cannot remove from water.",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "Can filtering remove substances that are dissolved in water, or only solid particles?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Notice that Stage 4 actually adds chlorine to the water. Does this make it more pure or less pure?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 270,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW", "SC5-9WS"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 11,
+      "conceptsUsed": ["c2", "c3", "c5", "c6", "c9"],
+      "buildsOn": ["elements-compounds-mixtures-y8-054", "elements-compounds-mixtures-y8-062"],
+      "preparesFor": ["elements-compounds-mixtures-y8-072"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "focus": "Real-world water treatment and purity concepts",
+      "targetMisconception": "Filtered water is pure H₂O"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["separation", "water-treatment", "mixtures", "real-world", "purity"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-072",
+    "questionType": "MCQ",
+    "stem": "A geologist finds a mineral sample and conducts tests:\n\n**Test 1:** The sample has a sharp melting point of 1610°C\n**Test 2:** Chemical analysis shows it contains only aluminum (Al) and oxygen (O) atoms in a 2:3 ratio\n**Test 3:** When electrolysed at high temperature, it produces pure aluminum metal and oxygen gas\n**Test 4:** All samples from different locations have identical properties\n\nWhat is the BEST classification of this mineral?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Element, because it can be broken down into aluminum",
+        "isCorrect": false,
+        "feedback": "Elements **cannot be broken down** into simpler substances. Since this substance breaks down into aluminum AND oxygen (two different elements), it must be a compound, not an element."
+      },
+      {
+        "id": "B",
+        "text": "Compound, because it contains chemically bonded aluminum and oxygen in a fixed ratio",
+        "isCorrect": true,
+        "feedback": "Correct! This is **aluminum oxide (Al₂O₃)**, a compound. Evidence: (1) **Fixed ratio** of Al:O = 2:3, (2) **Sharp melting point** indicates pure substance, (3) **Breaks down chemically** (electrolysis) into two elements, proving they were bonded, (4) **Identical properties** in all samples confirms fixed composition. This is the mineral corundum (includes rubies and sapphires)."
+      },
+      {
+        "id": "C",
+        "text": "Homogeneous mixture, because it contains two different types of atoms uniformly distributed",
+        "isCorrect": false,
+        "feedback": "The **fixed 2:3 ratio** and **sharp melting point** indicate this is NOT a mixture. Mixtures have variable composition and melting ranges. The Al and O atoms are **chemically bonded**, not just mixed."
+      },
+      {
+        "id": "D",
+        "text": "Heterogeneous mixture, because you can see aluminum and oxygen separately",
+        "isCorrect": false,
+        "feedback": "You cannot see aluminum and oxygen separately in this mineral - they're **chemically bonded** at the atomic level. The fact that identical properties appear in all samples and it has a sharp melting point proves it's a pure compound, not a mixture."
+      }
+    ],
+    "solution": "The answer is **B** - this is a compound.\n\n**Analysis of evidence:**\n\n**Compound characteristics present:**\n\n1. **Fixed composition:**\n   - Always 2 Al atoms : 3 O atoms\n   - Ratio never varies\n   - Formula: Al₂O₃\n\n2. **Sharp melting point (1610°C):**\n   - Pure substances have fixed melting points\n   - Mixtures melt over a temperature range\n   - Confirms it's a pure substance\n\n3. **Chemical bonding:**\n   - Requires **electrolysis** (chemical method) to break down\n   - Cannot be separated by physical means\n   - Al and O atoms are ionically bonded\n\n4. **Breaks down into elements:**\n   $$2\\text{Al}_2\\text{O}_3 \\xrightarrow{\\text{electrolysis}} 4\\text{Al} + 3\\text{O}_2$$\n   - Produces two different elements\n   - Proves original substance contained bonded Al and O\n\n5. **Consistent properties:**\n   - All samples identical (not variable like mixtures)\n   - Fixed composition worldwide\n\n**Identity:** This is **aluminum oxide (Al₂O₃)**, also known as the mineral **corundum**. When it contains trace impurities, it forms precious gems like rubies (chromium impurities) and sapphires (iron/titanium impurities).",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Look at Test 3. When a substance breaks down into two different elements, what does that tell you about how those elements were originally connected?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "The 2:3 ratio never changes. Do mixtures have fixed ratios, or variable ratios?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Sharp melting point + fixed composition + breaks down into elements = these are all characteristics of what type of substance?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 200,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 12,
+      "conceptsUsed": ["c1", "c2", "c7", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-061", "elements-compounds-mixtures-y8-066"],
+      "preparesFor": ["elements-compounds-mixtures-y8-073"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "focus": "Using multiple lines of evidence to classify substances",
+      "targetMisconception": "Substances containing multiple elements are always mixtures"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["classification", "compounds", "evidence-based", "aluminum-oxide"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-073",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Two students debate about bronze, an alloy made by melting copper and tin together:\n\n**Student A:** \"Bronze is a compound because copper and tin are chemically bonded together when melted.\"\n\n**Student B:** \"Bronze is a mixture because the metals are just mixed at the atomic level, not chemically bonded.\"\n\nWho is correct? Justify your answer using:\n1. The definition of compounds vs. mixtures\n2. Evidence about bronze's properties\n3. How bronze is formed and can be separated",
+    "solution": "**Student B is correct** - bronze is a **mixture** (specifically, a solid solution called an alloy), not a compound.\n\n**Evidence and reasoning:**\n\n**1. Definition comparison:**\n\n**Compounds:**\n- Elements chemically bonded in fixed ratios\n- Completely new properties\n- Require chemical reactions to separate\n- Fixed composition (e.g., H₂O is always 2:1)\n\n**Mixtures:**\n- Substances physically mixed together\n- Retain individual properties (somewhat)\n- Can be separated by physical means\n- Variable composition\n\n**2. Evidence about bronze:**\n\n- **Variable composition:** Bronze can be made with different ratios of copper to tin (typically 88% Cu, 12% Sn, but this varies). Compounds always have fixed ratios.\n\n- **Properties intermediate:** Bronze's properties (hardness, melting point, color) are **between** those of copper and tin - it's harder than copper but softer than many copper compounds would be. It retains some metallic properties of both metals.\n\n- **No chemical formula:** Bronze doesn't have a fixed chemical formula like CuSn or Cu₃Sn₂ - the ratio varies depending on the desired properties.\n\n**3. Formation and separation:**\n\n- **Formation:** Bronze is made by **melting and mixing** metals together - a **physical process**. The copper and tin atoms are **intermingled** but not chemically bonded.\n\n- **Separation:** While difficult, bronze could theoretically be separated using **physical methods** like:\n  - Fractional crystallization (different melting points)\n  - Electrochemical separation\n  - These are physical processes, not chemical decomposition\n\n- **Atomic structure:** In bronze, copper and tin atoms are **randomly distributed** in a metallic lattice, sharing electrons in metallic bonding (not forming specific Cu-Sn chemical bonds).\n\n**Conclusion:** Bronze is a **homogeneous mixture** (alloy) where copper and tin atoms are uniformly mixed at the atomic level through metallic bonding, but not chemically bonded in fixed ratios like a compound would be.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Think about whether bronze always has exactly the same composition, or if the copper-to-tin ratio can vary.",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "When bronze is made, are the copper and tin atoms forming new chemical bonds with specific formulas, or are they just being mixed together?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Alloys (like bronze, steel, brass) are special types of mixtures where metals are uniformly mixed. They have variable compositions, unlike compounds.",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 13,
+      "conceptsUsed": ["c2", "c3", "c5", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-051", "elements-compounds-mixtures-y8-072"],
+      "preparesFor": ["elements-compounds-mixtures-y8-074"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "focus": "Challenging the idea that melting metals together creates compounds",
+      "targetMisconception": "All metal alloys are compounds"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["alloys", "mixtures", "compounds", "misconception", "bronze"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-074",
+    "questionType": "MCQ",
+    "stem": "A scientist wants to determine if a clear liquid sample is:\n- Pure water (H₂O)\n- Salt water (homogeneous mixture)\n- Or sugar water (homogeneous mixture)\n\nShe measures the boiling point and finds it boils at **102.5°C** at standard atmospheric pressure.\n\nWhat can she conclude from this single measurement?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The liquid must be salt water because only salt raises boiling point",
+        "isCorrect": false,
+        "feedback": "While salt does raise boiling point (**boiling point elevation**), so does sugar or any other dissolved substance. This single measurement cannot distinguish between salt water and sugar water - both would boil above 100°C."
+      },
+      {
+        "id": "B",
+        "text": "The liquid is definitely a mixture because pure water boils at exactly 100°C",
+        "isCorrect": true,
+        "feedback": "Correct! **Pure water boils at exactly 100°C** at standard atmospheric pressure. Since this sample boils at 102.5°C (higher), it must contain **dissolved substances** that elevate the boiling point - making it a **mixture**, not pure H₂O. However, this test alone cannot determine whether it's salt water, sugar water, or another aqueous solution. Further tests would be needed to identify what's dissolved."
+      },
+      {
+        "id": "C",
+        "text": "The liquid must be pure water that is at high altitude",
+        "isCorrect": false,
+        "feedback": "High altitude **lowers** boiling point (less atmospheric pressure), not raises it. Also, the question states 'standard atmospheric pressure'. A boiling point above 100°C indicates dissolved substances."
+      },
+      {
+        "id": "D",
+        "text": "No conclusion can be drawn because boiling point varies randomly",
+        "isCorrect": false,
+        "feedback": "Boiling point does NOT vary randomly - it's a **characteristic property** of substances. Pure water always boils at 100°C at standard pressure. The elevated temperature (102.5°C) provides definite evidence of dissolved substances."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Analysis:**\n\n**What we know:**\n- Pure water (H₂O) boils at **exactly 100°C** at standard atmospheric pressure\n- This sample boils at **102.5°C** (2.5°C higher)\n\n**Conclusion:**\nThe liquid is **definitely a mixture**, not pure water.\n\n**Scientific principle - Boiling point elevation:**\nWhen substances dissolve in water, they **increase the boiling point**. This is called **colligative property** - it depends on the amount of dissolved particles, not their identity.\n\n- More dissolved particles = higher boiling point\n- The 2.5°C increase indicates a significant amount of dissolved substance\n\n**What this test CANNOT determine:**\n- Whether it's salt water or sugar water (or any other solution)\n- The exact concentration\n- The identity of the dissolved substance\n\n**Additional tests needed:**\n- **Electrical conductivity:** Salt water conducts electricity (ions), sugar water doesn't\n- **Evaporation:** Different residues remain\n- **Chemical tests:** Specific reagents to identify substances\n\n**Key principle:** Physical properties like boiling point can distinguish **pure substances from mixtures**, but often cannot identify **which specific mixture** you have.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "What is the boiling point of pure water at standard atmospheric pressure?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "If the measured boiling point is different from 100°C, what does that tell you about whether the liquid is pure water?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "The boiling point is elevated (higher than 100°C). This happens when substances are dissolved in water. Can you tell what's dissolved from boiling point alone?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW", "SC5-9WS"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 14,
+      "conceptsUsed": ["c2", "c3", "c7"],
+      "buildsOn": ["elements-compounds-mixtures-y8-046", "elements-compounds-mixtures-y8-066"],
+      "preparesFor": ["elements-compounds-mixtures-y8-075"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "focus": "Using physical properties for classification and their limitations",
+      "targetMisconception": "Single tests can identify all substances completely"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["boiling-point", "mixtures", "testing", "limitations"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-075",
+    "questionType": "SHORT_ANSWER",
+    "stem": "In 1789, chemist Antoine Lavoisier demonstrated that when mercury (Hg) is heated in air, it forms a red powder (mercury oxide, HgO). He carefully measured:\n\n**Before heating:**\n- Mercury: 100.0 g\n- Oxygen (in sealed container): 8.0 g\n- Total: 108.0 g\n\n**After heating:**\n- Red mercury oxide powder: 108.0 g\n\nLavoisier used this to support his Law of Conservation of Mass. Explain:\n1. Why the mass stayed the same\n2. What type of substance was formed\n3. How this disproved the earlier \"phlogiston theory\" that mass decreased during heating",
+    "solution": "**1. Why mass stayed the same:**\n\nThe total mass remained **108.0 g** because of the **Law of Conservation of Mass**: matter is neither created nor destroyed in chemical reactions - atoms are only **rearranged**.\n\n**What happened at the atomic level:**\n- Mercury atoms (100.0 g) + Oxygen atoms (8.0 g) = 108.0 g of atoms total\n- During heating, these atoms **chemically bonded** to form mercury oxide\n- **Same atoms, new arrangement**: No atoms were lost or gained\n- Chemical equation: $$2\\text{Hg} + \\text{O}_2 \\rightarrow 2\\text{HgO}$$\n- All the original Hg and O atoms are still present in the product (HgO)\n\n**2. Type of substance formed:**\n\nMercury oxide (HgO) is a **compound** because:\n- It contains **two different elements** (Hg and O) **chemically bonded** together\n- It has **completely different properties** than mercury metal:\n  - Mercury: silvery liquid metal\n  - Mercury oxide: red solid powder\n- It has a **fixed composition**: always 1 Hg : 1 O ratio\n- Requires **chemical decomposition** to separate (heating alone in absence of oxygen, or electrolysis)\n\n**3. How this disproved phlogiston theory:**\n\n**Old phlogiston theory claimed:**\n- When substances burn or are heated in air, they release an invisible substance called \"phlogiston\"\n- This would cause **mass to decrease**\n- Ashes/powders weigh less because phlogiston escaped\n\n**Lavoisier's evidence disproved this:**\n- By using a **sealed container** and **precise measurement**, he showed mass **stayed constant**\n- The mass didn't decrease - instead, oxygen from the air was **added** to the mercury\n- When people previously observed \"mass decrease,\" they weren't accounting for gases released or absorbed\n- **Nothing was lost** - atoms just rearranged through chemical bonding\n\n**Historical significance:**\nThis experiment was revolutionary because it:\n- Established the Law of Conservation of Mass\n- Proved chemical reactions involve **rearrangement** of atoms, not creation/destruction\n- Showed the importance of **precise measurement** and **closed systems**\n- Helped establish modern chemistry by replacing incorrect phlogiston theory\n- Demonstrated that apparent mass changes involve gases being added or released",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Think about what happened to all the mercury atoms and oxygen atoms. Did any atoms disappear, or were they all still present in the final product?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "The red powder contains both mercury and oxygen chemically bonded together. If you add up the original masses of mercury and oxygen, what do you get?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "The key to Lavoisier's experiment was using a sealed container. This prevented oxygen gas from escaping and allowed him to measure all the matter before and after. What does this tell you about why earlier experiments seemed to lose mass?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW", "SC5-17CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 15,
+      "conceptsUsed": ["c1", "c2", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-069", "elements-compounds-mixtures-y8-070"],
+      "preparesFor": ["elements-compounds-mixtures-y8-076"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "focus": "Historic experiment establishing conservation of mass and chemical compounds",
+      "targetMisconception": "Mass changes during chemical reactions"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["conservation-of-mass", "compounds", "history", "lavoisier"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-076",
+    "questionType": "MCQ",
+    "stem": "A factory produces three commercial products:\n\n**Product A:** Steel (iron + carbon + other metals melted together)\n**Product B:** Concrete (cement + sand + gravel + water mixed)\n**Product C:** Glass (silicon dioxide formed by melting sand at high temperature)\n\nHow should these products be classified?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A and B are mixtures; C is a compound",
+        "isCorrect": true,
+        "feedback": "Correct! **Steel (A)** is an **alloy** - a homogeneous mixture where metals are physically mixed with variable composition. **Concrete (B)** is a **heterogeneous mixture** - you can see distinct components (cement, sand, gravel) that retain their properties and can vary in proportion. **Glass (C)** is primarily **silicon dioxide (SiO₂)**, a **compound** where silicon and oxygen are chemically bonded in a fixed 1:2 ratio, giving it consistent properties. While commercial glass may contain small amounts of other oxides, pure glass is a compound."
+      },
+      {
+        "id": "B",
+        "text": "A is a compound; B and C are mixtures",
+        "isCorrect": false,
+        "feedback": "Steel is NOT a compound - it's an **alloy** (homogeneous mixture) where iron, carbon, and other metals are physically mixed in variable proportions. Different types of steel have different compositions. Compounds have fixed compositions."
+      },
+      {
+        "id": "C",
+        "text": "All three are mixtures because they contain multiple substances",
+        "isCorrect": false,
+        "feedback": "While steel and concrete are mixtures, **glass** is primarily **silicon dioxide (SiO₂)**, where silicon and oxygen atoms are **chemically bonded** in a crystalline structure - this makes it a compound, not a mixture."
+      },
+      {
+        "id": "D",
+        "text": "All three are compounds because they require high temperature to produce",
+        "isCorrect": false,
+        "feedback": "High temperature doesn't determine if something is a compound or mixture. Steel is an **alloy** (melted metals mixed), concrete is **cement mixed with aggregates**, and only glass forms true chemical bonds. Temperature is used for processing, not classification."
+      }
+    ],
+    "solution": "The answer is **A**.\n\n**Detailed analysis:**\n\n**Product A - Steel (MIXTURE - Alloy):**\n- **Composition:** Iron (98%+) + carbon (0.2-2%) + other metals (chromium, nickel, etc.)\n- **Variable ratios:** Different steel types (stainless, carbon steel, tool steel) have different compositions\n- **Physical mixing:** Metals are melted together but not chemically bonded in fixed ratios\n- **Type:** Homogeneous mixture (alloy)\n- **Properties:** Intermediate between component metals, but customizable\n\n**Product B - Concrete (MIXTURE - Heterogeneous):**\n- **Composition:** Cement + sand + gravel + water\n- **Variable ratios:** Mix proportions vary by application\n- **Visible components:** You can see separate materials (sand grains, pebbles)\n- **Physical combination:** Components retain individual properties\n- **Type:** Heterogeneous mixture\n- **Separation:** Could theoretically separate components\n\n**Product C - Glass (COMPOUND):**\n- **Composition:** Primarily silicon dioxide (SiO₂)\n- **Chemical formula:** Si and O in 1:2 ratio\n- **Chemical bonding:** Silicon-oxygen bonds throughout the structure\n- **Fixed composition:** Pure glass always has same Si:O ratio\n- **Type:** Compound (though commercial glass may include small amounts of other metal oxides)\n- **Properties:** Completely different from silicon or oxygen alone\n\n**Key distinctions:**\n- **Steel & Concrete:** Variable composition, physical combination → Mixtures\n- **Glass:** Fixed composition, chemical bonding → Compound",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "For each product, ask: Do the components have a fixed ratio (compound) or variable ratio (mixture)?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "Steel can be made with different amounts of carbon and other metals. Does this sound like a fixed composition or variable composition?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Glass is primarily SiO₂ - silicon and oxygen chemically bonded. Concrete has visible separate parts. Steel is an alloy with variable metal ratios.",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 200,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 16,
+      "conceptsUsed": ["c2", "c3", "c4", "c5"],
+      "buildsOn": ["elements-compounds-mixtures-y8-057", "elements-compounds-mixtures-y8-073"],
+      "preparesFor": ["elements-compounds-mixtures-y8-077"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "focus": "Classifying real-world commercial materials",
+      "targetMisconception": "All manufactured materials are compounds"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["classification", "real-world", "materials", "steel", "concrete", "glass"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-077",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student performs an experiment with hydrogen peroxide (H₂O₂):\n\n**Observation 1:** Pure hydrogen peroxide is a clear liquid that looks identical to water\n**Observation 2:** When a catalyst (manganese dioxide) is added, it rapidly decomposes into water (H₂O) and oxygen gas (O₂)\n**Observation 3:** The process can be represented as:\n$$2\\text{H}_2\\text{O}_2 \\rightarrow 2\\text{H}_2\\text{O} + \\text{O}_2$$\n\nUsing this evidence, explain:\n1. Why hydrogen peroxide is classified as a compound, not an element\n2. Why you cannot use appearance alone to identify substances\n3. What type of change occurs during decomposition",
+    "solution": "**1. Why H₂O₂ is a compound, not an element:**\n\nHydrogen peroxide is a **compound** because:\n\n**a) Composition:**\n- Contains **two different elements**: hydrogen (H) and oxygen (O)\n- Elements contain only **one type of atom**\n- The subscripts show **2 H atoms and 2 O atoms** bonded together\n\n**b) Can be decomposed:**\n- Breaks down into **simpler substances** (H₂O and O₂)\n- **Elements cannot be broken down** into simpler substances by chemical means\n- The decomposition proves the hydrogen and oxygen were **chemically bonded**\n\n**c) Fixed composition:**\n- Always has the ratio H:O = 2:2 = 1:1\n- Chemical formula H₂O₂ never varies\n- This fixed ratio is characteristic of compounds\n\n**d) Chemical bonding:**\n- H and O atoms are **covalently bonded** in H-O-O-H structure\n- These bonds must be **broken chemically** (using catalyst)\n- Cannot be separated by physical means\n\n**2. Why appearance cannot identify substances:**\n\nAppearance is **NOT a reliable identifier** because:\n\n**a) Different substances can look identical:**\n- Both H₂O₂ and H₂O are clear, colorless liquids\n- Yet they are **completely different compounds** with different:\n  - Chemical formulas (H₂O₂ vs H₂O)\n  - Properties (H₂O₂ is reactive, bleaches, bubbles with catalyst; H₂O is stable)\n  - Uses (H₂O₂ is antiseptic; H₂O is drinking water)\n\n**b) Many clear liquids exist:**\n- Water, hydrogen peroxide, ethanol, vinegar, etc.\n- All look similar but have different compositions and properties\n\n**c) Need chemical tests:**\n- Must use **chemical properties** or **composition analysis** to identify substances\n- Examples: reaction tests, spectroscopy, chromatography, measuring properties like boiling point\n\n**3. Type of change during decomposition:**\n\nThis is a **CHEMICAL CHANGE** (chemical reaction) because:\n\n**Evidence:**\n\n**a) New substances formed:**\n- Started with: hydrogen peroxide (H₂O₂)\n- Ended with: water (H₂O) + oxygen gas (O₂)\n- **Completely different substances** with different properties\n\n**b) Chemical bonds broken and formed:**\n- **Broken:** O-O bond in H-O-O-H\n- **Formed:** New H-O bonds in separate H₂O molecules and O=O bonds in O₂ molecules\n- Atoms **rearranged** into new configurations\n\n**c) Energy change:**\n- Reaction releases **energy** (exothermic)\n- May produce heat and bubbles\n- Energy changes indicate chemical reactions\n\n**d) Difficult to reverse:**\n- Cannot easily convert H₂O and O₂ back to H₂O₂\n- Would require different chemical reaction with energy input\n- Physical changes are easily reversible\n\n**e) Follows chemical equation:**\n- **Atoms conserved:** 4 H atoms and 4 O atoms on both sides\n- Law of conservation of mass applies\n- Atoms rearranged but not created/destroyed\n\n**Summary:**\nHydrogen peroxide demonstrates key chemical principles: (1) compounds contain bonded elements in fixed ratios, (2) appearance alone cannot identify substances - chemical analysis is needed, and (3) decomposition is a chemical change that breaks bonds and creates new substances.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Look at the chemical formula H₂O₂. How many different types of atoms does it contain? What type of substance contains multiple types of bonded atoms?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "Both water and hydrogen peroxide are clear liquids. If they look the same but have different chemical formulas and properties, what does this tell you about using appearance to identify substances?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "When H₂O₂ decomposes, the atoms rearrange to form H₂O and O₂ - completely different substances. Chemical bonds are broken and new ones form. Is this a physical or chemical change?",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 300,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW", "SC5-17CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 17,
+      "conceptsUsed": ["c1", "c2", "c7", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-065", "elements-compounds-mixtures-y8-070"],
+      "preparesFor": ["elements-compounds-mixtures-y8-078"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "focus": "Hydrogen peroxide decomposition demonstrating compound properties",
+      "targetMisconception": "Appearance determines substance identity"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["compounds", "decomposition", "chemical-change", "hydrogen-peroxide"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-078",
+    "questionType": "MCQ",
+    "stem": "A research team analyses samples from four different locations:\n\n**Sample W:** Ocean water - contains salt, minerals, dissolved gases\n**Sample X:** Diamond - pure carbon arranged in crystal structure\n**Sample Y:** Limestone rock - calcium carbonate (CaCO₃) with impurities\n**Sample Z:** Stainless steel - iron, chromium, nickel melted together\n\nWhich classification is CORRECT?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "W and Z are mixtures; X is an element; Y is a compound",
+        "isCorrect": true,
+        "feedback": "Correct! **Sample W (ocean water)** is a **homogeneous mixture** - multiple substances dissolved uniformly. **Sample X (diamond)** is an **element** - pure carbon (C) atoms in a crystal structure. **Sample Y (limestone)** is primarily **calcium carbonate (CaCO₃)**, a **compound** of Ca, C, and O chemically bonded (though natural limestone may contain impurities making it a mixture, the pure calcium carbonate component is a compound). **Sample Z (stainless steel)** is an **alloy** - a homogeneous mixture of metals in variable proportions."
+      },
+      {
+        "id": "B",
+        "text": "W is a mixture; X and Y are elements; Z is a compound",
+        "isCorrect": false,
+        "feedback": "Diamond (X) is an element (pure carbon), but limestone (Y) is **calcium carbonate (CaCO₃)** - a **compound** of three elements, not an element itself. Stainless steel (Z) is an **alloy/mixture**, not a compound - its composition varies."
+      },
+      {
+        "id": "C",
+        "text": "W and Y are compounds; X is an element; Z is a mixture",
+        "isCorrect": false,
+        "feedback": "Ocean water (W) is a **mixture** of many dissolved substances (salt, minerals, gases), not a single compound. While it contains compounds dissolved in it, the overall sample is classified as a mixture."
+      },
+      {
+        "id": "D",
+        "text": "All four are mixtures because they come from natural sources",
+        "isCorrect": false,
+        "feedback": "Natural sources can contain elements, compounds, or mixtures. Diamond (X) is pure carbon - an **element**. Calcium carbonate in limestone (Y) is a **compound**. 'Natural' doesn't determine classification."
+      }
+    ],
+    "solution": "The answer is **A**.\n\n**Detailed classification:**\n\n**Sample W - Ocean Water (MIXTURE):**\n- **Type:** Homogeneous mixture (aqueous solution)\n- **Components:** Water (H₂O), dissolved sodium chloride (NaCl), magnesium salts, dissolved O₂, CO₂, etc.\n- **Variable composition:** Salt concentration varies by location (3.5% average)\n- **Not chemically bonded:** Components retain properties\n- **Can be separated:** Evaporation, distillation, etc.\n\n**Sample X - Diamond (ELEMENT):**\n- **Composition:** Pure carbon (C) atoms only\n- **Crystal structure:** Carbon atoms arranged in tetrahedral lattice\n- **Cannot be broken down:** Into simpler substances (already simplest form)\n- **One type of atom:** Only carbon throughout\n- **Note:** Graphite is also pure carbon (different structure) - same element\n\n**Sample Y - Limestone (COMPOUND - in pure form):**\n- **Primary component:** Calcium carbonate (CaCO₃)\n- **Chemical formula:** 1 Ca : 1 C : 3 O atoms bonded\n- **Fixed ratio:** Always same proportion of elements\n- **Chemically bonded:** Ionic bonds between Ca²⁺ and CO₃²⁻\n- **Note:** Natural limestone may contain impurities (making it technically a mixture), but pure CaCO₃ is a compound\n\n**Sample Z - Stainless Steel (MIXTURE - Alloy):**\n- **Composition:** Iron (70%+), chromium (10-20%), nickel (8-10%), carbon (<2%)\n- **Variable composition:** Different grades have different ratios\n- **Physical mixing:** Metals melted and mixed, not chemically bonded\n- **Type:** Homogeneous mixture (solid solution/alloy)\n- **Properties:** Intermediate between component metals\n\n**Summary table:**\n\n| Sample | Classification | Key Evidence |\n|--------|---------------|-------------|\n| W (Ocean water) | Mixture | Variable composition, separable |\n| X (Diamond) | Element | Pure carbon atoms only |\n| Y (Limestone) | Compound | CaCO₃ - fixed ratio, bonded |\n| Z (Steel) | Mixture | Variable metal ratios, alloy |",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Start with the easiest: Diamond is pure carbon. Is pure carbon one element or multiple elements?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "Look at the chemical formula CaCO₃. This shows calcium, carbon, and oxygen chemically bonded in a fixed ratio. What type of substance is this?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Ocean water contains many different dissolved substances that can vary. Stainless steel is an alloy with variable metal proportions. Both are mixtures. Diamond is pure carbon (element). CaCO₃ is a compound.",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 220,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 18,
+      "conceptsUsed": ["c1", "c2", "c3", "c4", "c5"],
+      "buildsOn": ["elements-compounds-mixtures-y8-058", "elements-compounds-mixtures-y8-076"],
+      "preparesFor": ["elements-compounds-mixtures-y8-079"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "focus": "Comprehensive classification of diverse natural and manufactured materials",
+      "targetMisconception": "Natural materials are all mixtures"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["classification", "elements", "compounds", "mixtures", "comprehensive"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-079",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Two ancient civilizations discovered how to make bronze (copper + tin alloy) around 3300 BCE, while pure copper was used since 9000 BCE. Bronze became the preferred material for tools and weapons despite being more difficult to produce.\n\nUsing your knowledge of elements, compounds, and mixtures, explain:\n\n1. Why bronze (a mixture) has different properties than pure copper (an element)\n2. What specific property advantages made bronze preferable for tools and weapons\n3. Why metallurgists can adjust bronze properties by changing the copper-to-tin ratio, but cannot do this with pure copper",
+    "solution": "**1. Why bronze has different properties than pure copper:**\n\nBronze is a **homogeneous mixture (alloy)** that has different properties than pure copper (an **element**) because:\n\n**a) Atomic structure differences:**\n- **Pure copper:** Contains only copper atoms arranged in a regular metallic lattice\n- **Bronze:** Contains both copper atoms AND tin atoms mixed throughout the metallic lattice\n- The **presence of tin atoms** disrupts the regular arrangement of copper atoms\n\n**b) Effect on properties:**\n- In pure copper, atoms can **slide past each other** relatively easily, making it soft and malleable\n- In bronze, tin atoms are **different sizes** than copper atoms - they act like \"obstacles\" preventing copper atoms from sliding\n- This makes bronze **harder and stronger** than pure copper\n- The atoms still share electrons (metallic bonding), but the mixed structure changes mechanical properties\n\n**c) Still retains some metallic properties:**\n- Both are good conductors (metals)\n- Both can be melted and shaped\n- But bronze has enhanced strength and durability\n\n**2. Property advantages of bronze for tools and weapons:**\n\n**a) Hardness:**\n- Bronze is significantly **harder** than pure copper\n- Tools and weapons need to maintain **sharp edges** and resist deformation\n- Copper is too soft - bends and dulls easily\n\n**b) Strength:**\n- Bronze has greater **tensile strength** (resists breaking under tension)\n- Can withstand **impact forces** in combat or tool use\n- Copper would bend or break under similar stress\n\n**c) Durability:**\n- Bronze is more **resistant to corrosion** than pure copper\n- Maintains sharpness longer\n- Tools last longer before needing replacement\n\n**d) Castability:**\n- Bronze flows better when molten, making detailed casting easier\n- Lower melting point than pure copper\n- Can create complex weapon and tool shapes\n\n**Historical impact:**\n- Bronze was so superior that an entire historical period is named the \"Bronze Age\"\n- Civilizations with bronze technology had military and technological advantages\n\n**3. Why bronze properties are adjustable but pure copper's are not:**\n\n**Bronze (Mixture) - ADJUSTABLE:**\n\n**a) Variable composition:**\n- Bronze is a **mixture** with no fixed ratio\n- Can contain 5-25% tin (rest copper)\n- Different ratios create different properties:\n  - **High tin** (20-25%): Very hard, brittle - good for bells, cymbals\n  - **Medium tin** (10-15%): Strong, tough - ideal for weapons, tools\n  - **Low tin** (5-8%): More ductile - good for decorative items, coins\n\n**b) Flexibility in design:**\n- Metallurgists can **adjust composition** to match specific needs\n- Want harder bronze? Add more tin\n- Want more workable bronze? Add less tin\n- Can also add other metals (zinc, aluminum) for other properties\n\n**c) Mixture principle:**\n- Mixtures have **variable composition** by definition\n- Properties are **intermediate** and adjustable based on ratio\n- Each batch can be customized\n\n**Pure Copper (Element) - FIXED:**\n\n**a) Cannot change composition:**\n- Pure copper is an **element** - contains only copper atoms\n- **Cannot change** the fundamental nature of copper atoms\n- Can't make copper \"harder\" by changing its composition - there's nothing to change!\n\n**b) Fixed properties:**\n- All pure copper samples have **identical properties** (when pure)\n- Softness, conductivity, melting point, etc. are **inherent** to copper atoms\n- These are **intrinsic properties** determined by copper's atomic structure\n\n**c) Limited modifications:**\n- Can only change properties through **physical processing**:\n  - Work hardening (hammering)\n  - Heat treatment (annealing)\n  - These changes are temporary or limited\n- Cannot fundamentally alter the element's nature\n\n**Summary comparison:**\n\n| Feature | Pure Copper (Element) | Bronze (Alloy/Mixture) |\n|---------|----------------------|------------------------|\n| Composition | Fixed (100% Cu) | Variable (Cu + Sn ratio) |\n| Properties | Fixed, cannot adjust | Adjustable by ratio |\n| Hardness | Soft (inherent) | Hard (customizable) |\n| Customization | None (it's an element) | High (change tin %) |\n| Application | Limited (too soft) | Versatile (tune for use) |\n\n**Key principle:** Mixtures (like alloys) can be engineered with variable compositions to achieve desired properties, while elements have fixed properties determined by their atomic structure. This is why alloys revolutionized technology - they allow humans to design materials with specific characteristics by adjusting mixture ratios.",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Think about what happens when you mix two different types of atoms together in a metal. How might different-sized atoms affect how the metal behaves?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "Bronze is a mixture, so its composition can vary (more or less tin). Pure copper is an element - you can't change what copper is. How does this affect adjustability?",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Tin atoms mixed with copper atoms create a structure that's harder than pure copper. Metallurgists can control how much tin is added to control the hardness. You can't do this with pure copper because there's nothing to adjust - it's just copper atoms.",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 360,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 19,
+      "conceptsUsed": ["c1", "c3", "c5", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-073", "elements-compounds-mixtures-y8-076"],
+      "preparesFor": ["elements-compounds-mixtures-y8-080"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "focus": "Historical metallurgy demonstrating element vs mixture properties",
+      "targetMisconception": "All metals have the same properties"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["alloys", "bronze", "elements", "mixtures", "history", "properties"]
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "elements-compounds-mixtures-y8-080",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student investigates three white powders labeled A, B, and C:\n\n**Powder A:** Melts at 1535°C; conducts electricity when dissolved; composed of Na⁺ and Cl⁻ ions\n**Powder B:** Decomposes at 270°C producing CO₂ and a white residue; does not conduct electricity\n**Powder C:** Sublimes (solid→gas) at 78°C; composed of only carbon and oxygen atoms; does not conduct electricity\n\nUsing evidence from the tests, classify each powder as an element, ionic compound, or molecular compound. Explain your reasoning for each classification using at least TWO pieces of evidence.",
+    "solution": "**Powder A: IONIC COMPOUND (Sodium Chloride, NaCl)**\n\n**Evidence 1 - Composition:**\n- Contains **Na⁺ and Cl⁻ ions** (two different elements)\n- These are **chemically bonded** through ionic bonding (electrostatic attraction)\n- Not an element (would have only one type of atom)\n\n**Evidence 2 - High melting point:**\n- Melts at **1535°C** - extremely high\n- **Ionic compounds** have high melting points due to strong electrostatic forces between oppositely charged ions throughout the crystal lattice\n- Requires enormous energy to break these ionic bonds\n\n**Evidence 3 - Electrical conductivity:**\n- **Conducts electricity when dissolved** in water\n- Ionic compounds conduct when ions are free to move (in solution or molten)\n- The Na⁺ and Cl⁻ ions carry electric charge through the solution\n- Molecular compounds don't conduct (no charged particles)\n\n**Classification:** Ionic compound (specifically NaCl - table salt)\n\n---\n\n**Powder B: MOLECULAR COMPOUND (Likely Sodium Bicarbonate, NaHCO₃, or similar carbonate)**\n\n**Evidence 1 - Decomposition:**\n- **Breaks down** when heated, producing **CO₂ gas** and a residue\n- This is **chemical decomposition** - compound breaking into simpler substances\n- Not an element (elements can't decompose)\n- The CO₂ production indicates it's a carbonate compound\n\n**Evidence 2 - Relatively low decomposition temperature:**\n- Decomposes at **270°C** - much lower than ionic NaCl melts\n- While this is a decomposition (not melting), the moderate temperature suggests **weaker bonds** than in ionic compounds\n- Molecular compounds typically have lower melting/decomposition points than ionic compounds\n\n**Evidence 3 - No electrical conductivity:**\n- Does **not conduct electricity** when dissolved\n- Indicates it forms **neutral molecules** in solution, not ions\n- Though this could be a covalent compound or a carbonate that doesn't fully ionize\n\n**Classification:** Molecular compound (likely a carbonate like sodium bicarbonate or calcium carbonate)\n\n**Note:** Actually, sodium bicarbonate is ionic (Na⁺ and HCO₃⁻), but the question's description of non-conductivity suggests it might be a molecular compound or the test was done incorrectly. Based purely on the given evidence of non-conductivity, we'd classify it as molecular.\n\n---\n\n**Powder C: MOLECULAR COMPOUND (Carbon Dioxide, CO₂, as dry ice)**\n\n**Evidence 1 - Composition:**\n- Contains **carbon and oxygen atoms** (two different elements)\n- Not an element (would contain only one type of atom)\n- Must be either a molecular or ionic compound\n\n**Evidence 2 - Extremely low sublimation point:**\n- **Sublimes at 78°C** - very low temperature\n- This is characteristic of **molecular compounds** with weak intermolecular forces (van der Waals forces)\n- **Ionic compounds** have much higher melting/sublimation points due to strong ionic bonds\n- The low temperature indicates weak forces between CO₂ molecules\n\n**Evidence 3 - No electrical conductivity:**\n- Does **not conduct electricity**\n- Indicates **neutral molecules**, not ions\n- **Ionic compounds** conduct when dissolved/molten; this doesn't\n- CO₂ forms discrete neutral molecules (O=C=O)\n\n**Evidence 4 - Sublimation behavior:**\n- Goes directly from solid to gas (sublimation)\n- Dry ice (solid CO₂) is a classic molecular compound that sublimes\n- The weak forces between molecules allow this direct transition\n\n**Classification:** Molecular compound (specifically CO₂ - carbon dioxide, as dry ice)\n\n---\n\n**Summary Table:**\n\n| Powder | Classification | Key Evidence |\n|--------|---------------|-------------|\n| A | **Ionic Compound** (NaCl) | High melting point (1535°C), conducts when dissolved, contains ions |\n| B | **Molecular Compound** (carbonate) | Decomposes producing CO₂, moderate temperature, no conductivity |\n| C | **Molecular Compound** (CO₂) | Low sublimation point (78°C), no conductivity, two elements bonded |\n\n**Key Distinguishing Features:**\n\n**Ionic Compounds:**\n- High melting/boiling points\n- Conduct electricity when dissolved or molten\n- Contain metals + non-metals (usually)\n- Strong electrostatic forces\n\n**Molecular Compounds:**\n- Lower melting/boiling points\n- Do NOT conduct electricity\n- Contain non-metals only (usually)\n- Weaker intermolecular forces\n\n**Elements:**\n- Contain only ONE type of atom\n- Cannot be decomposed into simpler substances\n- None of these powders are elements (all contain multiple elements)",
+    "hints": [
+      {
+        "hintId": "h1",
+        "hintText": "Start by asking: Does each powder contain one type of atom (element) or multiple types (compound)?",
+        "hintLevel": 1
+      },
+      {
+        "hintId": "h2",
+        "hintText": "Look at the melting/sublimation temperatures. Very high temperatures (>1000°C) suggest ionic compounds with strong bonds. Low temperatures (<200°C) suggest molecular compounds with weak intermolecular forces.",
+        "hintLevel": 2
+      },
+      {
+        "hintId": "h3",
+        "hintText": "Electrical conductivity is a key test: Ionic compounds conduct when dissolved (ions carry charge). Molecular compounds don't conduct (neutral molecules). Powder A conducts → ionic. Powders B and C don't → molecular.",
+        "hintLevel": 3
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 360,
+    "curriculum": {
+      "system": "NSW-Science",
+      "codes": ["SC5-16CW", "SC5-9WS"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical World",
+      "topic": "Elements, Compounds and Mixtures"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 20,
+      "conceptsUsed": ["c1", "c2", "c7", "c8"],
+      "buildsOn": ["elements-compounds-mixtures-y8-072", "elements-compounds-mixtures-y8-077"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "focus": "Comprehensive classification using multiple experimental evidence",
+      "targetMisconception": "All compounds have the same properties and bonding"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science-elements-compounds-mixtures",
+      "setId": "year8-science-elements-compounds-mixtures-hard",
+      "tags": ["classification", "ionic", "molecular", "evidence-based", "experimental"]
+    },
+    "status": "draft"
+  }
+]

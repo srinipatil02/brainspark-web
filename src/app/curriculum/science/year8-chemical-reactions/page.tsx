@@ -55,65 +55,165 @@ function CircularProgress({ progress, size = 60, strokeWidth = 4 }: CircularProg
 export default function ChemicalReactionsTopicPage() {
   const [selectedDifficulty, setSelectedDifficulty] = useState<'medium'>('medium');
 
-  // Hook to track progress across all 5 sets (medium difficulty)
-  const mediumSetIds = [
-    'year8-science-chemical-reactions-set1',
-    'year8-science-chemical-reactions-set2',
-    'year8-science-chemical-reactions-set3',
-    'year8-science-chemical-reactions-set4',
-    'year8-science-chemical-reactions-set5',
+  // Hook to track progress across all 13 sets (8 new + 5 classic)
+  const setIds = [
+    'year8-chemical-reactions-set1',
+    'year8-chemical-reactions-set2',
+    'year8-chemical-reactions-set3',
+    'year8-chemical-reactions-set4',
+    'year8-chemical-reactions-set5',
+    'year8-chemical-reactions-set6',
+    'year8-chemical-reactions-set7',
+    'year8-chemical-reactions-set8',
+    'year8-chemical-reactions-set9',
+    'year8-chemical-reactions-set10',
+    'year8-chemical-reactions-set11',
+    'year8-chemical-reactions-set12',
+    'year8-chemical-reactions-set13',
   ];
 
   const { allProgress, isLoaded, getCompletedCount } = useAllSetsProgress();
 
-  // Calculate progress for medium sets
-  const mediumProgress = mediumSetIds.map(setId => ({
+  // Calculate progress for all sets
+  const setsProgress = setIds.map(setId => ({
     setId,
     completed: getCompletedCount(setId),
     total: 10,
   }));
 
-  const totalCompleted = mediumProgress.reduce((sum, set) => sum + set.completed, 0);
-  const totalQuestions = mediumProgress.length * 10;
-  const mediumOverallProgress = Math.round((totalCompleted / totalQuestions) * 100);
+  const totalCompleted = setsProgress.reduce((sum, set) => sum + set.completed, 0);
+  const totalQuestions = setsProgress.length * 10;
+  const overallProgress = Math.round((totalCompleted / totalQuestions) * 100);
 
   const sets = [
+    // Phase 1: Foundation (Sets 1-2)
     {
       number: 1,
       title: 'Physical vs Chemical Changes',
-      topics: ['Evidence of reactions', 'Reversible changes', 'Signs of chemical reactions', 'Energy changes'],
+      topics: ['Physical changes', 'Chemical changes', 'Reversibility', 'Evidence of reactions'],
       icon: '🔬',
       color: 'rose',
+      phase: 'Foundation',
     },
     {
       number: 2,
-      title: 'Types of Reactions',
-      topics: ['Combustion', 'Oxidation', 'Acid-base reactions', 'Neutralization'],
-      icon: '🔥',
-      color: 'orange',
+      title: 'Signs of Chemical Reactions',
+      topics: ['Colour change', 'Gas production', 'Precipitate', 'Temperature change'],
+      icon: '✨',
+      color: 'pink',
+      phase: 'Foundation',
     },
+    // Phase 2: Application (Sets 3-4)
     {
       number: 3,
-      title: 'Conservation of Mass',
-      topics: ['Law of conservation', 'Mass in reactions', 'Closed vs open systems', 'Balanced equations'],
-      icon: '⚖️',
-      color: 'amber',
+      title: 'Reactants and Products',
+      topics: ['Word equations', 'Reactants', 'Products', 'Combustion basics'],
+      icon: '⚗️',
+      color: 'orange',
+      phase: 'Application',
     },
     {
       number: 4,
-      title: 'Reaction Rates',
-      topics: ['Factors affecting speed', 'Temperature effects', 'Surface area', 'Catalysts'],
-      icon: '⚡',
-      color: 'yellow',
+      title: 'Combustion Reactions',
+      topics: ['Burning fuels', 'Oxygen role', 'Carbon dioxide', 'Water vapour'],
+      icon: '🔥',
+      color: 'amber',
+      phase: 'Application',
     },
+    // Phase 3: Connection (Sets 5-6)
     {
       number: 5,
-      title: 'Everyday Reactions',
-      topics: ['Cooking chemistry', 'Rusting', 'Photosynthesis', 'Cellular respiration'],
-      icon: '🌱',
+      title: 'Conservation of Mass',
+      topics: ['Law of conservation', 'Atom rearrangement', 'Mass in reactions', 'Balanced equations'],
+      icon: '⚖️',
+      color: 'yellow',
+      phase: 'Connection',
+    },
+    {
+      number: 6,
+      title: 'Oxidation and Corrosion',
+      topics: ['Rusting', 'Oxidation', 'Corrosion prevention', 'Types of reactions'],
+      icon: '🔩',
       color: 'lime',
+      phase: 'Connection',
+    },
+    // Phase 4: Mastery (Sets 7-8)
+    {
+      number: 7,
+      title: 'Energy in Reactions',
+      topics: ['Exothermic reactions', 'Endothermic reactions', 'Energy release', 'Energy absorption'],
+      icon: '⚡',
+      color: 'emerald',
+      phase: 'Mastery',
+    },
+    {
+      number: 8,
+      title: 'Reaction Rates',
+      topics: ['Temperature effects', 'Surface area', 'Concentration', 'Catalysts'],
+      icon: '🚀',
+      color: 'teal',
+      phase: 'Mastery',
+    },
+    // Classic Sets (Sets 9-13) - Additional practice
+    {
+      number: 9,
+      title: 'Classic: Reaction Basics',
+      topics: ['Reaction evidence', 'Physical vs chemical', 'Observable changes'],
+      icon: '📚',
+      color: 'slate',
+      phase: 'Classic',
+    },
+    {
+      number: 10,
+      title: 'Classic: Reaction Types',
+      topics: ['Combustion', 'Synthesis', 'Decomposition', 'Displacement'],
+      icon: '📖',
+      color: 'gray',
+      phase: 'Classic',
+    },
+    {
+      number: 11,
+      title: 'Classic: Word Equations',
+      topics: ['Word equations', 'Reactants', 'Products', 'Balancing'],
+      icon: '📝',
+      color: 'zinc',
+      phase: 'Classic',
+    },
+    {
+      number: 12,
+      title: 'Classic: Mass & Energy',
+      topics: ['Mass conservation', 'Energy changes', 'Exothermic', 'Endothermic'],
+      icon: '📊',
+      color: 'neutral',
+      phase: 'Classic',
+    },
+    {
+      number: 13,
+      title: 'Classic: Applied Chemistry',
+      topics: ['Everyday reactions', 'Industrial chemistry', 'Environmental impact'],
+      icon: '🔬',
+      color: 'stone',
+      phase: 'Classic',
     },
   ];
+
+  // Color classes mapping for Tailwind
+  const colorClasses: Record<string, { bg: string; text: string; light: string }> = {
+    rose: { bg: 'bg-rose-500', text: 'text-rose-700', light: 'bg-rose-50' },
+    pink: { bg: 'bg-pink-500', text: 'text-pink-700', light: 'bg-pink-50' },
+    orange: { bg: 'bg-orange-500', text: 'text-orange-700', light: 'bg-orange-50' },
+    amber: { bg: 'bg-amber-500', text: 'text-amber-700', light: 'bg-amber-50' },
+    yellow: { bg: 'bg-yellow-500', text: 'text-yellow-700', light: 'bg-yellow-50' },
+    lime: { bg: 'bg-lime-500', text: 'text-lime-700', light: 'bg-lime-50' },
+    emerald: { bg: 'bg-emerald-500', text: 'text-emerald-700', light: 'bg-emerald-50' },
+    teal: { bg: 'bg-teal-500', text: 'text-teal-700', light: 'bg-teal-50' },
+    // Classic set colors
+    slate: { bg: 'bg-slate-500', text: 'text-slate-700', light: 'bg-slate-50' },
+    gray: { bg: 'bg-gray-500', text: 'text-gray-700', light: 'bg-gray-50' },
+    zinc: { bg: 'bg-zinc-500', text: 'text-zinc-700', light: 'bg-zinc-50' },
+    neutral: { bg: 'bg-neutral-500', text: 'text-neutral-700', light: 'bg-neutral-50' },
+    stone: { bg: 'bg-stone-500', text: 'text-stone-700', light: 'bg-stone-50' },
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-50 via-orange-50 to-amber-50">
@@ -139,7 +239,7 @@ export default function ChemicalReactionsTopicPage() {
             </div>
             <div className="text-right">
               <div className="text-sm text-gray-500">Overall Progress</div>
-              <div className="text-2xl font-bold text-rose-600">{mediumOverallProgress}%</div>
+              <div className="text-2xl font-bold text-rose-600">{overallProgress}%</div>
             </div>
           </div>
         </div>
@@ -181,29 +281,22 @@ export default function ChemicalReactionsTopicPage() {
           </div>
         </div>
 
-        {/* Difficulty Selector */}
-        <div className="mb-6">
-          <div className="flex items-center gap-4">
-            <span className="text-sm font-medium text-gray-700">Difficulty:</span>
-            <button
-              onClick={() => setSelectedDifficulty('medium')}
-              className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                selectedDifficulty === 'medium'
-                  ? 'bg-rose-600 text-white'
-                  : 'bg-white text-gray-600 hover:bg-gray-50'
-              }`}
-            >
-              Medium
-            </button>
-          </div>
+        {/* Learning Arc Info */}
+        <div className="mb-6 flex flex-wrap items-center gap-3 text-sm">
+          <span className="px-3 py-1 bg-rose-100 text-rose-700 rounded-full font-medium">Foundation: Sets 1-2</span>
+          <span className="px-3 py-1 bg-orange-100 text-orange-700 rounded-full font-medium">Application: Sets 3-4</span>
+          <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full font-medium">Connection: Sets 5-6</span>
+          <span className="px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-medium">Mastery: Sets 7-8</span>
+          <span className="px-3 py-1 bg-slate-100 text-slate-700 rounded-full font-medium">Classic: Sets 9-13</span>
         </div>
 
         {/* Sets Grid */}
         <div className="grid md:grid-cols-2 gap-6">
           {sets.map((set, index) => {
-            const progressData = mediumProgress[index] || { completed: 0, total: 10 };
+            const progressData = setsProgress[index] || { completed: 0, total: 10 };
             const setProgress = Math.round((progressData.completed / progressData.total) * 100);
             const isComplete = progressData.completed === progressData.total;
+            const colors = colorClasses[set.color] || colorClasses.rose;
 
             return (
               <Link
@@ -213,12 +306,12 @@ export default function ChemicalReactionsTopicPage() {
               >
                 <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden h-full border-2 border-transparent hover:border-rose-200">
                   {/* Card Header */}
-                  <div className={`bg-gradient-to-r from-${set.color}-500 to-${set.color}-600 p-5 text-white`}>
+                  <div className={`${colors.bg} p-5 text-white`}>
                     <div className="flex items-center justify-between mb-2">
                       <div className="flex items-center gap-3">
                         <span className="text-4xl">{set.icon}</span>
                         <div>
-                          <div className="text-sm opacity-90 font-medium">Set {set.number} of 5</div>
+                          <div className="text-sm opacity-90 font-medium">Set {set.number} of 13</div>
                           <h3 className="text-xl font-bold">{set.title}</h3>
                         </div>
                       </div>
@@ -244,7 +337,7 @@ export default function ChemicalReactionsTopicPage() {
                         {set.topics.map((topic, idx) => (
                           <span
                             key={idx}
-                            className={`px-2 py-1 bg-${set.color}-50 text-${set.color}-700 text-xs rounded-full`}
+                            className={`px-2 py-1 ${colors.light} ${colors.text} text-xs rounded-full`}
                           >
                             {topic}
                           </span>
@@ -261,7 +354,7 @@ export default function ChemicalReactionsTopicPage() {
                         </div>
                         <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
                           <div
-                            className={`h-full bg-gradient-to-r from-${set.color}-500 to-${set.color}-600 transition-all duration-500`}
+                            className={`h-full ${colors.bg} transition-all duration-500`}
                             style={{ width: `${setProgress}%` }}
                           />
                         </div>
@@ -274,7 +367,7 @@ export default function ChemicalReactionsTopicPage() {
 
                     {/* Start Button */}
                     <div className="mt-4 pt-4 border-t">
-                      <div className={`w-full py-2 px-4 bg-gradient-to-r from-${set.color}-500 to-${set.color}-600 text-white rounded-lg font-medium text-center group-hover:shadow-md transition-shadow`}>
+                      <div className={`w-full py-2 px-4 ${colors.bg} text-white rounded-lg font-medium text-center group-hover:shadow-md transition-shadow`}>
                         {isComplete ? 'Review Set' : setProgress > 0 ? 'Continue' : 'Start Set'}
                         <span className="ml-2">→</span>
                       </div>
@@ -302,10 +395,11 @@ export default function ChemicalReactionsTopicPage() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-1">About This Topic</h3>
               <p className="text-gray-600 text-sm">
-                This topic explores chemical reactions - how substances change and transform. You'll learn to identify different
-                types of reactions, understand conservation of mass, explore reaction rates, and recognize chemistry happening all
-                around you every day. Each set contains 10 carefully crafted questions with hints and detailed solutions to deepen
-                your understanding of chemical changes.
+                This topic explores chemical reactions through 130 questions across 13 sets.
+                You'll progress through four learning phases: Foundation (understanding basic concepts),
+                Application (real-world examples), Connection (linking ideas and challenging misconceptions),
+                and Mastery (complex problem-solving), plus 5 Classic sets for additional practice.
+                Each question includes hints and detailed solutions to deepen your understanding of chemical changes.
               </p>
             </div>
           </div>

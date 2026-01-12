@@ -1,0 +1,596 @@
+{
+  "year": 8,
+  "subject": "mathematics",
+  "syllabus": "NSW Mathematics K-10 Syllabus (2022)",
+  "stage": "Stage 4",
+  "version": "1.0",
+  "generatedDate": "2026-01-11",
+  "sources": [
+    "https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-k-10-2022",
+    "https://www.australiancurriculum.edu.au/f-10-curriculum/mathematics/"
+  ],
+  "strands": [
+    {
+      "name": "Number and Algebra",
+      "description": "Develops understanding of number properties, operations, algebraic thinking and equations",
+      "topics": [
+        {
+          "id": "integers-operations",
+          "name": "Integers and Operations",
+          "nswOutcomeCode": "MA4-INT-C-01",
+          "acaraCode": "ACMNA183",
+          "description": "Compare, order and calculate with integers using efficient mental and written strategies",
+          "keyConcepts": [
+            "Positive and negative integers on number line",
+            "Addition and subtraction of integers",
+            "Multiplication and division of integers",
+            "Order of operations with integers",
+            "Real-world applications (temperature, elevation, finance)"
+          ],
+          "keyConceptCount": 5,
+          "prerequisiteTopics": ["year7-integers-intro"],
+          "difficulty": "foundation"
+        },
+        {
+          "id": "indices-powers",
+          "name": "Indices and Powers",
+          "nswOutcomeCode": "MA4-IND-C-01",
+          "acaraCode": "ACMNA182",
+          "description": "Use index notation to establish index laws with positive integral indices and zero index",
+          "keyConcepts": [
+            "Index notation and base/exponent",
+            "Multiplying powers with same base",
+            "Dividing powers with same base",
+            "Power of a power rule",
+            "Zero index rule",
+            "Scientific notation introduction"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["integers-operations"],
+          "difficulty": "core"
+        },
+        {
+          "id": "fractions-decimals-percentages",
+          "name": "Fractions, Decimals and Percentages",
+          "nswOutcomeCode": "MA4-FRC-C-01",
+          "acaraCode": "ACMNA184",
+          "description": "Investigate terminating and recurring decimals and convert between fractions, decimals and percentages",
+          "keyConcepts": [
+            "Converting fractions to decimals",
+            "Terminating vs recurring decimals",
+            "Converting decimals to fractions",
+            "Percentage conversions",
+            "Operations with fractions and decimals",
+            "Comparing and ordering rational numbers"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["year7-fractions"],
+          "difficulty": "foundation"
+        },
+        {
+          "id": "percentages-applications",
+          "name": "Percentages and Applications",
+          "nswOutcomeCode": "MA4-FRC-C-02",
+          "acaraCode": "ACMNA187",
+          "description": "Solve problems involving percentages including increases, decreases and financial applications",
+          "keyConcepts": [
+            "Percentage of a quantity",
+            "Percentage increase and decrease",
+            "Finding original amount",
+            "Profit and loss calculations",
+            "Discounts and mark-ups",
+            "Simple interest introduction"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["fractions-decimals-percentages"],
+          "difficulty": "core"
+        },
+        {
+          "id": "ratios-rates",
+          "name": "Ratios and Rates",
+          "nswOutcomeCode": "MA4-RAT-C-01",
+          "acaraCode": "ACMNA188",
+          "description": "Solve problems involving rates and ratios with and without digital technologies",
+          "keyConcepts": [
+            "Ratio notation and simplification",
+            "Equivalent ratios",
+            "Dividing quantities in given ratio",
+            "Rate as comparison of different units",
+            "Speed, distance, time problems",
+            "Unit rates and best buys",
+            "Scale drawings and maps"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["fractions-decimals-percentages"],
+          "difficulty": "core"
+        },
+        {
+          "id": "financial-mathematics",
+          "name": "Financial Mathematics",
+          "nswOutcomeCode": "MA4-FIN-C-01",
+          "acaraCode": "ACMNA189",
+          "description": "Solve problems involving profit, loss, discounts and simple interest",
+          "keyConcepts": [
+            "Cost price and selling price",
+            "Profit and loss calculations",
+            "Percentage profit and loss",
+            "Discount calculations",
+            "GST calculations",
+            "Simple interest formula",
+            "Budgeting basics"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["percentages-applications"],
+          "difficulty": "core"
+        },
+        {
+          "id": "algebraic-techniques",
+          "name": "Algebraic Techniques",
+          "nswOutcomeCode": "MA4-ALG-C-01",
+          "acaraCode": "ACMNA190",
+          "description": "Extend and apply the distributive law to algebraic expressions",
+          "keyConcepts": [
+            "Pronumerals and expressions",
+            "Like and unlike terms",
+            "Adding and subtracting algebraic terms",
+            "Multiplying algebraic terms",
+            "Distributive law expansion",
+            "Factorising with common factors",
+            "Substitution into expressions"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["year7-algebra-intro"],
+          "difficulty": "foundation"
+        },
+        {
+          "id": "linear-equations",
+          "name": "Linear Equations",
+          "nswOutcomeCode": "MA4-EQU-C-01",
+          "acaraCode": "ACMNA194",
+          "description": "Solve linear equations using algebraic and graphical techniques",
+          "keyConcepts": [
+            "One-step equations",
+            "Two-step equations",
+            "Equations with variables on both sides",
+            "Equations with brackets",
+            "Equations with fractions",
+            "Solving equations graphically",
+            "Word problems and equations"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["algebraic-techniques"],
+          "difficulty": "core"
+        },
+        {
+          "id": "linear-relationships",
+          "name": "Linear Relationships",
+          "nswOutcomeCode": "MA4-LIN-C-01",
+          "acaraCode": "ACMNA193",
+          "description": "Plot linear relationships on the Cartesian plane and solve equations graphically",
+          "keyConcepts": [
+            "Cartesian coordinate system",
+            "Plotting points from tables",
+            "Linear patterns and rules",
+            "Gradient concept introduction",
+            "y-intercept identification",
+            "Graphing linear equations",
+            "Interpreting linear graphs"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["linear-equations", "year7-cartesian-plane"],
+          "difficulty": "extension"
+        }
+      ]
+    },
+    {
+      "name": "Measurement and Space",
+      "description": "Develops understanding of length, area, volume, time and geometric properties",
+      "topics": [
+        {
+          "id": "length-perimeter",
+          "name": "Length and Perimeter",
+          "nswOutcomeCode": "MA4-LEN-C-01",
+          "acaraCode": "ACMMG195",
+          "description": "Solve problems involving perimeter of plane shapes including circles",
+          "keyConcepts": [
+            "Metric units and conversions",
+            "Perimeter of polygons",
+            "Circumference of circles",
+            "Pi as ratio of circumference to diameter",
+            "Arc length calculations",
+            "Composite shape perimeters"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["year7-measurement"],
+          "difficulty": "foundation"
+        },
+        {
+          "id": "area",
+          "name": "Area",
+          "nswOutcomeCode": "MA4-ARE-C-01",
+          "acaraCode": "ACMMG196",
+          "description": "Calculate areas of quadrilaterals, circles and composite shapes",
+          "keyConcepts": [
+            "Area formulas for rectangles and squares",
+            "Area of parallelograms",
+            "Area of triangles",
+            "Area of trapeziums",
+            "Area of rhombus and kite",
+            "Area of circles",
+            "Composite shape areas"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["length-perimeter"],
+          "difficulty": "core"
+        },
+        {
+          "id": "volume-capacity",
+          "name": "Volume and Capacity",
+          "nswOutcomeCode": "MA4-VOL-C-01",
+          "acaraCode": "ACMMG198",
+          "description": "Calculate volumes of prisms and cylinders using appropriate formulas",
+          "keyConcepts": [
+            "Volume concept and units",
+            "Volume of rectangular prisms",
+            "Volume of triangular prisms",
+            "Volume of other prisms",
+            "Volume of cylinders",
+            "Capacity and volume relationship",
+            "Composite solid volumes"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["area"],
+          "difficulty": "core"
+        },
+        {
+          "id": "surface-area",
+          "name": "Surface Area",
+          "nswOutcomeCode": "MA4-SUR-C-01",
+          "acaraCode": "ACMMG197",
+          "description": "Calculate surface area of prisms and cylinders",
+          "keyConcepts": [
+            "Nets of 3D shapes",
+            "Surface area of rectangular prisms",
+            "Surface area of triangular prisms",
+            "Surface area of cylinders",
+            "Open and closed cylinders",
+            "Composite surface areas"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["area", "volume-capacity"],
+          "difficulty": "extension"
+        },
+        {
+          "id": "time-and-rates",
+          "name": "Time and Rates of Change",
+          "nswOutcomeCode": "MA4-TIM-C-01",
+          "acaraCode": "ACMMG199",
+          "description": "Solve problems involving time, speed, distance and rates of change",
+          "keyConcepts": [
+            "Time conversions",
+            "24-hour time and time zones",
+            "Speed as rate of change",
+            "Speed-distance-time formula",
+            "Average speed calculations",
+            "Travel graphs interpretation"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["ratios-rates"],
+          "difficulty": "core"
+        },
+        {
+          "id": "angles-geometry",
+          "name": "Angle Relationships",
+          "nswOutcomeCode": "MA4-ANG-C-01",
+          "acaraCode": "ACMMG200",
+          "description": "Define and use angle relationships including those formed by parallel lines",
+          "keyConcepts": [
+            "Angles on a straight line",
+            "Vertically opposite angles",
+            "Angles at a point",
+            "Parallel lines and transversals",
+            "Alternate angles",
+            "Co-interior angles",
+            "Corresponding angles"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["year7-angles"],
+          "difficulty": "foundation"
+        },
+        {
+          "id": "triangles-quadrilaterals",
+          "name": "Properties of Triangles and Quadrilaterals",
+          "nswOutcomeCode": "MA4-GEO-C-01",
+          "acaraCode": "ACMMG202",
+          "description": "Establish properties of quadrilaterals using congruent triangles and angle properties",
+          "keyConcepts": [
+            "Triangle angle sum",
+            "Exterior angle of triangles",
+            "Classifying triangles",
+            "Quadrilateral angle sum",
+            "Properties of special quadrilaterals",
+            "Diagonal properties",
+            "Symmetry in quadrilaterals"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["angles-geometry"],
+          "difficulty": "core"
+        },
+        {
+          "id": "congruence",
+          "name": "Congruence",
+          "nswOutcomeCode": "MA4-CON-C-01",
+          "acaraCode": "ACMMG201",
+          "description": "Develop conditions for congruence of triangles and apply transformations",
+          "keyConcepts": [
+            "Congruent figures definition",
+            "Transformations preserving congruence",
+            "Translation, reflection, rotation",
+            "SSS congruence condition",
+            "SAS congruence condition",
+            "AAS congruence condition",
+            "RHS congruence condition"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["triangles-quadrilaterals"],
+          "difficulty": "extension"
+        },
+        {
+          "id": "pythagoras-theorem",
+          "name": "Pythagoras' Theorem",
+          "nswOutcomeCode": "MA4-PYT-C-01",
+          "acaraCode": "ACMMG222",
+          "description": "Investigate Pythagoras' theorem and apply it to solve problems in right-angled triangles",
+          "keyConcepts": [
+            "Right-angled triangles",
+            "Hypotenuse identification",
+            "Pythagoras' theorem statement",
+            "Finding the hypotenuse",
+            "Finding a shorter side",
+            "Pythagorean triads",
+            "Applications in 2D and 3D"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["triangles-quadrilaterals", "indices-powers"],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "name": "Statistics and Probability",
+      "description": "Develops understanding of data collection, representation, analysis and probability",
+      "topics": [
+        {
+          "id": "data-collection",
+          "name": "Data Collection and Sampling",
+          "nswOutcomeCode": "MA4-DAT-C-01",
+          "acaraCode": "ACMSP284",
+          "description": "Investigate techniques for collecting data including census, sampling and observation",
+          "keyConcepts": [
+            "Primary and secondary data",
+            "Census vs sample",
+            "Random sampling methods",
+            "Stratified sampling",
+            "Bias in data collection",
+            "Survey design"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["year7-data"],
+          "difficulty": "foundation"
+        },
+        {
+          "id": "data-representation",
+          "name": "Data Representation",
+          "nswOutcomeCode": "MA4-DAT-C-02",
+          "acaraCode": "ACMSP206",
+          "description": "Represent data using appropriate displays and explore variation in samples",
+          "keyConcepts": [
+            "Frequency tables and histograms",
+            "Stem-and-leaf plots",
+            "Dot plots",
+            "Back-to-back displays",
+            "Choosing appropriate displays",
+            "Misleading graphs"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["data-collection"],
+          "difficulty": "core"
+        },
+        {
+          "id": "data-analysis",
+          "name": "Data Analysis",
+          "nswOutcomeCode": "MA4-DAT-C-03",
+          "acaraCode": "ACMSP207",
+          "description": "Calculate and interpret measures of centre and spread",
+          "keyConcepts": [
+            "Mean calculation",
+            "Median from data and graphs",
+            "Mode identification",
+            "Range as measure of spread",
+            "Effect of outliers",
+            "Comparing datasets",
+            "Drawing conclusions from data"
+          ],
+          "keyConceptCount": 7,
+          "prerequisiteTopics": ["data-representation"],
+          "difficulty": "core"
+        },
+        {
+          "id": "probability-fundamentals",
+          "name": "Probability Fundamentals",
+          "nswOutcomeCode": "MA4-PRO-C-01",
+          "acaraCode": "ACMSP204",
+          "description": "Identify complementary events and use sum of probabilities to solve problems",
+          "keyConcepts": [
+            "Probability scale 0 to 1",
+            "Theoretical probability",
+            "Experimental probability",
+            "Sample space listing",
+            "Complementary events",
+            "Sum of probabilities equals 1"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["year7-probability"],
+          "difficulty": "foundation"
+        },
+        {
+          "id": "probability-language",
+          "name": "Probability Language and Venn Diagrams",
+          "nswOutcomeCode": "MA4-PRO-C-02",
+          "acaraCode": "ACMSP205",
+          "description": "Describe events using 'at least', 'or', 'and' and represent in Venn diagrams",
+          "keyConcepts": [
+            "Event language: at least, or, and",
+            "Inclusive vs exclusive or",
+            "Venn diagrams for events",
+            "Two-way tables",
+            "Reading probability from diagrams",
+            "Mutually exclusive events"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["probability-fundamentals"],
+          "difficulty": "core"
+        },
+        {
+          "id": "two-step-experiments",
+          "name": "Two-Step Experiments",
+          "nswOutcomeCode": "MA4-PRO-C-03",
+          "acaraCode": "ACMSP292",
+          "description": "Represent events in two-way tables and solve related problems",
+          "keyConcepts": [
+            "Sample spaces for two-step experiments",
+            "Tree diagrams",
+            "Tables for outcomes",
+            "Calculating compound probabilities",
+            "With and without replacement",
+            "Applications to games and chance"
+          ],
+          "keyConceptCount": 6,
+          "prerequisiteTopics": ["probability-language"],
+          "difficulty": "extension"
+        }
+      ]
+    }
+  ],
+  "crossCurricularLinks": [
+    {
+      "topic": "ratios-rates",
+      "links": ["science/speed-motion", "geography/scale-maps", "food-technology/recipes"]
+    },
+    {
+      "topic": "percentages-applications",
+      "links": ["commerce/financial-literacy", "science/concentration", "pdhpe/nutrition"]
+    },
+    {
+      "topic": "data-collection",
+      "links": ["science/experimental-method", "geography/fieldwork", "pdhpe/health-surveys"]
+    },
+    {
+      "topic": "linear-relationships",
+      "links": ["science/graphing-experiments", "technology/design-planning"]
+    },
+    {
+      "topic": "area",
+      "links": ["technology/materials-calculation", "visual-arts/design"]
+    },
+    {
+      "topic": "volume-capacity",
+      "links": ["science/density-mass", "food-technology/measurements"]
+    },
+    {
+      "topic": "pythagoras-theorem",
+      "links": ["technology/construction", "visual-arts/perspective"]
+    },
+    {
+      "topic": "probability-fundamentals",
+      "links": ["science/experimental-outcomes", "commerce/risk-assessment"]
+    }
+  ],
+  "learningProgressions": {
+    "numberAlgebra": {
+      "sequence": [
+        "integers-operations",
+        "indices-powers",
+        "fractions-decimals-percentages",
+        "percentages-applications",
+        "ratios-rates",
+        "financial-mathematics",
+        "algebraic-techniques",
+        "linear-equations",
+        "linear-relationships"
+      ],
+      "description": "Builds from integer operations through to graphing linear relationships"
+    },
+    "measurementSpace": {
+      "sequence": [
+        "length-perimeter",
+        "area",
+        "volume-capacity",
+        "surface-area",
+        "angles-geometry",
+        "triangles-quadrilaterals",
+        "congruence",
+        "pythagoras-theorem"
+      ],
+      "description": "Develops from basic measurement through geometric reasoning"
+    },
+    "statisticsProbability": {
+      "sequence": [
+        "data-collection",
+        "data-representation",
+        "data-analysis",
+        "probability-fundamentals",
+        "probability-language",
+        "two-step-experiments"
+      ],
+      "description": "Progresses from data handling to compound probability"
+    }
+  },
+  "topicSummary": {
+    "totalTopics": 24,
+    "byStrand": {
+      "numberAndAlgebra": 9,
+      "measurementAndSpace": 9,
+      "statisticsAndProbability": 6
+    },
+    "byDifficulty": {
+      "foundation": 7,
+      "core": 13,
+      "extension": 4
+    }
+  },
+  "suggestedTermAllocation": {
+    "term1": [
+      "integers-operations",
+      "indices-powers",
+      "algebraic-techniques",
+      "length-perimeter",
+      "area"
+    ],
+    "term2": [
+      "fractions-decimals-percentages",
+      "percentages-applications",
+      "ratios-rates",
+      "angles-geometry",
+      "triangles-quadrilaterals"
+    ],
+    "term3": [
+      "linear-equations",
+      "linear-relationships",
+      "volume-capacity",
+      "surface-area",
+      "pythagoras-theorem"
+    ],
+    "term4": [
+      "financial-mathematics",
+      "congruence",
+      "time-and-rates",
+      "data-collection",
+      "data-representation",
+      "data-analysis",
+      "probability-fundamentals",
+      "probability-language",
+      "two-step-experiments"
+    ]
+  }
+}

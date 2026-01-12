@@ -1,0 +1,1438 @@
+[
+  {
+    "questionId": "rocks-minerals-y8-001",
+    "questionType": "MCQ",
+    "stem": "What are the **three main types of rocks** found on Earth?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Igneous, sedimentary, metamorphic",
+        "isCorrect": true,
+        "feedback": "Correct! These are the three main rock types, each formed through different processes."
+      },
+      {
+        "id": "B",
+        "text": "Hard, soft, medium",
+        "isCorrect": false,
+        "feedback": "Hardness is a property of rocks, not a type. Rocks are classified by how they form."
+      },
+      {
+        "id": "C",
+        "text": "Large, small, tiny",
+        "isCorrect": false,
+        "feedback": "Size is not how we classify rock types. Think about how rocks are formed instead."
+      },
+      {
+        "id": "D",
+        "text": "Black, white, grey",
+        "isCorrect": false,
+        "feedback": "Color varies within rock types. Rocks are classified by their formation process, not color."
+      }
+    ],
+    "solution": "The answer is **igneous, sedimentary, and metamorphic**.\n\nThese three rock types are classified based on **how they form**:\n- **Igneous rocks** form from cooling magma or lava\n- **Sedimentary rocks** form from layers of sediment that are compacted and cemented\n- **Metamorphic rocks** form when existing rocks are changed by heat and pressure\n\nThis classification system is used by geologists worldwide to organize and study rocks based on their **formation processes**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how rocks are formed, not their appearance or size.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The three types start with the letters I, S, and M. They describe different formation processes.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 1,
+      "conceptsUsed": ["c1"],
+      "buildsOn": [],
+      "preparesFor": ["rocks-minerals-y8-002", "rocks-minerals-y8-003", "rocks-minerals-y8-004"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set1",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-002",
+    "questionType": "MCQ",
+    "stem": "**Igneous rocks** are formed when:",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Molten rock cools and solidifies",
+        "isCorrect": true,
+        "feedback": "Correct! Igneous rocks form when hot, molten material (magma or lava) cools down and becomes solid."
+      },
+      {
+        "id": "B",
+        "text": "Layers of sediment are pressed together",
+        "isCorrect": false,
+        "feedback": "This describes how sedimentary rocks form, not igneous rocks."
+      },
+      {
+        "id": "C",
+        "text": "Existing rocks are changed by heat and pressure",
+        "isCorrect": false,
+        "feedback": "This describes how metamorphic rocks form, not igneous rocks."
+      },
+      {
+        "id": "D",
+        "text": "Water freezes into ice",
+        "isCorrect": false,
+        "feedback": "Ice is not a rock. Igneous rocks form from cooling molten rock, not water."
+      }
+    ],
+    "solution": "The answer is **molten rock cools and solidifies**.\n\n**Igneous rocks** form through a cooling process:\n1. Hot, **molten rock** (liquid) exists underground (magma) or on the surface (lava)\n2. The molten rock **cools down** over time\n3. As it cools, it **solidifies** (becomes solid rock)\n\nThe word 'igneous' comes from the Latin word for 'fire', which helps us remember that these rocks form from hot, molten material. Examples include **granite** (cooled slowly underground) and **basalt** (cooled quickly on the surface).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "The word 'igneous' comes from the Latin word for 'fire'. Think about something hot cooling down.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Igneous rocks start as molten (liquid) rock. What happens when hot liquid rock cools?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 2,
+      "conceptsUsed": ["c1", "c2"],
+      "buildsOn": ["rocks-minerals-y8-001"],
+      "preparesFor": ["rocks-minerals-y8-006", "rocks-minerals-y8-007"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set1",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-003",
+    "questionType": "MCQ",
+    "stem": "**Sedimentary rocks** are formed when:",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Layers of sediment are compacted and cemented together",
+        "isCorrect": true,
+        "feedback": "Correct! Sedimentary rocks form when particles (sediments) settle in layers and get pressed and glued together over time."
+      },
+      {
+        "id": "B",
+        "text": "Molten rock cools and solidifies",
+        "isCorrect": false,
+        "feedback": "This describes how igneous rocks form, not sedimentary rocks."
+      },
+      {
+        "id": "C",
+        "text": "Existing rocks are melted completely",
+        "isCorrect": false,
+        "feedback": "Sedimentary rocks don't involve melting. They form from particles that settle and stick together."
+      },
+      {
+        "id": "D",
+        "text": "Rocks are broken by earthquakes",
+        "isCorrect": false,
+        "feedback": "While earthquakes can break rocks, this doesn't describe how sedimentary rocks form."
+      }
+    ],
+    "solution": "The answer is **layers of sediment are compacted and cemented together**.\n\n**Sedimentary rocks** form through a multi-step process:\n1. **Weathering** breaks down existing rocks into small particles called **sediment**\n2. **Erosion** moves these sediments to new locations (by water, wind, or ice)\n3. Sediments **settle in layers** (deposition)\n4. **Compaction** occurs as weight presses layers together\n5. **Cementation** happens when minerals act like glue, binding particles together\n\nThis process takes millions of years. Examples include **sandstone** (formed from sand), **limestone** (from shells and coral), and **shale** (from mud).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how sand on a beach or mud in a river might turn into solid rock over millions of years.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Sedimentary rocks form from small particles that settle in layers. What needs to happen to turn loose particles into solid rock?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 3,
+      "conceptsUsed": ["c1", "c3"],
+      "buildsOn": ["rocks-minerals-y8-001"],
+      "preparesFor": ["rocks-minerals-y8-011", "rocks-minerals-y8-012", "rocks-minerals-y8-014"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set1",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-004",
+    "questionType": "MCQ",
+    "stem": "**Metamorphic rocks** are formed when:",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Existing rocks are changed by heat and pressure",
+        "isCorrect": true,
+        "feedback": "Correct! Metamorphic rocks form when existing rocks are transformed by intense heat and pressure, without melting."
+      },
+      {
+        "id": "B",
+        "text": "Molten rock cools and solidifies",
+        "isCorrect": false,
+        "feedback": "This describes how igneous rocks form, not metamorphic rocks."
+      },
+      {
+        "id": "C",
+        "text": "Sediments are washed away by rivers",
+        "isCorrect": false,
+        "feedback": "This is erosion, which helps form sedimentary rocks, not metamorphic rocks."
+      },
+      {
+        "id": "D",
+        "text": "Rocks dissolve in acid rain",
+        "isCorrect": false,
+        "feedback": "Acid rain causes weathering, but doesn't create metamorphic rocks. Metamorphism requires heat and pressure."
+      }
+    ],
+    "solution": "The answer is **existing rocks are changed by heat and pressure**.\n\n**Metamorphic rocks** form through a transformation process called **metamorphism**:\n- An existing rock (igneous, sedimentary, or even another metamorphic rock) is subjected to **intense heat** and/or **high pressure**\n- These conditions occur deep underground, often due to tectonic forces or proximity to magma\n- The rock's **minerals recrystallize** and rearrange without the rock melting\n- The result is a **new type of rock** with different properties\n\nThe word 'metamorphic' means 'changed form'. Examples include **marble** (formed from limestone), **slate** (from shale), and **quartzite** (from sandstone). The key is that the rock stays **solid** throughout the transformation.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "The word 'metamorphic' means 'changed form'. Think about what could change a rock deep underground.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Metamorphic rocks start as other types of rocks. What conditions deep in the Earth could change them?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 4,
+      "conceptsUsed": ["c1", "c4"],
+      "buildsOn": ["rocks-minerals-y8-001"],
+      "preparesFor": ["rocks-minerals-y8-016", "rocks-minerals-y8-017", "rocks-minerals-y8-018"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set1",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-005",
+    "questionType": "MCQ",
+    "stem": "Match the rock type to its formation process:\n\n**Rock Type → Formation Process**",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Igneous → cooling magma/lava; Sedimentary → compacted sediments; Metamorphic → heat and pressure",
+        "isCorrect": true,
+        "feedback": "Correct! You've successfully matched each rock type to its formation process."
+      },
+      {
+        "id": "B",
+        "text": "Igneous → heat and pressure; Sedimentary → cooling magma/lava; Metamorphic → compacted sediments",
+        "isCorrect": false,
+        "feedback": "These are all mixed up. Remember: igneous rocks form from cooling molten rock."
+      },
+      {
+        "id": "C",
+        "text": "Igneous → compacted sediments; Sedimentary → heat and pressure; Metamorphic → cooling magma/lava",
+        "isCorrect": false,
+        "feedback": "These formations are incorrectly matched. Think about what 'igneous' (from fire) suggests about its formation."
+      },
+      {
+        "id": "D",
+        "text": "All three rock types form the same way",
+        "isCorrect": false,
+        "feedback": "Each rock type has a distinct formation process - that's how we classify them!"
+      }
+    ],
+    "solution": "The correct matching is:\n- **Igneous → cooling magma/lava**\n- **Sedimentary → compacted sediments**\n- **Metamorphic → heat and pressure**\n\nThis summary captures the key formation process for each rock type:\n\n1. **Igneous rocks** form when **molten rock** (magma underground or lava on the surface) **cools and solidifies**\n\n2. **Sedimentary rocks** form when **particles of sediment** settle in layers and are **compacted and cemented** together over time\n\n3. **Metamorphic rocks** form when **existing rocks** are **transformed** by intense **heat and pressure** deep underground, without melting\n\nUnderstanding these three distinct processes is fundamental to identifying and classifying rocks.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Review what you learned about each rock type in the previous questions. Each has a unique formation process.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Igneous comes from 'fire' (hot molten rock), sedimentary comes from 'sediment' (particles), and metamorphic means 'changed form'.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 5,
+      "conceptsUsed": ["c1", "c2", "c3", "c4"],
+      "buildsOn": ["rocks-minerals-y8-001", "rocks-minerals-y8-002", "rocks-minerals-y8-003", "rocks-minerals-y8-004"],
+      "preparesFor": ["rocks-minerals-y8-006"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set1",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-006",
+    "questionType": "MCQ",
+    "stem": "What is the difference between **magma** and **lava**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Magma is molten rock underground; lava is molten rock on the surface",
+        "isCorrect": true,
+        "feedback": "Correct! The only difference is location - magma is underground, lava is on the Earth's surface."
+      },
+      {
+        "id": "B",
+        "text": "Magma is hotter than lava",
+        "isCorrect": false,
+        "feedback": "Temperature isn't the key difference. Both are extremely hot molten rock. The difference is about location."
+      },
+      {
+        "id": "C",
+        "text": "Magma is solid; lava is liquid",
+        "isCorrect": false,
+        "feedback": "Both magma and lava are molten (liquid) rock. The difference is where they are found."
+      },
+      {
+        "id": "D",
+        "text": "Magma comes from meteors; lava comes from Earth",
+        "isCorrect": false,
+        "feedback": "Both magma and lava come from within the Earth. They are the same material in different locations."
+      }
+    ],
+    "solution": "The answer is **magma is molten rock underground; lava is molten rock on the surface**.\n\n**Magma** and **lava** are actually the **same material** - hot, molten rock. The only difference is their **location**:\n\n- **Magma** = molten rock **beneath** the Earth's surface (underground)\n- **Lava** = molten rock that has **reached** the Earth's surface (through volcanic eruptions)\n\nWhen magma erupts from a volcano, it becomes lava. Both form **igneous rocks** when they cool:\n- Magma cooling underground → **intrusive igneous rocks** (e.g., granite)\n- Lava cooling on the surface → **extrusive igneous rocks** (e.g., basalt)\n\nThink of it this way: magma is like an underground river of molten rock, while lava is what we call it once it flows out onto the surface.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Both magma and lava are molten rock. Think about where each one is found.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "One is found underground, the other on the Earth's surface. Which is which?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 6,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["rocks-minerals-y8-002", "rocks-minerals-y8-005"],
+      "preparesFor": ["rocks-minerals-y8-007", "rocks-minerals-y8-009"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set1",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-007",
+    "questionType": "MCQ",
+    "stem": "Why do some igneous rocks have **large crystals** while others have **small crystals**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Slow cooling produces large crystals; fast cooling produces small crystals",
+        "isCorrect": true,
+        "feedback": "Correct! Cooling rate determines crystal size. Slow cooling gives time for large crystals to grow."
+      },
+      {
+        "id": "B",
+        "text": "Large rocks have large crystals; small rocks have small crystals",
+        "isCorrect": false,
+        "feedback": "Rock size doesn't determine crystal size. It's about how fast the molten rock cools."
+      },
+      {
+        "id": "C",
+        "text": "Hot magma makes large crystals; cool magma makes small crystals",
+        "isCorrect": false,
+        "feedback": "The starting temperature isn't the key factor. Think about how fast or slow the cooling process is."
+      },
+      {
+        "id": "D",
+        "text": "Surface rocks have large crystals; underground rocks have small crystals",
+        "isCorrect": false,
+        "feedback": "This is backwards! Underground cooling is slower, allowing larger crystals to form."
+      }
+    ],
+    "solution": "The answer is **slow cooling produces large crystals; fast cooling produces small crystals**.\n\nCrystal size in igneous rocks depends on the **cooling rate**:\n\n**Large crystals** (like in granite):\n- Form when magma cools **slowly underground** (intrusive igneous rocks)\n- Slow cooling gives **more time** for mineral crystals to grow\n- Takes thousands to millions of years\n- Result: **coarse-grained** texture with visible crystals\n\n**Small crystals** (like in basalt):\n- Form when lava cools **quickly on the surface** (extrusive igneous rocks)\n- Fast cooling gives **little time** for crystals to grow\n- Takes days to years\n- Result: **fine-grained** texture with tiny or no visible crystals\n\nThink of it like making rock candy - if you cool the sugar solution slowly, you get big crystals. If you cool it quickly, you get small crystals.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about where igneous rocks form - underground or on the surface. Which location allows slower cooling?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Crystals need time to grow. Does slow cooling or fast cooling give more time for large crystals to form?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 7,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["rocks-minerals-y8-002", "rocks-minerals-y8-006"],
+      "preparesFor": ["rocks-minerals-y8-009", "rocks-minerals-y8-010"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set1",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-008",
+    "questionType": "MCQ",
+    "stem": "Which of the following is an example of an **igneous rock**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Granite",
+        "isCorrect": true,
+        "feedback": "Correct! Granite is an intrusive igneous rock that forms from slowly cooling magma underground."
+      },
+      {
+        "id": "B",
+        "text": "Sandstone",
+        "isCorrect": false,
+        "feedback": "Sandstone is a sedimentary rock formed from compacted sand particles, not from cooling magma."
+      },
+      {
+        "id": "C",
+        "text": "Marble",
+        "isCorrect": false,
+        "feedback": "Marble is a metamorphic rock formed when limestone is changed by heat and pressure."
+      },
+      {
+        "id": "D",
+        "text": "Limestone",
+        "isCorrect": false,
+        "feedback": "Limestone is a sedimentary rock formed from shells and coral, not from cooling magma."
+      }
+    ],
+    "solution": "The answer is **granite**.\n\n**Granite** is a common **intrusive igneous rock** that forms when magma cools slowly deep underground. It has:\n- **Large, visible crystals** (due to slow cooling)\n- Multiple minerals including **quartz**, **feldspar**, and **mica**\n- Light colors (typically pink, white, or grey)\n- Very hard and durable\n\nOther examples of igneous rocks include:\n- **Basalt** - extrusive (fast cooling on surface), dark, fine-grained\n- **Pumice** - extrusive, very light (full of air bubbles)\n- **Obsidian** - extrusive, glassy black rock\n\nAll igneous rocks form from **cooling and solidification of molten rock** (magma or lava), not from sediments or transformation of existing rocks.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Remember that igneous rocks form from cooling magma or lava. Which option fits this description?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Granite is known for its large crystals from slow underground cooling. Sandstone comes from sand. Marble and limestone involve different processes.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 8,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["rocks-minerals-y8-002", "rocks-minerals-y8-006", "rocks-minerals-y8-007"],
+      "preparesFor": ["rocks-minerals-y8-009"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set1",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-009",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Explain the difference between **intrusive** and **extrusive** igneous rocks.\n\nIn your answer, include:\n- Where each type forms\n- How fast they cool\n- What their crystal sizes are like",
+    "solution": "**Intrusive igneous rocks** and **extrusive igneous rocks** differ in their formation location and cooling rate:\n\n**Intrusive Igneous Rocks:**\n- Form when **magma cools underground** (beneath the Earth's surface)\n- Cool **slowly** because they are insulated by surrounding rock\n- Slow cooling allows **large crystals** to form\n- Have a **coarse-grained** texture with visible crystals\n- Example: **granite**\n\n**Extrusive Igneous Rocks:**\n- Form when **lava cools on the Earth's surface** (from volcanic eruptions)\n- Cool **quickly** because they are exposed to air or water\n- Fast cooling allows only **small crystals** to form (or no visible crystals)\n- Have a **fine-grained** texture\n- Example: **basalt**\n\nThe key difference is **cooling rate**: intrusive rocks cool slowly underground (large crystals), while extrusive rocks cool quickly on the surface (small crystals).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the words 'intrusive' (inside) and 'extrusive' (outside). Where does each type of rock form?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Intrusive rocks form underground from magma. Extrusive rocks form on the surface from lava. Which location cools faster?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 9,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["rocks-minerals-y8-006", "rocks-minerals-y8-007", "rocks-minerals-y8-008"],
+      "preparesFor": ["rocks-minerals-y8-010"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set1",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-010",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Basalt** is a dark-colored rock with very small crystals that forms from volcanic eruptions.\n\nExplain how basalt forms. In your answer, discuss:\n- What type of rock basalt is\n- Whether it forms from magma or lava\n- Why it has small crystals",
+    "solution": "**Basalt** is an **extrusive igneous rock** that forms through the following process:\n\n**Type of Rock:**\nBasalt is an **igneous rock** because it forms from cooling molten rock.\n\n**Formation Process:**\n- Basalt forms from **lava** (not magma), which means it forms **on the Earth's surface**\n- Lava erupts from a volcano and flows onto the surface\n- It is **exposed to air or water**, which causes it to cool\n\n**Crystal Size:**\n- Basalt has **very small crystals** (fine-grained texture) because it cools **quickly** on the surface\n- The **fast cooling** doesn't give much time for large crystals to grow\n- Some basalt cools so quickly that crystals are **too small to see** without a microscope\n\n**Summary:**\nBasalt is an extrusive igneous rock formed when lava erupts onto the Earth's surface and cools quickly, resulting in small crystals. This is different from granite, which cools slowly underground and has large crystals.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Basalt forms from volcanic eruptions. Does it come from magma (underground) or lava (on the surface)?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Basalt is an extrusive igneous rock that forms from lava on the surface. Think about why surface cooling produces small crystals.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 10,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["rocks-minerals-y8-006", "rocks-minerals-y8-007", "rocks-minerals-y8-009"],
+      "preparesFor": ["rocks-minerals-y8-011"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set1",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-011",
+    "questionType": "MCQ",
+    "stem": "What are **sediments**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Small particles of rock, minerals, or organic material",
+        "isCorrect": true,
+        "feedback": "Correct! Sediments are broken-down pieces of rock, minerals, shells, or plant material that can later form sedimentary rocks."
+      },
+      {
+        "id": "B",
+        "text": "Hot molten rock underground",
+        "isCorrect": false,
+        "feedback": "This describes magma, not sediment. Sediments are solid particles, not molten rock."
+      },
+      {
+        "id": "C",
+        "text": "Large crystals in igneous rocks",
+        "isCorrect": false,
+        "feedback": "Crystals are part of igneous rocks. Sediments are loose particles that haven't formed rock yet."
+      },
+      {
+        "id": "D",
+        "text": "Rocks that have been changed by heat and pressure",
+        "isCorrect": false,
+        "feedback": "This describes metamorphic rocks. Sediments are loose particles before they become rock."
+      }
+    ],
+    "solution": "The answer is **small particles of rock, minerals, or organic material**.\n\n**Sediments** are loose particles that include:\n- **Rock fragments** - pieces broken off from existing rocks by weathering\n- **Minerals** - individual mineral grains (like sand)\n- **Organic material** - shells, bones, coral, plant matter\n\nSediments form through:\n1. **Weathering** - breaking down rocks into smaller pieces\n2. **Erosion** - moving these pieces by water, wind, or ice\n3. **Deposition** - settling in a new location\n\nExamples of sediments:\n- **Sand** on a beach\n- **Mud** in a river\n- **Pebbles** in a stream\n- **Shell fragments** on the ocean floor\n\nOver millions of years, layers of sediments can be **compacted and cemented** together to form **sedimentary rocks**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what you find on a beach or at the bottom of a river. These loose materials are sediments.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Sediments are small particles - like sand, mud, or shell pieces - that haven't been turned into rock yet.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 11,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["rocks-minerals-y8-003"],
+      "preparesFor": ["rocks-minerals-y8-012", "rocks-minerals-y8-014"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set2",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-012",
+    "questionType": "MCQ",
+    "stem": "Place the steps of **sedimentary rock formation** in the correct order:\n\n1. Compaction\n2. Weathering\n3. Cementation\n4. Erosion and deposition",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "2 → 4 → 1 → 3 (Weathering → Erosion/deposition → Compaction → Cementation)",
+        "isCorrect": true,
+        "feedback": "Correct! This is the proper sequence: rocks break down, particles move and settle, layers get pressed together, then minerals cement them."
+      },
+      {
+        "id": "B",
+        "text": "1 → 2 → 3 → 4 (Compaction → Weathering → Cementation → Erosion/deposition)",
+        "isCorrect": false,
+        "feedback": "Compaction can't happen first - you need weathering to create sediments before they can be compacted."
+      },
+      {
+        "id": "C",
+        "text": "3 → 1 → 2 → 4 (Cementation → Compaction → Weathering → Erosion/deposition)",
+        "isCorrect": false,
+        "feedback": "Cementation is one of the final steps. Weathering must happen first to create sediments."
+      },
+      {
+        "id": "D",
+        "text": "4 → 1 → 2 → 3 (Erosion/deposition → Compaction → Weathering → Cementation)",
+        "isCorrect": false,
+        "feedback": "Erosion can't happen before weathering - you need to break down rocks first before particles can be moved."
+      }
+    ],
+    "solution": "The correct order is **2 → 4 → 1 → 3**:\n\n**Step 1: Weathering**\n- Existing rocks are **broken down** into smaller particles (sediments)\n- Caused by wind, water, ice, temperature changes, and chemical processes\n\n**Step 2: Erosion and Deposition**\n- **Erosion** moves sediments to new locations (by water, wind, or ice)\n- **Deposition** occurs when sediments settle and accumulate in layers\n\n**Step 3: Compaction**\n- Weight of upper layers **presses down** on lower layers\n- Squeezes out water and air\n- Particles pack more tightly together\n\n**Step 4: Cementation**\n- Minerals dissolved in water **act like glue**\n- Bind sediment particles together\n- Forms solid **sedimentary rock**\n\nThis entire process takes **millions of years** and explains how loose sediments become solid rock.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think logically: what must happen first - breaking rocks into pieces, or pressing pieces together?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Start with weathering (breaking down rocks), then think about how particles move, settle, get pressed together, and finally stick together.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 12,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["rocks-minerals-y8-003", "rocks-minerals-y8-011"],
+      "preparesFor": ["rocks-minerals-y8-013", "rocks-minerals-y8-014"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set2",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-013",
+    "questionType": "MCQ",
+    "stem": "Why do sedimentary rocks often have **visible layers** (called strata)?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Different types of sediments were deposited at different times",
+        "isCorrect": true,
+        "feedback": "Correct! Layers form because different sediments settle at different times, creating distinct bands in the rock."
+      },
+      {
+        "id": "B",
+        "text": "The rocks were cut with a saw to make layers",
+        "isCorrect": false,
+        "feedback": "Layers form naturally during deposition, not from cutting. Each layer represents a different period of sediment accumulation."
+      },
+      {
+        "id": "C",
+        "text": "Heat and pressure create layers in sedimentary rocks",
+        "isCorrect": false,
+        "feedback": "While heat and pressure are important for metamorphic rocks, sedimentary layers form during deposition."
+      },
+      {
+        "id": "D",
+        "text": "All rocks have layers - it's not unique to sedimentary rocks",
+        "isCorrect": false,
+        "feedback": "Visible layers are a characteristic feature of sedimentary rocks. Igneous and metamorphic rocks don't typically have these distinct layers."
+      }
+    ],
+    "solution": "The answer is **different types of sediments were deposited at different times**.\n\nSedimentary rocks have visible **layers (strata)** because:\n\n1. **Sediments settle over time** in a body of water (ocean, lake, river)\n2. **Different conditions** at different times produce different types of sediments:\n   - A flood might deposit coarse sand\n   - Calm periods might deposit fine mud\n   - Shells might accumulate in one layer\n3. **Each layer represents a snapshot in time** - like pages in a history book\n4. As new sediments pile on top, **distinct bands** form\n\n**Why layers stay visible:**\n- Different sediment types have different **colors** (red clay, yellow sand, grey mud)\n- Different **grain sizes** create texture differences\n- Different **compositions** (mineral content) create visual contrast\n\nThese layers help geologists understand **Earth's history** - what was happening when each layer formed. This is called **stratigraphy**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how sediments settle over time. What happens when different types of sediments are deposited in sequence?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Each layer represents sediments deposited during a different time period. Different conditions produce different sediment types.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 13,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["rocks-minerals-y8-003", "rocks-minerals-y8-011", "rocks-minerals-y8-012"],
+      "preparesFor": ["rocks-minerals-y8-015"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set2",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-014",
+    "questionType": "SHORT_ANSWER",
+    "stem": "You visit a beach and notice that it's covered in sand. Over millions of years, this sand could become **sandstone**, a sedimentary rock.\n\nUsing what you know about sedimentary rock formation, explain how beach sand could transform into solid sandstone rock.\n\nInclude these processes in your answer:\n- Deposition\n- Compaction\n- Cementation",
+    "solution": "Beach sand can transform into **sandstone** through the following process:\n\n**1. Deposition:**\n- The **sand particles** (sediments) on the beach get washed into the ocean by waves\n- They **settle** on the ocean floor in layers\n- More and more sand accumulates over time, building up thick layers\n\n**2. Compaction:**\n- As more sediment layers pile on top, the **weight** of the upper layers presses down on the lower layers\n- This pressure **squeezes the sand grains** closer together\n- **Water and air** between the grains get forced out\n- The layers become more tightly packed\n\n**3. Cementation:**\n- **Minerals dissolved in water** (like silica or calcite) flow between the sand grains\n- These minerals **crystallize** and act like **natural glue**\n- They **bind the sand grains together**, creating solid rock\n\n**Result:**\nWhat started as loose beach sand is now **sandstone** - a hard, solid sedimentary rock. This process takes **millions of years** to complete.\n\nYou can often see the **original sand grains** in sandstone, and it may still have visible **layers** showing how the sediments were deposited.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Start by thinking about how sand particles move from the beach into the ocean and settle on the floor.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "After sand settles, more layers pile on top. What does the weight do? Then think about what acts like glue to bind the grains together.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 14,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["rocks-minerals-y8-003", "rocks-minerals-y8-011", "rocks-minerals-y8-012"],
+      "preparesFor": ["rocks-minerals-y8-015"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set2",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-015",
+    "questionType": "MCQ",
+    "stem": "Which of the following is an example of a **sedimentary rock**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Limestone",
+        "isCorrect": true,
+        "feedback": "Correct! Limestone is a sedimentary rock formed from accumulated shells, coral, and calcium carbonate sediments."
+      },
+      {
+        "id": "B",
+        "text": "Granite",
+        "isCorrect": false,
+        "feedback": "Granite is an igneous rock formed from cooling magma, not from sediments."
+      },
+      {
+        "id": "C",
+        "text": "Marble",
+        "isCorrect": false,
+        "feedback": "Marble is a metamorphic rock formed when limestone is changed by heat and pressure."
+      },
+      {
+        "id": "D",
+        "text": "Basalt",
+        "isCorrect": false,
+        "feedback": "Basalt is an igneous rock formed from cooling lava, not from sediments."
+      }
+    ],
+    "solution": "The answer is **limestone**.\n\n**Limestone** is a common **sedimentary rock** that forms through:\n- Accumulation of **shells, coral, and skeletal remains** of marine organisms\n- These materials are rich in **calcium carbonate** (CaCO₃)\n- Sediments settle on the ocean floor\n- **Compaction and cementation** turn the sediments into solid rock\n\nCharacteristics of limestone:\n- Usually **light-colored** (white, grey, or tan)\n- Often contains **visible fossils**\n- **Reacts with acid** (fizzes when you put vinegar on it)\n- Forms in **warm, shallow ocean environments**\n\nOther examples of sedimentary rocks:\n- **Sandstone** - formed from sand grains\n- **Shale** - formed from mud and clay\n- **Conglomerate** - formed from pebbles and rocks\n\nAll sedimentary rocks form from **accumulated sediments**, not from cooling molten rock or transformation of existing rocks.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Remember that sedimentary rocks form from particles that settle and get pressed together. Which option fits this description?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Limestone forms from shells and coral on the ocean floor. Granite and basalt are igneous. Marble is metamorphic.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 15,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["rocks-minerals-y8-003", "rocks-minerals-y8-011", "rocks-minerals-y8-012", "rocks-minerals-y8-014"],
+      "preparesFor": ["rocks-minerals-y8-016"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set2",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-016",
+    "questionType": "MCQ",
+    "stem": "The word **'metamorphic'** means:",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Changed form",
+        "isCorrect": true,
+        "feedback": "Correct! 'Metamorphic' comes from Greek words meaning 'change' (meta) and 'form' (morph)."
+      },
+      {
+        "id": "B",
+        "text": "Made from fire",
+        "isCorrect": false,
+        "feedback": "This describes 'igneous' rocks. Metamorphic means 'changed form'."
+      },
+      {
+        "id": "C",
+        "text": "Settled in layers",
+        "isCorrect": false,
+        "feedback": "This describes sedimentary rocks. Metamorphic means 'changed form'."
+      },
+      {
+        "id": "D",
+        "text": "Very old",
+        "isCorrect": false,
+        "feedback": "While many metamorphic rocks are old, the word itself means 'changed form', not 'old'."
+      }
+    ],
+    "solution": "The answer is **changed form**.\n\nThe word **'metamorphic'** comes from Greek:\n- **Meta** = change\n- **Morph** = form or shape\n\nThis perfectly describes how metamorphic rocks form:\n- They start as **one type of rock** (igneous, sedimentary, or even another metamorphic rock)\n- **Heat and pressure** deep underground cause the rock to **transform**\n- The minerals **rearrange and recrystallize**\n- The result is a **different rock** with new properties\n- Importantly, the rock stays **solid** during this transformation (it doesn't melt)\n\nExamples of metamorphism:\n- **Limestone** (sedimentary) → **Marble** (metamorphic)\n- **Shale** (sedimentary) → **Slate** (metamorphic)\n- **Sandstone** (sedimentary) → **Quartzite** (metamorphic)\n\nThe word 'metamorphic' reminds us that these rocks have **changed form** from their original state.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to rocks during metamorphism - they transform into something different.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The Greek prefix 'meta' means change, and 'morph' means form or shape. What do these together suggest?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 16,
+      "conceptsUsed": ["c4"],
+      "buildsOn": ["rocks-minerals-y8-004"],
+      "preparesFor": ["rocks-minerals-y8-017", "rocks-minerals-y8-019", "rocks-minerals-y8-020"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set2",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-017",
+    "questionType": "MCQ",
+    "stem": "What causes rocks to undergo **metamorphism** (change into metamorphic rocks)?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Intense heat and high pressure",
+        "isCorrect": true,
+        "feedback": "Correct! Metamorphism occurs when rocks are subjected to extreme heat and pressure deep underground."
+      },
+      {
+        "id": "B",
+        "text": "Cooling of molten rock",
+        "isCorrect": false,
+        "feedback": "Cooling molten rock forms igneous rocks, not metamorphic rocks."
+      },
+      {
+        "id": "C",
+        "text": "Weathering and erosion",
+        "isCorrect": false,
+        "feedback": "Weathering and erosion help form sedimentary rocks by breaking down and moving sediments."
+      },
+      {
+        "id": "D",
+        "text": "Exposure to air and water",
+        "isCorrect": false,
+        "feedback": "Exposure to air and water causes weathering, not metamorphism. Metamorphism requires extreme conditions deep underground."
+      }
+    ],
+    "solution": "The answer is **intense heat and high pressure**.\n\n**Metamorphism** occurs when rocks are subjected to extreme conditions:\n\n**Heat:**\n- Temperatures of **150-800°C** (but below melting point)\n- Heat comes from nearby **magma** or from being buried deep in Earth's crust\n- Causes minerals to become **unstable** and rearrange\n\n**Pressure:**\n- Caused by the **weight of overlying rocks**\n- Or from **tectonic forces** during mountain building\n- Squeezes and compresses the rock\n- Can create **foliation** (aligned mineral layers)\n\n**Where this happens:**\n- **Deep underground** (several kilometers below the surface)\n- At **convergent plate boundaries** where tectonic plates collide\n- Near **magma intrusions** where hot magma heats surrounding rock\n\n**Important:** The rock remains **solid** during metamorphism. If it melts, it becomes magma and will form an igneous rock instead.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the extreme conditions found deep underground. What factors would change a rock without melting it?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Metamorphic rocks form deep in the Earth where conditions are extreme. Two factors are involved - one related to temperature, one to force.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 17,
+      "conceptsUsed": ["c4"],
+      "buildsOn": ["rocks-minerals-y8-004", "rocks-minerals-y8-016"],
+      "preparesFor": ["rocks-minerals-y8-018", "rocks-minerals-y8-019", "rocks-minerals-y8-020"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set2",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-018",
+    "questionType": "MCQ",
+    "stem": "A student makes this statement:\n\n**\"When ice melts to form water, the rock melts during metamorphism to form metamorphic rocks.\"**\n\nIs this statement correct? Explain your reasoning.",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Incorrect - rocks stay solid during metamorphism; they don't melt",
+        "isCorrect": true,
+        "feedback": "Correct! This is a common misconception. Rocks remain solid during metamorphism. If they melted, they would become magma and eventually form igneous rocks."
+      },
+      {
+        "id": "B",
+        "text": "Correct - metamorphic rocks form when existing rocks melt",
+        "isCorrect": false,
+        "feedback": "This is incorrect. Metamorphic rocks form without melting. The rock stays solid while heat and pressure rearrange its minerals."
+      },
+      {
+        "id": "C",
+        "text": "Correct - all rock changes involve melting",
+        "isCorrect": false,
+        "feedback": "Not all rock changes involve melting. Metamorphism transforms rocks while they remain solid."
+      },
+      {
+        "id": "D",
+        "text": "Incorrect - only sedimentary rocks can become metamorphic rocks",
+        "isCorrect": false,
+        "feedback": "While this correctly identifies the statement as wrong, the reasoning is incorrect. Any rock type can become metamorphic. The key error is about melting."
+      }
+    ],
+    "solution": "The statement is **incorrect** because **rocks stay solid during metamorphism**.\n\n**Why this is a common misconception:**\nStudents often think that because heat is involved, the rock must melt - just like ice melting into water. However, metamorphism is different.\n\n**What actually happens during metamorphism:**\n- Rocks are subjected to **intense heat and pressure** deep underground\n- The **minerals recrystallize** and rearrange in the solid state\n- The rock is **transformed** without melting\n- Temperatures are high (150-800°C) but **below the melting point**\n\n**If the rock actually melted:**\n- It would become **magma** (molten rock)\n- When magma cools, it forms **igneous rocks**, not metamorphic rocks\n- This would be a completely different process\n\n**Correct analogy:**\nMetamorphism is more like **baking clay** - the clay changes and hardens without melting. It's still solid throughout the transformation.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens if a rock actually melts. What type of rock forms when molten rock cools?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "If rock melts, it becomes magma, which forms igneous rocks when it cools. Metamorphic rocks form without melting - the rock stays solid.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 18,
+      "conceptsUsed": ["c4"],
+      "buildsOn": ["rocks-minerals-y8-004", "rocks-minerals-y8-016", "rocks-minerals-y8-017"],
+      "preparesFor": ["rocks-minerals-y8-019", "rocks-minerals-y8-020"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set2",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-019",
+    "questionType": "MCQ",
+    "stem": "**Limestone** is a sedimentary rock. When subjected to heat and pressure deep underground, it transforms into **marble**, a metamorphic rock.\n\nWhat happens to the limestone during this transformation?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The minerals recrystallize while the rock stays solid",
+        "isCorrect": true,
+        "feedback": "Correct! The calcium carbonate minerals in limestone rearrange and recrystallize under heat and pressure, forming the interlocking crystals characteristic of marble."
+      },
+      {
+        "id": "B",
+        "text": "The limestone melts and then cools to form marble",
+        "isCorrect": false,
+        "feedback": "Limestone doesn't melt during this transformation. If it melted, it would form an igneous rock, not marble."
+      },
+      {
+        "id": "C",
+        "text": "The limestone is broken into sediments and reformed",
+        "isCorrect": false,
+        "feedback": "Breaking into sediments and reforming would create another sedimentary rock. Metamorphism transforms the solid rock directly."
+      },
+      {
+        "id": "D",
+        "text": "The limestone dissolves in water and re-precipitates as marble",
+        "isCorrect": false,
+        "feedback": "Dissolution and precipitation don't create metamorphic rocks. Marble forms through solid-state recrystallization."
+      }
+    ],
+    "solution": "The answer is **the minerals recrystallize while the rock stays solid**.\n\n**The limestone to marble transformation:**\n\n**Starting rock - Limestone:**\n- **Sedimentary rock** made of calcium carbonate (CaCO₃)\n- Formed from shells, coral, and sediments\n- Has a **dull, chalky appearance**\n- May contain **visible fossils**\n\n**Metamorphism process:**\n- Limestone is buried deep underground\n- Subjected to **heat** (from depth or nearby magma) and **pressure** (from overlying rocks)\n- The calcium carbonate minerals **recrystallize**\n- Crystals grow larger and **interlock** tightly\n- The rock remains **solid** throughout\n\n**Result - Marble:**\n- **Metamorphic rock**, still made of calcium carbonate\n- Has **larger, interlocking crystals**\n- **Shiny, polished appearance**\n- Fossils are typically destroyed during recrystallization\n- Much harder and denser than limestone\n\nThis transformation demonstrates how metamorphism **changes** a rock's texture and properties while maintaining its **solid state**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Remember that metamorphic rocks don't melt. Think about what happens to the minerals in the solid rock.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "During metamorphism, the minerals rearrange and form new crystal structures while the rock stays solid. This is called recrystallization.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 19,
+      "conceptsUsed": ["c4"],
+      "buildsOn": ["rocks-minerals-y8-004", "rocks-minerals-y8-015", "rocks-minerals-y8-016", "rocks-minerals-y8-017", "rocks-minerals-y8-018"],
+      "preparesFor": ["rocks-minerals-y8-020"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set2",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-020",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Sandstone** is a sedimentary rock made of sand grains that have been compacted and cemented together. When subjected to extreme heat and pressure, sandstone transforms into **quartzite**, a metamorphic rock.\n\nExplain how sandstone transforms into quartzite. In your answer:\n- Describe what causes the transformation\n- Explain what happens to the sand grains\n- State whether the rock melts during this process",
+    "solution": "**Sandstone transforms into quartzite through metamorphism:**\n\n**What causes the transformation:**\n- Sandstone is buried deep underground (several kilometers)\n- It is subjected to **intense heat** (temperatures of 150-800°C)\n- It experiences **high pressure** from the weight of overlying rocks or from tectonic forces\n- These conditions are found at **convergent plate boundaries** or near **magma intrusions**\n\n**What happens to the sand grains:**\n- The original sand grains in sandstone are made of **quartz** (SiO₂)\n- Under heat and pressure, the quartz grains **recrystallize**\n- The grains **grow larger** and **fuse together** with interlocking crystals\n- The cement between grains is replaced by new quartz growth\n- The boundaries between original grains become **less distinct**\n- The result is a **denser, harder rock** with tightly interlocked quartz crystals\n\n**Does the rock melt?**\n- **No**, the rock remains **solid** throughout the transformation\n- The minerals rearrange in the **solid state** through recrystallization\n- If the rock melted, it would become magma and eventually form an igneous rock, not quartzite\n\n**Summary:**\nQuartzite forms when sandstone is transformed by heat and pressure deep underground. The quartz grains recrystallize and fuse together while remaining solid, creating a much harder and denser metamorphic rock.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the conditions deep underground that cause metamorphism. What two factors transform the sandstone?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Heat and pressure cause the quartz grains to recrystallize and fuse together. Remember: metamorphic rocks don't melt - they stay solid.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 20,
+      "conceptsUsed": ["c4"],
+      "buildsOn": ["rocks-minerals-y8-004", "rocks-minerals-y8-016", "rocks-minerals-y8-017", "rocks-minerals-y8-018", "rocks-minerals-y8-019"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set2",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  }
+]

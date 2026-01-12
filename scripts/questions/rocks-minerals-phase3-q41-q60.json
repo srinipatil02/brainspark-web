@@ -1,0 +1,1230 @@
+[
+  {
+    "questionId": "rocks-minerals-y8-041",
+    "questionType": "MCQ",
+    "stem": "A student says: \"In the rock cycle, rocks must follow a specific order: igneous → sedimentary → metamorphic → igneous.\"\n\nIs this statement correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Yes, all rocks must follow this exact order",
+        "isCorrect": false,
+        "feedback": "The rock cycle doesn't have a fixed order. Any rock type can transform into any other type depending on the conditions it experiences."
+      },
+      {
+        "id": "B",
+        "text": "No, any rock can transform into any other rock type",
+        "isCorrect": true,
+        "feedback": "Correct! The rock cycle has **multiple pathways**. For example, igneous rock can become metamorphic directly (through heat and pressure) without becoming sedimentary first. It can even be re-melted to form new igneous rock."
+      },
+      {
+        "id": "C",
+        "text": "Yes, but only if the rock is exposed to weathering",
+        "isCorrect": false,
+        "feedback": "Weathering creates sediment, but there are many other pathways in the rock cycle that don't involve weathering at all."
+      },
+      {
+        "id": "D",
+        "text": "No, rocks can skip the metamorphic stage only",
+        "isCorrect": false,
+        "feedback": "Rocks can skip any stage in the cycle. The pathway depends on the specific conditions (temperature, pressure, weathering) the rock experiences."
+      }
+    ],
+    "solution": "The statement is **incorrect**. The rock cycle does **not** follow one predetermined order.\n\n**Any rock type can transform into any other type** depending on the conditions:\n\n- **Igneous → metamorphic** (heat and pressure, no melting)\n- **Igneous → sedimentary** (weathering and deposition)\n- **Igneous → igneous** (re-melting and cooling)\n- **Sedimentary → metamorphic** (heat and pressure)\n- **Sedimentary → igneous** (melting)\n- **Metamorphic → igneous** (melting)\n- **Metamorphic → sedimentary** (weathering)\n\nThe rock cycle is **continuous** with **multiple possible pathways**, not a fixed sequence. The transformation depends on what happens to the rock (burial, heating, exposure to surface, melting, etc.).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens when you heat metamorphic rock to extremely high temperatures. Does it need to become sedimentary first?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider different geological processes: Can igneous rock be buried and heated without being weathered into sediment first?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 41,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-021", "rocks-minerals-y8-025", "rocks-minerals-y8-033"],
+      "preparesFor": ["rocks-minerals-y8-042", "rocks-minerals-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set5",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-042",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Can igneous rock transform **directly** into sedimentary rock without becoming metamorphic rock first?\n\nExplain your answer with an example of how this could happen.",
+    "solution": "**Yes**, igneous rock can transform directly into sedimentary rock.\n\n**The process:**\n\n1. **Weathering**: Igneous rock (like granite) is exposed at Earth's surface where it breaks down through physical and chemical weathering\n2. **Erosion**: Broken fragments are transported by wind, water, or ice\n3. **Deposition**: Fragments settle in layers (e.g., in a riverbed or ocean)\n4. **Compaction and cementation**: Over time, the sediments are compressed and cemented together, forming **sedimentary rock** (like sandstone)\n\n**Example**: Granite (igneous) weathering on a mountain → sediment transported by river → deposited in ocean → compressed into sandstone (sedimentary).\n\nThe rock **never experiences the heat and pressure** needed to become metamorphic. It goes directly from igneous to sedimentary through the **weathering-erosion-deposition pathway**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to rocks exposed at Earth's surface. What processes break them down?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider the weathering pathway: igneous rock → broken fragments → transported → deposited → cemented. Does metamorphism need to occur?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 42,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-041", "rocks-minerals-y8-022", "rocks-minerals-y8-024"],
+      "preparesFor": ["rocks-minerals-y8-044", "rocks-minerals-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set5",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-043",
+    "questionType": "MCQ",
+    "stem": "Metamorphic rock (like slate) is buried deeper in Earth's crust where temperatures reach 800°C.\n\nWhat is **most likely** to happen to this rock?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "It will remain metamorphic rock unchanged",
+        "isCorrect": false,
+        "feedback": "At 800°C, the rock will undergo significant changes. This temperature is high enough to cause melting."
+      },
+      {
+        "id": "B",
+        "text": "It will transform into a different metamorphic rock",
+        "isCorrect": false,
+        "feedback": "While this could happen at moderate temperatures, 800°C is hot enough to melt most rocks. This temperature is beyond the metamorphic range."
+      },
+      {
+        "id": "C",
+        "text": "It will melt and form magma (which can cool to form igneous rock)",
+        "isCorrect": true,
+        "feedback": "Correct! At **800°C**, most rocks begin to **melt**, forming **magma**. If this magma cools, it will solidify into **igneous rock**. The rock has skipped from metamorphic directly to igneous through the **melting pathway**."
+      },
+      {
+        "id": "D",
+        "text": "It will weather into sediment",
+        "isCorrect": false,
+        "feedback": "Weathering occurs at Earth's surface, not deep underground. At depth with high temperatures, melting is the dominant process."
+      }
+    ],
+    "solution": "The metamorphic rock will **melt and form magma**, which can cool to form **igneous rock**.\n\n**Explanation:**\n\nAt **800°C**, temperatures are high enough to **melt** most rocks. When metamorphic rock melts:\n\n1. The solid rock becomes **liquid magma**\n2. When magma cools, it **crystallizes** into igneous rock\n3. The rock has transformed from **metamorphic → igneous** directly\n\nThis demonstrates another pathway in the rock cycle: **any rock type can melt to form magma**, which then cools to become igneous rock. The rock doesn't need to become sedimentary first.\n\n**Key concept**: High temperature (>700°C) = melting = igneous rock pathway.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What happens to solid rock when it gets extremely hot? Think about the three rock-forming processes you learned.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Metamorphic rocks form from heat and pressure without melting. But 800°C is hot enough to cause melting. What type of rock forms from melted material?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 43,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-021", "rocks-minerals-y8-023", "rocks-minerals-y8-041"],
+      "preparesFor": ["rocks-minerals-y8-046", "rocks-minerals-y8-059"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set5",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-044",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Draw or describe **three different pathways** that a piece of granite (igneous rock) could take through the rock cycle.\n\nFor each pathway, explain what processes cause the transformation.",
+    "solution": "**Three pathways for granite through the rock cycle:**\n\n**Pathway 1: Igneous → Sedimentary**\n- Granite is **exposed at surface**\n- **Weathering** breaks it into fragments\n- **Erosion** transports fragments to ocean\n- **Deposition** forms layers of sediment\n- **Compaction and cementation** creates sedimentary rock (e.g., sandstone)\n\n**Pathway 2: Igneous → Metamorphic**\n- Granite is **buried deep** in Earth's crust\n- **Heat and pressure** (but not melting) alter its minerals and structure\n- Forms metamorphic rock (e.g., gneiss)\n\n**Pathway 3: Igneous → Igneous (recycling)**\n- Granite is **buried extremely deep**\n- **Melting** occurs at very high temperatures (>700°C)\n- Forms **magma**\n- Magma **cools** (either underground or after erupting)\n- Forms new igneous rock\n\n**Key insight**: The pathway depends on what happens to the rock—exposure to surface (weathering), burial with moderate heat (metamorphism), or extreme heat (melting).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the three main rock types. What processes form each type? Can granite undergo each of these processes?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider: 1) What happens if granite is exposed at the surface? 2) What if it's buried with heat and pressure? 3) What if it melts?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 44,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-041", "rocks-minerals-y8-042", "rocks-minerals-y8-043"],
+      "preparesFor": ["rocks-minerals-y8-060"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set5",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-045",
+    "questionType": "SHORT_ANSWER",
+    "stem": "The process of rock transformation is called the \"rock **cycle**\".\n\nWhy might the word \"cycle\" be somewhat **misleading**? What does the word suggest that isn't entirely accurate?",
+    "solution": "The word \"**cycle**\" can be misleading because it suggests rocks follow a **circular, repeating path** in a **fixed order**—but this isn't how the rock cycle actually works.\n\n**What \"cycle\" suggests:**\n- A predetermined sequence (like igneous → sedimentary → metamorphic → igneous)\n- Every rock goes through all stages\n- A circular pathway with no shortcuts\n\n**What actually happens:**\n- **Multiple pathways** exist—any rock can transform into any other type\n- Rocks can **skip stages** (e.g., igneous directly to igneous through re-melting)\n- Rocks can **stay in one form** for millions of years without transforming\n- The pathway depends on **specific conditions** the rock experiences, not a fixed order\n\n**Better term?** \"Rock **web**\" or \"rock **network**\" might be more accurate, showing the interconnected pathways.\n\n**Why we still use \"cycle\"**: The term emphasizes the **continuous, ongoing process** of rock transformation over geological time—matter is recycled, even if the pathway varies.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what the word \"cycle\" usually means. Does it suggest a specific order or pattern?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Compare the rock cycle to the water cycle. Does water always follow the same path (rain → river → ocean → evaporation)? Can it skip steps?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 45,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-041", "rocks-minerals-y8-042", "rocks-minerals-y8-044"],
+      "preparesFor": ["rocks-minerals-y8-059"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set5",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-046",
+    "questionType": "MCQ",
+    "stem": "A student claims: \"When metamorphic rock forms, the original rock **melts** and then re-solidifies with a new structure.\"\n\nIs this explanation correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Yes, metamorphic rocks form from melted material",
+        "isCorrect": false,
+        "feedback": "Metamorphic rocks form from heat and pressure **without melting**. If rock melts, it forms magma which cools into igneous rock, not metamorphic rock."
+      },
+      {
+        "id": "B",
+        "text": "No, metamorphic rocks form from heat and pressure without melting",
+        "isCorrect": true,
+        "feedback": "Correct! Metamorphic rocks form when **solid rock** is subjected to **heat and pressure** that **alters its minerals and structure** but keeps it **solid throughout**. If the rock actually melted, it would form igneous rock instead."
+      },
+      {
+        "id": "C",
+        "text": "Yes, but only high-grade metamorphic rocks melt",
+        "isCorrect": false,
+        "feedback": "Even high-grade metamorphic rocks remain solid. If temperatures get high enough to melt the rock, it becomes magma and will form igneous rock when it cools."
+      },
+      {
+        "id": "D",
+        "text": "No, metamorphic rocks form only from pressure, not heat",
+        "isCorrect": false,
+        "feedback": "Metamorphic rocks form from **both** heat and pressure. However, the rock stays solid—it doesn't melt."
+      }
+    ],
+    "solution": "The student's explanation is **incorrect**. Metamorphic rocks do **not** form from melting.\n\n**The truth about metamorphic formation:**\n\n1. The original rock remains **solid** throughout the process\n2. **Heat and pressure** cause the minerals to **recrystallize** and reorganize\n3. New minerals may form, and the rock's **texture and structure change**\n4. But the rock **never melts**\n\n**Why this matters:**\n\n- If rock **melts**, it becomes **magma** (liquid)\n- When magma cools, it forms **igneous rock**, not metamorphic\n- Metamorphic transformation happens in the **solid state**\n\n**Example**: Limestone (sedimentary) → marble (metamorphic) occurs through heat and pressure **without melting**. The calcite crystals grow larger and interlock, but the rock stays solid.\n\n**Key distinction**: Melting = igneous rock. No melting = metamorphic rock.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Review what you learned about how each rock type forms. What forms from melted material?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about the definition of metamorphic rock: \"changed by heat and pressure.\" Does this description mention melting?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 46,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-023", "rocks-minerals-y8-031", "rocks-minerals-y8-043"],
+      "preparesFor": ["rocks-minerals-y8-058"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set5",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-047",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student thinks: \"Minerals form separately in different places, then somehow come together to form a rock.\"\n\nExplain why this understanding is incorrect. How do minerals and rocks **actually** form in relation to each other?",
+    "solution": "This understanding is **incorrect**. Minerals don't form separately and then gather together—they form **together** as the rock forms.\n\n**How minerals and rocks actually form:**\n\n**In igneous rocks:**\n- As **magma cools**, different minerals **crystallize at the same location**\n- The minerals grow **interlocked** as the magma solidifies\n- Example: In cooling granite magma, quartz, feldspar, and mica crystals all grow together\n\n**In sedimentary rocks:**\n- Mineral grains are **already present** in the sediment\n- **Cementation** occurs when new minerals (like calcite) **crystallize in the spaces** between grains\n- The cement minerals form **in place** within the rock\n\n**In metamorphic rocks:**\n- Existing minerals **recrystallize** in place due to heat and pressure\n- New minerals grow **within** the solid rock without the rock melting\n\n**Key concept**: Rocks are **intergrowths of minerals**. The minerals form **together** during rock formation, creating an interlocking structure. They don't form separately and then assemble.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how igneous rocks form from cooling magma. Do minerals grow in different places and then join, or do they crystallize together as the magma cools?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider the definition: a rock is an interlocking mass of minerals. What does \"interlocking\" suggest about how the minerals formed?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 47,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-001", "rocks-minerals-y8-021", "rocks-minerals-y8-022"],
+      "preparesFor": ["rocks-minerals-y8-056"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set5",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-048",
+    "questionType": "SHORT_ANSWER",
+    "stem": "The Great Barrier Reef is made of **limestone**, which is forming **right now** from the skeletons and shells of marine organisms (corals, molluscs, etc.).\n\nExplain how this is an example of **sedimentary rock formation**. What processes are occurring?",
+    "solution": "The Great Barrier Reef demonstrates **biogenic sedimentary rock formation**—rock formed from living organisms.\n\n**The process:**\n\n1. **Source of material**: Corals and other marine organisms build **skeletons and shells** from **calcium carbonate (CaCO₃)** dissolved in seawater\n\n2. **Deposition**: When organisms die, their skeletons and shells **accumulate** on the seafloor, forming layers of carbonate sediment\n\n3. **Compaction**: Over time, the weight of overlying sediment **compresses** the lower layers\n\n4. **Cementation**: Calcium carbonate **dissolved in seawater** precipitates in the spaces between fragments, **cementing** them together\n\n5. **Result**: The cemented material forms **limestone** (a sedimentary rock)\n\n**Why it's sedimentary:**\n- Forms from **deposited material** (organism remains)\n- Occurs through **layering** and **cementation**\n- Forms at **low temperatures** at Earth's surface\n- No melting or metamorphism involved\n\n**Australian significance**: The Great Barrier Reef is a **living example** of limestone formation happening over thousands of years.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the characteristics of sedimentary rock formation: deposition, layering, and cementation. Are these processes happening at the reef?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider what happens when coral dies. Where do the calcium carbonate skeletons go? How do they eventually become solid rock?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 48,
+      "conceptsUsed": ["c6", "c7"],
+      "buildsOn": ["rocks-minerals-y8-022", "rocks-minerals-y8-032"],
+      "preparesFor": ["rocks-minerals-y8-056"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set5",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-049",
+    "questionType": "MCQ",
+    "stem": "During the Victorian gold rush (1850s), prospectors found **gold** embedded in **quartz veins** in rocks.\n\nHow did the gold get **inside** the quartz?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Gold sediment was deposited with quartz sediment",
+        "isCorrect": false,
+        "feedback": "Gold veins form from hot fluids underground, not from sediment deposition at the surface. This is not a sedimentary process."
+      },
+      {
+        "id": "B",
+        "text": "Hot, mineral-rich fluids deposited both gold and quartz as they cooled",
+        "isCorrect": true,
+        "feedback": "Correct! **Hydrothermal fluids** (hot, mineral-rich water) flowed through cracks in rock deep underground. As the fluids **cooled**, **quartz and gold crystallized together**, filling the cracks and forming veins. This is called **hydrothermal deposition**."
+      },
+      {
+        "id": "C",
+        "text": "Gold melted and mixed with molten quartz in magma",
+        "isCorrect": false,
+        "feedback": "Quartz doesn't form from magma in veins. The gold-quartz veins formed from hot water solutions (hydrothermal fluids), not directly from magma."
+      },
+      {
+        "id": "D",
+        "text": "Gold was metamorphosed into quartz under pressure",
+        "isCorrect": false,
+        "feedback": "Metamorphism changes existing rocks; it doesn't transform gold into quartz. Gold and quartz are separate minerals that formed together from cooling fluids."
+      }
+    ],
+    "solution": "Gold and quartz formed **together** from **hot, mineral-rich fluids** (called **hydrothermal fluids**).\n\n**The process:**\n\n1. **Deep underground**, **hot water** (heated by magma or Earth's heat) dissolves minerals including **silica** (SiO₂) and **gold**\n2. This mineral-rich fluid flows through **cracks and fractures** in existing rock\n3. As the fluid **cools**, dissolved minerals **crystallize**\n4. **Quartz** (crystallized silica) and **gold** form together, filling the cracks\n5. This creates a **quartz vein** with gold embedded throughout\n\n**Why Australia had so much gold:**\n- Victoria's geology includes ancient rocks with extensive hydrothermal vein systems\n- Millions of years of geological activity created these gold-bearing quartz veins\n- Erosion exposed the veins at the surface where prospectors could find them\n\n**Key concept**: This is **hydrothermal mineral deposition**—a type of mineral formation distinct from igneous, sedimentary, or metamorphic processes.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how minerals can be transported underground. Can hot water dissolve and carry minerals?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider what happens when a hot, mineral-rich solution cools down in a crack in the rock. What will happen to the dissolved minerals?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 49,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-012", "rocks-minerals-y8-021"],
+      "preparesFor": ["rocks-minerals-y8-056"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set5",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-050",
+    "questionType": "MCQ",
+    "stem": "Gold is a valuable metal used in jewelry and electronics.\n\nOn the Mohs hardness scale, gold has a hardness of **2.5**. How does this compare to steel (hardness ~5-6)?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Gold is harder than steel",
+        "isCorrect": false,
+        "feedback": "Gold (hardness 2.5) is softer than steel (hardness 5-6). Lower numbers on the Mohs scale indicate softer minerals."
+      },
+      {
+        "id": "B",
+        "text": "Gold is about the same hardness as steel",
+        "isCorrect": false,
+        "feedback": "Gold is significantly softer than steel. Gold has a hardness of 2.5, while steel is about 5-6."
+      },
+      {
+        "id": "C",
+        "text": "Gold is softer than steel—it can be scratched relatively easily",
+        "isCorrect": true,
+        "feedback": "Correct! Gold is **relatively soft** (hardness 2.5), which means it can be **scratched** by many materials including steel. This is why **pure gold jewelry** gets scratched easily and why jewelers often **alloy** gold with harder metals (creating 14K or 18K gold) to make it more durable."
+      },
+      {
+        "id": "D",
+        "text": "Gold's hardness varies depending on its purity",
+        "isCorrect": false,
+        "feedback": "While alloying gold with other metals can increase hardness, pure gold always has a hardness of about 2.5. The question asks about gold specifically."
+      }
+    ],
+    "solution": "Gold is **much softer than steel**. Gold has a hardness of **2.5**, while steel has a hardness of approximately **5-6**.\n\n**What this means:**\n\n- Gold can be **scratched** by steel and many other materials\n- Steel could easily scratch gold\n- Gold is **soft enough** to be scratched by a copper penny (hardness 3.5)\n- This challenges the common misconception that **\"all metals are hard\"**\n\n**Why gold is soft:**\n- Gold has a **cubic crystal structure** with relatively weak bonds between atoms\n- This makes it **malleable** (easy to shape) and **ductile** (can be drawn into wires)\n\n**Practical implications:**\n- **Pure gold jewelry** (24K) scratches easily\n- **Jewelers alloy gold** with copper, silver, or nickel to make it harder (14K, 18K gold)\n- Gold's softness makes it **easy to work with**, which is valuable for crafting\n\n**Key concept**: Hardness is a **specific property** that varies among metals. Not all metals are hard.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Remember: on the Mohs scale, higher numbers mean harder materials. Compare 2.5 to 5-6.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about what you know about pure gold jewelry. Does it scratch easily or is it very resistant to scratching?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 50,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-005", "rocks-minerals-y8-011"],
+      "preparesFor": ["rocks-minerals-y8-057"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set5",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-051",
+    "questionType": "MCQ",
+    "stem": "Which of these rock formation processes can happen in the **shortest** time—from **hours to days**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Sedimentary rock formation through compaction and cementation",
+        "isCorrect": false,
+        "feedback": "Compaction and cementation typically take thousands to millions of years as layers accumulate and are buried."
+      },
+      {
+        "id": "B",
+        "text": "Metamorphic rock formation from heat and pressure",
+        "isCorrect": false,
+        "feedback": "Metamorphism requires prolonged exposure to high temperatures and pressures, typically taking thousands to millions of years."
+      },
+      {
+        "id": "C",
+        "text": "Volcanic igneous rock formation from cooling lava",
+        "isCorrect": true,
+        "feedback": "Correct! **Volcanic lava** can cool and solidify into igneous rock (like basalt or obsidian) in **hours to days** when exposed to air or water. This is the **fastest** natural rock-forming process. Example: new rock forming during volcanic eruptions in Hawaii or Iceland."
+      },
+      {
+        "id": "D",
+        "text": "Granite formation from slow cooling of magma underground",
+        "isCorrect": false,
+        "feedback": "Intrusive igneous rocks like granite form from slow cooling deep underground, taking thousands to millions of years to crystallize."
+      }
+    ],
+    "solution": "**Volcanic igneous rock formation** is the fastest process, occurring in **hours to days**.\n\n**Why it's so fast:**\n\n1. **Lava** (molten rock at the surface) is exposed to **cool air or water**\n2. Rapid heat loss causes the lava to **solidify quickly**\n3. **Basalt** can form in hours; **obsidian** (volcanic glass) forms almost instantly when lava is quenched in water\n\n**Comparison of timescales:**\n\n- **Volcanic igneous**: Hours to days (fastest)\n- **Intrusive igneous** (granite): Thousands to millions of years\n- **Sedimentary**: Thousands to millions of years (deposition + burial + cementation)\n- **Metamorphic**: Thousands to millions of years (prolonged heat and pressure)\n\n**Real example**: During the 2018 Kilauea eruption in Hawaii, new basalt rock formed within hours as lava flowed into the ocean.\n\n**Key concept**: Geological processes occur across vastly different **timescales**—from hours (volcanic eruptions) to millions of years (mountain formation).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about volcanic eruptions you've seen in videos or photos. How quickly does lava turn into solid rock?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Compare surface processes (fast cooling) to underground processes (slow cooling, burial). Which has more time to complete?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 51,
+      "conceptsUsed": ["c7"],
+      "buildsOn": ["rocks-minerals-y8-021", "rocks-minerals-y8-027"],
+      "preparesFor": ["rocks-minerals-y8-053", "rocks-minerals-y8-059"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set6",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-052",
+    "questionType": "MCQ",
+    "stem": "The formation of a **mountain range** (like the Great Dividing Range in Australia) through tectonic plate collision and uplift takes approximately:\n\nHow long?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "100-1,000 years",
+        "isCorrect": false,
+        "feedback": "Mountain formation is much slower. Tectonic processes operate over much longer timescales."
+      },
+      {
+        "id": "B",
+        "text": "10,000-100,000 years",
+        "isCorrect": false,
+        "feedback": "Still too short. While this timescale covers human civilization, mountain building operates over geological timescales."
+      },
+      {
+        "id": "C",
+        "text": "Millions of years",
+        "isCorrect": true,
+        "feedback": "Correct! Mountain ranges form over **millions of years** through gradual tectonic plate collision, folding, and uplift. The Great Dividing Range began forming about **300 million years ago**. Tectonic plates move only **2-10 cm per year**, so the uplift and deformation process is extremely slow."
+      },
+      {
+        "id": "D",
+        "text": "Billions of years",
+        "isCorrect": false,
+        "feedback": "While Earth itself is about 4.5 billion years old, individual mountain ranges typically form over millions (not billions) of years."
+      }
+    ],
+    "solution": "Mountain ranges form over **millions of years**.\n\n**The process:**\n\n1. **Tectonic plates** move slowly (about **2-10 cm per year**)\n2. When plates **collide**, rock layers are **compressed, folded, and thrust upward**\n3. This uplift occurs **gradually** over enormous timescales\n4. **Erosion** also occurs simultaneously, wearing down the mountains\n\n**Example—Great Dividing Range:**\n- Began forming about **300 million years ago**\n- Result of ancient tectonic activity along Australia's eastern margin\n- Has been eroded significantly since formation\n\n**Comparison of geological timescales:**\n- **Volcanic eruption**: Hours to days\n- **Earthquake**: Seconds (but stress buildup takes decades to centuries)\n- **Mountain formation**: Millions of years\n- **Rock cycle completion**: Millions to hundreds of millions of years\n\n**Key concept**: Geological processes involving tectonic plate movement operate over **geological timescales** (millions of years), far beyond human timescales.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how fast tectonic plates move. If they move only a few centimeters per year, how long would it take to build a mountain thousands of meters tall?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider Earth's age (4.5 billion years) and the age of the oldest mountain ranges (hundreds of millions of years). Which timescale makes sense?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 52,
+      "conceptsUsed": ["c7"],
+      "buildsOn": ["rocks-minerals-y8-051"],
+      "preparesFor": ["rocks-minerals-y8-054", "rocks-minerals-y8-059"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set6",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-053",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Obsidian** (volcanic glass) and **granite** are both igneous rocks formed from cooling molten material.\n\nHowever, obsidian can form in **hours**, while granite takes **thousands to millions of years** to form.\n\nExplain why there is such a huge difference in formation time.",
+    "solution": "The difference in formation time comes from **where** and **how quickly** the molten material cools.\n\n**Obsidian (hours):**\n- Forms from **lava** (molten rock at Earth's surface)\n- Exposed to **cool air or water**, causing **very rapid cooling**\n- Cools so fast that crystals don't have time to form → creates **volcanic glass**\n- Can solidify in **hours** or even **minutes** if quenched in water\n\n**Granite (thousands to millions of years):**\n- Forms from **magma** deep **underground** (intrusive igneous)\n- Surrounded by **hot rock**, so heat loss is **extremely slow**\n- Slow cooling allows **large crystals** to grow (visible to naked eye)\n- The cooling process takes **thousands to millions of years**\n\n**Key factors affecting cooling time:**\n1. **Location**: Surface (fast) vs. underground (slow)\n2. **Surrounding temperature**: Cool air/water vs. hot rock\n3. **Size of magma body**: Small lava flow cools faster than huge underground pluton\n\n**Rule**: **Fast cooling = small/no crystals** (obsidian, basalt). **Slow cooling = large crystals** (granite, gabbro).\n\nBoth are igneous, but their **cooling environment** creates vastly different formation times and crystal sizes.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about where each rock forms: obsidian forms at the surface (extrusive), granite forms deep underground (intrusive). How would this affect cooling rate?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider what surrounds molten rock in each case: lava is surrounded by cool air/water, while underground magma is surrounded by hot rock. Which loses heat faster?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 53,
+      "conceptsUsed": ["c7"],
+      "buildsOn": ["rocks-minerals-y8-021", "rocks-minerals-y8-027", "rocks-minerals-y8-051"],
+      "preparesFor": ["rocks-minerals-y8-059"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set6",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-054",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Lord Howe Island**, located 600 km east of Australia, is a **volcanic remnant** that formed approximately **7 million years ago**.\n\nToday, the island shows **no volcanic activity**. Explain what happened to the volcano and why we can still see evidence of it millions of years later.",
+    "solution": "Lord Howe Island is what remains of an **extinct volcano** that formed 7 million years ago.\n\n**What happened:**\n\n1. **7 million years ago**: Underwater volcanic eruptions built up a **shield volcano** that rose above sea level\n\n2. **Volcanic extinction**: The volcano became **inactive** when the tectonic plate moved away from the volcanic hotspot (or the magma source was depleted)\n\n3. **Erosion over millions of years**: \n   - **Wind, rain, and ocean waves** weathered and eroded the volcanic rock\n   - The **softer volcanic material** was worn away\n   - **Harder igneous rocks** (like volcanic plugs and resistant layers) remained\n\n4. **Today**: We see the **eroded remnants**—the hardest, most resistant volcanic rocks that survived millions of years of erosion\n\n**Why evidence still exists:**\n- **Igneous rocks are durable** and resist weathering better than many other rock types\n- The **volcanic plug** (solidified magma inside the volcano) is particularly resistant\n- Even though **most** of the original volcano is gone, the **hardest core** remains\n\n**Key concept**: Geological features like volcanoes can persist for **millions of years**, but they're constantly being **eroded and transformed**. What we see today is often just a remnant of a much larger original structure.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to rocks exposed at Earth's surface over millions of years. What processes break them down?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider: the volcano is extinct (no longer erupting), but volcanic rocks are still present. Why haven't they completely disappeared after 7 million years of weathering?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 54,
+      "conceptsUsed": ["c7"],
+      "buildsOn": ["rocks-minerals-y8-021", "rocks-minerals-y8-052"],
+      "preparesFor": ["rocks-minerals-y8-055", "rocks-minerals-y8-059"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set6",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-055",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student claims: \"Earth's surface is basically constant and unchanging. Mountains, rocks, and landforms have always looked the way they do now.\"\n\nUsing what you know about the rock cycle and geological timescales, explain why this statement is incorrect.",
+    "solution": "This statement is **completely incorrect**. Earth's surface is **constantly changing**, but most changes happen so slowly that humans don't notice them within a lifetime.\n\n**Evidence Earth's surface changes:**\n\n**1. The Rock Cycle:**\n- Rocks continuously transform: igneous → sedimentary → metamorphic\n- **Mountains** are uplifted through tectonic forces, then **eroded** over millions of years\n- **Weathering** breaks down rocks at the surface\n- **Sediment** is deposited in new locations, forming new rock layers\n\n**2. Geological Timescales:**\n- **Mountain formation**: Millions of years\n- **Erosion**: Can wear down entire mountain ranges over millions of years\n- **Volcanic activity**: Builds new land (hours to centuries)\n- **Tectonic movement**: Continents drift 2-10 cm per year\n\n**3. Australian Examples:**\n- **Great Dividing Range**: Formed 300 million years ago, has been heavily eroded since\n- **Lord Howe Island**: 7-million-year-old volcano, now mostly eroded\n- **Uluru**: Ancient rock formation, continuously weathering\n\n**Why it seems unchanging:**\n- Human lifespan (~80 years) is **infinitesimally short** compared to geological timescales (millions of years)\n- We see only a **snapshot** of ongoing change\n\n**Key concept**: Earth's surface is **dynamic** but changes on **geological timescales** far beyond human perception. If we could watch in fast-forward over millions of years, we'd see mountains rise and fall, continents drift, and landscapes transform completely.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the rock cycle. If rocks are constantly transforming, can Earth's surface be unchanging?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider the timescales: if mountains take millions of years to form and erode, and humans live ~80 years, why might we think Earth is unchanging?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 55,
+      "conceptsUsed": ["c6", "c7"],
+      "buildsOn": ["rocks-minerals-y8-052", "rocks-minerals-y8-054"],
+      "preparesFor": ["rocks-minerals-y8-059", "rocks-minerals-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set6",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-056",
+    "questionType": "SHORT_ANSWER",
+    "stem": "**Coober Pedy** in South Australia produces **95% of the world's opals**.\n\nOpals form when **silica-rich water** seeps into cracks and cavities in rock. As the water evaporates over thousands of years, **silica** precipitates (crystallizes) to form opal.\n\nIs opal formation most similar to **igneous**, **sedimentary**, or **metamorphic** processes? Explain your reasoning.",
+    "solution": "Opal formation is most similar to **sedimentary processes**, specifically **chemical precipitation**.\n\n**Why it's sedimentary:**\n\n1. **Low temperature**: Forms at or near Earth's surface from water solutions (not from melting or high heat)\n\n2. **Chemical precipitation**: Dissolved **silica (SiO₂)** precipitates out of water solution, similar to how:\n   - **Limestone** forms from calcium carbonate precipitation\n   - **Rock salt** forms from evaporation of salt water\n\n3. **Deposition in cavities**: Silica is **deposited** in cracks and voids in existing rock\n\n4. **Gradual process**: Takes **thousands of years** of repeated water infiltration and evaporation\n\n**Why NOT igneous:**\n- No melting or magma involved\n- Forms from water solutions, not molten rock\n\n**Why NOT metamorphic:**\n- No heat and pressure transformation\n- Forms from precipitation, not solid-state recrystallization\n\n**The process at Coober Pedy:**\n- Silica dissolved in **groundwater**\n- Water seeps into cracks in sedimentary rock\n- **Evaporation** causes silica to precipitate\n- Over thousands of years, layers of opal build up\n\n**Key concept**: Opal is a **chemical sedimentary mineral** formed through precipitation from water, similar to how stalactites form in caves.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the three rock formation processes. Which one involves material deposited from water solutions?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider: Does opal form from melting (igneous)? From heat and pressure (metamorphic)? Or from material dissolved in water (sedimentary)?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 56,
+      "conceptsUsed": ["c6", "c7"],
+      "buildsOn": ["rocks-minerals-y8-022", "rocks-minerals-y8-032", "rocks-minerals-y8-048"],
+      "preparesFor": ["rocks-minerals-y8-060"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set6",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-057",
+    "questionType": "MCQ",
+    "stem": "A sample of rock is found with the following conditions:\n\n- Deep underground (15 km depth)\n- Temperature: 400°C\n- High pressure\n- No melting occurring\n- Original rock was limestone\n\nWhat type of rock is **most likely** forming?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Igneous rock",
+        "isCorrect": false,
+        "feedback": "Igneous rocks form from melted material. The conditions state \"no melting occurring,\" so this cannot be igneous."
+      },
+      {
+        "id": "B",
+        "text": "Sedimentary rock",
+        "isCorrect": false,
+        "feedback": "Sedimentary rocks form at or near Earth's surface from deposited material. These conditions (deep underground, high temperature and pressure) don't match sedimentary formation."
+      },
+      {
+        "id": "C",
+        "text": "Metamorphic rock",
+        "isCorrect": true,
+        "feedback": "Correct! These are perfect conditions for **metamorphic rock** formation: **deep burial**, **high temperature** (400°C), **high pressure**, and **no melting**. The limestone will transform into **marble** (a metamorphic rock) through heat and pressure while remaining solid."
+      },
+      {
+        "id": "D",
+        "text": "No new rock will form—limestone will remain unchanged",
+        "isCorrect": false,
+        "feedback": "At 400°C and high pressure, limestone cannot remain unchanged. These conditions will cause metamorphism, transforming the rock."
+      }
+    ],
+    "solution": "The rock forming is **metamorphic rock** (specifically **marble**).\n\n**Why metamorphic:**\n\n1. ✓ **Deep underground** (15 km)—indicates burial and pressure\n2. ✓ **High temperature** (400°C)—hot enough to alter minerals\n3. ✓ **High pressure**—from overlying rock\n4. ✓ **No melting**—rock stays solid (key characteristic of metamorphism)\n5. ✓ **Original rock identified** (limestone)—metamorphic rocks form from pre-existing rocks\n\n**The transformation:**\n- **Limestone** (sedimentary) → **Marble** (metamorphic)\n- Heat and pressure cause **calcite crystals** in limestone to **recrystallize** and grow larger\n- Rock becomes **harder** and more **interlocked**\n- Remains solid throughout—**no melting**\n\n**Why not other types:**\n- **Not igneous**: No melting occurring (temperature too low)\n- **Not sedimentary**: Wrong environment (deep underground, not surface deposition)\n\n**Key conditions for metamorphic rocks:**\n- Heat (but below melting point)\n- Pressure\n- Solid state throughout\n- Buried environment",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Review the three rock types and their formation conditions. Which type forms from heat and pressure without melting?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The key clue is \"no melting occurring\" combined with high heat and pressure. What rock type does this describe?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 57,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-023", "rocks-minerals-y8-031", "rocks-minerals-y8-046"],
+      "preparesFor": ["rocks-minerals-y8-058"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set6",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-058",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Your friend says: \"I learned that metamorphic rocks form when the original rock **melts** and then cools into a new form with different minerals.\"\n\nWrite a response to your friend explaining:\n1. What is **incorrect** about their understanding\n2. What **actually** happens during metamorphic rock formation\n3. How this is **different** from igneous rock formation",
+    "solution": "**Response to friend:**\n\nYour understanding has **mixed up metamorphic and igneous processes**. Let me clarify:\n\n**1. What's incorrect:**\n- Metamorphic rocks do **NOT** form from melting\n- If rock melts, it forms **magma**, which cools into **igneous** rock, not metamorphic\n\n**2. What actually happens in metamorphism:**\n\nMetamorphic rocks form through **heat and pressure WITHOUT melting**:\n\n- The rock remains **solid** throughout the entire process\n- **Heat** (typically 200-800°C) and **pressure** cause minerals to **recrystallize**\n- Atoms rearrange into **new mineral structures** that are stable at higher temperatures/pressures\n- **Example**: Limestone → marble (calcite crystals grow larger and interlock)\n- The rock **never becomes liquid**\n\n**3. Difference from igneous formation:**\n\n**Metamorphic:**\n- Rock stays **solid**\n- Heat + pressure cause **recrystallization**\n- Minerals change **in place** (solid-state transformation)\n- Temperature: 200-800°C (below melting point)\n\n**Igneous:**\n- Rock **melts** into liquid magma\n- Magma **cools** and **solidifies**\n- New minerals **crystallize from the melt**\n- Temperature: >800°C (above melting point)\n\n**Key concept**: **Melting = igneous. No melting = metamorphic.**",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the prefix \"meta-\" which means \"change.\" The rock changes, but does it need to melt to change?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Review: What happens to rock that melts? What type of rock does it form when it cools? How is this different from metamorphic rock?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 58,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["rocks-minerals-y8-046", "rocks-minerals-y8-057"],
+      "preparesFor": ["rocks-minerals-y8-060"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set6",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-059",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Some geological processes happen very quickly (hours to days), while others take millions of years.\n\n**Why** do some processes, like mountain building or sedimentary rock formation, take such incredibly long timescales?\n\nExplain the fundamental reasons behind these slow rates.",
+    "solution": "Geological processes take millions of years due to **fundamental physical constraints** on how fast geological changes can occur.\n\n**Reasons for slow geological processes:**\n\n**1. Tectonic plate movement is extremely slow:**\n- Plates move at **2-10 cm per year** (about the rate fingernails grow)\n- To build mountains thousands of meters high requires **millions of years** of continuous movement and compression\n- **Why so slow?** Moving massive continental plates through the mantle requires enormous forces and occurs through slow convection currents in Earth's interior\n\n**2. Sediment accumulation is gradual:**\n- Sediment typically accumulates at **millimeters to centimeters per year**\n- To build sedimentary rock layers **kilometers thick** requires millions of years\n- **Why so slow?** Weathering, erosion, and deposition are limited by rates of chemical reactions, water flow, and sediment transport\n\n**3. Burial and compaction take time:**\n- Sediment must be **buried deeply** (often kilometers) to experience enough pressure for cementation\n- Burial requires continuous deposition over vast timescales\n\n**4. Heat transfer through rock is slow:**\n- Rock is a **poor conductor of heat**\n- Large underground magma bodies (like granite plutons) cool **extremely slowly**—heat escapes at rates of degrees per thousand years\n\n**5. Chemical reactions in solid rock are slow:**\n- Metamorphic recrystallization happens in **solid state**—atoms must rearrange without the rock melting\n- Solid-state diffusion is inherently slow\n\n**Contrast with fast processes:**\n- **Volcanic eruptions** are fast because they involve **liquid magma** exposed to cool air/water\n- **Earthquakes** are fast because they release **stored elastic energy** suddenly\n\n**Key concept**: Geological processes involving **gradual accumulation** (sediment, tectonic movement) or **slow physical processes** (heat conduction, solid-state reactions) operate on geological timescales far beyond human experience.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the scale of geological features. How much material needs to move or accumulate? How fast can rock move or heat transfer?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider: tectonic plates move only centimeters per year, sediment accumulates slowly, and rock is a poor conductor of heat. What does this mean for building mountains or forming rocks?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 59,
+      "conceptsUsed": ["c7"],
+      "buildsOn": ["rocks-minerals-y8-051", "rocks-minerals-y8-052", "rocks-minerals-y8-053", "rocks-minerals-y8-055"],
+      "preparesFor": ["rocks-minerals-y8-060"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set6",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "rocks-minerals-y8-060",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Imagine you could follow a **single grain of quartz sand** through the rock cycle over **hundreds of millions of years**.\n\nDescribe **one possible journey** this grain could take, including:\n- What happens at each stage\n- What rock types it becomes part of\n- What processes cause each transformation\n\n(Your journey should include at least 3 different stages and demonstrate understanding of multiple pathways.)",
+    "solution": "**Example journey of a quartz grain through the rock cycle:**\n\n**Stage 1: Part of Granite (Igneous Rock)**\n- Our quartz grain **crystallizes** from cooling magma deep underground 200 million years ago\n- It becomes part of a **granite** intrusion (igneous rock)\n- **Time scale**: Formation takes thousands of years as magma slowly cools\n\n**Stage 2: Released as Sand (Sediment)**\n- Over millions of years, **tectonic uplift** brings the granite to Earth's surface\n- **Weathering** breaks down the granite\n- The quartz grain (being resistant to chemical weathering) survives as a **sand grain**\n- **Erosion** by rivers carries the grain to the ocean\n- **Time scale**: Weathering and transport take millions of years\n\n**Stage 3: Part of Sandstone (Sedimentary Rock)**\n- The quartz grain settles on the **ocean floor** with millions of other sand grains\n- **Burial** by more sediment layers compresses the sand\n- **Cementation** by minerals dissolved in groundwater glues the grains together\n- The grain is now part of **sandstone** (sedimentary rock)\n- **Time scale**: Deposition, burial, and cementation take millions of years\n\n**Stage 4: Part of Quartzite (Metamorphic Rock)**\n- **Tectonic activity** buries the sandstone deep in Earth's crust\n- **Heat** (500°C) and **pressure** cause the quartz grains to **recrystallize** and **fuse together**\n- The sandstone transforms into **quartzite** (metamorphic rock)\n- Our quartz grain is still recognizable but now **interlocked** with surrounding grains\n- **No melting** occurs—the rock stays solid\n- **Time scale**: Metamorphism takes millions of years\n\n**Potential Stage 5 (future):**\n- If buried deeper and heated to >800°C, the quartzite could **melt**\n- Our quartz grain dissolves into **magma**\n- When magma cools, silica could crystallize into a **new quartz crystal** in new igneous rock\n- The cycle continues...\n\n**Key insights:**\n- The grain has been part of **igneous → sedimentary → metamorphic** rocks\n- Each transformation took **millions of years**\n- Multiple pathways were possible at each stage\n- The rock cycle is **continuous** and **ongoing**",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Start with the grain in one type of rock (igneous, sedimentary, or metamorphic). What processes could expose it to the surface or transform it?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about the transformations you've learned: weathering → sediment → sedimentary rock; burial + heat + pressure → metamorphic; melting → igneous. Connect these into a pathway.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU153"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Earth and Space Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 60,
+      "conceptsUsed": ["c6", "c7"],
+      "buildsOn": ["rocks-minerals-y8-041", "rocks-minerals-y8-044", "rocks-minerals-y8-055", "rocks-minerals-y8-059"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-rocks-minerals-set6",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  }
+]

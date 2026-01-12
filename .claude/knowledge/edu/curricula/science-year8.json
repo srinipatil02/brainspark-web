@@ -1,0 +1,247 @@
+{
+  "year": 8,
+  "subject": "science",
+  "syllabus": "NSW Science 7-10 (2023) / Australian Curriculum v9.0",
+  "version": "2025.01",
+  "generatedAt": "2026-01-07",
+  "strands": [
+    {
+      "name": "Biological Sciences",
+      "description": "Understanding living things, their structures, functions, and interactions",
+      "topics": [
+        {
+          "id": "cells",
+          "name": "Cells and Cell Structure",
+          "outcomeCode": "ACSSU149",
+          "description": "Cells are the basic units of living things; they have specialised structures and functions",
+          "keyConceptCount": 10,
+          "keyConcepts": [
+            "Cell theory",
+            "Plant vs animal cells",
+            "Cell organelles (nucleus, mitochondria, chloroplasts, cell membrane, cell wall)",
+            "Cell specialisation",
+            "Microscopy and cell observation",
+            "Unicellular vs multicellular organisms",
+            "Cell division basics",
+            "Cell size and scale"
+          ],
+          "prerequisiteTopics": [],
+          "suggestedDuration": "3 weeks",
+          "difficulty": "foundational"
+        },
+        {
+          "id": "body-systems",
+          "name": "Body Systems",
+          "outcomeCode": "ACSSU150",
+          "description": "Multi-cellular organisms contain systems of organs carrying out specialised functions that enable them to survive and reproduce",
+          "keyConceptCount": 12,
+          "keyConcepts": [
+            "Levels of organisation (cells, tissues, organs, systems)",
+            "Digestive system",
+            "Respiratory system",
+            "Circulatory system",
+            "Nervous system",
+            "Excretory system",
+            "Reproductive system",
+            "System interactions and homeostasis"
+          ],
+          "prerequisiteTopics": ["cells"],
+          "suggestedDuration": "4 weeks",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "name": "Chemical Sciences",
+      "description": "Understanding matter, its properties, composition, and changes",
+      "topics": [
+        {
+          "id": "states-of-matter",
+          "name": "States of Matter",
+          "outcomeCode": "ACSSU151",
+          "description": "Properties of the different states of matter can be explained in terms of the motion and arrangement of particles",
+          "keyConceptCount": 10,
+          "keyConcepts": [
+            "Particle model of matter",
+            "Solid, liquid, gas properties",
+            "Particle arrangement and motion",
+            "Changes of state (melting, freezing, boiling, condensation, sublimation)",
+            "Energy and state changes",
+            "Diffusion",
+            "Pressure in gases",
+            "Kinetic theory"
+          ],
+          "prerequisiteTopics": [],
+          "suggestedDuration": "3 weeks",
+          "difficulty": "foundational"
+        },
+        {
+          "id": "elements-compounds",
+          "name": "Elements, Compounds and Mixtures",
+          "outcomeCode": "ACSSU152",
+          "description": "Differences between elements, compounds and mixtures can be described at a particle level",
+          "keyConceptCount": 12,
+          "keyConcepts": [
+            "Elements and atoms",
+            "Periodic table introduction",
+            "Compounds and molecules",
+            "Chemical formulas",
+            "Mixtures (homogeneous and heterogeneous)",
+            "Solutions, suspensions, colloids",
+            "Separation techniques (filtration, distillation, chromatography, evaporation)",
+            "Pure substances vs mixtures"
+          ],
+          "prerequisiteTopics": ["states-of-matter"],
+          "suggestedDuration": "4 weeks",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": "chemical-reactions",
+          "name": "Chemical Reactions",
+          "outcomeCode": "ACSSU225",
+          "description": "Chemical change involves substances reacting to form new substances",
+          "keyConceptCount": 10,
+          "keyConcepts": [
+            "Physical vs chemical changes",
+            "Signs of chemical reactions",
+            "Reactants and products",
+            "Word equations",
+            "Types of reactions (combustion, corrosion, decomposition)",
+            "Conservation of mass",
+            "Energy in chemical reactions (exothermic/endothermic)",
+            "Reaction rates basics"
+          ],
+          "prerequisiteTopics": ["elements-compounds"],
+          "suggestedDuration": "3 weeks",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "name": "Earth and Space Sciences",
+      "description": "Understanding Earth's structure, processes, and place in the universe",
+      "topics": [
+        {
+          "id": "rocks-minerals",
+          "name": "Rocks and Minerals",
+          "outcomeCode": "ACSSU153",
+          "description": "Sedimentary, igneous and metamorphic rocks contain minerals and are formed by processes that occur within Earth over a variety of timescales",
+          "keyConceptCount": 10,
+          "keyConcepts": [
+            "Minerals and their properties",
+            "Igneous rocks (intrusive and extrusive)",
+            "Sedimentary rocks and fossils",
+            "Metamorphic rocks",
+            "The rock cycle",
+            "Earth's internal structure",
+            "Plate tectonics basics",
+            "Geological time scales",
+            "Weathering and erosion"
+          ],
+          "prerequisiteTopics": [],
+          "suggestedDuration": "3 weeks",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "name": "Physical Sciences",
+      "description": "Understanding forces, energy, and motion",
+      "topics": [
+        {
+          "id": "energy",
+          "name": "Energy Forms and Transformations",
+          "outcomeCode": "ACSSU155",
+          "description": "Energy appears in different forms, including movement (kinetic energy), heat and potential energy, and energy transformations and transfers cause change within systems",
+          "keyConceptCount": 12,
+          "keyConcepts": [
+            "Forms of energy (kinetic, potential, thermal, light, sound, electrical, chemical)",
+            "Kinetic energy and motion",
+            "Gravitational potential energy",
+            "Elastic potential energy",
+            "Energy transformations",
+            "Energy transfer (conduction, convection, radiation)",
+            "Conservation of energy",
+            "Energy efficiency",
+            "Renewable vs non-renewable energy sources"
+          ],
+          "prerequisiteTopics": [],
+          "suggestedDuration": "4 weeks",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ],
+  "crossCurricularLinks": [
+    {
+      "topic": "states-of-matter",
+      "links": [
+        {"subject": "mathematics", "topic": "measurement", "connection": "Temperature scales, volume calculations"},
+        {"subject": "mathematics", "topic": "graphing", "connection": "Heating/cooling curves, data interpretation"}
+      ]
+    },
+    {
+      "topic": "elements-compounds",
+      "links": [
+        {"subject": "mathematics", "topic": "ratios", "connection": "Chemical formulas and proportions"},
+        {"subject": "technology", "topic": "materials", "connection": "Material properties and applications"}
+      ]
+    },
+    {
+      "topic": "cells",
+      "links": [
+        {"subject": "mathematics", "topic": "measurement", "connection": "Microscope magnification, cell size calculations"},
+        {"subject": "technology", "topic": "microscopy", "connection": "Using microscopes and digital imaging"}
+      ]
+    },
+    {
+      "topic": "energy",
+      "links": [
+        {"subject": "mathematics", "topic": "algebra", "connection": "Energy calculations (KE = 1/2mv^2, PE = mgh)"},
+        {"subject": "technology", "topic": "sustainability", "connection": "Renewable energy technologies"}
+      ]
+    },
+    {
+      "topic": "rocks-minerals",
+      "links": [
+        {"subject": "geography", "topic": "landforms", "connection": "Geological processes shaping landscapes"},
+        {"subject": "history", "topic": "earth-history", "connection": "Geological time and fossil record"}
+      ]
+    }
+  ],
+  "learningProgression": {
+    "suggestedOrder": [
+      "cells",
+      "states-of-matter",
+      "elements-compounds",
+      "body-systems",
+      "chemical-reactions",
+      "rocks-minerals",
+      "energy"
+    ],
+    "rationale": "Start with foundational concepts (cells, particle model) before building to more complex topics. Chemical sciences build sequentially. Body systems requires cell knowledge. Energy and rocks can be taught flexibly."
+  },
+  "assessmentTypes": [
+    "Practical investigations",
+    "Research tasks",
+    "Written tests",
+    "Laboratory reports",
+    "Depth studies",
+    "Data analysis tasks"
+  ],
+  "sources": [
+    {
+      "name": "Australian Curriculum: Science",
+      "url": "https://www.australiancurriculum.edu.au/f-10-curriculum/science/",
+      "version": "v8.4 / v9.0"
+    },
+    {
+      "name": "NSW Science 7-10 Syllabus (2023)",
+      "url": "https://curriculum.nsw.edu.au/learning-areas/science/science-7-10-2023/overview"
+    },
+    {
+      "name": "NESA Science K-10",
+      "url": "https://educationstandards.nsw.edu.au/wps/portal/nesa/k-10/learning-areas/science"
+    }
+  ]
+}

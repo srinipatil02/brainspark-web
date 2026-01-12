@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "setNumber": 12,
+    "phase": "mastery",
+    "focus": "Word problems requiring equation setup and solution"
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-111",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Tom is 3 years older than his sister Sarah.\n\nIf the sum of their ages is 29, how old is Sarah?\n\nLet x = Sarah's age.",
+      "solution": "**Solution:**\n\n**Set up:** Sarah's age + Tom's age = 29\n$$x + (x + 3) = 29$$\n$$2x + 3 = 29$$\n$$2x = 26$$\n$$x = 13$$\n\n**Answer: Sarah is 13 years old**\n\n**Check:** Sarah = 13, Tom = 16, Sum = 29 ✓",
+      "hints": [
+        {"level": 1, "content": "If Sarah is x, Tom is x + 3.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "x + (x + 3) = 29. Simplify to 2x + 3 = 29.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "2x = 26, x = 13", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Express Tom's age in terms of x", "encouragement": "Tom = Sarah + 3", "questionPrompt": "What's the equation?"},
+        {"level": 2, "content": "2x + 3 = 29", "encouragement": "Combine like terms!", "questionPrompt": "Solve for x?"},
+        {"level": 3, "content": "Sarah = 13, Tom = 16", "encouragement": "Age problems solved!", "questionPrompt": "Does 13 + 16 = 29?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x + (x + 3) = 29",
+        "expectedAnswers": ["13", "x = 13", "13 years", "13 years old", "Sarah is 13"],
+        "gradingGuidance": "Age word problem. Student must: (1) Define x as Sarah's age, (2) Express Tom as x + 3, (3) Write equation x + (x+3) = 29, (4) Solve for x = 13. Award partial credit for correct setup.",
+        "sampleSolutions": ["Let x = Sarah's age\nTom = x + 3\nx + (x + 3) = 29\n2x + 3 = 29\n2x = 26\nx = 13\nSarah is 13 years old"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "age problems", "equation setup"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 21, "conceptsUsed": ["word-problems", "equation-setup"], "buildsOn": ["linear-eq-y8-110"], "preparesFor": ["linear-eq-y8-112"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Age problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set12", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-112",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A rectangle has a perimeter of 38 cm.\n\nIf the length is 5 cm more than the width, find the width.\n\nLet w = width.",
+      "solution": "**Solution:**\n\n**Perimeter = 2(length + width)**\n$$2(w + 5 + w) = 38$$\n$$2(2w + 5) = 38$$\n$$4w + 10 = 38$$\n$$4w = 28$$\n$$w = 7$$\n\n**Answer: Width = 7 cm**\n\n**Check:** Width = 7, Length = 12, P = 2(7+12) = 38 ✓",
+      "hints": [
+        {"level": 1, "content": "Length = w + 5. Perimeter = 2(length + width).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2(w + 5 + w) = 38. Simplify.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4w = 28, w = 7", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Perimeter formula!", "encouragement": "P = 2(l + w)", "questionPrompt": "Substitute l = w + 5?"},
+        {"level": 2, "content": "4w + 10 = 38", "encouragement": "Expand and solve!", "questionPrompt": "4w = ?"},
+        {"level": 3, "content": "w = 7 cm", "encouragement": "Geometry + algebra!", "questionPrompt": "Check perimeter!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2(w + 5 + w) = 38",
+        "expectedAnswers": ["7", "w = 7", "7 cm", "7cm", "width = 7"],
+        "gradingGuidance": "Geometry word problem. Use perimeter formula with l = w + 5. Accept alternative setups like 2l + 2w = 38 with l = w + 5.",
+        "sampleSolutions": ["Let w = width, l = w + 5\nP = 2(l + w)\n2(w + 5 + w) = 38\n4w + 10 = 38\n4w = 28\nw = 7 cm"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "perimeter", "geometry"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 22, "conceptsUsed": ["word-problems", "geometry"], "buildsOn": ["linear-eq-y8-111"], "preparesFor": ["linear-eq-y8-113"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Geometry problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set12", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-113",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Three consecutive numbers add up to 57.\n\nFind the smallest number.\n\nLet n = the smallest number.",
+      "solution": "**Solution:**\n\n**Consecutive: n, n+1, n+2**\n$$n + (n + 1) + (n + 2) = 57$$\n$$3n + 3 = 57$$\n$$3n = 54$$\n$$n = 18$$\n\n**Answer: The smallest number is 18**\n\n**Check:** 18 + 19 + 20 = 57 ✓",
+      "hints": [
+        {"level": 1, "content": "Consecutive means n, n+1, n+2.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "n + (n+1) + (n+2) = 57 simplifies to 3n + 3 = 57.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "3n = 54, n = 18", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Consecutive = one after another", "encouragement": "n, n+1, n+2", "questionPrompt": "Add them together?"},
+        {"level": 2, "content": "3n + 3 = 57", "encouragement": "Combine like terms!", "questionPrompt": "3n = ?"},
+        {"level": 3, "content": "n = 18", "encouragement": "18, 19, 20!", "questionPrompt": "Check the sum!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "n + (n + 1) + (n + 2) = 57",
+        "expectedAnswers": ["18", "n = 18", "the smallest is 18", "smallest = 18"],
+        "gradingGuidance": "Consecutive numbers problem. Three consecutive: n, n+1, n+2.",
+        "sampleSolutions": ["Let n = smallest\nn + (n+1) + (n+2) = 57\n3n + 3 = 57\n3n = 54\nn = 18"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "consecutive numbers"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 23, "conceptsUsed": ["word-problems", "consecutive-numbers"], "buildsOn": ["linear-eq-y8-112"], "preparesFor": ["linear-eq-y8-114"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Consecutive number problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set12", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-114",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A shop sells apples for $2 each and oranges for $3 each.\n\nEmma bought 8 fruits for $19. How many apples did she buy?\n\nLet a = number of apples.",
+      "solution": "**Solution:**\n\n**Number: a + (8-a) = 8** (oranges = 8 - a)\n**Cost: 2a + 3(8-a) = 19**\n$$2a + 24 - 3a = 19$$\n$$-a + 24 = 19$$\n$$-a = -5$$\n$$a = 5$$\n\n**Answer: Emma bought 5 apples**\n\n**Check:** 5 apples ($10) + 3 oranges ($9) = $19 ✓",
+      "hints": [
+        {"level": 1, "content": "If a = apples, then oranges = 8 - a.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Cost equation: 2a + 3(8-a) = 19.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "-a = -5, so a = 5", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Total fruits = 8", "encouragement": "So oranges = 8 - apples", "questionPrompt": "Cost equation?"},
+        {"level": 2, "content": "2a + 24 - 3a = 19", "encouragement": "Expand and simplify!", "questionPrompt": "-a = ?"},
+        {"level": 3, "content": "a = 5 apples", "encouragement": "Real-world problem!", "questionPrompt": "Check total cost!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2a + 3(8 - a) = 19",
+        "expectedAnswers": ["5", "a = 5", "5 apples", "she bought 5 apples"],
+        "gradingGuidance": "Two-variable problem reduced to one. Key insight: oranges = 8 - apples. Set up cost equation.",
+        "sampleSolutions": ["Let a = apples, oranges = 8 - a\nCost: 2a + 3(8-a) = 19\n2a + 24 - 3a = 19\n-a = -5\na = 5 apples"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "cost problems"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 24, "conceptsUsed": ["word-problems", "cost-problems"], "buildsOn": ["linear-eq-y8-113"], "preparesFor": ["linear-eq-y8-115"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Cost problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set12", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-115",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A number is doubled and then 7 is added.\n\nThe result is the same as five times the original number minus 8.\n\nFind the number. Let n = the number.",
+      "solution": "**Solution:**\n\n$$2n + 7 = 5n - 8$$\n$$7 + 8 = 5n - 2n$$\n$$15 = 3n$$\n$$n = 5$$\n\n**Answer: The number is 5**\n\n**Check:** 2(5) + 7 = 17, 5(5) - 8 = 17 ✓",
+      "hints": [
+        {"level": 1, "content": "Translate: 'doubled and 7 added' = 2n + 7.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "'Five times minus 8' = 5n - 8. So 2n + 7 = 5n - 8.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "15 = 3n, n = 5", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Translate words to algebra!", "encouragement": "LHS = RHS", "questionPrompt": "What's the equation?"},
+        {"level": 2, "content": "2n + 7 = 5n - 8", "encouragement": "Collect terms!", "questionPrompt": "Solve for n?"},
+        {"level": 3, "content": "n = 5", "encouragement": "Word to algebra!", "questionPrompt": "Check both sides!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2n + 7 = 5n - 8",
+        "expectedAnswers": ["5", "n = 5", "the number is 5"],
+        "gradingGuidance": "Translation problem. Key: 'doubled and 7 added' = 2n + 7, 'five times minus 8' = 5n - 8.",
+        "sampleSolutions": ["2n + 7 = 5n - 8\n7 + 8 = 5n - 2n\n15 = 3n\nn = 5"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "translation"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 25, "conceptsUsed": ["word-problems", "translation"], "buildsOn": ["linear-eq-y8-114"], "preparesFor": ["linear-eq-y8-116"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Translating words to equations!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set12", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-116",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "The sum of two consecutive even numbers is 42.\n\nFind the smaller number.\n\nLet n = the smaller even number.",
+      "solution": "**Solution:**\n\n**Consecutive even: n, n+2**\n$$n + (n + 2) = 42$$\n$$2n + 2 = 42$$\n$$2n = 40$$\n$$n = 20$$\n\n**Answer: The smaller number is 20**\n\n**Check:** 20 + 22 = 42 ✓",
+      "hints": [
+        {"level": 1, "content": "Consecutive even numbers differ by 2: n, n+2.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "n + (n+2) = 42 simplifies to 2n + 2 = 42.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "n = 20", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Even numbers: 2, 4, 6... differ by 2", "encouragement": "n and n+2", "questionPrompt": "Add them?"},
+        {"level": 2, "content": "2n = 40", "encouragement": "Solve!", "questionPrompt": "n = ?"},
+        {"level": 3, "content": "20 and 22", "encouragement": "Both even!", "questionPrompt": "Sum = 42?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "n + (n + 2) = 42",
+        "expectedAnswers": ["20", "n = 20", "smaller is 20", "the smaller number is 20"],
+        "gradingGuidance": "Consecutive EVEN numbers (not just consecutive). Differ by 2, not 1.",
+        "sampleSolutions": ["Consecutive even: n, n+2\nn + (n+2) = 42\n2n + 2 = 42\n2n = 40\nn = 20"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "consecutive even numbers"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 26, "conceptsUsed": ["word-problems", "consecutive-even"], "buildsOn": ["linear-eq-y8-115"], "preparesFor": ["linear-eq-y8-117"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Even number patterns!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set12", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-117",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A mobile plan costs $30 per month plus 10 cents per minute of calls.\n\nLast month, Alex's bill was $48. How many minutes did he use?\n\nLet m = minutes.",
+      "solution": "**Solution:**\n\n$$30 + 0.10m = 48$$\n$$0.10m = 18$$\n$$m = 180$$\n\n**Answer: Alex used 180 minutes**\n\n**Check:** $30 + 180 × $0.10 = $30 + $18 = $48 ✓",
+      "hints": [
+        {"level": 1, "content": "Monthly fee + call cost = total.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "30 + 0.10m = 48. Subtract 30.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "0.10m = 18, m = 180", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Fee + minutes × rate = bill", "encouragement": "Set up equation!", "questionPrompt": "What's the equation?"},
+        {"level": 2, "content": "0.10m = 18", "encouragement": "Divide by 0.10!", "questionPrompt": "18 ÷ 0.10 = ?"},
+        {"level": 3, "content": "180 minutes!", "encouragement": "3 hours of calls!", "questionPrompt": "Check the bill!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "30 + 0.10m = 48",
+        "expectedAnswers": ["180", "m = 180", "180 minutes", "180 mins"],
+        "gradingGuidance": "Cost problem with decimals. 30 + 0.10m = 48.",
+        "sampleSolutions": ["30 + 0.10m = 48\n0.10m = 18\nm = 180 minutes"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "cost", "decimals"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 27, "conceptsUsed": ["word-problems", "decimals"], "buildsOn": ["linear-eq-y8-116"], "preparesFor": ["linear-eq-y8-118"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Real-world cost problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set12", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-118",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "In a class, there are twice as many girls as boys.\n\nIf there are 27 students in total, how many boys are there?\n\nLet b = number of boys.",
+      "solution": "**Solution:**\n\n**Girls = 2b**\n$$b + 2b = 27$$\n$$3b = 27$$\n$$b = 9$$\n\n**Answer: There are 9 boys**\n\n**Check:** 9 boys + 18 girls = 27 ✓",
+      "hints": [
+        {"level": 1, "content": "If boys = b, girls = 2b.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "b + 2b = 27 simplifies to 3b = 27.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "b = 9", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "'Twice as many' = 2 times", "encouragement": "Girls = 2 × boys", "questionPrompt": "Total equation?"},
+        {"level": 2, "content": "3b = 27", "encouragement": "Nice numbers!", "questionPrompt": "b = ?"},
+        {"level": 3, "content": "9 boys, 18 girls", "encouragement": "Ratio 1:2!", "questionPrompt": "Total = 27?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "b + 2b = 27",
+        "expectedAnswers": ["9", "b = 9", "9 boys", "there are 9 boys"],
+        "gradingGuidance": "Ratio problem. Girls = 2 × boys. Total = boys + girls = 27.",
+        "sampleSolutions": ["Let b = boys, girls = 2b\nb + 2b = 27\n3b = 27\nb = 9 boys"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "ratios"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 28, "conceptsUsed": ["word-problems", "ratios"], "buildsOn": ["linear-eq-y8-117"], "preparesFor": ["linear-eq-y8-119"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Ratio problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set12", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-119",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "An isosceles triangle has two equal sides.\n\nIf the two equal sides are each 4 cm longer than the base, and the perimeter is 38 cm, find the length of the base.\n\nLet x = base length.",
+      "solution": "**Solution:**\n\n**Equal sides = x + 4 each**\n$$x + (x + 4) + (x + 4) = 38$$\n$$3x + 8 = 38$$\n$$3x = 30$$\n$$x = 10$$\n\n**Answer: Base = 10 cm**\n\n**Check:** 10 + 14 + 14 = 38 ✓",
+      "hints": [
+        {"level": 1, "content": "Two equal sides are x + 4 each.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Perimeter: x + 2(x + 4) = 38.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "3x = 30, x = 10", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Isosceles = 2 equal sides", "encouragement": "Each = base + 4", "questionPrompt": "Perimeter equation?"},
+        {"level": 2, "content": "3x + 8 = 38", "encouragement": "Simplify and solve!", "questionPrompt": "x = ?"},
+        {"level": 3, "content": "Base = 10 cm", "encouragement": "10, 14, 14 triangle!", "questionPrompt": "Perimeter check?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x + (x + 4) + (x + 4) = 38",
+        "expectedAnswers": ["10", "x = 10", "10 cm", "base = 10", "the base is 10 cm"],
+        "gradingGuidance": "Geometry word problem. Isosceles with base x and equal sides x + 4.",
+        "sampleSolutions": ["Let x = base\nEqual sides = x + 4\nx + 2(x + 4) = 38\n3x + 8 = 38\n3x = 30\nx = 10 cm"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "geometry", "perimeter"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 29, "conceptsUsed": ["word-problems", "geometry"], "buildsOn": ["linear-eq-y8-118"], "preparesFor": ["linear-eq-y8-120"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Triangle problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set12", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-120",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A father is currently 4 times as old as his son.\n\nIn 20 years, the father will be twice as old as his son.\n\nHow old is the son now?\n\nLet s = son's current age.",
+      "solution": "**Solution:**\n\n**Now:** Father = 4s\n**In 20 years:** Father = 4s + 20, Son = s + 20\n**Condition:** 4s + 20 = 2(s + 20)\n$$4s + 20 = 2s + 40$$\n$$2s = 20$$\n$$s = 10$$\n\n**Answer: The son is 10 years old**\n\n**Check:** Now: Son 10, Father 40. In 20 years: Son 30, Father 60 (2×30) ✓",
+      "hints": [
+        {"level": 1, "content": "Set up current ages first, then future ages.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "In 20 years: Father will be 4s + 20, Son will be s + 20.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4s + 20 = 2(s + 20), s = 10", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Two time points: now and in 20 years", "encouragement": "Set up both!", "questionPrompt": "Father's age in 20 years?"},
+        {"level": 2, "content": "4s + 20 = 2(s + 20)", "encouragement": "Expand and solve!", "questionPrompt": "2s = ?"},
+        {"level": 3, "content": "Son = 10, Father = 40", "encouragement": "MASTERY COMPLETE!", "questionPrompt": "Final check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4s + 20 = 2(s + 20)",
+        "expectedAnswers": ["10", "s = 10", "10 years", "10 years old", "the son is 10"],
+        "gradingGuidance": "Complex age problem with two time points. Now: Son = s, Father = 4s. In 20 years: condition gives equation. Award partial credit for correct setup.",
+        "sampleSolutions": ["Now: Son = s, Father = 4s\nIn 20 years: Son = s + 20, Father = 4s + 20\nCondition: 4s + 20 = 2(s + 20)\n4s + 20 = 2s + 40\n2s = 20\ns = 10 years"],
+        "minimumWorkLines": 4,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "age problems", "two time points"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 240,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 30, "conceptsUsed": ["word-problems", "age-problems"], "buildsOn": ["linear-eq-y8-119"], "preparesFor": []},
+      "pedagogy": {"type": "mastery", "targetFeeling": "COMPLETE MASTERY - I can solve any linear equation!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set12", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

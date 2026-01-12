@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "setNumber": 10,
+    "phase": "mastery",
+    "focus": "Variables on both sides"
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-091",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$3x + 5 = x + 13$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract x from both sides:\n$$2x + 5 = 13$$\n\n**Step 2:** Subtract 5:\n$$2x = 8$$\n\n**Step 3:** Divide by 2:\n$$x = 4$$\n\n**Answer: x = 4**\n\n**Check:** LHS: $3(4) + 5 = 17$, RHS: $4 + 13 = 17$ ✓",
+      "hints": [
+        {"level": 1, "content": "Get all x terms on one side. Subtract x from both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2x + 5 = 13. Now it's two-step!", "revealsCriticalInfo": false},
+        {"level": 3, "content": "2x = 8, x = 4", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "x appears on BOTH sides!", "encouragement": "Collect x terms first!", "questionPrompt": "3x - x = ?"},
+        {"level": 2, "content": "2x + 5 = 13", "encouragement": "Now it's familiar!", "questionPrompt": "Solve this two-step!"},
+        {"level": 3, "content": "x = 4", "encouragement": "Check in ORIGINAL equation!", "questionPrompt": "Does 17 = 17?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3x + 5 = x + 13",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "Variables both sides. Subtract x from both sides to get 2x + 5 = 13. Then solve. Alternative: subtract 3x from both to get -2x + 5 = 13, but this leads to negative coefficient.",
+        "sampleSolutions": ["3x + 5 = x + 13\n2x + 5 = 13\n2x = 8\nx = 4"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["variables both sides", "collecting terms"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 1, "conceptsUsed": ["variables-both-sides"], "buildsOn": ["linear-eq-y8-090"], "preparesFor": ["linear-eq-y8-092"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Variables both sides - I can do this!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set10", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-092",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$5x - 3 = 2x + 9$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$5x - 2x - 3 = 9$$\n$$3x - 3 = 9$$\n$$3x = 12$$\n$$x = 4$$\n\n**Answer: x = 4**",
+      "hints": [
+        {"level": 1, "content": "Subtract 2x from both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "3x - 3 = 9", "revealsCriticalInfo": false},
+        {"level": 3, "content": "3x = 12, x = 4", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "5x - 2x = 3x", "encouragement": "Collect x terms!", "questionPrompt": "What's left?"},
+        {"level": 2, "content": "3x - 3 = 9", "encouragement": "Two-step now!", "questionPrompt": "Add 3, then...?"},
+        {"level": 3, "content": "x = 4", "encouragement": "Great!", "questionPrompt": "Verify both sides!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5x - 3 = 2x + 9",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "Variables both sides with subtraction. Collect x terms, then solve.",
+        "sampleSolutions": ["5x - 3 = 2x + 9\n3x - 3 = 9\n3x = 12\nx = 4"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["variables both sides"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 2, "conceptsUsed": ["variables-both-sides"], "buildsOn": ["linear-eq-y8-091"], "preparesFor": ["linear-eq-y8-093"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Getting the pattern!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set10", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-093",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$4x + 7 = x + 22$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$3x + 7 = 22$$\n$$3x = 15$$\n$$x = 5$$\n\n**Answer: x = 5**",
+      "hints": [
+        {"level": 1, "content": "Subtract x from both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "3x + 7 = 22", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 5", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "4x - x = 3x", "encouragement": "Collect!", "questionPrompt": "Now what?"},
+        {"level": 2, "content": "3x = 15", "encouragement": "3 × 5!", "questionPrompt": "15 ÷ 3 = ?"},
+        {"level": 3, "content": "x = 5", "encouragement": "Perfect!", "questionPrompt": "Check: 27 = 27?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4x + 7 = x + 22",
+        "expectedAnswers": ["5", "x = 5", "x=5", "x= 5", "x =5", "5.0", "x = 5.0"],
+        "gradingGuidance": "Standard variables both sides.",
+        "sampleSolutions": ["4x + 7 = x + 22\n3x + 7 = 22\n3x = 15\nx = 5"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["variables both sides"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 3, "conceptsUsed": ["variables-both-sides"], "buildsOn": ["linear-eq-y8-092"], "preparesFor": ["linear-eq-y8-094"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Building fluency!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set10", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-094",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$6x - 8 = 4x + 6$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$2x - 8 = 6$$\n$$2x = 14$$\n$$x = 7$$\n\n**Answer: x = 7**",
+      "hints": [
+        {"level": 1, "content": "Subtract 4x from both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2x - 8 = 6", "revealsCriticalInfo": false},
+        {"level": 3, "content": "2x = 14, x = 7", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "6x - 4x = 2x", "encouragement": "Collect x terms!", "questionPrompt": "What equation now?"},
+        {"level": 2, "content": "2x = 14", "encouragement": "Add 8!", "questionPrompt": "14 ÷ 2 = ?"},
+        {"level": 3, "content": "x = 7", "encouragement": "Great!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "6x - 8 = 4x + 6",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "Larger coefficients, variables both sides.",
+        "sampleSolutions": ["6x - 8 = 4x + 6\n2x - 8 = 6\n2x = 14\nx = 7"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["variables both sides"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 4, "conceptsUsed": ["variables-both-sides"], "buildsOn": ["linear-eq-y8-093"], "preparesFor": ["linear-eq-y8-095"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Confident!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set10", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-095",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$7x + 2 = 3x + 18$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$4x + 2 = 18$$\n$$4x = 16$$\n$$x = 4$$\n\n**Answer: x = 4**",
+      "hints": [
+        {"level": 1, "content": "Subtract 3x from both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "4x + 2 = 18", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4x = 16, x = 4", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "7x - 3x = 4x", "encouragement": "Collect!", "questionPrompt": "What's left?"},
+        {"level": 2, "content": "4x = 16", "encouragement": "4² = 16!", "questionPrompt": "x = ?"},
+        {"level": 3, "content": "x = 4", "encouragement": "x = coefficient!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "7x + 2 = 3x + 18",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "Perfect square result: 16 = 4².",
+        "sampleSolutions": ["7x + 2 = 3x + 18\n4x + 2 = 18\n4x = 16\nx = 4"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["variables both sides", "perfect squares"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 5, "conceptsUsed": ["variables-both-sides"], "buildsOn": ["linear-eq-y8-094"], "preparesFor": ["linear-eq-y8-096"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Mastering the technique!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set10", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-096",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$8x - 5 = 5x + 10$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$3x - 5 = 10$$\n$$3x = 15$$\n$$x = 5$$\n\n**Answer: x = 5**",
+      "hints": [
+        {"level": 1, "content": "Subtract 5x from both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "3x - 5 = 10", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 5", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "8x - 5x = 3x", "encouragement": "Collect!", "questionPrompt": "Now solve!"},
+        {"level": 2, "content": "3x = 15", "encouragement": "3 × 5!", "questionPrompt": "x = ?"},
+        {"level": 3, "content": "x = 5", "encouragement": "Perfect!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "8x - 5 = 5x + 10",
+        "expectedAnswers": ["5", "x = 5", "x=5", "x= 5", "x =5", "5.0", "x = 5.0"],
+        "gradingGuidance": "Standard variables both sides.",
+        "sampleSolutions": ["8x - 5 = 5x + 10\n3x - 5 = 10\n3x = 15\nx = 5"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["variables both sides"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 6, "conceptsUsed": ["variables-both-sides"], "buildsOn": ["linear-eq-y8-095"], "preparesFor": ["linear-eq-y8-097"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Getting automatic!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set10", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-097",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$9x + 4 = 6x + 25$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$3x + 4 = 25$$\n$$3x = 21$$\n$$x = 7$$\n\n**Answer: x = 7**",
+      "hints": [
+        {"level": 1, "content": "Subtract 6x from both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "3x + 4 = 25", "revealsCriticalInfo": false},
+        {"level": 3, "content": "3x = 21, x = 7", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "9x - 6x = 3x", "encouragement": "Collect!", "questionPrompt": "Then what?"},
+        {"level": 2, "content": "3x = 21", "encouragement": "3 × 7!", "questionPrompt": "x = ?"},
+        {"level": 3, "content": "x = 7", "encouragement": "Great!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "9x + 4 = 6x + 25",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "Standard variables both sides.",
+        "sampleSolutions": ["9x + 4 = 6x + 25\n3x + 4 = 25\n3x = 21\nx = 7"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["variables both sides"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 7, "conceptsUsed": ["variables-both-sides"], "buildsOn": ["linear-eq-y8-096"], "preparesFor": ["linear-eq-y8-098"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Fluent!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set10", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-098",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$10x - 12 = 4x + 24$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$6x - 12 = 24$$\n$$6x = 36$$\n$$x = 6$$\n\n**Answer: x = 6**",
+      "hints": [
+        {"level": 1, "content": "Subtract 4x from both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "6x - 12 = 24", "revealsCriticalInfo": false},
+        {"level": 3, "content": "6x = 36, x = 6", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "10x - 4x = 6x", "encouragement": "Collect!", "questionPrompt": "Now solve!"},
+        {"level": 2, "content": "6x = 36", "encouragement": "6² = 36!", "questionPrompt": "x = ?"},
+        {"level": 3, "content": "x = 6", "encouragement": "x = coefficient!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "10x - 12 = 4x + 24",
+        "expectedAnswers": ["6", "x = 6", "x=6", "x= 6", "x =6", "6.0", "x = 6.0"],
+        "gradingGuidance": "Perfect square: 36 = 6².",
+        "sampleSolutions": ["10x - 12 = 4x + 24\n6x - 12 = 24\n6x = 36\nx = 6"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["variables both sides", "perfect squares"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 8, "conceptsUsed": ["variables-both-sides"], "buildsOn": ["linear-eq-y8-097"], "preparesFor": ["linear-eq-y8-099"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Perfect squares!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set10", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-099",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for y:\n\n$$5y + 11 = 2y + 26$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$3y + 11 = 26$$\n$$3y = 15$$\n$$y = 5$$\n\n**Answer: y = 5**",
+      "hints": [
+        {"level": 1, "content": "Subtract 2y from both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "3y + 11 = 26", "revealsCriticalInfo": false},
+        {"level": 3, "content": "y = 5", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "5y - 2y = 3y", "encouragement": "Any variable!", "questionPrompt": "Now solve!"},
+        {"level": 2, "content": "3y = 15", "encouragement": "3 × 5!", "questionPrompt": "y = ?"},
+        {"level": 3, "content": "y = 5", "encouragement": "Great!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5y + 11 = 2y + 26",
+        "expectedAnswers": ["5", "y = 5", "y=5", "y= 5", "y =5", "5.0", "y = 5.0"],
+        "gradingGuidance": "Variable y, both sides.",
+        "sampleSolutions": ["5y + 11 = 2y + 26\n3y + 11 = 26\n3y = 15\ny = 5"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["variables both sides", "variable flexibility"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 9, "conceptsUsed": ["variables-both-sides", "variable-flexibility"], "buildsOn": ["linear-eq-y8-098"], "preparesFor": ["linear-eq-y8-100"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Any variable!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set10", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-100",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for n:\n\n$$7n - 9 = 3n + 15$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$4n - 9 = 15$$\n$$4n = 24$$\n$$n = 6$$\n\n**Answer: n = 6**",
+      "hints": [
+        {"level": 1, "content": "Subtract 3n from both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "4n - 9 = 15", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4n = 24, n = 6", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "7n - 3n = 4n", "encouragement": "Collect!", "questionPrompt": "Now solve!"},
+        {"level": 2, "content": "4n = 24", "encouragement": "4 × 6!", "questionPrompt": "n = ?"},
+        {"level": 3, "content": "n = 6", "encouragement": "Set 10 complete!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "7n - 9 = 3n + 15",
+        "expectedAnswers": ["6", "n = 6", "n=6", "n= 6", "n =6", "6.0", "n = 6.0"],
+        "gradingGuidance": "Variable n, both sides.",
+        "sampleSolutions": ["7n - 9 = 3n + 15\n4n - 9 = 15\n4n = 24\nn = 6"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["variables both sides"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 10, "conceptsUsed": ["variables-both-sides"], "buildsOn": ["linear-eq-y8-099"], "preparesFor": ["linear-eq-y8-101"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "Variables both sides mastered!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set10", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "setNumber": 9,
+    "phase": "connection",
+    "focus": "Combined techniques - brackets and fractions"
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-081",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{2(x + 3)}{4} = 5$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method:** Multiply by 4, then solve\n$$2(x + 3) = 20$$\n$$2x + 6 = 20$$\n$$2x = 14$$\n$$x = 7$$\n\n**Answer: x = 7**",
+      "hints": [
+        {"level": 1, "content": "Clear the fraction first: multiply by 4.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2(x + 3) = 20. Now expand.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "2x + 6 = 20, x = 7", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Fraction + brackets = clear fraction first", "encouragement": "Step by step!", "questionPrompt": "5 × 4 = ?"},
+        {"level": 2, "content": "2(x+3) = 20", "encouragement": "Now expand!", "questionPrompt": "What's 2(x+3)?"},
+        {"level": 3, "content": "2x = 14, x = 7", "encouragement": "Combined techniques!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2(x + 3)/4 = 5",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "Combined brackets and fractions. Clear fraction first (× 4), then expand brackets, then solve. Multiple valid approaches.",
+        "sampleSolutions": ["2(x+3)/4 = 5\n2(x+3) = 20\n2x + 6 = 20\n2x = 14\nx = 7"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "brackets", "combined techniques"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 21, "conceptsUsed": ["fractions", "brackets"], "buildsOn": ["linear-eq-y8-080"], "preparesFor": ["linear-eq-y8-082"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Combining techniques!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set9", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-082",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$3(x - 2) + 5 = 20$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$3x - 6 + 5 = 20$$\n$$3x - 1 = 20$$\n$$3x = 21$$\n$$x = 7$$\n\n**Answer: x = 7**",
+      "hints": [
+        {"level": 1, "content": "Expand the brackets first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "3x - 6 + 5 = 3x - 1 = 20", "revealsCriticalInfo": false},
+        {"level": 3, "content": "3x = 21, x = 7", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Expand: 3(x-2) = 3x - 6", "encouragement": "Then simplify!", "questionPrompt": "What's -6 + 5?"},
+        {"level": 2, "content": "3x - 1 = 20", "encouragement": "Two-step now!", "questionPrompt": "Add 1, then...?"},
+        {"level": 3, "content": "x = 7", "encouragement": "Nice!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3(x - 2) + 5 = 20",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "Brackets with additional constant. Expand, simplify, solve.",
+        "sampleSolutions": ["3(x-2) + 5 = 20\n3x - 6 + 5 = 20\n3x - 1 = 20\n3x = 21\nx = 7"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "simplification"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 22, "conceptsUsed": ["brackets", "simplification"], "buildsOn": ["linear-eq-y8-081"], "preparesFor": ["linear-eq-y8-083"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Multiple operations!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set9", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-083",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{2} + \\frac{x}{4} = 6$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method:** Multiply all terms by 4 (LCM)\n$$2x + x = 24$$\n$$3x = 24$$\n$$x = 8$$\n\n**Answer: x = 8**",
+      "hints": [
+        {"level": 1, "content": "Clear fractions by multiplying by 4 (LCM of 2 and 4).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2x + x = 24", "revealsCriticalInfo": false},
+        {"level": 3, "content": "3x = 24, x = 8", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "LCM of 2 and 4 is 4", "encouragement": "Clear all fractions at once!", "questionPrompt": "4 × (x/2) = ?"},
+        {"level": 2, "content": "2x + x = 24", "encouragement": "Combine like terms!", "questionPrompt": "2x + x = ?"},
+        {"level": 3, "content": "x = 8", "encouragement": "Multiple fractions handled!", "questionPrompt": "Check: 4 + 2 = 6 ✓"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x/2 + x/4 = 6",
+        "expectedAnswers": ["8", "x = 8", "x=8", "x= 8", "x =8", "8.0", "x = 8.0"],
+        "gradingGuidance": "Multiple fractions. Clear by multiplying by LCM (4). Or find common denominator first. Either approach valid.",
+        "sampleSolutions": ["x/2 + x/4 = 6\nMultiply by 4:\n2x + x = 24\n3x = 24\nx = 8"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "LCM", "combining terms"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 23, "conceptsUsed": ["fractions", "LCM"], "buildsOn": ["linear-eq-y8-082"], "preparesFor": ["linear-eq-y8-084"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Multiple fractions!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set9", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-084",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$4(x + 1) - 2 = 18$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$4x + 4 - 2 = 18$$\n$$4x + 2 = 18$$\n$$4x = 16$$\n$$x = 4$$\n\n**Answer: x = 4**",
+      "hints": [
+        {"level": 1, "content": "Expand 4(x + 1) first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "4x + 4 - 2 = 4x + 2 = 18", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4x = 16, x = 4", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "4(x+1) = 4x + 4", "encouragement": "Then simplify!", "questionPrompt": "4 - 2 = ?"},
+        {"level": 2, "content": "4x + 2 = 18", "encouragement": "Two-step!", "questionPrompt": "Subtract 2, then...?"},
+        {"level": 3, "content": "x = 4", "encouragement": "Perfect square: 16 = 4²!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4(x + 1) - 2 = 18",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "Brackets with subtraction outside. Expand, simplify, solve.",
+        "sampleSolutions": ["4(x+1) - 2 = 18\n4x + 4 - 2 = 18\n4x + 2 = 18\n4x = 16\nx = 4"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "simplification"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 24, "conceptsUsed": ["brackets", "simplification"], "buildsOn": ["linear-eq-y8-083"], "preparesFor": ["linear-eq-y8-085"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Simplification is key!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set9", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-085",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{3x + 6}{3} = 7$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method 1:** Multiply by 3\n$$3x + 6 = 21$$\n$$3x = 15$$\n$$x = 5$$\n\n**Method 2:** Simplify first\n$$\\frac{3(x + 2)}{3} = x + 2 = 7$$\n$$x = 5$$\n\n**Answer: x = 5**",
+      "hints": [
+        {"level": 1, "content": "You can simplify the fraction OR multiply by 3.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "If multiplying: 3x + 6 = 21", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 5", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Notice 3 divides into both terms!", "encouragement": "Simplify or multiply!", "questionPrompt": "Which method?"},
+        {"level": 2, "content": "Either: 3x = 15 or x + 2 = 7", "encouragement": "Both work!", "questionPrompt": "What's x?"},
+        {"level": 3, "content": "x = 5", "encouragement": "Multiple methods!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "(3x + 6)/3 = 7",
+        "expectedAnswers": ["5", "x = 5", "x=5", "x= 5", "x =5", "5.0", "x = 5.0"],
+        "gradingGuidance": "Can simplify fraction first OR multiply through. Both valid.",
+        "sampleSolutions": ["(3x + 6)/3 = 7\n3x + 6 = 21\n3x = 15\nx = 5", "Simplify:\nx + 2 = 7\nx = 5"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "simplification", "multiple methods"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 25, "conceptsUsed": ["fractions", "simplification"], "buildsOn": ["linear-eq-y8-084"], "preparesFor": ["linear-eq-y8-086"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Spot simplifications!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set9", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-086",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$2(x + 5) = 3(x + 2)$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Expand both sides:**\n$$2x + 10 = 3x + 6$$\n\n**Subtract 2x from both sides:**\n$$10 = x + 6$$\n\n**Subtract 6:**\n$$x = 4$$\n\n**Answer: x = 4**",
+      "hints": [
+        {"level": 1, "content": "Expand both brackets first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2x + 10 = 3x + 6. Get x terms on one side.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 4", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Expand: LHS = 2x + 10, RHS = 3x + 6", "encouragement": "Both sides!", "questionPrompt": "Now what?"},
+        {"level": 2, "content": "Get x on one side: 10 = x + 6", "encouragement": "Almost there!", "questionPrompt": "10 - 6 = ?"},
+        {"level": 3, "content": "x = 4", "encouragement": "Preview of variables both sides!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2(x + 5) = 3(x + 2)",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "Brackets on both sides - preview of variables both sides. Expand both, collect like terms.",
+        "sampleSolutions": ["2(x + 5) = 3(x + 2)\n2x + 10 = 3x + 6\n10 = x + 6\nx = 4"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "collecting terms", "variables both sides"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 26, "conceptsUsed": ["brackets", "collecting-terms"], "buildsOn": ["linear-eq-y8-085"], "preparesFor": ["linear-eq-y8-087"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Brackets both sides!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set9", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-087",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{3} + \\frac{x}{6} = 5$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Multiply by 6 (LCM):**\n$$2x + x = 30$$\n$$3x = 30$$\n$$x = 10$$\n\n**Answer: x = 10**",
+      "hints": [
+        {"level": 1, "content": "LCM of 3 and 6 is 6.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Multiply all by 6: 2x + x = 30", "revealsCriticalInfo": false},
+        {"level": 3, "content": "3x = 30, x = 10", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Clear fractions with LCM = 6", "encouragement": "6 × (x/3) = 2x", "questionPrompt": "6 × (x/6) = ?"},
+        {"level": 2, "content": "2x + x = 30", "encouragement": "Combine!", "questionPrompt": "3x = ?"},
+        {"level": 3, "content": "x = 10", "encouragement": "Nice round answer!", "questionPrompt": "Check: 10/3 + 10/6 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x/3 + x/6 = 5",
+        "expectedAnswers": ["10", "x = 10", "x=10", "x= 10", "x =10", "10.0", "x = 10.0"],
+        "gradingGuidance": "Multiple fractions. Clear with LCM = 6.",
+        "sampleSolutions": ["x/3 + x/6 = 5\nMultiply by 6:\n2x + x = 30\n3x = 30\nx = 10"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "LCM"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 27, "conceptsUsed": ["fractions", "LCM"], "buildsOn": ["linear-eq-y8-086"], "preparesFor": ["linear-eq-y8-088"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "LCM mastered!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set9", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-088",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$5(x - 3) + 2x = 13$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$5x - 15 + 2x = 13$$\n$$7x - 15 = 13$$\n$$7x = 28$$\n$$x = 4$$\n\n**Answer: x = 4**",
+      "hints": [
+        {"level": 1, "content": "Expand 5(x - 3), then combine like terms.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "7x - 15 = 13", "revealsCriticalInfo": false},
+        {"level": 3, "content": "7x = 28, x = 4", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "5(x-3) = 5x - 15", "encouragement": "Then combine x terms!", "questionPrompt": "5x + 2x = ?"},
+        {"level": 2, "content": "7x - 15 = 13", "encouragement": "Two-step now!", "questionPrompt": "Add 15, then...?"},
+        {"level": 3, "content": "x = 4", "encouragement": "7 × 4 = 28!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5(x - 3) + 2x = 13",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "Brackets plus additional x term. Expand, combine, solve.",
+        "sampleSolutions": ["5(x-3) + 2x = 13\n5x - 15 + 2x = 13\n7x - 15 = 13\n7x = 28\nx = 4"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "combining terms"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 28, "conceptsUsed": ["brackets", "combining-terms"], "buildsOn": ["linear-eq-y8-087"], "preparesFor": ["linear-eq-y8-089"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Combining all techniques!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set9", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-089",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for y:\n\n$$\\frac{2y + 8}{4} = 5$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Multiply by 4:**\n$$2y + 8 = 20$$\n$$2y = 12$$\n$$y = 6$$\n\n**Answer: y = 6**",
+      "hints": [
+        {"level": 1, "content": "Multiply by 4 to clear fraction.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2y + 8 = 20, so 2y = 12", "revealsCriticalInfo": false},
+        {"level": 3, "content": "y = 6", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Clear fraction: × 4", "encouragement": "Any variable!", "questionPrompt": "5 × 4 = ?"},
+        {"level": 2, "content": "2y = 12", "encouragement": "Two-step!", "questionPrompt": "12 ÷ 2 = ?"},
+        {"level": 3, "content": "y = 6", "encouragement": "Great!", "questionPrompt": "Check: (12+8)/4 = ?"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "(2y + 8)/4 = 5",
+        "expectedAnswers": ["6", "y = 6", "y=6", "y= 6", "y =6", "6.0", "y = 6.0"],
+        "gradingGuidance": "Variable y. Could simplify (factor 2) or multiply through.",
+        "sampleSolutions": ["(2y + 8)/4 = 5\n2y + 8 = 20\n2y = 12\ny = 6"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["fractions", "variable flexibility"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 29, "conceptsUsed": ["fractions", "variable-flexibility"], "buildsOn": ["linear-eq-y8-088"], "preparesFor": ["linear-eq-y8-090"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "All techniques with any variable!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set9", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-090",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for n:\n\n$$3(2n + 1) - 4 = 17$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$6n + 3 - 4 = 17$$\n$$6n - 1 = 17$$\n$$6n = 18$$\n$$n = 3$$\n\n**Answer: n = 3**",
+      "hints": [
+        {"level": 1, "content": "Expand 3(2n + 1) first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "6n + 3 - 4 = 6n - 1 = 17", "revealsCriticalInfo": false},
+        {"level": 3, "content": "6n = 18, n = 3", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "3(2n+1) = 6n + 3", "encouragement": "Both terms!", "questionPrompt": "3 - 4 = ?"},
+        {"level": 2, "content": "6n - 1 = 17", "encouragement": "Add 1!", "questionPrompt": "17 + 1 = ?"},
+        {"level": 3, "content": "n = 3", "encouragement": "Connection phase complete!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3(2n + 1) - 4 = 17",
+        "expectedAnswers": ["3", "n = 3", "n=3", "n= 3", "n =3", "3.0", "n = 3.0"],
+        "gradingGuidance": "Complex brackets with coefficient inside. Expand, simplify, solve.",
+        "sampleSolutions": ["3(2n + 1) - 4 = 17\n6n + 3 - 4 = 17\n6n - 1 = 17\n6n = 18\nn = 3"],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "coefficients", "simplification"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 30, "conceptsUsed": ["brackets", "coefficients"], "buildsOn": ["linear-eq-y8-089"], "preparesFor": ["linear-eq-y8-091"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Connection phase complete - ready for mastery!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set9", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

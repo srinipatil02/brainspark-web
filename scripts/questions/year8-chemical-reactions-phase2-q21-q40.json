@@ -1,0 +1,1334 @@
+[
+  {
+    "questionId": "chem-react-y8-021",
+    "questionType": "MCQ",
+    "stem": "A word equation shows:\n\n**hydrogen + oxygen → water**\n\nIn this reaction, which substances are the **reactants**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Hydrogen and oxygen",
+        "isCorrect": true,
+        "feedback": "Correct! Reactants are the substances that **start** the reaction - they appear before the arrow. Hydrogen and oxygen combine to form water."
+      },
+      {
+        "id": "B",
+        "text": "Water only",
+        "isCorrect": false,
+        "feedback": "Water is the **product** - it's what forms after the reaction. Products appear after the arrow (→)."
+      },
+      {
+        "id": "C",
+        "text": "Hydrogen only",
+        "isCorrect": false,
+        "feedback": "Hydrogen is one reactant, but oxygen is also needed. Both substances before the arrow are reactants."
+      },
+      {
+        "id": "D",
+        "text": "All three substances",
+        "isCorrect": false,
+        "feedback": "Water is the product (after the arrow), not a reactant. Only substances before the arrow are reactants."
+      }
+    ],
+    "solution": "The answer is **A: Hydrogen and oxygen**.\n\nIn a **word equation**, the arrow (→) shows the direction of the reaction:\n- **Before the arrow**: Reactants (what you start with)\n- **After the arrow**: Products (what you end up with)\n\nSo in **hydrogen + oxygen → water**:\n- **Reactants**: hydrogen and oxygen (they combine)\n- **Product**: water (what forms)\n\nThe plus sign (+) between hydrogen and oxygen shows these two reactants are **reacting together**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what the arrow (→) means in a word equation. Which side shows what you start with?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Reactants appear **before** the arrow. Look at what's written on the left side of the equation.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 21,
+      "conceptsUsed": ["c4", "c3"],
+      "buildsOn": ["chem-react-y8-005", "chem-react-y8-006"],
+      "preparesFor": ["chem-react-y8-022", "chem-react-y8-023"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set3",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-022",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Complete this word equation for the rusting of iron:\n\n**iron + _______ → iron oxide**\n\nWhat substance fills the blank? Explain why this substance is needed for rusting to occur.",
+    "solution": "The missing substance is **oxygen**.\n\n**Complete equation**: iron + oxygen → iron oxide\n\n**Explanation**: Rusting is a **chemical reaction** where iron combines with **oxygen** from the air. This is why:\n- Metal rusts faster in wet conditions (water helps oxygen reach the metal)\n- Metal doesn't rust in a vacuum (no oxygen present)\n- Painting metal prevents rust (blocks oxygen from touching the metal)\n\nThe **iron oxide** (rust) is the **product** that forms when iron and oxygen react together over time.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what iron needs from the air to form rust. What gas makes up about 21% of air?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Rusting requires a gas from the atmosphere. The product name 'iron oxide' gives you a clue about what reacts with iron.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 22,
+      "conceptsUsed": ["c4", "c6"],
+      "buildsOn": ["chem-react-y8-021"],
+      "preparesFor": ["chem-react-y8-032", "chem-react-y8-033"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set3",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-023",
+    "questionType": "MCQ",
+    "stem": "You strike a match and it bursts into flame. This is a **combustion** reaction.\n\nWhat makes a match burst into flame when you strike it?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Friction creates heat, which starts a rapid reaction with oxygen in the air",
+        "isCorrect": true,
+        "feedback": "Correct! Striking creates **heat from friction**, which triggers a **combustion reaction** - the match head chemicals react rapidly with **oxygen**, producing heat and light (flame)."
+      },
+      {
+        "id": "B",
+        "text": "The match head contains trapped fire that gets released",
+        "isCorrect": false,
+        "feedback": "Fire isn't 'stored' in materials. Fire is the result of a **chemical reaction** (combustion) that happens when fuel reacts with oxygen and releases energy."
+      },
+      {
+        "id": "C",
+        "text": "Rubbing the match creates electricity that lights it",
+        "isCorrect": false,
+        "feedback": "The heat comes from **friction**, not electricity. This heat starts a **combustion reaction** between the match chemicals and oxygen."
+      },
+      {
+        "id": "D",
+        "text": "The match head explodes from pressure when you strike it",
+        "isCorrect": false,
+        "feedback": "It's not an explosion from pressure. It's a **combustion reaction** - rapid reaction with oxygen that produces heat and light."
+      }
+    ],
+    "solution": "The answer is **A: Friction creates heat, which starts a rapid reaction with oxygen in the air**.\n\nHere's what happens when you strike a match:\n\n1. **Friction** from rubbing creates **heat**\n2. This heat triggers a **combustion reaction** - chemicals in the match head react **rapidly with oxygen** from the air\n3. The reaction **releases energy** as heat and light (the flame)\n\n**Word equation**: match chemicals + oxygen → products + heat + light\n\n**Combustion** is a type of chemical reaction that:\n- Requires **oxygen** (from air)\n- Is **rapid** (happens quickly)\n- Produces **heat and light**\n\nThis is why matches won't light in a vacuum (no oxygen) or underwater (oxygen can't reach the match head easily).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens when you rub two things together quickly. What do you feel? And what gas does a flame need?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Striking creates heat from friction. Combustion reactions need oxygen from the air and produce flames. Connect these ideas.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 23,
+      "conceptsUsed": ["c5", "c2"],
+      "buildsOn": ["chem-react-y8-008", "chem-react-y8-021"],
+      "preparesFor": ["chem-react-y8-026", "chem-react-y8-027"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set3",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-024",
+    "questionType": "MCQ",
+    "stem": "Look at this word equation:\n\n**magnesium + oxygen → magnesium oxide**\n\nWhich statement correctly describes this reaction?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Magnesium oxide breaks down into magnesium and oxygen",
+        "isCorrect": false,
+        "feedback": "The arrow shows the reaction going the **other direction**. Magnesium and oxygen **combine** to form magnesium oxide, they don't break it down."
+      },
+      {
+        "id": "B",
+        "text": "Magnesium and oxygen combine to form a new substance called magnesium oxide",
+        "isCorrect": true,
+        "feedback": "Correct! The arrow (→) shows the direction: **reactants combine to form products**. Two elements (magnesium + oxygen) react to create one new compound (magnesium oxide)."
+      },
+      {
+        "id": "C",
+        "text": "Magnesium oxide is a mixture of magnesium and oxygen",
+        "isCorrect": false,
+        "feedback": "It's not a mixture - it's a **new substance** formed by a chemical reaction. The properties of magnesium oxide are different from pure magnesium or pure oxygen."
+      },
+      {
+        "id": "D",
+        "text": "Oxygen changes into magnesium oxide",
+        "isCorrect": false,
+        "feedback": "Oxygen doesn't change on its own. It **reacts with magnesium** to form magnesium oxide. Both reactants are needed."
+      }
+    ],
+    "solution": "The answer is **B: Magnesium and oxygen combine to form a new substance called magnesium oxide**.\n\nReading the word equation:\n- **Left side** (before →): **Reactants** - magnesium and oxygen\n- **Right side** (after →): **Product** - magnesium oxide\n\nThe reaction shows:\n1. Two separate elements (magnesium and oxygen) **react together**\n2. They form a **new compound** (magnesium oxide)\n3. This new substance has **different properties** from either reactant\n\nThis is a **chemical change** because:\n- A new substance forms\n- The change is difficult to reverse\n- Energy is released (this reaction produces heat and light)\n\nThis type of reaction with oxygen is called **oxidation**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Remember: the arrow points from reactants to products. Which way is the reaction going?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The substances before the arrow (magnesium and oxygen) are combining. What happens when two substances react in a chemical change?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 70,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 24,
+      "conceptsUsed": ["c4", "c3", "c1"],
+      "buildsOn": ["chem-react-y8-021", "chem-react-y8-001"],
+      "preparesFor": ["chem-react-y8-025", "chem-react-y8-031"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set3",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-025",
+    "questionType": "SHORT_ANSWER",
+    "stem": "When natural gas (methane) burns in a gas stove, it undergoes combustion:\n\n**methane + oxygen → carbon dioxide + water**\n\nIdentify the **reactants** and **products** in this reaction. Then explain why combustion is classified as a **chemical change**.",
+    "solution": "**Reactants**: methane and oxygen\n\n**Products**: carbon dioxide and water\n\n**Why combustion is a chemical change**:\n\n1. **New substances form** - The products (carbon dioxide and water) have completely different properties from the reactants (methane and oxygen)\n\n2. **Difficult to reverse** - You cannot easily turn carbon dioxide and water back into methane and oxygen\n\n3. **Energy is released** - Combustion produces **heat and light** (the blue flame you see)\n\n4. **Signs of chemical reaction** - The flame is visible evidence that a rapid chemical reaction is occurring\n\nThe methane molecules are **breaking apart** and **recombining** with oxygen to form entirely new molecules (CO₂ and H₂O). This is very different from a physical change where substances keep their chemical identity.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at the word equation. What's before the arrow? What's after? Then think about the properties of chemical changes you learned in Phase 1.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Reactants are on the left of the arrow, products on the right. Chemical changes form new substances, are hard to reverse, and often release energy.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 25,
+      "conceptsUsed": ["c4", "c5", "c1", "c2"],
+      "buildsOn": ["chem-react-y8-024", "chem-react-y8-001", "chem-react-y8-002"],
+      "preparesFor": ["chem-react-y8-026", "chem-react-y8-036"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set3",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-026",
+    "questionType": "MCQ",
+    "stem": "A student says: **\"Chemical reactions always produce flames and fire.\"**\n\nIs this statement correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "No - many chemical reactions occur without flames, like rusting and digestion",
+        "isCorrect": true,
+        "feedback": "Correct! **Combustion** reactions produce flames, but many other chemical reactions happen **without fire**. Examples: rusting (slow reaction with oxygen), digestion (breaking down food), batteries producing electricity, photosynthesis in plants."
+      },
+      {
+        "id": "B",
+        "text": "Yes - all chemical reactions need fire to get started",
+        "isCorrect": false,
+        "feedback": "This is a common misconception. While **combustion** reactions involve flames, many reactions occur at room temperature without any fire: rusting, tarnishing, digestion, acid-base reactions."
+      },
+      {
+        "id": "C",
+        "text": "No - only reactions with oxygen produce flames",
+        "isCorrect": false,
+        "feedback": "Partially correct thinking, but not quite right. **Combustion** reactions with oxygen produce flames, but many reactions with oxygen (like rusting) happen **slowly** without flames."
+      },
+      {
+        "id": "D",
+        "text": "Yes - flames are the only sign that a chemical reaction is happening",
+        "isCorrect": false,
+        "feedback": "Flames are **one sign** of chemical reactions, but there are many others: color changes, gas bubbles, temperature changes, precipitates forming. Most reactions don't involve flames."
+      }
+    ],
+    "solution": "The answer is **A: No - many chemical reactions occur without flames, like rusting and digestion**.\n\nThis addresses **misconception m5**: \"All chemical reactions need flames or fire.\"\n\n**Chemical reactions can be:**\n\n1. **Fast with flames** (combustion)\n   - Burning wood: wood + oxygen → carbon dioxide + water + ash\n   - Rapid reaction, produces heat and light\n\n2. **Slow without flames**\n   - Rusting: iron + oxygen → iron oxide\n   - Takes weeks/months, no flames\n\n3. **Other types** (no flames)\n   - Digestion: food → nutrients\n   - Photosynthesis: carbon dioxide + water → glucose + oxygen\n   - Battery reactions: chemicals → electrical energy\n\n**Signs of chemical reactions** (besides flames):\n- Color change\n- Gas bubbles\n- Temperature change\n- Precipitate forms\n- New smell\n\nFlames only occur in **combustion** - one specific type of chemical reaction.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about rusting metal. Is that a chemical reaction? Does it involve flames?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider all the signs of chemical reactions you learned. Are flames the only sign? What about rusting, tarnishing, or digesting food?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 26,
+      "conceptsUsed": ["c5", "c6", "c2"],
+      "buildsOn": ["chem-react-y8-002", "chem-react-y8-023"],
+      "preparesFor": ["chem-react-y8-032", "chem-react-y8-033"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set3",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-027",
+    "questionType": "MCQ",
+    "stem": "When petrol burns in a car engine, the combustion reaction is:\n\n**petrol + oxygen → carbon dioxide + water + energy**\n\nWhat are the THREE things that all combustion reactions produce?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "New substances, heat, and light",
+        "isCorrect": true,
+        "feedback": "Correct! All combustion reactions: (1) form **new chemical substances** (like CO₂ and water), (2) release **heat** energy, and (3) produce **light** (flames). This is why engines get hot and you see flames in fires."
+      },
+      {
+        "id": "B",
+        "text": "Oxygen, carbon dioxide, and water",
+        "isCorrect": false,
+        "feedback": "Oxygen is a **reactant** (not produced). While CO₂ and water are common products, the three things **all** combustion reactions produce are: new substances, heat, and light."
+      },
+      {
+        "id": "C",
+        "text": "Fuel, flames, and smoke",
+        "isCorrect": false,
+        "feedback": "Fuel is a **reactant** (it gets used up, not produced). Smoke isn't always produced. The three things all combustion reactions produce are: new substances, heat, and light."
+      },
+      {
+        "id": "D",
+        "text": "Carbon dioxide, oxygen, and heat",
+        "isCorrect": false,
+        "feedback": "Oxygen is a **reactant** (used up, not produced). While CO₂ and heat are produced, you're missing **light**. All combustion reactions produce: new substances, heat, and light."
+      }
+    ],
+    "solution": "The answer is **A: New substances, heat, and light**.\n\n**All combustion reactions produce:**\n\n1. **New chemical substances**\n   - The products are different from the reactants\n   - Example: petrol + oxygen → CO₂ + water (both new substances)\n\n2. **Heat energy**\n   - Combustion is **exothermic** (releases heat)\n   - This heat makes engines work and keeps us warm from fires\n   - Why car engines need cooling systems\n\n3. **Light energy**\n   - The visible **flame** is light energy\n   - May be small (gas stove flame) or large (bushfire)\n\n**Characteristics of combustion:**\n- **Rapid** reaction (happens quickly)\n- Requires **oxygen** (usually from air)\n- Requires **fuel** (something that burns)\n- **Exothermic** (releases energy as heat and light)\n\nThis is why combustion reactions are so useful - they release energy we can harness for heat (heaters), light (candles), or movement (car engines).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what you observe when something burns. What do you see and feel? Also, remember that chemical reactions always create new substances.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Combustion means 'burning'. When things burn, you see flames (that's light) and feel warmth (that's heat). Chemical reactions also form new substances.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 70,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 27,
+      "conceptsUsed": ["c5", "c2"],
+      "buildsOn": ["chem-react-y8-023", "chem-react-y8-025"],
+      "preparesFor": ["chem-react-y8-036", "chem-react-y8-040"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set3",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-028",
+    "questionType": "SHORT_ANSWER",
+    "stem": "You see bubbles forming when you drop an antacid tablet into water.\n\nA student says: **\"Those bubbles are hydrogen and oxygen from the water molecule splitting apart.\"**\n\nIs the student correct? Explain your answer and identify what gas is actually forming the bubbles.",
+    "solution": "**No, the student is not correct.**\n\n**What's really happening:**\n\nThe bubbles are **carbon dioxide gas** being released from a **chemical reaction** between the antacid tablet and water. They are NOT hydrogen and oxygen from water splitting.\n\n**Why the student is wrong:**\n\n1. Water molecules (H₂O) are **very stable** and don't easily split apart at room temperature\n2. Splitting water requires **electrical energy** (electrolysis) or very high temperatures\n3. The antacid contains chemicals that **react with water** to produce carbon dioxide gas\n\n**Word equation**: antacid chemicals + water → products + **carbon dioxide**\n\n**This addresses misconception m8**: \"Bubbles in boiling water are hydrogen and oxygen.\" Bubbles in chemical reactions are usually **new gases being produced** (like CO₂), not water breaking into H₂ and O₂.\n\n**Evidence**: The fizzing and bubbles are signs of a **chemical reaction** - the antacid is chemically reacting, not just dissolving.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether water molecules easily break apart at room temperature. Also, consider what gas an antacid might produce (similar to soft drinks).",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Water molecules are stable and don't split easily. Antacid tablets contain chemicals that react with water to produce carbon dioxide - the same gas that makes soft drinks fizzy.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 28,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["chem-react-y8-002", "chem-react-y8-007"],
+      "preparesFor": ["chem-react-y8-037", "chem-react-y8-042"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set3",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-029",
+    "questionType": "MCQ",
+    "stem": "When wood burns in a fireplace:\n\n**wood + oxygen → carbon dioxide + water vapour + ash + energy**\n\nHow many **products** are formed in this combustion reaction?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Two products",
+        "isCorrect": false,
+        "feedback": "Count all the substances after the arrow. There are more than two products in this reaction."
+      },
+      {
+        "id": "B",
+        "text": "Three products",
+        "isCorrect": false,
+        "feedback": "You're close, but count again. Remember that energy is released but the **chemical products** are the new substances formed."
+      },
+      {
+        "id": "C",
+        "text": "Three chemical products (carbon dioxide, water vapour, and ash)",
+        "isCorrect": true,
+        "feedback": "Correct! The three **chemical products** (new substances) are: carbon dioxide, water vapour, and ash. Energy is also released, but it's not a chemical substance - it's a form of energy output."
+      },
+      {
+        "id": "D",
+        "text": "Four products (carbon dioxide, water vapour, ash, and energy)",
+        "isCorrect": false,
+        "feedback": "While energy is released, it's not a chemical **substance**. The three **chemical products** (new substances formed) are: carbon dioxide, water vapour, and ash."
+      }
+    ],
+    "solution": "The answer is **C: Three chemical products (carbon dioxide, water vapour, and ash)**.\n\n**Understanding the word equation:**\n\n**Reactants** (before the arrow):\n- Wood (the fuel)\n- Oxygen (from air)\n\n**Products** (after the arrow):\n1. **Carbon dioxide** (gas released into air)\n2. **Water vapour** (gas released as steam)\n3. **Ash** (solid residue left behind)\n\n**Energy** (heat and light) is also released, but it's an **energy output**, not a chemical substance/product.\n\n**Why this matters:**\n- Products are the **new substances** formed\n- In combustion, there are often **multiple products**\n- Some products are **gases** (invisible, escape into air)\n- Some products are **solids** (visible, like ash)\n\nThis is why the mass of ash is less than the original wood - most products (CO₂ and water vapour) escape as gases!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Products are the new substances that form after the reaction. Look at everything listed after the arrow (→).",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Count the new substances (not energy). After the arrow you have: carbon dioxide, water vapour, and ash. Energy is released but it's not a chemical substance.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 65,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 29,
+      "conceptsUsed": ["c4", "c5", "c3"],
+      "buildsOn": ["chem-react-y8-021", "chem-react-y8-027"],
+      "preparesFor": ["chem-react-y8-030", "chem-react-y8-038"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set3",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-030",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Complete the word equation for the combustion of candle wax:\n\n**candle wax + _______ → _______ + water vapour**\n\nIdentify both missing substances and explain why you can't see most of the products even though they're being formed.",
+    "solution": "**Complete equation:**\n\n**candle wax + oxygen → carbon dioxide + water vapour**\n\n**Missing substances:**\n1. **Oxygen** (reactant) - from the air around the candle\n2. **Carbon dioxide** (product) - formed along with water vapour\n\n**Why you can't see most products:**\n\nBoth products (carbon dioxide and water vapour) are **colourless gases** that:\n\n1. **Escape into the air** - they rise up and disperse in the atmosphere\n2. **Are invisible** - gases are made of particles spread far apart, so we can't see them\n3. **Mix with air** - they blend into the surrounding air immediately\n\nThis is why:\n- Candles seem to \"disappear\" as they burn (the solid wax turns into invisible gases)\n- You need ventilation when burning candles (CO₂ accumulates in closed spaces)\n- You might see water vapour condense on a cold surface held above a candle (gas → liquid droplets)\n\n**Evidence the products exist:** If you hold a cold glass above the flame, water vapour condenses into visible droplets!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what all combustion reactions need (a gas from air) and what they produce. Remember that combustion often produces CO₂.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Combustion needs oxygen and typically produces carbon dioxide and water. Both products are gases - what property of gases makes them invisible?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 30,
+      "conceptsUsed": ["c4", "c5", "c3"],
+      "buildsOn": ["chem-react-y8-029", "chem-react-y8-025"],
+      "preparesFor": ["chem-react-y8-038", "chem-react-y8-040"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set3",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-031",
+    "questionType": "MCQ",
+    "stem": "A rusty bike left outside for months shows this chemical reaction:\n\n**iron + oxygen → iron oxide (rust)**\n\nHow does rusting differ from combustion (burning)?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Rusting is a slow reaction with oxygen; combustion is a rapid reaction with oxygen",
+        "isCorrect": true,
+        "feedback": "Correct! Both are reactions with **oxygen**, but: **Rusting** = slow oxidation (takes weeks/months, no flames), **Combustion** = rapid oxidation (takes seconds/minutes, produces flames). Same reactant (oxygen), different speeds!"
+      },
+      {
+        "id": "B",
+        "text": "Rusting doesn't need oxygen; combustion requires oxygen",
+        "isCorrect": false,
+        "feedback": "Both reactions **need oxygen**! Look at the word equation - iron + **oxygen** → iron oxide. The difference is the **speed**: rusting is slow, combustion is rapid."
+      },
+      {
+        "id": "C",
+        "text": "Rusting is a physical change; combustion is a chemical change",
+        "isCorrect": false,
+        "feedback": "Both are **chemical changes** (new substances form). The word equation shows iron changing into iron oxide - that's a chemical change. The difference is **speed**: rusting is slow, combustion is rapid."
+      },
+      {
+        "id": "D",
+        "text": "Rusting produces energy; combustion absorbs energy",
+        "isCorrect": false,
+        "feedback": "Actually, **combustion releases energy** (heat and light - that's why we see flames). Rusting also releases energy, but so slowly you can't feel it. The main difference is **speed**."
+      }
+    ],
+    "solution": "The answer is **A: Rusting is a slow reaction with oxygen; combustion is a rapid reaction with oxygen**.\n\n**Comparing the two reactions:**\n\n**RUSTING (slow oxidation):**\n- **Reactants**: iron + oxygen\n- **Speed**: Very slow (weeks to months)\n- **Energy release**: Slow (can't feel heat)\n- **Appearance**: No flames, gradual color change\n- **Product**: Iron oxide (flaky, orange-brown)\n\n**COMBUSTION (rapid oxidation):**\n- **Reactants**: fuel + oxygen  \n- **Speed**: Very rapid (seconds to minutes)\n- **Energy release**: Fast (intense heat and light)\n- **Appearance**: Flames visible\n- **Products**: Often CO₂, water, ash\n\n**Key insight**: Both are **oxidation reactions** (reacting with oxygen), but at very different speeds:\n- **Slow oxidation** = rusting, tarnishing, corrosion\n- **Rapid oxidation** = combustion, burning, flames\n\nThis is why we can prevent rust by **blocking oxygen** (painting, oiling) - just like fires need oxygen!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at both word equations. What reactant do they have in common? Then think about how fast each reaction happens.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Both reactions use oxygen. Rusting takes months and has no flames. Combustion takes seconds and produces flames. What's the key difference?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 80,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 31,
+      "conceptsUsed": ["c6", "c5"],
+      "buildsOn": ["chem-react-y8-022", "chem-react-y8-027"],
+      "preparesFor": ["chem-react-y8-032", "chem-react-y8-033"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set4",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-032",
+    "questionType": "MCQ",
+    "stem": "You find an old car with rusty doors. The rust is flaky, orange-brown, and crumbly.\n\nWhy does rust have different properties from the original iron metal?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Because iron oxide (rust) is a completely different substance from iron metal",
+        "isCorrect": true,
+        "feedback": "Correct! Rusting is a **chemical change** - iron reacts with oxygen to form **iron oxide**, which has different properties: different color (orange vs grey), different texture (crumbly vs solid), different strength (weak vs strong). New substance = new properties!"
+      },
+      {
+        "id": "B",
+        "text": "Because the iron absorbed water and became softer",
+        "isCorrect": false,
+        "feedback": "Water helps rusting happen, but rust isn't just 'wet iron'. It's a **new substance** (iron oxide) formed by a **chemical reaction** between iron and oxygen. That's why it has completely different properties."
+      },
+      {
+        "id": "C",
+        "text": "Because oxygen painted the iron surface orange",
+        "isCorrect": false,
+        "feedback": "The color change isn't like paint on a surface. The iron **chemically reacted** with oxygen to form **iron oxide** - a new substance with new properties (color, texture, strength)."
+      },
+      {
+        "id": "D",
+        "text": "Because the iron is old and worn out",
+        "isCorrect": false,
+        "feedback": "Age alone doesn't change properties. The iron underwent a **chemical reaction** with oxygen, forming **iron oxide** (rust) - a completely different substance with different properties."
+      }
+    ],
+    "solution": "The answer is **A: Because iron oxide (rust) is a completely different substance from iron metal**.\n\n**Why rust has different properties:**\n\n**Chemical reaction occurred:**\niron + oxygen → **iron oxide (rust)**\n\n**Property comparison:**\n\n| Property | Iron Metal | Iron Oxide (Rust) |\n|----------|-----------|-------------------|\n| Color | Grey/silver | Orange-brown |\n| Texture | Smooth, solid | Flaky, crumbly |\n| Strength | Strong, hard | Weak, brittle |\n| Structure | Dense metal | Porous oxide |\n\n**Why properties change:**\n1. **New substance forms** - Iron oxide has a different **molecular structure** than iron\n2. **Chemical change** - The atoms rearrange into new compounds\n3. **Different bonding** - Iron-oxygen bonds are different from iron-iron bonds\n\n**This is evidence of a chemical change:**\n- New substance with new properties\n- Difficult to reverse (can't easily turn rust back into iron)\n- Reaction with another substance (oxygen)\n\nThis is why preventing rust (painting, galvanizing) is important - once iron becomes rust, it has permanently different properties!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what type of change rusting is - physical or chemical? What happens to properties when a chemical change occurs?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Rusting is a chemical change that creates iron oxide (a new substance). In chemical changes, new substances have different properties from the original substances.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 32,
+      "conceptsUsed": ["c6", "c1", "c3"],
+      "buildsOn": ["chem-react-y8-031", "chem-react-y8-001"],
+      "preparesFor": ["chem-react-y8-033", "chem-react-y8-034"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set4",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-033",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Steel bridges near the ocean rust faster than bridges far from the coast.\n\nUsing your knowledge of the rusting reaction (**iron + oxygen → iron oxide**), explain why location affects how quickly bridges rust. Mention at least TWO factors in your answer.",
+    "solution": "**Two main factors that make coastal bridges rust faster:**\n\n**1. Salt water (increased moisture)**\n- Ocean air contains **salt spray** and **water vapour**\n- Water acts as a **catalyst** - it speeds up the reaction between iron and oxygen\n- Salt water is even more effective at accelerating rusting than fresh water\n- More moisture = faster reaction rate\n\n**2. Salty air (salt as a catalyst)**\n- **Salt (sodium chloride)** speeds up the rusting reaction\n- Salt helps oxygen and water reach the iron surface more effectively\n- Creates an electrolyte solution that enhances the reaction\n\n**Additional factor (optional):**\n- **Ocean wind** constantly brings fresh oxygen and salt spray to the bridge surface\n- Inland bridges have drier air with less salt\n\n**Why this matters:**\n- The **reactants** (iron and oxygen) are the same everywhere\n- But **environmental conditions** affect reaction **speed**\n- Coastal bridges need more protection (special paints, coatings) to prevent rust\n\n**Word equation reminder**: iron + oxygen + (water + salt as catalysts) → iron oxide (rust)\n\nThe chemical reaction is the same, but it happens **much faster** near the ocean!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what's different in the air near the ocean compared to inland. What does ocean air contain that might affect the rusting reaction?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Ocean air has more moisture (water) and salt. Both of these speed up chemical reactions. Water helps oxygen reach the metal, and salt acts as a catalyst.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 33,
+      "conceptsUsed": ["c6", "c3"],
+      "buildsOn": ["chem-react-y8-032", "chem-react-y8-022"],
+      "preparesFor": ["chem-react-y8-034", "chem-react-y8-044"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set4",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-034",
+    "questionType": "MCQ",
+    "stem": "To prevent iron from rusting, people often:\n- Paint it\n- Cover it with oil or grease\n- Galvanize it (coat with zinc)\n\nWhat do all these methods have in common?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They all prevent oxygen from reaching the iron surface",
+        "isCorrect": true,
+        "feedback": "Correct! Rusting needs **iron + oxygen → iron oxide**. If you **block oxygen** from touching the iron, the reaction can't occur. Paint, oil, and zinc coatings all create a **barrier** that keeps oxygen away from the iron."
+      },
+      {
+        "id": "B",
+        "text": "They all make the iron stronger and harder",
+        "isCorrect": false,
+        "feedback": "These methods don't strengthen the iron itself. They **prevent the rusting reaction** by creating a barrier that blocks oxygen from reaching the iron surface."
+      },
+      {
+        "id": "C",
+        "text": "They all remove water from the iron",
+        "isCorrect": false,
+        "feedback": "They don't remove water from inside the iron. They create a **protective barrier** that prevents both oxygen and water from reaching the iron surface, stopping the rusting reaction."
+      },
+      {
+        "id": "D",
+        "text": "They all speed up the rusting process to get it over with",
+        "isCorrect": false,
+        "feedback": "No! These methods **prevent** rusting, not speed it up. They work by blocking oxygen from reaching the iron, so the reaction (iron + oxygen → iron oxide) can't happen."
+      }
+    ],
+    "solution": "The answer is **A: They all prevent oxygen from reaching the iron surface**.\n\n**How rust prevention works:**\n\n**Rusting reaction needs:**\niron + **oxygen** → iron oxide\n\nIf you **remove oxygen** from the equation, the reaction can't happen!\n\n**How each method blocks oxygen:**\n\n1. **Paint**\n   - Creates a sealed coating\n   - Physical barrier between iron and air (oxygen)\n   - Must be unbroken to work\n\n2. **Oil/Grease**\n   - Forms a protective layer\n   - Repels water and blocks oxygen\n   - Needs reapplication (can wear off)\n\n3. **Galvanizing (zinc coating)**\n   - Zinc metal covers the iron\n   - Oxygen reacts with zinc instead of iron\n   - Zinc oxide protects the surface\n\n**Why this works:**\n- No oxygen contact = no reactant = no reaction\n- The iron is still there, but can't react\n- If the barrier breaks (paint chips), rusting starts in that spot\n\n**Key concept**: To prevent a chemical reaction, **remove one of the reactants**. Since we can't remove the iron (that's what we're protecting), we remove access to oxygen!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at the word equation for rusting: iron + oxygen → iron oxide. What reactant could these methods be blocking?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "All these methods create a barrier or coating. What does this barrier prevent from reaching the iron? Think about what reactant is needed for rusting.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 70,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 34,
+      "conceptsUsed": ["c6", "c3"],
+      "buildsOn": ["chem-react-y8-033", "chem-react-y8-031"],
+      "preparesFor": ["chem-react-y8-043", "chem-react-y8-046"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set4",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-035",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A freshly cut apple slice turns brown after being left on the kitchen bench for 30 minutes.\n\nThe reaction is: **apple chemicals + oxygen → brown compounds**\n\nIs this browning a chemical change or a physical change? Give TWO pieces of evidence to support your answer.",
+    "solution": "**This is a CHEMICAL CHANGE.**\n\n**Evidence 1: New substance forms**\n- The original apple chemicals react with oxygen to form **new brown compounds**\n- These brown compounds have different properties (different color, different taste)\n- The word equation shows reactants → products (sign of chemical reaction)\n\n**Evidence 2: Difficult to reverse**\n- You cannot turn a brown apple slice back to white/cream color\n- Once the chemical reaction occurs, the new brown compounds are permanent\n- This is a characteristic of chemical changes (hard to reverse)\n\n**Additional evidence (optional):**\n- **Color change** is a sign of chemical reaction\n- The reaction requires **oxygen** (it's an oxidation reaction, like rusting)\n- If you prevent oxygen contact (lemon juice, plastic wrap), browning doesn't occur\n\n**Comparison:**\n- **Physical change**: Cutting the apple (shape changes, but still apple tissue)\n- **Chemical change**: Browning (new substances form, can't reverse)\n\n**Real-world connection**: This is why restaurants put lemon juice on cut fruit - the acid slows down the oxidation reaction by creating a barrier to oxygen!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at the word equation - does it show new substances forming? Think about the signs of chemical vs physical changes you learned.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Chemical changes form new substances and are hard to reverse. Can you turn a brown apple white again? Are brown compounds different substances from the original apple chemicals?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 35,
+      "conceptsUsed": ["c1", "c6", "c2"],
+      "buildsOn": ["chem-react-y8-001", "chem-react-y8-031"],
+      "preparesFor": ["chem-react-y8-037", "chem-react-y8-041"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set4",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-036",
+    "questionType": "MCQ",
+    "stem": "Your family car has an exhaust pipe that releases gases when the engine runs.\n\nThe combustion reaction in the engine is:\n\n**petrol + oxygen → carbon dioxide + water vapour + other gases**\n\nWhy is it dangerous to run a car engine in a closed garage?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Carbon dioxide builds up and replaces oxygen in the air, making it hard to breathe",
+        "isCorrect": true,
+        "feedback": "Correct! The combustion reaction **produces carbon dioxide** and **uses up oxygen**. In a closed garage, CO₂ accumulates while oxygen decreases. This makes the air dangerous to breathe - you need oxygen to survive!"
+      },
+      {
+        "id": "B",
+        "text": "The water vapour makes the garage too humid",
+        "isCorrect": false,
+        "feedback": "While water vapour is produced, that's not the main danger. The real problem is **carbon dioxide building up** and **oxygen being used up**, making the air impossible to breathe safely."
+      },
+      {
+        "id": "C",
+        "text": "The petrol fumes will explode",
+        "isCorrect": false,
+        "feedback": "Petrol is being **burned in the engine** (controlled combustion). The danger is the **exhaust gases** (especially carbon dioxide) replacing oxygen in the closed space."
+      },
+      {
+        "id": "D",
+        "text": "The heat from combustion will make the garage too hot",
+        "isCorrect": false,
+        "feedback": "While combustion releases heat, the main danger is **gas composition changes** - carbon dioxide builds up and oxygen is used up, creating dangerous air that can't support breathing."
+      }
+    ],
+    "solution": "The answer is **A: Carbon dioxide builds up and replaces oxygen in the air, making it hard to breathe**.\n\n**What happens in a closed garage:**\n\n**Combustion reaction:**\npetrol + **oxygen** → **carbon dioxide** + water vapour + other gases\n\n**Problem 1**: **Oxygen is used up**\n- The engine needs oxygen to burn petrol\n- In a closed space, it uses oxygen from the air\n- Oxygen level drops dangerously low\n\n**Problem 2**: **Carbon dioxide builds up**\n- CO₂ is produced as a waste product\n- It's heavier than air and accumulates\n- High CO₂ levels are toxic\n\n**Why this is dangerous:**\n- Humans need **oxygen** to breathe (about 21% in normal air)\n- Too much **carbon dioxide** is toxic and can cause:\n  - Dizziness\n  - Loss of consciousness\n  - Death in extreme cases\n\n**Safety measure**: Always run engines in **well-ventilated areas**\n- Fresh air brings in oxygen\n- Exhaust gases disperse safely\n- Maintains breathable air composition\n\n**Real-world application**: This is why garages have ventilation and why you should never sleep in a car with the engine running in a closed space!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at the word equation. What reactant is being used up? What product is being created? Think about what air you need to breathe.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The reaction uses up oxygen and produces carbon dioxide. In a closed garage, oxygen levels drop while CO₂ builds up. What happens to breathing when oxygen is low?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 85,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 36,
+      "conceptsUsed": ["c5", "c4", "c3"],
+      "buildsOn": ["chem-react-y8-027", "chem-react-y8-025"],
+      "preparesFor": ["chem-react-y8-040", "chem-react-y8-045"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set4",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-037",
+    "questionType": "SHORT_ANSWER",
+    "stem": "When bread rises, yeast organisms in the dough produce bubbles of carbon dioxide gas:\n\n**sugar + yeast → carbon dioxide + alcohol + energy**\n\nExplain how this chemical reaction makes bread dough rise. Why does the bread have a spongy texture after baking?",
+    "solution": "**How the reaction makes bread rise:**\n\n**Step 1: Chemical reaction occurs**\n- Yeast (a living organism) causes sugar in the dough to break down\n- **Products**: carbon dioxide gas + alcohol + energy (heat)\n- This is a **chemical reaction** (new substances form)\n\n**Step 2: Gas bubbles get trapped**\n- **Carbon dioxide gas** forms tiny **bubbles** throughout the dough\n- The stretchy dough traps these bubbles\n- As more CO₂ is produced, bubbles expand\n- The dough **rises** (increases in volume)\n\n**Step 3: Baking sets the structure**\n- Heat from baking causes:\n  - Yeast dies (reaction stops)\n  - Alcohol evaporates\n  - Dough hardens around the gas bubbles\n- Result: **Spongy texture** with air pockets\n\n**Why the texture is spongy:**\n\nThe **carbon dioxide bubbles** create permanent **air pockets** in the bread. These holes make bread:\n- Light and fluffy (not dense)\n- Easy to chew\n- Spongy when you press it\n\n**Evidence this is a chemical reaction:**\n- New substances form (CO₂, alcohol)\n- Energy released (dough feels warm)\n- Can't reverse (can't turn bread back to dough)\n\nWithout this reaction, bread would be flat and dense!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at the word equation - what gas is produced? Think about what happens when gas forms inside a soft, stretchy material like dough.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Carbon dioxide gas creates bubbles in the dough. These bubbles get trapped and expand, making the dough rise. When baked, the structure hardens around the bubbles, creating air pockets.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 37,
+      "conceptsUsed": ["c2", "c3", "c4"],
+      "buildsOn": ["chem-react-y8-028", "chem-react-y8-002"],
+      "preparesFor": ["chem-react-y8-042", "chem-react-y8-047"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set4",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-038",
+    "questionType": "MCQ",
+    "stem": "You cook an egg and it changes from clear, runny liquid to white, solid texture.\n\nA student says: **\"If I cool the egg back down, it will become runny again.\"**\n\nWhy is the student wrong?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Cooking is a chemical change that permanently changes the egg proteins into new substances",
+        "isCorrect": true,
+        "feedback": "Correct! Cooking causes **irreversible chemical changes** to egg proteins. Heat breaks chemical bonds and proteins form **new structures** (solid white). This is **permanent** - you can't 'uncook' an egg because the original protein structures are destroyed."
+      },
+      {
+        "id": "B",
+        "text": "Eggs can only be cooked once, then they're used up",
+        "isCorrect": false,
+        "feedback": "The issue isn't about 'using up' the egg. It's that cooking causes **permanent chemical changes** to the protein structure. Once proteins denature (change shape permanently), cooling won't reverse this."
+      },
+      {
+        "id": "C",
+        "text": "The egg needs to be heated again before it can change back",
+        "isCorrect": false,
+        "feedback": "More heat won't help - it would just cook it more! Cooking causes **irreversible chemical changes**. Once egg proteins change structure, they cannot return to their original form."
+      },
+      {
+        "id": "D",
+        "text": "Cooling takes too long, so the egg stays solid",
+        "isCorrect": false,
+        "feedback": "Time isn't the issue. Cooking causes **permanent chemical changes** to the egg proteins. Even if you freeze the egg, it stays solid because the protein structure has permanently changed."
+      }
+    ],
+    "solution": "The answer is **A: Cooking is a chemical change that permanently changes the egg proteins into new substances**.\n\n**Why you can't uncook an egg:**\n\n**What happens when you cook an egg:**\n- Heat causes egg **proteins to denature** (change shape permanently)\n- Proteins **unfold** and **bond together** in new ways\n- Clear, runny liquid → white, solid structure\n- This is a **chemical change** (new substance forms)\n\n**Why cooling won't reverse it:**\n\n**Physical changes** (reversible):\n- Ice → water → ice (just temperature change)\n- Same substance, different state\n\n**Chemical changes** (NOT reversible):\n- Raw egg → cooked egg (chemical structure changes)\n- **Different substance**, can't go back\n\n**Evidence it's a chemical change:**\n1. **New substance forms** (solid protein structure)\n2. **Difficult to reverse** (impossible to uncook)\n3. **Permanent change** in properties\n4. **Chemical bonds break and reform**\n\n**Real-world application**: This is why cooking is a one-way process for most foods. Once proteins denature (eggs, meat) or starches gelatinize (pasta, rice), you can't reverse the chemical changes.\n\n**Phenomenon p4**: \"Why can't you 'uncook' an egg?\" - Because chemical changes are permanent!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether cooking is a physical change or chemical change. Can you reverse chemical changes easily?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Cooking eggs is a chemical change - the protein structure permanently changes. Chemical changes are very difficult (usually impossible) to reverse, unlike physical changes.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 80,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 38,
+      "conceptsUsed": ["c1", "c3"],
+      "buildsOn": ["chem-react-y8-001", "chem-react-y8-030"],
+      "preparesFor": ["chem-react-y8-041", "chem-react-y8-048"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set4",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-039",
+    "questionType": "MCQ",
+    "stem": "Consider these three reactions:\n\n**A)** iron + oxygen → iron oxide (rusting)\n\n**B)** wood + oxygen → carbon dioxide + water + ash (burning)\n\n**C)** silver + oxygen → silver oxide (tarnishing)\n\nWhat do all three reactions have in common?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They are all oxidation reactions that involve reacting with oxygen",
+        "isCorrect": true,
+        "feedback": "Correct! All three are **oxidation reactions** - substances reacting with **oxygen** to form oxides. They differ in **speed**: burning (rapid), rusting (slow), tarnishing (slow). But all involve oxygen as a reactant!"
+      },
+      {
+        "id": "B",
+        "text": "They all produce flames and heat",
+        "isCorrect": false,
+        "feedback": "Only burning produces flames. **Rusting and tarnishing** are slow oxidation reactions with no visible flames. All three react with oxygen, but at very different speeds."
+      },
+      {
+        "id": "C",
+        "text": "They all happen at the same speed",
+        "isCorrect": false,
+        "feedback": "They occur at **very different speeds**: burning is rapid (seconds), rusting is slow (weeks), tarnishing is slow (months). But they're all **oxidation reactions** with oxygen."
+      },
+      {
+        "id": "D",
+        "text": "They all produce the same products",
+        "isCorrect": false,
+        "feedback": "They produce **different products**: iron oxide, carbon dioxide/water/ash, and silver oxide. What they share is that they all **react with oxygen** (oxidation reactions)."
+      }
+    ],
+    "solution": "The answer is **A: They are all oxidation reactions that involve reacting with oxygen**.\n\n**Understanding oxidation:**\n\n**Definition**: **Oxidation** = reaction with oxygen\n\n**All three reactions involve oxygen:**\n\n| Reaction | Type | Speed | Energy Release |\n|----------|------|-------|----------------|\n| Rusting | Oxidation | Slow (weeks) | Low (can't feel) |\n| Burning | Oxidation | Fast (seconds) | High (flames, heat) |\n| Tarnishing | Oxidation | Slow (months) | Low (can't feel) |\n\n**Key insight:**\n- **Same reaction type** (oxidation)\n- **Different speeds** (slow vs rapid)\n- **Different energy release** (flames vs no flames)\n\n**Word pattern** - All show:\n- substance + **oxygen** → substance **oxide**\n\n**Why speed differs:**\n- **Surface area** (powder burns faster than logs)\n- **Temperature** (heat speeds reactions)\n- **Catalyst presence** (some substances speed reactions)\n- **Material reactivity** (some metals oxidize faster)\n\n**Real-world examples of oxidation:**\n- Fast: Combustion, burning, explosions\n- Slow: Rusting, tarnishing, corrosion\n- Biological: Cellular respiration (we oxidize glucose for energy)\n\nOxidation is one of the most common chemical reactions on Earth!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at the word equations carefully. What reactant appears in all three reactions? What does that tell you about the type of reaction?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "All three reactions have oxygen as a reactant. Reactions with oxygen are called oxidation reactions. They can be fast (burning) or slow (rusting, tarnishing).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 39,
+      "conceptsUsed": ["c5", "c6", "c4"],
+      "buildsOn": ["chem-react-y8-031", "chem-react-y8-027"],
+      "preparesFor": ["chem-react-y8-043", "chem-react-y8-049"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set4",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-040",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A camping gas stove uses butane fuel. When burning:\n\n**butane + oxygen → carbon dioxide + water vapour + energy**\n\nExplain why:\n1. The gas canister gets lighter as you use the stove\n2. You need ventilation when using the stove inside a tent\n\nUse the word equation in your answer.",
+    "solution": "**1. Why the gas canister gets lighter:**\n\nThe **reactants** (butane and oxygen) are being **used up** and converted into **products** (carbon dioxide and water vapour).\n\n- **Butane** from the canister is being consumed in the combustion reaction\n- The products are **gases** that escape into the air\n- Mass is not lost (Law of Conservation of Mass), but the gases **leave the canister** and disperse\n- Result: Canister contains less butane → lighter weight\n\n**2. Why you need ventilation:**\n\n**Problem 1: Oxygen depletion**\n- The reaction **uses oxygen** from the air\n- In a closed tent, oxygen levels drop\n- You need oxygen to breathe!\n\n**Problem 2: Carbon dioxide buildup**\n- The reaction **produces carbon dioxide**\n- CO₂ accumulates in closed spaces\n- High CO₂ levels are toxic (causes dizziness, unconsciousness)\n\n**Ventilation solution:**\n- Fresh air brings in **oxygen** (reactant needed)\n- Exhaust gases (CO₂, water vapour) **escape**\n- Maintains safe, breathable air\n\n**Safety principle**: Combustion reactions always need ventilation because they:\n1. Consume oxygen (which you need to breathe)\n2. Produce carbon dioxide (which is harmful in high concentrations)\n\nThis is the same reason you need ventilation for car engines, heaters, and any combustion device!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at the word equation. What's happening to the butane? What gases are being produced? Think about gas movement and air composition.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Butane is being consumed (used up) and turning into gases that escape - that's why the canister gets lighter. The reaction uses oxygen and produces CO₂ - both affect air quality in a closed space.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 40,
+      "conceptsUsed": ["c5", "c3", "c4"],
+      "buildsOn": ["chem-react-y8-036", "chem-react-y8-030"],
+      "preparesFor": ["chem-react-y8-045", "chem-react-y8-050"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set4",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  }
+]

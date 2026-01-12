@@ -1,0 +1,698 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "setNumber": 4,
+    "phase": "application",
+    "focus": "Two-step equations with varied coefficients"
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-031",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$6x + 5 = 35$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 5 from both sides:\n$$6x + 5 - 5 = 35 - 5$$\n$$6x = 30$$\n\n**Step 2:** Divide both sides by 6:\n$$\\frac{6x}{6} = \\frac{30}{6}$$\n$$x = 5$$\n\n**Answer: x = 5**\n\n**Check:** $6(5) + 5 = 30 + 5 = 35$ ✓",
+      "hints": [
+        {"level": 1, "content": "Subtract 5 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "6x = 30", "revealsCriticalInfo": false},
+        {"level": 3, "content": "30 ÷ 6 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Two-step: deal with +5 first.",
+          "encouragement": "Application phase begins!",
+          "questionPrompt": "What's 35 - 5?"
+        },
+        {
+          "level": 2,
+          "content": "6x = 30",
+          "encouragement": "Nice round numbers!",
+          "questionPrompt": "What's 30 ÷ 6?"
+        },
+        {
+          "level": 3,
+          "content": "30 ÷ 6 = 5",
+          "encouragement": "Perfect!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "6x + 5 = 35",
+        "expectedAnswers": ["5", "x = 5", "x=5", "x= 5", "x =5", "5.0", "x = 5.0"],
+        "gradingGuidance": "Two-step equation. Subtract 5, divide by 6.",
+        "sampleSolutions": [
+          "6x + 5 = 35\n6x + 5 - 5 = 35 - 5\n6x = 30\n6x ÷ 6 = 30 ÷ 6\nx = 5",
+          "6x + 5 = 35\n6x = 30\nx = 5"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "larger coefficients"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 1,
+        "conceptsUsed": ["two-step-equations"],
+        "buildsOn": ["linear-eq-y8-030"],
+        "preparesFor": ["linear-eq-y8-032"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I can handle larger coefficients!"
+      },
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set4",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-032",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$7x - 6 = 29$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 6 to both sides:\n$$7x - 6 + 6 = 29 + 6$$\n$$7x = 35$$\n\n**Step 2:** Divide both sides by 7:\n$$\\frac{7x}{7} = \\frac{35}{7}$$\n$$x = 5$$\n\n**Answer: x = 5**\n\n**Check:** $7(5) - 6 = 35 - 6 = 29$ ✓",
+      "hints": [
+        {"level": 1, "content": "Add 6 to undo -6.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "7x = 35", "revealsCriticalInfo": false},
+        {"level": 3, "content": "35 ÷ 7 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "-6 means add 6 to both sides.",
+          "encouragement": "Watch the sign!",
+          "questionPrompt": "What's 29 + 6?"
+        },
+        {
+          "level": 2,
+          "content": "7x = 35",
+          "encouragement": "Times tables help!",
+          "questionPrompt": "7 × ? = 35"
+        },
+        {
+          "level": 3,
+          "content": "35 ÷ 7 = 5",
+          "encouragement": "Great!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "7x - 6 = 29",
+        "expectedAnswers": ["5", "x = 5", "x=5", "x= 5", "x =5", "5.0", "x = 5.0"],
+        "gradingGuidance": "Two-step equation. Add 6, divide by 7. Common error: subtracting 6.",
+        "sampleSolutions": [
+          "7x - 6 = 29\n7x - 6 + 6 = 29 + 6\n7x = 35\n7x ÷ 7 = 35 ÷ 7\nx = 5",
+          "7x - 6 = 29\n7x = 35\nx = 5"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "sign awareness"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 2,
+        "conceptsUsed": ["two-step-equations"],
+        "buildsOn": ["linear-eq-y8-031"],
+        "preparesFor": ["linear-eq-y8-033"]
+      },
+      "pedagogy": {"type": "application", "targetFeeling": "Signs don't trick me!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set4",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-033",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$8x + 12 = 60$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 12 from both sides:\n$$8x + 12 - 12 = 60 - 12$$\n$$8x = 48$$\n\n**Step 2:** Divide both sides by 8:\n$$\\frac{8x}{8} = \\frac{48}{8}$$\n$$x = 6$$\n\n**Answer: x = 6**\n\n**Check:** $8(6) + 12 = 48 + 12 = 60$ ✓",
+      "hints": [
+        {"level": 1, "content": "Subtract 12 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "8x = 48", "revealsCriticalInfo": false},
+        {"level": 3, "content": "48 ÷ 8 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Deal with +12 by subtracting.",
+          "encouragement": "You know this!",
+          "questionPrompt": "What's 60 - 12?"
+        },
+        {
+          "level": 2,
+          "content": "8x = 48",
+          "encouragement": "8 times tables!",
+          "questionPrompt": "8 × ? = 48"
+        },
+        {
+          "level": 3,
+          "content": "48 ÷ 8 = 6",
+          "encouragement": "Perfect!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "8x + 12 = 60",
+        "expectedAnswers": ["6", "x = 6", "x=6", "x= 6", "x =6", "6.0", "x = 6.0"],
+        "gradingGuidance": "Two-step equation. Subtract 12, divide by 8.",
+        "sampleSolutions": [
+          "8x + 12 = 60\n8x + 12 - 12 = 60 - 12\n8x = 48\n8x ÷ 8 = 48 ÷ 8\nx = 6",
+          "8x + 12 = 60\n8x = 48\nx = 6"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 3,
+        "conceptsUsed": ["two-step-equations"],
+        "buildsOn": ["linear-eq-y8-032"],
+        "preparesFor": ["linear-eq-y8-034"]
+      },
+      "pedagogy": {"type": "application", "targetFeeling": "Bigger numbers, same method!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set4",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-034",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$9x - 15 = 48$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 15 to both sides:\n$$9x - 15 + 15 = 48 + 15$$\n$$9x = 63$$\n\n**Step 2:** Divide both sides by 9:\n$$\\frac{9x}{9} = \\frac{63}{9}$$\n$$x = 7$$\n\n**Answer: x = 7**\n\n**Check:** $9(7) - 15 = 63 - 15 = 48$ ✓",
+      "hints": [
+        {"level": 1, "content": "Add 15 to both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "9x = 63", "revealsCriticalInfo": false},
+        {"level": 3, "content": "63 ÷ 9 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "-15 means add 15.",
+          "encouragement": "Inverse operations!",
+          "questionPrompt": "What's 48 + 15?"
+        },
+        {
+          "level": 2,
+          "content": "9x = 63",
+          "encouragement": "9 times tables!",
+          "questionPrompt": "9 × ? = 63"
+        },
+        {
+          "level": 3,
+          "content": "63 ÷ 9 = 7",
+          "encouragement": "Great!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "9x - 15 = 48",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "Two-step equation. Add 15, divide by 9.",
+        "sampleSolutions": [
+          "9x - 15 = 48\n9x - 15 + 15 = 48 + 15\n9x = 63\n9x ÷ 9 = 63 ÷ 9\nx = 7",
+          "9x - 15 = 48\n9x = 63\nx = 7"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 4,
+        "conceptsUsed": ["two-step-equations"],
+        "buildsOn": ["linear-eq-y8-033"],
+        "preparesFor": ["linear-eq-y8-035"]
+      },
+      "pedagogy": {"type": "application", "targetFeeling": "I can handle any coefficient!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set4",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-035",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$5x + 17 = 52$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 17 from both sides:\n$$5x + 17 - 17 = 52 - 17$$\n$$5x = 35$$\n\n**Step 2:** Divide both sides by 5:\n$$\\frac{5x}{5} = \\frac{35}{5}$$\n$$x = 7$$\n\n**Answer: x = 7**\n\n**Check:** $5(7) + 17 = 35 + 17 = 52$ ✓",
+      "hints": [
+        {"level": 1, "content": "Subtract 17 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "5x = 35", "revealsCriticalInfo": false},
+        {"level": 3, "content": "35 ÷ 5 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Deal with +17 by subtracting.",
+          "encouragement": "You know this!",
+          "questionPrompt": "What's 52 - 17?"
+        },
+        {
+          "level": 2,
+          "content": "5x = 35",
+          "encouragement": "5 times tables!",
+          "questionPrompt": "5 × ? = 35"
+        },
+        {
+          "level": 3,
+          "content": "35 ÷ 5 = 7",
+          "encouragement": "Perfect!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5x + 17 = 52",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "Two-step equation. Subtract 17, divide by 5.",
+        "sampleSolutions": [
+          "5x + 17 = 52\n5x + 17 - 17 = 52 - 17\n5x = 35\n5x ÷ 5 = 35 ÷ 5\nx = 7",
+          "5x + 17 = 52\n5x = 35\nx = 7"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 5,
+        "conceptsUsed": ["two-step-equations"],
+        "buildsOn": ["linear-eq-y8-034"],
+        "preparesFor": ["linear-eq-y8-036"]
+      },
+      "pedagogy": {"type": "application", "targetFeeling": "Getting confident!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set4",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-036",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$3x - 11 = 22$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 11 to both sides:\n$$3x - 11 + 11 = 22 + 11$$\n$$3x = 33$$\n\n**Step 2:** Divide both sides by 3:\n$$\\frac{3x}{3} = \\frac{33}{3}$$\n$$x = 11$$\n\n**Answer: x = 11**\n\n**Check:** $3(11) - 11 = 33 - 11 = 22$ ✓",
+      "hints": [
+        {"level": 1, "content": "Add 11 to undo -11.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "3x = 33", "revealsCriticalInfo": false},
+        {"level": 3, "content": "33 ÷ 3 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "-11 means add 11.",
+          "encouragement": "Watch the sign!",
+          "questionPrompt": "What's 22 + 11?"
+        },
+        {
+          "level": 2,
+          "content": "3x = 33",
+          "encouragement": "Nice pattern: 33 ÷ 3!",
+          "questionPrompt": "What's 33 ÷ 3?"
+        },
+        {
+          "level": 3,
+          "content": "33 ÷ 3 = 11",
+          "encouragement": "The answer matches the constant!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3x - 11 = 22",
+        "expectedAnswers": ["11", "x = 11", "x=11", "x= 11", "x =11", "11.0", "x = 11.0"],
+        "gradingGuidance": "Two-step equation. Add 11, divide by 3.",
+        "sampleSolutions": [
+          "3x - 11 = 22\n3x - 11 + 11 = 22 + 11\n3x = 33\n3x ÷ 3 = 33 ÷ 3\nx = 11",
+          "3x - 11 = 22\n3x = 33\nx = 11"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 6,
+        "conceptsUsed": ["two-step-equations"],
+        "buildsOn": ["linear-eq-y8-035"],
+        "preparesFor": ["linear-eq-y8-037"]
+      },
+      "pedagogy": {"type": "application", "targetFeeling": "Patterns help!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set4",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-037",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$4x + 9 = 41$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 9 from both sides:\n$$4x + 9 - 9 = 41 - 9$$\n$$4x = 32$$\n\n**Step 2:** Divide both sides by 4:\n$$\\frac{4x}{4} = \\frac{32}{4}$$\n$$x = 8$$\n\n**Answer: x = 8**\n\n**Check:** $4(8) + 9 = 32 + 9 = 41$ ✓",
+      "hints": [
+        {"level": 1, "content": "Subtract 9 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "4x = 32", "revealsCriticalInfo": false},
+        {"level": 3, "content": "32 ÷ 4 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "+9 means subtract 9.",
+          "encouragement": "You know this!",
+          "questionPrompt": "What's 41 - 9?"
+        },
+        {
+          "level": 2,
+          "content": "4x = 32",
+          "encouragement": "4 times tables!",
+          "questionPrompt": "4 × ? = 32"
+        },
+        {
+          "level": 3,
+          "content": "32 ÷ 4 = 8",
+          "encouragement": "Great!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4x + 9 = 41",
+        "expectedAnswers": ["8", "x = 8", "x=8", "x= 8", "x =8", "8.0", "x = 8.0"],
+        "gradingGuidance": "Two-step equation. Subtract 9, divide by 4.",
+        "sampleSolutions": [
+          "4x + 9 = 41\n4x + 9 - 9 = 41 - 9\n4x = 32\n4x ÷ 4 = 32 ÷ 4\nx = 8",
+          "4x + 9 = 41\n4x = 32\nx = 8"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 7,
+        "conceptsUsed": ["two-step-equations"],
+        "buildsOn": ["linear-eq-y8-036"],
+        "preparesFor": ["linear-eq-y8-038"]
+      },
+      "pedagogy": {"type": "application", "targetFeeling": "I'm getting fast!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set4",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-038",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$6x - 14 = 40$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 14 to both sides:\n$$6x - 14 + 14 = 40 + 14$$\n$$6x = 54$$\n\n**Step 2:** Divide both sides by 6:\n$$\\frac{6x}{6} = \\frac{54}{6}$$\n$$x = 9$$\n\n**Answer: x = 9**\n\n**Check:** $6(9) - 14 = 54 - 14 = 40$ ✓",
+      "hints": [
+        {"level": 1, "content": "Add 14 to both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "6x = 54", "revealsCriticalInfo": false},
+        {"level": 3, "content": "54 ÷ 6 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "-14 means add 14.",
+          "encouragement": "Watch the sign!",
+          "questionPrompt": "What's 40 + 14?"
+        },
+        {
+          "level": 2,
+          "content": "6x = 54",
+          "encouragement": "6 times tables!",
+          "questionPrompt": "6 × ? = 54"
+        },
+        {
+          "level": 3,
+          "content": "54 ÷ 6 = 9",
+          "encouragement": "Perfect!",
+          "questionPrompt": "So x = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "6x - 14 = 40",
+        "expectedAnswers": ["9", "x = 9", "x=9", "x= 9", "x =9", "9.0", "x = 9.0"],
+        "gradingGuidance": "Two-step equation. Add 14, divide by 6.",
+        "sampleSolutions": [
+          "6x - 14 = 40\n6x - 14 + 14 = 40 + 14\n6x = 54\n6x ÷ 6 = 54 ÷ 6\nx = 9",
+          "6x - 14 = 40\n6x = 54\nx = 9"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 8,
+        "conceptsUsed": ["two-step-equations"],
+        "buildsOn": ["linear-eq-y8-037"],
+        "preparesFor": ["linear-eq-y8-039"]
+      },
+      "pedagogy": {"type": "application", "targetFeeling": "Signs are no problem!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set4",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-039",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for y:\n\n$$7y + 8 = 50$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 8 from both sides:\n$$7y + 8 - 8 = 50 - 8$$\n$$7y = 42$$\n\n**Step 2:** Divide both sides by 7:\n$$\\frac{7y}{7} = \\frac{42}{7}$$\n$$y = 6$$\n\n**Answer: y = 6**\n\n**Check:** $7(6) + 8 = 42 + 8 = 50$ ✓",
+      "hints": [
+        {"level": 1, "content": "Subtract 8 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "7y = 42", "revealsCriticalInfo": false},
+        {"level": 3, "content": "42 ÷ 7 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Same method with variable y!",
+          "encouragement": "You can solve for any variable!",
+          "questionPrompt": "What's 50 - 8?"
+        },
+        {
+          "level": 2,
+          "content": "7y = 42",
+          "encouragement": "7 times tables!",
+          "questionPrompt": "7 × ? = 42"
+        },
+        {
+          "level": 3,
+          "content": "42 ÷ 7 = 6",
+          "encouragement": "Great!",
+          "questionPrompt": "So y = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "7y + 8 = 50",
+        "expectedAnswers": ["6", "y = 6", "y=6", "y= 6", "y =6", "6.0", "y = 6.0"],
+        "gradingGuidance": "Two-step equation with variable y. Subtract 8, divide by 7.",
+        "sampleSolutions": [
+          "7y + 8 = 50\n7y + 8 - 8 = 50 - 8\n7y = 42\n7y ÷ 7 = 42 ÷ 7\ny = 6",
+          "7y + 8 = 50\n7y = 42\ny = 6"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "variable flexibility"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 9,
+        "conceptsUsed": ["two-step-equations", "variable-flexibility"],
+        "buildsOn": ["linear-eq-y8-038"],
+        "preparesFor": ["linear-eq-y8-040"]
+      },
+      "pedagogy": {"type": "application", "targetFeeling": "Any variable, any equation!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set4",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-040",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for n:\n\n$$8n - 19 = 45$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 19 to both sides:\n$$8n - 19 + 19 = 45 + 19$$\n$$8n = 64$$\n\n**Step 2:** Divide both sides by 8:\n$$\\frac{8n}{8} = \\frac{64}{8}$$\n$$n = 8$$\n\n**Answer: n = 8**\n\n**Check:** $8(8) - 19 = 64 - 19 = 45$ ✓",
+      "hints": [
+        {"level": 1, "content": "Add 19 to both sides.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "8n = 64 (perfect square!)", "revealsCriticalInfo": false},
+        {"level": 3, "content": "64 ÷ 8 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "-19 means add 19.",
+          "encouragement": "Inverse operations!",
+          "questionPrompt": "What's 45 + 19?"
+        },
+        {
+          "level": 2,
+          "content": "8n = 64 (that's 8²!)",
+          "encouragement": "Perfect square!",
+          "questionPrompt": "What's 64 ÷ 8?"
+        },
+        {
+          "level": 3,
+          "content": "64 ÷ 8 = 8",
+          "encouragement": "n equals the coefficient!",
+          "questionPrompt": "So n = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "8n - 19 = 45",
+        "expectedAnswers": ["8", "n = 8", "n=8", "n= 8", "n =8", "8.0", "n = 8.0"],
+        "gradingGuidance": "Two-step equation with variable n. Add 19, divide by 8. 64 is 8², so n = 8.",
+        "sampleSolutions": [
+          "8n - 19 = 45\n8n - 19 + 19 = 45 + 19\n8n = 64\n8n ÷ 8 = 64 ÷ 8\nn = 8",
+          "8n - 19 = 45\n8n = 64\nn = 8"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "perfect squares"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 10,
+        "conceptsUsed": ["two-step-equations", "perfect-squares"],
+        "buildsOn": ["linear-eq-y8-039"],
+        "preparesFor": ["linear-eq-y8-041"]
+      },
+      "pedagogy": {"type": "application", "targetFeeling": "Set 4 complete - two-step mastery!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set4",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

@@ -1,0 +1,1329 @@
+[
+  {
+    "questionId": "cells-y8-021",
+    "questionType": "MCQ",
+    "stem": "You get a small cut on your finger. Over the next few days, you notice the cut healing and closing up.\n\nWhat must be happening to the cells at the cut site?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Existing cells stretch to cover the gap",
+        "isCorrect": false,
+        "feedback": "Cells don't stretch like rubber bands. New cells need to be created to fill the gap."
+      },
+      {
+        "id": "B",
+        "text": "New cells are being produced to replace damaged ones",
+        "isCorrect": true,
+        "feedback": "Correct! The nucleus controls cell division, creating new skin cells that fill the gap. This is how all wounds heal - through the production of new cells."
+      },
+      {
+        "id": "C",
+        "text": "Blood cells transform into skin cells",
+        "isCorrect": false,
+        "feedback": "Blood cells cannot transform into skin cells. Each cell type has a specific function determined by its nucleus."
+      },
+      {
+        "id": "D",
+        "text": "The cut fills with liquid that hardens into new skin",
+        "isCorrect": false,
+        "feedback": "Healing requires actual cells to be produced, not just fluid. The nucleus in nearby cells controls this process."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Wound healing at the cellular level:**\n\n1. Cells near the cut receive signals that damage has occurred\n2. The **nucleus** in these cells activates genes for cell division\n3. Cells divide to produce **new daughter cells**\n4. New cells migrate to the damaged area\n5. These cells gradually **fill the gap**, closing the wound\n\nThis demonstrates the nucleus's role as the **control centre** - it contains DNA with instructions for making new cells. Without a functioning nucleus, cells cannot divide and wounds cannot heal.\n\nThis connects to phenomenon **p1** - observing healing in real life!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what the nucleus does. How do you get more cells?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The nucleus controls cell division. Healing requires new cells to replace damaged ones.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 1,
+      "conceptsUsed": ["c2", "c4"],
+      "buildsOn": ["cells-y8-010", "cells-y8-015"],
+      "preparesFor": ["cells-y8-045", "cells-y8-052"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p1",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set3",
+      "sequenceInPaper": 21
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-022",
+    "questionType": "MCQ",
+    "stem": "A student looks at onion skin cells under a microscope and sees rectangular cells with thick outer edges.\n\nWhich cell structure gives the onion cells their rectangular shape?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Cell membrane",
+        "isCorrect": false,
+        "feedback": "The cell membrane is flexible and found in all cells. It doesn't create the rigid rectangular shape."
+      },
+      {
+        "id": "B",
+        "text": "Nucleus",
+        "isCorrect": false,
+        "feedback": "The nucleus is inside the cell and doesn't determine the outer shape."
+      },
+      {
+        "id": "C",
+        "text": "Cell wall",
+        "isCorrect": true,
+        "feedback": "Correct! The cell wall is rigid and provides structure to plant cells, giving them their distinctive rectangular shape. Animal cells lack cell walls, which is why they have irregular shapes."
+      },
+      {
+        "id": "D",
+        "text": "Cytoplasm",
+        "isCorrect": false,
+        "feedback": "Cytoplasm is the jelly-like substance inside cells. It doesn't provide rigid structure."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**Why onion cells are rectangular:**\n\nOnion skin cells are **plant cells** with these structures:\n- **Cell wall**: Rigid outer layer made of cellulose → provides **rectangular shape**\n- **Cell membrane**: Thin layer just inside the cell wall → controls what enters/exits\n- **Cytoplasm**: Jelly-like interior\n- **Nucleus**: Control centre (sometimes hard to see in onion cells)\n\nThe thick edges you see under the microscope are the **cell walls**. These rigid structures:\n- Stack neatly together like bricks\n- Provide support and protection\n- Give plants their firm structure\n\nThis connects to phenomenon **p6** - observing onion cells under a microscope!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Which structure is unique to plant cells and provides rigid support?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about what makes plant cells different from animal cells. What gives them their box-like shape?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 2,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["cells-y8-007", "cells-y8-012"],
+      "preparesFor": ["cells-y8-032", "cells-y8-046"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p6",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set3",
+      "sequenceInPaper": 22
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-023",
+    "questionType": "SHORT_ANSWER",
+    "stem": "You examine two different cells under a microscope:\n\n**Cell A:** Has a cell wall, large central vacuole, and chloroplasts\n**Cell B:** Has a cell membrane, small vacuoles, and no cell wall\n\nIdentify which is a plant cell and which is an animal cell. Explain your reasoning using at least two cell structures.",
+    "solution": "**Cell A is a plant cell**\n**Cell B is an animal cell**\n\n**Reasoning:**\n\n**Three key differences identify them:**\n\n1. **Cell wall**: Cell A has a cell wall, which is found ONLY in plant cells. The rigid cell wall provides structure and support. Animal cells have only a flexible cell membrane.\n\n2. **Chloroplasts**: Cell A has chloroplasts, which contain chlorophyll for photosynthesis. Only plant cells have chloroplasts because only plants make their own food. Animal cells get energy by eating food.\n\n3. **Vacuole size**: Cell A has a large central vacuole (stores water, nutrients, and waste). Animal cells (Cell B) have small vacuoles or none at all.\n\n**Both cells share:** Cell membrane, cytoplasm, and nucleus (all cells have these basic structures).\n\nThe presence of a cell wall, chloroplasts, and large vacuole are **distinguishing features** of plant cells!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about which structures are found ONLY in plant cells versus structures found in ALL cells.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Cell walls, chloroplasts, and large vacuoles are unique to plant cells. Which cell has these?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 3,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["cells-y8-008", "cells-y8-013"],
+      "preparesFor": ["cells-y8-033", "cells-y8-041"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set3",
+      "sequenceInPaper": 23
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-024",
+    "questionType": "MCQ",
+    "stem": "Leaves appear green in sunlight because they contain chloroplasts with chlorophyll.\n\nIn which plant cells would you NOT expect to find chloroplasts?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Leaf cells on the top surface",
+        "isCorrect": false,
+        "feedback": "Upper leaf cells are exposed to sunlight and need chloroplasts for photosynthesis."
+      },
+      {
+        "id": "B",
+        "text": "Stem cells exposed to light",
+        "isCorrect": false,
+        "feedback": "Green stem cells contain chloroplasts and can photosynthesize."
+      },
+      {
+        "id": "C",
+        "text": "Root cells underground",
+        "isCorrect": true,
+        "feedback": "Correct! Root cells are underground where there's no light. Since photosynthesis requires light, chloroplasts would be useless in roots. Not all plant cells have chloroplasts!"
+      },
+      {
+        "id": "D",
+        "text": "Guard cells around stomata",
+        "isCorrect": false,
+        "feedback": "Guard cells contain chloroplasts and use photosynthesis to help control stomata opening."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**This addresses misconception m5**: \"All plant cells have chloroplasts\"\n\n**The reality:**\n\n| Plant Part | Light Exposure | Has Chloroplasts? | Why? |\n|------------|----------------|-------------------|------|\n| Leaves | High | Yes ✓ | Main site of photosynthesis |\n| Green stems | Moderate | Yes ✓ | Can photosynthesize |\n| Roots | None (underground) | No ✗ | No light = no photosynthesis needed |\n| Flower petals | Variable | Sometimes | Depends on colour and function |\n\n**Key principle:** Chloroplasts are found only where **photosynthesis occurs**. Since photosynthesis requires **light**, cells in dark locations (like roots) don't need chloroplasts.\n\nRoot cells still have:\n- Cell wall\n- Cell membrane\n- Nucleus\n- Cytoplasm\n- Large vacuole\n\nBut NO chloroplasts!\n\nThis connects to phenomenon **p4** - observing which plant parts are green!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What do chloroplasts do? What do they need to function?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Chloroplasts perform photosynthesis, which requires light. Which plant part gets no light?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 4,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["cells-y8-009", "cells-y8-014"],
+      "preparesFor": ["cells-y8-044", "cells-y8-055"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "misconceptionId": "m5",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set3",
+      "sequenceInPaper": 24
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-025",
+    "questionType": "MCQ",
+    "stem": "You examine a drop of pond water under a microscope and see dozens of tiny single-celled organisms swimming around.\n\nWhat must these single-celled organisms have in order to survive?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Only a cell membrane - nothing else is needed",
+        "isCorrect": false,
+        "feedback": "All cells need more than just a cell membrane. Think about what controls the cell and stores genetic information."
+      },
+      {
+        "id": "B",
+        "text": "Cell membrane, cytoplasm, and genetic material (DNA)",
+        "isCorrect": true,
+        "feedback": "Correct! ALL cells, even single-celled organisms, must have these three essential structures. The DNA controls the cell, cytoplasm provides a medium for reactions, and the membrane controls what enters and exits."
+      },
+      {
+        "id": "C",
+        "text": "Cell wall, chloroplasts, and large vacuole",
+        "isCorrect": false,
+        "feedback": "These are plant cell structures. Not all single-celled organisms are plant-like - many are more similar to animal cells."
+      },
+      {
+        "id": "D",
+        "text": "Multiple nuclei to control different functions",
+        "isCorrect": false,
+        "feedback": "Single-celled organisms typically have one nucleus or nucleoid region. Multiple nuclei aren't necessary."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Essential structures for ALL cells:**\n\nEvery living cell, whether single-celled organism or part of a multicellular organism, MUST have:\n\n1. **Cell membrane**: Controls what enters and exits the cell (selective barrier)\n2. **Cytoplasm**: Jelly-like substance where chemical reactions occur\n3. **Genetic material (DNA)**: Contains instructions for cell survival and reproduction\n   - In most cells, DNA is stored in the **nucleus**\n   - In bacteria, DNA floats freely in the cytoplasm\n\n**Without these three structures, a cell cannot:**\n- Control its internal environment (needs membrane)\n- Carry out life processes (needs cytoplasm)\n- Reproduce or function properly (needs DNA)\n\nThis connects to phenomenon **p10** - observing diverse pond life!\n\n**Additional structures** (like cell walls, chloroplasts, vacuoles) are found in some cells but aren't essential for all life.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What three structures do ALL cells have in common, whether plant, animal, or microorganism?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about the basic needs: boundary, internal medium, and genetic control. What structures provide these?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 5,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["cells-y8-004", "cells-y8-011"],
+      "preparesFor": ["cells-y8-042", "cells-y8-051"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p10",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set3",
+      "sequenceInPaper": 25
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-026",
+    "questionType": "MCQ",
+    "stem": "A student says: \"Cells are solid inside, like a basketball is solid inside.\"\n\nWhat is wrong with this statement?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Cells are actually completely empty inside",
+        "isCorrect": false,
+        "feedback": "Cells aren't empty - they're filled with cytoplasm and contain many structures."
+      },
+      {
+        "id": "B",
+        "text": "Cells are filled with air, not solid material",
+        "isCorrect": false,
+        "feedback": "This is another misconception! Cells aren't filled with air either."
+      },
+      {
+        "id": "C",
+        "text": "Cells contain jelly-like cytoplasm with structures floating in it, not solid material",
+        "isCorrect": true,
+        "feedback": "Correct! Cells are filled with cytoplasm, which is a gel-like substance. Within the cytoplasm are various structures (nucleus, mitochondria, etc.) - but it's not solid like a ball."
+      },
+      {
+        "id": "D",
+        "text": "Only plant cells are solid; animal cells are hollow",
+        "isCorrect": false,
+        "feedback": "Neither plant nor animal cells are solid or hollow. Both contain cytoplasm."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**This addresses misconception m2**: \"Cells are solid inside (like a ball)\"\n\n**The reality - cells are more like a gel balloon:**\n\n| Misconception | Reality |\n|---------------|----------|\n| Cells are solid throughout | Cells contain **jelly-like cytoplasm** |\n| Like a basketball (air-filled ball) | Like a water balloon filled with jelly |\n| Uniform material inside | Contains **many different structures** (organelles) |\n\n**What's actually inside a cell:**\n- **Cytoplasm**: Gel-like substance made mostly of water with dissolved nutrients, proteins, and salts\n- **Nucleus**: Control centre containing DNA\n- **Other organelles**: Mitochondria, ribosomes, etc. floating in the cytoplasm\n- **Cell membrane**: Flexible outer boundary\n\nThink of cytoplasm like **jelly** - not liquid (flows freely) but not solid (fixed shape). It's a thick, gel-like substance that allows organelles to move slowly within it.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what cytoplasm is. Is it a solid, liquid, or something in between?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Cells aren't solid like a rubber ball or empty like a basketball. They're filled with gel-like cytoplasm.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 6,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["cells-y8-003", "cells-y8-006"],
+      "preparesFor": ["cells-y8-038", "cells-y8-049"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "misconceptionId": "m2",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set3",
+      "sequenceInPaper": 26
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-027",
+    "questionType": "SHORT_ANSWER",
+    "stem": "The nucleus is often called the \"control centre\" of the cell.\n\nExplain what this means and why cells need a control centre. Use an example in your answer.",
+    "solution": "The nucleus is called the **control centre** because it contains **DNA** (genetic material) that controls all cell activities.\n\n**What the nucleus controls:**\n\n1. **Which proteins are made**: DNA contains genes - instructions for making specific proteins. The nucleus decides when to activate each gene.\n\n2. **Cell reproduction**: The nucleus controls when and how cells divide to make new cells.\n\n3. **Cell function**: The nucleus determines what type of cell it will be (muscle cell, nerve cell, skin cell, etc.) and what job it will do.\n\n**Why cells need a control centre:**\n\nWithout a nucleus:\n- Cells wouldn't know which proteins to make\n- Chemical reactions would happen randomly without coordination\n- Cells couldn't reproduce properly\n- The cell would eventually die\n\n**Example:** When you get a cut (like in Question 21), the nucleus in nearby skin cells receives signals and activates genes for cell division. The nucleus \"instructs\" the cell to divide and produce new skin cells to heal the wound.\n\nJust like a **remote control** manages a TV, the nucleus manages the entire cell's operations!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What does the nucleus contain? What information is stored there?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The nucleus contains DNA with instructions. Think about what happens if cells have no instructions to follow.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 7,
+      "conceptsUsed": ["c4"],
+      "buildsOn": ["cells-y8-010", "cells-y8-015"],
+      "preparesFor": ["cells-y8-045", "cells-y8-053"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set3",
+      "sequenceInPaper": 27
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-028",
+    "questionType": "MCQ",
+    "stem": "A scientist removes the nucleus from a cell but keeps the rest of the cell intact.\n\nWhat will most likely happen to this cell over time?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The cell will function normally since it still has cytoplasm and a cell membrane",
+        "isCorrect": false,
+        "feedback": "Without a nucleus, the cell loses its control centre and cannot maintain normal functions for long."
+      },
+      {
+        "id": "B",
+        "text": "The cell will survive but cannot reproduce",
+        "isCorrect": false,
+        "feedback": "While this is partially true initially, the cell will eventually die without the nucleus controlling essential functions."
+      },
+      {
+        "id": "C",
+        "text": "The cell will gradually lose function and die",
+        "isCorrect": true,
+        "feedback": "Correct! Without the nucleus and its DNA, the cell cannot make new proteins to replace damaged ones. Eventually, the cell will deteriorate and die. The nucleus is essential for long-term cell survival."
+      },
+      {
+        "id": "D",
+        "text": "The cell will grow a new nucleus automatically",
+        "isCorrect": false,
+        "feedback": "Cells cannot regenerate a nucleus once it's removed. The nucleus contains unique DNA that cannot be recreated."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**What happens without a nucleus:**\n\n**Initially (hours to days):**\n- Cell membrane still functions\n- Cytoplasm still present\n- Existing proteins continue working\n- Cell appears relatively normal\n\n**Over time (days to weeks):**\n- Proteins break down and cannot be replaced (no DNA to make new ones)\n- Cell cannot respond to changes or damage\n- Essential processes shut down\n- Cell deteriorates and dies\n\n**Why the nucleus is essential:**\n- Contains **DNA** with instructions for making all proteins\n- Controls **cell reproduction**\n- Regulates **cell activities** and responses to environment\n- Without it, the cell is like a factory without a manager or instruction manual\n\n**Exception:** Red blood cells in mammals actually lose their nucleus as they mature! But they only live about 120 days and cannot reproduce - they're eventually replaced by new cells made in bone marrow (where cells DO have nuclei).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What essential information is stored in the nucleus? Can a cell function long-term without it?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The nucleus contains DNA needed to make proteins. Without new proteins being made, what happens as old proteins break down?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 8,
+      "conceptsUsed": ["c4"],
+      "buildsOn": ["cells-y8-027"],
+      "preparesFor": ["cells-y8-053", "cells-y8-061"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set3",
+      "sequenceInPaper": 28
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-029",
+    "questionType": "MCQ",
+    "stem": "Compare these two cell types:\n\n**Cell Type A:** Rectangular shape, rigid, contains chloroplasts\n**Cell Type B:** Irregular shape, flexible, no chloroplasts\n\nWhich row correctly identifies these cells?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A = Animal cell, B = Plant cell",
+        "isCorrect": false,
+        "feedback": "This is reversed. Plant cells have rigid cell walls and chloroplasts, not animal cells."
+      },
+      {
+        "id": "B",
+        "text": "A = Plant cell, B = Animal cell",
+        "isCorrect": true,
+        "feedback": "Correct! Cell A has characteristics of plant cells (rectangular due to cell wall, contains chloroplasts). Cell B has characteristics of animal cells (irregular shape due to flexible membrane only, no chloroplasts)."
+      },
+      {
+        "id": "C",
+        "text": "Both are plant cells from different parts of the plant",
+        "isCorrect": false,
+        "feedback": "Cell B lacks chloroplasts and has an irregular shape, which are not typical plant cell characteristics in most plant tissues."
+      },
+      {
+        "id": "D",
+        "text": "Both are animal cells with different functions",
+        "isCorrect": false,
+        "feedback": "Animal cells don't have chloroplasts or rigid rectangular shapes. Cell A is definitely a plant cell."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Distinguishing features:**\n\n| Feature | Cell A (Plant) | Cell B (Animal) |\n|---------|----------------|------------------|\n| **Shape** | Rectangular | Irregular/round |\n| **Why?** | Rigid cell wall | Flexible membrane only |\n| **Chloroplasts** | Present ✓ | Absent ✗ |\n| **Function** | Can photosynthesize | Cannot photosynthesize |\n| **Cell wall** | Present ✓ | Absent ✗ |\n\n**Key identification clues:**\n\n1. **Rectangular + rigid** → Must have cell wall → Plant cell\n2. **Contains chloroplasts** → Can photosynthesize → Plant cell\n3. **Irregular + flexible** → No cell wall → Animal cell\n4. **No chloroplasts** → Cannot photosynthesize → Animal cell (or non-green plant cell)\n\nUsing these two features together allows you to confidently identify plant vs. animal cells!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What gives plant cells their rigid rectangular shape? What structure allows animal cells to be flexible?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Cell walls (plant only) create rigid shapes. Chloroplasts (plant only) allow photosynthesis. Which cell has these?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 9,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["cells-y8-022", "cells-y8-023"],
+      "preparesFor": ["cells-y8-041", "cells-y8-047"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set3",
+      "sequenceInPaper": 29
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-030",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student draws this diagram of an animal cell and labels it:\n\n\"The cell wall protects the cell. The chloroplasts make energy. The large vacuole stores water.\"\n\nIdentify and correct THREE errors in this student's description of an animal cell.",
+    "solution": "**Three errors and corrections:**\n\n**Error 1: \"The cell wall protects the cell\"**\n- **Correction**: Animal cells do NOT have cell walls. They only have a flexible **cell membrane**. Cell walls are found only in plant cells.\n- The cell membrane still provides protection and controls what enters/exits, but it's flexible, not rigid.\n\n**Error 2: \"The chloroplasts make energy\"**\n- **Correction**: Animal cells do NOT have chloroplasts. Chloroplasts are found only in plant cells for photosynthesis.\n- Animal cells make energy using **mitochondria**, which break down glucose through cellular respiration (not photosynthesis).\n\n**Error 3: \"The large vacuole stores water\"**\n- **Correction**: Animal cells have small vacuoles or sometimes no vacuoles at all. **Large central vacuoles** are a feature of plant cells.\n- If animal cells have vacuoles, they are small and temporary, used for storage or waste removal.\n\n**What an animal cell DOES have:**\n- Cell membrane (not wall)\n- Nucleus\n- Cytoplasm\n- Small vacuoles (if any)\n- Mitochondria (not chloroplasts)\n- Other organelles",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Review the key differences between plant and animal cells. Which structures are unique to each?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Animal cells don't have: cell walls, chloroplasts, or large vacuoles. These are all plant cell features!",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 10,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["cells-y8-023", "cells-y8-029"],
+      "preparesFor": ["cells-y8-046", "cells-y8-056"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set3",
+      "sequenceInPaper": 30
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-031",
+    "questionType": "MCQ",
+    "stem": "You place a plant cell in pure water. Over time, water moves into the cell and the cell swells but doesn't burst.\n\nWhich structure prevents the plant cell from bursting?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Cell membrane",
+        "isCorrect": false,
+        "feedback": "The cell membrane is flexible and would stretch and burst under too much pressure. It doesn't provide rigid support."
+      },
+      {
+        "id": "B",
+        "text": "Cell wall",
+        "isCorrect": true,
+        "feedback": "Correct! The rigid cell wall provides structural support and prevents the cell from bursting even as it fills with water. This is why plant cells can withstand high internal water pressure."
+      },
+      {
+        "id": "C",
+        "text": "Nucleus",
+        "isCorrect": false,
+        "feedback": "The nucleus controls cell activities but doesn't provide physical protection against bursting."
+      },
+      {
+        "id": "D",
+        "text": "Vacuole",
+        "isCorrect": false,
+        "feedback": "The vacuole stores the water, but it doesn't prevent bursting. In fact, it's the vacuole swelling that creates the pressure!"
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**What happens when plant cells absorb water:**\n\n1. Water enters the cell through the cell membrane (by osmosis)\n2. Water collects in the **central vacuole**, which swells\n3. The vacuole pushes against the **cell membrane**\n4. The membrane pushes against the **rigid cell wall**\n5. The cell wall resists the pressure and **prevents bursting**\n6. The cell becomes **turgid** (firm and swollen)\n\n**Why this matters:**\n- Turgid cells keep plants upright and firm\n- Without cell walls, plant cells would burst like animal cells do in pure water\n- This is why plants wilt when dehydrated - cells lose water pressure and become flaccid (limp)\n\n**Comparison with animal cells:**\n- Animal cells in pure water → swell and BURST (no cell wall)\n- Plant cells in pure water → swell but stay intact (cell wall protection)\n\nThe cell wall is like a **rigid container** that can withstand internal pressure!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Which structure in plant cells is rigid and provides structural support?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Think about what makes plant cells different from animal cells. Animal cells burst in pure water - why don't plant cells?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 11,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["cells-y8-022"],
+      "preparesFor": ["cells-y8-048", "cells-y8-059"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set4",
+      "sequenceInPaper": 31
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-032",
+    "questionType": "MCQ",
+    "stem": "A student examines onion cells under a microscope and sees the cell wall clearly.\n\nThe student then stains the cells with iodine and now can see the nucleus.\n\nWhy was the nucleus invisible before staining?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The nucleus didn't exist until the stain was added",
+        "isCorrect": false,
+        "feedback": "The nucleus was always there! Staining just makes it visible."
+      },
+      {
+        "id": "B",
+        "text": "The nucleus is transparent and has similar colour to cytoplasm",
+        "isCorrect": true,
+        "feedback": "Correct! The nucleus and cytoplasm are both transparent/pale, making them hard to distinguish. Stains bind to certain cell structures, adding colour and making them visible under the microscope."
+      },
+      {
+        "id": "C",
+        "text": "Onion cells don't normally have nuclei",
+        "isCorrect": false,
+        "feedback": "All living plant cells, including onion cells, have nuclei containing DNA."
+      },
+      {
+        "id": "D",
+        "text": "The microscope wasn't powerful enough",
+        "isCorrect": false,
+        "feedback": "The microscope power didn't change. The nucleus is large enough to see - it just lacked contrast before staining."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Why staining is important in microscopy:**\n\n**Before staining:**\n- Cell structures are mostly transparent or pale\n- Nucleus and cytoplasm look similar (both clear/pale)\n- Only thick structures like the cell wall are easily visible\n- Low **contrast** between structures\n\n**After staining (with iodine):**\n- Stain molecules bind to specific structures (like the nucleus)\n- These structures become coloured (iodine makes nucleus brown/yellow)\n- High **contrast** makes structures clearly visible\n- Details become obvious\n\n**Common biological stains:**\n- **Iodine**: Stains nucleus and starch (brown/black)\n- **Methylene blue**: Stains nucleus (blue)\n- **Eosin**: Stains cytoplasm (pink)\n\n**Key principle:** Many cell structures are transparent. Staining adds colour to specific parts, creating **contrast** that makes them visible.\n\nThis connects to phenomenon **p6** - observing onion cells under a microscope!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what colour most cell structures are naturally. Are they bright and colourful?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Most cell parts are transparent. Stains add colour to make them stand out from their surroundings.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 12,
+      "conceptsUsed": ["c2", "c4"],
+      "buildsOn": ["cells-y8-022"],
+      "preparesFor": ["cells-y8-050", "cells-y8-057"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p6",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set4",
+      "sequenceInPaper": 32
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-033",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Create a table comparing plant and animal cells. Include at least THREE structures that are:\na) Found in BOTH cell types\nb) Found ONLY in plant cells\nc) Different between the two cell types",
+    "solution": "**Comparison of Plant and Animal Cells:**\n\n| Structure | Plant Cells | Animal Cells | Notes |\n|-----------|-------------|--------------|-------|\n| **FOUND IN BOTH:** |\n| Cell membrane | ✓ Present | ✓ Present | Controls what enters/exits |\n| Cytoplasm | ✓ Present | ✓ Present | Jelly-like substance |\n| Nucleus | ✓ Present | ✓ Present | Contains DNA, controls cell |\n| **FOUND ONLY IN PLANT CELLS:** |\n| Cell wall | ✓ Present | ✗ Absent | Rigid, made of cellulose |\n| Chloroplasts | ✓ Present (in green parts) | ✗ Absent | Site of photosynthesis |\n| Large central vacuole | ✓ Present | ✗ Absent | Stores water, nutrients, waste |\n| **DIFFERENT BETWEEN CELLS:** |\n| Shape | Regular, rectangular | Irregular, varied |\n| Vacuoles | Large central vacuole | Small or absent |\n| Rigidity | Rigid (due to cell wall) | Flexible (membrane only) |\n\n**Summary:**\n- **Similarities**: Both have cell membrane, cytoplasm, and nucleus (basic structures)\n- **Plant-specific**: Cell wall, chloroplasts, large vacuole (support + energy production)\n- **Key differences**: Plant cells are structured for support and photosynthesis; animal cells are flexible",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Start with structures all cells must have. Then think about what makes plant cells unique.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Both cells: membrane, cytoplasm, nucleus. Plant only: wall, chloroplasts, large vacuole.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 13,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["cells-y8-023", "cells-y8-030"],
+      "preparesFor": ["cells-y8-046", "cells-y8-054"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set4",
+      "sequenceInPaper": 33
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-034",
+    "questionType": "MCQ",
+    "stem": "A biologist is studying different organisms under a microscope. She observes:\n\n**Organism A:** Single-celled, has a cell wall and chloroplast\n**Organism B:** Single-celled, has a cell membrane but no cell wall or chloroplast\n**Organism C:** Multi-celled, cells have cell walls and large vacuoles\n\nWhich statement is most accurate?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "All three are animals because they're alive",
+        "isCorrect": false,
+        "feedback": "Cell walls and chloroplasts are plant characteristics, not animal. Organism structure tells us about its classification."
+      },
+      {
+        "id": "B",
+        "text": "A and C are plant-like; B is animal-like",
+        "isCorrect": true,
+        "feedback": "Correct! Organisms A and C have plant cell characteristics (cell wall, and A has chloroplasts). Organism B lacks these structures, making it more animal-like."
+      },
+      {
+        "id": "C",
+        "text": "Only C is a plant because it's multi-celled",
+        "isCorrect": false,
+        "feedback": "Single-celled organisms can also have plant-like characteristics (cell wall, chloroplasts). Being multi-celled isn't the only criterion."
+      },
+      {
+        "id": "D",
+        "text": "All three are bacteria because they're under a microscope",
+        "isCorrect": false,
+        "feedback": "Being microscopic doesn't make something bacteria. The presence of chloroplasts and nucleus indicates more complex organisms."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Analyzing each organism:**\n\n**Organism A (Plant-like):**\n- Cell wall → Plant characteristic\n- Chloroplast → Can photosynthesize\n- Single-celled → Likely an algae (like Euglena)\n\n**Organism B (Animal-like):**\n- Cell membrane but no cell wall → Animal characteristic\n- No chloroplast → Cannot photosynthesize (must consume food)\n- Single-celled → Likely a protozoan (like Amoeba)\n\n**Organism C (Plant):**\n- Cell walls → Plant characteristic\n- Large vacuoles → Plant characteristic\n- Multi-celled → Likely a plant tissue sample\n\n**Key principle:** \nCell structure tells us about organism type:\n- Cell wall + chloroplasts = Plant or plant-like\n- Membrane only, no chloroplasts = Animal or animal-like\n\nThis connects to phenomenon **p10** - pond water contains diverse microscopic life!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What structures are unique to plant cells? Which organisms have these structures?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Cell walls and chloroplasts indicate plant-like organisms. Which organisms have these?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 14,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["cells-y8-025", "cells-y8-029"],
+      "preparesFor": ["cells-y8-051", "cells-y8-060"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p10",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set4",
+      "sequenceInPaper": 34
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-035",
+    "questionType": "MCQ",
+    "stem": "The cell membrane is described as \"selectively permeable.\"\n\nWhat does this mean?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The membrane allows all substances to pass through freely",
+        "isCorrect": false,
+        "feedback": "If all substances could pass freely, cells couldn't control their internal environment. The membrane is selective."
+      },
+      {
+        "id": "B",
+        "text": "The membrane blocks all substances from entering or leaving",
+        "isCorrect": false,
+        "feedback": "If nothing could pass through, cells couldn't get nutrients or remove waste. Some substances must pass through."
+      },
+      {
+        "id": "C",
+        "text": "The membrane allows some substances through but blocks others",
+        "isCorrect": true,
+        "feedback": "Correct! 'Selectively permeable' means the membrane chooses what can pass through. Small molecules like water and oxygen can pass; large molecules and harmful substances are blocked."
+      },
+      {
+        "id": "D",
+        "text": "The membrane only exists in plant cells",
+        "isCorrect": false,
+        "feedback": "All cells (plant and animal) have cell membranes. This is a universal cell structure."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**Selectively permeable membrane:**\n\n**What it means:**\n- The cell membrane acts like a **selective gatekeeper**\n- Some substances can pass through, others cannot\n- This allows cells to **control their internal environment**\n\n**What CAN pass through:**\n- Small molecules: water (H₂O), oxygen (O₂), carbon dioxide (CO₂)\n- Some nutrients (depending on size and properties)\n\n**What CANNOT easily pass through:**\n- Large molecules (proteins, starch)\n- Charged particles (ions) without special channels\n- Harmful substances\n\n**Why this is important:**\n\n| If membrane was... | Result |\n|-------------------|--------|\n| Completely permeable | Cell loses control; harmful substances enter freely |\n| Completely impermeable | Cell starves; waste builds up; cell dies |\n| **Selectively permeable** | **Cell maintains balance; gets nutrients; removes waste** |\n\nThink of it like a **security checkpoint** - only authorized substances get through!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What does 'selective' mean? What does 'permeable' mean? Put them together.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The membrane needs to let nutrients in and waste out, but keep harmful things out. How would it do this?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 15,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["cells-y8-005", "cells-y8-011"],
+      "preparesFor": ["cells-y8-048", "cells-y8-058"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set4",
+      "sequenceInPaper": 35
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-036",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Explain why plant cells need BOTH a cell membrane AND a cell wall.\n\nWhy isn't just one of these structures sufficient?",
+    "solution": "Plant cells need BOTH structures because they serve **different functions**:\n\n**Cell Membrane (all cells have this):**\n- **Function**: Controls what enters and exits the cell\n- **Property**: Selectively permeable - lets some molecules through, blocks others\n- **Flexibility**: Flexible and can change shape slightly\n- **Location**: Just inside the cell wall in plant cells\n- **Essential for**: Nutrient uptake, waste removal, communication\n\n**Cell Wall (plant cells only):**\n- **Function**: Provides structural support and protection\n- **Property**: Rigid and strong (made of cellulose)\n- **Flexibility**: Does NOT control what passes through - fully permeable to small molecules\n- **Location**: Outer layer of plant cell\n- **Essential for**: Shape maintenance, preventing bursting, plant structural support\n\n**Why BOTH are needed:**\n\n1. **Cell wall alone** → Cannot control what enters/exits (it's permeable to everything small)\n2. **Cell membrane alone** → Cell would be flexible like animal cells; plant would collapse without rigid support\n3. **Both together** → Protection + control + structural support\n\n**Analogy**: The cell wall is like a house's walls (structure), while the cell membrane is like the door (controls entry/exit). You need both!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what each structure does. Do they have the same function or different functions?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The membrane controls movement in/out. The wall provides rigid structure. Both are necessary!",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 16,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["cells-y8-031", "cells-y8-035"],
+      "preparesFor": ["cells-y8-048", "cells-y8-056"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set4",
+      "sequenceInPaper": 36
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-037",
+    "questionType": "MCQ",
+    "stem": "A student observes a leaf cell and a root cell from the same plant under a microscope.\n\nWhich observation would the student most likely make?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The leaf cell has chloroplasts; the root cell does not",
+        "isCorrect": true,
+        "feedback": "Correct! Leaf cells are exposed to sunlight and contain chloroplasts for photosynthesis. Root cells are underground with no light access, so they don't have chloroplasts. This shows not all plant cells are identical!"
+      },
+      {
+        "id": "B",
+        "text": "The leaf cell has a cell wall; the root cell does not",
+        "isCorrect": false,
+        "feedback": "Both are plant cells, so both have cell walls. The cell wall is a defining feature of all plant cells."
+      },
+      {
+        "id": "C",
+        "text": "The leaf cell has a nucleus; the root cell does not",
+        "isCorrect": false,
+        "feedback": "All living plant cells have nuclei containing DNA. Both leaf and root cells need genetic control."
+      },
+      {
+        "id": "D",
+        "text": "The cells would look identical in every way",
+        "isCorrect": false,
+        "feedback": "While both are plant cells with similar basic structures, they're specialized for different functions and have some differences."
+      }
+    ],
+    "solution": "The answer is **A**.\n\n**Comparing leaf cells vs. root cells:**\n\n| Structure | Leaf Cell | Root Cell | Why Different? |\n|-----------|-----------|-----------|----------------|\n| Cell wall | ✓ Present | ✓ Present | Both are plant cells |\n| Cell membrane | ✓ Present | ✓ Present | All cells need this |\n| Nucleus | ✓ Present | ✓ Present | All cells need DNA |\n| Cytoplasm | ✓ Present | ✓ Present | All cells need this |\n| Large vacuole | ✓ Present | ✓ Present | Both are plant cells |\n| **Chloroplasts** | **✓ Present** | **✗ Absent** | **Only needed where there's light!** |\n\n**Key insight:**\nNot all plant cells are the same! Cells are **specialized** for their location and function:\n- **Leaf cells**: Exposed to sunlight → Have chloroplasts → Can photosynthesize → Appear green\n- **Root cells**: Underground, no light → No chloroplasts → Cannot photosynthesize → Appear white/pale\n\nThis reinforces that **chloroplasts are only found where photosynthesis can occur** (misconception m5)!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about where each cell type is located in the plant. What resource is available in one location but not the other?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Leaves get sunlight; roots don't. Which cell structure is only useful when there's light?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 17,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["cells-y8-024"],
+      "preparesFor": ["cells-y8-055", "cells-y8-062"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "phenomenonId": "p4",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set4",
+      "sequenceInPaper": 37
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-038",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student says: \"I think cells are filled with air, like a balloon. That's why they're so light.\"\n\nUsing your knowledge of cell structure, explain why this statement is incorrect. What is actually inside cells?",
+    "solution": "**This statement is incorrect.** This addresses misconception **m3**: \"Cells are filled with air.\"\n\n**What's actually inside cells:**\n\nCells are NOT filled with air. They are filled with **cytoplasm**, which is:\n\n**Composition of cytoplasm:**\n- Mostly **water** (about 70-80%)\n- Dissolved **salts and minerals**\n- **Proteins and enzymes** (do the cell's work)\n- **Nutrients** (sugars, amino acids)\n- **Organic molecules** needed for cell function\n\n**Physical properties:**\n- Gel-like or jelly-like consistency\n- NOT a gas (air)\n- NOT empty space\n- Dense enough to hold organelles in place\n\n**Why cells seem light:**\nCells ARE light, but not because they're filled with air! They're light because:\n1. They're mostly water (which is relatively light)\n2. They're extremely **small** (microscopic)\n3. Individual molecules are tiny\n\n**Evidence cells aren't air-filled:**\n- Cells sink in water (air-filled things float)\n- You can see structures floating in cytoplasm under a microscope\n- Cells maintain shape even without rigid walls (in animals)\n\n**Better analogy:** A cell is like a **water balloon filled with jelly**, not an air balloon!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What is cytoplasm? What is it made of?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Cells are filled with cytoplasm, which is mostly water with dissolved substances - not air!",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 18,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["cells-y8-026"],
+      "preparesFor": ["cells-y8-049", "cells-y8-058"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "misconceptionId": "m3",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set4",
+      "sequenceInPaper": 38
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-039",
+    "questionType": "MCQ",
+    "stem": "You're examining cells from different parts of a plant:\n\n**Sample 1:** Green leaf cells with many chloroplasts\n**Sample 2:** White root cells with no chloroplasts\n**Sample 3:** Stem cells with a few chloroplasts\n\nWhat explains the different numbers of chloroplasts in these cells?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "All plant cells should have the same number of chloroplasts",
+        "isCorrect": false,
+        "feedback": "Plant cells are specialized for different functions. Chloroplast number varies based on the cell's location and role."
+      },
+      {
+        "id": "B",
+        "text": "Cells produce chloroplasts based on light exposure",
+        "isCorrect": true,
+        "feedback": "Correct! Cells exposed to more light develop more chloroplasts for photosynthesis. Leaves get most light (many chloroplasts), roots get none (no chloroplasts), stems get some (few chloroplasts)."
+      },
+      {
+        "id": "C",
+        "text": "Older cells lose their chloroplasts over time",
+        "isCorrect": false,
+        "feedback": "Age isn't the factor here. Root cells never have chloroplasts because they're always underground, regardless of age."
+      },
+      {
+        "id": "D",
+        "text": "Chloroplasts randomly appear and disappear in cells",
+        "isCorrect": false,
+        "feedback": "Chloroplast presence is not random - it's determined by the cell's location and function (mainly light exposure)."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Why chloroplast numbers vary:**\n\n| Plant Part | Light Exposure | Chloroplast Number | Purpose |\n|------------|----------------|--------------------|---------|\n| **Leaves** | High (direct sunlight) | Many (densely packed) | Maximum photosynthesis |\n| **Stems** | Moderate (some exposure) | Few (scattered) | Some photosynthesis + support |\n| **Roots** | None (underground) | Zero | No photosynthesis; absorption only |\n\n**Key principle: Structure follows function**\n- Cells develop structures they need for their specific job\n- Light exposure determines whether chloroplasts are useful\n- **More light = more chloroplasts = more photosynthesis**\n\n**This explains:**\n- Why leaves are the main photosynthetic organs (most chloroplasts)\n- Why roots are white/pale (no chloroplasts)\n- Why green stems can photosynthesize but aren't as efficient as leaves\n\n**Real-world observation:** If you grow a plant in darkness, even leaf cells will have fewer, paler chloroplasts - demonstrating the relationship between light and chloroplast development!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What do chloroplasts do? What do they need to function?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Chloroplasts need light for photosynthesis. Where does each plant part experience different amounts of light?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 19,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["cells-y8-024", "cells-y8-037"],
+      "preparesFor": ["cells-y8-055", "cells-y8-064"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set4",
+      "sequenceInPaper": 39
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "cells-y8-040",
+    "questionType": "SHORT_ANSWER",
+    "stem": "You observe these three scenarios:\n\n1. A cut on your skin healing over several days\n2. Leaves appearing green in sunlight\n3. Plant stems standing upright even without bones\n\nChoose ONE scenario and explain how cell structures make this possible. Identify at least TWO specific cell structures in your answer.",
+    "solution": "**Any ONE of the following explanations is acceptable:**\n\n---\n\n**Scenario 1: Skin healing (Phenomenon p1)**\n\nCell structures involved:\n\n1. **Nucleus**: Contains DNA with instructions for cell division. When skin is damaged, the nucleus activates genes that trigger cell division to produce new skin cells.\n\n2. **Cell membrane**: Controls what enters and exits cells. During healing, the membrane allows nutrients and growth factors to enter cells, providing materials needed for growth and repair.\n\nHow it works: The nucleus detects the injury signal and initiates cell division. New daughter cells are produced with identical DNA. These cells migrate to fill the gap, eventually closing the wound.\n\n---\n\n**Scenario 2: Leaves appearing green (Phenomenon p4)**\n\nCell structures involved:\n\n1. **Chloroplasts**: Contain chlorophyll (green pigment) that absorbs sunlight for photosynthesis. When light hits chloroplasts, the chlorophyll reflects green wavelengths, making leaves appear green.\n\n2. **Cell wall**: The transparent cell wall in leaf cells allows light to pass through to reach the chloroplasts inside.\n\nHow it works: Light passes through the transparent cell wall and reaches chloroplasts. Chlorophyll absorbs red and blue light but reflects green, making the leaf appear green to our eyes.\n\n---\n\n**Scenario 3: Plant stems standing upright**\n\nCell structures involved:\n\n1. **Cell wall**: Rigid structure made of cellulose provides strength and prevents cells from collapsing under their own weight.\n\n2. **Large central vacuole**: When filled with water, creates internal pressure (turgor pressure) that pushes against the cell wall, making cells rigid and firm.\n\nHow it works: Water in the vacuole creates pressure, pushing the cell membrane against the cell wall. The rigid cell wall resists this pressure. Millions of turgid (firm) cells stacked together create a strong, upright structure - no bones needed!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Pick the scenario you understand best. Think about which cell structures are directly involved.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Scenario 1: nucleus and membrane. Scenario 2: chloroplasts and cell wall. Scenario 3: cell wall and vacuole.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU149"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Biological Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 20,
+      "conceptsUsed": ["c2", "c3", "c4"],
+      "buildsOn": ["cells-y8-021", "cells-y8-031", "cells-y8-037"],
+      "preparesFor": ["cells-y8-052", "cells-y8-059", "cells-y8-065"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-cells-and-cell-structure-set4",
+      "sequenceInPaper": 40
+    },
+    "status": "draft"
+  }
+]

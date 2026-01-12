@@ -1,0 +1,429 @@
+{
+  "topic": "Elements, Compounds and Mixtures",
+  "topicId": "elements-compounds-mixtures",
+  "outcomeCode": "ACSSU152",
+  "year": 8,
+  "researchedAt": "2026-01-10",
+
+  "curriculumAlignment": {
+    "outcomeDescription": "Differences between elements, compounds and mixtures can be described at a particle level",
+    "v9ContentDescriptor": "Classify matter as elements, compounds or mixtures and compare different representations of these, including 2-dimensional and 3-dimensional models, symbols for elements and formulas for molecules",
+    "strand": "Chemical Sciences",
+    "stage": "Stage 4",
+    "syllabus": "NSW Science 7-10 (2023)",
+    "prerequisiteOutcomes": ["ACSSU151"],
+    "progressionOutcomes": ["ACSSU178", "ACSSU186"]
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Pure substances vs mixtures",
+      "description": "Matter can be classified as pure substances (one type of particle) or mixtures (two or more types of particles combined)",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c2", "c3", "c6"]
+    },
+    {
+      "id": "c2",
+      "name": "Elements as pure substances",
+      "description": "Elements are pure substances made of only one type of atom (e.g., gold, oxygen, carbon)",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c4", "c5", "c7"]
+    },
+    {
+      "id": "c3",
+      "name": "Compounds as pure substances",
+      "description": "Compounds are pure substances made of two or more different atoms chemically bonded in fixed ratios",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c4", "c5", "c8"]
+    },
+    {
+      "id": "c4",
+      "name": "Particle diagrams interpretation",
+      "description": "Recognizing and drawing particle diagrams to represent elements, compounds and mixtures",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c7", "c8", "c9"]
+    },
+    {
+      "id": "c5",
+      "name": "Chemical symbols and formulas",
+      "description": "Using chemical symbols for elements and molecular formulas for compounds (e.g., O, Au, H₂O, NaCl)",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c8", "c9"]
+    },
+    {
+      "id": "c6",
+      "name": "Types of mixtures",
+      "description": "Homogeneous (solutions) vs heterogeneous mixtures based on uniformity of particle distribution",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c10"]
+    },
+    {
+      "id": "c7",
+      "name": "Diatomic elements",
+      "description": "Some elements exist as molecules of two atoms (H₂, O₂, N₂, Cl₂) - still elements, not compounds",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c9"]
+    },
+    {
+      "id": "c8",
+      "name": "Properties of compounds vs elements",
+      "description": "Compounds have different properties from their constituent elements (e.g., NaCl vs Na and Cl)",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c9", "c10"]
+    },
+    {
+      "id": "c9",
+      "name": "Chemical vs physical combinations",
+      "description": "Elements combine chemically to form compounds (fixed ratios, new properties) vs physically to form mixtures (variable ratios, retain properties)",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c10"]
+    },
+    {
+      "id": "c10",
+      "name": "Separation methods",
+      "description": "Mixtures can be separated by physical methods (filtration, distillation, evaporation); compounds require chemical reactions to separate",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": []
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "misconception": "Particles in diagrams with different colored atoms always represent a mixture",
+      "correction": "Different atoms chemically bonded in a fixed pattern represent a compound; only physically mixed particles represent a mixture",
+      "prevalence": "high",
+      "source": "Briggs & Holding, 1986 (39% of 15-year-olds)",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m2",
+      "misconception": "Diatomic molecules like O₂ are compounds because they have two atoms",
+      "correction": "If both atoms are the same type, it's still an element - compounds require different types of atoms bonded together",
+      "prevalence": "high",
+      "source": "RSC Education; Driver et al., 1994",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m3",
+      "misconception": "Only elements are pure substances; compounds are not pure",
+      "correction": "Both elements AND compounds are pure substances because they contain only one type of particle (atom or molecule)",
+      "prevalence": "high",
+      "source": "RSC Education Chemical Misconceptions",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m4",
+      "misconception": "Individual atoms have the same properties as the bulk element (copper atoms are shiny and orange)",
+      "correction": "Macroscopic properties like color, luster, and hardness emerge from many particles interacting - single atoms don't have these properties",
+      "prevalence": "high",
+      "source": "Ben-Zvi et al., 1986 (nearly 50% of 15-year-olds)",
+      "questionPhase": 4,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m5",
+      "misconception": "Elements are part of atoms or make up atoms",
+      "correction": "Elements are made OF atoms - billions of atoms of the same type make up a sample of an element",
+      "prevalence": "medium",
+      "source": "Briggs & Holding, 1986",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m6",
+      "misconception": "'Pure' means safe to consume, free from additives, or transparent",
+      "correction": "In chemistry, 'pure' means containing only one type of particle - pure substances can be dangerous (pure sodium) or opaque (pure iron)",
+      "prevalence": "high",
+      "source": "RSC Education; everyday language confusion",
+      "questionPhase": 2,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m7",
+      "misconception": "All mixtures look heterogeneous (you can see the different parts)",
+      "correction": "Homogeneous mixtures (solutions) appear uniform but still contain different types of particles mixed together",
+      "prevalence": "medium",
+      "source": "RSC Education",
+      "questionPhase": 3,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m8",
+      "misconception": "Salt water is a compound because salt and water are chemically combined",
+      "correction": "Salt water is a mixture (solution) - the NaCl and H₂O particles are physically mixed but not chemically bonded; they can be separated by distillation",
+      "prevalence": "high",
+      "source": "RSC Education; AAAS Project 2061",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m9",
+      "misconception": "The number of atoms determines if something is an element or compound",
+      "correction": "The number of atom TYPES determines this - O₂ has 2 atoms but is an element; H₂O has 3 atoms but is a compound",
+      "prevalence": "medium",
+      "source": "Briggs & Holding, 1986",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m10",
+      "misconception": "Compounds can be separated by physical methods like filtration or evaporation",
+      "correction": "Compounds require chemical reactions to separate into their elements; only mixtures can be separated physically",
+      "prevalence": "medium",
+      "source": "Barker, 1995 (only 3% could explain general tests)",
+      "questionPhase": 4,
+      "diagnosticValue": "medium"
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "Gold jewelry karats (24K vs 18K vs 9K gold)",
+      "concepts": ["c1", "c2", "c6"],
+      "curiosityHook": "Why is 24 karat gold too soft for everyday jewelry, but 18K gold works perfectly?",
+      "questionPhase": 2,
+      "australianRelevance": "Australia is world's largest gold producer; Kalgoorlie mines, jewellery shopping"
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Salt harvesting from ocean water",
+      "concepts": ["c1", "c6", "c10"],
+      "curiosityHook": "How do we get pure salt from the ocean, and why can't we just filter it?",
+      "questionPhase": 3,
+      "australianRelevance": "Pink lakes in Western Australia, Port Hedland salt operations"
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Steel vs pure iron",
+      "concepts": ["c2", "c6", "c8"],
+      "curiosityHook": "Why don't we build bridges from pure iron? What makes steel different?",
+      "questionPhase": 3,
+      "australianRelevance": "Pilbara iron ore mining (35% of Australia's exports), Sydney Harbour Bridge"
+    },
+    {
+      "id": "p4",
+      "phenomenon": "Table salt (sodium chloride) vs sodium metal",
+      "concepts": ["c2", "c3", "c8"],
+      "curiosityHook": "Sodium explodes in water and chlorine is a deadly gas - so why is table salt safe to eat?",
+      "questionPhase": 3,
+      "australianRelevance": "Cooking, Murray-Darling salinity issues"
+    },
+    {
+      "id": "p5",
+      "phenomenon": "Air as a mixture of gases",
+      "concepts": ["c1", "c2", "c6"],
+      "curiosityHook": "Is the air we breathe a compound, element, or mixture? How do we know?",
+      "questionPhase": 2,
+      "australianRelevance": "Bushfire smoke, air quality in cities"
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Copper wiring in homes",
+      "concepts": ["c2", "c8"],
+      "curiosityHook": "Why is almost every electrical wire in your home made of copper, not another metal?",
+      "questionPhase": 2,
+      "australianRelevance": "South Australia 'Copper Kingdom' history, Mount Isa mines"
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Bronze vs copper statues",
+      "concepts": ["c2", "c6", "c8"],
+      "curiosityHook": "Why did ancient civilizations prefer bronze (copper + tin alloy) over pure copper for tools?",
+      "questionPhase": 3,
+      "australianRelevance": "ANZAC memorial bronzes, museum artefacts"
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Fizzy soft drinks",
+      "concepts": ["c1", "c3", "c6"],
+      "curiosityHook": "What's the difference between the CO₂ gas dissolved in your drink and the sugar dissolved in it?",
+      "questionPhase": 4,
+      "australianRelevance": "Summer BBQs, everyday beverages"
+    },
+    {
+      "id": "p9",
+      "phenomenon": "Diamond vs graphite (both pure carbon)",
+      "concepts": ["c2", "c4"],
+      "curiosityHook": "How can the hardest natural material and soft pencil lead both be pure carbon?",
+      "questionPhase": 4,
+      "australianRelevance": "Argyle diamond mine (world's largest), school pencils"
+    },
+    {
+      "id": "p10",
+      "phenomenon": "Swimming pool chlorination",
+      "concepts": ["c2", "c3", "c8"],
+      "curiosityHook": "Pool 'chlorine' isn't actually chlorine gas - what compound is it and why does it smell?",
+      "questionPhase": 4,
+      "australianRelevance": "Backyard pools (highest ownership rate globally), public pools"
+    }
+  ],
+
+  "scaffoldingSequence": [
+    {
+      "phase": 1,
+      "name": "Classify at Macroscopic Level",
+      "focus": "Identifying pure substances vs mixtures using observable properties",
+      "concepts": ["c1"],
+      "questionCount": 10,
+      "difficulty": "foundational"
+    },
+    {
+      "phase": 2,
+      "name": "Introduce Particle Representations",
+      "focus": "Elements and compounds as particle diagrams; chemical symbols",
+      "concepts": ["c2", "c3", "c4", "c5"],
+      "questionCount": 20,
+      "difficulty": "foundational-to-intermediate"
+    },
+    {
+      "phase": 3,
+      "name": "Challenge Misconceptions",
+      "focus": "Diatomic elements, pure substance confusion, mixtures vs compounds in diagrams",
+      "concepts": ["c6", "c7", "c8"],
+      "questionCount": 25,
+      "difficulty": "intermediate"
+    },
+    {
+      "phase": 4,
+      "name": "Apply and Differentiate",
+      "focus": "Chemical vs physical combinations, separation methods, complex applications",
+      "concepts": ["c9", "c10"],
+      "questionCount": 25,
+      "difficulty": "intermediate-to-advanced"
+    }
+  ],
+
+  "vocabularyProgression": {
+    "phase1": ["pure substance", "mixture", "matter", "particle", "classify"],
+    "phase2": ["element", "compound", "atom", "molecule", "symbol", "formula", "bonded"],
+    "phase3": ["homogeneous", "heterogeneous", "solution", "diatomic", "alloy", "chemical bond", "fixed ratio"],
+    "phase4": ["chemical reaction", "physical change", "separation", "distillation", "filtration", "evaporation", "chromatography"]
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": [
+      "Use Johnstone's chemistry triangle: connect macroscopic (what you see) to submicroscopic (particles) to symbolic (formulas)",
+      "Present particle diagrams before abstract definitions - visual representations reduce cognitive load",
+      "Introduce one classification at a time (element → compound → mixture) rather than all three simultaneously",
+      "Use 3D molecular models before 2D diagrams to build spatial understanding"
+    ],
+    "engagementStrategies": [
+      "Start with familiar examples (gold jewelry, salt, air) before scientific terminology",
+      "Use the iron + sulfur demonstration to show dramatic property changes in compounds",
+      "Card-sorting activities with particle diagrams promote discussion and reveal misconceptions",
+      "Prediction questions before revealing answers create curiosity gaps"
+    ],
+    "motivationFactors": [
+      "Connect to Australian mining industry (gold, iron ore, copper) and national economy",
+      "Link to cooking and food (salt, sugar, baking soda)",
+      "Relate to jewelry and fashion (gold karats, sterling silver)",
+      "Connect to water purification and environmental issues (desalination, pollution)"
+    ],
+    "desirableDifficulties": [
+      "Interleave element/compound/mixture identification rather than blocking by type",
+      "Include 'trap' questions using diatomic elements to test deep understanding",
+      "Vary contexts (diagrams, word problems, real-world scenarios) to promote transfer",
+      "Require both identification AND explanation to prevent surface-level pattern matching"
+    ],
+    "spacedRepetitionPoints": ["c2", "c3", "c7", "c8"],
+    "testingEffectOpportunities": [
+      "Low-stakes quizzes on particle diagram interpretation",
+      "Prediction activities before demonstrations",
+      "Explain-to-a-friend questions requiring particle-level reasoning"
+    ]
+  },
+
+  "questionDesignGuidelines": {
+    "mcqDistractorStrategy": "Use documented misconceptions as distractors: diatomic element confusion (m2), pure substance misunderstanding (m3), mixture vs compound diagrams (m1)",
+    "shortAnswerFocus": "Require particle-level explanations for classifications; ask students to EXPLAIN why, not just label",
+    "diagramQuestions": "At least 40% of questions should involve interpreting or drawing particle diagrams",
+    "calculationOpportunities": "Limited at Year 8 - focus on qualitative understanding; could introduce percentage composition for extension",
+    "realWorldApplication": "At least 50% of questions should use Australian real-world contexts",
+    "misconceptionTargeting": "Each phase should include questions specifically designed to surface and address 2-3 key misconceptions"
+  },
+
+  "differentiationNotes": {
+    "supportStrategies": [
+      "Provide particle model templates for drawing",
+      "Use color-coding for different atom types",
+      "Offer sentence starters: 'This is a compound because...'",
+      "Create visual anchor charts showing element vs compound vs mixture"
+    ],
+    "extensionOpportunities": [
+      "Explore ionic vs covalent compounds",
+      "Investigate allotropes (diamond/graphite, O₂/O₃)",
+      "Research separation techniques in industry",
+      "Calculate percentage composition of compounds",
+      "Investigate colloids and suspensions as special mixture types"
+    ]
+  },
+
+  "sources": [
+    {
+      "name": "Briggs, H. & Holding, B. (1986). Aspects of secondary students' understanding of elementary ideas in chemistry",
+      "type": "research",
+      "url": null
+    },
+    {
+      "name": "Ben-Zvi, R. et al. (1986). Concept learning in chemistry",
+      "type": "research",
+      "url": null
+    },
+    {
+      "name": "Barker, V. (1995). A longitudinal study of 16-18 year olds' understanding of basic chemical ideas",
+      "type": "research",
+      "url": null
+    },
+    {
+      "name": "RSC Education - Students' ideas about elements, compounds and mixtures",
+      "type": "pedagogical",
+      "url": "https://edu.rsc.org/resources/students-ideas-about-the-differences-between-elements-compounds-and-mixtures-beyond-appearances/4017771.article"
+    },
+    {
+      "name": "RSC Education - Chemical misconceptions II: Elements, compounds and mixtures",
+      "type": "pedagogical",
+      "url": "https://edu.rsc.org/resources/chemical-misconceptions-ii-elements-compounds-and-mixtures/1083.article"
+    },
+    {
+      "name": "RSC Education - 5 ways to teach elements, compounds and mixtures at 11-14",
+      "type": "pedagogical",
+      "url": "https://edu.rsc.org/ideas/5-ways-to-teach-elements-compounds-and-mixtures-at-11-14/4017172.article"
+    },
+    {
+      "name": "AAAS Project 2061 Science Assessment",
+      "type": "assessment",
+      "url": "http://assessment.aaas.org/topics"
+    },
+    {
+      "name": "Geoscience Australia - Australian mineral facts",
+      "type": "context",
+      "url": "https://www.ga.gov.au/education/minerals-energy/australian-mineral-facts"
+    },
+    {
+      "name": "Geoscience Australia - Copper",
+      "type": "context",
+      "url": "https://www.ga.gov.au/education/minerals-energy/australian-mineral-facts/copper"
+    },
+    {
+      "name": "World Gold Council - Gold jewellery: Colour, Carat & Purity",
+      "type": "context",
+      "url": "https://www.gold.org/about-gold/about-gold-jewellery"
+    },
+    {
+      "name": "Mind Matters Pedagogy - How to Teach Elements, Compounds and Mixtures Visually",
+      "type": "pedagogical",
+      "url": "https://www.mindmatterspedagogy.com/post/how-to-teach-elements-compounds-and-mixtures-visually"
+    },
+    {
+      "name": "Kind, V. (2004). Beyond Appearances: Students' misconceptions about basic chemical ideas",
+      "type": "research",
+      "url": "https://edu.rsc.org/resources/beyond-appearances-students-misconceptions-about-basic-chemical-ideas/2202.article"
+    }
+  ]
+}

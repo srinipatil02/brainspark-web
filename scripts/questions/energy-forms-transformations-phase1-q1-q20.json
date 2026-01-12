@@ -1,0 +1,1326 @@
+[
+  {
+    "questionId": "eft-y8-001",
+    "questionType": "MCQ",
+    "stem": "What is energy?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The ability to do work or cause change",
+        "isCorrect": true,
+        "feedback": "Correct! Energy is defined as the ability to do work or cause change. This means anything with energy can make things move, heat up, light up, or change in some way."
+      },
+      {
+        "id": "B",
+        "text": "A type of force that pushes objects",
+        "isCorrect": false,
+        "feedback": "Not quite. Energy is not a force itself. Forces can transfer energy, but energy is the capacity to do work, not a push or pull."
+      },
+      {
+        "id": "C",
+        "text": "The speed at which something moves",
+        "isCorrect": false,
+        "feedback": "Speed is related to energy (moving objects have kinetic energy), but energy itself is broader - it's the ability to do work or cause change."
+      },
+      {
+        "id": "D",
+        "text": "The weight of an object",
+        "isCorrect": false,
+        "feedback": "Weight is a force due to gravity, not energy. However, objects at height do have gravitational potential energy."
+      }
+    ],
+    "solution": "The correct answer is **A: The ability to do work or cause change**.\n\nEnergy is a fundamental concept in science. When something has **energy**, it means it has the **capacity to do work** - to make things happen, to cause movement, or to create change.\n\nExamples of energy causing change:\n- A moving car (kinetic energy) can push another car\n- Hot water (thermal energy) can warm your hands\n- Sunlight (light energy) can warm surfaces\n- A battery (chemical energy) can power a device\n\nEnergy comes in many forms, but they all share this core definition: **the ability to do work or cause change**.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens when something has energy - what can it do?"
+      },
+      {
+        "level": 2,
+        "content": "Energy is not a thing you can touch or see directly, but rather a property that describes what something can accomplish."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 1,
+      "conceptsUsed": ["c1"],
+      "buildsOn": [],
+      "preparesFor": ["eft-y8-002", "eft-y8-003"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Establish the fundamental definition of energy as foundation for all future learning"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set1",
+      "sequenceInPaper": 1
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-002",
+    "questionType": "MCQ",
+    "stem": "Which of the following is an example of kinetic energy?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A book sitting on a shelf",
+        "isCorrect": false,
+        "feedback": "A book on a shelf has gravitational potential energy (due to its height), but not kinetic energy because it's not moving."
+      },
+      {
+        "id": "B",
+        "text": "A stretched rubber band",
+        "isCorrect": false,
+        "feedback": "A stretched rubber band has elastic potential energy (stored energy), but not kinetic energy because it's not moving."
+      },
+      {
+        "id": "C",
+        "text": "A cricket ball flying through the air",
+        "isCorrect": true,
+        "feedback": "Correct! A cricket ball in flight has kinetic energy because it is moving. The faster it moves, the more kinetic energy it has."
+      },
+      {
+        "id": "D",
+        "text": "A battery in a remote control",
+        "isCorrect": false,
+        "feedback": "A battery stores chemical energy, not kinetic energy. Kinetic energy is specifically the energy of motion."
+      }
+    ],
+    "solution": "The correct answer is **C: A cricket ball flying through the air**.\n\n**Kinetic energy** is the energy that an object has because of its **motion**. Any moving object has kinetic energy - whether it's a ball, a car, a person running, or even moving air particles.\n\nLet's examine each option:\n- **Book on shelf**: Not moving = no kinetic energy (but it has potential energy)\n- **Stretched rubber band**: Not moving = no kinetic energy (but it has elastic potential energy)\n- **Cricket ball flying**: **Moving** = has kinetic energy ✓\n- **Battery**: Stores chemical energy, not kinetic energy\n\nRemember: **Kinetic = motion**. If it's moving, it has kinetic energy!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Kinetic energy is related to movement. Which option involves something that is moving?"
+      },
+      {
+        "level": 2,
+        "content": "The word 'kinetic' comes from a Greek word meaning 'to move'. Look for the moving object."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 2,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["eft-y8-001"],
+      "preparesFor": ["eft-y8-006", "eft-y8-007"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Introduce kinetic energy with clear examples to build recognition"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set1",
+      "sequenceInPaper": 2
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-003",
+    "questionType": "MCQ",
+    "stem": "What are the main forms of energy we observe in everyday life?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Only kinetic and potential energy",
+        "isCorrect": false,
+        "feedback": "While kinetic and potential are important, there are many other forms of energy we encounter daily, such as light, sound, thermal, and electrical energy."
+      },
+      {
+        "id": "B",
+        "text": "Kinetic, potential, thermal, light, sound, and electrical energy",
+        "isCorrect": true,
+        "feedback": "Correct! These are the main forms of energy we encounter in everyday life. Each form has different characteristics but all represent the ability to do work or cause change."
+      },
+      {
+        "id": "C",
+        "text": "Only thermal and electrical energy",
+        "isCorrect": false,
+        "feedback": "Thermal and electrical are important, but there are several other forms of energy including kinetic, potential, light, and sound."
+      },
+      {
+        "id": "D",
+        "text": "Only light and sound energy",
+        "isCorrect": false,
+        "feedback": "Light and sound are forms of energy, but there are many others including kinetic, potential, thermal, and electrical energy."
+      }
+    ],
+    "solution": "The correct answer is **B: Kinetic, potential, thermal, light, sound, and electrical energy**.\n\nThese are the **main forms of energy** we encounter in our daily lives:\n\n1. **Kinetic energy** - energy of motion (moving car, running person)\n2. **Potential energy** - stored energy due to position or condition (ball on shelf, stretched spring)\n3. **Thermal energy** - energy related to temperature and heat (hot stove, warm water)\n4. **Light energy** - energy we can see (sunlight, lamp)\n5. **Sound energy** - energy we can hear (music, voices)\n6. **Electrical energy** - energy from moving charges (appliances, lightning)\n\nWhile there are other forms like **chemical energy** (batteries, food) and **nuclear energy** (power plants), these six forms are the most commonly observed in everyday situations.\n\nAll these forms can **transform** from one to another - that's a key principle of energy!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the different types of energy you experience throughout your day - movement, heat, light, sounds, electricity..."
+      },
+      {
+        "level": 2,
+        "content": "Energy comes in many forms beyond just movement and stored energy. Consider what you see, hear, and feel."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 3,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["eft-y8-001"],
+      "preparesFor": ["eft-y8-004", "eft-y8-005"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Establish vocabulary of energy forms that will be used throughout the topic"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set1",
+      "sequenceInPaper": 3
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-004",
+    "questionType": "MCQ",
+    "stem": "A light bulb is turned on. What energy transformation is taking place?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Light energy → Electrical energy",
+        "isCorrect": false,
+        "feedback": "This is backwards! The light bulb uses electrical energy to produce light, not the other way around."
+      },
+      {
+        "id": "B",
+        "text": "Electrical energy → Light energy (and thermal energy)",
+        "isCorrect": true,
+        "feedback": "Correct! A light bulb transforms electrical energy into light energy (which is useful) and thermal energy (heat, which is often wasted). You can feel the heat from a bulb that's been on for a while!"
+      },
+      {
+        "id": "C",
+        "text": "Kinetic energy → Light energy",
+        "isCorrect": false,
+        "feedback": "Light bulbs don't use movement (kinetic energy) to produce light. They use electrical energy flowing through the bulb."
+      },
+      {
+        "id": "D",
+        "text": "Chemical energy → Light energy",
+        "isCorrect": false,
+        "feedback": "Light bulbs don't use chemical reactions to produce light (though some devices like glow sticks do). Light bulbs use electrical energy."
+      }
+    ],
+    "solution": "The correct answer is **B: Electrical energy → Light energy (and thermal energy)**.\n\nWhen you turn on a light bulb, an **energy transformation** occurs:\n\n**INPUT**: Electrical energy flows from the power source through the wires to the bulb.\n\n**OUTPUT**: \n- **Light energy** (the useful energy we want) ✓\n- **Thermal energy** (heat - often unwasted energy)\n\nThis is a perfect example of **energy transformation** - one form of energy changing into other forms. The electrical energy doesn't disappear; it changes form.\n\nYou can observe this transformation:\n- You **see** the light (light energy)\n- If you touch the bulb (carefully!), you **feel** the heat (thermal energy)\n\nNote: Modern LED bulbs are more efficient - they convert more electrical energy to light and less to heat compared to old incandescent bulbs.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what type of energy powers the light bulb and what types of energy it produces."
+      },
+      {
+        "level": 2,
+        "content": "Light bulbs need electricity to work. What happens to that electrical energy? What do you observe coming from the bulb?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 4,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["eft-y8-003"],
+      "preparesFor": ["eft-y8-005", "eft-y8-016"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can do this!",
+      "purpose": "Introduce energy transformation concept using familiar everyday example"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set1",
+      "sequenceInPaper": 4
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-005",
+    "questionType": "SHORT_ANSWER",
+    "stem": "List three examples of energy transformations you observe in your daily life. For each example, identify the energy transformation occurring (energy form → energy form).",
+    "solution": "Here are three common examples of energy transformations:\n\n**1. Eating breakfast → Playing sport**\n- **Chemical energy** (in food) → **Kinetic energy** (movement) + **Thermal energy** (body heat)\n- Your body converts the chemical energy stored in food into energy for movement and maintaining body temperature.\n\n**2. Phone charging**\n- **Electrical energy** (from power outlet) → **Chemical energy** (stored in battery)\n- The charger transforms electrical energy into chemical energy that is stored in the phone's battery.\n\n**3. Turning on a fan**\n- **Electrical energy** (from power) → **Kinetic energy** (rotating blades) + **Sound energy** (humming noise)\n- The motor transforms electrical energy into the movement of the fan blades and produces some sound.\n\n**Other valid examples:**\n- Solar panel: Light energy → Electrical energy\n- Microwave: Electrical energy → Thermal energy\n- Ringing bell: Kinetic energy → Sound energy\n- Dropping a ball: Potential energy → Kinetic energy\n\n**Key understanding**: Energy constantly transforms from one form to another, but the **total amount of energy stays the same** (conservation of energy).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about devices you use daily - phones, lights, appliances. What energy do they use and what energy do they produce?"
+      },
+      {
+        "level": 2,
+        "content": "Consider: eating food, using electronic devices, transportation, or any activity that involves energy changing from one form to another."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 5,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["eft-y8-003", "eft-y8-004"],
+      "preparesFor": ["eft-y8-016", "eft-y8-017"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Apply energy transformation knowledge to personal context, reinforcing recognition"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set1",
+      "sequenceInPaper": 5
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-006",
+    "questionType": "MCQ",
+    "stem": "Two identical cars are driving: Car A is moving at 40 km/h and Car B is moving at 80 km/h. Which statement about their kinetic energy is correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Both cars have the same kinetic energy",
+        "isCorrect": false,
+        "feedback": "Not correct. Kinetic energy depends on speed. Since Car B is moving faster, it has more kinetic energy than Car A."
+      },
+      {
+        "id": "B",
+        "text": "Car B has more kinetic energy than Car A",
+        "isCorrect": true,
+        "feedback": "Correct! Kinetic energy increases with speed. Car B is moving twice as fast as Car A, so it has significantly more kinetic energy. In fact, doubling the speed quadruples the kinetic energy!"
+      },
+      {
+        "id": "C",
+        "text": "Car A has more kinetic energy than Car B",
+        "isCorrect": false,
+        "feedback": "This is backwards. The faster an object moves, the more kinetic energy it has. Car B is moving faster, so it has more kinetic energy."
+      },
+      {
+        "id": "D",
+        "text": "Neither car has kinetic energy because they are the same mass",
+        "isCorrect": false,
+        "feedback": "Mass doesn't determine whether objects have kinetic energy. Any moving object has kinetic energy - both mass AND speed matter."
+      }
+    ],
+    "solution": "The correct answer is **B: Car B has more kinetic energy than Car A**.\n\n**Kinetic energy** depends on two factors:\n1. **Mass** (how much matter the object has)\n2. **Speed** (how fast the object is moving)\n\nIn this case:\n- Both cars have the **same mass** (identical cars)\n- Car B is moving **faster** (80 km/h vs 40 km/h)\n\nTherefore, **Car B has more kinetic energy** than Car A.\n\n**Important principle**: The faster something moves, the more kinetic energy it has. This is why:\n- Fast-moving cars need more distance to stop (more energy to dissipate)\n- Athletes running at full speed have more energy than when walking\n- High-speed collisions are more dangerous\n\n**Extra insight**: Kinetic energy actually increases with the **square** of the speed. So when Car B moves twice as fast, it has **four times** the kinetic energy! This relationship becomes important in later physics studies.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what factors affect kinetic energy. Both cars are identical, so what's different between them?"
+      },
+      {
+        "level": 2,
+        "content": "Kinetic energy increases with speed. Which car is moving faster?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 6,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["eft-y8-002"],
+      "preparesFor": ["eft-y8-007", "eft-y8-008"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Develop understanding that kinetic energy depends on speed"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set1",
+      "sequenceInPaper": 6
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-007",
+    "questionType": "MCQ",
+    "stem": "A bowling ball and a tennis ball are rolling at the same speed. Which statement is correct about their kinetic energy?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They have the same kinetic energy because they move at the same speed",
+        "isCorrect": false,
+        "feedback": "Speed is important, but kinetic energy also depends on mass. The bowling ball has much more mass, so it has more kinetic energy even at the same speed."
+      },
+      {
+        "id": "B",
+        "text": "The bowling ball has more kinetic energy because it has more mass",
+        "isCorrect": true,
+        "feedback": "Correct! Kinetic energy depends on both mass and speed. Since both balls move at the same speed, the one with more mass (the bowling ball) has more kinetic energy. This is why a heavy vehicle moving at the same speed as a light one is more dangerous!"
+      },
+      {
+        "id": "C",
+        "text": "The tennis ball has more kinetic energy because it is smaller",
+        "isCorrect": false,
+        "feedback": "Size relates to mass, and having less mass means less kinetic energy (when speed is the same). The bowling ball has more kinetic energy."
+      },
+      {
+        "id": "D",
+        "text": "Neither ball has kinetic energy because they are rolling, not flying",
+        "isCorrect": false,
+        "feedback": "Any moving object has kinetic energy - whether rolling, flying, sliding, or moving in any way. Both balls have kinetic energy!"
+      }
+    ],
+    "solution": "The correct answer is **B: The bowling ball has more kinetic energy because it has more mass**.\n\n**Key understanding**: Kinetic energy depends on **two factors**:\n\n1. **Mass** - how much matter the object contains\n2. **Speed** - how fast the object is moving\n\nIn this scenario:\n- **Same speed**: Both balls rolling at the same speed ✓\n- **Different mass**: Bowling ball ≈ 6 kg, Tennis ball ≈ 0.06 kg\n\nSince the bowling ball has **much more mass** (about 100 times more!), it has **much more kinetic energy** even though both are moving at the same speed.\n\n**Real-world application**:\nThis is why a truck moving at 40 km/h is much more dangerous than a bicycle moving at 40 km/h - the truck has far more mass and therefore far more kinetic energy to dissipate in a collision.\n\n**Formula preview** (for interest): \nKinetic Energy = ½ × mass × speed²\n\nBoth mass and speed matter, but you'll learn more about the mathematical relationship in later years!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Kinetic energy depends on both speed and mass. If the speed is the same, what determines which has more energy?"
+      },
+      {
+        "level": 2,
+        "content": "Think about which ball would be harder to stop. That's a clue about which has more energy!"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 7,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["eft-y8-002", "eft-y8-006"],
+      "preparesFor": ["eft-y8-008", "eft-y8-009"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Develop understanding that kinetic energy depends on mass"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set1",
+      "sequenceInPaper": 7
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-008",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Explain why it takes longer for a truck to stop than a small car when both are travelling at the same speed.",
+    "solution": "A truck takes longer to stop than a small car (at the same speed) because the truck has **much more kinetic energy** to dissipate.\n\n**Explanation using energy concepts**:\n\n1. **Same speed, different mass**:\n   - Both vehicles traveling at the same speed\n   - Truck has much **greater mass** than a car\n   - Therefore, truck has **much more kinetic energy**\n\n2. **Energy must be removed**:\n   - To stop, all kinetic energy must be **transformed** into other forms (mainly thermal energy in the brakes)\n   - Truck has more kinetic energy = more energy to remove\n   - More energy to remove = **more time needed** to stop\n\n3. **Safety implications**:\n   - Trucks need **longer stopping distances**\n   - This is why speed limits for heavy vehicles are often lower\n   - Drivers must maintain greater following distances\n\n**Key principle**: The kinetic energy of a moving object depends on both its **mass** and **speed**. Since kinetic energy increases with mass, heavier vehicles (like trucks) have more energy that must be dissipated when stopping, requiring:\n- More powerful brakes\n- Longer braking distance\n- More time to come to a complete stop\n\nThis is a practical application of understanding kinetic energy in road safety!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the kinetic energy of each vehicle. Which one has more energy that needs to be removed to stop?"
+      },
+      {
+        "level": 2,
+        "content": "Remember that kinetic energy depends on both mass and speed. If the speed is the same, what makes the difference?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 8,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["eft-y8-006", "eft-y8-007"],
+      "preparesFor": ["eft-y8-017", "eft-y8-018"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Apply kinetic energy understanding to real-world safety context, developing deeper reasoning"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set1",
+      "sequenceInPaper": 8
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-009",
+    "questionType": "MCQ",
+    "stem": "You hold a basketball above your head. What type of energy does the basketball have?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Kinetic energy",
+        "isCorrect": false,
+        "feedback": "The basketball is not moving while you hold it, so it doesn't have kinetic energy. However, it does have energy due to its elevated position."
+      },
+      {
+        "id": "B",
+        "text": "Gravitational potential energy",
+        "isCorrect": true,
+        "feedback": "Correct! The basketball has gravitational potential energy because it is held at a height above the ground. This energy is 'stored' due to the ball's position. If you let go, this potential energy will transform into kinetic energy as the ball falls."
+      },
+      {
+        "id": "C",
+        "text": "Thermal energy",
+        "isCorrect": false,
+        "feedback": "While the basketball does have some thermal energy (all objects do at normal temperatures), the question focuses on the energy related to its elevated position, which is gravitational potential energy."
+      },
+      {
+        "id": "D",
+        "text": "No energy at all",
+        "isCorrect": false,
+        "feedback": "The basketball definitely has energy! Because it's held at a height, it has gravitational potential energy - stored energy that could do work if released."
+      }
+    ],
+    "solution": "The correct answer is **B: Gravitational potential energy**.\n\n**Gravitational potential energy** (GPE) is the energy that an object has because of its **position above the ground**. The basketball held above your head has this stored energy.\n\n**Key characteristics of gravitational potential energy**:\n- Energy is **stored** due to position (height)\n- The **higher** the object, the **more** GPE it has\n- The **heavier** the object, the **more** GPE it has\n- GPE can transform into kinetic energy when the object falls\n\n**Why the basketball has GPE**:\n1. It's held at a **height** above the ground\n2. Gravity is pulling it downward\n3. This position gives it the **potential** (ability) to fall and do work\n\n**What would happen if you let go?**\n- Gravitational potential energy → Kinetic energy (as it falls)\n- The stored energy transforms into motion\n\nThis is why objects held at height are dangerous - they store energy that can be released! Examples: objects on shelves, workers on ladders, rocks on cliffs.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "The basketball is not moving, so it's not kinetic energy. What energy is related to height or position?"
+      },
+      {
+        "level": 2,
+        "content": "Think about what would happen if you let go of the ball. The energy it has now is stored, ready to become motion energy."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 9,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["eft-y8-001", "eft-y8-002"],
+      "preparesFor": ["eft-y8-011", "eft-y8-012"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Introduce gravitational potential energy with clear, relatable example"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set1",
+      "sequenceInPaper": 9
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-010",
+    "questionType": "MCQ",
+    "stem": "A student places a heavy box on the top shelf and an identical box on the bottom shelf. Which statement is correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Both boxes have the same gravitational potential energy",
+        "isCorrect": false,
+        "feedback": "The boxes are at different heights, so they have different amounts of gravitational potential energy. The higher box has more GPE."
+      },
+      {
+        "id": "B",
+        "text": "The box on the top shelf has more gravitational potential energy",
+        "isCorrect": true,
+        "feedback": "Correct! Gravitational potential energy increases with height. The box on the top shelf is higher, so it has more gravitational potential energy than the identical box on the bottom shelf."
+      },
+      {
+        "id": "C",
+        "text": "The box on the bottom shelf has more gravitational potential energy",
+        "isCorrect": false,
+        "feedback": "This is backwards. The higher an object is positioned, the more gravitational potential energy it has. The top shelf box has more GPE."
+      },
+      {
+        "id": "D",
+        "text": "Neither box has gravitational potential energy because they are not moving",
+        "isCorrect": false,
+        "feedback": "Gravitational potential energy is stored energy based on position (height), not movement. Both boxes have GPE, but the higher one has more."
+      }
+    ],
+    "solution": "The correct answer is **B: The box on the top shelf has more gravitational potential energy**.\n\n**Gravitational potential energy (GPE)** depends on two main factors:\n1. **Mass** - how heavy the object is\n2. **Height** - how far above the ground it is\n\nIn this scenario:\n- **Same mass**: Both boxes are identical (same weight)\n- **Different height**: Top shelf is higher than bottom shelf\n\nTherefore, the **box on the top shelf has more GPE** because it's at a greater height.\n\n**Key principle**: The **higher** an object is positioned, the **more** gravitational potential energy it has.\n\n**Why does height matter?**\n- Higher objects have further to fall\n- They can gain more speed while falling\n- They can do more work when they fall\n- This is why falling objects from greater heights are more dangerous\n\n**Everyday examples**:\n- Water in a high reservoir has more GPE than water at ground level (this is used for hydroelectric power)\n- A person standing on a ladder has more GPE than standing on the ground\n- Books on high shelves have more GPE than books on low shelves\n\nThe stored energy in the elevated box could be released if it fell - that's the \"potential\" in potential energy!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Gravitational potential energy is related to height. Which box is positioned higher?"
+      },
+      {
+        "level": 2,
+        "content": "Think about which box would make a bigger impact if it fell. That box has more stored energy."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 10,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["eft-y8-009"],
+      "preparesFor": ["eft-y8-011", "eft-y8-012", "eft-y8-013"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Develop understanding that GPE increases with height through comparison"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set1",
+      "sequenceInPaper": 10
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-011",
+    "questionType": "MCQ",
+    "stem": "A student drops a ball from a height. As the ball falls, what happens to its energy?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Gravitational potential energy increases, kinetic energy decreases",
+        "isCorrect": false,
+        "feedback": "This is backwards! As the ball falls, it loses height (GPE decreases) and gains speed (kinetic energy increases)."
+      },
+      {
+        "id": "B",
+        "text": "Gravitational potential energy decreases, kinetic energy increases",
+        "isCorrect": true,
+        "feedback": "Correct! As the ball falls, it loses height so its gravitational potential energy decreases. At the same time, it speeds up so its kinetic energy increases. The GPE is transforming into kinetic energy!"
+      },
+      {
+        "id": "C",
+        "text": "Both gravitational potential energy and kinetic energy increase",
+        "isCorrect": false,
+        "feedback": "GPE cannot increase as the ball falls because the ball is getting closer to the ground (losing height). GPE decreases while kinetic energy increases."
+      },
+      {
+        "id": "D",
+        "text": "The ball loses all its energy",
+        "isCorrect": false,
+        "feedback": "Energy is never lost! It transforms from one form to another. The ball's gravitational potential energy transforms into kinetic energy as it falls."
+      }
+    ],
+    "solution": "The correct answer is **B: Gravitational potential energy decreases, kinetic energy increases**.\n\nThis is a classic example of **energy transformation**!\n\n**What happens during the fall**:\n\n**At the start** (ball held high):\n- Maximum GPE (high position)\n- Zero kinetic energy (not moving yet)\n\n**During the fall**:\n- GPE **decreases** (getting closer to ground = less height)\n- Kinetic energy **increases** (speeding up = more motion)\n- GPE is **transforming** into kinetic energy\n\n**At the bottom** (just before hitting ground):\n- Minimum GPE (lowest height)\n- Maximum kinetic energy (highest speed)\n\n**Key principle**: Energy transforms from potential to kinetic, but the **total amount of energy stays the same** (Law of Conservation of Energy).\n\n**The transformation**:\nGravitational Potential Energy → Kinetic Energy\n\n**Real-world examples**:\n- Roller coasters: High points (GPE) → Fast descents (kinetic energy)\n- Waterfalls: Water at top (GPE) → Fast-moving water at bottom (kinetic)\n- Skateboarding in half-pipe: Top of ramp (GPE) → Bottom (kinetic)\n\nThis energy transformation is reversible - kinetic energy can transform back to GPE (like when you throw a ball upward)!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to the ball's height and speed as it falls. How does this affect its two types of energy?"
+      },
+      {
+        "level": 2,
+        "content": "As the ball falls, it gets closer to the ground (less height = less GPE) and moves faster (more speed = more kinetic energy)."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 11,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["eft-y8-002", "eft-y8-009", "eft-y8-010"],
+      "preparesFor": ["eft-y8-012", "eft-y8-013", "eft-y8-018"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Introduce energy transformation between potential and kinetic energy"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set2",
+      "sequenceInPaper": 11
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-012",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A pendulum swings back and forth. Describe the energy transformations that occur during one complete swing, starting from when the pendulum is at its highest point.",
+    "solution": "A swinging pendulum demonstrates continuous **energy transformation** between gravitational potential energy and kinetic energy.\n\n**Energy transformations during one complete swing**:\n\n**Position 1: Highest point (start)**\n- **Maximum GPE** (greatest height)\n- **Zero kinetic energy** (momentarily stationary before changing direction)\n- All energy is stored as potential energy\n\n**Position 2: Moving down**\n- **GPE decreasing** (losing height)\n- **Kinetic energy increasing** (gaining speed)\n- Transformation: GPE → Kinetic energy\n\n**Position 3: Lowest point (bottom of swing)**\n- **Minimum GPE** (lowest height)\n- **Maximum kinetic energy** (fastest speed)\n- Most energy is now kinetic energy\n\n**Position 4: Moving up the other side**\n- **GPE increasing** (gaining height)\n- **Kinetic energy decreasing** (slowing down)\n- Transformation: Kinetic energy → GPE\n\n**Position 5: Highest point on other side**\n- **Maximum GPE** again (back to high position)\n- **Zero kinetic energy** (momentarily stationary)\n- Cycle repeats!\n\n**Key principles**:\n1. Energy continuously transforms: **GPE ⇄ Kinetic energy**\n2. Total energy remains constant (conservation of energy)\n3. The pendulum would swing forever if there were no air resistance or friction\n4. In reality, some energy gradually transforms to thermal energy (heat), causing the pendulum to eventually stop\n\n**Summary**: The pendulum demonstrates that **energy can transform back and forth** between different forms while the total amount stays the same.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to the pendulum's height and speed at different points in its swing."
+      },
+      {
+        "level": 2,
+        "content": "At the highest points, the pendulum is not moving (no kinetic energy) but is at maximum height (maximum GPE). What happens as it swings down?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 12,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["eft-y8-011"],
+      "preparesFor": ["eft-y8-017", "eft-y8-018", "eft-y8-019"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Deepen understanding of energy transformation through cyclical example"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set2",
+      "sequenceInPaper": 12
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-013",
+    "questionType": "MCQ",
+    "stem": "A roller coaster car is at the top of the first hill. Compared to when it's at the bottom of the hill, the car has:",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "More gravitational potential energy and less kinetic energy",
+        "isCorrect": true,
+        "feedback": "Correct! At the top of the hill, the roller coaster has maximum height (maximum GPE) and is moving slowly (less kinetic energy). This is why the first hill is usually the highest - it stores the most energy for the ride!"
+      },
+      {
+        "id": "B",
+        "text": "Less gravitational potential energy and more kinetic energy",
+        "isCorrect": false,
+        "feedback": "This describes the bottom of the hill, not the top. At the top, the car has more height (more GPE) and is moving slower (less kinetic energy)."
+      },
+      {
+        "id": "C",
+        "text": "More of both gravitational potential energy and kinetic energy",
+        "isCorrect": false,
+        "feedback": "The car cannot have more of both. Energy transforms between forms - when it has more GPE (at the top), it has less kinetic energy."
+      },
+      {
+        "id": "D",
+        "text": "The same amount of both types of energy",
+        "isCorrect": false,
+        "feedback": "At different positions, the car has different amounts of each type of energy. At the top: more GPE, less kinetic. At the bottom: less GPE, more kinetic."
+      }
+    ],
+    "solution": "The correct answer is **A: More gravitational potential energy and less kinetic energy**.\n\n**Analysis of roller coaster energy**:\n\n**At the TOP of the hill**:\n- **Maximum height** → Maximum gravitational potential energy\n- **Slow speed** (often the slowest point) → Minimum kinetic energy\n- Energy is mainly stored as GPE\n\n**At the BOTTOM of the hill**:\n- **Minimum height** → Minimum gravitational potential energy  \n- **Fast speed** (fastest point) → Maximum kinetic energy\n- Energy is mainly kinetic\n\n**The transformation during descent**:\nAs the car rolls down: GPE → Kinetic energy\n\n**Why roller coasters are designed this way**:\n1. The **first hill is usually the tallest** to give maximum GPE\n2. A motor pulls the car up this first hill (adding energy to the system)\n3. After that, **energy transformation** powers the rest of the ride\n4. Each subsequent hill must be **lower** than the previous one (because some energy is lost to friction)\n\n**Real-world observation**:\nNotice that roller coasters are **slowest at the tops** of hills and **fastest at the bottoms** - this directly shows the transformation between GPE and kinetic energy!\n\nThis is a perfect example of **conservation of energy** - the energy continuously transforms but the total amount stays relatively constant (minus small losses to friction and air resistance).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the car's height and speed at the top of the hill versus the bottom."
+      },
+      {
+        "level": 2,
+        "content": "At the top: high position (GPE) but moving slowly (kinetic). At the bottom: low position but moving fast. Compare these two positions."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 13,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["eft-y8-011", "eft-y8-012"],
+      "preparesFor": ["eft-y8-017", "eft-y8-018"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can do this!",
+      "purpose": "Connect energy transformation to exciting real-world experience students can relate to"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set2",
+      "sequenceInPaper": 13
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-014",
+    "questionType": "MCQ",
+    "stem": "Which of the following objects has the MOST gravitational potential energy?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A 1 kg book on a shelf 2 metres high",
+        "isCorrect": false,
+        "feedback": "This has some GPE, but consider both the mass and height. Other options have either more mass or greater height."
+      },
+      {
+        "id": "B",
+        "text": "A 5 kg bowling ball on the floor",
+        "isCorrect": false,
+        "feedback": "Even though the bowling ball is heavy, it's on the floor (height = 0), so it has very little gravitational potential energy. Height matters!"
+      },
+      {
+        "id": "C",
+        "text": "A 2 kg dictionary on a shelf 3 metres high",
+        "isCorrect": true,
+        "feedback": "Correct! This object has the most gravitational potential energy because it has both good mass (2 kg) and the greatest height (3 m). GPE depends on both factors, and this combination gives the highest value."
+      },
+      {
+        "id": "D",
+        "text": "A 0.5 kg tennis ball held 4 metres high",
+        "isCorrect": false,
+        "feedback": "This has the greatest height but the smallest mass. The dictionary at 3 m with more mass (2 kg) has more total GPE than this lighter ball."
+      }
+    ],
+    "solution": "The correct answer is **C: A 2 kg dictionary on a shelf 3 metres high**.\n\n**Gravitational potential energy (GPE) depends on TWO factors**:\n1. **Mass** - how heavy the object is\n2. **Height** - how far above the ground it is\n\nMore mass + more height = MORE GPE\n\n**Comparing all options**:\n\n| Object | Mass | Height | GPE Comparison |\n|--------|------|--------|----------------|\n| Book | 1 kg | 2 m | Moderate GPE |\n| Bowling ball | 5 kg | 0 m | Very low GPE (no height!) |\n| **Dictionary** | **2 kg** | **3 m** | **Highest GPE** ✓ |\n| Tennis ball | 0.5 kg | 4 m | Lower GPE (too light) |\n\n**Why the dictionary wins**:\n- It has **good mass** (2 kg - second heaviest)\n- It has the **greatest height** among objects that are elevated (3 m)\n- This **combination** gives it the most GPE\n\n**Key insights**:\n- The bowling ball has the most mass BUT zero height → very little GPE\n- The tennis ball has the most height BUT very little mass → not enough GPE\n- You need **both** mass and height for significant GPE\n\n**Formula preview** (for interest):\nGPE = mass × gravity × height\n\nDictionary: 2 × 10 × 3 = **60 units** (highest!)\n\nUnderstanding how mass and height combine is crucial for working with gravitational potential energy!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Remember that GPE depends on BOTH mass and height. Don't just look at one factor!"
+      },
+      {
+        "level": 2,
+        "content": "The bowling ball is heaviest but where is it located? The tennis ball is highest but how heavy is it?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 14,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["eft-y8-009", "eft-y8-010"],
+      "preparesFor": ["eft-y8-015", "eft-y8-019"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Challenge students to consider both factors of GPE simultaneously through comparison"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set2",
+      "sequenceInPaper": 14
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-015",
+    "questionType": "MCQ",
+    "stem": "A student states: 'When a ball is rolling on a flat surface, it only has kinetic energy and no potential energy.'\n\nIs this statement correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Yes, because rolling objects only have kinetic energy",
+        "isCorrect": false,
+        "feedback": "Not quite. While the ball does have kinetic energy from rolling, it also has gravitational potential energy because it's above ground level (even if just slightly)."
+      },
+      {
+        "id": "B",
+        "text": "No, the ball has both kinetic energy (from rolling) and gravitational potential energy (from being above ground level)",
+        "isCorrect": true,
+        "feedback": "Correct! The ball has kinetic energy because it's moving AND gravitational potential energy because it's at some height above the ground (even if small). Most objects in everyday situations have multiple forms of energy at once!"
+      },
+      {
+        "id": "C",
+        "text": "No, because the ball only has potential energy when rolling",
+        "isCorrect": false,
+        "feedback": "This is incorrect. A rolling ball definitely has kinetic energy (energy of motion). The question is whether it also has potential energy."
+      },
+      {
+        "id": "D",
+        "text": "Yes, because potential energy only exists when objects are held very high",
+        "isCorrect": false,
+        "feedback": "Potential energy exists at ANY height above a reference point (like the ground), not just at great heights. Even a small height means some gravitational potential energy."
+      }
+    ],
+    "solution": "The correct answer is **B: No, the ball has both kinetic energy (from rolling) and gravitational potential energy (from being above ground level)**.\n\nThis is a **misconception** question that addresses a common error in thinking about energy.\n\n**The student's mistake**: Assuming an object can only have one type of energy at a time.\n\n**The reality**: Most objects have **multiple forms of energy simultaneously**!\n\n**The rolling ball has**:\n\n1. **Kinetic energy** ✓\n   - The ball is moving (rolling)\n   - Movement = kinetic energy\n\n2. **Gravitational potential energy** ✓\n   - The ball is above ground level (even if just a few centimeters)\n   - Height above reference point = GPE\n   - The surface of the Earth is our reference point (zero height)\n\n**Key understanding**:\n- Objects can have **multiple types of energy** at the same time\n- The total energy is the **sum** of all these energy forms\n- We often focus on the energy changes that are most significant for the situation\n\n**Other examples of multiple simultaneous energies**:\n- A bird flying: kinetic (moving) + gravitational potential (height) + thermal (body heat)\n- A car on a hill: kinetic (moving) + gravitational potential (height) + thermal (hot engine)\n- You running: kinetic (moving) + gravitational potential (above ground) + chemical (stored in body)\n\n**Important note**: While the ball's GPE might be small on a flat surface, it still exists. If the ball rolled off a cliff, this GPE would become significant!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Can an object have more than one type of energy at the same time? Think about all the forms of energy the ball might have."
+      },
+      {
+        "level": 2,
+        "content": "The ball is definitely moving (kinetic energy). But is it also at some height above the ground, even if just slightly?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 15,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["eft-y8-002", "eft-y8-009", "eft-y8-011"],
+      "preparesFor": ["eft-y8-018", "eft-y8-019"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can do this!",
+      "purpose": "Challenge common misconception that objects can only have one energy type at a time"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set2",
+      "sequenceInPaper": 15
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-016",
+    "questionType": "MCQ",
+    "stem": "In which of the following situations is energy being stored?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A car moving down a highway",
+        "isCorrect": false,
+        "feedback": "A moving car has kinetic energy, which is active energy of motion, not stored energy. Stored energy would be potential energy."
+      },
+      {
+        "id": "B",
+        "text": "A compressed spring in a toy",
+        "isCorrect": true,
+        "feedback": "Correct! A compressed spring stores elastic potential energy. When you compress or stretch a spring, you store energy in it that can be released later. This is an example of stored (potential) energy."
+      },
+      {
+        "id": "C",
+        "text": "A light bulb that is turned on",
+        "isCorrect": false,
+        "feedback": "A light bulb that's on is actively transforming electrical energy into light and thermal energy. It's not storing energy - it's using and transforming it."
+      },
+      {
+        "id": "D",
+        "text": "Water flowing down a stream",
+        "isCorrect": false,
+        "feedback": "Flowing water has kinetic energy (motion), not stored energy. Water stored in a high reservoir would have potential energy (stored energy)."
+      }
+    ],
+    "solution": "The correct answer is **B: A compressed spring in a toy**.\n\n**Understanding stored energy**:\n\n**Stored energy** = **Potential energy**\n- Energy that is saved and ready to be used\n- Energy that is NOT currently doing work\n- Can be released when needed\n\n**Types of stored (potential) energy**:\n\n1. **Gravitational potential energy**\n   - Stored due to height\n   - Example: Water in a high tank\n\n2. **Elastic potential energy**  \n   - Stored in compressed or stretched objects\n   - Example: **Compressed spring** ✓ (our answer!)\n\n3. **Chemical potential energy**\n   - Stored in chemical bonds\n   - Example: Food, batteries, fuel\n\n**Why the compressed spring is correct**:\n- When you **compress** or **stretch** a spring, you do work on it\n- This energy is **stored** in the spring as elastic potential energy\n- When released, this stored energy transforms into **kinetic energy** (the spring bounces back)\n- Toy examples: wind-up toys, jack-in-the-box, spring-loaded dart guns\n\n**Why other options are wrong**:\n- **Moving car**: Energy in use (kinetic), not stored\n- **Light bulb on**: Energy being transformed, not stored  \n- **Flowing water**: Energy in use (kinetic), not stored\n\n**Key principle**: **Potential energy is stored energy** that has the potential to do work in the future. Kinetic energy is energy actively being used right now.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Stored energy is potential energy - energy that's saved for later use. Which option involves energy being saved rather than used?"
+      },
+      {
+        "level": 2,
+        "content": "Think about which situation has energy that's 'waiting' to be released, like a coiled spring ready to bounce back."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 16,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["eft-y8-001", "eft-y8-009"],
+      "preparesFor": ["eft-y8-017", "eft-y8-019"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Extend understanding of potential energy to include elastic potential energy"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set2",
+      "sequenceInPaper": 16
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-017",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A bow and arrow is a device that stores and transfers energy.\n\nDescribe the energy transformations that occur from when you pull back the bowstring to when the arrow hits the target.",
+    "solution": "The bow and arrow demonstrates a series of **energy transformations**:\n\n**Stage 1: Pulling back the bowstring**\n- **Your muscles** do work using chemical energy from food\n- This energy is **stored** in the bent bow as **elastic potential energy**\n- Energy transformation: **Chemical energy → Elastic potential energy**\n\n**Stage 2: Releasing the bowstring**\n- The stored elastic potential energy is **released**\n- The bow pushes the arrow forward\n- Energy transformation: **Elastic potential energy → Kinetic energy** (arrow moves)\n\n**Stage 3: Arrow in flight**\n- Arrow has **kinetic energy** (moving horizontally)\n- Arrow also has **gravitational potential energy** (at height above ground)\n- Some energy transforms to **thermal energy** and **sound energy** due to air resistance\n- Main energy: **Kinetic energy** (forward motion)\n\n**Stage 4: Arrow hits target**\n- Arrow's kinetic energy does work on the target\n- Energy transforms primarily into:\n  - **Thermal energy** (friction heat)\n  - **Sound energy** (impact sound)\n  - **Deformation energy** (target and arrow deform slightly)\n- Energy transformation: **Kinetic energy → Thermal + Sound + Deformation**\n\n**Complete energy chain**:\nChemical (body) → Elastic potential (bow) → Kinetic (arrow) → Thermal + Sound + Deformation (impact)\n\n**Key principles demonstrated**:\n1. **Energy storage**: Bow stores energy when drawn\n2. **Energy transfer**: Energy transfers from bow to arrow\n3. **Energy transformation**: Energy changes forms multiple times\n4. **Energy conservation**: Total energy remains constant (though some is 'lost' as heat and sound)\n\nThis is why archery requires both strength (to store energy) and technique (to transfer energy efficiently to the arrow)!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to energy at each stage: drawing the bow, releasing it, arrow flying, and arrow hitting target."
+      },
+      {
+        "level": 2,
+        "content": "When you pull the bow back, you're storing energy (what type?). When released, this becomes motion energy. What happens on impact?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 17,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["eft-y8-011", "eft-y8-012", "eft-y8-016"],
+      "preparesFor": ["eft-y8-018", "eft-y8-019", "eft-y8-020"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Synthesize understanding of energy storage and transformation through multi-stage process"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set2",
+      "sequenceInPaper": 17
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-018",
+    "questionType": "SHORT_ANSWER",
+    "stem": "You throw a ball straight up into the air. Explain what happens to the ball's kinetic energy and gravitational potential energy from the moment it leaves your hand until it returns to your hand.",
+    "solution": "This is a classic example of **energy transformation** between kinetic and gravitational potential energy:\n\n**Stage 1: Ball leaves your hand (going up)**\n- **High kinetic energy** (moving fast upward)\n- **Low gravitational potential energy** (low height)\n- As the ball rises:\n  - Speed **decreases** → Kinetic energy **decreases**\n  - Height **increases** → Gravitational potential energy **increases**\n  - **Transformation: Kinetic energy → Gravitational potential energy**\n\n**Stage 2: Ball reaches highest point**\n- **Zero kinetic energy** (momentarily stops before falling)\n- **Maximum gravitational potential energy** (greatest height)\n- All the initial kinetic energy has transformed into GPE\n\n**Stage 3: Ball falls back down**\n- **Low kinetic energy initially** (just starting to fall)\n- **High gravitational potential energy** (still high up)\n- As the ball falls:\n  - Height **decreases** → Gravitational potential energy **decreases**\n  - Speed **increases** → Kinetic energy **increases**\n  - **Transformation: Gravitational potential energy → Kinetic energy**\n\n**Stage 4: Ball returns to your hand**\n- **High kinetic energy** (moving fast downward)\n- **Low gravitational potential energy** (back at original height)\n- Energy has transformed back to mostly kinetic energy\n\n**Energy transformation summary**:\nKinetic → Potential (going up) → Kinetic (coming down)\n\n**Important notes**:\n1. The **total energy** stays approximately constant throughout\n2. In reality, some energy is lost to **air resistance** (thermal and sound energy)\n3. This is why the ball won't quite reach your hand with the same speed (and energy) it left with\n4. The transformation is **reversible** - energy can change from kinetic to potential and back again\n\n**Key principle**: This demonstrates the **Law of Conservation of Energy** - energy transforms from one form to another but is never created or destroyed.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how the ball's speed and height change throughout the journey. How do these relate to kinetic energy and GPE?"
+      },
+      {
+        "level": 2,
+        "content": "When the ball is moving fast, it has lots of kinetic energy. When it's high up, it has lots of GPE. What happens as it rises and falls?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 18,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["eft-y8-011", "eft-y8-012", "eft-y8-013"],
+      "preparesFor": ["eft-y8-019", "eft-y8-020"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Deepen understanding of reversible energy transformation through detailed analysis"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set2",
+      "sequenceInPaper": 18
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-019",
+    "questionType": "SHORT_ANSWER",
+    "stem": "At an amusement park, you see a bungee jumper standing on a platform 50 metres high, about to jump.\n\nExplain why the bungee jumper has energy even before jumping, and describe what happens to this energy during the jump.",
+    "solution": "This is an excellent example of **energy storage and transformation** in action!\n\n**BEFORE the jump (standing on platform)**:\n\nThe bungee jumper has **gravitational potential energy** even before jumping because:\n- They are at a **height** of 50 metres above the ground\n- They have **mass** (body weight)\n- These two factors create **stored energy** (GPE)\n- This energy has the **potential** to do work (make them fall)\n\n**The higher and heavier you are, the more GPE you have** - this is why bungee jumping from high platforms is more exciting (and scarier!).\n\n**DURING the jump - Energy transformations**:\n\n**Phase 1: Free fall (before cord stretches)**\n- **GPE decreasing** → height decreasing as they fall\n- **Kinetic energy increasing** → speed increasing as they fall faster\n- Transformation: **Gravitational potential energy → Kinetic energy**\n\n**Phase 2: Bungee cord stretches**\n- **Kinetic energy decreasing** → slowing down as cord pulls back\n- **Elastic potential energy increasing** → energy storing in stretched cord\n- Transformation: **Kinetic energy → Elastic potential energy**\n\n**Phase 3: Bouncing back up**\n- **Elastic potential energy decreasing** → cord rebounds\n- **Kinetic energy increasing** → moving upward\n- **GPE increasing** → gaining height again\n- Transformation: **Elastic potential energy → Kinetic energy → GPE**\n\n**Complete energy cycle**:\nGPE (platform) → Kinetic (falling) → Elastic (cord stretched) → Kinetic (bouncing) → GPE (rising) → and repeat!\n\n**Key insights**:\n1. Energy **exists before any motion occurs** (stored as GPE)\n2. Energy continuously **transforms** between different forms\n3. The jumper bounces several times, with **decreasing height** each time\n4. Some energy is **lost** to thermal energy (heat) and sound with each bounce\n5. Eventually, the jumper **hangs still** - all the original GPE has transformed into thermal energy\n\nThis demonstrates both **energy storage** (standing on platform) and **energy transformation** (during the jump)!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what gives the jumper energy before they even jump. Consider their position and what would happen if the platform disappeared."
+      },
+      {
+        "level": 2,
+        "content": "Standing high up gives gravitational potential energy. As they fall, this transforms into kinetic energy. What happens when the cord stretches?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 19,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["eft-y8-011", "eft-y8-016", "eft-y8-017", "eft-y8-018"],
+      "preparesFor": ["eft-y8-020"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Synthesize all Phase 1 concepts through complex, exciting real-world scenario"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set2",
+      "sequenceInPaper": 19
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "eft-y8-020",
+    "questionType": "MCQ",
+    "stem": "Which statement BEST describes the relationship between kinetic energy and gravitational potential energy?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They are completely unrelated forms of energy",
+        "isCorrect": false,
+        "feedback": "Not correct. Kinetic and gravitational potential energy are closely related - they can transform into each other, as seen in falling objects, pendulums, and roller coasters."
+      },
+      {
+        "id": "B",
+        "text": "They can transform into each other, but the total energy remains constant",
+        "isCorrect": true,
+        "feedback": "Correct! This is the key relationship. Kinetic energy and gravitational potential energy can transform back and forth into each other. According to the Law of Conservation of Energy, while the energy transforms between these forms, the total amount of energy remains constant (ignoring losses to friction and air resistance)."
+      },
+      {
+        "id": "C",
+        "text": "Gravitational potential energy is always greater than kinetic energy",
+        "isCorrect": false,
+        "feedback": "This is not always true. The amount of each type depends on the situation. At the top of a swing, GPE is greater; at the bottom, kinetic energy is greater."
+      },
+      {
+        "id": "D",
+        "text": "Kinetic energy can only exist if there is no gravitational potential energy",
+        "isCorrect": false,
+        "feedback": "Objects can have both types of energy simultaneously. For example, a ball rolling on a table has both kinetic energy (motion) and gravitational potential energy (height above ground)."
+      }
+    ],
+    "solution": "The correct answer is **B: They can transform into each other, but the total energy remains constant**.\n\nThis question tests your understanding of the **fundamental relationship** between kinetic energy and gravitational potential energy.\n\n**Key principles**:\n\n**1. Energy Transformation**\n- These two forms of energy can **transform** into each other\n- Examples we've studied:\n  - Falling ball: GPE → Kinetic energy\n  - Ball thrown upward: Kinetic energy → GPE  \n  - Pendulum: GPE ⇄ Kinetic energy (back and forth)\n  - Roller coaster: GPE ⇄ Kinetic energy throughout the ride\n\n**2. Conservation of Energy**\n- While energy transforms between forms, the **total amount stays the same**\n- This is the **Law of Conservation of Energy**\n- Energy cannot be created or destroyed, only transformed\n\n**3. Simultaneous Existence**\n- Objects can have **both types** of energy at the same time\n- Example: A bird flying has kinetic energy (motion) AND gravitational potential energy (height)\n\n**Mathematical relationship**:\nTotal Energy = Kinetic Energy + Gravitational Potential Energy = Constant\n\nAs one increases, the other decreases by the same amount (in ideal conditions).\n\n**Why other options are wrong**:\n- **A**: They ARE related - they transform into each other\n- **C**: The amounts vary depending on position and speed\n- **D**: Objects commonly have both simultaneously\n\n**Real-world significance**:\nThis relationship is fundamental to understanding:\n- How roller coasters work\n- Why dams can generate electricity (GPE → kinetic → electrical)\n- Sports like skateboarding, diving, and skiing\n- Safety considerations (falling objects, vehicle braking)\n\nUnderstanding this relationship is the **foundation** for all further energy studies in physics!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens in a pendulum or falling ball. How are kinetic and potential energy related in these situations?"
+      },
+      {
+        "level": 2,
+        "content": "Remember the Law of Conservation of Energy - energy transforms from one form to another, but the total amount stays the same."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU155"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Physical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 20,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["eft-y8-011", "eft-y8-012", "eft-y8-018", "eft-y8-019"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Consolidate Phase 1 understanding with synthesis question on fundamental energy relationship"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-energy-forms-transformations-set2",
+      "sequenceInPaper": 20
+    },
+    "status": "draft"
+  }
+]

@@ -1,0 +1,2666 @@
+{
+  "metadata": {
+    "topic": "States of Matter (Classic)",
+    "topicSlug": "states-of-matter-classic",
+    "outcomeCode": "ACSSU151",
+    "year": 8,
+    "subject": "Science",
+    "strand": "Chemical Sciences",
+    "questionCount": 50,
+    "migratedAt": "2026-01-07",
+    "originalSource": "year8-states-of-matter-questions.json",
+    "setsRange": "9-13"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-y8-states-matter-001",
+      "questionType": "SHORT_ANSWER",
+      "stem": "According to the **particle model**, what are the three main things that differ between solids, liquids, and gases?",
+      "solution": "The three main differences are:\n1. **Arrangement** - how particles are organized (ordered vs disordered)\n2. **Spacing** - how close or far apart particles are from each other\n3. **Movement** - how particles move (vibrate, slide, or move freely)",
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about how particles are positioned and what they do in each state.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Consider: Are particles touching? Are they organized? Can they move around?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set9",
+        "sequenceInPaper": 1,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 1,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-002",
+      "questionType": "SHORT_ANSWER",
+      "stem": "A student says: *\"Particles in a solid don't move at all.\"* Is this correct? Explain your answer using the particle model.",
+      "solution": "This is **incorrect**. Particles in a solid DO move, but their movement is limited to **vibrating** in fixed positions. They cannot move around freely like in liquids or gases, but they are constantly vibrating due to their thermal energy. The higher the temperature, the more they vibrate.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what happens when you heat a solid - does temperature relate to particle movement?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Particles have energy even in solids. What kind of movement can they do while staying in fixed positions?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set9",
+        "sequenceInPaper": 2,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 2,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-003",
+      "questionType": "SHORT_ANSWER",
+      "stem": "In which state of matter are particles:\n- **Closest together**?\n- **Furthest apart**?\n- **Moderately spaced**?",
+      "solution": "- **Closest together**: Solids (particles are tightly packed)\n- **Furthest apart**: Gases (particles have lots of empty space between them)\n- **Moderately spaced**: Liquids (particles are close but not as tightly packed as solids)",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about the density of each state - which one is typically most dense?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Solids are usually heaviest for their size, gases are lightest - this relates to particle spacing.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set9",
+        "sequenceInPaper": 3,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 3,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-004",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Using the particle model, explain why **gases can be compressed** (squashed into a smaller space) much more easily than solids or liquids.",
+      "solution": "Gases can be compressed easily because there is **lots of empty space between the particles**. When you compress a gas, you are simply pushing the particles closer together into the available empty space. In solids and liquids, particles are already close together with very little empty space, so they resist compression.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What happens to the space between particles when you compress something?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Think about air in a bicycle pump or syringe - why can you push the plunger down?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set9",
+        "sequenceInPaper": 4,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 4,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-005",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Complete this sentence about particle energy:\n\n*\"As you heat a substance, the particles gain _______ energy and move _______.\"*",
+      "solution": "\"As you heat a substance, the particles gain **kinetic** (or **thermal**) energy and move **faster** (or **more quickly**).\"",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What type of energy is related to movement?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Heat makes things move faster - think about boiling water bubbling more vigorously than cold water.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set9",
+        "sequenceInPaper": 5,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 5,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-006",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Draw a simple particle diagram OR describe in words how particles are arranged in:\na) A **solid**\nb) A **liquid**\nc) A **gas**",
+      "solution": "**Solid**: Particles are tightly packed in a regular, ordered pattern (like rows of soldiers). They are touching each other and vibrating in fixed positions.\n\n**Liquid**: Particles are close together but randomly arranged (no regular pattern). They can slide past each other.\n\n**Gas**: Particles are far apart with lots of empty space between them. They move freely and randomly in all directions.",
+      "difficulty": 3,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about whether particles are organized in a pattern or randomly scattered.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Solids have order (like a crystal), liquids are jumbled but close, gases are spread out.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set9",
+        "sequenceInPaper": 6,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 6,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-007",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Why does the particle model show particles as **spheres** (balls) when real atoms and molecules have different shapes?",
+      "solution": "The particle model uses spheres as a **simplification** to make it easier to understand and visualize how matter behaves. It's a **model**, not a perfect representation of reality. The spheres help us understand key concepts like spacing, arrangement, and movement without getting too complicated.",
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What is the purpose of a scientific model?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Models are simplified versions of reality that help us understand concepts more easily.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set9",
+        "sequenceInPaper": 7,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 7,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-008",
+      "questionType": "SHORT_ANSWER",
+      "stem": "A container of gas is heated. Using the particle model, explain what happens to:\na) The **speed** of the particles\nb) The **spacing** between particles (if the container is rigid)",
+      "solution": "a) **Speed**: The particles move **faster** because heating gives them more kinetic energy.\n\nb) **Spacing**: In a rigid container, the spacing **stays the same** because the container walls don't allow the gas to expand. However, the particles hit the walls harder and more often, increasing pressure.",
+      "difficulty": 4,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What happens when particles have more energy? What does 'rigid container' mean?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "More energy = faster movement. Rigid means the container can't expand, so particles can't spread out more.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set9",
+        "sequenceInPaper": 8,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 8,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-009",
+      "questionType": "SHORT_ANSWER",
+      "stem": "In the particle model, what is the main difference between the **arrangement** of particles in solids versus liquids?",
+      "solution": "**Solids** have particles arranged in a **regular, ordered pattern** (often in rows or layers). **Liquids** have particles that are **randomly arranged** with no regular pattern. Both have particles that are close together, but solids are organized while liquids are disordered.",
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about a crystal structure versus a liquid - which one has particles in neat rows?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Solid particles are like soldiers in formation; liquid particles are like people in a crowd.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set9",
+        "sequenceInPaper": 9,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 9,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-010",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Explain why the particle model is useful for scientists, even though it's not a perfect representation of atoms and molecules.",
+      "solution": "The particle model is useful because it:\n1. **Simplifies complex ideas** - makes it easier to understand and explain matter behavior\n2. **Makes predictions** - helps predict how substances will behave when heated, cooled, or compressed\n3. **Explains observations** - explains why solids are rigid, liquids flow, and gases expand\n4. **Visual tool** - provides a way to visualize what we cannot see with our eyes\n\nEven though it's simplified, it's accurate enough to be very helpful for understanding most everyday phenomena.",
+      "difficulty": 4,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what models in science are for - why do we use them?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Models help us understand things we can't see directly and make predictions about what will happen.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set9",
+        "sequenceInPaper": 10,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 10,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-011",
+      "questionType": "SHORT_ANSWER",
+      "stem": "List **three properties** that are characteristic of solids.",
+      "solution": "Three properties of solids:\n1. **Fixed shape** - they don't change shape unless force is applied\n2. **Fixed volume** - they maintain their size\n3. **Cannot be compressed** - particles are already tightly packed\n\n(Other acceptable answers: Hard, rigid, dense, particles vibrate in fixed positions)",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what a solid object like a rock or metal bar is like.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Consider shape, volume, and how it responds to squeezing.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set10",
+        "sequenceInPaper": 1,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 1,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-012",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Using the particle model, explain why solids have a **fixed shape** that doesn't change to match their container.",
+      "solution": "Solids have a fixed shape because their particles are:\n1. **Tightly packed** in fixed positions\n2. Held by **strong forces** between particles\n3. Only able to **vibrate** in place, not move around\n\nSince particles cannot move past each other or rearrange themselves, the solid keeps its shape regardless of what container it's in.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "How do particles in solids move? Can they slide past each other?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Solid particles are locked in position by strong forces and can only vibrate.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set10",
+        "sequenceInPaper": 2,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 2,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-013",
+      "questionType": "SHORT_ANSWER",
+      "stem": "What type of **movement** do particles in a solid have?",
+      "solution": "Particles in a solid **vibrate** (or oscillate) in fixed positions. They move back and forth around a central point but don't move around from place to place. The higher the temperature, the more vigorously they vibrate.",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Can particles in a solid move from one location to another?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Think of a particle attached to a spring - it can move but stays in roughly the same spot.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set10",
+        "sequenceInPaper": 3,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 3,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-014",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Most solids are **denser** than their liquid form. Use the particle model to explain why this is the case.\n\n(Hint: Think about particle spacing)",
+      "solution": "Solids are usually denser because their particles are **packed more tightly together** than in liquids. When particles are closer together, you fit more mass into the same volume, making it denser. In solids, particles are in fixed, closely packed positions, while in liquids they have slightly more space between them to allow movement.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Density = mass ÷ volume. What happens when particles are closer together?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "More particles in the same space means higher density.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set10",
+        "sequenceInPaper": 4,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 4,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-015",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Why is it **very difficult to compress** a solid (squash it into a smaller space)?",
+      "solution": "It's very difficult to compress a solid because the particles are already **tightly packed together** with almost no empty space between them. There's nowhere for the particles to move closer to, so the solid resists compression. The strong forces between particles also resist being pushed closer together.",
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What would need to happen to particles for a solid to compress?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "If particles are already touching, they can't get much closer together.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set10",
+        "sequenceInPaper": 5,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 5,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-016",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Ice is an unusual solid because it is **less dense** than liquid water (which is why ice floats). What does this tell you about the particle spacing in ice compared to liquid water?",
+      "solution": "This tells us that particles in ice are **spaced further apart** than in liquid water. When water freezes, it forms a crystal structure where particles are arranged in a specific pattern with more space between them. This is unusual - most substances have more tightly packed particles when solid. The greater spacing in ice makes it less dense, so it floats on water.",
+      "difficulty": 4,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "If ice is less dense than water, what must be different about how particles are arranged?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Lower density means particles are more spread out. Ice has a special crystal structure with gaps.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set10",
+        "sequenceInPaper": 6,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 6,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-017",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Name **two examples** of crystalline solids and **two examples** of non-crystalline (amorphous) solids.",
+      "solution": "**Crystalline solids** (regular particle arrangement):\n1. Salt (sodium chloride)\n2. Diamond or sugar or quartz\n\n**Amorphous solids** (irregular particle arrangement):\n1. Glass\n2. Plastic or rubber or wax",
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Crystalline solids have a regular structure you can sometimes see (like salt crystals). Amorphous solids look more random.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Think about minerals and gems for crystalline; think about man-made materials for amorphous.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set10",
+        "sequenceInPaper": 7,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 7,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-018",
+      "questionType": "SHORT_ANSWER",
+      "stem": "When a solid is heated, it eventually melts into a liquid. Explain what happens to the **forces between particles** when this occurs.",
+      "solution": "When a solid is heated and melts:\n1. Particles gain **kinetic energy** and vibrate more vigorously\n2. The **forces between particles weaken** (but don't completely break)\n3. Particles have enough energy to **overcome the fixed positions** and start sliding past each other\n4. The regular arrangement breaks down and particles become randomly arranged\n\nThe forces are still strong enough to keep particles close together (which is why liquids maintain volume), but weak enough to allow movement.",
+      "difficulty": 4,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What keeps particles in fixed positions in a solid? What happens when you add energy?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Forces between particles must weaken enough to allow particles to move around each other.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set10",
+        "sequenceInPaper": 8,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 8,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-019",
+      "questionType": "SHORT_ANSWER",
+      "stem": "True or False: *\"All solids have the same melting point.\"*\n\nExplain your answer.",
+      "solution": "**False**. Different solids have different melting points because they have different types and strengths of forces between particles. For example:\n- Ice melts at 0°C\n- Iron melts at 1538°C\n- Chocolate melts at about 30°C\n\nStronger forces between particles mean higher melting points are needed to overcome those forces.",
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about ice versus metal - do they melt at the same temperature?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Different substances have different forces between particles, so they need different amounts of energy to melt.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set10",
+        "sequenceInPaper": 9,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 9,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-020",
+      "questionType": "SHORT_ANSWER",
+      "stem": "A metal cube maintains its shape when placed in a container, but sand (also a solid) takes the shape of its container. Using the particle model, explain why both are considered solids despite this difference.",
+      "solution": "Both are solids because **each individual particle (grain) has a fixed shape**. The difference is:\n\n**Metal cube**: All particles are bonded together into one piece, so the whole object maintains its shape.\n\n**Sand**: Individual grains are separate solids that can move relative to each other (like marbles in a jar), so the collection of grains flows and takes the container's shape. But each grain itself is still a solid with fixed shape.\n\nThe key is that we classify matter based on particle behavior, and each sand grain has particles in fixed positions.",
+      "difficulty": 4,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What is the difference between a single grain of sand and a pile of sand?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Think about whether we're looking at one solid object or many tiny solid objects that can move past each other.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set10",
+        "sequenceInPaper": 10,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 10,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-021",
+      "questionType": "SHORT_ANSWER",
+      "stem": "List **three properties** that are characteristic of liquids.",
+      "solution": "Three properties of liquids:\n1. **Take the shape of their container** - they flow to fit the bottom/shape of whatever holds them\n2. **Fixed volume** - they maintain their amount/size\n3. **Can flow** - particles can move past each other\n\n(Other acceptable answers: Cannot be compressed easily, have surface tension, can be poured)",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about water in different containers - what changes and what stays the same?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Consider shape, volume, and ability to move.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set11",
+        "sequenceInPaper": 1,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 1,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-022",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Using the particle model, explain why liquids **flow** and can be poured, unlike solids.",
+      "solution": "Liquids flow because:\n1. Particles are **close together** but not in fixed positions\n2. Forces between particles are **weaker** than in solids\n3. Particles can **slide past each other** and move around\n4. When you tip a container, gravity pulls particles downward and they can rearrange themselves to flow\n\nIn solids, particles are locked in position and cannot slide past each other, so solids cannot flow.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What do liquid particles need to be able to do in order to flow?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Particles must be able to move past one another and change positions.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set11",
+        "sequenceInPaper": 2,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 2,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-023",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Liquids have a **fixed volume**. What does this mean, and why do liquids have this property?",
+      "solution": "**Fixed volume** means that a liquid maintains the same amount of space it takes up, regardless of the shape of its container. For example, 500 mL of water is always 500 mL whether it's in a tall thin glass or a wide shallow bowl.\n\nLiquids have this property because particles are still **close together** with strong enough forces to keep them from spreading out completely, even though they can move around.",
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "When you pour water from one glass to another, does the amount change?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Particles stay close together even though they can move, so the total volume doesn't change.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set11",
+        "sequenceInPaper": 3,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 3,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-024",
+      "questionType": "SHORT_ANSWER",
+      "stem": "What is **surface tension** and how does the particle model explain it?\n\n(Hint: Think about forces between particles at the surface versus inside the liquid)",
+      "solution": "**Surface tension** is the tendency of a liquid surface to act like a stretched elastic skin. It allows small insects to walk on water and causes water droplets to form spherical shapes.\n\n**Particle explanation**: \n- Particles inside a liquid are pulled equally in all directions by surrounding particles\n- Particles at the surface are only pulled downward and sideways (no particles above them)\n- This creates a stronger net inward force at the surface\n- Surface particles are pulled together more tightly, creating tension",
+      "difficulty": 4,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about water striders walking on water - why doesn't the water surface break?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Particles at the surface experience different forces than particles in the middle of the liquid.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set11",
+        "sequenceInPaper": 4,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 4,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-025",
+      "questionType": "SHORT_ANSWER",
+      "stem": "**Viscosity** is a measure of how easily a liquid flows. Honey has high viscosity (flows slowly) while water has low viscosity (flows quickly). What might cause these differences at the particle level?",
+      "solution": "The difference in viscosity is due to **different strengths of forces between particles**:\n\n**High viscosity (honey)**: Stronger forces between particles make them resist sliding past each other, so flow is slow.\n\n**Low viscosity (water)**: Weaker forces between particles allow them to slide past each other easily, so flow is fast.\n\nParticle size and shape can also affect how easily they move past each other.",
+      "difficulty": 4,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What would make it harder for particles to slide past each other?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Stronger attractive forces between particles would slow down flow.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set11",
+        "sequenceInPaper": 5,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 5,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-026",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Explain why liquids are **difficult to compress** (though slightly more compressible than solids).",
+      "solution": "Liquids are difficult to compress because:\n1. Particles are already **close together** with very little empty space between them\n2. There's not much room for particles to move closer together\n3. Strong forces between particles resist being pushed closer\n\nLiquids are slightly MORE compressible than solids because there is a tiny bit more space between particles than in solids, but not much. This is why liquids can be compressed slightly under very high pressure.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "How much empty space is there between particles in a liquid?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Particles are close together, so there's little room to squeeze them closer.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set11",
+        "sequenceInPaper": 6,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 6,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-027",
+      "questionType": "SHORT_ANSWER",
+      "stem": "How does the **movement** of particles in liquids differ from their movement in solids?",
+      "solution": "**Solids**: Particles only **vibrate** in fixed positions - they cannot move from place to place.\n\n**Liquids**: Particles can **slide past each other** and move throughout the liquid. They're constantly moving and changing positions, though they stay relatively close together.\n\nLiquid particles have more kinetic energy and freedom of movement than solid particles.",
+      "difficulty": 2,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Can a particle in a solid move to a different location? What about in a liquid?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Solid particles are trapped in position; liquid particles can wander around.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set11",
+        "sequenceInPaper": 7,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 7,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-028",
+      "questionType": "SHORT_ANSWER",
+      "stem": "When you heat a liquid, it evaporates more quickly. Use the particle model to explain why this happens.",
+      "solution": "When you heat a liquid:\n1. Particles gain **kinetic energy** and move faster\n2. More particles have enough energy to **overcome the attractive forces** holding them in the liquid\n3. Fast-moving particles at the surface can **break away** and become gas particles\n4. Higher temperature = more particles with enough energy to escape = faster evaporation\n\nThis is why wet clothes dry faster on hot days than cold days.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What do particles need to escape from a liquid and become a gas?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Particles need enough energy to break free from the forces holding them in the liquid.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set11",
+        "sequenceInPaper": 8,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 8,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-029",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Give **three examples** of substances that are liquids at room temperature (about 20°C).",
+      "solution": "Three examples of liquids at room temperature:\n1. **Water**\n2. **Milk** or juice or cooking oil\n3. **Methylated spirits** or ethanol or acetone\n\n(Many other acceptable answers exist)",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about substances you see around your home or at school.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Water, drinks, oils, and some chemicals are liquids at room temperature.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set11",
+        "sequenceInPaper": 9,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 9,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-030",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Mercury is a metal that is **liquid at room temperature**. What does this tell you about the forces between mercury particles compared to most other metals?",
+      "solution": "This tells us that the forces between mercury particles are **weaker** than in most other metals. \n\nMost metals have very strong forces between particles, which is why they:\n- Are solid at room temperature\n- Have high melting points (need lots of energy to melt)\n\nMercury has weaker forces between particles, so:\n- It's already liquid at room temperature\n- It has a lower melting point (-39°C) than other metals\n\nThe weaker forces mean less energy is needed for particles to slide past each other.",
+      "difficulty": 4,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What determines whether something is solid or liquid at a given temperature?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "The strength of forces between particles determines how much energy is needed to change state.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set11",
+        "sequenceInPaper": 10,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 10,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-031",
+      "questionType": "SHORT_ANSWER",
+      "stem": "List **three properties** that are characteristic of gases.",
+      "solution": "Three properties of gases:\n1. **No fixed shape** - they expand to fill their entire container\n2. **No fixed volume** - they expand or compress to match container size\n3. **Easy to compress** - particles have lots of space between them\n\n(Other acceptable answers: Very low density, particles move freely and rapidly, diffuse quickly)",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about air in a balloon or tire - how does it behave?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Consider shape, volume, and ability to be squashed.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set12",
+        "sequenceInPaper": 1,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 1,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-032",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Using the particle model, explain why gases **expand to fill their entire container**, no matter how large the container is.",
+      "solution": "Gases expand to fill their container because:\n1. Gas particles are **very far apart** with lots of empty space between them\n2. Particles move **freely and rapidly** in all directions\n3. Forces between particles are **very weak** (almost negligible)\n4. Particles spread out until they hit the container walls\n5. There's nothing holding particles together in one place, so they keep spreading until limited by the container\n\nThis is why a small amount of perfume can fill an entire room.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What keeps gas particles from staying in one small area?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Particles move freely with almost no forces between them, so they spread out everywhere.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set12",
+        "sequenceInPaper": 2,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 2,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-033",
+      "questionType": "SHORT_ANSWER",
+      "stem": "How does the **spacing** between particles in a gas compare to the spacing in liquids and solids?",
+      "solution": "**Gas particles** are **MUCH farther apart** than in liquids or solids. In fact, most of a gas is empty space!\n\n- **Solids**: Particles touching or very close\n- **Liquids**: Particles close together but with tiny gaps\n- **Gases**: Particles very far apart with lots of empty space (about 10 times farther apart than in liquids)\n\nThis is why gases have much lower density than liquids or solids.",
+      "difficulty": 2,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Which state has the lowest density? What does that tell you about particle spacing?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Low density means particles are spread out with lots of empty space.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set12",
+        "sequenceInPaper": 3,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 3,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-034",
+      "questionType": "SHORT_ANSWER",
+      "stem": "What is **diffusion**? Use the particle model to explain why gases diffuse much faster than liquids.",
+      "solution": "**Diffusion** is the spreading out of particles from an area of high concentration to low concentration.\n\n**Why gases diffuse faster**:\n1. Gas particles are **far apart** so there's lots of space to move through\n2. Gas particles move **very quickly** (much faster than liquid particles)\n3. **Very weak forces** between particles mean nothing slows them down\n4. Particles can travel long distances without bumping into other particles\n\nIn liquids, particles are close together and constantly bumping into each other, which slows down diffusion.\n\nExample: Perfume smell spreads across a room (gas diffusion) much faster than food coloring spreads in water (liquid diffusion).",
+      "difficulty": 4,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "How easily can particles move through empty space versus through a crowded area?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Gas particles have room to move quickly without obstacles; liquid particles constantly bump into neighbors.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set12",
+        "sequenceInPaper": 4,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 4,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-035",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Explain why **gas pressure** increases when you:\na) **Add more gas** to a container\nb) **Heat** a gas in a sealed container",
+      "solution": "**a) Adding more gas**:\nMore particles = more collisions with container walls = higher pressure\n\n**b) Heating the gas**:\nHigher temperature → particles move faster → hit walls harder and more often → higher pressure\n\nIn both cases, pressure increases because of either more frequent collisions or harder collisions (or both) between particles and container walls.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What causes gas pressure? (Hint: particles hitting walls)",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "More particles = more collisions. Faster particles = harder collisions.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set12",
+        "sequenceInPaper": 5,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 5,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-036",
+      "questionType": "SHORT_ANSWER",
+      "stem": "A student says: *\"When you compress a gas, you're making the particles smaller.\"*\n\nIs this correct? Explain your answer using the particle model.",
+      "solution": "This is **INCORRECT**. When you compress a gas, the **particles themselves stay the same size**. What changes is:\n1. The **spacing between particles decreases** - particles are pushed closer together\n2. The **empty space** between particles is reduced\n3. The **volume** of the gas decreases, but individual particles don't shrink\n\nThe particles are like tiny hard balls - they can be pushed closer together, but they don't change size themselves. It's the space BETWEEN them that gets smaller.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Do atoms and molecules change size when you compress them?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Particles are like hard balls that can be pushed closer together but don't shrink themselves.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set12",
+        "sequenceInPaper": 6,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 6,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-037",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Give **three examples** of substances that are gases at room temperature (about 20°C).",
+      "solution": "Three examples of gases at room temperature:\n1. **Oxygen** (O₂) - in the air we breathe\n2. **Nitrogen** (N₂) - makes up most of the air\n3. **Carbon dioxide** (CO₂) - we breathe out\n\n(Other acceptable answers: helium, hydrogen, neon, argon, water vapor, natural gas/methane)",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What gases are in the air around us?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Air is mostly nitrogen and oxygen. Carbon dioxide is what we breathe out.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set12",
+        "sequenceInPaper": 7,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 7,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-038",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Why are gases **much less dense** than liquids or solids?",
+      "solution": "Gases are much less dense because:\n1. Particles are **very far apart** with lots of empty space between them\n2. This means very few particles in a given volume\n3. Since density = mass ÷ volume, having fewer particles in the same space = lower density\n\nFor example: 1 liter of liquid water has particles tightly packed, but 1 liter of water vapor has the same particles spread out over a much larger space, so it's much less dense. Most of the gas is just empty space!",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What is density? How does particle spacing affect it?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Density = mass/volume. Gases have lots of empty space, so less mass in the same volume.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set12",
+        "sequenceInPaper": 8,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 8,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-039",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Describe the **movement** of particles in a gas.",
+      "solution": "Gas particles:\n1. Move **freely** in all directions (not restricted to fixed positions or sliding past neighbors)\n2. Move **very fast** (much faster than in liquids or solids)\n3. Move in **straight lines** until they collide with other particles or container walls\n4. Collide and **bounce off** in random directions\n5. Are in **constant, random motion**\n\nThis rapid, random movement explains why gases spread out and fill their containers.",
+      "difficulty": 2,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Are gas particles restricted in where they can go?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Gas particles zoom around freely, bouncing off walls and each other.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set12",
+        "sequenceInPaper": 9,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 9,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-040",
+      "questionType": "SHORT_ANSWER",
+      "stem": "A sealed metal can containing air is heated strongly. Explain using the particle model:\na) What happens to the **air pressure** inside\nb) Why the can might **explode** if heated too much",
+      "solution": "**a) Air pressure increases** because:\n- Heating gives particles more kinetic energy\n- Particles move faster\n- Faster particles hit the walls harder and more frequently\n- More forceful, frequent collisions = higher pressure\n\n**b) The can might explode** because:\n- As pressure builds up, it pushes outward on the can walls with great force\n- If the pressure gets too high, the forces exceed the strength of the metal\n- The can bursts/explodes to release the high-pressure gas\n\n**Safety warning**: This is why aerosol cans say \"Do not incinerate\" - never heat sealed containers!",
+      "difficulty": 4,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What happens to particle speed when you heat a gas? What causes pressure?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Faster particles hit walls harder. Too much pressure can break the container.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set12",
+        "sequenceInPaper": 10,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 10,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-041",
+      "questionType": "SHORT_ANSWER",
+      "stem": "What is the name of the process when:\na) A **solid** changes to a **liquid**?\nb) A **liquid** changes to a **gas**?\nc) A **gas** changes to a **liquid**?",
+      "solution": "a) Solid → Liquid: **Melting** (or fusion)\n\nb) Liquid → Gas: **Evaporation** or **boiling** (vaporization)\n\nc) Gas → Liquid: **Condensation**",
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about ice melting, water boiling, and steam forming water droplets.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Melting (ice to water), evaporation/boiling (water to steam), condensation (steam to water).",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set13",
+        "sequenceInPaper": 1,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 1,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-042",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Using the particle model, explain what happens to particles when ice **melts** into water. Include information about:\n- Particle arrangement\n- Particle movement\n- Energy",
+      "solution": "When ice melts:\n\n**Arrangement**:\n- Start: Particles in regular, fixed pattern (crystalline structure)\n- End: Particles randomly arranged, no fixed pattern\n\n**Movement**:\n- Start: Particles only vibrate in fixed positions\n- End: Particles can slide past each other and move around\n\n**Energy**:\n- Particles **gain thermal energy** from surroundings\n- This energy weakens forces between particles enough for them to break free from fixed positions\n- Particles now have enough energy to overcome the ordered structure\n\n**Key point**: Particles don't change identity - water molecules are the same in ice and liquid water. Only their arrangement, movement, and energy change.",
+      "difficulty": 3,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What changes when a solid becomes a liquid? What stays the same?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Arrangement goes from ordered to random. Particles gain energy to move freely instead of just vibrating.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set13",
+        "sequenceInPaper": 2,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 2,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-043",
+      "questionType": "SHORT_ANSWER",
+      "stem": "What is the **boiling point** of a substance? Why do different substances have different boiling points?",
+      "solution": "**Boiling point** is the temperature at which a substance changes from liquid to gas throughout the entire liquid (not just at the surface).\n\n**Different boiling points** exist because:\n- Different substances have different **strengths of forces** between particles\n- **Strong forces** = need more energy = higher boiling point (e.g., water: 100°C)\n- **Weak forces** = need less energy = lower boiling point (e.g., alcohol: 78°C)\n\nThe stronger the forces holding particles together, the more energy (higher temperature) needed to break them apart.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What determines how much energy is needed to separate particles?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Stronger forces between particles require more energy (higher temperature) to overcome.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set13",
+        "sequenceInPaper": 3,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 3,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-044",
+      "questionType": "SHORT_ANSWER",
+      "stem": "What is the difference between **evaporation** and **boiling**? (Both involve liquid changing to gas)",
+      "solution": "**Evaporation**:\n- Happens **only at the surface** of the liquid\n- Can occur at **any temperature** (not just boiling point)\n- Happens **slowly** as individual fast-moving particles escape\n- Only particles with highest energy can escape\n\n**Boiling**:\n- Happens **throughout the entire liquid** (bubbles form inside)\n- Only occurs at the **boiling point** (specific temperature)\n- Happens **rapidly**\n- All particles gain enough energy to change state\n\n**Example**: Puddle drying (evaporation) vs. water in kettle making bubbles (boiling)",
+      "difficulty": 4,
+      "estimatedTime": 300,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Where does each process happen? At what temperature?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Evaporation is at the surface, any temperature. Boiling is everywhere, at boiling point.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set13",
+        "sequenceInPaper": 4,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 4,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-045",
+      "questionType": "SHORT_ANSWER",
+      "stem": "When water vapor (gas) in the air touches a cold surface like a mirror, it forms liquid water droplets. What is this process called, and why does it happen?",
+      "solution": "This process is called **condensation**.\n\n**Why it happens**:\n1. Water vapor particles are moving fast and spread out (gas state)\n2. When they hit the cold surface, they **lose energy** to the surface\n3. With less energy, particles **slow down**\n4. **Forces between particles** can now pull them together\n5. Particles cluster together to form liquid droplets\n\n**Key**: Cooling removes energy, allowing forces to pull particles closer into liquid state.",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What happens to particle energy when they touch something cold?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Particles lose energy and slow down, allowing forces to pull them together into liquid.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set13",
+        "sequenceInPaper": 5,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 5,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-046",
+      "questionType": "SHORT_ANSWER",
+      "stem": "During a state change (like melting or boiling), the **temperature stays constant** even though you keep adding heat. Using the particle model, explain where the energy goes if it's not raising the temperature.",
+      "solution": "During a state change, the energy goes into:\n\n1. **Breaking or weakening forces** between particles\n2. **Changing the arrangement** of particles\n3. **Increasing spacing** between particles\n\nThe energy is NOT increasing particle speed (which would raise temperature). Instead, it's being used to:\n- **Melting**: Break particles free from fixed positions\n- **Boiling**: Completely separate particles from liquid to gas\n\nOnce the state change is complete, additional heat will increase particle speed and raise temperature again.\n\n**Think of it like**: Energy is being used to \"unlock\" particles from each other, not to make them move faster.",
+      "difficulty": 5,
+      "estimatedTime": 360,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "If temperature relates to particle speed, and temperature isn't changing, what is the energy doing?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Energy is used to overcome forces between particles, not to speed them up.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set13",
+        "sequenceInPaper": 6,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 6,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-047",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Are state changes (like melting, freezing, boiling) **reversible** or **irreversible**? Explain with an example.",
+      "solution": "State changes are **REVERSIBLE** - you can go back and forth between states without changing the substance itself.\n\n**Examples**:\n- Ice → Water (melting) AND Water → Ice (freezing)\n- Water → Steam (boiling) AND Steam → Water (condensing)\n\n**Why they're reversible**: The particles are the same substance; only their arrangement, spacing, and energy change. Water molecules in ice, liquid water, and steam are identical - just organized differently. You can add or remove energy to switch between states multiple times.\n\n**Contrast with chemical changes**: Burning wood is irreversible - you can't turn ash back into wood!",
+      "difficulty": 3,
+      "estimatedTime": 240,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Can you turn ice into water and then back into ice?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "State changes can be reversed by adding or removing energy. The substance itself doesn't change.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set13",
+        "sequenceInPaper": 7,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 7,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-048",
+      "questionType": "SHORT_ANSWER",
+      "stem": "Explain the complete **water cycle** using the particle model and state changes. Include:\n- Evaporation from oceans\n- Condensation in clouds\n- Precipitation (rain/snow)\n- Return to oceans",
+      "solution": "**The Water Cycle using particle model**:\n\n1. **Evaporation from oceans**:\n   - Sun heats water\n   - Surface particles gain energy and escape as water vapor (gas)\n   - Particles spread out and rise into atmosphere\n\n2. **Condensation in clouds**:\n   - Water vapor rises and cools at high altitude\n   - Particles lose energy and slow down\n   - Forces pull particles together forming tiny liquid droplets\n   - Billions of droplets cluster together as clouds\n\n3. **Precipitation**:\n   - Droplets combine and grow larger\n   - When large enough, gravity pulls them down as rain\n   - If very cold: particles arrange into ice crystals (snow)\n\n4. **Return to oceans**:\n   - Rain flows in rivers back to oceans\n   - Cycle repeats\n\n**Key**: Same water particles continuously cycle through different states by gaining/losing energy.",
+      "difficulty": 4,
+      "estimatedTime": 360,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "What state is water in at each stage of the cycle?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Liquid → gas (evaporation) → liquid (condensation) → liquid/solid (precipitation) → back to liquid.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set13",
+        "sequenceInPaper": 8,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 8,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-049",
+      "questionType": "SHORT_ANSWER",
+      "stem": "**Sublimation** is when a solid changes directly to a gas without becoming a liquid first. Give one example of sublimation.",
+      "solution": "Examples of sublimation:\n\n1. **Dry ice (solid CO₂)** sublimates directly to carbon dioxide gas at room temperature - it never becomes liquid at normal atmospheric pressure\n\n2. **Mothballs** (naphthalene) gradually disappear as they sublimate from solid to gas\n\n3. **Ice** in a freezer slowly sublimates over time (why ice cubes shrink even when temperature stays below freezing)\n\n4. **Snow** on a sunny cold day can sublimate directly to water vapor without melting\n\n(Any one of these is acceptable)",
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about substances that seem to 'disappear' without melting first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Dry ice (solid carbon dioxide) is the most common example - it goes straight to gas without a liquid phase.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set13",
+        "sequenceInPaper": 9,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 9,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    },
+    {
+      "questionId": "nsw-y8-states-matter-050",
+      "questionType": "SHORT_ANSWER",
+      "stem": "A student heats a solid until it becomes a gas. Describe the **complete energy changes** and **particle behavior** throughout this process:\n\nSolid → (heating) → Liquid → (heating) → Gas",
+      "solution": "**Complete transformation**:\n\n**SOLID STAGE**:\n- Particles vibrate in fixed positions, closely packed\n- Adding heat: Particles vibrate faster\n\n**MELTING (Solid → Liquid)**:\n- Temperature constant during melting\n- Energy breaks down fixed arrangement\n- Particles can now slide past each other\n- Spacing increases slightly\n\n**LIQUID STAGE**:\n- Particles move around freely but stay close\n- Adding more heat: Particles move faster\n\n**BOILING (Liquid → Gas)**:\n- Temperature constant during boiling\n- Energy completely separates particles\n- Particles break free from liquid\n- Spacing increases dramatically\n\n**GAS STAGE**:\n- Particles very far apart, moving rapidly in all directions\n- Further heating: Particles move even faster\n\n**Energy summary**: Energy added throughout → increases particle movement AND overcomes forces between particles during state changes.",
+      "difficulty": 5,
+      "estimatedTime": 360,
+      "curriculum": {
+        "system": "NSW",
+        "codes": [
+          "ACSSU151"
+        ],
+        "year": 8,
+        "subject": "Science",
+        "strand": "Chemical Sciences"
+      },
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what happens to temperature, particle arrangement, spacing, and movement at each stage.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "During state changes temperature is constant. Between changes, temperature rises as particles move faster.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "paperMetadata": {
+        "setId": "year8-states-of-matter-set13",
+        "sequenceInPaper": 10,
+        "section": "year8-science"
+      },
+      "status": "active",
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 10,
+        "conceptsUsed": [
+          "c1"
+        ],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      }
+    }
+  ]
+}

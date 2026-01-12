@@ -52,10 +52,106 @@ export interface FirestoreAIMetadata {
   validatedAt?: string;
 }
 
+// =============================================================================
+// MATH QUESTION TYPES (NEW)
+// =============================================================================
+
+// Step for multi-step math questions
+export interface FirestoreMathStep {
+  stepNumber: number;              // 1, 2, 3, ...
+  instruction: string;             // "Expand the brackets"
+  inputType: 'text' | 'equation' | 'number' | 'expression';
+  placeholder?: string;            // "e.g., 3x + 6"
+  expectedPattern?: string;        // Pattern for validation (LaTeX format)
+  hints?: FirestoreHint[];         // Step-specific hints
+  rubricWeight: number;            // 0.0 - 1.0 (weights must sum to 1)
+  rubricCriterion?: string;        // What this step assesses
+}
+
+// Math answer format (for storing student answers)
+export interface MathAnswer {
+  latex: string;                   // Raw LaTeX: "\\frac{3}{4}"
+  plainText: string;               // Human readable: "3/4"
+  numericValue?: number;           // Evaluated value: 0.75
+  steps?: {
+    stepNumber: number;
+    latex: string;
+    plainText: string;
+    timeSpentMs?: number;
+  }[];
+}
+
+// Math-specific rich content flags
+export interface FirestoreMathContent {
+  requiresMathInput: boolean;      // Needs equation editor
+  requiresMultiStep: boolean;      // Multi-step problem
+  hasNumericAnswer: boolean;       // Final answer is a number
+  hasSymbolicAnswer: boolean;      // Final answer is an expression
+  acceptableFormats?: string[];    // ["decimal", "fraction", "percent"]
+  tolerancePercent?: number;       // For numeric answers (e.g., 0.01 for 1%)
+}
+
+// =============================================================================
+// WORKED SOLUTION (Student-Centered "Show Your Work" Approach)
+// =============================================================================
+// This approach respects student autonomy - they choose their own solution path.
+// AI evaluates the REASONING, not just pattern matching against expected answers.
+// Multiple valid paths are celebrated, not penalized.
+
+/**
+ * Work line - a single step in student's working
+ * Students can add as many lines as they need
+ */
+export interface WorkLine {
+  lineNumber: number;              // 1, 2, 3, ... (auto-assigned)
+  latex: string;                   // LaTeX content: "3x + 6 = 21"
+  plainText: string;               // Human-readable: "3x + 6 = 21"
+}
+
+/**
+ * Encouraging hint - designed to support learning, not penalize
+ * Hints are FREE to use - they're learning tools, not assessment penalties
+ */
+export interface EncouragingHint {
+  level: number;                   // 1 = gentle nudge, 2 = more guidance, 3 = strong scaffold
+  content: string;                 // The hint text
+  encouragement: string;           // Positive framing: "You're on the right track!"
+  questionPrompt?: string;         // Socratic question: "What happens when you..."
+}
+
+/**
+ * Student's answer for WORKED_SOLUTION questions
+ * Captures both the journey (working) and destination (final answer)
+ */
+export interface WorkedSolutionAnswer {
+  workLines: WorkLine[];           // Student's working (any number of lines)
+  finalAnswer: string;             // The final answer (latex format)
+  finalAnswerPlainText: string;    // Human-readable final answer
+  hintsViewed: number[];           // Which hint levels were viewed (for analytics only, NOT scoring)
+  timeSpentMs?: number;            // Total time (for analytics)
+  confidenceRating?: number;       // Optional self-assessment 1-5
+}
+
+/**
+ * Configuration for WORKED_SOLUTION questions
+ * Focuses on flexibility and multiple valid approaches
+ */
+export interface WorkedSolutionConfig {
+  startingExpression: string;      // Pre-filled first line: "3(x + 2) = 21"
+  expectedAnswers: string[];       // Multiple valid forms: ["5", "x=5", "x = 5"]
+  gradingGuidance: string;         // AI instructions for flexible evaluation
+  sampleSolutions?: string[];      // Example valid paths (for AI reference)
+  minimumWorkLines?: number;       // Encourage showing work (default: 1, 0 = any)
+  encourageExplanation?: boolean;  // Prompt for verbal explanation
+  topic?: string;                  // Topic for AI tutor context (e.g., "linear-equations")
+  year?: number;                   // Year level for age-appropriate guidance
+  keyConcepts?: string[];          // Key concepts for AI tutor to reference
+}
+
 // ACTUAL Firestore Question structure
 export interface FirestoreQuestion {
   questionId: string;
-  questionType: 'MCQ' | 'SHORT_ANSWER' | 'EXTENDED_RESPONSE';
+  questionType: 'MCQ' | 'SHORT_ANSWER' | 'EXTENDED_RESPONSE' | 'EQUATION_ENTRY' | 'MULTI_STEP_MATH' | 'WORKED_SOLUTION';
   stem: string;
   mcqOptions?: FirestoreMCQOption[];
   solution?: string;
@@ -78,6 +174,18 @@ export interface FirestoreQuestion {
   createdAt?: string;
   updatedAt?: string;
   publishedAt?: string;
+
+  // =============================================================================
+  // MATH-SPECIFIC FIELDS (optional, used only for math question types)
+  // =============================================================================
+  steps?: FirestoreMathStep[];     // For MULTI_STEP_MATH questions (legacy)
+  mathContent?: FirestoreMathContent; // Math-specific metadata
+
+  // =============================================================================
+  // WORKED SOLUTION FIELDS (student-centered "show your work" approach)
+  // =============================================================================
+  workedSolutionConfig?: WorkedSolutionConfig;  // For WORKED_SOLUTION questions
+  encouragingHints?: EncouragingHint[];         // Student-friendly hints (no penalties)
 }
 
 // Firestore Passage structure (for reading comprehension)
@@ -101,7 +209,7 @@ export interface FirestorePassage {
 export interface Question {
   id: string;
   text: string;
-  type: 'multiple_choice' | 'short_answer' | 'extended_response' | 'writing';
+  type: 'multiple_choice' | 'short_answer' | 'extended_response' | 'writing' | 'equation_entry' | 'multi_step_math' | 'worked_solution';
   options?: string[];
   optionIds?: string[];           // ["A", "B", "C", "D"]
   correctAnswer?: string;
@@ -115,6 +223,60 @@ export interface Question {
   estimatedTimeSeconds?: number;
   section?: string;               // For NSW Selective
   passageId?: string;             // For reading comprehension
+
+  // Math-specific (optional)
+  steps?: FirestoreMathStep[];    // For multi-step math
+  mathContent?: FirestoreMathContent; // Math metadata
+}
+
+// =============================================================================
+// TYPE GUARDS FOR QUESTION TYPES
+// =============================================================================
+
+/**
+ * Check if a question requires math equation input
+ * Includes all math question types: EQUATION_ENTRY, MULTI_STEP_MATH, WORKED_SOLUTION
+ */
+export function isMathQuestion(question: FirestoreQuestion | Question): boolean {
+  if ('questionType' in question) {
+    return question.questionType === 'EQUATION_ENTRY' ||
+           question.questionType === 'MULTI_STEP_MATH' ||
+           question.questionType === 'WORKED_SOLUTION';
+  }
+  return question.type === 'equation_entry' ||
+         question.type === 'multi_step_math' ||
+         question.type === 'worked_solution';
+}
+
+/**
+ * Check if a question is the student-centered "show your work" type
+ * This is the recommended approach for multi-step problems
+ */
+export function isWorkedSolutionQuestion(question: FirestoreQuestion | Question): boolean {
+  if ('questionType' in question) {
+    return question.questionType === 'WORKED_SOLUTION';
+  }
+  return question.type === 'worked_solution';
+}
+
+/**
+ * Check if a question is multi-step math (legacy - prefer WORKED_SOLUTION)
+ */
+export function isMultiStepMathQuestion(question: FirestoreQuestion | Question): boolean {
+  if ('questionType' in question) {
+    return question.questionType === 'MULTI_STEP_MATH';
+  }
+  return question.type === 'multi_step_math';
+}
+
+/**
+ * Check if a question is equation entry (single answer)
+ */
+export function isEquationEntryQuestion(question: FirestoreQuestion | Question): boolean {
+  if ('questionType' in question) {
+    return question.questionType === 'EQUATION_ENTRY';
+  }
+  return question.type === 'equation_entry';
 }
 
 // App-friendly Passage

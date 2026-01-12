@@ -1,0 +1,111 @@
+{
+  "summary": {
+    "totalQuestions": 80,
+    "passed": 80,
+    "warnings": 8,
+    "errors": 0,
+    "status": "NEEDS_REVIEW"
+  },
+  "layers": {
+    "schema": {
+      "passed": 80,
+      "failed": 0,
+      "issues": []
+    },
+    "content": {
+      "passed": 80,
+      "failed": 0,
+      "issues": []
+    },
+    "pedagogy": {
+      "passed": 73,
+      "warnings": 7,
+      "issues": [
+        {
+          "questionId": "som-y8-018",
+          "severity": "warning",
+          "message": "Vocabulary 'intermolecular' may be advanced for Year 8",
+          "field": "vocabulary",
+          "autoFixable": false
+        },
+        {
+          "questionId": "som-y8-020",
+          "severity": "warning",
+          "message": "buildsOn reference 'som-y8-17' not found",
+          "field": "learningArc"
+        },
+        {
+          "questionId": "som-y8-044",
+          "severity": "warning",
+          "message": "Vocabulary 'intermolecular' may be advanced for Year 8",
+          "field": "vocabulary",
+          "autoFixable": false
+        },
+        {
+          "questionId": "som-y8-046",
+          "severity": "warning",
+          "message": "Vocabulary 'intermolecular' may be advanced for Year 8",
+          "field": "vocabulary",
+          "autoFixable": false
+        },
+        {
+          "questionId": "som-y8-049",
+          "severity": "warning",
+          "message": "Vocabulary 'intermolecular' may be advanced for Year 8",
+          "field": "vocabulary",
+          "autoFixable": false
+        },
+        {
+          "questionId": "som-y8-052",
+          "severity": "warning",
+          "message": "Vocabulary 'intermolecular' may be advanced for Year 8",
+          "field": "vocabulary",
+          "autoFixable": false
+        },
+        {
+          "questionId": "som-y8-060",
+          "severity": "warning",
+          "message": "Vocabulary 'intermolecular' may be advanced for Year 8",
+          "field": "vocabulary",
+          "autoFixable": false
+        }
+      ]
+    },
+    "presentation": {
+      "passed": 79,
+      "failed": 0,
+      "issues": [
+        {
+          "questionId": "som-y8-015",
+          "severity": "warning",
+          "message": "Contains very long words that may overflow on mobile",
+          "field": "presentation"
+        }
+      ]
+    }
+  },
+  "distributions": {
+    "questionTypes": {
+      "MCQ": 41,
+      "SHORT_ANSWER": 39
+    },
+    "pedagogy": {
+      "scaffolded": 24,
+      "phenomenon": 20,
+      "socratic": 17,
+      "misconception": 19
+    },
+    "difficulty": {
+      "2": 31,
+      "3": 17,
+      "4": 32
+    },
+    "phases": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20
+    }
+  },
+  "humanReviewFlags": []
+}

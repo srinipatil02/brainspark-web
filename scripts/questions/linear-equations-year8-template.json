@@ -1,0 +1,766 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "questionCount": 10,
+    "purpose": "Template questions for testing WORKED_SOLUTION format and math generation patterns",
+    "createdAt": "2026-01-11",
+    "version": "1.0",
+    "notes": "These 10 questions are hand-crafted templates for testing. They cover progressive difficulty from one-step to complex linear equations."
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-001",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$2x = 10$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nTo isolate x, divide both sides by 2:\n\n$$\\frac{2x}{2} = \\frac{10}{2}$$\n\n$$x = 5$$\n\n**Answer: x = 5**\n\n**Check:** $2 \\times 5 = 10$ ✓",
+      "hints": [
+        {"level": 1, "content": "What operation is being done to x? What's the opposite operation?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "x is being multiplied by 2. To undo multiplication, use division.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Divide both sides by 2: 2x ÷ 2 = 10 ÷ 2", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is a one-step equation - you just need one operation to find x!",
+          "encouragement": "You've got this - it's simpler than it looks!",
+          "questionPrompt": "What's being done to x in this equation?"
+        },
+        {
+          "level": 2,
+          "content": "Whatever you do to one side, you must do to the other to keep the equation balanced.",
+          "encouragement": "Think of it like a balance scale - both sides must stay equal!",
+          "questionPrompt": "If 2x means '2 times x', what undoes multiplication?"
+        },
+        {
+          "level": 3,
+          "content": "Division undoes multiplication. So divide both sides by 2.",
+          "encouragement": "You're learning inverse operations - a key algebra skill!",
+          "questionPrompt": "What is 10 divided by 2?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2x = 10",
+        "expectedAnswers": ["5", "x = 5", "x=5", "x= 5", "x =5", "5.0", "x = 5.0"],
+        "gradingGuidance": "This is a one-step equation. Accept answer with or without 'x ='. Student should show division by 2. Award full credit for correct answer with minimal working since it's one step. Partial credit if setup is correct but arithmetic error.",
+        "sampleSolutions": [
+          "2x = 10\n2x ÷ 2 = 10 ÷ 2\nx = 5",
+          "2x = 10\nx = 10/2\nx = 5"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "division", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 1,
+        "conceptsUsed": ["inverse-operations", "one-step-equations"],
+        "buildsOn": [],
+        "preparesFor": ["linear-eq-y8-002", "linear-eq-y8-003"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can solve simple equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-002",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$x + 7 = 15$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nTo isolate x, subtract 7 from both sides:\n\n$$x + 7 - 7 = 15 - 7$$\n\n$$x = 8$$\n\n**Answer: x = 8**\n\n**Check:** $8 + 7 = 15$ ✓",
+      "hints": [
+        {"level": 1, "content": "What number is being added to x?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "To undo addition, use subtraction.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Subtract 7 from both sides: x + 7 - 7 = 15 - 7", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Look at what's happening to x. Something is being added to it.",
+          "encouragement": "One-step equations are great for building confidence!",
+          "questionPrompt": "What number is added to x?"
+        },
+        {
+          "level": 2,
+          "content": "Addition and subtraction are opposite operations - they undo each other!",
+          "encouragement": "You're thinking like an algebraist!",
+          "questionPrompt": "What's the opposite of adding 7?"
+        },
+        {
+          "level": 3,
+          "content": "Subtract 7 from both sides to isolate x.",
+          "encouragement": "Remember: whatever you do to one side, do to the other!",
+          "questionPrompt": "What is 15 - 7?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "x + 7 = 15",
+        "expectedAnswers": ["8", "x = 8", "x=8", "x= 8", "x =8", "8.0", "x = 8.0"],
+        "gradingGuidance": "One-step equation using subtraction. Accept answer with or without 'x ='. Student should show subtraction of 7 from both sides. Full credit for correct answer. Partial credit if method is correct but arithmetic error (e.g., 15 - 7 calculated wrong).",
+        "sampleSolutions": [
+          "x + 7 = 15\nx + 7 - 7 = 15 - 7\nx = 8",
+          "x + 7 = 15\nx = 15 - 7\nx = 8"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["inverse operations", "subtraction", "solving equations"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 2,
+        "conceptsUsed": ["inverse-operations", "one-step-equations"],
+        "buildsOn": ["linear-eq-y8-001"],
+        "preparesFor": ["linear-eq-y8-003"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I understand inverse operations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-003",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$2x + 3 = 11$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 3 from both sides\n$$2x + 3 - 3 = 11 - 3$$\n$$2x = 8$$\n\n**Step 2:** Divide both sides by 2\n$$\\frac{2x}{2} = \\frac{8}{2}$$\n$$x = 4$$\n\n**Answer: x = 4**\n\n**Check:** $2(4) + 3 = 8 + 3 = 11$ ✓",
+      "hints": [
+        {"level": 1, "content": "This is a two-step equation. Deal with the '+3' first, then the '2x'.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "First subtract 3 from both sides to get 2x = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "2x = 8, now divide both sides by 2", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Two-step equations need two operations. Think: what should you undo first?",
+          "encouragement": "You've mastered one-step equations - this is just two of those!",
+          "questionPrompt": "Looking at 2x + 3 = 11, which part should you deal with first?"
+        },
+        {
+          "level": 2,
+          "content": "Work 'outside in' - deal with addition/subtraction before multiplication/division.",
+          "encouragement": "This is like reverse order of operations!",
+          "questionPrompt": "If you subtract 3 from both sides, what do you get?"
+        },
+        {
+          "level": 3,
+          "content": "After subtracting 3: 2x = 8. Now you have a one-step equation!",
+          "encouragement": "You've turned a hard problem into an easy one!",
+          "questionPrompt": "What is 8 divided by 2?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2x + 3 = 11",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "Two-step equation. Student should: (1) Subtract 3 from both sides to get 2x = 8, (2) Divide by 2 to get x = 4. Award partial credit for correct first step even if second step has error. Deduct if order of operations is wrong but answer happens to be correct.",
+        "sampleSolutions": [
+          "2x + 3 = 11\n2x + 3 - 3 = 11 - 3\n2x = 8\n2x ÷ 2 = 8 ÷ 2\nx = 4",
+          "2x + 3 = 11\n2x = 11 - 3\n2x = 8\nx = 8/2\nx = 4"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "inverse operations", "order of operations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 3,
+        "conceptsUsed": ["two-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-001", "linear-eq-y8-002"],
+        "preparesFor": ["linear-eq-y8-004", "linear-eq-y8-005"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can solve two-step equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-004",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$5x - 7 = 18$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Add 7 to both sides\n$$5x - 7 + 7 = 18 + 7$$\n$$5x = 25$$\n\n**Step 2:** Divide both sides by 5\n$$\\frac{5x}{5} = \\frac{25}{5}$$\n$$x = 5$$\n\n**Answer: x = 5**\n\n**Check:** $5(5) - 7 = 25 - 7 = 18$ ✓",
+      "hints": [
+        {"level": 1, "content": "This is a two-step equation. Deal with the '-7' first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Add 7 to both sides first. What do you get?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "5x = 25, now divide both sides by 5", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This equation has subtraction AND multiplication. Handle the subtraction first!",
+          "encouragement": "You're getting better at recognizing equation types!",
+          "questionPrompt": "What's the opposite of subtracting 7?"
+        },
+        {
+          "level": 2,
+          "content": "To undo '-7', add 7 to both sides. This isolates the term with x.",
+          "encouragement": "Adding to both sides keeps the equation balanced!",
+          "questionPrompt": "What is 18 + 7?"
+        },
+        {
+          "level": 3,
+          "content": "Now you have 5x = 25. This is a one-step equation you already know how to solve!",
+          "encouragement": "You've broken a harder problem into an easier one!",
+          "questionPrompt": "What is 25 ÷ 5?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5x - 7 = 18",
+        "expectedAnswers": ["5", "x = 5", "x=5", "x= 5", "x =5", "5.0", "x = 5.0"],
+        "gradingGuidance": "Two-step equation with subtraction. Student should: (1) Add 7 to both sides to get 5x = 25, (2) Divide by 5 to get x = 5. Common error: subtracting 7 instead of adding. Award partial credit for correct setup even with arithmetic errors.",
+        "sampleSolutions": [
+          "5x - 7 = 18\n5x - 7 + 7 = 18 + 7\n5x = 25\nx = 25/5\nx = 5",
+          "5x - 7 = 18\n5x = 18 + 7\n5x = 25\nx = 5"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["two-step equations", "inverse operations", "negative numbers"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 4,
+        "conceptsUsed": ["two-step-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-003"],
+        "preparesFor": ["linear-eq-y8-005"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can handle subtraction in equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-005",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$3(x + 2) = 15$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method 1: Expand first**\n$$3x + 6 = 15$$\n$$3x = 15 - 6$$\n$$3x = 9$$\n$$x = 3$$\n\n**Method 2: Divide first**\n$$x + 2 = \\frac{15}{3}$$\n$$x + 2 = 5$$\n$$x = 5 - 2$$\n$$x = 3$$\n\n**Answer: x = 3**\n\n**Check:** $3(3 + 2) = 3(5) = 15$ ✓",
+      "hints": [
+        {"level": 1, "content": "You can either expand the brackets first, or divide both sides by 3 first. Both work!", "revealsCriticalInfo": false},
+        {"level": 2, "content": "If expanding: 3(x+2) = 3·x + 3·2 = 3x + 6", "revealsCriticalInfo": false},
+        {"level": 3, "content": "After expanding: 3x + 6 = 15. Solve this two-step equation.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This equation has brackets! There are TWO valid approaches - choose the one that feels easier.",
+          "encouragement": "Having choices in maths is powerful!",
+          "questionPrompt": "Would you rather expand the brackets OR divide both sides by 3 first?"
+        },
+        {
+          "level": 2,
+          "content": "Expanding: multiply 3 by everything inside the brackets. Dividing: divide both sides by 3 first.",
+          "encouragement": "Both methods give the same answer - that's the beauty of maths!",
+          "questionPrompt": "What does 3(x + 2) expand to?"
+        },
+        {
+          "level": 3,
+          "content": "If you expanded, you have 3x + 6 = 15. If you divided, you have x + 2 = 5. Both lead to x = 3!",
+          "encouragement": "You're seeing how different paths lead to the same destination!",
+          "questionPrompt": "Can you finish solving from here?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3(x + 2) = 15",
+        "expectedAnswers": ["3", "x = 3", "x=3", "x= 3", "x =3", "3.0", "x = 3.0"],
+        "gradingGuidance": "Equations with brackets. Accept EITHER approach: (1) Expand first: 3x + 6 = 15, then solve, OR (2) Divide first: x + 2 = 5, then solve. Both are equally valid. Award full credit for either method. Common error: expanding as 3x + 2 (forgetting to multiply the 2). Award partial credit for correct approach with arithmetic error.",
+        "sampleSolutions": [
+          "Expand first:\n3(x + 2) = 15\n3x + 6 = 15\n3x = 9\nx = 3",
+          "Divide first:\n3(x + 2) = 15\nx + 2 = 5\nx = 3"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["distributive law", "expanding brackets", "two-step equations"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 5,
+        "conceptsUsed": ["distributive-law", "two-step-equations"],
+        "buildsOn": ["linear-eq-y8-003", "linear-eq-y8-004"],
+        "preparesFor": ["linear-eq-y8-006"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can handle brackets in equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-006",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$2(3x - 4) = 16$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method 1: Expand first**\n$$6x - 8 = 16$$\n$$6x = 16 + 8$$\n$$6x = 24$$\n$$x = 4$$\n\n**Method 2: Divide first**\n$$3x - 4 = \\frac{16}{2}$$\n$$3x - 4 = 8$$\n$$3x = 12$$\n$$x = 4$$\n\n**Answer: x = 4**\n\n**Check:** $2(3(4) - 4) = 2(12 - 4) = 2(8) = 16$ ✓",
+      "hints": [
+        {"level": 1, "content": "Like the previous problem, you can expand first or divide first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "If expanding: 2(3x - 4) = 2·3x - 2·4 = 6x - 8", "revealsCriticalInfo": false},
+        {"level": 3, "content": "After expanding: 6x - 8 = 16. Add 8 to both sides, then divide by 6.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is similar to the last problem but with a coefficient inside the brackets too!",
+          "encouragement": "You're building on what you know!",
+          "questionPrompt": "Will you expand the brackets or divide by 2 first?"
+        },
+        {
+          "level": 2,
+          "content": "When expanding 2(3x - 4), multiply 2 by BOTH terms: 2×3x AND 2×(-4).",
+          "encouragement": "Don't forget the negative sign!",
+          "questionPrompt": "What is 2 × 3x? What is 2 × (-4)?"
+        },
+        {
+          "level": 3,
+          "content": "6x - 8 = 16 is a two-step equation. Add 8 first, then divide by 6.",
+          "encouragement": "You've got all the skills you need for this!",
+          "questionPrompt": "What is 16 + 8? Then what is 24 ÷ 6?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2(3x - 4) = 16",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "More complex brackets with coefficient inside. Accept EITHER expand-first OR divide-first approach. Common errors: (1) Expanding as 6x - 4 (forgetting to multiply -4 by 2), (2) Sign errors with -8. Award partial credit for correct method with arithmetic errors. Full credit requires x = 4.",
+        "sampleSolutions": [
+          "Expand:\n2(3x - 4) = 16\n6x - 8 = 16\n6x = 24\nx = 4",
+          "Divide first:\n2(3x - 4) = 16\n3x - 4 = 8\n3x = 12\nx = 4"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["distributive law", "expanding brackets", "negative numbers"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 6,
+        "conceptsUsed": ["distributive-law", "two-step-equations", "negative-numbers"],
+        "buildsOn": ["linear-eq-y8-005"],
+        "preparesFor": ["linear-eq-y8-007"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can handle complex brackets!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-007",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$3x + 5 = x + 13$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Get all x terms on one side. Subtract x from both sides:\n$$3x - x + 5 = x - x + 13$$\n$$2x + 5 = 13$$\n\n**Step 2:** Subtract 5 from both sides:\n$$2x = 13 - 5$$\n$$2x = 8$$\n\n**Step 3:** Divide both sides by 2:\n$$x = 4$$\n\n**Answer: x = 4**\n\n**Check:** LHS = $3(4) + 5 = 17$, RHS = $4 + 13 = 17$ ✓",
+      "hints": [
+        {"level": 1, "content": "There's an x on both sides! You need to get all the x's together first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Subtract x from both sides to move all x terms to the left.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "After subtracting x: 2x + 5 = 13. Now solve this two-step equation.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This equation has x on BOTH sides - that's new! Your goal is to collect all x's together.",
+          "encouragement": "This is a key skill - equations in real life often have variables on both sides!",
+          "questionPrompt": "How many x's are on the left? How many on the right?"
+        },
+        {
+          "level": 2,
+          "content": "To collect x's, subtract x from both sides. This removes x from the right.",
+          "encouragement": "You're rearranging the equation - a powerful technique!",
+          "questionPrompt": "What is 3x - x?"
+        },
+        {
+          "level": 3,
+          "content": "Now you have 2x + 5 = 13. This is just a two-step equation you already know!",
+          "encouragement": "You've transformed a new type into a familiar one!",
+          "questionPrompt": "Can you solve 2x + 5 = 13?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3x + 5 = x + 13",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "Variables on both sides - a key Year 8 concept. Student should collect x terms on one side first. Accept collecting on left OR right side. Common errors: (1) 3x - x = 3 (should be 2x), (2) forgetting to subtract from both sides. Award partial credit for correct collection step even with later arithmetic errors.",
+        "sampleSolutions": [
+          "Collect x's on left:\n3x + 5 = x + 13\n3x - x + 5 = 13\n2x + 5 = 13\n2x = 8\nx = 4",
+          "Collect x's on right:\n3x + 5 = x + 13\n5 = x - 3x + 13\n5 = -2x + 13\n-8 = -2x\nx = 4"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["collecting like terms", "variables on both sides", "rearranging equations"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 7,
+        "conceptsUsed": ["variables-both-sides", "collecting-terms"],
+        "buildsOn": ["linear-eq-y8-003", "linear-eq-y8-004"],
+        "preparesFor": ["linear-eq-y8-009"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can handle variables on both sides!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-008",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$\\frac{x}{3} + 2 = 5$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Subtract 2 from both sides:\n$$\\frac{x}{3} = 5 - 2$$\n$$\\frac{x}{3} = 3$$\n\n**Step 2:** Multiply both sides by 3:\n$$x = 3 \\times 3$$\n$$x = 9$$\n\n**Answer: x = 9**\n\n**Check:** $\\frac{9}{3} + 2 = 3 + 2 = 5$ ✓",
+      "hints": [
+        {"level": 1, "content": "Deal with the '+2' first, then handle the fraction.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "After subtracting 2: x/3 = 3. To undo division, use multiplication.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Multiply both sides by 3: x = 3 × 3 = 9", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Don't let the fraction scare you! This is still a two-step equation.",
+          "encouragement": "Fractions in algebra work the same way as whole numbers!",
+          "questionPrompt": "What should you deal with first - the +2 or the ÷3?"
+        },
+        {
+          "level": 2,
+          "content": "First subtract 2 from both sides. Then you'll have x/3 = something.",
+          "encouragement": "You're handling fractions like a pro!",
+          "questionPrompt": "What is 5 - 2?"
+        },
+        {
+          "level": 3,
+          "content": "x/3 = 3 means 'x divided by 3 equals 3'. To undo division, multiply!",
+          "encouragement": "Multiplication undoes division - you've got this!",
+          "questionPrompt": "What is 3 × 3?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "\\frac{x}{3} + 2 = 5",
+        "expectedAnswers": ["9", "x = 9", "x=9", "x= 9", "x =9", "9.0", "x = 9.0"],
+        "gradingGuidance": "Equation with fraction (x/3). Student should: (1) Subtract 2 to get x/3 = 3, (2) Multiply by 3 to get x = 9. Alternative valid approach: multiply everything by 3 first to clear fraction. Both methods acceptable. Common error: dividing instead of multiplying in step 2.",
+        "sampleSolutions": [
+          "Isolate fraction first:\nx/3 + 2 = 5\nx/3 = 3\nx = 9",
+          "Clear fraction first:\n3(x/3 + 2) = 3(5)\nx + 6 = 15\nx = 9"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["equations with fractions", "inverse operations", "clearing fractions"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 8,
+        "conceptsUsed": ["fractions-in-equations", "inverse-operations"],
+        "buildsOn": ["linear-eq-y8-003"],
+        "preparesFor": ["linear-eq-y8-009"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can solve equations with fractions!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-009",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$4(x - 2) = 2x + 6$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Expand the left side:\n$$4x - 8 = 2x + 6$$\n\n**Step 2:** Subtract 2x from both sides:\n$$4x - 2x - 8 = 6$$\n$$2x - 8 = 6$$\n\n**Step 3:** Add 8 to both sides:\n$$2x = 14$$\n\n**Step 4:** Divide by 2:\n$$x = 7$$\n\n**Answer: x = 7**\n\n**Check:** LHS = $4(7-2) = 4(5) = 20$, RHS = $2(7) + 6 = 20$ ✓",
+      "hints": [
+        {"level": 1, "content": "Expand the brackets first, then collect x terms.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "After expanding: 4x - 8 = 2x + 6. Get all x's on one side.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "2x - 8 = 6, so 2x = 14, and x = 7", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This combines brackets AND variables on both sides - you've practiced both separately!",
+          "encouragement": "You're putting all your skills together!",
+          "questionPrompt": "What's your first step - expand or collect terms?"
+        },
+        {
+          "level": 2,
+          "content": "Expand first: 4(x-2) becomes 4x - 8. Now you have 4x - 8 = 2x + 6.",
+          "encouragement": "One step at a time - you're doing great!",
+          "questionPrompt": "How do you get all the x terms on one side?"
+        },
+        {
+          "level": 3,
+          "content": "After collecting: 2x - 8 = 6. This is a two-step equation!",
+          "encouragement": "Complex problems are just combinations of simpler ones!",
+          "questionPrompt": "Can you solve 2x - 8 = 6?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4(x - 2) = 2x + 6",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "Complex equation combining brackets and variables on both sides. Expected steps: (1) Expand: 4x - 8 = 2x + 6, (2) Collect x terms: 2x - 8 = 6, (3) Add 8: 2x = 14, (4) Divide: x = 7. Award partial credit for each correct step. Alternative valid: divide by 2 first before expanding.",
+        "sampleSolutions": [
+          "Expand and collect:\n4(x - 2) = 2x + 6\n4x - 8 = 2x + 6\n4x - 2x = 6 + 8\n2x = 14\nx = 7",
+          "Different order:\n4(x - 2) = 2x + 6\n4x - 8 = 2x + 6\n2x - 8 = 6\n2x = 14\nx = 7"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["distributive law", "collecting like terms", "variables on both sides", "multi-step equations"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 9,
+        "conceptsUsed": ["distributive-law", "variables-both-sides", "multi-step"],
+        "buildsOn": ["linear-eq-y8-005", "linear-eq-y8-007"],
+        "preparesFor": ["linear-eq-y8-010"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can solve complex equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-010",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Sarah has some money. If she triples her money and then subtracts $8, she will have $25.\n\nHow much money does Sarah have? Let x represent Sarah's money.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Translate to equation:\n- \"Triples her money\" means $3x$\n- \"Subtracts $8\" means $3x - 8$\n- \"She will have $25\" means $= 25$\n\n**Equation:** $3x - 8 = 25$\n\n**Step 2:** Add 8 to both sides:\n$$3x = 33$$\n\n**Step 3:** Divide by 3:\n$$x = 11$$\n\n**Answer: Sarah has $11**\n\n**Check:** $3 \\times 11 - 8 = 33 - 8 = 25$ ✓",
+      "hints": [
+        {"level": 1, "content": "Write an equation from the words: 'triples' means ×3, 'subtracts $8' means -8", "revealsCriticalInfo": false},
+        {"level": 2, "content": "The equation is: 3x - 8 = 25", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Add 8 to both sides: 3x = 33, then divide by 3", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Word problems are just equations in disguise! Let's translate the words into maths.",
+          "encouragement": "Translating words to equations is a super useful real-world skill!",
+          "questionPrompt": "If Sarah has x dollars and triples it, what expression represents that?"
+        },
+        {
+          "level": 2,
+          "content": "'Triples her money' = 3x. 'Subtracts $8' = 3x - 8. 'Has $25' = equals 25.",
+          "encouragement": "You're becoming a maths translator!",
+          "questionPrompt": "Can you write the full equation?"
+        },
+        {
+          "level": 3,
+          "content": "Your equation should be 3x - 8 = 25. This is a two-step equation!",
+          "encouragement": "Once you have the equation, you know exactly what to do!",
+          "questionPrompt": "How do you solve 3x - 8 = 25?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3x - 8 = 25",
+        "expectedAnswers": ["11", "x = 11", "$11", "x=11", "x= 11", "x =11", "11 dollars", "11.0", "x = 11.0"],
+        "gradingGuidance": "Word problem requiring equation setup. Award credit for: (1) Correct equation: 3x - 8 = 25, (2) Correct solution: x = 11. If student sets up equation correctly but makes arithmetic error, award partial credit. If equation is wrong but solving method is correct, award partial credit. Accept answer with or without dollar sign/units.",
+        "sampleSolutions": [
+          "Translate:\n'Triples' = 3x\n'Subtracts 8' = -8\n'Has 25' = 25\nEquation: 3x - 8 = 25\n3x = 33\nx = 11\nSarah has $11"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["word problems", "equation setup", "translating words to algebra"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 10,
+        "conceptsUsed": ["word-problems", "equation-setup", "two-step-equations"],
+        "buildsOn": ["linear-eq-y8-004"],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "phenomenon",
+        "targetFeeling": "I can translate word problems to equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-linear-equations-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

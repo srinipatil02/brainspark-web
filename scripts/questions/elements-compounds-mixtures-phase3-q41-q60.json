@@ -1,0 +1,1238 @@
+[
+  {
+    "questionId": "ecm-y8-041",
+    "questionType": "MCQ",
+    "stem": "A student says: 'O₂ must be a compound because the formula shows two atoms.'\n\nIs this statement correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Yes, because any molecule with two atoms is a compound",
+        "isCorrect": false,
+        "feedback": "Not quite. The number of atoms doesn't determine if something is a compound - it's the number of different **types** of atoms that matters."
+      },
+      {
+        "id": "B",
+        "text": "No, because O₂ is an element - both atoms are the same type (oxygen)",
+        "isCorrect": true,
+        "feedback": "Correct! O₂ is a **diatomic element** - it contains two atoms, but both are oxygen atoms. A compound needs atoms of **different elements** chemically bonded together."
+      },
+      {
+        "id": "C",
+        "text": "Yes, because the subscript 2 shows it's a compound",
+        "isCorrect": false,
+        "feedback": "The subscript 2 just tells us there are two atoms, not that it's a compound. Both atoms are oxygen, making this an element."
+      },
+      {
+        "id": "D",
+        "text": "No, because O₂ is a mixture of two oxygen atoms",
+        "isCorrect": false,
+        "feedback": "O₂ isn't a mixture - the atoms are chemically bonded together. But it's still an element because both atoms are the same type."
+      }
+    ],
+    "solution": "The statement is **incorrect**. O₂ is an **element**, not a compound.\n\nHere's why: A compound requires atoms of **different elements** chemically bonded together (like H₂O has hydrogen and oxygen). O₂ is a **diatomic element** - both atoms are oxygen atoms, the same element.\n\nThe key distinction: It's not the **number** of atoms that determines element vs compound, it's the number of different **types** of atoms. O₂ has two atoms but only one type (oxygen), so it's an element.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what makes something a compound. Is it the number of atoms, or the types of atoms?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Look closely at O₂. Both atoms are oxygen atoms - they're the same element.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "A compound needs different types of atoms bonded together. O₂ has only one type of atom (oxygen), so it must be an element.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 41,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["ecm-y8-025", "ecm-y8-030"],
+      "preparesFor": ["ecm-y8-042", "ecm-y8-055"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set5",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-042",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Three substances are shown:\n- Substance A: H₂\n- Substance B: H₂O\n- Substance C: O₂\n\nWhich of these are elements and which are compounds? Explain your reasoning for each.",
+    "solution": "**Elements:** Substance A (H₂) and Substance C (O₂)\n**Compound:** Substance B (H₂O)\n\n**Reasoning:**\n\n- **H₂** is an element because both atoms are hydrogen - it's a **diatomic element** with only one type of atom\n- **O₂** is an element because both atoms are oxygen - another **diatomic element** with only one type of atom\n- **H₂O** is a compound because it contains two **different types** of atoms (hydrogen and oxygen) that are **chemically bonded** together\n\nThe key principle: Elements contain only **one type of atom** (even if there are multiple atoms). Compounds contain **two or more different types** of atoms chemically bonded.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Count how many different types of atoms are in each substance. Elements have one type, compounds have multiple types.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "H₂ has only hydrogen atoms. O₂ has only oxygen atoms. H₂O has both hydrogen and oxygen atoms.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "Even though H₂ and O₂ each have two atoms, they're still elements because both atoms are the same type. Only H₂O has different types of atoms bonded together.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 42,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["ecm-y8-041"],
+      "preparesFor": ["ecm-y8-043", "ecm-y8-055"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set5",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-043",
+    "questionType": "MCQ",
+    "stem": "A student looks at salt water (sodium chloride dissolved in water) and says: 'This looks like a pure substance, so it must be a compound.'\n\nWhat's wrong with this reasoning?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Nothing - salt water is a compound because salt and water are bonded together",
+        "isCorrect": false,
+        "feedback": "Salt and water are not chemically bonded - they're mixed together. You can separate them by evaporation."
+      },
+      {
+        "id": "B",
+        "text": "Salt water is a homogeneous mixture (solution), not a compound - it just looks uniform",
+        "isCorrect": true,
+        "feedback": "Correct! Salt water is a **homogeneous mixture** or **solution** - it looks uniform because the salt particles are evenly distributed, but it's still a mixture. The salt and water can be separated by physical methods (evaporation)."
+      },
+      {
+        "id": "C",
+        "text": "Salt water is a heterogeneous mixture because it has two substances",
+        "isCorrect": false,
+        "feedback": "Salt water is homogeneous (uniform appearance), not heterogeneous. But you're right that it's a mixture, not a compound!"
+      },
+      {
+        "id": "D",
+        "text": "Salt water is an element because you can't see the different parts",
+        "isCorrect": false,
+        "feedback": "Elements are pure substances with only one type of atom. Salt water contains multiple substances (salt and water)."
+      }
+    ],
+    "solution": "The error in reasoning is assuming that **looking uniform means it's a compound**.\n\nSalt water is actually a **homogeneous mixture** (also called a **solution**). It looks uniform because the dissolved salt particles are evenly distributed throughout the water, but the salt and water are **not chemically bonded** together.\n\nKey differences:\n- **Compounds**: Substances are chemically bonded, require chemical reactions to separate\n- **Homogeneous mixtures**: Substances are physically mixed but appear uniform, can be separated by physical methods (like evaporation)\n\nSalt water can be separated by simply evaporating the water, proving it's a mixture, not a compound.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether the salt and water are chemically bonded together, or just mixed.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Can you separate salt and water by evaporation? If yes, what does that tell you about whether they're bonded?",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "Solutions (like salt water) can look uniform like pure substances, but they're still mixtures because the substances aren't chemically bonded.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 43,
+      "conceptsUsed": ["c6", "c8", "c9"],
+      "buildsOn": ["ecm-y8-026", "ecm-y8-035"],
+      "preparesFor": ["ecm-y8-046", "ecm-y8-048"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set5",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-044",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Ocean water is left in shallow pools in hot, sunny conditions. Over several weeks, the water evaporates and solid salt crystals remain.\n\nExplain why this process proves that ocean water is a mixture, not a compound.",
+    "solution": "This process proves ocean water is a **mixture** because the salt and water can be separated by a **physical method** (evaporation) without any chemical reaction.\n\nHere's why this matters:\n\n- **Mixtures** can be separated by physical methods like evaporation, filtration, or distillation because the substances are **not chemically bonded**\n- **Compounds** can only be separated by chemical reactions because the atoms are **chemically bonded together**\n\nWhen the water evaporates, it changes state (liquid → gas) but both the water and salt remain as their original substances. The salt doesn't chemically change - it simply becomes visible as the water leaves.\n\nIf ocean water were a compound, you couldn't separate it this easily - you'd need to break chemical bonds through a chemical reaction.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens during evaporation. Is it a physical change or a chemical reaction?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Remember that mixtures can be separated by physical methods, while compounds need chemical reactions to break them apart.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "Since evaporation (a physical process) separates the salt from the water, this proves they weren't chemically bonded - it must be a mixture.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 44,
+      "conceptsUsed": ["c6", "c9"],
+      "buildsOn": ["ecm-y8-043"],
+      "preparesFor": ["ecm-y8-046"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set5",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-045",
+    "questionType": "MCQ",
+    "stem": "Look at this particle diagram:\n\n[Diagram shows: Multiple pairs of identical gray spheres bonded together, spread throughout the space]\n\nA student says: 'This shows a mixture because there are multiple particles.'\n\nIs this correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Yes, multiple particles always means it's a mixture",
+        "isCorrect": false,
+        "feedback": "Not quite. You need to look at whether the particles are the same or different. Multiple identical particles can still be a pure substance."
+      },
+      {
+        "id": "B",
+        "text": "No, this shows a pure element - all particles are identical diatomic molecules",
+        "isCorrect": true,
+        "feedback": "Correct! All the particles are **identical pairs** of the same type of atom. This represents a **diatomic element** like O₂ or N₂. Even though there are multiple particles, they're all the same, so it's a pure substance (element)."
+      },
+      {
+        "id": "C",
+        "text": "No, this shows a compound because the atoms are bonded in pairs",
+        "isCorrect": false,
+        "feedback": "The atoms are bonded in pairs, but both atoms in each pair are the same type (same color). For a compound, you need different types of atoms bonded together."
+      },
+      {
+        "id": "D",
+        "text": "Yes, this is a mixture of different diatomic molecules",
+        "isCorrect": false,
+        "feedback": "All the molecules shown are identical (same color pairs). For a mixture, you'd need different types of particles mixed together."
+      }
+    ],
+    "solution": "The statement is **incorrect**. This diagram shows a **pure element** (specifically a diatomic element), not a mixture.\n\nHere's the reasoning:\n\n- All the particles in the diagram are **identical** - they're all pairs of the same type of atom (shown as the same color)\n- This represents a **diatomic element** like O₂, N₂, or H₂\n- Even though there are multiple particles, they're all the same substance, making this **pure**, not a mixture\n\nKey principle for particle diagrams:\n- **Pure substance**: All particles are identical\n- **Mixture**: Different types of particles present\n\nThe number of particles doesn't determine if it's a mixture - it's whether the particles are different types that matters.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look carefully at all the particles. Are they all identical, or are there different types?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "All the pairs shown are the same color - they're all identical particles. What does that tell you?",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "When all particles are identical (like these paired atoms), it's a pure substance. This shows a diatomic element, not a mixture.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 45,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["ecm-y8-041", "ecm-y8-042"],
+      "preparesFor": ["ecm-y8-055", "ecm-y8-056"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set5",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-046",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Compare salt water and table salt (NaCl):\n\n**Salt water**: Sodium chloride dissolved in water - looks clear and uniform\n**Table salt (NaCl)**: Pure compound - looks like white crystals\n\nBoth look like single, uniform substances. Explain why one is a mixture and the other is a compound.",
+    "solution": "**Salt water is a mixture** (specifically a homogeneous mixture/solution) while **NaCl is a compound**.\n\nThe key difference is **chemical bonding**:\n\n**Table salt (NaCl) - Compound:**\n- Sodium and chlorine atoms are **chemically bonded** together\n- Forms in a **fixed ratio** (always 1:1)\n- Has completely different properties from sodium (explosive metal) and chlorine (toxic gas)\n- Cannot be separated by physical methods - would need a chemical reaction\n\n**Salt water - Mixture:**\n- Salt and water are **physically mixed**, not chemically bonded\n- Can have **variable ratios** (more or less salty)\n- Both salt and water keep their original properties\n- Can be separated by physical methods (evaporation)\n\nThe important lesson: **Appearance doesn't determine classification** - both look uniform, but the presence or absence of chemical bonds is what makes one a compound and the other a mixture.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether the substances are chemically bonded or just physically mixed. How can you tell the difference?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Can salt water be separated by evaporation? Can you separate NaCl into sodium and chlorine the same way?",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "NaCl has chemical bonds between sodium and chlorine (compound). Salt water has NaCl physically dissolved in water with no chemical bonding between them (mixture).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 210,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 46,
+      "conceptsUsed": ["c6", "c8", "c9"],
+      "buildsOn": ["ecm-y8-043", "ecm-y8-044"],
+      "preparesFor": ["ecm-y8-057", "ecm-y8-058"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set5",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-047",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Steel is made by mixing iron with small amounts of carbon (and sometimes other elements). Steel is stronger and more flexible than pure iron.\n\nIs steel an element, compound, or mixture? Explain why steel has different properties from pure iron.",
+    "solution": "Steel is a **mixture** (specifically an **alloy** - a mixture of metals with other elements).\n\n**Why steel is a mixture:**\n- Iron and carbon are **physically combined**, not chemically bonded\n- The ratio of iron to carbon can vary (different types of steel have different amounts)\n- Can be separated by physical/chemical methods\n- Each component retains its identity\n\n**Why steel has different properties from pure iron:**\n\nIn pure iron, all the atoms are the same size and arranged in regular layers that can slide over each other easily, making it relatively soft.\n\nWhen carbon atoms (which are smaller) are added:\n- They fit into the spaces between iron atoms\n- They **disrupt the regular arrangement** of iron atoms\n- This makes it **harder for the layers to slide** past each other\n- Result: Steel is **stronger and more resistant to deformation** than pure iron\n\nThis shows that mixtures can have **improved properties** compared to their pure components - that's why alloys are so useful!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether iron and carbon are chemically bonded together in steel, or just mixed. Also, can steel have different amounts of carbon?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Steel is an alloy - a special type of mixture where metals are combined. The carbon atoms disrupt the arrangement of iron atoms.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "It's a mixture because components aren't chemically bonded and ratios can vary. The different properties come from how carbon atoms interrupt the regular structure of iron atoms.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 47,
+      "conceptsUsed": ["c6", "c8"],
+      "buildsOn": ["ecm-y8-037"],
+      "preparesFor": ["ecm-y8-059"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set5",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-048",
+    "questionType": "MCQ",
+    "stem": "A clear, colorless liquid is found in a beaker. A student says: 'This must be a pure substance because I can't see any different parts.'\n\nWhich statement explains why this reasoning is flawed?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "All clear liquids are compounds, not pure substances",
+        "isCorrect": false,
+        "feedback": "Not all clear liquids are compounds - some are elements (like liquid oxygen), some are compounds (like water), and some are mixtures (like salt water)."
+      },
+      {
+        "id": "B",
+        "text": "Homogeneous mixtures (solutions) can look uniform and pure, but they're still mixtures",
+        "isCorrect": true,
+        "feedback": "Correct! **Homogeneous mixtures** or **solutions** appear uniform because the particles are evenly distributed, but they're still mixtures. Examples: salt water, sugar water, clear apple juice. Appearance alone cannot determine if something is pure or a mixture."
+      },
+      {
+        "id": "C",
+        "text": "Only solids can be pure substances - all liquids are mixtures",
+        "isCorrect": false,
+        "feedback": "Liquids can be pure substances too! Pure water (H₂O) and liquid elements like mercury are examples."
+      },
+      {
+        "id": "D",
+        "text": "The liquid must be heterogeneous because it's in a beaker",
+        "isCorrect": false,
+        "feedback": "The container doesn't determine if something is homogeneous or heterogeneous - it depends on the composition of the liquid itself."
+      }
+    ],
+    "solution": "The reasoning is flawed because **appearance is not a reliable way to determine if something is pure or a mixture**.\n\n**Homogeneous mixtures** (solutions) look uniform and appear to be pure substances because:\n- The particles are evenly distributed throughout\n- There are no visible boundaries between different substances\n- They appear as a single phase\n\nExamples of clear, uniform liquids that are actually mixtures:\n- Salt water (solution)\n- Sugar water (solution)\n- Vinegar (acetic acid dissolved in water)\n- Clear soft drinks\n\nTo determine if something is truly pure, you need to test if it can be separated by physical methods or analyze its composition - you cannot rely on visual appearance alone.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about solutions like salt water. Do they look uniform even though they're mixtures?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Homogeneous mixtures appear uniform because the particles are evenly mixed, but they're still mixtures.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "You cannot determine if something is pure just by looking at it - solutions look uniform but are actually mixtures.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 48,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["ecm-y8-043", "ecm-y8-046"],
+      "preparesFor": ["ecm-y8-051"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set5",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-049",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student creates a table comparing N₂ (nitrogen gas) and NH₃ (ammonia):\n\n| Property | N₂ | NH₃ |\n|----------|-----|------|\n| Classification | ? | ? |\n| Number of atoms per molecule | 2 | 4 |\n| Types of atoms | 1 type | 2 types |\n| Smell | Odorless | Strong, pungent |\n\nComplete the classification row and explain why N₂ and NH₃ are classified differently.",
+    "solution": "| Property | N₂ | NH₃ |\n|----------|-----|------|\n| Classification | **Element** | **Compound** |\n\n**Why they're classified differently:**\n\n**N₂ is an element** because:\n- It contains only **one type of atom** (nitrogen)\n- Both atoms in the molecule are nitrogen atoms\n- It's a **diatomic element**\n- The subscript 2 just means two atoms, not two different elements\n\n**NH₃ is a compound** because:\n- It contains **two different types of atoms** (nitrogen and hydrogen)\n- The atoms are **chemically bonded** together\n- It always has a **fixed ratio** (1 nitrogen to 3 hydrogen)\n- Its properties (strong smell) are completely different from its component elements\n\n**Key principle:** The number of atoms doesn't matter - it's the number of different **types** of atoms that determines whether something is an element or compound. N₂ has 2 atoms but 1 type (element). NH₃ has 4 atoms but 2 types (compound).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at the 'Types of atoms' row. How does the number of types relate to elements vs compounds?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "N₂ has only one type of atom (nitrogen). NH₃ has two different types (nitrogen and hydrogen). What does that tell you?",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "Elements have only one type of atom. Compounds have two or more different types of atoms chemically bonded.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 49,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["ecm-y8-041", "ecm-y8-042"],
+      "preparesFor": ["ecm-y8-055"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set5",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-050",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Sodium is a soft, silvery metal that reacts violently with water. Chlorine is a toxic, greenish-yellow gas. When they combine chemically, they form sodium chloride (NaCl) - common table salt that is safe to eat.\n\nWhy does the compound NaCl have completely different properties from the elements sodium and chlorine?",
+    "solution": "NaCl has completely different properties because it's a **compound** where sodium and chlorine atoms are **chemically bonded** together, creating a **new substance with new properties**.\n\n**Why compounds have different properties:**\n\n1. **Chemical bonding changes everything**: When sodium and chlorine form chemical bonds, they create a completely new arrangement of electrons\n\n2. **New structure formed**: NaCl forms a **crystal lattice** structure that's totally different from the structure of either sodium metal or chlorine gas\n\n3. **Fixed ratio**: The atoms always combine in a **1:1 ratio**, creating a stable structure\n\n4. **Electron transfer**: Sodium gives an electron to chlorine, making both atoms more stable and creating the properties of salt\n\n**Key principle:** Compounds are **not just mixtures** of their component elements - the chemical bonding creates a completely **new substance** with its own unique properties that can be totally different from (even opposite to) the properties of the original elements.\n\nThis is why sodium (dangerous) + chlorine (toxic) = table salt (safe to eat)!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the difference between chemically bonding atoms together versus just mixing them. What changes when atoms form chemical bonds?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "When atoms chemically bond, they don't keep their original properties - they create a completely new substance with new properties.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "The chemical bonds between sodium and chlorine atoms create a new crystal structure with completely different properties from either element alone.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 210,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 50,
+      "conceptsUsed": ["c8", "c9"],
+      "buildsOn": ["ecm-y8-034", "ecm-y8-046"],
+      "preparesFor": ["ecm-y8-057", "ecm-y8-058"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set5",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-051",
+    "questionType": "MCQ",
+    "stem": "Three beakers contain clear, colorless liquids:\n- Beaker A: Pure water (H₂O)\n- Beaker B: Salt water\n- Beaker C: Sugar water\n\nWhich statement is correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "All three are compounds because they all contain water",
+        "isCorrect": false,
+        "feedback": "Beakers B and C are mixtures, not compounds. They contain water (a compound) mixed with other substances."
+      },
+      {
+        "id": "B",
+        "text": "Only Beaker A is a pure substance; Beakers B and C are homogeneous mixtures",
+        "isCorrect": true,
+        "feedback": "Correct! **Beaker A** contains pure H₂O (a compound - a pure substance). **Beakers B and C** are **homogeneous mixtures** (solutions) where salt/sugar is dissolved in water. Even though all three look identical, only A is pure."
+      },
+      {
+        "id": "C",
+        "text": "All three are elements because they're all clear liquids",
+        "isCorrect": false,
+        "feedback": "Water is a compound (not an element), and salt water and sugar water are mixtures. Appearance doesn't determine classification."
+      },
+      {
+        "id": "D",
+        "text": "All three are heterogeneous mixtures because they're liquids",
+        "isCorrect": false,
+        "feedback": "Salt water and sugar water are homogeneous (uniform), not heterogeneous. And pure water isn't a mixture at all - it's a pure compound."
+      }
+    ],
+    "solution": "The correct answer is **B**.\n\n**Classification:**\n- **Beaker A (pure water)**: Pure substance - specifically a compound (H₂O)\n- **Beaker B (salt water)**: Homogeneous mixture (solution)\n- **Beaker C (sugar water)**: Homogeneous mixture (solution)\n\n**Why this matters:**\n\nEven though all three beakers look **identical** (clear, colorless liquids), they have different classifications:\n\n**Pure water** is a **compound** because:\n- It contains only H₂O molecules\n- All particles are identical\n- Has a fixed composition\n\n**Salt water and sugar water** are **homogeneous mixtures** because:\n- They contain **multiple substances** (water + dissolved salt/sugar)\n- The particles are evenly mixed but **not chemically bonded**\n- Can have **variable composition** (more or less concentrated)\n- Can be separated by **physical methods** (evaporation)\n\nThis demonstrates why **visual appearance alone cannot determine classification** - you need to know the composition!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how many different substances are in each beaker. Does pure water have one substance or multiple substances?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Beaker A has only water molecules. Beakers B and C have water molecules plus dissolved salt or sugar particles.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "Pure water is a compound (one substance). Salt water and sugar water are solutions (mixtures of water with dissolved substances).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 51,
+      "conceptsUsed": ["c6", "c8"],
+      "buildsOn": ["ecm-y8-043", "ecm-y8-048"],
+      "preparesFor": ["ecm-y8-052"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set6",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-052",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student examines four substances:\n\n1. Carbon dioxide (CO₂) - colorless gas\n2. Air - colorless gas mixture\n3. Oxygen (O₂) - colorless gas\n4. Soda water - clear, colorless liquid\n\nThe student says: 'These all look the same, so they must all be the same type of substance.'\n\nExplain why this conclusion is wrong by classifying each substance as element, compound, or mixture.",
+    "solution": "The conclusion is wrong because **appearance does not determine classification**. These four substances look similar but are actually different types:\n\n**1. Carbon dioxide (CO₂) - COMPOUND**\n- Contains two different types of atoms (carbon and oxygen) chemically bonded\n- Fixed ratio: 1 carbon to 2 oxygen atoms\n- Pure substance\n\n**2. Air - MIXTURE** (heterogeneous on microscopic level)\n- Contains multiple substances: nitrogen (N₂), oxygen (O₂), argon, CO₂, water vapor\n- Variable composition (humidity changes, pollution varies)\n- Components not chemically bonded\n\n**3. Oxygen (O₂) - ELEMENT**\n- Contains only one type of atom (oxygen)\n- Diatomic element (two oxygen atoms bonded together)\n- Pure substance\n\n**4. Soda water - MIXTURE** (homogeneous/solution)\n- Water with dissolved CO₂\n- Variable composition (can be more or less fizzy)\n- Can be separated by physical methods (CO₂ bubbles out)\n\n**Why the student is wrong:**\nVisual appearance tells you **nothing** about whether something is an element, compound, or mixture. You need to analyze:\n- How many types of atoms are present\n- Whether substances are chemically bonded or physically mixed\n- Whether composition is fixed or variable",
+    "hints": [
+      {
+        "level": 1,
+        "content": "For each substance, think about: How many different substances does it contain? Are they chemically bonded or mixed?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "CO₂ has different atoms bonded (compound). O₂ has same atoms bonded (element). Air has multiple substances mixed. Soda water has CO₂ dissolved in water.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "Elements have one type of atom. Compounds have different types bonded together. Mixtures have multiple substances (elements or compounds) physically combined.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 52,
+      "conceptsUsed": ["c6", "c7", "c8"],
+      "buildsOn": ["ecm-y8-051"],
+      "preparesFor": ["ecm-y8-055"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set6",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-053",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Ancient civilizations discovered that mixing copper with tin creates bronze, which is harder and more durable than pure copper. This is why the 'Bronze Age' was named after this important mixture.\n\nUsing your knowledge of mixtures and alloys, explain:\n1. Why is bronze classified as a mixture rather than a compound?\n2. Why would bronze be more useful for making tools and weapons than pure copper?",
+    "solution": "**1. Why bronze is a mixture:**\n\nBronze is a **mixture** (specifically an **alloy**) because:\n- Copper and tin are **physically combined**, not chemically bonded together\n- The ratio of copper to tin can **vary** (different types of bronze have different proportions)\n- Each metal retains its **metallic properties**\n- Can theoretically be separated by physical/chemical processes\n- No new substance is formed - it's still copper and tin, just mixed\n\nIf bronze were a compound, the copper and tin would be chemically bonded in a fixed ratio, like NaCl.\n\n**2. Why bronze is more useful than pure copper:**\n\nBronze is superior for tools and weapons because:\n- **Harder and stronger**: The tin atoms disrupt the regular arrangement of copper atoms, making it harder for the metal layers to slide past each other\n- **More durable**: Resists wear and deformation better than pure copper\n- **Better edge retention**: Can be sharpened to a finer, longer-lasting edge for cutting tools\n- **Less brittle**: While harder, it's still tough enough not to shatter\n\nThis demonstrates a key principle: **Mixtures (alloys) can have superior properties to their pure component elements** - that's why humans have been making alloys for thousands of years!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "For part 1: Think about whether copper and tin are chemically bonded or just mixed together. Can the ratio vary? For part 2: What happens to the metal structure when different-sized atoms are mixed?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Bronze is a mixture because the metals aren't bonded and ratios can vary. The tin atoms interrupt the regular structure of copper atoms, making it harder to deform.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "It's an alloy (mixture) because components keep their identities and ratios vary. Bronze is stronger because the mixed atom sizes prevent layers from sliding easily.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 53,
+      "conceptsUsed": ["c6", "c8"],
+      "buildsOn": ["ecm-y8-047"],
+      "preparesFor": ["ecm-y8-059"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set6",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-054",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Consider these three situations:\n\n**Situation A**: Iron filings and sulfur powder are mixed together in a bowl\n**Situation B**: The mixture from A is heated strongly until it glows red and a reaction occurs\n**Situation C**: The product from B (iron sulfide, FeS) is examined\n\nExplain what type of substance exists in each situation (element, compound, or mixture) and what changed between situations A, B, and C.",
+    "solution": "**Situation A: MIXTURE** (heterogeneous)\n- Iron and sulfur are **physically mixed** together\n- No chemical bonding has occurred\n- Each substance keeps its own properties (iron is magnetic, sulfur is yellow)\n- Can be separated by physical methods (using a magnet for iron)\n- Variable ratios possible\n\n**Situation B: CHEMICAL REACTION occurring**\n- Heat provides energy for iron and sulfur atoms to **form chemical bonds**\n- Transformation from mixture → compound is happening\n- This is a **chemical change**, not a physical change\n\n**Situation C: COMPOUND** (iron sulfide, FeS)\n- Iron and sulfur are now **chemically bonded** together\n- New substance formed with **completely different properties** from iron or sulfur\n- Fixed ratio: 1 iron atom to 1 sulfur atom\n- Cannot be separated by physical methods (magnet won't work - it's no longer pure iron!)\n- Properties are different: not magnetic, different color, different reactivity\n\n**What changed:**\nThe key change is **chemical bonding**. In A, the substances were just mixed (physical combination). In C, they're chemically bonded (chemical combination). This is the fundamental difference between a mixture and a compound!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "In A, can you separate the iron and sulfur with a magnet? In C, after the reaction, would a magnet still work? What does that tell you?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Before heating: physical mixture, substances keep their properties. After heating: chemical bonds form, creating a new compound with new properties.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "A = mixture (no bonding, can separate with magnet). B = reaction happening. C = compound (chemically bonded, can't separate with magnet, new properties).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 54,
+      "conceptsUsed": ["c8", "c9"],
+      "buildsOn": ["ecm-y8-033", "ecm-y8-050"],
+      "preparesFor": ["ecm-y8-057", "ecm-y8-058"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set6",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-055",
+    "questionType": "MCQ",
+    "stem": "A student examines particle diagrams and creates this rule:\n\n'If I see different colored spheres in the diagram, it must be a mixture.'\n\nWhich diagram would prove this rule is WRONG?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A diagram showing red-blue paired spheres (bonded) mixed with unpaired red spheres",
+        "isCorrect": false,
+        "feedback": "This would actually be a mixture - it has different types of particles (compounds and elements) mixed together, confirming the rule."
+      },
+      {
+        "id": "B",
+        "text": "A diagram showing only red-blue paired spheres (bonded) throughout",
+        "isCorrect": true,
+        "feedback": "Correct! This diagram shows **different colored spheres** (red and blue) but they're all **bonded together in identical pairs**. This represents a pure **compound**, not a mixture. All particles are identical compound molecules. This proves the rule wrong!"
+      },
+      {
+        "id": "C",
+        "text": "A diagram showing only red paired spheres (bonded) throughout",
+        "isCorrect": false,
+        "feedback": "This shows a diatomic element (like O₂) - all the same color, so it doesn't help test the rule about different colors."
+      },
+      {
+        "id": "D",
+        "text": "A diagram showing red spheres and blue spheres separated into different regions",
+        "isCorrect": false,
+        "feedback": "This would be a heterogeneous mixture - different colored spheres that aren't bonded. This confirms the rule rather than disproving it."
+      }
+    ],
+    "solution": "The correct answer is **B** - a diagram with **all identical red-blue bonded pairs**.\n\n**Why this proves the rule wrong:**\n\nThe rule says 'different colored spheres = mixture'. But this diagram has:\n- **Different colors** (red and blue)\n- BUT all particles are **identical** (all red-blue pairs)\n- The spheres are **bonded together** (not separate)\n- Therefore, it's a **pure compound**, not a mixture!\n\n**The correct rule should be:**\n'Different colored spheres can mean:\n- A **compound** if they're bonded together in identical molecules\n- A **mixture** if there are different types of particles (not all identical)\n\n**Key principle for particle diagrams:**\n- **Pure substance** (element or compound): All particles are identical\n- **Mixture**: Different types of particles present\n\nIt's not the colors that matter - it's whether all the particles are **identical** or **different types**. A compound has different colored atoms bonded in identical patterns throughout.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what makes something a mixture versus a compound. Is it just having different types of atoms, or does the bonding pattern matter too?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "If all the particles in a diagram are identical (even if each particle has different colored atoms bonded together), what type of substance is it?",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "A diagram with identical red-blue bonded pairs throughout shows a pure compound - different colors but all particles are the same. This disproves the rule!",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 55,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["ecm-y8-045", "ecm-y8-052"],
+      "preparesFor": ["ecm-y8-056"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set6",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-056",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Look at these three particle diagrams:\n\n**Diagram 1**: All particles are identical red-blue pairs (bonded together)\n**Diagram 2**: Mix of red-blue pairs (bonded) and blue-blue pairs (bonded)\n**Diagram 3**: Mix of red spheres (separate) and blue spheres (separate)\n\nClassify each diagram as element, compound, or mixture. Explain the reasoning for each classification.",
+    "solution": "**Diagram 1: COMPOUND**\n- All particles are **identical** (every one is a red-blue pair)\n- Different types of atoms (red and blue) are **chemically bonded** together\n- This represents a pure compound like CO₂ or H₂O\n\n**Diagram 2: MIXTURE**\n- There are **two different types** of particles present (red-blue pairs AND blue-blue pairs)\n- Even though each particle is bonded within itself, we have different types of particles mixed together\n- Contains both **compound particles** (red-blue) and **element particles** (blue-blue)\n\n**Diagram 3: MIXTURE**\n- Contains **two different substances** (red atoms and blue atoms)\n- The atoms are **not bonded** together\n- This represents a mixture of two elements\n\n**Key principles demonstrated:**\n\n1. **Color alone doesn't determine classification** - Diagram 1 has different colors but is a pure compound\n2. **Bonding matters** - Diagrams 1 & 2 have bonded atoms, Diagram 3 doesn't\n3. **Particle uniformity is key**:\n   - **Pure substance** = all particles identical (Diagram 1)\n   - **Mixture** = different types of particles present (Diagrams 2 & 3)\n\nFor particle diagrams, always ask: 'Are all the particles identical, or are there different types?'",
+    "hints": [
+      {
+        "level": 1,
+        "content": "For each diagram, ask: Are all the particles identical? If yes, it's pure. If no, it's a mixture.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Diagram 1: All particles the same = pure (specifically a compound because of bonding). Diagrams 2 & 3: Different types of particles = mixtures.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "1 = compound (identical bonded pairs). 2 = mixture (two types of bonded particles). 3 = mixture (two types of unbonded atoms).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 56,
+      "conceptsUsed": ["c7", "c8"],
+      "buildsOn": ["ecm-y8-055"],
+      "preparesFor": ["ecm-y8-065"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": true
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set6",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-057",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Water (H₂O) is a compound made from hydrogen and oxygen. Both hydrogen and oxygen are gases at room temperature and are highly flammable.\n\nYet water is a liquid at room temperature and is used to PUT OUT fires, not start them.\n\nUsing your understanding of chemical bonding and compounds, explain this dramatic change in properties.",
+    "solution": "This dramatic change in properties occurs because **chemical bonding creates a completely new substance** with properties that can be totally different from (even opposite to) the original elements.\n\n**Why water has completely different properties:**\n\n1. **New molecular structure**: When hydrogen and oxygen atoms form chemical bonds, they create **H₂O molecules** with a unique bent shape and polar structure\n\n2. **Electron rearrangement**: The chemical bonds involve **sharing electrons** between hydrogen and oxygen atoms, creating a stable configuration totally different from the original atoms\n\n3. **New intermolecular forces**: Water molecules attract each other through **hydrogen bonding**, which doesn't exist in pure hydrogen or oxygen gas\n\n4. **Fixed ratio and structure**: The **1:2 ratio** (2 hydrogen to 1 oxygen) and specific bond angles create properties unique to water\n\n**Key principle:**\nWhen atoms **chemically bond** to form compounds:\n- They don't just mix their properties together\n- They create **entirely new substances** with completely different properties\n- The compound's properties depend on its **molecular structure and bonding**, not on simply averaging the properties of its elements\n\nThis is why hydrogen (flammable) + oxygen (supports burning) → water (puts out fires)! Chemical bonding transforms the substances completely.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens when atoms form chemical bonds. Do they just mix their properties, or do they create something completely new?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "When hydrogen and oxygen form chemical bonds to make water, they create a completely new molecular structure with new properties that don't exist in either element alone.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "Chemical bonding rearranges electrons and creates new molecules (H₂O) with unique structure and properties completely different from the original elements.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 57,
+      "conceptsUsed": ["c8", "c9"],
+      "buildsOn": ["ecm-y8-050", "ecm-y8-054"],
+      "preparesFor": ["ecm-y8-058", "ecm-y8-065"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set6",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-058",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Compare these two situations:\n\n**Situation A**: Iron filings and sulfur powder mixed in a bowl (mixture)\n**Situation B**: Iron sulfide formed after heating the mixture (compound)\n\nCreate a table comparing at least four properties that would be different between situations A and B. For each property, explain why the difference exists.",
+    "solution": "| Property | Situation A (Mixture) | Situation B (Compound) | Why the Difference? |\n|----------|----------------------|------------------------|---------------------|\n| **Magnetic behavior** | Iron is magnetic - can separate with magnet | Not magnetic - magnet doesn't work | In the mixture, iron keeps its magnetic properties. In the compound, iron atoms are bonded to sulfur, changing their electron structure and losing magnetism. |\n| **Appearance** | Gray metal + yellow powder visible separately | Black solid, uniform appearance | Mixture shows both components. Compound has completely new appearance because chemical bonding creates new substance with new properties. |\n| **Separation method** | Physical methods work (magnet, dissolving sulfur) | Cannot use physical methods - would need chemical reaction | Mixture has no chemical bonds between substances. Compound has strong chemical bonds that must be broken. |\n| **Chemical composition** | Variable ratio possible (more/less iron or sulfur) | Fixed ratio: 1 iron : 1 sulfur (FeS) | Mixtures can have any proportions. Compounds always have fixed ratios determined by chemical bonding rules. |\n| **Reactivity** | Iron reacts with acids, producing hydrogen gas | Different reaction - produces toxic hydrogen sulfide gas | Each substance in mixture keeps its reactivity. Compound has new reactivity because bonded atoms create new chemical properties. |\n\n**Summary of why differences exist:**\n\nThe fundamental reason for all these differences is **chemical bonding**:\n- **Mixture**: Substances are physically combined, each keeps its own properties\n- **Compound**: Atoms are chemically bonded, creating entirely new substance with new properties\n\nChemical bonds rearrange electrons and create new structures, which is why compounds have completely different properties from their component elements.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about properties like magnetism, appearance, how to separate them, and whether the ratio of iron to sulfur can change. What's different between a mixture and a compound?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "In the mixture, iron still behaves like iron (magnetic, gray). In the compound, chemical bonding creates a new substance with completely different properties (not magnetic, black).",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "Key differences: magnetism (works vs doesn't work), separation (physical vs chemical), ratio (variable vs fixed), appearance (separate vs uniform), reactivity (original vs new).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 58,
+      "conceptsUsed": ["c8", "c9"],
+      "buildsOn": ["ecm-y8-054", "ecm-y8-057"],
+      "preparesFor": ["ecm-y8-065"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": true,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set6",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-059",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Modern smartphone screens are made from an alloy called 'Gorilla Glass' which is much stronger than regular glass. It's made by mixing different metal oxides (compounds) together.\n\nA student says: 'Gorilla Glass must be a compound because it's stronger than regular glass, and compounds have different properties from their components.'\n\nExplain what's wrong with this reasoning and correctly classify Gorilla Glass as an element, compound, or mixture.",
+    "solution": "The student's reasoning is **flawed** because they're confusing two different concepts: **property changes in general** versus **the specific type of combination**.\n\n**Correct classification: Gorilla Glass is a MIXTURE** (specifically a type of mixture/alloy)\n\nHere's why:\n\n**Evidence it's a mixture:**\n- Made by **mixing** different metal oxide compounds together\n- The components are **not chemically bonded** to each other at the molecular level\n- The **ratio can be varied** to adjust properties (different formulations exist)\n- Each component compound (metal oxides) maintains its chemical identity\n\n**Why the student is wrong:**\n\nThe student assumes: 'different properties = compound'\n\nBut this is incorrect because:\n- **Both mixtures AND compounds** can have different properties from their components\n- **Compounds** change properties through chemical bonding\n- **Mixtures** (especially alloys) change properties through structural disruption\n\n**How mixtures can have improved properties:**\n\nIn Gorilla Glass:\n- Different-sized particles from various metal oxides **disrupt crack propagation**\n- The mixed structure **prevents flaws from spreading**\n- This makes it stronger **without chemical bonding between the components**\n\n**Key principle:** You cannot classify substances based on whether properties change - you must look at whether chemical bonds form. Property changes alone don't tell you if something is a compound or mixture!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether having 'different properties' automatically means something is a compound. Can mixtures also have different properties from their components?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Both mixtures AND compounds can have different properties from their components. Alloys (mixtures) can be stronger than pure metals through structural effects, not chemical bonding.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "Gorilla Glass is a mixture because the metal oxides aren't chemically bonded to each other - they're just mixed together. Mixtures can have improved properties too!",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 59,
+      "conceptsUsed": ["c6", "c8", "c9"],
+      "buildsOn": ["ecm-y8-047", "ecm-y8-053"],
+      "preparesFor": ["ecm-y8-065"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set6",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-060",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A scientist needs to determine whether an unknown clear liquid is:\n- Pure water (H₂O) - a compound\n- Salt water - a homogeneous mixture\n- A mixture of water and ethanol (alcohol) - a homogeneous mixture\n\nAll three liquids look identical - they're all clear and colorless.\n\nDescribe at least three different tests the scientist could perform to distinguish between these three possibilities. For each test, explain what results would indicate each type of liquid.",
+    "solution": "Here are three tests that could distinguish between these liquids:\n\n**Test 1: Boiling Point Measurement**\n- **Pure water**: Boils at exactly **100°C** (at standard pressure) - fixed boiling point\n- **Salt water**: Boils at **higher than 100°C** (around 102-105°C depending on concentration) - the dissolved salt raises the boiling point\n- **Water-ethanol mixture**: Boils at **lower than 100°C** (ethanol boils at 78°C, mixture boils between 78-100°C depending on ratio)\n\n**Why this works**: Pure substances have **fixed boiling points**. Mixtures have variable boiling points depending on composition, and dissolved substances change the boiling point.\n\n**Test 2: Evaporation/Residue Test**\n- **Pure water**: Evaporates completely, **no residue** left behind\n- **Salt water**: Water evaporates, **white crystalline residue** (salt) remains\n- **Water-ethanol mixture**: Both evaporate completely, **no residue** (but will smell different - see Test 3)\n\n**Why this works**: Mixtures with dissolved solids leave residue. Pure substances and mixtures of liquids evaporate completely.\n\n**Test 3: Electrical Conductivity Test**\n- **Pure water**: **Very poor conductor** (almost no conductivity)\n- **Salt water**: **Good conductor** (dissolved ions conduct electricity)\n- **Water-ethanol mixture**: **Poor conductor** (ethanol doesn't produce ions)\n\n**Why this works**: Dissolved salts break into ions that conduct electricity. Pure water and alcohol mixtures don't have ions.\n\n**Additional tests could include:**\n- **Freezing point**: Pure water freezes at 0°C, salt water below 0°C, ethanol mixture below 0°C\n- **Density measurement**: Each would have different density\n- **Smell test**: Ethanol mixture would have distinctive alcohol smell\n\n**Key principle**: You cannot classify substances by appearance alone - you need to test **measurable properties** like boiling point, conductivity, or check for residues after evaporation.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about tests involving: heating (boiling point), evaporation (does anything remain?), or electrical properties. What makes each liquid unique?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Pure water boils at exactly 100°C. Salt water leaves residue when evaporated and conducts electricity. Ethanol changes the boiling point.",
+        "revealsCriticalInfo": true
+      },
+      {
+        "level": 3,
+        "content": "Three good tests: boiling point (pure = exactly 100°C), evaporation (salt leaves residue), electrical conductivity (salt water conducts).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 3,
+      "phasePosition": 60,
+      "conceptsUsed": ["c6", "c8"],
+      "buildsOn": ["ecm-y8-051", "ecm-y8-052"],
+      "preparesFor": ["ecm-y8-065"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "Aha! Now I really understand!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasDiagrams": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set6",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  }
+]

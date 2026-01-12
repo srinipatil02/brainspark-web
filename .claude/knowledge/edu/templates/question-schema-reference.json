@@ -1,0 +1,414 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LearningArcQuestion",
+  "description": "Schema for educational questions with progressive learning arc metadata",
+  "type": "object",
+  "required": [
+    "questionId",
+    "questionType",
+    "stem",
+    "solution",
+    "hints",
+    "difficulty",
+    "curriculum",
+    "learningArc",
+    "pedagogy",
+    "paperMetadata",
+    "status"
+  ],
+  "properties": {
+    "questionId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier: {topic-slug}-y{year}-{sequence:3}",
+      "examples": ["states-matter-y8-001", "cells-y8-042"]
+    },
+    "questionType": {
+      "type": "string",
+      "enum": ["MCQ", "SHORT_ANSWER", "EXTENDED_RESPONSE"],
+      "description": "Type of question"
+    },
+    "stem": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 2000,
+      "description": "Question text. Supports markdown and LaTeX ($inline$, $$block$$)"
+    },
+    "mcqOptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "text", "isCorrect"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": ["A", "B", "C", "D"]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "isCorrect": {
+            "type": "boolean"
+          },
+          "feedback": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 300,
+            "description": "Explanation shown after answer selection"
+          }
+        }
+      },
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "Required for MCQ questions. Exactly 4 options with exactly 1 correct"
+    },
+    "solution": {
+      "type": "string",
+      "minLength": 50,
+      "maxLength": 3000,
+      "description": "Complete model answer with explanation. Supports markdown and LaTeX"
+    },
+    "hints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["level", "content", "revealsCriticalInfo"],
+        "properties": {
+          "level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 3
+          },
+          "content": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 500
+          },
+          "revealsCriticalInfo": {
+            "type": "boolean",
+            "description": "true if hint narrows answer significantly"
+          }
+        }
+      },
+      "minItems": 2,
+      "maxItems": 3,
+      "description": "Progressive hints: Level 1 = activation, Level 2 = focus, Level 3 = guide"
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "1=easy, 2=foundational, 3=standard, 4=challenging, 5=stretch"
+    },
+    "estimatedTime": {
+      "type": "integer",
+      "minimum": 30,
+      "maximum": 600,
+      "description": "Expected completion time in seconds"
+    },
+    "qcs": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Question Complexity Score"
+    },
+    "curriculum": {
+      "type": "object",
+      "required": ["system", "codes", "year", "subject", "strand"],
+      "properties": {
+        "system": {
+          "type": "string",
+          "description": "Curriculum system name",
+          "examples": ["NSW Science K-10 Syllabus", "Australian Curriculum"]
+        },
+        "codes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^ACS[A-Z]{2}\\d{3}$"
+          },
+          "description": "ACARA outcome codes",
+          "examples": [["ACSSU151"], ["ACSSU225", "ACSSU226"]]
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 6,
+          "maximum": 12
+        },
+        "subject": {
+          "type": "string",
+          "examples": ["science", "mathematics", "english"]
+        },
+        "strand": {
+          "type": "string",
+          "examples": ["Chemical Sciences", "Physical Sciences", "Number and Algebra"]
+        },
+        "substrand": {
+          "type": "string",
+          "description": "Optional sub-strand"
+        }
+      }
+    },
+    "learningArc": {
+      "type": "object",
+      "required": ["phase", "phasePosition", "conceptsUsed", "buildsOn", "preparesFor"],
+      "properties": {
+        "phase": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4,
+          "description": "1=Foundation, 2=Application, 3=Connection, 4=Mastery"
+        },
+        "phasePosition": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20,
+          "description": "Position within the 20-question phase"
+        },
+        "conceptsUsed": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Concept IDs from the topic concept map"
+        },
+        "buildsOn": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Question IDs this question builds upon"
+        },
+        "preparesFor": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Question IDs this prepares students for"
+        }
+      }
+    },
+    "pedagogy": {
+      "type": "object",
+      "required": ["type", "targetFeeling"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["scaffolded", "phenomenon", "misconception", "socratic"],
+          "description": "Primary pedagogical approach"
+        },
+        "targetFeeling": {
+          "type": "string",
+          "description": "Intended student emotion",
+          "examples": [
+            "I can do this!",
+            "This is interesting!",
+            "Aha! Now I get it!",
+            "I can figure out new things!"
+          ]
+        }
+      }
+    },
+    "richContent": {
+      "type": "object",
+      "properties": {
+        "hasEquations": { "type": "boolean", "description": "Contains LaTeX/KaTeX math ($inline$ or $$block$$)" },
+        "hasTables": { "type": "boolean", "description": "Contains markdown tables" },
+        "hasGraphs": { "type": "boolean", "description": "Contains data visualizations" },
+        "hasDiagrams": { "type": "boolean", "description": "Contains Mermaid diagrams (```mermaid blocks)" },
+        "hasCode": { "type": "boolean", "description": "Contains code blocks" }
+      },
+      "description": "Flags for rich content rendering requirements"
+    },
+    "paperMetadata": {
+      "type": "object",
+      "required": ["section", "setId"],
+      "properties": {
+        "paperId": { "type": "string" },
+        "title": { "type": "string" },
+        "section": {
+          "type": "string",
+          "examples": ["science", "mathematics", "english"]
+        },
+        "setId": {
+          "type": "string",
+          "description": "Unique set identifier for querying",
+          "examples": ["year8-science-states-of-matter-medium"]
+        },
+        "sequenceInPaper": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 80
+        }
+      }
+    },
+    "searchableTags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["category", "value", "weight"],
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": ["topic", "skill", "year", "assessment", "pedagogy"]
+          },
+          "value": { "type": "string" },
+          "weight": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 2
+          }
+        }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "properties": {
+        "primarySkill": { "type": "string" },
+        "secondarySkills": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "competencyLevel": { "type": "string" },
+        "cognitiveLevel": {
+          "type": "string",
+          "examples": ["remember", "understand", "apply", "analyze", "evaluate", "create"]
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "passageId": {
+      "type": "string",
+      "description": "Reference to reading comprehension passage if applicable"
+    },
+    "aiMetadata": {
+      "type": "object",
+      "properties": {
+        "generatedBy": {
+          "type": "string",
+          "examples": ["edu-generate-v1"]
+        },
+        "generatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "validationStatus": {
+          "type": "string",
+          "enum": ["pending", "validated", "rejected"]
+        },
+        "validatedBy": { "type": "string" },
+        "validatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "version": {
+      "type": "integer",
+      "default": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "published", "archived"]
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publishedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "questionType": { "const": "MCQ" } }
+      },
+      "then": {
+        "required": ["mcqOptions"]
+      }
+    }
+  ],
+  "examples": [
+    {
+      "questionId": "states-matter-y8-001",
+      "questionType": "MCQ",
+      "stem": "Which of the following best describes the arrangement of particles in a solid?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "Particles are far apart and move freely",
+          "isCorrect": false,
+          "feedback": "This describes a gas, not a solid."
+        },
+        {
+          "id": "B",
+          "text": "Particles are close together in a regular pattern and vibrate in place",
+          "isCorrect": true,
+          "feedback": "Correct! Solid particles are tightly packed in a fixed arrangement."
+        },
+        {
+          "id": "C",
+          "text": "Particles are close together but can slide past each other",
+          "isCorrect": false,
+          "feedback": "This describes a liquid, not a solid."
+        },
+        {
+          "id": "D",
+          "text": "Particles do not move at all",
+          "isCorrect": false,
+          "feedback": "All particles move. In solids, they vibrate in fixed positions."
+        }
+      ],
+      "solution": "The correct answer is B. In a solid, particles are arranged in a regular, organised pattern. They are held closely together by strong forces and can only vibrate in their fixed positions. This is why solids have a definite shape and volume.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about what you know about how solids behave. Why do they keep their shape?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Consider how particles must be positioned to maintain a solid's fixed shape. Are they close together or far apart?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "difficulty": 2,
+      "curriculum": {
+        "system": "NSW Science K-10 Syllabus",
+        "codes": ["ACSSU151"],
+        "year": 8,
+        "subject": "science",
+        "strand": "Chemical Sciences"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 1,
+        "conceptsUsed": ["particle-arrangement-solid"],
+        "buildsOn": [],
+        "preparesFor": ["states-matter-y8-002", "states-matter-y8-003"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can do this!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasGraphs": false,
+        "hasDiagrams": false,
+        "hasCode": false
+      },
+      "paperMetadata": {
+        "section": "science",
+        "setId": "year8-science-states-of-matter-medium",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    }
+  ]
+}

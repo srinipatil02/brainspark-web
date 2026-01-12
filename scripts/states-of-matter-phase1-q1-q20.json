@@ -1,0 +1,1332 @@
+[
+  {
+    "questionId": "som-y8-001",
+    "questionType": "MCQ",
+    "stem": "What are the three common states of matter?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Solid, liquid, gas",
+        "isCorrect": true,
+        "feedback": "Correct! These are the three states of matter you encounter every day - like ice (solid), water (liquid), and steam (gas)."
+      },
+      {
+        "id": "B",
+        "text": "Hot, cold, warm",
+        "isCorrect": false,
+        "feedback": "These describe temperature, not states of matter. Think about the different forms that substances can take."
+      },
+      {
+        "id": "C",
+        "text": "Hard, soft, runny",
+        "isCorrect": false,
+        "feedback": "These describe properties of matter, but not the actual states. The three states have specific scientific names."
+      },
+      {
+        "id": "D",
+        "text": "Ice, water, steam",
+        "isCorrect": false,
+        "feedback": "These are examples of the three states, but only for water. We need the general names that apply to all substances."
+      }
+    ],
+    "solution": "The answer is **solid, liquid, gas**.\n\nThese are the three common **states of matter** that substances can exist in. Every material around you is in one of these states:\n- **Solid**: Has a fixed shape and volume (like a wooden desk or ice cube)\n- **Liquid**: Has a fixed volume but takes the shape of its container (like water or juice)\n- **Gas**: Has no fixed shape or volume, spreading out to fill any container (like air or steam)\n\nWhile ice, water, and steam are examples of these states, the scientific terms are solid, liquid, and gas.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the different forms that water can take. What are the scientific names for ice, water, and steam?"
+      },
+      {
+        "level": 2,
+        "content": "The three states all begin with different letters: S, L, and G. They describe how particles are arranged in matter."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 1,
+      "conceptsUsed": ["c1"],
+      "buildsOn": [],
+      "preparesFor": ["som-y8-002", "som-y8-003"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Establish foundational vocabulary for the three states of matter"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-002",
+    "questionType": "MCQ",
+    "stem": "Which of these is an example of matter in the solid state?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A wooden pencil",
+        "isCorrect": true,
+        "feedback": "Correct! A wooden pencil is a solid - it has a fixed shape that doesn't change, and you can hold it in your hand."
+      },
+      {
+        "id": "B",
+        "text": "Orange juice in a glass",
+        "isCorrect": false,
+        "feedback": "Orange juice is a liquid - it takes the shape of the glass. Liquids flow and don't have a fixed shape."
+      },
+      {
+        "id": "C",
+        "text": "The air in the classroom",
+        "isCorrect": false,
+        "feedback": "Air is a gas - it spreads out to fill the entire room and has no fixed shape or volume."
+      },
+      {
+        "id": "D",
+        "text": "Steam from a kettle",
+        "isCorrect": false,
+        "feedback": "Steam is water in the gas state - it rises and spreads out into the air, with no fixed shape."
+      }
+    ],
+    "solution": "The answer is **a wooden pencil**.\n\nA pencil is a **solid** because it has:\n- A **fixed shape** that doesn't change (it stays pencil-shaped)\n- A **fixed volume** (it takes up the same amount of space)\n- **Rigidity** (it's hard and doesn't flow)\n\nThe other options are:\n- Orange juice = **liquid** (flows, takes container's shape)\n- Air = **gas** (fills entire room, no fixed shape or volume)\n- Steam = **gas** (water vapour that spreads out)\n\nSolids are all around you - books, desks, phones, rocks, and your bones are all examples of matter in the solid state.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about which item keeps its own shape and doesn't flow or spread out."
+      },
+      {
+        "level": 2,
+        "content": "A solid has a fixed shape that doesn't change. Which item can you pick up and hold without it changing shape?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 2,
+      "conceptsUsed": ["c1", "c3"],
+      "buildsOn": ["som-y8-001"],
+      "preparesFor": ["som-y8-004", "som-y8-006"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Apply knowledge of states to identify everyday solids"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-003",
+    "questionType": "MCQ",
+    "stem": "What is the best definition of 'matter'?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Anything that has mass and takes up space",
+        "isCorrect": true,
+        "feedback": "Correct! Matter is anything that has mass (weight) and occupies space (has volume). This includes everything you can see and touch, plus many things you can't see like air."
+      },
+      {
+        "id": "B",
+        "text": "Only things you can see",
+        "isCorrect": false,
+        "feedback": "Matter includes things you can't see too, like air and other gases. The key is that it has mass and takes up space."
+      },
+      {
+        "id": "C",
+        "text": "Only solid objects",
+        "isCorrect": false,
+        "feedback": "Matter exists in three states - solid, liquid, AND gas. Water, air, and rocks are all examples of matter in different states."
+      },
+      {
+        "id": "D",
+        "text": "Things that are important",
+        "isCorrect": false,
+        "feedback": "That's the everyday meaning of 'matter' (as in 'it matters to me'), but in science, matter has a specific definition about mass and space."
+      }
+    ],
+    "solution": "The answer is **anything that has mass and takes up space**.\n\nIn science, **matter** is defined as anything that:\n1. Has **mass** (you can measure how much of it there is)\n2. Takes up **space** (has volume)\n\nThis definition includes:\n- **Solids** like rocks, metals, and plastic\n- **Liquids** like water, oil, and milk\n- **Gases** like air, oxygen, and carbon dioxide\n\nEven though you can't see air, it's still matter because it has mass (you can weigh it) and occupies space (it fills your lungs when you breathe).\n\nThings that are NOT matter include: light, heat, sound, and thoughts - these don't have mass or take up space.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what all substances have in common. Do they all weigh something? Do they all take up space?"
+      },
+      {
+        "level": 2,
+        "content": "Matter has two key properties: it has mass (weight) and it occupies space (volume). Which definition includes both of these?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 3,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["som-y8-001"],
+      "preparesFor": ["som-y8-005", "som-y8-007"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Establish the scientific definition of matter as foundation"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-004",
+    "questionType": "MCQ",
+    "stem": "Which property is true for ALL solids?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They have a fixed shape",
+        "isCorrect": true,
+        "feedback": "Correct! All solids maintain their own shape - they don't flow or change shape to fit a container. This is because their particles are held in fixed positions."
+      },
+      {
+        "id": "B",
+        "text": "They are hard",
+        "isCorrect": false,
+        "feedback": "Not all solids are hard - butter and foam are soft solids. The key property of solids is having a fixed shape, not hardness."
+      },
+      {
+        "id": "C",
+        "text": "They float in water",
+        "isCorrect": false,
+        "feedback": "Some solids float (wood, ice) while others sink (rocks, metals). Floating depends on density, not the state of matter."
+      },
+      {
+        "id": "D",
+        "text": "They are heavy",
+        "isCorrect": false,
+        "feedback": "Solids can be light (like a feather) or heavy (like a rock). Mass varies between different solids - it's not a defining property of the solid state."
+      }
+    ],
+    "solution": "The answer is **they have a fixed shape**.\n\nAll **solids** share this key property: they maintain a **fixed, definite shape** that doesn't change. Whether it's a rock, a piece of wood, or an ice cube, the solid keeps its shape unless you apply force to break or reshape it.\n\nWhy? Because in solids, **particles are held in fixed positions** and can only vibrate slightly. They can't move around freely like in liquids or gases.\n\nThe other options aren't true for all solids:\n- **Hardness varies**: Diamonds are extremely hard, but butter and foam are soft - yet they're all solids\n- **Floating ability varies**: Ice floats, but most solids sink in water\n- **Mass varies**: A small plastic bead and a boulder are both solids, but have very different masses\n\nThe defining property of solids is their **fixed shape**, not their hardness, weight, or density.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what makes a solid different from a liquid. What stays the same for all solids, regardless of what they're made of?"
+      },
+      {
+        "level": 2,
+        "content": "Consider a rock, a piece of butter, and an ice cube. They're all very different, but what's one thing they all have in common about their form?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 75,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 4,
+      "conceptsUsed": ["c1", "c3"],
+      "buildsOn": ["som-y8-001", "som-y8-002"],
+      "preparesFor": ["som-y8-008", "som-y8-010"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Identify the defining property of solids, distinguishing from variable properties"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-005",
+    "questionType": "MCQ",
+    "stem": "What is the particle model of matter?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The idea that all matter is made up of tiny particles",
+        "isCorrect": true,
+        "feedback": "Correct! The particle model explains that everything around you - solids, liquids, and gases - is made of incredibly tiny particles (atoms and molecules) that are too small to see."
+      },
+      {
+        "id": "B",
+        "text": "A diagram showing the three states of matter",
+        "isCorrect": false,
+        "feedback": "While we use diagrams to show the particle model, the model itself is the scientific idea that all matter consists of tiny particles."
+      },
+      {
+        "id": "C",
+        "text": "The belief that matter can be created or destroyed",
+        "isCorrect": false,
+        "feedback": "Actually, the particle model supports the opposite - that matter cannot be created or destroyed, just rearranged. The particles always exist."
+      },
+      {
+        "id": "D",
+        "text": "A way to measure how heavy something is",
+        "isCorrect": false,
+        "feedback": "That describes mass measurement, not the particle model. The particle model explains what matter is made of - tiny particles."
+      }
+    ],
+    "solution": "The answer is **the idea that all matter is made up of tiny particles**.\n\nThe **particle model of matter** is a fundamental scientific concept that explains:\n\n1. **All matter consists of tiny particles** - atoms and molecules that are far too small to see with your eyes\n2. **These particles are always moving** - even in solids (where they vibrate)\n3. **The arrangement and movement of particles** determines whether something is a solid, liquid, or gas\n\nThis model helps us understand:\n- Why ice melts into water (particles gain energy and break free from fixed positions)\n- Why you can smell perfume across a room (gas particles spread out)\n- Why solids hold their shape (particles are locked in position)\n\nThe particle model is a **theory** - we can't see individual atoms with our eyes, but overwhelming evidence from experiments supports this idea. It's one of the most important concepts in all of science.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what scientists believe all substances are made of. What's the smallest building block of matter?"
+      },
+      {
+        "level": 2,
+        "content": "The word 'particle' is in the name. This model explains that everything is made of something incredibly tiny. What are those tiny things called?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 5,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["som-y8-003"],
+      "preparesFor": ["som-y8-006", "som-y8-007", "som-y8-009"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Introduce the particle model as the foundation for understanding states of matter"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-006",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Name the three states of matter and give one everyday example of each.",
+    "solution": "The three states of matter are:\n\n1. **Solid** - Example: ice, rock, wood, metal spoon, or any object that holds its own shape\n\n2. **Liquid** - Example: water, milk, juice, oil, or any substance that flows and takes the shape of its container\n\n3. **Gas** - Example: air, oxygen, steam, carbon dioxide, or any substance that spreads out to fill available space\n\nThese three states differ in how their **particles are arranged and move**:\n- In **solids**, particles are tightly packed and only vibrate\n- In **liquids**, particles are close but can slide past each other\n- In **gases**, particles are far apart and move freely in all directions\n\nThe same substance can exist in different states - water can be ice (solid), liquid water, or steam (gas) depending on temperature.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the three forms that water can take. What are the scientific names for these forms, and what other examples can you think of for each?"
+      },
+      {
+        "level": 2,
+        "content": "The three states are solid, liquid, and gas. For each one, think of something you interact with every day - something you can hold, something you can pour, and something invisible in the air."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 6,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["som-y8-001", "som-y8-002"],
+      "preparesFor": ["som-y8-011", "som-y8-015"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Reinforce vocabulary and connect to everyday experiences"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-007",
+    "questionType": "MCQ",
+    "stem": "In the particle model, what are particles?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Tiny atoms and molecules that make up all matter",
+        "isCorrect": true,
+        "feedback": "Correct! Particles refer to atoms (single elements like oxygen atoms) and molecules (groups of atoms bonded together like water molecules). These are the building blocks of everything."
+      },
+      {
+        "id": "B",
+        "text": "Tiny pieces of dust floating in the air",
+        "isCorrect": false,
+        "feedback": "Dust particles are actually made up of millions of atoms and molecules - they're not the fundamental particles we're talking about in the particle model."
+      },
+      {
+        "id": "C",
+        "text": "Small drops of liquid",
+        "isCorrect": false,
+        "feedback": "Liquid drops are also made up of countless atoms and molecules. The particles in the particle model are much, much smaller - they're the atoms and molecules themselves."
+      },
+      {
+        "id": "D",
+        "text": "Visible grains like sand or salt crystals",
+        "isCorrect": false,
+        "feedback": "Sand grains and salt crystals are collections of billions of atoms arranged together. The particles in the model are the individual atoms and molecules, which are far too small to see."
+      }
+    ],
+    "solution": "The answer is **tiny atoms and molecules that make up all matter**.\n\nIn the particle model, **particles** specifically means:\n\n**Atoms**: The smallest unit of an element\n- Example: A single oxygen atom (O)\n- Example: A single iron atom (Fe)\n\n**Molecules**: Groups of atoms bonded together\n- Example: A water molecule (H₂O) - 2 hydrogen atoms + 1 oxygen atom\n- Example: An oxygen molecule (O₂) - 2 oxygen atoms bonded together\n\nThese particles are **incredibly tiny** - you cannot see them even with a regular microscope. It would take billions of atoms to make something the size of a grain of sand.\n\nWhen we draw particle diagrams, we represent these atoms and molecules as simple circles or dots, but remember - they're real physical objects that make up everything around you: the air, water, your desk, and even your own body.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the smallest building blocks of matter - things that are far too small to see with your eyes. What do scientists call these?"
+      },
+      {
+        "level": 2,
+        "content": "The particles are much smaller than anything you can see. They're the atoms and molecules that everything is made of. Which option describes these fundamental building blocks?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 7,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["som-y8-005"],
+      "preparesFor": ["som-y8-009", "som-y8-012"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Clarify what particles are in the particle model, distinguishing from visible matter"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-008",
+    "questionType": "MCQ",
+    "stem": "You leave an ice cube on a plate at room temperature. After 30 minutes, there is a puddle of water. What has happened?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The ice changed from solid to liquid",
+        "isCorrect": true,
+        "feedback": "Correct! The ice (solid water) melted into liquid water. This is called a state change - the substance is still water, but it changed from the solid state to the liquid state."
+      },
+      {
+        "id": "B",
+        "text": "The ice disappeared and new water appeared",
+        "isCorrect": false,
+        "feedback": "The ice didn't disappear - it's the same water, just in a different state. The particles are still there, they've just rearranged from solid to liquid."
+      },
+      {
+        "id": "C",
+        "text": "The ice turned into a different substance",
+        "isCorrect": false,
+        "feedback": "Ice and liquid water are the same substance (H₂O) - just in different states. No new substance was created, the water just changed state."
+      },
+      {
+        "id": "D",
+        "text": "The ice evaporated into the air",
+        "isCorrect": false,
+        "feedback": "Evaporation is when liquid changes to gas. Here, the solid ice became liquid water (melting), not gas. You can see the puddle of liquid water on the plate."
+      }
+    ],
+    "solution": "The answer is **the ice changed from solid to liquid**.\n\nThis process is called **melting** - a **state change** from solid to liquid.\n\nWhat happened at the particle level:\n1. **In the ice (solid)**: Water particles were locked in fixed positions, vibrating but not moving around\n2. **Heat energy from the room** was absorbed by the ice particles\n3. **Particles gained energy** and started vibrating faster\n4. **Particles broke free** from their fixed positions and could slide past each other\n5. **Result**: The ice became liquid water\n\nImportant points:\n- It's still **the same substance** (water/H₂O) - only the **state** changed\n- The **number of particles stayed the same** - they just rearranged\n- The particles didn't get bigger or smaller - only their **arrangement and movement** changed\n\nThis is why the puddle has the same mass as the original ice cube - no particles were lost or gained.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what ice is and what it becomes when it warms up. Did it turn into a different substance, or did it just change form?"
+      },
+      {
+        "level": 2,
+        "content": "Ice is water in the solid state. When it melts, what state does it become? The substance is still water, but its state has changed."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 8,
+      "conceptsUsed": ["c1", "c3", "c4"],
+      "buildsOn": ["som-y8-001", "som-y8-002", "som-y8-004"],
+      "preparesFor": ["som-y8-013", "som-y8-016"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can do this!",
+      "purpose": "Connect particle model to everyday observation of state change"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-009",
+    "questionType": "MCQ",
+    "stem": "According to the particle model, how do particles in a solid move?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They vibrate in fixed positions",
+        "isCorrect": true,
+        "feedback": "Correct! In solids, particles are held in fixed positions by strong forces, but they still have energy and vibrate back and forth. They cannot move around freely."
+      },
+      {
+        "id": "B",
+        "text": "They don't move at all",
+        "isCorrect": false,
+        "feedback": "Particles always have energy and are always moving, even in solids. In solids, they vibrate in place - they just can't move around from position to position."
+      },
+      {
+        "id": "C",
+        "text": "They slide past each other",
+        "isCorrect": false,
+        "feedback": "That describes particles in a liquid. In solids, particles are locked in position and can only vibrate - they cannot slide past each other."
+      },
+      {
+        "id": "D",
+        "text": "They move freely in all directions",
+        "isCorrect": false,
+        "feedback": "That describes particles in a gas. In solids, particles are held in fixed positions and can only vibrate - they cannot move freely."
+      }
+    ],
+    "solution": "The answer is **they vibrate in fixed positions**.\n\nIn **solids**, the particle model tells us:\n\n**Arrangement**: Particles are **tightly packed** in a **regular, fixed pattern** (like soldiers standing in formation)\n\n**Movement**: Particles **vibrate** (jiggle back and forth) but stay in their positions - they cannot move around\n\n**Forces**: **Strong forces** between particles hold them in place\n\nWhy this matters:\n- The **fixed positions** explain why solids have a **definite shape**\n- The **vibration** increases when you heat a solid (particles vibrate faster)\n- When heated enough, particles gain enough energy to **break free** from their positions - the solid melts into a liquid\n\nThink of it like this: Imagine you're standing in a crowded elevator, shoulder-to-shoulder with others. You can shift your weight and wiggle a bit (vibrate), but you can't walk around - you're stuck in your spot. That's how particles behave in a solid.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what makes a solid different from a liquid or gas. The particles are held in place, but are they completely still?"
+      },
+      {
+        "level": 2,
+        "content": "Particles in solids are locked into position and cannot move around, but they do have energy. What small movement can they make while staying in place?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 9,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["som-y8-005", "som-y8-007"],
+      "preparesFor": ["som-y8-010", "som-y8-012"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Introduce particle movement in solids as foundation for comparing states"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-010",
+    "questionType": "MCQ",
+    "stem": "How are particles arranged in a solid?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Tightly packed in a regular pattern",
+        "isCorrect": true,
+        "feedback": "Correct! In solids, particles are very close together (tightly packed) and arranged in an orderly, repeating pattern. This gives solids their fixed shape and structure."
+      },
+      {
+        "id": "B",
+        "text": "Close together but randomly arranged",
+        "isCorrect": false,
+        "feedback": "This describes a liquid. In solids, particles have a regular, organized pattern - like bricks in a wall - not a random arrangement."
+      },
+      {
+        "id": "C",
+        "text": "Far apart with lots of empty space",
+        "isCorrect": false,
+        "feedback": "This describes a gas. In solids, particles are tightly packed with very little space between them."
+      },
+      {
+        "id": "D",
+        "text": "Spread out evenly with equal spacing",
+        "isCorrect": false,
+        "feedback": "While particles in a solid are evenly spaced in a pattern, they're not 'spread out' - they're tightly packed together with minimal gaps."
+      }
+    ],
+    "solution": "The answer is **tightly packed in a regular pattern**.\n\nIn **solids**, particles are arranged with two key features:\n\n1. **Tightly packed**: Particles are **very close together** with very little empty space between them\n   - This is why solids are usually dense and hard to compress\n   - You can't squeeze them much because there's no room for particles to move closer\n\n2. **Regular pattern**: Particles are arranged in an **orderly, repeating structure**\n   - Think of a brick wall or a stack of oranges\n   - This organized arrangement gives solids their **rigid structure** and **fixed shape**\n\nThis arrangement explains solid properties:\n- **Fixed shape**: The regular pattern keeps particles in position\n- **Fixed volume**: Tightly packed particles mean definite space occupied\n- **Cannot be compressed**: No space between particles to push them closer\n\nCompare this to:\n- **Liquids**: Close together but random arrangement (particles can slide)\n- **Gases**: Far apart with lots of empty space (particles move freely)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how particles need to be arranged to create something with a fixed, rigid shape. Are they close together or far apart?"
+      },
+      {
+        "level": 2,
+        "content": "In solids, particles are positioned very close to each other in an organized, repeating pattern - like items stacked neatly on a shelf."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 10,
+      "conceptsUsed": ["c2", "c3"],
+      "buildsOn": ["som-y8-009"],
+      "preparesFor": ["som-y8-012", "som-y8-014"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Establish understanding of particle arrangement in solids"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-011",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Explain why solids have a fixed shape, but liquids do not. Use the particle model in your answer.",
+    "solution": "Solids have a **fixed shape** while liquids do not because of how their particles are arranged and move:\n\n**Solids**:\n- Particles are **tightly packed** in a **regular, fixed pattern**\n- Particles can only **vibrate in place** - they cannot move around\n- **Strong forces** between particles hold them in fixed positions\n- Result: The solid **maintains its own shape** - like a book or a rock\n\n**Liquids**:\n- Particles are **close together** but in a **random arrangement**\n- Particles can **slide past each other** and move around\n- **Weaker forces** between particles allow movement\n- Result: The liquid **flows** and takes the **shape of its container** - like water in a glass\n\nThe key difference is **particle movement**: solid particles stay in position (giving fixed shape), while liquid particles can move around (allowing the liquid to flow and change shape).\n\nThink of it like people in a room: In a solid, everyone stands in fixed spots shoulder-to-shoulder (fixed shape). In a liquid, people can shuffle and move past each other to spread out (takes container's shape).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how particles are arranged and how they move in solids compared to liquids. What's the key difference in particle behaviour?"
+      },
+      {
+        "level": 2,
+        "content": "In solids, particles are locked in fixed positions and can only vibrate. In liquids, particles can move around and slide past each other. How does this explain the difference in shape?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 11,
+      "conceptsUsed": ["c2", "c3", "c4"],
+      "buildsOn": ["som-y8-004", "som-y8-009", "som-y8-010"],
+      "preparesFor": ["som-y8-014", "som-y8-017"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Synthesize particle arrangement and movement to explain macroscopic properties"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-012",
+    "questionType": "MCQ",
+    "stem": "A student draws a particle diagram showing particles far apart from each other, moving in all directions. Which state of matter is the student representing?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Gas",
+        "isCorrect": true,
+        "feedback": "Correct! In gases, particles are far apart with lots of empty space between them, and they move freely and rapidly in all directions. This is why gases have no fixed shape or volume."
+      },
+      {
+        "id": "B",
+        "text": "Solid",
+        "isCorrect": false,
+        "feedback": "In solids, particles are tightly packed together in a regular pattern and only vibrate in fixed positions - they don't move around freely."
+      },
+      {
+        "id": "C",
+        "text": "Liquid",
+        "isCorrect": false,
+        "feedback": "In liquids, particles are close together (not far apart) and slide past each other. They don't have lots of empty space between them like the diagram shows."
+      },
+      {
+        "id": "D",
+        "text": "All three states",
+        "isCorrect": false,
+        "feedback": "This diagram specifically shows particles far apart and moving freely - which only describes gases. Solids and liquids have particles much closer together."
+      }
+    ],
+    "solution": "The answer is **gas**.\n\nThe student's diagram shows the key features of **gas particles**:\n\n**Spacing**: Particles are **far apart** with lots of **empty space** between them\n- Gases are mostly empty space (about 99.9% empty!)\n- This is why you can compress gases easily - you're squeezing out the empty space\n\n**Movement**: Particles **move freely and rapidly** in **all directions**\n- They're not locked in position like solids\n- They don't just slide like liquids - they zoom around randomly\n- They collide with each other and the container walls\n\n**Why this arrangement matters**:\n- **No fixed shape**: Gas particles spread out to fill the entire container\n- **No fixed volume**: Gases expand or compress depending on the container\n- **Can be compressed**: Because there's so much empty space between particles\n\nExamples of gases: Air, oxygen, carbon dioxide, steam, helium in balloons\n\nCompare to other states:\n- **Solid**: Tightly packed, regular pattern, vibrate in place\n- **Liquid**: Close together, random arrangement, slide past each other",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about which state of matter has particles with lots of space between them and the freedom to move around."
+      },
+      {
+        "level": 2,
+        "content": "Particles that are far apart and moving in all directions describe a state that has no fixed shape or volume. Which state is that?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 12,
+      "conceptsUsed": ["c2", "c5"],
+      "buildsOn": ["som-y8-007", "som-y8-009", "som-y8-010"],
+      "preparesFor": ["som-y8-015", "som-y8-018"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Introduce gas particle arrangement through diagram interpretation"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": true,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-013",
+    "questionType": "MCQ",
+    "stem": "You can smell freshly baked cookies from the kitchen even when you're in your bedroom. What does this tell you about gas particles?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Gas particles move and spread out to fill available space",
+        "isCorrect": true,
+        "feedback": "Correct! Gas particles from the cookies move freely through the air and spread out in all directions. This process is called diffusion - the smell molecules travel from the kitchen to your bedroom."
+      },
+      {
+        "id": "B",
+        "text": "Gas particles stay in one place",
+        "isCorrect": false,
+        "feedback": "If gas particles stayed in one place, the smell would remain in the kitchen only. The fact that you can smell it elsewhere shows that gas particles move around."
+      },
+      {
+        "id": "C",
+        "text": "Gas particles are heavier than solid particles",
+        "isCorrect": false,
+        "feedback": "This isn't about particle weight - it's about movement. Gas particles move freely and spread out, which is why smells can travel through air."
+      },
+      {
+        "id": "D",
+        "text": "Gas particles turn into liquid particles",
+        "isCorrect": false,
+        "feedback": "The smell is still a gas when it reaches you - it hasn't changed state. The particles simply moved through the air from one room to another."
+      }
+    ],
+    "solution": "The answer is **gas particles move and spread out to fill available space**.\n\nThis everyday observation demonstrates how **gas particles behave**:\n\n**What's happening**:\n1. When cookies bake, smell **molecules** (particles) are released into the air as a **gas**\n2. These particles **move rapidly** in all directions (random motion)\n3. They **spread out** and **mix with air** particles\n4. Eventually, smell particles reach your bedroom through a process called **diffusion**\n\n**Why this happens**:\n- Gas particles have **high energy** and move **very fast** (hundreds of meters per second!)\n- They are **far apart** so there's lots of space to move through\n- They **collide** with other air particles, bouncing around randomly\n- Over time, they **distribute evenly** throughout all available space\n\n**Key property of gases**: They have **no fixed volume** - they expand to fill whatever container or space is available. Whether it's a small bottle or an entire house, gas particles will spread out to fill it.\n\nThis is very different from:\n- **Solids**: Particles stay in fixed positions\n- **Liquids**: Particles stay together but can slide (they don't spread out into the air)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how the smell travelled from the kitchen to your room. What must the gas particles be doing to get there?"
+      },
+      {
+        "level": 2,
+        "content": "For the smell to reach you, the gas particles must be moving through the air. What does this tell you about how gas particles behave?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 13,
+      "conceptsUsed": ["c2", "c5"],
+      "buildsOn": ["som-y8-012"],
+      "preparesFor": ["som-y8-018", "som-y8-019"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can do this!",
+      "purpose": "Connect particle model to real-world observation of gas diffusion"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-014",
+    "questionType": "MCQ",
+    "stem": "Compare the particle spacing in solids, liquids, and gases. Which statement is correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Solids have particles closest together, liquids are close together, gases have particles far apart",
+        "isCorrect": true,
+        "feedback": "Correct! Particle spacing increases from solid → liquid → gas. Solids are tightly packed, liquids are close but can move, and gases have lots of empty space between particles."
+      },
+      {
+        "id": "B",
+        "text": "All three states have particles equally spaced",
+        "isCorrect": false,
+        "feedback": "Particle spacing is very different in each state. This difference in spacing is what gives each state its unique properties."
+      },
+      {
+        "id": "C",
+        "text": "Liquids have particles furthest apart",
+        "isCorrect": false,
+        "feedback": "Gases have particles furthest apart, not liquids. Liquids are actually quite close together - similar to solids, but without the fixed positions."
+      },
+      {
+        "id": "D",
+        "text": "Gases have particles closest together",
+        "isCorrect": false,
+        "feedback": "This is backwards. Gases have particles furthest apart (lots of empty space), while solids have particles closest together (tightly packed)."
+      }
+    ],
+    "solution": "The answer is **solids have particles closest together, liquids are close together, gases have particles far apart**.\n\nParticle **spacing** (distance between particles) is different in each state:\n\n**SOLIDS**: **Tightly packed**\n- Particles are touching or nearly touching\n- Very little empty space\n- Regular, organized arrangement\n- Example: Think of marbles packed tightly in a jar\n\n**LIQUIDS**: **Close together**\n- Particles still touching or very close\n- Similar spacing to solids\n- BUT: Random arrangement (not organized)\n- Example: Think of marbles loosely packed so they can slide\n\n**GASES**: **Far apart**\n- LOTS of empty space between particles\n- Particles are about 10 times further apart than in solids/liquids\n- Random arrangement with particles moving freely\n- Example: Think of a few marbles bouncing around in a large room\n\n**Why spacing matters**:\n- Determines **density**: Solids/liquids are dense (particles close); gases are not (particles far apart)\n- Affects **compressibility**: Gases can be compressed (squeeze out empty space); solids/liquids cannot\n- Explains **volume**: Solids/liquids have fixed volume; gases expand to fill space",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about which state takes up the most space for the same number of particles. Which state has the most empty space between particles?"
+      },
+      {
+        "level": 2,
+        "content": "Particles in solids are tightly packed together. In liquids, they're still close but can move. In gases, they spread out with lots of space between them."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 14,
+      "conceptsUsed": ["c2", "c3", "c4", "c5"],
+      "buildsOn": ["som-y8-010", "som-y8-011", "som-y8-012"],
+      "preparesFor": ["som-y8-017", "som-y8-020"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Compare and contrast particle spacing across all three states"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-015",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Complete the table below about the three states of matter:\n\n| State  | Particle Spacing | Particle Movement | Fixed Shape? |\n|--------|-----------------|-------------------|-------------|\n| Solid  | ?               | ?                 | Yes         |\n| Liquid | Close together  | ?                 | ?           |\n| Gas    | ?               | Move freely       | No          |",
+    "solution": "Here is the completed table:\n\n| State  | Particle Spacing | Particle Movement | Fixed Shape? |\n|--------|-----------------|-------------------|-------------|\n| Solid  | **Tightly packed (very close)** | **Vibrate in fixed positions** | Yes |\n| Liquid | Close together | **Slide past each other** | **No** |\n| Gas    | **Far apart** | Move freely | No |\n\n**Explanation**:\n\n**Solid**:\n- Particles are **tightly packed** in a regular pattern\n- They can only **vibrate in place** - cannot move around\n- Fixed shape because particles are locked in position\n\n**Liquid**:\n- Particles are **close together** (similar to solid spacing)\n- They can **slide past each other** and move around\n- **No fixed shape** - takes the shape of the container because particles can flow\n\n**Gas**:\n- Particles are **far apart** with lots of empty space\n- They **move freely** and rapidly in all directions\n- No fixed shape - spreads to fill available space\n\n**Key pattern**: As you go from solid → liquid → gas, particles get further apart and gain more freedom to move.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what you've learned: solids have particles locked in place, liquids can flow, and gases spread out. Use this to fill in the missing information."
+      },
+      {
+        "level": 2,
+        "content": "For solids, particles are very close (tightly packed) and vibrate. For liquids, particles slide past each other and have no fixed shape. For gases, particles are far apart."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 15,
+      "conceptsUsed": ["c1", "c2", "c3", "c4", "c5"],
+      "buildsOn": ["som-y8-006", "som-y8-009", "som-y8-011", "som-y8-014"],
+      "preparesFor": ["som-y8-017", "som-y8-020"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!",
+      "purpose": "Organize and consolidate knowledge of particle properties across states"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": true
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-016",
+    "questionType": "MCQ",
+    "stem": "A student says: 'When water boils and turns to steam, the water particles get bigger.' Is this statement correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "No, the particles stay the same size but move further apart",
+        "isCorrect": true,
+        "feedback": "Correct! When water boils, the water molecules (H₂O) don't change size at all. The particles gain energy and move further apart, changing from liquid to gas. The particles themselves remain exactly the same."
+      },
+      {
+        "id": "B",
+        "text": "Yes, the particles expand when heated",
+        "isCorrect": false,
+        "feedback": "This is a common misconception. Individual particles (atoms and molecules) do NOT change size when heated. They gain energy and move faster/further apart, but each particle stays the same size."
+      },
+      {
+        "id": "C",
+        "text": "Yes, steam particles are larger than water particles",
+        "isCorrect": false,
+        "feedback": "Steam and liquid water are both made of the same H₂O molecules. The particles are identical in size - only the spacing and movement change between states."
+      },
+      {
+        "id": "D",
+        "text": "No, the particles get smaller when water boils",
+        "isCorrect": false,
+        "feedback": "Particles don't get smaller either. The size of individual particles (water molecules) never changes during state changes - only their spacing and energy change."
+      }
+    ],
+    "solution": "The answer is **No, the particles stay the same size but move further apart**.\n\nThis addresses a **common misconception** about state changes:\n\n**What DOES NOT change**: Particle size\n- A water molecule (H₂O) is the same size whether it's in ice, liquid water, or steam\n- **Atoms and molecules do not expand or shrink** when heated or cooled\n- The chemical structure stays identical: 2 hydrogen atoms + 1 oxygen atom\n\n**What DOES change**: Spacing and movement\n- **In liquid water**: Particles are close together, sliding past each other\n- **In steam (gas)**: Particles have moved **far apart** with lots of empty space between them\n- Particles also move **much faster** in steam than in liquid water\n\n**Why this matters**:\n- Steam takes up **much more space** than the same amount of liquid water\n- This is NOT because particles got bigger\n- It's because particles **spread out** with more space between them\n\n**Analogy**: Think of students in a classroom. When the bell rings and they go to the playground, each student stays the same size, but they spread out over a larger area. That's what happens to water particles when they become steam.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the particle model. When substances change state, do the actual particles (atoms and molecules) change, or does something else change?"
+      },
+      {
+        "level": 2,
+        "content": "Individual particles (molecules) always stay the same size. During state changes, what changes is how far apart the particles are and how fast they move."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 16,
+      "conceptsUsed": ["c2", "c4", "c5"],
+      "buildsOn": ["som-y8-008", "som-y8-014"],
+      "preparesFor": ["som-y8-019", "som-y8-20"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can do this!",
+      "purpose": "Address common misconception that particles change size during state changes"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-017",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Using the particle model, explain why liquids can flow and pour, but solids cannot.",
+    "solution": "Liquids can **flow and pour** while solids cannot because of the difference in how their particles can move:\n\n**LIQUIDS - Can Flow**:\n- Particles are **close together** but arranged **randomly** (not in a fixed pattern)\n- Particles can **slide past each other** and move to new positions\n- **Weaker forces** between particles allow this movement\n- Result: The liquid can **change shape** and flow into different containers\n- Example: When you pour water from a jug into a glass, the particles slide past each other to take the shape of the glass\n\n**SOLIDS - Cannot Flow**:\n- Particles are **tightly packed** in a **regular, fixed pattern**\n- Particles can only **vibrate in place** - they are locked in position\n- **Strong forces** between particles hold them rigidly in place\n- Result: The solid **keeps its shape** and cannot flow\n- Example: A rock stays rock-shaped - the particles cannot slide around to take a new shape\n\n**Key difference**: In liquids, particles have the **freedom to move past each other**, enabling flow. In solids, particles are **locked in fixed positions**, preventing flow.\n\nThis is why you can pour juice (liquid) but not pour a pencil (solid)!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what particles in liquids can do that particles in solids cannot. How is their movement different?"
+      },
+      {
+        "level": 2,
+        "content": "In solids, particles are locked in fixed positions. In liquids, particles can move around and slide past each other. How does this explain flowing?"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 17,
+      "conceptsUsed": ["c2", "c3", "c4"],
+      "buildsOn": ["som-y8-011", "som-y8-014", "som-y8-015"],
+      "preparesFor": ["som-y8-020"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Apply particle movement concepts to explain macroscopic property (flowing)"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-018",
+    "questionType": "MCQ",
+    "stem": "Why do gases spread out to fill their entire container, while liquids only fill the bottom?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Gas particles move freely in all directions; liquid particles are pulled down by gravity",
+        "isCorrect": true,
+        "feedback": "Correct! Gas particles have enough energy to move in all directions including upward, overcoming gravity. Liquid particles stay close together and are affected by gravity, so they settle at the bottom of containers."
+      },
+      {
+        "id": "B",
+        "text": "Gas particles are lighter than liquid particles",
+        "isCorrect": false,
+        "feedback": "The same substance (like water) has the same particles whether it's liquid or gas. It's not about weight - it's about energy and movement. Gas particles have more energy to move freely."
+      },
+      {
+        "id": "C",
+        "text": "Liquid particles are sticky",
+        "isCorrect": false,
+        "feedback": "While liquid particles do attract each other, calling them 'sticky' isn't quite right. The key difference is that gas particles have much more energy and space between them, allowing them to spread out."
+      },
+      {
+        "id": "D",
+        "text": "Gases have no particles",
+        "isCorrect": false,
+        "feedback": "Gases definitely have particles - they're made of atoms and molecules just like solids and liquids. Gas particles are just much further apart and move much faster."
+      }
+    ],
+    "solution": "The answer is **gas particles move freely in all directions; liquid particles are pulled down by gravity**.\n\nHere's what's happening with each state:\n\n**GASES - Fill Entire Container**:\n- Particles have **very high energy** and move **very fast** (hundreds of m/s)\n- Particles are **far apart** with lots of space between them\n- They move **freely in ALL directions** - up, down, sideways\n- This high energy **overcomes gravity**, so particles don't just fall to the bottom\n- Particles **collide with container walls** on all sides, creating pressure\n- Result: Gas spreads out to **fill the entire volume** of the container\n\n**LIQUIDS - Fill Bottom Only**:\n- Particles have **moderate energy** and move more slowly\n- Particles are **close together** and attract each other (intermolecular forces)\n- They can slide past each other but **stay together as a mass**\n- **Gravity pulls them downward**, and they don't have enough energy to fly apart\n- Result: Liquid **settles at the bottom** and takes the container's shape only there\n\n**Key insight**: It's all about **particle energy** and **forces between particles**. Gas particles have so much energy that they overcome both gravity and the forces between particles, spreading everywhere.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how gas particles and liquid particles move differently. Which particles have more energy and can move in all directions?"
+      },
+      {
+        "level": 2,
+        "content": "Gas particles have lots of energy and move freely upward, downward, and sideways. Liquid particles stay together as a group and are pulled down by gravity."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 18,
+      "conceptsUsed": ["c2", "c4", "c5"],
+      "buildsOn": ["som-y8-012", "som-y8-013", "som-y8-014"],
+      "preparesFor": ["som-y8-020"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Explain behavior difference using particle energy and movement"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-019",
+    "questionType": "MCQ",
+    "stem": "When water evaporates from a puddle on a hot day, where do the water particles go?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They become gas particles and spread into the air",
+        "isCorrect": true,
+        "feedback": "Correct! The water particles gain energy from heat, break free from the liquid, and become water vapour (gas). These gas particles then mix with the air particles and spread out - the water hasn't disappeared, it's just changed state."
+      },
+      {
+        "id": "B",
+        "text": "They disappear completely",
+        "isCorrect": false,
+        "feedback": "Particles cannot be created or destroyed. The water particles are still there - they've just changed from liquid to gas and mixed with the air, making them invisible."
+      },
+      {
+        "id": "C",
+        "text": "They sink into the ground",
+        "isCorrect": false,
+        "feedback": "While some water might soak into the ground, evaporation means the water has changed to gas and entered the air, not the ground."
+      },
+      {
+        "id": "D",
+        "text": "They turn into different particles",
+        "isCorrect": false,
+        "feedback": "The water particles (H₂O molecules) stay the same - they don't become different particles. They just change state from liquid to gas, but each particle is still H₂O."
+      }
+    ],
+    "solution": "The answer is **they become gas particles and spread into the air**.\n\nWhen water **evaporates**, here's what happens at the particle level:\n\n**Process of Evaporation**:\n1. **Heat energy** from the sun is absorbed by water particles in the puddle\n2. Particles **gain energy** and start moving faster and faster\n3. Some particles gain **enough energy** to break free from the liquid surface\n4. These particles become **water vapour** (gas state) - still H₂O molecules\n5. Gas particles **spread into the air** and mix with air particles\n6. Eventually they **distribute throughout the atmosphere**\n\n**Important points**:\n- The water hasn't **disappeared** - it's still there as invisible gas\n- The particles are **still H₂O** - they haven't changed into something else\n- The **number of particles is conserved** - none were created or destroyed\n- You can't see water vapour because gas particles are **far apart and invisible**\n\n**Why you can't see it**: In liquid form, billions of water particles are packed closely together, making the puddle visible. As gas, those same particles are spread far apart throughout the air, making them invisible to your eyes.\n\nThis is part of the **water cycle** - evaporation, condensation, precipitation.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "When water evaporates, it changes state. What state does it change to, and where do those particles go?"
+      },
+      {
+        "level": 2,
+        "content": "The water changes from liquid to gas (water vapour). These gas particles are still H₂O - they just spread out and mix with the air, becoming invisible."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 19,
+      "conceptsUsed": ["c2", "c4", "c5"],
+      "buildsOn": ["som-y8-013", "som-y8-016"],
+      "preparesFor": ["som-y8-020"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Apply particle conservation to explain evaporation phenomenon"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  },
+  {
+    "questionId": "som-y8-020",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Create a particle diagram key showing how you would draw particles in a solid, a liquid, and a gas. Describe the differences in spacing and arrangement for each state.",
+    "solution": "Here is how to represent particles in each state (using circles to represent particles):\n\n**SOLID**:\n```\n[Diagram: Circles touching in a regular grid pattern, like: ● ● ●\n                                                           ● ● ●\n                                                           ● ● ●]\n```\n- **Spacing**: Particles touching or very close together (tightly packed)\n- **Arrangement**: Regular, organized pattern (like a grid or checkerboard)\n- **Movement**: Only vibration shown (could use small arrows showing vibration)\n\n**LIQUID**:\n```\n[Diagram: Circles touching but randomly arranged, like:  ●  ●●\n                                                        ● ●  ●\n                                                         ●● ● ]\n```\n- **Spacing**: Still close together, particles touching\n- **Arrangement**: Random, irregular pattern (no organization)\n- **Movement**: Could show arrows pointing in different directions (sliding)\n\n**GAS**:\n```\n[Diagram: Circles far apart with lots of space, like:  ●\n                                                            \n                                                               ●\n                                                         ●           ● ]\n```\n- **Spacing**: Far apart with lots of empty space between particles\n- **Arrangement**: Random, scattered throughout space\n- **Movement**: Long arrows in all directions showing fast, free movement\n\n**Key Differences**:\n1. **Spacing increases**: Solid (touching) → Liquid (touching) → Gas (far apart)\n2. **Order decreases**: Solid (regular pattern) → Liquid (random) → Gas (random, spread out)\n3. **Movement freedom increases**: Solid (vibrate only) → Liquid (slide) → Gas (move freely)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what you've learned: solids have particles in an organized pattern close together, liquids have particles close but random, and gases have particles far apart."
+      },
+      {
+        "level": 2,
+        "content": "Draw circles for particles. For solids, make them touch in rows. For liquids, make them touch but scattered randomly. For gases, spread them far apart with lots of space."
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 240,
+    "curriculum": {
+      "system": "NSW",
+      "codes": ["ACSSU151"],
+      "year": 8,
+      "subject": "Science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 20,
+      "conceptsUsed": ["c1", "c2", "c3", "c4", "c5"],
+      "buildsOn": ["som-y8-014", "som-y8-015", "som-y8-17", "som-y8-018"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!",
+      "purpose": "Synthesize all particle model concepts through visual representation"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": true,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "states-of-matter",
+      "setId": "year8-science-states-of-matter-foundation"
+    },
+    "status": "draft"
+  }
+]

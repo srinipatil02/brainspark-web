@@ -1,0 +1,404 @@
+{
+  "topic": "States of Matter",
+  "topicId": "states-of-matter",
+  "outcomeCode": "ACSSU151",
+  "year": 8,
+  "researchedAt": "2026-01-07",
+
+  "curriculumAlignment": {
+    "outcomeDescription": "Properties of the different states of matter can be explained in terms of the motion and arrangement of particles",
+    "strand": "Chemical Sciences",
+    "stage": "Stage 4",
+    "syllabus": "NSW Science 7-10 (2023)",
+    "prerequisiteOutcomes": ["ACSSU077"],
+    "progressionOutcomes": ["ACSSU152", "ACSSU178"]
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Three states of matter",
+      "description": "Solids, liquids, and gases as fundamental states with distinct observable properties",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c2", "c3", "c4"]
+    },
+    {
+      "id": "c2",
+      "name": "Particle model of matter",
+      "description": "All matter is made of tiny particles (atoms/molecules) that are too small to see",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c3", "c4", "c5", "c6", "c7", "c8"]
+    },
+    {
+      "id": "c3",
+      "name": "Particle arrangement in solids",
+      "description": "Particles in solids are closely packed in fixed positions, held by strong forces",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c5", "c6"]
+    },
+    {
+      "id": "c4",
+      "name": "Particle arrangement in liquids",
+      "description": "Particles in liquids are close together but can move past each other",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c5", "c6"]
+    },
+    {
+      "id": "c5",
+      "name": "Particle arrangement in gases",
+      "description": "Particles in gases are far apart, move rapidly, and fill their container",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c6", "c8"]
+    },
+    {
+      "id": "c6",
+      "name": "Particle motion and energy",
+      "description": "Particles are always moving; higher temperature means faster particle motion",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c7", "c8", "c9"]
+    },
+    {
+      "id": "c7",
+      "name": "Changes of state",
+      "description": "Melting, freezing, boiling, condensation, sublimation as energy-driven processes",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c9", "c10"]
+    },
+    {
+      "id": "c8",
+      "name": "Diffusion",
+      "description": "Particles spread from high to low concentration due to random motion",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": []
+    },
+    {
+      "id": "c9",
+      "name": "Energy and state changes",
+      "description": "Energy is absorbed during melting/boiling and released during freezing/condensation",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c10"]
+    },
+    {
+      "id": "c10",
+      "name": "Kinetic theory fundamentals",
+      "description": "Temperature is a measure of average kinetic energy of particles",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": []
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "misconception": "Particles in a solid don't move at all",
+      "correction": "Particles in solids vibrate in fixed positions - they have kinetic energy but cannot change places",
+      "prevalence": "high",
+      "source": "Driver et al., 1994; RSC Education",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m2",
+      "misconception": "When a solid is heated, the particles get bigger",
+      "correction": "Particles stay the same size; they vibrate more and take up more space (thermal expansion)",
+      "prevalence": "high",
+      "source": "RSC Education; AAAS Project 2061",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m3",
+      "misconception": "Liquids are halfway between solids and gases in particle spacing",
+      "correction": "Particles in liquids are actually close together (like solids), but can move and change places",
+      "prevalence": "high",
+      "source": "Driver et al., 1994",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m4",
+      "misconception": "There is air between particles in matter",
+      "correction": "The space between particles is empty (vacuum) - not filled with air",
+      "prevalence": "high",
+      "source": "AAAS AMM003; Driver et al.",
+      "questionPhase": 4,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m5",
+      "misconception": "Particles have the same properties as the bulk substance (gold atoms are shiny, water molecules are wet)",
+      "correction": "Macroscopic properties emerge from particle interactions - individual particles don't have these properties",
+      "prevalence": "medium",
+      "source": "Renström et al., 1990; Talanquer, 2009 'inheritance assumption'",
+      "questionPhase": 4,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m6",
+      "misconception": "Melting and dissolving are the same process",
+      "correction": "Melting is a physical change of state (solid to liquid); dissolving is mixing with a solvent",
+      "prevalence": "high",
+      "source": "RSC Education; Driver et al.",
+      "questionPhase": 2,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m7",
+      "misconception": "When a solid melts, particles 'pop' or disappear",
+      "correction": "Particles remain; they gain energy and break free from fixed positions to move around",
+      "prevalence": "medium",
+      "source": "RSC Education",
+      "questionPhase": 3,
+      "diagnosticValue": "medium"
+    },
+    {
+      "id": "m8",
+      "misconception": "Gas is not really matter / gases have no mass",
+      "correction": "Gases are matter - they have mass and take up space, just spread out more",
+      "prevalence": "medium",
+      "source": "AAAS AMM003",
+      "questionPhase": 2,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m9",
+      "misconception": "Water molecules change during phase changes (different molecules in ice vs steam)",
+      "correction": "The same H2O molecules exist in all three states - only their arrangement and energy changes",
+      "prevalence": "medium",
+      "source": "AAAS AMM047",
+      "questionPhase": 3,
+      "diagnosticValue": "high"
+    },
+    {
+      "id": "m10",
+      "misconception": "Cold makes particles stop moving completely",
+      "correction": "Particles always have some motion above absolute zero (-273°C); cold only slows them down",
+      "prevalence": "medium",
+      "source": "Driver et al., 1994",
+      "questionPhase": 4,
+      "diagnosticValue": "medium"
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "Ice cream melting on a hot day",
+      "concepts": ["c1", "c6", "c7", "c9"],
+      "curiosityHook": "Why does ice cream melt faster outside than in the freezer?",
+      "questionPhase": 2,
+      "australianRelevance": "Summer beach trips, hot Australian climate"
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Steam rising from a hot shower",
+      "concepts": ["c5", "c6", "c7"],
+      "curiosityHook": "Where does the steam go when it disappears into the air?",
+      "questionPhase": 2,
+      "australianRelevance": "Daily experience"
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Fogged-up bathroom mirror",
+      "concepts": ["c5", "c7", "c9"],
+      "curiosityHook": "Why does the mirror fog up and then clear again?",
+      "questionPhase": 3,
+      "australianRelevance": "Daily experience"
+    },
+    {
+      "id": "p4",
+      "phenomenon": "Morning dew on grass",
+      "concepts": ["c5", "c7", "c9"],
+      "curiosityHook": "Where does dew come from if it didn't rain overnight?",
+      "questionPhase": 3,
+      "australianRelevance": "Common in Australian mornings"
+    },
+    {
+      "id": "p5",
+      "phenomenon": "Smell of perfume spreading across a room",
+      "concepts": ["c2", "c5", "c8"],
+      "curiosityHook": "How can you smell perfume from across the room without any wind?",
+      "questionPhase": 3,
+      "australianRelevance": "Daily experience"
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Popcorn popping",
+      "concepts": ["c5", "c6", "c7", "c9"],
+      "curiosityHook": "What makes popcorn 'pop' - and why doesn't all corn do this?",
+      "questionPhase": 3,
+      "australianRelevance": "Movie snacks, home cooking"
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Deflated football on a cold morning",
+      "concepts": ["c5", "c6", "c10"],
+      "curiosityHook": "Why does a football seem flat on a cold morning but fine by lunchtime?",
+      "questionPhase": 4,
+      "australianRelevance": "AFL/NRL/soccer culture"
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Ice floating on water",
+      "concepts": ["c3", "c4", "c7"],
+      "curiosityHook": "Most substances sink when solid - why does ice float?",
+      "questionPhase": 4,
+      "australianRelevance": "Drinks with ice, icebergs in documentaries"
+    },
+    {
+      "id": "p9",
+      "phenomenon": "Dry ice 'smoking' at parties",
+      "concepts": ["c5", "c7"],
+      "curiosityHook": "Why does dry ice skip the liquid stage and go straight to gas?",
+      "questionPhase": 4,
+      "australianRelevance": "School science shows, Halloween"
+    },
+    {
+      "id": "p10",
+      "phenomenon": "Cooking - butter melting in a pan",
+      "concepts": ["c1", "c6", "c7", "c9"],
+      "curiosityHook": "Why does butter melt at room temperature but chocolate doesn't?",
+      "questionPhase": 2,
+      "australianRelevance": "Kitchen science, home cooking"
+    }
+  ],
+
+  "scaffoldingSequence": [
+    {
+      "phase": 1,
+      "name": "Activate Prior Knowledge",
+      "focus": "Observable properties of solids, liquids, gases",
+      "concepts": ["c1"],
+      "questionCount": 10,
+      "difficulty": "foundational"
+    },
+    {
+      "phase": 2,
+      "name": "Introduce Particle Model",
+      "focus": "Matter is made of particles; basic arrangement differences",
+      "concepts": ["c2", "c3", "c4", "c5"],
+      "questionCount": 20,
+      "difficulty": "foundational-to-intermediate"
+    },
+    {
+      "phase": 3,
+      "name": "Challenge Misconceptions",
+      "focus": "Particle motion, state changes, energy connection",
+      "concepts": ["c6", "c7", "c8"],
+      "questionCount": 25,
+      "difficulty": "intermediate"
+    },
+    {
+      "phase": 4,
+      "name": "Extend and Apply",
+      "focus": "Kinetic theory, complex applications, unusual cases",
+      "concepts": ["c9", "c10"],
+      "questionCount": 25,
+      "difficulty": "intermediate-to-advanced"
+    }
+  ],
+
+  "vocabularyProgression": {
+    "phase1": ["solid", "liquid", "gas", "matter", "property", "shape", "volume"],
+    "phase2": ["particle", "atom", "molecule", "arrangement", "spacing", "packed", "spread out"],
+    "phase3": ["vibrate", "motion", "energy", "temperature", "melting", "freezing", "boiling", "condensation", "evaporation", "diffusion"],
+    "phase4": ["kinetic energy", "thermal energy", "sublimation", "absolute zero", "pressure", "compression", "expansion", "phase change"]
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": [
+      "Introduce particle model visually before abstract descriptions (Mayer's multimedia principle)",
+      "Use animations/simulations to show particle motion - reduces need for mental visualization",
+      "Keep diagrams and explanations spatially close (contiguity principle)",
+      "Build from familiar macroscopic observations before introducing particle explanations"
+    ],
+    "engagementStrategies": [
+      "Start with everyday examples (ice, water, steam) before scientific terminology",
+      "Allow predictions before explanations - creates curiosity gap",
+      "Use anomalies to spark interest (Why does ice float? Why does dry ice skip liquid?)",
+      "Connect to cooking and food science for relevance"
+    ],
+    "motivationFactors": [
+      "Connect to cooking and kitchen science",
+      "Link to weather phenomena and seasons",
+      "Relate to sports (ball pressure, swimming pools)",
+      "Use Australian context (hot climate, beach culture)"
+    ],
+    "desirableDifficulties": [
+      "Interleave solid/liquid/gas comparisons rather than blocking",
+      "Include retrieval practice questions that require recalling earlier concepts",
+      "Vary question contexts to promote transfer"
+    ],
+    "spacedRepetitionPoints": ["c2", "c6", "c7", "c9"],
+    "testingEffectOpportunities": [
+      "Low-stakes quizzes after each concept cluster",
+      "Prediction questions before demonstrations",
+      "Explain-to-a-friend style questions"
+    ]
+  },
+
+  "questionDesignGuidelines": {
+    "mcqDistractorStrategy": "Use documented misconceptions as distractors (e.g., 'particles get bigger when heated')",
+    "shortAnswerFocus": "Require particle-level explanations for macroscopic observations",
+    "diagramQuestions": "Include particle arrangement diagrams for interpretation and prediction",
+    "calculationOpportunities": "Limited at Year 8 - focus on qualitative understanding",
+    "realWorldApplication": "At least 40% of questions should use real-world contexts"
+  },
+
+  "differentiationNotes": {
+    "supportStrategies": [
+      "Provide particle model visual scaffolds",
+      "Use sentence starters for explanations",
+      "Break multi-step reasoning into guided questions"
+    ],
+    "extensionOpportunities": [
+      "Explore plasma as fourth state",
+      "Investigate phase diagrams",
+      "Research absolute zero and Bose-Einstein condensates",
+      "Calculate heating curves"
+    ]
+  },
+
+  "sources": [
+    {
+      "name": "Driver, R. et al. (1994). Making sense of secondary science",
+      "type": "research",
+      "url": null
+    },
+    {
+      "name": "AAAS Project 2061 Science Assessment",
+      "type": "assessment",
+      "url": "http://assessment.aaas.org/topics"
+    },
+    {
+      "name": "RSC Education - States of matter and particle theory",
+      "type": "pedagogical",
+      "url": "https://edu.rsc.org/cpd/states-of-matter-and-particle-theory/3010239.article"
+    },
+    {
+      "name": "RSC Education - Students' ideas about particulate nature of matter",
+      "type": "research",
+      "url": "https://edu.rsc.org/resources/students-ideas-about-the-particulate-nature-of-matter-beyond-appearances/4017763.article"
+    },
+    {
+      "name": "Fizzics Education - 50 ideas to teach states of matter",
+      "type": "pedagogical",
+      "url": "https://courses.fizzicseducation.com.au/blog/50-ideas-to-teach-students-about-states-of-matter"
+    },
+    {
+      "name": "PhET Interactive Simulations",
+      "type": "simulation",
+      "url": "https://phet.colorado.edu/"
+    },
+    {
+      "name": "NSW Education - Cognitive Load Theory",
+      "type": "pedagogical",
+      "url": "https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory.pdf"
+    },
+    {
+      "name": "Mayer, R. - Cognitive Theory of Multimedia Learning",
+      "type": "research",
+      "url": "https://link.springer.com/article/10.1007/s10648-023-09842-1"
+    }
+  ]
+}

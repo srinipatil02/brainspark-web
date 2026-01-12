@@ -1,0 +1,1126 @@
+[
+  {
+    "questionId": "chem-react-y8-061",
+    "questionType": "SHORT_ANSWER",
+    "stem": "When you open a hand warmer packet and shake it, the iron powder inside reacts with oxygen from the air:\n\n$\\text{4Fe + 3O}_2 \\rightarrow \\text{2Fe}_2\\text{O}_3 + \\text{energy}$\n\nExplain why the hand warmer feels hot, and classify this as either an **exothermic** or **endothermic** reaction. Use evidence from the equation to support your answer.",
+    "solution": "The hand warmer feels hot because the reaction is **exothermic** - it **releases energy** to the surroundings.\n\n**Evidence from the equation:**\n- The equation shows **+ energy** on the product side, indicating energy is released during the reaction\n- When iron reacts with oxygen to form iron oxide (rust), the chemical bonds in Fe₂O₃ are **more stable** than the bonds in the reactants\n- This extra stability means **energy is released** as the new bonds form\n- The released energy transfers to your hands as **heat**\n\n**Exothermic reactions** always release energy to their surroundings, making them feel warm or hot. Other examples include combustion, neutralization, and most oxidation reactions like rusting.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about where the energy in the equation is located - is it on the reactant side or the product side?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "When energy appears on the product side of an equation (+ energy), it means energy is being released. What do we call reactions that release energy?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 61,
+      "conceptsUsed": ["c9", "c2", "c5"],
+      "buildsOn": ["chem-react-y8-041", "chem-react-y8-045"],
+      "preparesFor": ["chem-react-y8-062", "chem-react-y8-071"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set7",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-062",
+    "questionType": "MCQ",
+    "stem": "A student conducts an experiment where they mix citric acid and baking soda in a sealed plastic bag. The bag becomes cold to touch and inflates.\n\nWhich statement best explains these observations?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The reaction is exothermic because it produces gas",
+        "isCorrect": false,
+        "feedback": "Gas production doesn't determine if a reaction is exothermic or endothermic. The bag feels cold, which is the key observation."
+      },
+      {
+        "id": "B",
+        "text": "The reaction is endothermic because it absorbs energy from the surroundings, making the bag feel cold",
+        "isCorrect": true,
+        "feedback": "Correct! In an **endothermic reaction**, energy is absorbed from the surroundings. This causes the bag to feel **cold** as thermal energy is taken from the environment. The inflation is due to CO₂ gas being produced."
+      },
+      {
+        "id": "C",
+        "text": "The reaction is exothermic because the gas produced contains energy",
+        "isCorrect": false,
+        "feedback": "The cold temperature indicates energy is being absorbed, not released. This is an endothermic reaction."
+      },
+      {
+        "id": "D",
+        "text": "The reaction has no energy change because the temperature returns to normal",
+        "isCorrect": false,
+        "feedback": "The cooling effect shows that energy was absorbed during the reaction, making it endothermic even if the bag warms up again later."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThe reaction is **endothermic** because it **absorbs energy** from the surroundings, making the bag feel **cold**.\n\n**Analysis of observations:**\n1. **Cold bag**: Indicates energy is being absorbed from the environment (endothermic)\n2. **Inflation**: Shows CO₂ gas is being produced as a product\n\nThe equation for this reaction is:\n$\\text{C}_6\\text{H}_8\\text{O}_7 + 3\\text{NaHCO}_3 \\rightarrow 3\\text{CO}_2 + 3\\text{H}_2\\text{O} + \\text{Na}_3\\text{C}_6\\text{H}_5\\text{O}_7$\n\n**Endothermic reactions** absorb energy to break bonds in reactants, taking thermal energy from their surroundings. This is why instant cold packs and this citric acid reaction feel cold.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What does it mean when something feels cold to touch? Is energy being released or absorbed?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "If the bag feels cold, thermal energy is being absorbed from the surroundings into the reaction. What type of reaction absorbs energy?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 62,
+      "conceptsUsed": ["c9", "c2", "c3"],
+      "buildsOn": ["chem-react-y8-061", "chem-react-y8-042"],
+      "preparesFor": ["chem-react-y8-063", "chem-react-y8-072"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set7",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-063",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student makes this claim:\n\n> \"Exothermic reactions are always explosive and dangerous. That's why they release so much energy.\"\n\n**Is this claim accurate?** Explain your reasoning and provide **two examples** of gentle exothermic reactions that occur in everyday life.",
+    "solution": "This claim is **not accurate**. Exothermic reactions are not always explosive or dangerous.\n\n**Why the claim is wrong:**\n- **Exothermic** simply means energy is released - it says nothing about the **rate** of energy release\n- Explosive reactions release energy **very rapidly** (high reaction rate)\n- Many exothermic reactions release energy **slowly and gently** over hours or even years\n\n**Two examples of gentle exothermic reactions:**\n\n1. **Hand warmers**: Iron slowly reacts with oxygen over several hours, releasing gentle warmth\n   - Reaction: 4Fe + 3O₂ → 2Fe₂O₃ + energy\n   - Safe enough to hold in your hands\n\n2. **Rusting of iron**: Iron reacts with oxygen and water very slowly over months/years\n   - Releases energy but so slowly you cannot feel it\n   - Common on Australian coastal structures\n\n3. **Respiration in cells**: Glucose reacts with oxygen to release energy for living organisms\n   - Occurs constantly in your body without any explosion\n\nThe confusion comes from mixing up **exothermic** (releases energy) with **reaction rate** (how fast it happens).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the difference between 'releasing energy' and 'releasing energy quickly'. Can reactions release energy slowly?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider everyday chemical reactions that feel warm but aren't dangerous - like hand warmers or even rusting metal. Are these exothermic?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 63,
+      "conceptsUsed": ["c9", "c10"],
+      "buildsOn": ["chem-react-y8-061", "chem-react-y8-051"],
+      "preparesFor": ["chem-react-y8-066", "chem-react-y8-070"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set7",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-064",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Inside a glow stick, two chemicals are separated. When you bend the glow stick, a glass vial breaks and the chemicals mix, producing light **without producing heat**.\n\nThis seems to contradict the idea that chemical reactions involve energy changes. Explain:\n1. What type of reaction is this (exothermic or endothermic)?\n2. Where does the energy go if it doesn't produce heat?",
+    "solution": "**1. Type of reaction:**\nThis is an **exothermic reaction** - energy is still being released, just not as heat.\n\n**2. Where the energy goes:**\nThe energy is released as **light (photons)** instead of thermal energy (heat).\n\n**Full explanation:**\n- All chemical reactions involve **energy changes** - bonds breaking and forming\n- In glow sticks, the reaction releases energy, but instead of converting to **thermal energy** (heat), the energy is released as **electromagnetic radiation** in the visible spectrum (light)\n- This is called **chemiluminescence** - \"chemical light\"\n- The reaction is still exothermic because energy is being **released** from the system, just in a different form\n\n**Why no heat?**\n- The specific chemicals used (typically hydrogen peroxide + phenyl oxalate ester + fluorescent dye) have a reaction pathway that favors **light emission** over heat production\n- The dye molecules absorb energy from the reaction and re-emit it as visible light\n- This is actually more efficient than combustion, which wastes energy as heat\n\n**Energy forms:** Chemical energy → Light energy (not → Thermal energy)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Energy can take many forms, not just heat. What form of energy do glow sticks produce?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The reaction is still releasing energy (exothermic), but instead of heat, the energy is released as light. Think about other forms energy can take.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 64,
+      "conceptsUsed": ["c9", "c2"],
+      "buildsOn": ["chem-react-y8-061", "chem-react-y8-062"],
+      "preparesFor": ["chem-react-y8-071", "chem-react-y8-075"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set7",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-065",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Photosynthesis is the reaction that allows plants to make food:\n\n$\\text{6CO}_2 + \\text{6H}_2\\text{O} + \\text{light energy} \\rightarrow \\text{C}_6\\text{H}_{12}\\text{O}_6 + \\text{6O}_2$\n\nUsing the equation as evidence:\n1. Is photosynthesis exothermic or endothermic?\n2. Why do plants need sunlight for this reaction to occur?\n3. What happens to the light energy during the reaction?",
+    "solution": "**1. Type of reaction:**\nPhotosynthesis is **endothermic** - it **absorbs energy** from the surroundings.\n\n**2. Why sunlight is needed:**\nPlants need sunlight because the reaction **requires energy input** to break the bonds in CO₂ and H₂O and form the more complex glucose molecule (C₆H₁₂O₆).\n\n**3. What happens to light energy:**\nThe light energy is **absorbed** and **stored as chemical energy** in the glucose molecules.\n\n**Detailed explanation:**\n\n**Evidence from the equation:**\n- Light energy appears on the **reactant side** (+ light energy), showing energy must be **added** for the reaction to occur\n- This is the defining characteristic of an **endothermic reaction**\n\n**Energy transformation:**\n- Light energy from the sun is captured by chlorophyll in plant cells\n- This energy is used to **break bonds** in CO₂ and H₂O\n- The energy is then **stored in the chemical bonds** of glucose\n- When organisms later break down glucose (respiration), this stored energy is released\n\n**Why this matters:**\n- Photosynthesis stores solar energy as chemical energy in food\n- This is how **all energy enters food chains** on Earth\n- The opposite of photosynthesis is **respiration** (exothermic), which releases the stored energy",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at where 'light energy' appears in the equation. Is it on the reactant side or product side?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "When energy appears on the reactant side (must be added), the reaction is endothermic. Where does this energy end up?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 65,
+      "conceptsUsed": ["c9", "c2", "c5"],
+      "buildsOn": ["chem-react-y8-062", "chem-react-y8-045"],
+      "preparesFor": ["chem-react-y8-072", "chem-react-y8-078"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set7",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-066",
+    "questionType": "MCQ",
+    "stem": "A student is investigating how temperature affects reaction rate. They add an antacid tablet to cold water (10°C) and measure how long it takes to fully dissolve. They repeat with warm water (40°C).\n\nWhich result is most likely, and why?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The tablet dissolves faster in cold water because the water molecules move slower and react more carefully",
+        "isCorrect": false,
+        "feedback": "Slower molecular movement actually **decreases** reaction rate, not increases it. Particles need to collide with enough energy."
+      },
+      {
+        "id": "B",
+        "text": "The tablet dissolves faster in warm water because particles have more kinetic energy and collide more frequently",
+        "isCorrect": true,
+        "feedback": "Correct! **Higher temperature** increases the **kinetic energy** of particles, causing them to move faster and **collide more frequently** with greater energy. This increases the **reaction rate**. This is why cooking food in hot water is faster than cold water."
+      },
+      {
+        "id": "C",
+        "text": "The tablet dissolves at the same rate because temperature doesn't affect chemical reactions",
+        "isCorrect": false,
+        "feedback": "Temperature is one of the most important factors affecting reaction rate. Higher temperatures almost always increase reaction rates."
+      },
+      {
+        "id": "D",
+        "text": "The tablet dissolves faster in cold water because there is less thermal energy to interfere with the reaction",
+        "isCorrect": false,
+        "feedback": "Thermal energy doesn't 'interfere' - it provides the energy needed for particles to collide and react. More thermal energy = faster reactions."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThe tablet dissolves **faster in warm water** because particles have **more kinetic energy** and **collide more frequently** with sufficient energy to react.\n\n**How temperature affects reaction rate:**\n\n1. **Particle kinetic energy**: Higher temperature → particles move faster\n2. **Collision frequency**: Faster particles collide more often\n3. **Collision energy**: Collisions have more energy, more likely to overcome activation energy\n4. **Result**: Reaction rate increases\n\n**The relationship:**\n- **Temperature ↑** → **Reaction rate ↑**\n- **Temperature ↓** → **Reaction rate ↓**\n\n**Real-world applications:**\n- Food spoils faster in hot weather (bacteria reproduce faster)\n- Refrigerators slow decomposition reactions\n- Cooking requires heat to speed up chemical reactions\n- Enzymes in your body work fastest at 37°C (body temperature)\n\nThis is why nearly all chemical processes are temperature-dependent.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how particles behave at different temperatures. Do they move faster or slower when heated?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Higher temperature means particles have more kinetic energy and move faster. How would this affect how often they collide with the tablet?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 66,
+      "conceptsUsed": ["c10", "c1"],
+      "buildsOn": ["chem-react-y8-051", "chem-react-y8-021"],
+      "preparesFor": ["chem-react-y8-067", "chem-react-y8-070"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set7",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-067",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student is conducting an experiment on reaction rates. They have two identical antacid tablets and two beakers of water at the same temperature.\n\n**Setup A:** Whole tablet added to 200 mL water\n**Setup B:** Tablet crushed into powder, then added to 200 mL water\n\nPredict which setup will react faster, and explain your prediction using the concept of **surface area** and **particle collisions**.",
+    "solution": "**Prediction:** Setup B (crushed powder) will react **faster** than Setup A (whole tablet).\n\n**Explanation using surface area:**\n\nWhen the tablet is crushed into powder, the **surface area** increases dramatically:\n- The **whole tablet** has limited surface area exposed to water molecules\n- The **crushed powder** has many small pieces, each with exposed surfaces\n- More surface area means **more reactant particles are exposed** and available to react\n\n**Explanation using particle collisions:**\n\n1. **More collision sites**: Water molecules can only collide with particles on the **surface** of the tablet\n2. **Whole tablet**: Water molecules can only reach the outer surface\n3. **Crushed powder**: Water molecules can reach many more reactant particles at once\n4. **More collisions per second** → **faster reaction rate**\n\n**The relationship:**\n- **Surface area ↑** → **Collision frequency ↑** → **Reaction rate ↑**\n\n**Real-world applications:**\n- Powdered sugar dissolves faster than sugar cubes\n- Kindling (small sticks) catches fire faster than logs\n- Chewing food increases surface area for digestion\n- Industrial processes often use powdered reactants to speed up production\n\nThis is why the same **mass** of reactant can have very different **reaction rates** depending on particle size.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about where the reaction occurs - inside the tablet or on its surface? How does crushing change this?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Crushing increases the surface area. More surface area means more reactant particles are exposed to water molecules. How does this affect collision frequency?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 67,
+      "conceptsUsed": ["c10", "c1"],
+      "buildsOn": ["chem-react-y8-066", "chem-react-y8-052"],
+      "preparesFor": ["chem-react-y8-068", "chem-react-y8-073"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set7",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-068",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A factory produces ammonia using the Haber process:\n\n$\\text{N}_2 + \\text{3H}_2 \\rightarrow \\text{2NH}_3$\n\nTo make this reaction occur faster, the factory uses:\n- **High temperature** (450°C)\n- **High pressure**\n- **Iron catalyst**\n\nExplain how **each of these three factors** increases the reaction rate. Your answer should reference particle collisions.",
+    "solution": "All three factors increase the **frequency and energy of particle collisions**, speeding up the reaction rate:\n\n**1. High temperature (450°C):**\n- Particles gain **more kinetic energy** and move faster\n- **Collision frequency increases** - particles collide more often\n- **Collision energy increases** - more collisions have enough energy to overcome activation energy and react\n- Result: Faster reaction rate\n\n**2. High pressure:**\n- Compresses the gas molecules into a **smaller volume**\n- Particles are **closer together** with less space between them\n- **Collision frequency increases dramatically** - particles collide more often because they don't have to travel as far\n- Result: Faster reaction rate (especially important for gas reactions)\n\n**3. Iron catalyst:**\n- Provides an **alternative reaction pathway** with **lower activation energy**\n- More collisions have enough energy to successfully react\n- **Does not get used up** - the iron is recovered unchanged and can be reused\n- Speeds up the reaction **without being consumed**\n- Result: Faster reaction rate without needing higher temperatures\n\n**Summary:**\n- **Temperature**: Particles move faster → more frequent, energetic collisions\n- **Pressure**: Particles closer together → more frequent collisions\n- **Catalyst**: Lowers energy needed → more successful collisions\n\nAll three work together to make the Haber process economically viable for industrial ammonia production (used in fertilizers).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "For each factor, think about how it affects either how often particles collide, or how much energy those collisions have.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Temperature increases particle speed; pressure pushes particles closer; catalysts lower the energy barrier. How does each affect collision frequency or success rate?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 68,
+      "conceptsUsed": ["c10", "c1", "c5"],
+      "buildsOn": ["chem-react-y8-066", "chem-react-y8-067"],
+      "preparesFor": ["chem-react-y8-073", "chem-react-y8-076"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set7",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-069",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student says:\n\n> \"Catalysts speed up reactions by getting used up and releasing extra energy.\"\n\n**Identify two errors** in this statement and explain what actually happens when a catalyst is used in a chemical reaction.",
+    "solution": "**Two errors in the statement:**\n\n**Error 1:** \"Catalysts get used up\"\n- This is **incorrect**\n- Catalysts are **not consumed** in the reaction\n- They are **recovered unchanged** at the end and can be **reused**\n- This is why only small amounts of catalyst are needed in industrial processes\n\n**Error 2:** \"Catalysts release extra energy\"\n- This is **incorrect**\n- Catalysts do **not** change the energy released or absorbed in a reaction\n- They do **not** make reactions more exothermic or endothermic\n- The energy change (ΔH) remains the same with or without a catalyst\n\n**What catalysts actually do:**\n\nCatalysts **lower the activation energy** of a reaction:\n- They provide an **alternative reaction pathway** that requires less energy to start\n- This means **more particle collisions** have sufficient energy to successfully react\n- **Reaction rate increases** without changing the products or energy change\n- The catalyst participates temporarily but is **regenerated** unchanged\n\n**Example:**\n- Enzymes in your body are biological catalysts\n- They speed up reactions like digestion\n- The same enzyme molecule can catalyze **thousands** of reactions\n- If enzymes were 'used up', your body would need enormous amounts\n\n**Key principle:** Catalysts change **how fast** you get to products, not **what** products you get or **how much energy** is involved.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about why catalysts are so valuable in industry. If they were used up, would that be practical?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Catalysts are recovered unchanged - that's their defining feature. They lower activation energy but don't change the overall energy of the reaction.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 69,
+      "conceptsUsed": ["c10", "c9"],
+      "buildsOn": ["chem-react-y8-068", "chem-react-y8-053"],
+      "preparesFor": ["chem-react-y8-074", "chem-react-y8-076"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set7",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-070",
+    "questionType": "MCQ",
+    "stem": "A student investigates how concentration affects reaction rate by reacting magnesium ribbon with hydrochloric acid:\n\n**Trial A:** 5 cm ribbon + 50 mL of 1M HCl\n**Trial B:** 5 cm ribbon + 50 mL of 2M HCl\n\nWhich prediction is correct, with the best scientific reasoning?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Trial B will react faster because there are more acid particles per unit volume, increasing collision frequency",
+        "isCorrect": true,
+        "feedback": "Correct! **Higher concentration** means **more reactant particles in the same volume**. This increases the **collision frequency** between magnesium atoms and acid particles, leading to a **faster reaction rate**. You would observe more vigorous bubbling and the ribbon disappearing faster."
+      },
+      {
+        "id": "B",
+        "text": "Trial A will react faster because the acid is less concentrated so it can spread out more evenly",
+        "isCorrect": false,
+        "feedback": "Lower concentration actually decreases reaction rate because there are fewer acid particles available to collide with the magnesium."
+      },
+      {
+        "id": "C",
+        "text": "Both trials will react at the same rate because they have the same volume of acid",
+        "isCorrect": false,
+        "feedback": "Volume alone doesn't determine reaction rate - it's the concentration (number of particles per unit volume) that matters. More concentrated = more collisions."
+      },
+      {
+        "id": "D",
+        "text": "Trial B will react slower because concentrated acid creates a protective layer on the magnesium",
+        "isCorrect": false,
+        "feedback": "This isn't how concentration affects reactions. Higher concentration increases collision frequency and reaction rate."
+      }
+    ],
+    "solution": "The answer is **A**.\n\nTrial B reacts **faster** because **higher concentration** (2M vs 1M) means **more acid particles per unit volume**, which **increases collision frequency** between reactant particles.\n\n**Explanation:**\n\n**Concentration and particle density:**\n- **1M HCl**: Contains a certain number of H⁺ and Cl⁻ ions per 50 mL\n- **2M HCl**: Contains **twice as many** H⁺ and Cl⁻ ions in the same 50 mL\n- More particles in same space = **higher particle density**\n\n**Effect on collisions:**\n- Magnesium atoms on the ribbon surface can collide with acid particles\n- In **2M acid**, there are **more acid particles** available to collide\n- **Collision frequency increases**\n- **Reaction rate increases**\n\n**Observable evidence:**\n- **Trial B** would show:\n  - More vigorous bubbling (faster H₂ gas production)\n  - Ribbon disappears faster\n  - Solution may heat up more quickly (exothermic reaction)\n\n**The relationship:**\n**Concentration ↑** → **Particle density ↑** → **Collision frequency ↑** → **Reaction rate ↑**\n\nThis is why diluting chemicals slows down reactions - fewer particles means fewer successful collisions per second.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "What does concentration measure? Think about how many particles are in a given volume of solution.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "2M acid has twice as many acid particles in the same volume as 1M acid. How would this affect how often acid particles collide with the magnesium?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 70,
+      "conceptsUsed": ["c10", "c1", "c6"],
+      "buildsOn": ["chem-react-y8-066", "chem-react-y8-067"],
+      "preparesFor": ["chem-react-y8-073", "chem-react-y8-077"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set7",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-071",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Aboriginal and Torres Strait Islander peoples developed sophisticated chemical processes over thousands of years. One example is **quicklime production**:\n\n1. Burn **shells** (calcium carbonate) in very hot fires\n2. This produces **quicklime** (calcium oxide): $\\text{CaCO}_3 \\rightarrow \\text{CaO} + \\text{CO}_2$\n3. Mix quicklime with water: $\\text{CaO} + \\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 + \\text{energy}$\n4. Use the paste for **medicine, tanning hides, and food preparation**\n\nAnalyse both reactions:\n- Classify each reaction as exothermic or endothermic\n- Explain how First Nations peoples controlled the energy changes\n- Why was the second reaction useful for medicine (hint: it produces heat)?",
+    "solution": "**Classification of reactions:**\n\n**Reaction 1** (burning shells): **Endothermic**\n- Requires **heat input** from the fire (light energy on reactant side)\n- Breaking down calcium carbonate requires energy\n- This is a **thermal decomposition** reaction\n\n**Reaction 2** (quicklime + water): **Exothermic**\n- Releases **energy** (shown by + energy on product side)\n- The reaction produces significant heat\n- Can raise temperature by over 100°C\n\n**How First Nations peoples controlled energy changes:**\n\n**For Reaction 1:**\n- Built **very hot fires** using specific wood types to reach high temperatures (over 800°C)\n- Controlled **fire duration** - needed sustained heat for hours\n- Positioned shells to ensure **complete thermal decomposition**\n- This required deep knowledge of fire management\n\n**For Reaction 2:**\n- Controlled the **amount of water** added to quicklime\n- Could create gentle warmth or intense heat depending on ratio\n- Stored quicklime dry until needed (prevents premature reaction)\n\n**Medical applications of exothermic reaction:**\n\nThe heat produced when quicklime reacts with water was useful for:\n- **Warmth therapy**: Applied as a warm paste to treat muscle pain and inflammation\n- **Sterilization**: Heat kills bacteria, making the paste safer for treating wounds\n- **Pain relief**: Warmth increases blood flow and reduces pain\n- **Creating poultices**: The alkaline paste could treat skin conditions\n\n**Significance:**\nThis demonstrates sophisticated understanding of:\n- **Thermal decomposition** (endothermic)\n- **Exothermic reactions** producing controllable heat\n- **Energy transformations** (fire → chemical energy → heat)\n- **Practical chemistry** developed through careful observation over millennia\n\nFirst Nations peoples used these reactions **65,000+ years** before European chemistry formalized these concepts.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at where energy appears in each equation. Reaction 1 needs heat input; Reaction 2 releases energy. What do these tell you?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Reaction 1 is endothermic (needs fire heat). Reaction 2 is exothermic (releases heat). Think about how producing heat on demand would be useful for medicine.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 71,
+      "conceptsUsed": ["c9", "c2", "c10"],
+      "buildsOn": ["chem-react-y8-061", "chem-react-y8-065"],
+      "preparesFor": ["chem-react-y8-075", "chem-react-y8-078"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set8",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-072",
+    "questionType": "SHORT_ANSWER",
+    "stem": "The Great Barrier Reef is threatened by **ocean acidification**. When CO₂ from the atmosphere dissolves in seawater, it forms carbonic acid:\n\n$\\text{CO}_2 + \\text{H}_2\\text{O} \\rightarrow \\text{H}_2\\text{CO}_3$\n\nThis acid then reacts with coral (made of calcium carbonate):\n\n$\\text{CaCO}_3 + \\text{H}_2\\text{CO}_3 \\rightarrow \\text{Ca(HCO}_3\\text{)}_2$\n\nThe calcium bicarbonate dissolves in water, **destroying the coral structure**.\n\n**Explain:**\n1. Why is increased atmospheric CO₂ causing this problem?\n2. How does this relate to **reaction equilibrium** - as more CO₂ enters the ocean, what happens to the forward reaction?\n3. Predict what would happen to reaction rate if ocean temperatures increase due to climate change.",
+    "solution": "**1. Why increased atmospheric CO₂ causes this problem:**\n\n- **More CO₂ in the atmosphere** → **More CO₂ dissolves in ocean water**\n- Oceans absorb about **30% of human-produced CO₂**\n- This increases the **concentration of reactants** (CO₂ + H₂O)\n- **Higher concentration** → **more carbonic acid produced**\n- More carbonic acid → **more coral dissolution**\n- Since the Industrial Revolution, ocean acidity has increased by **30%**\n\n**2. Reaction equilibrium and the forward reaction:**\n\nWhen more CO₂ enters the ocean:\n- The **concentration of reactants increases** (CO₂ and H₂O are more abundant)\n- According to **Le Chatelier's Principle**, the reaction shifts to **reduce the stress**\n- The **forward reaction is favored** - more CO₂ is converted to carbonic acid\n- This produces **more acid** available to dissolve coral\n- The system tries to **consume the excess CO₂** by making more products\n- This is a **positive feedback** that accelerates coral destruction\n\n**3. Effect of increased ocean temperature:**\n\nIf ocean temperatures increase:\n- **Reaction rate increases** for both reactions (CO₂ → acid, and acid → coral dissolution)\n- **Higher temperature** → **particles move faster** → **more frequent collisions**\n- Coral dissolution happens **even faster**\n- Additionally, **warmer water holds less dissolved CO₂**, but the rate increase still dominates\n- Warmer temperatures also cause **coral bleaching** (different mechanism), compounding the damage\n\n**Combined effect:**\n- More atmospheric CO₂ + warmer oceans = **accelerated coral destruction**\n- The Great Barrier Reef has lost **50% of its coral** since 1995\n- Both **concentration increase** (more CO₂) and **temperature increase** (faster reactions) work together to harm reefs\n\n**Conservation significance:**\nUnderstanding these chemical reactions is crucial for:\n- Predicting future reef health\n- Developing conservation strategies\n- Demonstrating the urgency of reducing CO₂ emissions\n- Protecting Australian marine ecosystems and tourism",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to CO₂ concentration in ocean water as more CO₂ enters the atmosphere. How does concentration affect reaction rate?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "More CO₂ increases reactant concentration, driving the forward reaction faster. Higher temperature increases particle kinetic energy. Both accelerate coral dissolution.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 72,
+      "conceptsUsed": ["c10", "c6", "c9", "c2"],
+      "buildsOn": ["chem-react-y8-065", "chem-react-y8-066", "chem-react-y8-070"],
+      "preparesFor": ["chem-react-y8-078", "chem-react-y8-080"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set8",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-073",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A steel wool (iron) ball burns dramatically in pure oxygen, producing sparks and intense heat:\n\n$\\text{4Fe + 3O}_2 \\rightarrow \\text{2Fe}_2\\text{O}_3 + \\text{energy}$\n\nThe same steel wool rusts slowly in air over weeks, producing no visible light or heat:\n\n$\\text{4Fe + 3O}_2 + \\text{6H}_2\\text{O} \\rightarrow \\text{4Fe(OH)}_3$\n\n**Both reactions are exothermic oxidation of iron.** Explain:\n1. Why does burning in pure oxygen produce light and intense heat, but rusting in air does not?\n2. Which **three factors** affecting reaction rate explain this difference?\n3. Why does steel wool burn but a solid iron nail does not (even in pure oxygen)?",
+    "solution": "**1. Why burning produces light/heat but rusting doesn't:**\n\nBoth reactions are **exothermic** - they both release energy. The difference is the **reaction rate**:\n\n- **Burning in pure oxygen**: Very **fast** reaction rate\n  - Energy is released **rapidly** in a short time\n  - Temperature increases **dramatically**\n  - Hot enough to emit **visible light** (incandescence)\n  - Observable as flames and sparks\n\n- **Rusting in air**: Very **slow** reaction rate\n  - Energy is released **gradually** over days/weeks\n  - Small amount of energy per second\n  - Temperature increase is **too small to detect**\n  - No visible light produced\n\n**Key principle:** The **total energy** released might be similar, but the **rate** of energy release determines whether you observe heat and light.\n\n**2. Three factors causing different reaction rates:**\n\n**Factor 1 - Concentration (oxygen):**\n- **Pure oxygen**: 100% O₂ concentration\n- **Air**: Only 21% O₂ concentration (rest is nitrogen)\n- **5× more oxygen molecules** in pure oxygen\n- **Much higher collision frequency** with iron atoms\n\n**Factor 2 - Surface area:**\n- **Steel wool**: Very thin fibres with enormous surface area\n- More iron atoms exposed to oxygen\n- Many more collision sites available\n- Faster reaction\n\n**Factor 3 - Temperature:**\n- **Burning**: Once started, the exothermic reaction heats the steel further\n- **Higher temperature** → **faster reaction** → **more heat** (positive feedback)\n- **Rusting**: Occurs at room temperature, no temperature increase\n\n**3. Why steel wool burns but iron nail doesn't:**\n\nEven in pure oxygen, the **surface area** difference is critical:\n\n**Steel wool:**\n- **Very high surface area** relative to mass\n- Many thin fibres (diameter ~0.1 mm)\n- Almost all iron atoms are near the surface\n- Oxygen can access most of the reactant\n- Heats up quickly → self-sustaining reaction\n\n**Iron nail:**\n- **Low surface area** relative to mass\n- Most iron atoms are buried inside\n- Only surface layer reacts\n- Heat disperses into the bulk metal\n- Cannot reach ignition temperature\n- Forms surface oxide layer that slows further reaction\n\n**Summary:**\nThe same chemical reaction (Fe + O₂) can be:\n- **Dramatic and fast** (burning) with high concentration, high surface area, high temperature\n- **Slow and invisible** (rusting) with low concentration, low surface area, room temperature\n\nAll three factors work together to determine reaction rate.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Both reactions release energy, but one happens in seconds and the other takes weeks. What does this tell you about reaction rate?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Compare concentration of oxygen (pure vs air 21%), surface area (thin fibres vs solid nail), and how temperature changes during the reaction. All three affect collision frequency.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 73,
+      "conceptsUsed": ["c10", "c9", "c1", "c6"],
+      "buildsOn": ["chem-react-y8-067", "chem-react-y8-068", "chem-react-y8-070"],
+      "preparesFor": ["chem-react-y8-076", "chem-react-y8-079"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set8",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-074",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Catalytic converters in cars contain **platinum, palladium, and rhodium** catalysts. They convert harmful exhaust gases into less harmful products:\n\n$\\text{2CO + 2NO} \\rightarrow \\text{2CO}_2 + \\text{N}_2$\n\nA new catalytic converter costs over $1,000 because it contains precious metals, yet it lasts 10+ years and processes millions of chemical reactions.\n\n**Explain:**\n1. Why can a small amount of catalyst process millions of reactions over many years?\n2. A student claims: \"The catalyst makes the reaction exothermic so it releases energy.\" Correct this misconception.\n3. Why do catalytic converters only work when \"warmed up\" (above 250°C)?",
+    "solution": "**1. Why small amounts of catalyst last for millions of reactions:**\n\nCatalysts are **not consumed** in the reaction - they are **recovered unchanged**:\n\n- Catalyst particles provide a **surface** for the reaction to occur\n- Reactant molecules (CO and NO) **adsorb** (stick) to the catalyst surface\n- The reaction occurs on the surface with **lower activation energy**\n- Product molecules (CO₂ and N₂) **desorb** (leave) the surface\n- The **catalyst is regenerated** - same platinum atoms are ready for the next reaction\n- This cycle repeats **millions of times** without using up the catalyst\n\n**Why only a small amount is needed:**\n- Only the **surface** participates, not the bulk metal\n- A thin coating provides enough surface area\n- The same catalyst atoms work repeatedly\n- This is why catalytic converters are economically viable despite expensive metals\n\n**2. Correcting the misconception:**\n\nThe student's claim is **incorrect**. Here's why:\n\n**What catalysts DON'T do:**\n- Catalysts do **not** change whether a reaction is exothermic or endothermic\n- They do **not** change the energy released or absorbed\n- They do **not** change the products formed\n- The **ΔH (energy change)** is identical with or without catalyst\n\n**What catalysts DO:**\n- Lower the **activation energy** - the energy barrier to start the reaction\n- Provide an **alternative reaction pathway** requiring less energy\n- Allow **more collisions** to have sufficient energy to react\n- Increase **reaction rate** only\n\n**The reaction CO + NO → CO₂ + N₂:**\n- Is exothermic **with or without** the platinum catalyst\n- Releases the **same amount of energy** either way\n- The catalyst just makes it happen **faster**\n\n**3. Why catalytic converters need to warm up:**\n\nCatalysts work better at higher temperatures due to **reaction rate factors**:\n\n**Below 250°C:**\n- Reactant molecules have **low kinetic energy**\n- Even with lower activation energy, **collision frequency** and **collision energy** are insufficient\n- Reaction rate is too slow to clean the exhaust effectively\n- Some harmful gases pass through unreacted\n\n**Above 250°C:**\n- **Higher temperature** → particles move faster\n- **More frequent collisions** with the catalyst surface\n- **More energetic collisions** - more likely to overcome even the lowered activation energy\n- **Reaction rate increases dramatically**\n- Nearly all CO and NO are converted before exiting\n\n**Design implication:**\n- This is why **cold starts** produce more pollution\n- Modern cars heat catalytic converters faster\n- Hybrid cars face challenges when engines turn off frequently\n\n**Summary:**\nCatalysts are reusable, don't change energy of reactions, and work best when combined with other factors (like high temperature) that increase reaction rate.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what makes catalysts special - do they get used up in reactions? What do they actually change about a reaction?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Catalysts are recovered unchanged (can be reused forever). They lower activation energy but don't change whether reactions are exothermic. Temperature still matters for reaction rate even with a catalyst.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 74,
+      "conceptsUsed": ["c10", "c9", "c1"],
+      "buildsOn": ["chem-react-y8-068", "chem-react-y8-069"],
+      "preparesFor": ["chem-react-y8-076", "chem-react-y8-079"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set8",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-075",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student notices that:\n- **Burning paper** releases heat and light (exothermic)\n- **Photosynthesis** absorbs light energy (endothermic)\n\nThey conclude: \"Exothermic reactions always involve oxygen, and endothermic reactions always involve plants.\"\n\n**Evaluate this conclusion** by:\n1. Identifying why it's incorrect\n2. Providing one counterexample for each claim\n3. Explaining what **actually determines** whether a reaction is exothermic or endothermic",
+    "solution": "**1. Why the conclusion is incorrect:**\n\nThe conclusion confuses **specific examples** with **general principles**:\n- Exothermic/endothermic is about **energy flow**, not specific reactants or organisms\n- Many exothermic reactions **don't involve oxygen**\n- Many endothermic reactions **don't involve plants**\n- The student has generalized from limited observations\n\n**2. Counterexamples:**\n\n**Counterexample 1 - Exothermic reaction WITHOUT oxygen:**\n- Neutralization: $\\text{HCl + NaOH} \\rightarrow \\text{NaCl + H}_2\\text{O + energy}$\n- This is **exothermic** (releases heat when mixed)\n- **No oxygen** involved in the reaction\n- Other examples: Many precipitation reactions, mixing acids with metals\n\n**Counterexample 2 - Endothermic reaction WITHOUT plants:**\n- Thermal decomposition of limestone: $\\text{CaCO}_3 + \\text{heat} \\rightarrow \\text{CaO + CO}_2$\n- This is **endothermic** (requires heat input)\n- **No plants** involved - this is a geological/industrial process\n- Other examples: Melting ice, dissolving ammonium nitrate, quicklime production by Aboriginal peoples\n\n**3. What ACTUALLY determines exothermic vs endothermic:**\n\nThe determining factor is **bond energy comparison**:\n\n**Exothermic reactions:**\n- Energy **released** when forming product bonds **>** Energy **required** to break reactant bonds\n- **Net energy release** to surroundings\n- Products are at **lower energy** than reactants\n- The extra energy is released as heat, light, or other forms\n- Example: Combustion, neutralization, respiration, most oxidation reactions\n\n**Endothermic reactions:**\n- Energy **required** to break reactant bonds **>** Energy **released** when forming product bonds\n- **Net energy absorption** from surroundings\n- Products are at **higher energy** than reactants\n- Energy must be supplied (often as heat or light)\n- Example: Photosynthesis, thermal decomposition, dissolving some salts\n\n**The general principle:**\n```\nΔH = Energy of products - Energy of reactants\n\nIf ΔH < 0 → Exothermic (releases energy)\nIf ΔH > 0 → Endothermic (absorbs energy)\n```\n\n**It depends on:**\n- **Bond strengths** in reactants vs products\n- **Stability** of products vs reactants\n- **NOT** on whether oxygen is present\n- **NOT** on whether plants are involved\n- **NOT** on specific reactants, but on energy changes\n\n**Key lesson:**\nScientific conclusions must be based on **principles**, not just **patterns in examples**. The student observed correlation but not causation.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether the definition of exothermic and endothermic mentions oxygen or plants at all. What is it really about?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Exothermic and endothermic are about energy flow (released vs absorbed), not about specific chemicals. Can you think of reactions that release energy without oxygen, or absorb energy without plants?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 75,
+      "conceptsUsed": ["c9", "c2", "c5"],
+      "buildsOn": ["chem-react-y8-061", "chem-react-y8-064", "chem-react-y8-065"],
+      "preparesFor": ["chem-react-y8-078", "chem-react-y8-080"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set8",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-076",
+    "questionType": "MCQ",
+    "stem": "A chemical engineer wants to maximize the production rate of ammonia (NH₃) in an industrial reactor:\n\n$\\text{N}_2 + \\text{3H}_2 \\rightarrow \\text{2NH}_3 + \\text{energy}$\n\nThey are considering four changes to the process. Which combination of factors would **most effectively** increase the reaction rate?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Decrease temperature, increase pressure, remove the iron catalyst",
+        "isCorrect": false,
+        "feedback": "Decreasing temperature and removing the catalyst would both **decrease** reaction rate significantly, even though increasing pressure helps."
+      },
+      {
+        "id": "B",
+        "text": "Increase temperature, increase pressure, add more iron catalyst",
+        "isCorrect": true,
+        "feedback": "Correct! This combination maximizes reaction rate by affecting all key factors: **Temperature** increases particle kinetic energy and collision frequency; **Pressure** forces gas molecules closer together increasing collision frequency; **More catalyst** provides more surface area for the alternative lower-energy pathway. All three factors work together to dramatically increase production rate."
+      },
+      {
+        "id": "C",
+        "text": "Keep temperature constant, decrease pressure, add more iron catalyst",
+        "isCorrect": false,
+        "feedback": "Decreasing pressure would **decrease** collision frequency for this gas reaction, reducing the benefit of adding more catalyst."
+      },
+      {
+        "id": "D",
+        "text": "Increase temperature, decrease pressure, keep catalyst amount the same",
+        "isCorrect": false,
+        "feedback": "While higher temperature helps, decreasing pressure **decreases** reaction rate for gas reactions because particles are farther apart and collide less frequently."
+      }
+    ],
+    "solution": "The answer is **B**: Increase temperature, increase pressure, add more iron catalyst.\n\n**Why this combination is most effective:**\n\n**Factor 1 - Increased Temperature:**\n- Particles gain **higher kinetic energy**\n- Move **faster** → collide **more frequently**\n- Collisions have **more energy** → more likely to overcome activation energy\n- **Reaction rate increases**\n- Typical industrial temperature: 450°C\n\n**Factor 2 - Increased Pressure:**\n- For **gas reactions**, pressure is crucial\n- Compresses N₂ and H₂ molecules into **smaller volume**\n- Particles are **closer together**\n- **Collision frequency increases dramatically**\n- Typical industrial pressure: 200 atmospheres\n\n**Factor 3 - More Iron Catalyst:**\n- Provides **more surface area** for reaction\n- Lowers **activation energy** via alternative pathway\n- More catalyst particles = **more active sites**\n- Allows more reactions to occur **simultaneously**\n- Increases rate **without being consumed**\n\n**Why they work together:**\n\nEach factor increases reaction rate through a **different mechanism**:\n- Temperature: Increases **energy per collision**\n- Pressure: Increases **collision frequency** (for gases)\n- Catalyst: Increases **percentage of successful collisions**\n\n**Combined effect:**\n```\nReaction rate ∝ (collision frequency) × (collision energy) × (% successful)\n                     ↑ pressure           ↑ temperature    ↑ catalyst\n```\n\nAll three multiply together for maximum effect.\n\n**Industrial reality:**\nThe Haber process uses exactly this combination:\n- ~450°C (compromise between rate and equilibrium)\n- ~200 atm pressure\n- Iron catalyst with promoters\n- Produces millions of tonnes of ammonia annually for fertilizers\n\n**Why other options fail:**\n- Decreasing temperature **always** decreases reaction rate\n- Decreasing pressure decreases rate for **gas reactions**\n- Removing catalyst removes the **alternative low-energy pathway**\n\nThis question requires synthesizing knowledge of all factors affecting reaction rate to optimize an industrial process.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about each of the three factors that affect reaction rate: temperature, concentration/pressure, and catalysts. Which changes would increase rate for all three?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "For gas reactions, higher temperature and higher pressure both increase collision frequency and energy. More catalyst provides more active sites. Look for the option that increases all three.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 76,
+      "conceptsUsed": ["c10", "c1", "c9"],
+      "buildsOn": ["chem-react-y8-068", "chem-react-y8-073", "chem-react-y8-074"],
+      "preparesFor": ["chem-react-y8-079", "chem-react-y8-080"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set8",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-077",
+    "questionType": "SHORT_ANSWER",
+    "stem": "During a bushfire in the Australian bush, two students observe:\n\n**Observation 1:** Large logs burn slowly with smouldering flames\n**Observation 2:** Dry grass and leaves burn rapidly with intense flames\n**Observation 3:** The fire spreads faster on hot, windy days than cool, calm days\n\nUsing your knowledge of **factors affecting reaction rate**, explain all three observations. Your answer should discuss:\n- Surface area\n- Oxygen concentration\n- Temperature\n- How these relate to the combustion reaction",
+    "solution": "All three observations can be explained using **factors that affect reaction rate** in the combustion reaction:\n\n$\\text{Fuel (cellulose) + O}_2 \\rightarrow \\text{CO}_2 + \\text{H}_2\\text{O + energy}$\n\n**Observation 1 - Large logs burn slowly:**\n\nThis is due to **low surface area**:\n- Large logs have **small surface area relative to volume**\n- Only the **outer surface** is exposed to oxygen\n- Most of the wood is **buried inside**, protected from oxygen\n- **Low collision frequency** between fuel and oxygen\n- Reaction rate is **slow**\n- Heat from the exothermic reaction must conduct through the log\n- Creates a smouldering, slow burn\n\n**Observation 2 - Grass and leaves burn rapidly:**\n\nThis is due to **high surface area**:\n- Grass and leaves are **thin** with very high surface area to volume ratio\n- **Almost all fuel** is exposed to oxygen\n- Some leaves are hollow or have fine structures\n- **High collision frequency** between fuel particles and oxygen\n- Reaction rate is **very fast**\n- Creates rapid, intense flames\n- This is why bushfires spread so quickly through grassland\n\n**Observation 3 - Fire spreads faster on hot, windy days:**\n\nThis involves **two factors**:\n\n**Factor A - Wind (Oxygen concentration):**\n- Wind brings **fresh oxygen** to the fire constantly\n- Replaces oxygen-depleted air with oxygen-rich air\n- **Increases oxygen concentration** at the reaction site\n- Like increasing reactant concentration in any reaction\n- **More frequent collisions** between fuel and oxygen\n- **Reaction rate increases**\n\n**Factor B - Hot days (Temperature):**\n- On hot days, fuel (grass, leaves) is **already at higher temperature**\n- Higher temperature means:\n  - Particles have **more kinetic energy**\n  - **More frequent collisions**\n  - Collisions have **more energy**\n  - Easier to reach **ignition temperature**\n- Fuel ignites more easily\n- Fire spreads faster from one area to another\n- The **exothermic reaction** further increases temperature (positive feedback)\n\n**Combined effect on hot, windy days:**\n```\nHeat + Wind = Maximum fire danger\n  ↓      ↓\n Higher  Higher oxygen\n temp    concentration\n  ↓      ↓\n    Faster combustion reaction\n         ↓\n    Rapid fire spread\n```\n\n**Summary of factors:**\n\n| Factor | Effect on combustion | Evidence |\n|--------|---------------------|----------|\n| **Surface area** | Grass (high SA) burns faster than logs (low SA) | Obs 1 & 2 |\n| **Oxygen conc.** | Wind supplies more O₂ → faster burning | Obs 3 |\n| **Temperature** | Hot days → fuel easier to ignite | Obs 3 |\n\n**Bushfire management implications:**\n- **Total fire bans** on hot, windy days (high risk)\n- **Fuel reduction burns** remove fine fuels (grass/leaves)\n- **Fire breaks** remove fuel entirely\n- Understanding reaction rates helps predict fire behavior\n\nThis demonstrates how chemistry principles apply to Australian environmental challenges.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Combustion is a chemical reaction between fuel and oxygen. Think about the factors you learned that affect reaction rates - which ones apply to each observation?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Observation 1 & 2: Think about surface area. Observation 3: Think about how wind affects oxygen concentration and how temperature affects particle collisions.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 77,
+      "conceptsUsed": ["c10", "c1", "c9", "c6"],
+      "buildsOn": ["chem-react-y8-067", "chem-react-y8-070", "chem-react-y8-073"],
+      "preparesFor": ["chem-react-y8-079", "chem-react-y8-080"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set8",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-078",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student makes this claim:\n\n> \"Atoms 'want' to have full outer electron shells. That's why sodium gives an electron to chlorine - sodium wants to lose one electron and chlorine wants to gain one electron. The atoms have goals.\"\n\nThis is a common way to explain chemical reactions, but it contains a **misconception** about why reactions occur.\n\n**Critique this explanation** by:\n1. Identifying the anthropomorphic (human-like) language that creates misconceptions\n2. Explaining what **actually drives** chemical reactions (use energy concepts)\n3. Re-explaining the Na + Cl reaction without suggesting atoms have desires or goals",
+    "solution": "**1. Anthropomorphic language creating misconceptions:**\n\nThe problematic words are:\n- **\"Want\"** - suggests atoms have desires or intentions\n- **\"Goals\"** - implies atoms have purpose or consciousness\n\nThis creates the misconception that:\n- Atoms make conscious decisions\n- Atoms have motivations\n- Chemistry is about atoms achieving goals\n\n**Why this is wrong:**\nAtoms are **inanimate particles** with no consciousness, desires, or intentions. They simply respond to **physical forces** and **energy changes** according to the laws of physics and chemistry.\n\n**2. What ACTUALLY drives chemical reactions:**\n\nChemical reactions occur because systems move toward **lower energy states** (greater stability):\n\n**Energy principle:**\n- Reactions occur when **products are more stable** (lower energy) than reactants\n- \"Stable\" means the system has **lower potential energy**\n- This happens when the **arrangement of electrons** in products is at a lower energy than in reactants\n- Reactions are driven by the **second law of thermodynamics** - systems tend toward states with higher entropy (disorder) and lower energy\n\n**For Na + Cl specifically:**\n- Sodium has **high energy** as a metal (1 valence electron)\n- Chlorine has **high energy** as a gas (7 valence electrons)\n- When they react: $\\text{2Na + Cl}_2 \\rightarrow \\text{2NaCl + energy}$\n- The **ionic bond in NaCl** represents a **lower energy state**\n- Energy is **released** (exothermic) because products are more stable\n- The reaction occurs because it results in a **net decrease in energy**\n\n**The driving force:**\n```\nHigh energy reactants → Low energy products + Released energy\n\nΔH < 0 (exothermic) = energetically favorable\n```\n\n**3. Correct explanation without anthropomorphism:**\n\n**Better explanation:**\n\n\"When sodium and chlorine react, they form sodium chloride because the **ionic compound is at a lower energy state** than the separate elements.\n\nIn sodium chloride:\n- Sodium atoms **lose electrons** forming Na⁺ ions\n- Chlorine atoms **gain electrons** forming Cl⁻ ions\n- The **electrostatic attraction** between opposite charges creates a stable ionic lattice\n- This configuration has **lower potential energy** than separate Na and Cl atoms\n- The energy difference is **released** as heat (exothermic reaction)\n\nThe reaction occurs because it is **energetically favorable** - the system moves to a **more stable, lower energy state**. This is described by the negative enthalpy change (ΔH < 0).\n\nFull outer electron shells (noble gas configuration) represent **low energy, stable arrangements**, which is why ions with these configurations form readily. But atoms don't 'want' this - they simply move toward it because it's a lower energy state.\"\n\n**Key differences:**\n- ✗ \"Sodium **wants** to lose an electron\"\n- ✓ \"Sodium **loses** an electron because the resulting ion is more stable\"\n\n- ✗ \"Atoms **try** to get full outer shells\"\n- ✓ \"Full outer shells represent **low energy configurations** that form when energetically favorable\"\n\n- ✗ \"Atoms have **goals**\"\n- ✓ \"Systems move toward **lower energy states** due to physical laws\"\n\n**Why this matters:**\nUsing correct language helps understand:\n- Chemistry follows **predictable physical laws**, not atomic desires\n- We can predict reactions using **energy calculations**\n- Not all reactions lead to full outer shells (many covalent compounds don't)\n- Some reactions don't occur even if they would give full shells (if they're endothermic and non-spontaneous)\n\n**Scientific thinking:** Chemistry is about **energy, stability, and probability**, not about what atoms \"want.\"",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look for words that suggest atoms are thinking or making decisions. What alternative explanation focuses on energy instead of desires?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Words like 'want' and 'goals' are anthropomorphic. Reactions actually occur because products are at lower energy (more stable) than reactants. Systems move toward lower energy states.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 78,
+      "conceptsUsed": ["c9", "c2", "c4", "c5"],
+      "buildsOn": ["chem-react-y8-065", "chem-react-y8-072", "chem-react-y8-075"],
+      "preparesFor": ["chem-react-y8-080"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set8",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-079",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Hydrogen peroxide (H₂O₂) slowly decomposes into water and oxygen at room temperature:\n\n$\\text{2H}_2\\text{O}_2 \\rightarrow \\text{2H}_2\\text{O + O}_2$\n\nThis decomposition is **exothermic** but occurs very slowly over months. However, when you add a tiny amount of **manganese dioxide (MnO₂)** catalyst, the reaction happens in **seconds** with vigorous bubbling and the solution becomes noticeably warm.\n\n**Design an experiment** to investigate whether MnO₂ is truly a catalyst (recovered unchanged) or a reactant (consumed). Your answer should include:\n1. Hypothesis about what will happen if MnO₂ is a true catalyst\n2. Procedure to test this\n3. What results would confirm it's a catalyst\n4. Explanation of why the reaction becomes noticeably warm when catalyzed (even though it's exothermic either way)",
+    "solution": "**1. Hypothesis:**\n\nIf MnO₂ is a **true catalyst**, then:\n- It will **not be consumed** during the reaction\n- The **mass of MnO₂** will remain constant before and after the reaction\n- The MnO₂ can be **recovered** and used again\n- Its chemical composition will be **unchanged** (still MnO₂)\n\n**2. Experimental procedure:**\n\n**Materials needed:**\n- Hydrogen peroxide solution (3% or 6%)\n- Manganese dioxide powder (MnO₂)\n- Accurate balance (measures to 0.01 g)\n- Filter paper and funnel\n- Beaker\n- Safety equipment (goggles, gloves)\n\n**Procedure:**\n\n**Step 1 - Measure initial catalyst mass:**\n1. Accurately **weigh** a sample of MnO₂ powder (e.g., 0.50 g)\n2. Record the initial mass\n\n**Step 2 - Conduct the reaction:**\n3. Add 50 mL of hydrogen peroxide to a beaker\n4. Add the weighed MnO₂ to the hydrogen peroxide\n5. Observe vigorous bubbling (oxygen gas being produced)\n6. Wait until bubbling stops completely (reaction finished)\n\n**Step 3 - Recover and measure catalyst:**\n7. **Filter** the mixture through filter paper\n8. The MnO₂ will be retained on the filter paper\n9. **Wash** the MnO₂ with distilled water (removes dissolved products)\n10. **Dry** the MnO₂ completely (in oven at 60°C or air dry)\n11. **Weigh** the dried MnO₂\n12. Record the final mass\n\n**Step 4 - Test reusability (optional):**\n13. Use the recovered MnO₂ with fresh hydrogen peroxide\n14. Observe if it catalyzes the reaction again\n\n**3. Results that confirm it's a catalyst:**\n\n**Evidence 1 - Mass is conserved:**\n- **Initial MnO₂ mass** ≈ **Final MnO₂ mass** (within experimental error)\n- For example: Started with 0.50 g, recovered 0.49 g (98% recovery)\n- Small losses due to experimental handling, not chemical consumption\n\n**Evidence 2 - Can be reused:**\n- The recovered MnO₂ **catalyzes a second batch** of hydrogen peroxide\n- Shows it hasn't been chemically changed\n- Could theoretically be used indefinitely\n\n**Evidence 3 - Chemical composition unchanged:**\n- The black powder remains **black** (characteristic of MnO₂)\n- Could do further tests (e.g., dissolve in acid) to confirm it's still MnO₂\n\n**What would indicate it's NOT a catalyst:**\n- Mass **significantly decreased** (consumed as reactant)\n- Could **not** catalyze a second reaction\n- **Color changed** (indicating chemical transformation)\n\n**4. Why the reaction becomes noticeably warm when catalyzed:**\n\nThis is about **reaction rate**, not total energy:\n\n**Without catalyst (slow decomposition):**\n- Reaction occurs over **months**\n- Energy is released very **gradually**\n- Small amount of energy per second\n- Heat dissipates to surroundings as fast as it's produced\n- **No noticeable temperature change**\n- Total energy released: E joules over months\n\n**With catalyst (fast decomposition):**\n- Same total energy (E joules) released\n- But now released in **seconds** instead of months\n- **Energy per second is much higher** (higher power)\n- Heat is released **faster than it can dissipate** to surroundings\n- Temperature of solution **increases noticeably**\n- Total energy released: Same E joules, but concentrated in short time\n\n**Analogy:**\n- Receiving $100 over a year (slow): ~$0.27 per day, barely notice\n- Receiving $100 in one second (fast): Very noticeable!\n- **Same total amount, different rate**\n\n**The key principle:**\n```\nSame ΔH (energy change) ÷ Different time = Different power (rate of energy release)\n\nSlow reaction: E joules ÷ millions of seconds = tiny power → no warming\nFast reaction: E joules ÷ few seconds = high power → noticeable warming\n```\n\nThe catalyst **increases reaction rate** but **doesn't change total energy released**. The warmth is evidence of rapid energy release, not greater energy release.\n\n**Safety note:** With concentrated H₂O₂ and catalyst, the rapid reaction can produce enough heat to cause burns. Always use dilute solutions and safety equipment.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "If MnO₂ is a true catalyst, what should happen to its mass during the reaction? How could you measure this?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Weigh MnO₂ before and after the reaction - if mass is unchanged and it can be reused, it's a catalyst. The warmth comes from releasing the same energy much faster (high power), not from releasing more energy.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 79,
+      "conceptsUsed": ["c10", "c9", "c8", "c1"],
+      "buildsOn": ["chem-react-y8-074", "chem-react-y8-076", "chem-react-y8-058"],
+      "preparesFor": ["chem-react-y8-080"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set8",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-080",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A chemical company wants to maximize profit producing ethanol (alcohol) by fermentation:\n\n$\\text{C}_6\\text{H}_{12}\\text{O}_6 \\rightarrow \\text{2C}_2\\text{H}_5\\text{OH + 2CO}_2 + \\text{energy}$\n\nThey hire you as a **chemical engineer** to optimize the process. You learn that:\n- Fermentation uses **yeast** (biological catalyst - enzyme)\n- The reaction is **exothermic** (releases heat)\n- Yeast **dies** above 40°C\n- Reaction **stops** below 15°C (enzyme inactive)\n- Higher glucose **concentration** increases rate, but very high concentration kills yeast\n\n**Design an optimized production process** that:\n1. Maximizes reaction rate using factors you've learned\n2. Accounts for the constraints (temperature limits, concentration limits)\n3. Explains your reasoning for **each choice** using concepts of reaction rates, energy, and catalysts\n4. Suggests how to **remove products** to keep the reaction going (hint: Le Chatelier's principle)",
+    "solution": "**Complete optimized production process:**\n\n**1. Temperature control: 30-35°C (OPTIMAL)**\n\n**Reasoning:**\n- Need to balance **reaction rate** (favors higher temperature) with **yeast survival** (limits maximum temperature)\n\n**Lower boundary (15°C):**\n- Below 15°C, enzymes in yeast are **inactive**\n- Even though yeast survives, reaction rate is near zero\n- Not economically viable\n\n**Upper boundary (40°C):**\n- Above 40°C, yeast **denatures** and dies\n- Enzymes are **proteins** that unfold at high temperatures\n- Loss of catalyst = reaction stops completely\n\n**Optimal range (30-35°C):**\n- **High enough** for good reaction rate (particles have sufficient kinetic energy)\n- **Low enough** to keep yeast alive and enzymes functional\n- This is close to yeast's **optimal enzyme activity** temperature\n- Requires **temperature regulation**: heating or cooling systems\n- Monitor continuously to prevent temperature spikes (exothermic reaction generates heat)\n\n**2. Glucose concentration: Medium (10-15%) (OPTIMAL)**\n\n**Reasoning:**\n- Higher concentration generally increases reaction rate BUT yeast has limits\n\n**Too low (<5%):**\n- **Low collision frequency** between glucose and yeast enzymes\n- Slow reaction rate\n- Long fermentation time\n\n**Too high (>20%):**\n- **Osmotic stress** kills yeast cells\n- Water leaves yeast cells, causing dehydration\n- Yeast dies = loss of catalyst\n- No benefit from high concentration\n\n**Optimal (10-15%):**\n- **Sufficient glucose** for good collision frequency\n- **Yeast survives** and remains active\n- Balance between rate and cell viability\n- Can **feed glucose gradually** rather than all at once (fed-batch process)\n\n**3. Maximize surface area: Continuous stirring (OPTIMAL)**\n\n**Reasoning:**\n- Yeast cells need contact with glucose molecules\n\n**Without stirring:**\n- Yeast **settles** to bottom\n- Glucose at top\n- **Limited contact** = low collision frequency\n- Slow reaction\n\n**With gentle stirring:**\n- **Suspends yeast** throughout the liquid\n- **Maximizes surface area** for contact\n- **Increases collision frequency** between glucose and yeast enzymes\n- Also distributes heat evenly (prevents hot spots)\n- Gentle enough not to damage yeast cells\n\n**4. Catalyst optimization: Maintain healthy yeast population**\n\n**Reasoning:**\n- Yeast acts as a **biological catalyst** (contains enzymes)\n\n**Strategies:**\n- Start with **sufficient yeast** inoculum (seed culture)\n- Provide **nutrients** (nitrogen, vitamins, minerals) for yeast health\n- Control **pH** (slightly acidic, ~4-5) - optimal for yeast enzymes\n- Avoid **contamination** (bacteria compete with yeast)\n- **Anaerobic conditions** (no oxygen) - forces fermentation pathway\n\n**5. Product removal: Continuous distillation (Le Chatelier's Principle)**\n\n**Reasoning - Using Le Chatelier's Principle:**\n\nThe reaction can be thought of as an equilibrium:\n$\\text{Glucose} \\rightleftharpoons \\text{Ethanol + CO}_2$\n\nWhen products accumulate:\n- **High ethanol concentration** can **inhibit** the forward reaction\n- High concentrations can be **toxic** to yeast (ethanol >12-15% kills yeast)\n- **Removing products** shifts equilibrium toward **more product formation**\n\n**Strategy A - CO₂ removal:**\n- Allow **CO₂ gas to escape** through airlock\n- Prevents pressure buildup\n- Removes one product, favoring forward reaction\n- Also prevents reversed reaction\n\n**Strategy B - Ethanol removal (continuous process):**\n- Continuously **distill ethanol** from the fermentation vessel\n- Keeps ethanol concentration below toxic levels\n- Allows fermentation to **continue longer**\n- Maintains **yeast viability**\n- Shifts equilibrium toward more ethanol production\n\n**Complete optimized process summary:**\n\n| Factor | Optimal Setting | Reason |\n|--------|----------------|--------|\n| **Temperature** | 30-35°C | High enough for good rate, low enough for yeast survival |\n| **Glucose concentration** | 10-15%, fed gradually | Good collision frequency without killing yeast |\n| **Stirring** | Gentle, continuous | Maximizes surface area contact |\n| **pH** | 4-5 (slightly acidic) | Optimal for yeast enzymes |\n| **Oxygen** | None (anaerobic) | Forces fermentation pathway |\n| **Product removal** | CO₂ escapes, distill ethanol | Removes products, shifts equilibrium forward |\n| **Yeast health** | Nutrients provided, sterile | Maintains active catalyst |\n\n**Why this maximizes production:**\n\n1. **Maximizes reaction rate:**\n   - Optimal temperature for enzyme activity\n   - Sufficient substrate concentration\n   - Maximum surface area contact\n\n2. **Maintains catalyst:**\n   - Yeast stays alive and active\n   - Enzymes remain functional\n   - Process can continue for days\n\n3. **Prevents inhibition:**\n   - Product removal prevents toxic buildup\n   - Shifts equilibrium toward products\n\n4. **Controls energy:**\n   - Exothermic heat is removed (cooling systems)\n   - Prevents temperature spikes that kill yeast\n\n**Industrial implementation:**\n- **Batch process**: Start with all glucose, monitor temperature, remove products at end\n- **Fed-batch**: Add glucose gradually to maintain optimal concentration\n- **Continuous**: Constant glucose input, constant product removal, steady state\n\n**Cost-benefit:**\n- Higher costs: Temperature control, stirring, monitoring\n- Higher benefits: Faster production, higher yield, consistent quality\n- **Profit maximized** by optimizing rate while maintaining quality\n\n**Synthesis of concepts:**\nThis problem requires integrating:\n- ✓ **Reaction rates**: Temperature, concentration, surface area, catalysts\n- ✓ **Energy**: Exothermic reaction management\n- ✓ **Catalysts**: Biological enzymes with constraints\n- ✓ **Equilibrium**: Product removal (Le Chatelier)\n- ✓ **Practical constraints**: Cost, safety, yeast viability\n\nThis demonstrates how chemical engineering applies fundamental chemistry principles to real-world production challenges.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about all the factors affecting reaction rate you've learned: temperature, concentration, surface area, catalysts. But remember yeast has specific survival requirements that limit your choices.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Optimize temperature within 15-40°C range; use medium glucose concentration to avoid killing yeast; stir to maximize contact; remove products (especially ethanol) to shift equilibrium forward and prevent yeast poisoning.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 4,
+      "phasePosition": 80,
+      "conceptsUsed": ["c10", "c9", "c1", "c2", "c6"],
+      "buildsOn": ["chem-react-y8-076", "chem-react-y8-077", "chem-react-y8-079"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can figure out new problems!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasTables": true,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set8",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  }
+]

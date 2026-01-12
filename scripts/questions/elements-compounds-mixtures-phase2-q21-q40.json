@@ -1,0 +1,1294 @@
+[
+  {
+    "questionId": "ecm-y8-021",
+    "questionType": "MCQ",
+    "stem": "The periodic table shows that gold has the symbol **Au**. What does this symbol represent?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A single gold atom",
+        "isCorrect": true,
+        "feedback": "Correct! Each element symbol represents one atom of that element. Au stands for one atom of gold."
+      },
+      {
+        "id": "B",
+        "text": "A molecule of gold",
+        "isCorrect": false,
+        "feedback": "Gold doesn't form molecules - it exists as individual atoms bonded in a metallic structure. The symbol represents one atom."
+      },
+      {
+        "id": "C",
+        "text": "A compound containing gold",
+        "isCorrect": false,
+        "feedback": "Au is a single element symbol, not a compound. Compounds contain two or more different elements."
+      },
+      {
+        "id": "D",
+        "text": "A mixture with gold in it",
+        "isCorrect": false,
+        "feedback": "Au represents pure gold (an element), not a mixture. Mixtures contain multiple substances."
+      }
+    ],
+    "solution": "The answer is **A single gold atom**.\n\nElement symbols on the periodic table represent **one atom** of that element. The symbol **Au** (from the Latin 'aurum') represents a single atom of gold.\n\nKey points:\n- **Elements** are made of only one type of atom\n- The **symbol** is a shorthand way to represent that atom\n- Au is an element symbol, not a compound formula or mixture",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what elements are made of. What are the smallest particles that make up an element?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Element symbols represent the building blocks of that element - the smallest unit that still has the properties of gold.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 1,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["ecm-y8-001", "ecm-y8-003"],
+      "preparesFor": ["ecm-y8-022", "ecm-y8-025"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set3",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-022",
+    "questionType": "MCQ",
+    "stem": "Which of these formulas represents a **compound** rather than an element?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "$\\text{O}_2$",
+        "isCorrect": false,
+        "feedback": "O₂ is oxygen gas - it's made of only oxygen atoms, so it's an element. The subscript 2 just means two oxygen atoms bonded together."
+      },
+      {
+        "id": "B",
+        "text": "$\\text{H}_2\\text{O}$",
+        "isCorrect": true,
+        "feedback": "Correct! H₂O (water) contains two different elements - hydrogen (H) and oxygen (O) - chemically bonded together, making it a compound."
+      },
+      {
+        "id": "C",
+        "text": "Au",
+        "isCorrect": false,
+        "feedback": "Au is gold, which is made of only one type of atom. It's an element, not a compound."
+      },
+      {
+        "id": "D",
+        "text": "$\\text{S}_8$",
+        "isCorrect": false,
+        "feedback": "S₈ is sulfur - even though 8 atoms are bonded together, they're all sulfur atoms, so it's still an element."
+      }
+    ],
+    "solution": "The answer is **H₂O**.\n\nA **compound** must contain **two or more different elements** chemically bonded together. H₂O contains:\n- **Hydrogen (H)** - 2 atoms\n- **Oxygen (O)** - 1 atom\n\nThese different elements are chemically bonded, making water a compound.\n\nWhy the others are wrong:\n- **O₂ and S₈** contain only one type of element (even though multiple atoms are bonded)\n- **Au** is a single element symbol\n\nRemember: Compounds need **different** elements, not just multiple atoms.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "A compound must contain more than one type of element. Look for formulas with different element symbols.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Check each formula - how many different element symbols appear? O₂ has one type (O), but what about H₂O?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 2,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["ecm-y8-002", "ecm-y8-021"],
+      "preparesFor": ["ecm-y8-023", "ecm-y8-026"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set3",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-023",
+    "questionType": "SHORT_ANSWER",
+    "stem": "The formula for table salt is **NaCl**.\n\nWhat does this formula tell you about the elements in salt? Name the elements and explain how many atoms of each are present.",
+    "solution": "The formula **NaCl** tells us that table salt is a **compound** made of two elements:\n\n1. **Sodium (Na)** - 1 atom\n2. **Chlorine (Cl)** - 1 atom\n\nThe formula shows that sodium and chlorine are **chemically bonded** together in a 1:1 ratio. When there's no subscript number after an element symbol, it means there is **one atom** of that element in the compound.\n\nThis is very different from the mixture of pure sodium metal and chlorine gas - in NaCl, they're bonded together to form a completely new substance with different properties.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Each capital letter in a chemical formula represents a different element. How many capital letters do you see in NaCl?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Na stands for sodium (from the periodic table), and Cl stands for chlorine. When there's no subscript number, it means 1 atom.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 3,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["ecm-y8-002", "ecm-y8-022"],
+      "preparesFor": ["ecm-y8-036", "ecm-y8-038"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set3",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-024",
+    "questionType": "MCQ",
+    "stem": "You see a jewelry advertisement for **24-karat gold** vs **18-karat gold**. Scientists say 24-karat is pure gold, while 18-karat contains other metals mixed in.\n\nWhich classification is correct?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "24K gold: element, 18K gold: mixture",
+        "isCorrect": true,
+        "feedback": "Correct! 24-karat gold is pure gold (Au) - an element. 18-karat gold has other metals (like copper or silver) mixed with gold, making it a mixture."
+      },
+      {
+        "id": "B",
+        "text": "24K gold: compound, 18K gold: mixture",
+        "isCorrect": false,
+        "feedback": "Pure gold is not a compound - it contains only one type of atom (gold atoms). It's an element."
+      },
+      {
+        "id": "C",
+        "text": "24K gold: mixture, 18K gold: compound",
+        "isCorrect": false,
+        "feedback": "This is backwards! 24K is pure gold (element), and 18K is the mixture. Also, 18K isn't a compound because the metals aren't chemically bonded."
+      },
+      {
+        "id": "D",
+        "text": "Both are compounds",
+        "isCorrect": false,
+        "feedback": "Neither is a compound. Pure gold is an element, and 18K gold is a mixture of metals (not chemically bonded together)."
+      }
+    ],
+    "solution": "The answer is **24K gold: element, 18K gold: mixture**.\n\nHere's why:\n\n**24-karat gold** is **pure gold** - it contains only gold atoms (Au). Since it's made of only one type of atom, it's an **element**.\n\n**18-karat gold** contains gold **plus other metals** (like copper, silver, or zinc) mixed together. These metals are **physically combined** (not chemically bonded), making it a **mixture**.\n\nJewelers mix other metals with gold to:\n- Make it harder (pure gold is very soft)\n- Change the color (adding copper makes rose gold)\n- Reduce cost (other metals are cheaper than gold)\n\nThis is a real-world example of how mixtures have practical applications!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what 'pure' means. If 24K gold is pure, what does that tell you about how many different types of atoms it contains?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Pure substances containing only one type of atom are elements. When different metals are combined without chemical bonding, it's a mixture.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 4,
+      "conceptsUsed": ["c5", "c6"],
+      "buildsOn": ["ecm-y8-004", "ecm-y8-006"],
+      "preparesFor": ["ecm-y8-031", "ecm-y8-033"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set3",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-025",
+    "questionType": "MCQ",
+    "stem": "In the chemical formula $\\text{H}_2\\text{O}$, what does the subscript **2** mean?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "There are 2 hydrogen atoms in each water molecule",
+        "isCorrect": true,
+        "feedback": "Correct! The subscript 2 after H means there are 2 hydrogen atoms bonded to 1 oxygen atom in each water molecule."
+      },
+      {
+        "id": "B",
+        "text": "There are 2 water molecules",
+        "isCorrect": false,
+        "feedback": "The subscript inside the formula tells you about atoms in ONE molecule. To show 2 molecules, we'd write 2H₂O (with the 2 in front)."
+      },
+      {
+        "id": "C",
+        "text": "Hydrogen is the 2nd element in water",
+        "isCorrect": false,
+        "feedback": "The subscript tells you the NUMBER of atoms, not the order. Actually, hydrogen comes first in the formula (H is before O)."
+      },
+      {
+        "id": "D",
+        "text": "Water has 2 different elements",
+        "isCorrect": false,
+        "feedback": "While water does have 2 elements (H and O), the subscript 2 specifically tells you how many hydrogen atoms are present."
+      }
+    ],
+    "solution": "The answer is **There are 2 hydrogen atoms in each water molecule**.\n\n**Subscripts** in chemical formulas tell you how many atoms of that element are in the compound:\n\n$\\text{H}_2\\text{O}$ means:\n- **H₂** = 2 hydrogen atoms\n- **O** = 1 oxygen atom (no subscript means 1)\n\nSo each water molecule contains **2 hydrogen atoms** bonded to **1 oxygen atom**.\n\nImportant distinction:\n- $\\text{H}_2\\text{O}$ = one molecule with 2 H atoms\n- $2\\text{H}_2\\text{O}$ = two molecules (coefficient in front)\n\nSubscripts are part of the chemical formula and can't be changed without making a completely different substance!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Subscript numbers in chemical formulas tell you about the atoms within one molecule. What does the 2 directly follow?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The subscript 2 is written right after the H. This means there are 2 of that particular element (hydrogen) in the molecule.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 5,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["ecm-y8-022", "ecm-y8-023"],
+      "preparesFor": ["ecm-y8-026", "ecm-y8-027"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set3",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-026",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Carbon dioxide has the formula $\\text{CO}_2$.\n\nName the elements present and state how many atoms of each element are in one molecule of carbon dioxide.",
+    "solution": "One molecule of carbon dioxide ($\\text{CO}_2$) contains:\n\n1. **Carbon (C)** - **1 atom** (no subscript means 1)\n2. **Oxygen (O)** - **2 atoms** (subscript 2)\n\n**Total: 3 atoms** in each molecule (1 carbon + 2 oxygen)\n\nThe formula tells us that carbon dioxide is a **compound** made of carbon and oxygen atoms **chemically bonded** together. The ratio is always 1 carbon to 2 oxygen atoms - this fixed ratio is what makes it a compound, not a mixture.\n\nCarbon dioxide is the gas we breathe out and that plants use for photosynthesis!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look at the capital letters in the formula - each one represents a different element. Then check for subscript numbers.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "C stands for carbon (1 atom because no subscript), and O stands for oxygen (2 atoms because of the subscript 2).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 6,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["ecm-y8-023", "ecm-y8-025"],
+      "preparesFor": ["ecm-y8-027", "ecm-y8-028"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set3",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-027",
+    "questionType": "MCQ",
+    "stem": "Look at these particle diagrams representing different substances:\n\n**Diagram A**: ● ● ● ● (all identical particles)\n\n**Diagram B**: ●○ ●○ ●○ (alternating two types bonded together)\n\n**Diagram C**: ● ● ○ ○ ■ (three different types, not bonded)\n\nWhich diagram shows a **compound**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Diagram A",
+        "isCorrect": false,
+        "feedback": "Diagram A shows only one type of particle, so it represents an element, not a compound."
+      },
+      {
+        "id": "B",
+        "text": "Diagram B",
+        "isCorrect": true,
+        "feedback": "Correct! Diagram B shows two different types of particles (● and ○) bonded together in a fixed pattern - this represents a compound."
+      },
+      {
+        "id": "C",
+        "text": "Diagram C",
+        "isCorrect": false,
+        "feedback": "Diagram C shows different types of particles, but they're not bonded together. This represents a mixture, not a compound."
+      },
+      {
+        "id": "D",
+        "text": "Both B and C",
+        "isCorrect": false,
+        "feedback": "Only B shows a compound. C shows particles that aren't bonded together, making it a mixture."
+      }
+    ],
+    "solution": "The answer is **Diagram B**.\n\nA **compound** has two key features that Diagram B shows:\n\n1. **Different types of atoms** (● and ○ represent different elements)\n2. **Chemically bonded together** (shown by ●○ as connected units)\n\nWhy the others are wrong:\n- **Diagram A**: Only one type of particle = **element**\n- **Diagram C**: Different particles but **not bonded** = **mixture**\n\nRemember: Compounds must have:\n- ✓ Two or more different elements\n- ✓ Chemically bonded in a fixed ratio\n- ✓ Uniform composition throughout",
+    "hints": [
+      {
+        "level": 1,
+        "content": "A compound needs different types of atoms bonded together. Which diagram shows different symbols connected to each other?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Look for a diagram with different particle types (different symbols) that are bonded in pairs or groups, not just mixed loosely.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 7,
+      "conceptsUsed": ["c4", "c5"],
+      "buildsOn": ["ecm-y8-008", "ecm-y8-022"],
+      "preparesFor": ["ecm-y8-042", "ecm-y8-044"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": true,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set3",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-028",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student writes the formula for ammonia as $\\text{NH}_3$.\n\nExplain what this formula tells you about:\na) What elements are in ammonia\nb) How many atoms of each element are in one molecule",
+    "solution": "The formula $\\text{NH}_3$ tells us:\n\n**a) Elements present:**\n- **Nitrogen (N)**\n- **Hydrogen (H)**\n\nAmmonia is a **compound** made of these two elements chemically bonded together.\n\n**b) Number of atoms:**\n- **Nitrogen**: **1 atom** (no subscript after N means 1)\n- **Hydrogen**: **3 atoms** (subscript 3)\n\n**Total: 4 atoms** per molecule (1 N + 3 H)\n\nThe formula shows that nitrogen and hydrogen are always combined in a **1:3 ratio** in ammonia. This fixed ratio is characteristic of compounds - you can't have NH₂ or NH₄ and still call it ammonia!\n\nAmmonia is used in fertilizers and cleaning products.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Look for capital letters (element symbols) and subscript numbers (how many atoms). What do N and H stand for?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "N is nitrogen (1 atom - no subscript), H is hydrogen (3 atoms - subscript 3). Count up all the atoms.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 8,
+      "conceptsUsed": ["c5"],
+      "buildsOn": ["ecm-y8-025", "ecm-y8-026"],
+      "preparesFor": ["ecm-y8-029", "ecm-y8-030"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set3",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-029",
+    "questionType": "MCQ",
+    "stem": "Air is made up of approximately 78% nitrogen gas ($\\text{N}_2$), 21% oxygen gas ($\\text{O}_2$), and small amounts of other gases like argon and carbon dioxide.\n\nHow should air be classified?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Element",
+        "isCorrect": false,
+        "feedback": "Air contains multiple different gases (nitrogen, oxygen, argon, etc.), not just one type of atom, so it's not an element."
+      },
+      {
+        "id": "B",
+        "text": "Compound",
+        "isCorrect": false,
+        "feedback": "The gases in air are not chemically bonded together - they're just mixed. Compounds have elements chemically bonded in fixed ratios."
+      },
+      {
+        "id": "C",
+        "text": "Homogeneous mixture",
+        "isCorrect": true,
+        "feedback": "Correct! Air is a homogeneous (uniform) mixture of gases. The gases are evenly distributed but not chemically bonded, and the proportions can vary slightly."
+      },
+      {
+        "id": "D",
+        "text": "Heterogeneous mixture",
+        "isCorrect": false,
+        "feedback": "Air is uniform throughout - you can't see different parts. Heterogeneous mixtures have visible different components (like soil or salad)."
+      }
+    ],
+    "solution": "The answer is **Homogeneous mixture**.\n\nAir is a **mixture** because:\n- It contains **multiple substances** (N₂, O₂, Ar, CO₂, etc.)\n- These gases are **not chemically bonded** - they're just mixed together\n- The **proportions can vary** (unlike compounds which have fixed ratios)\n\nAir is **homogeneous** (not heterogeneous) because:\n- The gases are **evenly distributed** throughout\n- You can't see different parts or layers\n- It looks and behaves the same everywhere\n\nThis is why we can breathe anywhere in a room - the oxygen is evenly mixed throughout the air!\n\n**Real-world connection**: Weather can change air composition slightly (more water vapor on humid days), proving it's a mixture, not a compound.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether the different gases in air are chemically bonded together or just mixed. Also, is the mixture uniform or can you see different parts?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Air contains different substances that aren't bonded (so it's a mixture, not a compound). The gases are evenly spread (homogeneous), not in visible layers.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 9,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["ecm-y8-007", "ecm-y8-010"],
+      "preparesFor": ["ecm-y8-032", "ecm-y8-034"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set3",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-030",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Sea water contains dissolved salt (NaCl), minerals, and other substances mixed with water.\n\nIs sea water an element, compound, or mixture? Explain your reasoning.",
+    "solution": "Sea water is a **mixture** (specifically, a **homogeneous mixture** or **solution**).\n\n**Reasoning:**\n\nSea water contains multiple substances:\n- **Water** (H₂O) - a compound\n- **Salt** (NaCl) - a compound\n- **Minerals** and other dissolved substances\n\nThese substances are **physically mixed together**, not chemically bonded. We know this because:\n\n1. The proportions **can vary** (different oceans have different saltiness)\n2. The components **keep their own properties** (salt is still salt, water is still water)\n3. They **can be separated** by physical methods (evaporation leaves salt behind)\n\nIt's **homogeneous** because the salt and minerals are **evenly dissolved** throughout - you can't see separate parts.\n\n**Why not a compound?** Compounds have elements chemically bonded in fixed ratios. Sea water's composition varies and the substances aren't bonded together.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether the salt and water are chemically bonded together, or just mixed. Also, is the saltiness of sea water always exactly the same?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Sea water contains different substances (water, salt, minerals) that are mixed but not bonded. The proportions can vary between different seas, which tells you it's not a pure substance.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 10,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["ecm-y8-007", "ecm-y8-029"],
+      "preparesFor": ["ecm-y8-032", "ecm-y8-035"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set3",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-031",
+    "questionType": "MCQ",
+    "stem": "Steel is used to build bridges instead of pure iron because steel is stronger and doesn't rust as easily. Steel is made by mixing iron with small amounts of carbon and sometimes other elements.\n\nWhat type of substance is steel?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "An element",
+        "isCorrect": false,
+        "feedback": "Steel contains multiple elements (iron, carbon, and others) mixed together, so it's not an element."
+      },
+      {
+        "id": "B",
+        "text": "A compound",
+        "isCorrect": false,
+        "feedback": "The iron and carbon in steel are not chemically bonded in fixed ratios - different types of steel have different amounts of carbon. This makes it a mixture."
+      },
+      {
+        "id": "C",
+        "text": "A mixture (alloy)",
+        "isCorrect": true,
+        "feedback": "Correct! Steel is a mixture called an alloy - it's made by physically mixing iron with carbon and other elements. The proportions can vary for different types of steel."
+      },
+      {
+        "id": "D",
+        "text": "A solution",
+        "isCorrect": false,
+        "feedback": "While steel is technically a solid solution (alloy), the most precise classification is 'mixture' or 'alloy'. Solutions usually refer to liquids."
+      }
+    ],
+    "solution": "The answer is **A mixture (alloy)**.\n\n**Steel is a mixture** because:\n- It contains **multiple elements** (iron + carbon + sometimes chromium, nickel, etc.)\n- These elements are **physically mixed**, not chemically bonded\n- The **proportions can vary** (different steels have different amounts of carbon: 0.2%-2%)\n- Each component **retains its properties** at the atomic level\n\nSteel is specifically called an **alloy** - a mixture of metals (or metal + non-metal).\n\n**Why this matters:**\nEngineers can **adjust the properties** of steel by changing the mixture:\n- More carbon → harder but more brittle\n- Add chromium → stainless steel (rust-resistant)\n- Add nickel → stronger at high temperatures\n\nThis flexibility is only possible because steel is a mixture, not a compound with fixed composition!\n\n**Real-world impact**: Different bridges use different steel mixtures based on climate and load requirements.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether iron and carbon are chemically bonded together in steel, or just physically mixed. Also, can the proportions vary?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Different types of steel have different amounts of carbon (the proportions vary). This tells you the elements aren't bonded in fixed ratios - they're mixed together.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 11,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["ecm-y8-024", "ecm-y8-029"],
+      "preparesFor": ["ecm-y8-033", "ecm-y8-043"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set4",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-032",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A science lab has three bottles labeled:\n- **Bottle A**: Distilled water (H₂O only)\n- **Bottle B**: Salt water (NaCl dissolved in water)\n- **Bottle C**: Liquid nitrogen (N₂)\n\nWhich bottle(s) contain **pure substances**? Explain your answer.",
+    "solution": "**Bottles A and C** contain pure substances.\n\n**Explanation:**\n\n**Bottle A (Distilled water - H₂O)**\n- Pure substance ✓\n- It's a **compound** containing only water molecules\n- Every molecule has the same composition (2 H + 1 O)\n\n**Bottle B (Salt water)**\n- NOT a pure substance ✗\n- It's a **mixture** (solution) of salt and water\n- Contains two different substances mixed together\n\n**Bottle C (Liquid nitrogen - N₂)**\n- Pure substance ✓\n- It's an **element** containing only nitrogen molecules\n- All molecules are identical (N₂)\n\n**Key concept**: Pure substances include both:\n1. **Elements** (like N₂)\n2. **Compounds** (like H₂O)\n\nBoth have uniform, fixed composition. **Mixtures** (like salt water) are NOT pure because they contain multiple substances that can vary in proportion.\n\n**Common misconception**: \"Pure\" doesn't mean \"safe\" - pure sodium metal is dangerous! In chemistry, \"pure\" means \"only one substance.\"",
+    "hints": [
+      {
+        "level": 1,
+        "content": "A pure substance contains only one type of element or compound. Which bottles have only one substance, and which have multiple substances mixed together?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Distilled water is only H₂O (compound - pure). Salt water has two substances mixed (not pure). Liquid nitrogen is only N₂ (element - pure).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 12,
+      "conceptsUsed": ["c5", "c6"],
+      "buildsOn": ["ecm-y8-005", "ecm-y8-030"],
+      "preparesFor": ["ecm-y8-037", "ecm-y8-039"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set4",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-033",
+    "questionType": "MCQ",
+    "stem": "Bronze is made by melting copper and tin together. Different types of bronze contain different ratios of copper to tin (for example, 90% copper + 10% tin, or 80% copper + 20% tin).\n\nBased on this information, what can you conclude about bronze?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Bronze is a compound because it contains two elements",
+        "isCorrect": false,
+        "feedback": "Compounds have FIXED ratios of elements. Since bronze can have varying ratios of copper to tin, it's not a compound."
+      },
+      {
+        "id": "B",
+        "text": "Bronze is an element because it's made of metal",
+        "isCorrect": false,
+        "feedback": "Elements contain only one type of atom. Bronze contains both copper atoms and tin atoms, so it's not an element."
+      },
+      {
+        "id": "C",
+        "text": "Bronze is a mixture (alloy) because the ratio of copper to tin can vary",
+        "isCorrect": true,
+        "feedback": "Correct! Bronze is a mixture (specifically an alloy) because copper and tin are physically mixed together, and the proportions can vary for different types of bronze."
+      },
+      {
+        "id": "D",
+        "text": "Bronze is a heterogeneous mixture because you can see the copper and tin separately",
+        "isCorrect": false,
+        "feedback": "Bronze is actually a homogeneous mixture - the metals are evenly distributed at the atomic level, so you can't see separate copper and tin."
+      }
+    ],
+    "solution": "The answer is **Bronze is a mixture (alloy) because the ratio of copper to tin can vary**.\n\n**Key evidence**: The problem states different bronzes have different ratios (90:10 or 80:20). This tells us:\n\n**Why it's a MIXTURE (not a compound):**\n- Proportions **can vary** (compounds have fixed ratios)\n- Copper and tin are **physically mixed**, not chemically bonded\n- Each metal **retains its properties** at the atomic level\n\n**Why it's HOMOGENEOUS (not heterogeneous):**\n- The metals are **evenly distributed** throughout\n- You can't see separate copper and tin parts\n- Bronze looks uniform\n\n**Real-world connection:**\nHistorically, different civilizations made bronze with different ratios:\n- **Weapons**: More tin (harder but brittle)\n- **Bells**: Less tin (more flexible, better sound)\n- **Statues**: Medium tin (balance of strength and workability)\n\nThis flexibility is only possible because bronze is a mixture, not a compound with fixed composition!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the key difference between compounds and mixtures. What does it mean that bronze can have different ratios of copper to tin?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Compounds always have the same fixed ratio of elements (like H₂O is always 2:1). If the ratio can change, it's a mixture, not a compound.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 13,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["ecm-y8-024", "ecm-y8-031"],
+      "preparesFor": ["ecm-y8-043", "ecm-y8-045"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set4",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-034",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Orange juice with pulp contains water, dissolved sugar, vitamins, and visible pieces of orange pulp floating in it.\n\nIs this a homogeneous or heterogeneous mixture? Justify your answer with two pieces of evidence.",
+    "solution": "Orange juice with pulp is a **heterogeneous mixture**.\n\n**Evidence 1: Visible different parts**\nYou can **see the orange pulp** as separate pieces floating in the liquid. In a homogeneous mixture, you wouldn't be able to see different components.\n\n**Evidence 2: Uneven distribution**\nThe pulp is **not evenly distributed** - some parts of the juice have more pulp than others. If you pour juice from the top, you get less pulp than from the bottom. Homogeneous mixtures are uniform throughout.\n\n**Additional evidence (bonus):**\n- You can **separate the pulp** by straining - showing the components are not evenly mixed\n- Different sips taste slightly different (more or less pulp)\n\n**Comparison**: If you strain the juice to remove all pulp, the remaining liquid (water, dissolved sugar, vitamins) would be a **homogeneous mixture** (solution) because everything is evenly dissolved and you can't see separate parts.\n\n**Key concept**: Heterogeneous = you can see different parts or layers",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what you can see when you look at orange juice with pulp. Can you identify different parts? Is it the same throughout?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "You can see the pulp pieces floating in the liquid (different parts visible). The pulp settles at the bottom if you leave it sitting (not evenly distributed).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 14,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["ecm-y8-009", "ecm-y8-029"],
+      "preparesFor": ["ecm-y8-035", "ecm-y8-046"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set4",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-035",
+    "questionType": "MCQ",
+    "stem": "A student makes a salad with lettuce, tomatoes, cucumber, and cheese. Another student makes sugar water by dissolving sugar in water until it's completely dissolved and clear.\n\nHow do these two mixtures compare?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Both are heterogeneous mixtures",
+        "isCorrect": false,
+        "feedback": "Sugar water is homogeneous (uniform throughout) - you can't see separate parts once the sugar dissolves. Only the salad is heterogeneous."
+      },
+      {
+        "id": "B",
+        "text": "Both are homogeneous mixtures",
+        "isCorrect": false,
+        "feedback": "The salad is heterogeneous - you can clearly see different ingredients (lettuce, tomatoes, etc.). Only sugar water is homogeneous."
+      },
+      {
+        "id": "C",
+        "text": "Salad is heterogeneous, sugar water is homogeneous",
+        "isCorrect": true,
+        "feedback": "Correct! Salad has visible different parts (heterogeneous), while sugar water is uniform throughout with no visible separate parts (homogeneous solution)."
+      },
+      {
+        "id": "D",
+        "text": "Salad is homogeneous, sugar water is heterogeneous",
+        "isCorrect": false,
+        "feedback": "This is backwards! You can see different ingredients in salad (heterogeneous), but sugar water looks uniform (homogeneous)."
+      }
+    ],
+    "solution": "The answer is **Salad is heterogeneous, sugar water is homogeneous**.\n\n**SALAD - Heterogeneous mixture:**\n- You can **see different components** (lettuce, tomatoes, cucumber, cheese)\n- Not **evenly distributed** - different forkfuls have different ingredients\n- Components **retain their identity** - tomato is still tomato\n- Can be **physically separated** easily (just pick things out)\n\n**SUGAR WATER - Homogeneous mixture (solution):**\n- Looks **uniform** throughout - can't see sugar particles\n- **Evenly distributed** - tastes the same everywhere\n- Can't see **separate parts**\n- Harder to separate (need evaporation)\n\n**Key distinction:**\n- **Heterogeneous**: \"hetero\" = different → you can see different parts\n- **Homogeneous**: \"homo\" = same → looks the same throughout\n\n**Real-world connection**: This is why salad dressing (oil + vinegar) needs shaking - the layers separate, showing it's heterogeneous!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what you can see in each mixture. Can you identify separate parts, or does it look uniform?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "In the salad, you can see lettuce, tomatoes, etc. as separate pieces (heterogeneous). In sugar water, once dissolved, you can't see separate parts (homogeneous).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 15,
+      "conceptsUsed": ["c6"],
+      "buildsOn": ["ecm-y8-030", "ecm-y8-034"],
+      "preparesFor": ["ecm-y8-046", "ecm-y8-047"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set4",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-036",
+    "questionType": "MCQ",
+    "stem": "**Sodium (Na)** is a soft, silvery metal that reacts violently with water and can cause fires.\n\n**Chlorine (Cl)** is a toxic yellow-green gas that was used as a weapon in World War I.\n\n**Table salt (NaCl)** is a white crystal that we safely eat every day.\n\nWhy does table salt have such different properties from sodium and chlorine?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The dangerous properties of sodium and chlorine cancel each other out",
+        "isCorrect": false,
+        "feedback": "Properties don't just 'cancel out' - this isn't like adding positive and negative numbers. New properties form when elements bond chemically."
+      },
+      {
+        "id": "B",
+        "text": "When sodium and chlorine bond chemically to form NaCl, a completely new substance with different properties is created",
+        "isCorrect": true,
+        "feedback": "Correct! When elements chemically bond to form a compound, the compound has completely new properties - different from the original elements. This is a key feature of compounds."
+      },
+      {
+        "id": "C",
+        "text": "Table salt is a mixture of sodium and chlorine, so it has properties from both",
+        "isCorrect": false,
+        "feedback": "NaCl is a compound (chemically bonded), not a mixture. Compounds don't just blend properties - they create entirely new properties."
+      },
+      {
+        "id": "D",
+        "text": "The properties are the same, we just use salt differently",
+        "isCorrect": false,
+        "feedback": "The properties are genuinely different! Pure sodium explodes in water, but salt dissolves safely. These are fundamentally different substances."
+      }
+    ],
+    "solution": "The answer is **When sodium and chlorine bond chemically to form NaCl, a completely new substance with different properties is created**.\n\n**This is one of the most important concepts in chemistry!**\n\nWhen elements **chemically bond** to form a **compound**, the compound has **completely different properties** from the original elements:\n\n**Element properties:**\n- Na (sodium): Soft metal, reacts violently with water, explosive, toxic\n- Cl (chlorine): Poisonous gas, yellow-green color, corrosive\n\n**Compound properties:**\n- NaCl (salt): White crystals, dissolves safely in water, essential for life, stable\n\n**Why this happens:**\n- Chemical bonds **rearrange electrons** between atoms\n- This creates a **new substance** at the atomic level\n- The new substance has its **own unique properties**\n\n**Real-world impact**: This is why we can safely eat salt (NaCl) but pure sodium would be lethal! The chemical bonding creates something fundamentally new.\n\n**Contrast with mixtures**: If you just mixed sodium and chlorine without bonding them (a mixture), it would still be dangerous. Chemical bonding is key!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens when elements form chemical bonds. Do the original properties stay the same, or does something new form?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "When elements chemically bond to form compounds, the compound is a completely new substance with its own properties - different from the elements that made it.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 16,
+      "conceptsUsed": ["c8"],
+      "buildsOn": ["ecm-y8-023", "ecm-y8-032"],
+      "preparesFor": ["ecm-y8-038", "ecm-y8-052"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set4",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-037",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student says: \"Both compounds and mixtures contain multiple substances, so they're basically the same thing.\"\n\nExplain why this statement is incorrect. Give at least two key differences between compounds and mixtures.",
+    "solution": "This statement is **incorrect**. Compounds and mixtures are fundamentally different:\n\n**Key Difference 1: Chemical bonding**\n- **Compounds**: Elements are **chemically bonded** together (atoms share or transfer electrons)\n- **Mixtures**: Substances are only **physically mixed** (no chemical bonds between different substances)\n\n**Key Difference 2: Fixed vs variable proportions**\n- **Compounds**: Have **fixed ratios** of elements (e.g., H₂O is always 2:1 ratio of H:O)\n- **Mixtures**: Proportions **can vary** (e.g., you can make weak or strong tea)\n\n**Additional differences:**\n\n**Difference 3: Properties**\n- **Compounds**: Have **new properties** different from their elements (NaCl is safe, but Na and Cl are dangerous)\n- **Mixtures**: Components **keep their original properties** (salt water still tastes salty, water is still water)\n\n**Difference 4: Separation**\n- **Compounds**: Need **chemical reactions** to separate (hard to break bonds)\n- **Mixtures**: Can use **physical methods** to separate (filtering, evaporation, etc.)\n\n**Example to illustrate:**\n- H₂O (compound): Fixed 2:1 ratio, new properties, hard to separate\n- Salt water (mixture): Variable salt amounts, keeps original properties, easy to separate by evaporation",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about how the substances are combined. Are they chemically bonded together, or just mixed? Can the proportions change?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Compounds have chemical bonds and fixed ratios (like H₂O). Mixtures are just physically combined and can have varying proportions (like salt water with different saltiness).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 17,
+      "conceptsUsed": ["c5", "c6", "c8"],
+      "buildsOn": ["ecm-y8-011", "ecm-y8-032"],
+      "preparesFor": ["ecm-y8-048", "ecm-y8-051"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set4",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-038",
+    "questionType": "MCQ",
+    "stem": "Hydrogen peroxide (H₂O₂) is used to bleach hair and disinfect wounds. Water (H₂O) is safe to drink.\n\nBoth compounds contain only hydrogen and oxygen atoms. Why do they have such different properties?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "They use different types of hydrogen and oxygen atoms",
+        "isCorrect": false,
+        "feedback": "Hydrogen atoms are all identical, as are oxygen atoms. The difference is in how many atoms and how they're bonded."
+      },
+      {
+        "id": "B",
+        "text": "The ratio and arrangement of atoms is different - H₂O₂ has 2 hydrogen and 2 oxygen, while H₂O has 2 hydrogen and 1 oxygen",
+        "isCorrect": true,
+        "feedback": "Correct! Even though both contain H and O, the different ratios (2:2 vs 2:1) and bonding arrangements create completely different compounds with different properties."
+      },
+      {
+        "id": "C",
+        "text": "One is a compound and the other is a mixture",
+        "isCorrect": false,
+        "feedback": "Both H₂O₂ and H₂O are compounds - they both have fixed ratios of chemically bonded elements. The difference is in the ratio of atoms."
+      },
+      {
+        "id": "D",
+        "text": "They have the same properties, we just use them differently",
+        "isCorrect": false,
+        "feedback": "They have genuinely different properties! H₂O₂ bleaches and kills bacteria; H₂O doesn't. Different molecular structure = different properties."
+      }
+    ],
+    "solution": "The answer is **The ratio and arrangement of atoms is different - H₂O₂ has 2 hydrogen and 2 oxygen, while H₂O has 2 hydrogen and 1 oxygen**.\n\n**This demonstrates a crucial chemistry concept**: Even using the **same elements**, different combinations create **completely different compounds** with **completely different properties**.\n\n**Comparison:**\n\n**H₂O (Water):**\n- Ratio: 2 hydrogen : 1 oxygen\n- Properties: Safe to drink, stable, doesn't bleach\n- Structure: H-O-H (bent shape)\n\n**H₂O₂ (Hydrogen peroxide):**\n- Ratio: 2 hydrogen : 2 oxygen\n- Properties: Bleaches, disinfects, unstable (breaks down into water + oxygen)\n- Structure: H-O-O-H (different bonding)\n\n**Why this matters:**\n- The **extra oxygen atom** and **different bonding** in H₂O₂ makes it chemically reactive\n- The **formula** tells you the ratio, which determines properties\n- **Changing even one atom** creates a completely different substance\n\n**Real-world warning**: This is why you can't drink hydrogen peroxide! Even though it's \"just one more oxygen atom,\" it's a completely different (and dangerous) substance.\n\n**Similar examples**: O₂ (oxygen we breathe) vs O₃ (ozone - toxic)",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Compare the formulas carefully: H₂O vs H₂O₂. What's different about the number of atoms?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "H₂O has 1 oxygen atom, but H₂O₂ has 2 oxygen atoms. This different ratio of atoms creates different molecular structures and properties.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 18,
+      "conceptsUsed": ["c5", "c8"],
+      "buildsOn": ["ecm-y8-026", "ecm-y8-036"],
+      "preparesFor": ["ecm-y8-051", "ecm-y8-053"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set4",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-039",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A chemistry teacher has a bottle labeled \"Pure Sodium\" with a warning symbol.\n\nA student asks: \"If it's pure, why is it dangerous? I thought 'pure' meant safe and clean.\"\n\nExplain what 'pure' means in chemistry and why pure substances can still be dangerous.",
+    "solution": "In chemistry, **\"pure\"** has a specific scientific meaning that's different from everyday language:\n\n**Scientific meaning of \"pure\":**\n- **Pure** means the substance contains **only one type of element or compound**\n- It does **NOT** mean safe, clean, or healthy\n- It describes the **composition**, not the safety\n\n**Why pure sodium is dangerous:**\nPure sodium (Na) is:\n- An **element** containing only sodium atoms → makes it \"pure\"\n- **Highly reactive** - explodes on contact with water\n- **Toxic** and can cause severe burns\n\n**Examples of dangerous pure substances:**\n1. **Pure sodium (Na)** - catches fire in air, explodes in water\n2. **Pure chlorine (Cl₂)** - poisonous gas\n3. **Pure mercury (Hg)** - toxic heavy metal\n4. **Pure arsenic (As)** - deadly poison\n\n**Examples of safe \"impure\" (mixed) substances:**\n1. **Air** - mixture we need to breathe\n2. **Salt water** - safe to touch (though not drink)\n3. **18K gold** - mixture safe for jewelry\n\n**Key concept**: In chemistry, **\"pure\" refers to composition** (one substance vs. mixture), **NOT to safety or quality**.\n\n**Common misconception addressed**: \"Pure = safe\" is TRUE in everyday language (\"pure ingredients,\" \"pure water to drink\") but FALSE in chemistry!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the scientific definition of 'pure'. Does it describe the safety of a substance, or does it describe what the substance is made of?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "In chemistry, 'pure' means only one type of substance (element or compound), not 'safe'. Many pure elements like sodium, chlorine, and mercury are extremely dangerous.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 19,
+      "conceptsUsed": ["c5", "c6"],
+      "buildsOn": ["ecm-y8-005", "ecm-y8-032"],
+      "preparesFor": ["ecm-y8-050", "ecm-y8-056"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set4",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "ecm-y8-040",
+    "questionType": "MCQ",
+    "stem": "A scientist is analyzing four substances:\n\n**Substance W**: Contains only gold atoms (Au)\n\n**Substance X**: Contains gold and copper atoms mixed together (not bonded)\n\n**Substance Y**: Contains hydrogen and oxygen atoms bonded as H₂O molecules\n\n**Substance Z**: Contains H₂O molecules mixed with dissolved salt (NaCl)\n\nWhich substances are classified as **pure substances**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "W and Y only",
+        "isCorrect": true,
+        "feedback": "Correct! W is pure gold (element) and Y is pure water (compound). Both contain only one substance, making them pure. X and Z are mixtures."
+      },
+      {
+        "id": "B",
+        "text": "W only",
+        "isCorrect": false,
+        "feedback": "W is pure (element), but Y is also pure - it's a pure compound (only H₂O). Pure substances include both elements AND compounds."
+      },
+      {
+        "id": "C",
+        "text": "W, X, and Y",
+        "isCorrect": false,
+        "feedback": "X is a mixture of gold and copper (like 18K gold jewelry), not a pure substance. Only W (element) and Y (compound) are pure."
+      },
+      {
+        "id": "D",
+        "text": "All four substances",
+        "isCorrect": false,
+        "feedback": "X is a mixture of metals (alloy), and Z is salt water (solution) - both mixtures. Only W and Y are pure substances."
+      }
+    ],
+    "solution": "The answer is **W and Y only**.\n\n**Classification breakdown:**\n\n**W - Pure gold (Au)**\n- ✓ Pure substance\n- Classification: **Element**\n- Contains only one type of atom (gold)\n\n**X - Gold + copper mixed**\n- ✗ NOT pure\n- Classification: **Mixture (alloy)**\n- Contains two substances not chemically bonded\n\n**Y - Water (H₂O)**\n- ✓ Pure substance\n- Classification: **Compound**\n- Contains only H₂O molecules (fixed ratio of H and O)\n\n**Z - Salt water**\n- ✗ NOT pure\n- Classification: **Mixture (solution)**\n- Contains two substances: H₂O and NaCl dissolved together\n\n**Key concept**: Pure substances include BOTH:\n1. **Elements** (one type of atom) - like W\n2. **Compounds** (fixed ratio of different atoms bonded) - like Y\n\nBoth **mixtures** (X and Z) are NOT pure because they contain multiple substances that can vary in proportion.\n\n**Real-world connection**: This is why \"pure water\" (distilled water) costs more than tap water - tap water contains dissolved minerals (mixture), but pure water is only H₂O!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Pure substances contain only one type of element or compound. Remember that both elements AND compounds can be pure. Which substances contain only one thing?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "W has only gold atoms (pure element). Y has only H₂O molecules (pure compound). X and Z both mix different substances together (mixtures - not pure).",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 3,
+    "estimatedTime": 180,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU152"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 2,
+      "phasePosition": 20,
+      "conceptsUsed": ["c5", "c6"],
+      "buildsOn": ["ecm-y8-032", "ecm-y8-037"],
+      "preparesFor": ["ecm-y8-048", "ecm-y8-049"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "This is how it works in real life!"
+    },
+    "richContent": {
+      "hasEquations": true,
+      "hasDiagrams": false,
+      "hasTables": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-elements-compounds-mixtures-set4",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  }
+]

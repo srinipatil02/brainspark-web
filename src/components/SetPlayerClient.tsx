@@ -4,13 +4,41 @@ import { useState, useEffect, useMemo, useRef } from 'react';
 import Link from 'next/link';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
-import { FirestoreQuestion } from '@/types';
+import { FirestoreQuestion, isMathQuestion, isWorkedSolutionQuestion, WorkedSolutionAnswer, EncouragingHint } from '@/types';
 import { ConceptChatWidget } from '@/components/chat';
 import { ConceptContext } from '@/lib/chatTypes';
 import { useSetProgress } from '@/hooks/useSetProgress';
-import { GradingResult } from '@/types/grading';
+import { GradingResult, SetAttempt } from '@/types/grading';
 import { gradeAnswer, shouldCelebrate, getEncouragingMessage } from '@/services/gradingService';
+import { updateSkillMastery } from '@/services/masteryService';
 import { GradingResultCard } from '@/components/GradingResultCard';
+import { SetCompletionReport } from '@/components/SetCompletionReport';
+import dynamic from 'next/dynamic';
+import { QuestionRenderer } from '@/components/QuestionRenderer';
+
+// Define MathfieldElement interface (avoids importing from mathlive at build time)
+interface MathfieldElement extends HTMLElement {
+  value: string;
+  getValue(format?: string): string;
+  insert(text: string, options?: { insertionMode?: string; selectionMode?: string }): void;
+  executeCommand(command: string): void;
+  focus(): void;
+}
+
+// Dynamically import MathInputField to avoid SSR issues with MathLive
+const MathInputField = dynamic(
+  () => import('@/components/math/MathInputField').then(mod => mod.MathInputField),
+  { ssr: false, loading: () => <div className="h-12 bg-gray-100 rounded-lg animate-pulse" /> }
+);
+const MathKeypad = dynamic(
+  () => import('@/components/math/MathKeypad').then(mod => mod.MathKeypad),
+  { ssr: false }
+);
+// Student-centered "Show Your Work" component for WORKED_SOLUTION questions
+const WorkedSolutionInput = dynamic(
+  () => import('@/components/math/WorkedSolutionInput').then(mod => mod.WorkedSolutionInput),
+  { ssr: false, loading: () => <div className="h-48 bg-gray-100 rounded-xl animate-pulse" /> }
+);
 
 interface SetMetadata {
   id: string;
@@ -254,6 +282,45 @@ function getColorClasses(color: string) {
       progressBg: 'bg-gradient-to-r from-slate-500 to-slate-600',
       focusRing: 'focus:ring-slate-500 focus:border-slate-500',
     },
+    gray: {
+      bg: 'bg-gray-500',
+      bgLight: 'bg-gray-50',
+      text: 'text-gray-600',
+      textHover: 'hover:text-gray-700',
+      border: 'border-gray-200',
+      spinnerBorder: 'border-gray-600',
+      gradient: 'from-gray-50 to-slate-50',
+      buttonBg: 'bg-gray-600',
+      buttonHover: 'hover:bg-gray-700',
+      progressBg: 'bg-gradient-to-r from-gray-500 to-gray-600',
+      focusRing: 'focus:ring-gray-500 focus:border-gray-500',
+    },
+    neutral: {
+      bg: 'bg-neutral-500',
+      bgLight: 'bg-neutral-50',
+      text: 'text-neutral-600',
+      textHover: 'hover:text-neutral-700',
+      border: 'border-neutral-200',
+      spinnerBorder: 'border-neutral-600',
+      gradient: 'from-neutral-50 to-gray-50',
+      buttonBg: 'bg-neutral-600',
+      buttonHover: 'hover:bg-neutral-700',
+      progressBg: 'bg-gradient-to-r from-neutral-500 to-neutral-600',
+      focusRing: 'focus:ring-neutral-500 focus:border-neutral-500',
+    },
+    indigo: {
+      bg: 'bg-indigo-500',
+      bgLight: 'bg-indigo-50',
+      text: 'text-indigo-600',
+      textHover: 'hover:text-indigo-700',
+      border: 'border-indigo-200',
+      spinnerBorder: 'border-indigo-600',
+      gradient: 'from-indigo-50 to-purple-50',
+      buttonBg: 'bg-indigo-600',
+      buttonHover: 'hover:bg-indigo-700',
+      progressBg: 'bg-gradient-to-r from-indigo-500 to-indigo-600',
+      focusRing: 'focus:ring-indigo-500 focus:border-indigo-500',
+    },
   };
   return colors[color] || colors.emerald;
 }
@@ -391,10 +458,23 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
 
+  // Math input state (for EQUATION_ENTRY and MULTI_STEP_MATH question types)
+  const [mathAnswerLatex, setMathAnswerLatex] = useState('');
+  const [mathAnswerPlainText, setMathAnswerPlainText] = useState('');
+  const [showMathKeypad, setShowMathKeypad] = useState(true);
+  const mathFieldRef = useRef<MathfieldElement | null>(null);
+
+  // Worked solution state (for student-centered "show your work" questions)
+  const [workedSolutionAnswer, setWorkedSolutionAnswer] = useState<WorkedSolutionAnswer | null>(null);
+
   // Grading state
   const [gradingResult, setGradingResult] = useState<GradingResult | null>(null);
   const [isGrading, setIsGrading] = useState(false);
   const [hasSubmitted, setHasSubmitted] = useState(false);
+
+  // Completion report state
+  const [showCompletionReport, setShowCompletionReport] = useState(false);
+  const [completedAttempt, setCompletedAttempt] = useState<SetAttempt | null>(null);
 
   const {
     progress,
@@ -406,6 +486,12 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
     totalMaxScore,
     scorePercent,
     correctCount,
+    // Attempt tracking
+    attemptHistory,
+    bestPercentage,
+    completeAttempt,
+    startNewAttempt,
+    isSetComplete,
   } = useSetProgress(setMeta.id, questions.length);
 
   // Fetch questions for this set
@@ -423,15 +509,12 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
           questionId: doc.id,
         })) as FirestoreQuestion[];
 
-        // Sort by questionId
+        // Sort by questionId to maintain consistent order
         allQuestions.sort((a, b) => a.questionId.localeCompare(b.questionId));
 
-        // Filter to this set's questions (0-indexed: set 1 = index 0-9, set 2 = 10-19, etc.)
-        const startIdx = (setNumber - 1) * 10;
-        const endIdx = startIdx + 10;
-        const questionsForSet = allQuestions.slice(startIdx, endIdx);
-
-        setQuestions(questionsForSet);
+        // Use all questions returned - each set has its own unique setId
+        // No slicing needed since we query by specific setId
+        setQuestions(allQuestions);
       } catch (error) {
         console.error('Error fetching questions:', error);
       } finally {
@@ -440,7 +523,7 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
     };
 
     fetchQuestions();
-  }, [setMeta.firestoreSetId, setNumber]);
+  }, [setMeta.firestoreSetId]);
 
   const currentQuestion = questions[currentQuestionIndex];
   const isComplete = isQuestionCompleted(currentQuestionIndex);
@@ -504,6 +587,9 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
       setCurrentQuestionIndex(index);
       setUserAnswer('');
       setSelectedOptionId(null);
+      setMathAnswerLatex('');
+      setMathAnswerPlainText('');
+      setWorkedSolutionAnswer(null);  // Clear worked solution state
       setShowHint(false);
       setShowSolution(false);
       setGradingResult(null);
@@ -529,10 +615,16 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
   const handleSubmitAnswer = async () => {
     if (!currentQuestion) return;
 
-    // For MCQ, require selection; for others, require text
+    // Determine question type and validation requirements
     const isMCQ = currentQuestion.questionType === 'MCQ';
+    const isMathType = isMathQuestion(currentQuestion);
+    const isWorkedSolution = isWorkedSolutionQuestion(currentQuestion);
+
+    // Validate input based on question type
     if (isMCQ && !selectedOptionId) return;
-    if (!isMCQ && !userAnswer.trim()) return;
+    if (isWorkedSolution && (!workedSolutionAnswer || !workedSolutionAnswer.finalAnswer.trim())) return;
+    if (isMathType && !isWorkedSolution && !mathAnswerLatex.trim()) return;
+    if (!isMCQ && !isMathType && !userAnswer.trim()) return;
 
     setIsGrading(true);
 
@@ -540,12 +632,31 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
       // Find correct option for MCQ
       const correctOption = currentQuestion.mcqOptions?.find(o => o.isCorrect);
 
+      // Determine the student answer based on question type
+      let studentAnswer: string;
+      if (isMCQ) {
+        studentAnswer = selectedOptionId || '';
+      } else if (isWorkedSolution && workedSolutionAnswer) {
+        // For WORKED_SOLUTION, serialize the full answer (working + final answer)
+        studentAnswer = JSON.stringify({
+          workLines: workedSolutionAnswer.workLines,
+          finalAnswer: workedSolutionAnswer.finalAnswer,
+          finalAnswerPlainText: workedSolutionAnswer.finalAnswerPlainText,
+        });
+      } else if (isMathType) {
+        // For other math questions, use LaTeX as primary answer
+        studentAnswer = mathAnswerLatex;
+      } else {
+        studentAnswer = userAnswer;
+      }
+
       const result = await gradeAnswer({
         questionId: currentQuestion.questionId,
         questionType: currentQuestion.questionType,
         questionStem: currentQuestion.stem,
         modelSolution: currentQuestion.solution || '',
-        studentAnswer: isMCQ ? (selectedOptionId || '') : userAnswer,
+        studentAnswer,
+        correctAnswer: currentQuestion.workedSolutionConfig?.expectedAnswers?.[0],
         selectedOptionId: selectedOptionId || undefined,
         correctOptionId: correctOption?.id,
         mcqOptions: currentQuestion.mcqOptions?.map(o => ({
@@ -560,13 +671,43 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
           topic: currentQuestion.curriculum.strand,
         } : undefined,
         difficulty: currentQuestion.difficulty ?? 3,  // Default to medium difficulty if not set
+        // Include math-specific context for AI grading
+        ...(isMathType && !isWorkedSolution && {
+          studentAnswerLatex: mathAnswerLatex,
+          studentAnswerPlainText: mathAnswerPlainText,
+        }),
       });
 
       setGradingResult(result);
       setHasSubmitted(true);
 
-      // Save to progress
-      markCompleted(currentQuestionIndex, isMCQ ? (selectedOptionId || '') : userAnswer, result);
+      // Save to progress - use appropriate answer format based on question type
+      const savedAnswer = isMCQ
+        ? (selectedOptionId || '')
+        : isWorkedSolution && workedSolutionAnswer
+          ? JSON.stringify(workedSolutionAnswer)
+          : isMathType
+            ? mathAnswerLatex
+            : userAnswer;
+      markCompleted(currentQuestionIndex, savedAnswer, result);
+
+      // Update skill mastery tracking (Phase 4)
+      if (currentQuestion.curriculum) {
+        const skillId = `${currentQuestion.curriculum.subject}-${currentQuestion.curriculum.strand}-y${currentQuestion.curriculum.year}`.toLowerCase().replace(/\s+/g, '-');
+        const skillName = `${currentQuestion.curriculum.strand} (Year ${currentQuestion.curriculum.year})`;
+        const topic = currentQuestion.curriculum.strand;
+        const isCorrect = result.correctness === 'correct' || (result.correctness === 'partial' && result.score >= result.maxScore * 0.7);
+
+        updateSkillMastery(
+          skillId,
+          skillName,
+          topic,
+          currentQuestion.curriculum.subject,
+          currentQuestion.curriculum.year,
+          isCorrect,
+          result.score / result.maxScore
+        );
+      }
 
       // Celebrate if perfect!
       if (shouldCelebrate(result)) {
@@ -580,11 +721,19 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
       ).length;
 
       if (newCompletedCount === questions.length) {
-        // All questions completed - big celebration!
-        setTimeout(() => {
+        // All questions completed - big celebration and show report!
+        setTimeout(async () => {
           setShowConfetti(true);
           setTimeout(() => setShowConfetti(false), 5000);
-        }, 1000);
+
+          // Complete the attempt and get the summary
+          const attempt = await completeAttempt();
+          if (attempt) {
+            setCompletedAttempt(attempt);
+            // Show report after a brief delay for confetti
+            setTimeout(() => setShowCompletionReport(true), 1500);
+          }
+        }, 500);
       }
     } catch (error) {
       console.error('Grading failed:', error);
@@ -601,6 +750,26 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
     setGradingResult(null);
     setUserAnswer('');
     setSelectedOptionId(null);
+    setMathAnswerLatex('');
+    setMathAnswerPlainText('');
+    setWorkedSolutionAnswer(null);
+  };
+
+  // Start a new attempt (try the whole set again)
+  const handleTryAgain = async () => {
+    await startNewAttempt();
+    setShowCompletionReport(false);
+    setCompletedAttempt(null);
+    setCurrentQuestionIndex(0);
+    setUserAnswer('');
+    setSelectedOptionId(null);
+    setMathAnswerLatex('');
+    setMathAnswerPlainText('');
+    setWorkedSolutionAnswer(null);
+    setShowHint(false);
+    setShowSolution(false);
+    setGradingResult(null);
+    setHasSubmitted(false);
   };
 
   // Build concept context for AI chat
@@ -656,6 +825,56 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
             ← {setMeta.backText}
           </Link>
         </div>
+      </div>
+    );
+  }
+
+  // Show completion report if set is complete and report is ready
+  if (showCompletionReport && completedAttempt) {
+    return (
+      <div className={`min-h-screen bg-gradient-to-br ${colorClasses.gradient}`}>
+        {/* Confetti for celebration */}
+        <Confetti show={showConfetti} />
+
+        {/* Header */}
+        <header className="bg-white/90 backdrop-blur-sm shadow-sm sticky top-0 z-10">
+          <div className="max-w-7xl mx-auto px-4 py-4">
+            <div className="flex items-center gap-4">
+              <Link
+                href={setMeta.backLink}
+                className={`${colorClasses.text} ${colorClasses.textHover}`}
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+              </Link>
+              <div className="flex-1">
+                <div className="flex items-center gap-3">
+                  <div className={`w-10 h-10 ${colorClasses.bgLight} rounded-lg flex items-center justify-center text-xl`}>
+                    {setMeta.icon}
+                  </div>
+                  <div>
+                    <h1 className="text-lg font-bold text-gray-900">{setMeta.title}</h1>
+                    <p className="text-sm text-gray-600">Set Complete!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main className="max-w-3xl mx-auto px-4 py-8">
+          <SetCompletionReport
+            attempt={completedAttempt}
+            setTitle={setMeta.title}
+            setSubtitle={setMeta.subtitle}
+            backLink={setMeta.backLink}
+            onTryAgain={handleTryAgain}
+            attemptHistory={attemptHistory}
+            bestPercentage={bestPercentage}
+            colorTheme={setMeta.color}
+          />
+        </main>
       </div>
     );
   }
@@ -782,11 +1001,9 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
               </div>
             </div>
 
-              <div
-                className="prose prose-lg max-w-none mb-6"
-                dangerouslySetInnerHTML={{
-                  __html: formatQuestionStem(currentQuestion.stem)
-                }}
+              <QuestionRenderer
+                content={currentQuestion.stem}
+                className="prose-lg mb-6"
               />
 
               {/* Answer Input - Different UI for MCQ vs Text */}
@@ -856,6 +1073,56 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
                       </button>
                     );
                   })}
+                </div>
+              ) : isWorkedSolutionQuestion(currentQuestion) ? (
+                // WORKED_SOLUTION - Student-centered "Show Your Work" input
+                <div className="mb-5">
+                  <WorkedSolutionInput
+                    stem={currentQuestion.stem}
+                    config={currentQuestion.workedSolutionConfig || {
+                      startingExpression: '',
+                      expectedAnswers: [],
+                      gradingGuidance: '',
+                    }}
+                    hints={currentQuestion.encouragingHints as EncouragingHint[] || []}
+                    isSubmitted={hasSubmitted}
+                    onAnswerChange={(answer) => setWorkedSolutionAnswer(answer)}
+                    colorTheme={setMeta.color}
+                  />
+                </div>
+              ) : isMathQuestion(currentQuestion) ? (
+                // Math Input (EQUATION_ENTRY or MULTI_STEP_MATH)
+                <div className="mb-5">
+                  <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
+                    <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                    Your Answer (use the keyboard or keypad below)
+                  </label>
+                  <MathInputField
+                    value={mathAnswerLatex}
+                    onChange={(latex, plainText) => {
+                      setMathAnswerLatex(latex);
+                      setMathAnswerPlainText(plainText);
+                    }}
+                    placeholder="Enter your equation or expression..."
+                    disabled={hasSubmitted}
+                    hasError={false}
+                    inputType={currentQuestion.questionType === 'EQUATION_ENTRY' ? 'equation' : 'expression'}
+                    ariaLabel="Math answer input"
+                    className={hasSubmitted ? 'opacity-75' : ''}
+                  />
+                  {/* Math Keypad for quick symbol access */}
+                  {!hasSubmitted && (
+                    <div className="mt-3">
+                      <MathKeypad
+                        mathFieldRef={mathFieldRef}
+                        isVisible={showMathKeypad}
+                        onVisibilityChange={setShowMathKeypad}
+                        groups={['numbers', 'operators', 'variables', 'fractions', 'powers', 'brackets']}
+                      />
+                    </div>
+                  )}
                 </div>
               ) : (
                 // Text Answer (SHORT_ANSWER or EXTENDED_RESPONSE)
@@ -955,7 +1222,13 @@ export function SetPlayerClient({ setNumber, setMeta }: SetPlayerClientProps) {
                   onClick={handleSubmitAnswer}
                   disabled={
                     isGrading ||
-                    (currentQuestion.questionType === 'MCQ' ? !selectedOptionId : !userAnswer.trim())
+                    (currentQuestion.questionType === 'MCQ'
+                      ? !selectedOptionId
+                      : isWorkedSolutionQuestion(currentQuestion)
+                        ? !workedSolutionAnswer?.finalAnswer.trim()
+                        : isMathQuestion(currentQuestion)
+                          ? !mathAnswerLatex.trim()
+                          : !userAnswer.trim())
                   }
                   className={`w-full py-3.5 px-4 ${colorClasses.progressBg} text-white rounded-xl font-semibold hover:shadow-lg transition-all duration-200 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed`}
                 >

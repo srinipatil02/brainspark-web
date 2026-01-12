@@ -1,0 +1,1412 @@
+[
+  {
+    "questionId": "chem-react-y8-001",
+    "questionType": "MCQ",
+    "stem": "What is a **physical change**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A change that creates a new substance with different properties",
+        "isCorrect": false,
+        "feedback": "This describes a chemical change, not a physical change. Physical changes don't create new substances."
+      },
+      {
+        "id": "B",
+        "text": "A change in appearance where the substance stays the same",
+        "isCorrect": true,
+        "feedback": "Correct! In a physical change, the appearance or form may change, but the substance itself remains the same."
+      },
+      {
+        "id": "C",
+        "text": "A change that cannot be reversed",
+        "isCorrect": false,
+        "feedback": "Most physical changes are reversible. It's chemical changes that are often irreversible."
+      },
+      {
+        "id": "D",
+        "text": "A change that always produces heat",
+        "isCorrect": false,
+        "feedback": "Physical changes don't necessarily produce heat. This is more commonly associated with chemical changes."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nA **physical change** is a change in the **appearance** or **form** of a substance, but the substance itself **stays the same**. The molecules or particles don't change - only how they're arranged or how they look.\n\nExamples include cutting paper, melting ice, or dissolving sugar in water. The substance might look different, but it's still the same material.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to the actual substance itself during the change. Does it become something completely different?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "In a physical change, only the appearance or state changes - the substance remains the same material.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 1,
+      "conceptsUsed": ["c1"],
+      "buildsOn": [],
+      "preparesFor": ["chem-react-y8-002", "chem-react-y8-003"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set1",
+      "sequenceInPaper": 1
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-002",
+    "questionType": "MCQ",
+    "stem": "What is a **chemical change**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A change where the substance stays the same but looks different",
+        "isCorrect": false,
+        "feedback": "This describes a physical change. In a chemical change, the substance itself changes."
+      },
+      {
+        "id": "B",
+        "text": "A change that forms a completely new substance with different properties",
+        "isCorrect": true,
+        "feedback": "Correct! A chemical change creates new substances with different properties from the original materials."
+      },
+      {
+        "id": "C",
+        "text": "A change that only affects the size of an object",
+        "isCorrect": false,
+        "feedback": "Changing size (like cutting or breaking) is a physical change, not a chemical change."
+      },
+      {
+        "id": "D",
+        "text": "A change that can always be easily reversed",
+        "isCorrect": false,
+        "feedback": "Chemical changes are usually difficult or impossible to reverse. Reversible changes are typically physical."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nA **chemical change** is a change that forms **new substances** with **different properties** from the original materials. The molecules or atoms rearrange to create something completely different.\n\nExamples include burning wood (creates ash and smoke), cooking an egg (protein structure changes), or rusting metal (iron combines with oxygen). You can't easily reverse these changes because new substances have been formed.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to the substance at the molecular level. Are new materials being created?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "In a chemical change, the original substance is transformed into one or more completely different substances.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 2,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["chem-react-y8-001"],
+      "preparesFor": ["chem-react-y8-003", "chem-react-y8-004"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set1",
+      "sequenceInPaper": 2
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-003",
+    "questionType": "MCQ",
+    "stem": "Which of the following is an example of a **physical change**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Burning paper",
+        "isCorrect": false,
+        "feedback": "Burning is a chemical change. The paper reacts with oxygen to form new substances (ash, smoke, gases)."
+      },
+      {
+        "id": "B",
+        "text": "Melting ice cream",
+        "isCorrect": true,
+        "feedback": "Correct! Melting is a physical change. The ice cream changes from solid to liquid, but it's still the same substance."
+      },
+      {
+        "id": "C",
+        "text": "Cooking an egg",
+        "isCorrect": false,
+        "feedback": "Cooking an egg is a chemical change. The heat changes the protein structure permanently."
+      },
+      {
+        "id": "D",
+        "text": "Rusting iron",
+        "isCorrect": false,
+        "feedback": "Rusting is a chemical change. Iron combines with oxygen to form a new substance (iron oxide/rust)."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Melting ice cream** is a physical change because:\n- Only the **state** changes (solid to liquid)\n- The **substance remains the same** - it's still ice cream\n- The change is **reversible** - you can refreeze it\n\nAll the other options involve creating **new substances**, which makes them chemical changes. Burning creates ash and gases, cooking changes protein structure, and rusting creates iron oxide.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Remember: physical changes alter appearance but keep the substance the same. Which option doesn't create a new substance?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Look for a change that could be reversed - that's usually a clue it's a physical change.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 3,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["chem-react-y8-001", "chem-react-y8-002"],
+      "preparesFor": ["chem-react-y8-004", "chem-react-y8-005"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set1",
+      "sequenceInPaper": 3
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-004",
+    "questionType": "MCQ",
+    "stem": "Which of the following is an example of a **chemical change**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Cutting a piece of wood",
+        "isCorrect": false,
+        "feedback": "Cutting is a physical change. The wood pieces are smaller, but they're still wood - no new substance is formed."
+      },
+      {
+        "id": "B",
+        "text": "Dissolving salt in water",
+        "isCorrect": false,
+        "feedback": "Dissolving is a physical change. The salt can be recovered by evaporating the water - no new substance is created."
+      },
+      {
+        "id": "C",
+        "text": "Baking a cake",
+        "isCorrect": true,
+        "feedback": "Correct! Baking is a chemical change. Heat causes the ingredients to react and form new substances - you can't reverse it back to raw batter."
+      },
+      {
+        "id": "D",
+        "text": "Breaking glass",
+        "isCorrect": false,
+        "feedback": "Breaking is a physical change. The glass is in smaller pieces, but it's still glass - the substance hasn't changed."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**Baking a cake** is a chemical change because:\n- **New substances** are formed when ingredients react with heat\n- The change is **irreversible** - you cannot turn a baked cake back into raw batter\n- The **properties** are completely different (texture, taste, structure)\n\nThe other options are all physical changes because the substance remains the same - just in different sizes or states. No new materials are created.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about which change you cannot reverse. Chemical changes are usually irreversible.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Which option creates a completely new substance that's different from what you started with?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 4,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["chem-react-y8-001", "chem-react-y8-002", "chem-react-y8-003"],
+      "preparesFor": ["chem-react-y8-005", "chem-react-y8-006"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set1",
+      "sequenceInPaper": 4
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-005",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Explain the difference between a **physical change** and a **chemical change**. Give one example of each.",
+    "solution": "The key difference is:\n\n**Physical change:**\n- The **substance stays the same**, only its appearance or state changes\n- Usually **reversible**\n- No new substances are formed\n- Example: **Melting ice** - water changes from solid to liquid, but it's still water (H₂O)\n\n**Chemical change:**\n- **New substances** are created with different properties\n- Usually **irreversible** or difficult to reverse\n- The original substance is transformed\n- Example: **Burning wood** - wood reacts with oxygen to form ash, smoke, and gases (cannot turn back into wood)\n\nThe main distinction is whether the **composition** of the substance changes (chemical) or just its **form/appearance** changes (physical).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what happens to the actual substance in each type of change. Does it stay the same or become something new?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider whether the change can be reversed. Physical changes are usually reversible, chemical changes usually aren't.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 5,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["chem-react-y8-001", "chem-react-y8-002", "chem-react-y8-003", "chem-react-y8-004"],
+      "preparesFor": ["chem-react-y8-006", "chem-react-y8-011"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set1",
+      "sequenceInPaper": 5
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-006",
+    "questionType": "MCQ",
+    "stem": "Which of the following is **evidence** that a chemical reaction has occurred?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A change in colour",
+        "isCorrect": true,
+        "feedback": "Correct! A colour change is often evidence that a chemical reaction has occurred, indicating new substances have formed."
+      },
+      {
+        "id": "B",
+        "text": "A change in size",
+        "isCorrect": false,
+        "feedback": "A change in size alone is usually a physical change (like cutting or breaking), not evidence of a chemical reaction."
+      },
+      {
+        "id": "C",
+        "text": "A change in location",
+        "isCorrect": false,
+        "feedback": "Moving something to a different location is not evidence of a chemical reaction - no new substances are formed."
+      },
+      {
+        "id": "D",
+        "text": "A change in weight when measured on different scales",
+        "isCorrect": false,
+        "feedback": "This is just a measurement difference, not evidence of a chemical change. In chemical reactions, mass is conserved."
+      }
+    ],
+    "solution": "The answer is **A**.\n\nA **colour change** is one of the key signs that a **chemical reaction** has occurred. When substances react chemically, they often form new materials with different colours.\n\nOther signs of chemical reactions include:\n- **Gas production** (bubbles or fizzing)\n- **Temperature change** (getting hotter or colder)\n- **Precipitate formation** (solid forming in a liquid)\n- **Light or sound** production\n\nThese are called **observable evidence** that new substances have been created.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what you could observe that shows a new substance has been created. What changes indicate something chemically different has formed?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "When substances change colour, it usually means their chemical composition has changed - new substances have formed.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 6,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["chem-react-y8-002", "chem-react-y8-004", "chem-react-y8-005"],
+      "preparesFor": ["chem-react-y8-007", "chem-react-y8-008"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set1",
+      "sequenceInPaper": 6
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-007",
+    "questionType": "MCQ",
+    "stem": "When you see **bubbles** forming during a reaction, what does this indicate?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The substance is changing colour",
+        "isCorrect": false,
+        "feedback": "Bubbles indicate gas production, not colour change. Colour change is a different sign of chemical reaction."
+      },
+      {
+        "id": "B",
+        "text": "A gas is being produced",
+        "isCorrect": true,
+        "feedback": "Correct! Bubbles show that a gas is being produced, which is evidence that a chemical reaction is occurring."
+      },
+      {
+        "id": "C",
+        "text": "The substance is dissolving",
+        "isCorrect": false,
+        "feedback": "Dissolving is a physical change, not a chemical reaction. While dissolving might create movement in the liquid, bubbles specifically indicate gas production."
+      },
+      {
+        "id": "D",
+        "text": "The reaction is slowing down",
+        "isCorrect": false,
+        "feedback": "Bubbles indicate active gas production, which shows the reaction is happening, not slowing down."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Bubbles** or **fizzing** during a reaction indicate that a **gas is being produced**. This is one of the key signs of a **chemical reaction**.\n\nWhen you see bubbles:\n- A **new substance** (gas) is being created\n- The gas forms **bubbles** as it escapes from the liquid\n- This is **observable evidence** of a chemical change\n\nExample: When you add vinegar to baking soda, the bubbles you see are carbon dioxide gas being produced by the chemical reaction.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what bubbles are made of. What state of matter do they contain?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Bubbles in a chemical reaction show that a gas is forming and escaping from the mixture.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 7,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["chem-react-y8-006"],
+      "preparesFor": ["chem-react-y8-008", "chem-react-y8-009"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set1",
+      "sequenceInPaper": 7
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-008",
+    "questionType": "MCQ",
+    "stem": "What is a **precipitate** in a chemical reaction?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A gas that escapes from the mixture",
+        "isCorrect": false,
+        "feedback": "A gas escaping is a different sign of chemical reaction. A precipitate is a solid, not a gas."
+      },
+      {
+        "id": "B",
+        "text": "A solid that forms in a liquid",
+        "isCorrect": true,
+        "feedback": "Correct! A precipitate is a solid substance that forms in a liquid during a chemical reaction."
+      },
+      {
+        "id": "C",
+        "text": "A colour change in the substance",
+        "isCorrect": false,
+        "feedback": "Colour change is evidence of a reaction, but a precipitate specifically refers to a solid forming."
+      },
+      {
+        "id": "D",
+        "text": "Heat released during the reaction",
+        "isCorrect": false,
+        "feedback": "Heat release is a temperature change, not a precipitate. A precipitate is a physical solid you can see."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nA **precipitate** is a **solid substance** that **forms in a liquid** during a chemical reaction. \n\nKey points about precipitates:\n- They appear as **cloudy** or **solid particles** settling in the liquid\n- Formation of a precipitate is **evidence** that a chemical reaction has occurred\n- The solid is a **new substance** created by the reaction\n- Often appears as a **different colour** from the original liquids\n\nExample: When you mix certain clear solutions together, they might produce a white or coloured solid (precipitate) that settles at the bottom or makes the liquid cloudy.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what state of matter a precipitate is. Is it a solid, liquid, or gas?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "A precipitate is a solid that appears when two liquids react chemically. You can often see it settling or making the liquid cloudy.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 8,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["chem-react-y8-006", "chem-react-y8-007"],
+      "preparesFor": ["chem-react-y8-009", "chem-react-y8-010"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set1",
+      "sequenceInPaper": 8
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-009",
+    "questionType": "MCQ",
+    "stem": "You mix baking soda and vinegar together. The mixture starts **bubbling** and **fizzing**, and the container feels **cold** to touch.\n\nHow many signs of a chemical reaction can you observe in this experiment?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "One sign",
+        "isCorrect": false,
+        "feedback": "There are multiple signs here. Count the different types of observable evidence carefully."
+      },
+      {
+        "id": "B",
+        "text": "Two signs",
+        "isCorrect": true,
+        "feedback": "Correct! There are two signs: (1) gas production (bubbling/fizzing) and (2) temperature change (feels cold). These both indicate a chemical reaction is occurring."
+      },
+      {
+        "id": "C",
+        "text": "Three signs",
+        "isCorrect": false,
+        "feedback": "Bubbling and fizzing are both describing the same sign - gas production. The temperature change is the second sign."
+      },
+      {
+        "id": "D",
+        "text": "No signs - this is a physical change",
+        "isCorrect": false,
+        "feedback": "This is definitely a chemical reaction! New substances (including carbon dioxide gas) are being formed."
+      }
+    ],
+    "solution": "The answer is **B** - there are **two signs** of chemical reaction:\n\n1. **Gas production** - The bubbling and fizzing shows that a gas (carbon dioxide) is being produced\n2. **Temperature change** - The container feeling cold indicates the reaction is absorbing heat (endothermic)\n\nNote: Bubbling and fizzing both describe the **same sign** - gas production. They're different words for observing the same evidence.\n\nThis baking soda and vinegar reaction is a classic example of a **chemical change** where new substances are formed, which we can observe through these signs.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "List all the different types of changes mentioned: bubbling/fizzing and temperature change. Are these separate signs or the same sign?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Bubbling and fizzing both indicate gas production - that's one sign. The cold feeling is a temperature change - that's another sign.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 9,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["chem-react-y8-006", "chem-react-y8-007", "chem-react-y8-008"],
+      "preparesFor": ["chem-react-y8-010", "chem-react-y8-016"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set1",
+      "sequenceInPaper": 9
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-010",
+    "questionType": "SHORT_ANSWER",
+    "stem": "List **four signs** that indicate a chemical reaction has occurred. For each sign, give a brief description of what you would observe.",
+    "solution": "Four signs of a chemical reaction:\n\n1. **Colour change** - The substance changes to a different colour, indicating new substances with different properties have formed\n\n2. **Gas production** - Bubbles or fizzing appear, showing that a gas is being created and escaping from the mixture\n\n3. **Temperature change** - The mixture gets hotter or colder, indicating energy is being released or absorbed during the reaction\n\n4. **Precipitate formation** - A solid forms in a liquid, often appearing as cloudiness or particles settling, showing new substances have been created\n\nOther acceptable signs include:\n- **Light production** - The reaction produces light (like burning)\n- **Sound** - The reaction produces a noise (like a pop or crack)\n\nThese **observable changes** provide evidence that chemical reactions are occurring and new substances are being formed.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about what you could see, feel, or hear during a chemical reaction. What changes would tell you something new has been created?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Consider: colour changes, bubbles forming, temperature changes, and solids appearing in liquids. What would each of these look like?",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 10,
+      "conceptsUsed": ["c2"],
+      "buildsOn": ["chem-react-y8-006", "chem-react-y8-007", "chem-react-y8-008", "chem-react-y8-009"],
+      "preparesFor": ["chem-react-y8-011", "chem-react-y8-016"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set1",
+      "sequenceInPaper": 10
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-011",
+    "questionType": "MCQ",
+    "stem": "In a chemical reaction, what are **reactants**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The substances that are formed at the end of the reaction",
+        "isCorrect": false,
+        "feedback": "These are called products, not reactants. Reactants are what you start with, products are what you end up with."
+      },
+      {
+        "id": "B",
+        "text": "The substances you start with before the reaction",
+        "isCorrect": true,
+        "feedback": "Correct! Reactants are the starting substances that react together during a chemical reaction."
+      },
+      {
+        "id": "C",
+        "text": "The energy released during the reaction",
+        "isCorrect": false,
+        "feedback": "Energy is not a substance. Reactants are the actual materials that undergo chemical change."
+      },
+      {
+        "id": "D",
+        "text": "The signs that show a reaction has occurred",
+        "isCorrect": false,
+        "feedback": "Observable signs (like colour change or bubbles) are evidence of a reaction, but reactants are the starting substances."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Reactants** are the **starting substances** that you begin with **before** a chemical reaction occurs. \n\nKey points:\n- Reactants **react together** or **break apart** during the reaction\n- They are **consumed** (used up) as the reaction happens\n- They are **transformed** into new substances called **products**\n\nExample: In burning wood:\n- **Reactants** = wood + oxygen\n- **Products** = ash + smoke + gases\n\nThe reactants (wood and oxygen) are used up to create the products (ash, smoke, gases).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the timeline of a reaction. What do you call the substances at the beginning before anything happens?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Reactants are what you start with - they react together to form new substances.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 11,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["chem-react-y8-002", "chem-react-y8-005", "chem-react-y8-010"],
+      "preparesFor": ["chem-react-y8-012", "chem-react-y8-013"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set2",
+      "sequenceInPaper": 11
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-012",
+    "questionType": "MCQ",
+    "stem": "In a chemical reaction, what are **products**?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The substances you start with at the beginning",
+        "isCorrect": false,
+        "feedback": "These are called reactants, not products. Products are what you end up with after the reaction."
+      },
+      {
+        "id": "B",
+        "text": "The new substances formed at the end of the reaction",
+        "isCorrect": true,
+        "feedback": "Correct! Products are the new substances created as a result of the chemical reaction."
+      },
+      {
+        "id": "C",
+        "text": "The signs that show a reaction is happening",
+        "isCorrect": false,
+        "feedback": "Observable signs are evidence, but products are the actual new substances formed by the reaction."
+      },
+      {
+        "id": "D",
+        "text": "The equipment used to perform the reaction",
+        "isCorrect": false,
+        "feedback": "Equipment like beakers or test tubes are tools, not the substances formed. Products are the chemical substances created."
+      }
+    ],
+    "solution": "The answer is **B**.\n\n**Products** are the **new substances** that are **formed** at the **end** of a chemical reaction.\n\nKey points:\n- Products are **created** during the reaction\n- They have **different properties** from the reactants\n- They are the **result** of reactants combining or breaking apart\n\nExample: When you burn paper:\n- **Reactants** = paper + oxygen\n- **Products** = ash + smoke + gases\n\nThe products (ash, smoke, gases) are completely different substances from what you started with (paper and oxygen).",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about the timeline of a reaction. What do you call the substances that exist after the reaction is complete?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Products are the new substances created when reactants undergo chemical change.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 12,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["chem-react-y8-011"],
+      "preparesFor": ["chem-react-y8-013", "chem-react-y8-014"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set2",
+      "sequenceInPaper": 12
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-013",
+    "questionType": "MCQ",
+    "stem": "When magnesium metal burns in oxygen, it produces magnesium oxide.\n\nWhat are the **reactants** in this chemical reaction?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Magnesium oxide only",
+        "isCorrect": false,
+        "feedback": "Magnesium oxide is the product (what's formed), not a reactant. Reactants are what you start with."
+      },
+      {
+        "id": "B",
+        "text": "Magnesium and oxygen",
+        "isCorrect": true,
+        "feedback": "Correct! The reactants are magnesium and oxygen - these are the starting substances that react together."
+      },
+      {
+        "id": "C",
+        "text": "Magnesium and magnesium oxide",
+        "isCorrect": false,
+        "feedback": "Magnesium is a reactant, but magnesium oxide is the product formed, not a reactant."
+      },
+      {
+        "id": "D",
+        "text": "Oxygen and magnesium oxide",
+        "isCorrect": false,
+        "feedback": "Oxygen is a reactant, but magnesium oxide is the product, not a reactant."
+      }
+    ],
+    "solution": "The answer is **B**.\n\nThe **reactants** are **magnesium** and **oxygen** because:\n- These are the **starting substances** before the reaction\n- They **react together** when the magnesium burns\n- They are **consumed** (used up) during the reaction\n\nThe reaction can be written as:\n**Reactants → Product**\n\nMagnesium + Oxygen → Magnesium oxide\n\nThe **magnesium oxide** is the **product** - it's the new substance formed at the end of the reaction.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Reactants are what you start with before the reaction happens. What two substances are mentioned at the beginning?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Look for the substances that exist before burning occurs. Magnesium oxide is created, so it must be the product.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 13,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["chem-react-y8-011", "chem-react-y8-012"],
+      "preparesFor": ["chem-react-y8-014", "chem-react-y8-015"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set2",
+      "sequenceInPaper": 13
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-014",
+    "questionType": "MCQ",
+    "stem": "In the reaction: **Iron + Sulfur → Iron sulfide**\n\nWhat is the **product** of this reaction?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Iron",
+        "isCorrect": false,
+        "feedback": "Iron is a reactant (starting substance), not the product. Products are what's formed at the end."
+      },
+      {
+        "id": "B",
+        "text": "Sulfur",
+        "isCorrect": false,
+        "feedback": "Sulfur is a reactant (starting substance), not the product. Products are created during the reaction."
+      },
+      {
+        "id": "C",
+        "text": "Iron sulfide",
+        "isCorrect": true,
+        "feedback": "Correct! Iron sulfide is the product - it's the new substance formed when iron and sulfur react together."
+      },
+      {
+        "id": "D",
+        "text": "Iron and sulfur",
+        "isCorrect": false,
+        "feedback": "Iron and sulfur are the reactants (starting substances), not products. The product is what they form together."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**Iron sulfide** is the **product** because:\n- It's the **new substance** formed by the reaction\n- It appears **after** the arrow (→) in the reaction equation\n- It's **created** when the reactants (iron and sulfur) combine\n\nIn chemical reactions:\n- **Before the arrow (→)** = Reactants (what you start with)\n- **After the arrow (→)** = Products (what's formed)\n\n**Iron + Sulfur → Iron sulfide**\n(Reactants) → (Product)\n\nThe iron and sulfur combine chemically to form iron sulfide, which has completely different properties from the original elements.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "In a reaction equation, what comes after the arrow (→) symbol?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Products appear after the arrow. They're the new substances created by the reaction.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 60,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 14,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["chem-react-y8-011", "chem-react-y8-012", "chem-react-y8-013"],
+      "preparesFor": ["chem-react-y8-015", "chem-react-y8-020"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set2",
+      "sequenceInPaper": 14
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-015",
+    "questionType": "SHORT_ANSWER",
+    "stem": "For the reaction: **Methane + Oxygen → Carbon dioxide + Water**\n\nIdentify:\na) The reactants\nb) The products\nc) How many products are formed",
+    "solution": "a) **Reactants:** Methane and Oxygen\n- These are the starting substances (before the arrow →)\n- They are consumed during the reaction\n\nb) **Products:** Carbon dioxide and Water\n- These are the new substances formed (after the arrow →)\n- They are created as a result of the chemical reaction\n\nc) **Number of products:** Two products are formed\n- Carbon dioxide\n- Water\n\nThis reaction represents **combustion** (burning) of methane. The reactants (methane and oxygen) react together to produce two different products (carbon dioxide and water). All chemical reactions follow this pattern: reactants → products.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Reactants are before the arrow (→), products are after the arrow. Count how many substances appear on each side.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Before arrow: methane and oxygen (reactants). After arrow: carbon dioxide and water (products). Count the products.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 15,
+      "conceptsUsed": ["c3"],
+      "buildsOn": ["chem-react-y8-011", "chem-react-y8-012", "chem-react-y8-013", "chem-react-y8-014"],
+      "preparesFor": ["chem-react-y8-016", "chem-react-y8-017"]
+    },
+    "pedagogy": {
+      "type": "scaffolded",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set2",
+      "sequenceInPaper": 15
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-016",
+    "questionType": "MCQ",
+    "stem": "You leave a sliced apple on the bench. After 20 minutes, the white flesh has turned **brown**.\n\nWhat type of change is this?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "A physical change, because you can wipe the brown colour off",
+        "isCorrect": false,
+        "feedback": "The brown colour can't be wiped off - it's throughout the apple flesh. The apple's chemistry has changed."
+      },
+      {
+        "id": "B",
+        "text": "A physical change, because the apple is still an apple",
+        "isCorrect": false,
+        "feedback": "While it's still apple tissue, the substances in the apple have chemically reacted with oxygen to create new brown compounds."
+      },
+      {
+        "id": "C",
+        "text": "A chemical change, because new substances with different colours have formed",
+        "isCorrect": true,
+        "feedback": "Correct! This is a chemical change called oxidation. Substances in the apple react with oxygen to form new brown compounds."
+      },
+      {
+        "id": "D",
+        "text": "Neither - no change has occurred",
+        "isCorrect": false,
+        "feedback": "A clear change has occurred - the apple turned brown. This is evidence of a chemical reaction."
+      }
+    ],
+    "solution": "The answer is **C**.\n\nThe browning of a sliced apple is a **chemical change** because:\n- **New substances** are formed (brown compounds)\n- The **colour change** is evidence of a chemical reaction\n- The change is **irreversible** - you can't turn the apple white again\n- Substances in the apple have **reacted with oxygen** in the air\n\nThis process is called **oxidation** - the same type of reaction that causes metal to rust. When apple cells are damaged (by cutting), compounds inside react with oxygen to form new brown substances.\n\nKey sign of chemical reaction: **Colour change** indicates new substances have been created.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether the brown colour is just on the surface or if the apple's chemistry has actually changed. Can you reverse this change?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Colour change is a sign of chemical reaction. The apple's compounds are reacting with oxygen to form new brown substances.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 16,
+      "conceptsUsed": ["c1", "c2"],
+      "buildsOn": ["chem-react-y8-002", "chem-react-y8-006", "chem-react-y8-009", "chem-react-y8-010"],
+      "preparesFor": ["chem-react-y8-017", "chem-react-y8-018"]
+    },
+    "pedagogy": {
+      "type": "phenomenon",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set2",
+      "sequenceInPaper": 16
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-017",
+    "questionType": "MCQ",
+    "stem": "A student says: **\"When sugar dissolves in water, it's a chemical reaction because the sugar disappears.\"**\n\nIs this statement correct? Why or why not?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "Correct - dissolving always involves chemical reactions",
+        "isCorrect": false,
+        "feedback": "Dissolving is a physical change, not a chemical reaction. No new substances are formed."
+      },
+      {
+        "id": "B",
+        "text": "Correct - because you can't see the sugar anymore, it must have changed chemically",
+        "isCorrect": false,
+        "feedback": "Just because you can't see something doesn't mean it's changed chemically. The sugar is still there, just spread throughout the water."
+      },
+      {
+        "id": "C",
+        "text": "Incorrect - dissolving is a physical change; the sugar is still present as sugar",
+        "isCorrect": true,
+        "feedback": "Correct! Dissolving is a physical change. The sugar molecules spread throughout the water but remain sugar - no new substance is formed. You could recover the sugar by evaporating the water."
+      },
+      {
+        "id": "D",
+        "text": "Incorrect - sugar cannot dissolve in water",
+        "isCorrect": false,
+        "feedback": "Sugar definitely dissolves in water, but dissolving is a physical change, not a chemical one."
+      }
+    ],
+    "solution": "The answer is **C** - the statement is **incorrect**.\n\n**Dissolving is a physical change**, not a chemical reaction, because:\n- The sugar molecules **remain sugar** - they don't change into a new substance\n- The sugar is still present, just **spread throughout** the water\n- The change is **reversible** - you can recover the sugar by evaporating the water\n- **No new substances** are formed\n\n**Common misconception:** Just because something \"disappears\" from view doesn't mean it has undergone a chemical change. In dissolving:\n- The substance becomes **invisible** because it's spread so thinly\n- But it's still **chemically the same** substance\n- A chemical change would create a **new substance** with different properties\n\nYou can prove dissolving is physical by tasting the water - it tastes sweet because the sugar is still there!",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about whether new substances are formed when sugar dissolves. Is the sugar still sugar, or has it become something different?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Could you get the sugar back by evaporating the water? If yes, that suggests it's still sugar - a physical change, not chemical.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 17,
+      "conceptsUsed": ["c1"],
+      "buildsOn": ["chem-react-y8-001", "chem-react-y8-002", "chem-react-y8-005"],
+      "preparesFor": ["chem-react-y8-018", "chem-react-y8-019"]
+    },
+    "pedagogy": {
+      "type": "misconception",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set2",
+      "sequenceInPaper": 17
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-018",
+    "questionType": "SHORT_ANSWER",
+    "stem": "You observe a reaction where a **colourless liquid** and a **clear solution** are mixed together. The mixture immediately becomes **cloudy white** and feels **warm** to touch.\n\nExplain how you know a chemical reaction has occurred. Use evidence from the observation.",
+    "solution": "We can tell a **chemical reaction** has occurred because there are **two signs** of chemical change:\n\n1. **Precipitate formation** - The mixture becoming cloudy white indicates a **solid precipitate** has formed in the liquid. This shows that new substances have been created that don't dissolve in the solution.\n\n2. **Temperature change** - The mixture feeling warm shows that **heat has been released** (exothermic reaction). This energy change is evidence that chemical bonds have been broken and formed, creating new substances.\n\nThese **observable signs** provide evidence that:\n- The **reactants** (original liquids) have reacted\n- **New substances** (products) with different properties have been formed\n- A **chemical change** (not just physical) has taken place\n\nBoth the appearance of a solid (precipitate) and the temperature increase are reliable indicators that a chemical reaction has occurred.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Count how many different signs of chemical reaction you can identify in the observation. What changed about the mixture?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "The cloudy appearance suggests a precipitate formed. The warmth indicates a temperature change. Both are signs of chemical reaction.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 120,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 18,
+      "conceptsUsed": ["c1", "c2", "c3"],
+      "buildsOn": ["chem-react-y8-006", "chem-react-y8-008", "chem-react-y8-010", "chem-react-y8-016"],
+      "preparesFor": ["chem-react-y8-019", "chem-react-y8-020"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set2",
+      "sequenceInPaper": 18
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-019",
+    "questionType": "MCQ",
+    "stem": "Which observation would **NOT** necessarily indicate a chemical reaction is occurring?",
+    "mcqOptions": [
+      {
+        "id": "A",
+        "text": "The mixture changes from blue to green",
+        "isCorrect": false,
+        "feedback": "Colour change is a strong indicator of chemical reaction - it suggests new substances with different colours have formed."
+      },
+      {
+        "id": "B",
+        "text": "Bubbles form and rise to the surface",
+        "isCorrect": false,
+        "feedback": "Gas production (bubbles) is a clear sign of chemical reaction - a gas is being created as a product."
+      },
+      {
+        "id": "C",
+        "text": "The substance changes from liquid to solid when cooled",
+        "isCorrect": true,
+        "feedback": "Correct! Freezing (changing state when cooled) is a physical change, not a chemical reaction. The substance remains the same, only its state changes."
+      },
+      {
+        "id": "D",
+        "text": "A white solid appears when two clear liquids are mixed",
+        "isCorrect": false,
+        "feedback": "A precipitate forming is evidence of chemical reaction - a new solid substance has been created."
+      }
+    ],
+    "solution": "The answer is **C**.\n\n**Changing from liquid to solid when cooled** (freezing) is a **physical change**, not a chemical reaction, because:\n- The **substance stays the same** - only its state changes\n- It's **reversible** - you can melt it back to liquid\n- **No new substances** are formed\n- The molecules remain the same, they just slow down and arrange differently\n\nThe other options are all signs of **chemical reactions**:\n- Colour change → new substances formed\n- Bubbles → gas being produced\n- Precipitate → new solid substance created\n\n**Key distinction:** Changes of state (melting, freezing, boiling, condensing) are **physical changes**. They don't create new substances, even though they look dramatic.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Think about which change is reversible and doesn't create a new substance. Which is just a change of state?",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Freezing is a change of state (physical change), not a chemical change. The substance remains the same.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 90,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 19,
+      "conceptsUsed": ["c1", "c2"],
+      "buildsOn": ["chem-react-y8-001", "chem-react-y8-006", "chem-react-y8-010", "chem-react-y8-017"],
+      "preparesFor": ["chem-react-y8-020"]
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set2",
+      "sequenceInPaper": 19
+    },
+    "status": "published"
+  },
+  {
+    "questionId": "chem-react-y8-020",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student burns a piece of magnesium ribbon in air. The bright white light is produced, and a white powder (magnesium oxide) is formed.\n\nUsing the terms **reactants** and **products**, describe what happened in this chemical reaction. Include evidence that shows this is a chemical change, not a physical change.",
+    "solution": "**What happened:**\n\nIn this chemical reaction:\n- **Reactants:** Magnesium (the ribbon) and oxygen (from the air)\n- **Products:** Magnesium oxide (the white powder)\n\nThe equation can be written as:\nMagnesium + Oxygen → Magnesium oxide\n\n**Evidence this is a chemical change:**\n\n1. **Light production** - The bright white light shows energy is being released as chemical bonds form and break\n\n2. **New substance formed** - The white powder (magnesium oxide) has completely different properties from the original magnesium ribbon\n\n3. **Irreversible** - You cannot turn the white powder back into magnesium ribbon\n\n4. **Colour change** - The silvery magnesium becomes white powder\n\nThese signs confirm that a **chemical reaction** occurred where the reactants were transformed into a new product with different properties. This is not just a physical change in appearance - the magnesium has chemically combined with oxygen to create a completely new substance.",
+    "hints": [
+      {
+        "level": 1,
+        "content": "Identify what you started with (reactants) and what was created (products). Then list the observable changes that indicate a chemical reaction.",
+        "revealsCriticalInfo": false
+      },
+      {
+        "level": 2,
+        "content": "Reactants: magnesium and oxygen. Product: magnesium oxide. Evidence includes light production, new substance formed, and colour change.",
+        "revealsCriticalInfo": true
+      }
+    ],
+    "difficulty": 2,
+    "estimatedTime": 150,
+    "curriculum": {
+      "system": "NSW Science K-10 Syllabus",
+      "codes": ["ACSSU225"],
+      "year": 8,
+      "subject": "science",
+      "strand": "Chemical Sciences"
+    },
+    "learningArc": {
+      "phase": 1,
+      "phasePosition": 20,
+      "conceptsUsed": ["c1", "c2", "c3"],
+      "buildsOn": ["chem-react-y8-002", "chem-react-y8-010", "chem-react-y8-011", "chem-react-y8-012", "chem-react-y8-013", "chem-react-y8-014", "chem-react-y8-018"],
+      "preparesFor": []
+    },
+    "pedagogy": {
+      "type": "socratic",
+      "targetFeeling": "I can do this!"
+    },
+    "richContent": {
+      "hasEquations": false,
+      "hasTables": false,
+      "hasGraphs": false,
+      "hasDiagrams": false,
+      "hasCode": false
+    },
+    "paperMetadata": {
+      "section": "year8-science",
+      "setId": "year8-chemical-reactions-set2",
+      "sequenceInPaper": 20
+    },
+    "status": "published"
+  }
+]

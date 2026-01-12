@@ -1,0 +1,365 @@
+{
+  "metadata": {
+    "topic": "WORKED_SOLUTION Test Questions",
+    "year": 8,
+    "subject": "Mathematics",
+    "purpose": "Testing the new WORKED_SOLUTION question type",
+    "createdAt": "2026-01-11"
+  },
+  "questions": [
+    {
+      "questionId": "worked-solution-test-001",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$3(x + 4) = 21$$\n\nShow all your working.",
+      "solution": "**Step-by-step solution:**\n\n1. Expand the brackets: $3x + 12 = 21$\n2. Subtract 12 from both sides: $3x = 9$\n3. Divide both sides by 3: $x = 3$\n\n**Answer: x = 3**",
+      "hints": [
+        {"level": 1, "content": "What operation should you do first? Look at the brackets..."},
+        {"level": 2, "content": "When you have 3(x + 4), you need to multiply 3 by everything inside the brackets."},
+        {"level": 3, "content": "After expanding: 3x + 12 = 21. Now isolate x by doing the same operation to both sides."}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "There are many ways to solve this! Some students expand first, others divide first - both work!",
+          "encouragement": "Trust your approach - there's no single 'right' way to solve this!",
+          "questionPrompt": "What's the first thing you notice about this equation?"
+        },
+        {
+          "level": 2,
+          "content": "Remember: whatever you do to one side, do to the other. Balance is key!",
+          "encouragement": "You're thinking mathematically - that's what matters!",
+          "questionPrompt": "How can you get x by itself?"
+        },
+        {
+          "level": 3,
+          "content": "The brackets contain (x + 4). You can either expand 3 × (x + 4) or divide both sides by 3 first.",
+          "encouragement": "Every step you write shows your thinking - that's valuable!",
+          "questionPrompt": "What would happen if you divided both sides by 3 first?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3(x + 4) = 21",
+        "expectedAnswers": ["x = 3", "3", "x=3"],
+        "gradingGuidance": "Accept any valid algebraic approach. Expanding first OR dividing first are both valid. Focus on logical reasoning.",
+        "sampleSolutions": [
+          "Expand first: 3x + 12 = 21, then 3x = 9, then x = 3",
+          "Divide first: x + 4 = 7, then x = 3"
+        ],
+        "minimumWorkLines": 2
+      },
+      "difficulty": 2,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 1,
+        "conceptsUsed": ["linear-equations", "inverse-operations"],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can solve this my own way!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-math-worked-solution-test",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "worked-solution-test-002",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A rectangle has a perimeter of 28 cm. If its length is 9 cm, find its width.\n\nShow your working.",
+      "solution": "**Solution:**\n\nPerimeter formula: $P = 2(l + w)$\n\nSubstitute known values:\n$28 = 2(9 + w)$\n$14 = 9 + w$\n$w = 5$ cm\n\n**Answer: Width = 5 cm**",
+      "hints": [
+        {"level": 1, "content": "Remember the perimeter formula for a rectangle."},
+        {"level": 2, "content": "Perimeter = 2 × (length + width)"},
+        {"level": 3, "content": "28 = 2(9 + w). Solve for w."}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Think about what perimeter means - it's the total distance around the shape!",
+          "encouragement": "Drawing a diagram can really help here!",
+          "questionPrompt": "What do you know about the sides of a rectangle?"
+        },
+        {
+          "level": 2,
+          "content": "A rectangle has 2 lengths and 2 widths. So Perimeter = length + length + width + width = 2(length + width)",
+          "encouragement": "You're connecting geometry and algebra - great thinking!",
+          "questionPrompt": "Can you write an equation using the perimeter formula?"
+        },
+        {
+          "level": 3,
+          "content": "Your equation should look like: 28 = 2(9 + w). Now it's just algebra!",
+          "encouragement": "Word problems become easier when you translate them to equations!",
+          "questionPrompt": "What value of w makes this equation true?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "P = 28, l = 9",
+        "expectedAnswers": ["5", "w = 5", "5 cm", "width = 5"],
+        "gradingGuidance": "Accept any approach: using formula, setting up equation, or reasoning about half-perimeter. Value the reasoning process.",
+        "sampleSolutions": [
+          "P = 2(l + w), so 28 = 2(9 + w), 14 = 9 + w, w = 5",
+          "Half perimeter = 14, 14 - 9 = 5"
+        ],
+        "minimumWorkLines": 2
+      },
+      "difficulty": 2,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMMG196"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 2,
+        "conceptsUsed": ["perimeter", "linear-equations"],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "phenomenon",
+        "targetFeeling": "I can connect geometry to algebra!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-math-worked-solution-test",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "worked-solution-test-003",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Simplify:\n\n$$\\frac{2x + 6}{2}$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nMethod 1 (Factor first):\n$\\frac{2x + 6}{2} = \\frac{2(x + 3)}{2} = x + 3$\n\nMethod 2 (Divide each term):\n$\\frac{2x + 6}{2} = \\frac{2x}{2} + \\frac{6}{2} = x + 3$\n\n**Answer: x + 3**",
+      "hints": [
+        {"level": 1, "content": "You can divide each term in the numerator by 2."},
+        {"level": 2, "content": "What is 2x ÷ 2? What is 6 ÷ 2?"},
+        {"level": 3, "content": "2x ÷ 2 = x, and 6 ÷ 2 = 3, so the answer is x + 3"}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "There are two great ways to approach this! You could factor out 2 from the top, OR divide each term separately.",
+          "encouragement": "Pick whichever method feels more natural to you!",
+          "questionPrompt": "Which approach would you like to try?"
+        },
+        {
+          "level": 2,
+          "content": "If dividing each term: (2x)/2 + 6/2. If factoring: 2(x+3)/2",
+          "encouragement": "Both methods lead to the same answer - that's the beauty of maths!",
+          "questionPrompt": "Can you see why both methods work?"
+        },
+        {
+          "level": 3,
+          "content": "When you divide each term: 2x/2 = x (the 2s cancel), and 6/2 = 3",
+          "encouragement": "Simplifying fractions is a skill you'll use everywhere in maths!",
+          "questionPrompt": "What's x + 3?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "\\frac{2x + 6}{2}",
+        "expectedAnswers": ["x + 3", "x+3", "3 + x"],
+        "gradingGuidance": "Accept factoring method OR term-by-term division. Both show valid algebraic thinking.",
+        "sampleSolutions": [
+          "Factor: 2(x+3)/2 = x+3",
+          "Divide each term: 2x/2 + 6/2 = x + 3"
+        ],
+        "minimumWorkLines": 1
+      },
+      "difficulty": 2,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA190"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 3,
+        "conceptsUsed": ["simplification", "fractions"],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can simplify expressions!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-math-worked-solution-test",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "worked-solution-test-004",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "The sum of three consecutive numbers is 51. Find the numbers.\n\nLet the first number be n. Show your working.",
+      "solution": "**Solution:**\n\nLet the three consecutive numbers be: n, n+1, n+2\n\nTheir sum: $n + (n+1) + (n+2) = 51$\n\nSimplify: $3n + 3 = 51$\n\nSolve: $3n = 48$\n$n = 16$\n\nThe three numbers are: **16, 17, 18**\n\nCheck: 16 + 17 + 18 = 51 ✓",
+      "hints": [
+        {"level": 1, "content": "If the first number is n, what are the next two consecutive numbers?"},
+        {"level": 2, "content": "Consecutive means one after another: n, n+1, n+2"},
+        {"level": 3, "content": "Set up: n + (n+1) + (n+2) = 51, then simplify to 3n + 3 = 51"}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Consecutive numbers follow each other like 5, 6, 7 or 10, 11, 12. Using 'n' lets us find any set!",
+          "encouragement": "Using algebra to solve word problems is a powerful skill!",
+          "questionPrompt": "If the first number is n, what's the next number?"
+        },
+        {
+          "level": 2,
+          "content": "Three consecutive numbers starting at n are: n, n+1, n+2. Their sum equals 51.",
+          "encouragement": "You're translating words into maths - that's exactly what mathematicians do!",
+          "questionPrompt": "Can you write an equation for their sum?"
+        },
+        {
+          "level": 3,
+          "content": "n + (n+1) + (n+2) = 51 simplifies to 3n + 3 = 51. Now solve for n!",
+          "encouragement": "Once you find n, you've found all three numbers!",
+          "questionPrompt": "What value of n makes 3n + 3 = 51 true?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "n + (n+1) + (n+2) = 51",
+        "expectedAnswers": ["16, 17, 18", "16 17 18", "n = 16"],
+        "gradingGuidance": "Accept finding n=16 or listing all three numbers. Value the algebraic setup and reasoning.",
+        "sampleSolutions": [
+          "3n + 3 = 51, 3n = 48, n = 16. Numbers: 16, 17, 18"
+        ],
+        "minimumWorkLines": 2
+      },
+      "difficulty": 3,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA194"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 4,
+        "conceptsUsed": ["linear-equations", "word-problems"],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "socratic",
+        "targetFeeling": "I can translate word problems to equations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-math-worked-solution-test",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "worked-solution-test-005",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Calculate the area of a triangle with base 12 cm and height 8 cm.\n\nShow your working.",
+      "solution": "**Solution:**\n\nArea of triangle = $\\frac{1}{2} \\times base \\times height$\n\n$A = \\frac{1}{2} \\times 12 \\times 8$\n\n$A = \\frac{1}{2} \\times 96$\n\n$A = 48$ cm²\n\n**Answer: 48 cm²**",
+      "hints": [
+        {"level": 1, "content": "The formula for area of a triangle involves base and height."},
+        {"level": 2, "content": "Area = ½ × base × height"},
+        {"level": 3, "content": "A = ½ × 12 × 8 = ½ × 96 = 48 cm²"}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "A triangle's area is related to a rectangle's area - can you see how?",
+          "encouragement": "Connecting shapes helps understand formulas better!",
+          "questionPrompt": "What's the area of a 12 by 8 rectangle?"
+        },
+        {
+          "level": 2,
+          "content": "A triangle is half of a rectangle! So Area = ½ × base × height",
+          "encouragement": "Understanding WHY formulas work is better than just memorizing them!",
+          "questionPrompt": "Can you substitute the values into the formula?"
+        },
+        {
+          "level": 3,
+          "content": "½ × 12 × 8. You can multiply in any order - try 12 × 8 first, then halve it.",
+          "encouragement": "You're doing great - just one more step!",
+          "questionPrompt": "What's half of 96?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A = \\frac{1}{2} \\times b \\times h",
+        "expectedAnswers": ["48", "48 cm²", "48cm²", "48 cm^2"],
+        "gradingGuidance": "Accept any calculation order. Focus on correct formula application and arithmetic.",
+        "sampleSolutions": [
+          "A = ½ × 12 × 8 = 48 cm²",
+          "A = (12 × 8)/2 = 96/2 = 48 cm²"
+        ],
+        "minimumWorkLines": 1
+      },
+      "difficulty": 1,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMMG196"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 5,
+        "conceptsUsed": ["area", "triangles"],
+        "buildsOn": [],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I know my geometry formulas!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-math-worked-solution-test",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    }
+  ]
+}

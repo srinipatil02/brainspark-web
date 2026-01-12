@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "topic": "Linear Equations",
+    "topicSlug": "linear-equations",
+    "outcomeCode": "ACMNA194",
+    "year": 8,
+    "subject": "Mathematics",
+    "strand": "Algebra",
+    "setNumber": 7,
+    "phase": "connection",
+    "focus": "Equations with brackets - distributive law"
+  },
+  "questions": [
+    {
+      "questionId": "linear-eq-y8-061",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$2(x + 3) = 14$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method 1 - Expand first:**\n$$2x + 6 = 14$$\n$$2x = 8$$\n$$x = 4$$\n\n**Method 2 - Divide first:**\n$$x + 3 = 7$$\n$$x = 4$$\n\n**Answer: x = 4**\n\n**Check:** $2(4 + 3) = 2(7) = 14$ ✓",
+      "hints": [
+        {"level": 1, "content": "You can expand the brackets OR divide both sides by 2 first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "If expanding: 2x + 6 = 14. If dividing: x + 3 = 7.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Either way, x = 4", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Two methods work here!", "encouragement": "Choose your approach!", "questionPrompt": "Expand or divide first?"},
+        {"level": 2, "content": "If expand: 2x + 6 = 14", "encouragement": "Now it's two-step!", "questionPrompt": "Solve from here?"},
+        {"level": 3, "content": "x = 4", "encouragement": "Both methods give same answer!", "questionPrompt": "Check in original!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2(x + 3) = 14",
+        "expectedAnswers": ["4", "x = 4", "x=4", "x= 4", "x =4", "4.0", "x = 4.0"],
+        "gradingGuidance": "Brackets equation - two valid methods. Method 1: Expand to 2x + 6 = 14, then solve. Method 2: Divide by 2 first to get x + 3 = 7. Either method correct. Common error: 2(x+3) = 2x + 3 (forgetting to multiply both terms).",
+        "sampleSolutions": ["2(x + 3) = 14\n2x + 6 = 14\n2x = 8\nx = 4", "2(x + 3) = 14\nx + 3 = 7\nx = 4"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "distributive law", "multiple methods"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 1, "conceptsUsed": ["brackets", "distributive-law"], "buildsOn": ["linear-eq-y8-060"], "preparesFor": ["linear-eq-y8-062"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve equations with brackets!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set7", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-062",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$3(x - 2) = 15$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method 1 - Expand:**\n$$3x - 6 = 15$$\n$$3x = 21$$\n$$x = 7$$\n\n**Method 2 - Divide first:**\n$$x - 2 = 5$$\n$$x = 7$$\n\n**Answer: x = 7**",
+      "hints": [
+        {"level": 1, "content": "Expand 3(x - 2) or divide both sides by 3.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "If expanding: 3x - 6 = 15", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 7", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "Choose your method!", "encouragement": "Both work!", "questionPrompt": "Expand or divide?"},
+        {"level": 2, "content": "3x - 6 = 15 or x - 2 = 5", "encouragement": "Now solve!", "questionPrompt": "What's x?"},
+        {"level": 3, "content": "x = 7", "encouragement": "Check: 3(7-2) = 3(5) = 15 ✓", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3(x - 2) = 15",
+        "expectedAnswers": ["7", "x = 7", "x=7", "x= 7", "x =7", "7.0", "x = 7.0"],
+        "gradingGuidance": "Brackets with subtraction inside. Two methods valid. Watch sign: 3(x-2) = 3x - 6, not 3x - 2.",
+        "sampleSolutions": ["3(x - 2) = 15\n3x - 6 = 15\n3x = 21\nx = 7", "3(x - 2) = 15\nx - 2 = 5\nx = 7"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "distributive law"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 2, "conceptsUsed": ["brackets", "distributive-law"], "buildsOn": ["linear-eq-y8-061"], "preparesFor": ["linear-eq-y8-063"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Negative inside brackets handled!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set7", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-063",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$4(x + 5) = 32$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method 1 - Expand:**\n$$4x + 20 = 32$$\n$$4x = 12$$\n$$x = 3$$\n\n**Answer: x = 3**",
+      "hints": [
+        {"level": 1, "content": "Expand: 4 × x + 4 × 5", "revealsCriticalInfo": false},
+        {"level": 2, "content": "4x + 20 = 32", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4x = 12, x = 3", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "4(x+5) = 4x + 20", "encouragement": "Multiply both terms!", "questionPrompt": "Now what?"},
+        {"level": 2, "content": "4x + 20 = 32, so 4x = 12", "encouragement": "Two-step now!", "questionPrompt": "12 ÷ 4 = ?"},
+        {"level": 3, "content": "x = 3", "encouragement": "Check: 4(8) = 32 ✓", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4(x + 5) = 32",
+        "expectedAnswers": ["3", "x = 3", "x=3", "x= 3", "x =3", "3.0", "x = 3.0"],
+        "gradingGuidance": "Expand or divide by 4. Either: 4x + 20 = 32 → x = 3, or x + 5 = 8 → x = 3.",
+        "sampleSolutions": ["4(x + 5) = 32\n4x + 20 = 32\n4x = 12\nx = 3"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "distributive law"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 3, "conceptsUsed": ["brackets", "distributive-law"], "buildsOn": ["linear-eq-y8-062"], "preparesFor": ["linear-eq-y8-064"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Brackets becoming automatic!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set7", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-064",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$5(x - 4) = 30$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$5x - 20 = 30$$\n$$5x = 50$$\n$$x = 10$$\n\n**Answer: x = 10**",
+      "hints": [
+        {"level": 1, "content": "Expand: 5x - 20 = 30", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Add 20: 5x = 50", "revealsCriticalInfo": false},
+        {"level": 3, "content": "50 ÷ 5 = 10", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "5(x-4) = 5x - 20", "encouragement": "Watch the minus!", "questionPrompt": "Now solve?"},
+        {"level": 2, "content": "5x = 50", "encouragement": "Nice round number!", "questionPrompt": "50 ÷ 5 = ?"},
+        {"level": 3, "content": "x = 10", "encouragement": "Perfect!", "questionPrompt": "Check: 5(6) = 30 ✓"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5(x - 4) = 30",
+        "expectedAnswers": ["10", "x = 10", "x=10", "x= 10", "x =10", "10.0", "x = 10.0"],
+        "gradingGuidance": "Expand 5(x-4) = 5x - 20. Then solve two-step.",
+        "sampleSolutions": ["5(x - 4) = 30\n5x - 20 = 30\n5x = 50\nx = 10"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "distributive law"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 4, "conceptsUsed": ["brackets", "distributive-law"], "buildsOn": ["linear-eq-y8-063"], "preparesFor": ["linear-eq-y8-065"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Signs inside brackets handled!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set7", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-065",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$6(x + 2) = 48$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$6x + 12 = 48$$\n$$6x = 36$$\n$$x = 6$$\n\n**Answer: x = 6**",
+      "hints": [
+        {"level": 1, "content": "Expand: 6x + 12 = 48", "revealsCriticalInfo": false},
+        {"level": 2, "content": "6x = 36", "revealsCriticalInfo": false},
+        {"level": 3, "content": "36 ÷ 6 = 6", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "6(x+2) = 6x + 12", "encouragement": "Multiply both!", "questionPrompt": "Now what?"},
+        {"level": 2, "content": "6x = 36", "encouragement": "6² = 36!", "questionPrompt": "36 ÷ 6 = ?"},
+        {"level": 3, "content": "x = 6", "encouragement": "x = coefficient!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "6(x + 2) = 48",
+        "expectedAnswers": ["6", "x = 6", "x=6", "x= 6", "x =6", "6.0", "x = 6.0"],
+        "gradingGuidance": "Expand or divide by 6. Perfect square: 36 = 6².",
+        "sampleSolutions": ["6(x + 2) = 48\n6x + 12 = 48\n6x = 36\nx = 6"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "distributive law"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 5, "conceptsUsed": ["brackets", "distributive-law"], "buildsOn": ["linear-eq-y8-064"], "preparesFor": ["linear-eq-y8-066"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Getting fluent!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set7", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-066",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$7(x - 3) = 35$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$7x - 21 = 35$$\n$$7x = 56$$\n$$x = 8$$\n\n**Answer: x = 8**",
+      "hints": [
+        {"level": 1, "content": "Expand: 7x - 21 = 35", "revealsCriticalInfo": false},
+        {"level": 2, "content": "7x = 56", "revealsCriticalInfo": false},
+        {"level": 3, "content": "56 ÷ 7 = 8", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "7(x-3) = 7x - 21", "encouragement": "Watch the minus!", "questionPrompt": "Add 21?"},
+        {"level": 2, "content": "7x = 56", "encouragement": "7 × 8!", "questionPrompt": "56 ÷ 7 = ?"},
+        {"level": 3, "content": "x = 8", "encouragement": "Great!", "questionPrompt": "Check: 7(5) = 35 ✓"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "7(x - 3) = 35",
+        "expectedAnswers": ["8", "x = 8", "x=8", "x= 8", "x =8", "8.0", "x = 8.0"],
+        "gradingGuidance": "Expand or divide. 7x - 21 = 35, 7x = 56, x = 8.",
+        "sampleSolutions": ["7(x - 3) = 35\n7x - 21 = 35\n7x = 56\nx = 8"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "distributive law"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 6, "conceptsUsed": ["brackets", "distributive-law"], "buildsOn": ["linear-eq-y8-065"], "preparesFor": ["linear-eq-y8-067"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Brackets mastered!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set7", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-067",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$2(3x + 4) = 26$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$6x + 8 = 26$$\n$$6x = 18$$\n$$x = 3$$\n\n**Answer: x = 3**",
+      "hints": [
+        {"level": 1, "content": "Expand: 2 × 3x + 2 × 4", "revealsCriticalInfo": false},
+        {"level": 2, "content": "6x + 8 = 26, so 6x = 18", "revealsCriticalInfo": false},
+        {"level": 3, "content": "18 ÷ 6 = 3", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "2(3x + 4) = 6x + 8", "encouragement": "Multiply both terms by 2!", "questionPrompt": "Now solve?"},
+        {"level": 2, "content": "6x = 18", "encouragement": "6 × 3!", "questionPrompt": "18 ÷ 6 = ?"},
+        {"level": 3, "content": "x = 3", "encouragement": "Perfect!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "2(3x + 4) = 26",
+        "expectedAnswers": ["3", "x = 3", "x=3", "x= 3", "x =3", "3.0", "x = 3.0"],
+        "gradingGuidance": "Coefficient inside brackets. 2(3x + 4) = 6x + 8. Common error: forgetting to multiply the 3x.",
+        "sampleSolutions": ["2(3x + 4) = 26\n6x + 8 = 26\n6x = 18\nx = 3"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "distributive law", "coefficients"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 7, "conceptsUsed": ["brackets", "distributive-law", "coefficients"], "buildsOn": ["linear-eq-y8-066"], "preparesFor": ["linear-eq-y8-068"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Coefficients inside brackets!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set7", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-068",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for x:\n\n$$3(2x - 5) = 21$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$6x - 15 = 21$$\n$$6x = 36$$\n$$x = 6$$\n\n**Answer: x = 6**",
+      "hints": [
+        {"level": 1, "content": "Expand: 3 × 2x - 3 × 5", "revealsCriticalInfo": false},
+        {"level": 2, "content": "6x - 15 = 21, so 6x = 36", "revealsCriticalInfo": false},
+        {"level": 3, "content": "36 ÷ 6 = 6", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "3(2x - 5) = 6x - 15", "encouragement": "Both terms × 3!", "questionPrompt": "Add 15?"},
+        {"level": 2, "content": "6x = 36", "encouragement": "6² = 36!", "questionPrompt": "36 ÷ 6 = ?"},
+        {"level": 3, "content": "x = 6", "encouragement": "x = coefficient!", "questionPrompt": "Check!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3(2x - 5) = 21",
+        "expectedAnswers": ["6", "x = 6", "x=6", "x= 6", "x =6", "6.0", "x = 6.0"],
+        "gradingGuidance": "Coefficient inside with subtraction. 3(2x - 5) = 6x - 15.",
+        "sampleSolutions": ["3(2x - 5) = 21\n6x - 15 = 21\n6x = 36\nx = 6"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "distributive law", "coefficients"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 8, "conceptsUsed": ["brackets", "distributive-law"], "buildsOn": ["linear-eq-y8-067"], "preparesFor": ["linear-eq-y8-069"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Complex brackets no problem!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set7", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-069",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for y:\n\n$$4(y + 6) = 36$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$4y + 24 = 36$$\n$$4y = 12$$\n$$y = 3$$\n\n**Answer: y = 3**",
+      "hints": [
+        {"level": 1, "content": "Expand: 4y + 24 = 36", "revealsCriticalInfo": false},
+        {"level": 2, "content": "4y = 12", "revealsCriticalInfo": false},
+        {"level": 3, "content": "12 ÷ 4 = 3", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "4(y+6) = 4y + 24", "encouragement": "Any variable!", "questionPrompt": "Subtract 24?"},
+        {"level": 2, "content": "4y = 12", "encouragement": "4 × 3!", "questionPrompt": "12 ÷ 4 = ?"},
+        {"level": 3, "content": "y = 3", "encouragement": "Perfect!", "questionPrompt": "Check: 4(9) = 36 ✓"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4(y + 6) = 36",
+        "expectedAnswers": ["3", "y = 3", "y=3", "y= 3", "y =3", "3.0", "y = 3.0"],
+        "gradingGuidance": "Variable y. 4(y+6) = 4y + 24 = 36.",
+        "sampleSolutions": ["4(y + 6) = 36\n4y + 24 = 36\n4y = 12\ny = 3"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "distributive law", "variable flexibility"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 9, "conceptsUsed": ["brackets", "variable-flexibility"], "buildsOn": ["linear-eq-y8-068"], "preparesFor": ["linear-eq-y8-070"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Any variable with brackets!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set7", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "linear-eq-y8-070",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Solve for n:\n\n$$5(2n - 3) = 35$$\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$10n - 15 = 35$$\n$$10n = 50$$\n$$n = 5$$\n\n**Answer: n = 5**",
+      "hints": [
+        {"level": 1, "content": "Expand: 5 × 2n - 5 × 3", "revealsCriticalInfo": false},
+        {"level": 2, "content": "10n - 15 = 35, so 10n = 50", "revealsCriticalInfo": false},
+        {"level": 3, "content": "50 ÷ 10 = 5", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {"level": 1, "content": "5(2n-3) = 10n - 15", "encouragement": "Both terms!", "questionPrompt": "Add 15?"},
+        {"level": 2, "content": "10n = 50", "encouragement": "Nice round numbers!", "questionPrompt": "50 ÷ 10 = ?"},
+        {"level": 3, "content": "n = 5", "encouragement": "Set 7 complete!", "questionPrompt": "Verify!"}
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5(2n - 3) = 35",
+        "expectedAnswers": ["5", "n = 5", "n=5", "n= 5", "n =5", "5.0", "n = 5.0"],
+        "gradingGuidance": "Variable n, coefficient inside. 5(2n-3) = 10n - 15.",
+        "sampleSolutions": ["5(2n - 3) = 35\n10n - 15 = 35\n10n = 50\nn = 5"],
+        "minimumWorkLines": 2,
+        "topic": "linear-equations",
+        "year": 8,
+        "keyConcepts": ["brackets", "distributive law", "coefficients"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA194"], "year": 8, "subject": "Mathematics", "strand": "Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 10, "conceptsUsed": ["brackets", "distributive-law"], "buildsOn": ["linear-eq-y8-069"], "preparesFor": ["linear-eq-y8-071"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "Brackets phase complete!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-linear-equations-set7", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

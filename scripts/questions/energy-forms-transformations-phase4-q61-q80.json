@@ -1,0 +1,392 @@
+[
+  {
+    "questionId": "eft-y8-061",
+    "questionType": "MCQ",
+    "stem": "A hydroelectric power station converts 85% of the gravitational potential energy of falling water into electrical energy. If 100 MJ of GPE is available, how much electrical energy is produced and what happens to the rest?",
+    "mcqOptions": [
+      {"id": "A", "text": "85 MJ electrical, 15 MJ converted to thermal energy due to friction", "isCorrect": true, "feedback": "Correct! 85% of 100 MJ = 85 MJ of electrical energy. The remaining 15 MJ becomes thermal energy due to friction in turbines, generators, and water resistance."},
+      {"id": "B", "text": "85 MJ electrical, 15 MJ is destroyed", "isCorrect": false, "feedback": "Energy cannot be destroyed - the law of conservation of energy states that energy only transforms. The 'missing' energy becomes thermal energy."},
+      {"id": "C", "text": "100 MJ electrical, no energy is lost", "isCorrect": false, "feedback": "No real machine is 100% efficient. Friction always converts some useful energy to thermal energy."},
+      {"id": "D", "text": "15 MJ electrical, 85 MJ stored in the dam", "isCorrect": false, "feedback": "The percentages are reversed. 85% efficiency means 85% (not 15%) becomes electrical energy."}
+    ],
+    "solution": "With 85% efficiency:\n\n$$\\text{Electrical energy} = 0.85 \\times 100 \\text{ MJ} = 85 \\text{ MJ}$$\n\nThe remaining 15 MJ transforms into **thermal energy** due to:\n- Friction in turbine bearings\n- Electrical resistance in generators\n- Water turbulence\n\nEnergy is **never destroyed** - it just becomes less useful (thermal energy that disperses).",
+    "hints": [
+      {"level": 1, "content": "Efficiency tells you what percentage of input energy becomes useful output."},
+      {"level": 2, "content": "What happens to the non-useful energy? Remember conservation of energy."}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 120,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 1, "conceptsUsed": ["c6", "c7"], "buildsOn": ["eft-y8-055"], "preparesFor": ["eft-y8-062"]},
+    "pedagogy": {"type": "scaffolded", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": true, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set7", "sequenceInPaper": 1},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-062",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student claims: 'If we could just eliminate friction, we could build a perpetual motion machine that runs forever without any energy input.' Using your understanding of energy degradation and the laws of thermodynamics, evaluate this claim.",
+    "solution": "The student's claim is **incorrect** for several reasons:\n\n**1. Friction isn't the only energy loss**\nEven without mechanical friction, energy would still degrade through:\n- Air resistance (unless in a vacuum)\n- Sound waves from moving parts\n- Electromagnetic radiation\n\n**2. Perfect elimination is impossible**\nAt the atomic level, particles always interact with their environment. There's no way to completely isolate a system.\n\n**3. Second Law of Thermodynamics**\nEnergy naturally spreads out and becomes less concentrated. This is why:\n- Hot objects cool down\n- Organised motion becomes random thermal motion\n- Useful energy degrades to less useful forms\n\n**Conclusion**: Perpetual motion machines violate fundamental physics laws, not just engineering limitations.",
+    "hints": [
+      {"level": 1, "content": "Is friction the only way energy can spread out and become less useful?"},
+      {"level": 2, "content": "Think about what the Second Law of Thermodynamics says about energy spreading out over time."}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 2, "conceptsUsed": ["c7", "c8"], "buildsOn": ["eft-y8-057"], "preparesFor": ["eft-y8-063"]},
+    "pedagogy": {"type": "misconception", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set7", "sequenceInPaper": 2},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-063",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Two identical balls are dropped from the same height. Ball A lands on concrete and bounces back to 60% of its original height. Ball B lands on soft sand and barely bounces. Both balls started with the same gravitational potential energy. Trace the complete energy transformation for each ball from release to rest.",
+    "solution": "**Ball A (Concrete):**\n1. **Start**: GPE at height h\n2. **Falling**: GPE → KE (some → thermal via air resistance)\n3. **Impact**: KE → elastic PE (ball compresses) + thermal (ball/floor heat) + sound\n4. **Rebound**: Elastic PE → KE\n5. **Rising**: KE → GPE (reaches 60% height)\n6. **Final rest**: All energy → thermal + sound (distributed to surroundings)\n\n**Ball B (Sand):**\n1. **Start**: GPE at height h\n2. **Falling**: GPE → KE (some → thermal via air resistance)\n3. **Impact**: KE → thermal (sand particles move) + sound + sand displacement work\n4. **Minimal bounce**: Very little elastic PE stored\n5. **Final rest**: Almost all energy immediately → thermal in sand\n\n**Key difference**: Concrete is elastic (returns energy), sand is inelastic (absorbs energy as thermal).",
+    "hints": [
+      {"level": 1, "content": "Start with GPE and trace what happens at each moment - falling, impact, bouncing."},
+      {"level": 2, "content": "Why can concrete 'store and return' energy while sand cannot?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 3, "conceptsUsed": ["c2", "c3", "c4", "c5", "c6"], "buildsOn": ["eft-y8-048"], "preparesFor": ["eft-y8-064"]},
+    "pedagogy": {"type": "phenomenon", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set7", "sequenceInPaper": 3},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-064",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Why is it that energy can never be 'created' or 'destroyed', yet we talk about 'energy crises' and 'running out of energy'? What are we actually running out of?",
+    "solution": "This apparent contradiction reveals a crucial distinction:\n\n**What Conservation of Energy Means:**\n- Total energy in the universe is constant\n- Energy transforms but never disappears\n- The amount of energy is unchanged\n\n**What 'Energy Crisis' Actually Means:**\nWe're running out of **useful, concentrated energy sources** that are:\n- Easy to access (coal, oil, gas deposits)\n- Concentrated enough to do useful work\n- Able to power our technology\n\n**The Real Problem: Energy Degradation**\nOnce we burn fuel:\n- Concentrated chemical PE → dispersed thermal energy\n- The energy still exists but is spread out, unusable\n- We can't 'un-spread' it (Second Law of Thermodynamics)\n\n**Conclusion:** We're not running out of energy - we're running out of **useful, concentrated forms** of energy that haven't yet degraded into dispersed heat.",
+    "hints": [
+      {"level": 1, "content": "If energy is conserved, what changes when we 'use' energy?"},
+      {"level": 2, "content": "Think about the difference between concentrated and dispersed energy."}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 4, "conceptsUsed": ["c6", "c8"], "buildsOn": ["eft-y8-058"], "preparesFor": ["eft-y8-065"]},
+    "pedagogy": {"type": "socratic", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set7", "sequenceInPaper": 4},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-065",
+    "questionType": "MCQ",
+    "stem": "A 2 kg ball moving at 10 m/s has the same kinetic energy as:",
+    "mcqOptions": [
+      {"id": "A", "text": "A 1 kg ball moving at about 14.1 m/s", "isCorrect": true, "feedback": "Correct! KE of 2 kg ball = ½ × 2 × 10² = 100 J. For 1 kg ball: 100 = ½ × 1 × v², so v² = 200, v ≈ 14.1 m/s."},
+      {"id": "B", "text": "A 4 kg ball moving at 5 m/s", "isCorrect": false, "feedback": "KE = ½ × 4 × 5² = 50 J, which is only half the original KE of 100 J. Remember velocity is squared!"},
+      {"id": "C", "text": "A 1 kg ball moving at 20 m/s", "isCorrect": false, "feedback": "KE = ½ × 1 × 20² = 200 J, which is double. Halving mass requires multiplying velocity by √2, not 2."},
+      {"id": "D", "text": "A 4 kg ball moving at 10 m/s", "isCorrect": false, "feedback": "KE = ½ × 4 × 10² = 200 J, which is double the original. Same speed but double mass = double KE."}
+    ],
+    "solution": "**Original ball**: KE = ½mv² = ½ × 2 × 10² = **100 J**\n\n**For the 1 kg ball to have 100 J:**\n$$100 = \\frac{1}{2} \\times 1 \\times v^2$$\n$$v^2 = 200$$\n$$v = \\sqrt{200} \\approx 14.1 \\text{ m/s}$$\n\n**Key insight**: Since KE depends on v², when you halve the mass, you need to increase velocity by √2 (about 1.41), not double it.",
+    "hints": [
+      {"level": 1, "content": "First calculate the KE of the 2 kg ball using KE = ½mv²."},
+      {"level": 2, "content": "Since v is squared, halving mass requires increasing v by a factor of √2 to maintain same KE."}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 5, "conceptsUsed": ["c2"], "buildsOn": ["eft-y8-042"], "preparesFor": ["eft-y8-066"]},
+    "pedagogy": {"type": "scaffolded", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": true, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set7", "sequenceInPaper": 5},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-066",
+    "questionType": "SHORT_ANSWER",
+    "stem": "An electric heater converts electrical energy to thermal energy with 100% efficiency, while an electric motor converts electrical energy to kinetic energy with only 85% efficiency. Explain why the heater can be 100% efficient while the motor cannot.",
+    "solution": "**Electric Heater (100% efficient):**\n- Goal: Convert electrical energy → thermal energy\n- All the 'wasted' energy in wires and components also becomes heat\n- Since heat IS the desired output, nothing is truly 'lost'\n- Efficiency = thermal output / electrical input = 100%\n\n**Electric Motor (85% efficient):**\n- Goal: Convert electrical energy → kinetic energy (motion)\n- Some energy inevitably becomes thermal due to:\n  - Resistance in wires\n  - Friction in bearings\n  - Air resistance on moving parts\n- This thermal energy is NOT the desired output\n- It's 'lost' from the perspective of useful work\n\n**Key Principle:**\nEfficiency depends on what you're trying to achieve. If your goal IS to produce heat, then efficiency can be 100%. If your goal is motion, light, or sound, you'll always lose some energy to unwanted heat.",
+    "hints": [
+      {"level": 1, "content": "Think about what 'wasted' energy becomes in each case. Is thermal energy waste for a heater?"},
+      {"level": 2, "content": "Efficiency = useful output / total input. What counts as 'useful' for each device?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 6, "conceptsUsed": ["c7", "c8"], "buildsOn": ["eft-y8-055"], "preparesFor": ["eft-y8-067"]},
+    "pedagogy": {"type": "socratic", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set7", "sequenceInPaper": 6},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-067",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A pendulum swings back and forth, gradually slowing down until it stops. A student says: 'The pendulum proves that energy can be destroyed - it had energy and now it doesn't.' Correct this misconception with a complete energy analysis.",
+    "solution": "**The student's reasoning is flawed.** The energy wasn't destroyed; it was transformed and dispersed.\n\n**Complete Energy Analysis:**\n\n*At maximum height (sides):*\n- Maximum GPE\n- Zero KE (momentarily stationary)\n\n*At lowest point (middle):*\n- Minimum GPE\n- Maximum KE\n\n*During each swing:*\n- Air resistance converts some KE → thermal energy in surrounding air\n- Friction at pivot converts some KE → thermal energy at pivot point\n- Sound waves carry away small amounts of energy\n\n*After stopping:*\n- All original energy still exists\n- It's now dispersed as slightly warmer air molecules\n- Spread throughout the environment as thermal energy\n\n**Conservation Proof:**\nTotal energy = GPE + KE + thermal (air) + thermal (pivot) + sound = constant\n\nThe energy is conserved but degraded from useful (organised pendulum motion) to less useful (random thermal motion of billions of molecules).",
+    "hints": [
+      {"level": 1, "content": "Where does the pendulum's energy go during each swing? Think about friction and air resistance."},
+      {"level": 2, "content": "Just because energy becomes spread out and invisible doesn't mean it's gone."}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 7, "conceptsUsed": ["c2", "c3", "c5", "c6", "c8"], "buildsOn": ["eft-y8-046"], "preparesFor": ["eft-y8-068"]},
+    "pedagogy": {"type": "misconception", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set7", "sequenceInPaper": 7},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-068",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A skateboarder (mass 60 kg) starts from rest at the top of a 5 m ramp. Calculate their speed at the bottom, then explain why their actual speed will be less than your calculated value. (Use g = 10 m/s²)",
+    "solution": "**Theoretical Calculation:**\n\nAt top: GPE = mgh = 60 × 10 × 5 = **3000 J**\nAt bottom: All GPE → KE (ideal case)\n\n$$KE = \\frac{1}{2}mv^2$$\n$$3000 = \\frac{1}{2} \\times 60 \\times v^2$$\n$$v^2 = 100$$\n$$v = 10 \\text{ m/s (theoretical)}$$\n\n**Why Actual Speed is Lower:**\n\n1. **Friction with ramp**: Converts some KE → thermal energy\n2. **Air resistance**: Increases with speed, converts KE → thermal energy\n3. **Wheel bearing friction**: Converts KE → thermal energy\n4. **Sound**: Wheels rolling creates sound energy\n\n**Actual equation:**\nGPE = KE (useful) + thermal (friction) + thermal (air) + sound\n\nSince some energy becomes thermal/sound, less is available as KE, so speed is reduced. Actual speed might be 8-9 m/s depending on ramp smoothness and equipment.",
+    "hints": [
+      {"level": 1, "content": "Use GPE = mgh and KE = ½mv². Set them equal for the ideal case."},
+      {"level": 2, "content": "In reality, not all GPE becomes KE. What other forms does energy take?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 8, "conceptsUsed": ["c2", "c3", "c5", "c6", "c7"], "buildsOn": ["eft-y8-050"], "preparesFor": ["eft-y8-069"]},
+    "pedagogy": {"type": "phenomenon", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": true, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set7", "sequenceInPaper": 8},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-069",
+    "questionType": "MCQ",
+    "stem": "Two cars have the same kinetic energy. Car A has mass 1000 kg and Car B has mass 2000 kg. Which statement is true?",
+    "mcqOptions": [
+      {"id": "A", "text": "Car A is travelling faster than Car B", "isCorrect": true, "feedback": "Correct! Since KE = ½mv², if Car A has half the mass but the same KE, it must have higher velocity. Specifically, Car A travels √2 times faster."},
+      {"id": "B", "text": "Car B is travelling faster than Car A", "isCorrect": false, "feedback": "With double the mass and the same KE, Car B must be travelling slower, not faster."},
+      {"id": "C", "text": "Both cars are travelling at the same speed", "isCorrect": false, "feedback": "If they had the same speed, the heavier car would have double the KE, not the same KE."},
+      {"id": "D", "text": "Car A has twice the speed of Car B", "isCorrect": false, "feedback": "Close reasoning, but because v is squared in KE = ½mv², Car A only needs √2 (about 1.41) times the speed, not 2 times."}
+    ],
+    "solution": "Let both cars have kinetic energy E.\n\n**Car A (1000 kg):** $E = \\frac{1}{2} \\times 1000 \\times v_A^2$\n\n**Car B (2000 kg):** $E = \\frac{1}{2} \\times 2000 \\times v_B^2$\n\nSince both equal E:\n$$1000 \\times v_A^2 = 2000 \\times v_B^2$$\n$$v_A^2 = 2 \\times v_B^2$$\n$$v_A = \\sqrt{2} \\times v_B \\approx 1.41 \\times v_B$$\n\nCar A travels about 41% faster than Car B to have the same kinetic energy.",
+    "hints": [
+      {"level": 1, "content": "Write the KE equation for both cars and set them equal."},
+      {"level": 2, "content": "Remember that velocity is squared in the KE formula."}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 120,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 9, "conceptsUsed": ["c2"], "buildsOn": ["eft-y8-065"], "preparesFor": ["eft-y8-070"]},
+    "pedagogy": {"type": "socratic", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": true, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set7", "sequenceInPaper": 9},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-070",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Solar panels typically convert about 20% of incoming solar energy to electrical energy. A homeowner says: 'That means 80% of the sun's energy is wasted and disappears.' Evaluate this statement.",
+    "solution": "**The statement is partially correct and partially incorrect:**\n\n**Correct part**: 80% is not converted to useful electrical energy - it doesn't contribute to powering the home.\n\n**Incorrect part**: The energy doesn't 'disappear'. According to conservation of energy, 100% of solar energy is accounted for:\n\n**What happens to the 80%:**\n- ~40-60% reflected back into environment\n- ~20-40% absorbed as thermal energy (panel heats up)\n- Some re-radiated as infrared radiation\n\n**The 20% 'useful' energy:**\n- Becomes electrical energy in the circuit\n- Eventually also becomes thermal energy after use\n\n**Better statement:**\n'80% of the sun's energy is transformed into thermal energy in the panels and surroundings instead of useful electrical energy.'\n\n**Key insight**: All energy eventually becomes thermal energy - the question is whether we can use it productively first.",
+    "hints": [
+      {"level": 1, "content": "Can energy actually 'disappear'? What must happen to the 80%?"},
+      {"level": 2, "content": "Think about what happens to light that isn't converted to electricity - where does it go?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 10, "conceptsUsed": ["c5", "c6", "c7"], "buildsOn": ["eft-y8-055"], "preparesFor": ["eft-y8-071"]},
+    "pedagogy": {"type": "misconception", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set7", "sequenceInPaper": 10},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-071",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Regenerative braking in electric vehicles can recover about 70% of the kinetic energy during braking. A Tesla Model 3 (mass 1800 kg) travelling at 20 m/s brakes to a stop. Calculate: (a) the initial kinetic energy, (b) the energy recovered to the battery, (c) where the remaining energy goes.",
+    "solution": "**Part (a): Initial Kinetic Energy**\n$$KE = \\frac{1}{2}mv^2 = \\frac{1}{2} \\times 1800 \\times 20^2$$\n$$KE = \\frac{1}{2} \\times 1800 \\times 400 = 360,000 \\text{ J} = 360 \\text{ kJ}$$\n\n**Part (b): Energy Recovered**\n$$\\text{Recovered} = 0.70 \\times 360 \\text{ kJ} = 252 \\text{ kJ}$$\n\nThis is stored as chemical potential energy in the battery.\n\n**Part (c): Remaining Energy (108 kJ)**\nThe 30% not recovered becomes:\n- **Thermal energy in motor/generator** (~15%): Electrical resistance heating\n- **Thermal energy in tyres** (~10%): Tyre deformation and road friction\n- **Thermal energy in brakes** (~3%): Traditional brakes supplement regenerative\n- **Sound energy** (~2%): Road noise, motor whine\n\nAll this thermal/sound energy disperses into the environment.",
+    "hints": [
+      {"level": 1, "content": "Use KE = ½mv² first, then calculate 70% of that value."},
+      {"level": 2, "content": "The 30% 'lost' energy still exists - where might it end up during braking?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 11, "conceptsUsed": ["c2", "c4", "c5", "c7"], "buildsOn": ["eft-y8-060"], "preparesFor": ["eft-y8-072"]},
+    "pedagogy": {"type": "phenomenon", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": true, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set8", "sequenceInPaper": 1},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-072",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Your friend argues: 'Heavier objects fall faster, so they must have more kinetic energy when they hit the ground. That's why a heavy rock is more dangerous than a light pebble.' Identify what is correct and incorrect in this reasoning.",
+    "solution": "**What is INCORRECT:**\n'Heavier objects fall faster' - This is false (ignoring air resistance).\n- All objects accelerate at g = 9.8 m/s² regardless of mass\n- Galileo demonstrated this ~400 years ago\n- A 1 kg and 10 kg ball dropped together hit at the same time (in a vacuum)\n\n**What is CORRECT:**\n'A heavy rock has more kinetic energy and is more dangerous' - This is true!\n\n**The correct reasoning:**\n- Both objects reach the same velocity after falling the same height\n- Since $KE = \\frac{1}{2}mv^2$, same v but larger m = larger KE\n- A 10 kg rock has 10× more KE than a 1 kg pebble at the same speed\n- More KE means more energy transferred on impact = more damage\n\n**Right conclusion, wrong reasoning!**\nThe friend reached a correct conclusion (heavy = more dangerous) but used incorrect physics (heavy = faster fall).",
+    "hints": [
+      {"level": 1, "content": "Do heavy and light objects actually fall at different speeds? What did Galileo show?"},
+      {"level": 2, "content": "Even if they hit at the same speed, would they have the same kinetic energy? Check the KE formula."}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 12, "conceptsUsed": ["c2", "c3"], "buildsOn": ["eft-y8-044"], "preparesFor": ["eft-y8-073"]},
+    "pedagogy": {"type": "misconception", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": true, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set8", "sequenceInPaper": 2},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-073",
+    "questionType": "MCQ",
+    "stem": "A coal power station converts chemical energy in coal to electrical energy. The efficiency is 35%. For every 100 J of chemical energy in coal, what happens?",
+    "mcqOptions": [
+      {"id": "A", "text": "35 J electrical, 65 J thermal to cooling towers/environment", "isCorrect": true, "feedback": "Correct! 35% becomes useful electrical energy. The remaining 65% becomes thermal energy, released through cooling towers and flue gases."},
+      {"id": "B", "text": "35 J electrical, 65 J stored for later use", "isCorrect": false, "feedback": "The 'lost' energy cannot be stored - it becomes low-grade thermal energy that disperses into the environment."},
+      {"id": "C", "text": "65 J electrical, 35 J thermal", "isCorrect": false, "feedback": "The efficiency (35%) tells us the percentage of useful output, so only 35 J becomes electricity."},
+      {"id": "D", "text": "35 J electrical, 65 J remains as chemical energy", "isCorrect": false, "feedback": "Once coal is burned, its chemical energy is fully transformed - it doesn't remain as chemical PE."}
+    ],
+    "solution": "**Energy transformation in coal power:**\n\nChemical PE (coal) → Thermal (burning) → Kinetic (steam/turbine) → Electrical (generator)\n\n**At each step, energy is lost as heat:**\n- Incomplete combustion\n- Heat up flue gases\n- Friction in turbines\n- Resistance in generators\n\n**Final energy distribution:**\n- **35 J** → Electrical energy (useful output)\n- **65 J** → Thermal energy (released to environment)\n  - Hot water to cooling towers\n  - Hot exhaust gases\n  - Radiation from equipment\n\nThis is why power stations have those characteristic cooling towers - they're releasing the 65% of energy that couldn't be converted to electricity.",
+    "hints": [
+      {"level": 1, "content": "35% efficiency means 35% of input becomes useful output. What percentage doesn't?"},
+      {"level": 2, "content": "The 'lost' energy must become something - what form does waste energy usually take?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 120,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 13, "conceptsUsed": ["c4", "c5", "c7"], "buildsOn": ["eft-y8-055"], "preparesFor": ["eft-y8-074"]},
+    "pedagogy": {"type": "phenomenon", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set8", "sequenceInPaper": 3},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-074",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Compare these two statements and explain which better describes what happens when you turn on a light bulb:\nA) 'Electrical energy is converted to light energy.'\nB) 'Electrical energy is converted to light energy and thermal energy, with most becoming thermal.'",
+    "solution": "**Statement B is more accurate and complete.**\n\n**Analysis of Statement A:**\n- Technically incomplete\n- Implies all electrical energy becomes light\n- Ignores significant thermal energy production\n- This is the 'textbook simplification'\n\n**Analysis of Statement B:**\n- Accurately describes energy transformation\n- Acknowledges thermal energy as a major output\n- Reflects real physics of energy conversion\n\n**The Evidence:**\n\n*Incandescent bulbs:*\n- Only 5% light, 95% thermal\n- This is why they're hot to touch\n- Incredibly inefficient for lighting\n\n*LED bulbs:*\n- About 40% light, 60% thermal\n- Much more efficient\n- Still warm but not hot\n\n**Conclusion:**\nStatement A is a useful simplification for young learners, but Statement B reflects the reality that energy transformations are never 100% efficient - some energy always becomes thermal.",
+    "hints": [
+      {"level": 1, "content": "Have you ever touched a light bulb that's been on? What does that tell you about energy?"},
+      {"level": 2, "content": "Are light bulbs 100% efficient at producing light, or do they also produce heat?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 14, "conceptsUsed": ["c5", "c7"], "buildsOn": ["eft-y8-035"], "preparesFor": ["eft-y8-075"]},
+    "pedagogy": {"type": "socratic", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set8", "sequenceInPaper": 4},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-075",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Explain why a cup of hot coffee left in a room eventually reaches room temperature, but a cup of room-temperature coffee never spontaneously heats up. Use the concepts of energy transformation and degradation in your answer.",
+    "solution": "**Why Hot Coffee Cools:**\n- Thermal energy transfers from hot (coffee) to cold (room)\n- This is a natural direction - energy spreads out\n- The energy becomes distributed among more particles\n- Eventually equilibrium is reached (same temperature)\n\n**Why Cold Coffee Doesn't Heat:**\n- Spontaneous heating would require energy to concentrate\n- Energy naturally disperses, never spontaneously concentrates\n- This would violate the Second Law of Thermodynamics\n\n**Energy Degradation Principle:**\n- Energy naturally flows from concentrated to dispersed\n- High-quality (concentrated) → Low-quality (spread out)\n- Hot coffee = concentrated thermal energy\n- Room temperature = spread out thermal energy\n\n**The Asymmetry:**\n- Cooling: High concentration → Low concentration (natural)\n- Heating: Low concentration → High concentration (impossible spontaneously)\n\nThis is why time seems to have a direction - energy degradation is irreversible without external work being done.",
+    "hints": [
+      {"level": 1, "content": "In which direction does thermal energy naturally flow - concentrated to spread out, or the reverse?"},
+      {"level": 2, "content": "What does the Second Law of Thermodynamics say about energy naturally spreading out?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 15, "conceptsUsed": ["c6", "c8"], "buildsOn": ["eft-y8-058"], "preparesFor": ["eft-y8-076"]},
+    "pedagogy": {"type": "socratic", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set8", "sequenceInPaper": 5},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-076",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A person claims that their car's petrol provides energy that 'disappears' after a trip. Trace the complete energy pathway from petrol in the tank to the final fate of that energy, explaining why it hasn't disappeared.",
+    "solution": "**Complete Energy Pathway:**\n\n**1. Petrol in tank:**\n- Chemical potential energy stored in hydrocarbon bonds\n- This is concentrated, high-quality energy\n\n**2. Combustion in engine:**\n- Chemical PE → Thermal energy (hot gases)\n- Gases expand, pushing pistons\n- Thermal → Kinetic energy (mechanical motion)\n\n**3. Transmission:**\n- Engine KE → Wheel KE via gears\n- Some → thermal (friction in gearbox)\n\n**4. Driving:**\n- Wheel KE → Car motion\n- Continuously lost to:\n  - Air resistance (heats the air)\n  - Tyre friction (heats road and tyres)\n  - Engine waste heat (radiator)\n\n**5. Final fate:**\n- ALL original chemical energy becomes dispersed thermal energy\n- Slightly warmer air along your route\n- Spread among billions of air molecules\n\n**Conclusion:**\nNo energy disappeared. It transformed: concentrated chemical PE → dispersed thermal energy in the environment. The energy exists but is now too spread out to be useful - this is energy degradation, not destruction.",
+    "hints": [
+      {"level": 1, "content": "Start with chemical energy in petrol. What happens when it burns in the engine?"},
+      {"level": 2, "content": "Track the energy through the engine, wheels, and into the environment. Where does it end up?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 16, "conceptsUsed": ["c4", "c5", "c6", "c8"], "buildsOn": ["eft-y8-064"], "preparesFor": ["eft-y8-077"]},
+    "pedagogy": {"type": "misconception", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set8", "sequenceInPaper": 6},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-077",
+    "questionType": "MCQ",
+    "stem": "Which arrangement ranks these scenarios from MOST to LEAST kinetic energy?",
+    "mcqOptions": [
+      {"id": "A", "text": "4 kg at 3 m/s (18 J) > 2 kg at 4 m/s (16 J) > 1 kg at 5 m/s (12.5 J)", "isCorrect": true, "feedback": "Correct! Using KE = ½mv²: 4×3²/2=18J, 2×4²/2=16J, 1×5²/2=12.5J. Despite having the lowest speed, the 4 kg object has the most KE due to its large mass."},
+      {"id": "B", "text": "1 kg at 5 m/s > 2 kg at 4 m/s > 4 kg at 3 m/s", "isCorrect": false, "feedback": "Speed alone doesn't determine KE. You must calculate ½mv² for each. The 1 kg object actually has the lowest KE."},
+      {"id": "C", "text": "2 kg at 4 m/s > 4 kg at 3 m/s > 1 kg at 5 m/s", "isCorrect": false, "feedback": "Good attempt at calculation, but check your work: 4 kg at 3 m/s = 18 J, which is higher than 2 kg at 4 m/s = 16 J."},
+      {"id": "D", "text": "All three have equal kinetic energy", "isCorrect": false, "feedback": "Each object has different mass and velocity combinations that result in different KE values."}
+    ],
+    "solution": "**Calculate each using $KE = \\frac{1}{2}mv^2$:**\n\n**4 kg at 3 m/s:**\n$$KE = \\frac{1}{2} \\times 4 \\times 3^2 = \\frac{1}{2} \\times 4 \\times 9 = 18 \\text{ J}$$\n\n**2 kg at 4 m/s:**\n$$KE = \\frac{1}{2} \\times 2 \\times 4^2 = \\frac{1}{2} \\times 2 \\times 16 = 16 \\text{ J}$$\n\n**1 kg at 5 m/s:**\n$$KE = \\frac{1}{2} \\times 1 \\times 5^2 = \\frac{1}{2} \\times 1 \\times 25 = 12.5 \\text{ J}$$\n\n**Ranking: 18 J > 16 J > 12.5 J**\n\nInteresting insight: The slowest object has the most KE because mass compensates for velocity!",
+    "hints": [
+      {"level": 1, "content": "Don't guess - calculate each KE using the formula KE = ½mv²."},
+      {"level": 2, "content": "Remember velocity is squared, but both mass and velocity matter for the final KE."}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 17, "conceptsUsed": ["c2"], "buildsOn": ["eft-y8-069"], "preparesFor": ["eft-y8-078"]},
+    "pedagogy": {"type": "socratic", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": true, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set8", "sequenceInPaper": 7},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-078",
+    "questionType": "SHORT_ANSWER",
+    "stem": "A student says: 'When I push a book across a table and it slides to a stop, the kinetic energy was converted to potential energy.' Correct this statement and provide the accurate explanation.",
+    "solution": "**The student's statement is INCORRECT.**\n\n**What the student said:**\nKE → PE (potential energy)\n\n**What actually happens:**\nKE → Thermal energy (heat)\n\n**Complete Explanation:**\n\n1. **While pushing**: Your chemical PE → KE of book\n\n2. **While sliding**: Book's KE → Thermal energy\n   - Friction between book and table\n   - Both surfaces warm up slightly\n   - Air resistance (negligible for slow book)\n\n3. **After stopping**: All original KE now exists as:\n   - Slightly warmer book\n   - Slightly warmer table\n   - Slightly warmer surrounding air\n\n**Why it's NOT potential energy:**\n- Potential energy requires a position/configuration that can release energy\n- The stopped book has no stored energy ready to release\n- It won't spontaneously start moving again\n- Thermal energy is 'degraded' - spread out among particles\n\n**Correct statement:**\n'When the book slides to a stop, kinetic energy is converted to thermal energy through friction.'",
+    "hints": [
+      {"level": 1, "content": "What type of energy is usually produced when objects rub against each other?"},
+      {"level": 2, "content": "Does the stopped book have any stored energy that could make it move again?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 150,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 18, "conceptsUsed": ["c2", "c5"], "buildsOn": ["eft-y8-047"], "preparesFor": ["eft-y8-079"]},
+    "pedagogy": {"type": "misconception", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set8", "sequenceInPaper": 8},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-079",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Design a thought experiment to prove that gravitational potential energy depends on the choice of reference point (zero height), but changes in GPE do not depend on this choice. Use a ball dropped from a table in a room as your example.",
+    "solution": "**Thought Experiment: Ball on Table**\n\nSetup: A 1 kg ball on a 1 m table in a room with a 3 m ceiling.\n\n**Scenario A: Zero at floor**\n- Ball on table: GPE = mgh = 1 × 10 × 1 = 10 J\n- Ball on floor: GPE = 1 × 10 × 0 = 0 J\n- Change in GPE = 0 - 10 = **-10 J**\n\n**Scenario B: Zero at table level**\n- Ball on table: GPE = 1 × 10 × 0 = 0 J\n- Ball on floor: GPE = 1 × 10 × (-1) = -10 J\n- Change in GPE = -10 - 0 = **-10 J**\n\n**Scenario C: Zero at ceiling**\n- Ball on table: GPE = 1 × 10 × (-2) = -20 J\n- Ball on floor: GPE = 1 × 10 × (-3) = -30 J\n- Change in GPE = -30 - (-20) = **-10 J**\n\n**Conclusion:**\n- GPE values are different in each scenario (10J, 0J, -20J for ball on table)\n- But CHANGE in GPE is always -10 J regardless of reference\n- This is why physics works: only changes in energy matter, not absolute values\n- The -10 J always converts to 10 J of kinetic energy at impact",
+    "hints": [
+      {"level": 1, "content": "Try calculating GPE using three different reference points: floor, table, and ceiling."},
+      {"level": 2, "content": "For each reference point, calculate the CHANGE in GPE when the ball falls. What pattern do you notice?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 180,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 19, "conceptsUsed": ["c3", "c6"], "buildsOn": ["eft-y8-043"], "preparesFor": ["eft-y8-080"]},
+    "pedagogy": {"type": "socratic", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set8", "sequenceInPaper": 9},
+    "status": "published"
+  },
+  {
+    "questionId": "eft-y8-080",
+    "questionType": "SHORT_ANSWER",
+    "stem": "Synthesise your understanding of energy by explaining why, despite the law of conservation of energy, we cannot build machines that run forever without external energy input. Include at least three concepts from this topic in your explanation.",
+    "solution": "**Why Perpetual Motion is Impossible:**\n\n**Concept 1: Conservation of Energy**\nEnergy cannot be created or destroyed, only transformed. A perpetual motion machine would need to create energy from nothing to overcome losses - this violates conservation.\n\n**Concept 2: Energy Degradation**\nWith every transformation, some useful energy becomes thermal energy:\n- Friction in moving parts → heat\n- Air resistance → heat\n- Sound from vibrations → dispersed energy\n\nThis energy spreads out and becomes unusable. Even if total energy is conserved, usable energy continuously decreases.\n\n**Concept 3: Efficiency < 100%**\nNo real machine can be 100% efficient. Every energy transformation loses some energy to thermal output:\n- Bearings have friction\n- Electrical components have resistance\n- Moving parts create air resistance\n\n**Concept 4: Second Law of Thermodynamics**\nEnergy naturally flows from concentrated to dispersed. To maintain motion, a machine would need to reverse this - concentrating dispersed energy - which doesn't happen spontaneously.\n\n**Synthesis:**\nA perpetual motion machine would need to either:\n1. Create energy (violates conservation)\n2. Operate at 100% efficiency (impossible)\n3. Reverse energy degradation (violates thermodynamics)\n\nAll three are impossible, so perpetual motion machines cannot exist.",
+    "hints": [
+      {"level": 1, "content": "Consider conservation, efficiency, and degradation - how do they each prevent perpetual motion?"},
+      {"level": 2, "content": "Even if you 'conserve' all the energy in a system, what happens to its usefulness over time?"}
+    ],
+    "difficulty": 4,
+    "estimatedTime": 240,
+    "curriculum": {"system": "NSW", "codes": ["ACSSU155"], "year": 8, "subject": "Science", "strand": "Physical Sciences"},
+    "learningArc": {"phase": 4, "phasePosition": 20, "conceptsUsed": ["c5", "c6", "c7", "c8"], "buildsOn": ["eft-y8-062", "eft-y8-064", "eft-y8-075"], "preparesFor": []},
+    "pedagogy": {"type": "socratic", "targetFeeling": "I can figure out new problems!"},
+    "richContent": {"hasEquations": false, "hasTables": false, "hasGraphs": false, "hasDiagrams": false, "hasCode": false},
+    "paperMetadata": {"section": "year8-science", "setId": "year8-energy-forms-transformations-set8", "sequenceInPaper": 10},
+    "status": "published"
+  }
+]

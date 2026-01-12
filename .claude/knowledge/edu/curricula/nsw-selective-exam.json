@@ -1,0 +1,966 @@
+{
+  "exam": "NSW Selective High School Placement Test",
+  "targetYear": "Year 7 Entry",
+  "candidateYear": "Year 6",
+  "syllabus": "NSW Department of Education Selective Schools Program",
+  "version": "2026.01",
+  "generatedAt": "2026-01-12",
+  "testFormat": {
+    "delivery": "Computer-based (from 2025)",
+    "totalDuration": "155 minutes",
+    "sections": 4,
+    "weighting": "Equal (25% each)"
+  },
+  "sections": [
+    {
+      "name": "Reading",
+      "id": "reading",
+      "description": "Comprehension, analysis, and interpretation of written texts across multiple genres",
+      "duration": "45 minutes",
+      "questionCount": 17,
+      "totalMarks": 38,
+      "answerFormat": "Multiple choice",
+      "weighting": "25%",
+      "strands": [
+        {
+          "name": "Literal Comprehension",
+          "description": "Understanding directly stated information in text",
+          "topics": [
+            {
+              "id": "literal-facts",
+              "name": "Locating Facts and Details",
+              "description": "Finding explicitly stated information, facts, and details in the text",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Identifying who, what, when, where in text",
+                "Locating specific details and facts",
+                "Understanding sequence of events",
+                "Recognising character actions and dialogue",
+                "Finding supporting evidence in text",
+                "Identifying main ideas stated directly"
+              ],
+              "difficulty": "foundational"
+            },
+            {
+              "id": "vocabulary-context",
+              "name": "Vocabulary in Context",
+              "description": "Understanding word meanings based on textual context",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Using context clues for word meaning",
+                "Recognising synonyms and antonyms in context",
+                "Understanding technical/subject-specific vocabulary",
+                "Interpreting phrases and expressions",
+                "Multiple meanings of words",
+                "Word relationships and collocations"
+              ],
+              "difficulty": "intermediate"
+            }
+          ]
+        },
+        {
+          "name": "Inferential Comprehension",
+          "description": "Drawing conclusions from implied information",
+          "topics": [
+            {
+              "id": "inference-deduction",
+              "name": "Making Inferences and Deductions",
+              "description": "Reading between the lines to understand implied meaning",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Drawing conclusions from clues",
+                "Understanding implied character feelings",
+                "Predicting outcomes from evidence",
+                "Understanding cause and effect relationships",
+                "Making logical deductions",
+                "Inferring unstated information",
+                "Recognising implicit relationships",
+                "Understanding subtext and hidden meaning"
+              ],
+              "difficulty": "advanced"
+            },
+            {
+              "id": "author-purpose",
+              "name": "Author's Purpose and Perspective",
+              "description": "Understanding why and how texts are written",
+              "keyConceptCount": 7,
+              "keyConcepts": [
+                "Identifying author's purpose (inform, persuade, entertain)",
+                "Recognising author's viewpoint and bias",
+                "Understanding intended audience",
+                "Analysing tone and mood",
+                "Evaluating author's attitude toward subject",
+                "Understanding persuasive techniques",
+                "Recognising different perspectives in text"
+              ],
+              "difficulty": "advanced"
+            }
+          ]
+        },
+        {
+          "name": "Analytical Comprehension",
+          "description": "Analysing text structure and language features",
+          "topics": [
+            {
+              "id": "text-structure",
+              "name": "Text Structure and Organisation",
+              "description": "Understanding how texts are organised and structured",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Identifying text types and genres",
+                "Understanding paragraph structure",
+                "Recognising introduction, body, conclusion",
+                "Following logical text organisation",
+                "Understanding headings, subheadings, captions",
+                "Analysing cohesive devices (connectives, references)"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "language-features",
+              "name": "Language and Stylistic Features",
+              "description": "Analysing how language creates meaning and effect",
+              "keyConceptCount": 10,
+              "keyConcepts": [
+                "Figurative language (similes, metaphors, personification)",
+                "Imagery and sensory language",
+                "Symbolism and allegory",
+                "Alliteration, assonance, onomatopoeia",
+                "Hyperbole and understatement",
+                "Irony and sarcasm",
+                "Dialogue and direct speech effects",
+                "Narrative voice (first, second, third person)",
+                "Formal vs informal register",
+                "Emotive and descriptive language"
+              ],
+              "difficulty": "advanced"
+            }
+          ]
+        },
+        {
+          "name": "Evaluative Comprehension",
+          "description": "Making judgements about texts",
+          "topics": [
+            {
+              "id": "critical-evaluation",
+              "name": "Critical Evaluation and Comparison",
+              "description": "Evaluating text quality and comparing perspectives",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Evaluating arguments and evidence",
+                "Comparing different viewpoints",
+                "Assessing reliability of information",
+                "Distinguishing fact from opinion",
+                "Evaluating effectiveness of language choices",
+                "Making judgements about character actions"
+              ],
+              "difficulty": "advanced"
+            }
+          ]
+        }
+      ],
+      "textTypes": [
+        "Fiction (narrative excerpts, short stories)",
+        "Non-fiction (articles, reports, essays)",
+        "Poetry (various forms)",
+        "Persuasive texts (editorials, speeches)",
+        "Informative texts (magazine articles, explanations)",
+        "Literary extracts (novels, plays)",
+        "Aboriginal and Torres Strait Islander voices"
+      ],
+      "questionTypes": [
+        {
+          "type": "Standard Multiple Choice",
+          "marks": 1,
+          "description": "Select one correct answer from options"
+        },
+        {
+          "type": "Extract Question",
+          "marks": "Multiple",
+          "description": "Questions based on a specific text extract"
+        },
+        {
+          "type": "Cloze Question",
+          "marks": "Multiple",
+          "description": "Fill in missing words from options"
+        },
+        {
+          "type": "Inline-Cloze Question",
+          "marks": 8,
+          "description": "Select words to complete gaps within a passage"
+        }
+      ]
+    },
+    {
+      "name": "Mathematical Reasoning",
+      "id": "mathematical-reasoning",
+      "description": "Problem-solving and applied mathematics testing reasoning ability",
+      "duration": "40 minutes",
+      "questionCount": 35,
+      "answerFormat": "Multiple choice (5 options A-E)",
+      "weighting": "25%",
+      "calculatorAllowed": false,
+      "strands": [
+        {
+          "name": "Number and Algebra",
+          "description": "Understanding numbers, operations, and algebraic thinking",
+          "topics": [
+            {
+              "id": "number-operations",
+              "name": "Number Operations and Mental Maths",
+              "description": "Efficient mental calculation strategies",
+              "keyConceptCount": 10,
+              "keyConcepts": [
+                "Mental addition and subtraction strategies",
+                "Mental multiplication and division",
+                "Order of operations (BODMAS/PEMDAS)",
+                "Working with negative numbers",
+                "Estimation and approximation",
+                "Factors and multiples",
+                "Prime numbers and prime factorisation",
+                "Indices and powers",
+                "Square roots (perfect squares)",
+                "Rounding and significant figures"
+              ],
+              "difficulty": "foundational"
+            },
+            {
+              "id": "fractions-decimals-percentages",
+              "name": "Fractions, Decimals and Percentages",
+              "description": "Operations with fractions, decimals, and percentages",
+              "keyConceptCount": 10,
+              "keyConcepts": [
+                "Equivalent fractions and simplifying",
+                "Adding and subtracting fractions",
+                "Multiplying and dividing fractions",
+                "Converting between fractions, decimals, percentages",
+                "Percentage of amounts",
+                "Percentage increase and decrease",
+                "Decimal operations",
+                "Comparing and ordering fractions",
+                "Mixed numbers and improper fractions",
+                "Fraction and decimal word problems"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "ratios-proportions",
+              "name": "Ratios and Proportions",
+              "description": "Understanding proportional relationships",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Expressing ratios in simplest form",
+                "Dividing quantities in given ratios",
+                "Solving proportion problems",
+                "Direct proportion",
+                "Inverse proportion",
+                "Scale drawings and maps",
+                "Rates and unit rates",
+                "Ratio word problems"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "patterns-algebra",
+              "name": "Patterns and Algebraic Thinking",
+              "description": "Recognising patterns and using algebraic reasoning",
+              "keyConceptCount": 10,
+              "keyConcepts": [
+                "Number sequences and patterns",
+                "Finding the rule for sequences",
+                "Algebraic expressions",
+                "Substitution into expressions",
+                "Simple equations",
+                "Inverse operations",
+                "Generalising patterns",
+                "Growing patterns and tables",
+                "Function machines",
+                "Multi-step problem solving"
+              ],
+              "difficulty": "advanced"
+            }
+          ]
+        },
+        {
+          "name": "Measurement and Geometry",
+          "description": "Understanding space, shape, and measurement",
+          "topics": [
+            {
+              "id": "length-area-volume",
+              "name": "Length, Area and Volume",
+              "description": "Measuring and calculating dimensions",
+              "keyConceptCount": 10,
+              "keyConcepts": [
+                "Perimeter of polygons",
+                "Area of rectangles and squares",
+                "Area of triangles",
+                "Area of parallelograms and trapeziums",
+                "Area of composite shapes",
+                "Volume of rectangular prisms",
+                "Volume of cubes",
+                "Surface area basics",
+                "Unit conversions (length, area, volume)",
+                "Problem solving with measurement"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "angles-shapes",
+              "name": "Angles and 2D Shapes",
+              "description": "Properties of angles and two-dimensional shapes",
+              "keyConceptCount": 10,
+              "keyConcepts": [
+                "Types of angles (acute, obtuse, right, reflex)",
+                "Angles on a straight line",
+                "Angles at a point",
+                "Vertically opposite angles",
+                "Angles in triangles",
+                "Angles in quadrilaterals",
+                "Properties of triangles",
+                "Properties of quadrilaterals",
+                "Regular and irregular polygons",
+                "Angle calculations"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "3d-spatial",
+              "name": "3D Shapes and Spatial Reasoning",
+              "description": "Understanding three-dimensional objects and spatial relationships",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Identifying 3D shapes (prisms, pyramids, cylinders)",
+                "Faces, edges, and vertices",
+                "Nets of 3D shapes",
+                "Views from different angles (front, side, top)",
+                "Building shapes from cubes",
+                "Counting cubes in 3D structures",
+                "Cross-sections of 3D shapes",
+                "Spatial visualisation"
+              ],
+              "difficulty": "advanced"
+            },
+            {
+              "id": "transformations",
+              "name": "Transformations and Symmetry",
+              "description": "Understanding movement and symmetry of shapes",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Reflection (line symmetry)",
+                "Rotation (rotational symmetry)",
+                "Translation (sliding)",
+                "Coordinate geometry basics",
+                "Plotting and reading coordinates",
+                "Transformations on coordinate plane"
+              ],
+              "difficulty": "intermediate"
+            }
+          ]
+        },
+        {
+          "name": "Statistics and Probability",
+          "description": "Data interpretation and chance",
+          "topics": [
+            {
+              "id": "data-interpretation",
+              "name": "Data Interpretation",
+              "description": "Reading and analysing data displays",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Reading bar graphs and column graphs",
+                "Interpreting pie charts",
+                "Line graphs and trends",
+                "Tables and two-way tables",
+                "Mean, median, mode, range",
+                "Comparing data sets",
+                "Drawing conclusions from data",
+                "Misleading graphs"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "probability",
+              "name": "Probability",
+              "description": "Understanding chance and likelihood",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Probability as fractions/decimals/percentages",
+                "Theoretical probability",
+                "Experimental probability",
+                "Sample spaces",
+                "Complementary events",
+                "Simple probability problems"
+              ],
+              "difficulty": "intermediate"
+            }
+          ]
+        }
+      ],
+      "problemTypes": [
+        "Multi-step word problems",
+        "Pattern recognition and sequences",
+        "Spatial reasoning with cubes and nets",
+        "Data interpretation",
+        "Algebraic reasoning",
+        "Measurement calculations",
+        "Proportional reasoning",
+        "Logical deduction problems"
+      ]
+    },
+    {
+      "name": "Thinking Skills",
+      "id": "thinking-skills",
+      "description": "Critical thinking and problem-solving without requiring prior knowledge",
+      "duration": "40 minutes",
+      "questionCount": 40,
+      "answerFormat": "Multiple choice (4 options A-D)",
+      "weighting": "25%",
+      "note": "Replaced General Ability in 2021",
+      "strands": [
+        {
+          "name": "Verbal Reasoning",
+          "description": "Logic and reasoning with words and language",
+          "topics": [
+            {
+              "id": "verbal-analogies",
+              "name": "Verbal Analogies",
+              "description": "Understanding relationships between words",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Word pair relationships (synonym, antonym, part-whole)",
+                "Category relationships",
+                "Function relationships",
+                "Degree/intensity relationships",
+                "Cause and effect relationships",
+                "Sequential relationships",
+                "Grammatical relationships",
+                "Abstract concept relationships"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "verbal-classification",
+              "name": "Verbal Classification",
+              "description": "Grouping words based on common features",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Identifying odd-one-out",
+                "Finding common categories",
+                "Abstract classification",
+                "Multiple classification criteria",
+                "Semantic relationships",
+                "Word associations"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "verbal-deduction",
+              "name": "Verbal Logical Deduction",
+              "description": "Drawing conclusions from verbal information",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Syllogisms (if-then statements)",
+                "Conditional reasoning",
+                "Drawing valid conclusions",
+                "Identifying false conclusions",
+                "Negation and contradiction",
+                "Necessary vs sufficient conditions",
+                "Logical connectives (and, or, not)",
+                "Multi-premise arguments"
+              ],
+              "difficulty": "advanced"
+            }
+          ]
+        },
+        {
+          "name": "Non-Verbal/Visual Reasoning",
+          "description": "Logic and reasoning with shapes and patterns",
+          "topics": [
+            {
+              "id": "pattern-sequences",
+              "name": "Visual Pattern Sequences",
+              "description": "Identifying patterns in visual sequences",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Shape progression patterns",
+                "Rotation patterns",
+                "Reflection patterns",
+                "Addition/subtraction of elements",
+                "Colour/shading patterns",
+                "Size progression",
+                "Position changes",
+                "Multiple simultaneous changes"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "visual-analogies",
+              "name": "Visual Analogies",
+              "description": "Understanding relationships between shapes",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Shape pair relationships",
+                "Transformation analogies",
+                "Attribute-based analogies",
+                "Complex multi-step analogies",
+                "Matrix analogies",
+                "Abstract shape relationships"
+              ],
+              "difficulty": "advanced"
+            },
+            {
+              "id": "visual-classification",
+              "name": "Visual Classification",
+              "description": "Grouping shapes based on common features",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Identifying odd shape out",
+                "Common attribute identification",
+                "Multiple classification criteria",
+                "Abstract visual classification",
+                "Shape families",
+                "Hidden rule identification"
+              ],
+              "difficulty": "intermediate"
+            }
+          ]
+        },
+        {
+          "name": "Spatial Reasoning",
+          "description": "Visualising and manipulating objects in space",
+          "topics": [
+            {
+              "id": "mental-rotation",
+              "name": "Mental Rotation and Reflection",
+              "description": "Mentally rotating and reflecting 2D and 3D objects",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "2D shape rotation",
+                "3D object rotation",
+                "Mirror reflections",
+                "Identifying rotated versions",
+                "Clockwise and anticlockwise rotation",
+                "Rotation angles (90°, 180°, 270°)"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "folding-unfolding",
+              "name": "Folding and Unfolding",
+              "description": "Understanding paper folding and nets",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Paper folding sequences",
+                "Punch hole patterns",
+                "Transparent paper overlays",
+                "Net folding (2D to 3D)",
+                "Identifying correct nets",
+                "Predicting fold outcomes"
+              ],
+              "difficulty": "advanced"
+            },
+            {
+              "id": "cube-views",
+              "name": "Cube Counting and Views",
+              "description": "Analysing 3D cube structures",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Counting cubes in 3D structures",
+                "Hidden cube identification",
+                "Front/side/top views",
+                "Building from views",
+                "Cube net matching",
+                "Opposite faces on cubes"
+              ],
+              "difficulty": "advanced"
+            }
+          ]
+        },
+        {
+          "name": "Numerical Reasoning",
+          "description": "Logic and reasoning with numbers",
+          "topics": [
+            {
+              "id": "number-patterns",
+              "name": "Number Patterns and Sequences",
+              "description": "Identifying numerical patterns and rules",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Arithmetic sequences",
+                "Geometric sequences",
+                "Multiple operation sequences",
+                "Alternating patterns",
+                "Fibonacci-type sequences",
+                "Square and cube number patterns",
+                "Complex multi-rule sequences",
+                "Number grids and matrices"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "number-logic",
+              "name": "Numerical Logic Problems",
+              "description": "Solving logic puzzles with numbers",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Number relationship puzzles",
+                "Balance/equation puzzles",
+                "Code-breaking with numbers",
+                "Mathematical logic grids",
+                "Digit placement problems",
+                "Inverse operation reasoning"
+              ],
+              "difficulty": "advanced"
+            }
+          ]
+        },
+        {
+          "name": "Logical Reasoning",
+          "description": "General logical thinking and problem-solving",
+          "topics": [
+            {
+              "id": "logical-deduction",
+              "name": "Logical Deduction",
+              "description": "Drawing valid conclusions from given information",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Following logical rules",
+                "Truth tables basics",
+                "Valid vs invalid conclusions",
+                "Conditional statements",
+                "Contradiction identification",
+                "Systematic elimination",
+                "Multi-step deduction",
+                "Identifying logical fallacies"
+              ],
+              "difficulty": "advanced"
+            },
+            {
+              "id": "procedures-strategies",
+              "name": "Procedures and Strategies",
+              "description": "Identifying and following procedures",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Finding optimal procedures",
+                "Step-by-step problem solving",
+                "Strategy identification",
+                "Working backwards",
+                "Systematic approaches",
+                "Decision tree reasoning"
+              ],
+              "difficulty": "advanced"
+            },
+            {
+              "id": "filtering-information",
+              "name": "Filtering Relevant Information",
+              "description": "Identifying important information in complex problems",
+              "keyConceptCount": 4,
+              "keyConcepts": [
+                "Distinguishing relevant from irrelevant data",
+                "Identifying key facts",
+                "Ignoring distractors",
+                "Prioritising information"
+              ],
+              "difficulty": "intermediate"
+            }
+          ]
+        }
+      ],
+      "questionTypes": [
+        "Analogies (verbal and visual)",
+        "Pattern sequences",
+        "Classification (odd-one-out)",
+        "Spatial reasoning (rotation, reflection, folding)",
+        "Logical deduction",
+        "Cube counting and views",
+        "Number patterns",
+        "Syllogisms and conditional reasoning"
+      ]
+    },
+    {
+      "name": "Writing",
+      "id": "writing",
+      "description": "Creative and effective written expression",
+      "duration": "30 minutes",
+      "questionCount": 1,
+      "answerFormat": "Open response (typed)",
+      "weighting": "25%",
+      "maxLength": "Approximately 2 pages",
+      "marking": {
+        "method": "Two independent examiners",
+        "maxScore": 50,
+        "perExaminer": 25,
+        "breakdown": {
+          "contentAndStyle": {
+            "marks": 15,
+            "percentage": "60%",
+            "criteria": ["Ideas", "Structure", "Audience awareness", "Vocabulary", "Voice/Style"]
+          },
+          "technicalSkills": {
+            "marks": 10,
+            "percentage": "40%",
+            "criteria": ["Grammar", "Punctuation", "Spelling"]
+          }
+        }
+      },
+      "strands": [
+        {
+          "name": "Content and Ideas",
+          "description": "Quality and creativity of ideas",
+          "topics": [
+            {
+              "id": "creative-ideas",
+              "name": "Creative and Original Ideas",
+              "description": "Generating interesting and unique content",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Original and imaginative ideas",
+                "Unexpected twists and developments",
+                "Depth of thought",
+                "Engaging opening hooks",
+                "Meaningful themes or messages",
+                "Showing vs telling",
+                "Sensory details",
+                "Avoiding clichés"
+              ],
+              "difficulty": "advanced"
+            },
+            {
+              "id": "addressing-prompt",
+              "name": "Addressing the Prompt",
+              "description": "Responding appropriately to the given stimulus",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Understanding the prompt requirements",
+                "Staying on topic",
+                "Interpreting visual/text stimuli",
+                "Meeting task requirements",
+                "Appropriate response length",
+                "Direct engagement with prompt"
+              ],
+              "difficulty": "foundational"
+            }
+          ]
+        },
+        {
+          "name": "Structure and Organisation",
+          "description": "Logical organisation of writing",
+          "topics": [
+            {
+              "id": "text-structure",
+              "name": "Text Structure",
+              "description": "Organising writing effectively",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Clear beginning, middle, end",
+                "Effective opening/hook",
+                "Well-developed middle section",
+                "Satisfying conclusion",
+                "Logical paragraph organisation",
+                "Smooth transitions between ideas",
+                "Cohesive devices (connectives, pronouns)",
+                "Pacing and flow"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "genre-form",
+              "name": "Genre and Form",
+              "description": "Writing appropriately for different forms",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Narrative structure (orientation, complication, resolution)",
+                "Descriptive writing techniques",
+                "Persuasive text features",
+                "Diary/journal conventions",
+                "Letter writing formats",
+                "News article structure",
+                "Appropriate register for form",
+                "Genre conventions"
+              ],
+              "difficulty": "intermediate"
+            }
+          ]
+        },
+        {
+          "name": "Language and Style",
+          "description": "Effective use of language",
+          "topics": [
+            {
+              "id": "vocabulary-choice",
+              "name": "Vocabulary and Word Choice",
+              "description": "Using precise and varied vocabulary",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Precise word choice",
+                "Varied vocabulary",
+                "Strong verbs and vivid adjectives",
+                "Avoiding repetition",
+                "Appropriate formality level",
+                "Technical vocabulary when relevant",
+                "Emotive language",
+                "Figurative language (similes, metaphors)"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "voice-tone",
+              "name": "Voice and Tone",
+              "description": "Developing distinctive writing voice",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Consistent narrative voice",
+                "Appropriate tone for purpose",
+                "Character voice in dialogue",
+                "Engaging and authentic voice",
+                "Audience awareness",
+                "Personal style development"
+              ],
+              "difficulty": "advanced"
+            }
+          ]
+        },
+        {
+          "name": "Technical Accuracy",
+          "description": "Correct grammar, punctuation, and spelling",
+          "topics": [
+            {
+              "id": "grammar",
+              "name": "Grammar and Sentence Structure",
+              "description": "Correct grammatical usage",
+              "keyConceptCount": 10,
+              "keyConcepts": [
+                "Subject-verb agreement",
+                "Correct tense usage and consistency",
+                "Pronoun reference clarity",
+                "Sentence variety (simple, compound, complex)",
+                "Avoiding run-on sentences",
+                "Avoiding sentence fragments",
+                "Correct word forms",
+                "Parallel structure",
+                "Modifier placement",
+                "Active vs passive voice"
+              ],
+              "difficulty": "intermediate"
+            },
+            {
+              "id": "punctuation",
+              "name": "Punctuation",
+              "description": "Correct punctuation usage",
+              "keyConceptCount": 8,
+              "keyConcepts": [
+                "Full stops and sentence boundaries",
+                "Commas in lists and clauses",
+                "Apostrophes (contractions and possession)",
+                "Speech marks/quotation marks",
+                "Question marks and exclamation marks",
+                "Colons and semicolons",
+                "Paragraphing",
+                "Capital letters"
+              ],
+              "difficulty": "foundational"
+            },
+            {
+              "id": "spelling",
+              "name": "Spelling",
+              "description": "Correct spelling",
+              "keyConceptCount": 6,
+              "keyConcepts": [
+                "Common spelling patterns",
+                "Homophones (their/there/they're)",
+                "Silent letters",
+                "Double consonants",
+                "Word endings (-tion, -sion, -ible, -able)",
+                "Irregular spellings"
+              ],
+              "difficulty": "foundational"
+            }
+          ]
+        }
+      ],
+      "taskTypes": [
+        "Narrative/Creative writing",
+        "Descriptive writing",
+        "Persuasive writing",
+        "Informative/Advisory writing",
+        "Diary/Journal entry",
+        "Letter writing",
+        "Newspaper report"
+      ],
+      "stimulusTypes": [
+        "Photograph or image",
+        "Drawing or illustration",
+        "Quote or statement",
+        "Question prompt",
+        "Story extract",
+        "Multiple images/words"
+      ],
+      "bandDescriptors": [
+        {
+          "band": 6,
+          "description": "Distinctive, imaginative, unexpected ideas. Makes markers think 'Wow!' Sophisticated vocabulary and structure.",
+          "percentile": "Top 10%"
+        },
+        {
+          "band": 5,
+          "description": "Good, interesting ideas but more predictable. Well-structured with good vocabulary.",
+          "percentile": "Next 15%"
+        },
+        {
+          "band": 4,
+          "description": "Competent writing with clear structure. Sound ideas, appropriate vocabulary.",
+          "percentile": "Average range"
+        },
+        {
+          "band": 3,
+          "description": "Basic ideas with some structure. Limited vocabulary, some errors.",
+          "percentile": "Below average"
+        }
+      ]
+    }
+  ],
+  "keyDates2026": {
+    "testDates": "1-3 May 2026",
+    "entry": "Year 7 in 2027",
+    "location": "NSW only (from 2026)"
+  },
+  "preparationNotes": {
+    "official": "Coaching or tutoring for the placement test is not necessary. The test will not need your child to know any new or special knowledge.",
+    "focus": [
+      "Critical thinking over memorisation",
+      "Reasoning and problem-solving",
+      "Reading widely across genres",
+      "Mental maths fluency",
+      "Logical thinking practice",
+      "Writing regularly with time constraints"
+    ],
+    "changes2025": [
+      "Computer-based delivery",
+      "Equal weighting (25% each section)",
+      "Reading: 17 questions for 38 marks including inline-cloze",
+      "Thinking Skills emphasis on logical reasoning"
+    ]
+  },
+  "sources": [
+    {
+      "name": "NSW Department of Education - Placement Test",
+      "url": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test"
+    },
+    {
+      "name": "NSW Department of Education - Practice Tests",
+      "url": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test/selective-high-school-practice-tests"
+    },
+    {
+      "name": "NSW Selective Test Format Guide - BrainTree",
+      "url": "https://braintreecoaching.com.au/nsw-selective-test-format-guide"
+    },
+    {
+      "name": "Matrix Selective Schools Guide",
+      "url": "https://www.matrix.edu.au/year-6-selective-schools-guide/part-3-selective-school-test/"
+    },
+    {
+      "name": "KIS Academics NSW Selective Guide",
+      "url": "https://kisacademics.com/blog/everything-you-need-to-know-about-the-2026-nsw-selective-test/"
+    }
+  ]
+}
