@@ -1,0 +1,2591 @@
+{
+  "metadata": {
+    "archetype": "Speed-Distance-Time Multi-Part",
+    "archetypeId": "qa20",
+    "archetypeSlug": "speed-distance-time",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "foundation": {
+        "count": 5,
+        "difficulty": "1-2"
+      },
+      "application": {
+        "count": 10,
+        "difficulty": "2-3"
+      },
+      "connection": {
+        "count": 5,
+        "difficulty": "3"
+      },
+      "mastery": {
+        "count": 5,
+        "difficulty": "4"
+      }
+    },
+    "createdAt": "2026-01-13",
+    "version": "1.0",
+    "researchSource": ".claude/knowledge/edu/research/mathematical-reasoning-nsw-selective.json"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa20-001",
+      "questionType": "MCQ",
+      "stem": "A cyclist rides 12 km at 15 km/h, then 8 km at 10 km/h. What is the total time for the journey?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "1 hour 40 minutes",
+          "isCorrect": false,
+          "feedback": "This would be 100 minutes. Check your division: 12 ÷ 15 and 8 ÷ 10 both equal 0.8 hours each."
+        },
+        {
+          "id": "B",
+          "text": "1 hour 28 minutes",
+          "isCorrect": false,
+          "feedback": "Check your calculation. First part: 12 ÷ 15 = 0.8 hours = 48 minutes. Second part: 8 ÷ 10 = 0.8 hours = 48 minutes. Total = 96 minutes."
+        },
+        {
+          "id": "C",
+          "text": "1 hour 20 minutes",
+          "isCorrect": false,
+          "feedback": "This uses the average speed method incorrectly. You must calculate each leg's time separately, then add."
+        },
+        {
+          "id": "D",
+          "text": "1 hour 36 minutes",
+          "isCorrect": true,
+          "feedback": "Correct! First part: 12 ÷ 15 = 0.8 hours = 48 minutes. Second part: 8 ÷ 10 = 0.8 hours = 48 minutes. Total = 48 + 48 = 96 minutes = 1 hour 36 minutes."
+        },
+        {
+          "id": "E",
+          "text": "2 hours",
+          "isCorrect": false,
+          "feedback": "This assumes each leg takes 1 hour. But Time = Distance ÷ Speed, not just the speed value."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time Multi-Part**\n\n**Step 1: Identify the formula**\nTime = Distance ÷ Speed\n\n**Step 2: Calculate each leg separately**\nFirst leg: Time = 12 km ÷ 15 km/h = 0.8 hours = 48 minutes\nSecond leg: Time = 8 km ÷ 10 km/h = 0.8 hours = 48 minutes\n\n**Step 3: Add the times**\nTotal time = 48 + 48 = 96 minutes = 1 hour 36 minutes\n\n**Step 4: Check**\nAt 15 km/h for 0.8 hours = 12 km ✓\nAt 10 km/h for 0.8 hours = 8 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "For multi-part journeys, calculate the time for each leg separately, then add them together.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Time = Distance ÷ Speed. What is 12 ÷ 15? What is 8 ÷ 10?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "First leg: 12 ÷ 15 = 0.8 hours = 48 min. Second leg: 8 ÷ 10 = 0.8 hours = 48 min. Total = 96 min.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "division",
+          "unit-conversion",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "formula_confusion",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Calculate time for each leg using T = D ÷ S → Add times together → Convert to hours and minutes",
+        "methodologySteps": [
+          "Read: Identify this is a multi-leg journey with different speeds",
+          "Calculate: Time₁ = Distance₁ ÷ Speed₁, Time₂ = Distance₂ ÷ Speed₂",
+          "Add: Total time = Time₁ + Time₂",
+          "Check: Verify using Speed × Time = Distance for each leg"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Using average speed incorrectly",
+          "Not converting hours to minutes",
+          "Adding speeds instead of times"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-002",
+      "questionType": "MCQ",
+      "stem": "A car travels 60 km in 45 minutes. What is its speed in km/h?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "75 km/h",
+          "isCorrect": false,
+          "feedback": "Check your division. 60 ÷ 0.75 = 60 × (4/3) = 80, not 75."
+        },
+        {
+          "id": "B",
+          "text": "90 km/h",
+          "isCorrect": false,
+          "feedback": "This would require traveling 60 km in 40 minutes (2/3 hour). But the time given is 45 minutes."
+        },
+        {
+          "id": "C",
+          "text": "45 km/h",
+          "isCorrect": false,
+          "feedback": "You may have confused distance and time. Speed = Distance ÷ Time = 60 ÷ 0.75."
+        },
+        {
+          "id": "D",
+          "text": "80 km/h",
+          "isCorrect": true,
+          "feedback": "Correct! 45 minutes = 0.75 hours. Speed = 60 km ÷ 0.75 hours = 80 km/h."
+        },
+        {
+          "id": "E",
+          "text": "60 km/h",
+          "isCorrect": false,
+          "feedback": "This assumes 45 minutes = 1 hour. But 45 minutes = 0.75 hours, so the speed is higher."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time**\n\n**Step 1: Convert time to hours**\n45 minutes = 45/60 hours = 0.75 hours\n\n**Step 2: Apply the formula**\nSpeed = Distance ÷ Time\nSpeed = 60 km ÷ 0.75 hours = 80 km/h\n\n**Step 3: Check**\n80 km/h × 0.75 hours = 60 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First convert 45 minutes to hours. How many hours is 45 minutes?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "45 minutes = 0.75 hours. Now use Speed = Distance ÷ Time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Speed = 60 km ÷ 0.75 hours = 80 km/h.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "unit-conversion",
+          "division",
+          "fractions"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "wrong_operation",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Convert minutes to hours → Apply Speed = Distance ÷ Time → Simplify",
+        "methodologySteps": [
+          "Read: Identify distance and time, note time is in minutes",
+          "Convert: 45 minutes = 45/60 = 0.75 hours",
+          "Calculate: Speed = 60 ÷ 0.75 = 80 km/h",
+          "Check: 80 × 0.75 = 60 km ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Forgetting to convert minutes to hours",
+          "Dividing in wrong order"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-003",
+      "questionType": "MCQ",
+      "stem": "A runner jogs 3 km at 6 km/h and then walks 2 km at 4 km/h. What is the total time taken?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "45 minutes",
+          "isCorrect": false,
+          "feedback": "This is too short. Each leg takes 30 minutes, so total is 60 minutes."
+        },
+        {
+          "id": "B",
+          "text": "1 hour 10 minutes",
+          "isCorrect": false,
+          "feedback": "Check your division. 3 ÷ 6 = 0.5 hours, not more. Same for 2 ÷ 4."
+        },
+        {
+          "id": "C",
+          "text": "1 hour",
+          "isCorrect": true,
+          "feedback": "Correct! Jogging: 3 km ÷ 6 km/h = 0.5 hours. Walking: 2 km ÷ 4 km/h = 0.5 hours. Total = 1 hour."
+        },
+        {
+          "id": "D",
+          "text": "1 hour 15 minutes",
+          "isCorrect": false,
+          "feedback": "This adds extra time. Jogging takes 30 min and walking takes 30 min, so total is exactly 60 min."
+        },
+        {
+          "id": "E",
+          "text": "50 minutes",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Jogging: 3 ÷ 6 = 0.5 hours = 30 min. Walking: 2 ÷ 4 = 0.5 hours = 30 min."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time Multi-Part**\n\n**Step 1: Calculate jogging time**\nTime = Distance ÷ Speed = 3 km ÷ 6 km/h = 0.5 hours = 30 minutes\n\n**Step 2: Calculate walking time**\nTime = Distance ÷ Speed = 2 km ÷ 4 km/h = 0.5 hours = 30 minutes\n\n**Step 3: Add the times**\nTotal = 30 + 30 = 60 minutes = 1 hour\n\n**Step 4: Check**\n6 km/h × 0.5 h = 3 km ✓, 4 km/h × 0.5 h = 2 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Calculate the time for each part separately using Time = Distance ÷ Speed.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Jogging: 3 ÷ 6 = ? hours. Walking: 2 ÷ 4 = ? hours.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Jogging: 0.5 hours. Walking: 0.5 hours. Total = 1 hour.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "division",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Calculate each leg's time separately → Add times → Convert if needed",
+        "methodologySteps": [
+          "Read: Identify two legs with different speeds",
+          "Calculate: Time₁ = 3 ÷ 6 = 0.5 h, Time₂ = 2 ÷ 4 = 0.5 h",
+          "Add: Total = 0.5 + 0.5 = 1 hour",
+          "Check: Distances match when using S × T = D"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Adding speeds instead of times",
+          "Calculation errors with fractions"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-004",
+      "questionType": "MCQ",
+      "stem": "A train travels 240 km in 3 hours. How far will it travel in 5 hours at the same speed?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "480 km",
+          "isCorrect": false,
+          "feedback": "This doubles the original distance (for 6 hours). But we need 5 hours worth."
+        },
+        {
+          "id": "B",
+          "text": "320 km",
+          "isCorrect": false,
+          "feedback": "This would be for 4 hours. For 5 hours: Speed × 5 = 80 × 5 = 400 km."
+        },
+        {
+          "id": "C",
+          "text": "360 km",
+          "isCorrect": false,
+          "feedback": "This is for 4.5 hours, not 5 hours. Speed = 240 ÷ 3 = 80 km/h. Distance = 80 × 5 = 400 km."
+        },
+        {
+          "id": "D",
+          "text": "400 km",
+          "isCorrect": true,
+          "feedback": "Correct! Speed = 240 km ÷ 3 hours = 80 km/h. Distance in 5 hours = 80 × 5 = 400 km."
+        },
+        {
+          "id": "E",
+          "text": "420 km",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Speed = 80 km/h. Distance = 80 × 5 = 400 km, not 420."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time**\n\n**Step 1: Find the speed**\nSpeed = Distance ÷ Time = 240 km ÷ 3 hours = 80 km/h\n\n**Step 2: Calculate new distance**\nDistance = Speed × Time = 80 km/h × 5 hours = 400 km\n\n**Step 3: Check**\n240 km in 3 hours → 400 km in 5 hours\nRatio: 400/240 = 5/3 ✓ (same as time ratio)",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find the speed using the given distance and time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Speed = 240 ÷ 3 = 80 km/h. Now use Distance = Speed × Time for 5 hours.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Distance = 80 km/h × 5 hours = 400 km.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "division",
+          "multiplication",
+          "proportional-reasoning"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find speed from given data → Apply D = S × T for new time",
+        "methodologySteps": [
+          "Read: We know distance and time, need to find new distance for different time",
+          "Calculate: Speed = 240 ÷ 3 = 80 km/h",
+          "Apply: New distance = 80 × 5 = 400 km",
+          "Check: Ratio of distances equals ratio of times"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Using the wrong formula",
+          "Arithmetic errors in division/multiplication"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-005",
+      "questionType": "MCQ",
+      "stem": "Sam walks to school at 5 km/h and the journey takes 24 minutes. How far is the school from his house?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "2.4 km",
+          "isCorrect": false,
+          "feedback": "You may have used 24 minutes as 0.24 hours. But 24 minutes = 24/60 = 0.4 hours."
+        },
+        {
+          "id": "B",
+          "text": "1.5 km",
+          "isCorrect": false,
+          "feedback": "This would be for 18 minutes. For 24 minutes (0.4 hours): 5 × 0.4 = 2 km."
+        },
+        {
+          "id": "C",
+          "text": "2 km",
+          "isCorrect": true,
+          "feedback": "Correct! 24 minutes = 24/60 = 0.4 hours. Distance = 5 km/h × 0.4 hours = 2 km."
+        },
+        {
+          "id": "D",
+          "text": "1.2 km",
+          "isCorrect": false,
+          "feedback": "Check your conversion. 24 minutes = 0.4 hours, not 0.24 hours."
+        },
+        {
+          "id": "E",
+          "text": "5 km",
+          "isCorrect": false,
+          "feedback": "This would be the distance if Sam walked for 1 hour. But he only walks for 24 minutes."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time**\n\n**Step 1: Convert time to hours**\n24 minutes = 24/60 hours = 2/5 hours = 0.4 hours\n\n**Step 2: Calculate distance**\nDistance = Speed × Time = 5 km/h × 0.4 hours = 2 km\n\n**Step 3: Check**\nAt 5 km/h, traveling 2 km takes 2/5 hour = 24 minutes ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Convert 24 minutes to hours first. There are 60 minutes in an hour.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "24 minutes = 24/60 = 0.4 hours. Now use Distance = Speed × Time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Distance = 5 km/h × 0.4 hours = 2 km.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "unit-conversion",
+          "multiplication",
+          "fractions"
+        ],
+        "distractorTypes": {
+          "A": "place_value_error",
+          "B": "computation_error",
+          "D": "place_value_error",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Convert minutes to hours → Apply D = S × T",
+        "methodologySteps": [
+          "Read: Speed in km/h, time in minutes - need to convert",
+          "Convert: 24 minutes = 24/60 = 0.4 hours",
+          "Calculate: Distance = 5 × 0.4 = 2 km",
+          "Check: 2 km ÷ 5 km/h = 0.4 hours = 24 min ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Using minutes directly without converting",
+          "Converting incorrectly (0.24 instead of 0.4)"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-006",
+      "questionType": "MCQ",
+      "stem": "A bus travels from Town A to Town B at 50 km/h and returns at 40 km/h. If the distance is 100 km, what is the total travel time for the round trip?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "4 hours",
+          "isCorrect": false,
+          "feedback": "This uses an incorrect average speed. Calculate each leg separately: 100/50 + 100/40."
+        },
+        {
+          "id": "B",
+          "text": "4 hours 30 minutes",
+          "isCorrect": true,
+          "feedback": "Correct! Going: 100/50 = 2 hours. Returning: 100/40 = 2.5 hours. Total = 4.5 hours = 4 hours 30 minutes."
+        },
+        {
+          "id": "C",
+          "text": "4 hours 20 minutes",
+          "isCorrect": false,
+          "feedback": "The return journey takes 2 hours 30 minutes (not 2 hours 20 minutes). 100 ÷ 40 = 2.5 hours."
+        },
+        {
+          "id": "D",
+          "text": "5 hours",
+          "isCorrect": false,
+          "feedback": "Check your calculation for the return trip. 100 ÷ 40 = 2.5 hours, not 3 hours."
+        },
+        {
+          "id": "E",
+          "text": "4 hours 24 minutes",
+          "isCorrect": false,
+          "feedback": "This incorrectly averages the speeds. You must calculate time for each leg and add them."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time Multi-Part**\n\n**Step 1: Calculate time for outward journey**\nTime = Distance ÷ Speed = 100 km ÷ 50 km/h = 2 hours\n\n**Step 2: Calculate time for return journey**\nTime = Distance ÷ Speed = 100 km ÷ 40 km/h = 2.5 hours\n\n**Step 3: Add the times**\nTotal time = 2 + 2.5 = 4.5 hours = 4 hours 30 minutes\n\n**Step 4: Check**\n50 × 2 = 100 km ✓, 40 × 2.5 = 100 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Calculate the time for each leg of the journey separately, then add them.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Going: 100 ÷ 50 = ? hours. Returning: 100 ÷ 40 = ? hours.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Going: 2 hours. Returning: 2.5 hours. Total = 4.5 hours = 4 h 30 min.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "division",
+          "addition",
+          "decimals"
+        ],
+        "distractorTypes": {
+          "A": "formula_confusion",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "formula_confusion"
+        },
+        "solutionApproach": "Calculate time for each direction separately → Add times for total",
+        "methodologySteps": [
+          "Read: Round trip with different speeds each way",
+          "Calculate: Time₁ = 100 ÷ 50 = 2 h, Time₂ = 100 ÷ 40 = 2.5 h",
+          "Add: Total = 2 + 2.5 = 4.5 hours",
+          "Check: Verify distances match for each leg"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Averaging speeds incorrectly",
+          "Converting 0.5 hours incorrectly"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-007",
+      "questionType": "MCQ",
+      "stem": "Maya cycles at 12 km/h for 25 minutes, then at 18 km/h for 20 minutes. What total distance does she cover?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12 km",
+          "isCorrect": false,
+          "feedback": "Check your calculation for the second part. 18 km/h × (20/60) hours = 6 km, not 7 km."
+        },
+        {
+          "id": "B",
+          "text": "9 km",
+          "isCorrect": false,
+          "feedback": "You may have made conversion errors. 25 minutes = 5/12 hour, 20 minutes = 1/3 hour."
+        },
+        {
+          "id": "C",
+          "text": "11 km",
+          "isCorrect": true,
+          "feedback": "Correct! Part 1: 12 × (25/60) = 12 × 5/12 = 5 km. Part 2: 18 × (20/60) = 18 × 1/3 = 6 km. Total = 11 km."
+        },
+        {
+          "id": "D",
+          "text": "10 km",
+          "isCorrect": false,
+          "feedback": "Check your conversions. 25 min = 5/12 h, 20 min = 1/3 h. First part: 12 × 5/12 = 5 km. Second: 18 × 1/3 = 6 km."
+        },
+        {
+          "id": "E",
+          "text": "13.5 km",
+          "isCorrect": false,
+          "feedback": "This uses minutes as if they were hours. 25 and 20 minutes must be converted to hours first."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time Multi-Part**\n\n**Step 1: Convert times to hours**\n25 minutes = 25/60 = 5/12 hours\n20 minutes = 20/60 = 1/3 hours\n\n**Step 2: Calculate each distance**\nFirst part: D = 12 km/h × 5/12 h = 5 km\nSecond part: D = 18 km/h × 1/3 h = 6 km\n\n**Step 3: Add distances**\nTotal = 5 + 6 = 11 km\n\n**Step 4: Check**\n5 km at 12 km/h = 25 min ✓, 6 km at 18 km/h = 20 min ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Convert both times to hours first, then calculate distance for each part.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "25 min = 25/60 h. 20 min = 20/60 h. Use D = S × T for each part.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Part 1: 12 × 25/60 = 5 km. Part 2: 18 × 20/60 = 6 km. Total = 11 km.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "unit-conversion",
+          "fractions",
+          "multiplication",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "D": "computation_error",
+          "E": "unit_confusion"
+        },
+        "solutionApproach": "Convert minutes to hours → Calculate each distance → Add for total",
+        "methodologySteps": [
+          "Read: Two legs with times in minutes - need conversion",
+          "Convert: 25 min = 5/12 h, 20 min = 1/3 h",
+          "Calculate: D₁ = 12 × 5/12 = 5, D₂ = 18 × 1/3 = 6",
+          "Add: Total = 5 + 6 = 11 km"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Not converting minutes to hours",
+          "Fraction arithmetic errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM",
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-008",
+      "questionType": "MCQ",
+      "stem": "A delivery van travels 90 km in 1.5 hours, stops for 30 minutes, then travels 60 km in 1 hour. What is the average speed for the entire journey (including the stop)?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "75 km/h",
+          "isCorrect": false,
+          "feedback": "This doesn't account for all the time correctly. Total time = 1.5 + 0.5 + 1 = 3 hours."
+        },
+        {
+          "id": "B",
+          "text": "55 km/h",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Total time includes the stop: 1.5 + 0.5 + 1 = 3 hours. 150 ÷ 3 = 50 km/h."
+        },
+        {
+          "id": "C",
+          "text": "45 km/h",
+          "isCorrect": false,
+          "feedback": "Check your arithmetic. 150 km ÷ 3 hours = 50 km/h, not 45."
+        },
+        {
+          "id": "D",
+          "text": "50 km/h",
+          "isCorrect": true,
+          "feedback": "Correct! Total distance = 90 + 60 = 150 km. Total time = 1.5 + 0.5 + 1 = 3 hours. Average speed = 150 ÷ 3 = 50 km/h."
+        },
+        {
+          "id": "E",
+          "text": "60 km/h",
+          "isCorrect": false,
+          "feedback": "This ignores the 30-minute stop. Average speed = Total distance ÷ Total time (including stops)."
+        }
+      ],
+      "solution": "**Methodology: Average Speed with Stops**\n\n**Step 1: Calculate total distance**\nTotal distance = 90 + 60 = 150 km\n\n**Step 2: Calculate total time (including stop)**\nTotal time = 1.5 + 0.5 + 1 = 3 hours\n(Note: 30 min stop = 0.5 hours)\n\n**Step 3: Calculate average speed**\nAverage speed = Total distance ÷ Total time = 150 ÷ 3 = 50 km/h\n\n**Step 4: Check**\n50 km/h × 3 h = 150 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Average speed = Total distance ÷ Total time. Remember to include the stop time!",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total distance = 90 + 60 = 150 km. Total time = 1.5 + 0.5 (stop) + 1 = 3 hours.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Average speed = 150 km ÷ 3 hours = 50 km/h.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "average-speed",
+          "addition",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Total distance ÷ Total time (including stops) = Average speed",
+        "methodologySteps": [
+          "Read: Journey with stop - average speed includes stop time",
+          "Calculate: Total distance = 90 + 60 = 150 km",
+          "Calculate: Total time = 1.5 + 0.5 + 1 = 3 hours",
+          "Divide: Average speed = 150 ÷ 3 = 50 km/h"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Forgetting to include stop time",
+          "Averaging the individual speeds instead"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-009",
+      "questionType": "MCQ",
+      "stem": "Tina leaves home at 8:15 AM and walks to school at 4 km/h. If the school is 2 km away, what time does she arrive?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "8:35 AM",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Time = Distance ÷ Speed = 2 ÷ 4 = 0.5 hours = 30 minutes."
+        },
+        {
+          "id": "B",
+          "text": "8:55 AM",
+          "isCorrect": false,
+          "feedback": "This would require 40 minutes, but 2 km at 4 km/h = 30 minutes."
+        },
+        {
+          "id": "C",
+          "text": "8:30 AM",
+          "isCorrect": false,
+          "feedback": "This would be 15 minutes of walking. But 2 km at 4 km/h takes 0.5 hours = 30 minutes."
+        },
+        {
+          "id": "D",
+          "text": "8:45 AM",
+          "isCorrect": true,
+          "feedback": "Correct! Time = 2 km ÷ 4 km/h = 0.5 hours = 30 minutes. 8:15 AM + 30 min = 8:45 AM."
+        },
+        {
+          "id": "E",
+          "text": "9:00 AM",
+          "isCorrect": false,
+          "feedback": "This is 45 minutes after leaving, but the journey only takes 30 minutes."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time with Clock Time**\n\n**Step 1: Calculate travel time**\nTime = Distance ÷ Speed = 2 km ÷ 4 km/h = 0.5 hours = 30 minutes\n\n**Step 2: Add to departure time**\nArrival time = 8:15 AM + 30 minutes = 8:45 AM\n\n**Step 3: Check**\n4 km/h × 0.5 h = 2 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First calculate how long the journey takes using Time = Distance ÷ Speed.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Time = 2 ÷ 4 = 0.5 hours = 30 minutes. Add this to 8:15 AM.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "8:15 AM + 30 minutes = 8:45 AM.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "clock-time",
+          "time-calculation",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Calculate travel time → Add to departure time for arrival time",
+        "methodologySteps": [
+          "Read: Find arrival time given departure time, distance, and speed",
+          "Calculate: Travel time = 2 ÷ 4 = 0.5 hours = 30 min",
+          "Add: 8:15 AM + 30 min = 8:45 AM",
+          "Check: The travel time is reasonable for the distance"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Converting hours to minutes incorrectly",
+          "Adding time incorrectly"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-010",
+      "questionType": "MCQ",
+      "stem": "A plane flies 600 km at 400 km/h, then 400 km at 500 km/h. What is the average speed for the whole journey?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "500 km/h",
+          "isCorrect": false,
+          "feedback": "This is just the second speed. Average speed requires Total distance ÷ Total time."
+        },
+        {
+          "id": "B",
+          "text": "425 km/h",
+          "isCorrect": false,
+          "feedback": "Close but check your division. 1000 ÷ 2.3 = 434.78, which rounds to 435 km/h."
+        },
+        {
+          "id": "C",
+          "text": "440 km/h",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Total time = 1.5 + 0.8 = 2.3 hours. 1000 ÷ 2.3 ≈ 435."
+        },
+        {
+          "id": "D",
+          "text": "450 km/h",
+          "isCorrect": false,
+          "feedback": "You cannot simply average the speeds! Average speed = Total distance ÷ Total time."
+        },
+        {
+          "id": "E",
+          "text": "435 km/h",
+          "isCorrect": true,
+          "feedback": "Correct! Time₁ = 600/400 = 1.5 h. Time₂ = 400/500 = 0.8 h. Total = 1000 km in 2.3 h = 435 km/h (rounded)."
+        }
+      ],
+      "solution": "**Methodology: Average Speed for Multi-Part Journey**\n\n**Step 1: Calculate time for each part**\nTime₁ = 600 km ÷ 400 km/h = 1.5 hours\nTime₂ = 400 km ÷ 500 km/h = 0.8 hours\n\n**Step 2: Find totals**\nTotal distance = 600 + 400 = 1000 km\nTotal time = 1.5 + 0.8 = 2.3 hours\n\n**Step 3: Calculate average speed**\nAverage speed = 1000 ÷ 2.3 ≈ 434.78 ≈ 435 km/h\n\n**Step 4: Check**\nNOTE: Average speed (435) is NOT the arithmetic mean of 400 and 500 (450).",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Average speed = Total distance ÷ Total time. You cannot just average the two speeds!",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Find time for each leg first: 600/400 and 400/500. Then add times and distances.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Times: 1.5 h and 0.8 h. Total: 1000 km in 2.3 h. Average = 1000/2.3 ≈ 435 km/h.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "average-speed",
+          "division",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "computation_error",
+          "C": "computation_error",
+          "D": "formula_confusion"
+        },
+        "solutionApproach": "Calculate time for each leg → Total distance ÷ Total time = Average speed",
+        "methodologySteps": [
+          "Read: Multi-leg journey, need average speed (not average of speeds!)",
+          "Calculate: Time₁ = 600/400 = 1.5 h, Time₂ = 400/500 = 0.8 h",
+          "Sum: Total distance = 1000 km, Total time = 2.3 h",
+          "Divide: Average speed = 1000/2.3 ≈ 435 km/h"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Averaging the two speeds (wrong!)",
+          "Using wrong formula for average speed"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-011",
+      "questionType": "MCQ",
+      "stem": "Tom and Jerry start from the same point at the same time. Tom walks north at 5 km/h and Jerry walks east at 12 km/h. How far apart are they after 1 hour?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "17 km",
+          "isCorrect": false,
+          "feedback": "You cannot add distances directly when they go in perpendicular directions. Use the Pythagorean theorem."
+        },
+        {
+          "id": "B",
+          "text": "11 km",
+          "isCorrect": false,
+          "feedback": "Check your Pythagorean calculation. 5² + 12² = 169, and √169 = 13."
+        },
+        {
+          "id": "C",
+          "text": "7 km",
+          "isCorrect": false,
+          "feedback": "Subtracting the distances is incorrect. Since they walk at right angles, use the Pythagorean theorem."
+        },
+        {
+          "id": "D",
+          "text": "13 km",
+          "isCorrect": true,
+          "feedback": "Correct! They form a right triangle. Distance² = 5² + 12² = 25 + 144 = 169. Distance = √169 = 13 km."
+        },
+        {
+          "id": "E",
+          "text": "8.5 km",
+          "isCorrect": false,
+          "feedback": "This is the average of 5 and 12. For perpendicular directions, use √(5² + 12²)."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time with Pythagoras**\n\n**Step 1: Calculate distances traveled**\nTom: 5 km/h × 1 h = 5 km north\nJerry: 12 km/h × 1 h = 12 km east\n\n**Step 2: Apply Pythagorean theorem**\nThey form a right triangle with legs 5 km and 12 km.\nDistance apart² = 5² + 12² = 25 + 144 = 169\nDistance apart = √169 = 13 km\n\n**Step 3: Check**\n5, 12, 13 is a Pythagorean triple ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "North and East are perpendicular. What shape do Tom, Jerry, and the starting point form?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "They form a right triangle. Use the Pythagorean theorem: a² + b² = c².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Distance² = 5² + 12² = 169. Distance = √169 = 13 km.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "pythagorean-theorem",
+          "perpendicular-directions"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "computation_error",
+          "C": "wrong_operation",
+          "E": "formula_confusion"
+        },
+        "solutionApproach": "Calculate individual distances → Apply Pythagorean theorem for perpendicular paths",
+        "methodologySteps": [
+          "Read: Perpendicular directions (north and east) - need Pythagoras",
+          "Calculate: Distance₁ = 5 km, Distance₂ = 12 km",
+          "Apply: Distance apart = √(5² + 12²) = √169 = 13 km",
+          "Check: 5-12-13 is a Pythagorean triple"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Adding distances directly",
+          "Subtracting distances",
+          "Using wrong formula"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Length"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 11
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-012",
+      "questionType": "MCQ",
+      "stem": "A car travels the first half of a journey at 60 km/h and the second half at 40 km/h. If the total distance is 200 km, what is the total travel time?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "4 hours 20 minutes",
+          "isCorrect": false,
+          "feedback": "Check your fractions. 100/60 + 100/40 = 5/3 + 5/2 = 10/6 + 15/6 = 25/6 hours."
+        },
+        {
+          "id": "B",
+          "text": "4 hours",
+          "isCorrect": false,
+          "feedback": "This uses 200 ÷ 50 (average of speeds). But average speed ≠ arithmetic mean of speeds."
+        },
+        {
+          "id": "C",
+          "text": "3 hours 50 minutes",
+          "isCorrect": false,
+          "feedback": "This is too short. First half alone takes 100/60 ≈ 1.67 hours, second half takes 2.5 hours."
+        },
+        {
+          "id": "D",
+          "text": "4 hours 10 minutes",
+          "isCorrect": true,
+          "feedback": "Correct! First 100 km: 100/60 = 5/3 h. Second 100 km: 100/40 = 2.5 h. Total = 5/3 + 5/2 = 25/6 h = 4h 10min."
+        },
+        {
+          "id": "E",
+          "text": "5 hours",
+          "isCorrect": false,
+          "feedback": "This is too long. Check: 100/60 + 100/40 = 5/3 + 5/2 = 25/6 ≈ 4.17 hours."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time Multi-Part**\n\n**Step 1: Calculate each half's time**\nFirst half: 100 km at 60 km/h = 100/60 = 5/3 hours\nSecond half: 100 km at 40 km/h = 100/40 = 5/2 hours\n\n**Step 2: Add the times**\nTotal = 5/3 + 5/2 = 10/6 + 15/6 = 25/6 hours\n\n**Step 3: Convert to hours and minutes**\n25/6 = 4 + 1/6 = 4 hours + 10 minutes\n\n**Step 4: Check**\n60 × 5/3 = 100 km ✓, 40 × 5/2 = 100 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Each half is 100 km. Calculate the time for each half separately.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "First: 100/60 hours. Second: 100/40 hours. Add using common denominators.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "5/3 + 5/2 = 10/6 + 15/6 = 25/6 hours = 4 hours 10 minutes.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "fractions",
+          "addition",
+          "unit-conversion"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "formula_confusion",
+          "C": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Calculate time for each half distance → Add times → Convert to hours:minutes",
+        "methodologySteps": [
+          "Read: Distance is split into halves, each with different speed",
+          "Calculate: Time₁ = 100/60 = 5/3 h, Time₂ = 100/40 = 5/2 h",
+          "Add: Total = 5/3 + 5/2 = 25/6 hours",
+          "Convert: 25/6 = 4 1/6 hours = 4 h 10 min"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Averaging speeds incorrectly",
+          "Fraction addition errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM",
+          "MA3-7NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 12
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-013",
+      "questionType": "MCQ",
+      "stem": "Two cyclists start from the same point. One cycles east at 20 km/h and the other cycles west at 15 km/h. After how long will they be 70 km apart?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "3 hours",
+          "isCorrect": false,
+          "feedback": "In 3 hours, they'd be 35 × 3 = 105 km apart, which is too far."
+        },
+        {
+          "id": "B",
+          "text": "2 hours",
+          "isCorrect": true,
+          "feedback": "Correct! They separate at 20 + 15 = 35 km/h (combined). Time = 70 ÷ 35 = 2 hours."
+        },
+        {
+          "id": "C",
+          "text": "3.5 hours",
+          "isCorrect": false,
+          "feedback": "The combined separation speed is 35 km/h. Time to reach 70 km = 70/35 = 2 hours."
+        },
+        {
+          "id": "D",
+          "text": "2.5 hours",
+          "isCorrect": false,
+          "feedback": "This would give a separation of 35 × 2.5 = 87.5 km. For 70 km, time = 70/35 = 2 hours."
+        },
+        {
+          "id": "E",
+          "text": "1 hour",
+          "isCorrect": false,
+          "feedback": "In 1 hour, they'd be 20 + 15 = 35 km apart, not 70 km."
+        }
+      ],
+      "solution": "**Methodology: Relative Speed (Moving Apart)**\n\n**Step 1: Find combined separation speed**\nWhen moving in opposite directions, speeds add up.\nCombined speed = 20 + 15 = 35 km/h\n\n**Step 2: Calculate time**\nTime = Distance ÷ Speed = 70 ÷ 35 = 2 hours\n\n**Step 3: Check**\nCyclist 1: 20 × 2 = 40 km east\nCyclist 2: 15 × 2 = 30 km west\nTotal separation = 40 + 30 = 70 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "When moving in opposite directions, how fast are they separating?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "They separate at 20 + 15 = 35 km per hour. Now find time for 70 km.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Time = 70 km ÷ 35 km/h = 2 hours.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "relative-speed",
+          "opposite-directions",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "For opposite directions: add speeds → Time = Total distance ÷ Combined speed",
+        "methodologySteps": [
+          "Read: Two objects moving in opposite directions",
+          "Calculate: Combined speed = 20 + 15 = 35 km/h",
+          "Apply: Time = 70 ÷ 35 = 2 hours",
+          "Check: 20×2 + 15×2 = 40 + 30 = 70 km ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Subtracting speeds instead of adding",
+          "Using one speed only"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 13
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-014",
+      "questionType": "MCQ",
+      "stem": "A train travels for 3 hours at 80 km/h, then for 2 hours at an unknown speed. If the average speed for the whole journey is 76 km/h, what was the speed for the second part?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "72 km/h",
+          "isCorrect": false,
+          "feedback": "Let's check: 240 + 72×2 = 384 km. Average = 384/5 = 76.8, not 76. Need slightly slower."
+        },
+        {
+          "id": "B",
+          "text": "65 km/h",
+          "isCorrect": false,
+          "feedback": "This gives total 240 + 130 = 370 km. Average = 74 km/h, which is too low."
+        },
+        {
+          "id": "C",
+          "text": "70 km/h",
+          "isCorrect": true,
+          "feedback": "Correct! Total distance = 76 × 5 = 380 km. First part = 240 km. Second part = 140 km in 2 h = 70 km/h."
+        },
+        {
+          "id": "D",
+          "text": "68 km/h",
+          "isCorrect": false,
+          "feedback": "Check: Total would be 240 + 136 = 376 km. Average = 376/5 = 75.2, not 76."
+        },
+        {
+          "id": "E",
+          "text": "74 km/h",
+          "isCorrect": false,
+          "feedback": "Check: Total would be 240 + 148 = 388 km. Average = 388/5 = 77.6, not 76."
+        }
+      ],
+      "solution": "**Methodology: Working Backwards from Average Speed**\n\n**Step 1: Find total distance from average speed**\nTotal time = 3 + 2 = 5 hours\nTotal distance = Average speed × Total time = 76 × 5 = 380 km\n\n**Step 2: Find first part distance**\nFirst part = 80 km/h × 3 h = 240 km\n\n**Step 3: Find second part distance and speed**\nSecond part distance = 380 - 240 = 140 km\nSecond part speed = 140 km ÷ 2 h = 70 km/h\n\n**Step 4: Check**\n(240 + 140) ÷ 5 = 380 ÷ 5 = 76 km/h ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Use average speed to find total distance. Average = Total distance ÷ Total time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total distance = 76 × 5 = 380 km. First part = 240 km. What's the second part?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Second part = 380 - 240 = 140 km. Speed = 140 ÷ 2 = 70 km/h.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "average-speed",
+          "working-backwards",
+          "subtraction",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find total distance from average → Subtract known distance → Find unknown speed",
+        "methodologySteps": [
+          "Read: Average speed given, need to find part of journey's speed",
+          "Calculate: Total distance = 76 × 5 = 380 km",
+          "Subtract: Unknown part = 380 - 240 = 140 km",
+          "Divide: Unknown speed = 140 ÷ 2 = 70 km/h"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Using average speed formula incorrectly",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 14
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-015",
+      "questionType": "MCQ",
+      "stem": "A boat travels 24 km downstream in 2 hours. The current flows at 2 km/h. What is the boat's speed in still water?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "11 km/h",
+          "isCorrect": false,
+          "feedback": "The arithmetic: 12 - 2 = 10, not 11. Check your subtraction."
+        },
+        {
+          "id": "B",
+          "text": "14 km/h",
+          "isCorrect": false,
+          "feedback": "You added the current instead of subtracting. Downstream: boat + current = 12. So boat = 10."
+        },
+        {
+          "id": "C",
+          "text": "10 km/h",
+          "isCorrect": true,
+          "feedback": "Correct! Downstream speed = 24/2 = 12 km/h. This equals boat speed + current. So boat = 12 - 2 = 10 km/h."
+        },
+        {
+          "id": "D",
+          "text": "8 km/h",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Downstream speed = 24/2 = 12 km/h. Boat speed = 12 - 2 = 10 km/h."
+        },
+        {
+          "id": "E",
+          "text": "12 km/h",
+          "isCorrect": false,
+          "feedback": "This is the downstream speed (boat + current). The boat's own speed is 12 - 2 = 10 km/h."
+        }
+      ],
+      "solution": "**Methodology: Speed-Distance-Time with Current**\n\n**Step 1: Calculate downstream speed**\nDownstream speed = Distance ÷ Time = 24 km ÷ 2 h = 12 km/h\n\n**Step 2: Apply downstream formula**\nDownstream speed = Boat speed + Current speed\n12 = Boat speed + 2\nBoat speed = 12 - 2 = 10 km/h\n\n**Step 3: Check**\n10 km/h (boat) + 2 km/h (current) = 12 km/h downstream\n12 km/h × 2 h = 24 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find the actual downstream speed using Distance ÷ Time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Downstream speed = boat speed + current. You know the downstream speed (12) and current (2).",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Boat speed = 12 - 2 = 10 km/h.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "current-problems",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "wrong_operation",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Find actual speed → Apply: Downstream = Boat + Current → Solve for Boat",
+        "methodologySteps": [
+          "Read: Downstream journey - current helps the boat",
+          "Calculate: Downstream speed = 24 ÷ 2 = 12 km/h",
+          "Apply: Boat speed = Downstream - Current = 12 - 2 = 10 km/h",
+          "Check: 10 + 2 = 12, and 12 × 2 = 24 km ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Adding current instead of subtracting",
+          "Using downstream speed as answer"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 15
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-016",
+      "questionType": "MCQ",
+      "stem": "A car leaves Town A at 9:00 AM traveling at 60 km/h toward Town B. Another car leaves Town B at 10:00 AM traveling at 80 km/h toward Town A. If the towns are 200 km apart, at what time do the cars meet?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "11:30 AM",
+          "isCorrect": false,
+          "feedback": "By 10 AM, Car 1 has traveled 60 km, leaving 140 km. At 140 km/h combined, they meet in 1 hour."
+        },
+        {
+          "id": "B",
+          "text": "12:00 PM",
+          "isCorrect": false,
+          "feedback": "This is too late. After Car 2 starts, they approach at 140 km/h with 140 km to cover = 1 hour."
+        },
+        {
+          "id": "C",
+          "text": "11:20 AM",
+          "isCorrect": false,
+          "feedback": "After 10 AM, they need to cover 140 km at 140 km/h. That takes exactly 1 hour, so they meet at 11 AM."
+        },
+        {
+          "id": "D",
+          "text": "11:00 AM",
+          "isCorrect": true,
+          "feedback": "Correct! Car 1 travels 60 km by 10 AM. Remaining = 140 km. Combined speed = 140 km/h. Time = 1 hour. Meet at 11 AM."
+        },
+        {
+          "id": "E",
+          "text": "10:30 AM",
+          "isCorrect": false,
+          "feedback": "Car 2 hasn't even started yet at 10:30 AM (it leaves at 10:00 AM). Check the timeline."
+        }
+      ],
+      "solution": "**Methodology: Meeting Point Problem**\n\n**Step 1: Account for head start**\nBy 10:00 AM (when Car 2 starts), Car 1 has traveled:\n60 km/h × 1 h = 60 km\nRemaining distance = 200 - 60 = 140 km\n\n**Step 2: Calculate time to meet**\nCombined approaching speed = 60 + 80 = 140 km/h\nTime to meet = 140 km ÷ 140 km/h = 1 hour\n\n**Step 3: Find meeting time**\nMeeting time = 10:00 AM + 1 hour = 11:00 AM\n\n**Step 4: Check**\nCar 1: 60 × 2 = 120 km from A\nCar 2: 80 × 1 = 80 km from B\nTotal: 120 + 80 = 200 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Car 1 gets a 1-hour head start. How far has it traveled by 10 AM?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "By 10 AM, remaining distance is 140 km. They approach at 60 + 80 = 140 km/h combined.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Time after 10 AM = 140 ÷ 140 = 1 hour. They meet at 11:00 AM.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "relative-speed",
+          "meeting-point",
+          "time-calculation",
+          "head-start"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "computation_error",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Account for head start → Find remaining distance → Use combined speed → Find meeting time",
+        "methodologySteps": [
+          "Read: Cars moving toward each other with staggered start",
+          "Calculate: Car 1's head start distance = 60 × 1 = 60 km",
+          "Apply: Remaining = 140 km at 140 km/h = 1 hour after 10 AM",
+          "Answer: They meet at 11:00 AM"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Ignoring the head start",
+          "Using subtraction for approaching speeds"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 16
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-017",
+      "questionType": "MCQ",
+      "stem": "Alex cycles to the park at 15 km/h and walks back at 5 km/h. If the total trip takes 2 hours, how far is the park?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "5 km",
+          "isCorrect": false,
+          "feedback": "Check: 5/15 + 5/5 = 1/3 + 1 = 1⅓ hours, not 2 hours."
+        },
+        {
+          "id": "B",
+          "text": "6 km",
+          "isCorrect": false,
+          "feedback": "Check: 6/15 + 6/5 = 0.4 + 1.2 = 1.6 hours, not 2 hours."
+        },
+        {
+          "id": "C",
+          "text": "8 km",
+          "isCorrect": false,
+          "feedback": "Check: 8/15 + 8/5 = 8/15 + 24/15 = 32/15 ≈ 2.13 hours, slightly too long."
+        },
+        {
+          "id": "D",
+          "text": "10 km",
+          "isCorrect": false,
+          "feedback": "Check: 10/15 + 10/5 = 2/3 + 2 = 2⅔ hours, not 2 hours."
+        },
+        {
+          "id": "E",
+          "text": "7.5 km",
+          "isCorrect": true,
+          "feedback": "Correct! Let d = distance. d/15 + d/5 = 2. Multiply by 15: d + 3d = 30. 4d = 30, d = 7.5 km."
+        }
+      ],
+      "solution": "**Methodology: Same Distance, Different Speeds**\n\n**Step 1: Set up equation**\nLet d = distance to park (same both ways)\nTime cycling + Time walking = 2 hours\nd/15 + d/5 = 2\n\n**Step 2: Solve the equation**\nMultiply by 15: d + 3d = 30\n4d = 30\nd = 7.5 km\n\n**Step 3: Check**\nCycling: 7.5/15 = 0.5 hours\nWalking: 7.5/5 = 1.5 hours\nTotal: 0.5 + 1.5 = 2 hours ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The distance to the park is the same as the distance back. Let it be d.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Time there + Time back = 2 hours. So d/15 + d/5 = 2.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Multiply by 15: d + 3d = 30. So d = 7.5 km.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "algebra",
+          "same-distance",
+          "equation-solving"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "computation_error",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Set up equation: d/speed₁ + d/speed₂ = total time → Solve for d",
+        "methodologySteps": [
+          "Read: Same distance each way, different speeds, total time given",
+          "Setup: d/15 + d/5 = 2",
+          "Solve: d + 3d = 30, so d = 7.5 km",
+          "Check: 7.5/15 + 7.5/5 = 0.5 + 1.5 = 2 hours ✓"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Using different distances",
+          "Equation setup errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 17
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-018",
+      "questionType": "MCQ",
+      "stem": "A hiker walks uphill at 3 km/h for 2 hours, rests for 30 minutes, then walks downhill at 6 km/h. If the total distance is 12 km, how long does the entire trip take?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "3 hours 20 minutes",
+          "isCorrect": false,
+          "feedback": "The downhill takes exactly 1 hour (6÷6=1), not 50 minutes."
+        },
+        {
+          "id": "B",
+          "text": "4 hours 30 minutes",
+          "isCorrect": false,
+          "feedback": "This is too long. Downhill is only 1 hour (6 km at 6 km/h)."
+        },
+        {
+          "id": "C",
+          "text": "4 hours",
+          "isCorrect": false,
+          "feedback": "Check the downhill time. 6 km at 6 km/h = 1 hour, not 1.5 hours."
+        },
+        {
+          "id": "D",
+          "text": "3 hours 30 minutes",
+          "isCorrect": true,
+          "feedback": "Correct! Uphill: 2 h (6 km). Rest: 0.5 h. Downhill: 6 km at 6 km/h = 1 h. Total = 2 + 0.5 + 1 = 3.5 h."
+        },
+        {
+          "id": "E",
+          "text": "3 hours",
+          "isCorrect": false,
+          "feedback": "Don't forget the 30-minute rest! Also check your downhill calculation."
+        }
+      ],
+      "solution": "**Methodology: Multi-Part Journey with Rest**\n\n**Step 1: Calculate uphill distance**\nUphill distance = 3 km/h × 2 h = 6 km\n\n**Step 2: Find downhill distance**\nDownhill distance = Total - Uphill = 12 - 6 = 6 km\n\n**Step 3: Calculate downhill time**\nDownhill time = 6 km ÷ 6 km/h = 1 hour\n\n**Step 4: Add all times**\nTotal = 2 h (uphill) + 0.5 h (rest) + 1 h (downhill) = 3.5 hours = 3 h 30 min\n\n**Step 5: Check**\n6 + 6 = 12 km ✓, Times add correctly ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find how far the hiker went uphill. Then find the remaining distance for downhill.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Uphill: 6 km. Downhill: 6 km at 6 km/h = 1 hour. Don't forget the rest!",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 2 h + 0.5 h + 1 h = 3.5 hours = 3 hours 30 minutes.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "multi-part-journey",
+          "rest-stops",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Calculate each part's distance/time → Include rest time → Sum all times",
+        "methodologySteps": [
+          "Read: Multi-part journey with rest stop",
+          "Calculate: Uphill = 3×2 = 6 km, Downhill = 12-6 = 6 km",
+          "Calculate: Downhill time = 6÷6 = 1 h",
+          "Sum: Total = 2 + 0.5 + 1 = 3.5 hours"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Forgetting rest time",
+          "Miscalculating downhill distance"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 18
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-019",
+      "questionType": "MCQ",
+      "stem": "Two trains are 300 km apart. Train A travels toward Train B at 90 km/h, and Train B travels toward Train A at 60 km/h. How far from Train A's starting point do they meet?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "160 km",
+          "isCorrect": false,
+          "feedback": "Train A travels at 90 km/h for 2 hours = 180 km, not 160 km."
+        },
+        {
+          "id": "B",
+          "text": "150 km",
+          "isCorrect": false,
+          "feedback": "This assumes they meet in the middle, but Train A is faster so it travels further."
+        },
+        {
+          "id": "C",
+          "text": "120 km",
+          "isCorrect": false,
+          "feedback": "This is how far Train B travels (60 × 2 = 120 km). The question asks about Train A."
+        },
+        {
+          "id": "D",
+          "text": "200 km",
+          "isCorrect": false,
+          "feedback": "Check: Combined speed = 150 km/h. Time = 2 hours. Train A: 90 × 2 = 180 km, not 200."
+        },
+        {
+          "id": "E",
+          "text": "180 km",
+          "isCorrect": true,
+          "feedback": "Correct! Combined speed = 150 km/h. Time to meet = 300/150 = 2 hours. Train A travels 90 × 2 = 180 km."
+        }
+      ],
+      "solution": "**Methodology: Meeting Point Problem**\n\n**Step 1: Calculate combined speed**\nCombined speed = 90 + 60 = 150 km/h (approaching each other)\n\n**Step 2: Calculate time to meet**\nTime = Distance ÷ Speed = 300 ÷ 150 = 2 hours\n\n**Step 3: Find Train A's distance**\nDistance from A's start = 90 km/h × 2 h = 180 km\n\n**Step 4: Check**\nTrain A: 180 km, Train B: 120 km\nTotal: 180 + 120 = 300 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find how long until they meet using combined speed.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Time to meet = 300 ÷ (90+60) = 2 hours. How far does Train A go in 2 hours?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Train A travels 90 × 2 = 180 km from its starting point.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "relative-speed",
+          "meeting-point",
+          "multiplication",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "misconception_answer",
+          "C": "wrong_operation",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Combined speed → Time to meet → Calculate one train's distance",
+        "methodologySteps": [
+          "Read: Trains approaching - use combined speed",
+          "Calculate: Combined = 90 + 60 = 150 km/h",
+          "Calculate: Time = 300 ÷ 150 = 2 hours",
+          "Apply: Train A distance = 90 × 2 = 180 km"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Assuming they meet in the middle",
+          "Confusing which train's distance"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 19
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-020",
+      "questionType": "MCQ",
+      "stem": "A runner completes a race in 3 stages: 4 km at 8 km/h, 3 km at 12 km/h, and 5 km at 10 km/h. What is the average speed for the entire race?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "9 km/h",
+          "isCorrect": false,
+          "feedback": "Close but check: 12 km ÷ 1.25 hours = 9.6 km/h, not 9."
+        },
+        {
+          "id": "B",
+          "text": "11 km/h",
+          "isCorrect": false,
+          "feedback": "This is higher than the average of the speeds. Check: 12 km ÷ 1.25 h = 9.6 km/h."
+        },
+        {
+          "id": "C",
+          "text": "10 km/h",
+          "isCorrect": false,
+          "feedback": "This is the arithmetic mean of 8, 12, and 10. But average speed ≠ average of speeds!"
+        },
+        {
+          "id": "D",
+          "text": "9.6 km/h",
+          "isCorrect": true,
+          "feedback": "Correct! Total = 12 km. Times: 0.5 + 0.25 + 0.5 = 1.25 hours. Average = 12/1.25 = 9.6 km/h."
+        },
+        {
+          "id": "E",
+          "text": "8.5 km/h",
+          "isCorrect": false,
+          "feedback": "Check your time calculations: 4/8 + 3/12 + 5/10 = 0.5 + 0.25 + 0.5 = 1.25 hours."
+        }
+      ],
+      "solution": "**Methodology: Average Speed for Multi-Stage Journey**\n\n**Step 1: Calculate time for each stage**\nStage 1: 4 km ÷ 8 km/h = 0.5 hours\nStage 2: 3 km ÷ 12 km/h = 0.25 hours\nStage 3: 5 km ÷ 10 km/h = 0.5 hours\n\n**Step 2: Find totals**\nTotal distance = 4 + 3 + 5 = 12 km\nTotal time = 0.5 + 0.25 + 0.5 = 1.25 hours\n\n**Step 3: Calculate average speed**\nAverage speed = 12 km ÷ 1.25 hours = 9.6 km/h\n\n**Step 4: Check**\nNote: 9.6 ≠ (8+12+10)/3 = 10. Average speed uses total distance/total time.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Average speed = Total distance ÷ Total time. Find the time for each stage first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Times: 4/8 = 0.5 h, 3/12 = 0.25 h, 5/10 = 0.5 h. Total distance = 12 km.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total time = 1.25 h. Average speed = 12/1.25 = 9.6 km/h.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "average-speed",
+          "multi-stage",
+          "division",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "formula_confusion",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Calculate each stage's time → Sum distances and times → Average = Total D ÷ Total T",
+        "methodologySteps": [
+          "Read: Multi-stage journey, find average speed",
+          "Calculate: Times = 0.5 + 0.25 + 0.5 = 1.25 h",
+          "Calculate: Total distance = 12 km",
+          "Divide: Average = 12 ÷ 1.25 = 9.6 km/h"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Averaging the speeds",
+          "Arithmetic errors with fractions/decimals"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 20
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-021",
+      "questionType": "MCQ",
+      "stem": "A boat can travel 36 km downstream in 3 hours and 24 km upstream in 4 hours. What is the speed of the current?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "4 km/h",
+          "isCorrect": false,
+          "feedback": "The difference in speeds is 12 - 6 = 6. The current is half of this: 3 km/h."
+        },
+        {
+          "id": "B",
+          "text": "2 km/h",
+          "isCorrect": false,
+          "feedback": "Check: Downstream = 12 km/h, Upstream = 6 km/h. Current = (12-6)/2 = 3 km/h, not 2."
+        },
+        {
+          "id": "C",
+          "text": "6 km/h",
+          "isCorrect": false,
+          "feedback": "6 km/h is the upstream speed (24÷4), not the current. Current = (12-6)/2 = 3 km/h."
+        },
+        {
+          "id": "D",
+          "text": "9 km/h",
+          "isCorrect": false,
+          "feedback": "9 km/h is the boat's speed in still water, not the current. Current = (12-6)/2 = 3 km/h."
+        },
+        {
+          "id": "E",
+          "text": "3 km/h",
+          "isCorrect": true,
+          "feedback": "Correct! Downstream = 36/3 = 12 km/h. Upstream = 24/4 = 6 km/h. Current = (12-6)/2 = 3 km/h."
+        }
+      ],
+      "solution": "**Methodology: Finding Current Speed**\n\n**Step 1: Calculate downstream and upstream speeds**\nDownstream speed = 36 km ÷ 3 h = 12 km/h\nUpstream speed = 24 km ÷ 4 h = 6 km/h\n\n**Step 2: Use the formulas**\nDownstream = Boat + Current = 12\nUpstream = Boat - Current = 6\n\n**Step 3: Solve for current**\nSubtracting: 2 × Current = 12 - 6 = 6\nCurrent = 3 km/h\n\n**Step 4: Check**\nBoat speed = 12 - 3 = 9 km/h\n9 + 3 = 12 (downstream) ✓\n9 - 3 = 6 (upstream) ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find the downstream and upstream speeds using Distance ÷ Time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Downstream = boat + current. Upstream = boat - current. The difference is 2 × current.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Downstream = 12, Upstream = 6. Current = (12-6)/2 = 3 km/h.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "current-problems",
+          "simultaneous-equations",
+          "division",
+          "algebra"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "computation_error",
+          "C": "misconception_answer",
+          "D": "misconception_answer"
+        },
+        "solutionApproach": "Find both speeds → Use: Downstream - Upstream = 2 × Current",
+        "methodologySteps": [
+          "Read: Boat with current, given downstream and upstream data",
+          "Calculate: Downstream = 12 km/h, Upstream = 6 km/h",
+          "Apply: Current = (12 - 6) ÷ 2 = 3 km/h",
+          "Check: Verify both equations work with boat = 9, current = 3"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Confusing current with boat speed",
+          "Forgetting to divide by 2"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 21
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-022",
+      "questionType": "MCQ",
+      "stem": "Ben leaves home at 7:30 AM and cycles at 16 km/h. His father leaves at 8:00 AM driving at 48 km/h along the same route. At what time does his father catch up with Ben?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "8:30 AM",
+          "isCorrect": false,
+          "feedback": "Check: Ben's head start = 8 km. Dad gains 32 km/h. Time = 8/32 = 15 min, not 30 min."
+        },
+        {
+          "id": "B",
+          "text": "9:00 AM",
+          "isCorrect": false,
+          "feedback": "This is far too late. Dad only needs 15 minutes to catch up to Ben."
+        },
+        {
+          "id": "C",
+          "text": "8:15 AM",
+          "isCorrect": true,
+          "feedback": "Correct! By 8 AM, Ben is 8 km ahead. Dad gains at 32 km/h. Time = 8/32 = 0.25 h = 15 min. Catches at 8:15 AM."
+        },
+        {
+          "id": "D",
+          "text": "8:20 AM",
+          "isCorrect": false,
+          "feedback": "The catch-up time is 8 km ÷ 32 km/h = 0.25 hours = 15 minutes, so 8:15 AM."
+        },
+        {
+          "id": "E",
+          "text": "8:10 AM",
+          "isCorrect": false,
+          "feedback": "10 minutes isn't enough. 8 km at 32 km/h catch-up rate = 15 minutes."
+        }
+      ],
+      "solution": "**Methodology: Catch-Up Problem**\n\n**Step 1: Calculate Ben's head start**\nBen cycles for 30 minutes (7:30-8:00) at 16 km/h\nHead start = 16 × 0.5 = 8 km\n\n**Step 2: Calculate closing speed**\nFather gains on Ben at: 48 - 16 = 32 km/h\n\n**Step 3: Calculate time to catch up**\nTime = Distance ÷ Closing speed = 8 ÷ 32 = 0.25 hours = 15 minutes\n\n**Step 4: Find catch-up time**\nCatch-up time = 8:00 AM + 15 minutes = 8:15 AM\n\n**Step 5: Check**\nAt 8:15: Ben has traveled 16 × 0.75 = 12 km\nFather has traveled 48 × 0.25 = 12 km ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How far ahead is Ben when his father starts? Then how fast is the father catching up?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Ben's head start = 8 km. Father gains at 48 - 16 = 32 km/h.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Catch-up time = 8 km ÷ 32 km/h = 0.25 hours = 15 minutes after 8 AM.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "relative-speed",
+          "catch-up",
+          "head-start",
+          "time-calculation"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find head start → Calculate closing speed → Time = Head start ÷ Closing speed",
+        "methodologySteps": [
+          "Read: Catch-up problem with staggered start",
+          "Calculate: Head start = 16 × 0.5 = 8 km",
+          "Calculate: Closing speed = 48 - 16 = 32 km/h",
+          "Apply: Time = 8/32 = 0.25 h = 15 min → 8:15 AM"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Using combined speed instead of difference",
+          "Calculating head start incorrectly"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 22
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-023",
+      "questionType": "MCQ",
+      "stem": "A bus travels the first third of a journey at 30 km/h, the second third at 40 km/h, and the last third at 60 km/h. If the total journey is 120 km, what is the average speed?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "40 km/h",
+          "isCorrect": true,
+          "feedback": "Correct! Each third = 40 km. Times: 40/30 = 4/3 h, 40/40 = 1 h, 40/60 = 2/3 h. Total = 3 h. Avg = 120/3 = 40 km/h."
+        },
+        {
+          "id": "B",
+          "text": "36 km/h",
+          "isCorrect": false,
+          "feedback": "Check your time calculations. Each segment is 40 km. Times: 40/30 + 40/40 + 40/60."
+        },
+        {
+          "id": "C",
+          "text": "38.4 km/h",
+          "isCorrect": false,
+          "feedback": "Close! Check: 40/30 + 40/40 + 40/60 = 4/3 + 1 + 2/3 = 3 hours. Average = 120/3 = 40 km/h."
+        },
+        {
+          "id": "D",
+          "text": "40 km/h",
+          "isCorrect": false,
+          "feedback": "Using simple average of speeds is incorrect. Calculate time for each segment first."
+        },
+        {
+          "id": "E",
+          "text": "40 km/h",
+          "isCorrect": false,
+          "feedback": "This is the average of the speeds (30+40+60)/3 = 130/3 ≈ 43.3. But average speed uses total distance/total time."
+        }
+      ],
+      "solution": "**Methodology: Average Speed for Equal Distance Segments**\n\n**Step 1: Calculate each segment**\nEach third = 120 ÷ 3 = 40 km\n\n**Step 2: Calculate time for each segment**\nSegment 1: 40 km ÷ 30 km/h = 4/3 hours\nSegment 2: 40 km ÷ 40 km/h = 1 hour\nSegment 3: 40 km ÷ 60 km/h = 2/3 hours\n\n**Step 3: Find totals**\nTotal time = 4/3 + 1 + 2/3 = 4/3 + 3/3 + 2/3 = 9/3 = 3 hours\n\n**Step 4: Calculate average speed**\nAverage speed = 120 km ÷ 3 hours = 40 km/h\n\n**Step 5: Check**\nNote: The harmonic mean of equal-distance segments = 3/(1/30 + 1/40 + 1/60) = 3/(4+3+2)/120 = 360/9 = 40 km/h ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Each third of the journey is 40 km. Find the time for each segment.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Times: 40/30 + 40/40 + 40/60 hours. Add these fractions.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total time = 4/3 + 1 + 2/3 = 3 hours. Average = 120/3 = 40 km/h.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "average-speed",
+          "fractions",
+          "division",
+          "addition"
+        ],
+        "distractorTypes": {
+          "B": "computation_error",
+          "C": "computation_error",
+          "D": "formula_confusion",
+          "E": "formula_confusion"
+        },
+        "solutionApproach": "Find segment distance → Calculate each time → Total distance ÷ Total time",
+        "methodologySteps": [
+          "Read: Equal distance segments with different speeds",
+          "Calculate: Each segment = 40 km",
+          "Calculate: Times = 4/3 + 1 + 2/3 = 3 hours",
+          "Divide: Average = 120 ÷ 3 = 40 km/h"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Using arithmetic mean of speeds",
+          "Fraction addition errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM",
+          "MA3-7NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 23
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-024",
+      "questionType": "MCQ",
+      "stem": "Anna runs a 10 km race. She runs the first 6 km at 12 km/h, then slows down. If her average speed for the whole race is 10 km/h, how fast did she run the last 4 km?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6 km/h",
+          "isCorrect": false,
+          "feedback": "At 6 km/h, last 4 km takes 2/3 hour. Total = 0.5 + 0.67 = 1.17 hours. Avg would be only 8.6 km/h."
+        },
+        {
+          "id": "B",
+          "text": "10 km/h",
+          "isCorrect": false,
+          "feedback": "If she ran the last part at 10 km/h, the average would be higher than 10 (since she ran faster at first)."
+        },
+        {
+          "id": "C",
+          "text": "9 km/h",
+          "isCorrect": false,
+          "feedback": "At 9 km/h, last 4 km takes 4/9 hour. Total = 0.5 + 0.44 = 0.94 hours. Avg would be 10.6 km/h."
+        },
+        {
+          "id": "D",
+          "text": "8 km/h",
+          "isCorrect": true,
+          "feedback": "Correct! Total time = 10/10 = 1 hour. First 6 km: 0.5 hours. Last 4 km: 0.5 hours. Speed = 4/0.5 = 8 km/h."
+        },
+        {
+          "id": "E",
+          "text": "7 km/h",
+          "isCorrect": false,
+          "feedback": "Check: At 7 km/h, last 4 km takes 4/7 hours. Total = 0.5 + 4/7 = 1.07 hours. That gives avg < 10."
+        }
+      ],
+      "solution": "**Methodology: Working Backwards from Average Speed**\n\n**Step 1: Find total time from average speed**\nTotal time = Total distance ÷ Average speed = 10 ÷ 10 = 1 hour\n\n**Step 2: Find time for first part**\nTime for first 6 km = 6 ÷ 12 = 0.5 hours\n\n**Step 3: Find time for last part**\nTime for last 4 km = 1 - 0.5 = 0.5 hours\n\n**Step 4: Calculate speed for last part**\nSpeed = 4 km ÷ 0.5 hours = 8 km/h\n\n**Step 5: Check**\n6/12 + 4/8 = 0.5 + 0.5 = 1 hour. Average = 10/1 = 10 km/h ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Use the average speed to find total time. Then find how much time is left for the second part.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total time = 1 hour. First 6 km takes 0.5 hours. How long for the last 4 km?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Last 4 km takes 0.5 hours. Speed = 4/0.5 = 8 km/h.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "average-speed",
+          "working-backwards",
+          "subtraction",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "misconception_answer",
+          "C": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Total time from average → Subtract known time → Calculate unknown speed",
+        "methodologySteps": [
+          "Read: Average speed given, need to find part of journey's speed",
+          "Calculate: Total time = 10 ÷ 10 = 1 hour",
+          "Subtract: Time for last part = 1 - 0.5 = 0.5 hours",
+          "Divide: Speed = 4 ÷ 0.5 = 8 km/h"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Trying to average speeds instead",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 24
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa20-025",
+      "questionType": "MCQ",
+      "stem": "A courier drives from City A to City B at 60 km/h and returns at 40 km/h. If the round trip takes 5 hours, what is the distance between the cities?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "100 km",
+          "isCorrect": false,
+          "feedback": "Check: 100/60 + 100/40 = 5/3 + 5/2 = 10/6 + 15/6 = 25/6 ≈ 4.17 hours, not 5."
+        },
+        {
+          "id": "B",
+          "text": "150 km",
+          "isCorrect": false,
+          "feedback": "Check: 150/60 + 150/40 = 2.5 + 3.75 = 6.25 hours, too long."
+        },
+        {
+          "id": "C",
+          "text": "110 km",
+          "isCorrect": false,
+          "feedback": "Check: 110/60 + 110/40 = 11/6 + 11/4 = 22/12 + 33/12 = 55/12 ≈ 4.58 hours, not 5."
+        },
+        {
+          "id": "D",
+          "text": "120 km",
+          "isCorrect": true,
+          "feedback": "Correct! Let d = distance. d/60 + d/40 = 5. Multiply by 120: 2d + 3d = 600. d = 120 km."
+        },
+        {
+          "id": "E",
+          "text": "125 km",
+          "isCorrect": false,
+          "feedback": "Check: 125/60 + 125/40 ≈ 2.08 + 3.125 = 5.2 hours, slightly too long."
+        }
+      ],
+      "solution": "**Methodology: Same Distance, Find Distance**\n\n**Step 1: Set up equation**\nLet d = distance between cities\nTime there + Time back = 5 hours\nd/60 + d/40 = 5\n\n**Step 2: Solve the equation**\nMultiply by LCM (120): 2d + 3d = 600\n5d = 600\nd = 120 km\n\n**Step 3: Check**\nGoing: 120/60 = 2 hours\nReturning: 120/40 = 3 hours\nTotal: 2 + 3 = 5 hours ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The distance is the same each way. Let it be d and set up an equation for total time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "d/60 + d/40 = 5. Find a common denominator or multiply by LCM.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Multiplying by 120: 2d + 3d = 600, so d = 120 km.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Speed-Distance-Time Multi-Part",
+        "archetypeId": "qa20",
+        "conceptsRequired": [
+          "speed-distance-time",
+          "algebra",
+          "equation-solving",
+          "fractions"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Set up equation: d/speed₁ + d/speed₂ = total time → Solve for d",
+        "methodologySteps": [
+          "Read: Round trip with different speeds, total time given",
+          "Setup: d/60 + d/40 = 5",
+          "Solve: Multiply by 120: 2d + 3d = 600, so d = 120",
+          "Check: 120/60 + 120/40 = 2 + 3 = 5 hours ✓"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Using wrong LCM",
+          "Setting up equation incorrectly"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-1WM",
+          "MA3-3WM",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa20-set1",
+        "sequenceInPaper": 25
+      },
+      "status": "published"
+    }
+  ]
+}

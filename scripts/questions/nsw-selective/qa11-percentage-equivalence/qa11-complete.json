@@ -1,0 +1,2599 @@
+{
+  "metadata": {
+    "archetype": "Percentage Equivalence",
+    "archetypeId": "qa11",
+    "archetypeSlug": "percentage-equivalence",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "foundation": {
+        "count": 5,
+        "difficulty": "1-2"
+      },
+      "application": {
+        "count": 10,
+        "difficulty": "2-3"
+      },
+      "connection": {
+        "count": 5,
+        "difficulty": "3"
+      },
+      "mastery": {
+        "count": 5,
+        "difficulty": "4"
+      }
+    },
+    "createdAt": "2026-01-13",
+    "version": "1.0",
+    "researchSource": ".claude/knowledge/edu/research/mathematical-reasoning-nsw-selective.json"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa11-001",
+      "questionType": "MCQ",
+      "stem": "20% of 80 equals 40% of what number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "16",
+          "isCorrect": false,
+          "feedback": "You correctly found 20% of 80 = 16, but you need to find what number has 40% equal to 16."
+        },
+        {
+          "id": "B",
+          "text": "40",
+          "isCorrect": true,
+          "feedback": "Correct! 20% of 80 = 16. So 40% of ? = 16, which means ? = 16 ÷ 0.4 = 40."
+        },
+        {
+          "id": "C",
+          "text": "32",
+          "isCorrect": false,
+          "feedback": "You found 40% of 80 = 32. But we need to find what number has 40% equal to 16 (which is 20% of 80)."
+        },
+        {
+          "id": "D",
+          "text": "160",
+          "isCorrect": false,
+          "feedback": "This would be correct if 40% of ? = 64, but 20% of 80 = 16, not 64. Check your first calculation."
+        },
+        {
+          "id": "E",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "You may have multiplied 16 by 0.5 instead of dividing by 0.4. To find the whole when you know 40%, divide by 0.4."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence**\n\n**Step 1: Calculate the first percentage**\n20% of 80 = 0.20 × 80 = 16\n\n**Step 2: Set up the equivalence**\n40% of ? = 16\n0.4 × ? = 16\n\n**Step 3: Solve for the unknown**\n? = 16 ÷ 0.4 = 40\n\n**Step 4: Check**\n40% of 40 = 16 ✓\n20% of 80 = 16 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First, calculate what 20% of 80 equals. This is the value both sides must equal.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "20% of 80 = 16. Now you need to find: 40% of ? = 16",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "If 40% of something = 16, then that something = 16 ÷ 0.4",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "division",
+          "equivalence"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "wrong_operation",
+          "D": "computation_error",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Calculate first percentage → Set up equation with second percentage → Solve for unknown",
+        "methodologySteps": [
+          "Read: Identify what percentage of what number is given",
+          "Calculate: Find the value of the first percentage",
+          "Solve: Set up X% of ? = value, then ? = value ÷ (X/100)",
+          "Check: Verify both percentages give the same value"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Calculating percentage of wrong number",
+          "Multiplying instead of dividing",
+          "Stopping after finding first value"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-002",
+      "questionType": "MCQ",
+      "stem": "50% of 60 equals 25% of what number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "15",
+          "isCorrect": false,
+          "feedback": "You found 25% of 60 = 15. But the question asks for 25% of WHAT equals 30 (which is 50% of 60)."
+        },
+        {
+          "id": "B",
+          "text": "7.5",
+          "isCorrect": false,
+          "feedback": "This is 25% of 30. You need to find what number has 25% equal TO 30, not 25% OF 30."
+        },
+        {
+          "id": "C",
+          "text": "30",
+          "isCorrect": false,
+          "feedback": "You found 50% of 60 = 30, but you need to find what number has 25% equal to 30."
+        },
+        {
+          "id": "D",
+          "text": "240",
+          "isCorrect": false,
+          "feedback": "You may have doubled when you should have divided by 0.25. If 25% = 30, the whole is 30 ÷ 0.25 = 120."
+        },
+        {
+          "id": "E",
+          "text": "120",
+          "isCorrect": true,
+          "feedback": "Correct! 50% of 60 = 30. So 25% of ? = 30, which means ? = 30 ÷ 0.25 = 120."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence**\n\n**Step 1: Calculate the first percentage**\n50% of 60 = 0.50 × 60 = 30\n\n**Step 2: Set up the equivalence**\n25% of ? = 30\n0.25 × ? = 30\n\n**Step 3: Solve for the unknown**\n? = 30 ÷ 0.25 = 120\n\n**Step 4: Check**\n25% of 120 = 30 ✓\n50% of 60 = 30 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Start by finding 50% of 60. What value do both sides need to equal?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "50% of 60 = 30. Now find: 25% of ? = 30",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "If 25% = 30, then 100% = 30 ÷ 0.25 = 120",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "division",
+          "equivalence"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "inverted_operation",
+          "C": "partial_solution",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Calculate first percentage → Set up equation with second percentage → Solve for unknown",
+        "methodologySteps": [
+          "Read: Identify what percentage of what number is given",
+          "Calculate: Find the value of the first percentage",
+          "Solve: Set up X% of ? = value, then ? = value ÷ (X/100)",
+          "Check: Verify both percentages give the same value"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Finding percentage of wrong number",
+          "Multiplying instead of dividing",
+          "Stopping at intermediate value"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-003",
+      "questionType": "MCQ",
+      "stem": "10% of 200 equals 20% of what number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "4",
+          "isCorrect": false,
+          "feedback": "This is 20% of 20. You need to find what number has 20% equal TO 20, not 20% OF 20."
+        },
+        {
+          "id": "B",
+          "text": "100",
+          "isCorrect": true,
+          "feedback": "Correct! 10% of 200 = 20. So 20% of ? = 20, which means ? = 20 ÷ 0.2 = 100."
+        },
+        {
+          "id": "C",
+          "text": "40",
+          "isCorrect": false,
+          "feedback": "You found 20% of 200 = 40. But the question uses 10% of 200, which equals 20."
+        },
+        {
+          "id": "D",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "You found 10% of 200 = 20, but you still need to find what number has 20% equal to 20."
+        },
+        {
+          "id": "E",
+          "text": "50",
+          "isCorrect": false,
+          "feedback": "You may have divided by 0.4 instead of 0.2. If 20% of something = 20, then 100% = 20 ÷ 0.2 = 100."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence**\n\n**Step 1: Calculate the first percentage**\n10% of 200 = 0.10 × 200 = 20\n\n**Step 2: Set up the equivalence**\n20% of ? = 20\n0.2 × ? = 20\n\n**Step 3: Solve for the unknown**\n? = 20 ÷ 0.2 = 100\n\n**Step 4: Check**\n20% of 100 = 20 ✓\n10% of 200 = 20 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What is 10% of 200? This is the target value for the equivalence.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "10% of 200 = 20. Now solve: 20% of ? = 20",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "? = 20 ÷ 0.2 = 100",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "division",
+          "equivalence"
+        ],
+        "distractorTypes": {
+          "A": "inverted_operation",
+          "C": "wrong_operation",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Calculate first percentage → Set up equation with second percentage → Solve for unknown",
+        "methodologySteps": [
+          "Read: Identify what percentage of what number is given",
+          "Calculate: Find the value of the first percentage",
+          "Solve: Set up X% of ? = value, then ? = value ÷ (X/100)",
+          "Check: Verify both percentages give the same value"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Finding percentage of wrong number",
+          "Multiplying instead of dividing",
+          "Stopping at intermediate value"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-004",
+      "questionType": "MCQ",
+      "stem": "25% of 80 equals 50% of what number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "100",
+          "isCorrect": false,
+          "feedback": "Check your division. If 50% of ? = 20, then ? = 20 ÷ 0.5 = 40, not 100."
+        },
+        {
+          "id": "B",
+          "text": "40",
+          "isCorrect": true,
+          "feedback": "Correct! 25% of 80 = 20. So 50% of ? = 20, which means ? = 20 ÷ 0.5 = 40."
+        },
+        {
+          "id": "C",
+          "text": "160",
+          "isCorrect": false,
+          "feedback": "You doubled 80, but that doesn't account for the percentage relationship. 25% of 80 = 20, and 50% of 40 = 20."
+        },
+        {
+          "id": "D",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "This is 50% of 20. You need to find what number has 50% equal TO 20, not 50% OF 20."
+        },
+        {
+          "id": "E",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "You found 25% of 80 = 20, but you still need to find what number has 50% equal to 20."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence**\n\n**Step 1: Calculate the first percentage**\n25% of 80 = 0.25 × 80 = 20\n\n**Step 2: Set up the equivalence**\n50% of ? = 20\n0.5 × ? = 20\n\n**Step 3: Solve for the unknown**\n? = 20 ÷ 0.5 = 40\n\n**Step 4: Check**\n50% of 40 = 20 ✓\n25% of 80 = 20 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First calculate 25% of 80. What value are both sides equal to?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "25% of 80 = 20. Now find: 50% of ? = 20",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "If 50% = 20, then 100% = 20 ÷ 0.5 = 40",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "division",
+          "equivalence"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "wrong_operation",
+          "D": "inverted_operation",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Calculate first percentage → Set up equation with second percentage → Solve for unknown",
+        "methodologySteps": [
+          "Read: Identify what percentage of what number is given",
+          "Calculate: Find the value of the first percentage",
+          "Solve: Set up X% of ? = value, then ? = value ÷ (X/100)",
+          "Check: Verify both percentages give the same value"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Finding percentage of result instead of unknown",
+          "Multiplying instead of dividing",
+          "Stopping too early"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-005",
+      "questionType": "MCQ",
+      "stem": "15% of 60 equals 30% of what number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "2.7",
+          "isCorrect": false,
+          "feedback": "This is 30% of 9. You need to find what number has 30% equal TO 9, not 30% OF 9."
+        },
+        {
+          "id": "B",
+          "text": "30",
+          "isCorrect": true,
+          "feedback": "Correct! 15% of 60 = 9. So 30% of ? = 9, which means ? = 9 ÷ 0.3 = 30."
+        },
+        {
+          "id": "C",
+          "text": "45",
+          "isCorrect": false,
+          "feedback": "Check your division. 9 ÷ 0.3 = 30, not 45. You might have divided by 0.2 instead."
+        },
+        {
+          "id": "D",
+          "text": "9",
+          "isCorrect": false,
+          "feedback": "You found 15% of 60 = 9, but you still need to find what number has 30% equal to 9."
+        },
+        {
+          "id": "E",
+          "text": "18",
+          "isCorrect": false,
+          "feedback": "You found 30% of 60 = 18. But the question uses 15% of 60, which equals 9."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence**\n\n**Step 1: Calculate the first percentage**\n15% of 60 = 0.15 × 60 = 9\n\n**Step 2: Set up the equivalence**\n30% of ? = 9\n0.3 × ? = 9\n\n**Step 3: Solve for the unknown**\n? = 9 ÷ 0.3 = 30\n\n**Step 4: Check**\n30% of 30 = 9 ✓\n15% of 60 = 9 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What is 15% of 60? This tells you what value both sides must equal.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "15% of 60 = 9. Now solve: 30% of ? = 9",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "? = 9 ÷ 0.3 = 30",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "division",
+          "equivalence"
+        ],
+        "distractorTypes": {
+          "A": "inverted_operation",
+          "C": "computation_error",
+          "D": "partial_solution",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Calculate first percentage → Set up equation with second percentage → Solve for unknown",
+        "methodologySteps": [
+          "Read: Identify what percentage of what number is given",
+          "Calculate: Find the value of the first percentage",
+          "Solve: Set up X% of ? = value, then ? = value ÷ (X/100)",
+          "Check: Verify both percentages give the same value"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Using wrong percentage calculation",
+          "Multiplying instead of dividing",
+          "Stopping at first value"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-006",
+      "questionType": "MCQ",
+      "stem": "A store offers 20% off on all items. If 20% off a jacket equals $24, this is the same as 30% off a different item priced at what amount?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$80",
+          "isCorrect": true,
+          "feedback": "Correct! The $24 discount is the common value. 30% of ? = $24, so ? = $24 ÷ 0.3 = $80."
+        },
+        {
+          "id": "B",
+          "text": "$120",
+          "isCorrect": false,
+          "feedback": "The jacket price is $24 ÷ 0.2 = $120. But we need the second item where 30% = $24."
+        },
+        {
+          "id": "C",
+          "text": "$36",
+          "isCorrect": false,
+          "feedback": "Check your division. $24 ÷ 0.3 = $80. You may have multiplied by 1.5 instead."
+        },
+        {
+          "id": "D",
+          "text": "$24",
+          "isCorrect": false,
+          "feedback": "$24 is the discount amount, not the price of the second item. You need to find what has 30% equal to $24."
+        },
+        {
+          "id": "E",
+          "text": "$7.20",
+          "isCorrect": false,
+          "feedback": "This is 30% of $24. You need to find what number has 30% equal TO $24, not 30% OF $24."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence in Context**\n\n**Step 1: Identify the common value**\nThe $24 discount is the value both scenarios share.\n\n**Step 2: Set up the equivalence**\n20% of jacket = $24\n30% of other item = $24\n\n**Step 3: Solve for the unknown**\n30% of ? = $24\n? = $24 ÷ 0.3 = $80\n\n**Step 4: Check**\n30% of $80 = $24 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The $24 is the discount amount that both items share. What operation relates 30% and $24?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "If 30% of something equals $24, how do you find the full price?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Price = $24 ÷ 0.3 = $80",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "division",
+          "word-problem-translation"
+        ],
+        "distractorTypes": {
+          "B": "wrong_item",
+          "C": "computation_error",
+          "D": "partial_solution",
+          "E": "inverted_operation"
+        },
+        "solutionApproach": "Identify the common discount value → Set up percentage equation → Solve for unknown price",
+        "methodologySteps": [
+          "Read: Identify the common value shared by both scenarios",
+          "Translate: Set up X% of ? = common value",
+          "Solve: ? = common value ÷ (X/100)",
+          "Check: Verify the percentage gives the common value"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Confusing discount amount with item price",
+          "Finding first item price instead of second",
+          "Multiplying instead of dividing"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-007",
+      "questionType": "MCQ",
+      "stem": "If 30% of number A equals 60% of number B, and A = 120, what is B?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "36",
+          "isCorrect": false,
+          "feedback": "You found 30% of 120 = 36, but you still need to find what number B has 60% equal to 36."
+        },
+        {
+          "id": "B",
+          "text": "21.6",
+          "isCorrect": false,
+          "feedback": "This is 60% of 36. You need to find what number has 60% equal TO 36, not 60% OF 36."
+        },
+        {
+          "id": "C",
+          "text": "240",
+          "isCorrect": false,
+          "feedback": "You doubled A, but that doesn't account for the percentage relationship. Work with the percentages."
+        },
+        {
+          "id": "D",
+          "text": "60",
+          "isCorrect": true,
+          "feedback": "Correct! 30% of 120 = 36. So 60% of B = 36, which means B = 36 ÷ 0.6 = 60."
+        },
+        {
+          "id": "E",
+          "text": "72",
+          "isCorrect": false,
+          "feedback": "You found 60% of 120 = 72. But the question says 30% of 120 equals 60% of B."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence with Variables**\n\n**Step 1: Calculate the first percentage**\n30% of 120 = 0.30 × 120 = 36\n\n**Step 2: Set up the equivalence**\n60% of B = 36\n0.6 × B = 36\n\n**Step 3: Solve for B**\nB = 36 ÷ 0.6 = 60\n\n**Step 4: Check**\n60% of 60 = 36 ✓\n30% of 120 = 36 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find 30% of 120. This value equals 60% of B.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "30% of 120 = 36. Now solve: 60% of B = 36",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "B = 36 ÷ 0.6 = 60",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "division",
+          "algebraic-thinking"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "inverted_operation",
+          "C": "wrong_operation",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Calculate percentage of A → Set up equation for B → Solve for B",
+        "methodologySteps": [
+          "Read: Identify A's value and the percentage relationship",
+          "Calculate: Find the value of 30% of A",
+          "Solve: Set up 60% of B = that value, solve for B",
+          "Check: Verify both percentages give the same result"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Using wrong percentage for A",
+          "Multiplying instead of dividing for B",
+          "Stopping at intermediate value"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-008",
+      "questionType": "MCQ",
+      "stem": "Tom saves 15% of his pocket money. Sarah saves 25% of her pocket money. If they both save the same dollar amount and Tom gets $40, how much does Sarah get?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$66.67",
+          "isCorrect": false,
+          "feedback": "You may have divided by 0.15 instead of 0.25. Sarah's percentage is 25%, so divide by 0.25."
+        },
+        {
+          "id": "B",
+          "text": "$1.50",
+          "isCorrect": false,
+          "feedback": "This is 25% of $6. You need to find what amount has 25% equal TO $6."
+        },
+        {
+          "id": "C",
+          "text": "$10",
+          "isCorrect": false,
+          "feedback": "Check your calculation. If 25% of Sarah's money = $6, then 100% = $6 ÷ 0.25 = $24."
+        },
+        {
+          "id": "D",
+          "text": "$24",
+          "isCorrect": true,
+          "feedback": "Correct! Tom saves 15% of $40 = $6. Sarah saves $6 too, and $6 is 25% of her money. Sarah gets $6 ÷ 0.25 = $24."
+        },
+        {
+          "id": "E",
+          "text": "$6",
+          "isCorrect": false,
+          "feedback": "This is how much each saves ($6), not Sarah's total pocket money. You need to find what $6 is 25% of."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence in Context**\n\n**Step 1: Find Tom's savings**\n15% of $40 = 0.15 × $40 = $6\n\n**Step 2: Set up Sarah's equation**\nSarah saves the same: 25% of her money = $6\n\n**Step 3: Solve for Sarah's pocket money**\n0.25 × Sarah's money = $6\nSarah's money = $6 ÷ 0.25 = $24\n\n**Step 4: Check**\n25% of $24 = $6 ✓\n15% of $40 = $6 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How much does Tom save? 15% of $40 = ?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Tom saves $6. Sarah also saves $6. If $6 is 25% of Sarah's money, how much does she get?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Sarah's money = $6 ÷ 0.25 = $24",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "division",
+          "word-problem-translation"
+        ],
+        "distractorTypes": {
+          "A": "wrong_percentage",
+          "B": "inverted_operation",
+          "C": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Calculate Tom's savings → Use same amount for Sarah → Solve for Sarah's total",
+        "methodologySteps": [
+          "Read: Identify that both save the same dollar amount",
+          "Calculate: Find Tom's savings (15% of $40)",
+          "Solve: Set up 25% of Sarah's money = Tom's savings",
+          "Check: Verify both percentages give the same savings"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Confusing savings with total",
+          "Using wrong percentage",
+          "Multiplying instead of dividing"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-009",
+      "questionType": "MCQ",
+      "stem": "12% of 150 equals what percentage of 90?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "8%",
+          "isCorrect": false,
+          "feedback": "You may have divided 12 by 150. The question asks: 18 is what % of 90?"
+        },
+        {
+          "id": "B",
+          "text": "5%",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 18 ÷ 90 = 0.2 = 20%, not 5%."
+        },
+        {
+          "id": "C",
+          "text": "10.8%",
+          "isCorrect": false,
+          "feedback": "This is 12% of 90 = 10.8, but we want to find what percentage OF 90 equals 18."
+        },
+        {
+          "id": "D",
+          "text": "20%",
+          "isCorrect": true,
+          "feedback": "Correct! 12% of 150 = 18. What % of 90 = 18? That's 18/90 = 0.2 = 20%."
+        },
+        {
+          "id": "E",
+          "text": "18%",
+          "isCorrect": false,
+          "feedback": "18 is the value (12% of 150 = 18), not the percentage of 90. Divide 18 by 90 to find the percentage."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence (Finding Unknown Percentage)**\n\n**Step 1: Calculate the first percentage**\n12% of 150 = 0.12 × 150 = 18\n\n**Step 2: Set up the equation**\n?% of 90 = 18\n(? / 100) × 90 = 18\n\n**Step 3: Solve for the percentage**\n? / 100 = 18 / 90 = 0.2\n? = 20%\n\n**Step 4: Check**\n20% of 90 = 18 ✓\n12% of 150 = 18 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find 12% of 150. This is the target value.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "12% of 150 = 18. Now ask: 18 is what percent of 90?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Percentage = (18 ÷ 90) × 100 = 20%",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "division",
+          "fraction-to-percent"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "computation_error",
+          "C": "wrong_operation",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Calculate first percentage → Find value → Express as percentage of second number",
+        "methodologySteps": [
+          "Read: Identify that we need to find an unknown percentage",
+          "Calculate: Find 12% of 150 = 18",
+          "Solve: 18 ÷ 90 = 0.2 = 20%",
+          "Check: Verify 20% of 90 = 18"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Confusing value with percentage",
+          "Wrong division order",
+          "Calculating percentage of wrong number"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-010",
+      "questionType": "MCQ",
+      "stem": "35% of 80 equals 70% of what number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "19.6",
+          "isCorrect": false,
+          "feedback": "This is 70% of 28. You need to find what number has 70% equal TO 28."
+        },
+        {
+          "id": "B",
+          "text": "56",
+          "isCorrect": false,
+          "feedback": "This is 70% of 80. But the question uses 35% of 80, which equals 28."
+        },
+        {
+          "id": "C",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "Check your division. 28 ÷ 0.7 = 40, not 20."
+        },
+        {
+          "id": "D",
+          "text": "40",
+          "isCorrect": true,
+          "feedback": "Correct! 35% of 80 = 28. So 70% of ? = 28, which means ? = 28 ÷ 0.7 = 40."
+        },
+        {
+          "id": "E",
+          "text": "28",
+          "isCorrect": false,
+          "feedback": "You found 35% of 80 = 28, but you need to find what number has 70% equal to 28."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence**\n\n**Step 1: Calculate the first percentage**\n35% of 80 = 0.35 × 80 = 28\n\n**Step 2: Set up the equivalence**\n70% of ? = 28\n0.7 × ? = 28\n\n**Step 3: Solve for the unknown**\n? = 28 ÷ 0.7 = 40\n\n**Step 4: Check**\n70% of 40 = 28 ✓\n35% of 80 = 28 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What is 35% of 80? This is the target value for equivalence.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "35% of 80 = 28. Now solve: 70% of ? = 28",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "? = 28 ÷ 0.7 = 40",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "inverted_operation",
+          "B": "wrong_operation",
+          "C": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Calculate first percentage → Set up equation → Solve by division",
+        "methodologySteps": [
+          "Read: Identify the known percentage and number",
+          "Calculate: Find 35% of 80 = 28",
+          "Solve: 70% of ? = 28, so ? = 28 ÷ 0.7",
+          "Check: Verify 70% of 40 = 28"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Using wrong percentage",
+          "Multiplying instead of dividing",
+          "Finding percentage of result"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-011",
+      "questionType": "MCQ",
+      "stem": "A factory produces 400 toys per day. If 5% are rejected due to quality issues, this equals 25% of another factory's daily rejections. How many toys does the other factory reject per day?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "80",
+          "isCorrect": true,
+          "feedback": "Correct! Factory 1 rejects 5% of 400 = 20 toys. If 20 is 25% of factory 2's rejections, then factory 2 rejects 20 ÷ 0.25 = 80 toys."
+        },
+        {
+          "id": "B",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "This is 25% of 20. You need to find what number has 25% equal TO 20, not 25% OF 20."
+        },
+        {
+          "id": "C",
+          "text": "100",
+          "isCorrect": false,
+          "feedback": "This is 25% of 400, but we need to find what number has 25% equal to 20 (the first factory's rejections)."
+        },
+        {
+          "id": "D",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "20 is the first factory's rejections, not the second. You need to find what number has 25% equal to 20."
+        },
+        {
+          "id": "E",
+          "text": "320",
+          "isCorrect": false,
+          "feedback": "This is 80% of 400. Check your interpretation of the problem."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence in Context**\n\n**Step 1: Calculate first factory's rejections**\n5% of 400 = 0.05 × 400 = 20 toys\n\n**Step 2: Set up the equivalence**\n20 = 25% of factory 2's rejections\n\n**Step 3: Solve for factory 2's rejections**\n0.25 × rejections = 20\nRejections = 20 ÷ 0.25 = 80\n\n**Step 4: Check**\n25% of 80 = 20 ✓\n5% of 400 = 20 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How many toys does the first factory reject? 5% of 400 = ?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Factory 1 rejects 20 toys. This equals 25% of factory 2's rejections. Solve: 25% of ? = 20",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Factory 2 rejections = 20 ÷ 0.25 = 80",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "word-problem-translation"
+        ],
+        "distractorTypes": {
+          "B": "inverted_operation",
+          "C": "wrong_operation",
+          "D": "partial_solution",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Calculate first percentage → Identify common value → Solve for unknown quantity",
+        "methodologySteps": [
+          "Read: Identify what 5% of 400 represents",
+          "Calculate: 5% of 400 = 20 rejections",
+          "Solve: 25% of factory 2's rejections = 20",
+          "Check: Verify the relationship"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Confusing production with rejection",
+          "Using wrong factory's numbers",
+          "Multiplying instead of dividing"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 11
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-012",
+      "questionType": "MCQ",
+      "stem": "If 40% of X equals 80% of 35, what is X?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "28",
+          "isCorrect": false,
+          "feedback": "You found 80% of 35 = 28, but X is the number where 40% equals 28, not 28 itself."
+        },
+        {
+          "id": "B",
+          "text": "70",
+          "isCorrect": true,
+          "feedback": "Correct! 80% of 35 = 28. So 40% of X = 28, which means X = 28 ÷ 0.4 = 70."
+        },
+        {
+          "id": "C",
+          "text": "17.5",
+          "isCorrect": false,
+          "feedback": "This is 50% of 35. Check which percentages the question asks about."
+        },
+        {
+          "id": "D",
+          "text": "11.2",
+          "isCorrect": false,
+          "feedback": "This is 40% of 28. You need to find what number has 40% equal TO 28."
+        },
+        {
+          "id": "E",
+          "text": "14",
+          "isCorrect": false,
+          "feedback": "You found 40% of 35 = 14. But the question uses 80% of 35, which equals 28."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence**\n\n**Step 1: Calculate the known percentage**\n80% of 35 = 0.8 × 35 = 28\n\n**Step 2: Set up the equation for X**\n40% of X = 28\n0.4 × X = 28\n\n**Step 3: Solve for X**\nX = 28 ÷ 0.4 = 70\n\n**Step 4: Check**\n40% of 70 = 28 ✓\n80% of 35 = 28 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Start with the known side: What is 80% of 35?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "80% of 35 = 28. Now solve: 40% of X = 28",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "X = 28 ÷ 0.4 = 70",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "algebraic-thinking"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "wrong_percentage",
+          "D": "inverted_operation",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Calculate known percentage → Set up equation for unknown → Solve by division",
+        "methodologySteps": [
+          "Read: Identify which value is known (35) and unknown (X)",
+          "Calculate: Find 80% of 35 = 28",
+          "Solve: 40% of X = 28, so X = 28 ÷ 0.4",
+          "Check: Verify both expressions equal 28"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Using wrong percentage",
+          "Solving for wrong variable",
+          "Multiplying instead of dividing"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 12
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-013",
+      "questionType": "MCQ",
+      "stem": "In a school, 30% of the 200 students play tennis. The same number of students represent 40% of a different school. How many students are in the second school?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "This is 40% of 60. You need to find what number has 40% equal TO 60."
+        },
+        {
+          "id": "B",
+          "text": "150",
+          "isCorrect": true,
+          "feedback": "Correct! 30% of 200 = 60 students play tennis. If 60 is 40% of the second school, that school has 60 ÷ 0.4 = 150 students."
+        },
+        {
+          "id": "C",
+          "text": "80",
+          "isCorrect": false,
+          "feedback": "This is 40% of 200. But 40% of the second school equals 60 (not 40% of 200)."
+        },
+        {
+          "id": "D",
+          "text": "250",
+          "isCorrect": false,
+          "feedback": "Check your division. 60 ÷ 0.4 = 150, not 250."
+        },
+        {
+          "id": "E",
+          "text": "60",
+          "isCorrect": false,
+          "feedback": "60 is the number of tennis players, not the total students in the second school. You need to find what 60 is 40% of."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence in Context**\n\n**Step 1: Find the number of tennis players**\n30% of 200 = 0.30 × 200 = 60 students\n\n**Step 2: Set up the equation for second school**\n60 = 40% of second school's students\n\n**Step 3: Solve for second school's total**\n0.4 × total = 60\nTotal = 60 ÷ 0.4 = 150\n\n**Step 4: Check**\n40% of 150 = 60 ✓\n30% of 200 = 60 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How many students from the first school play tennis? 30% of 200 = ?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "60 students play tennis. This equals 40% of the second school. Solve: 40% of ? = 60",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Second school = 60 ÷ 0.4 = 150 students",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "word-problem-translation"
+        ],
+        "distractorTypes": {
+          "A": "inverted_operation",
+          "C": "wrong_operation",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Calculate first percentage → Identify common value → Solve for unknown total",
+        "methodologySteps": [
+          "Read: Identify what quantity is shared between schools",
+          "Calculate: Find 30% of 200 = 60 tennis players",
+          "Solve: 40% of second school = 60",
+          "Check: Verify the relationship"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Confusing tennis players with total students",
+          "Using percentages from wrong school",
+          "Multiplying instead of dividing"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 13
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-014",
+      "questionType": "MCQ",
+      "stem": "45% of A equals 15% of B. If A + B = 160, what is A?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "80",
+          "isCorrect": false,
+          "feedback": "This would be true if A = B, but the percentages tell us B is 3 times A."
+        },
+        {
+          "id": "B",
+          "text": "53.3",
+          "isCorrect": false,
+          "feedback": "Check your ratio. 45/15 = 3, so B = 3A. Then A + 3A = 160 gives A = 40."
+        },
+        {
+          "id": "C",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "Check your equation setup. The percentages give us B = 3A, then use A + B = 160."
+        },
+        {
+          "id": "D",
+          "text": "40",
+          "isCorrect": true,
+          "feedback": "Correct! 45% of A = 15% of B means 0.45A = 0.15B, so B = 3A. With A + B = 160: A + 3A = 160, so 4A = 160, A = 40."
+        },
+        {
+          "id": "E",
+          "text": "120",
+          "isCorrect": false,
+          "feedback": "This is B, not A. From the ratio B = 3A, and A + B = 160, we get A = 40 and B = 120."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence with Sum Constraint**\n\n**Step 1: Convert percentages to ratio**\n0.45A = 0.15B\nDivide both sides by 0.15: 3A = B\n\n**Step 2: Substitute into sum equation**\nA + B = 160\nA + 3A = 160\n4A = 160\n\n**Step 3: Solve for A**\nA = 160 ÷ 4 = 40\n\n**Step 4: Check**\nB = 3 × 40 = 120\nA + B = 40 + 120 = 160 ✓\n45% of 40 = 18, 15% of 120 = 18 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If 45% of A = 15% of B, what is the ratio of B to A?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "0.45A = 0.15B means B = 3A. Now substitute into A + B = 160.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "A + 3A = 160, so 4A = 160, A = 40",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "ratio",
+          "algebraic-substitution",
+          "simultaneous-equations"
+        ],
+        "distractorTypes": {
+          "A": "equal_split",
+          "B": "computation_error",
+          "C": "computation_error",
+          "E": "wrong_variable"
+        },
+        "solutionApproach": "Convert percentage equality to ratio → Substitute into sum constraint → Solve",
+        "methodologySteps": [
+          "Read: Identify both the percentage relationship and the sum constraint",
+          "Translate: 45% of A = 15% of B → B = 3A",
+          "Solve: Substitute B = 3A into A + B = 160",
+          "Check: Verify both conditions are satisfied"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Solving for wrong variable",
+          "Getting ratio backwards",
+          "Not using sum constraint"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 14
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-015",
+      "questionType": "MCQ",
+      "stem": "18% of 250 equals what percentage of 75?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "60%",
+          "isCorrect": true,
+          "feedback": "Correct! 18% of 250 = 45. What % of 75 = 45? That's 45/75 = 0.6 = 60%."
+        },
+        {
+          "id": "B",
+          "text": "13.5%",
+          "isCorrect": false,
+          "feedback": "This is 18% of 75 = 13.5. But we need to find what percentage OF 75 equals 45."
+        },
+        {
+          "id": "C",
+          "text": "300%",
+          "isCorrect": false,
+          "feedback": "You may have divided 75 by 45 instead of 45 by 75. We want: 45 is what % of 75?"
+        },
+        {
+          "id": "D",
+          "text": "33.3%",
+          "isCorrect": false,
+          "feedback": "Check your division. 45 ÷ 75 = 0.6 = 60%, not 33.3%."
+        },
+        {
+          "id": "E",
+          "text": "45%",
+          "isCorrect": false,
+          "feedback": "45 is the value, not the percentage. You need to express 45 as a percentage OF 75."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence (Finding Unknown Percentage)**\n\n**Step 1: Calculate the first percentage**\n18% of 250 = 0.18 × 250 = 45\n\n**Step 2: Express as percentage of 75**\n?% of 75 = 45\n? / 100 × 75 = 45\n\n**Step 3: Solve for the percentage**\n? / 100 = 45 / 75 = 0.6\n? = 60%\n\n**Step 4: Check**\n60% of 75 = 45 ✓\n18% of 250 = 45 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First calculate 18% of 250. What value are we looking for?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "18% of 250 = 45. Now find: 45 is what percent of 75?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Percentage = (45 ÷ 75) × 100 = 60%",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "division",
+          "fraction-to-percent"
+        ],
+        "distractorTypes": {
+          "B": "wrong_operation",
+          "C": "inverted_division",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Calculate first percentage → Express as fraction of second number → Convert to percentage",
+        "methodologySteps": [
+          "Read: Identify that we need to find an unknown percentage",
+          "Calculate: Find 18% of 250 = 45",
+          "Solve: Express 45 as percentage of 75: 45/75 × 100",
+          "Check: Verify 60% of 75 = 45"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Confusing value with percentage",
+          "Dividing in wrong order",
+          "Wrong base number"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 15
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-016",
+      "questionType": "MCQ",
+      "stem": "In a sale, James saves 20% on a $65 shirt. This saving equals 26% of what Lucy saved on a different purchase. How much did Lucy save?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$50",
+          "isCorrect": true,
+          "feedback": "Correct! James saves 20% of $65 = $13. If $13 is 26% of Lucy's saving, then Lucy saved $13 ÷ 0.26 = $50."
+        },
+        {
+          "id": "B",
+          "text": "$13",
+          "isCorrect": false,
+          "feedback": "$13 is James's saving, not Lucy's. You need to find what amount has 26% equal to $13."
+        },
+        {
+          "id": "C",
+          "text": "$3.38",
+          "isCorrect": false,
+          "feedback": "This is 26% of $13. You need to find what number has 26% equal TO $13."
+        },
+        {
+          "id": "D",
+          "text": "$16.90",
+          "isCorrect": false,
+          "feedback": "This is 26% of $65. The 26% applies to Lucy's saving, not James's shirt price."
+        },
+        {
+          "id": "E",
+          "text": "$84.50",
+          "isCorrect": false,
+          "feedback": "Check your division. $13 ÷ 0.26 = $50, not $84.50."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence in Context**\n\n**Step 1: Calculate James's saving**\n20% of $65 = 0.20 × $65 = $13\n\n**Step 2: Set up Lucy's equation**\n$13 = 26% of Lucy's saving\n\n**Step 3: Solve for Lucy's saving**\n0.26 × Lucy's saving = $13\nLucy's saving = $13 ÷ 0.26 = $50\n\n**Step 4: Check**\n26% of $50 = $13 ✓\n20% of $65 = $13 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How much did James save? 20% of $65 = ?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "James saved $13. This is 26% of Lucy's saving. Solve: 26% of ? = $13",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Lucy's saving = $13 ÷ 0.26 = $50",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "word-problem-translation",
+          "division"
+        ],
+        "distractorTypes": {
+          "B": "partial_solution",
+          "C": "inverted_operation",
+          "D": "wrong_base",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Calculate first saving → Identify common value → Solve for unknown saving",
+        "methodologySteps": [
+          "Read: Identify James's saving calculation",
+          "Calculate: 20% of $65 = $13",
+          "Solve: 26% of Lucy's saving = $13",
+          "Check: Verify the relationship"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Confusing savings",
+          "Using wrong percentage base",
+          "Multiplying instead of dividing"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 16
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-017",
+      "questionType": "MCQ",
+      "stem": "24% of M equals 36% of N. If M is 30 more than N, what is M?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "75",
+          "isCorrect": false,
+          "feedback": "Check your ratio. 0.24M = 0.36N gives M = 1.5N, then with M = N + 30 we get N = 60, M = 90."
+        },
+        {
+          "id": "B",
+          "text": "45",
+          "isCorrect": false,
+          "feedback": "This doesn't satisfy M = N + 30. If M = 45 and M = 1.5N, then N = 30, but 45 ≠ 30 + 30."
+        },
+        {
+          "id": "C",
+          "text": "90",
+          "isCorrect": true,
+          "feedback": "Correct! 24% of M = 36% of N means 0.24M = 0.36N, so M = 1.5N. With M = N + 30: 1.5N = N + 30, so 0.5N = 30, N = 60, M = 90."
+        },
+        {
+          "id": "D",
+          "text": "60",
+          "isCorrect": false,
+          "feedback": "This is N, not M. M = N + 30 = 60 + 30 = 90."
+        },
+        {
+          "id": "E",
+          "text": "120",
+          "isCorrect": false,
+          "feedback": "Check your equation. 0.24M = 0.36N gives M/N = 1.5, not 2."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence with Difference Constraint**\n\n**Step 1: Convert percentages to ratio**\n0.24M = 0.36N\nM/N = 0.36/0.24 = 1.5\nSo M = 1.5N\n\n**Step 2: Use the difference constraint**\nM = N + 30\n1.5N = N + 30\n0.5N = 30\nN = 60\n\n**Step 3: Find M**\nM = N + 30 = 60 + 30 = 90\n\n**Step 4: Check**\n24% of 90 = 21.6\n36% of 60 = 21.6 ✓\n90 - 60 = 30 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "From 24% of M = 36% of N, what is the ratio M/N?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "M = 1.5N. Now substitute into M = N + 30.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "1.5N = N + 30, so 0.5N = 30, N = 60, M = 90",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "ratio",
+          "algebraic-substitution",
+          "simultaneous-equations"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "wrong_constraint",
+          "D": "wrong_variable",
+          "E": "wrong_ratio"
+        },
+        "solutionApproach": "Convert to ratio → Substitute into difference constraint → Solve for both values",
+        "methodologySteps": [
+          "Read: Identify percentage relationship AND difference constraint",
+          "Translate: 24%M = 36%N → M = 1.5N",
+          "Solve: Substitute into M = N + 30",
+          "Check: Verify both conditions"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Getting ratio backwards",
+          "Solving for N instead of M",
+          "Not using difference constraint"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 17
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-018",
+      "questionType": "MCQ",
+      "stem": "The sum of 25% of a number and 75% of another number equals 60. If both numbers are equal, what is each number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "80",
+          "isCorrect": false,
+          "feedback": "Check: 25% of 80 + 75% of 80 = 20 + 60 = 80, not 60."
+        },
+        {
+          "id": "B",
+          "text": "30",
+          "isCorrect": false,
+          "feedback": "Check: 25% of 30 + 75% of 30 = 7.5 + 22.5 = 30, not 60."
+        },
+        {
+          "id": "C",
+          "text": "60",
+          "isCorrect": true,
+          "feedback": "Correct! If both numbers are X, then 25% of X + 75% of X = 100% of X = X = 60."
+        },
+        {
+          "id": "D",
+          "text": "120",
+          "isCorrect": false,
+          "feedback": "Check: 25% of 120 + 75% of 120 = 30 + 90 = 120, not 60."
+        },
+        {
+          "id": "E",
+          "text": "40",
+          "isCorrect": false,
+          "feedback": "Check: 25% of 40 + 75% of 40 = 10 + 30 = 40, not 60."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence with Equal Numbers**\n\n**Step 1: Set up with equal numbers**\nLet both numbers = X\n25% of X + 75% of X = 60\n\n**Step 2: Combine percentages**\n0.25X + 0.75X = 60\n1.00X = 60\n\n**Step 3: Solve for X**\nX = 60\n\n**Step 4: Check**\n25% of 60 + 75% of 60 = 15 + 45 = 60 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If both numbers are the same, call them X. What's 25% + 75%?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "25% + 75% = 100%. So 100% of X = 60.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "X = 60",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "algebraic-thinking",
+          "combining-percentages"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "wrong_equation",
+          "D": "doubled_answer",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Recognize equal numbers → Combine percentages → Solve simple equation",
+        "methodologySteps": [
+          "Read: Note that BOTH numbers are equal",
+          "Translate: 25%X + 75%X = 60 → 100%X = 60",
+          "Solve: X = 60",
+          "Check: 15 + 45 = 60 ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Not combining percentages",
+          "Dividing by 2",
+          "Using wrong total percentage"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 18
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-019",
+      "questionType": "MCQ",
+      "stem": "55% of X equals 22% of 250. What is X?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "55",
+          "isCorrect": false,
+          "feedback": "55 is the value that both expressions equal, not X itself. X is the number where 55% = 55."
+        },
+        {
+          "id": "B",
+          "text": "125",
+          "isCorrect": false,
+          "feedback": "Check your division. 55 ÷ 0.55 = 100, not 125."
+        },
+        {
+          "id": "C",
+          "text": "100",
+          "isCorrect": true,
+          "feedback": "Correct! 22% of 250 = 55. So 55% of X = 55, which means X = 55 ÷ 0.55 = 100."
+        },
+        {
+          "id": "D",
+          "text": "30.25",
+          "isCorrect": false,
+          "feedback": "This is 55% of 55. You need to find what number has 55% equal TO 55."
+        },
+        {
+          "id": "E",
+          "text": "137.5",
+          "isCorrect": false,
+          "feedback": "This is 55% of 250, but we need 22% of 250 = 55, then find X."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence**\n\n**Step 1: Calculate the known percentage**\n22% of 250 = 0.22 × 250 = 55\n\n**Step 2: Set up equation for X**\n55% of X = 55\n0.55 × X = 55\n\n**Step 3: Solve for X**\nX = 55 ÷ 0.55 = 100\n\n**Step 4: Check**\n55% of 100 = 55 ✓\n22% of 250 = 55 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Start with the known side: What is 22% of 250?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "22% of 250 = 55. Now solve: 55% of X = 55",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "X = 55 ÷ 0.55 = 100",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "computation_error",
+          "D": "inverted_operation",
+          "E": "wrong_percentage"
+        },
+        "solutionApproach": "Calculate known percentage → Set up equation → Solve by division",
+        "methodologySteps": [
+          "Read: Identify which expression is fully known",
+          "Calculate: Find 22% of 250 = 55",
+          "Solve: 55% of X = 55, so X = 55 ÷ 0.55",
+          "Check: Verify both expressions equal 55"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Using wrong percentage",
+          "Stopping at intermediate value",
+          "Multiplying instead of dividing"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 19
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-020",
+      "questionType": "MCQ",
+      "stem": "A charity receives 15% of Company A's donation and 60% of Company B's donation. Both amounts are equal. If Company A donated $400, how much did Company B donate?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$1600",
+          "isCorrect": false,
+          "feedback": "This is $400 × 4. Check which percentages apply to which company."
+        },
+        {
+          "id": "B",
+          "text": "$36",
+          "isCorrect": false,
+          "feedback": "This is 60% of $60. You need to find what amount has 60% equal TO $60."
+        },
+        {
+          "id": "C",
+          "text": "$240",
+          "isCorrect": false,
+          "feedback": "This is 60% of $400, but we need to find what donation has 60% equal to $60."
+        },
+        {
+          "id": "D",
+          "text": "$60",
+          "isCorrect": false,
+          "feedback": "$60 is the amount received from BOTH donations (15% of $400). B's full donation makes $60 be 60% of it."
+        },
+        {
+          "id": "E",
+          "text": "$100",
+          "isCorrect": true,
+          "feedback": "Correct! 15% of $400 = $60. If $60 is 60% of B's donation, then B donated $60 ÷ 0.6 = $100."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence in Context**\n\n**Step 1: Calculate charity's receipt from A**\n15% of $400 = 0.15 × $400 = $60\n\n**Step 2: Set up equation for B**\nCharity receives same from B: 60% of B = $60\n\n**Step 3: Solve for B's donation**\n0.6 × B = $60\nB = $60 ÷ 0.6 = $100\n\n**Step 4: Check**\n60% of $100 = $60 ✓\n15% of $400 = $60 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How much does the charity receive from Company A? 15% of $400 = ?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Charity gets $60 from A. This equals 60% of B's donation. Solve: 60% of ? = $60",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "B's donation = $60 ÷ 0.6 = $100",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "word-problem-translation"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "inverted_operation",
+          "C": "wrong_base",
+          "D": "partial_solution"
+        },
+        "solutionApproach": "Calculate amount from A → Identify equal amount → Solve for B's donation",
+        "methodologySteps": [
+          "Read: Identify that charity receives equal amounts from both",
+          "Calculate: 15% of $400 = $60",
+          "Solve: 60% of B = $60, so B = $60 ÷ 0.6",
+          "Check: Verify both give $60 to charity"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Confusing donation with receipt",
+          "Using wrong company's percentage",
+          "Multiplying instead of dividing"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 20
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-021",
+      "questionType": "MCQ",
+      "stem": "30% of (A + B) equals 60% of A. If B = 40, what is A?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "Check: 0.3(24 + 40) = 19.2, but 0.6(24) = 14.4. These aren't equal."
+        },
+        {
+          "id": "B",
+          "text": "60",
+          "isCorrect": false,
+          "feedback": "Check: 0.3(60 + 40) = 30, but 0.6(60) = 36. These aren't equal."
+        },
+        {
+          "id": "C",
+          "text": "40",
+          "isCorrect": true,
+          "feedback": "Correct! 0.3(A + 40) = 0.6A → 0.3A + 12 = 0.6A → 12 = 0.3A → A = 40."
+        },
+        {
+          "id": "D",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "Check: 0.3(20 + 40) = 18, but 0.6(20) = 12. These aren't equal."
+        },
+        {
+          "id": "E",
+          "text": "80",
+          "isCorrect": false,
+          "feedback": "Check the equation. 0.3(80 + 40) = 36, but 0.6(80) = 48. These aren't equal."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence with Expression**\n\n**Step 1: Set up the equation**\n0.3(A + 40) = 0.6A\n\n**Step 2: Expand and simplify**\n0.3A + 12 = 0.6A\n12 = 0.6A - 0.3A\n12 = 0.3A\n\n**Step 3: Solve for A**\nA = 12 ÷ 0.3 = 40\n\n**Step 4: Check**\n30% of (40 + 40) = 30% of 80 = 24\n60% of 40 = 24 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Substitute B = 40 and set up the equation: 0.3(A + 40) = 0.6A",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Expand: 0.3A + 12 = 0.6A. Now collect terms with A.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "12 = 0.3A, so A = 12 ÷ 0.3 = 40",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "algebraic-manipulation",
+          "distributive-property"
+        ],
+        "distractorTypes": {
+          "A": "wrong_equation",
+          "B": "computation_error",
+          "D": "halved_answer",
+          "E": "doubled_answer"
+        },
+        "solutionApproach": "Substitute known value → Expand percentages → Collect like terms → Solve",
+        "methodologySteps": [
+          "Read: Identify the algebraic relationship with percentages",
+          "Translate: 0.3(A + 40) = 0.6A",
+          "Solve: Expand, collect A terms, solve",
+          "Check: Verify both sides equal"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Not expanding correctly",
+          "Sign errors when collecting terms",
+          "Dividing by wrong coefficient"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 21
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-022",
+      "questionType": "MCQ",
+      "stem": "16% of P equals 48% of Q. 24% of Q equals 36% of R. If R = 80, what is P?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "180",
+          "isCorrect": false,
+          "feedback": "Check your chain of calculations. Work backwards from R to Q, then Q to P."
+        },
+        {
+          "id": "B",
+          "text": "120",
+          "isCorrect": false,
+          "feedback": "This is Q, not P. You need to work through another step to find P."
+        },
+        {
+          "id": "C",
+          "text": "240",
+          "isCorrect": false,
+          "feedback": "Check your final step. 16% of P must equal 48% of Q = 57.6."
+        },
+        {
+          "id": "D",
+          "text": "90",
+          "isCorrect": false,
+          "feedback": "This is too small. Work through the chain carefully from R → Q → P."
+        },
+        {
+          "id": "E",
+          "text": "360",
+          "isCorrect": true,
+          "feedback": "Correct! From R=80: 36% of 80 = 28.8 = 24% of Q, so Q = 28.8 ÷ 0.24 = 120. Then 48% of 120 = 57.6 = 16% of P, so P = 57.6 ÷ 0.16 = 360."
+        }
+      ],
+      "solution": "**Methodology: Chained Percentage Equivalence**\n\n**Step 1: Find Q from R**\n24% of Q = 36% of 80\n0.24Q = 28.8\nQ = 120\n\n**Step 2: Find P from Q**\n16% of P = 48% of 120\n0.16P = 57.6\nP = 360\n\n**Step 3: Check**\n16% of 360 = 57.6 ✓\n48% of 120 = 57.6 ✓\n24% of 120 = 28.8 ✓\n36% of 80 = 28.8 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Start from R = 80. Calculate 36% of 80, then use this to find Q.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "36% of 80 = 28.8 = 24% of Q. So Q = 120. Now use Q to find P.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "48% of 120 = 57.6 = 16% of P. So P = 57.6 ÷ 0.16 = 360",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "chained-reasoning",
+          "multi-step-problems"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "intermediate_value",
+          "C": "computation_error",
+          "D": "wrong_direction"
+        },
+        "solutionApproach": "Work backwards through chain → Find Q from R → Find P from Q",
+        "methodologySteps": [
+          "Read: Identify the chain of relationships R → Q → P",
+          "Calculate: 36% of 80 = 28.8 = 24% of Q → Q = 120",
+          "Solve: 48% of 120 = 57.6 = 16% of P → P = 360",
+          "Check: Verify all three relationships"
+        ],
+        "timeTarget": 120,
+        "commonErrors": [
+          "Stopping at Q",
+          "Getting chain direction wrong",
+          "Calculation errors in multi-step"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 22
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-023",
+      "questionType": "MCQ",
+      "stem": "At a school, 40% of boys equals 50% of girls. If there are 30 more boys than girls, how many students are there in total?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "150",
+          "isCorrect": false,
+          "feedback": "150 is the number of boys only. Add the 120 girls for the total."
+        },
+        {
+          "id": "B",
+          "text": "120",
+          "isCorrect": false,
+          "feedback": "120 is the number of girls only. Add the 150 boys for the total."
+        },
+        {
+          "id": "C",
+          "text": "270",
+          "isCorrect": true,
+          "feedback": "Correct! 40%B = 50%G means B = 1.25G. With B = G + 30: 1.25G = G + 30, so 0.25G = 30, G = 120. Then B = 150. Total = 270."
+        },
+        {
+          "id": "D",
+          "text": "300",
+          "isCorrect": false,
+          "feedback": "Check your ratio. 40%B = 50%G means B/G = 50/40 = 1.25, not 1.5."
+        },
+        {
+          "id": "E",
+          "text": "210",
+          "isCorrect": false,
+          "feedback": "Check your equation setup. With B = 1.25G and B = G + 30, solve for G first."
+        }
+      ],
+      "solution": "**Methodology: Percentage Equivalence with Difference**\n\n**Step 1: Convert to ratio**\n0.4B = 0.5G\nB/G = 0.5/0.4 = 1.25\nB = 1.25G\n\n**Step 2: Use difference constraint**\nB = G + 30\n1.25G = G + 30\n0.25G = 30\nG = 120\n\n**Step 3: Find B and total**\nB = G + 30 = 150\nTotal = B + G = 150 + 120 = 270\n\n**Step 4: Check**\n40% of 150 = 60\n50% of 120 = 60 ✓\n150 - 120 = 30 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "From 40%B = 50%G, what is the ratio B:G?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "B = 1.25G. Now use B = G + 30 to find G.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "G = 120, B = 150, Total = 270",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "ratio",
+          "simultaneous-equations",
+          "algebraic-thinking"
+        ],
+        "distractorTypes": {
+          "A": "partial_answer_boys",
+          "B": "partial_answer_girls",
+          "D": "wrong_ratio",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Convert percentage equality to ratio → Use difference constraint → Find both values → Sum",
+        "methodologySteps": [
+          "Read: Identify percentage relationship AND difference constraint",
+          "Translate: 40%B = 50%G → B = 1.25G",
+          "Solve: Substitute into B = G + 30, find G, then B",
+          "Check: Verify percentages equal AND difference is 30"
+        ],
+        "timeTarget": 105,
+        "commonErrors": [
+          "Giving one group instead of total",
+          "Getting ratio backwards",
+          "Not using difference constraint"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 105,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 23
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-024",
+      "questionType": "MCQ",
+      "stem": "75% of the price after a 20% discount equals the original price minus $30. What was the original price?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$60",
+          "isCorrect": false,
+          "feedback": "Check: 75% of ($60 × 0.8) = 36, but $60 - $30 = $30. These aren't equal."
+        },
+        {
+          "id": "B",
+          "text": "$120",
+          "isCorrect": false,
+          "feedback": "Check: 75% of ($120 × 0.8) = 72, but $120 - $30 = $90. These aren't equal."
+        },
+        {
+          "id": "C",
+          "text": "$100",
+          "isCorrect": false,
+          "feedback": "Check: 75% of ($100 × 0.8) = 60, but $100 - $30 = $70. These aren't equal."
+        },
+        {
+          "id": "D",
+          "text": "$50",
+          "isCorrect": false,
+          "feedback": "Check: 75% of ($50 × 0.8) = 30, but $50 - $30 = $20. These aren't equal."
+        },
+        {
+          "id": "E",
+          "text": "$75",
+          "isCorrect": true,
+          "feedback": "Correct! Let original = P. After 20% discount: 0.8P. Then 75% of 0.8P = P - 30, so 0.6P = P - 30, giving 30 = 0.4P, P = $75."
+        }
+      ],
+      "solution": "**Methodology: Complex Percentage Equivalence**\n\n**Step 1: Set up the equation**\nLet original price = P\nAfter 20% discount: 0.8P\n75% of discounted price: 0.75 × 0.8P = 0.6P\n\n**Step 2: Set up equivalence**\n0.6P = P - 30\n\n**Step 3: Solve for P**\n30 = P - 0.6P\n30 = 0.4P\nP = 75\n\n**Step 4: Check**\n75% of (75 × 0.8) = 75% of 60 = 45\n75 - 30 = 45 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Let the original price be P. What is the price after 20% discount?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "75% of 0.8P = P - 30. Simplify: 0.6P = P - 30.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "30 = 0.4P, so P = $75",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "compound-percentages",
+          "algebraic-manipulation"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "wrong_equation",
+          "C": "round_number_trap",
+          "D": "wrong_equation"
+        },
+        "solutionApproach": "Express both sides in terms of original → Combine percentage operations → Solve equation",
+        "methodologySteps": [
+          "Read: Identify compound percentage and the $30 difference",
+          "Translate: 0.75 × 0.8P = P - 30 → 0.6P = P - 30",
+          "Solve: Collect P terms and solve",
+          "Check: Verify both expressions equal"
+        ],
+        "timeTarget": 105,
+        "commonErrors": [
+          "Not combining percentages correctly",
+          "Sign errors",
+          "Wrong order of operations"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 105,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 24
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa11-025",
+      "questionType": "MCQ",
+      "stem": "If 20% of X plus 30% of Y equals 80, and 40% of X plus 10% of Y also equals 80, what is X + Y?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "400",
+          "isCorrect": false,
+          "feedback": "This is too large. Check your simultaneous equation solving."
+        },
+        {
+          "id": "B",
+          "text": "320",
+          "isCorrect": true,
+          "feedback": "Correct! From 0.2X + 0.3Y = 80 (×2): 0.4X + 0.6Y = 160. Subtract 0.4X + 0.1Y = 80: 0.5Y = 80, Y = 160. Then 0.2X + 48 = 80, X = 160. So X + Y = 320."
+        },
+        {
+          "id": "C",
+          "text": "240",
+          "isCorrect": false,
+          "feedback": "Check your elimination. After eliminating X, you get 0.5Y = 80, so Y = 160."
+        },
+        {
+          "id": "D",
+          "text": "200",
+          "isCorrect": false,
+          "feedback": "Check your simultaneous equations. Solve the system carefully."
+        },
+        {
+          "id": "E",
+          "text": "160",
+          "isCorrect": false,
+          "feedback": "This is X alone (or Y alone). The question asks for X + Y."
+        }
+      ],
+      "solution": "**Methodology: Simultaneous Percentage Equations**\n\n**Step 1: Set up the system**\n0.2X + 0.3Y = 80 ... (1)\n0.4X + 0.1Y = 80 ... (2)\n\n**Step 2: Eliminate X**\nMultiply (1) by 2: 0.4X + 0.6Y = 160\nSubtract (2): 0.5Y = 80\nY = 160\n\n**Step 3: Find X**\nSubstitute Y = 160 into (1):\n0.2X + 48 = 80\n0.2X = 32\nX = 160\n\n**Step 4: Calculate X + Y**\nX + Y = 160 + 160 = 320\n\n**Check**\n0.2(160) + 0.3(160) = 32 + 48 = 80 ✓\n0.4(160) + 0.1(160) = 64 + 16 = 80 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "You have two equations with two unknowns. Use elimination or substitution.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Multiply the first equation by 2 to make the X coefficients match, then subtract.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Y = 160, X = 160, so X + Y = 320",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Percentage Equivalence",
+        "archetypeId": "qa11",
+        "conceptsRequired": [
+          "percentages",
+          "simultaneous-equations",
+          "algebraic-manipulation"
+        ],
+        "distractorTypes": {
+          "A": "wrong_multiplier",
+          "C": "correct_but_wrong_marked",
+          "D": "computation_error",
+          "E": "partial_answer"
+        },
+        "solutionApproach": "Set up simultaneous equations → Use elimination → Solve for both → Sum",
+        "methodologySteps": [
+          "Read: Identify two equations with percentages",
+          "Translate: 0.2X + 0.3Y = 80 and 0.4X + 0.1Y = 80",
+          "Solve: Use elimination to find X and Y",
+          "Check: Verify both equations AND calculate X + Y"
+        ],
+        "timeTarget": 120,
+        "commonErrors": [
+          "Giving one variable only",
+          "Elimination errors",
+          "Not summing at the end"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa11-set1",
+        "sequenceInPaper": 25
+      },
+      "status": "published"
+    }
+  ]
+}

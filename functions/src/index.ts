@@ -56,6 +56,25 @@ export {
   gradeAnswerHealth
 } from "./curriculum-grading/endpoint";
 
+// NSW Selective AI Tutoring (TRUE AI - Phase 8)
+// These functions use LLM reasoning (not templates) for personalized tutoring
+export {
+  // Phase 8.1: Core AI Functions
+  nswSelectiveDiagnosticFeedback,
+  nswSelectiveDiagnosticFeedbackHealth,
+  nswSelectiveSessionAnalysis,
+  nswSelectiveSessionAnalysisHealth,
+  // Phase 8.2: Socratic Dialogue
+  nswSelectiveSocraticCoach,
+  nswSelectiveSocraticCoachHealth,
+  // Phase 8.3: Personalized Planning
+  nswSelectiveStudyPlan,
+  nswSelectiveStudyPlanHealth,
+  // Phase 8.4: Concept Explanation
+  nswSelectiveConceptExplainer,
+  nswSelectiveConceptExplainerHealth
+} from "./nsw-selective";
+
 // Teacher Module - REMOVED (35 functions)
 // These functions were removed to reduce deployment size and maintenance burden.
 // If needed, they can be restored from git history.

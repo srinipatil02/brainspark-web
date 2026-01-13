@@ -1,0 +1,2573 @@
+{
+  "metadata": {
+    "archetype": "Missing Value for Target Mean",
+    "archetypeId": "qa8",
+    "archetypeSlug": "missing-value-mean",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "foundation": {
+        "count": 5,
+        "difficulty": "1-2"
+      },
+      "application": {
+        "count": 10,
+        "difficulty": "2-3"
+      },
+      "connection": {
+        "count": 5,
+        "difficulty": "3"
+      },
+      "mastery": {
+        "count": 5,
+        "difficulty": "4"
+      }
+    },
+    "createdAt": "2026-01-13",
+    "version": "1.0",
+    "researchSource": ".claude/knowledge/edu/research/mathematical-reasoning-nsw-selective.json"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa8-001",
+      "questionType": "MCQ",
+      "stem": "The mean of 4 numbers is 10. Three of the numbers are 8, 12, and 6. What is the fourth number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "40",
+          "isCorrect": false,
+          "feedback": "40 is the total sum needed, not the missing number. You need to subtract the sum of the known numbers (26) from 40."
+        },
+        {
+          "id": "B",
+          "text": "16",
+          "isCorrect": false,
+          "feedback": "Check your arithmetic. The sum must be 40, and the known numbers sum to 26. 40 - 26 = 14, not 16."
+        },
+        {
+          "id": "C",
+          "text": "14",
+          "isCorrect": true,
+          "feedback": "Correct! Sum needed = 10 × 4 = 40. Sum of known = 8 + 12 + 6 = 26. Missing = 40 - 26 = 14."
+        },
+        {
+          "id": "D",
+          "text": "26",
+          "isCorrect": false,
+          "feedback": "26 is the sum of the three known numbers (8 + 12 + 6). You need to find what adds to this to make 40."
+        },
+        {
+          "id": "E",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "You might have thought the missing number equals the mean, but that's only true if all numbers are equal. Calculate: Sum = 40, Known = 26, Missing = 14."
+        }
+      ],
+      "solution": "**Methodology: Missing Value for Target Mean**\n\n**Step 1: Find the required sum**\nMean = Sum ÷ Count\n10 = Sum ÷ 4\nSum = 10 × 4 = 40\n\n**Step 2: Find sum of known values**\n8 + 12 + 6 = 26\n\n**Step 3: Find the missing value**\nMissing = Total Sum - Known Sum\nMissing = 40 - 26 = 14\n\n**Step 4: Check**\n(8 + 12 + 6 + 14) ÷ 4 = 40 ÷ 4 = 10 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The mean tells you what the total sum divided by 4 should equal.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "If Mean = Sum ÷ 4, then Sum = Mean × 4. What is the total sum needed?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Sum needed = 40. Known values sum to 26. Missing = 40 - 26 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "computation_error",
+          "D": "partial_solution",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Find required sum (Mean × Count) → Subtract sum of known values → Get missing value",
+        "methodologySteps": [
+          "Read: Identify the mean, how many numbers, and which values are known",
+          "Calculate: Required Sum = Mean × Count",
+          "Solve: Missing Value = Required Sum - Sum of Known Values",
+          "Check: Verify the mean with all values included"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Confusing sum with missing value",
+          "Thinking missing equals mean",
+          "Arithmetic errors in subtraction"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-002",
+      "questionType": "MCQ",
+      "stem": "Emma scored 75, 82, and 78 on her first three tests. What score does she need on her fourth test to have a mean of 80?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "83",
+          "isCorrect": false,
+          "feedback": "Check your arithmetic. Sum needed = 320, Current = 235. 320 - 235 = 85, not 83."
+        },
+        {
+          "id": "B",
+          "text": "320",
+          "isCorrect": false,
+          "feedback": "320 is the total sum needed for a mean of 80 over 4 tests, not the fourth test score itself."
+        },
+        {
+          "id": "C",
+          "text": "80",
+          "isCorrect": false,
+          "feedback": "80 is the target mean, not the score needed. Since her current average is below 80 (235 ÷ 3 = 78.3), she needs more than 80 on the next test."
+        },
+        {
+          "id": "D",
+          "text": "85",
+          "isCorrect": true,
+          "feedback": "Correct! Sum needed = 80 × 4 = 320. Current sum = 75 + 82 + 78 = 235. Needed = 320 - 235 = 85."
+        },
+        {
+          "id": "E",
+          "text": "78",
+          "isCorrect": false,
+          "feedback": "78 is her current average (235 ÷ 3 ≈ 78.3). To raise the average to 80, she needs a higher score."
+        }
+      ],
+      "solution": "**Methodology: Missing Value for Target Mean**\n\n**Step 1: Find the required total sum**\nMean = Sum ÷ Count\n80 = Sum ÷ 4\nSum = 80 × 4 = 320\n\n**Step 2: Find current sum**\n75 + 82 + 78 = 235\n\n**Step 3: Find the required score**\nFourth score = 320 - 235 = 85\n\n**Step 4: Check**\n(75 + 82 + 78 + 85) ÷ 4 = 320 ÷ 4 = 80 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What total sum of all 4 tests would give a mean of 80?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total needed = 80 × 4 = 320. What do the first three tests add up to?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Current sum = 235. Fourth score = 320 - 235 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "misconception_answer",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Find required sum (Mean × Count) → Subtract sum of known values → Get missing value",
+        "methodologySteps": [
+          "Read: Identify the target mean, number of tests, and current scores",
+          "Calculate: Required Sum = Target Mean × Total Count",
+          "Solve: Missing Score = Required Sum - Current Sum",
+          "Check: Verify the mean with all scores included"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Thinking missing score equals target mean",
+          "Finding sum but forgetting to subtract"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-003",
+      "questionType": "MCQ",
+      "stem": "The mean of 5 numbers is 12. Four of the numbers are 10, 15, 8, and 11. What is the fifth number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "60",
+          "isCorrect": false,
+          "feedback": "60 is the total sum needed (12 × 5), not the fifth number itself."
+        },
+        {
+          "id": "B",
+          "text": "16",
+          "isCorrect": true,
+          "feedback": "Correct! Sum needed = 12 × 5 = 60. Known sum = 10 + 15 + 8 + 11 = 44. Missing = 60 - 44 = 16."
+        },
+        {
+          "id": "C",
+          "text": "14",
+          "isCorrect": false,
+          "feedback": "Check your arithmetic. 10 + 15 + 8 + 11 = 44, and 60 - 44 = 16, not 14."
+        },
+        {
+          "id": "D",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "12 is the mean, not the missing number. The missing number doesn't have to equal the mean."
+        },
+        {
+          "id": "E",
+          "text": "44",
+          "isCorrect": false,
+          "feedback": "44 is the sum of the four known numbers. You need to find what adds to 44 to make 60."
+        }
+      ],
+      "solution": "**Methodology: Missing Value for Target Mean**\n\n**Step 1: Find the required sum**\nMean = Sum ÷ Count\n12 = Sum ÷ 5\nSum = 12 × 5 = 60\n\n**Step 2: Find sum of known values**\n10 + 15 + 8 + 11 = 44\n\n**Step 3: Find the missing value**\nMissing = 60 - 44 = 16\n\n**Step 4: Check**\n(10 + 15 + 8 + 11 + 16) ÷ 5 = 60 ÷ 5 = 12 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Start by finding what all 5 numbers should add up to.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total sum = 12 × 5 = 60. What do the four known numbers add up to?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Known sum = 44. Fifth number = 60 - 44 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "computation_error",
+          "D": "misconception_answer",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Find required sum (Mean × Count) → Subtract sum of known values → Get missing value",
+        "methodologySteps": [
+          "Read: Identify the mean, count of numbers, and known values",
+          "Calculate: Required Sum = Mean × Count",
+          "Solve: Missing Value = Required Sum - Sum of Known Values",
+          "Check: Verify the mean with all values included"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Thinking missing value equals mean",
+          "Confusing sum with missing value"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-004",
+      "questionType": "MCQ",
+      "stem": "A basketball player scored 18, 22, and 16 points in three games. How many points must he score in the fourth game to have a mean of 20 points per game?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "80",
+          "isCorrect": false,
+          "feedback": "80 is the total points needed over 4 games, not the fourth game score."
+        },
+        {
+          "id": "B",
+          "text": "24",
+          "isCorrect": true,
+          "feedback": "Correct! Sum needed = 20 × 4 = 80. Current sum = 18 + 22 + 16 = 56. Needed = 80 - 56 = 24."
+        },
+        {
+          "id": "C",
+          "text": "22",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Sum needed = 80, Current = 56. 80 - 56 = 24, not 22."
+        },
+        {
+          "id": "D",
+          "text": "56",
+          "isCorrect": false,
+          "feedback": "56 is his current total from 3 games (18 + 22 + 16). He needs 80 total, so the fourth game = 80 - 56."
+        },
+        {
+          "id": "E",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "20 is the target mean, not the score needed. Since his current average (56 ÷ 3 ≈ 18.7) is below 20, he needs more than 20."
+        }
+      ],
+      "solution": "**Methodology: Missing Value for Target Mean**\n\n**Step 1: Find the required total**\nMean = Sum ÷ Games\n20 = Sum ÷ 4\nSum = 20 × 4 = 80\n\n**Step 2: Find current total**\n18 + 22 + 16 = 56\n\n**Step 3: Find points needed**\nFourth game = 80 - 56 = 24\n\n**Step 4: Check**\n(18 + 22 + 16 + 24) ÷ 4 = 80 ÷ 4 = 20 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What total points over 4 games would give a 20-point average?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total needed = 80. Current total = 56. How many more points are needed?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Fourth game = 80 - 56 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "computation_error",
+          "D": "partial_solution",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Find required sum (Mean × Count) → Subtract sum of known values → Get missing value",
+        "methodologySteps": [
+          "Read: Identify the target mean, number of games, and current scores",
+          "Calculate: Required Total = Target Mean × Number of Games",
+          "Solve: Missing Score = Required Total - Current Total",
+          "Check: Verify the mean with all scores included"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Assuming missing score equals target mean",
+          "Confusing total with missing value"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-005",
+      "questionType": "MCQ",
+      "stem": "The mean height of 6 students is 145 cm. Five of them have heights 142, 148, 140, 150, and 144 cm. What is the height of the sixth student?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "724 cm",
+          "isCorrect": false,
+          "feedback": "724 is the sum of the 5 known heights. You need to find what adds to this to make 870."
+        },
+        {
+          "id": "B",
+          "text": "870 cm",
+          "isCorrect": false,
+          "feedback": "870 is the total sum of all 6 heights (145 × 6), not the sixth student's height."
+        },
+        {
+          "id": "C",
+          "text": "148 cm",
+          "isCorrect": false,
+          "feedback": "Check your arithmetic. 870 - 724 = 146, not 148."
+        },
+        {
+          "id": "D",
+          "text": "146 cm",
+          "isCorrect": true,
+          "feedback": "Correct! Sum needed = 145 × 6 = 870. Known sum = 142 + 148 + 140 + 150 + 144 = 724. Missing = 870 - 724 = 146."
+        },
+        {
+          "id": "E",
+          "text": "145 cm",
+          "isCorrect": false,
+          "feedback": "145 is the mean height, not the sixth student's height. The missing value doesn't have to equal the mean."
+        }
+      ],
+      "solution": "**Methodology: Missing Value for Target Mean**\n\n**Step 1: Find the required sum**\nMean = Sum ÷ Count\n145 = Sum ÷ 6\nSum = 145 × 6 = 870\n\n**Step 2: Find sum of known values**\n142 + 148 + 140 + 150 + 144 = 724\n\n**Step 3: Find the missing value**\nSixth height = 870 - 724 = 146 cm\n\n**Step 4: Check**\n(142 + 148 + 140 + 150 + 144 + 146) ÷ 6 = 870 ÷ 6 = 145 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What should all 6 heights add up to if the mean is 145?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total sum = 870. Add up the 5 known heights first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Known sum = 724. Sixth height = 870 - 724 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "partial_solution",
+          "C": "computation_error",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Find required sum (Mean × Count) → Subtract sum of known values → Get missing value",
+        "methodologySteps": [
+          "Read: Identify the mean, count, and known values",
+          "Calculate: Required Sum = Mean × Count",
+          "Solve: Missing Value = Required Sum - Sum of Known Values",
+          "Check: Verify the mean with all values included"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Thinking missing equals mean",
+          "Arithmetic errors with larger numbers"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-006",
+      "questionType": "MCQ",
+      "stem": "The daily temperatures for Monday through Friday had a mean of 24°C. The temperatures for Monday, Tuesday, Wednesday, and Thursday were 22°C, 26°C, 23°C, and 25°C. What was the temperature on Friday?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "22°C",
+          "isCorrect": false,
+          "feedback": "This is Monday's temperature. The missing value is 120 - 96 = 24°C."
+        },
+        {
+          "id": "B",
+          "text": "120°C",
+          "isCorrect": false,
+          "feedback": "120 is the total sum of all 5 days (24 × 5), not Friday's temperature."
+        },
+        {
+          "id": "C",
+          "text": "24°C",
+          "isCorrect": true,
+          "feedback": "Correct! Sum needed = 24 × 5 = 120. Known sum = 22 + 26 + 23 + 25 = 96. Friday = 120 - 96 = 24°C."
+        },
+        {
+          "id": "D",
+          "text": "96°C",
+          "isCorrect": false,
+          "feedback": "96 is the sum of the 4 known days. You need to find what adds to 96 to make 120."
+        },
+        {
+          "id": "E",
+          "text": "26°C",
+          "isCorrect": false,
+          "feedback": "Check your subtraction. 120 - 96 = 24, not 26."
+        }
+      ],
+      "solution": "**Methodology: Missing Value for Target Mean**\n\n**Step 1: Find the required sum**\nMean = Sum ÷ Days\n24 = Sum ÷ 5\nSum = 24 × 5 = 120\n\n**Step 2: Find sum of known values**\n22 + 26 + 23 + 25 = 96\n\n**Step 3: Find Friday's temperature**\nFriday = 120 - 96 = 24°C\n\n**Step 4: Check**\n(22 + 26 + 23 + 25 + 24) ÷ 5 = 120 ÷ 5 = 24 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What should all 5 days add up to for a mean of 24°C?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total = 120. Sum of Mon-Thu = 96. What's Friday?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Friday = 120 - 96 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "wrong_value_selected",
+          "B": "partial_solution",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find required sum (Mean × Count) → Subtract sum of known values → Get missing value",
+        "methodologySteps": [
+          "Read: Identify mean, number of days, and known temperatures",
+          "Calculate: Required Sum = Mean × Number of Days",
+          "Solve: Missing Temperature = Required Sum - Sum of Known Temps",
+          "Check: Verify the mean with all temperatures"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Confusing total sum with missing value",
+          "Selecting wrong existing value"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-007",
+      "questionType": "MCQ",
+      "stem": "James wants his mean score for 5 quizzes to be 18 marks. His first four scores are 16, 19, 17, and 20. What is the minimum score he needs on his fifth quiz?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "20 is his fourth quiz score. The actual minimum needed is 90 - 72 = 18."
+        },
+        {
+          "id": "B",
+          "text": "72",
+          "isCorrect": false,
+          "feedback": "72 is the sum of the first four quizzes. The fifth quiz needs to be 90 - 72 = 18."
+        },
+        {
+          "id": "C",
+          "text": "16",
+          "isCorrect": false,
+          "feedback": "16 is his first quiz score. Check: 72 + 16 = 88 ≠ 90, so mean wouldn't be 18."
+        },
+        {
+          "id": "D",
+          "text": "90",
+          "isCorrect": false,
+          "feedback": "90 is the total needed over 5 quizzes, not the fifth quiz score."
+        },
+        {
+          "id": "E",
+          "text": "18",
+          "isCorrect": true,
+          "feedback": "Correct! Sum needed = 18 × 5 = 90. Current sum = 16 + 19 + 17 + 20 = 72. Minimum needed = 90 - 72 = 18."
+        }
+      ],
+      "solution": "**Methodology: Missing Value for Target Mean**\n\n**Step 1: Find the required sum**\nMean = Sum ÷ Quizzes\n18 = Sum ÷ 5\nSum = 18 × 5 = 90\n\n**Step 2: Find current sum**\n16 + 19 + 17 + 20 = 72\n\n**Step 3: Find minimum score needed**\nFifth quiz = 90 - 72 = 18\n\n**Step 4: Check**\n(16 + 19 + 17 + 20 + 18) ÷ 5 = 90 ÷ 5 = 18 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "For a mean of 18 over 5 quizzes, what should the total be?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total needed = 90. First 4 quizzes = 72. Fifth quiz = ?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Fifth quiz = 90 - 72 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "wrong_value_selected",
+          "B": "partial_solution",
+          "C": "wrong_value_selected",
+          "D": "partial_solution"
+        },
+        "solutionApproach": "Find required sum (Mean × Count) → Subtract sum of known values → Get missing value",
+        "methodologySteps": [
+          "Read: Identify target mean, number of quizzes, and current scores",
+          "Calculate: Required Sum = Target Mean × Number of Quizzes",
+          "Solve: Missing Score = Required Sum - Current Sum",
+          "Check: Verify the mean with all scores"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Selecting an existing value",
+          "Confusing total with missing value"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-008",
+      "questionType": "MCQ",
+      "stem": "The mean of six numbers is 15. If five of the numbers are 12, 18, 14, 16, and 13, what is the sixth number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "15",
+          "isCorrect": false,
+          "feedback": "15 is the mean, not the sixth number. Calculate: Sum = 90, Known = 73, Missing = 17."
+        },
+        {
+          "id": "B",
+          "text": "19",
+          "isCorrect": false,
+          "feedback": "Check your arithmetic. 12 + 18 + 14 + 16 + 13 = 73, and 90 - 73 = 17, not 19."
+        },
+        {
+          "id": "C",
+          "text": "90",
+          "isCorrect": false,
+          "feedback": "90 is the total sum needed (15 × 6), not the sixth number."
+        },
+        {
+          "id": "D",
+          "text": "17",
+          "isCorrect": true,
+          "feedback": "Correct! Sum needed = 15 × 6 = 90. Known sum = 12 + 18 + 14 + 16 + 13 = 73. Missing = 90 - 73 = 17."
+        },
+        {
+          "id": "E",
+          "text": "73",
+          "isCorrect": false,
+          "feedback": "73 is the sum of the 5 known numbers. The sixth number = 90 - 73 = 17."
+        }
+      ],
+      "solution": "**Methodology: Missing Value for Target Mean**\n\n**Step 1: Find the required sum**\nMean = Sum ÷ Count\n15 = Sum ÷ 6\nSum = 15 × 6 = 90\n\n**Step 2: Find sum of known values**\n12 + 18 + 14 + 16 + 13 = 73\n\n**Step 3: Find the missing value**\nSixth number = 90 - 73 = 17\n\n**Step 4: Check**\n(12 + 18 + 14 + 16 + 13 + 17) ÷ 6 = 90 ÷ 6 = 15 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What's the total sum when the mean is 15 and there are 6 numbers?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Sum = 90. Add the 5 known numbers first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Known = 73. Sixth = 90 - 73 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "computation_error",
+          "C": "partial_solution",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Find required sum (Mean × Count) → Subtract sum of known values → Get missing value",
+        "methodologySteps": [
+          "Read: Identify mean, count, and known values",
+          "Calculate: Required Sum = Mean × Count",
+          "Solve: Missing Value = Required Sum - Known Sum",
+          "Check: Verify the mean"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Thinking missing equals mean",
+          "Arithmetic errors in addition"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-009",
+      "questionType": "MCQ",
+      "stem": "A shop sold an average of 35 items per day over 7 days. On six of those days, the shop sold 32, 40, 28, 38, 36, and 34 items. How many items were sold on the seventh day?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "35",
+          "isCorrect": false,
+          "feedback": "35 is the average per day, not the seventh day's sales. Calculate: 245 - 208 = 37."
+        },
+        {
+          "id": "B",
+          "text": "39",
+          "isCorrect": false,
+          "feedback": "Check your arithmetic. 245 - 208 = 37, not 39."
+        },
+        {
+          "id": "C",
+          "text": "208",
+          "isCorrect": false,
+          "feedback": "208 is the sum of items sold on the 6 known days. Seventh day = 245 - 208 = 37."
+        },
+        {
+          "id": "D",
+          "text": "37",
+          "isCorrect": true,
+          "feedback": "Correct! Total items = 35 × 7 = 245. Known days = 32 + 40 + 28 + 38 + 36 + 34 = 208. Seventh day = 245 - 208 = 37."
+        },
+        {
+          "id": "E",
+          "text": "245",
+          "isCorrect": false,
+          "feedback": "245 is the total items sold over 7 days, not the seventh day."
+        }
+      ],
+      "solution": "**Methodology: Missing Value for Target Mean**\n\n**Step 1: Find the total items**\nMean = Total ÷ Days\n35 = Total ÷ 7\nTotal = 35 × 7 = 245\n\n**Step 2: Find known days' total**\n32 + 40 + 28 + 38 + 36 + 34 = 208\n\n**Step 3: Find seventh day**\nSeventh day = 245 - 208 = 37\n\n**Step 4: Check**\n(32 + 40 + 28 + 38 + 36 + 34 + 37) ÷ 7 = 245 ÷ 7 = 35 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "For an average of 35 items over 7 days, what's the total?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total = 245. Add the 6 known days first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Known = 208. Seventh day = 245 - 208 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "computation_error",
+          "C": "partial_solution",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Find required total (Mean × Count) → Subtract sum of known values → Get missing value",
+        "methodologySteps": [
+          "Read: Identify average, number of days, and known sales",
+          "Calculate: Total Items = Average × Number of Days",
+          "Solve: Missing Day = Total - Known Days Sum",
+          "Check: Verify the average"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Thinking missing equals mean",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-010",
+      "questionType": "MCQ",
+      "stem": "The mean weight of 8 boxes is 12.5 kg. Seven of the boxes weigh 10, 14, 11, 15, 12, 13, and 11 kg. What is the weight of the eighth box?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "100 kg",
+          "isCorrect": false,
+          "feedback": "100 kg is the total weight of all 8 boxes, not the eighth box."
+        },
+        {
+          "id": "B",
+          "text": "12.5 kg",
+          "isCorrect": false,
+          "feedback": "12.5 kg is the mean weight, not the eighth box's weight. Calculate: 100 - 86 = 14 kg."
+        },
+        {
+          "id": "C",
+          "text": "86 kg",
+          "isCorrect": false,
+          "feedback": "86 kg is the sum of the 7 known boxes. Eighth = 100 - 86 = 14 kg."
+        },
+        {
+          "id": "D",
+          "text": "12 kg",
+          "isCorrect": false,
+          "feedback": "Check your subtraction. 100 - 86 = 14, not 12."
+        },
+        {
+          "id": "E",
+          "text": "14 kg",
+          "isCorrect": true,
+          "feedback": "Correct! Total = 12.5 × 8 = 100 kg. Known = 10 + 14 + 11 + 15 + 12 + 13 + 11 = 86 kg. Eighth = 100 - 86 = 14 kg."
+        }
+      ],
+      "solution": "**Methodology: Missing Value for Target Mean**\n\n**Step 1: Find the total weight**\nMean = Total ÷ Count\n12.5 = Total ÷ 8\nTotal = 12.5 × 8 = 100 kg\n\n**Step 2: Find known boxes' weight**\n10 + 14 + 11 + 15 + 12 + 13 + 11 = 86 kg\n\n**Step 3: Find eighth box**\nEighth box = 100 - 86 = 14 kg\n\n**Step 4: Check**\n(10 + 14 + 11 + 15 + 12 + 13 + 11 + 14) ÷ 8 = 100 ÷ 8 = 12.5 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "For a mean of 12.5 kg over 8 boxes, what's the total weight?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total = 100 kg. Add the 7 known weights.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Known = 86 kg. Eighth box = 100 - 86 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "subtraction",
+          "multiplication",
+          "decimals",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "misconception_answer",
+          "C": "partial_solution",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Find required total (Mean × Count) → Subtract sum of known values → Get missing value",
+        "methodologySteps": [
+          "Read: Identify mean, count, and known values",
+          "Calculate: Total Weight = Mean × Count",
+          "Solve: Missing Weight = Total - Known Sum",
+          "Check: Verify the mean"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Decimal multiplication errors",
+          "Arithmetic errors in addition"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-011",
+      "questionType": "MCQ",
+      "stem": "After five matches, a cricket team's mean score was 180 runs. In their sixth match, they scored 210 runs. What is their new mean score?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "195",
+          "isCorrect": false,
+          "feedback": "You might have averaged 180 and 210, but you need to include all 6 games. New total = 1110, Mean = 1110 ÷ 6 = 185."
+        },
+        {
+          "id": "B",
+          "text": "190",
+          "isCorrect": false,
+          "feedback": "Check your division. Total = 1110, Count = 6. 1110 ÷ 6 = 185, not 190."
+        },
+        {
+          "id": "C",
+          "text": "180",
+          "isCorrect": false,
+          "feedback": "The mean changes when you add a new score. Since 210 > 180, the new mean will be higher than 180."
+        },
+        {
+          "id": "D",
+          "text": "210",
+          "isCorrect": false,
+          "feedback": "210 is just the sixth match score. The new mean includes all 6 games."
+        },
+        {
+          "id": "E",
+          "text": "185",
+          "isCorrect": true,
+          "feedback": "Correct! Original total = 180 × 5 = 900. New total = 900 + 210 = 1110. New mean = 1110 ÷ 6 = 185."
+        }
+      ],
+      "solution": "**Methodology: Adding to Mean**\n\n**Step 1: Find original total**\nOriginal Mean = 180, Games = 5\nOriginal Total = 180 × 5 = 900\n\n**Step 2: Calculate new total**\nNew Total = 900 + 210 = 1110\n\n**Step 3: Find new mean**\nNew Mean = 1110 ÷ 6 = 185\n\n**Step 4: Check**\nThe sixth score (210) is 30 above the old mean.\nThe mean increases by 30 ÷ 6 = 5, so new mean = 180 + 5 = 185 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find the total runs from the first 5 matches.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Original total = 900. Add the sixth match to get the new total, then divide by 6.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "New total = 1110. New mean = 1110 ÷ 6 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "division",
+          "updating-statistics"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "computation_error",
+          "C": "misconception_answer",
+          "D": "partial_solution"
+        },
+        "solutionApproach": "Find original total → Add new value → Divide by new count",
+        "methodologySteps": [
+          "Read: Identify original mean, count, and new value",
+          "Calculate: Original Total = Old Mean × Old Count",
+          "Solve: New Mean = (Original Total + New Value) ÷ New Count",
+          "Check: Verify the answer makes sense"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Averaging the old mean with new value",
+          "Forgetting to update the count"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 11
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-012",
+      "questionType": "MCQ",
+      "stem": "The mean of 8 numbers is 25. When one number is removed, the mean of the remaining 7 numbers is 24. What number was removed?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "200",
+          "isCorrect": false,
+          "feedback": "200 is the original sum of 8 numbers. The removed number = 200 - 168 = 32."
+        },
+        {
+          "id": "B",
+          "text": "32",
+          "isCorrect": true,
+          "feedback": "Correct! Original sum = 25 × 8 = 200. New sum = 24 × 7 = 168. Removed = 200 - 168 = 32."
+        },
+        {
+          "id": "C",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "24 is the new mean after removal. The removed number = 200 - 168 = 32."
+        },
+        {
+          "id": "D",
+          "text": "25",
+          "isCorrect": false,
+          "feedback": "If the removed number equaled the old mean (25), the new mean would stay at 25, not drop to 24. The removed number must be larger."
+        },
+        {
+          "id": "E",
+          "text": "168",
+          "isCorrect": false,
+          "feedback": "168 is the sum of the remaining 7 numbers. The removed number = 200 - 168 = 32."
+        }
+      ],
+      "solution": "**Methodology: Finding Removed Value**\n\n**Step 1: Find original sum**\nOriginal Sum = 25 × 8 = 200\n\n**Step 2: Find new sum**\nNew Sum = 24 × 7 = 168\n\n**Step 3: Find removed number**\nRemoved = Original Sum - New Sum = 200 - 168 = 32\n\n**Step 4: Check**\nIf we remove 32 from a sum of 200: 200 - 32 = 168\n168 ÷ 7 = 24 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Calculate both totals: before and after removal.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Original total = 200. New total = 168. What's the difference?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Removed number = 200 - 168 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "misconception_answer",
+          "D": "misconception_answer",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Find original sum → Find new sum → Difference is the removed value",
+        "methodologySteps": [
+          "Read: Identify original mean/count and new mean/count",
+          "Calculate: Original Sum = 25 × 8, New Sum = 24 × 7",
+          "Solve: Removed Value = Original Sum - New Sum",
+          "Check: Verify the new mean"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Thinking removed value equals one of the means",
+          "Confusing sums with the removed value"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 12
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-013",
+      "questionType": "MCQ",
+      "stem": "The mean of a set of numbers is 18. If 3 is added to each number in the set, what is the new mean?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "This isn't correct. When 3 is added to each number, the mean increases by 3 (not divided by 3)."
+        },
+        {
+          "id": "B",
+          "text": "21",
+          "isCorrect": true,
+          "feedback": "Correct! When you add the same value to every number, the mean increases by that value. New mean = 18 + 3 = 21."
+        },
+        {
+          "id": "C",
+          "text": "15",
+          "isCorrect": false,
+          "feedback": "The mean increases, not decreases. New mean = 18 + 3 = 21."
+        },
+        {
+          "id": "D",
+          "text": "18",
+          "isCorrect": false,
+          "feedback": "The mean changes when you add to every number. If each number increases by 3, the mean also increases by 3."
+        },
+        {
+          "id": "E",
+          "text": "54",
+          "isCorrect": false,
+          "feedback": "You might have multiplied 18 × 3. When we ADD 3 to each number, the mean increases by 3, not multiplied."
+        }
+      ],
+      "solution": "**Methodology: Effect of Adding to All Values**\n\n**Key Principle:**\nWhen you add the same value k to every number in a set, the mean increases by k.\n\n**Proof:**\nOriginal: (a₁ + a₂ + ... + aₙ) ÷ n = Mean\nAfter adding 3: ((a₁+3) + (a₂+3) + ... + (aₙ+3)) ÷ n\n= (a₁ + a₂ + ... + aₙ + 3n) ÷ n\n= Mean + 3\n\n**Answer:**\nNew mean = 18 + 3 = 21",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What happens to the sum when you add 3 to each of n numbers?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "If you add 3 to each of n numbers, the total increases by 3n. Divided by n, that's +3.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "The mean increases by the same amount added to each number. New mean = 18 + 3 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "properties-of-mean",
+          "algebraic-reasoning"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "C": "sign_error",
+          "D": "misconception_answer",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Adding k to all values increases the mean by k",
+        "methodologySteps": [
+          "Read: Identify what's being added to each number",
+          "Recall: Adding k to every number increases the mean by k",
+          "Solve: New Mean = Original Mean + k",
+          "Check: Verify with a simple example if unsure"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Thinking mean doesn't change",
+          "Multiplying instead of adding"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 13
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-014",
+      "questionType": "MCQ",
+      "stem": "The mean of a set of numbers is 20. If every number is multiplied by 3, what is the new mean?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "23",
+          "isCorrect": false,
+          "feedback": "You added 3 instead of multiplying. When we MULTIPLY each number by 3, the mean is multiplied by 3."
+        },
+        {
+          "id": "B",
+          "text": "60",
+          "isCorrect": true,
+          "feedback": "Correct! When you multiply every number by k, the mean is also multiplied by k. New mean = 20 × 3 = 60."
+        },
+        {
+          "id": "C",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "The mean changes when you multiply every number. The new mean = 20 × 3 = 60."
+        },
+        {
+          "id": "D",
+          "text": "6.67",
+          "isCorrect": false,
+          "feedback": "You divided by 3 instead of multiplying. The new mean = 20 × 3 = 60."
+        },
+        {
+          "id": "E",
+          "text": "17",
+          "isCorrect": false,
+          "feedback": "This isn't correct. When multiplying all values by 3, the mean is also multiplied by 3."
+        }
+      ],
+      "solution": "**Methodology: Effect of Multiplying All Values**\n\n**Key Principle:**\nWhen you multiply every number in a set by k, the mean is also multiplied by k.\n\n**Proof:**\nOriginal: (a₁ + a₂ + ... + aₙ) ÷ n = Mean\nAfter multiplying by 3: (3a₁ + 3a₂ + ... + 3aₙ) ÷ n\n= 3(a₁ + a₂ + ... + aₙ) ÷ n\n= 3 × Mean\n\n**Answer:**\nNew mean = 20 × 3 = 60",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What happens to the sum when you multiply each number by 3?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "If you multiply each number by 3, the sum is also multiplied by 3. What about the mean?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "The mean is multiplied by the same factor. New mean = 20 × 3 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "multiplication",
+          "properties-of-mean",
+          "algebraic-reasoning"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "C": "misconception_answer",
+          "D": "inverted_operation",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Multiplying all values by k multiplies the mean by k",
+        "methodologySteps": [
+          "Read: Identify what each number is multiplied by",
+          "Recall: Multiplying every number by k multiplies the mean by k",
+          "Solve: New Mean = Original Mean × k",
+          "Check: Verify with a simple example if unsure"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Adding instead of multiplying",
+          "Thinking mean doesn't change",
+          "Dividing instead of multiplying"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 14
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-015",
+      "questionType": "MCQ",
+      "stem": "The mean of 10 numbers is 45. If two of the numbers, 30 and 60, are removed, what is the mean of the remaining 8 numbers?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "50",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 360 ÷ 8 = 45, not 50."
+        },
+        {
+          "id": "B",
+          "text": "45",
+          "isCorrect": true,
+          "feedback": "Correct! Original sum = 450. Removed sum = 30 + 60 = 90. Remaining sum = 360. Mean = 360 ÷ 8 = 45."
+        },
+        {
+          "id": "C",
+          "text": "360",
+          "isCorrect": false,
+          "feedback": "360 is the sum of the remaining 8 numbers. The mean = 360 ÷ 8 = 45."
+        },
+        {
+          "id": "D",
+          "text": "42",
+          "isCorrect": false,
+          "feedback": "Remaining sum = 360, and 360 ÷ 8 = 45, not 42."
+        },
+        {
+          "id": "E",
+          "text": "48.75",
+          "isCorrect": false,
+          "feedback": "Check: Remaining sum = 450 - 90 = 360. Mean = 360 ÷ 8 = 45, not 48.75."
+        }
+      ],
+      "solution": "**Methodology: Removing Values from Mean**\n\n**Step 1: Find original sum**\nOriginal Sum = 45 × 10 = 450\n\n**Step 2: Find sum of removed numbers**\nRemoved = 30 + 60 = 90\n\n**Step 3: Find remaining sum**\nRemaining Sum = 450 - 90 = 360\n\n**Step 4: Calculate new mean**\nNew Mean = 360 ÷ 8 = 45\n\n**Note:** The mean stayed the same because the two removed numbers average to 45 (the original mean)!",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the original sum, then subtract what was removed.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Original sum = 450. Removed = 90. What's remaining? Divide by 8.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 360. New mean = 360 ÷ 8 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "subtraction",
+          "division",
+          "updating-statistics"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "partial_solution",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find original sum → Subtract removed values → Divide by new count",
+        "methodologySteps": [
+          "Read: Identify original mean, count, and which values are removed",
+          "Calculate: Original Sum = Mean × Count; Removed Sum",
+          "Solve: New Mean = (Original Sum - Removed Sum) ÷ New Count",
+          "Check: Verify the answer"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Forgetting to update the count",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 15
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-016",
+      "questionType": "MCQ",
+      "stem": "The mean of three numbers is 24. If two more numbers are added, the mean of all five becomes 30. What is the sum of the two new numbers?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "150",
+          "isCorrect": false,
+          "feedback": "150 is the new total of all 5 numbers. The two added numbers = 150 - 72 = 78."
+        },
+        {
+          "id": "B",
+          "text": "30",
+          "isCorrect": false,
+          "feedback": "30 is the new mean, not the sum of the two added numbers."
+        },
+        {
+          "id": "C",
+          "text": "72",
+          "isCorrect": false,
+          "feedback": "72 is the original sum of 3 numbers. The two new numbers = 150 - 72 = 78."
+        },
+        {
+          "id": "D",
+          "text": "78",
+          "isCorrect": true,
+          "feedback": "Correct! Original sum = 24 × 3 = 72. New sum = 30 × 5 = 150. Added = 150 - 72 = 78."
+        },
+        {
+          "id": "E",
+          "text": "60",
+          "isCorrect": false,
+          "feedback": "You might have calculated 30 × 2. The two new numbers together = 150 - 72 = 78."
+        }
+      ],
+      "solution": "**Methodology: Finding Added Sum**\n\n**Step 1: Find original sum**\nOriginal Sum = 24 × 3 = 72\n\n**Step 2: Find new total sum**\nNew Sum = 30 × 5 = 150\n\n**Step 3: Find sum of added numbers**\nAdded = New Sum - Original Sum = 150 - 72 = 78\n\n**Step 4: Check**\nIf original 3 sum to 72 and new 2 sum to 78:\nTotal = 150, Mean = 150 ÷ 5 = 30 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find both sums: before and after adding the two numbers.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Original sum = 72. New sum = 150. What's the difference?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Sum of added numbers = 150 - 72 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "misconception_answer",
+          "C": "partial_solution",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Find original sum → Find new sum → Difference is the added sum",
+        "methodologySteps": [
+          "Read: Identify original mean/count and new mean/count",
+          "Calculate: Original Sum and New Sum",
+          "Solve: Added Sum = New Sum - Original Sum",
+          "Check: Verify the new mean"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Confusing individual sums with the difference",
+          "Wrong multiplication"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 16
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-017",
+      "questionType": "MCQ",
+      "stem": "The mean of 4 test scores is 75. The first three scores are 80, 70, and 68. If the fourth score is replaced by a score 12 points higher, what will the new mean be?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "87",
+          "isCorrect": false,
+          "feedback": "You added 12 to the mean. But increasing one value by 12 only adds 12 to the sum, so mean increases by 12 ÷ 4 = 3."
+        },
+        {
+          "id": "B",
+          "text": "78",
+          "isCorrect": true,
+          "feedback": "Correct! When one value increases by 12, the sum increases by 12. New mean = 75 + (12 ÷ 4) = 75 + 3 = 78."
+        },
+        {
+          "id": "C",
+          "text": "75",
+          "isCorrect": false,
+          "feedback": "The mean changes when a score is replaced with a higher one. Mean increases by 12 ÷ 4 = 3."
+        },
+        {
+          "id": "D",
+          "text": "94",
+          "isCorrect": false,
+          "feedback": "94 would be the replacement score (82 + 12). The new mean = 75 + 3 = 78."
+        },
+        {
+          "id": "E",
+          "text": "82",
+          "isCorrect": false,
+          "feedback": "This would be the new fourth score (original was 82: 300 - 218 = 82), not the new mean. Mean = 75 + 3 = 78."
+        }
+      ],
+      "solution": "**Methodology: Effect of Replacing One Value**\n\n**Key Insight:**\nWhen one value in a set increases by k, the sum increases by k, so the mean increases by k ÷ n.\n\n**Step 1: Calculate mean increase**\nIncrease in sum = 12\nNumber of values = 4\nMean increase = 12 ÷ 4 = 3\n\n**Step 2: Find new mean**\nNew mean = 75 + 3 = 78\n\n**Verification:**\nOriginal sum = 75 × 4 = 300\nFourth score = 300 - 80 - 70 - 68 = 82\nNew fourth = 82 + 12 = 94\nNew sum = 80 + 70 + 68 + 94 = 312\nNew mean = 312 ÷ 4 = 78 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If one score increases by 12, how much does the total increase?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total increases by 12. Spread over 4 scores, how much does the mean increase?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Mean increases by 12 ÷ 4 = 3. New mean = 75 + 3 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "division",
+          "properties-of-mean"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "C": "misconception_answer",
+          "D": "wrong_value_selected",
+          "E": "wrong_value_selected"
+        },
+        "solutionApproach": "Increase in mean = Change in value ÷ Number of values",
+        "methodologySteps": [
+          "Read: Identify what value changed and by how much",
+          "Calculate: Change in sum = change in one value",
+          "Solve: New Mean = Old Mean + (Change ÷ Count)",
+          "Check: Verify by calculating full values if time permits"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Adding the full increase to the mean",
+          "Confusing replaced value with mean"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 17
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-018",
+      "questionType": "MCQ",
+      "stem": "The mean age of a group of 5 people is 32 years. When a sixth person joins, the mean age becomes 30 years. How old is the sixth person?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "28 years",
+          "isCorrect": false,
+          "feedback": "Check: 180 - 160 = 20, not 28."
+        },
+        {
+          "id": "B",
+          "text": "180 years",
+          "isCorrect": false,
+          "feedback": "180 is the new total age. The sixth person = 180 - 160 = 20 years."
+        },
+        {
+          "id": "C",
+          "text": "30 years",
+          "isCorrect": false,
+          "feedback": "30 is the new mean. Since the mean DECREASED, the new person must be younger than 32. Calculate: 180 - 160 = 20."
+        },
+        {
+          "id": "D",
+          "text": "160 years",
+          "isCorrect": false,
+          "feedback": "160 is the original total age. The sixth person = 180 - 160 = 20 years."
+        },
+        {
+          "id": "E",
+          "text": "20 years",
+          "isCorrect": true,
+          "feedback": "Correct! Original sum = 32 × 5 = 160. New sum = 30 × 6 = 180. Sixth person = 180 - 160 = 20 years."
+        }
+      ],
+      "solution": "**Methodology: Finding Added Value**\n\n**Step 1: Find original sum**\nOriginal Sum = 32 × 5 = 160\n\n**Step 2: Find new sum**\nNew Sum = 30 × 6 = 180\n\n**Step 3: Find sixth person's age**\nSixth person = 180 - 160 = 20 years\n\n**Step 4: Check**\nMean decreased (32 → 30), which makes sense because 20 < 32 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Calculate the total age before and after the sixth person joins.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Original total = 160. New total = 180. The sixth person's age is the difference.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Sixth person = 180 - 160 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "subtraction",
+          "multiplication",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "misconception_answer",
+          "D": "partial_solution"
+        },
+        "solutionApproach": "Find original sum → Find new sum → Difference is the new value",
+        "methodologySteps": [
+          "Read: Identify original mean/count and new mean/count",
+          "Calculate: Original Sum and New Sum",
+          "Solve: New Person = New Sum - Original Sum",
+          "Check: Verify direction of mean change makes sense"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Thinking the new person equals the new mean",
+          "Confusing sums"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 18
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-019",
+      "questionType": "MCQ",
+      "stem": "A student's mean score on 4 exams is 72. She wants her mean after 5 exams to be at least 75. What is the minimum score she needs on her fifth exam?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "75",
+          "isCorrect": false,
+          "feedback": "If she scores 75, her new mean = (288 + 75) ÷ 5 = 72.6, which is less than 75. She needs higher."
+        },
+        {
+          "id": "B",
+          "text": "90",
+          "isCorrect": false,
+          "feedback": "87 is the minimum needed. 90 would work, but it's more than necessary."
+        },
+        {
+          "id": "C",
+          "text": "375",
+          "isCorrect": false,
+          "feedback": "375 is the target total for 5 exams. Fifth exam = 375 - 288 = 87."
+        },
+        {
+          "id": "D",
+          "text": "87",
+          "isCorrect": true,
+          "feedback": "Correct! Current sum = 72 × 4 = 288. Target sum = 75 × 5 = 375. Minimum needed = 375 - 288 = 87."
+        },
+        {
+          "id": "E",
+          "text": "78",
+          "isCorrect": false,
+          "feedback": "Check: (288 + 78) ÷ 5 = 73.2, still below 75. She needs 375 - 288 = 87."
+        }
+      ],
+      "solution": "**Methodology: Minimum Score for Target Mean**\n\n**Step 1: Find current sum**\nCurrent Sum = 72 × 4 = 288\n\n**Step 2: Find target sum**\nTarget Sum = 75 × 5 = 375\n\n**Step 3: Find minimum score needed**\nFifth exam = 375 - 288 = 87\n\n**Step 4: Check**\n(288 + 87) ÷ 5 = 375 ÷ 5 = 75 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What total score over 5 exams gives a mean of 75?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Target total = 375. Current total = 288. What's the gap?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Minimum score = 375 - 288 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "subtraction",
+          "multiplication",
+          "inequalities",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "plausible_wrong",
+          "C": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find target sum (Mean × Count) → Subtract current sum → Get minimum needed",
+        "methodologySteps": [
+          "Read: Identify current mean, target mean, and counts",
+          "Calculate: Target Sum = Target Mean × New Count",
+          "Solve: Minimum Score = Target Sum - Current Sum",
+          "Check: Verify this achieves the target mean"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Thinking score equals target mean",
+          "Not reaching target"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 19
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-020",
+      "questionType": "MCQ",
+      "stem": "The mean of the first n positive integers is 8. What is the value of n?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "The mean of 1 to 8 is (1+8)/2 = 4.5, not 8. Use the formula: mean = (n+1)/2 = 8, so n = 15."
+        },
+        {
+          "id": "B",
+          "text": "16",
+          "isCorrect": false,
+          "feedback": "Close! n+1 = 16, but we need n, which is 15."
+        },
+        {
+          "id": "C",
+          "text": "7",
+          "isCorrect": false,
+          "feedback": "Mean of 1 to 7 is (1+7)/2 = 4, not 8. The answer is n = 15."
+        },
+        {
+          "id": "D",
+          "text": "15",
+          "isCorrect": true,
+          "feedback": "Correct! Sum of first n integers = n(n+1)/2. Mean = n(n+1)/(2n) = (n+1)/2 = 8. So n+1 = 16, n = 15."
+        },
+        {
+          "id": "E",
+          "text": "64",
+          "isCorrect": false,
+          "feedback": "This might come from 8². The formula is (n+1)/2 = 8, so n = 15."
+        }
+      ],
+      "solution": "**Methodology: Mean of Consecutive Integers**\n\n**Key Formula:**\nFor integers 1, 2, 3, ..., n:\n- Sum = n(n+1)/2\n- Mean = Sum ÷ n = n(n+1)/(2n) = (n+1)/2\n\n**Step 1: Set up equation**\nMean = (n+1)/2 = 8\n\n**Step 2: Solve for n**\nn + 1 = 16\nn = 15\n\n**Step 3: Check**\nSum of 1 to 15 = 15(16)/2 = 120\nMean = 120 ÷ 15 = 8 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "For consecutive integers from 1 to n, the mean is the middle value.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "The mean of 1 to n is (1 + n)/2 = (n+1)/2. Set this equal to 8.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "(n+1)/2 = 8, so n+1 = 16, n = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "consecutive-integers",
+          "algebraic-reasoning",
+          "arithmetic-series"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "off_by_one",
+          "C": "computation_error",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Use formula: Mean of 1 to n is (n+1)/2. Solve for n.",
+        "methodologySteps": [
+          "Read: Identify this is about consecutive integers 1, 2, ..., n",
+          "Recall: Mean of 1 to n = (n+1)/2",
+          "Solve: (n+1)/2 = 8 → n = 15",
+          "Check: Sum = 120, Mean = 120 ÷ 15 = 8 ✓"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Thinking n = mean",
+          "Off by one error"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 20
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-021",
+      "questionType": "MCQ",
+      "stem": "The mean of 5 consecutive even numbers is 24. What is the largest of these numbers?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "30",
+          "isCorrect": false,
+          "feedback": "The numbers are 20, 22, 24, 26, 28. The largest is 28, not 30."
+        },
+        {
+          "id": "B",
+          "text": "26",
+          "isCorrect": false,
+          "feedback": "26 is the 4th number. The 5th (largest) is 28."
+        },
+        {
+          "id": "C",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "24 is the mean and the middle number. The largest is 2 steps above: 24 + 4 = 28."
+        },
+        {
+          "id": "D",
+          "text": "28",
+          "isCorrect": true,
+          "feedback": "Correct! The middle (3rd) number equals the mean = 24. So the numbers are 20, 22, 24, 26, 28. Largest = 28."
+        },
+        {
+          "id": "E",
+          "text": "32",
+          "isCorrect": false,
+          "feedback": "Check: The 5 consecutive even numbers centered at 24 end at 28, not 32."
+        }
+      ],
+      "solution": "**Methodology: Consecutive Numbers and Mean**\n\n**Key Insight:**\nFor any consecutive sequence (even, odd, or all), the mean equals the middle term.\n\n**Step 1: Identify the middle number**\nFor 5 numbers, the 3rd is the middle.\nMiddle = Mean = 24\n\n**Step 2: List all numbers**\nConsecutive even numbers centered at 24:\n24 - 4 = 20 (1st)\n24 - 2 = 22 (2nd)\n24 (middle)\n24 + 2 = 26 (4th)\n24 + 4 = 28 (5th)\n\n**Step 3: Answer**\nLargest = 28\n\n**Step 4: Check**\n(20 + 22 + 24 + 26 + 28) ÷ 5 = 120 ÷ 5 = 24 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "For an odd count of consecutive numbers, the mean equals the middle number.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Middle number = 24. Even numbers: 20, 22, 24, 26, ?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "The numbers are 20, 22, 24, 26, 28. Largest = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "consecutive-numbers",
+          "even-numbers",
+          "patterns"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "off_by_one",
+          "C": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Mean = Middle term for consecutive numbers. Find the sequence.",
+        "methodologySteps": [
+          "Read: Identify consecutive even numbers and mean",
+          "Recall: For odd count, mean = middle term",
+          "Solve: Build sequence around the middle term",
+          "Check: Verify sum and mean"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Thinking mean is the largest",
+          "Wrong step size (using 1 instead of 2)"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 21
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-022",
+      "questionType": "MCQ",
+      "stem": "The mean of 6 numbers is 50. One number is changed from 30 to 54. What is the new mean?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "54",
+          "isCorrect": true,
+          "feedback": "Correct! The change is +24 (from 30 to 54). New mean = 50 + (24 ÷ 6) = 50 + 4 = 54."
+        },
+        {
+          "id": "B",
+          "text": "46",
+          "isCorrect": false,
+          "feedback": "The number increased, so the mean should increase too. New mean = 54."
+        },
+        {
+          "id": "C",
+          "text": "52",
+          "isCorrect": false,
+          "feedback": "Check: Change = 24, Count = 6. Mean increase = 24 ÷ 6 = 4. New mean = 50 + 4 = 54."
+        },
+        {
+          "id": "D",
+          "text": "50",
+          "isCorrect": false,
+          "feedback": "The mean changes when one value changes. It increases by (54-30) ÷ 6 = 4, giving new mean = 54."
+        },
+        {
+          "id": "E",
+          "text": "74",
+          "isCorrect": false,
+          "feedback": "You added 24 to the mean. But the increase of 24 is spread across 6 numbers, so mean increases by 24 ÷ 6 = 4."
+        }
+      ],
+      "solution": "**Methodology: Effect of Changing One Value**\n\n**Step 1: Calculate the change**\nChange = 54 - 30 = +24\n\n**Step 2: Calculate mean change**\nMean change = Change ÷ Count = 24 ÷ 6 = 4\n\n**Step 3: Find new mean**\nNew mean = 50 + 4 = 54\n\n**Verification:**\nOriginal sum = 50 × 6 = 300\nNew sum = 300 - 30 + 54 = 324\nNew mean = 324 ÷ 6 = 54 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How much did the one number change by?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Change = +24. Distributed over 6 numbers, how much does the mean change?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Mean increases by 24 ÷ 6 = 4. New mean = 50 + 4 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "addition",
+          "division",
+          "properties-of-mean"
+        ],
+        "distractorTypes": {
+          "B": "sign_error",
+          "C": "computation_error",
+          "D": "misconception_answer",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Mean change = Value change ÷ Count. Add to original mean.",
+        "methodologySteps": [
+          "Read: Identify original mean, count, and value change",
+          "Calculate: Change = New Value - Old Value",
+          "Solve: New Mean = Old Mean + (Change ÷ Count)",
+          "Check: Verify direction makes sense"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Adding full change to mean",
+          "Subtracting instead of adding"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 22
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-023",
+      "questionType": "MCQ",
+      "stem": "The mean of 10 numbers is 5.5. If the smallest number is removed, the mean of the remaining 9 numbers is 6. What was the smallest number?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "6 is the new mean. The removed number = 55 - 54 = 1."
+        },
+        {
+          "id": "B",
+          "text": "55",
+          "isCorrect": false,
+          "feedback": "55 is the original sum. The removed (smallest) number = 55 - 54 = 1."
+        },
+        {
+          "id": "C",
+          "text": "0.5",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Original sum = 55, New sum = 54. Removed = 55 - 54 = 1."
+        },
+        {
+          "id": "D",
+          "text": "1",
+          "isCorrect": true,
+          "feedback": "Correct! Original sum = 5.5 × 10 = 55. New sum = 6 × 9 = 54. Removed number = 55 - 54 = 1."
+        },
+        {
+          "id": "E",
+          "text": "5.5",
+          "isCorrect": false,
+          "feedback": "5.5 is the original mean. The removed number = 55 - 54 = 1."
+        }
+      ],
+      "solution": "**Methodology: Finding Removed Value**\n\n**Step 1: Find original sum**\nOriginal Sum = 5.5 × 10 = 55\n\n**Step 2: Find new sum**\nNew Sum = 6 × 9 = 54\n\n**Step 3: Find removed number**\nRemoved = Original - New = 55 - 54 = 1\n\n**Step 4: Check**\nRemoving a number smaller than the mean causes mean to increase.\n1 < 5.5, and mean went up to 6. Makes sense! ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find both sums: with all 10 numbers and with 9 numbers.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Original sum = 55. New sum = 54. What was removed?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Removed number = 55 - 54 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "subtraction",
+          "decimals",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "partial_solution",
+          "C": "computation_error",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Original sum - New sum = Removed value",
+        "methodologySteps": [
+          "Read: Identify both means and counts",
+          "Calculate: Both sums",
+          "Solve: Removed = Original Sum - New Sum",
+          "Check: Verify mean direction makes sense"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Confusing sum with removed value",
+          "Decimal arithmetic errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 23
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-024",
+      "questionType": "MCQ",
+      "stem": "Class A has 20 students with a mean test score of 75. Class B has 30 students with a mean test score of 80. What is the mean score of all 50 students combined?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "78",
+          "isCorrect": true,
+          "feedback": "Correct! Total A = 20 × 75 = 1500. Total B = 30 × 80 = 2400. Combined = 3900 ÷ 50 = 78."
+        },
+        {
+          "id": "B",
+          "text": "75",
+          "isCorrect": false,
+          "feedback": "This is Class A's mean. The combined mean is between 75 and 80."
+        },
+        {
+          "id": "C",
+          "text": "155",
+          "isCorrect": false,
+          "feedback": "You added the means. The combined mean = 3900 ÷ 50 = 78."
+        },
+        {
+          "id": "D",
+          "text": "77.5",
+          "isCorrect": false,
+          "feedback": "77.5 is the simple average of 75 and 80. But classes have different sizes, so we need weighted average."
+        },
+        {
+          "id": "E",
+          "text": "80",
+          "isCorrect": false,
+          "feedback": "This is Class B's mean. The combined mean is between 75 and 80, weighted toward 80 (larger class)."
+        }
+      ],
+      "solution": "**Methodology: Weighted Mean**\n\n**Step 1: Find total for each class**\nClass A total = 20 × 75 = 1500\nClass B total = 30 × 80 = 2400\n\n**Step 2: Find combined total**\nCombined total = 1500 + 2400 = 3900\n\n**Step 3: Find combined mean**\nCombined mean = 3900 ÷ 50 = 78\n\n**Note:** The answer (78) is closer to 80 than to 75 because Class B is larger.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "You can't just average 75 and 80. The classes have different sizes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Find total scores for each class, then combine.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 1500 + 2400 = 3900. Mean = 3900 ÷ 50 = ?",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "weighted-average",
+          "multiplication",
+          "division"
+        ],
+        "distractorTypes": {
+          "B": "partial_solution",
+          "C": "wrong_operation",
+          "D": "wrong_operation",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Find each group's total → Add totals → Divide by combined count",
+        "methodologySteps": [
+          "Read: Identify each group's mean and count",
+          "Calculate: Each group's total = Mean × Count",
+          "Solve: Combined Mean = (Total A + Total B) ÷ (Count A + Count B)",
+          "Check: Answer should be between the two means"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Averaging the means",
+          "Adding means instead of totals"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 24
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa8-025",
+      "questionType": "MCQ",
+      "stem": "A set of 7 numbers has a mean of 12 and includes the number 12. If the number 12 is removed from the set, what is the mean of the remaining 6 numbers?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "14",
+          "isCorrect": false,
+          "feedback": "Check: New sum = 84 - 12 = 72. Mean = 72 ÷ 6 = 12, not 14."
+        },
+        {
+          "id": "B",
+          "text": "12",
+          "isCorrect": true,
+          "feedback": "Correct! Original sum = 84. After removing 12: sum = 72. New mean = 72 ÷ 6 = 12. The mean stays the same!"
+        },
+        {
+          "id": "C",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "Check: New sum = 72. Mean = 72 ÷ 6 = 12, not 10."
+        },
+        {
+          "id": "D",
+          "text": "11",
+          "isCorrect": false,
+          "feedback": "Check: 72 ÷ 6 = 12, not 11."
+        },
+        {
+          "id": "E",
+          "text": "72",
+          "isCorrect": false,
+          "feedback": "72 is the new sum. The mean = 72 ÷ 6 = 12."
+        }
+      ],
+      "solution": "**Methodology: Removing a Value Equal to the Mean**\n\n**Key Insight:**\nWhen you remove a value equal to the mean, the mean stays the same!\n\n**Step 1: Find original sum**\nOriginal Sum = 12 × 7 = 84\n\n**Step 2: Find new sum**\nNew Sum = 84 - 12 = 72\n\n**Step 3: Find new mean**\nNew Mean = 72 ÷ 6 = 12\n\n**Why it works:**\nRemoving the mean removes exactly the \"average contribution\" of one number, leaving the remaining numbers with the same average.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The removed number (12) equals the original mean. What effect might this have?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "New sum = 84 - 12 = 72. Divide by 6 to get new mean.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "72 ÷ 6 = 12. The mean stays the same!",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Missing Value for Target Mean",
+        "archetypeId": "qa8",
+        "conceptsRequired": [
+          "mean",
+          "subtraction",
+          "division",
+          "properties-of-mean"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Removing a value equal to the mean leaves the mean unchanged",
+        "methodologySteps": [
+          "Read: Notice the removed value equals the mean",
+          "Recall: Removing the mean value doesn't change the mean",
+          "Verify: Calculate to confirm",
+          "Check: 72 ÷ 6 = 12 ✓"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Thinking mean must change",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Data"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa8-set1",
+        "sequenceInPaper": 25
+      },
+      "status": "published"
+    }
+  ]
+}

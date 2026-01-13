@@ -53,6 +53,154 @@ export interface FirestoreAIMetadata {
 }
 
 // =============================================================================
+// NSW SELECTIVE EXAM TYPES
+// =============================================================================
+// DOMAIN: NSW Selective Exam Prep
+// PURPOSE: Types for archetype-based exam preparation system
+// DO NOT: Mix with curriculum/learning-arc types
+
+/**
+ * Distractor types for MCQ options - describes WHY a wrong answer is wrong
+ * Used to provide targeted feedback and track error patterns
+ */
+export type DistractorType =
+  | 'partial_solution'      // Stopped too early in multi-step problem
+  | 'forward_calculation'   // Applied percentage forward instead of reverse
+  | 'wrong_operation'       // Used wrong math operation (+ instead of -, etc.)
+  | 'off_by_one'           // Counting error (fence-post problem)
+  | 'unit_confusion'       // Mixed up units (kg vs g, etc.)
+  | 'sign_error'           // Positive/negative mistake
+  | 'misconception_answer' // Result of applying a known misconception
+  | 'place_value_error'    // Off by factor of 10, 100, or 1000
+  | 'inverted_ratio'       // Using the inverse of correct ratio
+  | 'formula_confusion'    // Applied wrong formula (area vs perimeter)
+  | 'middle_value_trap'    // Plausible-looking number between extremes
+  | 'computation_error'    // Arithmetic/calculation mistake
+  | 'conceptual_error'     // Fundamental misunderstanding of the concept
+  | 'setup_error'          // Incorrect problem setup or equation
+  | 'misread_question';    // Misunderstood what the question asks
+
+/**
+ * NSW Selective question archetype IDs
+ * Maps to the 20 question patterns identified in research
+ */
+export type ArchetypeId =
+  | 'qa1'   // Playlist/Sequence Duration
+  | 'qa2'   // Weight/Mass Equivalence
+  | 'qa3'   // 3D Shape Properties
+  | 'qa4'   // Multi-Leg Journey with Time Zones
+  | 'qa5'   // Simultaneous Price Equations
+  | 'qa6'   // Coin/Object Pairing
+  | 'qa7'   // Venn Diagram Area Problem
+  | 'qa8'   // Missing Value for Target Mean
+  | 'qa9'   // Pattern Sequence with Complex Rule
+  | 'qa10'  // Three-Way Relationship Vote/Score
+  | 'qa11'  // Percentage Equivalence/Comparison
+  | 'qa12'  // Multi-Ratio Recipe Problem
+  | 'qa13'  // Reverse Percentage (Find Original)
+  | 'qa14'  // Cube Structure with Paint/Hidden
+  | 'qa15'  // Scale/Proportion Weight Problem
+  | 'qa16'  // Timetable Navigation
+  | 'qa17'  // Age Relationship Problem
+  | 'qa18'  // Systematic Counting/Combinations
+  | 'qa19'  // Shaded Region Area
+  | 'qa20'; // Speed-Distance-Time Multi-Part
+
+/**
+ * NSW Selective metadata for questions
+ * Every NSW Selective question MUST include this for archetype-based learning
+ */
+export interface NswSelectiveMetadata {
+  archetype: string;                              // Human-readable: "Reverse Percentage"
+  archetypeId: ArchetypeId;                       // Machine ID: "qa13"
+  conceptsRequired: string[];                     // ["percentages", "multiplicative-reasoning"]
+  distractorTypes: Record<string, DistractorType>; // {"B": "forward_calculation", "C": "misconception_answer"}
+  solutionApproach: string;                       // Brief methodology description
+  methodologySteps: string[];                     // Step-by-step approach to solve
+  timeTarget: number;                             // Target seconds for this difficulty (30-300)
+  commonErrors?: string[];                        // Tracked error patterns for this archetype
+}
+
+// =============================================================================
+// VISUAL CONTENT TYPES (for diagrams, graphs, images)
+// =============================================================================
+// DOMAIN: Shared infrastructure
+// PURPOSE: Enable rendering of visual content in questions
+
+/**
+ * Chart configuration for data visualizations
+ * Uses Recharts-compatible structure
+ */
+export interface ChartConfig {
+  type: 'bar' | 'line' | 'scatter' | 'pie' | 'area';
+  data: {
+    labels?: string[];
+    datasets: {
+      label?: string;
+      data: number[];
+      backgroundColor?: string | string[];
+      borderColor?: string;
+    }[];
+  };
+  options?: {
+    title?: string;
+    xAxisLabel?: string;
+    yAxisLabel?: string;
+    showLegend?: boolean;
+    showGrid?: boolean;
+  };
+}
+
+/**
+ * Geometry element types for programmatic diagram rendering
+ */
+export type GeometryElementType =
+  | 'point'
+  | 'line'
+  | 'segment'
+  | 'ray'
+  | 'circle'
+  | 'arc'
+  | 'polygon'
+  | 'angle'
+  | 'label'
+  | 'function';
+
+/**
+ * A single geometry element for diagram rendering
+ */
+export interface GeometryElement {
+  type: GeometryElementType;
+  id: string;
+  coords?: [number, number];           // For points
+  points?: string[];                   // IDs of connected points
+  center?: [number, number];           // For circles/arcs
+  radius?: number;                     // For circles
+  label?: string;                      // Display label
+  color?: string;
+  dashed?: boolean;
+  showLabel?: boolean;
+  expression?: string;                 // For function type: "x^2"
+}
+
+/**
+ * Configuration for programmatic geometry rendering
+ * Supports Mafs (coordinate geometry) and JSXGraph (constructions)
+ */
+export interface GeometryConfig {
+  library: 'mafs' | 'jsxgraph';
+  elements: GeometryElement[];
+  viewBox?: {
+    xMin: number;
+    xMax: number;
+    yMin: number;
+    yMax: number;
+  };
+  showGrid?: boolean;
+  showAxes?: boolean;
+}
+
+// =============================================================================
 // MATH QUESTION TYPES (NEW)
 // =============================================================================
 
@@ -167,8 +315,24 @@ export interface FirestoreQuestion {
     paperId?: string;
     title?: string;
     section: string;    // "mathematics", "reading", "thinkingSkills", "writing"
+    setId?: string;     // Grouping ID: "year8-states-of-matter-set1" or "nsw-sel-qa3-set1"
+    sequenceInPaper?: number; // Position within set (1-based)
   };
   aiMetadata?: FirestoreAIMetadata;
+
+  // =============================================================================
+  // VISUAL CONTENT FIELDS (for diagrams, graphs, images)
+  // =============================================================================
+  imageUrl?: string;           // Firebase Storage URL for static diagrams
+  imageAlt?: string;           // Accessibility description for image
+  svgContent?: string;         // Inline SVG for simple shapes
+  chartConfig?: ChartConfig;   // For data visualizations (bar, line, pie, etc.)
+  geometryConfig?: GeometryConfig; // For programmatic geometry rendering
+
+  // =============================================================================
+  // NSW SELECTIVE FIELDS (archetype-based exam preparation)
+  // =============================================================================
+  nswSelective?: NswSelectiveMetadata;  // Required for NSW Selective questions
   version?: number;
   status: string;       // "published", "draft"
   createdAt?: string;
@@ -277,6 +441,21 @@ export function isEquationEntryQuestion(question: FirestoreQuestion | Question):
     return question.questionType === 'EQUATION_ENTRY';
   }
   return question.type === 'equation_entry';
+}
+
+/**
+ * Check if a question is an NSW Selective exam question
+ * NSW Selective questions have archetype-based metadata
+ */
+export function isNswSelectiveQuestion(question: FirestoreQuestion): boolean {
+  return question.nswSelective !== undefined && question.nswSelective.archetypeId !== undefined;
+}
+
+/**
+ * Check if a question has visual content that needs rendering
+ */
+export function hasVisualContent(question: FirestoreQuestion): boolean {
+  return !!(question.imageUrl || question.svgContent || question.chartConfig || question.geometryConfig);
 }
 
 // App-friendly Passage

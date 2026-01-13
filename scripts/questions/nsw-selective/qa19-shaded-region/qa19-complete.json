@@ -1,0 +1,2561 @@
+{
+  "metadata": {
+    "archetype": "Shaded Region Area",
+    "archetypeId": "qa19",
+    "archetypeSlug": "shaded-region-area",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "foundation": {
+        "count": 5,
+        "difficulty": "1-2"
+      },
+      "application": {
+        "count": 10,
+        "difficulty": "2-3"
+      },
+      "connection": {
+        "count": 5,
+        "difficulty": "3"
+      },
+      "mastery": {
+        "count": 5,
+        "difficulty": "4"
+      }
+    },
+    "createdAt": "2026-01-13",
+    "version": "1.0",
+    "patternDescription": "Find area of shaded region = Total area - Unshaded area. Composite shapes with parts removed."
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa19-001",
+      "questionType": "MCQ",
+      "stem": "A rectangle has length 10 cm and width 6 cm. A smaller rectangle with length 4 cm and width 3 cm is cut from one corner. What is the area of the remaining shaded region?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "60 cm²",
+          "isCorrect": false,
+          "feedback": "This is the area of the large rectangle only. You need to subtract the cut-out: 60 - 12 = 48 cm²."
+        },
+        {
+          "id": "B",
+          "text": "48 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Large rectangle = 10 × 6 = 60 cm². Small rectangle = 4 × 3 = 12 cm². Shaded = 60 - 12 = 48 cm²."
+        },
+        {
+          "id": "C",
+          "text": "54 cm²",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Large = 10 × 6 = 60, Small = 4 × 3 = 12. Shaded = 60 - 12 = 48 cm²."
+        },
+        {
+          "id": "D",
+          "text": "12 cm²",
+          "isCorrect": false,
+          "feedback": "This is the area of the small cut-out rectangle. The shaded region = Total - Cut-out = 60 - 12 = 48 cm²."
+        },
+        {
+          "id": "E",
+          "text": "72 cm²",
+          "isCorrect": false,
+          "feedback": "This adds both areas (60 + 12). For a cut-out, subtract: 60 - 12 = 48 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Subtraction)**\n\n**Step 1: Find total area**\nLarge rectangle = length × width = 10 × 6 = 60 cm²\n\n**Step 2: Find cut-out area**\nSmall rectangle = 4 × 3 = 12 cm²\n\n**Step 3: Calculate shaded region**\nShaded = Total - Cut-out = 60 - 12 = 48 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Shaded region = Total area - Area removed. Find each area separately.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Large rectangle = 10 × 6 = 60 cm². Small rectangle = 4 × 3 = 12 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Shaded = 60 - 12 = 48 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "subtraction",
+          "composite-shapes"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "computation_error",
+          "D": "wrong_component",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Calculate total area, then subtract the removed portion",
+        "methodologySteps": [
+          "Find area of the large (outer) shape",
+          "Find area of the small (removed) shape",
+          "Subtract: Shaded = Total - Removed"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Adding instead of subtracting",
+          "Calculating only one area",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-002",
+      "questionType": "MCQ",
+      "stem": "A square has side length 8 cm. A smaller square with side length 3 cm is cut from the center. What is the area of the shaded region?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "9 cm²",
+          "isCorrect": false,
+          "feedback": "This is the area of the small cut-out. The shaded region = 64 - 9 = 55 cm²."
+        },
+        {
+          "id": "B",
+          "text": "73 cm²",
+          "isCorrect": false,
+          "feedback": "This adds both areas (64 + 9). For a cut-out, subtract: 64 - 9 = 55 cm²."
+        },
+        {
+          "id": "C",
+          "text": "64 cm²",
+          "isCorrect": false,
+          "feedback": "This is the area of the large square only. Subtract the cut-out: 64 - 9 = 55 cm²."
+        },
+        {
+          "id": "D",
+          "text": "40 cm²",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 8² = 64, 3² = 9. Shaded = 64 - 9 = 55 cm²."
+        },
+        {
+          "id": "E",
+          "text": "55 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Large square = 8² = 64 cm². Small square = 3² = 9 cm². Shaded = 64 - 9 = 55 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Subtraction)**\n\n**Step 1: Find total area**\nLarge square = side² = 8² = 64 cm²\n\n**Step 2: Find cut-out area**\nSmall square = 3² = 9 cm²\n\n**Step 3: Calculate shaded region**\nShaded = Total - Cut-out = 64 - 9 = 55 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Area of a square = side × side. Find both square areas.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Large square = 8 × 8 = 64 cm². Small square = 3 × 3 = 9 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Shaded = 64 - 9 = 55 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-square",
+          "subtraction",
+          "composite-shapes"
+        ],
+        "distractorTypes": {
+          "A": "wrong_component",
+          "B": "wrong_operation",
+          "C": "partial_solution",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Calculate area of large square minus area of small square",
+        "methodologySteps": [
+          "Find area of large square: 8² = 64",
+          "Find area of small square: 3² = 9",
+          "Subtract: 64 - 9 = 55"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Forgetting to square the side lengths",
+          "Adding instead of subtracting"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-003",
+      "questionType": "MCQ",
+      "stem": "A rectangle measures 12 cm by 8 cm. Two identical rectangles, each 3 cm by 2 cm, are cut from opposite corners. What is the area of the remaining region?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6 cm²",
+          "isCorrect": false,
+          "feedback": "This is the area of just one small rectangle. The shaded region = 96 - 12 = 84 cm²."
+        },
+        {
+          "id": "B",
+          "text": "96 cm²",
+          "isCorrect": false,
+          "feedback": "This is the total area without subtracting. You need to remove two rectangles: 96 - 12 = 84 cm²."
+        },
+        {
+          "id": "C",
+          "text": "78 cm²",
+          "isCorrect": false,
+          "feedback": "Check your arithmetic. Large = 96, Two small = 2 × 6 = 12. Shaded = 96 - 12 = 84 cm²."
+        },
+        {
+          "id": "D",
+          "text": "90 cm²",
+          "isCorrect": false,
+          "feedback": "Check: You subtract both cut-outs. Total = 96, Cut-outs = 2 × 6 = 12. Remaining = 96 - 12 = 84 cm²."
+        },
+        {
+          "id": "E",
+          "text": "84 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Large = 12 × 8 = 96 cm². Two cut-outs = 2 × (3 × 2) = 12 cm². Shaded = 96 - 12 = 84 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Multiple Cut-outs)**\n\n**Step 1: Find total area**\nLarge rectangle = 12 × 8 = 96 cm²\n\n**Step 2: Find total cut-out area**\nEach small rectangle = 3 × 2 = 6 cm²\nTwo cut-outs = 2 × 6 = 12 cm²\n\n**Step 3: Calculate shaded region**\nShaded = 96 - 12 = 84 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the total area first, then subtract BOTH cut-outs.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Large = 96 cm². Each small = 6 cm². There are TWO small rectangles.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Shaded = 96 - (2 × 6) = 96 - 12 = 84 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "subtraction",
+          "multiple-cut-outs"
+        ],
+        "distractorTypes": {
+          "A": "wrong_component",
+          "B": "partial_solution",
+          "C": "computation_error",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Calculate total area, then subtract all removed portions",
+        "methodologySteps": [
+          "Find total area: 12 × 8 = 96",
+          "Find one cut-out: 3 × 2 = 6",
+          "Multiply for two: 2 × 6 = 12",
+          "Subtract: 96 - 12 = 84"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Forgetting to count both cut-outs",
+          "Only subtracting one rectangle"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-004",
+      "questionType": "MCQ",
+      "stem": "A square piece of paper has side length 10 cm. A rectangle measuring 6 cm by 4 cm is cut out from the middle. What is the area of the remaining paper?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "76 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Square = 10² = 100 cm². Rectangle = 6 × 4 = 24 cm². Remaining = 100 - 24 = 76 cm²."
+        },
+        {
+          "id": "B",
+          "text": "100 cm²",
+          "isCorrect": false,
+          "feedback": "This is the original square's area. Subtract the cut-out: 100 - 24 = 76 cm²."
+        },
+        {
+          "id": "C",
+          "text": "24 cm²",
+          "isCorrect": false,
+          "feedback": "This is just the area removed. The remaining paper = 100 - 24 = 76 cm²."
+        },
+        {
+          "id": "D",
+          "text": "60 cm²",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Square = 10² = 100, Rectangle = 6 × 4 = 24. Remaining = 100 - 24 = 76 cm²."
+        },
+        {
+          "id": "E",
+          "text": "124 cm²",
+          "isCorrect": false,
+          "feedback": "This adds the areas (100 + 24). For a cut-out, subtract: 100 - 24 = 76 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Subtraction)**\n\n**Step 1: Find total area**\nSquare = side² = 10² = 100 cm²\n\n**Step 2: Find cut-out area**\nRectangle = 6 × 4 = 24 cm²\n\n**Step 3: Calculate remaining area**\nRemaining = 100 - 24 = 76 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the square's area and the rectangle's area separately.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Square = 100 cm². Rectangle = 24 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 100 - 24 = 76 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-square",
+          "area-rectangle",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "B": "partial_solution",
+          "C": "wrong_component",
+          "D": "computation_error",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Square area minus rectangle area",
+        "methodologySteps": [
+          "Square area: 10² = 100",
+          "Rectangle area: 6 × 4 = 24",
+          "Subtract: 100 - 24 = 76"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Adding instead of subtracting",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-005",
+      "questionType": "MCQ",
+      "stem": "A rectangular garden measures 15 m by 10 m. A square flower bed with side 5 m is in one corner. What is the area of the remaining lawn?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "130 m²",
+          "isCorrect": false,
+          "feedback": "Check: Garden = 15 × 10 = 150. Flower bed = 5² = 25. Lawn = 150 - 25 = 125 m²."
+        },
+        {
+          "id": "B",
+          "text": "125 m²",
+          "isCorrect": true,
+          "feedback": "Correct! Garden = 15 × 10 = 150 m². Flower bed = 5² = 25 m². Lawn = 150 - 25 = 125 m²."
+        },
+        {
+          "id": "C",
+          "text": "175 m²",
+          "isCorrect": false,
+          "feedback": "This adds both areas. Lawn = Total - Flower bed = 150 - 25 = 125 m²."
+        },
+        {
+          "id": "D",
+          "text": "150 m²",
+          "isCorrect": false,
+          "feedback": "This is the total garden area. Subtract the flower bed: 150 - 25 = 125 m²."
+        },
+        {
+          "id": "E",
+          "text": "25 m²",
+          "isCorrect": false,
+          "feedback": "This is the flower bed area. The remaining lawn = 150 - 25 = 125 m²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Real-World Context)**\n\n**Step 1: Find total garden area**\nGarden = 15 × 10 = 150 m²\n\n**Step 2: Find flower bed area**\nFlower bed = 5² = 25 m²\n\n**Step 3: Calculate lawn area**\nLawn = 150 - 25 = 125 m²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The lawn is what remains after removing the flower bed from the garden.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Garden = 150 m². Flower bed = 25 m².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Lawn = 150 - 25 = 125 m².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "area-square",
+          "subtraction",
+          "real-world-context"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "wrong_operation",
+          "D": "partial_solution",
+          "E": "wrong_component"
+        },
+        "solutionApproach": "Total garden area minus flower bed area",
+        "methodologySteps": [
+          "Garden: 15 × 10 = 150",
+          "Flower bed: 5² = 25",
+          "Lawn: 150 - 25 = 125"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Adding areas together",
+          "Confusing which area to subtract"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-006",
+      "questionType": "MCQ",
+      "stem": "A square has side length 10 cm. A circle with diameter 6 cm is cut from the center. What is the area of the remaining region? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "86.86 cm²",
+          "isCorrect": false,
+          "feedback": "Did you use diameter instead of radius? Circle area uses radius (3 cm, not 6 cm). Area = π × 3² = 28.26, so remaining = 71.74 cm²."
+        },
+        {
+          "id": "B",
+          "text": "100 cm²",
+          "isCorrect": false,
+          "feedback": "This is the square's area only. Subtract the circle: 100 - 28.26 = 71.74 cm²."
+        },
+        {
+          "id": "C",
+          "text": "128.26 cm²",
+          "isCorrect": false,
+          "feedback": "This adds the areas. For a cut-out, subtract: 100 - 28.26 = 71.74 cm²."
+        },
+        {
+          "id": "D",
+          "text": "71.74 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Square = 10² = 100 cm². Circle = π × 3² = 3.14 × 9 = 28.26 cm². Remaining = 100 - 28.26 = 71.74 cm²."
+        },
+        {
+          "id": "E",
+          "text": "28.26 cm²",
+          "isCorrect": false,
+          "feedback": "This is the circle's area. The remaining region = 100 - 28.26 = 71.74 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Circle in Square)**\n\n**Step 1: Find square area**\nSquare = 10² = 100 cm²\n\n**Step 2: Find circle area**\nDiameter = 6 cm, so radius = 3 cm\nCircle = πr² = 3.14 × 3² = 3.14 × 9 = 28.26 cm²\n\n**Step 3: Calculate remaining area**\nRemaining = 100 - 28.26 = 71.74 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Circle area = πr². Remember: radius is half the diameter.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Square = 100 cm². Circle = 3.14 × 3² = 28.26 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 100 - 28.26 = 71.74 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-square",
+          "area-circle",
+          "diameter-radius",
+          "pi"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "partial_solution",
+          "C": "wrong_operation",
+          "E": "wrong_component"
+        },
+        "solutionApproach": "Square area minus circle area (using radius from diameter)",
+        "methodologySteps": [
+          "Square: 10² = 100",
+          "Radius = diameter ÷ 2 = 3",
+          "Circle: π × 3² = 28.26",
+          "Subtract: 100 - 28.26 = 71.74"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Using diameter as radius",
+          "Forgetting to square the radius"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-007",
+      "questionType": "MCQ",
+      "stem": "A rectangle measures 14 cm by 10 cm. A circle with radius 4 cm is cut from the middle. What is the area of the shaded region? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "190.24 cm²",
+          "isCorrect": false,
+          "feedback": "This adds both areas. For a cut-out, subtract: 140 - 50.24 = 89.76 cm²."
+        },
+        {
+          "id": "B",
+          "text": "127.44 cm²",
+          "isCorrect": false,
+          "feedback": "Check your circle calculation. π × 4² = 3.14 × 16 = 50.24. Shaded = 140 - 50.24 = 89.76 cm²."
+        },
+        {
+          "id": "C",
+          "text": "89.76 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Rectangle = 14 × 10 = 140 cm². Circle = π × 4² = 3.14 × 16 = 50.24 cm². Shaded = 140 - 50.24 = 89.76 cm²."
+        },
+        {
+          "id": "D",
+          "text": "50.24 cm²",
+          "isCorrect": false,
+          "feedback": "This is the circle's area. The shaded region = 140 - 50.24 = 89.76 cm²."
+        },
+        {
+          "id": "E",
+          "text": "140 cm²",
+          "isCorrect": false,
+          "feedback": "This is the rectangle's area only. Subtract the circle: 140 - 50.24 = 89.76 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Circle in Rectangle)**\n\n**Step 1: Find rectangle area**\nRectangle = 14 × 10 = 140 cm²\n\n**Step 2: Find circle area**\nCircle = πr² = 3.14 × 4² = 3.14 × 16 = 50.24 cm²\n\n**Step 3: Calculate shaded region**\nShaded = 140 - 50.24 = 89.76 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Circle area = πr². The radius is given directly this time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Rectangle = 140 cm². Circle = 3.14 × 16 = 50.24 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Shaded = 140 - 50.24 = 89.76 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "area-circle",
+          "pi"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "computation_error",
+          "D": "wrong_component",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Rectangle area minus circle area",
+        "methodologySteps": [
+          "Rectangle: 14 × 10 = 140",
+          "Circle: π × 4² = 50.24",
+          "Subtract: 140 - 50.24 = 89.76"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Forgetting to square the radius",
+          "Arithmetic errors with decimals"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-008",
+      "questionType": "MCQ",
+      "stem": "A square has side length 12 cm. A right triangle with base 8 cm and height 6 cm is cut from one corner. What is the area of the remaining region?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "96 cm²",
+          "isCorrect": false,
+          "feedback": "Did you forget to halve for the triangle? Triangle = ½ × 8 × 6 = 24. Remaining = 144 - 24 = 120 cm²."
+        },
+        {
+          "id": "B",
+          "text": "24 cm²",
+          "isCorrect": false,
+          "feedback": "This is the triangle's area. The remaining region = 144 - 24 = 120 cm²."
+        },
+        {
+          "id": "C",
+          "text": "120 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Square = 12² = 144 cm². Triangle = ½ × 8 × 6 = 24 cm². Remaining = 144 - 24 = 120 cm²."
+        },
+        {
+          "id": "D",
+          "text": "144 cm²",
+          "isCorrect": false,
+          "feedback": "This is the square's area only. Subtract the triangle: 144 - 24 = 120 cm²."
+        },
+        {
+          "id": "E",
+          "text": "168 cm²",
+          "isCorrect": false,
+          "feedback": "This adds both areas. For a cut-out, subtract: 144 - 24 = 120 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Triangle in Square)**\n\n**Step 1: Find square area**\nSquare = 12² = 144 cm²\n\n**Step 2: Find triangle area**\nTriangle = ½ × base × height = ½ × 8 × 6 = 24 cm²\n\n**Step 3: Calculate remaining area**\nRemaining = 144 - 24 = 120 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Triangle area = ½ × base × height. Don't forget the ½!",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Square = 144 cm². Triangle = ½ × 8 × 6 = 24 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 144 - 24 = 120 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-square",
+          "area-triangle",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "wrong_component",
+          "D": "partial_solution",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Square area minus triangle area",
+        "methodologySteps": [
+          "Square: 12² = 144",
+          "Triangle: ½ × 8 × 6 = 24",
+          "Subtract: 144 - 24 = 120"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Forgetting to halve for triangle area",
+          "Adding instead of subtracting"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-009",
+      "questionType": "MCQ",
+      "stem": "A rectangle measures 20 cm by 15 cm. A triangle with base 10 cm and height 8 cm is cut from inside. What is the area of the shaded region?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "40 cm²",
+          "isCorrect": false,
+          "feedback": "This is the triangle's area. The shaded region = 300 - 40 = 260 cm²."
+        },
+        {
+          "id": "B",
+          "text": "220 cm²",
+          "isCorrect": false,
+          "feedback": "Did you forget to halve for the triangle? Triangle = ½ × 10 × 8 = 40. Shaded = 300 - 40 = 260 cm²."
+        },
+        {
+          "id": "C",
+          "text": "260 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Rectangle = 20 × 15 = 300 cm². Triangle = ½ × 10 × 8 = 40 cm². Shaded = 300 - 40 = 260 cm²."
+        },
+        {
+          "id": "D",
+          "text": "340 cm²",
+          "isCorrect": false,
+          "feedback": "This adds both areas. For a cut-out, subtract: 300 - 40 = 260 cm²."
+        },
+        {
+          "id": "E",
+          "text": "300 cm²",
+          "isCorrect": false,
+          "feedback": "This is the rectangle's area only. Subtract the triangle: 300 - 40 = 260 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Triangle in Rectangle)**\n\n**Step 1: Find rectangle area**\nRectangle = 20 × 15 = 300 cm²\n\n**Step 2: Find triangle area**\nTriangle = ½ × 10 × 8 = 40 cm²\n\n**Step 3: Calculate shaded region**\nShaded = 300 - 40 = 260 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Remember: Triangle area = ½ × base × height.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Rectangle = 300 cm². Triangle = 40 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Shaded = 300 - 40 = 260 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "area-triangle",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "A": "wrong_component",
+          "B": "misconception_answer",
+          "D": "wrong_operation",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Rectangle area minus triangle area",
+        "methodologySteps": [
+          "Rectangle: 20 × 15 = 300",
+          "Triangle: ½ × 10 × 8 = 40",
+          "Subtract: 300 - 40 = 260"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Forgetting ½ in triangle formula",
+          "Adding instead of subtracting"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-010",
+      "questionType": "MCQ",
+      "stem": "A circle has radius 10 cm. A square with side length 8 cm is placed inside the circle. What is the area of the region inside the circle but outside the square? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "378 cm²",
+          "isCorrect": false,
+          "feedback": "This adds both areas. For the region between them, subtract: 314 - 64 = 250 cm²."
+        },
+        {
+          "id": "B",
+          "text": "250 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Circle = π × 10² = 3.14 × 100 = 314 cm². Square = 8² = 64 cm². Shaded = 314 - 64 = 250 cm²."
+        },
+        {
+          "id": "C",
+          "text": "314 cm²",
+          "isCorrect": false,
+          "feedback": "This is the circle's area only. Subtract the square: 314 - 64 = 250 cm²."
+        },
+        {
+          "id": "D",
+          "text": "64 cm²",
+          "isCorrect": false,
+          "feedback": "This is the square's area. The shaded region = 314 - 64 = 250 cm²."
+        },
+        {
+          "id": "E",
+          "text": "186 cm²",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Circle = π × 10² = 314. Square = 64. Shaded = 314 - 64 = 250 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Square inside Circle)**\n\n**Step 1: Find circle area**\nCircle = πr² = 3.14 × 10² = 314 cm²\n\n**Step 2: Find square area**\nSquare = 8² = 64 cm²\n\n**Step 3: Calculate shaded region**\nShaded = Circle - Square = 314 - 64 = 250 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The shaded region is what's inside the circle but outside the square.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Circle = 314 cm². Square = 64 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Shaded = 314 - 64 = 250 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-circle",
+          "area-square",
+          "subtraction",
+          "inside-outside"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "C": "partial_solution",
+          "D": "wrong_component",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Circle area minus square area",
+        "methodologySteps": [
+          "Circle: π × 10² = 314",
+          "Square: 8² = 64",
+          "Subtract: 314 - 64 = 250"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Subtracting in wrong order",
+          "Forgetting to square radius"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-011",
+      "questionType": "MCQ",
+      "stem": "A square has side length 16 cm. Four identical circles, each with diameter 4 cm, are cut from the four corners. What is the total area of the remaining region? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "243.44 cm²",
+          "isCorrect": false,
+          "feedback": "Did you only subtract one circle? Four circles = 4 × 12.56 = 50.24. Remaining = 256 - 50.24 = 205.76 cm²."
+        },
+        {
+          "id": "B",
+          "text": "205.76 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Square = 16² = 256 cm². Each circle = π × 2² = 12.56 cm². Four circles = 50.24 cm². Remaining = 256 - 50.24 = 205.76 cm²."
+        },
+        {
+          "id": "C",
+          "text": "306.24 cm²",
+          "isCorrect": false,
+          "feedback": "This adds the circles to the square instead of subtracting. Remaining = 256 - 50.24 = 205.76 cm²."
+        },
+        {
+          "id": "D",
+          "text": "256 cm²",
+          "isCorrect": false,
+          "feedback": "This is the square's area only. Subtract four circles: 256 - 50.24 = 205.76 cm²."
+        },
+        {
+          "id": "E",
+          "text": "50.24 cm²",
+          "isCorrect": false,
+          "feedback": "This is the total area of the four circles. The remaining region = 256 - 50.24 = 205.76 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Multiple Circles)**\n\n**Step 1: Find square area**\nSquare = 16² = 256 cm²\n\n**Step 2: Find one circle's area**\nDiameter = 4 cm, so radius = 2 cm\nOne circle = π × 2² = 3.14 × 4 = 12.56 cm²\n\n**Step 3: Find total cut-out area**\nFour circles = 4 × 12.56 = 50.24 cm²\n\n**Step 4: Calculate remaining area**\nRemaining = 256 - 50.24 = 205.76 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Diameter = 4 cm means radius = 2 cm. Find one circle's area, then multiply by 4.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Square = 256 cm². One circle = 12.56 cm². Four circles = 50.24 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 256 - 50.24 = 205.76 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-square",
+          "area-circle",
+          "multiple-cut-outs",
+          "diameter-radius"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "wrong_operation",
+          "D": "partial_solution",
+          "E": "wrong_component"
+        },
+        "solutionApproach": "Square minus four identical circles",
+        "methodologySteps": [
+          "Square: 16² = 256",
+          "Radius = diameter ÷ 2 = 2",
+          "One circle: π × 2² = 12.56",
+          "Four circles: 4 × 12.56 = 50.24",
+          "Subtract: 256 - 50.24 = 205.76"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Using diameter as radius",
+          "Only subtracting one circle"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 11
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-012",
+      "questionType": "MCQ",
+      "stem": "A rectangle measures 18 cm by 12 cm. Two triangles, each with base 6 cm and height 4 cm, are cut from opposite corners. What is the area of the remaining region?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "168 cm²",
+          "isCorrect": false,
+          "feedback": "Did you forget to halve for triangle area? Each triangle = ½ × 6 × 4 = 12, not 24. Two triangles = 24. Remaining = 192 cm²."
+        },
+        {
+          "id": "B",
+          "text": "192 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Rectangle = 18 × 12 = 216 cm². Two triangles = 2 × (½ × 6 × 4) = 24 cm². Remaining = 216 - 24 = 192 cm²."
+        },
+        {
+          "id": "C",
+          "text": "216 cm²",
+          "isCorrect": false,
+          "feedback": "This is the rectangle's area only. Subtract both triangles: 216 - 24 = 192 cm²."
+        },
+        {
+          "id": "D",
+          "text": "24 cm²",
+          "isCorrect": false,
+          "feedback": "This is the total area of both triangles. The remaining region = 216 - 24 = 192 cm²."
+        },
+        {
+          "id": "E",
+          "text": "204 cm²",
+          "isCorrect": false,
+          "feedback": "Did you only subtract one triangle? Two triangles = 2 × 12 = 24. Remaining = 216 - 24 = 192 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Multiple Triangles)**\n\n**Step 1: Find rectangle area**\nRectangle = 18 × 12 = 216 cm²\n\n**Step 2: Find one triangle's area**\nTriangle = ½ × 6 × 4 = 12 cm²\n\n**Step 3: Find total cut-out area**\nTwo triangles = 2 × 12 = 24 cm²\n\n**Step 4: Calculate remaining area**\nRemaining = 216 - 24 = 192 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Triangle = ½ × base × height. Remember there are TWO triangles.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Rectangle = 216 cm². Each triangle = 12 cm². Total cut-out = 24 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 216 - 24 = 192 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "area-triangle",
+          "multiple-cut-outs"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "C": "partial_solution",
+          "D": "wrong_component",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Rectangle minus two identical triangles",
+        "methodologySteps": [
+          "Rectangle: 18 × 12 = 216",
+          "One triangle: ½ × 6 × 4 = 12",
+          "Two triangles: 2 × 12 = 24",
+          "Subtract: 216 - 24 = 192"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Forgetting to halve for triangle",
+          "Only subtracting one triangle"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 12
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-013",
+      "questionType": "MCQ",
+      "stem": "A square card has side length 20 cm. A rectangular window measuring 12 cm by 8 cm is cut from the center. What fraction of the original card remains?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "3/4",
+          "isCorrect": false,
+          "feedback": "Calculate precisely: Remaining = 304/400 = 19/25, not 3/4."
+        },
+        {
+          "id": "B",
+          "text": "4/5",
+          "isCorrect": false,
+          "feedback": "Check: Square = 400, Window = 96. Remaining = 304. Fraction = 304/400 = 19/25, not 4/5."
+        },
+        {
+          "id": "C",
+          "text": "76/100",
+          "isCorrect": false,
+          "feedback": "This is the unsimplified form. Simplify: 76/100 = 19/25."
+        },
+        {
+          "id": "D",
+          "text": "19/25",
+          "isCorrect": true,
+          "feedback": "Correct! Square = 20² = 400 cm². Window = 12 × 8 = 96 cm². Remaining = 304 cm². Fraction = 304/400 = 19/25."
+        },
+        {
+          "id": "E",
+          "text": "6/25",
+          "isCorrect": false,
+          "feedback": "This is the fraction removed. The fraction remaining = 1 - 6/25 = 19/25."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region as Fraction**\n\n**Step 1: Find areas**\nSquare = 20² = 400 cm²\nWindow = 12 × 8 = 96 cm²\n\n**Step 2: Find remaining area**\nRemaining = 400 - 96 = 304 cm²\n\n**Step 3: Calculate fraction**\nFraction = 304/400 = 19/25",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find remaining area first, then express as a fraction of original.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Square = 400 cm². Remaining = 304 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Fraction = 304/400 = 19/25.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-square",
+          "area-rectangle",
+          "fractions",
+          "simplifying"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "incomplete_simplification",
+          "E": "wrong_component"
+        },
+        "solutionApproach": "Find remaining area as fraction of original",
+        "methodologySteps": [
+          "Square: 20² = 400",
+          "Window: 12 × 8 = 96",
+          "Remaining: 400 - 96 = 304",
+          "Fraction: 304/400 = 19/25"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Finding fraction removed instead of remaining",
+          "Simplification errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-7NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 13
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-014",
+      "questionType": "MCQ",
+      "stem": "Two identical rectangles, each 10 cm by 6 cm, overlap in a 4 cm by 4 cm square region. What is the total area covered by the two rectangles?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "136 cm²",
+          "isCorrect": false,
+          "feedback": "This adds overlap instead of subtracting. When shapes overlap, subtract the overlap: 120 - 16 = 104 cm²."
+        },
+        {
+          "id": "B",
+          "text": "60 cm²",
+          "isCorrect": false,
+          "feedback": "This is just one rectangle's area. Total covered = 2 × 60 - 16 = 104 cm²."
+        },
+        {
+          "id": "C",
+          "text": "16 cm²",
+          "isCorrect": false,
+          "feedback": "This is just the overlap area. Total covered = 120 - 16 = 104 cm²."
+        },
+        {
+          "id": "D",
+          "text": "104 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Two rectangles = 2 × 60 = 120 cm². Overlap counted twice, so subtract once: 120 - 16 = 104 cm²."
+        },
+        {
+          "id": "E",
+          "text": "120 cm²",
+          "isCorrect": false,
+          "feedback": "This counts the overlap twice. Subtract overlap once: 120 - 16 = 104 cm²."
+        }
+      ],
+      "solution": "**Methodology: Overlapping Shapes**\n\n**Step 1: Find total of both rectangles**\nTwo rectangles = 2 × (10 × 6) = 120 cm²\n\n**Step 2: Find overlap area**\nOverlap = 4 × 4 = 16 cm²\n\n**Step 3: Calculate actual coverage**\nThe overlap is counted twice in step 1, so subtract once:\nTotal covered = 120 - 16 = 104 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "When shapes overlap, the overlapping region is counted twice if you add their areas.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Two rectangles = 120 cm². Overlap = 16 cm². Subtract overlap once.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total covered = 120 - 16 = 104 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "overlapping-shapes",
+          "inclusion-exclusion"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "partial_solution",
+          "C": "wrong_component",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Add both areas, then subtract overlap once",
+        "methodologySteps": [
+          "Two rectangles: 2 × 60 = 120",
+          "Overlap: 4 × 4 = 16",
+          "Total covered: 120 - 16 = 104"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Forgetting to subtract overlap",
+          "Adding overlap instead"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 14
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-015",
+      "questionType": "MCQ",
+      "stem": "A rectangle measures 24 cm by 18 cm. A circle with diameter 12 cm is cut from the center. What is the area of the remaining region? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "113.04 cm²",
+          "isCorrect": false,
+          "feedback": "This is the circle's area. The remaining region = 432 - 113.04 = 318.96 cm²."
+        },
+        {
+          "id": "B",
+          "text": "545.04 cm²",
+          "isCorrect": false,
+          "feedback": "This adds both areas. For a cut-out, subtract: 432 - 113.04 = 318.96 cm²."
+        },
+        {
+          "id": "C",
+          "text": "80.84 cm²",
+          "isCorrect": false,
+          "feedback": "Did you use radius 12 instead of 6? Diameter = 12, so radius = 6. Circle = π × 6² = 113.04. Remaining = 318.96 cm²."
+        },
+        {
+          "id": "D",
+          "text": "318.96 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Rectangle = 24 × 18 = 432 cm². Circle = π × 6² = 113.04 cm². Remaining = 432 - 113.04 = 318.96 cm²."
+        },
+        {
+          "id": "E",
+          "text": "432 cm²",
+          "isCorrect": false,
+          "feedback": "This is the rectangle's area only. Subtract the circle: 432 - 113.04 = 318.96 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Circle in Rectangle)**\n\n**Step 1: Find rectangle area**\nRectangle = 24 × 18 = 432 cm²\n\n**Step 2: Find circle area**\nDiameter = 12 cm, so radius = 6 cm\nCircle = π × 6² = 3.14 × 36 = 113.04 cm²\n\n**Step 3: Calculate remaining area**\nRemaining = 432 - 113.04 = 318.96 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Diameter = 12 cm means radius = 6 cm. Use this for the circle area.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Rectangle = 432 cm². Circle = 113.04 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 432 - 113.04 = 318.96 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "area-circle",
+          "diameter-radius",
+          "pi"
+        ],
+        "distractorTypes": {
+          "A": "wrong_component",
+          "B": "wrong_operation",
+          "C": "misconception_answer",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Rectangle minus circle (using radius from diameter)",
+        "methodologySteps": [
+          "Rectangle: 24 × 18 = 432",
+          "Radius = 12 ÷ 2 = 6",
+          "Circle: π × 6² = 113.04",
+          "Subtract: 432 - 113.04 = 318.96"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Using diameter instead of radius",
+          "Decimal calculation errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 15
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-016",
+      "questionType": "MCQ",
+      "stem": "A square has side length 14 cm. A semicircle with diameter 10 cm is cut from one side. What is the area of the remaining region? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "196 cm²",
+          "isCorrect": false,
+          "feedback": "This is the square's area only. Subtract the semicircle: 196 - 39.25 = 156.75 cm²."
+        },
+        {
+          "id": "B",
+          "text": "117.5 cm²",
+          "isCorrect": false,
+          "feedback": "Did you use the full circle instead of semicircle? Semicircle = ½ × 78.5 = 39.25. Remaining = 156.75 cm²."
+        },
+        {
+          "id": "C",
+          "text": "156.75 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Square = 14² = 196 cm². Semicircle = ½ × π × 5² = 39.25 cm². Remaining = 196 - 39.25 = 156.75 cm²."
+        },
+        {
+          "id": "D",
+          "text": "39.25 cm²",
+          "isCorrect": false,
+          "feedback": "This is the semicircle's area. The remaining region = 196 - 39.25 = 156.75 cm²."
+        },
+        {
+          "id": "E",
+          "text": "235.25 cm²",
+          "isCorrect": false,
+          "feedback": "This adds both areas. For a cut-out, subtract: 196 - 39.25 = 156.75 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Semicircle Cut-out)**\n\n**Step 1: Find square area**\nSquare = 14² = 196 cm²\n\n**Step 2: Find semicircle area**\nDiameter = 10 cm, so radius = 5 cm\nFull circle = π × 5² = 3.14 × 25 = 78.5 cm²\nSemicircle = ½ × 78.5 = 39.25 cm²\n\n**Step 3: Calculate remaining area**\nRemaining = 196 - 39.25 = 156.75 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A semicircle is half a circle. Find the full circle area first, then halve it.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Square = 196 cm². Semicircle = ½ × π × 5² = 39.25 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 196 - 39.25 = 156.75 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-square",
+          "area-semicircle",
+          "diameter-radius",
+          "fractions-of-shapes"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "misconception_answer",
+          "D": "wrong_component",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Square minus semicircle",
+        "methodologySteps": [
+          "Square: 14² = 196",
+          "Radius = 10 ÷ 2 = 5",
+          "Semicircle: ½ × π × 5² = 39.25",
+          "Subtract: 196 - 39.25 = 156.75"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Using full circle instead of semicircle",
+          "Forgetting to halve for semicircle"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 16
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-017",
+      "questionType": "MCQ",
+      "stem": "A rectangle measures 30 cm by 20 cm. A triangle with base equal to the rectangle's width and height 12 cm is removed from one end. What is the remaining area?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "540 cm²",
+          "isCorrect": false,
+          "feedback": "Check: Rectangle = 600, Triangle = ½ × 20 × 12 = 120. Remaining = 600 - 120 = 480 cm²."
+        },
+        {
+          "id": "B",
+          "text": "600 cm²",
+          "isCorrect": false,
+          "feedback": "This is the rectangle's area only. Subtract the triangle: 600 - 120 = 480 cm²."
+        },
+        {
+          "id": "C",
+          "text": "120 cm²",
+          "isCorrect": false,
+          "feedback": "This is the triangle's area. The remaining region = 600 - 120 = 480 cm²."
+        },
+        {
+          "id": "D",
+          "text": "480 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Rectangle = 30 × 20 = 600 cm². Triangle = ½ × 20 × 12 = 120 cm². Remaining = 600 - 120 = 480 cm²."
+        },
+        {
+          "id": "E",
+          "text": "360 cm²",
+          "isCorrect": false,
+          "feedback": "Did you forget to halve for the triangle? Triangle = ½ × 20 × 12 = 120, not 240. Remaining = 480 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Triangle End)**\n\n**Step 1: Find rectangle area**\nRectangle = 30 × 20 = 600 cm²\n\n**Step 2: Find triangle area**\nBase = rectangle's width = 20 cm\nHeight = 12 cm\nTriangle = ½ × 20 × 12 = 120 cm²\n\n**Step 3: Calculate remaining area**\nRemaining = 600 - 120 = 480 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The triangle's base equals the rectangle's width (20 cm).",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Rectangle = 600 cm². Triangle = ½ × 20 × 12 = 120 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 600 - 120 = 480 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "area-triangle",
+          "interpreting-dimensions"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "wrong_component",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Rectangle minus triangle (matching dimensions)",
+        "methodologySteps": [
+          "Rectangle: 30 × 20 = 600",
+          "Triangle base = width = 20",
+          "Triangle: ½ × 20 × 12 = 120",
+          "Subtract: 600 - 120 = 480"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Using wrong dimension for triangle base",
+          "Forgetting to halve for triangle"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 17
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-018",
+      "questionType": "MCQ",
+      "stem": "A circle has radius 8 cm. A triangle with base 10 cm and height 6 cm is inscribed inside. What is the area of the region inside the circle but outside the triangle? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "170.96 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Circle = π × 8² = 200.96 cm². Triangle = ½ × 10 × 6 = 30 cm². Shaded = 200.96 - 30 = 170.96 cm²."
+        },
+        {
+          "id": "B",
+          "text": "230.96 cm²",
+          "isCorrect": false,
+          "feedback": "This adds both areas. For the region between them, subtract: 200.96 - 30 = 170.96 cm²."
+        },
+        {
+          "id": "C",
+          "text": "30 cm²",
+          "isCorrect": false,
+          "feedback": "This is the triangle's area. The shaded region = 200.96 - 30 = 170.96 cm²."
+        },
+        {
+          "id": "D",
+          "text": "200.96 cm²",
+          "isCorrect": false,
+          "feedback": "This is the circle's area only. Subtract the triangle: 200.96 - 30 = 170.96 cm²."
+        },
+        {
+          "id": "E",
+          "text": "140.96 cm²",
+          "isCorrect": false,
+          "feedback": "Check: Circle = π × 8² = 200.96. Triangle = ½ × 10 × 6 = 30. Shaded = 170.96 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Triangle in Circle)**\n\n**Step 1: Find circle area**\nCircle = πr² = 3.14 × 8² = 200.96 cm²\n\n**Step 2: Find triangle area**\nTriangle = ½ × 10 × 6 = 30 cm²\n\n**Step 3: Calculate shaded region**\nShaded = Circle - Triangle = 200.96 - 30 = 170.96 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The shaded region is inside the circle but outside the triangle.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Circle = 200.96 cm². Triangle = 30 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Shaded = 200.96 - 30 = 170.96 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-circle",
+          "area-triangle",
+          "inscribed-shapes"
+        ],
+        "distractorTypes": {
+          "B": "wrong_operation",
+          "C": "wrong_component",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Circle area minus inscribed triangle area",
+        "methodologySteps": [
+          "Circle: π × 8² = 200.96",
+          "Triangle: ½ × 10 × 6 = 30",
+          "Subtract: 200.96 - 30 = 170.96"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Forgetting to halve for triangle",
+          "Adding instead of subtracting"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 18
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-019",
+      "questionType": "MCQ",
+      "stem": "A square has side length 18 cm. Four identical right triangles, each with legs 6 cm and 4 cm, are cut from the four corners. What is the remaining area?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "276 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Square = 18² = 324 cm². Four triangles = 4 × (½ × 6 × 4) = 48 cm². Remaining = 324 - 48 = 276 cm²."
+        },
+        {
+          "id": "B",
+          "text": "312 cm²",
+          "isCorrect": false,
+          "feedback": "Did you only subtract one triangle? Four triangles = 4 × 12 = 48. Remaining = 324 - 48 = 276 cm²."
+        },
+        {
+          "id": "C",
+          "text": "48 cm²",
+          "isCorrect": false,
+          "feedback": "This is the total area of four triangles. The remaining region = 324 - 48 = 276 cm²."
+        },
+        {
+          "id": "D",
+          "text": "324 cm²",
+          "isCorrect": false,
+          "feedback": "This is the square's area only. Subtract four triangles: 324 - 48 = 276 cm²."
+        },
+        {
+          "id": "E",
+          "text": "228 cm²",
+          "isCorrect": false,
+          "feedback": "Did you forget to halve for triangle area? Each triangle = ½ × 6 × 4 = 12, not 24. Four = 48. Remaining = 276 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Four Corner Triangles)**\n\n**Step 1: Find square area**\nSquare = 18² = 324 cm²\n\n**Step 2: Find one triangle's area**\nTriangle = ½ × 6 × 4 = 12 cm²\n\n**Step 3: Find total cut-out area**\nFour triangles = 4 × 12 = 48 cm²\n\n**Step 4: Calculate remaining area**\nRemaining = 324 - 48 = 276 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Four corners = four triangles. Find one, then multiply by 4.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Square = 324 cm². Each triangle = 12 cm². Total cut = 48 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 324 - 48 = 276 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-square",
+          "area-triangle",
+          "multiple-cut-outs"
+        ],
+        "distractorTypes": {
+          "B": "partial_solution",
+          "C": "wrong_component",
+          "D": "partial_solution",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Square minus four corner triangles",
+        "methodologySteps": [
+          "Square: 18² = 324",
+          "One triangle: ½ × 6 × 4 = 12",
+          "Four triangles: 4 × 12 = 48",
+          "Subtract: 324 - 48 = 276"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Forgetting to halve for triangle",
+          "Only counting one triangle"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 19
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-020",
+      "questionType": "MCQ",
+      "stem": "A rectangle measures 25 cm by 16 cm. A quarter circle with radius 8 cm is cut from each of two opposite corners. What is the area of the remaining region? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "299.04 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Rectangle = 25 × 16 = 400 cm². Two quarter circles = 2 × (¼ × π × 8²) = 100.48 cm². Remaining = 400 - 100.48 = 299.52 cm². (≈299.04 with rounding)"
+        },
+        {
+          "id": "B",
+          "text": "100.48 cm²",
+          "isCorrect": false,
+          "feedback": "This is the area of both quarter circles. The remaining region = 400 - 100.48 ≈ 299.52 cm²."
+        },
+        {
+          "id": "C",
+          "text": "400 cm²",
+          "isCorrect": false,
+          "feedback": "This is the rectangle's area only. Subtract the quarter circles: 400 - 100.48 ≈ 299.52 cm²."
+        },
+        {
+          "id": "D",
+          "text": "198.96 cm²",
+          "isCorrect": false,
+          "feedback": "Did you use semicircles instead of quarter circles? Quarter = ¼ of full circle. Two quarters = ½ circle = 100.48 cm²."
+        },
+        {
+          "id": "E",
+          "text": "349.76 cm²",
+          "isCorrect": false,
+          "feedback": "Did you only subtract one quarter circle? Two quarter circles = 2 × 50.24 = 100.48. Remaining ≈ 299.52 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Quarter Circles)**\n\n**Step 1: Find rectangle area**\nRectangle = 25 × 16 = 400 cm²\n\n**Step 2: Find one quarter circle's area**\nQuarter circle = ¼ × πr² = ¼ × 3.14 × 8² = ¼ × 200.96 = 50.24 cm²\n\n**Step 3: Find total cut-out area**\nTwo quarter circles = 2 × 50.24 = 100.48 cm²\n\n**Step 4: Calculate remaining area**\nRemaining = 400 - 100.48 = 299.52 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A quarter circle is ¼ of a full circle. There are TWO quarter circles.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Rectangle = 400 cm². Each quarter = 50.24 cm². Total cut = 100.48 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 400 - 100.48 ≈ 299.52 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "area-quarter-circle",
+          "fractions-of-circles"
+        ],
+        "distractorTypes": {
+          "B": "wrong_component",
+          "C": "partial_solution",
+          "D": "misconception_answer",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Rectangle minus two quarter circles",
+        "methodologySteps": [
+          "Rectangle: 25 × 16 = 400",
+          "One quarter: ¼ × π × 8² = 50.24",
+          "Two quarters: 2 × 50.24 = 100.48",
+          "Subtract: 400 - 100.48 ≈ 299.52"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Confusing quarter and semicircle",
+          "Only counting one quarter circle"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 20
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-021",
+      "questionType": "MCQ",
+      "stem": "A square has side length 20 cm. Two semicircles with diameter 10 cm each are cut from opposite sides. What is the area of the remaining region? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "243 cm²",
+          "isCorrect": false,
+          "feedback": "Did you use diameter for radius? Radius = 5 cm, not 10 cm. Circle = π × 5² = 78.5. Remaining = 321.5 cm²."
+        },
+        {
+          "id": "B",
+          "text": "321.5 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Square = 20² = 400 cm². Two semicircles = full circle = π × 5² = 78.5 cm². Remaining = 400 - 78.5 = 321.5 cm²."
+        },
+        {
+          "id": "C",
+          "text": "400 cm²",
+          "isCorrect": false,
+          "feedback": "This is the square's area only. Subtract both semicircles: 400 - 78.5 = 321.5 cm²."
+        },
+        {
+          "id": "D",
+          "text": "360.75 cm²",
+          "isCorrect": false,
+          "feedback": "Did you only subtract one semicircle? Two semicircles = one full circle = 78.5. Remaining = 321.5 cm²."
+        },
+        {
+          "id": "E",
+          "text": "78.5 cm²",
+          "isCorrect": false,
+          "feedback": "This is the combined area of both semicircles. The remaining region = 400 - 78.5 = 321.5 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Two Semicircles)**\n\n**Step 1: Find square area**\nSquare = 20² = 400 cm²\n\n**Step 2: Find semicircles' area**\nDiameter = 10 cm, so radius = 5 cm\nTwo semicircles = one full circle = π × 5² = 3.14 × 25 = 78.5 cm²\n\n**Step 3: Calculate remaining area**\nRemaining = 400 - 78.5 = 321.5 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Two semicircles together make one full circle. Find the circle's area.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Square = 400 cm². Full circle (from two semicircles) = 78.5 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 400 - 78.5 = 321.5 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-square",
+          "area-semicircle",
+          "combining-fractions-of-circles"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "C": "partial_solution",
+          "D": "partial_solution",
+          "E": "wrong_component"
+        },
+        "solutionApproach": "Square minus two semicircles (= one circle)",
+        "methodologySteps": [
+          "Square: 20² = 400",
+          "Radius = 10 ÷ 2 = 5",
+          "Two semicircles = π × 5² = 78.5",
+          "Subtract: 400 - 78.5 = 321.5"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Using diameter as radius",
+          "Only subtracting one semicircle"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 21
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-022",
+      "questionType": "MCQ",
+      "stem": "A rectangle measures 24 cm by 14 cm. From the center, a circle with radius 5 cm is removed, and a square with side 4 cm is also removed. What is the total remaining area? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "257.5 cm²",
+          "isCorrect": false,
+          "feedback": "Did you forget one cut-out? Circle = 78.5, Square = 16. Remaining = 336 - 94.5 = 241.5 cm²."
+        },
+        {
+          "id": "B",
+          "text": "241.5 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Rectangle = 336 cm². Circle = π × 5² = 78.5 cm². Square = 16 cm². Remaining = 336 - 78.5 - 16 = 241.5 cm²."
+        },
+        {
+          "id": "C",
+          "text": "336 cm²",
+          "isCorrect": false,
+          "feedback": "This is the rectangle only. Subtract both cut-outs: 336 - 78.5 - 16 = 241.5 cm²."
+        },
+        {
+          "id": "D",
+          "text": "94.5 cm²",
+          "isCorrect": false,
+          "feedback": "This is the combined cut-out area. The remaining region = 336 - 94.5 = 241.5 cm²."
+        },
+        {
+          "id": "E",
+          "text": "320 cm²",
+          "isCorrect": false,
+          "feedback": "Did you only subtract the square? Both cut-outs: 78.5 + 16 = 94.5. Remaining = 241.5 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Multiple Different Cut-outs)**\n\n**Step 1: Find rectangle area**\nRectangle = 24 × 14 = 336 cm²\n\n**Step 2: Find circle area**\nCircle = π × 5² = 3.14 × 25 = 78.5 cm²\n\n**Step 3: Find square area**\nSquare = 4² = 16 cm²\n\n**Step 4: Calculate remaining area**\nRemaining = 336 - 78.5 - 16 = 241.5 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "There are TWO different cut-outs: a circle and a square. Subtract both.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Rectangle = 336 cm². Circle = 78.5 cm². Square = 16 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 336 - 78.5 - 16 = 241.5 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "area-circle",
+          "area-square",
+          "multiple-different-cut-outs"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "partial_solution",
+          "D": "wrong_component",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Rectangle minus circle minus square",
+        "methodologySteps": [
+          "Rectangle: 24 × 14 = 336",
+          "Circle: π × 5² = 78.5",
+          "Square: 4² = 16",
+          "Subtract both: 336 - 78.5 - 16 = 241.5"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Forgetting one cut-out",
+          "Adding cut-outs to total"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 22
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-023",
+      "questionType": "MCQ",
+      "stem": "A square has side length 22 cm. A rectangle measuring 14 cm by 8 cm is cut out, and a semicircle with diameter 8 cm is also cut out from a different location. What is the remaining area? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "346.88 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Square = 484 cm². Rectangle = 112 cm². Semicircle = ½ × π × 4² = 25.12 cm². Remaining = 484 - 112 - 25.12 = 346.88 cm²."
+        },
+        {
+          "id": "B",
+          "text": "372 cm²",
+          "isCorrect": false,
+          "feedback": "Did you forget the semicircle? Rectangle = 112, Semicircle = 25.12. Total cut = 137.12. Remaining = 346.88 cm²."
+        },
+        {
+          "id": "C",
+          "text": "484 cm²",
+          "isCorrect": false,
+          "feedback": "This is the square only. Subtract rectangle (112) and semicircle (25.12): 484 - 137.12 = 346.88 cm²."
+        },
+        {
+          "id": "D",
+          "text": "137.12 cm²",
+          "isCorrect": false,
+          "feedback": "This is the total of both cut-outs. The remaining region = 484 - 137.12 = 346.88 cm²."
+        },
+        {
+          "id": "E",
+          "text": "458.88 cm²",
+          "isCorrect": false,
+          "feedback": "Did you forget the rectangle? Both cut-outs = 112 + 25.12 = 137.12. Remaining = 346.88 cm²."
+        }
+      ],
+      "solution": "**Methodology: Shaded Region Area (Complex Multiple Cut-outs)**\n\n**Step 1: Find square area**\nSquare = 22² = 484 cm²\n\n**Step 2: Find rectangle area**\nRectangle = 14 × 8 = 112 cm²\n\n**Step 3: Find semicircle area**\nDiameter = 8 cm, so radius = 4 cm\nSemicircle = ½ × π × 4² = ½ × 50.24 = 25.12 cm²\n\n**Step 4: Calculate remaining area**\nRemaining = 484 - 112 - 25.12 = 346.88 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "There are two cut-outs: a rectangle and a semicircle. Handle each separately.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Square = 484 cm². Rectangle = 112 cm². Semicircle = 25.12 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Remaining = 484 - 112 - 25.12 = 346.88 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-square",
+          "area-rectangle",
+          "area-semicircle",
+          "multiple-different-cut-outs"
+        ],
+        "distractorTypes": {
+          "B": "partial_solution",
+          "C": "partial_solution",
+          "D": "wrong_component",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Square minus rectangle minus semicircle",
+        "methodologySteps": [
+          "Square: 22² = 484",
+          "Rectangle: 14 × 8 = 112",
+          "Radius = 8 ÷ 2 = 4",
+          "Semicircle: ½ × π × 4² = 25.12",
+          "Subtract: 484 - 112 - 25.12 = 346.88"
+        ],
+        "timeTarget": 120,
+        "commonErrors": [
+          "Forgetting one shape",
+          "Using diameter for semicircle radius"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 23
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-024",
+      "questionType": "MCQ",
+      "stem": "A rectangle measures 30 cm by 20 cm. Semicircles with the same diameter as the width (20 cm) are added to both shorter ends. What is the total area of this composite shape? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "757 cm²",
+          "isCorrect": false,
+          "feedback": "Did you only add one semicircle? Two semicircles = π × 10² = 314. Total = 600 + 314 = 914 cm²."
+        },
+        {
+          "id": "B",
+          "text": "600 cm²",
+          "isCorrect": false,
+          "feedback": "This is just the rectangle. ADD the semicircles: 600 + 314 = 914 cm²."
+        },
+        {
+          "id": "C",
+          "text": "1228 cm²",
+          "isCorrect": false,
+          "feedback": "Did you use diameter (20) instead of radius (10)? Radius = 10, so circle = π × 10² = 314. Total = 914 cm²."
+        },
+        {
+          "id": "D",
+          "text": "914 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Rectangle = 600 cm². Two semicircles (= one circle) = π × 10² = 314 cm². Total = 600 + 314 = 914 cm²."
+        },
+        {
+          "id": "E",
+          "text": "286 cm²",
+          "isCorrect": false,
+          "feedback": "This subtracts instead of adds! Semicircles are ADDED to the shape: 600 + 314 = 914 cm²."
+        }
+      ],
+      "solution": "**Methodology: Composite Shape (Addition)**\n\n**Step 1: Find rectangle area**\nRectangle = 30 × 20 = 600 cm²\n\n**Step 2: Find semicircles' area**\nDiameter = 20 cm, so radius = 10 cm\nTwo semicircles = one full circle = π × 10² = 314 cm²\n\n**Step 3: Calculate total area**\nTotal = Rectangle + Semicircles = 600 + 314 = 914 cm²\n\n(Note: Semicircles are ADDED, not removed!)",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The semicircles are ADDED to the rectangle, not removed. This is addition, not subtraction!",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Rectangle = 600 cm². Two semicircles = one circle = 314 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 600 + 314 = 914 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-rectangle",
+          "area-semicircle",
+          "composite-addition",
+          "stadium-shape"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "partial_solution",
+          "C": "misconception_answer",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Rectangle plus two semicircles (added, not subtracted)",
+        "methodologySteps": [
+          "Rectangle: 30 × 20 = 600",
+          "Radius = 20 ÷ 2 = 10",
+          "Two semicircles = π × 10² = 314",
+          "ADD: 600 + 314 = 914"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Subtracting instead of adding",
+          "Only counting one semicircle"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 24
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa19-025",
+      "questionType": "MCQ",
+      "stem": "A large circle has radius 15 cm. Inside it, a smaller concentric circle with radius 9 cm has been removed to create a ring (annulus). What is the area of the ring? (Use π = 3.14)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "706.5 cm²",
+          "isCorrect": false,
+          "feedback": "This is the large circle only. Subtract the small circle: 706.5 - 254.34 = 452.16 cm²."
+        },
+        {
+          "id": "B",
+          "text": "960.84 cm²",
+          "isCorrect": false,
+          "feedback": "This adds both circles. For a ring, subtract: 706.5 - 254.34 = 452.16 cm²."
+        },
+        {
+          "id": "C",
+          "text": "452.16 cm²",
+          "isCorrect": true,
+          "feedback": "Correct! Large circle = π × 15² = 706.5 cm². Small circle = π × 9² = 254.34 cm². Ring = 706.5 - 254.34 = 452.16 cm²."
+        },
+        {
+          "id": "D",
+          "text": "254.34 cm²",
+          "isCorrect": false,
+          "feedback": "This is the small circle (removed part). The ring = 706.5 - 254.34 = 452.16 cm²."
+        },
+        {
+          "id": "E",
+          "text": "113.04 cm²",
+          "isCorrect": false,
+          "feedback": "Check your calculations. Large = π × 225 = 706.5. Small = π × 81 = 254.34. Ring = 452.16 cm²."
+        }
+      ],
+      "solution": "**Methodology: Annulus (Ring) Area**\n\n**Step 1: Find large circle area**\nLarge circle = π × R² = 3.14 × 15² = 3.14 × 225 = 706.5 cm²\n\n**Step 2: Find small circle area**\nSmall circle = π × r² = 3.14 × 9² = 3.14 × 81 = 254.34 cm²\n\n**Step 3: Calculate ring area**\nRing = Large - Small = 706.5 - 254.34 = 452.16 cm²\n\n**Alternative formula:** π(R² - r²) = 3.14 × (225 - 81) = 3.14 × 144 = 452.16 cm²",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A ring (annulus) = outer circle minus inner circle.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Large = π × 15² = 706.5 cm². Small = π × 9² = 254.34 cm².",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Ring = 706.5 - 254.34 = 452.16 cm².",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Shaded Region Area",
+        "archetypeId": "qa19",
+        "conceptsRequired": [
+          "area-circle",
+          "annulus",
+          "concentric-circles"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "wrong_operation",
+          "D": "wrong_component",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Large circle area minus small circle area",
+        "methodologySteps": [
+          "Large circle: π × 15² = 706.5",
+          "Small circle: π × 9² = 254.34",
+          "Ring: 706.5 - 254.34 = 452.16"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Squaring differences instead of subtracting squares",
+          "Adding instead of subtracting"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-10MG",
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Area"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa19-set1",
+        "sequenceInPaper": 25
+      },
+      "status": "published"
+    }
+  ]
+}

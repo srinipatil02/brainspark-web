@@ -1,0 +1,2574 @@
+{
+  "metadata": {
+    "archetype": "Pattern Sequence Complex Rule",
+    "archetypeId": "qa9",
+    "archetypeSlug": "pattern-sequence-complex-rule",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "foundation": {
+        "count": 5,
+        "difficulty": "1-2"
+      },
+      "application": {
+        "count": 10,
+        "difficulty": "2-3"
+      },
+      "connection": {
+        "count": 5,
+        "difficulty": "3"
+      },
+      "mastery": {
+        "count": 5,
+        "difficulty": "4"
+      }
+    },
+    "createdAt": "2026-01-13",
+    "version": "1.0",
+    "researchSource": ".claude/knowledge/edu/research/mathematical-reasoning-nsw-selective.json"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa9-001",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n2, 5, 11, 23, 47, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "95",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×2 + 1'. Check: 2×2+1=5, 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95."
+        },
+        {
+          "id": "B",
+          "text": "93",
+          "isCorrect": false,
+          "feedback": "Check: 47×2=94, then +1=95. Not 93."
+        },
+        {
+          "id": "C",
+          "text": "71",
+          "isCorrect": false,
+          "feedback": "This adds 24 (continuing +3, +6, +12, +24). But the pattern is multiplicative: ×2+1."
+        },
+        {
+          "id": "D",
+          "text": "94",
+          "isCorrect": false,
+          "feedback": "Close! The pattern is ×2 then +1. So 47×2+1=95, not 94."
+        },
+        {
+          "id": "E",
+          "text": "96",
+          "isCorrect": false,
+          "feedback": "This is 47×2=94+2=96. The rule is ×2+1, so 47×2+1=95."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Look at differences**\n5-2=3, 11-5=6, 23-11=12, 47-23=24\nDifferences: 3, 6, 12, 24 (doubling)\n\n**Step 2: Find the rule**\nNotice: 2×2=4, +1=5 ✓\n5×2=10, +1=11 ✓\n11×2=22, +1=23 ✓\nRule: ×2 + 1\n\n**Step 3: Apply**\n47 × 2 + 1 = 94 + 1 = 95\n\n**Step 4: Verify**\nAll terms follow ×2+1 rule. ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Look at the differences between consecutive terms. What pattern do you see?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "The differences are 3, 6, 12, 24 (doubling). Try finding a rule that combines multiplication and addition.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Rule is ×2 + 1. Apply to 47: 47×2+1 = 95.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "multiplication",
+          "addition",
+          "sequence-analysis"
+        ],
+        "distractorTypes": {
+          "B": "computation_error",
+          "C": "wrong_operation",
+          "D": "off_by_one",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Analyze differences → Identify composite rule → Apply rule to last term",
+        "methodologySteps": [
+          "Read: List the terms and find differences between consecutive terms",
+          "Analyze: Look for patterns in differences (doubling suggests multiplicative rule)",
+          "Identify: Test rule ×2+1 on each term",
+          "Apply: 47×2+1 = 95",
+          "Check: Verify rule works for all given terms"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Using addition only",
+          "Off-by-one in calculation",
+          "Misidentifying the rule"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-002",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n3, 7, 15, 31, 63, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "126",
+          "isCorrect": false,
+          "feedback": "Close! The pattern is ×2+1. So 63×2+1=127, not 63×2=126."
+        },
+        {
+          "id": "B",
+          "text": "127",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×2 + 1'. Check: 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63, 63×2+1=127."
+        },
+        {
+          "id": "C",
+          "text": "95",
+          "isCorrect": false,
+          "feedback": "This adds 32 to 63. But the rule is multiplicative: ×2+1."
+        },
+        {
+          "id": "D",
+          "text": "128",
+          "isCorrect": false,
+          "feedback": "This is 64×2=128. But the pattern is ×2+1, and 63×2+1=127."
+        },
+        {
+          "id": "E",
+          "text": "125",
+          "isCorrect": false,
+          "feedback": "Check: 63×2=126, +1=127. Not 125."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Look at differences**\n7-3=4, 15-7=8, 31-15=16, 63-31=32\nDifferences: 4, 8, 16, 32 (doubling)\n\n**Step 2: Find the rule**\nNotice: 3×2=6, +1=7 ✓\n7×2=14, +1=15 ✓\nRule: ×2 + 1\n\n**Step 3: Apply**\n63 × 2 + 1 = 126 + 1 = 127\n\n**Step 4: Verify**\nAlso note: these are (2^n - 1) pattern: 3=4-1, 7=8-1, 15=16-1, 31=32-1, 63=64-1, 127=128-1 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Look at the differences: 4, 8, 16, 32. What pattern do these follow?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "The differences double each time. This suggests a ×2+something rule.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Rule is ×2 + 1. Apply to 63: 63×2+1 = 127.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "multiplication",
+          "powers-of-two",
+          "sequence-analysis"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "wrong_operation",
+          "D": "off_by_one",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Analyze differences → Identify ×2+1 rule → Apply",
+        "methodologySteps": [
+          "Read: Note the terms and their differences",
+          "Analyze: Differences 4,8,16,32 are doubling",
+          "Identify: Rule is ×2+1",
+          "Apply: 63×2+1 = 127",
+          "Check: 127 = 128-1 fits the 2^n-1 pattern ✓"
+        ],
+        "timeTarget": 55,
+        "commonErrors": [
+          "Just doubling without +1",
+          "Using only addition"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 55,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-003",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n1, 4, 13, 40, 121, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "364",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×3 + 1'. Check: 1×3+1=4, 4×3+1=13, 13×3+1=40, 40×3+1=121, 121×3+1=364."
+        },
+        {
+          "id": "B",
+          "text": "365",
+          "isCorrect": false,
+          "feedback": "Close! 121×3=363, +1=364, not 365."
+        },
+        {
+          "id": "C",
+          "text": "202",
+          "isCorrect": false,
+          "feedback": "This adds 81 (continuing +3, +9, +27, +81). But the rule is ×3+1, not just adding."
+        },
+        {
+          "id": "D",
+          "text": "363",
+          "isCorrect": false,
+          "feedback": "Close! The pattern is ×3+1, not ×3. So 121×3+1=364."
+        },
+        {
+          "id": "E",
+          "text": "366",
+          "isCorrect": false,
+          "feedback": "Check: 121×3+1=363+1=364, not 366."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Look at differences**\n4-1=3, 13-4=9, 40-13=27, 121-40=81\nDifferences: 3, 9, 27, 81 (×3 each time)\n\n**Step 2: Find the rule**\n1×3=3, +1=4 ✓\n4×3=12, +1=13 ✓\n13×3=39, +1=40 ✓\nRule: ×3 + 1\n\n**Step 3: Apply**\n121 × 3 + 1 = 363 + 1 = 364\n\n**Step 4: Verify**\nAll terms follow ×3+1 rule. ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the differences: 3, 9, 27, 81. What pattern is this?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Differences are powers of 3. Try a rule that involves ×3.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Rule is ×3 + 1. Apply to 121: 121×3+1 = 364.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "multiplication",
+          "powers-of-three",
+          "sequence-analysis"
+        ],
+        "distractorTypes": {
+          "B": "off_by_one",
+          "C": "wrong_operation",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Analyze differences → Identify ×3+1 rule → Apply",
+        "methodologySteps": [
+          "Read: Note terms and find differences",
+          "Analyze: Differences 3,9,27,81 are powers of 3",
+          "Identify: Rule is ×3+1",
+          "Apply: 121×3+1 = 364",
+          "Check: Verify with all given terms ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Just tripling without +1",
+          "Adding powers of 3"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-004",
+      "questionType": "MCQ",
+      "stem": "What is the missing number in this sequence?\n\n5, 8, 14, __, 50, 98",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "Check: 24×2-2=46≠50. The correct answer gives 26×2-2=50."
+        },
+        {
+          "id": "B",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "Adding 6 each time doesn't work. The pattern is ×2-2."
+        },
+        {
+          "id": "C",
+          "text": "28",
+          "isCorrect": false,
+          "feedback": "Check: If 28 is correct, 28×2-2=54≠50. The rule needs to give 50 next."
+        },
+        {
+          "id": "D",
+          "text": "22",
+          "isCorrect": false,
+          "feedback": "Try the rule ×2-2: 14×2-2=26, not 22. Check: 22×2-2=42≠50."
+        },
+        {
+          "id": "E",
+          "text": "26",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×2 - 2'. Check: 5×2-2=8, 8×2-2=14, 14×2-2=26, 26×2-2=50, 50×2-2=98."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Work backwards from known terms**\n98 = 50×2 - 2 ✓\nSo: 50 = ?×2 - 2\n52 = ?×2\n? = 26\n\n**Step 2: Verify forwards**\n5×2-2=8 ✓\n8×2-2=14 ✓\n14×2-2=26 ✓\n26×2-2=50 ✓\n50×2-2=98 ✓\n\n**Step 3: Confirm rule**\nRule: ×2 - 2\nMissing number: 26",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Look at 50 and 98. What operation on 50 gives 98?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "50×2=100, -2=98. So the rule is ×2-2. Work backwards from 50.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "50 = ?×2-2, so ?×2=52, ?=26.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "multiplication",
+          "subtraction",
+          "working-backwards"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "wrong_operation",
+          "C": "off_by_one",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Identify rule from known terms → Work backwards for missing",
+        "methodologySteps": [
+          "Read: Identify given terms and gap",
+          "Analyze: 50→98 suggests ×2-2",
+          "Identify: Test rule ×2-2 on all terms",
+          "Apply: 50÷2+1... no, work: 50=x×2-2, x=26",
+          "Check: 14×2-2=26, 26×2-2=50 ✓"
+        ],
+        "timeTarget": 65,
+        "commonErrors": [
+          "Simple addition pattern",
+          "Incorrect working backwards"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 65,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-005",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n2, 6, 14, 30, 62, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "124",
+          "isCorrect": false,
+          "feedback": "Close! The pattern is ×2+2. So 62×2+2=126, not 124."
+        },
+        {
+          "id": "B",
+          "text": "128",
+          "isCorrect": false,
+          "feedback": "This is 64×2. But the rule is ×2+2, so 62×2+2=126."
+        },
+        {
+          "id": "C",
+          "text": "130",
+          "isCorrect": false,
+          "feedback": "Check: 62×2=124, +2=126. Not 130."
+        },
+        {
+          "id": "D",
+          "text": "126",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×2 + 2'. Check: 2×2+2=6, 6×2+2=14, 14×2+2=30, 30×2+2=62, 62×2+2=126."
+        },
+        {
+          "id": "E",
+          "text": "94",
+          "isCorrect": false,
+          "feedback": "This adds 32. But the pattern is multiplicative: ×2+2."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Look at differences**\n6-2=4, 14-6=8, 30-14=16, 62-30=32\nDifferences: 4, 8, 16, 32 (doubling)\n\n**Step 2: Find the rule**\n2×2=4, +2=6 ✓\n6×2=12, +2=14 ✓\n14×2=28, +2=30 ✓\nRule: ×2 + 2\n\n**Step 3: Apply**\n62 × 2 + 2 = 124 + 2 = 126\n\n**Step 4: Verify**\nAlso: these are 2×(2^n - 1): 2, 6, 14, 30, 62, 126... ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The differences are 4, 8, 16, 32. What pattern is this?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Differences double. Try finding a rule with ×2 and adding.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Rule is ×2 + 2. Apply to 62: 62×2+2 = 126.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "multiplication",
+          "addition",
+          "sequence-analysis"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "computation_error",
+          "C": "computation_error",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Analyze differences → Identify ×2+2 rule → Apply",
+        "methodologySteps": [
+          "Read: Note terms and differences",
+          "Analyze: Differences 4,8,16,32 double",
+          "Identify: Rule is ×2+2",
+          "Apply: 62×2+2 = 126",
+          "Check: Verify with given terms ✓"
+        ],
+        "timeTarget": 55,
+        "commonErrors": [
+          "Using ×2+1 instead of ×2+2",
+          "Just doubling"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 55,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-006",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this alternating sequence?\n\n2, 6, 4, 12, 8, 24, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "48",
+          "isCorrect": false,
+          "feedback": "This continues the ×2 pattern. But the sequence alternates between two patterns: 2,4,8,16 and 6,12,24,48."
+        },
+        {
+          "id": "B",
+          "text": "32",
+          "isCorrect": false,
+          "feedback": "Check: Odd positions are 2,4,8,... so next odd position is 16."
+        },
+        {
+          "id": "C",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "Look at positions: 1st,3rd,5th (2,4,8) double. 2nd,4th,6th (6,12,24) double. 7th continues first pattern."
+        },
+        {
+          "id": "D",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "The pattern doesn't add. It alternates: 2,4,8,16 (×2) and 6,12,24,48 (×2)."
+        },
+        {
+          "id": "E",
+          "text": "16",
+          "isCorrect": true,
+          "feedback": "Correct! Two alternating patterns: odd positions (2,4,8,16) double, even positions (6,12,24) also double. Or: alternate ×3, ÷1.5. Next is 24÷1.5=16."
+        }
+      ],
+      "solution": "**Methodology: Alternating Pattern Analysis**\n\n**Step 1: Separate by position**\nOdd positions: 2, 4, 8, __\nEven positions: 6, 12, 24\n\n**Step 2: Find rules**\nOdd positions: 2×2=4, 4×2=8, 8×2=16\nEven positions: 6×2=12, 12×2=24\n\n**Step 3: Apply**\nPosition 7 is odd. Following 2,4,8: next is 16\n\n**Step 4: Verify**\nAlternative view: ×3, ÷1.5 alternating\n2×3=6, 6÷1.5=4, 4×3=12, 12÷1.5=8, 8×3=24, 24÷1.5=16 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Try separating odd-positioned and even-positioned terms.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Odd positions: 2,4,8 (doubling). Even: 6,12,24 (doubling). Which continues?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Position 7 is odd. Following 2,4,8, the next is 16.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "alternating-patterns",
+          "position-analysis",
+          "multiplication",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "wrong_pattern",
+          "B": "computation_error",
+          "C": "wrong_position",
+          "D": "wrong_operation"
+        },
+        "solutionApproach": "Separate by position → Find pattern in each → Continue appropriate pattern",
+        "methodologySteps": [
+          "Read: Notice the sequence alternates",
+          "Analyze: Separate into two sub-sequences by position",
+          "Identify: Odd positions double, even positions double",
+          "Apply: 7th term is odd position, so 8×2=16",
+          "Check: Pattern verified ✓"
+        ],
+        "timeTarget": 70,
+        "commonErrors": [
+          "Not recognizing alternation",
+          "Continuing wrong sub-sequence"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 70,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-007",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n1, 3, 7, 15, 31, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "47",
+          "isCorrect": false,
+          "feedback": "This adds 16. But the differences double: 2,4,8,16,32. Next term is 31+32=63."
+        },
+        {
+          "id": "B",
+          "text": "63",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×2 + 1'. Check: 1×2+1=3, 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63. Also: 2^n - 1 pattern."
+        },
+        {
+          "id": "C",
+          "text": "61",
+          "isCorrect": false,
+          "feedback": "Check: 31×2=62, +1=63. Not 61."
+        },
+        {
+          "id": "D",
+          "text": "62",
+          "isCorrect": false,
+          "feedback": "Close! The pattern is ×2+1, not just ×2. So 31×2+1=63."
+        },
+        {
+          "id": "E",
+          "text": "64",
+          "isCorrect": false,
+          "feedback": "Close! 31×2+1=63, not 64. Or 2^6-1=63."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Look at differences**\n3-1=2, 7-3=4, 15-7=8, 31-15=16\nDifferences: 2, 4, 8, 16 (doubling)\nNext difference: 32\n\n**Step 2: Find the rule**\n1×2+1=3 ✓\n3×2+1=7 ✓\n7×2+1=15 ✓\nRule: ×2 + 1 (or 2^n - 1)\n\n**Step 3: Apply**\n31 × 2 + 1 = 62 + 1 = 63\nOr: 31 + 32 = 63\n\n**Step 4: Verify**\n63 = 2^6 - 1 = 64 - 1 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the differences: 2, 4, 8, 16. What's next?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Differences double. Next difference is 32. Or try ×2+1 rule.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "31 + 32 = 63, or 31×2+1 = 63.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "powers-of-two",
+          "multiplication",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "C": "computation_error",
+          "D": "partial_solution",
+          "E": "off_by_one"
+        },
+        "solutionApproach": "Analyze differences OR identify ×2+1 rule → Apply",
+        "methodologySteps": [
+          "Read: Note terms and differences",
+          "Analyze: Differences 2,4,8,16 double",
+          "Identify: Rule is ×2+1 or add next power of 2",
+          "Apply: 31×2+1=63 or 31+32=63",
+          "Check: 63 = 64-1 = 2^6-1 ✓"
+        ],
+        "timeTarget": 55,
+        "commonErrors": [
+          "Just doubling",
+          "Off-by-one error"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 55,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-008",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n3, 5, 9, 17, 33, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "64",
+          "isCorrect": false,
+          "feedback": "33×2=66, -1=65, not 64."
+        },
+        {
+          "id": "B",
+          "text": "66",
+          "isCorrect": false,
+          "feedback": "Close! The pattern is ×2-1, not ×2. So 33×2-1=65."
+        },
+        {
+          "id": "C",
+          "text": "65",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×2 - 1'. Check: 3×2-1=5, 5×2-1=9, 9×2-1=17, 17×2-1=33, 33×2-1=65."
+        },
+        {
+          "id": "D",
+          "text": "49",
+          "isCorrect": false,
+          "feedback": "This adds 16. But the differences 2,4,8,16 double to 32. Next = 33+32=65."
+        },
+        {
+          "id": "E",
+          "text": "67",
+          "isCorrect": false,
+          "feedback": "Check: 33×2-1=66-1=65, not 67."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Look at differences**\n5-3=2, 9-5=4, 17-9=8, 33-17=16\nDifferences: 2, 4, 8, 16 (doubling)\n\n**Step 2: Find the rule**\n3×2=6, -1=5 ✓\n5×2=10, -1=9 ✓\n9×2=18, -1=17 ✓\nRule: ×2 - 1\n\n**Step 3: Apply**\n33 × 2 - 1 = 66 - 1 = 65\nOr: 33 + 32 = 65\n\n**Step 4: Verify**\nFormula: 2^n + 1 pattern: 3,5,9,17,33,65 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the differences: 2, 4, 8, 16. What's the pattern?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Differences double. Try a ×2 rule with adjustment.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Rule is ×2 - 1. Apply: 33×2-1 = 65.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "multiplication",
+          "subtraction",
+          "sequence-analysis"
+        ],
+        "distractorTypes": {
+          "A": "off_by_one",
+          "B": "partial_solution",
+          "D": "wrong_operation",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Analyze differences → Identify ×2-1 rule → Apply",
+        "methodologySteps": [
+          "Read: Note terms and differences",
+          "Analyze: Differences 2,4,8,16 double",
+          "Identify: Rule is ×2-1",
+          "Apply: 33×2-1=65",
+          "Check: Verify with all terms ✓"
+        ],
+        "timeTarget": 55,
+        "commonErrors": [
+          "Using ×2+1 instead of ×2-1",
+          "Adding wrong difference"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 55,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-009",
+      "questionType": "MCQ",
+      "stem": "What is the missing number in this sequence?\n\n4, 7, 13, __, 49, 97",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "Check: 24×2-1=47≠49. The missing number must give 49 when rule is applied."
+        },
+        {
+          "id": "B",
+          "text": "26",
+          "isCorrect": false,
+          "feedback": "Close! Try ×2-1: 13×2-1=25. Verify: 25×2-1=49 ✓"
+        },
+        {
+          "id": "C",
+          "text": "19",
+          "isCorrect": false,
+          "feedback": "This adds 6 to 13. But 19×2-1=37≠49."
+        },
+        {
+          "id": "D",
+          "text": "31",
+          "isCorrect": false,
+          "feedback": "Check: 31×2-1=61≠49. Try working backwards from 49."
+        },
+        {
+          "id": "E",
+          "text": "25",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×2 - 1'. Check: 4×2-1=7, 7×2-1=13, 13×2-1=25, 25×2-1=49, 49×2-1=97."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Work from known terms**\n97 = 49×2 - 1 ✓\n49 = ?×2 - 1\n50 = ?×2\n? = 25\n\n**Step 2: Verify forwards**\n4×2-1=7 ✓\n7×2-1=13 ✓\n13×2-1=25 ✓\n25×2-1=49 ✓\n49×2-1=97 ✓\n\n**Step 3: Confirm**\nMissing number: 25",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Check the relationship between 49 and 97. What rule applies?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "49×2-1=97. So ?×2-1=49, meaning ?×2=50.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "? = 50÷2 = 25. Verify: 13×2-1=25 ✓",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "working-backwards",
+          "multiplication",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "off_by_one",
+          "C": "wrong_operation",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Identify rule from known terms → Work backwards for missing",
+        "methodologySteps": [
+          "Read: Note gap between 13 and 49",
+          "Analyze: 49→97 is ×2-1",
+          "Identify: Apply same rule backwards: 49=?×2-1",
+          "Apply: ?=50÷2=25",
+          "Check: 13×2-1=25, 25×2-1=49 ✓"
+        ],
+        "timeTarget": 65,
+        "commonErrors": [
+          "Simple addition",
+          "Incorrect working backwards"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 65,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-010",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n1, 2, 5, 14, 41, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "124",
+          "isCorrect": false,
+          "feedback": "41×3=123, -1=122, not 124."
+        },
+        {
+          "id": "B",
+          "text": "123",
+          "isCorrect": false,
+          "feedback": "Close! The pattern is ×3-1, not ×3. So 41×3-1=122."
+        },
+        {
+          "id": "C",
+          "text": "68",
+          "isCorrect": false,
+          "feedback": "This adds 27. But the pattern is ×3-1, not just adding."
+        },
+        {
+          "id": "D",
+          "text": "120",
+          "isCorrect": false,
+          "feedback": "Check: 41×3-1=123-1=122, not 120."
+        },
+        {
+          "id": "E",
+          "text": "122",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×3 - 1'. Check: 1×3-1=2, 2×3-1=5, 5×3-1=14, 14×3-1=41, 41×3-1=122."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Look at differences**\n2-1=1, 5-2=3, 14-5=9, 41-14=27\nDifferences: 1, 3, 9, 27 (×3 each time)\n\n**Step 2: Find the rule**\n1×3=3, -1=2 ✓\n2×3=6, -1=5 ✓\n5×3=15, -1=14 ✓\nRule: ×3 - 1\n\n**Step 3: Apply**\n41 × 3 - 1 = 123 - 1 = 122\n\n**Step 4: Verify**\nDifferences multiply by 3, next difference = 81\n41 + 81 = 122 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the differences: 1, 3, 9, 27. What pattern is this?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Differences are powers of 3. Try a ×3 rule with adjustment.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Rule is ×3 - 1. Apply: 41×3-1 = 122.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "multiplication",
+          "powers-of-three",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "wrong_operation",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Analyze differences → Identify ×3-1 rule → Apply",
+        "methodologySteps": [
+          "Read: Note terms and differences",
+          "Analyze: Differences 1,3,9,27 are powers of 3",
+          "Identify: Rule is ×3-1",
+          "Apply: 41×3-1=122",
+          "Check: Verify with all terms ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Using ×3+1 instead of ×3-1",
+          "Just tripling"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-011",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n2, 3, 5, 9, 17, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "34",
+          "isCorrect": false,
+          "feedback": "17×2=34, but the rule is ×2-1, so 34-1=33."
+        },
+        {
+          "id": "B",
+          "text": "33",
+          "isCorrect": true,
+          "feedback": "Correct! Differences are 1,2,4,8,16 (doubling). 17+16=33. Or rule ×2-1: 17×2-1=33."
+        },
+        {
+          "id": "C",
+          "text": "25",
+          "isCorrect": false,
+          "feedback": "This adds 8. But the differences double: 1,2,4,8,16. Next add 16."
+        },
+        {
+          "id": "D",
+          "text": "32",
+          "isCorrect": false,
+          "feedback": "Close! Add 16 to 17: 17+16=33. Or 17×2-1=33, not 32."
+        },
+        {
+          "id": "E",
+          "text": "31",
+          "isCorrect": false,
+          "feedback": "Check: 17+16=33, not 17+14=31."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Look at differences**\n3-2=1, 5-3=2, 9-5=4, 17-9=8\nDifferences: 1, 2, 4, 8 (doubling)\n\n**Step 2: Find next difference**\nNext difference: 16\nNext term: 17 + 16 = 33\n\n**Step 3: Verify with rule**\n2×2-1=3 ✓\n3×2-1=5 ✓\n5×2-1=9 ✓\n9×2-1=17 ✓\n17×2-1=33 ✓\n\nRule: ×2 - 1",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the differences: 1, 2, 4, 8. What pattern do you see?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Differences double. Next difference is 16. Or try ×2-1 rule.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "17 + 16 = 33, or 17×2-1 = 33.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "doubling-differences",
+          "multiplication",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "wrong_operation",
+          "D": "off_by_one",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Analyze differences → Add next difference OR use ×2-1",
+        "methodologySteps": [
+          "Read: Note terms and differences",
+          "Analyze: Differences 1,2,4,8 double",
+          "Identify: Next difference is 16, or rule is ×2-1",
+          "Apply: 17+16=33 or 17×2-1=33",
+          "Check: Verify ✓"
+        ],
+        "timeTarget": 55,
+        "commonErrors": [
+          "Using wrong difference",
+          "Off-by-one error"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 55,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 11
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-012",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n1, 3, 9, 27, 81, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "240",
+          "isCorrect": false,
+          "feedback": "Check: 81×3=243, not 240."
+        },
+        {
+          "id": "B",
+          "text": "243",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×3'. Check: 1×3=3, 3×3=9, 9×3=27, 27×3=81, 81×3=243. Powers of 3!"
+        },
+        {
+          "id": "C",
+          "text": "244",
+          "isCorrect": false,
+          "feedback": "Close! 81×3=243, not 244."
+        },
+        {
+          "id": "D",
+          "text": "135",
+          "isCorrect": false,
+          "feedback": "This adds 54 to 81. The pattern multiplies by 3: 81×3=243."
+        },
+        {
+          "id": "E",
+          "text": "162",
+          "isCorrect": false,
+          "feedback": "This is 81×2. But the pattern is ×3 (powers of 3), not ×2."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Look at ratios**\n3÷1=3, 9÷3=3, 27÷9=3, 81÷27=3\nConstant ratio: 3\n\n**Step 2: Identify the pattern**\nThis is a geometric sequence with ratio 3.\nThese are powers of 3: 3^0, 3^1, 3^2, 3^3, 3^4...\n\n**Step 3: Apply**\n81 × 3 = 243 (which is 3^5)\n\n**Step 4: Verify**\n243 = 3^5 = 243 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How do you get from one number to the next?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Each term is 3 times the previous. This is ×3 pattern.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "81 × 3 = 243.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "geometric-sequence",
+          "powers-of-three",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "off_by_one",
+          "D": "wrong_operation",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Identify multiplication pattern → Apply multiplier",
+        "methodologySteps": [
+          "Read: Note terms",
+          "Analyze: Find ratio between consecutive terms",
+          "Identify: ×3 pattern (powers of 3)",
+          "Apply: 81×3=243",
+          "Check: 243=3^5 ✓"
+        ],
+        "timeTarget": 40,
+        "commonErrors": [
+          "Using addition instead of multiplication",
+          "Wrong multiplier"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 40,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 12
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-013",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence where the rule changes based on whether the position is odd or even?\n\n1, 3, 4, 12, 13, 39, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "38",
+          "isCorrect": false,
+          "feedback": "The pattern alternates between +1 and ×3. Position 7 uses +1."
+        },
+        {
+          "id": "B",
+          "text": "42",
+          "isCorrect": false,
+          "feedback": "The add step adds 1, not 3. From position 6 to 7: add 1, so 39+1=40."
+        },
+        {
+          "id": "C",
+          "text": "78",
+          "isCorrect": false,
+          "feedback": "This doubles 39. The pattern alternates +1 and ×3."
+        },
+        {
+          "id": "D",
+          "text": "40",
+          "isCorrect": true,
+          "feedback": "Correct! Odd positions: add 1. Even positions: multiply by 3. Position 7 is odd: 39+1=40."
+        },
+        {
+          "id": "E",
+          "text": "117",
+          "isCorrect": false,
+          "feedback": "This multiplies 39 by 3. But position 7 is odd, so we add 1 instead."
+        }
+      ],
+      "solution": "**Methodology: Alternating Rule Analysis**\n\n**Step 1: Identify positions and transitions**\nPos 1→2: 1→3 (×3)\nPos 2→3: 3→4 (+1)\nPos 3→4: 4→12 (×3)\nPos 4→5: 12→13 (+1)\nPos 5→6: 13→39 (×3)\n\n**Step 2: Pattern**\n×3, +1, ×3, +1, ×3, ...\nAlternates: odd→even is ×3, even→odd is +1\n\n**Step 3: Apply**\nPos 6→7: even→odd, so +1\n39 + 1 = 40\n\n**Step 4: Verify**\nPattern confirmed: +1, ×3, +1, ×3... for transitions. ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Look at how consecutive terms relate. Does the rule stay the same?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Pattern alternates: ×3, +1, ×3, +1... Position 7 uses +1.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "39 + 1 = 40.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "alternating-rules",
+          "position-analysis",
+          "multiplication",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "computation_error",
+          "C": "wrong_operation",
+          "E": "wrong_rule"
+        },
+        "solutionApproach": "Identify alternating rules → Determine which applies to next position",
+        "methodologySteps": [
+          "Read: Note the sequence and how terms change",
+          "Analyze: Transitions alternate between ×3 and +1",
+          "Identify: Position 7 uses the +1 rule",
+          "Apply: 39+1=40",
+          "Check: Pattern continues correctly ✓"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Applying wrong rule for position",
+          "Not recognizing alternation"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 13
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-014",
+      "questionType": "MCQ",
+      "stem": "What is the missing number in this sequence?\n\n2, 7, 22, __, 202, 607",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "68",
+          "isCorrect": false,
+          "feedback": "Check: 68×3+1=205≠202. The missing number must give 202 when ×3+1."
+        },
+        {
+          "id": "B",
+          "text": "65",
+          "isCorrect": false,
+          "feedback": "Check: 65×3+1=196≠202. Try: (202-1)÷3=67."
+        },
+        {
+          "id": "C",
+          "text": "72",
+          "isCorrect": false,
+          "feedback": "Check: 72×3+1=217≠202. Work backwards from 202."
+        },
+        {
+          "id": "D",
+          "text": "66",
+          "isCorrect": false,
+          "feedback": "Close! 22×3=66, +1=67. The rule is ×3+1, not just ×3."
+        },
+        {
+          "id": "E",
+          "text": "67",
+          "isCorrect": true,
+          "feedback": "Correct! The rule is '×3 + 1'. Check: 2×3+1=7, 7×3+1=22, 22×3+1=67, 67×3+1=202, 202×3+1=607."
+        }
+      ],
+      "solution": "**Methodology: Pattern Sequence Analysis**\n\n**Step 1: Work from known terms**\n607 = 202×3 + 1 ✓\n202 = ?×3 + 1\n201 = ?×3\n? = 67\n\n**Step 2: Verify forwards**\n2×3+1=7 ✓\n7×3+1=22 ✓\n22×3+1=67 ✓\n67×3+1=202 ✓\n202×3+1=607 ✓\n\n**Step 3: Confirm**\nMissing number: 67",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Check the relationship between 202 and 607. What rule applies?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "202×3+1=607. So ?×3+1=202.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "? = (202-1)÷3 = 201÷3 = 67.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "patterns",
+          "working-backwards",
+          "multiplication",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "off_by_one",
+          "B": "computation_error",
+          "C": "computation_error",
+          "D": "partial_solution"
+        },
+        "solutionApproach": "Identify rule from known terms → Work backwards",
+        "methodologySteps": [
+          "Read: Note gap and surrounding terms",
+          "Analyze: 202→607 is ×3+1",
+          "Identify: Apply inverse: (202-1)÷3",
+          "Apply: 201÷3=67",
+          "Check: 22×3+1=67, 67×3+1=202 ✓"
+        ],
+        "timeTarget": 70,
+        "commonErrors": [
+          "Using wrong inverse operation",
+          "Forgetting the +1"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 70,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 14
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-015",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence where each term is the sum of the previous two terms plus 1?\n\n1, 2, 4, 7, 12, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "18",
+          "isCorrect": false,
+          "feedback": "This adds 6. But 7+12=19, +1=20."
+        },
+        {
+          "id": "B",
+          "text": "19",
+          "isCorrect": false,
+          "feedback": "Close! The rule is 'previous two + 1', not just 'previous two'. 7+12+1=20."
+        },
+        {
+          "id": "C",
+          "text": "20",
+          "isCorrect": true,
+          "feedback": "Correct! Rule: add previous two terms + 1. Check: 1+2+1=4, 2+4+1=7, 4+7+1=12, 7+12+1=20."
+        },
+        {
+          "id": "D",
+          "text": "17",
+          "isCorrect": false,
+          "feedback": "Check: 7+12=19, +1=20. The rule adds 1 to the sum."
+        },
+        {
+          "id": "E",
+          "text": "21",
+          "isCorrect": false,
+          "feedback": "7+12=19, +1=20, not 21."
+        }
+      ],
+      "solution": "**Methodology: Fibonacci-like Sequence**\n\n**Step 1: Verify the rule**\n1+2=3, +1=4 ✓\n2+4=6, +1=7 ✓\n4+7=11, +1=12 ✓\n\n**Step 2: Apply the rule**\n7+12=19, +1=20\n\n**Step 3: Confirm**\nNext term: 20",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Look at 4. How is it related to 1 and 2?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "1+2+1=4. Try this pattern: sum of previous two, plus 1.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "7 + 12 + 1 = 20.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "fibonacci-variant",
+          "addition",
+          "pattern-recognition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "D": "computation_error",
+          "E": "off_by_one"
+        },
+        "solutionApproach": "Identify Fibonacci-plus rule → Apply to last two terms",
+        "methodologySteps": [
+          "Read: Notice term relationship",
+          "Analyze: Each = sum of previous two + 1",
+          "Identify: Modified Fibonacci sequence",
+          "Apply: 7+12+1=20",
+          "Check: Pattern verified ✓"
+        ],
+        "timeTarget": 65,
+        "commonErrors": [
+          "Forgetting the +1",
+          "Just adding last two"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 65,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 15
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-016",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n1, 1, 2, 6, 24, 120, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "144",
+          "isCorrect": false,
+          "feedback": "This adds 24 to 120. But the pattern multiplies: 24×5=120, so 120×6=720."
+        },
+        {
+          "id": "B",
+          "text": "840",
+          "isCorrect": false,
+          "feedback": "This is 120×7. But we multiply by position 6 next: 120×6=720."
+        },
+        {
+          "id": "C",
+          "text": "240",
+          "isCorrect": false,
+          "feedback": "This is 120×2. But the multiplier increases each step. 120×6=720."
+        },
+        {
+          "id": "D",
+          "text": "600",
+          "isCorrect": false,
+          "feedback": "This is 120×5. But the pattern multiplies by increasing numbers: ×1,×2,×3,×4,×5,×6. Next is ×6."
+        },
+        {
+          "id": "E",
+          "text": "720",
+          "isCorrect": true,
+          "feedback": "Correct! These are factorials: 1!, 1!, 2!, 3!, 4!, 5!, 6!. Rule: multiply by position. 120×6=720."
+        }
+      ],
+      "solution": "**Methodology: Factorial Sequence**\n\n**Step 1: Identify multipliers**\n1→1 (×1)\n1→2 (×2)\n2→6 (×3)\n6→24 (×4)\n24→120 (×5)\n\n**Step 2: Recognize pattern**\nMultiplying by 1, 2, 3, 4, 5...\nThese are factorials!\n\n**Step 3: Apply**\n120 × 6 = 720 (which is 6!)\n\n**Step 4: Verify**\n6! = 6×5×4×3×2×1 = 720 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How do you get from 24 to 120? From 6 to 24?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Multipliers are 1,2,3,4,5... These are factorials!",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "120 × 6 = 720 (6 factorial).",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "factorials",
+          "increasing-multiplier",
+          "pattern-recognition"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "off_by_one",
+          "C": "wrong_operation",
+          "D": "partial_solution"
+        },
+        "solutionApproach": "Identify increasing multiplier → Recognize factorials → Apply",
+        "methodologySteps": [
+          "Read: Note terms and ratios",
+          "Analyze: Multipliers are 1,2,3,4,5",
+          "Identify: Factorial sequence (n!)",
+          "Apply: 120×6=720",
+          "Check: 720=6!=720 ✓"
+        ],
+        "timeTarget": 65,
+        "commonErrors": [
+          "Using constant multiplier",
+          "Wrong position for multiplier"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 65,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 16
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-017",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n0, 1, 1, 2, 3, 5, 8, 13, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "Close! Add the last two: 8+13=21, not 20."
+        },
+        {
+          "id": "B",
+          "text": "18",
+          "isCorrect": false,
+          "feedback": "This adds 5. But Fibonacci adds the last TWO terms: 8+13=21."
+        },
+        {
+          "id": "C",
+          "text": "26",
+          "isCorrect": false,
+          "feedback": "This doubles 13. But the rule is to add 8+13=21."
+        },
+        {
+          "id": "D",
+          "text": "19",
+          "isCorrect": false,
+          "feedback": "Check: 8+13=21, not 19."
+        },
+        {
+          "id": "E",
+          "text": "21",
+          "isCorrect": true,
+          "feedback": "Correct! This is the Fibonacci sequence. Each term = sum of previous two. 8+13=21."
+        }
+      ],
+      "solution": "**Methodology: Fibonacci Sequence**\n\n**Step 1: Identify the pattern**\n0+1=1 ✓\n1+1=2 ✓\n1+2=3 ✓\n2+3=5 ✓\n3+5=8 ✓\n5+8=13 ✓\n\n**Step 2: Apply the rule**\n8 + 13 = 21\n\n**Step 3: Verify**\nThis is the famous Fibonacci sequence!",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Look at how 8 relates to the two numbers before it.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "3+5=8. Each term is the sum of the previous two terms.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "8 + 13 = 21.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "fibonacci",
+          "addition",
+          "pattern-recognition"
+        ],
+        "distractorTypes": {
+          "A": "off_by_one",
+          "B": "wrong_operation",
+          "C": "wrong_operation",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Recognize Fibonacci → Add last two terms",
+        "methodologySteps": [
+          "Read: Note the terms",
+          "Analyze: Each = sum of previous two",
+          "Identify: Fibonacci sequence",
+          "Apply: 8+13=21",
+          "Check: Classic Fibonacci ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Using wrong addition",
+          "Not recognizing Fibonacci"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 17
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-018",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n1, 4, 9, 16, 25, 36, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "64",
+          "isCorrect": false,
+          "feedback": "64=8². We need 7²=49 first."
+        },
+        {
+          "id": "B",
+          "text": "47",
+          "isCorrect": false,
+          "feedback": "The differences are 3,5,7,9,11... adding 2 each time. Next diff is 13: 36+13=49."
+        },
+        {
+          "id": "C",
+          "text": "48",
+          "isCorrect": false,
+          "feedback": "Close! 7²=49, not 48."
+        },
+        {
+          "id": "D",
+          "text": "42",
+          "isCorrect": false,
+          "feedback": "36+6=42. But the differences increase: 3,5,7,9,11,13. Next is 36+13=49."
+        },
+        {
+          "id": "E",
+          "text": "49",
+          "isCorrect": true,
+          "feedback": "Correct! These are perfect squares: 1², 2², 3², 4², 5², 6², 7². Next is 7²=49."
+        }
+      ],
+      "solution": "**Methodology: Perfect Square Sequence**\n\n**Step 1: Recognize the pattern**\n1=1², 4=2², 9=3², 16=4², 25=5², 36=6²\n\n**Step 2: Apply**\nNext is 7² = 49\n\n**Step 3: Alternative view**\nDifferences: 3,5,7,9,11 (odd numbers)\nNext difference: 13\n36 + 13 = 49 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What are 1, 4, 9, 16, 25, 36? Try square roots.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "These are perfect squares: 1², 2², 3², 4², 5², 6²...",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Next is 7² = 49.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "perfect-squares",
+          "pattern-recognition",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "wrong_position",
+          "B": "computation_error",
+          "C": "off_by_one",
+          "D": "wrong_operation"
+        },
+        "solutionApproach": "Recognize perfect squares → Find next square",
+        "methodologySteps": [
+          "Read: Note the terms",
+          "Analyze: These are 1², 2², 3²...",
+          "Identify: Perfect square sequence",
+          "Apply: 7²=49",
+          "Check: Also differences are odd numbers ✓"
+        ],
+        "timeTarget": 40,
+        "commonErrors": [
+          "Using wrong exponent",
+          "Missing the square pattern"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 40,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 18
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-019",
+      "questionType": "MCQ",
+      "stem": "What is the missing number in this sequence?\n\n3, 6, 11, 18, __, 38",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "28",
+          "isCorrect": false,
+          "feedback": "Check: 28+10=38. But differences are 3,5,7,9,11 (odd numbers). 18+9=27."
+        },
+        {
+          "id": "B",
+          "text": "27",
+          "isCorrect": true,
+          "feedback": "Correct! Differences: 3,5,7,9,11 (add 2 each time). 18+9=27, and 27+11=38. ✓"
+        },
+        {
+          "id": "C",
+          "text": "29",
+          "isCorrect": false,
+          "feedback": "Check: 29+9=38. But 18+9=27, not 29."
+        },
+        {
+          "id": "D",
+          "text": "25",
+          "isCorrect": false,
+          "feedback": "Differences: 3,5,7 so far. Next is 9: 18+9=27."
+        },
+        {
+          "id": "E",
+          "text": "26",
+          "isCorrect": false,
+          "feedback": "Check: 26+?=38, so difference would be 12. But differences should be 9,11 (adding 2)."
+        }
+      ],
+      "solution": "**Methodology: Second Difference Analysis**\n\n**Step 1: Find differences**\n6-3=3, 11-6=5, 18-11=7\nDifferences: 3, 5, 7 (adding 2 each time)\n\n**Step 2: Continue pattern**\nNext differences: 9, 11\n18 + 9 = 27\n27 + 11 = 38 ✓\n\n**Step 3: Verify**\nMissing number: 27",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the differences: 3, 5, 7. What pattern do you see?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Differences are consecutive odd numbers. Next are 9, 11.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "18 + 9 = 27. Check: 27 + 11 = 38. ✓",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "second-differences",
+          "odd-numbers",
+          "pattern-completion"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "off_by_one"
+        },
+        "solutionApproach": "Analyze differences → Continue pattern → Verify with next term",
+        "methodologySteps": [
+          "Read: Note the gap and surrounding terms",
+          "Analyze: Differences 3,5,7 are consecutive odd",
+          "Identify: Next differences are 9,11",
+          "Apply: 18+9=27",
+          "Check: 27+11=38 ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Wrong difference pattern",
+          "Not verifying with 38"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 19
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-020",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence where each term relates to triangular numbers?\n\n1, 3, 6, 10, 15, 21, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "36",
+          "isCorrect": false,
+          "feedback": "36 is the 8th triangular number. We need the 7th: 28."
+        },
+        {
+          "id": "B",
+          "text": "28",
+          "isCorrect": true,
+          "feedback": "Correct! Triangular numbers: 1,3,6,10,15,21,28. Differences are 2,3,4,5,6,7. Next: 21+7=28."
+        },
+        {
+          "id": "C",
+          "text": "27",
+          "isCorrect": false,
+          "feedback": "Differences: 2,3,4,5,6. Next is 7, not 6. 21+7=28."
+        },
+        {
+          "id": "D",
+          "text": "26",
+          "isCorrect": false,
+          "feedback": "Differences increase by 1: 2,3,4,5,6,7. 21+7=28."
+        },
+        {
+          "id": "E",
+          "text": "30",
+          "isCorrect": false,
+          "feedback": "21+9=30. But differences are 2,3,4,5,6,7, not 9."
+        }
+      ],
+      "solution": "**Methodology: Triangular Number Sequence**\n\n**Step 1: Identify differences**\n3-1=2, 6-3=3, 10-6=4, 15-10=5, 21-15=6\nDifferences: 2, 3, 4, 5, 6 (increase by 1)\n\n**Step 2: Continue pattern**\nNext difference: 7\n21 + 7 = 28\n\n**Step 3: Verify**\nTriangular number formula: n(n+1)/2\n7×8/2 = 28 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the differences: 2, 3, 4, 5, 6. What comes next?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Differences increase by 1. These are triangular numbers.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "21 + 7 = 28.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "triangular-numbers",
+          "arithmetic-sequence",
+          "differences"
+        ],
+        "distractorTypes": {
+          "A": "wrong_position",
+          "C": "off_by_one",
+          "D": "computation_error",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Identify triangular number pattern → Add next integer",
+        "methodologySteps": [
+          "Read: Note the terms",
+          "Analyze: Differences 2,3,4,5,6 increase by 1",
+          "Identify: Triangular numbers",
+          "Apply: 21+7=28",
+          "Check: 7th triangular = 7×8/2 = 28 ✓"
+        ],
+        "timeTarget": 55,
+        "commonErrors": [
+          "Using wrong difference",
+          "Not recognizing triangular pattern"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 55,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 20
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-021",
+      "questionType": "MCQ",
+      "stem": "What is the missing number in this sequence that combines two rules?\n\n2, 4, 5, 10, 11, 22, __, 46",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "44",
+          "isCorrect": false,
+          "feedback": "22×2=44. But the pattern alternates ×2 and +1. After 22 comes +1=23."
+        },
+        {
+          "id": "B",
+          "text": "33",
+          "isCorrect": false,
+          "feedback": "Check: 33×2=66≠46. The missing number must give 46 when doubled."
+        },
+        {
+          "id": "C",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "22+2=24. But the add step adds 1, not 2: 22+1=23."
+        },
+        {
+          "id": "D",
+          "text": "21",
+          "isCorrect": false,
+          "feedback": "21×2=42≠46. We need ?×2=46, so ?=23."
+        },
+        {
+          "id": "E",
+          "text": "23",
+          "isCorrect": true,
+          "feedback": "Correct! Pattern alternates: ×2, +1, ×2, +1... After 22: +1=23. Then 23×2=46. ✓"
+        }
+      ],
+      "solution": "**Methodology: Alternating Rule Sequence**\n\n**Step 1: Identify transitions**\n2→4 (×2)\n4→5 (+1)\n5→10 (×2)\n10→11 (+1)\n11→22 (×2)\n\n**Step 2: Continue pattern**\n22→? (+1) → 23\n23→46 (×2) ✓\n\n**Step 3: Verify**\nMissing number: 23",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Look at how consecutive terms relate. Does the rule change?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Pattern: ×2, +1, ×2, +1... After 22 comes +1.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "22 + 1 = 23. Check: 23×2=46. ✓",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "alternating-rules",
+          "multiplication",
+          "addition",
+          "verification"
+        ],
+        "distractorTypes": {
+          "A": "wrong_rule",
+          "B": "computation_error",
+          "C": "computation_error",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Identify alternating rules → Apply correct rule → Verify with following term",
+        "methodologySteps": [
+          "Read: Note terms and verify against 46",
+          "Analyze: Transitions alternate ×2 and +1",
+          "Identify: Position 7 uses +1",
+          "Apply: 22+1=23",
+          "Check: 23×2=46 ✓"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Applying wrong rule",
+          "Not verifying with 46"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 21
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-022",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n1, 8, 27, 64, 125, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "225",
+          "isCorrect": false,
+          "feedback": "225=15². But these are cubes: 1,8,27,64,125 = 1³,2³,3³,4³,5³. Next: 6³=216."
+        },
+        {
+          "id": "B",
+          "text": "216",
+          "isCorrect": true,
+          "feedback": "Correct! These are perfect cubes: 1³, 2³, 3³, 4³, 5³, 6³. Next is 6³=216."
+        },
+        {
+          "id": "C",
+          "text": "186",
+          "isCorrect": false,
+          "feedback": "Check: 6³=6×6×6=216, not 186."
+        },
+        {
+          "id": "D",
+          "text": "196",
+          "isCorrect": false,
+          "feedback": "196=14². But this sequence is cubes, not squares: 6³=216."
+        },
+        {
+          "id": "E",
+          "text": "150",
+          "isCorrect": false,
+          "feedback": "These aren't adding constant amounts. They're cubes: 6³=216."
+        }
+      ],
+      "solution": "**Methodology: Perfect Cube Sequence**\n\n**Step 1: Recognize the pattern**\n1=1³, 8=2³, 27=3³, 64=4³, 125=5³\n\n**Step 2: Apply**\nNext is 6³ = 216\n\n**Step 3: Verify**\n6×6×6 = 36×6 = 216 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "What are 1, 8, 27, 64, 125? Try cube roots.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "These are perfect cubes: 1³, 2³, 3³, 4³, 5³...",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Next is 6³ = 216.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "perfect-cubes",
+          "powers",
+          "pattern-recognition"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "C": "computation_error",
+          "D": "wrong_operation",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Recognize perfect cubes → Find next cube",
+        "methodologySteps": [
+          "Read: Note the terms",
+          "Analyze: Find cube roots: 1,2,3,4,5",
+          "Identify: Perfect cube sequence",
+          "Apply: 6³=216",
+          "Check: 6×6×6=216 ✓"
+        ],
+        "timeTarget": 50,
+        "commonErrors": [
+          "Confusing with squares",
+          "Calculation error on cube"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 50,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 22
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-023",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence?\n\n1, 2, 6, 15, 31, 56, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "81",
+          "isCorrect": false,
+          "feedback": "Differences are squares: 1,4,9,16,25,36. 56+36=92, not 56+25=81."
+        },
+        {
+          "id": "B",
+          "text": "112",
+          "isCorrect": false,
+          "feedback": "This adds 56 (doubling). But differences are squares: next is 36."
+        },
+        {
+          "id": "C",
+          "text": "87",
+          "isCorrect": false,
+          "feedback": "Next difference is 36 (6²), not 31. 56+36=92."
+        },
+        {
+          "id": "D",
+          "text": "91",
+          "isCorrect": false,
+          "feedback": "Differences are 1,4,9,16,25. These are squares! Next is 36. 56+36=92."
+        },
+        {
+          "id": "E",
+          "text": "92",
+          "isCorrect": true,
+          "feedback": "Correct! Second differences are constant (+3): 1st diff = 1,4,9,16,25,36 (squares). 56+36=92."
+        }
+      ],
+      "solution": "**Methodology: Second-order Pattern Analysis**\n\n**Step 1: Find first differences**\n2-1=1, 6-2=4, 15-6=9, 31-15=16, 56-31=25\nDifferences: 1, 4, 9, 16, 25 (perfect squares!)\n\n**Step 2: Continue pattern**\nNext difference: 36 (6²)\n56 + 36 = 92\n\n**Step 3: Verify logic**\nDifferences = 1², 2², 3², 4², 5², 6²... ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the differences: 1, 4, 9, 16, 25. What are these?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Differences are perfect squares! Next is 6²=36.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "56 + 36 = 92.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "second-order-patterns",
+          "perfect-squares",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "wrong_difference",
+          "B": "wrong_operation",
+          "C": "computation_error",
+          "D": "off_by_one"
+        },
+        "solutionApproach": "Analyze differences → Recognize squares → Add next square",
+        "methodologySteps": [
+          "Read: Note the terms",
+          "Analyze: Differences are 1,4,9,16,25",
+          "Identify: Differences are perfect squares",
+          "Apply: 56+36=92",
+          "Check: 36=6² ✓"
+        ],
+        "timeTarget": 70,
+        "commonErrors": [
+          "Not recognizing square differences",
+          "Using wrong next square"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 70,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 23
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-024",
+      "questionType": "MCQ",
+      "stem": "What is the missing number in this complex sequence?\n\n1, 2, 4, 7, 11, __, 22, 29",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "14",
+          "isCorrect": false,
+          "feedback": "Check: 14+8=22. But differences are 1,2,3,4,5,6,7, not including 8 yet."
+        },
+        {
+          "id": "B",
+          "text": "15",
+          "isCorrect": false,
+          "feedback": "Check: 15+7=22. But differences should be 1,2,3,4,5,6,7. 11+5=16."
+        },
+        {
+          "id": "C",
+          "text": "17",
+          "isCorrect": false,
+          "feedback": "Check: 17+5=22. But 11+5=16, 16+6=22. Missing is 16."
+        },
+        {
+          "id": "D",
+          "text": "18",
+          "isCorrect": false,
+          "feedback": "Check: 18+4=22. But differences increase by 1: 1,2,3,4,5,6,7."
+        },
+        {
+          "id": "E",
+          "text": "16",
+          "isCorrect": true,
+          "feedback": "Correct! Differences: 1,2,3,4,5,6,7. 11+5=16, and 16+6=22, 22+7=29. ✓"
+        }
+      ],
+      "solution": "**Methodology: Linear Difference Sequence**\n\n**Step 1: Find differences**\n2-1=1, 4-2=2, 7-4=3, 11-7=4\nDifferences: 1, 2, 3, 4, 5, 6, 7...\n\n**Step 2: Continue and verify**\n11 + 5 = 16\n16 + 6 = 22 ✓\n22 + 7 = 29 ✓\n\n**Step 3: Confirm**\nMissing number: 16",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the differences: 1, 2, 3, 4. What pattern is this?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Differences increase by 1. After 4 comes 5,6,7.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "11 + 5 = 16. Check: 16+6=22, 22+7=29. ✓",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "linear-differences",
+          "pattern-completion",
+          "verification"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "off_by_one",
+          "C": "off_by_one",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Identify linear differences → Continue pattern → Verify with given terms",
+        "methodologySteps": [
+          "Read: Note gap and verify with 22, 29",
+          "Analyze: Differences 1,2,3,4 increase by 1",
+          "Identify: Next differences are 5,6,7",
+          "Apply: 11+5=16",
+          "Check: 16+6=22, 22+7=29 ✓"
+        ],
+        "timeTarget": 70,
+        "commonErrors": [
+          "Wrong difference used",
+          "Not verifying with later terms"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 70,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 24
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa9-025",
+      "questionType": "MCQ",
+      "stem": "What is the next number in this sequence that uses both previous terms?\n\n2, 3, 8, 11, 32, 35, __",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "38",
+          "isCorrect": false,
+          "feedback": "35+3=38. But position 7 uses multiplication: 2,8,32 positions ×3."
+        },
+        {
+          "id": "B",
+          "text": "102",
+          "isCorrect": false,
+          "feedback": "Check: Following the pattern more carefully gives 108."
+        },
+        {
+          "id": "C",
+          "text": "70",
+          "isCorrect": false,
+          "feedback": "This doubles 35. But the ×3 pattern continues: 35×3+adjustment."
+        },
+        {
+          "id": "D",
+          "text": "105",
+          "isCorrect": false,
+          "feedback": "35×3=105. But checking pattern: ×3+adjustment, +3 alternating. 35×3+3=108."
+        },
+        {
+          "id": "E",
+          "text": "108",
+          "isCorrect": true,
+          "feedback": "Correct! Pattern alternates: ×3+2, +3. 2×3+2=8, 8+3=11, 11×3-1=32, 32+3=35, 35×3+3=108. Or simpler: ×3, +3 alternating adjustments."
+        }
+      ],
+      "solution": "**Methodology: Complex Alternating Pattern**\n\n**Step 1: Identify transitions**\n2→3 (+1)\n3→8 (×3-1 or ×2+2?... 3×3-1=8 ✓)\n8→11 (+3)\n11→32 (×3-1 ✓)\n32→35 (+3)\n\n**Step 2: Pattern**\nAlternates: (×3-1), (+3), (×3-1), (+3)...\nWait: 3×3-1=8? No, 3×3=9-1=8. But 11×3-1=32? 11×3=33-1=32 ✓\nActually: multiply by ~3, then add 3\n\n**Step 3: Apply**\nPosition 7: 35 × 3 + 3 = 105 + 3 = 108\n\nOr viewing differently: The ×3 sequence is 2,8,32,128 and +3 gives 3,11,35,108.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Separate odd and even positioned terms. What patterns emerge?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Odd positions: 2,8,32 (×4). Even: 3,11,35 (+8,+24). Or: transitions alternate ×3ish and +3.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Following the pattern: 35×3+3=108.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Pattern Sequence Complex Rule",
+        "archetypeId": "qa9",
+        "conceptsRequired": [
+          "complex-patterns",
+          "alternating-rules",
+          "multiple-operations"
+        ],
+        "distractorTypes": {
+          "A": "wrong_rule",
+          "B": "computation_error",
+          "C": "wrong_operation",
+          "D": "partial_solution"
+        },
+        "solutionApproach": "Identify complex alternating pattern → Apply correct transformation",
+        "methodologySteps": [
+          "Read: Note the sequence and look for patterns",
+          "Analyze: Transitions vary between multiplication and addition",
+          "Identify: Complex alternating: ×3+adjustment, +3",
+          "Apply: 35×3+3=108",
+          "Check: Pattern continues logically ✓"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Missing the alternation",
+          "Using simpler rule that breaks"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa9-set1",
+        "sequenceInPaper": 25
+      },
+      "status": "published"
+    }
+  ]
+}

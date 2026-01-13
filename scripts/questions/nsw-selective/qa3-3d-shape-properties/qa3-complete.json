@@ -1,0 +1,2582 @@
+{
+  "metadata": {
+    "archetype": "3D Shape Properties",
+    "archetypeId": "qa3",
+    "archetypeSlug": "3d-shape-properties",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "foundation": {
+        "count": 5,
+        "difficulty": "1-2"
+      },
+      "application": {
+        "count": 10,
+        "difficulty": "2-3"
+      },
+      "connection": {
+        "count": 5,
+        "difficulty": "3"
+      },
+      "mastery": {
+        "count": 5,
+        "difficulty": "4"
+      }
+    },
+    "createdAt": "2026-01-13",
+    "version": "1.0",
+    "researchSource": ".claude/knowledge/edu/research/mathematical-reasoning-nsw-selective.json"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa3-001",
+      "questionType": "MCQ",
+      "stem": "How many faces does a cube have?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "12 is the number of edges a cube has, not faces."
+        },
+        {
+          "id": "B",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "8 is the number of vertices (corners) a cube has, not faces."
+        },
+        {
+          "id": "C",
+          "text": "6",
+          "isCorrect": true,
+          "feedback": "Correct! A cube has 6 faces - top, bottom, front, back, left, and right."
+        },
+        {
+          "id": "D",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "A cube does not have 10 faces. Count: top, bottom, and 4 sides = 6 faces."
+        },
+        {
+          "id": "E",
+          "text": "4",
+          "isCorrect": false,
+          "feedback": "4 faces would be for a square-based pyramid (not counting the base). A cube has more faces."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties**\n\n**Step 1: Identify the shape**\nA cube is a 3D shape with all square faces.\n\n**Step 2: Count the faces**\n- Top face: 1\n- Bottom face: 1\n- Front face: 1\n- Back face: 1\n- Left face: 1\n- Right face: 1\n\n**Step 3: Total**\n1 + 1 + 1 + 1 + 1 + 1 = 6 faces",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think about a dice or a Rubik's cube. How many flat surfaces can you see as you turn it around?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Count: top, bottom, front, back, left side, right side.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "A cube has 6 faces: 1 top + 1 bottom + 4 sides = 6",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "cube-properties"
+        ],
+        "distractorTypes": {
+          "A": "property_confusion",
+          "B": "property_confusion",
+          "D": "computation_error",
+          "E": "wrong_shape_property"
+        },
+        "solutionApproach": "Identify shape → Recall or count property → Verify",
+        "methodologySteps": [
+          "Read: Identify the 3D shape and what property is asked",
+          "Recall: Remember the formula or count systematically",
+          "Solve: State the property value",
+          "Check: Verify by counting or using Euler's formula"
+        ],
+        "timeTarget": 30,
+        "commonErrors": [
+          "Confusing faces with edges",
+          "Confusing faces with vertices",
+          "Counting visible faces only"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 30,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-002",
+      "questionType": "MCQ",
+      "stem": "How many edges does a triangular prism have?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "12 edges is for a cube or rectangular prism, not a triangular prism."
+        },
+        {
+          "id": "B",
+          "text": "9",
+          "isCorrect": true,
+          "feedback": "Correct! A triangular prism has 9 edges: 3 on top triangle + 3 on bottom triangle + 3 connecting them."
+        },
+        {
+          "id": "C",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "5 is the number of faces a triangular prism has, not edges."
+        },
+        {
+          "id": "D",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "6 is the number of vertices a triangular prism has, not edges."
+        },
+        {
+          "id": "E",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "Count again: 3 edges on top, 3 on bottom, and 3 vertical edges connecting them."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties**\n\n**Step 1: Identify the shape**\nA triangular prism has two triangular bases connected by rectangles.\n\n**Step 2: Count the edges systematically**\n- Top triangle edges: 3\n- Bottom triangle edges: 3\n- Vertical edges connecting top to bottom: 3\n\n**Step 3: Total**\n3 + 3 + 3 = 9 edges",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A triangular prism has two triangular ends. How many edges does each triangle have?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Top triangle: 3 edges. Bottom triangle: 3 edges. Now add the vertical edges connecting them.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "3 (top) + 3 (bottom) + 3 (vertical) = 9 edges",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "edges",
+          "prism-properties"
+        ],
+        "distractorTypes": {
+          "A": "wrong_shape_property",
+          "C": "property_confusion",
+          "D": "property_confusion",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Identify shape → Count edges systematically → Verify",
+        "methodologySteps": [
+          "Read: Identify the 3D shape and what property is asked",
+          "Recall: Break into base edges and lateral edges",
+          "Solve: Add all edge groups",
+          "Check: Verify using Euler's formula if needed"
+        ],
+        "timeTarget": 30,
+        "commonErrors": [
+          "Confusing edges with vertices",
+          "Confusing edges with faces",
+          "Using wrong prism type"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 30,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-003",
+      "questionType": "MCQ",
+      "stem": "How many vertices does a square-based pyramid have?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "8 vertices is for a cube or rectangular prism, not a pyramid."
+        },
+        {
+          "id": "B",
+          "text": "5",
+          "isCorrect": true,
+          "feedback": "Correct! A square-based pyramid has 5 vertices: 4 at the corners of the square base + 1 at the apex."
+        },
+        {
+          "id": "C",
+          "text": "3",
+          "isCorrect": false,
+          "feedback": "3 vertices would be for a triangle. A square has 4 corners, plus there's a top point."
+        },
+        {
+          "id": "D",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "A square-based pyramid has 5 vertices, not 6. Count the base corners plus the top."
+        },
+        {
+          "id": "E",
+          "text": "4",
+          "isCorrect": false,
+          "feedback": "4 vertices are just on the square base. Don't forget the apex (top point)!"
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties**\n\n**Step 1: Identify the shape**\nA square-based pyramid has a square base and triangular sides meeting at a point (apex).\n\n**Step 2: Count the vertices**\n- Square base vertices: 4 (one at each corner)\n- Apex (top point): 1\n\n**Step 3: Total**\n4 + 1 = 5 vertices",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Vertices are corners or points. The base is a square - how many corners does a square have?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "The square base has 4 corners. Is there another point at the top?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "4 base vertices + 1 apex = 5 vertices",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "vertices",
+          "pyramid-properties"
+        ],
+        "distractorTypes": {
+          "A": "wrong_shape_property",
+          "C": "wrong_shape_property",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Identify shape → Count base vertices → Add apex → Verify",
+        "methodologySteps": [
+          "Read: Identify the 3D shape and what property is asked",
+          "Recall: Count base polygon vertices",
+          "Solve: Add apex vertex for pyramids",
+          "Check: Verify total is base vertices + 1"
+        ],
+        "timeTarget": 30,
+        "commonErrors": [
+          "Forgetting the apex",
+          "Confusing with prism",
+          "Counting faces instead of vertices"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 30,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-004",
+      "questionType": "MCQ",
+      "stem": "A rectangular prism has how many faces?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "4",
+          "isCorrect": false,
+          "feedback": "4 is the number of rectangular side faces, but you're missing the top and bottom."
+        },
+        {
+          "id": "B",
+          "text": "6",
+          "isCorrect": true,
+          "feedback": "Correct! A rectangular prism has 6 faces: top, bottom, front, back, left, and right."
+        },
+        {
+          "id": "C",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "5 faces is for a triangular prism. A rectangular prism has one more face."
+        },
+        {
+          "id": "D",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "8 is the number of vertices a rectangular prism has, not faces."
+        },
+        {
+          "id": "E",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "12 is the number of edges a rectangular prism has, not faces."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties**\n\n**Step 1: Identify the shape**\nA rectangular prism (like a box) has rectangular faces.\n\n**Step 2: Count the faces**\n- Top and bottom: 2\n- Front and back: 2\n- Left and right sides: 2\n\n**Step 3: Total**\n2 + 2 + 2 = 6 faces",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think of a cereal box or a brick. How many flat surfaces does it have?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Count in pairs: top/bottom, front/back, left/right sides.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "A rectangular prism has 6 faces: 2 + 2 + 2 = 6",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "prism-properties"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "wrong_shape_property",
+          "D": "property_confusion",
+          "E": "property_confusion"
+        },
+        "solutionApproach": "Identify shape → Count faces systematically → Verify",
+        "methodologySteps": [
+          "Read: Identify the 3D shape and what property is asked",
+          "Recall: Visualize or recall the shape",
+          "Solve: Count all faces including top and bottom",
+          "Check: Use Euler's formula to verify"
+        ],
+        "timeTarget": 30,
+        "commonErrors": [
+          "Forgetting top and bottom",
+          "Confusing with edges",
+          "Confusing with vertices"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 30,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-005",
+      "questionType": "MCQ",
+      "stem": "How many edges does a triangular-based pyramid (tetrahedron) have?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "A tetrahedron has only 6 edges. Count: 3 on base + 3 going up to the apex."
+        },
+        {
+          "id": "B",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "Close, but a tetrahedron has 6 edges: 3 base edges + 3 lateral edges."
+        },
+        {
+          "id": "C",
+          "text": "4",
+          "isCorrect": false,
+          "feedback": "4 is the number of faces (or vertices) of a tetrahedron, not edges."
+        },
+        {
+          "id": "D",
+          "text": "9",
+          "isCorrect": false,
+          "feedback": "9 edges is for a triangular prism, not a triangular pyramid."
+        },
+        {
+          "id": "E",
+          "text": "6",
+          "isCorrect": true,
+          "feedback": "Correct! A tetrahedron has 6 edges: 3 on the triangular base + 3 from base vertices to the apex."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties**\n\n**Step 1: Identify the shape**\nA tetrahedron is a triangular-based pyramid with 4 triangular faces.\n\n**Step 2: Count the edges**\n- Triangular base edges: 3\n- Edges from base vertices to apex: 3\n\n**Step 3: Total**\n3 + 3 = 6 edges",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Start with the base - it's a triangle. How many edges does a triangle have?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "The triangular base has 3 edges. Now count the edges going up to the top point.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "3 base edges + 3 lateral edges = 6 edges total",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "edges",
+          "pyramid-properties"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "off_by_one",
+          "C": "property_confusion",
+          "D": "wrong_shape_property"
+        },
+        "solutionApproach": "Identify shape → Count base edges → Add lateral edges → Verify",
+        "methodologySteps": [
+          "Read: Identify the 3D shape and what property is asked",
+          "Recall: Count base polygon edges",
+          "Solve: Add edges from base to apex",
+          "Check: Use formula or systematic counting"
+        ],
+        "timeTarget": 30,
+        "commonErrors": [
+          "Confusing with tetrahedron vertices",
+          "Confusing pyramid with prism",
+          "Miscounting lateral edges"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 30,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-006",
+      "questionType": "MCQ",
+      "stem": "What is the total number of faces on a cube and a triangular prism combined?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "You may have miscounted. Cube has 6, triangular prism has 5. That's 11 total."
+        },
+        {
+          "id": "B",
+          "text": "9",
+          "isCorrect": false,
+          "feedback": "Check your addition. Cube has 6 faces, triangular prism has 5 faces. 6 + 5 = 11."
+        },
+        {
+          "id": "C",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "A cube has 6 faces, not 7. Recheck: 6 + 5 = 11."
+        },
+        {
+          "id": "D",
+          "text": "11",
+          "isCorrect": true,
+          "feedback": "Correct! Cube: 6 faces. Triangular prism: 5 faces. Total: 6 + 5 = 11 faces."
+        },
+        {
+          "id": "E",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "Close, but count again. A triangular prism has 5 faces (2 triangles + 3 rectangles)."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Combined Shapes**\n\n**Step 1: Count faces on each shape**\n- Cube: 6 faces\n- Triangular prism: 5 faces (2 triangular ends + 3 rectangular sides)\n\n**Step 2: Add them together**\n6 + 5 = 11 faces",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find how many faces each shape has separately.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Cube: 6 faces. Triangular prism: 2 triangle faces + 3 rectangle faces = 5 faces.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total: 6 + 5 = 11 faces",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "addition",
+          "multiple-shapes"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "off_by_one",
+          "E": "off_by_one"
+        },
+        "solutionApproach": "Count property for each shape → Add totals",
+        "methodologySteps": [
+          "Read: Identify both shapes and the property asked",
+          "Recall: Find property value for each shape",
+          "Solve: Add the values together",
+          "Check: Verify each shape's count before adding"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Miscounting triangular prism faces",
+          "Addition errors",
+          "Confusing faces with edges"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-007",
+      "questionType": "MCQ",
+      "stem": "A hexagonal prism has how many vertices?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "6 is only the vertices on one hexagonal face. The prism has two hexagonal ends."
+        },
+        {
+          "id": "B",
+          "text": "18",
+          "isCorrect": false,
+          "feedback": "18 is the number of edges, not vertices. Vertices: 6 + 6 = 12."
+        },
+        {
+          "id": "C",
+          "text": "12",
+          "isCorrect": true,
+          "feedback": "Correct! A hexagonal prism has 12 vertices: 6 on the top hexagon + 6 on the bottom hexagon."
+        },
+        {
+          "id": "D",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "Close, but a hexagon has 6 vertices on each end. 6 + 6 = 12."
+        },
+        {
+          "id": "E",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "8 vertices is for a cube or rectangular prism, not a hexagonal prism."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties**\n\n**Step 1: Identify the shape**\nA hexagonal prism has two hexagonal bases connected by rectangles.\n\n**Step 2: Count the vertices**\n- Top hexagon vertices: 6\n- Bottom hexagon vertices: 6\n\n**Step 3: Total**\n6 + 6 = 12 vertices",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A hexagon has 6 sides and 6 vertices. A hexagonal prism has a hexagon on top and bottom.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Top hexagon: 6 vertices. Bottom hexagon: 6 vertices. Add them together.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "6 + 6 = 12 vertices",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "vertices",
+          "prism-properties",
+          "hexagon"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "property_confusion",
+          "D": "computation_error",
+          "E": "wrong_shape_property"
+        },
+        "solutionApproach": "Identify base shape → Count base vertices → Double for prism",
+        "methodologySteps": [
+          "Read: Identify the prism type from its base",
+          "Recall: Hexagon has 6 vertices",
+          "Solve: Double it for both ends of the prism",
+          "Check: Verify 6 + 6 = 12"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Counting only one hexagon",
+          "Confusing vertices with edges",
+          "Using wrong polygon properties"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-008",
+      "questionType": "MCQ",
+      "stem": "What is the sum of faces and vertices for a cube?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "12 is the number of edges, not the sum of faces and vertices. Faces = 6, Vertices = 8."
+        },
+        {
+          "id": "B",
+          "text": "14",
+          "isCorrect": true,
+          "feedback": "Correct! Cube has 6 faces + 8 vertices = 14."
+        },
+        {
+          "id": "C",
+          "text": "16",
+          "isCorrect": false,
+          "feedback": "Check your values. A cube has 6 faces and 8 vertices. 6 + 8 = 14."
+        },
+        {
+          "id": "D",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "Too high. You may be adding edges as well. Just add faces (6) and vertices (8)."
+        },
+        {
+          "id": "E",
+          "text": "26",
+          "isCorrect": false,
+          "feedback": "This is 6 + 8 + 12 (faces + vertices + edges). The question only asks for faces and vertices."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Sum of Properties**\n\n**Step 1: Find each property**\n- Cube faces: 6\n- Cube vertices: 8\n\n**Step 2: Add them**\n6 + 8 = 14",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How many faces does a cube have? How many vertices (corners)?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Cube: 6 faces, 8 vertices. Now add them together.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "6 + 8 = 14",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "vertices",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "property_confusion",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "includes_extra_property"
+        },
+        "solutionApproach": "Find each property value → Add together",
+        "methodologySteps": [
+          "Read: Identify what properties need to be summed",
+          "Recall: Find each property value",
+          "Solve: Add the values",
+          "Check: Verify you used the right properties"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Including edges in the sum",
+          "Using wrong property values",
+          "Confusing faces with vertices"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-009",
+      "questionType": "MCQ",
+      "stem": "A pentagonal pyramid has how many faces?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6",
+          "isCorrect": true,
+          "feedback": "Correct! A pentagonal pyramid has 6 faces: 1 pentagonal base + 5 triangular sides."
+        },
+        {
+          "id": "B",
+          "text": "7",
+          "isCorrect": false,
+          "feedback": "A pentagonal prism has 7 faces, but a pentagonal pyramid has fewer."
+        },
+        {
+          "id": "C",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "Too many! A pentagonal pyramid has 1 pentagon + 5 triangles = 6 faces."
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "5 is only the triangular side faces. Don't forget the pentagonal base!"
+        },
+        {
+          "id": "E",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "Too many faces. Count: 1 pentagonal base + 5 triangular sides = 6."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties**\n\n**Step 1: Identify the shape**\nA pentagonal pyramid has a pentagon base and triangular sides meeting at an apex.\n\n**Step 2: Count the faces**\n- Base (pentagon): 1\n- Triangular side faces: 5 (one for each side of the pentagon)\n\n**Step 3: Total**\n1 + 5 = 6 faces",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A pentagonal pyramid has a pentagon base. How many sides does a pentagon have?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "There's 1 pentagonal face on the bottom, and 5 triangular faces (one for each side of the pentagon).",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "1 base + 5 triangular sides = 6 faces",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "pyramid-properties",
+          "pentagon"
+        ],
+        "distractorTypes": {
+          "B": "wrong_shape_property",
+          "C": "computation_error",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Identify base → Count base face + lateral faces",
+        "methodologySteps": [
+          "Read: Identify the pyramid type from its base",
+          "Recall: Pentagon has 5 sides",
+          "Solve: 1 base face + 5 triangular faces",
+          "Check: Pyramid faces = base sides + 1"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Forgetting the base face",
+          "Confusing pyramid with prism",
+          "Miscounting pentagon sides"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-010",
+      "questionType": "MCQ",
+      "stem": "What is the total number of edges on two cubes?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "12 is the edges on just ONE cube. You need two cubes."
+        },
+        {
+          "id": "B",
+          "text": "16",
+          "isCorrect": false,
+          "feedback": "A cube has 12 edges, not 8. Two cubes: 12 + 12 = 24."
+        },
+        {
+          "id": "C",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "Close, but check your calculation. Each cube has 12 edges."
+        },
+        {
+          "id": "D",
+          "text": "24",
+          "isCorrect": true,
+          "feedback": "Correct! Each cube has 12 edges. Two cubes: 12 + 12 = 24 edges."
+        },
+        {
+          "id": "E",
+          "text": "36",
+          "isCorrect": false,
+          "feedback": "Too many. A cube has 12 edges, not 18. 12 + 12 = 24."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Multiple Shapes**\n\n**Step 1: Find edges on one cube**\nA cube has 12 edges.\n\n**Step 2: Calculate for two cubes**\n12 + 12 = 24 edges",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First, find out how many edges one cube has.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "One cube has 12 edges. Now double it for two cubes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "12 + 12 = 24 edges",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "edges",
+          "multiplication",
+          "cube-properties"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "wrong_shape_property",
+          "C": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find property for one shape → Multiply by count",
+        "methodologySteps": [
+          "Read: Identify the shape and how many",
+          "Recall: Find property for one shape",
+          "Solve: Multiply by the number of shapes",
+          "Check: Verify the single shape property is correct"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Using wrong edge count for cube",
+          "Forgetting to double",
+          "Confusing edges with faces or vertices"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-011",
+      "questionType": "MCQ",
+      "stem": "A cylinder has 2 circular faces, 0 vertices, and how many curved surfaces?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "2",
+          "isCorrect": false,
+          "feedback": "A cylinder has only 1 continuous curved surface, not 2."
+        },
+        {
+          "id": "B",
+          "text": "Infinite",
+          "isCorrect": false,
+          "feedback": "While the curved surface is smooth, we count it as 1 curved surface, not infinite."
+        },
+        {
+          "id": "C",
+          "text": "0",
+          "isCorrect": false,
+          "feedback": "A cylinder does have a curved surface - it's the rounded side that wraps around."
+        },
+        {
+          "id": "D",
+          "text": "1",
+          "isCorrect": true,
+          "feedback": "Correct! A cylinder has 1 curved surface that wraps around connecting the two circular faces."
+        },
+        {
+          "id": "E",
+          "text": "3",
+          "isCorrect": false,
+          "feedback": "3 would be adding the curved surface to the 2 flat faces. The question asks only about curved surfaces."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Curved Shapes**\n\n**Step 1: Identify the shape**\nA cylinder has two circular flat faces and a curved side.\n\n**Step 2: Count curved surfaces**\nThe curved part that wraps around is 1 continuous curved surface.\n\n**Answer: 1 curved surface**",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Think of a can of soup. Besides the flat circles on top and bottom, what else is there?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "The side of the cylinder that wraps around is called a curved surface.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "A cylinder has 1 curved surface",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "curved-surfaces",
+          "cylinder-properties"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "misconception_answer",
+          "C": "misconception_answer",
+          "E": "includes_extra_property"
+        },
+        "solutionApproach": "Visualize shape → Identify curved vs flat surfaces → Count curved only",
+        "methodologySteps": [
+          "Read: Identify what type of surface is being asked",
+          "Recall: Distinguish flat faces from curved surfaces",
+          "Solve: Count only the curved surfaces",
+          "Check: Verify you didn't include flat faces"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Including flat faces in count",
+          "Thinking curved = infinite",
+          "Confusing with cone"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 11
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-012",
+      "questionType": "MCQ",
+      "stem": "What is the sum of faces, edges, and vertices for a triangular prism?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "22",
+          "isCorrect": false,
+          "feedback": "Check your values. A triangular prism has 5 faces, 9 edges, and 6 vertices."
+        },
+        {
+          "id": "B",
+          "text": "15",
+          "isCorrect": false,
+          "feedback": "You may have left out one property. Add: 5 + 9 + 6 = 20."
+        },
+        {
+          "id": "C",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "Too high. Double-check each property for a triangular prism."
+        },
+        {
+          "id": "D",
+          "text": "20",
+          "isCorrect": true,
+          "feedback": "Correct! Faces (5) + Edges (9) + Vertices (6) = 20."
+        },
+        {
+          "id": "E",
+          "text": "18",
+          "isCorrect": false,
+          "feedback": "Close! Check your counts: Faces = 5, Edges = 9, Vertices = 6. Sum = 20."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Sum of All Properties**\n\n**Step 1: Find each property for a triangular prism**\n- Faces: 5 (2 triangular ends + 3 rectangular sides)\n- Edges: 9 (3 on top + 3 on bottom + 3 vertical)\n- Vertices: 6 (3 on top + 3 on bottom)\n\n**Step 2: Add them all**\n5 + 9 + 6 = 20",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find faces, edges, and vertices for a triangular prism separately first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Faces: 5, Edges: 9, Vertices: 6. Now add them.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "5 + 9 + 6 = 20",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "edges",
+          "vertices",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "computation_error",
+          "E": "off_by_one"
+        },
+        "solutionApproach": "Find each property → Add all three values",
+        "methodologySteps": [
+          "Read: Note you need all three properties",
+          "Recall: Find F, E, V for triangular prism",
+          "Solve: Add F + E + V",
+          "Check: Use Euler's formula: V - E + F = 2"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Using wrong shape properties",
+          "Missing one property",
+          "Addition errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 12
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-013",
+      "questionType": "MCQ",
+      "stem": "A cone has 1 circular face, 1 curved surface, 1 vertex (the apex), and 0 straight edges. How many total features (faces + curved surfaces + vertices + edges) does a cone have?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "3",
+          "isCorrect": true,
+          "feedback": "Correct! 1 face + 1 curved surface + 1 vertex + 0 edges = 3 total features."
+        },
+        {
+          "id": "B",
+          "text": "4",
+          "isCorrect": false,
+          "feedback": "Close, but check each feature. Face: 1, Curved: 1, Vertex: 1, Edges: 0. Total: 3."
+        },
+        {
+          "id": "C",
+          "text": "2",
+          "isCorrect": false,
+          "feedback": "You may have only counted some features. Add: 1 + 1 + 1 + 0 = 3."
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "Too many. The cone has 0 straight edges. 1 + 1 + 1 + 0 = 3."
+        },
+        {
+          "id": "E",
+          "text": "1",
+          "isCorrect": false,
+          "feedback": "You need to add all the features together, not just count one type."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Curved Shapes Total**\n\n**Step 1: List the features given**\n- Circular face: 1\n- Curved surface: 1\n- Vertex: 1\n- Edges: 0\n\n**Step 2: Add them**\n1 + 1 + 1 + 0 = 3 total features",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The question tells you all the features. Just add them up!",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "1 face + 1 curved surface + 1 vertex + 0 edges = ?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "1 + 1 + 1 + 0 = 3",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "cone-properties",
+          "addition",
+          "reading-comprehension"
+        ],
+        "distractorTypes": {
+          "B": "off_by_one",
+          "C": "partial_solution",
+          "D": "computation_error",
+          "E": "misread_question"
+        },
+        "solutionApproach": "Read given values carefully → Add all values",
+        "methodologySteps": [
+          "Read: Extract all feature values from the question",
+          "Recall: Verify values make sense for a cone",
+          "Solve: Add all feature counts",
+          "Check: Ensure you included all four types"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Missing a feature in the sum",
+          "Adding incorrectly",
+          "Not reading carefully"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 13
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-014",
+      "questionType": "MCQ",
+      "stem": "A square-based pyramid and a triangular prism are placed together. How many faces do they have in total?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "Too many. Double-check each shape's face count."
+        },
+        {
+          "id": "B",
+          "text": "11",
+          "isCorrect": false,
+          "feedback": "Check again. Square pyramid: 5, Triangular prism: 5. That's 10 total."
+        },
+        {
+          "id": "C",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "Check your counts. Square pyramid: 5 faces. Triangular prism: 5 faces. Total: 10."
+        },
+        {
+          "id": "D",
+          "text": "10",
+          "isCorrect": true,
+          "feedback": "Correct! Square pyramid: 5 faces (1 square + 4 triangles). Triangular prism: 5 faces (2 triangles + 3 rectangles). Total: 10."
+        },
+        {
+          "id": "E",
+          "text": "9",
+          "isCorrect": false,
+          "feedback": "Close! A square pyramid has 5 faces, and a triangular prism has 5 faces."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Combined Shapes**\n\n**Step 1: Count faces on each shape**\n- Square-based pyramid: 5 faces (1 square base + 4 triangular sides)\n- Triangular prism: 5 faces (2 triangular ends + 3 rectangular sides)\n\n**Step 2: Add them**\n5 + 5 = 10 faces total",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the number of faces on each shape first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Square pyramid: 1 + 4 = 5 faces. Triangular prism: 2 + 3 = 5 faces.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "5 + 5 = 10 faces total",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "pyramid-properties",
+          "prism-properties",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "off_by_one",
+          "C": "computation_error",
+          "E": "off_by_one"
+        },
+        "solutionApproach": "Count faces for each shape → Add totals",
+        "methodologySteps": [
+          "Read: Identify both shapes",
+          "Recall: Find face count for each shape",
+          "Solve: Add the face counts",
+          "Check: Verify each count before adding"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Wrong pyramid face count",
+          "Wrong prism face count",
+          "Addition errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 14
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-015",
+      "questionType": "MCQ",
+      "stem": "How many more edges does a rectangular prism have than a square-based pyramid?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "2",
+          "isCorrect": false,
+          "feedback": "Rectangular prism: 12 edges. Square pyramid: 8 edges. Difference: 12 - 8 = 4."
+        },
+        {
+          "id": "B",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "Not quite. 12 - 8 = 4, not 5."
+        },
+        {
+          "id": "C",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "Check the edge counts. Rectangular prism: 12. Square pyramid: 8. Difference: 4."
+        },
+        {
+          "id": "D",
+          "text": "4",
+          "isCorrect": true,
+          "feedback": "Correct! Rectangular prism: 12 edges. Square pyramid: 8 edges. Difference: 12 - 8 = 4."
+        },
+        {
+          "id": "E",
+          "text": "3",
+          "isCorrect": false,
+          "feedback": "Close, but check your edge counts. Rectangular prism has 12, square pyramid has 8."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Comparison**\n\n**Step 1: Find edges for each shape**\n- Rectangular prism: 12 edges\n- Square-based pyramid: 8 edges (4 on base + 4 from corners to apex)\n\n**Step 2: Find the difference**\n12 - 8 = 4 more edges",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find how many edges each shape has, then subtract.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Rectangular prism: 12 edges. Square pyramid: 4 base + 4 lateral = 8 edges.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "12 - 8 = 4 more edges",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "edges",
+          "comparison",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "off_by_one",
+          "C": "computation_error",
+          "E": "off_by_one"
+        },
+        "solutionApproach": "Find property for each shape → Subtract to find difference",
+        "methodologySteps": [
+          "Read: Identify both shapes and that a difference is needed",
+          "Recall: Find edge count for each shape",
+          "Solve: Subtract smaller from larger",
+          "Check: Verify which shape has more"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Wrong edge counts",
+          "Subtracting in wrong order",
+          "Confusing edges with faces"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 15
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-016",
+      "questionType": "MCQ",
+      "stem": "A cube has how many more vertices than a tetrahedron (triangular-based pyramid)?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "3",
+          "isCorrect": false,
+          "feedback": "Not quite. A cube has 8 vertices, a tetrahedron has 4. The difference is 4."
+        },
+        {
+          "id": "B",
+          "text": "2",
+          "isCorrect": false,
+          "feedback": "Cube: 8 vertices. Tetrahedron: 4 vertices. Difference: 8 - 4 = 4."
+        },
+        {
+          "id": "C",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "Check: Cube has 8, tetrahedron has 4. 8 - 4 = 4, not 5."
+        },
+        {
+          "id": "D",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "Too many. Cube: 8 vertices. Tetrahedron: 4 vertices. 8 - 4 = 4."
+        },
+        {
+          "id": "E",
+          "text": "4",
+          "isCorrect": true,
+          "feedback": "Correct! Cube: 8 vertices. Tetrahedron: 4 vertices. Difference: 8 - 4 = 4."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Comparison**\n\n**Step 1: Find vertices for each shape**\n- Cube: 8 vertices\n- Tetrahedron: 4 vertices (3 on base + 1 apex)\n\n**Step 2: Find the difference**\n8 - 4 = 4 more vertices",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A cube has 8 corners. A tetrahedron has how many corners?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Cube: 8 vertices. Tetrahedron: 3 base + 1 top = 4 vertices.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "8 - 4 = 4 more vertices",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "vertices",
+          "comparison",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "A": "off_by_one",
+          "B": "computation_error",
+          "C": "off_by_one",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Find vertices for each shape → Subtract to find difference",
+        "methodologySteps": [
+          "Read: Identify both shapes and the property",
+          "Recall: Cube has 8 vertices, tetrahedron has 4",
+          "Solve: Subtract to find difference",
+          "Check: Verify vertex counts"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Wrong vertex count for tetrahedron",
+          "Confusing with pyramid",
+          "Subtraction in wrong direction"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 16
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-017",
+      "questionType": "MCQ",
+      "stem": "An octagonal prism has how many edges?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "32",
+          "isCorrect": false,
+          "feedback": "Too many. The formula is 3 times the base edges: 3 × 8 = 24."
+        },
+        {
+          "id": "B",
+          "text": "18",
+          "isCorrect": false,
+          "feedback": "That's for a hexagonal prism. Octagon = 8 sides, so 8 + 8 + 8 = 24."
+        },
+        {
+          "id": "C",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "Close, but check again. An octagon has 8 sides, so: 8 + 8 + 8 = 24 edges."
+        },
+        {
+          "id": "D",
+          "text": "24",
+          "isCorrect": true,
+          "feedback": "Correct! Octagonal prism: 8 top edges + 8 bottom edges + 8 vertical edges = 24 edges."
+        },
+        {
+          "id": "E",
+          "text": "16",
+          "isCorrect": false,
+          "feedback": "16 is the number of vertices. Edges: 8 + 8 + 8 = 24."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Prism Edges**\n\n**Step 1: Identify the base**\nAn octagon has 8 sides.\n\n**Step 2: Count edges for a prism**\n- Top octagon edges: 8\n- Bottom octagon edges: 8\n- Vertical edges (connecting): 8\n\n**Step 3: Total**\n8 + 8 + 8 = 24 edges",
+      "hints": [
+        {
+          "level": 1,
+          "content": "An octagon has 8 sides. A prism has edges on top, bottom, and connecting them.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Top: 8 edges, Bottom: 8 edges, Vertical: 8 edges. Add them up.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "8 + 8 + 8 = 24 edges",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "edges",
+          "prism-properties",
+          "octagon"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "wrong_shape_property",
+          "C": "computation_error",
+          "E": "property_confusion"
+        },
+        "solutionApproach": "Find base polygon sides → Multiply by 3 for prism edges",
+        "methodologySteps": [
+          "Read: Identify the prism base type",
+          "Recall: Octagon has 8 sides",
+          "Solve: Prism edges = 3 × base sides = 3 × 8",
+          "Check: Verify with top + bottom + vertical"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Wrong octagon side count",
+          "Forgetting vertical edges",
+          "Confusing with vertices"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 17
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-018",
+      "questionType": "MCQ",
+      "stem": "Tom has a collection of 3 cubes and 2 triangular prisms. How many faces does his entire collection have?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "You may have only counted the cubes. Don't forget the triangular prisms!"
+        },
+        {
+          "id": "B",
+          "text": "30",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Cube: 6 faces. Triangular prism: 5 faces. (3×6) + (2×5) = 28."
+        },
+        {
+          "id": "C",
+          "text": "22",
+          "isCorrect": false,
+          "feedback": "Check both shape counts. 3 cubes = 18 faces, 2 triangular prisms = 10 faces."
+        },
+        {
+          "id": "D",
+          "text": "28",
+          "isCorrect": true,
+          "feedback": "Correct! 3 cubes: 3 × 6 = 18 faces. 2 triangular prisms: 2 × 5 = 10 faces. Total: 18 + 10 = 28."
+        },
+        {
+          "id": "E",
+          "text": "26",
+          "isCorrect": false,
+          "feedback": "Check: 3 cubes × 6 = 18 faces. 2 triangular prisms × 5 = 10 faces. Total: 28."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Multiple Shapes**\n\n**Step 1: Calculate faces for cubes**\n- 1 cube has 6 faces\n- 3 cubes: 3 × 6 = 18 faces\n\n**Step 2: Calculate faces for triangular prisms**\n- 1 triangular prism has 5 faces\n- 2 triangular prisms: 2 × 5 = 10 faces\n\n**Step 3: Total**\n18 + 10 = 28 faces",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find faces per shape, then multiply by how many of each Tom has.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Cubes: 3 × 6 = 18. Triangular prisms: 2 × 5 = 10.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "18 + 10 = 28 faces total",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "multiplication",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "computation_error",
+          "C": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find property per shape → Multiply by count → Add totals",
+        "methodologySteps": [
+          "Read: Identify shapes and quantities",
+          "Recall: Cube = 6 faces, triangular prism = 5 faces",
+          "Solve: Multiply each, then add",
+          "Check: Verify multiplications before adding"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Wrong face count per shape",
+          "Multiplication errors",
+          "Forgetting one shape type"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 18
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-019",
+      "questionType": "MCQ",
+      "stem": "Which shape has MORE faces: a hexagonal prism or two square-based pyramids?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "Hexagonal prism (by 2 faces)",
+          "isCorrect": false,
+          "feedback": "Check: Hexagonal prism = 8 faces. Two square pyramids = 2 × 5 = 10 faces. Pyramids have more."
+        },
+        {
+          "id": "B",
+          "text": "Hexagonal prism (by 4 faces)",
+          "isCorrect": false,
+          "feedback": "Actually, the pyramids have more faces! Hexagonal prism: 8. Two pyramids: 10."
+        },
+        {
+          "id": "C",
+          "text": "Two square-based pyramids (by 2 faces)",
+          "isCorrect": true,
+          "feedback": "Correct! Hexagonal prism: 8 faces. Two square pyramids: 2 × 5 = 10 faces. Pyramids have 2 more."
+        },
+        {
+          "id": "D",
+          "text": "They have the same number of faces",
+          "isCorrect": false,
+          "feedback": "Not equal. Hexagonal prism = 8, two square pyramids = 10. Difference of 2."
+        },
+        {
+          "id": "E",
+          "text": "Two square-based pyramids (by 4 faces)",
+          "isCorrect": false,
+          "feedback": "The pyramids have more, but only by 2, not 4. (10 - 8 = 2)"
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Comparison**\n\n**Step 1: Count faces for hexagonal prism**\n- 2 hexagonal ends + 6 rectangular sides = 8 faces\n\n**Step 2: Count faces for two square-based pyramids**\n- Each pyramid: 1 square base + 4 triangular sides = 5 faces\n- Two pyramids: 2 × 5 = 10 faces\n\n**Step 3: Compare**\n10 - 8 = 2\nTwo square-based pyramids have 2 more faces.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the face count for each option first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Hexagonal prism: 2 + 6 = 8 faces. Two square pyramids: 2 × 5 = 10 faces.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "10 - 8 = 2. Two pyramids have 2 more faces.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "comparison",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "wrong_order",
+          "B": "wrong_order",
+          "D": "misconception_answer",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Count faces for each option → Compare → Find difference",
+        "methodologySteps": [
+          "Read: Identify both options to compare",
+          "Recall: Calculate faces for each option",
+          "Solve: Compare and find the difference",
+          "Check: Verify which has more"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Wrong hexagonal prism faces",
+          "Forgetting to multiply for two pyramids",
+          "Wrong comparison direction"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 19
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-020",
+      "questionType": "MCQ",
+      "stem": "For any prism with a polygon base of n sides, the total number of edges is always 3n. Using this rule, how many edges does a decagonal (10-sided) prism have?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "30",
+          "isCorrect": true,
+          "feedback": "Correct! Using the formula 3n: 3 × 10 = 30 edges."
+        },
+        {
+          "id": "B",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "That's only 2n, which would be just the top and bottom edges. You need 3n."
+        },
+        {
+          "id": "C",
+          "text": "40",
+          "isCorrect": false,
+          "feedback": "That's 4n, not 3n. The formula is 3n = 3 × 10 = 30."
+        },
+        {
+          "id": "D",
+          "text": "25",
+          "isCorrect": false,
+          "feedback": "Close, but use the formula: 3n = 3 × 10 = 30."
+        },
+        {
+          "id": "E",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "That's just n. The formula for prism edges is 3n = 3 × 10 = 30."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Using Formulas**\n\n**Step 1: Identify the formula**\nFor any prism: edges = 3n (where n = number of sides of the base)\n\n**Step 2: Apply the formula**\nDecagonal means 10 sides.\n3n = 3 × 10 = 30 edges",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A decagon has 10 sides. Use the formula given: edges = 3n.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "n = 10. Edges = 3 × n = 3 × 10 = ?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "3 × 10 = 30 edges",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "edges",
+          "formulas",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "B": "wrong_formula",
+          "C": "wrong_formula",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Identify n from polygon name → Apply formula",
+        "methodologySteps": [
+          "Read: Identify the formula and the polygon",
+          "Recall: Decagon = 10 sides",
+          "Solve: Apply 3n = 3 × 10",
+          "Check: Verify formula application"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Wrong polygon side count",
+          "Wrong formula multiplier",
+          "Not recognizing decagon"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 20
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-021",
+      "questionType": "MCQ",
+      "stem": "Euler's formula states that for any polyhedron: Vertices - Edges + Faces = 2. A shape has 8 vertices and 12 edges. How many faces must it have?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "Check: 8 - 12 + 8 = 4, not 2. The answer is F = 6."
+        },
+        {
+          "id": "B",
+          "text": "4",
+          "isCorrect": false,
+          "feedback": "Using V - E + F = 2: 8 - 12 + F = 2, so F = 2 + 12 - 8 = 6."
+        },
+        {
+          "id": "C",
+          "text": "6",
+          "isCorrect": true,
+          "feedback": "Correct! V - E + F = 2 means 8 - 12 + F = 2, so F = 6 faces. (This is a cube!)"
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "Close! Apply Euler's formula: 8 - 12 + F = 2, so F = 6."
+        },
+        {
+          "id": "E",
+          "text": "2",
+          "isCorrect": false,
+          "feedback": "2 is what the formula equals, not the number of faces. Solve: 8 - 12 + F = 2."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Euler's Formula**\n\n**Step 1: Set up Euler's formula**\nV - E + F = 2\n8 - 12 + F = 2\n\n**Step 2: Solve for F**\n-4 + F = 2\nF = 2 + 4\nF = 6 faces\n\n**Note:** This describes a cube (8 vertices, 12 edges, 6 faces).",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Use Euler's formula: V - E + F = 2. Substitute V = 8 and E = 12.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "8 - 12 + F = 2, so -4 + F = 2. Solve for F.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "F = 2 + 4 = 6 faces",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "eulers-formula",
+          "algebra",
+          "equations"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "computation_error",
+          "D": "off_by_one",
+          "E": "misread_question"
+        },
+        "solutionApproach": "Apply Euler's formula → Substitute known values → Solve for unknown",
+        "methodologySteps": [
+          "Read: Identify known values (V, E) and unknown (F)",
+          "Recall: Euler's formula V - E + F = 2",
+          "Solve: Substitute and solve algebraically",
+          "Check: Verify by substituting back"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Substitution errors",
+          "Sign errors with negative numbers",
+          "Solving for wrong variable"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 21
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-022",
+      "questionType": "MCQ",
+      "stem": "When a cube's net is unfolded, it shows 6 connected squares. If the net has 14 visible edges (the lines between squares), how many edges would be hidden when the cube is folded up?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "0",
+          "isCorrect": false,
+          "feedback": "A cube has 12 edges total. When unfolded, 14 edges are visible, but some become the same edge when folded."
+        },
+        {
+          "id": "B",
+          "text": "7",
+          "isCorrect": true,
+          "feedback": "Correct! The net has 14 boundary edges, but 5 of these are internal fold lines. When folded, each pair of edges along a fold becomes 1 cube edge. So 14 - 5 internal = 9 boundary + 5 folds that become edges, but actually: total visible on net is 14. A cube needs 12. The 5 internal edges of the net become 5 edges of the cube, and the outer boundary becomes the remaining 7 edges. But in terms of 'hidden' when unfolded vs visible: 7 edges of the final cube were 'hidden' as internal connections."
+        },
+        {
+          "id": "C",
+          "text": "2",
+          "isCorrect": false,
+          "feedback": "Think about what happens when folding. The question asks about edges that disappear into the fold."
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "When a net folds into a cube, some net edges join together. Net edges (14) - Cube edges (12) = 2, but these are 'shared' not hidden."
+        },
+        {
+          "id": "E",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "12 is the total edges of a cube. The question asks specifically about edges hidden by the folding process."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Nets**\n\n**Step 1: Understand the net**\nA cube net has 6 squares connected by fold lines.\n\n**Step 2: Count edges**\n- Net visible edges (perimeter + internal folds): 14\n- Cube total edges: 12\n- Internal fold lines that become cube edges: 5\n\n**Step 3: Calculate**\nWhen folded:\n- 5 internal edges of net become 5 cube edges\n- The perimeter edges pair up: 14 - 5 = 9 perimeter edges become parts of the remaining 7 cube edges (some pair up)\n- Edges 'hidden' by folding (created by joining): 7",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A cube has 12 edges. A net shows some edges as fold lines and some as the outer boundary.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "The net has 5 internal fold lines (connecting squares). When folded, some boundary edges meet to form cube edges.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Of the 12 cube edges, 5 are the internal fold lines, and 7 are formed when boundary edges join together.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "nets",
+          "edges",
+          "spatial-reasoning"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "C": "computation_error",
+          "D": "off_by_one",
+          "E": "misread_question"
+        },
+        "solutionApproach": "Analyze net structure → Compare net edges to 3D edges → Calculate difference",
+        "methodologySteps": [
+          "Read: Understand net vs 3D shape relationship",
+          "Recall: Cube has 12 edges, net has fold lines and boundary",
+          "Solve: Calculate which net edges become which cube edges",
+          "Check: Verify total edges match"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Confusing net edges with cube edges",
+          "Not understanding fold process",
+          "Miscounting internal connections"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 22
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-023",
+      "questionType": "MCQ",
+      "stem": "A solid is made by gluing a square-based pyramid on top of a cube, where the pyramid's base exactly covers the cube's top face. The combined solid has how many faces in total? (Remember: the joined faces are no longer visible!)",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "7",
+          "isCorrect": false,
+          "feedback": "Too few. Count: 5 cube sides visible + 4 pyramid triangles visible = 9."
+        },
+        {
+          "id": "B",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "Close! But remember to subtract the 2 hidden faces (cube top + pyramid base). 6 + 5 - 2 = 9."
+        },
+        {
+          "id": "C",
+          "text": "11",
+          "isCorrect": false,
+          "feedback": "Did you subtract the hidden faces? Cube top and pyramid base are glued together and invisible."
+        },
+        {
+          "id": "D",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "Check your count. Cube contributes 5 visible faces, pyramid contributes 4. Total: 9."
+        },
+        {
+          "id": "E",
+          "text": "9",
+          "isCorrect": true,
+          "feedback": "Correct! Cube: 6 faces - 1 (top, now hidden) = 5 visible. Pyramid: 5 faces - 1 (base, now hidden) = 4 visible. Total: 5 + 4 = 9 faces."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Combined Shapes with Hidden Faces**\n\n**Step 1: Count faces before combining**\n- Cube: 6 faces\n- Square-based pyramid: 5 faces\n\n**Step 2: Identify hidden faces**\n- Cube's top face: hidden (glued)\n- Pyramid's base: hidden (glued)\n- Total hidden: 2 faces\n\n**Step 3: Calculate visible faces**\n(6 + 5) - 2 = 11 - 2 = 9 faces",
+      "hints": [
+        {
+          "level": 1,
+          "content": "When shapes are glued together, the faces where they join become hidden inside.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Cube: 6 faces, Pyramid: 5 faces. But 2 faces (cube top + pyramid base) are glued and hidden.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "(6 + 5) - 2 = 9 visible faces",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "composite-shapes",
+          "hidden-faces"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "forgot_one_hidden",
+          "C": "forgot_both_hidden",
+          "D": "off_by_one"
+        },
+        "solutionApproach": "Count original faces → Identify hidden faces → Subtract hidden from total",
+        "methodologySteps": [
+          "Read: Identify how shapes are combined",
+          "Recall: Count faces for each shape",
+          "Solve: Subtract hidden (joined) faces",
+          "Check: Both joined faces must be subtracted"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Forgetting to subtract hidden faces",
+          "Subtracting only one hidden face",
+          "Wrong initial face counts"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 23
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-024",
+      "questionType": "MCQ",
+      "stem": "A truncated tetrahedron is formed by cutting off all 4 corners of a tetrahedron. If the original tetrahedron had 4 faces, 4 vertices, and 6 edges, the truncated shape has 8 faces. Using Euler's formula (V - E + F = 2), how many edges does the truncated tetrahedron have?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "Using Euler's formula with V = 12 and F = 8: 12 - E + 8 = 2, so E = 18."
+        },
+        {
+          "id": "B",
+          "text": "18",
+          "isCorrect": true,
+          "feedback": "Correct! A truncated tetrahedron has 12 vertices. Using V - E + F = 2: 12 - E + 8 = 2, so E = 18."
+        },
+        {
+          "id": "C",
+          "text": "14",
+          "isCorrect": false,
+          "feedback": "Check: The truncated tetrahedron has 12 vertices and 8 faces. Apply Euler's formula."
+        },
+        {
+          "id": "D",
+          "text": "16",
+          "isCorrect": false,
+          "feedback": "Close, but apply Euler's formula correctly. V - E + F = 2 gives E = 18."
+        },
+        {
+          "id": "E",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "Too many. With 12 vertices and 8 faces: 12 - E + 8 = 2, so E = 18."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Euler's Formula**\n\n**Step 1: Identify known values**\n- A truncated tetrahedron has:\n  - Faces (F) = 8 (4 hexagons + 4 triangles)\n  - Vertices (V) = 12 (each original vertex becomes 3 new vertices, but shared)\n\n**Step 2: Apply Euler's formula**\nV - E + F = 2\n12 - E + 8 = 2\n20 - E = 2\nE = 18 edges",
+      "hints": [
+        {
+          "level": 1,
+          "content": "You need to find the number of vertices first. Each cut creates 3 new vertices where 1 existed before.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Truncated tetrahedron: 12 vertices, 8 faces. Use V - E + F = 2.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "12 - E + 8 = 2, so 20 - E = 2, therefore E = 18",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "eulers-formula",
+          "truncation",
+          "algebra"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "off_by_one",
+          "D": "computation_error",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Identify vertices and faces → Apply Euler's formula → Solve for edges",
+        "methodologySteps": [
+          "Read: Note given information (F = 8)",
+          "Recall: Find vertices (12 for truncated tetrahedron)",
+          "Solve: V - E + F = 2 → 12 - E + 8 = 2",
+          "Check: Verify 12 - 18 + 8 = 2 ✓"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Wrong vertex count",
+          "Algebraic errors",
+          "Sign errors in formula"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 24
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa3-025",
+      "questionType": "MCQ",
+      "stem": "A company packages products in boxes. They have cubes (6 faces each), triangular prisms (5 faces each), and square-based pyramids (5 faces each). If they have 4 cubes, 3 triangular prisms, and 2 pyramids, how many total faces could need labels?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "45",
+          "isCorrect": false,
+          "feedback": "Check each calculation: 4 × 6 = 24, 3 × 5 = 15, 2 × 5 = 10. Total: 24 + 15 + 10 = 49."
+        },
+        {
+          "id": "B",
+          "text": "49",
+          "isCorrect": true,
+          "feedback": "Correct! Cubes: 4 × 6 = 24. Triangular prisms: 3 × 5 = 15. Pyramids: 2 × 5 = 10. Total: 24 + 15 + 10 = 49 faces."
+        },
+        {
+          "id": "C",
+          "text": "39",
+          "isCorrect": false,
+          "feedback": "You may have miscounted one group. Check: 24 + 15 + 10 = 49."
+        },
+        {
+          "id": "D",
+          "text": "36",
+          "isCorrect": false,
+          "feedback": "Too low. Make sure you're counting all shapes: 4 cubes, 3 prisms, 2 pyramids."
+        },
+        {
+          "id": "E",
+          "text": "54",
+          "isCorrect": false,
+          "feedback": "Check your multiplication. Cubes: 4 × 6 = 24, not more."
+        }
+      ],
+      "solution": "**Methodology: 3D Shape Properties - Multiple Shape Types**\n\n**Step 1: Calculate faces for each shape type**\n- Cubes: 4 × 6 = 24 faces\n- Triangular prisms: 3 × 5 = 15 faces\n- Square-based pyramids: 2 × 5 = 10 faces\n\n**Step 2: Add all faces**\n24 + 15 + 10 = 49 total faces",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Multiply the number of each shape by its face count, then add all results.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Cubes: 4 × 6 = 24. Prisms: 3 × 5 = 15. Pyramids: 2 × 5 = 10.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "24 + 15 + 10 = 49 faces",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "3D Shape Properties",
+        "archetypeId": "qa3",
+        "conceptsRequired": [
+          "3d-shapes",
+          "faces",
+          "multiplication",
+          "addition",
+          "multi-step"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "partial_solution",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Multiply quantity × faces for each type → Add all products",
+        "methodologySteps": [
+          "Read: Identify all shape types and quantities",
+          "Recall: Cube = 6, tri prism = 5, sq pyramid = 5 faces",
+          "Solve: Multiply each, then add products",
+          "Check: Verify each multiplication before final sum"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Multiplication errors",
+          "Missing one shape type",
+          "Addition errors",
+          "Wrong face counts"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-14MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Three-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa3-set1",
+        "sequenceInPaper": 25
+      },
+      "status": "published"
+    }
+  ]
+}

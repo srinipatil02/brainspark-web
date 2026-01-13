@@ -560,13 +560,52 @@ service cloud.firestore {
     
     // Help Flags
     match /helpFlags/{flagId} {
-      allow read: if isAdmin() || 
+      allow read: if isAdmin() ||
                      (isSignedIn() && request.auth.uid == resource.data.studentId) ||
                      (isSignedIn() && request.auth.uid == resource.data.teacherId);
-      allow create: if isAdmin() || 
+      allow create: if isAdmin() ||
                       (isSignedIn() && request.auth.uid == request.resource.data.studentId);
-      allow update: if isAdmin() || 
+      allow update: if isAdmin() ||
                       (isSignedIn() && request.auth.uid == resource.data.teacherId);
+      allow delete: if isAdmin();
+    }
+
+    // === NSW SELECTIVE EXAM PREP COLLECTIONS ===
+
+    // Archetype Progress (NSW Selective exam prep progress tracking)
+    // Document ID format: {userId}_{archetypeId} (e.g., "abc123_qa13")
+    match /archetypeProgress/{progressId} {
+      // Users can read their own progress
+      allow read: if isAdmin() ||
+                     (isSignedIn() && resource.data.userId == request.auth.uid);
+      // Users can create their own progress documents
+      allow create: if isAdmin() ||
+                      (isSignedIn() && request.resource.data.userId == request.auth.uid);
+      // Users can update their own progress
+      allow update: if isAdmin() ||
+                      (isSignedIn() && resource.data.userId == request.auth.uid);
+      // Only admins can delete progress
+      allow delete: if isAdmin();
+    }
+
+    // Diagnostic Results (NSW Selective diagnostic assessment results)
+    match /diagnosticResults/{resultId} {
+      allow read: if isAdmin() ||
+                     (isSignedIn() && resource.data.userId == request.auth.uid);
+      allow create: if isAdmin() ||
+                      (isSignedIn() && request.resource.data.userId == request.auth.uid);
+      allow update: if isAdmin() ||
+                      (isSignedIn() && resource.data.userId == request.auth.uid);
+      allow delete: if isAdmin();
+    }
+
+    // Simulation Results (NSW Selective exam simulation results)
+    match /simulationResults/{resultId} {
+      allow read: if isAdmin() ||
+                     (isSignedIn() && resource.data.userId == request.auth.uid);
+      allow create: if isAdmin() ||
+                      (isSignedIn() && request.resource.data.userId == request.auth.uid);
+      allow update: if isAdmin();
       allow delete: if isAdmin();
     }
   }

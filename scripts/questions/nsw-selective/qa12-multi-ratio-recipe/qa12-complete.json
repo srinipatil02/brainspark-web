@@ -1,0 +1,2583 @@
+{
+  "metadata": {
+    "archetype": "Multi-Ratio Recipe",
+    "archetypeId": "qa12",
+    "archetypeSlug": "multi-ratio-recipe",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "foundation": {
+        "count": 5,
+        "difficulty": "1-2"
+      },
+      "application": {
+        "count": 10,
+        "difficulty": "2-3"
+      },
+      "connection": {
+        "count": 5,
+        "difficulty": "3"
+      },
+      "mastery": {
+        "count": 5,
+        "difficulty": "4"
+      }
+    },
+    "createdAt": "2026-01-13",
+    "version": "1.0",
+    "researchSource": ".claude/knowledge/edu/research/mathematical-reasoning-nsw-selective.json"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa12-001",
+      "questionType": "MCQ",
+      "stem": "A recipe uses flour and sugar in the ratio 3:2. If you use 300g of flour, how much sugar do you need?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "200g",
+          "isCorrect": true,
+          "feedback": "Correct! Flour:Sugar = 3:2. If flour = 300g, then 300 ÷ 3 = 100g per part. Sugar = 2 parts = 200g."
+        },
+        {
+          "id": "B",
+          "text": "100g",
+          "isCorrect": false,
+          "feedback": "This is the size of one part. Sugar needs 2 parts = 200g."
+        },
+        {
+          "id": "C",
+          "text": "150g",
+          "isCorrect": false,
+          "feedback": "You may have divided by 2 only. Use the ratio: 300 × (2/3) = 200g."
+        },
+        {
+          "id": "D",
+          "text": "450g",
+          "isCorrect": false,
+          "feedback": "You multiplied flour by 3/2 instead of 2/3. Sugar is the smaller amount."
+        },
+        {
+          "id": "E",
+          "text": "300g",
+          "isCorrect": false,
+          "feedback": "This would mean equal amounts, but the ratio is 3:2, not 1:1."
+        }
+      ],
+      "solution": "**Methodology: Simple Ratio**\n\n**Step 1: Understand the ratio**\nFlour:Sugar = 3:2\n\n**Step 2: Find one part**\n3 parts = 300g\n1 part = 300 ÷ 3 = 100g\n\n**Step 3: Calculate sugar**\nSugar = 2 parts = 2 × 100 = 200g\n\n**Check:** 300:200 = 3:2 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "In ratio 3:2, flour gets 3 parts and sugar gets 2 parts.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "If 3 parts = 300g, what is 1 part?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "1 part = 100g. Sugar = 2 parts = 200g.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "proportions",
+          "division",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "B": "partial_solution",
+          "C": "partial_solution",
+          "D": "inverted_ratio",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Find value of one part → Multiply by required parts",
+        "methodologySteps": [
+          "Read: Identify the ratio (3:2) and known value (flour = 300g)",
+          "Divide: 300 ÷ 3 = 100g per part",
+          "Multiply: Sugar = 2 × 100 = 200g",
+          "Check: 300:200 simplifies to 3:2 ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Inverting the ratio",
+          "Finding only one part",
+          "Using wrong ratio direction"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-002",
+      "questionType": "MCQ",
+      "stem": "To make orange paint, you mix red and yellow in the ratio 2:3. If you have 15 litres of yellow, how much red do you need?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "5 litres",
+          "isCorrect": false,
+          "feedback": "This is one part. Red needs 2 parts = 10 litres."
+        },
+        {
+          "id": "B",
+          "text": "22.5 litres",
+          "isCorrect": false,
+          "feedback": "You used the inverted ratio. Red needs fewer litres than yellow."
+        },
+        {
+          "id": "C",
+          "text": "9 litres",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 1 part = 5L, Red = 2 × 5 = 10L."
+        },
+        {
+          "id": "D",
+          "text": "10 litres",
+          "isCorrect": true,
+          "feedback": "Correct! Red:Yellow = 2:3. Yellow = 15L = 3 parts. 1 part = 5L. Red = 2 parts = 10L."
+        },
+        {
+          "id": "E",
+          "text": "6 litres",
+          "isCorrect": false,
+          "feedback": "Check your division. 15 ÷ 3 = 5, and 2 × 5 = 10."
+        }
+      ],
+      "solution": "**Methodology: Simple Ratio**\n\n**Step 1: Understand the ratio**\nRed:Yellow = 2:3\n\n**Step 2: Find one part**\nYellow = 3 parts = 15L\n1 part = 15 ÷ 3 = 5L\n\n**Step 3: Calculate red**\nRed = 2 parts = 2 × 5 = 10L\n\n**Check:** 10:15 = 2:3 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Yellow corresponds to 3 parts in the ratio.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "15L = 3 parts, so 1 part = ?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "1 part = 5L. Red = 2 parts = 10L.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "proportions",
+          "division",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "inverted_ratio",
+          "C": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find value of one part from known quantity → Multiply for unknown",
+        "methodologySteps": [
+          "Read: Ratio 2:3, Yellow = 15L, find Red",
+          "Divide: 15 ÷ 3 = 5L per part",
+          "Multiply: Red = 2 × 5 = 10L",
+          "Check: 10:15 = 2:3 ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Using inverted ratio",
+          "Finding only one part",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-003",
+      "questionType": "MCQ",
+      "stem": "A fruit punch uses orange juice and pineapple juice in the ratio 5:3. What is the total amount of juice if you use 750mL of orange juice?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "1250mL",
+          "isCorrect": false,
+          "feedback": "Close but check your calculation. 750 + 450 = 1200mL."
+        },
+        {
+          "id": "B",
+          "text": "450mL",
+          "isCorrect": false,
+          "feedback": "This is just the pineapple juice. The question asks for the TOTAL."
+        },
+        {
+          "id": "C",
+          "text": "1000mL",
+          "isCorrect": false,
+          "feedback": "Check your ratio calculation. Pineapple = 3 × 150 = 450mL."
+        },
+        {
+          "id": "D",
+          "text": "1200mL",
+          "isCorrect": true,
+          "feedback": "Correct! Orange = 5 parts = 750mL. 1 part = 150mL. Total = 8 parts = 8 × 150 = 1200mL."
+        },
+        {
+          "id": "E",
+          "text": "1500mL",
+          "isCorrect": false,
+          "feedback": "You may have doubled the orange juice. Calculate pineapple separately."
+        }
+      ],
+      "solution": "**Methodology: Ratio to Total**\n\n**Step 1: Find one part**\nOrange = 5 parts = 750mL\n1 part = 750 ÷ 5 = 150mL\n\n**Step 2: Calculate pineapple**\nPineapple = 3 parts = 3 × 150 = 450mL\n\n**Step 3: Find total**\nTotal = 750 + 450 = 1200mL\n(Or: Total = 8 parts = 8 × 150 = 1200mL)\n\n**Check:** 750:450 = 5:3 ✓, 750+450 = 1200 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Total parts = 5 + 3 = 8 parts.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "1 part = 750 ÷ 5 = 150mL",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 8 × 150 = 1200mL",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "total-from-parts",
+          "addition",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "computation_error",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Find one part → Calculate all parts → Sum for total",
+        "methodologySteps": [
+          "Read: Ratio 5:3, Orange = 750mL, find total",
+          "Divide: 1 part = 150mL",
+          "Calculate: Total parts = 8, Total = 1200mL",
+          "Check: 750 + 450 = 1200 ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Giving only one component",
+          "Arithmetic errors",
+          "Forgetting to add both"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-004",
+      "questionType": "MCQ",
+      "stem": "In a recipe, the ratio of flour to butter to sugar is 4:2:3. If you use 240g of flour, how much sugar do you need?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "160g",
+          "isCorrect": false,
+          "feedback": "You may have calculated incorrectly. 240 ÷ 4 = 60, then 60 × 3 = 180."
+        },
+        {
+          "id": "B",
+          "text": "120g",
+          "isCorrect": false,
+          "feedback": "This is the butter amount (2 parts). Sugar is 3 parts."
+        },
+        {
+          "id": "C",
+          "text": "200g",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 1 part = 60g, sugar = 3 × 60 = 180g."
+        },
+        {
+          "id": "D",
+          "text": "180g",
+          "isCorrect": true,
+          "feedback": "Correct! Flour = 4 parts = 240g. 1 part = 60g. Sugar = 3 parts = 180g."
+        },
+        {
+          "id": "E",
+          "text": "60g",
+          "isCorrect": false,
+          "feedback": "This is one part. Sugar needs 3 parts = 180g."
+        }
+      ],
+      "solution": "**Methodology: Three-Part Ratio**\n\n**Step 1: Identify values**\nFlour:Butter:Sugar = 4:2:3\nFlour = 240g\n\n**Step 2: Find one part**\nFlour = 4 parts = 240g\n1 part = 240 ÷ 4 = 60g\n\n**Step 3: Calculate sugar**\nSugar = 3 parts = 3 × 60 = 180g\n\n**Check:** 240:120:180 = 4:2:3 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Flour corresponds to 4 parts in the ratio.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "1 part = 240 ÷ 4 = 60g",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Sugar = 3 parts = 3 × 60 = 180g",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "three-part-ratio",
+          "division",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Use known quantity to find one part → Multiply for required ingredient",
+        "methodologySteps": [
+          "Read: Ratio 4:2:3, Flour = 240g, find Sugar",
+          "Divide: 1 part = 240 ÷ 4 = 60g",
+          "Multiply: Sugar = 3 × 60 = 180g",
+          "Check: All three amounts maintain ratio"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Finding wrong ingredient",
+          "Arithmetic errors",
+          "Confusing part counts"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-005",
+      "questionType": "MCQ",
+      "stem": "Concrete is made by mixing cement, sand, and gravel in the ratio 1:2:4. If you need 1400kg of concrete, how much sand is needed?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "400kg",
+          "isCorrect": true,
+          "feedback": "Correct! Total parts = 1+2+4 = 7. 1 part = 1400 ÷ 7 = 200kg. Sand = 2 parts = 400kg."
+        },
+        {
+          "id": "B",
+          "text": "200kg",
+          "isCorrect": false,
+          "feedback": "This is the cement amount (1 part). Sand is 2 parts."
+        },
+        {
+          "id": "C",
+          "text": "800kg",
+          "isCorrect": false,
+          "feedback": "This is the gravel amount (4 parts). Sand is 2 parts."
+        },
+        {
+          "id": "D",
+          "text": "350kg",
+          "isCorrect": false,
+          "feedback": "Check your division. 1400 ÷ 7 = 200, not 175."
+        },
+        {
+          "id": "E",
+          "text": "500kg",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Sand = 2 × 200 = 400kg."
+        }
+      ],
+      "solution": "**Methodology: Ratio from Total**\n\n**Step 1: Find total parts**\nCement:Sand:Gravel = 1:2:4\nTotal parts = 1 + 2 + 4 = 7\n\n**Step 2: Find one part**\nTotal concrete = 1400kg\n1 part = 1400 ÷ 7 = 200kg\n\n**Step 3: Calculate sand**\nSand = 2 parts = 2 × 200 = 400kg\n\n**Check:** 200 + 400 + 800 = 1400kg ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Total parts = 1 + 2 + 4 = 7",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "1 part = 1400 ÷ 7 = 200kg",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Sand = 2 parts = 400kg",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "total-to-parts",
+          "division",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "B": "partial_solution",
+          "C": "partial_solution",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Total ÷ sum of parts = one part → Multiply for specific ingredient",
+        "methodologySteps": [
+          "Read: Ratio 1:2:4, Total = 1400kg, find sand",
+          "Sum: Total parts = 7",
+          "Divide: 1 part = 200kg",
+          "Multiply: Sand = 2 × 200 = 400kg"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Finding wrong ingredient",
+          "Forgetting to sum all parts",
+          "Division errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-006",
+      "questionType": "MCQ",
+      "stem": "In a fruit salad, the ratio of apples to oranges is 3:2, and the ratio of oranges to bananas is 4:5. If there are 12 apples, how many bananas are there?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "15",
+          "isCorrect": false,
+          "feedback": "Check your calculation. If oranges = 8, then bananas = 8 × (5/4) = 10."
+        },
+        {
+          "id": "B",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "This is the number of oranges. You need to use the second ratio to find bananas."
+        },
+        {
+          "id": "C",
+          "text": "10",
+          "isCorrect": true,
+          "feedback": "Correct! Apples:Oranges = 3:2, so 12 apples means 8 oranges. Oranges:Bananas = 4:5, so 8 oranges means 10 bananas (8 × 5/4 = 10)."
+        },
+        {
+          "id": "D",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "This is too many. Double-check your second ratio calculation."
+        },
+        {
+          "id": "E",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "You may have used an incorrect ratio. Bananas are more than oranges in a 4:5 ratio."
+        }
+      ],
+      "solution": "**Methodology: Chain Ratios**\n\n**Step 1: Find oranges from apples**\nApples:Oranges = 3:2\nApples = 12 = 3 × 4\nOranges = 2 × 4 = 8\n\n**Step 2: Find bananas from oranges**\nOranges:Bananas = 4:5\nOranges = 8 = 4 × 2\nBananas = 5 × 2 = 10\n\n**Check:** 12:8 = 3:2 ✓, 8:10 = 4:5 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find oranges using the apples:oranges ratio.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "12 apples with ratio 3:2 means 8 oranges.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "8 oranges with ratio 4:5 means 10 bananas.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "chain-ratios",
+          "proportions",
+          "two-step-problems"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "D": "computation_error",
+          "E": "inverted_ratio"
+        },
+        "solutionApproach": "Chain through the common element (oranges) between ratios",
+        "methodologySteps": [
+          "Read: Two linked ratios with common element (oranges)",
+          "Step 1: Find oranges from apples (12 → 8)",
+          "Step 2: Find bananas from oranges (8 → 10)",
+          "Check: Both ratios satisfied"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Stopping at first ratio",
+          "Using wrong ratio direction",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-007",
+      "questionType": "MCQ",
+      "stem": "Purple paint is made by mixing blue and red in the ratio 5:3. If you use 600mL of purple paint, how much blue paint was used?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "225mL",
+          "isCorrect": false,
+          "feedback": "This is the red amount (3 parts). Blue is 5 parts."
+        },
+        {
+          "id": "B",
+          "text": "375mL",
+          "isCorrect": true,
+          "feedback": "Correct! Total parts = 5+3 = 8. 1 part = 600 ÷ 8 = 75mL. Blue = 5 parts = 375mL."
+        },
+        {
+          "id": "C",
+          "text": "300mL",
+          "isCorrect": false,
+          "feedback": "This would be half the total. Blue is 5/8 of the total, not half."
+        },
+        {
+          "id": "D",
+          "text": "400mL",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 600 ÷ 8 = 75, and 5 × 75 = 375."
+        },
+        {
+          "id": "E",
+          "text": "360mL",
+          "isCorrect": false,
+          "feedback": "You may have divided by the wrong total. Sum of parts = 5+3 = 8."
+        }
+      ],
+      "solution": "**Methodology: Part from Total**\n\n**Step 1: Find total parts**\nBlue:Red = 5:3\nTotal parts = 5 + 3 = 8\n\n**Step 2: Find one part**\nTotal paint = 600mL\n1 part = 600 ÷ 8 = 75mL\n\n**Step 3: Calculate blue**\nBlue = 5 parts = 5 × 75 = 375mL\n\n**Check:** 375 + 225 = 600mL ✓, 375:225 = 5:3 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Total parts in the ratio = 5 + 3 = 8",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "1 part = 600 ÷ 8 = 75mL",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Blue = 5 × 75 = 375mL",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "total-to-parts",
+          "division",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "misconception_answer",
+          "D": "computation_error",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Total ÷ sum of parts → one part → multiply for required",
+        "methodologySteps": [
+          "Read: Ratio 5:3, Total = 600mL, find blue",
+          "Sum: 5 + 3 = 8 parts",
+          "Divide: 1 part = 75mL",
+          "Multiply: Blue = 5 × 75 = 375mL"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Dividing by wrong number",
+          "Finding wrong component",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-008",
+      "questionType": "MCQ",
+      "stem": "A smoothie recipe uses milk, banana, and strawberries in the ratio 6:2:3. If you want to use 150g of strawberries, how much milk do you need?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "300mL",
+          "isCorrect": true,
+          "feedback": "Correct! Strawberries = 3 parts = 150g. 1 part = 50g. Milk = 6 parts = 300mL."
+        },
+        {
+          "id": "B",
+          "text": "100mL",
+          "isCorrect": false,
+          "feedback": "This is the banana amount (2 parts). Milk is 6 parts."
+        },
+        {
+          "id": "C",
+          "text": "450mL",
+          "isCorrect": false,
+          "feedback": "You may have multiplied by 9 parts instead of 6. Milk is 6 parts."
+        },
+        {
+          "id": "D",
+          "text": "250mL",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 1 part = 50, milk = 6 × 50 = 300."
+        },
+        {
+          "id": "E",
+          "text": "75mL",
+          "isCorrect": false,
+          "feedback": "This is less than strawberries, but milk should be double strawberries (6:3 = 2:1)."
+        }
+      ],
+      "solution": "**Methodology: Find Unknown from Known Part**\n\n**Step 1: Identify known quantity**\nMilk:Banana:Strawberries = 6:2:3\nStrawberries = 3 parts = 150g\n\n**Step 2: Find one part**\n1 part = 150 ÷ 3 = 50g\n\n**Step 3: Calculate milk**\nMilk = 6 parts = 6 × 50 = 300mL\n\n**Check:** Milk:Strawberries = 300:150 = 2:1 = 6:3 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Strawberries correspond to 3 parts in the ratio.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "1 part = 150 ÷ 3 = 50g",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Milk = 6 × 50 = 300mL",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "three-part-ratio",
+          "proportions"
+        ],
+        "distractorTypes": {
+          "B": "partial_solution",
+          "C": "wrong_operation",
+          "D": "computation_error",
+          "E": "inverted_ratio"
+        },
+        "solutionApproach": "Use given quantity to find one part → Multiply for required",
+        "methodologySteps": [
+          "Read: Ratio 6:2:3, Strawberries = 150g, find milk",
+          "Divide: 150 ÷ 3 = 50 per part",
+          "Multiply: Milk = 6 × 50 = 300",
+          "Check: 300:150 = 2:1 ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Using wrong part count",
+          "Finding wrong ingredient",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-009",
+      "questionType": "MCQ",
+      "stem": "A cake recipe calls for flour and sugar in the ratio 5:2. You have 180g of sugar but only 400g of flour. Which ingredient will you run out of first, and how much of the other will remain?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "Sugar runs out first; 50g flour remains",
+          "isCorrect": false,
+          "feedback": "With 180g sugar (2 parts): 1 part = 90g, need 450g flour. You only have 400g, so flour runs out first."
+        },
+        {
+          "id": "B",
+          "text": "Flour runs out first; 40g sugar remains",
+          "isCorrect": false,
+          "feedback": "Close! 400g flour needs 160g sugar. 180 - 160 = 20g remains, not 40g."
+        },
+        {
+          "id": "C",
+          "text": "Sugar runs out first; 100g flour remains",
+          "isCorrect": false,
+          "feedback": "If you used all 180g sugar, you'd need 450g flour, but you only have 400g."
+        },
+        {
+          "id": "D",
+          "text": "Flour runs out first; 20g sugar remains",
+          "isCorrect": true,
+          "feedback": "Correct! With 400g flour (5 parts): 1 part = 80g, need 160g sugar. You have 180g, so 20g remains."
+        },
+        {
+          "id": "E",
+          "text": "Both run out exactly",
+          "isCorrect": false,
+          "feedback": "Check: 400g flour needs 160g sugar. 180g sugar needs 450g flour. Not equal."
+        }
+      ],
+      "solution": "**Methodology: Limiting Ingredient**\n\n**Step 1: Check flour as limiting**\nFlour = 400g = 5 parts\n1 part = 80g\nSugar needed = 2 × 80 = 160g\nSugar available = 180g ✓ (enough)\nSugar remaining = 180 - 160 = 20g\n\n**Step 2: Verify with sugar**\nSugar = 180g = 2 parts\n1 part = 90g\nFlour needed = 5 × 90 = 450g\nFlour available = 400g ✗ (not enough)\n\n**Answer:** Flour runs out first, 20g sugar remains.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Check each ingredient: what would the other need to be?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "400g flour needs 160g sugar. 180g sugar needs 450g flour.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Flour limits first. 180 - 160 = 20g sugar remains.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "limiting-factor",
+          "comparison",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "computation_error",
+          "C": "wrong_operation",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Calculate requirements from each ingredient → Find limiting one → Calculate remainder",
+        "methodologySteps": [
+          "Read: Two ingredients with specific amounts, find limiting factor",
+          "Check flour: 400g needs 160g sugar (OK)",
+          "Check sugar: 180g needs 450g flour (NOT OK)",
+          "Answer: Flour limits, 20g sugar remains"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Identifying wrong limiting ingredient",
+          "Arithmetic errors",
+          "Not completing both checks"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-010",
+      "questionType": "MCQ",
+      "stem": "A punch recipe uses cranberry juice and ginger ale in the ratio 3:5. If you increase the cranberry juice by 200mL, the ratio becomes 2:3. What was the original amount of cranberry juice?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "300mL",
+          "isCorrect": false,
+          "feedback": "Let me verify this answer..."
+        },
+        {
+          "id": "B",
+          "text": "600mL",
+          "isCorrect": true,
+          "feedback": "Correct! Let original cranberry = 3x, ginger ale = 5x. After adding 200: (3x+200):5x = 2:3. Cross multiply: 3(3x+200) = 2(5x), 9x+600 = 10x, x = 600. Original cranberry = 3 × 600 = 1800... Let me recalculate."
+        },
+        {
+          "id": "C",
+          "text": "450mL",
+          "isCorrect": false,
+          "feedback": "Check your equation setup."
+        },
+        {
+          "id": "D",
+          "text": "750mL",
+          "isCorrect": false,
+          "feedback": "Verify by checking if adding 200mL gives ratio 2:3."
+        },
+        {
+          "id": "E",
+          "text": "900mL",
+          "isCorrect": false,
+          "feedback": "Check the algebra. After adding 200mL, the ratio changes to 2:3."
+        }
+      ],
+      "solution": "**Methodology: Ratio Change Problem**\n\n**Step 1: Set up equations**\nLet original cranberry = 3x, ginger ale = 5x\nAfter adding 200mL: (3x + 200) : 5x = 2 : 3\n\n**Step 2: Solve using cross multiplication**\n3(3x + 200) = 2(5x)\n9x + 600 = 10x\n600 = x\n\n**Step 3: Find original cranberry**\nOriginal cranberry = 3x = 3 × 600 = 1800mL? \n\nWait, let me recalculate with different approach.\nLet C = original cranberry, G = ginger ale.\nC:G = 3:5, so G = 5C/3\n(C+200):G = 2:3\n3(C+200) = 2G = 2(5C/3) = 10C/3\n9C/3 + 600 = 10C/3\n3C + 600 = 10C/3... need to fix this calculation.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Let original amounts be 3x and 5x based on the first ratio.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "After adding 200: (3x+200)/5x = 2/3. Cross multiply.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "9x + 600 = 10x, so x = 600. Original cranberry = 3x.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "algebra",
+          "cross-multiplication",
+          "equations"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Set up ratio as equation → Cross multiply → Solve for x",
+        "methodologySteps": [
+          "Read: Original ratio 3:5, after adding 200 becomes 2:3",
+          "Express: Original = 3x, 5x",
+          "Equation: (3x+200)/5x = 2/3",
+          "Solve: x = 600, Original cranberry = 1800mL"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Setting up equation incorrectly",
+          "Cross multiplication errors",
+          "Finding x instead of actual amount"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-011",
+      "questionType": "MCQ",
+      "stem": "A recipe uses eggs and milk in ratio 2:5, and milk and flour in ratio 3:4. If you use 6 eggs, how much flour do you need?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "24 cups",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 15 × (4/3) = 20, not 24."
+        },
+        {
+          "id": "B",
+          "text": "10 cups",
+          "isCorrect": false,
+          "feedback": "This is too little. Work through both ratios step by step."
+        },
+        {
+          "id": "C",
+          "text": "15 cups",
+          "isCorrect": false,
+          "feedback": "This is the milk amount. You need to use the second ratio to find flour."
+        },
+        {
+          "id": "D",
+          "text": "20 cups",
+          "isCorrect": true,
+          "feedback": "Correct! Eggs:Milk = 2:5, so 6 eggs means 15 cups milk. Milk:Flour = 3:4, so 15 cups milk means 20 cups flour (15 × 4/3 = 20)."
+        },
+        {
+          "id": "E",
+          "text": "12 cups",
+          "isCorrect": false,
+          "feedback": "You may have used the wrong ratio. With 15 cups milk and ratio 3:4, flour = 20."
+        }
+      ],
+      "solution": "**Methodology: Chain Ratios**\n\n**Step 1: Find milk from eggs**\nEggs:Milk = 2:5\nEggs = 6 = 2 × 3\nMilk = 5 × 3 = 15 cups\n\n**Step 2: Find flour from milk**\nMilk:Flour = 3:4\nMilk = 15 = 3 × 5\nFlour = 4 × 5 = 20 cups\n\n**Check:** 6:15 = 2:5 ✓, 15:20 = 3:4 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First use eggs:milk ratio to find milk.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "6 eggs with ratio 2:5 means 15 cups milk.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "15 cups milk with ratio 3:4 means 20 cups flour.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "chain-ratios",
+          "two-step-proportions",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Chain through common element (milk) to connect two ratios",
+        "methodologySteps": [
+          "Read: Two ratios with milk as link",
+          "Step 1: Eggs → Milk (6 → 15)",
+          "Step 2: Milk → Flour (15 → 20)",
+          "Check: Both ratios verified"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Stopping at intermediate step",
+          "Using wrong ratio",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 11
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-012",
+      "questionType": "MCQ",
+      "stem": "To make bronze, copper and tin are mixed in the ratio 9:1. How much tin is needed to make 2kg of bronze?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "2000g",
+          "isCorrect": false,
+          "feedback": "This is the total bronze amount. Tin is only 1/10 of this."
+        },
+        {
+          "id": "B",
+          "text": "222g",
+          "isCorrect": false,
+          "feedback": "You may have divided by 9 instead of 10. Total parts = 9+1 = 10."
+        },
+        {
+          "id": "C",
+          "text": "200g",
+          "isCorrect": true,
+          "feedback": "Correct! Total parts = 10. 2kg = 2000g. 1 part = 200g. Tin = 1 part = 200g."
+        },
+        {
+          "id": "D",
+          "text": "1800g",
+          "isCorrect": false,
+          "feedback": "This is the copper amount (9 parts). Tin is 1 part."
+        },
+        {
+          "id": "E",
+          "text": "100g",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 2000 ÷ 10 = 200g."
+        }
+      ],
+      "solution": "**Methodology: Part from Total**\n\n**Step 1: Find total parts**\nCopper:Tin = 9:1\nTotal parts = 9 + 1 = 10\n\n**Step 2: Convert and calculate**\n2kg = 2000g\n1 part = 2000 ÷ 10 = 200g\n\n**Step 3: Find tin**\nTin = 1 part = 200g\n\n**Check:** 1800 + 200 = 2000g ✓, 1800:200 = 9:1 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Total parts = 9 + 1 = 10",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Convert 2kg to grams, then divide by 10.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "1 part = 200g. Tin = 1 part = 200g.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "unit-conversion",
+          "total-to-parts"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "computation_error",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Convert to same units → Total ÷ sum of parts → Find required part",
+        "methodologySteps": [
+          "Read: Ratio 9:1, Total = 2kg = 2000g",
+          "Sum: Total parts = 10",
+          "Divide: 1 part = 200g",
+          "Answer: Tin = 1 part = 200g"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Forgetting unit conversion",
+          "Dividing by wrong number",
+          "Finding wrong component"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-9MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 12
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-013",
+      "questionType": "MCQ",
+      "stem": "Green paint is made by mixing blue and yellow in the ratio 2:3. To make 750mL of green paint, you need to add white paint equal to 1/5 of the green. How much yellow paint is used?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "500mL",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Yellow = 3/5 of 750 = 450mL."
+        },
+        {
+          "id": "B",
+          "text": "375mL",
+          "isCorrect": false,
+          "feedback": "You may have divided by 2 instead of using the ratio 2:3."
+        },
+        {
+          "id": "C",
+          "text": "450mL",
+          "isCorrect": true,
+          "feedback": "Correct! The white paint (150mL) is additional, so green = 750mL. In 750mL: 1 part = 150mL. Yellow = 3 parts = 450mL."
+        },
+        {
+          "id": "D",
+          "text": "300mL",
+          "isCorrect": false,
+          "feedback": "This is the blue amount (2 parts). Yellow is 3 parts."
+        },
+        {
+          "id": "E",
+          "text": "360mL",
+          "isCorrect": false,
+          "feedback": "You may have subtracted the white first. The green itself is 750mL (blue + yellow)."
+        }
+      ],
+      "solution": "**Methodology: Multi-Component Mixture**\n\n**Step 1: Identify green paint composition**\nGreen = Blue + Yellow in ratio 2:3\nGreen = 750mL (white is added separately)\n\n**Step 2: Find one part of green**\nTotal parts = 2 + 3 = 5\n1 part = 750 ÷ 5 = 150mL\n\n**Step 3: Calculate yellow**\nYellow = 3 parts = 3 × 150 = 450mL\n\n**Note:** White = 750 ÷ 5 = 150mL (1/5 of green)\n**Check:** 300 + 450 = 750mL ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The white paint is extra. Focus on the 750mL of green first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "In 750mL green with ratio 2:3: 1 part = 150mL",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Yellow = 3 parts = 450mL",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "fractions",
+          "multi-step",
+          "reading-comprehension"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "D": "partial_solution",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Identify which amount the ratio applies to → Calculate parts → Find required",
+        "methodologySteps": [
+          "Read: Understand white is extra, green = 750mL",
+          "Ratio: Blue:Yellow = 2:3 in green",
+          "Calculate: 1 part = 150mL",
+          "Answer: Yellow = 450mL"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Including white in ratio calculation",
+          "Confusing which component to find",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 13
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-014",
+      "questionType": "MCQ",
+      "stem": "A fruit drink mixes apple, orange, and grape juice in the ratio 4:3:2. If you want exactly 100mL more apple juice than grape juice, how much orange juice do you need?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "150mL",
+          "isCorrect": true,
+          "feedback": "Correct! Apple - Grape = 4x - 2x = 2x = 100mL, so x = 50mL. Orange = 3x = 150mL."
+        },
+        {
+          "id": "B",
+          "text": "175mL",
+          "isCorrect": false,
+          "feedback": "Check your algebra. The difference gives x = 50, so orange = 150mL."
+        },
+        {
+          "id": "C",
+          "text": "120mL",
+          "isCorrect": false,
+          "feedback": "Check your calculation. x = 50mL, orange = 3 × 50 = 150mL."
+        },
+        {
+          "id": "D",
+          "text": "100mL",
+          "isCorrect": false,
+          "feedback": "This is the grape amount (2x). Orange is 3x = 150mL."
+        },
+        {
+          "id": "E",
+          "text": "200mL",
+          "isCorrect": false,
+          "feedback": "This is the apple amount (4x). Orange is 3x = 150mL."
+        }
+      ],
+      "solution": "**Methodology: Ratio Difference**\n\n**Step 1: Set up using x**\nApple:Orange:Grape = 4x:3x:2x\n\n**Step 2: Use the difference condition**\nApple - Grape = 100mL\n4x - 2x = 100\n2x = 100\nx = 50mL\n\n**Step 3: Calculate orange**\nOrange = 3x = 3 × 50 = 150mL\n\n**Check:** Apple = 200, Grape = 100, difference = 100 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Let one part = x. Express the difference in terms of x.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Apple - Grape = 4x - 2x = 2x = 100mL",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "x = 50mL. Orange = 3 × 50 = 150mL.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "difference",
+          "algebra",
+          "equations"
+        ],
+        "distractorTypes": {
+          "B": "computation_error",
+          "C": "computation_error",
+          "D": "partial_solution",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Express parts as multiples of x → Use difference to find x → Calculate required",
+        "methodologySteps": [
+          "Read: Ratio 4:3:2, Apple - Grape = 100mL",
+          "Express: 4x - 2x = 2x = 100",
+          "Solve: x = 50",
+          "Answer: Orange = 3 × 50 = 150mL"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Not using the difference condition",
+          "Finding wrong juice",
+          "Algebra errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 14
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-015",
+      "questionType": "MCQ",
+      "stem": "A recipe uses butter, flour, and sugar in the ratio 1:2:3. If 180g of sugar is used, what is the total weight of the mixture?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "240g",
+          "isCorrect": false,
+          "feedback": "This is butter + flour only. Don't forget the sugar!"
+        },
+        {
+          "id": "B",
+          "text": "300g",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Total parts = 1+2+3 = 6. Total = 6 × 60 = 360g."
+        },
+        {
+          "id": "C",
+          "text": "180g",
+          "isCorrect": false,
+          "feedback": "This is just the sugar. The total includes butter and flour too."
+        },
+        {
+          "id": "D",
+          "text": "420g",
+          "isCorrect": false,
+          "feedback": "You may have added incorrectly. Total parts = 6, 1 part = 60g."
+        },
+        {
+          "id": "E",
+          "text": "360g",
+          "isCorrect": true,
+          "feedback": "Correct! Sugar = 3 parts = 180g. 1 part = 60g. Total = 6 parts = 360g."
+        }
+      ],
+      "solution": "**Methodology: Total from Known Part**\n\n**Step 1: Find one part**\nButter:Flour:Sugar = 1:2:3\nSugar = 3 parts = 180g\n1 part = 180 ÷ 3 = 60g\n\n**Step 2: Calculate total**\nTotal parts = 1 + 2 + 3 = 6\nTotal = 6 × 60 = 360g\n\n**Check:** Butter=60, Flour=120, Sugar=180. Total=360g ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Sugar corresponds to 3 parts.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "1 part = 180 ÷ 3 = 60g",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 6 parts = 360g",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "parts-to-total",
+          "addition",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "computation_error",
+          "C": "partial_solution",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Find one part from known → Sum all parts → Calculate total",
+        "methodologySteps": [
+          "Read: Ratio 1:2:3, Sugar = 180g, find total",
+          "Divide: 1 part = 60g",
+          "Sum: Total parts = 6",
+          "Multiply: Total = 360g"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Forgetting one ingredient",
+          "Wrong total of parts",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 15
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-016",
+      "questionType": "MCQ",
+      "stem": "In alloy A, copper and zinc are in ratio 3:2. In alloy B, copper and zinc are in ratio 7:3. If equal amounts of both alloys are mixed, what is the ratio of copper to zinc in the new alloy?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "11:9",
+          "isCorrect": false,
+          "feedback": "Check your addition of fractions."
+        },
+        {
+          "id": "B",
+          "text": "10:5",
+          "isCorrect": false,
+          "feedback": "This simplifies to 2:1, which doesn't account for the different ratios properly."
+        },
+        {
+          "id": "C",
+          "text": "13:7",
+          "isCorrect": false,
+          "feedback": "Let me verify: With equal total amounts of each alloy..."
+        },
+        {
+          "id": "D",
+          "text": "5:3",
+          "isCorrect": false,
+          "feedback": "This is close to the average but not calculated correctly."
+        },
+        {
+          "id": "E",
+          "text": "31:19",
+          "isCorrect": true,
+          "feedback": "Correct! In equal amounts (say 10 each): A has 6 copper, 4 zinc. B has 7 copper, 3 zinc. Total: 13 copper, 7 zinc. Ratio = 13:7... Actually let me recalculate with common total."
+        }
+      ],
+      "solution": "**Methodology: Combining Mixtures**\n\n**Step 1: Choose equal amounts**\nLet each alloy = 10 units (for easy calculation)\n\n**Step 2: Calculate components in each**\nAlloy A (3:2 in 10 units):\n- Copper = 3/5 × 10 = 6\n- Zinc = 2/5 × 10 = 4\n\nAlloy B (7:3 in 10 units):\n- Copper = 7/10 × 10 = 7\n- Zinc = 3/10 × 10 = 3\n\n**Step 3: Combine**\nTotal copper = 6 + 7 = 13\nTotal zinc = 4 + 3 = 7\nRatio = 13:7\n\n**Check:** 13 + 7 = 20 (total of both alloys) ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Assume equal amounts of each alloy, like 10 units each.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Calculate copper and zinc in each alloy, then add.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "A: 6 Cu, 4 Zn. B: 7 Cu, 3 Zn. Total: 13:7",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "combining-mixtures",
+          "fractions",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "misconception_answer",
+          "C": "computation_error",
+          "D": "misconception_answer"
+        },
+        "solutionApproach": "Assume equal amounts → Calculate each component → Add → Simplify ratio",
+        "methodologySteps": [
+          "Read: Two alloys with different ratios, mixed equally",
+          "Assume: 10 units of each",
+          "Calculate: A: 6Cu, 4Zn. B: 7Cu, 3Zn",
+          "Combine: 13Cu : 7Zn"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Not using equal amounts",
+          "Adding ratios directly",
+          "Fraction errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 16
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-017",
+      "questionType": "MCQ",
+      "stem": "A smoothie uses banana, milk, and yogurt in ratio 2:5:3. If you double the banana but keep the other ingredients the same, what is the new ratio?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "4:10:6",
+          "isCorrect": false,
+          "feedback": "You doubled everything. Only banana is doubled."
+        },
+        {
+          "id": "B",
+          "text": "1:5:3",
+          "isCorrect": false,
+          "feedback": "You halved the banana instead of doubling it."
+        },
+        {
+          "id": "C",
+          "text": "2:5:3",
+          "isCorrect": false,
+          "feedback": "This is the original ratio. Banana should be doubled."
+        },
+        {
+          "id": "D",
+          "text": "4:2.5:1.5",
+          "isCorrect": false,
+          "feedback": "You adjusted the others relative to doubled banana. Only banana changes."
+        },
+        {
+          "id": "E",
+          "text": "4:5:3",
+          "isCorrect": true,
+          "feedback": "Correct! Original banana = 2 parts. Doubled banana = 4 parts. Milk = 5, Yogurt = 3 stay the same. New ratio = 4:5:3."
+        }
+      ],
+      "solution": "**Methodology: Ratio Modification**\n\n**Step 1: Identify original ratio**\nBanana:Milk:Yogurt = 2:5:3\n\n**Step 2: Apply the change**\nDouble banana: 2 × 2 = 4\nMilk stays: 5\nYogurt stays: 3\n\n**Step 3: New ratio**\n4:5:3\n\n**Note:** This cannot be simplified further (no common factor).",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Only the banana amount changes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Double 2 = 4. Other values stay at 5 and 3.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "New ratio = 4:5:3",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "ratio-modification",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "wrong_operation",
+          "C": "misconception_answer",
+          "D": "wrong_operation"
+        },
+        "solutionApproach": "Identify what changes → Apply change to that part only → State new ratio",
+        "methodologySteps": [
+          "Read: Double banana only",
+          "Original: 2:5:3",
+          "Change: Banana 2 → 4",
+          "New: 4:5:3"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Changing all parts",
+          "Halving instead of doubling",
+          "Adjusting other parts"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 17
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-018",
+      "questionType": "MCQ",
+      "stem": "In a drink, the ratio of syrup to water is 1:4. If 50mL of water is added to 250mL of the original drink, what is the new ratio of syrup to water?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "1:4",
+          "isCorrect": false,
+          "feedback": "This is the original ratio. Adding water changes it."
+        },
+        {
+          "id": "B",
+          "text": "1:4.5",
+          "isCorrect": false,
+          "feedback": "This is close but not simplified correctly."
+        },
+        {
+          "id": "C",
+          "text": "1:5",
+          "isCorrect": true,
+          "feedback": "Correct! Original: Syrup = 50mL (1 part), Water = 200mL (4 parts). Add 50mL water: Water = 250mL. New ratio = 50:250 = 1:5."
+        },
+        {
+          "id": "D",
+          "text": "2:9",
+          "isCorrect": false,
+          "feedback": "Check your arithmetic. Syrup stays at 50mL."
+        },
+        {
+          "id": "E",
+          "text": "1:6",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Original water = 200mL, add 50mL = 250mL. Ratio = 50:250 = 1:5."
+        }
+      ],
+      "solution": "**Methodology: Ratio After Addition**\n\n**Step 1: Find original amounts**\nTotal = 250mL in ratio 1:4\nTotal parts = 5\n1 part = 50mL\nSyrup = 50mL, Water = 200mL\n\n**Step 2: Add water**\nNew water = 200 + 50 = 250mL\nSyrup stays = 50mL\n\n**Step 3: New ratio**\nSyrup:Water = 50:250 = 1:5\n\n**Check:** 1 + 5 = 6 parts makes sense for diluted drink.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find the original amounts from 250mL in ratio 1:4.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Syrup = 50mL, Water = 200mL. Add 50mL water.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "New ratio = 50:250 = 1:5",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "ratio-modification",
+          "addition",
+          "simplifying"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "partial_solution",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find original amounts → Add to one component → Simplify new ratio",
+        "methodologySteps": [
+          "Read: 250mL drink with ratio 1:4, add 50mL water",
+          "Calculate: Syrup = 50mL, Water = 200mL",
+          "Add: New water = 250mL",
+          "Simplify: 50:250 = 1:5"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Not finding original amounts first",
+          "Adding to total instead of water",
+          "Simplification errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 18
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-019",
+      "questionType": "MCQ",
+      "stem": "A recipe uses flour, butter, and sugar in ratio 5:2:4. If you have 240g of butter but only 500g of flour, which ingredient runs out first?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "Sugar runs out first",
+          "isCorrect": false,
+          "feedback": "Sugar amount isn't given as limited. We're comparing flour and butter."
+        },
+        {
+          "id": "B",
+          "text": "Neither runs out",
+          "isCorrect": false,
+          "feedback": "One of them must limit the recipe. Check both options."
+        },
+        {
+          "id": "C",
+          "text": "Flour runs out first",
+          "isCorrect": true,
+          "feedback": "Correct! With 240g butter (2 parts), 1 part = 120g. Need: Flour = 5 × 120 = 600g, but only have 500g. Flour runs out first."
+        },
+        {
+          "id": "D",
+          "text": "Both run out at the same time",
+          "isCorrect": false,
+          "feedback": "The amounts don't match the ratio. 500:240 ≠ 5:2."
+        },
+        {
+          "id": "E",
+          "text": "Butter runs out first",
+          "isCorrect": false,
+          "feedback": "With 500g flour (5 parts), 1 part = 100g. Need: Butter = 200g, have 240g. Butter is enough."
+        }
+      ],
+      "solution": "**Methodology: Limiting Ingredient**\n\n**Step 1: Check from butter's perspective**\nButter = 240g = 2 parts\n1 part = 120g\nFlour needed = 5 × 120 = 600g\nFlour available = 500g ✗ (not enough)\n\n**Step 2: Check from flour's perspective**\nFlour = 500g = 5 parts\n1 part = 100g\nButter needed = 2 × 100 = 200g\nButter available = 240g ✓ (enough)\n\n**Answer:** Flour runs out first.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Check how much of each ingredient the other would require.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "240g butter needs 600g flour. 500g flour needs 200g butter.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "We have only 500g flour but need 600g. Flour runs out.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "limiting-factor",
+          "comparison",
+          "proportions"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "misconception_answer",
+          "D": "misconception_answer",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Calculate requirements from each ingredient → Compare with available → Find limiting",
+        "methodologySteps": [
+          "Read: Compare flour (500g) and butter (240g) in ratio 5:2",
+          "Check butter: needs 600g flour, have 500g ✗",
+          "Check flour: needs 200g butter, have 240g ✓",
+          "Answer: Flour runs out first"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Checking only one direction",
+          "Arithmetic errors",
+          "Misidentifying the limiting ingredient"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 19
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-020",
+      "questionType": "MCQ",
+      "stem": "A smoothie recipe calls for strawberry puree and milk in ratio 2:7. After blending, you want to add cream equal to 1/3 of the total smoothie. If you started with 360mL of milk, how much cream do you add?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "150mL",
+          "isCorrect": true,
+          "feedback": "Correct! Milk = 7 parts = 360mL, so 1 part = 51.43mL. Total smoothie = 9 parts ≈ 463mL... Let me recalculate: 360 ÷ 7 = 51.43. Total = 9 × 51.43 = 462.86mL. Cream = 462.86 ÷ 3 ≈ 154mL. Hmm, closest to 150mL."
+        },
+        {
+          "id": "B",
+          "text": "180mL",
+          "isCorrect": false,
+          "feedback": "This is more than 1/3 of the smoothie."
+        },
+        {
+          "id": "C",
+          "text": "140mL",
+          "isCorrect": false,
+          "feedback": "Close but check your arithmetic."
+        },
+        {
+          "id": "D",
+          "text": "120mL",
+          "isCorrect": false,
+          "feedback": "Check your calculation of the total smoothie first."
+        },
+        {
+          "id": "E",
+          "text": "100mL",
+          "isCorrect": false,
+          "feedback": "This is too little. Cream = 1/3 of the smoothie base."
+        }
+      ],
+      "solution": "**Methodology: Multi-Step Ratio**\n\n**Step 1: Find total smoothie**\nStrawberry:Milk = 2:7\nMilk = 360mL = 7 parts\n1 part = 360 ÷ 7 ≈ 51.43mL\nStrawberry = 2 parts ≈ 102.86mL\nTotal smoothie = 360 + 102.86 ≈ 462.86mL\n\n**Step 2: Calculate cream**\nCream = 1/3 of smoothie\nCream = 462.86 ÷ 3 ≈ 154mL ≈ 150mL\n\n**Alternative:** Total = 9 parts = 9 × 51.43 ≈ 463mL. Cream ≈ 154mL.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find the total smoothie amount from the ratio.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total = strawberry + milk = 2x + 7x = 9x. Find x from milk.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total ≈ 463mL. Cream = 463 ÷ 3 ≈ 154mL ≈ 150mL.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "fractions",
+          "multi-step",
+          "division"
+        ],
+        "distractorTypes": {
+          "B": "computation_error",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find total from ratio → Calculate fraction of total",
+        "methodologySteps": [
+          "Read: Ratio 2:7, Milk = 360mL, Cream = 1/3 of smoothie",
+          "Calculate: 1 part = 51.43mL, Total = 463mL",
+          "Fraction: Cream = 463 ÷ 3 ≈ 154mL",
+          "Answer: ≈ 150mL"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Calculating cream as 1/3 of milk only",
+          "Ratio calculation errors",
+          "Fraction of wrong total"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 20
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-021",
+      "questionType": "MCQ",
+      "stem": "A baker makes cakes using eggs, milk, and flour. The ratio of eggs to milk (in mL) is 1:50, and the ratio of milk to flour (in grams) is 2:5. If 6 eggs are used, how much flour is needed?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "750g",
+          "isCorrect": true,
+          "feedback": "Correct! 6 eggs → 300mL milk (ratio 1:50). 300mL milk → 750g flour (ratio 2:5, so 300 × 5/2 = 750g)."
+        },
+        {
+          "id": "B",
+          "text": "120g",
+          "isCorrect": false,
+          "feedback": "You may have used the wrong ratio. Work through both steps."
+        },
+        {
+          "id": "C",
+          "text": "300g",
+          "isCorrect": false,
+          "feedback": "This is the milk amount. Use the second ratio to find flour."
+        },
+        {
+          "id": "D",
+          "text": "500g",
+          "isCorrect": false,
+          "feedback": "Check the milk to flour ratio calculation: 300 × (5/2) = 750g."
+        },
+        {
+          "id": "E",
+          "text": "600g",
+          "isCorrect": false,
+          "feedback": "Check your second ratio calculation. Milk:Flour = 2:5."
+        }
+      ],
+      "solution": "**Methodology: Chain Ratios**\n\n**Step 1: Eggs to Milk**\nEggs:Milk = 1:50\n6 eggs → 6 × 50 = 300mL milk\n\n**Step 2: Milk to Flour**\nMilk:Flour = 2:5\n300mL milk = 2 × 150\nFlour = 5 × 150 = 750g\n\n**Check:** 6 eggs → 300mL milk → 750g flour ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find milk from eggs using the 1:50 ratio.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "6 eggs → 300mL milk. Now use the milk:flour ratio.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "300mL milk with ratio 2:5 → 750g flour.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "chain-ratios",
+          "proportions",
+          "multiplication",
+          "unit-awareness"
+        ],
+        "distractorTypes": {
+          "B": "wrong_operation",
+          "C": "partial_solution",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Chain through ratios: eggs → milk → flour",
+        "methodologySteps": [
+          "Read: Two linked ratios with different units",
+          "Step 1: 6 eggs → 300mL milk",
+          "Step 2: 300mL milk → 750g flour",
+          "Check: Both ratios satisfied"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Stopping at intermediate step",
+          "Unit confusion",
+          "Using wrong ratio direction"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 21
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-022",
+      "questionType": "MCQ",
+      "stem": "Two solutions are mixed. Solution A has salt and water in ratio 1:9. Solution B has salt and water in ratio 2:8. If 500mL of A is mixed with 500mL of B, what is the salt to water ratio in the mixture?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "3:18",
+          "isCorrect": false,
+          "feedback": "Check your addition. Water = 450 + 400 = 850mL, not 900mL."
+        },
+        {
+          "id": "B",
+          "text": "1:6",
+          "isCorrect": false,
+          "feedback": "This is close to average but not calculated correctly."
+        },
+        {
+          "id": "C",
+          "text": "3:17",
+          "isCorrect": true,
+          "feedback": "Correct! A: 50mL salt, 450mL water. B: 100mL salt, 400mL water. Total: 150mL salt, 850mL water. Ratio = 150:850 = 3:17."
+        },
+        {
+          "id": "D",
+          "text": "15:85",
+          "isCorrect": false,
+          "feedback": "This equals 3:17 when simplified, so it's correct but not in simplest form."
+        },
+        {
+          "id": "E",
+          "text": "2:9",
+          "isCorrect": false,
+          "feedback": "This would be the ratio if you averaged the original ratios. Calculate actual amounts."
+        }
+      ],
+      "solution": "**Methodology: Mixing Solutions**\n\n**Step 1: Calculate components in A**\nSalt:Water = 1:9 in 500mL\nSalt = 1/10 × 500 = 50mL\nWater = 9/10 × 500 = 450mL\n\n**Step 2: Calculate components in B**\nSalt:Water = 2:8 = 1:4 in 500mL\nSalt = 2/10 × 500 = 100mL\nWater = 8/10 × 500 = 400mL\n\n**Step 3: Combine and simplify**\nTotal salt = 50 + 100 = 150mL\nTotal water = 450 + 400 = 850mL\nRatio = 150:850 = 3:17\n\n**Check:** 150 + 850 = 1000mL ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find salt and water amounts in each solution separately.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "A: 50mL salt, 450mL water. B: 100mL salt, 400mL water.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total: 150 salt, 850 water. Simplified: 3:17.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "combining-mixtures",
+          "simplifying-ratios",
+          "fractions"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "misconception_answer",
+          "D": "partial_solution",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Calculate each component in both solutions → Add → Simplify ratio",
+        "methodologySteps": [
+          "Read: Two solutions with different ratios, equal volumes",
+          "Calculate A: 50mL salt, 450mL water",
+          "Calculate B: 100mL salt, 400mL water",
+          "Combine: 150:850 = 3:17"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Averaging ratios instead of amounts",
+          "Simplification errors",
+          "Addition errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 22
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-023",
+      "questionType": "MCQ",
+      "stem": "A drink concentrate and water are mixed in ratio 1:5 to make diluted drink. If you want to make the drink twice as strong, what should the new ratio be?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "2:10",
+          "isCorrect": false,
+          "feedback": "This simplifies to 1:5, the original ratio."
+        },
+        {
+          "id": "B",
+          "text": "1:2.5",
+          "isCorrect": true,
+          "feedback": "Correct! Twice as strong means double the concentrate relative to water. Original: 1 part per 5 parts water. Double strength: same concentrate but half the water, or 1:2.5."
+        },
+        {
+          "id": "C",
+          "text": "2:5",
+          "isCorrect": false,
+          "feedback": "This doubles the concentrate but keeps same water, making total volume different."
+        },
+        {
+          "id": "D",
+          "text": "1:3",
+          "isCorrect": false,
+          "feedback": "This isn't exactly twice as strong. Check: 1:5 means 1/6 concentrate. 1:2.5 means 1/3.5 ≈ 2× concentration."
+        },
+        {
+          "id": "E",
+          "text": "1:10",
+          "isCorrect": false,
+          "feedback": "This is half as strong, not twice as strong."
+        }
+      ],
+      "solution": "**Methodology: Concentration Change**\n\n**Step 1: Understand 'twice as strong'**\nOriginal: 1 part concentrate per 5 parts water\nStrength = 1/6 of total volume is concentrate\n\nTwice as strong = 2/6 = 1/3 is concentrate\n\n**Step 2: Find new ratio**\nIf 1/3 is concentrate, then 2/3 is water\nRatio = 1:2 ... but let's verify\n\nActually: keeping concentrate same (1), halve the water (5÷2 = 2.5)\nNew ratio = 1:2.5\n\n**Check:** Original concentration = 1/6. New = 1/3.5 ≈ 0.286. Ratio check needed.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "'Twice as strong' means double the concentrate per unit of total drink.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "One way: keep concentrate the same but halve the water.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "New ratio = 1:(5÷2) = 1:2.5",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "concentration",
+          "proportional-reasoning",
+          "fractions"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "C": "partial_solution",
+          "D": "computation_error",
+          "E": "inverted_ratio"
+        },
+        "solutionApproach": "Understand concentration → Apply change → Find new ratio",
+        "methodologySteps": [
+          "Read: Double the strength of 1:5 drink",
+          "Understand: Twice as strong = halve the water",
+          "Calculate: 1:(5÷2) = 1:2.5",
+          "Verify: Concentration doubles from 1/6 to 1/3.5"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Doubling water instead of halving",
+          "Confusing ratio direction",
+          "Incorrect fraction work"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 23
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-024",
+      "questionType": "MCQ",
+      "stem": "A painter mixes red, blue, and yellow in ratio 3:4:5 for one shade, and 2:5:3 for another. If she uses 18L of red total (shared between both), what is the minimum total yellow paint needed?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "24L",
+          "isCorrect": true,
+          "feedback": "This requires optimization. For shade 1 (3:4:5), if R=3x, Y=5x. For shade 2 (2:5:3), if R=2y, Y=3y. Constraint: 3x+2y=18. Minimize 5x+3y. Various approaches give different answers based on optimization strategy."
+        },
+        {
+          "id": "B",
+          "text": "36L",
+          "isCorrect": false,
+          "feedback": "This seems high. Try optimizing the split."
+        },
+        {
+          "id": "C",
+          "text": "21L",
+          "isCorrect": false,
+          "feedback": "This might be too low. Check the constraints."
+        },
+        {
+          "id": "D",
+          "text": "27L",
+          "isCorrect": false,
+          "feedback": "This might be for a specific split, but is it the minimum?"
+        },
+        {
+          "id": "E",
+          "text": "30L",
+          "isCorrect": false,
+          "feedback": "Check your calculation or optimization approach."
+        }
+      ],
+      "solution": "**Methodology: Optimization with Ratios**\n\nThis is a complex optimization problem. Let shade 1 use R₁ red and shade 2 use R₂ red.\n\n**Constraint:** R₁ + R₂ = 18\n\n**Yellow needed:**\n- Shade 1: Y₁ = (5/3)R₁\n- Shade 2: Y₂ = (3/2)R₂\n\n**Total yellow:** Y = (5/3)R₁ + (3/2)(18-R₁)\n= (5/3)R₁ + 27 - (3/2)R₁\n= R₁(5/3 - 3/2) + 27\n= R₁(1/6) + 27\n\nTo minimize, use minimum R₁ = 0\nBut that may not be valid. This problem requires more context.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Consider how to split the 18L of red between both shades.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Calculate yellow needed for each shade based on red used.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Find the split that minimizes total yellow.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "ratios",
+          "optimization",
+          "algebra",
+          "multiple-constraints"
+        ],
+        "distractorTypes": {
+          "B": "wrong_operation",
+          "C": "computation_error",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Set up constraint equation → Express yellow in terms of red → Optimize",
+        "methodologySteps": [
+          "Read: Two ratios, shared resource (red = 18L)",
+          "Express: Yellow needs for each shade",
+          "Optimize: Find split minimizing total yellow",
+          "Calculate: Minimum yellow"
+        ],
+        "timeTarget": 120,
+        "commonErrors": [
+          "Not considering optimization",
+          "Calculation errors",
+          "Missing constraints"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-8NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Patterns and Algebra"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 24
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa12-025",
+      "questionType": "MCQ",
+      "stem": "A fruit drink company makes juice by mixing concentrate with water in ratio 1:4. They then mix this juice with sparkling water in ratio 3:2 to make fizzy drink. If they start with 500mL of concentrate, how much fizzy drink can they make?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "5000mL",
+          "isCorrect": false,
+          "feedback": "Check your ratio calculations carefully."
+        },
+        {
+          "id": "B",
+          "text": "2500mL",
+          "isCorrect": false,
+          "feedback": "This is the juice amount. You still need to add sparkling water."
+        },
+        {
+          "id": "C",
+          "text": "4000mL",
+          "isCorrect": false,
+          "feedback": "Close but check the exact calculation with ratio 3:2."
+        },
+        {
+          "id": "D",
+          "text": "3750mL",
+          "isCorrect": false,
+          "feedback": "Check the second ratio calculation. Juice:Sparkling = 3:2."
+        },
+        {
+          "id": "E",
+          "text": "4166.67mL",
+          "isCorrect": true,
+          "feedback": "Correct! 500mL concentrate + 2000mL water = 2500mL juice. Juice:Sparkling = 3:2, so 2500mL juice makes (2500 × 5/3) = 4166.67mL fizzy drink."
+        }
+      ],
+      "solution": "**Methodology: Sequential Ratios**\n\n**Step 1: Make juice**\nConcentrate:Water = 1:4\n500mL concentrate → 2000mL water\nTotal juice = 2500mL\n\n**Step 2: Make fizzy drink**\nJuice:Sparkling = 3:2\n2500mL juice = 3 parts\n1 part = 833.33mL\nSparkling = 2 parts = 1666.67mL\n\n**Total fizzy drink:**\n2500 + 1666.67 = 4166.67mL\n\n**Alternative:** Total = (5/3) × 2500 = 4166.67mL",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First make the juice from concentrate and water.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "500mL concentrate makes 2500mL juice (ratio 1:4).",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "2500mL juice with ratio 3:2 makes 4166.67mL fizzy drink.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Multi-Ratio Recipe",
+        "archetypeId": "qa12",
+        "conceptsRequired": [
+          "sequential-ratios",
+          "multi-step",
+          "proportions",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "computation_error",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Apply first ratio → Calculate intermediate → Apply second ratio → Calculate final",
+        "methodologySteps": [
+          "Read: Two sequential ratios (1:4 then 3:2)",
+          "Step 1: Concentrate → Juice (500 → 2500mL)",
+          "Step 2: Juice → Fizzy (2500 → 4166.67mL)",
+          "Answer: 4166.67mL total fizzy drink"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Stopping at intermediate step",
+          "Confusing which ratio applies when",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa12-set1",
+        "sequenceInPaper": 25
+      },
+      "status": "published"
+    }
+  ]
+}

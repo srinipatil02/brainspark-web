@@ -1,0 +1,2608 @@
+{
+  "metadata": {
+    "archetype": "Systematic Counting",
+    "archetypeId": "qa18",
+    "archetypeSlug": "systematic-counting",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "foundation": {
+        "count": 5,
+        "difficulty": "1-2"
+      },
+      "application": {
+        "count": 10,
+        "difficulty": "2-3"
+      },
+      "connection": {
+        "count": 5,
+        "difficulty": "3"
+      },
+      "mastery": {
+        "count": 5,
+        "difficulty": "4"
+      }
+    },
+    "createdAt": "2026-01-13",
+    "version": "1.0",
+    "researchSource": ".claude/knowledge/edu/research/mathematical-reasoning-nsw-selective.json"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa18-001",
+      "questionType": "MCQ",
+      "stem": "How many 2-digit numbers can be formed using the digits 3, 5, and 7 if repetition is allowed?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "This might add 3 + 3 + 3 + 3. For counting arrangements, multiply: 3 × 3 = 9."
+        },
+        {
+          "id": "B",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "Check: 3 choices for tens, 3 choices for units = 3 × 3 = 9, not 8."
+        },
+        {
+          "id": "C",
+          "text": "9",
+          "isCorrect": true,
+          "feedback": "Correct! Tens place: 3 choices (3, 5, 7). Units place: 3 choices. Total = 3 × 3 = 9."
+        },
+        {
+          "id": "D",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "This is the count without repetition (3 × 2 = 6). But the question says repetition IS allowed, so both places have 3 choices: 3 × 3 = 9."
+        },
+        {
+          "id": "E",
+          "text": "3",
+          "isCorrect": false,
+          "feedback": "This only counts one position. For two-digit numbers, multiply choices for each position: 3 × 3 = 9."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (With Repetition)**\n\n**Step 1: Identify positions and choices**\n- Tens place: can use 3, 5, or 7 → 3 choices\n- Units place: can use 3, 5, or 7 → 3 choices (repetition allowed)\n\n**Step 2: Apply multiplication principle**\nTotal = 3 × 3 = 9\n\n**Step 3: List to verify**\n33, 35, 37, 53, 55, 57, 73, 75, 77 = 9 numbers ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A 2-digit number has a tens place and a units place. How many choices for each?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "With repetition allowed, each position can use any of the 3 digits. Multiply the choices.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Tens: 3 choices, Units: 3 choices. Total = 3 × 3 = 9.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "multiplication-principle",
+          "counting",
+          "place-value",
+          "with-repetition"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "computation_error",
+          "D": "misconception_answer",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Identify positions → Count choices for each → Multiply (with repetition: same choices for each position)",
+        "methodologySteps": [
+          "Read: Identify how many positions and whether repetition is allowed",
+          "Count: Choices for each position (3 for tens, 3 for units)",
+          "Multiply: Total = 3 × 3 = 9",
+          "Check: List some to verify count"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Confusing with/without repetition",
+          "Adding instead of multiplying",
+          "Counting only some positions"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-002",
+      "questionType": "MCQ",
+      "stem": "In a group of 5 friends, each person shakes hands with every other person exactly once. How many handshakes occur?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "This counts each handshake twice (once for each person). A-B handshake is the same as B-A. Divide by 2: 20 ÷ 2 = 10."
+        },
+        {
+          "id": "B",
+          "text": "25",
+          "isCorrect": false,
+          "feedback": "This is 5 × 5. But people don't shake hands with themselves. Correct: 5 × 4 ÷ 2 = 10."
+        },
+        {
+          "id": "C",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "Check: 5 people, each shakes with 4 others = 20 hand-touches, divided by 2 (each handshake involves 2 people) = 10."
+        },
+        {
+          "id": "D",
+          "text": "10",
+          "isCorrect": true,
+          "feedback": "Correct! Each of 5 people shakes hands with 4 others = 20, but each handshake is counted twice. 20 ÷ 2 = 10."
+        },
+        {
+          "id": "E",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "This is just the number of people. Each person shakes hands with 4 others: 5 × 4 ÷ 2 = 10 handshakes."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Pairs)**\n\n**Step 1: Count from one person's view**\nPerson 1 shakes with 4 others\nPerson 2 shakes with 4 others\n... and so on\nTotal = 5 × 4 = 20\n\n**Step 2: Account for double counting**\nEach handshake counted twice (once for each person)\nActual handshakes = 20 ÷ 2 = 10\n\n**Step 3: Verify with formula**\nn(n-1)/2 = 5(4)/2 = 10 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A handshake involves 2 people. If you count from each person's perspective, you'll count each handshake twice.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Each of 5 people shakes with 4 others = 20. But divide by 2 because each handshake was counted twice.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 5 × 4 ÷ 2 = 10 handshakes.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "combinations",
+          "pairs",
+          "double-counting",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "formula_confusion",
+          "C": "computation_error",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Count total hand-touches → Divide by 2 (each handshake = 2 people)",
+        "methodologySteps": [
+          "Read: Counting pairs (handshakes)",
+          "Count: Each person shakes with (n-1) others",
+          "Calculate: n × (n-1) ÷ 2 = 5 × 4 ÷ 2 = 10",
+          "Check: Does this make sense? 10 pairs from 5 people ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Not dividing by 2",
+          "Counting self-handshakes",
+          "Adding instead of multiplying"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-003",
+      "questionType": "MCQ",
+      "stem": "How many different outfits can be made from 4 shirts and 3 pairs of pants?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "7",
+          "isCorrect": false,
+          "feedback": "This adds 4 + 3 = 7. But for combinations of choices, multiply: 4 × 3 = 12."
+        },
+        {
+          "id": "B",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "This might be 4 × 3 × 2, but we're only combining shirts and pants. 4 × 3 = 12."
+        },
+        {
+          "id": "C",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "This is 4 + 3 - 1 or 3 × 2. Outfit combinations = shirts × pants = 4 × 3 = 12."
+        },
+        {
+          "id": "D",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "Check: Each of 4 shirts can go with each of 3 pants = 4 × 3 = 12, not 10."
+        },
+        {
+          "id": "E",
+          "text": "12",
+          "isCorrect": true,
+          "feedback": "Correct! Each shirt can be paired with each pair of pants: 4 × 3 = 12 outfits."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Independent Choices)**\n\n**Step 1: Identify independent choices**\n- Shirts: 4 choices\n- Pants: 3 choices\n\n**Step 2: Apply multiplication principle**\nTotal outfits = 4 × 3 = 12\n\n**Step 3: Visualize**\nShirt 1 with Pants 1, 2, 3 = 3 outfits\nShirt 2 with Pants 1, 2, 3 = 3 outfits\n... (4 shirts total)\n4 × 3 = 12 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "An outfit = 1 shirt + 1 pair of pants. These are independent choices.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "For each shirt choice (4 options), there are 3 pants options. Multiply.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 4 × 3 = 12 outfits.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "multiplication-principle",
+          "independent-events",
+          "counting"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "misconception_answer",
+          "C": "computation_error",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Identify independent choices → Multiply the number of options for each",
+        "methodologySteps": [
+          "Read: What combinations are being counted?",
+          "Identify: Shirts (4) and Pants (3) - independent choices",
+          "Multiply: 4 × 3 = 12",
+          "Check: List a few to verify the pattern"
+        ],
+        "timeTarget": 30,
+        "commonErrors": [
+          "Adding instead of multiplying",
+          "Calculation errors",
+          "Confusing problem type"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 30,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-004",
+      "questionType": "MCQ",
+      "stem": "How many 3-digit numbers can be formed using the digits 1, 2, 3, and 4 if no digit can be repeated?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "This is 4 × 3, forgetting the units place. Need all three positions: 4 × 3 × 2 = 24."
+        },
+        {
+          "id": "B",
+          "text": "24",
+          "isCorrect": true,
+          "feedback": "Correct! Hundreds: 4 choices, Tens: 3 remaining, Units: 2 remaining. Total = 4 × 3 × 2 = 24."
+        },
+        {
+          "id": "C",
+          "text": "64",
+          "isCorrect": false,
+          "feedback": "This is 4 × 4 × 4 (with repetition). Without repetition: 4 × 3 × 2 = 24."
+        },
+        {
+          "id": "D",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "This might be 4 + 3 + 2 + 1. For arrangements, multiply: 4 × 3 × 2 = 24."
+        },
+        {
+          "id": "E",
+          "text": "36",
+          "isCorrect": false,
+          "feedback": "Check: Without repetition, choices decrease. 4 × 3 × 2 = 24, not 36."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Without Repetition)**\n\n**Step 1: Count choices for each position**\n- Hundreds place: 4 choices (any of 1, 2, 3, 4)\n- Tens place: 3 choices (any except the one used)\n- Units place: 2 choices (any except the two used)\n\n**Step 2: Apply multiplication principle**\nTotal = 4 × 3 × 2 = 24\n\n**Step 3: Verify**\nStarting with 1: 123, 124, 132, 134, 142, 143 = 6 numbers\nTimes 4 starting digits = 24 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Without repetition means once a digit is used, it can't be used again in that number.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "First position: 4 choices. Second: 3 remaining. Third: 2 remaining.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 4 × 3 × 2 = 24.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "multiplication-principle",
+          "without-repetition",
+          "permutations",
+          "counting"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "misconception_answer",
+          "D": "wrong_operation",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Without repetition: first position has n choices, second has n-1, third has n-2, etc.",
+        "methodologySteps": [
+          "Read: No digit repeated = choices decrease",
+          "Count: Position 1: 4, Position 2: 3, Position 3: 2",
+          "Multiply: 4 × 3 × 2 = 24",
+          "Check: List numbers starting with one digit to verify"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Using repetition formula",
+          "Forgetting a position",
+          "Adding instead of multiplying"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-005",
+      "questionType": "MCQ",
+      "stem": "A padlock has a 3-digit code where each digit can be 0-9. How many possible codes are there?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "100",
+          "isCorrect": false,
+          "feedback": "This is 10 × 10 (only 2 positions). A 3-digit code: 10 × 10 × 10 = 1000."
+        },
+        {
+          "id": "B",
+          "text": "720",
+          "isCorrect": false,
+          "feedback": "This is 10 × 9 × 8 (without repetition). But padlocks allow repeated digits: 10 × 10 × 10 = 1000."
+        },
+        {
+          "id": "C",
+          "text": "1000",
+          "isCorrect": true,
+          "feedback": "Correct! Each of 3 positions can be 0-9 (10 choices). Total = 10 × 10 × 10 = 1000."
+        },
+        {
+          "id": "D",
+          "text": "30",
+          "isCorrect": false,
+          "feedback": "This adds 10 + 10 + 10. For combinations, multiply: 10 × 10 × 10 = 1000."
+        },
+        {
+          "id": "E",
+          "text": "999",
+          "isCorrect": false,
+          "feedback": "This excludes 000, but 000 is a valid code. Total = 10³ = 1000 codes (000 to 999)."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (With Repetition)**\n\n**Step 1: Identify positions and choices**\n- First digit: 0-9 = 10 choices\n- Second digit: 0-9 = 10 choices\n- Third digit: 0-9 = 10 choices\n\n**Step 2: Apply multiplication principle**\nTotal = 10 × 10 × 10 = 1000\n\n**Step 3: Verify**\nCodes range from 000 to 999 = 1000 codes ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Padlock codes can repeat digits (like 555). Each position has 10 choices (0-9).",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "3 positions, each with 10 choices. Multiply to get total combinations.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 10 × 10 × 10 = 1000 codes.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "multiplication-principle",
+          "with-repetition",
+          "powers",
+          "counting"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "misconception_answer",
+          "D": "wrong_operation",
+          "E": "off_by_one"
+        },
+        "solutionApproach": "With repetition: each position has same number of choices → Multiply",
+        "methodologySteps": [
+          "Read: Digits 0-9 can repeat",
+          "Count: 10 choices per position, 3 positions",
+          "Calculate: 10 × 10 × 10 = 1000",
+          "Check: Codes 000-999 = 1000 ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Adding instead of multiplying",
+          "Forgetting 0 as an option",
+          "Using without-repetition formula"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-006",
+      "questionType": "MCQ",
+      "stem": "How many different ways can 4 students stand in a line for a photo?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "This might be 4 + 3 + 2 + 1. For arrangements, multiply: 4 × 3 × 2 × 1 = 24."
+        },
+        {
+          "id": "B",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "This might be 4 × 3. But there are 4 positions: 4 × 3 × 2 × 1 = 24."
+        },
+        {
+          "id": "C",
+          "text": "16",
+          "isCorrect": false,
+          "feedback": "This is 4 × 4, as if with repetition. But each student can only stand in one spot: 4 × 3 × 2 × 1 = 24."
+        },
+        {
+          "id": "D",
+          "text": "256",
+          "isCorrect": false,
+          "feedback": "This is 4⁴. But people can't repeat positions: 4 × 3 × 2 × 1 = 24 arrangements."
+        },
+        {
+          "id": "E",
+          "text": "24",
+          "isCorrect": true,
+          "feedback": "Correct! Position 1: 4 choices, Position 2: 3, Position 3: 2, Position 4: 1. Total = 4 × 3 × 2 × 1 = 24."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Arrangements/Permutations)**\n\n**Step 1: Count choices for each position**\n- Position 1: 4 choices (any of 4 students)\n- Position 2: 3 choices (remaining students)\n- Position 3: 2 choices\n- Position 4: 1 choice (the remaining student)\n\n**Step 2: Apply multiplication principle**\nTotal = 4 × 3 × 2 × 1 = 24\n\n**Step 3: This is 4! (4 factorial)**\n4! = 24 ways ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Each student can only stand in one position. Once placed, they can't be used again.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "First position: 4 choices. Second: 3 remaining. And so on.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 4 × 3 × 2 × 1 = 24 arrangements.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "permutations",
+          "factorial",
+          "arrangements",
+          "multiplication-principle"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "partial_solution",
+          "C": "misconception_answer",
+          "D": "formula_confusion"
+        },
+        "solutionApproach": "Arranging n items in a line = n × (n-1) × (n-2) × ... × 1 = n!",
+        "methodologySteps": [
+          "Read: Arranging people in a line (order matters)",
+          "Count: 4 choices, then 3, then 2, then 1",
+          "Multiply: 4 × 3 × 2 × 1 = 24",
+          "Check: This is 4! = 24 ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Using n × n formula",
+          "Adding instead of multiplying",
+          "Forgetting positions"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-007",
+      "questionType": "MCQ",
+      "stem": "A coin is flipped 4 times. How many different sequences of heads and tails are possible?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "This is 2³. But there are 4 flips: 2⁴ = 16 sequences."
+        },
+        {
+          "id": "B",
+          "text": "4",
+          "isCorrect": false,
+          "feedback": "This is just the number of flips. Each flip has 2 outcomes: 2⁴ = 16 sequences."
+        },
+        {
+          "id": "C",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "This might count possible numbers of heads (0, 1, 2, 3, 4). But we want sequences: 2⁴ = 16."
+        },
+        {
+          "id": "D",
+          "text": "16",
+          "isCorrect": true,
+          "feedback": "Correct! Each flip has 2 outcomes (H or T). 4 flips = 2 × 2 × 2 × 2 = 16."
+        },
+        {
+          "id": "E",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "This is 4 × 3 × 2 × 1 (arrangements). But flips are independent with 2 outcomes each: 2⁴ = 16."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Independent Events)**\n\n**Step 1: Identify outcomes per event**\nEach flip: 2 outcomes (H or T)\n\n**Step 2: Count total sequences**\n4 flips, each with 2 outcomes\nTotal = 2 × 2 × 2 × 2 = 16\n\n**Step 3: Examples**\nHHHH, HHHT, HHTH, HHTT, HTHH, HTHT, HTTH, HTTT,\nTHHH, THHT, THTH, THTT, TTHH, TTHT, TTTH, TTTT = 16 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Each flip is independent with 2 possible outcomes. We want to count all possible sequences.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "For 4 independent events with 2 outcomes each, multiply: 2 × 2 × 2 × 2.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 2⁴ = 16 sequences.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "multiplication-principle",
+          "independent-events",
+          "powers",
+          "sequences"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "misconception_answer",
+          "C": "misconception_answer",
+          "E": "formula_confusion"
+        },
+        "solutionApproach": "n events with k outcomes each = k^n total sequences",
+        "methodologySteps": [
+          "Read: Counting sequences of independent events",
+          "Identify: 4 events, 2 outcomes each",
+          "Calculate: 2⁴ = 16",
+          "Check: Can list them systematically ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Using wrong power",
+          "Confusing with arrangements",
+          "Confusing with combinations"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-008",
+      "questionType": "MCQ",
+      "stem": "How many even 2-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "Check the constraint: units must be even. 2 even choices × 4 remaining for tens = 8, not 10."
+        },
+        {
+          "id": "B",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "Check: 2 choices for units (2 or 4), and 4 choices for tens (remaining digits). 4 × 2 = 8."
+        },
+        {
+          "id": "C",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "This might be 4 × 3. But with the even constraint: 2 even endings × 4 remaining tens = 8."
+        },
+        {
+          "id": "D",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "This is 5 × 4 (all 2-digit without constraint). But we need even numbers: 4 × 2 = 8."
+        },
+        {
+          "id": "E",
+          "text": "8",
+          "isCorrect": true,
+          "feedback": "Correct! Units must be even (2 or 4): 2 choices. Tens can be any of remaining 4 digits: 4 choices. Total = 4 × 2 = 8."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (With Constraint)**\n\n**Step 1: Apply constraint first**\nEven numbers end in 2 or 4\nUnits place: 2 choices\n\n**Step 2: Count remaining positions**\nTens place: any of remaining 4 digits = 4 choices\n\n**Step 3: Multiply**\nTotal = 4 × 2 = 8\n\n**Step 4: List to verify**\nEnding in 2: 12, 32, 42, 52 = 4 (note: no 22, repetition not allowed)\nEnding in 4: 14, 24, 34, 54 = 4\nTotal = 8 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Even numbers end in 0, 2, 4, 6, or 8. Which of these are in our digit set?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Units place: 2 choices (2 or 4). Tens place: 4 remaining choices.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 4 × 2 = 8 even numbers.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "constraints",
+          "even-numbers",
+          "without-repetition",
+          "multiplication-principle"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "partial_solution",
+          "D": "misconception_answer"
+        },
+        "solutionApproach": "Apply constraint to restricted position first → Count remaining positions",
+        "methodologySteps": [
+          "Read: Even = ends in 2 or 4 (from our set)",
+          "Constrain: Units has 2 choices",
+          "Count: Tens has 4 remaining choices",
+          "Multiply: 4 × 2 = 8"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Ignoring the even constraint",
+          "Forgetting no repetition",
+          "Wrong multiplication order"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-009",
+      "questionType": "MCQ",
+      "stem": "In how many ways can 3 different prizes be awarded to 3 different students if each student can only receive one prize?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "Check: 3 choices for first prize, 2 for second, 1 for third. 3 × 2 × 1 = 6, not 12."
+        },
+        {
+          "id": "B",
+          "text": "3",
+          "isCorrect": false,
+          "feedback": "This is just the number of prizes. The ways to distribute them = 3 × 2 × 1 = 6."
+        },
+        {
+          "id": "C",
+          "text": "27",
+          "isCorrect": false,
+          "feedback": "This is 3³. But students can't receive multiple prizes: 3 × 2 × 1 = 6."
+        },
+        {
+          "id": "D",
+          "text": "6",
+          "isCorrect": true,
+          "feedback": "Correct! Prize 1: 3 students. Prize 2: 2 remaining. Prize 3: 1 remaining. Total = 3 × 2 × 1 = 6."
+        },
+        {
+          "id": "E",
+          "text": "9",
+          "isCorrect": false,
+          "feedback": "This is 3 × 3, as if with repetition. But each student gets only one prize: 3 × 2 × 1 = 6."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Assignment)**\n\n**Step 1: Award prizes in order**\n- Prize 1: 3 students can receive it\n- Prize 2: 2 remaining students\n- Prize 3: 1 remaining student\n\n**Step 2: Multiply**\nTotal = 3 × 2 × 1 = 6\n\n**Step 3: List**\nStudents A, B, C; Prizes 1, 2, 3:\nA1B2C3, A1C2B3, B1A2C3, B1C2A3, C1A2B3, C1B2A3 = 6 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Each student gets exactly one prize. Once a student receives a prize, they're out of the pool.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "First prize: 3 options. Second prize: 2 remaining options. Third: 1 remaining.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 3 × 2 × 1 = 6 ways.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "permutations",
+          "assignment",
+          "without-repetition",
+          "factorial"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "formula_confusion",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Assigning n distinct items to n distinct people = n!",
+        "methodologySteps": [
+          "Read: Each student gets exactly one prize",
+          "Count: 3 choices, then 2, then 1",
+          "Multiply: 3 × 2 × 1 = 6",
+          "Check: This is 3! = 6 ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Using n × n formula",
+          "Thinking order doesn't matter",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-010",
+      "questionType": "MCQ",
+      "stem": "A restaurant offers 3 starters, 4 main courses, and 2 desserts. How many different 3-course meals (one from each category) can be ordered?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "Check: 3 × 4 × 2 = 24, not 20."
+        },
+        {
+          "id": "B",
+          "text": "48",
+          "isCorrect": false,
+          "feedback": "This is 3 × 4 × 2 × 2. There are only 3 courses: 3 × 4 × 2 = 24 meals."
+        },
+        {
+          "id": "C",
+          "text": "9",
+          "isCorrect": false,
+          "feedback": "This adds 3 + 4 + 2 = 9. For combinations, multiply: 3 × 4 × 2 = 24."
+        },
+        {
+          "id": "D",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "This might be 3 × 4 (missing dessert). Include all courses: 3 × 4 × 2 = 24."
+        },
+        {
+          "id": "E",
+          "text": "24",
+          "isCorrect": true,
+          "feedback": "Correct! Starters × Mains × Desserts = 3 × 4 × 2 = 24 meals."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Independent Choices)**\n\n**Step 1: Identify categories and options**\n- Starters: 3 options\n- Mains: 4 options\n- Desserts: 2 options\n\n**Step 2: Apply multiplication principle**\nTotal meals = 3 × 4 × 2 = 24\n\n**Step 3: Verify**\nFor each starter (3), there are 4 × 2 = 8 meal combinations\n3 × 8 = 24 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A 3-course meal = 1 starter + 1 main + 1 dessert. These are independent choices.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Multiply the number of options in each category.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 3 × 4 × 2 = 24 meals.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "multiplication-principle",
+          "independent-events",
+          "counting"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "wrong_operation",
+          "D": "partial_solution"
+        },
+        "solutionApproach": "Independent categories → Multiply options in each category",
+        "methodologySteps": [
+          "Read: Identify categories and options",
+          "Recognize: Independent choices",
+          "Multiply: 3 × 4 × 2 = 24",
+          "Check: Makes sense for a menu ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Adding instead of multiplying",
+          "Forgetting a category",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-011",
+      "questionType": "MCQ",
+      "stem": "How many 3-digit numbers greater than 500 can be formed using the digits 2, 4, 6, 8 without repetition?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "This might be 3 × 2 × 1 or 2 × 3. With constraint: 2 choices for hundreds × 3 × 2 = 12."
+        },
+        {
+          "id": "B",
+          "text": "18",
+          "isCorrect": false,
+          "feedback": "Check: Only 6 and 8 make numbers >500. So 2 × 3 × 2 = 12, not 18."
+        },
+        {
+          "id": "C",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "This is 4 × 3 × 2 (all 3-digit numbers). But >500 means hundreds place must be 6 or 8: 2 × 3 × 2 = 12."
+        },
+        {
+          "id": "D",
+          "text": "8",
+          "isCorrect": false,
+          "feedback": "Check: 2 choices for hundreds, 3 for tens, 2 for units. 2 × 3 × 2 = 12, not 8."
+        },
+        {
+          "id": "E",
+          "text": "12",
+          "isCorrect": true,
+          "feedback": "Correct! Hundreds must be 6 or 8 (for >500): 2 choices. Tens: 3 remaining. Units: 2 remaining. Total = 2 × 3 × 2 = 12."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (With Constraint)**\n\n**Step 1: Apply constraint**\n>500 means hundreds digit must be 6 or 8\nHundreds place: 2 choices\n\n**Step 2: Count remaining positions**\n- Tens place: 3 remaining digits\n- Units place: 2 remaining digits\n\n**Step 3: Multiply**\nTotal = 2 × 3 × 2 = 12\n\n**Step 4: Verify**\nStarting with 6: 624, 628, 642, 648, 682, 684 = 6 numbers\nStarting with 8: 824, 826, 842, 846, 862, 864 = 6 numbers\nTotal = 12 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "For a number to be greater than 500, what must the hundreds digit be?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Hundreds must be 6 or 8 (both >5). That's 2 choices. Then count remaining positions.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "2 × 3 × 2 = 12 numbers greater than 500.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "constraints",
+          "place-value",
+          "without-repetition",
+          "multiplication-principle"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "computation_error",
+          "C": "misconception_answer",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Apply constraint to hundreds place first → Count remaining positions with decreasing choices",
+        "methodologySteps": [
+          "Read: >500 means hundreds must be >5",
+          "Constrain: Hundreds = 6 or 8 (2 choices)",
+          "Count: Tens: 3 remaining, Units: 2 remaining",
+          "Multiply: 2 × 3 × 2 = 12"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Including all digits for hundreds",
+          "Forgetting no repetition",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 11
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-012",
+      "questionType": "MCQ",
+      "stem": "A basketball team of 5 players is chosen from 8 players. How many different teams can be formed?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6720",
+          "isCorrect": false,
+          "feedback": "This is 8×7×6×5×4 (permutations). But team members aren't ordered, so divide by 5!: 6720 ÷ 120... actually C(8,5) = 56."
+        },
+        {
+          "id": "B",
+          "text": "56",
+          "isCorrect": true,
+          "feedback": "Correct! This is combinations: 8!/(5!×3!) = (8×7×6)/(3×2×1) = 336/6 = 56 teams."
+        },
+        {
+          "id": "C",
+          "text": "40",
+          "isCorrect": false,
+          "feedback": "This is 8 × 5. For choosing teams (order doesn't matter): C(8,5) = 56."
+        },
+        {
+          "id": "D",
+          "text": "28",
+          "isCorrect": false,
+          "feedback": "This might be C(8,2) = 28. But we're choosing 5 from 8: C(8,5) = C(8,3) = 56."
+        },
+        {
+          "id": "E",
+          "text": "336",
+          "isCorrect": false,
+          "feedback": "This is 8×7×6×5×4/5! × 5. That's arrangements, but team order doesn't matter: 336 ÷ 6 = 56."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Combinations)**\n\n**Step 1: Recognize the type**\nChoosing a team - order doesn't matter\nThis is combinations, not permutations\n\n**Step 2: Calculate C(8,5)**\nC(8,5) = 8!/(5! × 3!)\n= (8 × 7 × 6)/(3 × 2 × 1)\n= 336/6\n= 56\n\n**Step 3: Alternative**\nC(8,5) = C(8,3) = 56 (choosing 5 to include = choosing 3 to exclude)",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Does the order of team members matter? No - it's the same team regardless of order.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "For combinations (order doesn't matter): C(n,r) = n!/(r!(n-r)!)",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "C(8,5) = (8×7×6)/(3×2×1) = 336/6 = 56 teams.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "combinations",
+          "factorial",
+          "unordered-selection",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "formula_confusion",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Order doesn't matter → Use combinations formula C(n,r)",
+        "methodologySteps": [
+          "Read: Choosing a team (order irrelevant)",
+          "Identify: This is combinations C(8,5)",
+          "Calculate: (8×7×6)/(3×2×1) = 56",
+          "Check: C(8,5) = C(8,3) ✓"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Using permutations when order doesn't matter",
+          "Calculation errors in formula",
+          "Wrong factorial terms"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 12
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-013",
+      "questionType": "MCQ",
+      "stem": "How many diagonals does a hexagon (6-sided polygon) have?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "9",
+          "isCorrect": true,
+          "feedback": "Correct! Formula: n(n-3)/2 = 6(6-3)/2 = 6×3/2 = 9 diagonals."
+        },
+        {
+          "id": "B",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "This is the number of sides, not diagonals. Diagonals = n(n-3)/2 = 6(3)/2 = 9."
+        },
+        {
+          "id": "C",
+          "text": "15",
+          "isCorrect": false,
+          "feedback": "This is n(n-1)/2 = 6(5)/2 = 15 (all lines between vertices). But 6 are sides, not diagonals. Diagonals = 15 - 6 = 9."
+        },
+        {
+          "id": "D",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "Check: Each vertex connects to (n-3) = 3 others by diagonal. 6×3/2 = 9 diagonals, not 12."
+        },
+        {
+          "id": "E",
+          "text": "18",
+          "isCorrect": false,
+          "feedback": "This might be 6 × 3 without dividing by 2. Each diagonal connects two vertices, so divide: 18/2 = 9."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Diagonals)**\n\n**Step 1: Understand diagonals**\nA diagonal connects two non-adjacent vertices.\nEach vertex connects to (n-3) others by diagonal (not itself, not 2 neighbors)\n\n**Step 2: Apply formula**\nTotal vertex-diagonal connections = n × (n-3) = 6 × 3 = 18\nBut each diagonal counted twice: 18 ÷ 2 = 9\n\n**Step 3: Formula**\nDiagonals = n(n-3)/2 = 6(3)/2 = 9\n\n**Step 4: Alternative**\nTotal lines = C(6,2) = 15\nMinus 6 sides = 9 diagonals ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A diagonal connects two non-adjacent vertices (not neighbors, not sides).",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Each vertex connects to (n-3) others by diagonal. But divide by 2 since each diagonal has 2 endpoints.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Diagonals = n(n-3)/2 = 6(3)/2 = 9.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "polygons",
+          "diagonals",
+          "formula",
+          "double-counting"
+        ],
+        "distractorTypes": {
+          "B": "misconception_answer",
+          "C": "partial_solution",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Use diagonal formula: n(n-3)/2 or total lines minus sides",
+        "methodologySteps": [
+          "Read: Counting diagonals in polygon",
+          "Formula: Diagonals = n(n-3)/2",
+          "Calculate: 6(3)/2 = 9",
+          "Check: Total lines = 15, minus 6 sides = 9 ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Confusing with sides",
+          "Not dividing by 2",
+          "Using wrong formula"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-15MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Two-Dimensional Space"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 13
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-014",
+      "questionType": "MCQ",
+      "stem": "How many 3-digit odd numbers can be formed using the digits 0, 1, 2, 3, 4 without repetition?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "Check: Units has 2 odd choices (1,3). Hundreds has 3 choices (not 0, not units). Tens has 3. 3 × 3 × 2 = 18."
+        },
+        {
+          "id": "B",
+          "text": "15",
+          "isCorrect": false,
+          "feedback": "Check calculation carefully. Units: 2 odd choices. Hundreds: 3 (not 0, not units). Tens: 3. Total = 18."
+        },
+        {
+          "id": "C",
+          "text": "18",
+          "isCorrect": true,
+          "feedback": "Correct! Units (odd): 1 or 3 = 2 choices. Hundreds (≠0, ≠units): 3 choices. Tens: 3 remaining. But careful: 3 × 3 × 2 = 18."
+        },
+        {
+          "id": "D",
+          "text": "36",
+          "isCorrect": false,
+          "feedback": "This might be without constraints. With odd and no leading 0: 3 × 3 × 2 = 18."
+        },
+        {
+          "id": "E",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "This might be 4 × 3 × 2. But hundreds can't be 0, and units must be odd. Carefully: 18 numbers."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Multiple Constraints)**\n\n**Step 1: Handle constraints carefully**\nConstraint 1: Odd → units = 1 or 3 (2 choices)\nConstraint 2: 3-digit → hundreds ≠ 0\nConstraint 3: No repetition\n\n**Step 2: Count by case**\nUnits: 2 choices (1 or 3)\nHundreds: 3 choices (remaining non-zero: from {2,3,4} or {1,2,4} depending on units)\nTens: 3 choices (remaining digits)\n\n**Step 3: Calculate**\nTotal = 3 × 3 × 2 = 18\n\n**Step 4: Verify by listing**\nEnding in 1: hundreds from {2,3,4}, tens from remaining 3 = 3×3 = 9\nEnding in 3: hundreds from {1,2,4}, tens from remaining 3 = 3×3 = 9\nTotal = 18 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Two constraints: units must be odd (1 or 3), and hundreds can't be 0.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Start with the most constrained: units has 2 odd choices, hundreds has 3 non-zero remaining choices.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Hundreds: 3, Tens: 3, Units: 2. Total = 3 × 3 × 2 = 18.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "multiple-constraints",
+          "odd-numbers",
+          "place-value",
+          "without-repetition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "D": "misconception_answer",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Handle most constrained position first → Account for all constraints → Multiply",
+        "methodologySteps": [
+          "Read: Odd (units = 1 or 3) AND no leading 0",
+          "Constrain: Units: 2, Hundreds: 3, Tens: 3",
+          "Multiply: 3 × 3 × 2 = 18",
+          "Check: List by ending digit to verify"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Forgetting no leading zero",
+          "Counting some numbers twice",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 14
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-015",
+      "questionType": "MCQ",
+      "stem": "A student must answer 4 questions from a test with 6 questions. How many different combinations of questions can be chosen?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "20",
+          "isCorrect": false,
+          "feedback": "This might be C(6,3). But choosing 4 from 6: C(6,4) = 15."
+        },
+        {
+          "id": "B",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "Check: C(6,4) = C(6,2) = (6×5)/(2×1) = 15, not 10."
+        },
+        {
+          "id": "C",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "This is 6 × 4. For combinations (order doesn't matter): C(6,4) = 15."
+        },
+        {
+          "id": "D",
+          "text": "360",
+          "isCorrect": false,
+          "feedback": "This is 6 × 5 × 4 × 3 (permutations). But question order doesn't matter: C(6,4) = 15."
+        },
+        {
+          "id": "E",
+          "text": "15",
+          "isCorrect": true,
+          "feedback": "Correct! C(6,4) = 6!/(4!×2!) = (6×5)/(2×1) = 15 combinations."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Combinations)**\n\n**Step 1: Identify type**\nChoosing questions - order doesn't matter\nThis is combinations\n\n**Step 2: Calculate C(6,4)**\nC(6,4) = 6!/(4! × 2!)\n= (6 × 5)/(2 × 1)\n= 30/2\n= 15\n\n**Step 3: Alternative**\nC(6,4) = C(6,2) = 15 (choosing 4 to answer = choosing 2 to skip)",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Does the order of questions matter? No - same 4 questions is same choice.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Combinations: C(n,r) = n!/(r!(n-r)!)",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "C(6,4) = (6×5)/(2×1) = 15 combinations.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "combinations",
+          "factorial",
+          "selection",
+          "simplification"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "wrong_operation",
+          "D": "formula_confusion"
+        },
+        "solutionApproach": "Unordered selection → Use combinations C(n,r)",
+        "methodologySteps": [
+          "Read: Choosing (order doesn't matter)",
+          "Identify: C(6,4)",
+          "Calculate: (6×5)/(2×1) = 15",
+          "Check: C(6,4) = C(6,2) ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Using permutations",
+          "Calculation errors",
+          "Wrong formula application"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 15
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-016",
+      "questionType": "MCQ",
+      "stem": "How many ways can the letters in 'MATHS' be arranged?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "15",
+          "isCorrect": false,
+          "feedback": "This might be 5 + 4 + 3 + 2 + 1. For arrangements, multiply: 5! = 120."
+        },
+        {
+          "id": "B",
+          "text": "120",
+          "isCorrect": true,
+          "feedback": "Correct! 5 different letters can be arranged in 5! = 5 × 4 × 3 × 2 × 1 = 120 ways."
+        },
+        {
+          "id": "C",
+          "text": "25",
+          "isCorrect": false,
+          "feedback": "This is 5 × 5. For arrangements: 5! = 5 × 4 × 3 × 2 × 1 = 120."
+        },
+        {
+          "id": "D",
+          "text": "60",
+          "isCorrect": false,
+          "feedback": "This might be 5 × 4 × 3. Continue: 5 × 4 × 3 × 2 × 1 = 120."
+        },
+        {
+          "id": "E",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "This is 4! = 24. But MATHS has 5 letters: 5! = 120."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Anagrams)**\n\n**Step 1: Check for repeated letters**\nM-A-T-H-S: All 5 letters are different\n\n**Step 2: Calculate arrangements**\n5 different letters = 5! arrangements\n5! = 5 × 4 × 3 × 2 × 1 = 120\n\n**Step 3: Note**\nIf there were repeated letters, we'd divide by factorial of repeats",
+      "hints": [
+        {
+          "level": 1,
+          "content": "MATHS has 5 different letters. Arranging n different items = n! ways.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "5! = 5 × 4 × 3 × 2 × 1. Calculate step by step.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "5! = 120 arrangements.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "permutations",
+          "factorial",
+          "anagrams",
+          "distinct-objects"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "C": "formula_confusion",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "n distinct objects → n! arrangements",
+        "methodologySteps": [
+          "Read: Arranging letters (order matters)",
+          "Check: All 5 letters different",
+          "Calculate: 5! = 5 × 4 × 3 × 2 × 1 = 120",
+          "Check: Makes sense for 5 positions ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Not recognizing factorial",
+          "Arithmetic errors",
+          "Forgetting positions"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 16
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-017",
+      "questionType": "MCQ",
+      "stem": "From a point on a grid, you can only move right or up. How many paths are there from corner A to corner B if you must make exactly 3 moves right and 2 moves up?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "This is just the total number of moves. Paths = ways to arrange RRRUU = C(5,2) = 10."
+        },
+        {
+          "id": "B",
+          "text": "32",
+          "isCorrect": false,
+          "feedback": "This is 2⁵ (all sequences of R/U). But we need exactly 3R and 2U: C(5,2) = 10."
+        },
+        {
+          "id": "C",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "Check: We arrange RRRUU. That's 5!/(3!×2!) = 120/(6×2) = 10, not 12."
+        },
+        {
+          "id": "D",
+          "text": "10",
+          "isCorrect": true,
+          "feedback": "Correct! Choose 2 positions for Up from 5 moves: C(5,2) = (5×4)/(2×1) = 10 paths."
+        },
+        {
+          "id": "E",
+          "text": "6",
+          "isCorrect": false,
+          "feedback": "This is 3 × 2. Paths = choosing 2 Up positions from 5: C(5,2) = 10."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Grid Paths)**\n\n**Step 1: Understand the problem**\nEvery path = sequence of 3 R's and 2 U's\nExample: RRUSR, URRRU, etc.\n\n**Step 2: Calculate**\nArranging RRRUU = 5!/(3!×2!)\n= 120/(6×2)\n= 10\n\nOr: Choose 2 positions for U from 5: C(5,2) = 10\n\n**Step 3: List a few**\nRRRUU, RRURU, RRUUR, RURRU, RURUR, RUURR, URRRU, URRUR, URURR, UURRR = 10 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Every path is a sequence of 5 moves: 3 Rights and 2 Ups. How many ways to arrange them?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "It's like choosing which 2 of the 5 positions will be Up moves.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "C(5,2) = (5×4)/(2×1) = 10 paths.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "grid-paths",
+          "combinations",
+          "arrangements-with-repetition",
+          "pattern-recognition"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "formula_confusion",
+          "C": "computation_error",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Grid paths = arranging R's and U's = C(total moves, one type)",
+        "methodologySteps": [
+          "Read: 3R and 2U moves = 5 total moves",
+          "Recognize: Path = arrangement of RRRUU",
+          "Calculate: C(5,2) = 10",
+          "Check: Can list all 10 ✓"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Multiplying moves",
+          "Using 2^n",
+          "Forgetting repetition in arrangement"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 17
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-018",
+      "questionType": "MCQ",
+      "stem": "How many different 4-digit PINs can be created if the first digit cannot be 0 and no digit can be repeated?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "5040",
+          "isCorrect": false,
+          "feedback": "This is 10 × 9 × 8 × 7 (if first could be 0). But first digit can't be 0: 9 × 9 × 8 × 7 = 4536."
+        },
+        {
+          "id": "B",
+          "text": "6561",
+          "isCorrect": false,
+          "feedback": "This is 9⁴ (if no 0 allowed at all). But 0 can be in positions 2-4: 9 × 9 × 8 × 7 = 4536."
+        },
+        {
+          "id": "C",
+          "text": "10000",
+          "isCorrect": false,
+          "feedback": "This is 10⁴ (with repetition). Without repetition and no leading 0: 9 × 9 × 8 × 7 = 4536."
+        },
+        {
+          "id": "D",
+          "text": "4536",
+          "isCorrect": true,
+          "feedback": "Correct! First digit: 9 choices (1-9). Second: 9 (0 and remaining 8). Third: 8. Fourth: 7. Total = 9 × 9 × 8 × 7 = 4536."
+        },
+        {
+          "id": "E",
+          "text": "3024",
+          "isCorrect": false,
+          "feedback": "Check: First: 9 (not 0), Second: 9 (including 0), Third: 8, Fourth: 7. 9 × 9 × 8 × 7 = 4536."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (PIN with Constraints)**\n\n**Step 1: Handle first digit constraint**\nFirst digit: 1-9 = 9 choices (not 0)\n\n**Step 2: Handle remaining digits**\nSecond digit: 0-9 except first digit = 9 choices\nThird digit: 8 remaining choices\nFourth digit: 7 remaining choices\n\n**Step 3: Multiply**\nTotal = 9 × 9 × 8 × 7 = 4536\n\n**Step 4: Verify logic**\nFirst position restricted, then 0 available for other positions ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First digit has a constraint (not 0). The other positions can use 0.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "First: 9 choices. Second: 9 (0 + 8 remaining). Third: 8. Fourth: 7.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 9 × 9 × 8 × 7 = 4536 PINs.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "constraints",
+          "without-repetition",
+          "place-value",
+          "multiplication-principle"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "misconception_answer",
+          "C": "formula_confusion",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Handle first position constraint separately → Remaining positions decrease by 1 each",
+        "methodologySteps": [
+          "Read: No leading 0, no repetition",
+          "First: 9 choices (1-9)",
+          "Second: 9 (0 now available + 8 remaining)",
+          "Continue: 8, then 7. Multiply all."
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Forgetting 0 is available for position 2",
+          "Using 10×9×8×7",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 18
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-019",
+      "questionType": "MCQ",
+      "stem": "In a round-robin tournament with 6 teams, each team plays every other team exactly once. How many games are played in total?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "36",
+          "isCorrect": false,
+          "feedback": "This is 6 × 6. But teams don't play themselves. Games = 6 × 5 / 2 = 15."
+        },
+        {
+          "id": "B",
+          "text": "12",
+          "isCorrect": false,
+          "feedback": "Check: 6 teams, each plays 5 others = 30 team-games. Each game has 2 teams: 30/2 = 15."
+        },
+        {
+          "id": "C",
+          "text": "15",
+          "isCorrect": true,
+          "feedback": "Correct! Each game is between 2 teams. Total = C(6,2) = 6×5/2 = 15 games."
+        },
+        {
+          "id": "D",
+          "text": "30",
+          "isCorrect": false,
+          "feedback": "This is 6 × 5, counting each game twice. A vs B is the same game as B vs A. Divide by 2: 15 games."
+        },
+        {
+          "id": "E",
+          "text": "21",
+          "isCorrect": false,
+          "feedback": "This might be C(7,2). But with 6 teams: C(6,2) = 15 games."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Pairs/Games)**\n\n**Step 1: Understand the problem**\nEach game involves 2 teams\nWe need to count unique pairs of teams\n\n**Step 2: Calculate**\nMethod 1: C(6,2) = 6!/(2!×4!) = 15\nMethod 2: Each of 6 teams plays 5 others = 30, but each game counted twice, so 30/2 = 15\n\n**Step 3: Verify**\nTeam 1: 5 games, Team 2: 4 new games, Team 3: 3 new, Team 4: 2 new, Team 5: 1 new\n5+4+3+2+1 = 15 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Each game is a pairing of 2 teams. How many ways to choose 2 teams from 6?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Use combinations C(6,2) or count: each team plays 5, but divide by 2.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "C(6,2) = 6×5/2 = 15 games.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "combinations",
+          "pairs",
+          "tournaments",
+          "double-counting"
+        ],
+        "distractorTypes": {
+          "A": "formula_confusion",
+          "B": "computation_error",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Games = pairs of teams = C(n,2) = n(n-1)/2",
+        "methodologySteps": [
+          "Read: Each game = 2 teams (pair)",
+          "Formula: Games = C(6,2) = 6×5/2",
+          "Calculate: 30/2 = 15",
+          "Check: 5+4+3+2+1 = 15 ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Not dividing by 2",
+          "Including self-games",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 19
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-020",
+      "questionType": "MCQ",
+      "stem": "How many ways can you select 2 boys from 4 boys AND 2 girls from 5 girls for a committee?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "16",
+          "isCorrect": false,
+          "feedback": "This might add 6 + 10. For 'AND' selections, multiply: 6 × 10 = 60."
+        },
+        {
+          "id": "B",
+          "text": "120",
+          "isCorrect": false,
+          "feedback": "Check: C(4,2) = 6, C(5,2) = 10. Product = 60, not 120."
+        },
+        {
+          "id": "C",
+          "text": "60",
+          "isCorrect": true,
+          "feedback": "Correct! Boys: C(4,2) = 6. Girls: C(5,2) = 10. Total = 6 × 10 = 60."
+        },
+        {
+          "id": "D",
+          "text": "30",
+          "isCorrect": false,
+          "feedback": "This might be 6 × 5. But C(5,2) = 10, not 5. Total = 6 × 10 = 60."
+        },
+        {
+          "id": "E",
+          "text": "126",
+          "isCorrect": false,
+          "feedback": "This might be C(9,4) = 126 (choosing 4 from all 9). But we need exactly 2 boys AND 2 girls: 6 × 10 = 60."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Independent Selections)**\n\n**Step 1: Count boys selection**\nChoose 2 from 4 boys: C(4,2) = 4×3/2 = 6\n\n**Step 2: Count girls selection**\nChoose 2 from 5 girls: C(5,2) = 5×4/2 = 10\n\n**Step 3: Combine (AND = multiply)**\nTotal = 6 × 10 = 60\n\n**Step 4: Verify logic**\nEach boy selection can combine with each girl selection ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "This is two independent selections. 'AND' means we need both to happen.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Calculate each separately: C(4,2) for boys, C(5,2) for girls. Then multiply.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "C(4,2) = 6, C(5,2) = 10. Total = 6 × 10 = 60.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "combinations",
+          "multiplication-principle",
+          "independent-events",
+          "and-rule"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "computation_error",
+          "D": "computation_error",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "AND = multiply independent selections. Calculate each C(n,r) then multiply.",
+        "methodologySteps": [
+          "Read: Need 2 boys AND 2 girls (independent)",
+          "Calculate: C(4,2) = 6 boy selections",
+          "Calculate: C(5,2) = 10 girl selections",
+          "Multiply: 6 × 10 = 60 committees"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Adding instead of multiplying",
+          "Wrong combination formula",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 20
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-021",
+      "questionType": "MCQ",
+      "stem": "A password must be 4 characters: first 2 are letters (A-Z), last 2 are digits (0-9). How many passwords are possible?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "67600",
+          "isCorrect": true,
+          "feedback": "Correct! Letters: 26 × 26 = 676. Digits: 10 × 10 = 100. Total = 676 × 100 = 67600."
+        },
+        {
+          "id": "B",
+          "text": "6760",
+          "isCorrect": false,
+          "feedback": "This might be 26 × 26 × 10 = 6760. But there are 2 digits: 676 × 100 = 67600."
+        },
+        {
+          "id": "C",
+          "text": "45697600",
+          "isCorrect": false,
+          "feedback": "This is (26×10)⁴. But specific positions are defined: letters first, then digits. 26² × 10² = 67600."
+        },
+        {
+          "id": "D",
+          "text": "1456",
+          "isCorrect": false,
+          "feedback": "Check: 26² = 676, 10² = 100. Total = 676 × 100 = 67600."
+        },
+        {
+          "id": "E",
+          "text": "36",
+          "isCorrect": false,
+          "feedback": "This is 26 + 10. For password combinations, multiply: 26 × 26 × 10 × 10 = 67600."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Mixed Format)**\n\n**Step 1: Count letter positions**\nPosition 1: 26 letters\nPosition 2: 26 letters\nLetter combinations: 26 × 26 = 676\n\n**Step 2: Count digit positions**\nPosition 3: 10 digits\nPosition 4: 10 digits\nDigit combinations: 10 × 10 = 100\n\n**Step 3: Combine**\nTotal = 676 × 100 = 67600\n\n**Step 4: Verify**\n26² × 10² = 67600 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Letters can repeat, digits can repeat. Calculate each part separately.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Letters: 26 × 26. Digits: 10 × 10. Multiply the results.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "26² × 10² = 676 × 100 = 67600 passwords.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "multiplication-principle",
+          "with-repetition",
+          "mixed-characters",
+          "large-numbers"
+        ],
+        "distractorTypes": {
+          "B": "partial_solution",
+          "C": "formula_confusion",
+          "D": "computation_error",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Calculate each segment separately → Multiply segments together",
+        "methodologySteps": [
+          "Read: 2 letters (A-Z) + 2 digits (0-9)",
+          "Letters: 26 × 26 = 676",
+          "Digits: 10 × 10 = 100",
+          "Total: 676 × 100 = 67600"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Adding instead of multiplying",
+          "Forgetting a position",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 21
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-022",
+      "questionType": "MCQ",
+      "stem": "How many ways can the letters in 'LEVEL' be arranged?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "60",
+          "isCorrect": false,
+          "feedback": "This divides by 2 once. But both L and E repeat: 5!/(2!×2!) = 120/4 = 30."
+        },
+        {
+          "id": "B",
+          "text": "120",
+          "isCorrect": false,
+          "feedback": "This is 5! (if all letters different). But L repeats twice and E repeats twice: 120/(2×2) = 30."
+        },
+        {
+          "id": "C",
+          "text": "24",
+          "isCorrect": false,
+          "feedback": "Check: 5! = 120. Divide by 2! for L's and 2! for E's: 120/4 = 30."
+        },
+        {
+          "id": "D",
+          "text": "15",
+          "isCorrect": false,
+          "feedback": "This might divide by 8. Correct divisor: 2! × 2! = 4. Answer = 120/4 = 30."
+        },
+        {
+          "id": "E",
+          "text": "30",
+          "isCorrect": true,
+          "feedback": "Correct! LEVEL has 5 letters with L×2, E×2. Arrangements = 5!/(2!×2!) = 120/4 = 30."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Repeated Letters)**\n\n**Step 1: Identify letters and repetitions**\nLEVEL: L appears 2 times, E appears 2 times, V appears 1 time\nTotal: 5 letters\n\n**Step 2: Apply formula**\nArrangements = 5!/(2! × 2!)\n= 120/(2 × 2)\n= 120/4\n= 30\n\n**Step 3: Verify logic**\nDivide by factorials of repeated letters to avoid overcounting",
+      "hints": [
+        {
+          "level": 1,
+          "content": "LEVEL has repeated letters. Which letters repeat and how many times?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "L appears twice, E appears twice. Formula: n!/(repeat1! × repeat2! × ...)",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "5!/(2!×2!) = 120/4 = 30 arrangements.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "permutations",
+          "repeated-elements",
+          "factorial",
+          "division"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "partial_solution",
+          "C": "computation_error",
+          "D": "computation_error"
+        },
+        "solutionApproach": "With repeated elements: n!/(r1! × r2! × ...) where r_i is the count of each repeated element",
+        "methodologySteps": [
+          "Read: Identify all letters and repetitions",
+          "Count: L×2, E×2, V×1",
+          "Formula: 5!/(2!×2!) = 120/4",
+          "Calculate: 30 arrangements"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Not accounting for repeats",
+          "Wrong factorials",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 22
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-023",
+      "questionType": "MCQ",
+      "stem": "A committee of 3 people must be chosen from 5 men and 4 women, with at least 1 woman on the committee. How many ways can this be done?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "74",
+          "isCorrect": true,
+          "feedback": "Correct! Total ways - all men = C(9,3) - C(5,3) = 84 - 10 = 74."
+        },
+        {
+          "id": "B",
+          "text": "70",
+          "isCorrect": false,
+          "feedback": "Close! Total = 84, subtract all-men = 10. Answer = 74, not 70."
+        },
+        {
+          "id": "C",
+          "text": "84",
+          "isCorrect": false,
+          "feedback": "This is all possible committees C(9,3) = 84. But we need AT LEAST 1 woman: 84 - 10 = 74."
+        },
+        {
+          "id": "D",
+          "text": "64",
+          "isCorrect": false,
+          "feedback": "Check: Total = 84, All-men = C(5,3) = 10. At least 1 woman = 84 - 10 = 74."
+        },
+        {
+          "id": "E",
+          "text": "80",
+          "isCorrect": false,
+          "feedback": "Check: 84 - 10 = 74, not 80."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Complementary)**\n\n**Step 1: Use complementary counting**\nAt least 1 woman = Total - All men\n\n**Step 2: Calculate total**\nTotal committees from 9 people: C(9,3) = 84\n\n**Step 3: Calculate all-men**\nAll-men committees from 5 men: C(5,3) = 10\n\n**Step 4: Subtract**\nAt least 1 woman = 84 - 10 = 74",
+      "hints": [
+        {
+          "level": 1,
+          "content": "\"At least 1\" is easier to calculate as: Total - None. None = all men.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total = C(9,3). All-men = C(5,3). Subtract.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "84 - 10 = 74 committees with at least 1 woman.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "complementary-counting",
+          "combinations",
+          "at-least-one",
+          "subtraction"
+        ],
+        "distractorTypes": {
+          "B": "computation_error",
+          "C": "partial_solution",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "At least 1 of X = Total - None of X (complementary counting)",
+        "methodologySteps": [
+          "Read: 'At least 1' suggests complementary",
+          "Total: C(9,3) = 84",
+          "All-men: C(5,3) = 10",
+          "Subtract: 84 - 10 = 74"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Direct counting (harder)",
+          "Calculation errors in C(n,r)",
+          "Forgetting to subtract"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 23
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-024",
+      "questionType": "MCQ",
+      "stem": "How many 5-digit numbers have all digits the same?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "9",
+          "isCorrect": true,
+          "feedback": "Correct! All same digit: 11111, 22222, ..., 99999. That's 9 numbers (can't start with 0)."
+        },
+        {
+          "id": "B",
+          "text": "5",
+          "isCorrect": false,
+          "feedback": "This might be counting positions. Same-digit numbers: 11111 to 99999 = 9 numbers."
+        },
+        {
+          "id": "C",
+          "text": "45",
+          "isCorrect": false,
+          "feedback": "This might be 9 × 5. Each same-digit forms exactly one number: 9 total."
+        },
+        {
+          "id": "D",
+          "text": "10",
+          "isCorrect": false,
+          "feedback": "This includes 00000. But 5-digit numbers can't start with 0, so we exclude it. Answer: 9."
+        },
+        {
+          "id": "E",
+          "text": "81",
+          "isCorrect": false,
+          "feedback": "This is 9². But choosing 1 digit determines all 5 positions. Just 9 choices."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Same Digit)**\n\n**Step 1: Understand the constraint**\nAll 5 digits must be the same\nExamples: 11111, 22222, 33333, ..., 99999\n\n**Step 2: Count valid digits**\nFirst digit can be 1-9 (not 0, to be a 5-digit number)\nOnce first digit is chosen, all others are determined\n\n**Step 3: Total**\n9 possible digits (1-9)\n9 numbers ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If all digits are the same, once you pick one digit, the whole number is determined.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Can the digit be 0? No, because 00000 isn't a 5-digit number.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Digits 1-9 give: 11111, 22222, ..., 99999 = 9 numbers.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "special-patterns",
+          "constraints",
+          "place-value",
+          "logical-reasoning"
+        ],
+        "distractorTypes": {
+          "B": "misconception_answer",
+          "C": "formula_confusion",
+          "D": "off_by_one",
+          "E": "formula_confusion"
+        },
+        "solutionApproach": "Same-digit numbers are determined by one choice → Count valid first digits",
+        "methodologySteps": [
+          "Read: All digits the same",
+          "Recognize: One choice determines all",
+          "Count: First digit can be 1-9",
+          "Answer: 9 numbers"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Including 00000",
+          "Overcomplicating with multiplication",
+          "Misunderstanding constraint"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 24
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa18-025",
+      "questionType": "MCQ",
+      "stem": "A bookshelf has 5 math books and 4 science books. How many ways can they be arranged if all math books must be together?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "2880",
+          "isCorrect": false,
+          "feedback": "Check: 5 units can be arranged 5! = 120 ways. Math books within the unit: 5! = 120. Total = 120 × 120 = 14400."
+        },
+        {
+          "id": "B",
+          "text": "120",
+          "isCorrect": false,
+          "feedback": "This is just 5! (arranging the math books). Also need to arrange the 5 units: 5! × 5! = 14400."
+        },
+        {
+          "id": "C",
+          "text": "362880",
+          "isCorrect": false,
+          "feedback": "This is 9! (all books without constraint). With math together: treat as one unit. 5! × 5! = 14400."
+        },
+        {
+          "id": "D",
+          "text": "7200",
+          "isCorrect": false,
+          "feedback": "Check: 5! × 5! = 120 × 120 = 14400, not 7200."
+        },
+        {
+          "id": "E",
+          "text": "14400",
+          "isCorrect": true,
+          "feedback": "Correct! Treat 5 math books as one unit. Arrange 5 units (1 math group + 4 science): 5! = 120. Arrange within math: 5! = 120. Total = 120 × 120 = 14400."
+        }
+      ],
+      "solution": "**Methodology: Systematic Counting (Grouping Constraint)**\n\n**Step 1: Treat math books as one unit**\n5 math books together = 1 \"super unit\"\nNow we have: 1 math unit + 4 science books = 5 items\n\n**Step 2: Arrange the 5 items**\n5! = 120 ways\n\n**Step 3: Arrange within math unit**\nThe 5 math books can be arranged: 5! = 120 ways\n\n**Step 4: Multiply**\nTotal = 120 × 120 = 14400",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If math books must stay together, treat them as a single unit first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Arrange 5 units (math group + 4 science): 5!. Then arrange within the math group: 5!.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Total = 5! × 5! = 120 × 120 = 14400.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Systematic Counting",
+        "archetypeId": "qa18",
+        "conceptsRequired": [
+          "grouping",
+          "factorial",
+          "multiplication-principle",
+          "arrangements"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "misconception_answer",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Group constrained items → Arrange groups → Arrange within groups → Multiply",
+        "methodologySteps": [
+          "Read: Math books together = treat as one unit",
+          "Count units: 1 math + 4 science = 5 units",
+          "Arrange units: 5! = 120",
+          "Arrange within math: 5! = 120",
+          "Multiply: 120 × 120 = 14400"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Forgetting internal arrangement",
+          "Using 9!",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-6NA",
+          "MA3-18SP"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Statistics and Probability",
+        "substrand": "Chance"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa18-set1",
+        "sequenceInPaper": 25
+      },
+      "status": "published"
+    }
+  ]
+}

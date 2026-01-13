@@ -84,7 +84,7 @@ export default function Home() {
           </Link>
 
           {/* NSW Selective Card */}
-          <Link href="/selective" className="block">
+          <Link href="/nsw-selective" className="block">
             <div className="bg-white rounded-xl shadow-sm border p-6 hover:shadow-md transition-shadow">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
@@ -95,7 +95,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">NSW Selective</h3>
-                    <p className="text-gray-500 text-sm">4 sections • 222 questions</p>
+                    <p className="text-gray-500 text-sm">20 archetypes • 500 questions</p>
                   </div>
                 </div>
                 <button className="px-6 py-2 bg-purple-600 text-white rounded-full font-medium hover:bg-purple-700 transition-colors">

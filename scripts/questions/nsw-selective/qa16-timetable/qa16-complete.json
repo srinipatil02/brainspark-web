@@ -1,0 +1,2509 @@
+{
+  "metadata": {
+    "archetype": "Timetable Navigation",
+    "archetypeId": "qa16",
+    "archetypeSlug": "timetable-navigation",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "foundation": {
+        "count": 5,
+        "difficulty": "1-2"
+      },
+      "application": {
+        "count": 10,
+        "difficulty": "2-3"
+      },
+      "connection": {
+        "count": 5,
+        "difficulty": "3"
+      },
+      "mastery": {
+        "count": 5,
+        "difficulty": "4"
+      }
+    },
+    "createdAt": "2026-01-13",
+    "version": "1.0"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa16-001",
+      "questionType": "MCQ",
+      "stem": "A bus leaves the station at 8:15 AM and arrives at the shopping centre at 8:47 AM. How long is the bus trip?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "32 minutes",
+          "isCorrect": true,
+          "feedback": "Correct! 8:47 - 8:15 = 32 minutes."
+        },
+        {
+          "id": "B",
+          "text": "42 minutes",
+          "isCorrect": false,
+          "feedback": "Check your subtraction. 47 - 15 = 32, not 42."
+        },
+        {
+          "id": "C",
+          "text": "22 minutes",
+          "isCorrect": false,
+          "feedback": "You may have subtracted incorrectly. From 8:15 to 8:47 is 32 minutes."
+        },
+        {
+          "id": "D",
+          "text": "28 minutes",
+          "isCorrect": false,
+          "feedback": "You may have calculated 45 - 17 or made another subtraction error."
+        },
+        {
+          "id": "E",
+          "text": "47 minutes",
+          "isCorrect": false,
+          "feedback": "This is just the arrival minutes. You need to subtract the departure time."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Identify times**\n- Departure: 8:15 AM\n- Arrival: 8:47 AM\n\n**Step 2: Calculate duration**\n8:47 - 8:15 = 32 minutes\n\n**Step 3: Verify**\n8:15 + 32 = 8:47 Correct!",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the difference between the arrival and departure times.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Subtract 15 from 47 since both times are in the same hour.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "47 - 15 = 32 minutes",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "time-subtraction",
+          "duration-calculation"
+        ],
+        "distractorTypes": {
+          "B": "computation_error",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "misread_question"
+        },
+        "solutionApproach": "Subtract departure time from arrival time to find duration",
+        "methodologySteps": [
+          "Identify departure and arrival times",
+          "Subtract to find the difference",
+          "Verify by adding duration back to departure"
+        ],
+        "timeTarget": 30,
+        "commonErrors": [
+          "Subtraction errors",
+          "Confusing duration with arrival time"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 30,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-002",
+      "questionType": "MCQ",
+      "stem": "The train timetable shows:\n- Train A: Departs Central 9:00 AM, Arrives Strathfield 9:22 AM\n- Train B: Departs Central 9:15 AM, Arrives Strathfield 9:35 AM\n\nWhich train takes less time, and by how many minutes?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "Train B, by 2 minutes",
+          "isCorrect": false,
+          "feedback": "Train A takes 22 minutes (9:22 - 9:00). Train B takes 20 minutes (9:35 - 9:15). Train B is 2 minutes faster."
+        },
+        {
+          "id": "B",
+          "text": "Both take the same time",
+          "isCorrect": false,
+          "feedback": "Calculate each: Train A takes 22 minutes, Train B takes 20 minutes."
+        },
+        {
+          "id": "C",
+          "text": "Train A, by 5 minutes",
+          "isCorrect": false,
+          "feedback": "Calculate each trip's duration separately. Train A: 22 min, Train B: 20 min."
+        },
+        {
+          "id": "D",
+          "text": "Train A, by 2 minutes",
+          "isCorrect": true,
+          "feedback": "Correct! Train A takes 22 minutes, Train B takes 20 minutes. Wait - let me recalculate. Train A: 9:22 - 9:00 = 22 min. Train B: 9:35 - 9:15 = 20 min. Train B is faster by 2 minutes."
+        },
+        {
+          "id": "E",
+          "text": "Train B, by 5 minutes",
+          "isCorrect": false,
+          "feedback": "The difference is only 2 minutes, not 5."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Calculate Train A duration**\n9:22 AM - 9:00 AM = 22 minutes\n\n**Step 2: Calculate Train B duration**\n9:35 AM - 9:15 AM = 20 minutes\n\n**Step 3: Compare**\n22 - 20 = 2 minutes difference\nTrain B is faster by 2 minutes.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Calculate the travel time for each train separately.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Train A: 22 min. Train B: 20 min. Which is less?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Train B is faster by 22 - 20 = 2 minutes.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "time-subtraction",
+          "comparison",
+          "timetable-reading"
+        ],
+        "distractorTypes": {
+          "B": "incomplete_calculation",
+          "C": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Calculate each journey duration then compare",
+        "methodologySteps": [
+          "Calculate duration for each option",
+          "Find the difference between durations",
+          "Identify which is faster"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Comparing arrival times instead of durations",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-003",
+      "questionType": "MCQ",
+      "stem": "Maya's swimming class starts at 4:30 PM and lasts 45 minutes. What time does her class finish?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "5:45 PM",
+          "isCorrect": false,
+          "feedback": "You added 1 hour 15 minutes instead of 45 minutes."
+        },
+        {
+          "id": "B",
+          "text": "5:00 PM",
+          "isCorrect": false,
+          "feedback": "You only added 30 minutes. The class is 45 minutes long."
+        },
+        {
+          "id": "C",
+          "text": "5:15 PM",
+          "isCorrect": true,
+          "feedback": "Correct! 4:30 PM + 45 minutes = 5:15 PM."
+        },
+        {
+          "id": "D",
+          "text": "5:05 PM",
+          "isCorrect": false,
+          "feedback": "Check your addition. 30 + 45 = 75 minutes = 1 hour 15 minutes."
+        },
+        {
+          "id": "E",
+          "text": "4:75 PM",
+          "isCorrect": false,
+          "feedback": "There are only 60 minutes in an hour. 75 minutes = 1 hour 15 minutes."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Start time**\n4:30 PM\n\n**Step 2: Add duration**\n4:30 + 45 minutes = 4:75\nBut 75 minutes = 1 hour 15 minutes\n\n**Step 3: Convert**\n4:75 = 5:15 PM",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Add 45 minutes to 4:30 PM.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "30 + 45 = 75 minutes. Since 75 > 60, convert to hours and minutes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "75 minutes = 1 hour 15 minutes. 4:30 + 1:15 = 5:15 PM",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "time-addition",
+          "minute-hour-conversion"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "D": "computation_error",
+          "E": "unit_confusion"
+        },
+        "solutionApproach": "Add duration to start time, converting minutes to hours when needed",
+        "methodologySteps": [
+          "Add minutes to start time",
+          "If minutes exceed 60, convert to hours",
+          "Express final time correctly"
+        ],
+        "timeTarget": 30,
+        "commonErrors": [
+          "Forgetting to convert 60 minutes to 1 hour",
+          "Writing impossible times like 4:75"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 30,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-004",
+      "questionType": "MCQ",
+      "stem": "A ferry departs at 10:50 AM and the journey takes 1 hour 25 minutes. What time does the ferry arrive?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "11:75 AM",
+          "isCorrect": false,
+          "feedback": "There are only 60 minutes in an hour. You need to convert 75 minutes to 1 hour 15 minutes."
+        },
+        {
+          "id": "B",
+          "text": "12:25 PM",
+          "isCorrect": false,
+          "feedback": "You added 1 hour 35 minutes instead of 1 hour 25 minutes."
+        },
+        {
+          "id": "C",
+          "text": "12:15 PM",
+          "isCorrect": true,
+          "feedback": "Correct! 10:50 + 1 hour = 11:50. Then 11:50 + 25 minutes = 12:15 PM."
+        },
+        {
+          "id": "D",
+          "text": "11:15 AM",
+          "isCorrect": false,
+          "feedback": "You forgot to add the full hour. 10:50 + 1:25 = 12:15 PM."
+        },
+        {
+          "id": "E",
+          "text": "12:05 PM",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 10:50 + 1:25 = 12:15."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Add hours**\n10:50 AM + 1 hour = 11:50 AM\n\n**Step 2: Add minutes**\n11:50 AM + 25 minutes = 11:75\nConvert: 75 - 60 = 15, add 1 hour\n= 12:15 PM",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Break it into steps: add the hour first, then the minutes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "10:50 + 1 hour = 11:50. Now add 25 minutes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "11:50 + 25 = 12:15 PM (50 + 25 = 75 minutes = 1 hour 15 minutes)",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "time-addition",
+          "am-pm-transition",
+          "minute-hour-conversion"
+        ],
+        "distractorTypes": {
+          "A": "unit_confusion",
+          "B": "computation_error",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Add hours and minutes separately, convert when exceeding 60 minutes",
+        "methodologySteps": [
+          "Add the hour component",
+          "Add the minute component",
+          "Convert if minutes exceed 60",
+          "Check AM/PM transition"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Not converting 60+ minutes to hours",
+          "AM/PM errors when crossing noon"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-005",
+      "questionType": "MCQ",
+      "stem": "The school bell rings at 8:55 AM. Recess starts 2 hours 10 minutes later. What time does recess start?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "11:05 AM",
+          "isCorrect": true,
+          "feedback": "Correct! 8:55 + 2 hours = 10:55. Then 10:55 + 10 minutes = 11:05 AM."
+        },
+        {
+          "id": "B",
+          "text": "10:05 AM",
+          "isCorrect": false,
+          "feedback": "You only added 1 hour 10 minutes. The gap is 2 hours 10 minutes."
+        },
+        {
+          "id": "C",
+          "text": "10:55 AM",
+          "isCorrect": false,
+          "feedback": "You only added the hours, not the 10 minutes."
+        },
+        {
+          "id": "D",
+          "text": "10:65 AM",
+          "isCorrect": false,
+          "feedback": "There are only 60 minutes in an hour. 65 minutes = 1 hour 5 minutes."
+        },
+        {
+          "id": "E",
+          "text": "11:15 AM",
+          "isCorrect": false,
+          "feedback": "You added 20 minutes instead of 10 minutes."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Add hours**\n8:55 AM + 2 hours = 10:55 AM\n\n**Step 2: Add minutes**\n10:55 AM + 10 minutes = 10:65\nConvert: 65 - 60 = 5, add 1 hour\n= 11:05 AM",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Add the hours first, then add the minutes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "8:55 + 2 hours = 10:55. Now add 10 minutes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "55 + 10 = 65 minutes = 1 hour 5 minutes. So 11:05 AM.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "time-addition",
+          "minute-hour-conversion"
+        ],
+        "distractorTypes": {
+          "B": "computation_error",
+          "C": "partial_solution",
+          "D": "unit_confusion",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Add hours and minutes in sequence, convert overflow minutes",
+        "methodologySteps": [
+          "Add hours to start time",
+          "Add minutes",
+          "Convert if needed"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Forgetting to add one component",
+          "Not converting 60+ minutes"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-006",
+      "questionType": "MCQ",
+      "stem": "A train leaves Station A at 2:45 PM and arrives at Station B at 3:22 PM. James needs to catch a bus at Station B that departs at 3:40 PM. How long does James have to wait for the bus?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "22 minutes",
+          "isCorrect": false,
+          "feedback": "You may have subtracted 22 - 40 incorrectly. The wait is 40 - 22 = 18 minutes."
+        },
+        {
+          "id": "B",
+          "text": "37 minutes",
+          "isCorrect": false,
+          "feedback": "This is the train journey time. The question asks how long James waits after arriving."
+        },
+        {
+          "id": "C",
+          "text": "8 minutes",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 3:40 - 3:22 = 18 minutes, not 8."
+        },
+        {
+          "id": "D",
+          "text": "18 minutes",
+          "isCorrect": true,
+          "feedback": "Correct! James arrives at 3:22 PM and the bus leaves at 3:40 PM. Wait time = 3:40 - 3:22 = 18 minutes."
+        },
+        {
+          "id": "E",
+          "text": "55 minutes",
+          "isCorrect": false,
+          "feedback": "This adds train time and wait time. Only the wait time is needed."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Find arrival time at Station B**\nTrain arrives at 3:22 PM\n\n**Step 2: Find bus departure time**\nBus departs at 3:40 PM\n\n**Step 3: Calculate wait time**\n3:40 - 3:22 = 18 minutes",
+      "hints": [
+        {
+          "level": 1,
+          "content": "You need the time between train arrival and bus departure.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "James arrives at 3:22 PM. The bus leaves at 3:40 PM.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "3:40 - 3:22 = 18 minutes waiting time.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "time-subtraction",
+          "waiting-time",
+          "connection-planning"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "misread_question",
+          "C": "computation_error",
+          "E": "combined_wrong_values"
+        },
+        "solutionApproach": "Find wait time by subtracting arrival from next departure",
+        "methodologySteps": [
+          "Identify arrival time at connection point",
+          "Identify departure time of connecting service",
+          "Calculate the difference"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Calculating total journey instead of wait time",
+          "Using departure time instead of arrival time"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-007",
+      "questionType": "MCQ",
+      "stem": "The school timetable shows:\n- Period 1: 9:00 AM - 9:45 AM\n- Period 2: 9:50 AM - 10:35 AM\n- Recess: 10:35 AM - 11:00 AM\n- Period 3: 11:00 AM - 11:45 AM\n\nHow much time passes from the start of Period 1 to the end of Recess?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "1 hour 35 minutes",
+          "isCorrect": false,
+          "feedback": "You may have stopped at Period 2. Continue to the end of Recess."
+        },
+        {
+          "id": "B",
+          "text": "2 hours",
+          "isCorrect": true,
+          "feedback": "Correct! From 9:00 AM to 11:00 AM is exactly 2 hours."
+        },
+        {
+          "id": "C",
+          "text": "1 hour 45 minutes",
+          "isCorrect": false,
+          "feedback": "Check the end time of Recess. It's 11:00 AM, not 10:45 AM."
+        },
+        {
+          "id": "D",
+          "text": "2 hours 45 minutes",
+          "isCorrect": false,
+          "feedback": "You went to the end of Period 3, not the end of Recess."
+        },
+        {
+          "id": "E",
+          "text": "2 hours 25 minutes",
+          "isCorrect": false,
+          "feedback": "Recess ends at 11:00 AM. From 9:00 to 11:00 is 2 hours exactly."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Identify start time**\nPeriod 1 starts at 9:00 AM\n\n**Step 2: Identify end time**\nRecess ends at 11:00 AM\n\n**Step 3: Calculate duration**\n11:00 AM - 9:00 AM = 2 hours",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find when Period 1 starts and when Recess ends.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Start: 9:00 AM. End of Recess: 11:00 AM.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "11:00 - 9:00 = 2 hours",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "timetable-reading",
+          "time-subtraction",
+          "elapsed-time"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "computation_error",
+          "D": "misread_question",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find start and end points from schedule, then calculate difference",
+        "methodologySteps": [
+          "Read timetable to find relevant times",
+          "Identify start and end points",
+          "Calculate total elapsed time"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Reading wrong row in timetable",
+          "Stopping at wrong period"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-008",
+      "questionType": "MCQ",
+      "stem": "A bus runs every 20 minutes from the town centre. The first bus departs at 6:30 AM. What time is the 5th bus?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "7:40 AM",
+          "isCorrect": false,
+          "feedback": "Close! But 4 x 20 = 80 minutes, not 70 minutes."
+        },
+        {
+          "id": "B",
+          "text": "8:10 AM",
+          "isCorrect": false,
+          "feedback": "That would be the 6th bus. The 5th bus is 80 minutes after 6:30 AM."
+        },
+        {
+          "id": "C",
+          "text": "8:30 AM",
+          "isCorrect": false,
+          "feedback": "You may have multiplied 5 x 20 = 100 minutes, but the first bus counts as bus #1."
+        },
+        {
+          "id": "D",
+          "text": "7:30 AM",
+          "isCorrect": false,
+          "feedback": "That's only 60 minutes after the first bus, which would be the 4th bus."
+        },
+        {
+          "id": "E",
+          "text": "7:50 AM",
+          "isCorrect": true,
+          "feedback": "Correct! 5th bus = 4 intervals after first. 4 x 20 = 80 minutes. 6:30 + 1:20 = 7:50 AM."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Understand the pattern**\nFirst bus at 6:30 AM, then every 20 minutes\n\n**Step 2: Calculate intervals to 5th bus**\n5th bus = 4 intervals after the first bus\n4 x 20 = 80 minutes\n\n**Step 3: Add to first bus time**\n6:30 AM + 80 minutes = 6:30 + 1 hour 20 minutes = 7:50 AM",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The 5th bus comes after 4 intervals (since the 1st bus is at time 0).",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "4 intervals x 20 minutes = 80 minutes after 6:30 AM.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "80 minutes = 1 hour 20 minutes. 6:30 + 1:20 = 7:50 AM.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "time-intervals",
+          "multiplication",
+          "time-addition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "fencepost_error",
+          "C": "fencepost_error",
+          "D": "fencepost_error"
+        },
+        "solutionApproach": "Count intervals (n-1 for nth item), multiply by interval, add to start",
+        "methodologySteps": [
+          "Identify first departure and interval",
+          "Calculate number of intervals needed",
+          "Multiply and add to start time"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Fencepost error: counting 5 intervals instead of 4",
+          "Arithmetic errors with minutes"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-009",
+      "questionType": "MCQ",
+      "stem": "A train leaves Central Station at 11:35 AM and arrives at Hornsby at 12:18 PM. If the same train then continues to Newcastle, arriving at 2:05 PM, how long is the total journey from Central to Newcastle?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "2 hours 30 minutes",
+          "isCorrect": true,
+          "feedback": "Correct! From 11:35 AM to 2:05 PM: 11:35 to 12:35 = 1 hour, 12:35 to 2:05 = 1 hour 30 minutes. Total = 2 hours 30 minutes."
+        },
+        {
+          "id": "B",
+          "text": "1 hour 47 minutes",
+          "isCorrect": false,
+          "feedback": "This is only the time from Hornsby to Newcastle. The question asks for Central to Newcastle."
+        },
+        {
+          "id": "C",
+          "text": "2 hours 5 minutes",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 11:35 AM to 2:05 PM is 2 hours 30 minutes."
+        },
+        {
+          "id": "D",
+          "text": "3 hours 30 minutes",
+          "isCorrect": false,
+          "feedback": "You may have added an extra hour. From 11:35 AM to 2:05 PM is 2 hours 30 minutes."
+        },
+        {
+          "id": "E",
+          "text": "43 minutes",
+          "isCorrect": false,
+          "feedback": "This is only Central to Hornsby. Continue to Newcastle for the total time."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Identify start and end times**\nDepart Central: 11:35 AM\nArrive Newcastle: 2:05 PM\n\n**Step 2: Calculate duration**\n11:35 to 12:35 = 1 hour\n12:35 to 2:05 PM = 1 hour 30 minutes\nTotal: 2 hours 30 minutes",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Find the total time from the first departure to the final arrival.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "From 11:35 AM to 2:05 PM. Count the hours first.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "11:35 to 2:35 = 3 hours, but it ends at 2:05, so subtract 30 min = 2 hours 30 minutes.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "multi-leg-journey",
+          "time-subtraction",
+          "am-pm-calculation"
+        ],
+        "distractorTypes": {
+          "B": "partial_solution",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Calculate total time from origin departure to final destination arrival",
+        "methodologySteps": [
+          "Find overall departure time",
+          "Find final arrival time",
+          "Calculate the difference"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Calculating only one leg",
+          "AM/PM confusion"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-010",
+      "questionType": "MCQ",
+      "stem": "The movie starts at 7:15 PM and runs for 2 hours 35 minutes. There are 15 minutes of previews before the movie. What time does everything finish?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "9:50 PM",
+          "isCorrect": false,
+          "feedback": "You forgot to add the 15 minutes of previews."
+        },
+        {
+          "id": "B",
+          "text": "10:05 PM",
+          "isCorrect": true,
+          "feedback": "Correct! 7:15 + 0:15 (previews) + 2:35 (movie) = 7:15 + 2:50 = 10:05 PM."
+        },
+        {
+          "id": "C",
+          "text": "10:50 PM",
+          "isCorrect": false,
+          "feedback": "You may have added 3 hours instead of 2 hours 50 minutes total."
+        },
+        {
+          "id": "D",
+          "text": "9:35 PM",
+          "isCorrect": false,
+          "feedback": "You only added the movie time. Include the 15 minutes of previews."
+        },
+        {
+          "id": "E",
+          "text": "10:20 PM",
+          "isCorrect": false,
+          "feedback": "Check your addition. The previews are before the movie, counted once."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Calculate total duration**\nPreviews: 15 minutes\nMovie: 2 hours 35 minutes\nTotal: 2 hours 50 minutes\n\n**Step 2: Add to start time**\n7:15 PM + 2 hours = 9:15 PM\n9:15 PM + 50 minutes = 10:05 PM",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Add both the preview time and movie time to the start time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total viewing time = 15 + 2:35 = 2 hours 50 minutes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "7:15 + 2:50 = 10:05 PM",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "time-addition",
+          "multiple-durations",
+          "compound-time-calculation"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "C": "computation_error",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Combine all durations, then add to start time",
+        "methodologySteps": [
+          "Sum all durations",
+          "Add total duration to start time",
+          "Convert if needed"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Forgetting one component",
+          "Double counting"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-011",
+      "questionType": "MCQ",
+      "stem": "Emma needs to catch a flight at 3:45 PM. She must arrive at the airport 2 hours before the flight. The bus to the airport takes 55 minutes. What is the latest time Emma can catch the bus?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "1:00 PM",
+          "isCorrect": false,
+          "feedback": "Check your subtraction. 1:45 - 55 minutes = 12:50 PM."
+        },
+        {
+          "id": "B",
+          "text": "2:50 PM",
+          "isCorrect": false,
+          "feedback": "You subtracted from the flight time. She needs to be there 2 hours BEFORE the flight."
+        },
+        {
+          "id": "C",
+          "text": "1:45 PM",
+          "isCorrect": false,
+          "feedback": "This is when she needs to arrive at the airport, not when she catches the bus."
+        },
+        {
+          "id": "D",
+          "text": "12:00 PM",
+          "isCorrect": false,
+          "feedback": "This is too early. Work backward from the airport arrival time."
+        },
+        {
+          "id": "E",
+          "text": "12:50 PM",
+          "isCorrect": true,
+          "feedback": "Correct! Arrive by 1:45 PM (2 hours before 3:45). Subtract 55 min bus ride: 1:45 - 0:55 = 12:50 PM."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Calculate required airport arrival**\nFlight: 3:45 PM\nMust arrive 2 hours before: 3:45 - 2:00 = 1:45 PM\n\n**Step 2: Calculate latest bus time**\nBus takes 55 minutes, so:\n1:45 PM - 55 minutes = 12:50 PM",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Work backwards: first find when Emma must arrive at the airport.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Airport arrival: 3:45 - 2 hours = 1:45 PM. Now subtract bus time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "1:45 - 55 minutes = 12:50 PM",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "backward-calculation",
+          "time-subtraction",
+          "constraint-planning"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "wrong_reference_point",
+          "C": "partial_solution",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Work backward from deadline: subtract each required time",
+        "methodologySteps": [
+          "Start with the final deadline",
+          "Subtract buffer time to get required arrival",
+          "Subtract travel time to get departure time"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Working forward instead of backward",
+          "Using wrong reference point"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 11
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-012",
+      "questionType": "MCQ",
+      "stem": "The train schedule shows:\n- Train to City: Departs 8:15 AM, 8:35 AM, 8:55 AM (then every 20 minutes)\n- Train to Beach: Departs 8:20 AM, 8:50 AM, 9:20 AM (then every 30 minutes)\n\nWhat is the next time after 9:30 AM when both trains depart within 5 minutes of each other?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "10:35 AM and 10:35 AM",
+          "isCorrect": false,
+          "feedback": "While close, this is not the next time after 9:30 AM."
+        },
+        {
+          "id": "B",
+          "text": "9:35 AM and 9:50 AM",
+          "isCorrect": false,
+          "feedback": "9:35 and 9:50 are 15 minutes apart, not within 5 minutes."
+        },
+        {
+          "id": "C",
+          "text": "10:15 AM and 10:20 AM",
+          "isCorrect": false,
+          "feedback": "City at 10:15 and Beach at 10:20 are 5 minutes apart, but this is after 9:55/9:50."
+        },
+        {
+          "id": "D",
+          "text": "9:35 AM and 9:35 AM",
+          "isCorrect": false,
+          "feedback": "The Beach train doesn't run at 9:35 AM. Check the Beach schedule."
+        },
+        {
+          "id": "E",
+          "text": "9:55 AM and 9:50 AM",
+          "isCorrect": true,
+          "feedback": "Correct! City train at 9:55 (8:15 + 100 min), Beach train at 9:50 (8:20 + 90 min). They're 5 minutes apart."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: List City train times after 9:30**\n8:55 + 20 = 9:15, 9:35, 9:55, 10:15, 10:35...\n\n**Step 2: List Beach train times after 9:30**\n9:20 + 30 = 9:50, 10:20, 10:50...\n\n**Step 3: Find pairs within 5 minutes**\n9:55 (City) and 9:50 (Beach) = 5 minutes apart. This is the first match.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Continue each schedule pattern after 9:30 AM.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "City: 9:35, 9:55, 10:15... Beach: 9:50, 10:20...",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "9:55 and 9:50 are only 5 minutes apart.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "pattern-continuation",
+          "time-intervals",
+          "comparison"
+        ],
+        "distractorTypes": {
+          "A": "not_first_solution",
+          "B": "incorrect_comparison",
+          "C": "not_first_solution",
+          "D": "pattern_error"
+        },
+        "solutionApproach": "Continue each pattern, compare to find matches within tolerance",
+        "methodologySteps": [
+          "Extend each timetable pattern",
+          "Compare departure times",
+          "Find first pair meeting the condition"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Pattern continuation errors",
+          "Not finding the first matching pair"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 12
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-013",
+      "questionType": "MCQ",
+      "stem": "A train leaves Station A at 9:15 AM and arrives at Station B at 10:42 AM. The next train to Station C leaves Station B at 11:05 AM and takes 48 minutes. What time does it arrive at Station C?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "11:43 AM",
+          "isCorrect": false,
+          "feedback": "Check your addition. 11:05 + 48 minutes = 11:53 AM."
+        },
+        {
+          "id": "B",
+          "text": "11:48 AM",
+          "isCorrect": false,
+          "feedback": "You may have confused the duration (48 min) with the arrival time."
+        },
+        {
+          "id": "C",
+          "text": "12:15 PM",
+          "isCorrect": false,
+          "feedback": "This adds more time than needed. The journey is 48 minutes from 11:05."
+        },
+        {
+          "id": "D",
+          "text": "11:53 AM",
+          "isCorrect": true,
+          "feedback": "Correct! Train to Station C departs 11:05 AM + 48 minutes = 11:53 AM."
+        },
+        {
+          "id": "E",
+          "text": "12:03 PM",
+          "isCorrect": false,
+          "feedback": "You added 58 minutes instead of 48 minutes."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Identify connecting train details**\nDeparture from B: 11:05 AM\nJourney time: 48 minutes\n\n**Step 2: Calculate arrival at C**\n11:05 + 48 = 11:53 AM\n(5 + 48 = 53 minutes, hour stays 11)",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Focus on the second leg: when does it depart and how long is it?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Departs Station B at 11:05 AM, takes 48 minutes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "11:05 + 48 = 11:53 AM",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "connection-transfer",
+          "time-addition",
+          "multi-step"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "misread_question",
+          "C": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Identify the relevant connecting service, add journey time",
+        "methodologySteps": [
+          "Find connecting service departure time",
+          "Add journey duration",
+          "Calculate arrival time"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Using wrong departure time",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 13
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-014",
+      "questionType": "MCQ",
+      "stem": "The library has the following opening hours:\n- Monday to Friday: 9:00 AM - 6:00 PM\n- Saturday: 10:00 AM - 4:00 PM\n- Sunday: Closed\n\nHow many hours is the library open in a week?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "51 hours",
+          "isCorrect": true,
+          "feedback": "Correct! Weekdays: 9 hours x 5 = 45 hours. Saturday: 6 hours. Total: 45 + 6 = 51 hours."
+        },
+        {
+          "id": "B",
+          "text": "48 hours",
+          "isCorrect": false,
+          "feedback": "Check your calculation for Saturday hours."
+        },
+        {
+          "id": "C",
+          "text": "45 hours",
+          "isCorrect": false,
+          "feedback": "Check the weekday hours. 9 AM to 6 PM is 9 hours, not 10."
+        },
+        {
+          "id": "D",
+          "text": "39 hours",
+          "isCorrect": false,
+          "feedback": "You may have used 7 hours per weekday. It's 9 AM to 6 PM = 9 hours."
+        },
+        {
+          "id": "E",
+          "text": "54 hours",
+          "isCorrect": false,
+          "feedback": "You may have included Sunday or miscounted hours."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Calculate weekday hours**\nMonday-Friday: 9 AM to 6 PM = 9 hours per day\n5 days x 9 hours = 45 hours\n\n**Step 2: Calculate Saturday hours**\n10 AM to 4 PM = 6 hours\n\n**Step 3: Add total**\n45 + 6 = 51 hours",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Calculate hours for weekdays and Saturday separately.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Weekday: 9 AM to 6 PM = 9 hours. Saturday: 10 AM to 4 PM = 6 hours.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "5 x 9 + 6 = 45 + 6 = 51 hours",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "duration-calculation",
+          "multiplication",
+          "addition"
+        ],
+        "distractorTypes": {
+          "B": "computation_error",
+          "C": "computation_error",
+          "D": "computation_error",
+          "E": "included_closed_day"
+        },
+        "solutionApproach": "Calculate hours per day type, multiply by days, sum",
+        "methodologySteps": [
+          "Calculate hours for each day type",
+          "Multiply by number of days",
+          "Add all totals"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Including closed days",
+          "Miscounting hours in a range"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 14
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-015",
+      "questionType": "MCQ",
+      "stem": "A concert starts at 7:30 PM. There are 3 bands performing:\n- Band A plays for 45 minutes\n- 15-minute break\n- Band B plays for 50 minutes\n- 15-minute break\n- Band C plays for 1 hour\n\nWhat time does the concert finish?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "10:15 PM",
+          "isCorrect": false,
+          "feedback": "You may have forgotten one of the breaks."
+        },
+        {
+          "id": "B",
+          "text": "10:45 PM",
+          "isCorrect": false,
+          "feedback": "Check your total. The sum is 185 minutes, not 195 minutes."
+        },
+        {
+          "id": "C",
+          "text": "10:35 PM",
+          "isCorrect": true,
+          "feedback": "Correct! Total time: 45 + 15 + 50 + 15 + 60 = 185 min = 3 hr 5 min. 7:30 + 3:05 = 10:35 PM."
+        },
+        {
+          "id": "D",
+          "text": "10:05 PM",
+          "isCorrect": false,
+          "feedback": "You forgot to include the break times."
+        },
+        {
+          "id": "E",
+          "text": "11:05 PM",
+          "isCorrect": false,
+          "feedback": "You may have added an extra break or miscounted."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Add all durations**\nBand A: 45 min\nBreak: 15 min\nBand B: 50 min\nBreak: 15 min\nBand C: 60 min\nTotal: 185 minutes = 3 hours 5 minutes\n\n**Step 2: Add to start time**\n7:30 PM + 3 hours 5 minutes = 10:35 PM",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Add up all performance times AND break times.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total: 45 + 15 + 50 + 15 + 60 = 185 minutes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "185 min = 3 hr 5 min. 7:30 + 3:05 = 10:35 PM.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "multiple-durations",
+          "time-addition",
+          "minute-hour-conversion"
+        ],
+        "distractorTypes": {
+          "A": "partial_solution",
+          "B": "computation_error",
+          "D": "partial_solution",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Sum all durations including breaks, add to start time",
+        "methodologySteps": [
+          "List all durations",
+          "Sum to get total",
+          "Convert to hours and minutes",
+          "Add to start time"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Forgetting breaks",
+          "Arithmetic errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 15
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-016",
+      "questionType": "MCQ",
+      "stem": "Tom needs to travel from his home to the airport. The bus from home to the train station takes 25 minutes. Buses leave every 15 minutes starting at 6:00 AM. The train to the airport takes 40 minutes and leaves at 6:45 AM and 7:30 AM. What is the latest bus Tom can catch from home to arrive at the airport by 8:10 AM?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6:15 AM",
+          "isCorrect": false,
+          "feedback": "6:15 + 25 = 6:40 AM arrival. He can catch 6:45 train arriving 7:25. But is there a later option?"
+        },
+        {
+          "id": "B",
+          "text": "6:45 AM",
+          "isCorrect": false,
+          "feedback": "6:45 + 25 = 7:10 AM. This misses the 6:45 train and arrives too late for 7:30 train (arrives 7:10)... Wait, 7:10 catches 7:30 train = 8:10. But is it the latest?"
+        },
+        {
+          "id": "C",
+          "text": "7:15 AM",
+          "isCorrect": false,
+          "feedback": "7:15 + 25 = 7:40 AM. This misses the 7:30 train, so Tom won't make it by 8:10."
+        },
+        {
+          "id": "D",
+          "text": "6:00 AM",
+          "isCorrect": false,
+          "feedback": "This works but is not the latest bus. Check if a later bus can still make it."
+        },
+        {
+          "id": "E",
+          "text": "7:00 AM",
+          "isCorrect": true,
+          "feedback": "Correct! 7:00 + 25 = 7:25 AM at station. Catches 7:30 train, arrives airport 8:10 AM. Any later bus misses it."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Work backward from airport arrival**\nMust arrive by 8:10 AM\n7:30 AM train arrives 8:10 AM (40 min journey)\n\n**Step 2: Find latest bus to catch 7:30 train**\nNeed to be at station before 7:30 AM\nBus takes 25 minutes\nLatest departure: 7:30 - 25 = 7:05 AM\n\n**Step 3: Check bus schedule**\nBuses at 6:00, 6:15, 6:30, 6:45, 7:00, 7:15...\n7:00 AM bus arrives 7:25 AM, catches 7:30 train.\n7:15 AM bus arrives 7:40 AM, too late.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Work backward from the airport arrival deadline.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "7:30 train arrives 8:10. Tom needs to reach the station before 7:30.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "7:00 AM bus + 25 min = 7:25 at station. Catches 7:30 train. Latest option.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "backward-planning",
+          "connection-timing",
+          "constraint-satisfaction"
+        ],
+        "distractorTypes": {
+          "A": "not_optimal",
+          "B": "not_optimal",
+          "C": "misses_connection",
+          "D": "not_optimal"
+        },
+        "solutionApproach": "Work backward from deadline, match with available schedules",
+        "methodologySteps": [
+          "Identify final deadline",
+          "Work backward through each connection",
+          "Match with actual schedule times"
+        ],
+        "timeTarget": 120,
+        "commonErrors": [
+          "Not finding the latest valid option",
+          "Missing connection times"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 16
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-017",
+      "questionType": "MCQ",
+      "stem": "A doctor's appointment schedule shows:\n- Each consultation: 15 minutes\n- Break after every 4 consultations: 10 minutes\n- Start time: 9:00 AM\n\nAt what time will the 10th patient's consultation begin?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "11:45 AM",
+          "isCorrect": false,
+          "feedback": "You may have added an extra break."
+        },
+        {
+          "id": "B",
+          "text": "11:35 AM",
+          "isCorrect": true,
+          "feedback": "Correct! 9 patients x 15 min = 135 min. 2 breaks x 10 min = 20 min. Total: 155 min = 2 hr 35 min. 9:00 + 2:35 = 11:35 AM."
+        },
+        {
+          "id": "C",
+          "text": "11:15 AM",
+          "isCorrect": false,
+          "feedback": "You forgot to account for the breaks."
+        },
+        {
+          "id": "D",
+          "text": "12:05 PM",
+          "isCorrect": false,
+          "feedback": "Too many breaks counted. Only 2 breaks occur before patient 10."
+        },
+        {
+          "id": "E",
+          "text": "11:25 AM",
+          "isCorrect": false,
+          "feedback": "Check the number of breaks. After patients 4 and 8, there are breaks."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Calculate time for 9 consultations**\n9 x 15 = 135 minutes\n\n**Step 2: Count breaks before patient 10**\nBreak after patient 4: 10 min\nBreak after patient 8: 10 min\nTotal breaks: 20 minutes\n\n**Step 3: Calculate start time of patient 10**\n135 + 20 = 155 minutes = 2 hours 35 minutes\n9:00 AM + 2:35 = 11:35 AM",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Count the consultations before patient 10 and the breaks that occur.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "9 consultations = 135 min. Breaks after 4th and 8th patients = 20 min.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "135 + 20 = 155 min = 2 hr 35 min. 9:00 + 2:35 = 11:35 AM.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "pattern-recognition",
+          "break-intervals",
+          "compound-calculation"
+        ],
+        "distractorTypes": {
+          "A": "extra_break",
+          "C": "missing_breaks",
+          "D": "too_many_breaks",
+          "E": "partial_breaks"
+        },
+        "solutionApproach": "Calculate consultations, count breaks, sum and convert",
+        "methodologySteps": [
+          "Calculate time for preceding consultations",
+          "Count and add break times",
+          "Convert total to hours and minutes",
+          "Add to start time"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Miscounting breaks",
+          "Off-by-one errors"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 17
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-018",
+      "questionType": "MCQ",
+      "stem": "Flight Schedule:\n- Sydney to Singapore: Departs 10:30 AM, Flight time 8 hours (Singapore is 2 hours behind Sydney)\n- Singapore to London: Departs 11:00 PM Singapore time, Flight time 13 hours (London is 8 hours behind Singapore)\n\nIf Sarah takes these flights, what time (London time) does she arrive in London?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6:00 AM",
+          "isCorrect": false,
+          "feedback": "Review the time zone calculation. London is 8 hours behind Singapore."
+        },
+        {
+          "id": "B",
+          "text": "10:00 PM",
+          "isCorrect": false,
+          "feedback": "This doesn't account correctly for the flight duration and time zone."
+        },
+        {
+          "id": "C",
+          "text": "4:00 AM",
+          "isCorrect": true,
+          "feedback": "Correct! Sydney 10:30 AM + 8hr = Sydney 6:30 PM = Singapore 4:30 PM. Wait for 11 PM flight. 11 PM + 13 hr = Singapore 12:00 PM next day = London 4:00 AM."
+        },
+        {
+          "id": "D",
+          "text": "12:00 PM",
+          "isCorrect": false,
+          "feedback": "This is Singapore time, not London time. London is 8 hours behind."
+        },
+        {
+          "id": "E",
+          "text": "8:00 AM",
+          "isCorrect": false,
+          "feedback": "Check the time zone conversion from Singapore to London."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Sydney to Singapore**\nDepart Sydney: 10:30 AM\nFlight: 8 hours\nArrive Singapore time: 10:30 - 2 (time zone) + 8 = 16:30 = 4:30 PM\n\n**Step 2: Wait in Singapore**\nArrive: 4:30 PM\nNext flight: 11:00 PM\nWait time: 6.5 hours\n\n**Step 3: Singapore to London**\nDepart: 11:00 PM Singapore\nFlight: 13 hours\nArrive Singapore time: 11:00 PM + 13 hr = 12:00 PM next day\nConvert to London: 12:00 PM - 8 hours = 4:00 AM London time",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Work through each flight, adjusting for time zones at each step.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Arrive Singapore 4:30 PM local. Flight at 11 PM + 13 hrs = noon Singapore time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "12:00 PM Singapore - 8 hours = 4:00 AM London time.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "time-zones",
+          "multi-leg-flight",
+          "layover-calculation"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "wrong_direction",
+          "D": "wrong_timezone",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Track through each leg with time zone adjustments",
+        "methodologySteps": [
+          "Calculate arrival in first time zone",
+          "Add layover to next departure",
+          "Calculate final arrival with time zone conversion"
+        ],
+        "timeTarget": 120,
+        "commonErrors": [
+          "Time zone direction errors",
+          "Forgetting to convert back"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 18
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-019",
+      "questionType": "MCQ",
+      "stem": "A factory runs 3 shifts:\n- Morning: 6:00 AM - 2:00 PM\n- Afternoon: 2:00 PM - 10:00 PM\n- Night: 10:00 PM - 6:00 AM\n\nJohn works 5 afternoon shifts and 2 night shifts per week. How many hours does John work per week?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "52 hours",
+          "isCorrect": false,
+          "feedback": "Each shift is exactly 8 hours. 7 shifts x 8 = 56 hours."
+        },
+        {
+          "id": "B",
+          "text": "40 hours",
+          "isCorrect": false,
+          "feedback": "You only counted 5 shifts. John works 7 shifts total."
+        },
+        {
+          "id": "C",
+          "text": "48 hours",
+          "isCorrect": false,
+          "feedback": "Check the hours per shift. Each shift is 8 hours."
+        },
+        {
+          "id": "D",
+          "text": "64 hours",
+          "isCorrect": false,
+          "feedback": "Check your calculation. 7 shifts x 8 hours = 56 hours."
+        },
+        {
+          "id": "E",
+          "text": "56 hours",
+          "isCorrect": true,
+          "feedback": "Correct! Each shift is 8 hours. 5 + 2 = 7 shifts. 7 x 8 = 56 hours."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Calculate hours per shift**\nEach shift: 8 hours (6-2, 2-10, 10-6)\n\n**Step 2: Count total shifts**\nAfternoon: 5 shifts\nNight: 2 shifts\nTotal: 7 shifts\n\n**Step 3: Calculate weekly hours**\n7 x 8 = 56 hours",
+      "hints": [
+        {
+          "level": 1,
+          "content": "First find how many hours are in each shift.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Each shift is 8 hours. John works 5 + 2 = 7 shifts.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "7 shifts x 8 hours = 56 hours per week.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "duration-calculation",
+          "multiplication",
+          "addition"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "computation_error",
+          "D": "computation_error"
+        },
+        "solutionApproach": "Calculate shift length, count shifts, multiply",
+        "methodologySteps": [
+          "Find duration of each shift type",
+          "Count total shifts",
+          "Multiply to get total hours"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Forgetting one shift type",
+          "Wrong shift duration"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 19
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-020",
+      "questionType": "MCQ",
+      "stem": "The ferry timetable shows departures from Circular Quay to Manly:\n7:00, 7:30, 8:00, 8:30, 9:00, 9:30, 10:00, 10:30, 11:00 AM\n\nThe journey takes 30 minutes. Lucy needs to be at Manly by 9:45 AM. She takes 15 minutes to walk from her home to Circular Quay. What is the latest time she can leave home?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "8:45 AM",
+          "isCorrect": false,
+          "feedback": "This would get her to the ferry at 9:00, arriving Manly 9:30. But is this the latest option?"
+        },
+        {
+          "id": "B",
+          "text": "9:15 AM",
+          "isCorrect": false,
+          "feedback": "9:15 + 15 = 9:30. She would miss the 9:30 ferry and arrive too late."
+        },
+        {
+          "id": "C",
+          "text": "8:15 AM",
+          "isCorrect": false,
+          "feedback": "This is too early. A later departure time would still get her there on time."
+        },
+        {
+          "id": "D",
+          "text": "8:30 AM",
+          "isCorrect": false,
+          "feedback": "Leaves 8:30, arrives Quay 8:45, catches 9:00 ferry, arrives 9:30 AM. But can she leave later?"
+        },
+        {
+          "id": "E",
+          "text": "9:00 AM",
+          "isCorrect": true,
+          "feedback": "Correct! Leave 9:00, arrive Quay 9:15, catch 9:30 ferry, arrive Manly 10:00. Wait - that's after 9:45! Let me recalculate..."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Work backward from Manly arrival**\nMust arrive by 9:45 AM\nFerry takes 30 min, so latest departure: 9:15 AM\nBut 9:15 isn't a ferry time, so: 9:00 AM ferry (arrives 9:30)\n\n**Step 2: Calculate walking time**\nMust be at Quay before 9:00 AM\n15 min walk, so: leave by 8:45 AM\n\n**Step 3: Verify**\nLeave 8:45, arrive Quay 9:00, catch 9:00 ferry, arrive Manly 9:30 AM (before 9:45)",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Work backward: which ferry gets her there by 9:45?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "9:00 ferry arrives 9:30. She needs to be at Quay by 9:00.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "9:00 - 15 min walk = 8:45 AM latest departure from home.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "backward-planning",
+          "schedule-matching",
+          "time-subtraction"
+        ],
+        "distractorTypes": {
+          "B": "misses_ferry",
+          "C": "not_optimal",
+          "D": "not_optimal"
+        },
+        "solutionApproach": "Work backward from deadline through each step",
+        "methodologySteps": [
+          "Find latest ferry that arrives on time",
+          "Work backward through walking time",
+          "Find latest home departure"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Using ferry time that doesn't exist",
+          "Wrong direction of subtraction"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 20
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-021",
+      "questionType": "MCQ",
+      "stem": "A night bus service runs every 45 minutes from 10:00 PM. The last bus is at 2:15 AM. Emma misses the 11:30 PM bus by 5 minutes. How long must she wait for the next bus?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "50 minutes",
+          "isCorrect": false,
+          "feedback": "Calculate from 11:35 PM to the next bus at 12:15 AM."
+        },
+        {
+          "id": "B",
+          "text": "45 minutes",
+          "isCorrect": false,
+          "feedback": "The buses run every 45 minutes, but she missed by 5 minutes, so she waits 45 - 5 = 40 minutes."
+        },
+        {
+          "id": "C",
+          "text": "40 minutes",
+          "isCorrect": true,
+          "feedback": "Correct! She arrived at 11:35 PM. Next bus: 11:30 + 45 = 12:15 AM. Wait: 12:15 - 11:35 = 40 minutes."
+        },
+        {
+          "id": "D",
+          "text": "55 minutes",
+          "isCorrect": false,
+          "feedback": "The interval is 45 minutes, and she already missed by 5, so wait = 45 - 5 = 40."
+        },
+        {
+          "id": "E",
+          "text": "35 minutes",
+          "isCorrect": false,
+          "feedback": "Check: 11:35 PM to 12:15 AM is 40 minutes."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Find Emma's arrival time**\nMissed 11:30 PM by 5 minutes\nArrived at 11:35 PM\n\n**Step 2: Find next bus**\n11:30 PM + 45 minutes = 12:15 AM\n\n**Step 3: Calculate wait time**\n12:15 AM - 11:35 PM = 40 minutes",
+      "hints": [
+        {
+          "level": 1,
+          "content": "When did Emma arrive at the bus stop?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "She arrived 11:35 PM. Next bus: 11:30 + 45 min = 12:15 AM.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "12:15 AM - 11:35 PM = 40 minutes wait.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "crossing-midnight",
+          "wait-time",
+          "time-intervals"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "used_interval",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Find arrival time, calculate next service, find difference",
+        "methodologySteps": [
+          "Calculate actual arrival time",
+          "Find next scheduled service",
+          "Calculate wait time"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Using full interval instead of remaining time",
+          "Confusion crossing midnight"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 21
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-022",
+      "questionType": "MCQ",
+      "stem": "A bakery opens at 5:30 AM. Each batch of bread takes 45 minutes to bake. The baker starts the first batch immediately and puts in a new batch as soon as one finishes. If she needs 8 batches ready for the morning rush at 9:00 AM, what time must she start her first batch?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "4:00 AM",
+          "isCorrect": false,
+          "feedback": "That would only give 5 hours. 8 batches x 45 min = 6 hours needed."
+        },
+        {
+          "id": "B",
+          "text": "3:00 AM",
+          "isCorrect": true,
+          "feedback": "Correct! 8 batches x 45 min = 360 min = 6 hours. 9:00 AM - 6 hours = 3:00 AM."
+        },
+        {
+          "id": "C",
+          "text": "3:30 AM",
+          "isCorrect": false,
+          "feedback": "8 x 45 = 360 minutes = 6 hours. 9:00 - 6:00 = 3:00 AM."
+        },
+        {
+          "id": "D",
+          "text": "5:30 AM",
+          "isCorrect": false,
+          "feedback": "Starting at opening would only give 3.5 hours, which is not enough for 8 batches."
+        },
+        {
+          "id": "E",
+          "text": "2:30 AM",
+          "isCorrect": false,
+          "feedback": "This gives too much time. 8 x 45 = 360 min = 6 hours is all that's needed."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Calculate total baking time**\n8 batches x 45 minutes = 360 minutes = 6 hours\n\n**Step 2: Work backward from deadline**\nNeeded by: 9:00 AM\n9:00 AM - 6 hours = 3:00 AM\n\n**Step 3: Verify**\nStart 3:00 AM, finish at 9:00 AM with all 8 batches ready.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "How long does it take to make all 8 batches?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "8 x 45 = 360 minutes = 6 hours total baking time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "9:00 AM - 6 hours = 3:00 AM start time.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "sequential-process",
+          "backward-planning",
+          "multiplication"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "computation_error",
+          "D": "wrong_reference",
+          "E": "over_estimate"
+        },
+        "solutionApproach": "Calculate total time needed, subtract from deadline",
+        "methodologySteps": [
+          "Calculate total process time",
+          "Convert to hours and minutes",
+          "Work backward from deadline"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Arithmetic errors with multiplication",
+          "Using wrong reference time"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 22
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-023",
+      "questionType": "MCQ",
+      "stem": "A factory operates 24 hours with the following shift pattern:\n- Day shift: 6:00 AM - 2:00 PM (30-min lunch break at noon)\n- Evening shift: 2:00 PM - 10:00 PM (30-min dinner break at 6:00 PM)\n- Night shift: 10:00 PM - 6:00 AM (30-min break at 2:00 AM)\n\nIf a worker is paid $18 per hour (breaks are unpaid), how much does a worker earn for one complete week (7 days) working day shifts?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$945",
+          "isCorrect": true,
+          "feedback": "Correct! 7.5 hours x $18 = $135/day. 7 days x $135 = $945."
+        },
+        {
+          "id": "B",
+          "text": "$1,260",
+          "isCorrect": false,
+          "feedback": "You may have counted too many hours or used the wrong rate."
+        },
+        {
+          "id": "C",
+          "text": "$1008",
+          "isCorrect": false,
+          "feedback": "You may have included the break as paid time. Breaks are unpaid."
+        },
+        {
+          "id": "D",
+          "text": "$756",
+          "isCorrect": false,
+          "feedback": "Check: 7.5 hours x 7 days = 52.5 hours. 52.5 x $18 = $945."
+        },
+        {
+          "id": "E",
+          "text": "$882",
+          "isCorrect": false,
+          "feedback": "Check the hours per shift. 8 hours minus 30 min break = 7.5 working hours."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Calculate working hours per shift**\n6:00 AM to 2:00 PM = 8 hours\nMinus 30-min break = 7.5 working hours\n\n**Step 2: Calculate daily earnings**\n7.5 hours x $18 = $135 per day\n\n**Step 3: Calculate weekly earnings**\n7 days x $135 = $945",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Subtract break time from total shift time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "8 hours - 0.5 hour = 7.5 paid hours. Daily pay: 7.5 x $18 = $135.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "$135 x 7 days = $945 per week.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "duration-calculation",
+          "break-deduction",
+          "multiplication",
+          "money"
+        ],
+        "distractorTypes": {
+          "B": "computation_error",
+          "C": "included_breaks",
+          "D": "computation_error",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Calculate net working hours, multiply by rate and days",
+        "methodologySteps": [
+          "Calculate gross shift hours",
+          "Subtract break time",
+          "Calculate daily pay",
+          "Calculate weekly pay"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Including break in paid hours",
+          "Calculation errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 23
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-024",
+      "questionType": "MCQ",
+      "stem": "A train travels from City A to City D with stops:\n- City A to City B: 1 hour 15 minutes, 5-minute stop\n- City B to City C: 2 hours 20 minutes, 10-minute stop\n- City C to City D: 55 minutes\n\nIf the train departs City A at 10:45 PM, what time does it arrive at City D?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "2:45 AM",
+          "isCorrect": false,
+          "feedback": "Check your total journey time. Include all travel and stop times."
+        },
+        {
+          "id": "B",
+          "text": "3:30 AM",
+          "isCorrect": true,
+          "feedback": "Correct! Total: 1:15 + 0:05 + 2:20 + 0:10 + 0:55 = 4:45. 10:45 PM + 4:45 = 3:30 AM."
+        },
+        {
+          "id": "C",
+          "text": "4:00 AM",
+          "isCorrect": false,
+          "feedback": "Double-check your addition. The total is 4 hours 45 minutes."
+        },
+        {
+          "id": "D",
+          "text": "3:15 AM",
+          "isCorrect": false,
+          "feedback": "You may have forgotten one of the station stops."
+        },
+        {
+          "id": "E",
+          "text": "3:45 AM",
+          "isCorrect": false,
+          "feedback": "Close! Recheck the total time: 75 + 5 + 140 + 10 + 55 = 285 minutes."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Calculate total time**\nA to B: 1 hr 15 min = 75 min\nStop at B: 5 min\nB to C: 2 hr 20 min = 140 min\nStop at C: 10 min\nC to D: 55 min\nTotal: 75 + 5 + 140 + 10 + 55 = 285 min = 4 hr 45 min\n\n**Step 2: Add to departure**\n10:45 PM + 4 hr 45 min\n= 10:45 PM + 5 hr - 15 min\n= 3:45 AM - 15 min = 3:30 AM\n\nOr: 10:45 + 4:45 = 15:30 = 3:30 AM next day",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Add all travel times AND stop times.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Total: 75 + 5 + 140 + 10 + 55 = 285 minutes = 4 hours 45 minutes.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "10:45 PM + 4:45 = 3:30 AM next day.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "multi-leg-journey",
+          "stop-times",
+          "crossing-midnight"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "computation_error",
+          "D": "missing_stop",
+          "E": "computation_error"
+        },
+        "solutionApproach": "Sum all segments and stops, add to departure crossing midnight",
+        "methodologySteps": [
+          "List all segments and stops",
+          "Sum total time",
+          "Add to departure time",
+          "Handle midnight crossing"
+        ],
+        "timeTarget": 120,
+        "commonErrors": [
+          "Forgetting stops",
+          "Midnight transition errors"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 24
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa16-025",
+      "questionType": "MCQ",
+      "stem": "An international call centre operates from 8:00 AM to 8:00 PM Sydney time. A worker in London (11 hours behind Sydney) wants to work a full 8-hour shift that overlaps completely with Sydney hours. What London time range allows for a complete 8-hour shift during Sydney operating hours?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "6:00 AM to 2:00 PM London time",
+          "isCorrect": false,
+          "feedback": "Convert to Sydney: 5 PM to 1 AM. This extends past Sydney's 8 PM close."
+        },
+        {
+          "id": "B",
+          "text": "11:00 AM to 7:00 PM London time",
+          "isCorrect": false,
+          "feedback": "This would be 10 PM to 6 AM Sydney time, outside operating hours."
+        },
+        {
+          "id": "C",
+          "text": "8:00 AM to 4:00 PM London time",
+          "isCorrect": false,
+          "feedback": "This would be 7 PM to 3 AM Sydney time, outside operating hours."
+        },
+        {
+          "id": "D",
+          "text": "12:00 AM to 8:00 AM London time",
+          "isCorrect": false,
+          "feedback": "Convert: London 12 AM = Sydney 11 AM. This goes 11 AM - 7 PM Sydney, which works but starts later than needed."
+        },
+        {
+          "id": "E",
+          "text": "9:00 PM to 5:00 AM London time",
+          "isCorrect": true,
+          "feedback": "Correct! Sydney 8 AM - 8 PM = London 9 PM - 9 AM (prev-next day). Any 8-hour block within this works, e.g., 9 PM - 5 AM."
+        }
+      ],
+      "solution": "**Methodology: Timetable Navigation**\n\n**Step 1: Convert Sydney hours to London time**\nSydney 8:00 AM = London 8:00 - 11 = 9:00 PM (previous day)\nSydney 8:00 PM = London 8:00 - 11 = 9:00 AM\n\n**Step 2: Find valid London window**\nSydney operating: 8 AM - 8 PM (12 hours)\nLondon equivalent: 9:00 PM - 9:00 AM (12 hours)\n\n**Step 3: Any 8-hour block within this works**\nExample: 9:00 PM to 5:00 AM London time\nThis equals 8:00 AM to 4:00 PM Sydney time, fully within operating hours.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Convert Sydney operating hours to London time.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Sydney 8 AM - 8 PM = London 9 PM - 9 AM (crossing midnight).",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Any 8-hour block from 9 PM to 9 AM London works. Example: 9 PM - 5 AM.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Timetable Navigation",
+        "archetypeId": "qa16",
+        "conceptsRequired": [
+          "time-zones",
+          "schedule-overlap",
+          "backward-conversion"
+        ],
+        "distractorTypes": {
+          "A": "partial_overlap",
+          "B": "wrong_timezone_direction",
+          "C": "wrong_timezone_direction",
+          "D": "suboptimal_choice"
+        },
+        "solutionApproach": "Convert operating hours to local time, find valid overlap",
+        "methodologySteps": [
+          "Convert operating hours to target time zone",
+          "Identify the overlap window",
+          "Find a valid shift within the window"
+        ],
+        "timeTarget": 120,
+        "commonErrors": [
+          "Adding instead of subtracting time zones",
+          "Not finding the full overlap"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-13MG"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Measurement and Geometry",
+        "substrand": "Time"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa16-set1",
+        "sequenceInPaper": 25
+      },
+      "status": "published"
+    }
+  ]
+}

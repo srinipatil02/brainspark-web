@@ -1,0 +1,2583 @@
+{
+  "metadata": {
+    "archetype": "Reverse Percentage (Find Original)",
+    "archetypeId": "qa13",
+    "archetypeSlug": "reverse-percentage",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "foundation": {
+        "count": 5,
+        "difficulty": "1-2"
+      },
+      "application": {
+        "count": 10,
+        "difficulty": "2-3"
+      },
+      "connection": {
+        "count": 5,
+        "difficulty": "3"
+      },
+      "mastery": {
+        "count": 5,
+        "difficulty": "4"
+      }
+    },
+    "createdAt": "2026-01-12",
+    "version": "1.0",
+    "researchSource": ".claude/knowledge/edu/research/mathematical-reasoning-nsw-selective.json"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa13-001",
+      "questionType": "MCQ",
+      "stem": "A shop has a sale with 10% off everything. Emma buys a book for $18. What was the original price of the book?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$180",
+          "isCorrect": false,
+          "feedback": "You divided by 0.1 instead of 0.9. A 10% discount means 90% remains, not 10%. Original = $18 ÷ 0.9, not $18 ÷ 0.1."
+        },
+        {
+          "id": "B",
+          "text": "$28",
+          "isCorrect": false,
+          "feedback": "Check your division. You may have divided by 0.64 instead of 0.9. For a 10% discount, sale price = 90% of original."
+        },
+        {
+          "id": "C",
+          "text": "$20",
+          "isCorrect": true,
+          "feedback": "Correct! If 10% is taken off, the sale price is 90% of the original. Original = $18 ÷ 0.9 = $20. Check: $20 × 0.9 = $18 ✓"
+        },
+        {
+          "id": "D",
+          "text": "$19.80",
+          "isCorrect": false,
+          "feedback": "You added 10% of $18 to $18. But $18 is already the reduced price. We need to find what $18 is 90% OF, not add 10% to it."
+        },
+        {
+          "id": "E",
+          "text": "$16.20",
+          "isCorrect": false,
+          "feedback": "You subtracted 10% of $18 from $18. The discount has already been applied. $18 IS the sale price, not the original."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage - we're given the sale price ($18) and need the original.\n\n**Step 2: Set up the equation**\n10% discount means the sale price is 90% (100% - 10%) of the original.\nSale Price = Original × 0.90\n$18 = Original × 0.90\n\n**Step 3: Solve**\nOriginal = $18 ÷ 0.90 = $20\n\n**Step 4: Check**\n$20 × 0.10 = $2 discount\n$20 - $2 = $18 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The $18 is what Emma paid AFTER the discount. What percentage of the original is that?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "If 10% is removed, 90% remains. So $18 = 90% of the original price.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Original = $18 ÷ 0.9. Divide 18 by 0.9 to find the original.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "word-problem-translation"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "computation_error",
+          "D": "forward_calculation",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Identify discount% → Set up: Original × (1 - discount) = Final → Solve: Original = Final ÷ (1 - discount)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage (sale price given, original wanted)",
+          "Translate: 10% off means Sale Price = Original × 0.90",
+          "Solve: Original = $18 ÷ 0.90 = $20",
+          "Check: Does $20 with 10% off = $18? $20 × 0.9 = $18 ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Adding percentage to final instead of dividing",
+          "Using wrong percentage (10% instead of 90%)"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-002",
+      "questionType": "MCQ",
+      "stem": "After a 20% price increase, a toy now costs $24. What was the original price?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$30",
+          "isCorrect": false,
+          "feedback": "Check your division. $24 ÷ 1.2 = $20, not $24 ÷ 0.8 = $30. For an increase, divide by MORE than 1."
+        },
+        {
+          "id": "B",
+          "text": "$19.20",
+          "isCorrect": false,
+          "feedback": "You subtracted 20% of $24 from $24. This gives a decrease, but we're told the price INCREASED to $24."
+        },
+        {
+          "id": "C",
+          "text": "$4.80",
+          "isCorrect": false,
+          "feedback": "This is 20% of $24, which is just the increase amount. We need the full original price before the increase."
+        },
+        {
+          "id": "D",
+          "text": "$20",
+          "isCorrect": true,
+          "feedback": "Correct! A 20% increase means the new price is 120% of the original. Original = $24 ÷ 1.2 = $20. Check: $20 × 1.2 = $24 ✓"
+        },
+        {
+          "id": "E",
+          "text": "$28.80",
+          "isCorrect": false,
+          "feedback": "You added 20% of $24 to $24. But $24 is already the INCREASED price. We need what $24 is 120% OF."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with an INCREASE - we're given the new price ($24) and need the original.\n\n**Step 2: Set up the equation**\n20% increase means the new price is 120% (100% + 20%) of the original.\nNew Price = Original × 1.20\n$24 = Original × 1.20\n\n**Step 3: Solve**\nOriginal = $24 ÷ 1.20 = $20\n\n**Step 4: Check**\n$20 × 0.20 = $4 increase\n$20 + $4 = $24 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The $24 is the price AFTER the increase. What percentage of the original is that?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "If something increases by 20%, the new value is 120% of the original. So $24 = 120% of original.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Original = $24 ÷ 1.2. Divide 24 by 1.2 to find the original.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "percentage-increase"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "wrong_operation",
+          "C": "partial_solution",
+          "E": "forward_calculation"
+        },
+        "solutionApproach": "Identify increase% → Set up: Original × (1 + increase) = Final → Solve: Original = Final ÷ (1 + increase)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with INCREASE (new price given, original wanted)",
+          "Translate: 20% increase means New Price = Original × 1.20",
+          "Solve: Original = $24 ÷ 1.20 = $20",
+          "Check: Does $20 with 20% increase = $24? $20 × 1.2 = $24 ✓"
+        ],
+        "timeTarget": 45,
+        "commonErrors": [
+          "Subtracting percentage from final instead of dividing",
+          "Dividing by 0.8 instead of 1.2"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 45,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-003",
+      "questionType": "MCQ",
+      "stem": "A store reduced its prices by 50%. Mia bought a dress for $35. What was the original price?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$17.50",
+          "isCorrect": false,
+          "feedback": "You subtracted 50% of $35 from $35. The discount has already been applied. $35 IS the sale price after 50% off."
+        },
+        {
+          "id": "B",
+          "text": "$70",
+          "isCorrect": true,
+          "feedback": "Correct! 50% off means she paid half the original. Original = $35 ÷ 0.5 = $70. Check: $70 × 0.5 = $35 ✓"
+        },
+        {
+          "id": "C",
+          "text": "$35",
+          "isCorrect": false,
+          "feedback": "You kept the same price. If Mia paid $35 after a 50% discount, the original must have been double that."
+        },
+        {
+          "id": "D",
+          "text": "$52.50",
+          "isCorrect": false,
+          "feedback": "You added 50% of $35 ($17.50) to $35. But $35 is already the reduced price, not the original."
+        },
+        {
+          "id": "E",
+          "text": "$85",
+          "isCorrect": false,
+          "feedback": "You added $50 to $35. But 50% off doesn't mean subtracting $50 - it means paying half the original."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage - we're given the sale price ($35) and need the original.\n\n**Step 2: Set up the equation**\n50% discount means the sale price is 50% (100% - 50%) of the original.\nSale Price = Original × 0.50\n$35 = Original × 0.50\n\n**Step 3: Solve**\nOriginal = $35 ÷ 0.50 = $70\n(Or simpler: 50% off means half price, so original = double = $35 × 2 = $70)\n\n**Step 4: Check**\n$70 × 0.50 = $35 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If something is 50% off, what fraction of the original price did Mia pay?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "50% off means she paid half. So $35 is half of the original price.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "If $35 is half, then the full original is $35 × 2 = $70.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "halving-doubling",
+          "word-problem-translation"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "C": "partial_solution",
+          "D": "forward_calculation",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Recognize 50% off = half price → Original = Sale Price × 2",
+        "methodologySteps": [
+          "Read: Identify 50% discount means half price paid",
+          "Translate: $35 = Original × 0.5 (or $35 is half of original)",
+          "Solve: Original = $35 ÷ 0.5 = $35 × 2 = $70",
+          "Check: Does $70 with 50% off = $35? $70 ÷ 2 = $35 ✓"
+        ],
+        "timeTarget": 40,
+        "commonErrors": [
+          "Confusing sale price with original",
+          "Adding instead of doubling"
+        ]
+      },
+      "difficulty": 1,
+      "estimatedTime": 40,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-004",
+      "questionType": "MCQ",
+      "stem": "Tom's test score dropped by 20% from his last test. He scored 64 marks this time. What was his previous score?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "80",
+          "isCorrect": true,
+          "feedback": "Correct! A 20% drop means he got 80% of his previous score. Previous = 64 ÷ 0.8 = 80. Check: 80 × 0.8 = 64 ✓"
+        },
+        {
+          "id": "B",
+          "text": "320",
+          "isCorrect": false,
+          "feedback": "You divided by 0.2 instead of 0.8. A 20% drop means 80% remains, not 20%. Previous = 64 ÷ 0.8."
+        },
+        {
+          "id": "C",
+          "text": "51.20",
+          "isCorrect": false,
+          "feedback": "You subtracted 20% of 64 from 64. This gives another decrease, but 64 is already the score AFTER the drop."
+        },
+        {
+          "id": "D",
+          "text": "84",
+          "isCorrect": false,
+          "feedback": "You added 20 to 64. But a 20% drop isn't the same as subtracting 20 points - it's losing 20% of the original."
+        },
+        {
+          "id": "E",
+          "text": "76.80",
+          "isCorrect": false,
+          "feedback": "You added 20% of 64 to 64. But 64 is already the REDUCED score. We need what 64 is 80% OF."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with a DECREASE - we're given the new score (64) and need the previous.\n\n**Step 2: Set up the equation**\n20% drop means the new score is 80% (100% - 20%) of the previous.\nNew Score = Previous × 0.80\n64 = Previous × 0.80\n\n**Step 3: Solve**\nPrevious = 64 ÷ 0.80 = 80\n\n**Step 4: Check**\n80 × 0.20 = 16 drop\n80 - 16 = 64 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If his score dropped by 20%, what percentage of the previous score is 64?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "A 20% drop means 80% remains. So 64 = 80% of the previous score.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Previous = 64 ÷ 0.8 = 80 marks.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "percentage-decrease"
+        ],
+        "distractorTypes": {
+          "B": "misconception_answer",
+          "C": "wrong_operation",
+          "D": "misconception_answer",
+          "E": "forward_calculation"
+        },
+        "solutionApproach": "Identify decrease% → Set up: Previous × (1 - decrease) = New → Solve: Previous = New ÷ (1 - decrease)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with DECREASE (new score given, previous wanted)",
+          "Translate: 20% drop means New = Previous × 0.80",
+          "Solve: Previous = 64 ÷ 0.80 = 80",
+          "Check: Does 80 with 20% drop = 64? 80 × 0.8 = 64 ✓"
+        ],
+        "timeTarget": 50,
+        "commonErrors": [
+          "Adding percentage to final instead of dividing",
+          "Using 20% instead of 80%"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 50,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-005",
+      "questionType": "MCQ",
+      "stem": "A farmer's crop yield increased by 25% this year. She harvested 500 kg. What was last year's harvest?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "475 kg",
+          "isCorrect": false,
+          "feedback": "You subtracted 25 kg from 500 kg. But a 25% increase isn't the same as adding 25 kg - it's 25% of the original."
+        },
+        {
+          "id": "B",
+          "text": "375 kg",
+          "isCorrect": false,
+          "feedback": "You subtracted 25% of 500 from 500. This gives a decrease, but we're told the yield INCREASED to 500 kg."
+        },
+        {
+          "id": "C",
+          "text": "2000 kg",
+          "isCorrect": false,
+          "feedback": "You divided by 0.25 instead of 1.25. A 25% increase means 125% of original, not 25%. Last year = 500 ÷ 1.25."
+        },
+        {
+          "id": "D",
+          "text": "400 kg",
+          "isCorrect": true,
+          "feedback": "Correct! A 25% increase means 500 kg is 125% of last year. Last year = 500 ÷ 1.25 = 400 kg. Check: 400 × 1.25 = 500 ✓"
+        },
+        {
+          "id": "E",
+          "text": "625 kg",
+          "isCorrect": false,
+          "feedback": "You added 25% of 500 kg to 500 kg. But 500 kg is already the INCREASED harvest. We need what 500 is 125% OF."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with an INCREASE - we're given this year's harvest (500 kg) and need last year's.\n\n**Step 2: Set up the equation**\n25% increase means this year is 125% (100% + 25%) of last year.\nThis Year = Last Year × 1.25\n500 = Last Year × 1.25\n\n**Step 3: Solve**\nLast Year = 500 ÷ 1.25 = 400 kg\n\n**Step 4: Check**\n400 × 0.25 = 100 kg increase\n400 + 100 = 500 kg ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If the yield increased by 25%, what percentage of last year's harvest is 500 kg?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "A 25% increase means this year is 125% of last year. So 500 = 125% of last year.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Last Year = 500 ÷ 1.25 = 400 kg.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "percentage-increase"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "wrong_operation",
+          "C": "misconception_answer",
+          "E": "forward_calculation"
+        },
+        "solutionApproach": "Identify increase% → Set up: Previous × (1 + increase) = Current → Solve: Previous = Current ÷ (1 + increase)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with INCREASE (this year given, last year wanted)",
+          "Translate: 25% increase means This Year = Last Year × 1.25",
+          "Solve: Last Year = 500 ÷ 1.25 = 400 kg",
+          "Check: Does 400 kg with 25% increase = 500 kg? 400 × 1.25 = 500 ✓"
+        ],
+        "timeTarget": 50,
+        "commonErrors": [
+          "Subtracting percentage instead of dividing",
+          "Dividing by 0.25 instead of 1.25"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 50,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-006",
+      "questionType": "MCQ",
+      "stem": "After a 25% discount, a shirt costs $60. What was the original price?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$80",
+          "isCorrect": true,
+          "feedback": "Correct! If 25% is taken off, the sale price is 75% of the original. Original = $60 ÷ 0.75 = $80. Check: $80 × 0.75 = $60 ✓"
+        },
+        {
+          "id": "B",
+          "text": "$85",
+          "isCorrect": false,
+          "feedback": "Check your division. If $60 = 75% of original, then Original = $60 ÷ 0.75 = $80, not $85."
+        },
+        {
+          "id": "C",
+          "text": "$45",
+          "isCorrect": false,
+          "feedback": "You subtracted 25% of $60 from $60. The discount has already been applied - $60 IS the sale price after 25% off."
+        },
+        {
+          "id": "D",
+          "text": "$240",
+          "isCorrect": false,
+          "feedback": "You divided by 0.25 instead of 0.75. A 25% discount means 75% remains, not 25%. Original = $60 ÷ 0.75."
+        },
+        {
+          "id": "E",
+          "text": "$75",
+          "isCorrect": false,
+          "feedback": "You added 25% of $60 ($15) to $60. But the discount is 25% of the ORIGINAL, not the sale price. The $60 IS 75% of the original."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage - we're given the sale price ($60) and need the original.\n\n**Step 2: Set up the equation**\n25% discount means the sale price is 75% (100% - 25%) of the original.\nSale Price = Original × 0.75\n$60 = Original × 0.75\n\n**Step 3: Solve**\nOriginal = $60 ÷ 0.75 = $80\n\n**Step 4: Check**\n$80 × 0.25 = $20 discount\n$80 - $20 = $60 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The $60 IS NOT the original price. It's what's LEFT after the discount was applied.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "If 25% is removed, what percentage remains? What equation relates original to final?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Final = Original × 0.75, so Original = Final ÷ 0.75 = $60 ÷ 0.75",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "multiplicative-reasoning",
+          "word-problem-translation",
+          "division"
+        ],
+        "distractorTypes": {
+          "B": "computation_error",
+          "C": "wrong_operation",
+          "D": "misconception_answer",
+          "E": "forward_calculation"
+        },
+        "solutionApproach": "Identify discount% → Set up: Original × (1 - discount) = Final → Solve: Original = Final ÷ (1 - discount)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage (final given, original wanted)",
+          "Translate: 25% discount means Final = Original × 0.75",
+          "Solve: Original = Final ÷ 0.75 = 60 ÷ 0.75 = 80",
+          "Check: Does $80 with 25% off = $60? Yes!"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Adding percentage to final instead of dividing",
+          "Using wrong percentage (25% instead of 75%)",
+          "Multiplying instead of dividing"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-007",
+      "questionType": "MCQ",
+      "stem": "A population of fish decreased by 30% over winter. There are now 350 fish. How many were there before winter?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "380",
+          "isCorrect": false,
+          "feedback": "You added 30 to 350. But a 30% decrease isn't the same as losing 30 fish - it's losing 30% of the original number."
+        },
+        {
+          "id": "B",
+          "text": "455",
+          "isCorrect": false,
+          "feedback": "You added 30% of 350 (105) to 350. But 350 is already the REDUCED population. We need what 350 is 70% OF."
+        },
+        {
+          "id": "C",
+          "text": "500",
+          "isCorrect": true,
+          "feedback": "Correct! A 30% decrease means 350 is 70% of the original. Original = 350 ÷ 0.7 = 500. Check: 500 × 0.7 = 350 ✓"
+        },
+        {
+          "id": "D",
+          "text": "245",
+          "isCorrect": false,
+          "feedback": "You subtracted 30% of 350 from 350. This gives another decrease, but 350 is already AFTER the winter decline."
+        },
+        {
+          "id": "E",
+          "text": "1167",
+          "isCorrect": false,
+          "feedback": "You divided by 0.3 instead of 0.7. A 30% decrease means 70% remains. Original = 350 ÷ 0.7 = 500."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with a DECREASE - we're given the current population (350) and need the original.\n\n**Step 2: Set up the equation**\n30% decrease means the current number is 70% (100% - 30%) of the original.\nCurrent = Original × 0.70\n350 = Original × 0.70\n\n**Step 3: Solve**\nOriginal = 350 ÷ 0.70 = 500\n\n**Step 4: Check**\n500 × 0.30 = 150 decrease\n500 - 150 = 350 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If the population decreased by 30%, what percentage of the original is still alive?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "A 30% decrease means 70% remains. So 350 = 70% of the original population.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Original = 350 ÷ 0.7 = 500 fish.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "percentage-decrease",
+          "real-world-application"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "forward_calculation",
+          "D": "wrong_operation",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Identify decrease% → Set up: Original × (1 - decrease) = Current → Solve: Original = Current ÷ (1 - decrease)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with DECREASE (current given, original wanted)",
+          "Translate: 30% decrease means Current = Original × 0.70",
+          "Solve: Original = 350 ÷ 0.70 = 500",
+          "Check: Does 500 with 30% decrease = 350? 500 × 0.7 = 350 ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Adding percentage to current instead of dividing",
+          "Using 30% instead of 70%"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-008",
+      "questionType": "MCQ",
+      "stem": "Sarah's pocket money was increased by 15%. She now gets $46. What was her pocket money before the increase?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$40",
+          "isCorrect": true,
+          "feedback": "Correct! A 15% increase means $46 is 115% of the original. Original = $46 ÷ 1.15 = $40. Check: $40 × 1.15 = $46 ✓"
+        },
+        {
+          "id": "B",
+          "text": "$306.67",
+          "isCorrect": false,
+          "feedback": "You divided by 0.15 instead of 1.15. A 15% increase means 115% of original, not 15%. Original = $46 ÷ 1.15."
+        },
+        {
+          "id": "C",
+          "text": "$31",
+          "isCorrect": false,
+          "feedback": "You subtracted $15 from $46. But a 15% increase isn't the same as adding $15 - it's 15% of the original amount."
+        },
+        {
+          "id": "D",
+          "text": "$39.10",
+          "isCorrect": false,
+          "feedback": "You subtracted 15% of $46 from $46. This gives a decrease, but the problem says her money INCREASED to $46."
+        },
+        {
+          "id": "E",
+          "text": "$52.90",
+          "isCorrect": false,
+          "feedback": "You added 15% of $46 to $46. But $46 is already the INCREASED amount. We need what $46 is 115% OF."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with an INCREASE - we're given the new amount ($46) and need the original.\n\n**Step 2: Set up the equation**\n15% increase means the new amount is 115% (100% + 15%) of the original.\nNew = Original × 1.15\n$46 = Original × 1.15\n\n**Step 3: Solve**\nOriginal = $46 ÷ 1.15 = $40\n\n**Step 4: Check**\n$40 × 0.15 = $6 increase\n$40 + $6 = $46 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If her pocket money increased by 15%, what percentage of the old amount is $46?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "A 15% increase means the new value is 115% of the original. So $46 = 115% of original.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Original = $46 ÷ 1.15 = $40.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "percentage-increase"
+        ],
+        "distractorTypes": {
+          "B": "misconception_answer",
+          "C": "misconception_answer",
+          "D": "wrong_operation",
+          "E": "forward_calculation"
+        },
+        "solutionApproach": "Identify increase% → Set up: Original × (1 + increase) = New → Solve: Original = New ÷ (1 + increase)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with INCREASE (new amount given, original wanted)",
+          "Translate: 15% increase means New = Original × 1.15",
+          "Solve: Original = $46 ÷ 1.15 = $40",
+          "Check: Does $40 with 15% increase = $46? $40 × 1.15 = $46 ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Subtracting percentage instead of dividing",
+          "Dividing by 0.15 instead of 1.15"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-009",
+      "questionType": "MCQ",
+      "stem": "During a sale, everything is marked down by 40%. Jake bought a skateboard for $48. What was the original price?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$80",
+          "isCorrect": true,
+          "feedback": "Correct! A 40% discount means he paid 60% of the original. Original = $48 ÷ 0.6 = $80. Check: $80 × 0.6 = $48 ✓"
+        },
+        {
+          "id": "B",
+          "text": "$67.20",
+          "isCorrect": false,
+          "feedback": "You added 40% of $48 to $48. But $48 is already the SALE price. We need what $48 is 60% OF."
+        },
+        {
+          "id": "C",
+          "text": "$120",
+          "isCorrect": false,
+          "feedback": "You divided by 0.4 instead of 0.6. A 40% discount means 60% remains. Original = $48 ÷ 0.6 = $80."
+        },
+        {
+          "id": "D",
+          "text": "$28.80",
+          "isCorrect": false,
+          "feedback": "You subtracted 40% of $48 from $48. The discount has already been applied. $48 IS the reduced price."
+        },
+        {
+          "id": "E",
+          "text": "$88",
+          "isCorrect": false,
+          "feedback": "You added $40 to $48. But a 40% discount isn't the same as subtracting $40 - it's 40% of the original price."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage - we're given the sale price ($48) and need the original.\n\n**Step 2: Set up the equation**\n40% discount means the sale price is 60% (100% - 40%) of the original.\nSale Price = Original × 0.60\n$48 = Original × 0.60\n\n**Step 3: Solve**\nOriginal = $48 ÷ 0.60 = $80\n\n**Step 4: Check**\n$80 × 0.40 = $32 discount\n$80 - $32 = $48 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If the skateboard is 40% off, what percentage of the original price is $48?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "40% off means he paid 60%. So $48 = 60% of the original price.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Original = $48 ÷ 0.6 = $80.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "word-problem-translation"
+        ],
+        "distractorTypes": {
+          "B": "forward_calculation",
+          "C": "misconception_answer",
+          "D": "wrong_operation",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Identify discount% → Set up: Original × (1 - discount) = Final → Solve: Original = Final ÷ (1 - discount)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage (sale price given, original wanted)",
+          "Translate: 40% off means Sale Price = Original × 0.60",
+          "Solve: Original = $48 ÷ 0.60 = $80",
+          "Check: Does $80 with 40% off = $48? $80 × 0.6 = $48 ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Dividing by 0.4 instead of 0.6",
+          "Adding discount % to sale price"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-010",
+      "questionType": "MCQ",
+      "stem": "A baker's flour delivery was 5% less than usual. She received 190 kg. What is her usual delivery?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "3800 kg",
+          "isCorrect": false,
+          "feedback": "You divided by 0.05 instead of 0.95. A 5% decrease means 95% remains. Usual = 190 ÷ 0.95 = 200 kg."
+        },
+        {
+          "id": "B",
+          "text": "195 kg",
+          "isCorrect": false,
+          "feedback": "You added 5 to 190. But a 5% decrease isn't the same as 5 kg less - it's 5% of the usual amount."
+        },
+        {
+          "id": "C",
+          "text": "200 kg",
+          "isCorrect": true,
+          "feedback": "Correct! A 5% decrease means 190 kg is 95% of usual. Usual = 190 ÷ 0.95 = 200 kg. Check: 200 × 0.95 = 190 ✓"
+        },
+        {
+          "id": "D",
+          "text": "199.50 kg",
+          "isCorrect": false,
+          "feedback": "You added 5% of 190 to 190. But 190 kg is already the REDUCED delivery. We need what 190 is 95% OF."
+        },
+        {
+          "id": "E",
+          "text": "180.50 kg",
+          "isCorrect": false,
+          "feedback": "You subtracted 5% of 190 from 190. This gives another decrease, but 190 is already AFTER the 5% reduction."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with a DECREASE - we're given this delivery (190 kg) and need the usual amount.\n\n**Step 2: Set up the equation**\n5% less means this delivery is 95% (100% - 5%) of usual.\nThis = Usual × 0.95\n190 = Usual × 0.95\n\n**Step 3: Solve**\nUsual = 190 ÷ 0.95 = 200 kg\n\n**Step 4: Check**\n200 × 0.05 = 10 kg less\n200 - 10 = 190 kg ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If she received 5% less, what percentage of the usual delivery is 190 kg?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "5% less means 95% of usual. So 190 = 95% of usual delivery.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Usual = 190 ÷ 0.95 = 200 kg.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "percentage-decrease"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "misconception_answer",
+          "D": "forward_calculation",
+          "E": "wrong_operation"
+        },
+        "solutionApproach": "Identify decrease% → Set up: Usual × (1 - decrease) = This → Solve: Usual = This ÷ (1 - decrease)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with DECREASE (current given, usual wanted)",
+          "Translate: 5% less means This = Usual × 0.95",
+          "Solve: Usual = 190 ÷ 0.95 = 200 kg",
+          "Check: Does 200 kg with 5% less = 190 kg? 200 × 0.95 = 190 ✓"
+        ],
+        "timeTarget": 60,
+        "commonErrors": [
+          "Adding 5% instead of dividing by 0.95",
+          "Using 5% instead of 95%"
+        ]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-011",
+      "questionType": "MCQ",
+      "stem": "A car's value depreciated by 12% over one year. It is now worth $22,000. What was it worth a year ago?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$19,360",
+          "isCorrect": false,
+          "feedback": "You subtracted 12% of $22,000. This gives another depreciation, but $22,000 is already AFTER the 12% loss."
+        },
+        {
+          "id": "B",
+          "text": "$183,333",
+          "isCorrect": false,
+          "feedback": "You divided by 0.12 instead of 0.88. A 12% decrease means 88% remains. Original = $22,000 ÷ 0.88."
+        },
+        {
+          "id": "C",
+          "text": "$24,640",
+          "isCorrect": false,
+          "feedback": "You added 12% of $22,000 to $22,000. But $22,000 is already the DEPRECIATED value. We need what $22,000 is 88% OF."
+        },
+        {
+          "id": "D",
+          "text": "$25,000",
+          "isCorrect": true,
+          "feedback": "Correct! A 12% decrease means $22,000 is 88% of the original. Original = $22,000 ÷ 0.88 = $25,000. Check: $25,000 × 0.88 = $22,000 ✓"
+        },
+        {
+          "id": "E",
+          "text": "$24,200",
+          "isCorrect": false,
+          "feedback": "You added $2,200 to $22,000. But depreciation is a percentage, not a fixed amount. 12% of the original is the loss."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with DEPRECIATION (decrease) - we're given current value ($22,000) and need original.\n\n**Step 2: Set up the equation**\n12% depreciation means current value is 88% (100% - 12%) of original.\nCurrent = Original × 0.88\n$22,000 = Original × 0.88\n\n**Step 3: Solve**\nOriginal = $22,000 ÷ 0.88 = $25,000\n\n**Step 4: Check**\n$25,000 × 0.12 = $3,000 depreciation\n$25,000 - $3,000 = $22,000 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Depreciation means the value went DOWN. What percentage of the original is $22,000?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "12% depreciation means 88% of value remains. So $22,000 = 88% of original value.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Original = $22,000 ÷ 0.88 = $25,000.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "depreciation",
+          "real-world-application"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "B": "misconception_answer",
+          "C": "forward_calculation",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Identify decrease% → Set up: Original × (1 - decrease) = Current → Solve: Original = Current ÷ (1 - decrease)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with depreciation (current value given, original wanted)",
+          "Translate: 12% depreciation means Current = Original × 0.88",
+          "Solve: Original = $22,000 ÷ 0.88 = $25,000",
+          "Check: Does $25,000 with 12% depreciation = $22,000? $25,000 × 0.88 = $22,000 ✓"
+        ],
+        "timeTarget": 70,
+        "commonErrors": [
+          "Adding depreciation % to current value",
+          "Dividing by 0.12 instead of 0.88"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 70,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 11
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-012",
+      "questionType": "MCQ",
+      "stem": "After adding GST of 10%, a laptop costs $1,100. What was the pre-GST price?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$1,090",
+          "isCorrect": false,
+          "feedback": "You subtracted $10 from $1,100. But GST is 10% of the original price, which is more than $10 on a $1,000+ item."
+        },
+        {
+          "id": "B",
+          "text": "$1,000",
+          "isCorrect": true,
+          "feedback": "Correct! Adding 10% GST means $1,100 is 110% of the pre-GST price. Pre-GST = $1,100 ÷ 1.1 = $1,000. Check: $1,000 × 1.1 = $1,100 ✓"
+        },
+        {
+          "id": "C",
+          "text": "$990",
+          "isCorrect": false,
+          "feedback": "You subtracted 10% of $1,100. But GST is 10% of the PRE-GST price, not 10% of $1,100."
+        },
+        {
+          "id": "D",
+          "text": "$1,210",
+          "isCorrect": false,
+          "feedback": "You added 10% of $1,100 to $1,100. But $1,100 already INCLUDES the GST. We need the price BEFORE GST was added."
+        },
+        {
+          "id": "E",
+          "text": "$11,000",
+          "isCorrect": false,
+          "feedback": "You divided by 0.1 instead of 1.1. Adding 10% GST means the total is 110% of original, not 10%. Pre-GST = $1,100 ÷ 1.1."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with an INCREASE (GST) - we're given the total ($1,100) and need the base price.\n\n**Step 2: Set up the equation**\n10% GST means the total is 110% (100% + 10%) of the pre-GST price.\nTotal = Pre-GST × 1.10\n$1,100 = Pre-GST × 1.10\n\n**Step 3: Solve**\nPre-GST = $1,100 ÷ 1.10 = $1,000\n\n**Step 4: Check**\n$1,000 × 0.10 = $100 GST\n$1,000 + $100 = $1,100 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "GST is ADDED to the price. So $1,100 is more than 100% of the original. How much more?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "10% GST means $1,100 = 110% of the pre-GST price.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Pre-GST = $1,100 ÷ 1.1 = $1,000.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "GST",
+          "tax-calculations"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "C": "wrong_operation",
+          "D": "forward_calculation",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Identify tax% → Set up: Pre-tax × (1 + tax%) = Total → Solve: Pre-tax = Total ÷ (1 + tax%)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with tax/GST (total given, pre-tax wanted)",
+          "Translate: 10% GST means Total = Pre-GST × 1.10",
+          "Solve: Pre-GST = $1,100 ÷ 1.10 = $1,000",
+          "Check: Does $1,000 + 10% GST = $1,100? $1,000 × 1.1 = $1,100 ✓"
+        ],
+        "timeTarget": 70,
+        "commonErrors": [
+          "Subtracting 10% of total instead of dividing by 1.1",
+          "Dividing by 0.1 instead of 1.1"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 70,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 12
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-013",
+      "questionType": "MCQ",
+      "stem": "A company's workforce decreased by 16% last year. They now have 420 employees. How many did they have before?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "487.20",
+          "isCorrect": false,
+          "feedback": "You added 16% of 420 to 420. But 420 is the REDUCED workforce. We need what 420 is 84% OF. Also, employees must be whole numbers!"
+        },
+        {
+          "id": "B",
+          "text": "500",
+          "isCorrect": true,
+          "feedback": "Correct! A 16% decrease means 420 is 84% of the original. Original = 420 ÷ 0.84 = 500. Check: 500 × 0.84 = 420 ✓"
+        },
+        {
+          "id": "C",
+          "text": "436",
+          "isCorrect": false,
+          "feedback": "You added 16 to 420. But a 16% decrease isn't losing 16 employees - it's losing 16% of the original workforce."
+        },
+        {
+          "id": "D",
+          "text": "352.80",
+          "isCorrect": false,
+          "feedback": "You subtracted 16% of 420 from 420. This gives another decrease, but 420 is already AFTER the 16% reduction."
+        },
+        {
+          "id": "E",
+          "text": "2625",
+          "isCorrect": false,
+          "feedback": "You divided by 0.16 instead of 0.84. A 16% decrease means 84% remains. Original = 420 ÷ 0.84 = 500."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with a DECREASE - we're given current employees (420) and need the original.\n\n**Step 2: Set up the equation**\n16% decrease means current is 84% (100% - 16%) of original.\nCurrent = Original × 0.84\n420 = Original × 0.84\n\n**Step 3: Solve**\nOriginal = 420 ÷ 0.84 = 500\n\n**Step 4: Check**\n500 × 0.16 = 80 decrease\n500 - 80 = 420 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If the workforce decreased by 16%, what percentage of the original workforce is 420?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "16% decrease means 84% remains. So 420 = 84% of original workforce.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Original = 420 ÷ 0.84 = 500 employees.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "percentage-decrease",
+          "business-context"
+        ],
+        "distractorTypes": {
+          "A": "forward_calculation",
+          "C": "misconception_answer",
+          "D": "wrong_operation",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Identify decrease% → Set up: Original × (1 - decrease) = Current → Solve: Original = Current ÷ (1 - decrease)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with DECREASE (current given, original wanted)",
+          "Translate: 16% decrease means Current = Original × 0.84",
+          "Solve: Original = 420 ÷ 0.84 = 500",
+          "Check: Does 500 with 16% decrease = 420? 500 × 0.84 = 420 ✓"
+        ],
+        "timeTarget": 70,
+        "commonErrors": [
+          "Adding 16% instead of dividing by 0.84",
+          "Dividing by 0.16 instead of 0.84"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 70,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 13
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-014",
+      "questionType": "MCQ",
+      "stem": "After a 35% markup, a retailer sells a handbag for $189. What was the wholesale cost?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$140",
+          "isCorrect": true,
+          "feedback": "Correct! A 35% markup means $189 is 135% of the cost. Cost = $189 ÷ 1.35 = $140. Check: $140 × 1.35 = $189 ✓"
+        },
+        {
+          "id": "B",
+          "text": "$540",
+          "isCorrect": false,
+          "feedback": "You divided by 0.35 instead of 1.35. A 35% markup means selling price is 135% of cost. Cost = $189 ÷ 1.35."
+        },
+        {
+          "id": "C",
+          "text": "$154",
+          "isCorrect": false,
+          "feedback": "You subtracted $35 from $189. But markup is a percentage of cost, not a fixed dollar amount."
+        },
+        {
+          "id": "D",
+          "text": "$122.85",
+          "isCorrect": false,
+          "feedback": "You subtracted 35% of $189. But the markup is 35% of the COST, not 35% of $189."
+        },
+        {
+          "id": "E",
+          "text": "$255.15",
+          "isCorrect": false,
+          "feedback": "You added 35% of $189 to $189. But $189 already INCLUDES the markup. We need the price BEFORE markup."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with MARKUP (increase) - we're given selling price ($189) and need the cost.\n\n**Step 2: Set up the equation**\n35% markup means selling price is 135% (100% + 35%) of cost.\nSelling = Cost × 1.35\n$189 = Cost × 1.35\n\n**Step 3: Solve**\nCost = $189 ÷ 1.35 = $140\n\n**Step 4: Check**\n$140 × 0.35 = $49 markup\n$140 + $49 = $189 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "A markup is ADDED to the cost. So $189 is more than 100% of the cost. How much more?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "35% markup means $189 = 135% of the wholesale cost.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Cost = $189 ÷ 1.35 = $140.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "markup",
+          "profit-calculations"
+        ],
+        "distractorTypes": {
+          "B": "misconception_answer",
+          "C": "misconception_answer",
+          "D": "wrong_operation",
+          "E": "forward_calculation"
+        },
+        "solutionApproach": "Identify markup% → Set up: Cost × (1 + markup%) = Selling → Solve: Cost = Selling ÷ (1 + markup%)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with markup (selling price given, cost wanted)",
+          "Translate: 35% markup means Selling = Cost × 1.35",
+          "Solve: Cost = $189 ÷ 1.35 = $140",
+          "Check: Does $140 with 35% markup = $189? $140 × 1.35 = $189 ✓"
+        ],
+        "timeTarget": 75,
+        "commonErrors": [
+          "Subtracting 35% of selling price",
+          "Dividing by 0.35 instead of 1.35"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 14
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-015",
+      "questionType": "MCQ",
+      "stem": "After evaporation reduced a water tank by 8%, there are 460 litres remaining. What was the original amount?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "423.20 litres",
+          "isCorrect": false,
+          "feedback": "You subtracted 8% of 460 from 460. This gives another reduction, but 460 L is already AFTER evaporation."
+        },
+        {
+          "id": "B",
+          "text": "500 litres",
+          "isCorrect": true,
+          "feedback": "Correct! An 8% decrease means 460 L is 92% of the original. Original = 460 ÷ 0.92 = 500 L. Check: 500 × 0.92 = 460 ✓"
+        },
+        {
+          "id": "C",
+          "text": "5750 litres",
+          "isCorrect": false,
+          "feedback": "You divided by 0.08 instead of 0.92. An 8% decrease means 92% remains. Original = 460 ÷ 0.92 = 500 L."
+        },
+        {
+          "id": "D",
+          "text": "468 litres",
+          "isCorrect": false,
+          "feedback": "You added 8 to 460. But an 8% reduction isn't losing 8 litres - it's losing 8% of the original volume."
+        },
+        {
+          "id": "E",
+          "text": "496.80 litres",
+          "isCorrect": false,
+          "feedback": "You added 8% of 460 to 460. But 460 L is already the REDUCED amount. We need what 460 is 92% OF."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with a DECREASE - we're given the remaining amount (460 L) and need the original.\n\n**Step 2: Set up the equation**\n8% evaporation means remaining is 92% (100% - 8%) of original.\nRemaining = Original × 0.92\n460 = Original × 0.92\n\n**Step 3: Solve**\nOriginal = 460 ÷ 0.92 = 500 litres\n\n**Step 4: Check**\n500 × 0.08 = 40 L evaporated\n500 - 40 = 460 L ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If 8% evaporated, what percentage of the original water is still there?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "8% gone means 92% remains. So 460 L = 92% of original.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Original = 460 ÷ 0.92 = 500 litres.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "percentage-decrease",
+          "measurement"
+        ],
+        "distractorTypes": {
+          "A": "wrong_operation",
+          "C": "misconception_answer",
+          "D": "misconception_answer",
+          "E": "forward_calculation"
+        },
+        "solutionApproach": "Identify loss% → Set up: Original × (1 - loss%) = Remaining → Solve: Original = Remaining ÷ (1 - loss%)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with DECREASE (remaining given, original wanted)",
+          "Translate: 8% evaporated means Remaining = Original × 0.92",
+          "Solve: Original = 460 ÷ 0.92 = 500 L",
+          "Check: Does 500 L with 8% evaporated = 460 L? 500 × 0.92 = 460 ✓"
+        ],
+        "timeTarget": 70,
+        "commonErrors": [
+          "Adding 8% instead of dividing by 0.92",
+          "Dividing by 0.08 instead of 0.92"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 70,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 15
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-016",
+      "questionType": "MCQ",
+      "stem": "A town's population grew by 4% and is now 5,200. What was the population before the growth?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "5,196",
+          "isCorrect": false,
+          "feedback": "You subtracted 4 from 5,200. But 4% growth isn't adding 4 people - it's adding 4% of the original population."
+        },
+        {
+          "id": "B",
+          "text": "4,992",
+          "isCorrect": false,
+          "feedback": "You subtracted 4% of 5,200. But the growth is 4% of the ORIGINAL population, not 4% of 5,200."
+        },
+        {
+          "id": "C",
+          "text": "5,408",
+          "isCorrect": false,
+          "feedback": "You added 4% of 5,200 to 5,200. But 5,200 already INCLUDES the growth. We need the population BEFORE growth."
+        },
+        {
+          "id": "D",
+          "text": "5,000",
+          "isCorrect": true,
+          "feedback": "Correct! A 4% increase means 5,200 is 104% of the original. Original = 5,200 ÷ 1.04 = 5,000. Check: 5,000 × 1.04 = 5,200 ✓"
+        },
+        {
+          "id": "E",
+          "text": "130,000",
+          "isCorrect": false,
+          "feedback": "You divided by 0.04 instead of 1.04. A 4% increase means 104% of original, not 4%. Original = 5,200 ÷ 1.04."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage**\n\n**Step 1: Identify the type**\nThis is a REVERSE percentage with GROWTH (increase) - we're given current population (5,200) and need the original.\n\n**Step 2: Set up the equation**\n4% growth means current is 104% (100% + 4%) of original.\nCurrent = Original × 1.04\n5,200 = Original × 1.04\n\n**Step 3: Solve**\nOriginal = 5,200 ÷ 1.04 = 5,000\n\n**Step 4: Check**\n5,000 × 0.04 = 200 growth\n5,000 + 200 = 5,200 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "If the population grew by 4%, what percentage of the original is 5,200?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "4% growth means 5,200 = 104% of the original population.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Original = 5,200 ÷ 1.04 = 5,000.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "population-growth"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "wrong_operation",
+          "C": "forward_calculation",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Identify growth% → Set up: Original × (1 + growth%) = Current → Solve: Original = Current ÷ (1 + growth%)",
+        "methodologySteps": [
+          "Read: Identify this is a REVERSE percentage with GROWTH (current given, original wanted)",
+          "Translate: 4% growth means Current = Original × 1.04",
+          "Solve: Original = 5,200 ÷ 1.04 = 5,000",
+          "Check: Does 5,000 with 4% growth = 5,200? 5,000 × 1.04 = 5,200 ✓"
+        ],
+        "timeTarget": 70,
+        "commonErrors": [
+          "Subtracting 4% instead of dividing by 1.04",
+          "Dividing by 0.04 instead of 1.04"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 70,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 16
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-017",
+      "questionType": "MCQ",
+      "stem": "After a shop applied a 15% discount and then charged 10% GST, a customer paid $93.50. What was the original price before any discount?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$97.35",
+          "isCorrect": false,
+          "feedback": "You may have reversed only one percentage or used incorrect values. Follow: Before GST = $93.50 ÷ 1.1, then Before Discount ÷ 0.85."
+        },
+        {
+          "id": "B",
+          "text": "$85",
+          "isCorrect": false,
+          "feedback": "You only reversed the GST. This is the discounted price before GST. You still need to reverse the 15% discount."
+        },
+        {
+          "id": "C",
+          "text": "$91.30",
+          "isCorrect": false,
+          "feedback": "Check your calculation order. First reverse the GST (÷1.1), then reverse the discount (÷0.85)."
+        },
+        {
+          "id": "D",
+          "text": "$110",
+          "isCorrect": false,
+          "feedback": "You added discount and GST to $93.50 separately. But these percentages apply sequentially, not additively."
+        },
+        {
+          "id": "E",
+          "text": "$100",
+          "isCorrect": true,
+          "feedback": "Correct! Work backwards: Before GST = $93.50 ÷ 1.1 = $85. Before discount = $85 ÷ 0.85 = $100. Check: $100 × 0.85 × 1.1 = $93.50 ✓"
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage (Multi-Step)**\n\n**Step 1: Identify the sequence**\nPrice went: Original → 15% discount → + 10% GST → $93.50\nWe need to reverse this: $93.50 → remove GST → remove discount → Original\n\n**Step 2: Remove the GST**\nGST was added last, so remove it first.\n$93.50 includes 10% GST, meaning it's 110% of the pre-GST price.\nPre-GST = $93.50 ÷ 1.10 = $85\n\n**Step 3: Remove the discount**\n$85 is after 15% discount, meaning it's 85% of original.\nOriginal = $85 ÷ 0.85 = $100\n\n**Step 4: Check**\n$100 × 0.85 (15% off) = $85\n$85 × 1.10 (add GST) = $93.50 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Two percentages were applied. Which one was applied LAST? You need to reverse that one FIRST.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "GST was added last. Remove it first: $93.50 ÷ 1.1 = $85. Now you have the discounted price.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "$85 is after 15% discount. Original = $85 ÷ 0.85 = $100.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "multi-step-reversal",
+          "order-of-operations"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "partial_solution",
+          "C": "computation_error",
+          "D": "misconception_answer"
+        },
+        "solutionApproach": "Reverse in opposite order: Remove GST (÷1.1) → Remove discount (÷0.85) → Original",
+        "methodologySteps": [
+          "Read: Identify TWO percentage changes applied in sequence (discount, then GST)",
+          "Reverse GST first: $93.50 ÷ 1.10 = $85 (pre-GST discounted price)",
+          "Reverse discount: $85 ÷ 0.85 = $100 (original price)",
+          "Check: $100 × 0.85 × 1.10 = $93.50 ✓"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Only reversing one percentage",
+          "Reversing in wrong order",
+          "Adding percentages instead of multiplying"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 17
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-018",
+      "questionType": "MCQ",
+      "stem": "Maria's savings increased by 20% one month and then decreased by 20% the next month. She now has $96. What did she have originally?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$96",
+          "isCorrect": false,
+          "feedback": "You might think +20% then -20% cancels out, but it doesn't! The 20% decrease is applied to a LARGER amount than the original."
+        },
+        {
+          "id": "B",
+          "text": "$115.20",
+          "isCorrect": false,
+          "feedback": "Check your division. Reversing 20% decrease: $96 ÷ 0.8 = $120. Reversing 20% increase: $120 ÷ 1.2 = $100."
+        },
+        {
+          "id": "C",
+          "text": "$120",
+          "isCorrect": false,
+          "feedback": "You only reversed the decrease. This is what she had after the increase. You still need to reverse the 20% increase."
+        },
+        {
+          "id": "D",
+          "text": "$80",
+          "isCorrect": false,
+          "feedback": "You reversed in the wrong direction. The increase came FIRST, then the decrease. Reverse the decrease first, then the increase."
+        },
+        {
+          "id": "E",
+          "text": "$100",
+          "isCorrect": true,
+          "feedback": "Correct! Work backwards: Before 20% decrease = $96 ÷ 0.8 = $120. Before 20% increase = $120 ÷ 1.2 = $100. Check: $100 × 1.2 × 0.8 = $96 ✓"
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage (Multi-Step)**\n\n**Step 1: Identify the sequence**\nSavings went: Original → +20% → -20% → $96\nWe need to reverse: $96 → remove decrease → remove increase → Original\n\n**Step 2: Remove the decrease**\nThe decrease was applied last, so remove it first.\n$96 is after 20% decrease, meaning it's 80% of the pre-decrease amount.\nPre-decrease = $96 ÷ 0.80 = $120\n\n**Step 3: Remove the increase**\n$120 is after 20% increase, meaning it's 120% of original.\nOriginal = $120 ÷ 1.20 = $100\n\n**Step 4: Check**\n$100 × 1.20 (increase) = $120\n$120 × 0.80 (decrease) = $96 ✓\n\n**Note**: +20% then -20% does NOT give the same result! 1.2 × 0.8 = 0.96, not 1.00",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Important: +20% then -20% does NOT cancel out! The 20% decrease acts on a larger amount.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Reverse the decrease first: $96 ÷ 0.8 = $120. This is what she had after the increase.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Now reverse the increase: $120 ÷ 1.2 = $100. This is the original amount.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "multi-step-reversal",
+          "percentage-trap"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "computation_error",
+          "C": "partial_solution",
+          "D": "wrong_operation"
+        },
+        "solutionApproach": "Reverse in opposite order: Remove decrease (÷0.8) → Remove increase (÷1.2) → Original",
+        "methodologySteps": [
+          "Read: Identify TWO percentage changes applied in sequence (increase, then decrease)",
+          "Reverse decrease first: $96 ÷ 0.80 = $120 (after increase)",
+          "Reverse increase: $120 ÷ 1.20 = $100 (original)",
+          "Check: $100 × 1.2 × 0.8 = $96 ✓"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Assuming +20% and -20% cancel out",
+          "Only reversing one step",
+          "Reversing in wrong order"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 18
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-019",
+      "questionType": "MCQ",
+      "stem": "A shop sells shirts at 60% profit margin. If the selling price is $32, what is the cost price?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$51.20",
+          "isCorrect": false,
+          "feedback": "You added 60% of $32 to $32. But $32 already INCLUDES the profit. We need the cost BEFORE profit was added."
+        },
+        {
+          "id": "B",
+          "text": "$12.80",
+          "isCorrect": false,
+          "feedback": "You calculated 40% of $32. But profit margin is a percentage of COST, not selling price. The cost isn't 40% of $32."
+        },
+        {
+          "id": "C",
+          "text": "$53.33",
+          "isCorrect": false,
+          "feedback": "You divided by 0.6 instead of 1.6. A 60% profit margin means selling price is 160% of cost. Cost = $32 ÷ 1.6."
+        },
+        {
+          "id": "D",
+          "text": "$19.20",
+          "isCorrect": false,
+          "feedback": "You subtracted 60% of $32. But profit margin is 60% of the COST, not 60% of the selling price."
+        },
+        {
+          "id": "E",
+          "text": "$20",
+          "isCorrect": true,
+          "feedback": "Correct! 60% profit margin means profit is 60% of cost. Selling = Cost + 60% of Cost = 1.6 × Cost. Cost = $32 ÷ 1.6 = $20. Check: $20 × 1.6 = $32 ✓"
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage (Profit Margin)**\n\n**Step 1: Understand profit margin**\n60% profit margin means profit = 60% of cost price.\nSelling Price = Cost + Profit = Cost + 60% of Cost = 1.6 × Cost\n\n**Step 2: Set up the equation**\nSelling = Cost × 1.60\n$32 = Cost × 1.60\n\n**Step 3: Solve**\nCost = $32 ÷ 1.60 = $20\n\n**Step 4: Check**\nProfit = $20 × 0.60 = $12\nCost + Profit = $20 + $12 = $32 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Profit margin means profit as a percentage of COST. If profit is 60% of cost, what is selling price as a percentage of cost?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Selling = Cost + 60% of Cost = 160% of Cost. So $32 = 160% of cost.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Cost = $32 ÷ 1.6 = $20.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "profit-margin",
+          "cost-price",
+          "decimal-division"
+        ],
+        "distractorTypes": {
+          "A": "forward_calculation",
+          "B": "misconception_answer",
+          "C": "misconception_answer",
+          "D": "wrong_operation"
+        },
+        "solutionApproach": "Profit margin on cost → Selling = Cost × (1 + margin%) → Cost = Selling ÷ (1 + margin%)",
+        "methodologySteps": [
+          "Read: Understand profit margin is profit as % of COST",
+          "Translate: 60% profit margin means Selling = Cost × 1.60",
+          "Solve: Cost = $32 ÷ 1.60 = $20",
+          "Check: $20 cost + 60% profit ($12) = $32 selling ✓"
+        ],
+        "timeTarget": 80,
+        "commonErrors": [
+          "Confusing profit margin with markup on selling price",
+          "Dividing by 0.6 instead of 1.6"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 80,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 19
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-020",
+      "questionType": "MCQ",
+      "stem": "After removing 5% for wastage and then 10% for damage, a shipment has 855 kg of usable goods. What was the original shipment weight?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "990 kg",
+          "isCorrect": false,
+          "feedback": "You may have added 5% and 10% to get 15%. But these reductions are applied sequentially, not additively. Each applies to a different amount."
+        },
+        {
+          "id": "B",
+          "text": "950 kg",
+          "isCorrect": false,
+          "feedback": "You only reversed the damage reduction. This is after the 5% wastage was removed. You still need to reverse the wastage."
+        },
+        {
+          "id": "C",
+          "text": "1000 kg",
+          "isCorrect": true,
+          "feedback": "Correct! Reverse: Before damage = 855 ÷ 0.9 = 950 kg. Before wastage = 950 ÷ 0.95 = 1000 kg. Check: 1000 × 0.95 × 0.9 = 855 ✓"
+        },
+        {
+          "id": "D",
+          "text": "900 kg",
+          "isCorrect": false,
+          "feedback": "Check your calculation. Reversing 10% damage: 855 ÷ 0.9 = 950. Reversing 5% wastage: 950 ÷ 0.95 = 1000."
+        },
+        {
+          "id": "E",
+          "text": "1140 kg",
+          "isCorrect": false,
+          "feedback": "You may have divided by 0.75 (combining 5% and 10% incorrectly). The reductions multiply: 0.95 × 0.9 = 0.855, not 0.75."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage (Multi-Step)**\n\n**Step 1: Identify the sequence**\nShipment went: Original → -5% wastage → -10% damage → 855 kg\nWe need to reverse: 855 kg → remove damage → remove wastage → Original\n\n**Step 2: Remove the damage reduction**\nDamage was applied last, so remove it first.\n855 kg is after 10% damage removal, meaning it's 90% of the pre-damage amount.\nPre-damage = 855 ÷ 0.90 = 950 kg\n\n**Step 3: Remove the wastage**\n950 kg is after 5% wastage, meaning it's 95% of original.\nOriginal = 950 ÷ 0.95 = 1000 kg\n\n**Step 4: Check**\n1000 × 0.95 (wastage) = 950 kg\n950 × 0.90 (damage) = 855 kg ✓\n\n**Note**: Total reduction is NOT 15%. It's 1 - (0.95 × 0.9) = 1 - 0.855 = 14.5%",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Two reductions were applied. Which one was applied LAST? You need to reverse that one FIRST.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Damage was removed last. Reverse it first: 855 ÷ 0.9 = 950 kg. This is after wastage removal.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Now reverse the wastage: 950 ÷ 0.95 = 1000 kg. This is the original shipment.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "multi-step-reversal",
+          "sequential-reductions"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "partial_solution",
+          "D": "computation_error",
+          "E": "misconception_answer"
+        },
+        "solutionApproach": "Reverse in opposite order: Remove damage (÷0.9) → Remove wastage (÷0.95) → Original",
+        "methodologySteps": [
+          "Read: Identify TWO percentage reductions applied in sequence (wastage, then damage)",
+          "Reverse damage first: 855 ÷ 0.90 = 950 kg (after wastage)",
+          "Reverse wastage: 950 ÷ 0.95 = 1000 kg (original)",
+          "Check: 1000 × 0.95 × 0.9 = 855 ✓"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Adding percentages (5% + 10% = 15%)",
+          "Only reversing one reduction",
+          "Reversing in wrong order"
+        ]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 20
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-021",
+      "questionType": "MCQ",
+      "stem": "A bank offers 8% interest per year. After one year, an account has $5,400. There were no withdrawals or additional deposits. What was the original deposit?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$5,000",
+          "isCorrect": true,
+          "feedback": "Correct! 8% interest means the balance is 108% of the deposit. Deposit = $5,400 ÷ 1.08 = $5,000. Check: $5,000 × 1.08 = $5,400 ✓"
+        },
+        {
+          "id": "B",
+          "text": "$4,968",
+          "isCorrect": false,
+          "feedback": "You subtracted 8% of $5,400. But interest is 8% of the ORIGINAL deposit, not 8% of $5,400."
+        },
+        {
+          "id": "C",
+          "text": "$67,500",
+          "isCorrect": false,
+          "feedback": "You divided by 0.08 instead of 1.08. 8% interest means 108% of deposit, not 8%. Deposit = $5,400 ÷ 1.08."
+        },
+        {
+          "id": "D",
+          "text": "$432",
+          "isCorrect": false,
+          "feedback": "This is 8% of $5,400, which would be the interest on $5,400, not the original deposit."
+        },
+        {
+          "id": "E",
+          "text": "$5,832",
+          "isCorrect": false,
+          "feedback": "You added 8% of $5,400 to $5,400. But $5,400 already INCLUDES the interest. We need the original deposit."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage (Interest)**\n\n**Step 1: Understand the interest**\n8% interest means the account grows by 8% of the original deposit.\nFinal Balance = Deposit + Interest = Deposit + 8% of Deposit = 1.08 × Deposit\n\n**Step 2: Set up the equation**\nBalance = Deposit × 1.08\n$5,400 = Deposit × 1.08\n\n**Step 3: Solve**\nDeposit = $5,400 ÷ 1.08 = $5,000\n\n**Step 4: Check**\nInterest = $5,000 × 0.08 = $400\nDeposit + Interest = $5,000 + $400 = $5,400 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Interest ADDS to the original deposit. So $5,400 is MORE than 100% of the deposit. How much more?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "8% interest means the balance is 108% of the deposit. So $5,400 = 108% of deposit.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Deposit = $5,400 ÷ 1.08 = $5,000.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "simple-interest",
+          "decimal-division",
+          "financial-literacy"
+        ],
+        "distractorTypes": {
+          "B": "wrong_operation",
+          "C": "misconception_answer",
+          "D": "partial_solution",
+          "E": "forward_calculation"
+        },
+        "solutionApproach": "Interest adds to principal → Final = Principal × (1 + rate%) → Principal = Final ÷ (1 + rate%)",
+        "methodologySteps": [
+          "Read: Interest ADDS to deposit, so final > original",
+          "Translate: 8% interest means Final = Deposit × 1.08",
+          "Solve: Deposit = $5,400 ÷ 1.08 = $5,000",
+          "Check: $5,000 + 8% interest ($400) = $5,400 ✓"
+        ],
+        "timeTarget": 90,
+        "commonErrors": [
+          "Subtracting interest % from final",
+          "Dividing by 0.08 instead of 1.08"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 21
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-022",
+      "questionType": "MCQ",
+      "stem": "A shop had a '30% off' sale, then reduced prices by a further 20%. A jacket now costs $56. What was the original price?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$80",
+          "isCorrect": false,
+          "feedback": "Check the order of operations. First reverse the 20% (last applied): $56 ÷ 0.8 = $70. Then reverse the 30%: $70 ÷ 0.7 = $100."
+        },
+        {
+          "id": "B",
+          "text": "$100",
+          "isCorrect": true,
+          "feedback": "Correct! Reverse: Before 20% off = $56 ÷ 0.8 = $70. Before 30% off = $70 ÷ 0.7 = $100. Check: $100 × 0.7 × 0.8 = $56 ✓"
+        },
+        {
+          "id": "C",
+          "text": "$112",
+          "isCorrect": false,
+          "feedback": "You may have added 30% + 20% = 50% and divided by 0.5. But discounts multiply: 0.7 × 0.8 = 0.56, not 0.5."
+        },
+        {
+          "id": "D",
+          "text": "$93.33",
+          "isCorrect": false,
+          "feedback": "You may have reversed in the wrong order or used incorrect divisors. Follow: $56 ÷ 0.8 = $70, then $70 ÷ 0.7 = $100."
+        },
+        {
+          "id": "E",
+          "text": "$70",
+          "isCorrect": false,
+          "feedback": "You only reversed the 20% reduction. This is the price after the first 30% off. You still need to reverse that discount."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage (Multi-Step)**\n\n**Step 1: Identify the sequence**\nPrice went: Original → -30% → -20% → $56\nWe need to reverse: $56 → remove 20% → remove 30% → Original\n\n**Step 2: Remove the second discount (20%)**\n$56 is after 20% off, meaning it's 80% of the intermediate price.\nIntermediate = $56 ÷ 0.80 = $70\n\n**Step 3: Remove the first discount (30%)**\n$70 is after 30% off, meaning it's 70% of original.\nOriginal = $70 ÷ 0.70 = $100\n\n**Step 4: Check**\n$100 × 0.70 (30% off) = $70\n$70 × 0.80 (20% off) = $56 ✓\n\n**Note**: Total discount is NOT 50%. It's 1 - (0.7 × 0.8) = 1 - 0.56 = 44%",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Two discounts were applied. Which one was applied LAST? You need to reverse that one FIRST.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "The 20% was applied last. Reverse it first: $56 ÷ 0.8 = $70. This is the price after only the 30% discount.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Now reverse the 30%: $70 ÷ 0.7 = $100. This is the original price.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "decimal-division",
+          "successive-discounts",
+          "multi-step-reversal"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "misconception_answer",
+          "D": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Reverse discounts in opposite order: ÷0.8 (remove 20%) → ÷0.7 (remove 30%) → Original",
+        "methodologySteps": [
+          "Read: Identify TWO discounts applied in sequence",
+          "Reverse 20% (last): $56 ÷ 0.80 = $70 (after first discount)",
+          "Reverse 30% (first): $70 ÷ 0.70 = $100 (original)",
+          "Check: $100 × 0.7 × 0.8 = $56 ✓"
+        ],
+        "timeTarget": 100,
+        "commonErrors": [
+          "Adding discounts (30% + 20% = 50%)",
+          "Only reversing one discount",
+          "Reversing in wrong order"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 100,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 22
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-023",
+      "questionType": "MCQ",
+      "stem": "James receives a 5% commission on sales. Last month he earned $630 in commission. What were his total sales?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$6,300",
+          "isCorrect": false,
+          "feedback": "You divided by 0.1 (10%) instead of 0.05 (5%). If 5% = $630, then 100% = $630 ÷ 0.05."
+        },
+        {
+          "id": "B",
+          "text": "$12,600",
+          "isCorrect": true,
+          "feedback": "Correct! Commission = 5% of Sales. So Sales = Commission ÷ 0.05 = $630 ÷ 0.05 = $12,600. Check: $12,600 × 0.05 = $630 ✓"
+        },
+        {
+          "id": "C",
+          "text": "$126",
+          "isCorrect": false,
+          "feedback": "You divided $630 by 5 instead of 0.05. Remember: 5% as a decimal is 0.05. Sales = $630 ÷ 0.05 = $12,600."
+        },
+        {
+          "id": "D",
+          "text": "$31.50",
+          "isCorrect": false,
+          "feedback": "You calculated 5% of $630. But we already have the commission ($630). We need the sales that generated this commission."
+        },
+        {
+          "id": "E",
+          "text": "$661.50",
+          "isCorrect": false,
+          "feedback": "You added 5% of $630 to $630. But $630 is just the commission (5%), not the sales. We need to find what $630 is 5% OF."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage (Part to Whole)**\n\n**Step 1: Understand the relationship**\nCommission = 5% of Total Sales\n$630 = 0.05 × Sales\n\n**Step 2: Set up the equation**\nWe're given a PART (5%) and need the WHOLE (100%).\n$630 = Sales × 0.05\n\n**Step 3: Solve**\nSales = $630 ÷ 0.05 = $12,600\n\n**Step 4: Check**\n$12,600 × 0.05 = $630 ✓",
+      "hints": [
+        {
+          "level": 1,
+          "content": "$630 is the commission, which is 5% of sales. What is the whole (sales) if 5% equals $630?",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "If 5% = $630, then 1% = $630 ÷ 5 = $126. So 100% = $126 × 100.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Sales = $630 ÷ 0.05 = $12,600.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "commission",
+          "part-to-whole",
+          "decimal-division"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "C": "place_value_error",
+          "D": "wrong_operation",
+          "E": "forward_calculation"
+        },
+        "solutionApproach": "Given percentage = given value → Whole = Value ÷ (percentage/100)",
+        "methodologySteps": [
+          "Read: $630 is the commission (5% of sales)",
+          "Translate: Commission = Sales × 0.05, so Sales = Commission ÷ 0.05",
+          "Solve: Sales = $630 ÷ 0.05 = $12,600",
+          "Check: $12,600 × 0.05 = $630 ✓"
+        ],
+        "timeTarget": 80,
+        "commonErrors": [
+          "Dividing by 5 instead of 0.05",
+          "Adding 5% to commission"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 80,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 23
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-024",
+      "questionType": "MCQ",
+      "stem": "A company's profit increased by 12% in Year 1 and by 25% in Year 2. After both years, the profit is $1,260,000. What was the original profit before Year 1?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$794,286",
+          "isCorrect": false,
+          "feedback": "You may have reversed in the wrong order or used incorrect multipliers. Follow: ÷1.25 then ÷1.12."
+        },
+        {
+          "id": "B",
+          "text": "$1,125,000",
+          "isCorrect": false,
+          "feedback": "Check your calculation. First reverse Year 2 (÷1.25), then reverse Year 1 (÷1.12)."
+        },
+        {
+          "id": "C",
+          "text": "$920,438",
+          "isCorrect": false,
+          "feedback": "You may have added 12% + 25% = 37% and divided by 1.37. But increases multiply: 1.12 × 1.25 = 1.4, not 1.37."
+        },
+        {
+          "id": "D",
+          "text": "$900,000",
+          "isCorrect": true,
+          "feedback": "Correct! Reverse: Before Year 2 = $1,260,000 ÷ 1.25 = $1,008,000. Before Year 1 = $1,008,000 ÷ 1.12 = $900,000. Check: $900,000 × 1.12 × 1.25 = $1,260,000 ✓"
+        },
+        {
+          "id": "E",
+          "text": "$1,008,000",
+          "isCorrect": false,
+          "feedback": "You only reversed Year 2's increase. This is the profit after Year 1. You still need to reverse Year 1's 12% increase."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage (Multi-Step Growth)**\n\n**Step 1: Identify the sequence**\nProfit went: Original → +12% (Year 1) → +25% (Year 2) → $1,260,000\nWe need to reverse: $1,260,000 → remove Year 2 → remove Year 1 → Original\n\n**Step 2: Remove Year 2's increase**\n$1,260,000 is after 25% increase, meaning it's 125% of the Year 1 profit.\nAfter Year 1 = $1,260,000 ÷ 1.25 = $1,008,000\n\n**Step 3: Remove Year 1's increase**\n$1,008,000 is after 12% increase, meaning it's 112% of original.\nOriginal = $1,008,000 ÷ 1.12 = $900,000\n\n**Step 4: Check**\n$900,000 × 1.12 = $1,008,000\n$1,008,000 × 1.25 = $1,260,000 ✓\n\n**Note**: Total growth is 1.12 × 1.25 = 1.40 (40% total), not 12% + 25% = 37%",
+      "hints": [
+        {
+          "level": 1,
+          "content": "Two increases were applied over two years. Which happened LAST? Reverse that one FIRST.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Year 2 (25%) was last. Reverse it: $1,260,000 ÷ 1.25 = $1,008,000. This is profit after Year 1.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Now reverse Year 1 (12%): $1,008,000 ÷ 1.12 = $900,000. This is the original profit.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "compound-growth",
+          "multi-step-reversal",
+          "business-context"
+        ],
+        "distractorTypes": {
+          "A": "computation_error",
+          "B": "computation_error",
+          "C": "misconception_answer",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Reverse increases in opposite order: ÷1.25 (Year 2) → ÷1.12 (Year 1) → Original",
+        "methodologySteps": [
+          "Read: Identify TWO increases over two years",
+          "Reverse Year 2 (last): $1,260,000 ÷ 1.25 = $1,008,000",
+          "Reverse Year 1: $1,008,000 ÷ 1.12 = $900,000",
+          "Check: $900,000 × 1.12 × 1.25 = $1,260,000 ✓"
+        ],
+        "timeTarget": 100,
+        "commonErrors": [
+          "Adding percentages",
+          "Only reversing one year",
+          "Reversing in wrong order"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 100,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 24
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa13-025",
+      "questionType": "MCQ",
+      "stem": "A store marks up items by 40% and then offers a 25% discount to preferred customers. A preferred customer pays $84 for an item. What was the store's cost price?",
+      "mcqOptions": [
+        {
+          "id": "A",
+          "text": "$70",
+          "isCorrect": false,
+          "feedback": "You may have done 40% markup then 25% discount as net +15% and used that. But markup and discount apply to different bases."
+        },
+        {
+          "id": "B",
+          "text": "$60",
+          "isCorrect": false,
+          "feedback": "Check your calculation. First reverse discount: $84 ÷ 0.75 = $112. Then reverse markup: $112 ÷ 1.4 = $80."
+        },
+        {
+          "id": "C",
+          "text": "$98",
+          "isCorrect": false,
+          "feedback": "You may have reversed in wrong order or used incorrect multipliers. Follow: ÷0.75 (remove discount) then ÷1.4 (remove markup)."
+        },
+        {
+          "id": "D",
+          "text": "$80",
+          "isCorrect": true,
+          "feedback": "Correct! Before discount = $84 ÷ 0.75 = $112. Before markup = $112 ÷ 1.4 = $80. Check: $80 × 1.4 × 0.75 = $84 ✓"
+        },
+        {
+          "id": "E",
+          "text": "$112",
+          "isCorrect": false,
+          "feedback": "You only reversed the 25% discount. This is the marked-up price. You still need to reverse the 40% markup to find cost."
+        }
+      ],
+      "solution": "**Methodology: Reverse Percentage (Markup then Discount)**\n\n**Step 1: Identify the sequence**\nPrice went: Cost → +40% markup → -25% discount → $84\nWe need to reverse: $84 → remove discount → remove markup → Cost\n\n**Step 2: Remove the discount**\n$84 is after 25% discount, meaning it's 75% of the marked-up price.\nMarked-up = $84 ÷ 0.75 = $112\n\n**Step 3: Remove the markup**\n$112 is after 40% markup, meaning it's 140% of cost.\nCost = $112 ÷ 1.40 = $80\n\n**Step 4: Check**\n$80 × 1.40 (markup) = $112\n$112 × 0.75 (discount) = $84 ✓\n\n**Note**: The store still makes profit! Net effect on cost: 1.4 × 0.75 = 1.05, so they earn 5% on cost.",
+      "hints": [
+        {
+          "level": 1,
+          "content": "The customer paid $84 after BOTH markup and discount. Which was applied LAST? Reverse that FIRST.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 2,
+          "content": "Discount was last. Reverse it: $84 ÷ 0.75 = $112. This is the marked-up price before discount.",
+          "revealsCriticalInfo": false
+        },
+        {
+          "level": 3,
+          "content": "Now reverse the markup: $112 ÷ 1.4 = $80. This is the store's cost price.",
+          "revealsCriticalInfo": true
+        }
+      ],
+      "nswSelective": {
+        "archetype": "Reverse Percentage (Find Original)",
+        "archetypeId": "qa13",
+        "conceptsRequired": [
+          "percentages",
+          "markup",
+          "discount",
+          "multi-step-reversal",
+          "retail-math"
+        ],
+        "distractorTypes": {
+          "A": "misconception_answer",
+          "B": "computation_error",
+          "C": "computation_error",
+          "E": "partial_solution"
+        },
+        "solutionApproach": "Reverse in opposite order: ÷0.75 (remove discount) → ÷1.4 (remove markup) → Cost",
+        "methodologySteps": [
+          "Read: Identify markup (on cost) then discount (on marked-up price)",
+          "Reverse discount (last): $84 ÷ 0.75 = $112 (marked-up price)",
+          "Reverse markup: $112 ÷ 1.40 = $80 (cost price)",
+          "Check: $80 × 1.4 × 0.75 = $84 ✓"
+        ],
+        "timeTarget": 110,
+        "commonErrors": [
+          "Combining markup and discount incorrectly",
+          "Only reversing one step",
+          "Reversing in wrong order"
+        ]
+      },
+      "difficulty": 4,
+      "estimatedTime": 110,
+      "curriculum": {
+        "system": "NSW K-6 Mathematics",
+        "codes": [
+          "MA3-5NA",
+          "MA3-6NA"
+        ],
+        "year": 6,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra",
+        "substrand": "Fractions, Decimals and Percentages"
+      },
+      "paperMetadata": {
+        "section": "nsw-selective-mathematics",
+        "setId": "nsw-sel-qa13-set1",
+        "sequenceInPaper": 25
+      },
+      "status": "published"
+    }
+  ]
+}
