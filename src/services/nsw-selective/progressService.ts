@@ -28,6 +28,31 @@ import { ArchetypeId, ArchetypeProgress, ARCHETYPE_CATALOG } from '@/types/nsw-s
 const PROGRESS_COLLECTION = 'archetypeProgress';
 const LOCAL_PROGRESS_KEY = 'nsw-selective-archetype-progress';
 const LOCAL_SYNC_STATUS_KEY = 'nsw-selective-sync-status';
+const LOCAL_ACTIVE_SESSION_PREFIX = 'nsw-selective-active-session-';
+
+// =============================================================================
+// ACTIVE SESSION TYPES
+// =============================================================================
+
+export interface SessionAnswer {
+  questionId: string;
+  isCorrect: boolean;
+  timeSeconds: number;
+  selectedOption?: string;
+  errorType?: string;
+}
+
+export interface ActiveSession {
+  archetypeId: ArchetypeId;
+  startedAt: string;  // ISO string for serialization
+  questionIds: string[];           // All question IDs in this session (order preserved)
+  answeredQuestionIds: string[];   // Question IDs already answered
+  currentIndex: number;            // Current position (0-based)
+  answers: SessionAnswer[];        // Detailed answer history
+  correctCount: number;
+  incorrectCount: number;
+  totalTimeSeconds: number;
+}
 
 // =============================================================================
 // LOCAL STORAGE HELPERS
@@ -468,6 +493,171 @@ function calculateNextReviewDate(masteryLevel: number, consecutiveCorrect: numbe
 }
 
 // =============================================================================
+// ACTIVE SESSION FUNCTIONS
+// =============================================================================
+
+/**
+ * Get active session for an archetype (if one exists)
+ * @param archetypeId - The archetype ID
+ */
+export function getActiveSession(archetypeId: ArchetypeId): ActiveSession | null {
+  if (typeof window === 'undefined') return null;
+  try {
+    const key = `${LOCAL_ACTIVE_SESSION_PREFIX}${archetypeId}`;
+    const stored = localStorage.getItem(key);
+    if (!stored) return null;
+
+    const session = JSON.parse(stored) as ActiveSession;
+
+    // Validate session is not too old (expire after 7 days)
+    const startedAt = new Date(session.startedAt);
+    const daysSinceStart = (Date.now() - startedAt.getTime()) / (1000 * 60 * 60 * 24);
+    if (daysSinceStart > 7) {
+      clearActiveSession(archetypeId);
+      return null;
+    }
+
+    // Validate session is not complete
+    if (session.currentIndex >= session.questionIds.length) {
+      clearActiveSession(archetypeId);
+      return null;
+    }
+
+    return session;
+  } catch (error) {
+    console.error('Error loading active session:', error);
+    return null;
+  }
+}
+
+/**
+ * Save/update active session for an archetype
+ * @param session - The session state to save
+ */
+export function saveActiveSession(session: ActiveSession): void {
+  if (typeof window === 'undefined') return;
+  try {
+    const key = `${LOCAL_ACTIVE_SESSION_PREFIX}${session.archetypeId}`;
+    localStorage.setItem(key, JSON.stringify(session));
+  } catch (error) {
+    console.error('Error saving active session:', error);
+  }
+}
+
+/**
+ * Clear active session for an archetype (on completion or reset)
+ * @param archetypeId - The archetype ID
+ */
+export function clearActiveSession(archetypeId: ArchetypeId): void {
+  if (typeof window === 'undefined') return;
+  try {
+    const key = `${LOCAL_ACTIVE_SESSION_PREFIX}${archetypeId}`;
+    localStorage.removeItem(key);
+  } catch (error) {
+    console.error('Error clearing active session:', error);
+  }
+}
+
+/**
+ * Get all active sessions (for dashboard display)
+ */
+export function getAllActiveSessions(): ActiveSession[] {
+  if (typeof window === 'undefined') return [];
+  try {
+    const sessions: ActiveSession[] = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key?.startsWith(LOCAL_ACTIVE_SESSION_PREFIX)) {
+        const stored = localStorage.getItem(key);
+        if (stored) {
+          const session = JSON.parse(stored) as ActiveSession;
+          // Only include incomplete sessions
+          if (session.currentIndex < session.questionIds.length) {
+            sessions.push(session);
+          }
+        }
+      }
+    }
+    return sessions;
+  } catch (error) {
+    console.error('Error getting all active sessions:', error);
+    return [];
+  }
+}
+
+/**
+ * Create a new active session
+ * @param archetypeId - The archetype ID
+ * @param questionIds - The question IDs for this session
+ */
+export function createActiveSession(
+  archetypeId: ArchetypeId,
+  questionIds: string[]
+): ActiveSession {
+  const session: ActiveSession = {
+    archetypeId,
+    startedAt: new Date().toISOString(),
+    questionIds,
+    answeredQuestionIds: [],
+    currentIndex: 0,
+    answers: [],
+    correctCount: 0,
+    incorrectCount: 0,
+    totalTimeSeconds: 0,
+  };
+  saveActiveSession(session);
+  return session;
+}
+
+/**
+ * Update active session after answering a question
+ * @param archetypeId - The archetype ID
+ * @param answer - The answer details
+ */
+export function updateActiveSessionAfterAnswer(
+  archetypeId: ArchetypeId,
+  answer: SessionAnswer
+): ActiveSession | null {
+  const session = getActiveSession(archetypeId);
+  if (!session) return null;
+
+  const updatedSession: ActiveSession = {
+    ...session,
+    answeredQuestionIds: [...session.answeredQuestionIds, answer.questionId],
+    answers: [...session.answers, answer],
+    correctCount: session.correctCount + (answer.isCorrect ? 1 : 0),
+    incorrectCount: session.incorrectCount + (answer.isCorrect ? 0 : 1),
+    totalTimeSeconds: session.totalTimeSeconds + answer.timeSeconds,
+  };
+
+  saveActiveSession(updatedSession);
+  return updatedSession;
+}
+
+/**
+ * Move to next question in active session
+ * @param archetypeId - The archetype ID
+ */
+export function advanceActiveSession(archetypeId: ArchetypeId): ActiveSession | null {
+  const session = getActiveSession(archetypeId);
+  if (!session) return null;
+
+  const updatedSession: ActiveSession = {
+    ...session,
+    currentIndex: session.currentIndex + 1,
+  };
+
+  // If session is complete, clear it
+  if (updatedSession.currentIndex >= updatedSession.questionIds.length) {
+    clearActiveSession(archetypeId);
+    return null;
+  }
+
+  saveActiveSession(updatedSession);
+  return updatedSession;
+}
+
+// =============================================================================
 // EXPORTS
 // =============================================================================
 
@@ -479,4 +669,12 @@ export default {
   calculateExamReadiness,
   syncLocalProgressToFirestore,
   clearLocalProgress,
+  // Active session functions
+  getActiveSession,
+  saveActiveSession,
+  clearActiveSession,
+  getAllActiveSessions,
+  createActiveSession,
+  updateActiveSessionAfterAnswer,
+  advanceActiveSession,
 };

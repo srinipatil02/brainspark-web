@@ -382,7 +382,7 @@ function TimerDisplay({ seconds, targetSeconds }: { seconds: number; targetSecon
 // PROGRESS BAR
 // =============================================================================
 
-function ProgressBar({ current, total }: { current: number; total: number }) {
+function ProgressBar({ current, total, remaining }: { current: number; total: number; remaining?: number }) {
   const percentage = (current / total) * 100;
 
   return (
@@ -395,7 +395,124 @@ function ProgressBar({ current, total }: { current: number; total: number }) {
       </div>
       <span className="text-sm text-gray-500 whitespace-nowrap">
         {current} / {total}
+        {remaining !== undefined && remaining > 0 && (
+          <span className="text-purple-600 ml-1">({remaining} left)</span>
+        )}
       </span>
+    </div>
+  );
+}
+
+// =============================================================================
+// RESUME SESSION MODAL
+// =============================================================================
+
+interface ResumeSessionModalProps {
+  isOpen: boolean;
+  existingSession: {
+    currentIndex: number;
+    totalQuestions: number;
+    correctCount: number;
+    incorrectCount: number;
+    startedAt: string;
+  };
+  archetypeName: string;
+  onResume: () => void;
+  onStartFresh: () => void;
+}
+
+function ResumeSessionModal({
+  isOpen,
+  existingSession,
+  archetypeName,
+  onResume,
+  onStartFresh,
+}: ResumeSessionModalProps) {
+  if (!isOpen) return null;
+
+  const questionsAnswered = existingSession.currentIndex;
+  const questionsRemaining = existingSession.totalQuestions - existingSession.currentIndex;
+  const accuracy = questionsAnswered > 0
+    ? Math.round((existingSession.correctCount / questionsAnswered) * 100)
+    : 0;
+
+  // Format time since started
+  const startedAt = new Date(existingSession.startedAt);
+  const timeSince = Math.floor((Date.now() - startedAt.getTime()) / (1000 * 60 * 60));
+  const timeLabel = timeSince < 1 ? 'Less than an hour ago' :
+    timeSince < 24 ? `${timeSince} hours ago` :
+    `${Math.floor(timeSince / 24)} days ago`;
+
+  return (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+      <div className="bg-white rounded-2xl max-w-md w-full shadow-2xl overflow-hidden">
+        {/* Header */}
+        <div className="bg-gradient-to-r from-purple-600 to-indigo-600 px-6 py-4">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-white">
+                Continue Your Session?
+              </h3>
+              <p className="text-sm text-purple-100">
+                {archetypeName}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="p-6">
+          <p className="text-gray-600 mb-4">
+            You have an unfinished practice session from <span className="font-medium">{timeLabel}</span>.
+          </p>
+
+          {/* Progress Summary */}
+          <div className="bg-gray-50 rounded-xl p-4 mb-6">
+            <div className="grid grid-cols-3 gap-4 text-center">
+              <div>
+                <p className="text-2xl font-bold text-purple-600">{questionsAnswered}</p>
+                <p className="text-xs text-gray-500">Answered</p>
+              </div>
+              <div>
+                <p className="text-2xl font-bold text-amber-600">{questionsRemaining}</p>
+                <p className="text-xs text-gray-500">Remaining</p>
+              </div>
+              <div>
+                <p className="text-2xl font-bold text-green-600">{accuracy}%</p>
+                <p className="text-xs text-gray-500">Accuracy</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Actions */}
+          <div className="space-y-3">
+            <button
+              onClick={onResume}
+              className="w-full px-6 py-3 bg-purple-600 text-white rounded-xl font-medium hover:bg-purple-700 transition-colors flex items-center justify-center gap-2"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Continue Where I Left Off
+            </button>
+            <button
+              onClick={onStartFresh}
+              className="w-full px-6 py-3 bg-gray-100 text-gray-700 rounded-xl font-medium hover:bg-gray-200 transition-colors flex items-center justify-center gap-2"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+              Start Fresh
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
@@ -539,13 +656,61 @@ export function ArchetypePlayer({
   const [previousExplanationsSeen, setPreviousExplanationsSeen] = useState<string[]>([]);
 
   const archetype = getArchetypeDefinition(archetypeId);
-  const currentQuestion = questions[currentIndex];
+
+  // Get question IDs for session tracking
+  const questionIds = questions.map(q => q.questionId);
 
   const timer = useQuestionTimer();
-  const session = useQuestionSession(questions.length, archetypeId);
+  const session = useQuestionSession(questions.length, archetypeId, questionIds);
+
+  // Resume session state
+  const [showResumeModal, setShowResumeModal] = useState(false);
+  const [sessionInitialized, setSessionInitialized] = useState(false);
 
   // Get persistent progress for error history
   const { progress: archetypeProgress } = useArchetypeProgress(archetypeId);
+
+  // ==========================================================================
+  // SESSION RESUME LOGIC
+  // ==========================================================================
+
+  // Check for existing session on mount and show resume modal if needed
+  // IMPORTANT: Wait for session.hasCheckedSession before deciding what to do
+  useEffect(() => {
+    // Wait until the hook has finished checking for existing session
+    if (!session.hasCheckedSession) return;
+
+    if (!sessionInitialized && session.hasExistingSession && session.activeSession) {
+      // Show resume modal
+      setShowResumeModal(true);
+    } else if (!sessionInitialized && !session.hasExistingSession) {
+      // No existing session - start fresh automatically
+      session.startNewSession(questionIds);
+      setSessionInitialized(true);
+    }
+  }, [session.hasCheckedSession, session.hasExistingSession, session.activeSession, sessionInitialized, questionIds]);
+
+  // Handle resume session
+  const handleResumeSession = useCallback(() => {
+    if (session.activeSession) {
+      // Sync React state with persisted session
+      setCurrentIndex(session.activeSession.currentIndex);
+      session.resumeSession();
+      setSessionInitialized(true);
+      setShowResumeModal(false);
+    }
+  }, [session]);
+
+  // Handle start fresh
+  const handleStartFresh = useCallback(() => {
+    setCurrentIndex(0);
+    session.startNewSession(questionIds);
+    setSessionInitialized(true);
+    setShowResumeModal(false);
+  }, [session, questionIds]);
+
+  // Determine current question based on session state
+  const currentQuestion = questions[currentIndex];
 
   // Show methodology intro on first load (if not already seen)
   useEffect(() => {
@@ -823,8 +988,9 @@ export function ArchetypePlayer({
     setHintsSeenThisQuestion([]);
     setShowConceptExplainer(false);
     setPreviousExplanationsSeen([]);
-    session.resetSession();
-  }, [session]);
+    // Start a new session (clears storage and creates fresh session)
+    session.startNewSession(questionIds);
+  }, [session, questionIds]);
 
   // Handle reveal hint - uses adaptive hint service
   const handleRevealHint = useCallback(() => {
@@ -894,7 +1060,7 @@ export function ArchetypePlayer({
     <div className="space-y-4">
       {/* Progress and Timer */}
       <div className="flex items-center justify-between">
-        <ProgressBar current={currentIndex + 1} total={questions.length} />
+        <ProgressBar current={currentIndex + 1} total={questions.length} remaining={session.questionsRemaining} />
         {showTimer && (
           <TimerDisplay
             seconds={timer.elapsedSeconds}
@@ -1076,6 +1242,23 @@ export function ArchetypePlayer({
           console.log(`[AI Tutoring] Student viewed ${type} explanation`);
         }}
       />
+
+      {/* Resume Session Modal - when returning to an in-progress session */}
+      {session.activeSession && (
+        <ResumeSessionModal
+          isOpen={showResumeModal}
+          existingSession={{
+            currentIndex: session.activeSession.currentIndex,
+            totalQuestions: session.activeSession.questionIds.length,
+            correctCount: session.activeSession.correctCount,
+            incorrectCount: session.activeSession.incorrectCount,
+            startedAt: session.activeSession.startedAt,
+          }}
+          archetypeName={archetype.shortName}
+          onResume={handleResumeSession}
+          onStartFresh={handleStartFresh}
+        />
+      )}
     </div>
   );
 }

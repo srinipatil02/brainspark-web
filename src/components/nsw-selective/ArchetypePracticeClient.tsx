@@ -13,6 +13,7 @@ import { useState, useEffect } from 'react';
 import { ARCHETYPE_CATALOG, getArchetypeDefinition, ArchetypeCategory } from '@/types/nsw-selective';
 import { ArchetypeId, FirestoreQuestion } from '@/types';
 import { getQuestionsByArchetype } from '@/services/nsw-selective/archetypeService';
+import { getActiveSession } from '@/services/nsw-selective/progressService';
 import { ArchetypePlayer } from './ArchetypePlayer';
 
 // Category display configuration
@@ -35,10 +36,23 @@ export function ArchetypePracticeClient({ archetypeId }: ArchetypePracticeClient
   const [questions, setQuestions] = useState<FirestoreQuestion[]>([]);
   const [loading, setLoading] = useState(true);
   const [isPracticing, setIsPracticing] = useState(false);
+  const [hasExistingSession, setHasExistingSession] = useState(false);
 
   // Validate archetype ID
   const isValidArchetype = archetypeId && archetypeId in ARCHETYPE_CATALOG;
   const archetype = isValidArchetype ? getArchetypeDefinition(archetypeId as ArchetypeId) : null;
+
+  // Check for existing session on mount
+  useEffect(() => {
+    if (isValidArchetype) {
+      const existingSession = getActiveSession(archetypeId as ArchetypeId);
+      if (existingSession) {
+        setHasExistingSession(true);
+        // Auto-start practice mode so the resume modal can show
+        setIsPracticing(true);
+      }
+    }
+  }, [archetypeId, isValidArchetype]);
 
   // Fetch questions from Firestore
   useEffect(() => {

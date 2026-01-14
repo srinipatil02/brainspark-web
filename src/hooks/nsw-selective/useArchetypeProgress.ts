@@ -12,7 +12,15 @@ import { useState, useEffect, useCallback } from 'react';
 import { ArchetypeId } from '@/types';
 import { ArchetypeProgress, ARCHETYPE_CATALOG } from '@/types/nsw-selective';
 import { useAuth } from '@/contexts/AuthContext';
-import progressService from '@/services/nsw-selective/progressService';
+import progressService, {
+  ActiveSession,
+  SessionAnswer,
+  getActiveSession,
+  createActiveSession,
+  updateActiveSessionAfterAnswer,
+  advanceActiveSession,
+  clearActiveSession,
+} from '@/services/nsw-selective/progressService';
 import {
   getArchetypeProgress as getArchetypeProgressSync,
   getAllArchetypeProgress as getAllArchetypeProgressSync,
@@ -244,10 +252,14 @@ interface QuestionSessionState {
     errorType?: string;
   }>;
   isComplete: boolean;
+  isResumed: boolean;  // Whether this session was resumed from storage
 }
 
 interface UseQuestionSessionReturn {
   session: QuestionSessionState;
+  activeSession: ActiveSession | null;
+  hasExistingSession: boolean;
+  hasCheckedSession: boolean;  // Whether the initial session check is complete
   recordAnswer: (
     questionId: string,
     isCorrect: boolean,
@@ -257,25 +269,34 @@ interface UseQuestionSessionReturn {
   ) => void;
   nextQuestion: () => void;
   resetSession: () => void;
+  startNewSession: (questionIds: string[]) => void;
+  resumeSession: () => void;
   getSessionSummary: () => {
     accuracy: number;
     averageTime: number;
     totalTime: number;
   };
+  questionsRemaining: number;
 }
 
 /**
  * Hook for managing a practice session (multiple questions)
- * Uses Firestore when authenticated, localStorage as fallback
+ * NOW WITH PERSISTENCE: Sessions are saved to localStorage and can be resumed
  * @param totalQuestions - Number of questions in the session
  * @param archetypeId - The archetype being practiced
+ * @param questionIds - Array of question IDs (for session tracking)
  */
 export function useQuestionSession(
   totalQuestions: number,
-  archetypeId: ArchetypeId
+  archetypeId: ArchetypeId,
+  questionIds?: string[]
 ): UseQuestionSessionReturn {
   const { user } = useAuth();
   const userId = user?.uid || null;
+
+  // Check for existing session on mount
+  const [existingSession, setExistingSession] = useState<ActiveSession | null>(null);
+  const [hasCheckedSession, setHasCheckedSession] = useState(false);
 
   const [session, setSession] = useState<QuestionSessionState>({
     currentQuestionIndex: 0,
@@ -285,9 +306,59 @@ export function useQuestionSession(
     totalTimeSeconds: 0,
     answers: [],
     isComplete: false,
+    isResumed: false,
   });
 
-  // Record an answer and update archetype progress
+  // Check for existing session on mount
+  useEffect(() => {
+    if (!hasCheckedSession) {
+      const existing = getActiveSession(archetypeId);
+      setExistingSession(existing);
+      setHasCheckedSession(true);
+    }
+  }, [archetypeId, hasCheckedSession]);
+
+  // Resume from existing session
+  const resumeSession = useCallback(() => {
+    if (!existingSession) return;
+
+    setSession({
+      currentQuestionIndex: existingSession.currentIndex,
+      totalQuestions: existingSession.questionIds.length,
+      correctCount: existingSession.correctCount,
+      incorrectCount: existingSession.incorrectCount,
+      totalTimeSeconds: existingSession.totalTimeSeconds,
+      answers: existingSession.answers,
+      isComplete: false,
+      isResumed: true,
+    });
+    // Clear the "existing session" prompt since we've resumed
+    setExistingSession(null);
+  }, [existingSession]);
+
+  // Start a brand new session (clears any existing)
+  const startNewSession = useCallback((newQuestionIds: string[]) => {
+    // Clear any existing session
+    clearActiveSession(archetypeId);
+
+    // Create new session in storage
+    const newSession = createActiveSession(archetypeId, newQuestionIds);
+
+    // Reset React state
+    setSession({
+      currentQuestionIndex: 0,
+      totalQuestions: newQuestionIds.length,
+      correctCount: 0,
+      incorrectCount: 0,
+      totalTimeSeconds: 0,
+      answers: [],
+      isComplete: false,
+      isResumed: false,
+    });
+    setExistingSession(null);
+  }, [archetypeId]);
+
+  // Record an answer and update both session storage and archetype progress
   const recordAnswer = useCallback((
     questionId: string,
     isCorrect: boolean,
@@ -295,20 +366,25 @@ export function useQuestionSession(
     selectedOption?: string,
     errorType?: string
   ) => {
-    // Update session state
+    const answer: SessionAnswer = {
+      questionId,
+      isCorrect,
+      timeSeconds,
+      selectedOption,
+      errorType,
+    };
+
+    // Update React state
     setSession(prev => ({
       ...prev,
       correctCount: prev.correctCount + (isCorrect ? 1 : 0),
       incorrectCount: prev.incorrectCount + (isCorrect ? 0 : 1),
       totalTimeSeconds: prev.totalTimeSeconds + timeSeconds,
-      answers: [...prev.answers, {
-        questionId,
-        isCorrect,
-        timeSeconds,
-        selectedOption,
-        errorType,
-      }],
+      answers: [...prev.answers, answer],
     }));
+
+    // Persist to active session storage
+    updateActiveSessionAfterAnswer(archetypeId, answer);
 
     // Update persistent archetype progress (async, but we don't need to wait)
     progressService.updateProgressAfterQuestion(
@@ -328,16 +404,31 @@ export function useQuestionSession(
   const nextQuestion = useCallback(() => {
     setSession(prev => {
       const nextIndex = prev.currentQuestionIndex + 1;
+      const isComplete = nextIndex >= prev.totalQuestions;
+
+      // Update storage
+      if (isComplete) {
+        // Clear the active session on completion
+        clearActiveSession(archetypeId);
+      } else {
+        // Advance position in storage
+        advanceActiveSession(archetypeId);
+      }
+
       return {
         ...prev,
         currentQuestionIndex: nextIndex,
-        isComplete: nextIndex >= prev.totalQuestions,
+        isComplete,
       };
     });
-  }, []);
+  }, [archetypeId]);
 
-  // Reset session
+  // Reset session (start fresh)
   const resetSession = useCallback(() => {
+    // Clear storage
+    clearActiveSession(archetypeId);
+
+    // Reset state
     setSession({
       currentQuestionIndex: 0,
       totalQuestions,
@@ -346,8 +437,10 @@ export function useQuestionSession(
       totalTimeSeconds: 0,
       answers: [],
       isComplete: false,
+      isResumed: false,
     });
-  }, [totalQuestions]);
+    setExistingSession(null);
+  }, [totalQuestions, archetypeId]);
 
   // Get session summary
   const getSessionSummary = useCallback(() => {
@@ -363,12 +456,21 @@ export function useQuestionSession(
     };
   }, [session]);
 
+  // Calculate questions remaining
+  const questionsRemaining = session.totalQuestions - session.currentQuestionIndex;
+
   return {
     session,
+    activeSession: existingSession,
+    hasExistingSession: existingSession !== null,
+    hasCheckedSession,
     recordAnswer,
     nextQuestion,
     resetSession,
+    startNewSession,
+    resumeSession,
     getSessionSummary,
+    questionsRemaining,
   };
 }
 
