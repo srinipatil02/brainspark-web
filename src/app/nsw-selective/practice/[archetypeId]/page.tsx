@@ -8,7 +8,7 @@
 
 import { ArchetypePracticeClient } from '@/components/nsw-selective/ArchetypePracticeClient';
 
-// Generate static params for all 20 archetypes (required for static export)
+// Generate static params for all 23 archetypes (required for static export)
 export function generateStaticParams() {
   return [
     { archetypeId: 'qa1' },
@@ -31,6 +31,9 @@ export function generateStaticParams() {
     { archetypeId: 'qa18' },
     { archetypeId: 'qa19' },
     { archetypeId: 'qa20' },
+    { archetypeId: 'qa21' },
+    { archetypeId: 'qa22' },
+    { archetypeId: 'qa23' },
   ];
 }
 
