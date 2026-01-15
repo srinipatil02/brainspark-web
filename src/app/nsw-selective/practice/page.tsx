@@ -13,6 +13,7 @@ import { useState, useMemo } from 'react';
 import { ARCHETYPE_CATALOG, ArchetypeCategory, getArchetypeDefinition } from '@/types/nsw-selective';
 import { ArchetypeId } from '@/types';
 import { ArchetypeCard } from '@/components/nsw-selective/ArchetypeCard';
+import { useAllArchetypeProgress } from '@/hooks/nsw-selective/useArchetypeProgress';
 
 // Category display configuration
 const CATEGORY_CONFIG: Record<ArchetypeCategory, { label: string; color: string; bgColor: string; borderColor: string }> = {
@@ -40,6 +41,9 @@ export default function PracticePage() {
   const [selectedCategory, setSelectedCategory] = useState<ArchetypeCategory | 'all'>('all');
   const [showOnlyVisual, setShowOnlyVisual] = useState(false);
   const [sortBy, setSortBy] = useState<'id' | 'difficulty' | 'category'>('id');
+
+  // Load progress for all archetypes
+  const { allProgress, isLoading: progressLoading } = useAllArchetypeProgress();
 
   // Convert catalog to array with IDs
   const allArchetypes = useMemo(() => {
@@ -208,13 +212,22 @@ export default function PracticePage() {
                   <span className="text-sm text-gray-400">{archetypes.length} types</span>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                  {archetypes.map((archetype) => (
-                    <ArchetypeCard
-                      key={archetype.id}
-                      archetype={archetype}
-                      showDetails
-                    />
-                  ))}
+                  {archetypes.map((archetype) => {
+                    const progress = allProgress[archetype.id as ArchetypeId];
+                    return (
+                      <ArchetypeCard
+                        key={archetype.id}
+                        archetype={archetype}
+                        showDetails
+                        progress={progress && progress.questionsAttempted > 0 ? {
+                          masteryLevel: progress.masteryLevel,
+                          questionsAttempted: progress.questionsAttempted,
+                          questionsCorrect: progress.questionsCorrect,
+                          averageTimeSeconds: progress.averageTimeSeconds,
+                        } : undefined}
+                      />
+                    );
+                  })}
                 </div>
               </div>
             ))}
@@ -222,13 +235,22 @@ export default function PracticePage() {
         ) : (
           // Flat grid view
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {filteredArchetypes.map((archetype) => (
-              <ArchetypeCard
-                key={archetype.id}
-                archetype={archetype}
-                showDetails
-              />
-            ))}
+            {filteredArchetypes.map((archetype) => {
+              const progress = allProgress[archetype.id as ArchetypeId];
+              return (
+                <ArchetypeCard
+                  key={archetype.id}
+                  archetype={archetype}
+                  showDetails
+                  progress={progress && progress.questionsAttempted > 0 ? {
+                    masteryLevel: progress.masteryLevel,
+                    questionsAttempted: progress.questionsAttempted,
+                    questionsCorrect: progress.questionsCorrect,
+                    averageTimeSeconds: progress.averageTimeSeconds,
+                  } : undefined}
+                />
+              );
+            })}
           </div>
         )}
 
