@@ -176,6 +176,24 @@ const ARCHETYPE_CONNECTIONS: Record<ArchetypeId, ArchetypeRelationships> = {
     sharesErrorPatterns: ['qa13'],    // Both have forward/reverse confusion
     prerequisiteFor: ['qa4'],         // Basic SDT needed for complex journeys
     buildsOn: ['qa16']                // Needs basic time calculations
+  },
+  qa21: { // Multi-Concept Integration
+    sharesConcepts: ['qa10', 'qa17'],  // All involve combining multiple concepts
+    sharesErrorPatterns: ['qa10'],     // Both have relationship confusion
+    prerequisiteFor: [],               // Advanced synthesis archetype
+    buildsOn: ['qa5', 'qa11', 'qa13']  // Builds on equation, percentage, and ratio skills
+  },
+  qa22: { // Probability Reasoning
+    sharesConcepts: ['qa18', 'qa23'],  // Counting/combinations and statistics
+    sharesErrorPatterns: ['qa18'],     // Both involve systematic counting errors
+    prerequisiteFor: ['qa23'],         // Probability concepts help with data interpretation
+    buildsOn: ['qa18']                 // Builds on systematic counting skills
+  },
+  qa23: { // Data Interpretation
+    sharesConcepts: ['qa8', 'qa22'],   // Both involve statistical measures
+    sharesErrorPatterns: ['qa8'],      // Both have mean/median confusion
+    prerequisiteFor: [],               // Application archetype
+    buildsOn: ['qa8', 'qa22']          // Builds on mean calculations and probability
   }
 };
 

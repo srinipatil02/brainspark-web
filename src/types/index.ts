@@ -104,7 +104,10 @@ export type ArchetypeId =
   | 'qa17'  // Age Relationship Problem
   | 'qa18'  // Systematic Counting/Combinations
   | 'qa19'  // Shaded Region Area
-  | 'qa20'; // Speed-Distance-Time Multi-Part
+  | 'qa20'  // Speed-Distance-Time Multi-Part
+  | 'qa21'  // Multi-Concept Integration (combines 2-3 archetypes)
+  | 'qa22'  // Probability Reasoning
+  | 'qa23'; // Data Interpretation & Statistical Reasoning
 
 /**
  * NSW Selective metadata for questions

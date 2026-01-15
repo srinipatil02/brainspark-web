@@ -58,6 +58,23 @@ const subjects: Subject[] = [
         setIds: ['year8-science-cells-set1', 'year8-science-cells-set2', 'year8-science-cells-set3', 'year8-science-cells-set4', 'year8-science-cells-set5', 'year8-science-cells-hard-set1', 'year8-science-cells-hard-set2'],
       },
       {
+        id: 'year8-cells-structure',
+        title: 'Cells & Cell Structure',
+        description: 'Deep dive into cell theory, organelles, photosynthesis, and cellular respiration',
+        questionCount: 80,
+        isRich: true,
+        setIds: [
+          'year8-cells-cell-structure-set1',
+          'year8-cells-cell-structure-set2',
+          'year8-cells-cell-structure-set3',
+          'year8-cells-cell-structure-set4',
+          'year8-cells-cell-structure-set5',
+          'year8-cells-cell-structure-set6',
+          'year8-cells-cell-structure-set7',
+          'year8-cells-cell-structure-set8',
+        ],
+      },
+      {
         id: 'year8-states-of-matter',
         title: 'States of Matter',
         description: 'Particle model, solids, liquids, gases, and state changes',

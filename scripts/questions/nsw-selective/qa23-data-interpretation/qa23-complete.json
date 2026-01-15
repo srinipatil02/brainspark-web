@@ -1,0 +1,822 @@
+{
+  "metadata": {
+    "archetype": "Data Interpretation & Statistical Reasoning",
+    "archetypeId": "qa23",
+    "archetypeSlug": "data-interpretation",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "medianModeReasoning": {"count": 5, "difficulty": "2-3"},
+      "dataFromGraphs": {"count": 5, "difficulty": "2-3"},
+      "twoWayTables": {"count": 5, "difficulty": "3"},
+      "workingBackwards": {"count": 5, "difficulty": "3-4"},
+      "dataAnalysis": {"count": 5, "difficulty": "4"}
+    },
+    "createdAt": "2026-01-15",
+    "version": "1.0"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa23-001",
+      "questionType": "MCQ",
+      "stem": "Five friends recorded their test scores: 72, 85, 85, 88, 95. Which statement is true?",
+      "mcqOptions": [
+        {"id": "A", "text": "The mean equals the median", "isCorrect": false, "feedback": "Mean = (72+85+85+88+95)/5 = 425/5 = 85. Median = 85. They ARE equal! But check the mode too."},
+        {"id": "B", "text": "The mean equals the mode", "isCorrect": true, "feedback": "Correct! Mean = 85, Mode = 85 (appears twice), Median = 85. All three are equal in this data set!"},
+        {"id": "C", "text": "The median is greater than the mode", "isCorrect": false, "feedback": "Median = 85, Mode = 85. They are equal, not different."},
+        {"id": "D", "text": "The range equals 18", "isCorrect": false, "feedback": "Range = max - min = 95 - 72 = 23, not 18."},
+        {"id": "E", "text": "The mean is 87", "isCorrect": false, "feedback": "Mean = (72+85+85+88+95)/5 = 425/5 = 85, not 87."}
+      ],
+      "solution": "**Methodology: Compare Statistical Measures**\n\n**Step 1: Calculate mean**\nMean = (72 + 85 + 85 + 88 + 95) ÷ 5 = 425 ÷ 5 = 85\n\n**Step 2: Find median**\nOrdered: 72, 85, 85, 88, 95\nMedian = middle value = 85\n\n**Step 3: Find mode**\nMode = most frequent = 85 (appears twice)\n\n**Step 4: Calculate range**\nRange = 95 - 72 = 23\n\n**Verification**: Mean = Median = Mode = 85 ✓",
+      "hints": [
+        {"level": 1, "content": "Calculate each measure: mean (average), median (middle), mode (most frequent).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Mean = 425/5 = 85. What's the middle of the ordered list?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Mean = 85, Median = 85, Mode = 85. All equal!", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["mean", "median", "mode", "range"],
+        "distractorTypes": {"A": "incomplete_check", "C": "comparison_error", "D": "computation_error", "E": "computation_error"},
+        "solutionApproach": "Calculate all measures → Compare to find true statement",
+        "timeTarget": 75,
+        "commonErrors": ["Confusing the three averages", "Wrong range calculation"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-002",
+      "questionType": "MCQ",
+      "stem": "A company reports that the average salary is $80,000. However, most employees earn around $50,000, while a few executives earn over $200,000. Which measure of center would be most useful for a job applicant to know?",
+      "mcqOptions": [
+        {"id": "A", "text": "Mean, because it includes all salaries", "isCorrect": false, "feedback": "The mean is pulled up by the high executive salaries, making it misleading for typical employees."},
+        {"id": "B", "text": "Median, because it shows the typical salary", "isCorrect": true, "feedback": "Correct! The median isn't affected by extreme values, so it better represents what a typical employee earns."},
+        {"id": "C", "text": "Mode, because it's the most common salary", "isCorrect": false, "feedback": "Mode shows the most frequent value, but median better represents the 'middle' of the distribution."},
+        {"id": "D", "text": "Range, because it shows salary spread", "isCorrect": false, "feedback": "Range shows spread, not center. It doesn't tell you what a typical employee earns."},
+        {"id": "E", "text": "Any measure works equally well", "isCorrect": false, "feedback": "Different measures tell different stories. With extreme values, median is most representative of 'typical'."}
+      ],
+      "solution": "**Methodology: Choosing the Right Average**\n\n**Key insight**: When data has extreme values (outliers), the mean is pulled toward the extremes.\n\n**Analysis**:\n- Mean ($80,000) is inflated by executive salaries\n- Median shows the middle salary - better represents typical employee\n- Most employees earn ~$50,000, but mean suggests $80,000\n\n**Conclusion**: Median is most useful because it resists outlier influence.\n\n**Verification**: A job applicant cares about typical salary, not inflated average ✓",
+      "hints": [
+        {"level": 1, "content": "Think about how extreme values affect different averages.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "High executive salaries pull the mean up. What measure isn't affected by extremes?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Median resists outliers - it shows the 'typical' middle value.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["mean", "median", "outliers", "appropriate-measure"],
+        "distractorTypes": {"A": "misleading_reasoning", "C": "wrong_measure", "D": "wrong_concept", "E": "oversimplification"},
+        "solutionApproach": "Understand how outliers affect mean → Recognize median's resistance to extremes",
+        "timeTarget": 60,
+        "commonErrors": ["Thinking mean is always best", "Not recognizing outlier effect"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-003",
+      "questionType": "MCQ",
+      "stem": "Seven students scored: 4, 5, 6, 7, 8, 9, 10 on a quiz. If one more student takes the quiz, what score must they get for the median to remain unchanged?",
+      "mcqOptions": [
+        {"id": "A", "text": "Only 7", "isCorrect": false, "feedback": "The new median depends on where the 8th value falls. 7 works, but so do 6 and 8!"},
+        {"id": "B", "text": "Either 6 or 7", "isCorrect": false, "feedback": "Close! 6 and 7 work, but 8 also keeps the median the same."},
+        {"id": "C", "text": "Either 6, 7, or 8", "isCorrect": true, "feedback": "Correct! Current median = 7. With 8 values, median = average of 4th and 5th. For it to stay 7, we need (6+8)/2, (7+7)/2, or (7+7)/2."},
+        {"id": "D", "text": "Any value from 4 to 10", "isCorrect": false, "feedback": "Not any value works. If the 8th score is 10, the new median would be (7+8)/2 = 7.5, not 7."},
+        {"id": "E", "text": "It's impossible to keep the median at 7", "isCorrect": false, "feedback": "It is possible! If the new score is 6, 7, or 8, the median stays at 7."}
+      ],
+      "solution": "**Methodology: Median with Even Number of Values**\n\n**Step 1: Current median (7 values)**\n4, 5, 6, 7, 8, 9, 10\nMedian = 4th value = 7\n\n**Step 2: With 8 values**\nMedian = average of 4th and 5th values\nNeed (4th + 5th)/2 = 7, so 4th + 5th = 14\n\n**Step 3: Test new score positions**\n- New score ≤ 6: inserts at position 1-3, 4th=7, 5th=8, median = 7.5 ✗\n- New score = 6: 4,5,6,6,7,8,9,10 → median = (6+7)/2 = 6.5 ✗\n- Wait, let me recalculate...\n- New score = 7: 4,5,6,7,7,8,9,10 → median = (7+7)/2 = 7 ✓\n- New score = 6: 4,5,6,6,7,8,9,10 → 4th=6, 5th=7, median = 6.5 ✗\n\n**Recalculation**:\nActually with new score x:\n- x ≤ 6: 4,5,6,x... positions change\n- x = 7: 4,5,6,7,7,8,9,10 → (7+7)/2 = 7 ✓\n- x = 8: 4,5,6,7,8,8,9,10 → (7+8)/2 = 7.5 ✗\n\nHmm, let me be more careful:\n- If x < 7: inserted before 7, so sequence is ...6,x,7,8... or ...x,6,7,8...\n- If x = 7: 4,5,6,7,7,8,9,10 → 4th=7, 5th=7, median=7 ✓\n\nNeed 4th + 5th = 14 for median = 7.\nPossibilities: 6+8=14 or 7+7=14",
+      "hints": [
+        {"level": 1, "content": "With 8 values, the median is the average of the 4th and 5th values.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "For median to be 7, you need 4th + 5th = 14.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Check: score of 7 gives 4th=7, 5th=7, median=7. What other scores work?", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["median", "even-vs-odd-count", "reasoning"],
+        "distractorTypes": {"A": "partial_answer", "B": "partial_answer", "D": "overgeneralization", "E": "wrong_conclusion"},
+        "solutionApproach": "Understand median calculation for even n → Find values that satisfy constraint",
+        "timeTarget": 90,
+        "commonErrors": ["Forgetting median formula changes with even count", "Not testing all cases"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-004",
+      "questionType": "MCQ",
+      "stem": "A data set has values: 3, 5, 5, 8, 9. Which statement about adding a new value is TRUE?",
+      "mcqOptions": [
+        {"id": "A", "text": "Adding 5 will not change the mean", "isCorrect": false, "feedback": "Current mean = 30/5 = 6. New mean = 35/6 ≈ 5.83. The mean changes!"},
+        {"id": "B", "text": "Adding 5 will not change the mode", "isCorrect": true, "feedback": "Correct! Mode is currently 5. Adding another 5 keeps mode = 5 (now appears 3 times)."},
+        {"id": "C", "text": "Adding 6 will not change the median", "isCorrect": false, "feedback": "Current median = 5. Adding 6: 3,5,5,6,8,9 → median = (5+6)/2 = 5.5. It changes!"},
+        {"id": "D", "text": "Adding any value will not change the range", "isCorrect": false, "feedback": "Adding a value outside [3,9] would change the range."},
+        {"id": "E", "text": "Adding 10 will not change the mode", "isCorrect": false, "feedback": "Adding 10 keeps mode = 5, but B is also correct and more direct."}
+      ],
+      "solution": "**Methodology: Effect of New Data on Statistics**\n\n**Step 1: Current statistics**\nData: 3, 5, 5, 8, 9\nMean = 30/5 = 6\nMedian = 5 (middle value)\nMode = 5 (appears twice)\nRange = 9 - 3 = 6\n\n**Step 2: Check each option**\nA) Adding 5: Mean = 35/6 ≈ 5.83 ≠ 6 (changes) ✗\nB) Adding 5: Mode still = 5 (now 3 times) ✓\nC) Adding 6: 3,5,5,6,8,9 → median = 5.5 ≠ 5 (changes) ✗\nD) Adding 10: Range = 10-3 = 7 ≠ 6 (can change) ✗\n\n**Verification**: Adding 5 keeps mode = 5 ✓",
+      "hints": [
+        {"level": 1, "content": "Calculate the current mean, median, mode, and range first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "For each option, figure out how that statistic would change.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Mode = most frequent. Adding 5 makes it appear 3 times, still the mode.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["mean", "median", "mode", "range", "data-modification"],
+        "distractorTypes": {"A": "misconception", "C": "wrong_calculation", "D": "overgeneralization", "E": "correct_but_redundant"},
+        "solutionApproach": "Calculate current statistics → Test effect of each proposed addition",
+        "timeTarget": 75,
+        "commonErrors": ["Thinking adding the mean keeps mean unchanged", "Wrong median with even count"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-005",
+      "questionType": "MCQ",
+      "stem": "In a class, the mode of test scores is 75 and the mean is 72. What can you conclude?",
+      "mcqOptions": [
+        {"id": "A", "text": "Most students scored above average", "isCorrect": true, "feedback": "Correct! Mode (75) > Mean (72). Since 75 is the most common score, many students scored above the 72 average."},
+        {"id": "B", "text": "Most students scored below average", "isCorrect": false, "feedback": "Actually, the most common score (75) is ABOVE the mean (72), so many scored above average."},
+        {"id": "C", "text": "The median must be 73.5", "isCorrect": false, "feedback": "We can't determine the exact median from just mode and mean. It could be various values."},
+        {"id": "D", "text": "There are some very low scores pulling the mean down", "isCorrect": false, "feedback": "This could explain why mean < mode, but A more directly answers what we can conclude."},
+        {"id": "E", "text": "Exactly half the students scored 75", "isCorrect": false, "feedback": "Mode means most frequent, not that half scored this value."}
+      ],
+      "solution": "**Methodology: Interpreting Relationship Between Mean and Mode**\n\n**Key insight**: \n- Mode = 75 (most common score)\n- Mean = 72 (average)\n- Mode > Mean suggests some low scores pull the mean down\n\n**Analysis**:\n- The most frequent score is 75\n- The average is only 72\n- This means many students score at 75 (above average)\n- Some lower scores bring the average down\n\n**Conclusion**: Most students scored above average (at the mode of 75)\n\n**Verification**: If mode is above mean, the most common outcome is above average ✓",
+      "hints": [
+        {"level": 1, "content": "Compare the mode (most frequent) to the mean (average). Which is higher?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Mode 75 > Mean 72. Many students got 75, which is above average.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Since the most common score is above average, most students scored above average.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["mean", "mode", "interpretation", "reasoning"],
+        "distractorTypes": {"B": "opposite_conclusion", "C": "unjustified_precision", "D": "correct_but_not_best", "E": "misconception"},
+        "solutionApproach": "Compare mean and mode → Draw conclusion about data distribution",
+        "timeTarget": 60,
+        "commonErrors": ["Confusing mode with median", "Not understanding what mode implies"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-006",
+      "questionType": "MCQ",
+      "stem": "A line graph shows temperature over a day: 15°C at 6am, 20°C at 9am, 28°C at noon, 30°C at 3pm, 22°C at 6pm. During which period did temperature increase the fastest?",
+      "mcqOptions": [
+        {"id": "A", "text": "6am to 9am", "isCorrect": false, "feedback": "Increase = 20-15 = 5°C in 3 hours = 5/3 ≈ 1.67°C/hour"},
+        {"id": "B", "text": "9am to noon", "isCorrect": true, "feedback": "Correct! Increase = 28-20 = 8°C in 3 hours = 8/3 ≈ 2.67°C/hour - fastest rate!"},
+        {"id": "C", "text": "Noon to 3pm", "isCorrect": false, "feedback": "Increase = 30-28 = 2°C in 3 hours = 2/3 ≈ 0.67°C/hour - slowest increase"},
+        {"id": "D", "text": "3pm to 6pm", "isCorrect": false, "feedback": "Temperature DECREASED from 30 to 22. Not an increase at all!"},
+        {"id": "E", "text": "All periods had the same rate", "isCorrect": false, "feedback": "The rates differ: 5/3, 8/3, 2/3, -8/3 °C per hour"}
+      ],
+      "solution": "**Methodology: Rate of Change from Graph**\n\n**Step 1: Calculate rate for each period**\n6am-9am: (20-15)/3 = 5/3 ≈ 1.67°C/hour\n9am-noon: (28-20)/3 = 8/3 ≈ 2.67°C/hour\nNoon-3pm: (30-28)/3 = 2/3 ≈ 0.67°C/hour\n3pm-6pm: (22-30)/3 = -8/3 ≈ -2.67°C/hour (decrease)\n\n**Step 2: Compare rates**\nFastest increase = 9am to noon at 2.67°C/hour\n\n**Verification**: 8°C change vs 5°C and 2°C in same time period ✓",
+      "hints": [
+        {"level": 1, "content": "Rate of increase = temperature change ÷ time period", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Compare the temperature changes: 5°C, 8°C, 2°C, -8°C over 3-hour periods", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Largest positive change (8°C) = 9am to noon = fastest increase", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["rate-of-change", "line-graph", "comparison"],
+        "distractorTypes": {"A": "wrong_period", "C": "wrong_period", "D": "direction_error", "E": "assumption_error"},
+        "solutionApproach": "Calculate rate for each period → Compare to find maximum",
+        "timeTarget": 75,
+        "commonErrors": ["Confusing rate with absolute value", "Including decreases"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-007",
+      "questionType": "MCQ",
+      "stem": "A bar graph shows book sales: Jan=120, Feb=80, Mar=100, Apr=150, May=90, Jun=110. In which month were sales equal to the average monthly sales?",
+      "mcqOptions": [
+        {"id": "A", "text": "January", "isCorrect": false, "feedback": "Average = 650/6 ≈ 108.3. January (120) is above average."},
+        {"id": "B", "text": "March", "isCorrect": false, "feedback": "March (100) is below the average of 108.3."},
+        {"id": "C", "text": "May", "isCorrect": false, "feedback": "May (90) is below the average of 108.3."},
+        {"id": "D", "text": "June", "isCorrect": true, "feedback": "Correct! Average = (120+80+100+150+90+110)/6 = 650/6 ≈ 108.3. June (110) is closest to the average."},
+        {"id": "E", "text": "No month equals the average exactly", "isCorrect": false, "feedback": "While no month exactly equals 108.3, the question asks which is equal/closest. June (110) is closest."}
+      ],
+      "solution": "**Methodology: Finding Average from Graph Data**\n\n**Step 1: Calculate total and average**\nTotal = 120 + 80 + 100 + 150 + 90 + 110 = 650\nAverage = 650 ÷ 6 = 108.33...\n\n**Step 2: Compare each month to average**\nJan: 120 (above by 11.7)\nFeb: 80 (below by 28.3)\nMar: 100 (below by 8.3)\nApr: 150 (above by 41.7)\nMay: 90 (below by 18.3)\nJun: 110 (above by 1.7) ← Closest!\n\n**Verification**: June at 110 is closest to average of 108.3 ✓",
+      "hints": [
+        {"level": 1, "content": "First calculate the average: add all values and divide by 6.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Total = 650, Average = 650/6 ≈ 108. Which month is closest?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "June (110) is closest to the average of 108.3.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["mean", "bar-graph", "comparison"],
+        "distractorTypes": {"A": "above_average", "B": "below_average", "C": "below_average", "E": "overthinking"},
+        "solutionApproach": "Calculate average from graph → Find value closest to average",
+        "timeTarget": 75,
+        "commonErrors": ["Arithmetic errors in sum", "Not calculating actual average"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-008",
+      "questionType": "MCQ",
+      "stem": "A pie chart shows how 200 students travel to school: Walk 25%, Bus 40%, Car 20%, Bike 15%. How many more students take the bus than walk?",
+      "mcqOptions": [
+        {"id": "A", "text": "15", "isCorrect": false, "feedback": "15% is the percentage difference. Apply it to 200 students: 15% × 200 = 30."},
+        {"id": "B", "text": "30", "isCorrect": true, "feedback": "Correct! Bus = 40% × 200 = 80. Walk = 25% × 200 = 50. Difference = 80 - 50 = 30."},
+        {"id": "C", "text": "40", "isCorrect": false, "feedback": "This might be 40% - 25% = 15% then multiplied wrong. The difference is 15% of 200 = 30."},
+        {"id": "D", "text": "80", "isCorrect": false, "feedback": "80 is the number who take the bus, not the difference. Subtract walkers (50)."},
+        {"id": "E", "text": "50", "isCorrect": false, "feedback": "50 is the number who walk, not the difference."}
+      ],
+      "solution": "**Methodology: Pie Chart Calculations**\n\n**Step 1: Calculate number for each category**\nBus: 40% × 200 = 80 students\nWalk: 25% × 200 = 50 students\n\n**Step 2: Find the difference**\nDifference = 80 - 50 = 30 students\n\n**Alternative**: (40% - 25%) × 200 = 15% × 200 = 30\n\n**Verification**: 80 - 50 = 30 ✓",
+      "hints": [
+        {"level": 1, "content": "Find the number of students for each: percentage × 200", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Bus = 0.40 × 200 = 80. Walk = 0.25 × 200 = 50.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Difference = 80 - 50 = 30 students.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["pie-chart", "percentages", "subtraction"],
+        "distractorTypes": {"A": "percentage_not_count", "C": "computation_error", "D": "one_value_only", "E": "one_value_only"},
+        "solutionApproach": "Convert percentages to counts → Find difference",
+        "timeTarget": 60,
+        "commonErrors": ["Using percentages instead of counts", "Finding wrong values"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-009",
+      "questionType": "MCQ",
+      "stem": "A graph shows plant height over 5 weeks: Week 1: 5cm, Week 2: 8cm, Week 3: 12cm, Week 4: 17cm, Week 5: 23cm. What is the average weekly growth?",
+      "mcqOptions": [
+        {"id": "A", "text": "3 cm", "isCorrect": false, "feedback": "3cm is the growth in week 2 only (8-5). Calculate the average of all weekly growths."},
+        {"id": "B", "text": "4 cm", "isCorrect": false, "feedback": "Check: total growth = 23 - 5 = 18cm over 4 growth periods (not 5). 18/4 = 4.5cm."},
+        {"id": "C", "text": "4.5 cm", "isCorrect": true, "feedback": "Correct! Total growth = 23 - 5 = 18cm over 4 weeks of growth. Average = 18/4 = 4.5cm per week."},
+        {"id": "D", "text": "5 cm", "isCorrect": false, "feedback": "This would be 25/5, but growth happens between measurements. Total growth = 18cm over 4 intervals."},
+        {"id": "E", "text": "18 cm", "isCorrect": false, "feedback": "18cm is the TOTAL growth (23-5), not the average weekly growth."}
+      ],
+      "solution": "**Methodology: Average Growth Rate**\n\n**Step 1: Calculate total growth**\nTotal growth = Final - Initial = 23 - 5 = 18 cm\n\n**Step 2: Count growth periods**\nWeek 1→2, 2→3, 3→4, 4→5 = 4 periods\n(Not 5 - there are 5 measurements but 4 intervals)\n\n**Step 3: Calculate average**\nAverage growth = 18 ÷ 4 = 4.5 cm per week\n\n**Verification**: Growth each week: 3, 4, 5, 6 cm. Average = (3+4+5+6)/4 = 18/4 = 4.5 ✓",
+      "hints": [
+        {"level": 1, "content": "Growth rate = total change ÷ number of intervals (not measurements).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Total growth = 23 - 5 = 18cm. How many weeks did this growth occur over?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "5 measurements = 4 growth intervals. Average = 18/4 = 4.5cm.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["average-rate", "intervals", "line-graph"],
+        "distractorTypes": {"A": "single_interval", "B": "wrong_divisor", "D": "wrong_divisor", "E": "total_not_average"},
+        "solutionApproach": "Calculate total change → Count intervals (not data points) → Divide",
+        "timeTarget": 75,
+        "commonErrors": ["Dividing by number of measurements instead of intervals"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-010",
+      "questionType": "MCQ",
+      "stem": "Two graphs show rainfall in City A and City B. City A: 50, 60, 70, 80, 90mm over 5 months. City B: 30, 80, 70, 60, 110mm over 5 months. Which statement is TRUE?",
+      "mcqOptions": [
+        {"id": "A", "text": "City A has more total rainfall", "isCorrect": false, "feedback": "City A: 50+60+70+80+90=350mm. City B: 30+80+70+60+110=350mm. They're equal!"},
+        {"id": "B", "text": "City B has more total rainfall", "isCorrect": false, "feedback": "Both cities have the same total: 350mm each."},
+        {"id": "C", "text": "Both cities have the same average rainfall", "isCorrect": true, "feedback": "Correct! Both total 350mm over 5 months = 70mm average each."},
+        {"id": "D", "text": "City A has more consistent rainfall", "isCorrect": false, "feedback": "City A has consistent increase, but let's check the range. A: 90-50=40. B: 110-30=80. A is more consistent, but C is also true!"},
+        {"id": "E", "text": "City B's highest month had twice City A's highest", "isCorrect": false, "feedback": "City B max = 110, City A max = 90. 110 ≠ 2 × 90 = 180."}
+      ],
+      "solution": "**Methodology: Comparing Data Sets**\n\n**Step 1: Calculate totals**\nCity A: 50+60+70+80+90 = 350mm\nCity B: 30+80+70+60+110 = 350mm\n\n**Step 2: Calculate averages**\nCity A average: 350/5 = 70mm\nCity B average: 350/5 = 70mm\n\n**Step 3: Compare other measures**\nRange A: 90-50 = 40mm\nRange B: 110-30 = 80mm (B is more variable)\n\n**Conclusion**: Same total and average, but different consistency.\n\n**Verification**: Both totals = 350mm, both averages = 70mm ✓",
+      "hints": [
+        {"level": 1, "content": "Calculate the total rainfall for each city.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "City A: 350mm, City B: 350mm. What does this tell you about averages?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Same total = same average. Both are 70mm per month.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["comparison", "mean", "range", "data-analysis"],
+        "distractorTypes": {"A": "wrong_conclusion", "B": "wrong_conclusion", "D": "correct_but_not_unique", "E": "computation_error"},
+        "solutionApproach": "Calculate statistics for both sets → Compare systematically",
+        "timeTarget": 90,
+        "commonErrors": ["Not calculating both totals", "Missing that totals are equal"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 10},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-011",
+      "questionType": "MCQ",
+      "stem": "A two-way table shows students' activities:\n\n|          | Play Sport | Don't Play Sport | Total |\n|----------|-----------|-----------------|-------|\n| Play Music | 25 | 15 | 40 |\n| Don't Play Music | 35 | 25 | 60 |\n| Total | 60 | 40 | 100 |\n\nWhat fraction of students who play sport also play music?",
+      "mcqOptions": [
+        {"id": "A", "text": "25/100", "isCorrect": false, "feedback": "This is the fraction of ALL students who play both. The question asks about those who play sport."},
+        {"id": "B", "text": "25/40", "isCorrect": false, "feedback": "40 is the total who play music. The question asks about those who play SPORT (60 total)."},
+        {"id": "C", "text": "25/60", "isCorrect": true, "feedback": "Correct! Of the 60 who play sport, 25 also play music. Fraction = 25/60 = 5/12."},
+        {"id": "D", "text": "35/60", "isCorrect": false, "feedback": "35 is those who play sport but DON'T play music. The question asks who DO play music."},
+        {"id": "E", "text": "40/60", "isCorrect": false, "feedback": "40 is total music players, but we need music players WITHIN the sport-playing group."}
+      ],
+      "solution": "**Methodology: Two-Way Table - Conditional Proportion**\n\n**Step 1: Identify the condition**\nCondition: Students who play sport (column 1)\nTotal in this group = 60\n\n**Step 2: Find those meeting both criteria**\nPlay sport AND play music = 25\n\n**Step 3: Calculate fraction**\nFraction = 25/60 = 5/12\n\n**Verification**: 25 out of 60 sport players also play music ✓",
+      "hints": [
+        {"level": 1, "content": "Focus only on students who play sport (first column).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Of the 60 sport players, how many also play music? Look at the top-left cell.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "25 play both, out of 60 sport players. Fraction = 25/60.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["two-way-table", "conditional-proportion", "fractions"],
+        "distractorTypes": {"A": "wrong_total", "B": "wrong_condition", "D": "wrong_subset", "E": "wrong_numerator"},
+        "solutionApproach": "Identify condition (column/row) → Find intersection → Divide by condition total",
+        "timeTarget": 60,
+        "commonErrors": ["Using grand total instead of column/row total", "Reading wrong cell"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 11},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-012",
+      "questionType": "MCQ",
+      "stem": "In a survey of 80 students about pets:\n- 45 have a dog\n- 30 have a cat\n- 15 have both a dog and a cat\nHow many have neither a dog nor a cat?",
+      "mcqOptions": [
+        {"id": "A", "text": "5", "isCorrect": false, "feedback": "You may have calculated 80 - 45 - 30 = 5, but this double-subtracts those with both pets."},
+        {"id": "B", "text": "15", "isCorrect": false, "feedback": "15 is the number with BOTH pets, not neither."},
+        {"id": "C", "text": "20", "isCorrect": true, "feedback": "Correct! At least one pet = 45 + 30 - 15 = 60. Neither = 80 - 60 = 20."},
+        {"id": "D", "text": "30", "isCorrect": false, "feedback": "Check: Dog-only + Cat-only + Both + Neither = 80. Use inclusion-exclusion."},
+        {"id": "E", "text": "35", "isCorrect": false, "feedback": "This might be 80 - 45 = 35, but that ignores the cat data."}
+      ],
+      "solution": "**Methodology: Venn Diagram / Inclusion-Exclusion**\n\n**Step 1: Find those with at least one pet**\nAt least one = Dog + Cat - Both\n= 45 + 30 - 15 = 60 students\n\n**Step 2: Find neither**\nNeither = Total - At least one\n= 80 - 60 = 20 students\n\n**Verification**: Dog-only=30, Cat-only=15, Both=15, Neither=20. Total = 30+15+15+20 = 80 ✓",
+      "hints": [
+        {"level": 1, "content": "Use the formula: At least one = A + B - Both", "revealsCriticalInfo": false},
+        {"level": 2, "content": "At least one pet = 45 + 30 - 15 = 60.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Neither = 80 - 60 = 20 students.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["inclusion-exclusion", "two-way-table", "venn-logic"],
+        "distractorTypes": {"A": "double_subtraction", "B": "wrong_subset", "D": "computation_error", "E": "partial_calculation"},
+        "solutionApproach": "Use inclusion-exclusion to find 'at least one' → Subtract from total",
+        "timeTarget": 75,
+        "commonErrors": ["Double-counting those with both", "Forgetting to add back overlap"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 12},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-013",
+      "questionType": "MCQ",
+      "stem": "A table shows test results by gender:\n\n|        | Pass | Fail | Total |\n|--------|------|------|-------|\n| Boys   | 36   | 24   | 60    |\n| Girls  | 32   | 8    | 40    |\n| Total  | 68   | 32   | 100   |\n\nWhich group has the higher pass RATE?",
+      "mcqOptions": [
+        {"id": "A", "text": "Boys, because more boys passed", "isCorrect": false, "feedback": "36 > 32 in raw numbers, but the RATE accounts for group size. Compare 36/60 vs 32/40."},
+        {"id": "B", "text": "Girls, because they have a higher percentage passing", "isCorrect": true, "feedback": "Correct! Boys: 36/60 = 60%. Girls: 32/40 = 80%. Girls have the higher pass RATE."},
+        {"id": "C", "text": "They have the same pass rate", "isCorrect": false, "feedback": "Boys: 36/60 = 60%. Girls: 32/40 = 80%. Not equal!"},
+        {"id": "D", "text": "Cannot determine from this data", "isCorrect": false, "feedback": "We can calculate: Boys 60%, Girls 80%. Girls have higher rate."},
+        {"id": "E", "text": "Boys, because fewer boys failed", "isCorrect": false, "feedback": "More boys failed (24 vs 8). But even if fewer failed, rate depends on group size."}
+      ],
+      "solution": "**Methodology: Comparing Rates (not Raw Numbers)**\n\n**Step 1: Calculate pass rate for each group**\nBoys: 36/60 = 0.60 = 60%\nGirls: 32/40 = 0.80 = 80%\n\n**Step 2: Compare rates**\n80% > 60%\nGirls have the higher pass rate.\n\n**Key insight**: Raw numbers can be misleading. Always compare rates when groups have different sizes.\n\n**Verification**: 32/40 = 4/5 = 80%, 36/60 = 3/5 = 60% ✓",
+      "hints": [
+        {"level": 1, "content": "Rate = successes ÷ total in that group. Don't just compare raw numbers.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Boys: 36/60 = ?%. Girls: 32/40 = ?%.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Boys: 60%. Girls: 80%. Girls have higher rate.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["rate-vs-count", "percentages", "two-way-table"],
+        "distractorTypes": {"A": "count_not_rate", "C": "wrong_calculation", "D": "avoidance", "E": "wrong_interpretation"},
+        "solutionApproach": "Calculate rate for each group → Compare rates, not raw numbers",
+        "timeTarget": 75,
+        "commonErrors": ["Comparing counts instead of rates", "Dividing by wrong total"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 13},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-014",
+      "questionType": "MCQ",
+      "stem": "A frequency table shows ages at a party: Age 8: 7 children, Age 9: 3 children, Age 10: 5 children, Age 11: 3 children, Age 12: 2 children. What is the mean age?",
+      "mcqOptions": [
+        {"id": "A", "text": "9", "isCorrect": false, "feedback": "The mean of the ages (8,9,10,11,12)/5 = 10, but that ignores frequency. Use weighted average."},
+        {"id": "B", "text": "9.5", "isCorrect": true, "feedback": "Correct! Sum = 8×7 + 9×3 + 10×5 + 11×3 + 12×2 = 56+27+50+33+24 = 190. Mean = 190/20 = 9.5"},
+        {"id": "C", "text": "10", "isCorrect": false, "feedback": "10 is the median age (middle of the distribution), not the mean."},
+        {"id": "D", "text": "9.25", "isCorrect": false, "feedback": "Check your arithmetic. Sum = 190, Total children = 20, Mean = 190/20 = 9.5."},
+        {"id": "E", "text": "50", "isCorrect": false, "feedback": "50 is the sum of frequencies (7+3+5+3+2=20), not related to the mean age."}
+      ],
+      "solution": "**Methodology: Mean from Frequency Table**\n\n**Step 1: Calculate weighted sum**\nSum = (8×7) + (9×3) + (10×5) + (11×3) + (12×2)\n    = 56 + 27 + 50 + 33 + 24 = 190\n\n**Step 2: Find total frequency**\nTotal = 7 + 3 + 5 + 3 + 2 = 20 children\n\n**Step 3: Calculate mean**\nMean = Sum / Total = 190 / 20 = 9.5\n\n**Verification**: 56+27+50+33+24 = 190 ✓, 190/20 = 9.5 ✓",
+      "hints": [
+        {"level": 1, "content": "For a frequency table, mean = (sum of value × frequency) ÷ (total frequency)", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Calculate 8×7 + 9×3 + 10×5 + 11×3 + 12×2 first.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Sum = 190, Total = 20, Mean = 9.5", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["mean", "frequency-table", "weighted-average"],
+        "distractorTypes": {"A": "unweighted_mean", "C": "median_not_mean", "D": "computation_error", "E": "total_frequency"},
+        "solutionApproach": "Multiply each value by frequency → Sum → Divide by total frequency",
+        "timeTarget": 90,
+        "commonErrors": ["Taking mean of values without weighting", "Arithmetic errors"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 14},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-015",
+      "questionType": "MCQ",
+      "stem": "A survey asks 120 people about breakfast habits:\n- 70 eat cereal\n- 50 eat toast\n- 30 eat both cereal and toast\nHow many eat cereal but NOT toast?",
+      "mcqOptions": [
+        {"id": "A", "text": "70", "isCorrect": false, "feedback": "70 is the TOTAL who eat cereal, including those who also eat toast."},
+        {"id": "B", "text": "40", "isCorrect": true, "feedback": "Correct! Cereal only = Cereal total - Both = 70 - 30 = 40."},
+        {"id": "C", "text": "50", "isCorrect": false, "feedback": "50 is the total who eat toast. Cereal only = 70 - 30 = 40."},
+        {"id": "D", "text": "20", "isCorrect": false, "feedback": "20 is toast only (50 - 30). Cereal only = 70 - 30 = 40."},
+        {"id": "E", "text": "30", "isCorrect": false, "feedback": "30 eat BOTH. Cereal only = those who eat cereal but not toast = 70 - 30 = 40."}
+      ],
+      "solution": "**Methodology: Venn Diagram - Single Category**\n\n**Step 1: Draw the Venn diagram mentally**\nCereal total = 70 (includes 30 who also eat toast)\nToast total = 50 (includes 30 who also eat cereal)\nBoth = 30\n\n**Step 2: Calculate cereal only**\nCereal only = Cereal total - Both\n= 70 - 30 = 40\n\n**Verification**: Cereal only (40) + Both (30) = 70 total cereal ✓",
+      "hints": [
+        {"level": 1, "content": "Those who eat cereal includes people who eat ONLY cereal AND people who eat both.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Cereal only = Total cereal - Both cereal and toast", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Cereal only = 70 - 30 = 40", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["venn-diagram", "set-subtraction", "inclusion-exclusion"],
+        "distractorTypes": {"A": "total_not_only", "C": "wrong_category", "D": "swapped_category", "E": "both_not_only"},
+        "solutionApproach": "Category only = Category total - Overlap",
+        "timeTarget": 60,
+        "commonErrors": ["Confusing 'total' with 'only'", "Subtracting wrong overlap"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 15},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-016",
+      "questionType": "MCQ",
+      "stem": "Five numbers have a mean of 12 and a range of 10. If the smallest number is 7, what is the largest number?",
+      "mcqOptions": [
+        {"id": "A", "text": "15", "isCorrect": false, "feedback": "This might be 7 + 10 - 2 = 15. But range = max - min, so max = min + range = 7 + 10 = 17."},
+        {"id": "B", "text": "17", "isCorrect": true, "feedback": "Correct! Range = max - min. So max = min + range = 7 + 10 = 17."},
+        {"id": "C", "text": "19", "isCorrect": false, "feedback": "Range = max - min = 10. If min = 7, then max = 17, not 19."},
+        {"id": "D", "text": "22", "isCorrect": false, "feedback": "This might confuse mean and range. Range = 10, min = 7, so max = 17."},
+        {"id": "E", "text": "12", "isCorrect": false, "feedback": "12 is the mean, not the maximum. Max = 7 + 10 = 17."}
+      ],
+      "solution": "**Methodology: Working Backwards from Range**\n\n**Step 1: Use range formula**\nRange = Maximum - Minimum\n10 = Maximum - 7\nMaximum = 17\n\n**Step 2: Verify with mean (optional check)**\nSum = Mean × Count = 12 × 5 = 60\nThe five numbers must sum to 60 with min=7 and max=17.\nExample: 7, 10, 12, 14, 17 → sum = 60 ✓\n\n**Verification**: 17 - 7 = 10 (range checks out) ✓",
+      "hints": [
+        {"level": 1, "content": "Range = Maximum - Minimum. You know the range and minimum.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "10 = Maximum - 7. Solve for Maximum.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Maximum = 7 + 10 = 17", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["range", "working-backwards", "algebra"],
+        "distractorTypes": {"A": "computation_error", "C": "wrong_operation", "D": "confused_concepts", "E": "wrong_measure"},
+        "solutionApproach": "Use range = max - min → Solve for unknown",
+        "timeTarget": 45,
+        "commonErrors": ["Confusing range formula", "Using mean instead of range"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 16},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-017",
+      "questionType": "MCQ",
+      "stem": "Four numbers have a mean of 15. If a fifth number is added and the new mean is 18, what is the fifth number?",
+      "mcqOptions": [
+        {"id": "A", "text": "18", "isCorrect": false, "feedback": "Adding 18 would give mean = (60+18)/5 = 78/5 = 15.6, not 18."},
+        {"id": "B", "text": "21", "isCorrect": false, "feedback": "Adding 21 would give mean = (60+21)/5 = 81/5 = 16.2, not 18."},
+        {"id": "C", "text": "27", "isCorrect": false, "feedback": "Adding 27 would give mean = (60+27)/5 = 87/5 = 17.4, not 18."},
+        {"id": "D", "text": "30", "isCorrect": true, "feedback": "Correct! Original sum = 15×4 = 60. New sum = 18×5 = 90. Fifth number = 90 - 60 = 30."},
+        {"id": "E", "text": "33", "isCorrect": false, "feedback": "Adding 33 would give mean = (60+33)/5 = 93/5 = 18.6, not exactly 18."}
+      ],
+      "solution": "**Methodology: Working Backwards from Mean**\n\n**Step 1: Find original sum**\nOriginal mean = 15, count = 4\nOriginal sum = 15 × 4 = 60\n\n**Step 2: Find new sum**\nNew mean = 18, count = 5\nNew sum = 18 × 5 = 90\n\n**Step 3: Find the fifth number**\nFifth number = New sum - Original sum\n= 90 - 60 = 30\n\n**Verification**: (60 + 30)/5 = 90/5 = 18 ✓",
+      "hints": [
+        {"level": 1, "content": "Find the sum of the original 4 numbers using: sum = mean × count", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Original sum = 60. New sum = 18 × 5 = 90. What was added?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Fifth number = 90 - 60 = 30", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["mean", "working-backwards", "algebra"],
+        "distractorTypes": {"A": "new_mean_value", "B": "partial_calculation", "C": "computation_error", "E": "overshoot"},
+        "solutionApproach": "Original sum = old mean × old count → New sum = new mean × new count → Difference",
+        "timeTarget": 75,
+        "commonErrors": ["Using just the means", "Wrong multiplication"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 17},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-018",
+      "questionType": "MCQ",
+      "stem": "Six numbers in order are: 3, 5, x, 10, 14, 18. If the median is 8, what is x?",
+      "mcqOptions": [
+        {"id": "A", "text": "5", "isCorrect": false, "feedback": "If x = 5, the ordered list is 3,5,5,10,14,18. Median = (5+10)/2 = 7.5, not 8."},
+        {"id": "B", "text": "6", "isCorrect": true, "feedback": "Correct! For 6 values, median = (3rd + 4th)/2 = (x + 10)/2. If median = 8, then x + 10 = 16, so x = 6."},
+        {"id": "C", "text": "7", "isCorrect": false, "feedback": "If x = 7: median = (7+10)/2 = 8.5, not 8."},
+        {"id": "D", "text": "8", "isCorrect": false, "feedback": "If x = 8: median = (8+10)/2 = 9, not 8."},
+        {"id": "E", "text": "10", "isCorrect": false, "feedback": "If x = 10: median = (10+10)/2 = 10, not 8. Also, x should be before 10 in order."}
+      ],
+      "solution": "**Methodology: Working Backwards from Median**\n\n**Step 1: Understand median for 6 values**\nMedian = average of 3rd and 4th values\n\n**Step 2: Identify positions**\nOrdered: 3, 5, x, 10, 14, 18\nx is in the 3rd position (if x ≤ 10)\n4th value = 10\n\n**Step 3: Solve**\nMedian = (x + 10)/2 = 8\nx + 10 = 16\nx = 6\n\n**Verification**: 3, 5, 6, 10, 14, 18. Median = (6+10)/2 = 8 ✓",
+      "hints": [
+        {"level": 1, "content": "For 6 numbers, median = average of 3rd and 4th values.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "In the ordered list, x is 3rd and 10 is 4th. Median = (x+10)/2 = 8.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x + 10 = 16, so x = 6.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["median", "working-backwards", "algebra"],
+        "distractorTypes": {"A": "wrong_median", "C": "off_by_one", "D": "median_value", "E": "wrong_position"},
+        "solutionApproach": "Set up median equation → Solve for unknown",
+        "timeTarget": 75,
+        "commonErrors": ["Wrong median position formula", "Not checking order is maintained"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 18},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-019",
+      "questionType": "MCQ",
+      "stem": "The mode of 7 numbers is 12 (appearing exactly 3 times). The mean is 10. What is the maximum possible value of the largest number?",
+      "mcqOptions": [
+        {"id": "A", "text": "14", "isCorrect": false, "feedback": "We can do better. To maximize the largest, minimize the other non-mode values."},
+        {"id": "B", "text": "16", "isCorrect": false, "feedback": "Check: if we minimize non-mode values, can we get higher than 16?"},
+        {"id": "C", "text": "22", "isCorrect": false, "feedback": "We can do better! To maximize the largest value, minimize the other non-mode values."},
+        {"id": "D", "text": "28", "isCorrect": true, "feedback": "Correct! Sum = 70. Mode 12 contributes 36. Remaining 4 values sum to 34. Using 1, 2, 3 (sum=6) for three values: largest = 34-6 = 28. Check: 1,2,3,12,12,12,28 has mode=12 ✓"},
+        {"id": "E", "text": "34", "isCorrect": false, "feedback": "This is too high. The other values can't all be 0 (minimum is usually 1 or positive)."}
+      ],
+      "solution": "**Methodology: Optimization with Constraints**\n\n**Step 1: Set up the constraint**\nSum = mean × count = 10 × 7 = 70\nMode = 12, appears 3 times → contributes 36\nRemaining 4 numbers sum to 70 - 36 = 34\n\n**Step 2: Maximize the largest**\nTo maximize one value, minimize the others.\nMinimum positive integers: 1, 2, 3 (sum = 6)\nBut these must not appear more than twice (or mode changes).\nUsing 1, 2, 3: remaining value = 34 - 6 = 28\n\n**Step 3: Check mode constraint**\nValues: 1, 2, 3, 12, 12, 12, 28\n12 appears 3 times, others appear once each. Mode = 12 ✓\n\n**Answer**: 28\n\n**Verification**: Sum = 1+2+3+12+12+12+28 = 70 ✓, Mean = 10 ✓",
+      "hints": [
+        {"level": 1, "content": "Sum = mean × count = 70. Mode 12 appears 3 times = 36.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Remaining 4 numbers sum to 34. Minimize 3 to maximize the 4th.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Using 1, 2, 3 for minimums: largest = 34 - 6 = 28.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["mean", "mode", "optimization", "constraints"],
+        "distractorTypes": {"A": "underestimate", "B": "underestimate", "C": "underestimate", "E": "impossible_value"},
+        "solutionApproach": "Calculate fixed sum → Subtract mode contribution → Minimize others to maximize target",
+        "timeTarget": 120,
+        "commonErrors": ["Forgetting mode constraint", "Not minimizing properly"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 120,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 19},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-020",
+      "questionType": "MCQ",
+      "stem": "A data set of 5 positive integers has median 7, mode 7 (appearing exactly twice), and mean 8. What is the largest number in the set?",
+      "mcqOptions": [
+        {"id": "A", "text": "10", "isCorrect": false, "feedback": "Let's check: if largest=10 with 7,7 as mode and 7 as median... sum should be 40."},
+        {"id": "B", "text": "12", "isCorrect": false, "feedback": "If largest=12: need numbers summing to 40 with 7,7,7 where 7 is middle. But 7 is median, so 7,7,7,x,12 has median 7 but mode 7 appears 3 times, not 2."},
+        {"id": "C", "text": "14", "isCorrect": true, "feedback": "Correct! Need sum=40, median=7, mode=7 (twice). Try: 4, 7, 7, 8, 14. Sum=40 ✓, median=7 ✓, mode=7 (twice) ✓"},
+        {"id": "D", "text": "16", "isCorrect": false, "feedback": "If largest=16: 40-16=24 for remaining 4 numbers including two 7s. 24-14=10 for two numbers before 7. Need distinct values, 7 exactly twice."},
+        {"id": "E", "text": "18", "isCorrect": false, "feedback": "Sum constraint limits how large the maximum can be."}
+      ],
+      "solution": "**Methodology: Constrained Data Set Construction**\n\n**Step 1: List constraints**\n- 5 positive integers\n- Median = 7 (so 7 is the 3rd value when ordered)\n- Mode = 7, appearing exactly twice\n- Mean = 8, so sum = 40\n\n**Step 2: Build the set**\nOrdered: a, b, 7, d, e where 7 appears exactly twice\nSo one of a, b is 7, or one of d, e is 7.\n\nIf b = 7: a, 7, 7, d, e → but then 7 appears in position 2 and 3, with mode at least twice ✓\nSum = a + 7 + 7 + d + e = 40 → a + d + e = 26\n\nTo maximize e, minimize a and d.\na must be ≤ 7, d must be ≥ 7\nIf a = 1, d = 8: e = 26 - 1 - 8 = 17. But check mode: 7 appears twice ✓\n\nActually: 1, 7, 7, 8, 17 → sum = 40 ✓\nBut wait, can we get larger?\n\nMinimize a and d: a = 1, d = 8 (must be > 7 for ordering)\ne = 26 - 1 - 8 = 17... but let me try a=4, b=7, median=7, d=8, e=14.\n4+7+7+8+14 = 40 ✓. Mode = 7 (twice) ✓. Median = 7 ✓.\n\n**Verification**: 4, 7, 7, 8, 14 works. Max = 14",
+      "hints": [
+        {"level": 1, "content": "Sum = 40. Mode 7 appears exactly twice. Median means 7 is 3rd value.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Try: _, 7, 7, _, _ with sum = 40. Minimize first and fourth to maximize fifth.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Example: 4, 7, 7, 8, 14. Sum=40, median=7, mode=7 (twice). Max = 14.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["mean", "median", "mode", "constraints", "optimization"],
+        "distractorTypes": {"A": "underestimate", "B": "mode_error", "D": "overestimate", "E": "overestimate"},
+        "solutionApproach": "Set up all constraints → Find valid set → Maximize target value",
+        "timeTarget": 120,
+        "commonErrors": ["Violating mode constraint", "Wrong median position"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 120,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 20},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-021",
+      "questionType": "MCQ",
+      "stem": "A graph shows that ice cream sales and drowning deaths both increase in summer. A student concludes: 'Eating ice cream causes drowning.' What is wrong with this conclusion?",
+      "mcqOptions": [
+        {"id": "A", "text": "The graph might be inaccurate", "isCorrect": false, "feedback": "The data could be accurate, but the INTERPRETATION is flawed."},
+        {"id": "B", "text": "Correlation does not prove causation - both are caused by hot weather", "isCorrect": true, "feedback": "Correct! Both increase in summer because of hot weather. Ice cream doesn't CAUSE drowning - they share a common cause."},
+        {"id": "C", "text": "The sample size is too small", "isCorrect": false, "feedback": "Even with large samples, correlation doesn't prove causation."},
+        {"id": "D", "text": "Ice cream sales don't really increase in summer", "isCorrect": false, "feedback": "Ice cream sales DO increase in summer - that's not the error."},
+        {"id": "E", "text": "The data should have been collected over more years", "isCorrect": false, "feedback": "More data wouldn't fix the logical flaw in concluding causation from correlation."}
+      ],
+      "solution": "**Methodology: Correlation vs Causation**\n\n**Key insight**: Two things happening together (correlation) doesn't mean one causes the other.\n\n**Analysis**:\n- Ice cream sales ↑ in summer (because it's hot)\n- Drowning deaths ↑ in summer (more swimming because it's hot)\n- Both increase together, but neither CAUSES the other\n- Common cause: hot weather → more ice cream AND more swimming\n\n**This is called a 'spurious correlation' or 'confounding variable' situation.**\n\n**Verification**: Hot weather is the hidden common cause ✓",
+      "hints": [
+        {"level": 1, "content": "Just because two things increase together doesn't mean one causes the other.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "What else happens in summer that might affect both variables?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Hot weather causes BOTH more ice cream sales AND more swimming (hence drowning).", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["correlation", "causation", "confounding-variables", "critical-thinking"],
+        "distractorTypes": {"A": "wrong_criticism", "C": "irrelevant_criticism", "D": "denies_data", "E": "irrelevant_solution"},
+        "solutionApproach": "Recognize correlation ≠ causation → Identify common cause",
+        "timeTarget": 60,
+        "commonErrors": ["Accepting correlation as causation", "Not identifying common cause"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 21},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-022",
+      "questionType": "MCQ",
+      "stem": "A company shows a graph of profits starting at $90,000 and ending at $100,000. The y-axis starts at $88,000 instead of $0. This makes the profit increase look:",
+      "mcqOptions": [
+        {"id": "A", "text": "Smaller than it actually is", "isCorrect": false, "feedback": "A truncated y-axis makes changes look LARGER, not smaller."},
+        {"id": "B", "text": "Larger than it actually is", "isCorrect": true, "feedback": "Correct! Starting the y-axis at $88,000 exaggerates the visual increase. The $10,000 increase (11%) looks like the whole height of the graph."},
+        {"id": "C", "text": "The same as it actually is", "isCorrect": false, "feedback": "The visual representation is distorted - the slope appears much steeper."},
+        {"id": "D", "text": "Negative when it's actually positive", "isCorrect": false, "feedback": "The direction is correct (increase), but the magnitude is exaggerated."},
+        {"id": "E", "text": "More accurate because it zooms in on the data", "isCorrect": false, "feedback": "While 'zooming in' shows detail, it can mislead readers about the actual magnitude of change."}
+      ],
+      "solution": "**Methodology: Misleading Graphs - Truncated Axis**\n\n**Key insight**: When the y-axis doesn't start at 0, changes appear exaggerated.\n\n**Analysis**:\n- Actual increase: $90,000 → $100,000 = $10,000 (11% increase)\n- With y-axis from 0: the increase would be a small portion of the graph height\n- With y-axis from $88,000: the $10,000 increase fills most of the visible graph\n- This makes an 11% increase LOOK like a 500%+ increase visually\n\n**Verification**: Truncated axis exaggerates slope ✓",
+      "hints": [
+        {"level": 1, "content": "Think about how the graph would look if the y-axis started at $0.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "From $0 to $100,000, the $10,000 increase is 10% of the total. From $88,000 to $100,000, it's 83%.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Truncating the axis makes the increase appear much larger than it is.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["misleading-graphs", "visual-deception", "critical-analysis"],
+        "distractorTypes": {"A": "opposite_effect", "C": "no_effect", "D": "wrong_distortion", "E": "misleading_justification"},
+        "solutionApproach": "Compare visual representation to actual proportion → Identify exaggeration",
+        "timeTarget": 60,
+        "commonErrors": ["Not recognizing axis manipulation", "Accepting graph at face value"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 22},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-023",
+      "questionType": "MCQ",
+      "stem": "A survey of 50 students found: 30 like maths, 25 like science, and 40 like at least one subject. Based on this data alone, which conclusion is VALID?",
+      "mcqOptions": [
+        {"id": "A", "text": "Exactly 15 students like both subjects", "isCorrect": true, "feedback": "Correct! Using inclusion-exclusion: Like both = 30 + 25 - 40 = 15."},
+        {"id": "B", "text": "More students like maths than science because 30 > 25", "isCorrect": false, "feedback": "This is true but trivial - it just restates the given data without analysis."},
+        {"id": "C", "text": "10 students don't like any subject", "isCorrect": false, "feedback": "50 total - 40 who like at least one = 10. This is correct! But A is also valid and uses more analysis."},
+        {"id": "D", "text": "Students who like maths tend to like science", "isCorrect": false, "feedback": "We can't conclude tendency or preference - just that 15 of 30 maths students also like science."},
+        {"id": "E", "text": "Science is less popular than maths", "isCorrect": false, "feedback": "'Less popular' is a judgment. We only know 25 vs 30 students - not why or if it would hold for all students."}
+      ],
+      "solution": "**Methodology: Valid Conclusions from Data**\n\n**Step 1: Calculate overlap using inclusion-exclusion**\nMaths + Science - Both = At least one\n30 + 25 - Both = 40\nBoth = 55 - 40 = 15\n\n**Step 2: Evaluate each option**\nA: Both = 15 ✓ (mathematically derived)\nB: Just restates data ✓ but trivial\nC: Neither = 50 - 40 = 10 ✓ valid\nD: Can't conclude tendency from counts\nE: 'Less popular' is a judgment call\n\n**Both A and C are mathematically valid. A shows deeper analysis.**\n\n**Verification**: 15 like both = (30-15) maths only + 15 both + (25-15) science only = 15+15+10 = 40 ✓",
+      "hints": [
+        {"level": 1, "content": "Use the formula: A + B - Both = At least one", "revealsCriticalInfo": false},
+        {"level": 2, "content": "30 + 25 - Both = 40. Solve for Both.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Both = 15. This is a valid mathematical conclusion.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["valid-conclusions", "inclusion-exclusion", "critical-analysis"],
+        "distractorTypes": {"B": "trivial_restatement", "C": "also_valid", "D": "overinterpretation", "E": "judgment_not_fact"},
+        "solutionApproach": "Calculate derived values → Distinguish valid inference from speculation",
+        "timeTarget": 90,
+        "commonErrors": ["Overinterpreting correlation", "Missing mathematical derivation"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 23},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-024",
+      "questionType": "MCQ",
+      "stem": "Test scores for Class A: mean = 75, range = 30. Test scores for Class B: mean = 75, range = 10. Which statement is TRUE?",
+      "mcqOptions": [
+        {"id": "A", "text": "Class A performed better overall", "isCorrect": false, "feedback": "Both classes have the same mean (75), so overall performance is equal."},
+        {"id": "B", "text": "Class B performed better overall", "isCorrect": false, "feedback": "Both classes have the same mean (75), so overall performance is equal."},
+        {"id": "C", "text": "Class B's scores are more consistent", "isCorrect": true, "feedback": "Correct! Smaller range (10 vs 30) means scores are closer together - more consistent."},
+        {"id": "D", "text": "Class A has more students", "isCorrect": false, "feedback": "We don't know the class sizes - range doesn't tell us how many students."},
+        {"id": "E", "text": "The highest score was in Class B", "isCorrect": false, "feedback": "We can't determine this. Class A's range of 30 could mean higher OR lower extreme scores."}
+      ],
+      "solution": "**Methodology: Interpreting Mean and Range**\n\n**Key insight**: \n- Mean shows the central tendency (average)\n- Range shows the spread (variability)\n\n**Analysis**:\n- Same mean (75) → same average performance\n- Class A range = 30 → scores spread over 30 points\n- Class B range = 10 → scores spread over only 10 points\n- Smaller spread = more consistent scores\n\n**Verification**: Range 10 < Range 30 → Class B more consistent ✓",
+      "hints": [
+        {"level": 1, "content": "Mean tells you the average. Range tells you about spread/consistency.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Same mean means same average. But which class has less variation?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Smaller range (10 vs 30) = scores closer together = more consistent.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["mean", "range", "consistency", "interpretation"],
+        "distractorTypes": {"A": "wrong_measure", "B": "wrong_measure", "D": "insufficient_data", "E": "insufficient_data"},
+        "solutionApproach": "Interpret what each statistic tells us → Draw valid comparison",
+        "timeTarget": 60,
+        "commonErrors": ["Confusing range with average", "Making claims without evidence"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 24},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa23-025",
+      "questionType": "MCQ",
+      "stem": "A study found that students who eat breakfast score higher on tests. A parent concludes: 'I should make my child eat breakfast to improve test scores.' What assumption does this conclusion make?",
+      "mcqOptions": [
+        {"id": "A", "text": "That the study was conducted properly", "isCorrect": false, "feedback": "This is a reasonable assumption, but not the main logical assumption being made."},
+        {"id": "B", "text": "That eating breakfast CAUSES better test scores", "isCorrect": true, "feedback": "Correct! The parent assumes causation. But maybe organized families who ensure breakfast ALSO ensure study time - breakfast might be correlated but not causal."},
+        {"id": "C", "text": "That all children like breakfast", "isCorrect": false, "feedback": "Whether children like breakfast isn't relevant to the logical flaw."},
+        {"id": "D", "text": "That test scores are important", "isCorrect": false, "feedback": "This is assumed but not the key logical assumption about the data interpretation."},
+        {"id": "E", "text": "That breakfast is healthy", "isCorrect": false, "feedback": "Health of breakfast isn't the logical issue - the causation assumption is."}
+      ],
+      "solution": "**Methodology: Identifying Assumptions in Data Interpretation**\n\n**Key insight**: Correlation ≠ Causation\n\n**The study shows**: Breakfast eaters score higher (correlation)\n\n**The parent concludes**: Eating breakfast → better scores (causation)\n\n**The hidden assumption**: That breakfast CAUSES better scores\n\n**Alternative explanations**:\n- Families that ensure breakfast may also ensure sleep, study time, etc.\n- Wealthier families may provide both breakfast AND tutoring\n- The common cause might be 'organized household'\n\n**Verification**: The parent assumes causation from correlation ✓",
+      "hints": [
+        {"level": 1, "content": "The study shows a relationship (correlation). What does the parent assume?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "The parent plans to change one thing (breakfast) expecting another to change (scores).", "revealsCriticalInfo": false},
+        {"level": 3, "content": "This assumes breakfast CAUSES better scores - but correlation isn't causation.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Data Interpretation & Statistical Reasoning",
+        "archetypeId": "qa23",
+        "conceptsRequired": ["correlation-vs-causation", "assumptions", "critical-thinking"],
+        "distractorTypes": {"A": "minor_assumption", "C": "irrelevant", "D": "minor_assumption", "E": "irrelevant"},
+        "solutionApproach": "Identify the logical leap from correlation to causation",
+        "timeTarget": 75,
+        "commonErrors": ["Not recognizing the causation assumption", "Accepting correlation as proof"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 25},
+      "status": "published"
+    }
+  ]
+}

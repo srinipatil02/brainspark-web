@@ -1,0 +1,822 @@
+{
+  "metadata": {
+    "archetype": "Probability Reasoning",
+    "archetypeId": "qa22",
+    "archetypeSlug": "probability-reasoning",
+    "questionCount": 25,
+    "section": "nsw-selective-mathematics",
+    "targetYear": 6,
+    "testSection": "Mathematical Reasoning",
+    "difficultyDistribution": {
+      "changingSampleSpace": {"count": 5, "difficulty": "2-3"},
+      "expectedOutcomes": {"count": 5, "difficulty": "2-3"},
+      "fairnessAnalysis": {"count": 5, "difficulty": "3"},
+      "complementary": {"count": 5, "difficulty": "3-4"},
+      "combinedEvents": {"count": 5, "difficulty": "4"}
+    },
+    "createdAt": "2026-01-15",
+    "version": "1.0"
+  },
+  "questions": [
+    {
+      "questionId": "nsw-sel-qa22-001",
+      "questionType": "MCQ",
+      "stem": "A bag contains 4 red and 6 blue marbles. Emma draws one marble, sees it is blue, and keeps it out of the bag. She then draws another marble without looking. What is the probability the second marble is red?",
+      "mcqOptions": [
+        {"id": "A", "text": "2/5", "isCorrect": false, "feedback": "This simplifies 4/10, but the sample space changed after removing the blue marble. There are now 9 marbles, not 10."},
+        {"id": "B", "text": "4/10", "isCorrect": false, "feedback": "You forgot to update the sample space. After removing the blue marble, there are 9 marbles left, not 10."},
+        {"id": "C", "text": "4/9", "isCorrect": true, "feedback": "Correct! After removing 1 blue, there are 4 red and 5 blue = 9 total. P(red) = 4/9."},
+        {"id": "D", "text": "5/9", "isCorrect": false, "feedback": "This is P(blue), not P(red). There are 5 blue marbles left, but the question asks about red."},
+        {"id": "E", "text": "3/9", "isCorrect": false, "feedback": "The number of red marbles didn't change - only a blue was removed. There are still 4 red marbles."}
+      ],
+      "solution": "**Methodology: Changing Sample Space**\n\n**Step 1: Initial state**\nRed = 4, Blue = 6, Total = 10\n\n**Step 2: After removing 1 blue**\nRed = 4 (unchanged), Blue = 5, Total = 9\n\n**Step 3: Calculate probability**\nP(red) = red/total = 4/9\n\n**Verification**: 4 + 5 = 9 total marbles ✓",
+      "hints": [
+        {"level": 1, "content": "After Emma removes the blue marble, how many marbles are left in the bag?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "The red count stays at 4, but the total is now 9. What fraction gives P(red)?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(red) = 4 red ÷ 9 total = 4/9", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["probability", "changing-sample-space", "fractions"],
+        "distractorTypes": {"A": "unchanged_sample", "B": "unchanged_sample", "D": "wrong_event", "E": "computation_error"},
+        "solutionApproach": "Update sample space after event → Calculate probability with new totals",
+        "timeTarget": 60,
+        "commonErrors": ["Forgetting to reduce total", "Subtracting from wrong color"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-002",
+      "questionType": "MCQ",
+      "stem": "A box contains 3 green, 5 yellow, and 2 orange balls. Tom picks one ball without looking, and it is yellow. He puts it in his pocket. If he picks another ball, what is the probability it is also yellow?",
+      "mcqOptions": [
+        {"id": "A", "text": "5/10", "isCorrect": false, "feedback": "This uses the original counts. After removing 1 yellow, there are 4 yellow out of 9 total."},
+        {"id": "B", "text": "4/10", "isCorrect": false, "feedback": "The total also decreased by 1. There are 9 balls left, not 10."},
+        {"id": "C", "text": "5/9", "isCorrect": false, "feedback": "The yellow count decreased too. After Tom took one yellow, only 4 yellow remain."},
+        {"id": "D", "text": "4/9", "isCorrect": true, "feedback": "Correct! After removing 1 yellow: 3 green + 4 yellow + 2 orange = 9. P(yellow) = 4/9."},
+        {"id": "E", "text": "1/2", "isCorrect": false, "feedback": "This would only be true if half the remaining balls were yellow. There are 4 yellow out of 9."}
+      ],
+      "solution": "**Methodology: Changing Sample Space**\n\n**Step 1: Initial state**\nGreen = 3, Yellow = 5, Orange = 2, Total = 10\n\n**Step 2: After removing 1 yellow**\nGreen = 3, Yellow = 4, Orange = 2, Total = 9\n\n**Step 3: Calculate**\nP(yellow) = 4/9\n\n**Verification**: 3 + 4 + 2 = 9 ✓",
+      "hints": [
+        {"level": 1, "content": "After Tom removes one yellow ball, how many yellow balls remain?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Yellow decreases from 5 to 4, and total decreases from 10 to 9.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(yellow) = 4/9", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["probability", "changing-sample-space", "fractions"],
+        "distractorTypes": {"A": "unchanged_sample", "B": "partial_update", "C": "partial_update", "E": "wrong_assumption"},
+        "solutionApproach": "Both numerator AND denominator change when same color removed",
+        "timeTarget": 60,
+        "commonErrors": ["Forgetting to reduce the color count", "Only updating total"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-003",
+      "questionType": "MCQ",
+      "stem": "Sarah has 12 cards numbered 1 to 12. She draws one card and sees it is even. Given this information, what is the probability the card shows a number greater than 8?",
+      "mcqOptions": [
+        {"id": "A", "text": "4/12", "isCorrect": false, "feedback": "This ignores the given information. We know the card is even, so only consider even numbers."},
+        {"id": "B", "text": "2/12", "isCorrect": false, "feedback": "You found numbers >8, but forgot to update the sample space to only even numbers."},
+        {"id": "C", "text": "2/6", "isCorrect": true, "feedback": "Correct! Even numbers: 2,4,6,8,10,12 (6 total). Even AND >8: 10,12 (2). P = 2/6 = 1/3."},
+        {"id": "D", "text": "4/6", "isCorrect": false, "feedback": "You may have counted even numbers ≥8 instead of >8. Only 10 and 12 are both even AND greater than 8."},
+        {"id": "E", "text": "1/6", "isCorrect": false, "feedback": "There are 2 even numbers greater than 8 (10 and 12), not just 1."}
+      ],
+      "solution": "**Methodology: Conditional Probability**\n\n**Step 1: Identify the restricted sample space**\nGiven: card is even\nEven numbers 1-12: {2, 4, 6, 8, 10, 12} = 6 numbers\n\n**Step 2: Find favorable outcomes**\nEven AND greater than 8: {10, 12} = 2 numbers\n\n**Step 3: Calculate**\nP(>8 | even) = 2/6 = 1/3\n\n**Verification**: 10 > 8 ✓, 12 > 8 ✓, both are even ✓",
+      "hints": [
+        {"level": 1, "content": "Since we know the card is even, only consider even numbers as possibilities.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "List all even numbers 1-12. How many of these are greater than 8?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Even numbers: 2,4,6,8,10,12 (6 total). Greater than 8: 10,12 (2). Answer = 2/6.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["conditional-probability", "sample-space", "number-properties"],
+        "distractorTypes": {"A": "ignore_condition", "B": "ignore_condition", "D": "boundary_error", "E": "counting_error"},
+        "solutionApproach": "Restrict sample space to given condition → Find favorable within restricted space",
+        "timeTarget": 75,
+        "commonErrors": ["Ignoring the given information", "Including 8 as >8"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-004",
+      "questionType": "MCQ",
+      "stem": "A jar has 8 red and 4 white jellybeans. Mia eats 2 red jellybeans. Then she picks one jellybean without looking. What is the probability she picks a white one?",
+      "mcqOptions": [
+        {"id": "A", "text": "4/12", "isCorrect": false, "feedback": "This uses the original total. After eating 2 red, only 10 jellybeans remain."},
+        {"id": "B", "text": "4/10", "isCorrect": true, "feedback": "Correct! After eating 2 red: 6 red + 4 white = 10 total. P(white) = 4/10 = 2/5."},
+        {"id": "C", "text": "6/10", "isCorrect": false, "feedback": "This is P(red), not P(white). The question asks for the probability of white."},
+        {"id": "D", "text": "2/10", "isCorrect": false, "feedback": "The white count didn't change - only red jellybeans were eaten. There are still 4 white."},
+        {"id": "E", "text": "4/8", "isCorrect": false, "feedback": "This divides by the remaining red count, not the total remaining jellybeans."}
+      ],
+      "solution": "**Methodology: Changing Sample Space**\n\n**Step 1: Initial state**\nRed = 8, White = 4, Total = 12\n\n**Step 2: After eating 2 red**\nRed = 6, White = 4, Total = 10\n\n**Step 3: Calculate**\nP(white) = 4/10 = 2/5\n\n**Verification**: 6 + 4 = 10 ✓",
+      "hints": [
+        {"level": 1, "content": "After Mia eats 2 red jellybeans, how many total jellybeans remain?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Red goes from 8 to 6. White stays at 4. Total is now 10.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(white) = 4/10 = 2/5", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["probability", "changing-sample-space", "fractions"],
+        "distractorTypes": {"A": "unchanged_sample", "C": "wrong_event", "D": "wrong_subtraction", "E": "wrong_denominator"},
+        "solutionApproach": "Track which colors were removed → Update totals → Calculate",
+        "timeTarget": 60,
+        "commonErrors": ["Using original total", "Confusing which color to find"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-005",
+      "questionType": "MCQ",
+      "stem": "A deck has 5 hearts and 7 spades. Jake draws 2 cards without replacement, and both are spades. If he draws a third card, what is the probability it is a heart?",
+      "mcqOptions": [
+        {"id": "A", "text": "5/12", "isCorrect": false, "feedback": "This uses the original total of 12. After removing 2 spades, only 10 cards remain."},
+        {"id": "B", "text": "5/10", "isCorrect": true, "feedback": "Correct! After removing 2 spades: 5 hearts + 5 spades = 10 cards. P(heart) = 5/10 = 1/2."},
+        {"id": "C", "text": "5/7", "isCorrect": false, "feedback": "This divides by the original spade count, not the total remaining cards."},
+        {"id": "D", "text": "3/10", "isCorrect": false, "feedback": "The heart count didn't change - only spades were removed. There are still 5 hearts."},
+        {"id": "E", "text": "7/10", "isCorrect": false, "feedback": "This would be P(spade) if no cards were removed. After removing 2 spades, P(spade) = 5/10."}
+      ],
+      "solution": "**Methodology: Changing Sample Space (Multiple Removals)**\n\n**Step 1: Initial state**\nHearts = 5, Spades = 7, Total = 12\n\n**Step 2: After removing 2 spades**\nHearts = 5, Spades = 5, Total = 10\n\n**Step 3: Calculate**\nP(heart) = 5/10 = 1/2\n\n**Verification**: 5 + 5 = 10 ✓, Hearts unchanged ✓",
+      "hints": [
+        {"level": 1, "content": "Two spades were removed. How many spades remain? How many cards total?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Spades: 7 - 2 = 5. Hearts: 5 (unchanged). Total: 10.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(heart) = 5/10 = 1/2", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["probability", "changing-sample-space", "without-replacement"],
+        "distractorTypes": {"A": "unchanged_sample", "C": "wrong_denominator", "D": "wrong_subtraction", "E": "wrong_event"},
+        "solutionApproach": "Track multiple removals → Update all counts → Calculate",
+        "timeTarget": 75,
+        "commonErrors": ["Forgetting multiple removals", "Subtracting from wrong category"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-006",
+      "questionType": "MCQ",
+      "stem": "In a town, 40% of families have a dog. If there are 250 families in the town, how many families would you expect to have a dog?",
+      "mcqOptions": [
+        {"id": "A", "text": "40", "isCorrect": false, "feedback": "You used 40 instead of 40%. 40% of 250 = 0.40 × 250 = 100."},
+        {"id": "B", "text": "100", "isCorrect": true, "feedback": "Correct! 40% of 250 = 0.40 × 250 = 100 families."},
+        {"id": "C", "text": "150", "isCorrect": false, "feedback": "This is 60% of 250, not 40%. Perhaps you calculated the families WITHOUT dogs."},
+        {"id": "D", "text": "210", "isCorrect": false, "feedback": "Check your calculation. 40% means 40/100 = 0.40. 0.40 × 250 = 100."},
+        {"id": "E", "text": "90", "isCorrect": false, "feedback": "This would be 36% of 250. For 40%, calculate 250 × 0.40 = 100."}
+      ],
+      "solution": "**Methodology: Expected Outcomes from Probability**\n\n**Step 1: Convert percentage to decimal**\n40% = 0.40\n\n**Step 2: Calculate expected number**\nExpected = Probability × Total\nExpected = 0.40 × 250 = 100\n\n**Verification**: 100/250 = 0.40 = 40% ✓",
+      "hints": [
+        {"level": 1, "content": "40% means 40 out of every 100. How many groups of 100 are in 250?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Expected number = percentage × total = 0.40 × 250", "revealsCriticalInfo": false},
+        {"level": 3, "content": "0.40 × 250 = 100 families", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["expected-value", "percentages", "multiplication"],
+        "distractorTypes": {"A": "percent_as_number", "C": "complement_error", "D": "computation_error", "E": "computation_error"},
+        "solutionApproach": "Convert percentage to decimal → Multiply by total",
+        "timeTarget": 45,
+        "commonErrors": ["Using 40 instead of 0.40", "Finding complement instead"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-19SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-007",
+      "questionType": "MCQ",
+      "stem": "A spinner lands on blue 3 out of every 8 spins on average. If Lily spins it 40 times, how many times would she expect it to land on blue?",
+      "mcqOptions": [
+        {"id": "A", "text": "3", "isCorrect": false, "feedback": "3 is the numerator of the probability, not the expected count. Multiply 3/8 by 40."},
+        {"id": "B", "text": "8", "isCorrect": false, "feedback": "8 is the denominator of the probability. Expected = (3/8) × 40 = 15."},
+        {"id": "C", "text": "12", "isCorrect": false, "feedback": "Check: 12/40 = 3/10, not 3/8. The correct answer gives 15/40 = 3/8."},
+        {"id": "D", "text": "15", "isCorrect": true, "feedback": "Correct! Expected = (3/8) × 40 = 120/8 = 15 times."},
+        {"id": "E", "text": "24", "isCorrect": false, "feedback": "This would be 3/5 of 40. The probability is 3/8, so expected = 40 × 3/8 = 15."}
+      ],
+      "solution": "**Methodology: Expected Outcomes from Probability**\n\n**Step 1: Identify the probability**\nP(blue) = 3/8\n\n**Step 2: Calculate expected outcomes**\nExpected = Probability × Number of trials\nExpected = (3/8) × 40 = 120/8 = 15\n\n**Verification**: 15/40 = 3/8 ✓",
+      "hints": [
+        {"level": 1, "content": "Expected count = probability × number of trials", "revealsCriticalInfo": false},
+        {"level": 2, "content": "P(blue) = 3/8. Multiply this by 40 spins.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "(3/8) × 40 = 3 × 5 = 15", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["expected-value", "fractions", "multiplication"],
+        "distractorTypes": {"A": "numerator_only", "B": "denominator_only", "C": "computation_error", "E": "wrong_fraction"},
+        "solutionApproach": "Multiply probability fraction by number of trials",
+        "timeTarget": 60,
+        "commonErrors": ["Using just numerator or denominator", "Wrong multiplication"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-19SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-008",
+      "questionType": "MCQ",
+      "stem": "The weather forecast says there is a 25% chance of rain each day for the next 12 days. On how many of these days would you expect rain?",
+      "mcqOptions": [
+        {"id": "A", "text": "25", "isCorrect": false, "feedback": "25 is the percentage, not the expected number of days. Calculate 25% of 12."},
+        {"id": "B", "text": "4", "isCorrect": false, "feedback": "This would be correct for 8 days. For 12 days: 25% × 12 = 3."},
+        {"id": "C", "text": "3", "isCorrect": true, "feedback": "Correct! 25% of 12 = 0.25 × 12 = 3 days."},
+        {"id": "D", "text": "6", "isCorrect": false, "feedback": "This is 50% of 12. The chance is 25%, so expected = 0.25 × 12 = 3."},
+        {"id": "E", "text": "9", "isCorrect": false, "feedback": "This is 75% of 12 (days WITHOUT rain). Days WITH rain = 25% × 12 = 3."}
+      ],
+      "solution": "**Methodology: Expected Outcomes from Probability**\n\n**Step 1: Convert percentage**\n25% = 0.25 = 1/4\n\n**Step 2: Calculate expected days**\nExpected = 0.25 × 12 = 3 days\n\nAlternatively: 12 ÷ 4 = 3 days\n\n**Verification**: 3/12 = 1/4 = 25% ✓",
+      "hints": [
+        {"level": 1, "content": "25% means 1 out of every 4 days. How many groups of 4 are in 12?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Expected = probability × days = 0.25 × 12", "revealsCriticalInfo": false},
+        {"level": 3, "content": "0.25 × 12 = 3 days", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["expected-value", "percentages", "real-world-application"],
+        "distractorTypes": {"A": "percent_as_number", "B": "computation_error", "D": "wrong_percent", "E": "complement_error"},
+        "solutionApproach": "Apply probability to real-world prediction context",
+        "timeTarget": 45,
+        "commonErrors": ["Using percentage as the answer", "Finding complement"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-19SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-009",
+      "questionType": "MCQ",
+      "stem": "A factory produces light bulbs. On average, 5% are defective. If the factory produces 600 light bulbs in one day, how many would you expect to be defective?",
+      "mcqOptions": [
+        {"id": "A", "text": "5", "isCorrect": false, "feedback": "5 is the percentage, not the count. Calculate 5% of 600."},
+        {"id": "B", "text": "30", "isCorrect": true, "feedback": "Correct! 5% of 600 = 0.05 × 600 = 30 defective bulbs."},
+        {"id": "C", "text": "120", "isCorrect": false, "feedback": "This is 20% of 600. The defect rate is only 5%."},
+        {"id": "D", "text": "570", "isCorrect": false, "feedback": "This is the number of GOOD bulbs (95%). Defective = 5% = 30."},
+        {"id": "E", "text": "60", "isCorrect": false, "feedback": "This is 10% of 600. For 5%, divide by 2: 60 ÷ 2 = 30."}
+      ],
+      "solution": "**Methodology: Expected Outcomes from Probability**\n\n**Step 1: Convert percentage**\n5% = 0.05\n\n**Step 2: Calculate expected defective**\nExpected = 0.05 × 600 = 30\n\n**Verification**: 30/600 = 0.05 = 5% ✓",
+      "hints": [
+        {"level": 1, "content": "5% means 5 out of every 100. How many bulbs in 600?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "600 ÷ 100 = 6 groups of 100. Each group has 5 defective.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "6 × 5 = 30 defective bulbs", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["expected-value", "percentages", "real-world-application"],
+        "distractorTypes": {"A": "percent_as_number", "C": "wrong_percent", "D": "complement_error", "E": "doubling_error"},
+        "solutionApproach": "Apply small percentage to large sample",
+        "timeTarget": 45,
+        "commonErrors": ["Confusing percentage with count", "Finding non-defective instead"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 45,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-19SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-010",
+      "questionType": "MCQ",
+      "stem": "In a survey, 2 out of every 5 students said they prefer pizza to pasta. If 85 students were surveyed, how many would you expect to prefer pizza?",
+      "mcqOptions": [
+        {"id": "A", "text": "17", "isCorrect": false, "feedback": "This is 1/5 of 85. The fraction is 2/5, so double this: 17 × 2 = 34."},
+        {"id": "B", "text": "34", "isCorrect": true, "feedback": "Correct! (2/5) × 85 = 170/5 = 34 students prefer pizza."},
+        {"id": "C", "text": "42", "isCorrect": false, "feedback": "Check: 42/85 ≠ 2/5. The correct calculation: 85 × 2/5 = 34."},
+        {"id": "D", "text": "51", "isCorrect": false, "feedback": "This is 3/5 of 85 (those who prefer PASTA). Pizza lovers = 2/5 = 34."},
+        {"id": "E", "text": "40", "isCorrect": false, "feedback": "This would be 2/5 of 100, not 85. For 85: (2/5) × 85 = 34."}
+      ],
+      "solution": "**Methodology: Expected Outcomes from Probability**\n\n**Step 1: Identify the probability**\nP(pizza) = 2/5\n\n**Step 2: Calculate expected number**\nExpected = (2/5) × 85 = (2 × 85)/5 = 170/5 = 34\n\n**Verification**: 34/85 = 2/5 ✓ (34 × 5 = 170, 85 × 2 = 170 ✓)",
+      "hints": [
+        {"level": 1, "content": "2 out of 5 means 2/5 of students prefer pizza.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Calculate 2/5 of 85: first find 1/5 of 85, then double it.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "85 ÷ 5 = 17. Then 17 × 2 = 34.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["expected-value", "fractions", "real-world-application"],
+        "distractorTypes": {"A": "partial_calculation", "C": "computation_error", "D": "complement_error", "E": "rounding_error"},
+        "solutionApproach": "Convert ratio to fraction → Multiply by total",
+        "timeTarget": 60,
+        "commonErrors": ["Only calculating 1/5", "Finding complement"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-19SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 10},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-011",
+      "questionType": "MCQ",
+      "stem": "Two players play a game with a fair 6-sided die. Player A wins if the die shows 1, 2, or 3. Player B wins if the die shows 4, 5, or 6. Is this game fair?",
+      "mcqOptions": [
+        {"id": "A", "text": "Yes, because each player has 3 winning numbers", "isCorrect": true, "feedback": "Correct! P(A wins) = 3/6 = 1/2 and P(B wins) = 3/6 = 1/2. Equal chances means fair game."},
+        {"id": "B", "text": "No, because low numbers are harder to roll", "isCorrect": false, "feedback": "On a fair die, each number has equal probability (1/6). Low numbers are not harder to roll."},
+        {"id": "C", "text": "No, because B has higher numbers", "isCorrect": false, "feedback": "The value of the numbers doesn't matter - only how many winning outcomes each player has."},
+        {"id": "D", "text": "Yes, because the die is fair", "isCorrect": false, "feedback": "A fair die doesn't automatically make a game fair. The rules must also give equal chances. (This game IS fair, but not for this reason alone.)"},
+        {"id": "E", "text": "Cannot determine without playing", "isCorrect": false, "feedback": "We can analyze probability mathematically. Each player has 3/6 = 1/2 chance, so it's fair."}
+      ],
+      "solution": "**Methodology: Fairness Analysis**\n\n**Step 1: Count winning outcomes**\nPlayer A wins: {1, 2, 3} = 3 outcomes\nPlayer B wins: {4, 5, 6} = 3 outcomes\n\n**Step 2: Calculate probabilities**\nP(A wins) = 3/6 = 1/2\nP(B wins) = 3/6 = 1/2\n\n**Step 3: Compare**\nP(A) = P(B) → Game is fair\n\n**Verification**: Both players have exactly half the outcomes ✓",
+      "hints": [
+        {"level": 1, "content": "A fair game means both players have equal chances of winning.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Count how many numbers each player wins on. Compare the counts.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "A: 3 numbers, B: 3 numbers. Equal = Fair.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["fairness", "probability", "counting-outcomes"],
+        "distractorTypes": {"B": "misconception", "C": "irrelevant_factor", "D": "incomplete_reasoning", "E": "avoidance"},
+        "solutionApproach": "Count winning outcomes for each player → Compare probabilities",
+        "timeTarget": 60,
+        "commonErrors": ["Thinking some numbers are 'luckier'", "Confusing number value with probability"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 11},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-012",
+      "questionType": "MCQ",
+      "stem": "A spinner is divided into 4 sections: red (120°), blue (120°), green (60°), and yellow (60°). Amy wins if it lands on red or blue. Ben wins if it lands on green or yellow. Is this game fair?",
+      "mcqOptions": [
+        {"id": "A", "text": "Yes, because they each have 2 colors", "isCorrect": false, "feedback": "The number of colors doesn't matter - the SIZE of the sections does. Red+Blue = 240°, Green+Yellow = 120°."},
+        {"id": "B", "text": "No, Amy has a higher chance of winning", "isCorrect": true, "feedback": "Correct! Amy: 120°+120° = 240°/360° = 2/3. Ben: 60°+60° = 120°/360° = 1/3. Amy wins twice as often!"},
+        {"id": "C", "text": "No, Ben has a higher chance of winning", "isCorrect": false, "feedback": "Actually Amy has higher chance. Her sections total 240° vs Ben's 120°."},
+        {"id": "D", "text": "Yes, because the spinner is random", "isCorrect": false, "feedback": "Random doesn't mean fair. Amy's sections cover more area (240° vs 120°), giving her better odds."},
+        {"id": "E", "text": "Yes, because 120 + 60 = 180 for each", "isCorrect": false, "feedback": "Incorrect addition. Amy: 120 + 120 = 240°. Ben: 60 + 60 = 120°. Not equal."}
+      ],
+      "solution": "**Methodology: Fairness Analysis (Weighted Spinner)**\n\n**Step 1: Calculate area for each player**\nAmy (red + blue): 120° + 120° = 240°\nBen (green + yellow): 60° + 60° = 120°\n\n**Step 2: Convert to probabilities**\nP(Amy wins) = 240°/360° = 2/3\nP(Ben wins) = 120°/360° = 1/3\n\n**Step 3: Compare**\nP(Amy) = 2/3 ≠ P(Ben) = 1/3 → NOT fair\nAmy has 2× the chance of winning.\n\n**Verification**: 240° + 120° = 360° ✓",
+      "hints": [
+        {"level": 1, "content": "The size of spinner sections matters, not just the count. Add up the degrees for each player.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Amy's sections: 120° + 120° = 240°. Ben's sections: 60° + 60° = 120°.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "240° vs 120° means Amy wins 2/3 of the time. Not fair!", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["fairness", "angles", "weighted-probability"],
+        "distractorTypes": {"A": "count_not_size", "C": "opposite_conclusion", "D": "incomplete_reasoning", "E": "wrong_calculation"},
+        "solutionApproach": "Sum angles for each player → Compare totals → Determine fairness",
+        "timeTarget": 75,
+        "commonErrors": ["Counting colors instead of measuring area", "Adding wrong sections"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 12},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-013",
+      "questionType": "MCQ",
+      "stem": "A bag contains 10 tokens: 4 worth $1, 3 worth $2, and 3 worth $5. You pay $3 to draw one token and keep its value. Is this a fair deal for you?",
+      "mcqOptions": [
+        {"id": "A", "text": "Yes, because you could win $5", "isCorrect": false, "feedback": "Possibility of winning big doesn't make it fair. Calculate the average (expected) outcome."},
+        {"id": "B", "text": "Yes, because average value equals $3", "isCorrect": false, "feedback": "Calculate: (4×$1 + 3×$2 + 3×$5)/10 = (4+6+15)/10 = $2.50, not $3."},
+        {"id": "C", "text": "No, expected value is less than $3", "isCorrect": true, "feedback": "Correct! Expected = (4×1 + 3×2 + 3×5)/10 = 25/10 = $2.50. You pay $3 for expected $2.50 - bad deal!"},
+        {"id": "D", "text": "No, most tokens are worth less than $3", "isCorrect": false, "feedback": "This observation is correct but doesn't fully analyze fairness. The expected value calculation shows it's $2.50 vs $3 cost."},
+        {"id": "E", "text": "Cannot determine without knowing which token you'll draw", "isCorrect": false, "feedback": "Expected value tells us the average outcome over many draws. Expected = $2.50 < $3 paid."}
+      ],
+      "solution": "**Methodology: Expected Value Analysis**\n\n**Step 1: Calculate expected value**\nE = (4×$1 + 3×$2 + 3×$5) ÷ 10\nE = ($4 + $6 + $15) ÷ 10\nE = $25 ÷ 10 = $2.50\n\n**Step 2: Compare to cost**\nCost = $3\nExpected value = $2.50\n\n**Step 3: Determine fairness**\n$2.50 < $3 → NOT a fair deal (you lose $0.50 on average)\n\n**Verification**: 4+3+3 = 10 tokens ✓, 4+6+15 = 25 ✓",
+      "hints": [
+        {"level": 1, "content": "Calculate the average value of a randomly drawn token.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Expected = (4×1 + 3×2 + 3×5) ÷ 10", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Expected = $2.50. You pay $3. Not fair!", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["expected-value", "fairness", "weighted-average"],
+        "distractorTypes": {"A": "possibility_bias", "B": "wrong_calculation", "D": "incomplete_analysis", "E": "avoidance"},
+        "solutionApproach": "Calculate weighted average → Compare to cost → Determine fairness",
+        "timeTarget": 90,
+        "commonErrors": ["Focusing on best outcome", "Simple average instead of weighted"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-19SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 13},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-014",
+      "questionType": "MCQ",
+      "stem": "In a game, you roll two dice and add the results. You win if the sum is 7 or 11, and lose if the sum is 2, 3, or 12. For any other sum, you roll again. On the first roll, what is your probability of winning immediately?",
+      "mcqOptions": [
+        {"id": "A", "text": "2/12", "isCorrect": false, "feedback": "There are 36 possible outcomes when rolling two dice, not 12. Count ways to get 7 or 11."},
+        {"id": "B", "text": "6/36", "isCorrect": false, "feedback": "This counts only ways to get 7. You also win on 11. Ways to get 11 = 2."},
+        {"id": "C", "text": "8/36", "isCorrect": true, "feedback": "Correct! Ways to get 7: 6. Ways to get 11: 2. Total winning = 8 out of 36 = 8/36 = 2/9."},
+        {"id": "D", "text": "2/36", "isCorrect": false, "feedback": "This only counts ways to get 11. You also win on 7, which has 6 ways."},
+        {"id": "E", "text": "12/36", "isCorrect": false, "feedback": "You may have added the target numbers (7+11=18) or overcounted. Ways: 7→6, 11→2, total=8."}
+      ],
+      "solution": "**Methodology: Sample Space Enumeration**\n\n**Step 1: Count total outcomes**\nTwo dice: 6 × 6 = 36 outcomes\n\n**Step 2: Count ways to get 7**\n1+6, 2+5, 3+4, 4+3, 5+2, 6+1 = 6 ways\n\n**Step 3: Count ways to get 11**\n5+6, 6+5 = 2 ways\n\n**Step 4: Calculate probability**\nP(win) = (6 + 2)/36 = 8/36 = 2/9\n\n**Verification**: 6 ways for 7 + 2 ways for 11 = 8 ✓",
+      "hints": [
+        {"level": 1, "content": "Two dice have 6×6 = 36 possible outcomes. List ways to make 7 and 11.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Ways to get 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). How many ways for 11?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "7: 6 ways. 11: 2 ways. Total = 8/36.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["sample-space", "two-dice", "counting-outcomes"],
+        "distractorTypes": {"A": "wrong_total", "B": "partial_count", "D": "partial_count", "E": "overcounting"},
+        "solutionApproach": "Enumerate sample space → Count favorable outcomes → Calculate probability",
+        "timeTarget": 90,
+        "commonErrors": ["Wrong total outcomes", "Missing some combinations"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 14},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-015",
+      "questionType": "MCQ",
+      "stem": "Two friends play a coin flip game. On heads, Player A gives Player B $2. On tails, Player B gives Player A $3. After many flips, who do you expect to have more money?",
+      "mcqOptions": [
+        {"id": "A", "text": "Player A, because tails pays more", "isCorrect": true, "feedback": "Correct! Expected gain per flip: A gains $3×0.5 - $2×0.5 = $1.50 - $1.00 = $0.50. A gains on average."},
+        {"id": "B", "text": "Player B, because heads pays them", "isCorrect": false, "feedback": "B gains $2 on heads but loses $3 on tails. Net: $2×0.5 - $3×0.5 = -$0.50 per flip."},
+        {"id": "C", "text": "Equal, because heads and tails are equally likely", "isCorrect": false, "feedback": "Equal probability doesn't mean equal expected value when payoffs differ. Calculate each player's expected gain."},
+        {"id": "D", "text": "Cannot determine without knowing results", "isCorrect": false, "feedback": "Expected value tells us the long-run average. A gains $0.50 per flip on average."},
+        {"id": "E", "text": "Player B, because $2 comes first", "isCorrect": false, "feedback": "The order of the rules doesn't matter. Calculate expected values: A gains $0.50 per flip."}
+      ],
+      "solution": "**Methodology: Expected Value Comparison**\n\n**Step 1: Calculate Player A's expected gain per flip**\nP(heads) = 1/2: A loses $2\nP(tails) = 1/2: A gains $3\nE(A) = (1/2)×(-$2) + (1/2)×($3) = -$1 + $1.50 = +$0.50\n\n**Step 2: Interpret**\nA gains $0.50 on average per flip, so A profits long-term.\n\n**Verification**: E(B) = (1/2)×($2) + (1/2)×(-$3) = $1 - $1.50 = -$0.50 ✓\nA's gain = B's loss ✓",
+      "hints": [
+        {"level": 1, "content": "Calculate how much Player A gains on average per flip.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "A loses $2 half the time, gains $3 half the time. What's the average?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "A's expected gain = 0.5×(-2) + 0.5×(3) = -1 + 1.5 = +$0.50", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["expected-value", "fairness", "game-theory"],
+        "distractorTypes": {"B": "wrong_perspective", "C": "equal_probability_fallacy", "D": "avoidance", "E": "irrelevant_factor"},
+        "solutionApproach": "Calculate expected gain for each player → Compare",
+        "timeTarget": 90,
+        "commonErrors": ["Assuming equal probability means equal expected value", "Wrong sign on gains/losses"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-19SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 15},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-016",
+      "questionType": "MCQ",
+      "stem": "A coin is flipped 3 times. What is the probability of getting at least one head?",
+      "mcqOptions": [
+        {"id": "A", "text": "1/2", "isCorrect": false, "feedback": "This is P(head on one flip). For 'at least one head in 3 flips', use the complement."},
+        {"id": "B", "text": "3/8", "isCorrect": false, "feedback": "This is P(exactly one head). 'At least one' includes 1, 2, or 3 heads."},
+        {"id": "C", "text": "1/8", "isCorrect": false, "feedback": "This is P(all heads) or P(no heads). 'At least one' is much more likely."},
+        {"id": "D", "text": "7/8", "isCorrect": true, "feedback": "Correct! P(at least one H) = 1 - P(no heads) = 1 - P(TTT) = 1 - 1/8 = 7/8."},
+        {"id": "E", "text": "6/8", "isCorrect": false, "feedback": "Close, but check: P(no heads) = (1/2)³ = 1/8. So P(at least one) = 1 - 1/8 = 7/8."}
+      ],
+      "solution": "**Methodology: Complementary Probability**\n\n**Step 1: Recognize complement is easier**\n'At least one head' = NOT 'all tails'\nP(at least one H) = 1 - P(all tails)\n\n**Step 2: Calculate P(all tails)**\nP(TTT) = (1/2)³ = 1/8\n\n**Step 3: Use complement**\nP(at least one H) = 1 - 1/8 = 7/8\n\n**Verification**: Outcomes with ≥1 head: HHH, HHT, HTH, HTT, THH, THT, TTH = 7 out of 8 ✓",
+      "hints": [
+        {"level": 1, "content": "'At least one head' is easier to find using the complement: 1 - P(no heads).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "P(no heads) = P(TTT) = (1/2)³. What is (1/2)³?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(TTT) = 1/8. P(at least one H) = 1 - 1/8 = 7/8.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["complementary-probability", "independent-events", "exponents"],
+        "distractorTypes": {"A": "single_trial", "B": "exactly_one", "C": "all_same", "E": "computation_error"},
+        "solutionApproach": "Use complement: P(at least one) = 1 - P(none)",
+        "timeTarget": 75,
+        "commonErrors": ["Calculating 'exactly one' instead", "Adding probabilities incorrectly"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 16},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-017",
+      "questionType": "MCQ",
+      "stem": "A die is rolled twice. What is the probability of getting at least one 6?",
+      "mcqOptions": [
+        {"id": "A", "text": "1/6", "isCorrect": false, "feedback": "This is P(6 on one roll). For two rolls with 'at least one 6', the probability is higher."},
+        {"id": "B", "text": "2/6", "isCorrect": false, "feedback": "You can't simply add 1/6 + 1/6. Use the complement: 1 - P(no sixes)."},
+        {"id": "C", "text": "1/36", "isCorrect": false, "feedback": "This is P(two sixes). 'At least one' includes one 6 OR two 6s."},
+        {"id": "D", "text": "11/36", "isCorrect": true, "feedback": "Correct! P(at least one 6) = 1 - P(no 6s) = 1 - (5/6)² = 1 - 25/36 = 11/36."},
+        {"id": "E", "text": "25/36", "isCorrect": false, "feedback": "This is P(no sixes). 'At least one 6' is the complement: 1 - 25/36 = 11/36."}
+      ],
+      "solution": "**Methodology: Complementary Probability**\n\n**Step 1: Use complement**\nP(at least one 6) = 1 - P(no 6s in both rolls)\n\n**Step 2: Calculate P(no 6s)**\nP(not 6 on one roll) = 5/6\nP(not 6 on both rolls) = (5/6) × (5/6) = 25/36\n\n**Step 3: Find complement**\nP(at least one 6) = 1 - 25/36 = 11/36\n\n**Verification**: Ways with ≥1 six: (6,1-6) or (1-5,6) = 6+6-1 = 11. 11/36 ✓",
+      "hints": [
+        {"level": 1, "content": "Use the complement: P(at least one 6) = 1 - P(no 6s).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "P(not 6) = 5/6 per roll. For both: (5/6)² = 25/36.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(at least one 6) = 1 - 25/36 = 11/36.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["complementary-probability", "independent-events", "fractions"],
+        "distractorTypes": {"A": "single_trial", "B": "additive_error", "C": "both_sixes", "E": "complement_confusion"},
+        "solutionApproach": "P(at least one) = 1 - P(none) = 1 - (5/6)²",
+        "timeTarget": 75,
+        "commonErrors": ["Adding probabilities", "Finding complement of wrong event"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 17},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-018",
+      "questionType": "MCQ",
+      "stem": "A bag has 3 red and 2 blue marbles. You draw one marble, note its color, and put it back. Then you draw again. What is the probability that at least one marble is red?",
+      "mcqOptions": [
+        {"id": "A", "text": "3/5", "isCorrect": false, "feedback": "This is P(red on one draw). For 'at least one red in two draws', the probability is higher."},
+        {"id": "B", "text": "6/5", "isCorrect": false, "feedback": "Probability can't exceed 1. You can't add 3/5 + 3/5 directly."},
+        {"id": "C", "text": "4/25", "isCorrect": false, "feedback": "This is P(both blue) = (2/5)² = 4/25. 'At least one red' is the complement."},
+        {"id": "D", "text": "21/25", "isCorrect": true, "feedback": "Correct! P(at least one red) = 1 - P(both blue) = 1 - (2/5)² = 1 - 4/25 = 21/25."},
+        {"id": "E", "text": "9/25", "isCorrect": false, "feedback": "This is P(both red) = (3/5)² = 9/25. 'At least one red' includes RR, RB, and BR."}
+      ],
+      "solution": "**Methodology: Complementary Probability (with Replacement)**\n\n**Step 1: Use complement**\nP(at least one red) = 1 - P(no red) = 1 - P(both blue)\n\n**Step 2: Calculate P(both blue)**\nWith replacement, each draw has same probabilities.\nP(blue) = 2/5\nP(both blue) = (2/5) × (2/5) = 4/25\n\n**Step 3: Find complement**\nP(at least one red) = 1 - 4/25 = 21/25\n\n**Verification**: P(RR) + P(RB) + P(BR) = 9/25 + 6/25 + 6/25 = 21/25 ✓",
+      "hints": [
+        {"level": 1, "content": "'At least one red' is easiest via complement: 1 - P(both blue).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "With replacement, P(blue) = 2/5 each draw. P(both blue) = (2/5)².", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(both blue) = 4/25. P(at least one red) = 1 - 4/25 = 21/25.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["complementary-probability", "with-replacement", "independent-events"],
+        "distractorTypes": {"A": "single_trial", "B": "invalid_probability", "C": "complement_only", "E": "both_same"},
+        "solutionApproach": "Recognize replacement → Use complement → Calculate (P(not target))²",
+        "timeTarget": 75,
+        "commonErrors": ["Forgetting to use complement", "Wrong probability after replacement"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 18},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-019",
+      "questionType": "MCQ",
+      "stem": "A multiple choice test has 4 questions, each with 5 options (one correct). If you guess randomly on all questions, what is the probability of getting at least one question correct?",
+      "mcqOptions": [
+        {"id": "A", "text": "4/5", "isCorrect": false, "feedback": "This is P(wrong on one question). For 'at least one correct', calculate differently."},
+        {"id": "B", "text": "1 - (4/5)⁴", "isCorrect": true, "feedback": "Correct! P(at least one correct) = 1 - P(all wrong) = 1 - (4/5)⁴ = 1 - 256/625 = 369/625."},
+        {"id": "C", "text": "(1/5)⁴", "isCorrect": false, "feedback": "This is P(all correct). 'At least one correct' is much more likely."},
+        {"id": "D", "text": "4/20", "isCorrect": false, "feedback": "You can't simply add 1/5 four times. Use the complement method."},
+        {"id": "E", "text": "256/625", "isCorrect": false, "feedback": "This is P(all wrong) = (4/5)⁴. 'At least one correct' is 1 - 256/625 = 369/625."}
+      ],
+      "solution": "**Methodology: Complementary Probability**\n\n**Step 1: Use complement**\nP(at least one correct) = 1 - P(all wrong)\n\n**Step 2: Calculate P(all wrong)**\nP(wrong on one question) = 4/5\nP(all 4 wrong) = (4/5)⁴ = 256/625\n\n**Step 3: Find complement**\nP(at least one correct) = 1 - 256/625 = 369/625 ≈ 0.59\n\n**Verification**: (4/5)⁴ = 256/625, 625 - 256 = 369 ✓",
+      "hints": [
+        {"level": 1, "content": "'At least one correct' = 1 - P(all wrong).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "P(wrong) = 4/5 per question. P(all 4 wrong) = (4/5)⁴.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(at least one correct) = 1 - (4/5)⁴ = 1 - 256/625 = 369/625.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["complementary-probability", "independent-events", "exponents"],
+        "distractorTypes": {"A": "wrong_event", "C": "all_correct", "D": "additive_error", "E": "complement_confusion"},
+        "solutionApproach": "P(at least one) = 1 - P(none) = 1 - (P(fail))^n",
+        "timeTarget": 90,
+        "commonErrors": ["Calculating P(all correct)", "Adding probabilities"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 19},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-020",
+      "questionType": "MCQ",
+      "stem": "There are 10 lottery tickets, and 2 of them are winners. If you buy 3 tickets (without replacement), what is the probability that at least one of your tickets is a winner?",
+      "mcqOptions": [
+        {"id": "A", "text": "2/10", "isCorrect": false, "feedback": "This is P(winner on first ticket). Buying 3 tickets gives you better chances."},
+        {"id": "B", "text": "6/10", "isCorrect": false, "feedback": "You can't simply multiply 2/10 × 3. The calculation is more complex with 'without replacement'."},
+        {"id": "C", "text": "7/15", "isCorrect": false, "feedback": "This is P(no winners) = (8/10)(7/9)(6/8) = 7/15. But the question asks for P(at least one winner) = 1 - 7/15 = 8/15."},
+        {"id": "D", "text": "8/15", "isCorrect": true, "feedback": "Correct! P(at least one winner) = 1 - P(no winners) = 1 - (8/10)(7/9)(6/8) = 1 - 7/15 = 8/15."},
+        {"id": "E", "text": "56/120", "isCorrect": false, "feedback": "Simplify: 56/120 = 7/15. This is P(no winners). P(at least one winner) = 1 - 7/15 = 8/15."}
+      ],
+      "solution": "**Methodology: Complementary Probability (without Replacement)**\n\n**Step 1: Use complement**\nP(at least one winner) = 1 - P(no winners in 3 draws)\n\n**Step 2: Calculate P(no winners)**\n8 non-winners out of 10 tickets.\nP(1st not winner) = 8/10\nP(2nd not winner | 1st not) = 7/9\nP(3rd not winner | first two not) = 6/8\nP(no winners) = (8/10) × (7/9) × (6/8) = 336/720 = 7/15\n\n**Step 3: Find complement**\nP(at least one winner) = 1 - 7/15 = 8/15\n\n**Verification**: 8×7×6 = 336, 10×9×8 = 720, 336/720 = 7/15 ✓",
+      "hints": [
+        {"level": 1, "content": "Use complement: P(at least one winner) = 1 - P(all 3 are losers).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "P(no winners) = (8/10) × (7/9) × (6/8) since tickets aren't replaced.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(no winners) = 7/15. P(at least one) = 1 - 7/15 = 8/15.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["complementary-probability", "without-replacement", "sequential-events"],
+        "distractorTypes": {"A": "single_trial", "B": "wrong_method", "D": "complement_confusion", "E": "unsimplified"},
+        "solutionApproach": "Without replacement: multiply changing fractions → Use complement",
+        "timeTarget": 90,
+        "commonErrors": ["Forgetting denominator changes", "Not using complement"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 20},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-021",
+      "questionType": "MCQ",
+      "stem": "A spinner has 4 equal sections numbered 1, 2, 3, and 4. If you spin it twice and multiply the results, what is the probability the product is even?",
+      "mcqOptions": [
+        {"id": "A", "text": "1/2", "isCorrect": false, "feedback": "This would be P(even on one spin). For the product to be even, only one spin needs to be even."},
+        {"id": "B", "text": "1/4", "isCorrect": false, "feedback": "This is P(both odd). For even product, we need NOT both odd."},
+        {"id": "C", "text": "3/4", "isCorrect": true, "feedback": "Correct! Product is even unless both are odd. P(both odd) = (1/2)² = 1/4. P(even product) = 1 - 1/4 = 3/4."},
+        {"id": "D", "text": "2/4", "isCorrect": false, "feedback": "2/4 = 1/2. The probability is higher because the product is even whenever at least one spin is even."},
+        {"id": "E", "text": "4/16", "isCorrect": false, "feedback": "4/16 = 1/4. This is P(both odd). P(even product) = 1 - 1/4 = 3/4."}
+      ],
+      "solution": "**Methodology: Combined Events (Complement)**\n\n**Step 1: Key insight**\nProduct is even if at least one factor is even.\nProduct is odd only if BOTH factors are odd.\n\n**Step 2: Use complement**\nP(even product) = 1 - P(odd product) = 1 - P(both odd)\n\n**Step 3: Calculate P(both odd)**\nOdd numbers on spinner: 1, 3 (2 out of 4)\nP(odd) = 2/4 = 1/2\nP(both odd) = (1/2) × (1/2) = 1/4\n\n**Step 4: Find answer**\nP(even product) = 1 - 1/4 = 3/4\n\n**Verification**: Even products: when first even OR second even OR both even. Outcomes: 16 total, 4 have both odd, 12 have at least one even. 12/16 = 3/4 ✓",
+      "hints": [
+        {"level": 1, "content": "A product is even if at least one factor is even. When is it odd?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Product is odd only when BOTH spins are odd. Use complement.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(both odd) = (1/2)² = 1/4. P(even product) = 1 - 1/4 = 3/4.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["combined-events", "even-odd", "complementary-probability"],
+        "distractorTypes": {"A": "single_trial", "B": "opposite_event", "D": "wrong_probability", "E": "unsimplified"},
+        "solutionApproach": "Recognize product parity rule → Use complement for 'at least one even'",
+        "timeTarget": 75,
+        "commonErrors": ["Not recognizing even/odd product rule", "Listing all 16 outcomes inefficiently"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 21},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-022",
+      "questionType": "MCQ",
+      "stem": "You flip a coin and roll a die. What is the probability of getting heads AND a number greater than 4?",
+      "mcqOptions": [
+        {"id": "A", "text": "1/2", "isCorrect": false, "feedback": "This is just P(heads). You need both heads AND a number greater than 4."},
+        {"id": "B", "text": "2/6", "isCorrect": false, "feedback": "This is just P(>4 on die). For both events, multiply the probabilities."},
+        {"id": "C", "text": "1/6", "isCorrect": true, "feedback": "Correct! P(heads AND >4) = P(heads) × P(>4) = (1/2) × (2/6) = 2/12 = 1/6."},
+        {"id": "D", "text": "5/6", "isCorrect": false, "feedback": "This might be P(heads OR >4). For AND, multiply: (1/2) × (1/3) = 1/6."},
+        {"id": "E", "text": "3/12", "isCorrect": false, "feedback": "This equals 1/4. Check: P(heads) = 1/2, P(>4) = 2/6 = 1/3. Product = 1/6."}
+      ],
+      "solution": "**Methodology: Independent Events (AND)**\n\n**Step 1: Identify probabilities**\nP(heads) = 1/2\nP(>4 on die) = P(5 or 6) = 2/6 = 1/3\n\n**Step 2: Apply multiplication rule for AND**\nEvents are independent (coin doesn't affect die).\nP(heads AND >4) = P(heads) × P(>4)\n= (1/2) × (1/3) = 1/6\n\n**Verification**: Total outcomes = 2 × 6 = 12. Favorable: H5, H6 = 2 outcomes. 2/12 = 1/6 ✓",
+      "hints": [
+        {"level": 1, "content": "For independent events with AND, multiply the probabilities.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "P(heads) = 1/2. P(>4) = 2/6. Multiply these.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "(1/2) × (2/6) = 2/12 = 1/6.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["independent-events", "multiplication-rule", "combined-events"],
+        "distractorTypes": {"A": "partial_answer", "B": "partial_answer", "D": "or_not_and", "E": "computation_error"},
+        "solutionApproach": "Identify independent events → Multiply probabilities for AND",
+        "timeTarget": 60,
+        "commonErrors": ["Using only one probability", "Confusing AND with OR"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 60,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 22},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-023",
+      "questionType": "MCQ",
+      "stem": "Bag A contains 2 red and 3 blue marbles. Bag B contains 4 red and 1 blue marble. You randomly pick one bag (each equally likely), then draw one marble. What is the probability the marble is red?",
+      "mcqOptions": [
+        {"id": "A", "text": "6/10", "isCorrect": false, "feedback": "You can't just add all reds and divide by all marbles. Account for the bag selection first."},
+        {"id": "B", "text": "1/2", "isCorrect": false, "feedback": "This would only be true if each bag had 50% red. Calculate the weighted average."},
+        {"id": "C", "text": "3/5", "isCorrect": true, "feedback": "Correct! P(red) = P(A)×P(red|A) + P(B)×P(red|B) = (1/2)(2/5) + (1/2)(4/5) = 1/5 + 2/5 = 3/5."},
+        {"id": "D", "text": "2/5", "isCorrect": false, "feedback": "This is P(red|Bag A). But you might pick Bag B, which has higher P(red)."},
+        {"id": "E", "text": "4/5", "isCorrect": false, "feedback": "This is P(red|Bag B). But you might pick Bag A, which has lower P(red)."}
+      ],
+      "solution": "**Methodology: Two-Stage Probability (Total Probability)**\n\n**Step 1: Identify the stages**\nStage 1: Pick a bag (A or B, each with P = 1/2)\nStage 2: Draw a marble from chosen bag\n\n**Step 2: Calculate conditional probabilities**\nP(red | Bag A) = 2/5\nP(red | Bag B) = 4/5\n\n**Step 3: Apply total probability**\nP(red) = P(A) × P(red|A) + P(B) × P(red|B)\n= (1/2)(2/5) + (1/2)(4/5)\n= 2/10 + 4/10 = 6/10 = 3/5\n\n**Verification**: Average of 2/5 and 4/5 = (2/5 + 4/5)/2 = (6/5)/2 = 6/10 = 3/5 ✓",
+      "hints": [
+        {"level": 1, "content": "There are two stages: pick a bag, then draw a marble.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "P(red) = P(Bag A) × P(red|A) + P(Bag B) × P(red|B).", "revealsCriticalInfo": false},
+        {"level": 3, "content": "= (1/2)(2/5) + (1/2)(4/5) = 1/5 + 2/5 = 3/5.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["two-stage-probability", "total-probability", "weighted-average"],
+        "distractorTypes": {"A": "pooled_error", "B": "oversimplified", "D": "conditional_only", "E": "conditional_only"},
+        "solutionApproach": "Use total probability: weight each conditional by its path probability",
+        "timeTarget": 90,
+        "commonErrors": ["Ignoring the bag selection", "Using only one bag's probability"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 90,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 23},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-024",
+      "questionType": "MCQ",
+      "stem": "A spinner has 3 equal sections: red, blue, and green. You spin twice and record both colors. What is the probability of getting the same color both times?",
+      "mcqOptions": [
+        {"id": "A", "text": "1/3", "isCorrect": true, "feedback": "Correct! P(same) = P(RR) + P(BB) + P(GG) = (1/3)² + (1/3)² + (1/3)² = 3 × (1/9) = 3/9 = 1/3."},
+        {"id": "B", "text": "1/9", "isCorrect": false, "feedback": "This is P(specific same color, like RR). There are 3 ways to match: RR, BB, GG."},
+        {"id": "C", "text": "2/3", "isCorrect": false, "feedback": "This is P(different colors). P(same color) = 1 - 2/3 = 1/3."},
+        {"id": "D", "text": "3/9", "isCorrect": false, "feedback": "This equals 1/3, which is correct! 3/9 and 1/3 are the same answer."},
+        {"id": "E", "text": "6/9", "isCorrect": false, "feedback": "This is P(different colors). Same color has 3 outcomes out of 9 total."}
+      ],
+      "solution": "**Methodology: Combined Events (Sum of Mutually Exclusive)**\n\n**Step 1: Identify favorable outcomes**\nSame color: RR, BB, or GG (3 outcomes)\n\n**Step 2: Calculate each probability**\nP(RR) = (1/3) × (1/3) = 1/9\nP(BB) = (1/3) × (1/3) = 1/9\nP(GG) = (1/3) × (1/3) = 1/9\n\n**Step 3: Add (mutually exclusive)**\nP(same) = 1/9 + 1/9 + 1/9 = 3/9 = 1/3\n\n**Verification**: Total outcomes = 3 × 3 = 9. Same color = 3. P = 3/9 = 1/3 ✓",
+      "hints": [
+        {"level": 1, "content": "What are all the ways to get the same color twice?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "RR, BB, or GG. Each has probability (1/3)² = 1/9.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "P(same) = 3 × (1/9) = 3/9 = 1/3.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["combined-events", "mutually-exclusive", "addition-rule"],
+        "distractorTypes": {"B": "only_one_match", "C": "complement", "D": "equivalent_answer", "E": "complement"},
+        "solutionApproach": "List all matching outcomes → Calculate each → Add",
+        "timeTarget": 75,
+        "commonErrors": ["Only counting one matching outcome", "Confusing with different colors"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 75,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 24},
+      "status": "published"
+    },
+    {
+      "questionId": "nsw-sel-qa22-025",
+      "questionType": "MCQ",
+      "stem": "Two dice are rolled. What is the probability that the sum is a prime number?",
+      "mcqOptions": [
+        {"id": "A", "text": "15/36", "isCorrect": true, "feedback": "Correct! Prime sums: 2(1), 3(2), 5(4), 7(6), 11(2) = 15 ways. P = 15/36 = 5/12."},
+        {"id": "B", "text": "6/36", "isCorrect": false, "feedback": "This only counts some prime sums. List all: 2, 3, 5, 7, 11 and count ways for each."},
+        {"id": "C", "text": "18/36", "isCorrect": false, "feedback": "Check your count. Prime sums from 2-12 are: 2, 3, 5, 7, 11. Count ways for each."},
+        {"id": "D", "text": "12/36", "isCorrect": false, "feedback": "You may have missed some combinations. Sum=7 alone has 6 ways."},
+        {"id": "E", "text": "21/36", "isCorrect": false, "feedback": "This overcounts. Verify: 2→1, 3→2, 5→4, 7→6, 11→2. Total = 15 ways."}
+      ],
+      "solution": "**Methodology: Systematic Enumeration**\n\n**Step 1: Identify possible prime sums (2-12)**\nPrimes: 2, 3, 5, 7, 11\n\n**Step 2: Count ways for each prime sum**\nSum = 2: (1,1) → 1 way\nSum = 3: (1,2), (2,1) → 2 ways\nSum = 5: (1,4), (2,3), (3,2), (4,1) → 4 ways\nSum = 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 ways\nSum = 11: (5,6), (6,5) → 2 ways\n\n**Step 3: Calculate probability**\nTotal favorable = 1 + 2 + 4 + 6 + 2 = 15\nP(prime sum) = 15/36 = 5/12\n\n**Verification**: 1+2+4+6+2 = 15 ✓",
+      "hints": [
+        {"level": 1, "content": "First identify which sums from 2-12 are prime numbers.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Prime sums: 2, 3, 5, 7, 11. Count the number of ways to roll each.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Ways: 2→1, 3→2, 5→4, 7→6, 11→2. Total = 15/36.", "revealsCriticalInfo": true}
+      ],
+      "nswSelective": {
+        "archetype": "Probability Reasoning",
+        "archetypeId": "qa22",
+        "conceptsRequired": ["two-dice", "prime-numbers", "systematic-counting"],
+        "distractorTypes": {"B": "partial_count", "C": "computation_error", "D": "missing_outcomes", "E": "overcounting"},
+        "solutionApproach": "Identify prime sums → Count ways for each → Sum and divide by 36",
+        "timeTarget": 120,
+        "commonErrors": ["Missing a prime", "Miscounting ways for a sum"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 120,
+      "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-18SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
+      "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa22-set1", "sequenceInPaper": 25},
+      "status": "published"
+    }
+  ]
+}

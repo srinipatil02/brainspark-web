@@ -1111,7 +1111,7 @@ export function ArchetypePlayer({
             onRequestMethodologyHelp={handleRequestMethodologyHelp}
             onOpenSocraticChat={() => setShowSocraticChat(true)}
             onOpenConceptExplainer={() => setShowConceptExplainer(true)}
-            showAIButtons={wrongOptionsThisQuestion.length > 0 || timer.elapsedSeconds > 90}
+            showAIButtons={wrongOptionsThisQuestion.length > 0 || timer.elapsedSeconds > 30}
           />
         )}
 

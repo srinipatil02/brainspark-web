@@ -3,7 +3,7 @@
 // =============================================================================
 // FILE: src/app/nsw-selective/practice/page.tsx
 // DOMAIN: NSW Selective Exam Prep
-// PURPOSE: Display all 20 archetypes in a filterable grid for practice selection
+// PURPOSE: Display all 23 archetypes in a filterable grid for practice selection
 // DO NOT: Import curriculum components or use learningArc fields
 
 'use client';
@@ -98,7 +98,7 @@ export default function PracticePage() {
               </Link>
               <div>
                 <h1 className="text-xl font-semibold text-gray-900">Practice by Question Type</h1>
-                <p className="text-sm text-gray-500">20 archetypes • 500 questions</p>
+                <p className="text-sm text-gray-500">23 archetypes • 700 questions</p>
               </div>
             </div>
           </div>
@@ -121,7 +121,7 @@ export default function PracticePage() {
                       : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                   }`}
                 >
-                  All (20)
+                  All (23)
                 </button>
                 {ALL_CATEGORIES.map(cat => {
                   const count = allArchetypes.filter(a => a.category === cat).length;

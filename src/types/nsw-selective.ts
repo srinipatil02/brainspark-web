@@ -481,6 +481,39 @@ export const ARCHETYPE_CATALOG: Record<ArchetypeId, Omit<ArchetypeDefinition, 'i
     visualRequired: false,
     difficulty: 3,
     category: 'time_distance'
+  },
+  qa21: {
+    name: 'Multi-Concept Integration',
+    shortName: 'Integration',
+    pattern: 'Problems requiring synthesis of 2-3 mathematical concepts from different archetypes',
+    conceptsRequired: ['cross-archetype-synthesis', 'multi-step-reasoning', 'concept-selection'],
+    solutionApproach: 'Identify component concepts → Solve sub-problems → Synthesize results → Verify consistency',
+    commonErrors: ['Solving only one component', 'Not connecting sub-problems', 'Using wrong concept for context', 'Missing hidden constraints'],
+    visualRequired: false,
+    difficulty: 4,
+    category: 'problem_solving'
+  },
+  qa22: {
+    name: 'Probability Reasoning',
+    shortName: 'Probability',
+    pattern: 'Apply probability concepts to novel situations with changing sample spaces, expected outcomes, or fairness analysis',
+    conceptsRequired: ['sample-space-reasoning', 'probability-calculation', 'expected-value', 'complementary-events'],
+    solutionApproach: 'Identify sample space → Track changes after events → Apply appropriate probability rules → Verify total probability',
+    commonErrors: ['Forgetting to update sample space after events', 'Adding instead of multiplying independent events', 'Wrong complement calculation', 'Assuming equal probability when not true'],
+    visualRequired: false,
+    difficulty: 3,
+    category: 'data_statistics'
+  },
+  qa23: {
+    name: 'Data Interpretation & Statistical Reasoning',
+    shortName: 'Data Interpretation',
+    pattern: 'Draw conclusions from data displays, compare measures of center, work backwards from statistics',
+    conceptsRequired: ['median-mode-mean', 'data-analysis', 'graph-interpretation', 'two-way-tables'],
+    solutionApproach: 'Identify what the data shows → Apply appropriate statistical measure → Draw valid conclusions → Check for misleading presentations',
+    commonErrors: ['Confusing mean with median', 'Using wrong total from tables', 'Confusing rate with count', 'Drawing invalid conclusions from correlation'],
+    visualRequired: false,
+    difficulty: 3,
+    category: 'data_statistics'
   }
 };
 
