@@ -239,6 +239,67 @@ interface StudyPlanResponse {
 }
 
 // =============================================================================
+// TEACH ME TYPES (Direct Teaching Mode)
+// =============================================================================
+
+interface TeachMeRequest {
+  question: {
+    questionId: string;
+    stem: string;
+    options: { id: string; text: string; isCorrect: boolean }[];
+    methodologySteps: string[];
+    solution: string;
+    difficulty: number;
+  };
+  archetype: {
+    id: ArchetypeId;
+    name: string;
+    shortName: string;
+    methodology: string;
+    commonErrors: string[];
+  };
+  studentContext: {
+    wrongAnswersSelected: string[];
+    hintsAlreadySeen: number;
+    timeOnQuestionSeconds: number;
+    socraticExchanges: number;
+    masteryLevel: number;
+    previousTeachingApproaches?: string[];
+  };
+  specificConfusion?: string;
+}
+
+export interface TeachMeResponse {
+  success: boolean;
+  keyInsight?: string;
+  relatable?: {
+    setup: string;
+    connection: string;
+    whyItMatters: string;
+  };
+  workedExample?: {
+    problemStatement: string;
+    stepByStep: Array<{
+      stepNumber: number;
+      action: string;
+      result: string;
+      insight: string;
+    }>;
+    finalAnswer: string;
+    keyTakeaway: string;
+  };
+  trapToAvoid?: {
+    trap: string;
+    whyTempting: string;
+    howToAvoid: string;
+  };
+  tryYourProblem?: string;
+  encouragement?: string;
+  error?: string;
+  processingTime?: number;
+}
+
+// =============================================================================
 // AI FEEDBACK TRIGGERING
 // =============================================================================
 
@@ -743,6 +804,100 @@ export async function getAIStudyPlan(params: {
 }
 
 // =============================================================================
+// AI TEACH ME (Direct Teaching Mode)
+// =============================================================================
+
+/**
+ * Get AI-powered direct teaching when a student is stuck and needs more than Socratic questioning.
+ * Unlike Socratic coaching, this TEACHES the concept with:
+ * - A key insight that unlocks understanding
+ * - A relatable analogy using Year 6 appropriate examples
+ * - A worked example with DIFFERENT numbers (so they still solve their own problem)
+ * - A specific trap to avoid based on their wrong answers
+ *
+ * Still NEVER reveals the answer to their specific question.
+ */
+export async function getAITeachMe(params: {
+  question: FirestoreQuestion;
+  wrongAnswersSelected: string[];
+  hintsAlreadySeen: number;
+  timeOnQuestionSeconds: number;
+  socraticExchanges: number;
+  masteryLevel: number;
+  previousTeachingApproaches?: string[];
+  specificConfusion?: string;
+}): Promise<TeachMeResponse> {
+  const {
+    question,
+    wrongAnswersSelected,
+    hintsAlreadySeen,
+    timeOnQuestionSeconds,
+    socraticExchanges,
+    masteryLevel,
+    previousTeachingApproaches,
+    specificConfusion,
+  } = params;
+
+  const archetypeId = question.nswSelective?.archetypeId;
+  if (!archetypeId) {
+    return {
+      success: false,
+      error: 'No archetype ID found for question',
+    };
+  }
+
+  try {
+    const archetypeInfo = getArchetypeInfo(archetypeId);
+
+    const request: TeachMeRequest = {
+      question: {
+        questionId: question.questionId,
+        stem: question.stem,
+        options: (question.mcqOptions || []).map(opt => ({
+          id: opt.id,
+          text: opt.text,
+          isCorrect: opt.isCorrect,
+        })),
+        methodologySteps: question.nswSelective?.methodologySteps || [],
+        solution: question.solution || '',
+        difficulty: question.difficulty,
+      },
+      archetype: {
+        id: archetypeId,
+        name: archetypeInfo.name,
+        shortName: archetypeInfo.shortName,
+        methodology: archetypeInfo.methodology,
+        commonErrors: archetypeInfo.commonErrors,
+      },
+      studentContext: {
+        wrongAnswersSelected,
+        hintsAlreadySeen,
+        timeOnQuestionSeconds,
+        socraticExchanges,
+        masteryLevel,
+        previousTeachingApproaches,
+      },
+      specificConfusion,
+    };
+
+    const callFunction = httpsCallable<TeachMeRequest, TeachMeResponse>(
+      functions,
+      'nswSelectiveTeachMe'
+    );
+
+    const result = await callFunction(request);
+    return result.data;
+
+  } catch (error) {
+    console.error('AI Teach Me failed:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'Teaching service unavailable',
+    };
+  }
+}
+
+// =============================================================================
 // HEALTH CHECK
 // =============================================================================
 
@@ -789,6 +944,7 @@ export async function checkAITutoringHealth(): Promise<{
 // =============================================================================
 
 // Export types for UI components
+// Note: TeachMeResponse is already exported with `export interface` where it's defined
 export type {
   SocraticCoachResponse,
   ConceptExplainerResponse,
@@ -804,5 +960,6 @@ export default {
   getAISocraticCoaching,
   getAIConceptExplanation,
   getAIStudyPlan,
+  getAITeachMe,
   checkAITutoringHealth,
 };

@@ -44,6 +44,7 @@ import { SessionSummaryModal, AISessionAnalysis } from '@/components/nsw-selecti
 import { MethodologyCoachModal } from '@/components/nsw-selective/MethodologyCoachModal';
 import { SocraticChatModal } from '@/components/nsw-selective/SocraticChatModal';
 import { ConceptExplainerModal } from '@/components/nsw-selective/ConceptExplainerModal';
+import { TeachMeModal } from '@/components/nsw-selective/TeachMeModal';
 import { ARCHETYPE_CATALOG } from '@/types/nsw-selective';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -237,7 +238,9 @@ interface HintsPanelProps {
   onRequestMethodologyHelp: () => void;
   onOpenSocraticChat: () => void;
   onOpenConceptExplainer: () => void;
+  onOpenTeachMe: () => void;
   showAIButtons: boolean;
+  showTeachMeButton: boolean; // Show when student is stuck (3+ wrong attempts or 3+ Socratic exchanges)
 }
 
 function HintsPanel({
@@ -248,7 +251,9 @@ function HintsPanel({
   onRequestMethodologyHelp,
   onOpenSocraticChat,
   onOpenConceptExplainer,
-  showAIButtons
+  onOpenTeachMe,
+  showAIButtons,
+  showTeachMeButton
 }: HintsPanelProps) {
   const maxHints = hints?.length || 3;
 
@@ -281,25 +286,40 @@ function HintsPanel({
 
       {/* AI Help Buttons */}
       {showAIButtons && (
-        <div className="flex gap-2 mb-3">
-          <button
-            onClick={onOpenSocraticChat}
-            className="flex-1 flex items-center justify-center gap-2 px-3 py-2 bg-indigo-100 text-indigo-700 rounded-lg text-sm font-medium hover:bg-indigo-200 transition-colors"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-            </svg>
-            Get Coaching
-          </button>
-          <button
-            onClick={onOpenConceptExplainer}
-            className="flex-1 flex items-center justify-center gap-2 px-3 py-2 bg-purple-100 text-purple-700 rounded-lg text-sm font-medium hover:bg-purple-200 transition-colors"
-          >
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
-            </svg>
-            Explain Concept
-          </button>
+        <div className="space-y-2 mb-3">
+          <div className="flex gap-2">
+            <button
+              onClick={onOpenSocraticChat}
+              className="flex-1 flex items-center justify-center gap-2 px-3 py-2 bg-indigo-100 text-indigo-700 rounded-lg text-sm font-medium hover:bg-indigo-200 transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              </svg>
+              Get Coaching
+            </button>
+            <button
+              onClick={onOpenConceptExplainer}
+              className="flex-1 flex items-center justify-center gap-2 px-3 py-2 bg-purple-100 text-purple-700 rounded-lg text-sm font-medium hover:bg-purple-200 transition-colors"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+              </svg>
+              Explain Concept
+            </button>
+          </div>
+
+          {/* Teach Me Button - Shows when student is stuck */}
+          {showTeachMeButton && (
+            <button
+              onClick={onOpenTeachMe}
+              className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-xl text-sm font-semibold hover:from-amber-600 hover:to-orange-600 transition-all shadow-md hover:shadow-lg"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+              🎓 Teach Me This Concept
+            </button>
+          )}
         </div>
       )}
 
@@ -654,6 +674,10 @@ export function ArchetypePlayer({
   // Concept Explainer state
   const [showConceptExplainer, setShowConceptExplainer] = useState(false);
   const [previousExplanationsSeen, setPreviousExplanationsSeen] = useState<string[]>([]);
+
+  // Teach Me state
+  const [showTeachMe, setShowTeachMe] = useState(false);
+  const [socraticExchangeCount, setSocraticExchangeCount] = useState(0);
 
   const archetype = getArchetypeDefinition(archetypeId);
 
@@ -1111,7 +1135,9 @@ export function ArchetypePlayer({
             onRequestMethodologyHelp={handleRequestMethodologyHelp}
             onOpenSocraticChat={() => setShowSocraticChat(true)}
             onOpenConceptExplainer={() => setShowConceptExplainer(true)}
-            showAIButtons={wrongOptionsThisQuestion.length > 0 || timer.elapsedSeconds > 30}
+            onOpenTeachMe={() => setShowTeachMe(true)}
+            showAIButtons={wrongOptionsThisQuestion.length > 0 || timer.elapsedSeconds > 90}
+            showTeachMeButton={wrongOptionsThisQuestion.length >= 3 || socraticExchangeCount >= 3}
           />
         )}
 
@@ -1222,6 +1248,10 @@ export function ArchetypePlayer({
           onInsightGained={() => {
             console.log('[AI Tutoring] Student gained insight from Socratic chat');
           }}
+          onExchangeComplete={() => {
+            setSocraticExchangeCount(prev => prev + 1);
+            console.log('[AI Tutoring] Socratic exchange completed');
+          }}
         />
       )}
 
@@ -1242,6 +1272,23 @@ export function ArchetypePlayer({
           console.log(`[AI Tutoring] Student viewed ${type} explanation`);
         }}
       />
+
+      {/* Teach Me Modal - Direct teaching mode for stuck students */}
+      {currentQuestion && (
+        <TeachMeModal
+          isOpen={showTeachMe}
+          onClose={() => setShowTeachMe(false)}
+          question={currentQuestion}
+          wrongAnswersSelected={wrongOptionsThisQuestion}
+          hintsAlreadySeen={visibleHintLevel}
+          timeOnQuestionSeconds={timer.elapsedSeconds}
+          socraticExchanges={socraticExchangeCount}
+          masteryLevel={archetypeProgress?.masteryLevel || 1}
+          onTeachingCompleted={() => {
+            console.log('[AI Tutoring] Student completed Teach Me session');
+          }}
+        />
+      )}
 
       {/* Resume Session Modal - when returning to an in-progress session */}
       {session.activeSession && (
