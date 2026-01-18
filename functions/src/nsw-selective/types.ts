@@ -321,3 +321,84 @@ export type ExplanationApproach =
   | 'analogy'      // Real-world comparisons
   | 'stepByStep'   // Procedural breakdown
   | 'contrast';    // Compare correct vs incorrect
+
+// =============================================================================
+// TEACH ME TYPES (New pedagogical teaching mode)
+// =============================================================================
+
+export interface TeachMeRequest {
+  // The actual question the student is working on
+  question: {
+    questionId: string;
+    stem: string;
+    options: { id: string; text: string; isCorrect: boolean }[];
+    methodologySteps: string[];
+    solution: string;
+    difficulty: number;
+  };
+
+  // Archetype info for generating similar worked example
+  archetype: {
+    id: ArchetypeId;
+    name: string;
+    shortName: string;
+    methodology: string;
+    commonErrors: string[];
+  };
+
+  // Student context
+  studentContext: {
+    wrongAnswersSelected: string[];  // Which wrong options they've tried
+    hintsAlreadySeen: number;        // How many hints they've used
+    timeOnQuestionSeconds: number;
+    socraticExchanges: number;       // How many Q&A cycles with coach
+    masteryLevel: number;
+    previousTeachingApproaches?: string[];  // Don't repeat approaches
+  };
+
+  // Optional: What the student said they're confused about
+  specificConfusion?: string;
+}
+
+export interface TeachMeResponse {
+  success: boolean;
+
+  // The key insight - one sentence that unlocks understanding
+  keyInsight?: string;
+
+  // Relatable analogy using real-world context Year 6 students know
+  relatable?: {
+    setup: string;           // "Think of it like..."
+    connection: string;      // How it connects to the problem
+    whyItMatters: string;    // Why this way of thinking helps
+  };
+
+  // Worked example with DIFFERENT numbers (same methodology)
+  workedExample?: {
+    problemStatement: string;  // A similar problem with different numbers
+    stepByStep: Array<{
+      stepNumber: number;
+      action: string;         // What we're doing
+      result: string;         // The calculation/result
+      insight: string;        // "Notice how..." or "This is where students often..."
+    }>;
+    finalAnswer: string;
+    keyTakeaway: string;      // What to remember for their problem
+  };
+
+  // Common trap to avoid (based on their wrong answers)
+  trapToAvoid?: {
+    trap: string;             // The mistake description
+    whyTempting: string;      // Why students make this error
+    howToAvoid: string;       // How to recognize and avoid it
+  };
+
+  // Next step: specific action for their problem
+  tryYourProblem?: string;    // "Now in your problem, start by..."
+
+  // Encouragement
+  encouragement?: string;
+
+  error?: string;
+  processingTime?: number;
+}

@@ -26,6 +26,7 @@ interface SocraticChatModalProps {
   timeOnQuestionSeconds: number;
   masteryLevel: number;
   onInsightGained?: () => void;
+  onExchangeComplete?: () => void; // Called after each Socratic exchange
 }
 
 interface ChatMessage {
@@ -99,6 +100,7 @@ export function SocraticChatModal({
   timeOnQuestionSeconds,
   masteryLevel,
   onInsightGained,
+  onExchangeComplete,
 }: SocraticChatModalProps) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputValue, setInputValue] = useState('');
@@ -200,6 +202,9 @@ export function SocraticChatModal({
         setMessages(prev => [...prev, tutorMessage]);
         setLastResponse(response);
 
+        // Track this Socratic exchange
+        onExchangeComplete?.();
+
         // Check if student seems to be getting it
         if (response.targetInsight?.toLowerCase().includes('correct') ||
             response.targetInsight?.toLowerCase().includes('understand')) {
@@ -213,6 +218,9 @@ export function SocraticChatModal({
           timestamp: Date.now(),
         };
         setMessages(prev => [...prev, fallbackMessage]);
+
+        // Track this exchange even for fallbacks
+        onExchangeComplete?.();
       }
     } catch (error) {
       console.error('Socratic coaching failed:', error);

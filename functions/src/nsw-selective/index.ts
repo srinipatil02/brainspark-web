@@ -42,6 +42,12 @@ export {
   nswSelectiveConceptExplainerHealth
 } from './conceptExplainer';
 
+// Phase 8.5: Teach Me (Direct Teaching Mode)
+export {
+  nswSelectiveTeachMe,
+  nswSelectiveTeachMeHealth
+} from './teachMe';
+
 // Types (for client-side usage)
 export type {
   DiagnosticFeedbackRequest,
@@ -54,6 +60,8 @@ export type {
   StudyPlanResponse,
   ConceptExplainerRequest,
   ConceptExplainerResponse,
+  TeachMeRequest,
+  TeachMeResponse,
   DistractorType,
   ArchetypeId,
   ArchetypeInfo,
