@@ -1,0 +1,244 @@
+{
+  "topic": "Ratios and Rates",
+  "outcomeCode": "ACMNA188",
+  "year": 8,
+  "researchedAt": "2026-01-17",
+  "targetAudience": "75th percentile+ students",
+
+  "curriculumAlignment": {
+    "outcomeDescription": "Solve a range of problems involving rates and ratios, with and without digital technologies",
+    "strand": "Number and Algebra",
+    "stage": "Stage 4",
+    "prerequisiteOutcomes": ["ACMNA173", "ACMNA174"],
+    "progressionOutcomes": ["ACMNA208"]
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Ratio notation and language",
+      "description": "Understanding a:b notation, 'a to b', part-to-part vs part-to-whole",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c2", "c3", "c4"]
+    },
+    {
+      "id": "c2",
+      "name": "Simplifying ratios",
+      "description": "Using HCF to reduce ratios to simplest form, including decimals and fractions",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c3", "c4"]
+    },
+    {
+      "id": "c3",
+      "name": "Equivalent ratios",
+      "description": "Multiplying/dividing both parts by the same number to create equivalent ratios",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c4", "c5"]
+    },
+    {
+      "id": "c4",
+      "name": "Dividing quantities in a ratio",
+      "description": "Finding total parts, calculating share of each part",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c5", "c10"]
+    },
+    {
+      "id": "c5",
+      "name": "Unitary method",
+      "description": "Finding the value of one unit to scale up or down",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c6", "c7", "c8"]
+    },
+    {
+      "id": "c6",
+      "name": "Rate notation and language",
+      "description": "Understanding 'per', units like km/h, $/kg, rate as a comparison of different quantities",
+      "vocabularyLevel": "foundational",
+      "prerequisiteFor": ["c7", "c8", "c9"]
+    },
+    {
+      "id": "c7",
+      "name": "Unit rates",
+      "description": "Finding the rate for one unit (per 1 kg, per 1 hour, etc.)",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c8", "c9"]
+    },
+    {
+      "id": "c8",
+      "name": "Comparing rates (best buys)",
+      "description": "Using unit rates to compare value for money",
+      "vocabularyLevel": "intermediate",
+      "prerequisiteFor": ["c10"]
+    },
+    {
+      "id": "c9",
+      "name": "Speed, distance, time",
+      "description": "Using S = D/T formula, converting units, multi-step problems",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c10"]
+    },
+    {
+      "id": "c10",
+      "name": "Complex rate problems",
+      "description": "Multi-step problems combining rates and ratios, average speed, work rate problems",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": []
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "misconception": "Order doesn't matter in ratios (3:5 = 5:3)",
+      "correction": "Order is critical - the first number corresponds to the first quantity mentioned",
+      "prevalence": "high",
+      "questionPhase": 1
+    },
+    {
+      "id": "m2",
+      "misconception": "Adding the same number to both parts keeps the ratio equivalent",
+      "correction": "You must multiply or divide both parts by the same number",
+      "prevalence": "high",
+      "questionPhase": 2
+    },
+    {
+      "id": "m3",
+      "misconception": "A ratio of 3:5 means there are 3 and 5 items",
+      "correction": "3:5 means 3 parts and 5 parts - total is 8 parts",
+      "prevalence": "high",
+      "questionPhase": 2
+    },
+    {
+      "id": "m4",
+      "misconception": "Confusing ratio (comparison) with fraction (part of whole)",
+      "correction": "3:5 ratio means 3/8 of whole, not 3/5",
+      "prevalence": "medium",
+      "questionPhase": 2
+    },
+    {
+      "id": "m5",
+      "misconception": "Rate and ratio are the same thing",
+      "correction": "Rates compare different units (km/h), ratios compare same units (boys:girls)",
+      "prevalence": "medium",
+      "questionPhase": 3
+    },
+    {
+      "id": "m6",
+      "misconception": "Average speed = (speed1 + speed2) / 2",
+      "correction": "Average speed = total distance / total time (not arithmetic mean of speeds)",
+      "prevalence": "high",
+      "questionPhase": 4
+    },
+    {
+      "id": "m7",
+      "misconception": "Mixing up multiplication and division when scaling rates",
+      "correction": "If rate is 'per hour', multiply by hours to get total; divide total by hours to get rate",
+      "prevalence": "medium",
+      "questionPhase": 3
+    },
+    {
+      "id": "m8",
+      "misconception": "Not converting units before comparing rates",
+      "correction": "Must have same units (both in $/100g or both in $/kg) before comparing",
+      "prevalence": "medium",
+      "questionPhase": 3
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "Recipe scaling for different serving sizes",
+      "concepts": ["c3", "c4"],
+      "curiosityHook": "How do you adjust a recipe for 4 people to feed 10?",
+      "questionPhase": 2
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Supermarket best buys (price per kg comparisons)",
+      "concepts": ["c7", "c8"],
+      "curiosityHook": "Is the larger packet always better value?",
+      "questionPhase": 2
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Road trip planning (distance, time, fuel)",
+      "concepts": ["c9", "c10"],
+      "curiosityHook": "How long will it take to drive to the coast?",
+      "questionPhase": 3
+    },
+    {
+      "id": "p4",
+      "phenomenon": "Mobile data usage rates",
+      "concepts": ["c6", "c7"],
+      "curiosityHook": "How many GB will you use streaming a 2-hour movie?",
+      "questionPhase": 3
+    },
+    {
+      "id": "p5",
+      "phenomenon": "Currency exchange when travelling",
+      "concepts": ["c5", "c7"],
+      "curiosityHook": "How much yen will you get for $500 AUD?",
+      "questionPhase": 2
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Paint mixing for specific colours",
+      "concepts": ["c1", "c3", "c4"],
+      "curiosityHook": "How do you mix the perfect shade of orange?",
+      "questionPhase": 2
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Heart rate and exercise intensity",
+      "concepts": ["c6", "c7"],
+      "curiosityHook": "Is 150 bpm a good workout pace for a teenager?",
+      "questionPhase": 3
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Map scales and actual distances",
+      "concepts": ["c3", "c5"],
+      "curiosityHook": "How far apart are two cities that are 3 cm apart on a map?",
+      "questionPhase": 3
+    }
+  ],
+
+  "scaffoldingSequence": [
+    "Phase 1: Ratio basics (notation, simplifying, equivalence)",
+    "Phase 2: Dividing quantities in ratios, unitary method",
+    "Phase 3: Rate concepts (unit rates, best buys, speed-distance-time basics)",
+    "Phase 4: Complex multi-step problems, average speed, combining rates and ratios"
+  ],
+
+  "vocabularyProgression": {
+    "phase1": ["ratio", "simplify", "equivalent", "part", "whole", "share"],
+    "phase2": ["unitary method", "divide in ratio", "proportion", "scale"],
+    "phase3": ["rate", "unit rate", "per", "speed", "distance", "time", "best buy"],
+    "phase4": ["average speed", "combined rate", "direct proportion", "inverse proportion"]
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": "Introduce ratios with concrete examples (sharing lollies) before abstract notation. Use visual bar models for dividing in ratios.",
+    "engagementStrategies": [
+      "Use shopping/money contexts for relevance",
+      "Connect to sports statistics (goals per game)",
+      "Use recipe scaling for cooking enthusiasts",
+      "Connect speed problems to actual journeys students might take"
+    ],
+    "motivationFactors": [
+      "Real savings from best buy calculations",
+      "Planning actual trips and events",
+      "Understanding sports statistics",
+      "Cooking and baking applications"
+    ],
+    "spacedRepetitionPoints": ["c4", "c5", "c7", "c9"]
+  },
+
+  "difficultyProgression": {
+    "level1": "Simple ratios (2:3), simplify by inspection, basic rate reading",
+    "level2": "Ratios with larger numbers, dividing quantities, finding unit rates",
+    "level3": "Multi-step ratio problems, comparing rates, speed-distance-time",
+    "level4": "Average speed, rates with unit conversion, complex word problems"
+  }
+}

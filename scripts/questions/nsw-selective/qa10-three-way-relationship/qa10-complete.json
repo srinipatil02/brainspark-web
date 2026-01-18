@@ -33,7 +33,7 @@
     {
       "questionId": "nsw-sel-qa10-001",
       "questionType": "MCQ",
-      "stem": "Three friends have a total of 30 stickers. Amy has 4 more than Ben, and Ben has 2 more than Cara. How many stickers does Amy have?",
+      "stem": "Three friends have a total of 32 stickers. Amy has 4 more than Ben, and Ben has 2 more than Cara. How many stickers does Amy have?",
       "mcqOptions": [
         {
           "id": "A",
@@ -45,7 +45,7 @@
           "id": "B",
           "text": "12",
           "isCorrect": false,
-          "feedback": "This would be correct if you made a calculation error. Check: if Amy = 12, Ben = 8, Cara = 6, total = 26, not 30."
+          "feedback": "This would be correct if you made a calculation error. Check: if Amy = 12, Ben = 8, Cara = 6, total = 26, not 32."
         },
         {
           "id": "C",
@@ -63,10 +63,10 @@
           "id": "E",
           "text": "14",
           "isCorrect": true,
-          "feedback": "Correct! Let Cara = x, then Ben = x+2, Amy = x+6. Total: x + (x+2) + (x+6) = 30, so 3x + 8 = 30, 3x = 22... Wait, let me recalculate: 3x = 22 gives x = 7.33 which isn't whole. Let me set up again: If Cara = 8, Ben = 10, Amy = 14, total = 32. If Cara = 6, Ben = 8, Amy = 12, total = 26. If Cara = 8, Ben = 10, Amy = 14 is 32. Actually with Cara = 6: Ben = 8, Amy = 12, total = 26. With Cara = 8: 8+10+14 = 32. The algebra: 3x + 8 = 30 gives x = 22/3. This needs fixing."
+          "feedback": "Correct! Let Cara = x, then Ben = x+2, Amy = x+6. Total: x + (x+2) + (x+6) = 32, so 3x + 8 = 32, 3x = 24, x = 8. Cara = 8, Ben = 10, Amy = 14. Check: 8 + 10 + 14 = 32 ✓"
         }
       ],
-      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify the relationships**\n- Amy has 4 more than Ben\n- Ben has 2 more than Cara\n- Total = 30\n\n**Step 2: Express in terms of one variable**\nLet Cara = x\nBen = x + 2\nAmy = (x + 2) + 4 = x + 6\n\n**Step 3: Set up equation**\nx + (x+2) + (x+6) = 30\n3x + 8 = 30\n3x = 22\nx = 22/3 (not a whole number - question needs adjustment)",
+      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify the relationships**\n- Amy has 4 more than Ben\n- Ben has 2 more than Cara\n- Total = 32\n\n**Step 2: Express in terms of one variable**\nLet Cara = x\nBen = x + 2\nAmy = (x + 2) + 4 = x + 6\n\n**Step 3: Set up equation**\nx + (x+2) + (x+6) = 32\n3x + 8 = 32\n3x = 24\nx = 8\n\n**Answer:** Amy = x + 6 = 8 + 6 = 14\n\n**Check:** Cara = 8, Ben = 10, Amy = 14. Total = 8 + 10 + 14 = 32 ✓",
       "hints": [
         {
           "level": 1,
@@ -80,7 +80,7 @@
         },
         {
           "level": 3,
-          "content": "Add all three expressions and set equal to 30: x + (x+2) + (x+6) = 30",
+          "content": "Add all three expressions and set equal to 32: x + (x+2) + (x+6) = 32, so 3x = 24, x = 8. Amy = 14.",
           "revealsCriticalInfo": true
         }
       ],
@@ -250,20 +250,20 @@
         {
           "id": "B",
           "text": "21",
-          "isCorrect": true,
-          "feedback": "Correct! Let C = x, B = x+5, A = x+13. Total: 3x + 18 = 60, so x = 14. Box B = 14 + 5 = 19... Let me recalculate: 3x = 42, x = 14. B = 19, not 21. Let me fix: Actually if total is 60 and we want B=21, then C=16, A=29. Check: 16+21+29=66≠60. If C=12, B=17, A=25: 12+17+25=54≠60. If C=14, B=19, A=27: 14+19+27=60 ✓. So B=19."
+          "isCorrect": false,
+          "feedback": "If B = 21, then C = 16, A = 29. Check: 16 + 21 + 29 = 66 ≠ 60."
         },
         {
           "id": "C",
           "text": "20",
           "isCorrect": false,
-          "feedback": "Close but not quite. Check your algebra carefully."
+          "feedback": "If B = 20, then C = 15, A = 28. Check: 15 + 20 + 28 = 63 ≠ 60."
         },
         {
           "id": "D",
           "text": "19",
-          "isCorrect": false,
-          "feedback": "Let me verify this..."
+          "isCorrect": true,
+          "feedback": "Correct! Let C = x, B = x+5, A = x+13. Total: 3x + 18 = 60, so 3x = 42, x = 14. Box B = 14 + 5 = 19. Check: 14 + 19 + 27 = 60 ✓"
         },
         {
           "id": "E",
@@ -342,40 +342,40 @@
     {
       "questionId": "nsw-sel-qa10-004",
       "questionType": "MCQ",
-      "stem": "Tom, Sam, and Ali have $72 between them. Tom has twice as much as Sam, and Sam has $6 more than Ali. How much does Tom have?",
+      "stem": "Tom, Sam, and Ali have $74 between them. Tom has twice as much as Sam, and Sam has $6 more than Ali. How much does Tom have?",
       "mcqOptions": [
         {
           "id": "A",
-          "text": "$36",
+          "text": "$40",
           "isCorrect": true,
-          "feedback": "Correct! Let Ali = x, Sam = x+6, Tom = 2(x+6) = 2x+12. Total: x + (x+6) + (2x+12) = 72. So 4x + 18 = 72, 4x = 54, x = 13.5. Tom = 2(13.5+6) = 2(19.5) = 39... Hmm, let me recalculate with whole numbers."
+          "feedback": "Correct! Let Ali = x, Sam = x+6, Tom = 2(x+6) = 2x+12. Total: x + (x+6) + (2x+12) = 74. So 4x + 18 = 74, 4x = 56, x = 14. Ali = $14, Sam = $20, Tom = 2 × $20 = $40. Check: 14 + 20 + 40 = 74 ✓"
         },
         {
           "id": "B",
-          "text": "$18",
+          "text": "$20",
           "isCorrect": false,
-          "feedback": "This is too small for Tom, who has the most money."
+          "feedback": "This is Sam's amount. Tom has TWICE as much as Sam."
         },
         {
           "id": "C",
           "text": "$42",
           "isCorrect": false,
-          "feedback": "Check your algebra. This would leave only $30 for Sam and Ali combined."
+          "feedback": "Check your algebra. If Tom = $42, then Sam = $21, Ali = $15, total = $78, not $74."
         },
         {
           "id": "D",
-          "text": "$30",
+          "text": "$36",
           "isCorrect": false,
-          "feedback": "Check your setup. Tom has TWICE as much as Sam, not just more."
+          "feedback": "Check your setup. If Tom = $36, then Sam = $18, Ali = $12, total = $66, not $74."
         },
         {
           "id": "E",
-          "text": "$24",
+          "text": "$14",
           "isCorrect": false,
-          "feedback": "This might be Sam's amount. Tom has twice what Sam has."
+          "feedback": "This is Ali's amount. Tom has much more than this."
         }
       ],
-      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Tom = 2 × Sam\n- Sam = Ali + 6\n- Total = $72\n\n**Step 2: Express in terms of Ali**\nLet Ali = x\nSam = x + 6\nTom = 2(x + 6) = 2x + 12\n\n**Step 3: Solve**\nx + (x+6) + (2x+12) = 72\n4x + 18 = 72\n4x = 54\nx = 13.5\n\nTom = 2(13.5 + 6) = 2(19.5) = $39\n\n(Note: Values result in decimals, which is valid for money)",
+      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Tom = 2 × Sam\n- Sam = Ali + 6\n- Total = $74\n\n**Step 2: Express in terms of Ali**\nLet Ali = x\nSam = x + 6\nTom = 2(x + 6) = 2x + 12\n\n**Step 3: Solve**\nx + (x+6) + (2x+12) = 74\n4x + 18 = 74\n4x = 56\nx = 14\n\n**Answer:** Tom = 2(14 + 6) = 2(20) = $40\n\n**Check:** Ali = $14, Sam = $20, Tom = $40. Total = 14 + 20 + 40 = $74 ✓",
       "hints": [
         {
           "level": 1,
@@ -389,7 +389,7 @@
         },
         {
           "level": 3,
-          "content": "x + (x+6) + 2(x+6) = 72. Simplify to 4x + 18 = 72.",
+          "content": "x + (x+6) + 2(x+6) = 74. Simplify to 4x + 18 = 74. So x = 14, Tom = $40.",
           "revealsCriticalInfo": true
         }
       ],
@@ -408,13 +408,13 @@
           "D": "computation_error",
           "E": "partial_solution"
         },
-        "solutionApproach": "Express all in terms of Ali → Set sum = 72 → Solve → Find Tom",
+        "solutionApproach": "Express all in terms of Ali → Set sum = 74 → Solve → Find Tom",
         "methodologySteps": [
           "Read: Note Tom = 2×Sam (multiplication), Sam = Ali+6 (addition)",
           "Express: Ali = x, Sam = x+6, Tom = 2(x+6)",
-          "Equation: x + (x+6) + 2(x+6) = 72",
-          "Solve: 4x + 18 = 72, x = 13.5",
-          "Answer: Tom = 2(19.5) = $39"
+          "Equation: x + (x+6) + 2(x+6) = 74",
+          "Solve: 4x + 18 = 74, x = 14",
+          "Answer: Tom = 2(20) = $40"
         ],
         "timeTarget": 75,
         "commonErrors": [
@@ -445,40 +445,40 @@
     {
       "questionId": "nsw-sel-qa10-005",
       "questionType": "MCQ",
-      "stem": "Three siblings have ages that add up to 36 years. The oldest is 4 years older than the middle child, and the middle child is 3 years older than the youngest. How old is the middle child?",
+      "stem": "Three siblings have ages that add up to 40 years. The oldest is 4 years older than the middle child, and the middle child is 3 years older than the youngest. How old is the middle child?",
       "mcqOptions": [
         {
           "id": "A",
           "text": "13",
-          "isCorrect": false,
-          "feedback": "This would make the youngest 10 and oldest 17, total = 40, not 36."
+          "isCorrect": true,
+          "feedback": "Correct! Let youngest = x, middle = x+3, oldest = x+7. Sum: 3x + 10 = 40, so 3x = 30, x = 10. Youngest = 10, Middle = 13, Oldest = 17. Check: 10 + 13 + 17 = 40 ✓"
         },
         {
           "id": "B",
-          "text": "15",
+          "text": "17",
           "isCorrect": false,
           "feedback": "This is the oldest child's age. The question asks for the middle child."
         },
         {
           "id": "C",
           "text": "12",
-          "isCorrect": true,
-          "feedback": "Correct! Let youngest = x, middle = x+3, oldest = x+7. Sum: 3x + 10 = 36, so 3x = 26... Let me recalculate. If 3x + 10 = 36, then 3x = 26, which gives x = 8.67. For whole ages, let's verify: youngest = 9, middle = 12, oldest = 16. Sum = 37. If youngest = 8, middle = 11, oldest = 15. Sum = 34. Actually 3x = 26 means x ≈ 8.67 which isn't whole."
+          "isCorrect": false,
+          "feedback": "If middle = 12, then youngest = 9, oldest = 16. Sum = 37, not 40."
         },
         {
           "id": "D",
-          "text": "9",
+          "text": "10",
           "isCorrect": false,
           "feedback": "This is the youngest child's age. The middle child is 3 years older."
         },
         {
           "id": "E",
-          "text": "11",
+          "text": "14",
           "isCorrect": false,
-          "feedback": "Check your calculation. Set up the equation carefully."
+          "feedback": "If middle = 14, then youngest = 11, oldest = 18. Sum = 43, not 40."
         }
       ],
-      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Oldest = Middle + 4\n- Middle = Youngest + 3\n- Total ages = 36\n\n**Step 2: Express in terms of youngest**\nLet youngest = x\nMiddle = x + 3\nOldest = (x + 3) + 4 = x + 7\n\n**Step 3: Solve**\nx + (x+3) + (x+7) = 36\n3x + 10 = 36\n3x = 26\nx = 8⅔ (or approximately 8.67)\n\nFor whole ages, we need to adjust the problem.",
+      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Oldest = Middle + 4\n- Middle = Youngest + 3\n- Total ages = 40\n\n**Step 2: Express in terms of youngest**\nLet youngest = x\nMiddle = x + 3\nOldest = (x + 3) + 4 = x + 7\n\n**Step 3: Solve**\nx + (x+3) + (x+7) = 40\n3x + 10 = 40\n3x = 30\nx = 10\n\n**Answer:** Middle = x + 3 = 10 + 3 = 13\n\n**Check:** Youngest = 10, Middle = 13, Oldest = 17. Total = 10 + 13 + 17 = 40 ✓",
       "hints": [
         {
           "level": 1,
@@ -492,7 +492,7 @@
         },
         {
           "level": 3,
-          "content": "x + (x+3) + (x+7) = 36, solve for x, then find middle = x + 3",
+          "content": "x + (x+3) + (x+7) = 40, so 3x = 30, x = 10. Middle = 10 + 3 = 13.",
           "revealsCriticalInfo": true
         }
       ],
@@ -506,18 +506,18 @@
           "addition"
         ],
         "distractorTypes": {
-          "A": "computation_error",
           "B": "partial_solution",
+          "C": "computation_error",
           "D": "partial_solution",
           "E": "computation_error"
         },
-        "solutionApproach": "Express all ages in terms of youngest → Sum = 36 → Solve → Find middle",
+        "solutionApproach": "Express all ages in terms of youngest → Sum = 40 → Solve → Find middle",
         "methodologySteps": [
           "Read: Identify the three ages and relationships",
           "Express: Youngest = x, Middle = x+3, Oldest = x+7",
-          "Equation: 3x + 10 = 36",
-          "Solve: x = 8.67, Middle = 11.67 ≈ 12",
-          "Check: Ages should be reasonable and add to 36"
+          "Equation: 3x + 10 = 40",
+          "Solve: x = 10, Middle = 13",
+          "Check: 10 + 13 + 17 = 40 ✓"
         ],
         "timeTarget": 60,
         "commonErrors": [
@@ -651,13 +651,13 @@
     {
       "questionId": "nsw-sel-qa10-007",
       "questionType": "MCQ",
-      "stem": "Three ropes have a total length of 90 metres. Rope A is 15 metres longer than Rope B, and Rope B is 10 metres longer than Rope C. How long is Rope A?",
+      "stem": "Three ropes have a total length of 95 metres. Rope A is 15 metres longer than Rope B, and Rope B is 10 metres longer than Rope C. How long is Rope A?",
       "mcqOptions": [
         {
           "id": "A",
           "text": "45 m",
           "isCorrect": true,
-          "feedback": "Correct! Let C = x, B = x+10, A = x+25. Sum: 3x + 35 = 90, so 3x = 55... Let me verify: x = 55/3 ≈ 18.33. A = 18.33 + 25 = 43.33. For whole numbers: if C = 15, B = 25, A = 40, sum = 80. If C = 20, B = 30, A = 45, sum = 95. Hmm, 3x = 55 gives x = 18.33. A = 43.33m approximately."
+          "feedback": "Correct! Let C = x, B = x+10, A = x+25. Sum: 3x + 35 = 95, so 3x = 60, x = 20. C = 20m, B = 30m, A = 45m. Check: 20 + 30 + 45 = 95 ✓"
         },
         {
           "id": "B",
@@ -684,7 +684,7 @@
           "feedback": "This is too long. Check your calculation."
         }
       ],
-      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- A = B + 15\n- B = C + 10\n- Total = 90m\n\n**Step 2: Express in terms of C**\nLet C = x\nB = x + 10\nA = x + 10 + 15 = x + 25\n\n**Step 3: Solve**\nx + (x+10) + (x+25) = 90\n3x + 35 = 90\n3x = 55\nx = 18.33m\n\n**Answer:** A = 18.33 + 25 = 43.33m (approximately 45m for answer choices)",
+      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- A = B + 15\n- B = C + 10\n- Total = 95m\n\n**Step 2: Express in terms of C**\nLet C = x\nB = x + 10\nA = x + 10 + 15 = x + 25\n\n**Step 3: Solve**\nx + (x+10) + (x+25) = 95\n3x + 35 = 95\n3x = 60\nx = 20\n\n**Answer:** A = 20 + 25 = 45m\n\n**Check:** C = 20m, B = 30m, A = 45m. Total = 20 + 30 + 45 = 95 ✓",
       "hints": [
         {
           "level": 1,
@@ -698,7 +698,7 @@
         },
         {
           "level": 3,
-          "content": "x + (x+10) + (x+25) = 90. Solve for x, then find A.",
+          "content": "x + (x+10) + (x+25) = 95. Solve: 3x + 35 = 95, x = 20, so A = 45m.",
           "revealsCriticalInfo": true
         }
       ],
@@ -717,13 +717,13 @@
           "D": "partial_solution",
           "E": "computation_error"
         },
-        "solutionApproach": "Let C = x → Express B and A → Sum = 90 → Solve → Find A",
+        "solutionApproach": "Let C = x → Express B and A → Sum = 95 → Solve → Find A",
         "methodologySteps": [
           "Read: Identify the relationships between lengths",
           "Express: C = x, B = x+10, A = x+25",
-          "Equation: 3x + 35 = 90",
-          "Solve: x = 18.33, A = 43.33m",
-          "Check: Verify total ≈ 90m"
+          "Equation: 3x + 35 = 95",
+          "Solve: x = 20, A = 45m",
+          "Check: 20 + 30 + 45 = 95 ✓"
         ],
         "timeTarget": 60,
         "commonErrors": [
@@ -960,7 +960,7 @@
     {
       "questionId": "nsw-sel-qa10-010",
       "questionType": "MCQ",
-      "stem": "Three friends scored a total of 255 points in a game. Alex scored 20 points more than Blake, and Blake scored 15 points more than Casey. How many points did Blake score?",
+      "stem": "Three friends scored a total of 260 points in a game. Alex scored 20 points more than Blake, and Blake scored 15 points more than Casey. How many points did Blake score?",
       "mcqOptions": [
         {
           "id": "A",
@@ -972,19 +972,19 @@
           "id": "B",
           "text": "85",
           "isCorrect": true,
-          "feedback": "Correct! Let Casey = x, Blake = x+15, Alex = x+35. Sum: 3x + 50 = 255, so 3x = 205, x = 68.33... For whole numbers: if Casey = 70, Blake = 85, Alex = 105, sum = 260. If Casey = 65, Blake = 80, Alex = 100, sum = 245. Actually 3x = 205, x ≈ 68.33, Blake ≈ 83.33."
+          "feedback": "Correct! Let Casey = x, Blake = x+15, Alex = x+35. Sum: 3x + 50 = 260, so 3x = 210, x = 70. Casey = 70, Blake = 85, Alex = 105. Check: 70 + 85 + 105 = 260 ✓"
         },
         {
           "id": "C",
           "text": "90",
           "isCorrect": false,
-          "feedback": "This is too high for Blake. Check your equation setup."
+          "feedback": "This is too high for Blake. If Blake = 90, then Casey = 75, Alex = 110, total = 275, not 260."
         },
         {
           "id": "D",
           "text": "80",
           "isCorrect": false,
-          "feedback": "Close, but check your arithmetic carefully."
+          "feedback": "Close, but if Blake = 80, then Casey = 65, Alex = 100, total = 245, not 260."
         },
         {
           "id": "E",
@@ -993,7 +993,7 @@
           "feedback": "This is Casey's score. Blake scored 15 more than Casey."
         }
       ],
-      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Alex = Blake + 20\n- Blake = Casey + 15\n- Total = 255\n\n**Step 2: Express in terms of Casey**\nLet Casey = x\nBlake = x + 15\nAlex = (x + 15) + 20 = x + 35\n\n**Step 3: Solve**\nx + (x+15) + (x+35) = 255\n3x + 50 = 255\n3x = 205\nx = 68.33\n\n**Answer:** Blake = 68.33 + 15 ≈ 83.33 (rounded to 85 for answer choices)",
+      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Alex = Blake + 20\n- Blake = Casey + 15\n- Total = 260\n\n**Step 2: Express in terms of Casey**\nLet Casey = x\nBlake = x + 15\nAlex = (x + 15) + 20 = x + 35\n\n**Step 3: Solve**\nx + (x+15) + (x+35) = 260\n3x + 50 = 260\n3x = 210\nx = 70\n\n**Answer:** Blake = 70 + 15 = 85\n\n**Check:** Casey = 70, Blake = 85, Alex = 105. Total = 70 + 85 + 105 = 260 ✓",
       "hints": [
         {
           "level": 1,
@@ -1007,7 +1007,7 @@
         },
         {
           "level": 3,
-          "content": "x + (x+15) + (x+35) = 255. Solve for x, then Blake = x + 15.",
+          "content": "x + (x+15) + (x+35) = 260. Solve: 3x = 210, x = 70, so Blake = 85.",
           "revealsCriticalInfo": true
         }
       ],
@@ -1026,13 +1026,13 @@
           "D": "computation_error",
           "E": "partial_solution"
         },
-        "solutionApproach": "Express all in terms of Casey → Sum = 255 → Solve → Find Blake",
+        "solutionApproach": "Express all in terms of Casey → Sum = 260 → Solve → Find Blake",
         "methodologySteps": [
           "Read: Identify who scored least (Casey)",
           "Express: Casey = x, Blake = x+15, Alex = x+35",
-          "Equation: 3x + 50 = 255",
-          "Solve: x ≈ 68.33, Blake ≈ 83.33 ≈ 85",
-          "Check: Verify relationships and total"
+          "Equation: 3x + 50 = 260",
+          "Solve: x = 70, Blake = 85",
+          "Check: 70 + 85 + 105 = 260 ✓"
         ],
         "timeTarget": 60,
         "commonErrors": [
@@ -1063,11 +1063,11 @@
     {
       "questionId": "nsw-sel-qa10-011",
       "questionType": "MCQ",
-      "stem": "A farmer has chickens, ducks, and geese. There are 50 birds in total. There are 8 more chickens than ducks, and 5 more ducks than geese. How many chickens are there?",
+      "stem": "A farmer has chickens, ducks, and geese. There are 51 birds in total. There are 8 more chickens than ducks, and 5 more ducks than geese. How many chickens are there?",
       "mcqOptions": [
         {
           "id": "A",
-          "text": "10",
+          "text": "11",
           "isCorrect": false,
           "feedback": "This is the number of geese. Chickens are the most numerous."
         },
@@ -1075,28 +1075,28 @@
           "id": "B",
           "text": "27",
           "isCorrect": false,
-          "feedback": "This is too many. Check your equation setup."
+          "feedback": "This is too many. If chickens = 27, then ducks = 19, geese = 14, total = 60, not 51."
         },
         {
           "id": "C",
-          "text": "15",
+          "text": "16",
           "isCorrect": false,
-          "feedback": "This might be the number of ducks. Chickens are 8 more than ducks."
+          "feedback": "This is the number of ducks. Chickens are 8 more than ducks."
         },
         {
           "id": "D",
-          "text": "23",
+          "text": "24",
           "isCorrect": true,
-          "feedback": "Correct! Let geese = x, ducks = x+5, chickens = x+13. Sum: 3x + 18 = 50, so 3x = 32, x = 10.67... For approximately: geese = 11, ducks = 16, chickens = 24, sum = 51. Actually x ≈ 10.67, chickens ≈ 23.67 ≈ 24."
+          "feedback": "Correct! Let geese = x, ducks = x+5, chickens = x+13. Sum: 3x + 18 = 51, so 3x = 33, x = 11. Geese = 11, ducks = 16, chickens = 24. Check: 11 + 16 + 24 = 51 ✓"
         },
         {
           "id": "E",
           "text": "20",
           "isCorrect": false,
-          "feedback": "This is too few chickens. Check your algebra."
+          "feedback": "If chickens = 20, then ducks = 12, geese = 7, total = 39, not 51."
         }
       ],
-      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Chickens = Ducks + 8\n- Ducks = Geese + 5\n- Total = 50\n\n**Step 2: Express in terms of geese**\nLet geese = x\nDucks = x + 5\nChickens = (x + 5) + 8 = x + 13\n\n**Step 3: Solve**\nx + (x+5) + (x+13) = 50\n3x + 18 = 50\n3x = 32\nx = 10.67\n\n**Answer:** Chickens = 10.67 + 13 ≈ 23.67 ≈ 24 (or 23 for closest option)",
+      "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Chickens = Ducks + 8\n- Ducks = Geese + 5\n- Total = 51\n\n**Step 2: Express in terms of geese**\nLet geese = x\nDucks = x + 5\nChickens = (x + 5) + 8 = x + 13\n\n**Step 3: Solve**\nx + (x+5) + (x+13) = 51\n3x + 18 = 51\n3x = 33\nx = 11\n\n**Answer:** Chickens = 11 + 13 = 24\n\n**Check:** Geese = 11, Ducks = 16, Chickens = 24. Total = 11 + 16 + 24 = 51 ✓",
       "hints": [
         {
           "level": 1,
@@ -1110,7 +1110,7 @@
         },
         {
           "level": 3,
-          "content": "x + (x+5) + (x+13) = 50. Solve for x, then find chickens.",
+          "content": "x + (x+5) + (x+13) = 51. Solve: 3x = 33, x = 11. Chickens = 24.",
           "revealsCriticalInfo": true
         }
       ],
@@ -1129,13 +1129,13 @@
           "C": "partial_solution",
           "E": "computation_error"
         },
-        "solutionApproach": "Express all in terms of geese → Sum = 50 → Solve → Find chickens",
+        "solutionApproach": "Express all in terms of geese → Sum = 51 → Solve → Find chickens",
         "methodologySteps": [
           "Read: Identify the smallest group (geese)",
           "Express: Geese = x, Ducks = x+5, Chickens = x+13",
-          "Equation: 3x + 18 = 50",
-          "Solve: x ≈ 10.67, Chickens ≈ 23.67",
-          "Check: Verify relationships and total ≈ 50"
+          "Equation: 3x + 18 = 51",
+          "Solve: x = 11, Chickens = 24",
+          "Check: 11 + 16 + 24 = 51 ✓"
         ],
         "timeTarget": 75,
         "commonErrors": [
@@ -1372,40 +1372,40 @@
     {
       "questionId": "nsw-sel-qa10-014",
       "questionType": "MCQ",
-      "stem": "A shop sold 120 items on Monday, Tuesday, and Wednesday. On Tuesday, they sold 15 more than Monday. On Wednesday, they sold twice as many as Monday. How many items were sold on Wednesday?",
+      "stem": "A shop sold 115 items on Monday, Tuesday, and Wednesday. On Tuesday, they sold 15 more than Monday. On Wednesday, they sold twice as many as Monday. How many items were sold on Wednesday?",
       "mcqOptions": [
         {
           "id": "A",
-          "text": "45",
+          "text": "40",
           "isCorrect": false,
-          "feedback": "Check your calculation. Make sure you're finding Wednesday, not Tuesday."
+          "feedback": "This is Tuesday's sales. The question asks for Wednesday."
         },
         {
           "id": "B",
-          "text": "26",
+          "text": "25",
           "isCorrect": false,
-          "feedback": "This is approximately Monday's sales. Wednesday is TWICE this."
+          "feedback": "This is Monday's sales. Wednesday is TWICE Monday."
         },
         {
           "id": "C",
           "text": "60",
           "isCorrect": false,
-          "feedback": "Check your algebra. If Wednesday = 60, then Monday = 30, Tuesday = 45, total = 135 ≠ 120."
+          "feedback": "If Wednesday = 60, then Monday = 30, Tuesday = 45, total = 135 ≠ 115."
         },
         {
           "id": "D",
-          "text": "52",
+          "text": "50",
           "isCorrect": true,
-          "feedback": "Correct! Let Monday = x. Tuesday = x+15, Wednesday = 2x. Sum: x + (x+15) + 2x = 4x + 15 = 120, so 4x = 105, x = 26.25. Wednesday = 2x = 52.5 ≈ 52."
+          "feedback": "Correct! Let Monday = x. Tuesday = x+15, Wednesday = 2x. Sum: x + (x+15) + 2x = 4x + 15 = 115, so 4x = 100, x = 25. Wednesday = 2x = 50. Check: 25 + 40 + 50 = 115 ✓"
         },
         {
           "id": "E",
-          "text": "40",
+          "text": "45",
           "isCorrect": false,
-          "feedback": "This is roughly Monday's sales. Wednesday is twice Monday."
+          "feedback": "If Wednesday = 45, then Monday = 22.5, which isn't a whole number."
         }
       ],
-      "solution": "**Methodology: Three-Way Relationship (Mixed)**\n\n**Step 1: Identify relationships**\n- Tuesday = Monday + 15 (additive)\n- Wednesday = 2 × Monday (multiplicative)\n- Total = 120\n\n**Step 2: Express in terms of Monday**\nLet Monday = x\nTuesday = x + 15\nWednesday = 2x\n\n**Step 3: Solve**\nx + (x+15) + 2x = 120\n4x + 15 = 120\n4x = 105\nx = 26.25\n\n**Answer:** Wednesday = 2x = 52.5 ≈ 52",
+      "solution": "**Methodology: Three-Way Relationship (Mixed)**\n\n**Step 1: Identify relationships**\n- Tuesday = Monday + 15 (additive)\n- Wednesday = 2 × Monday (multiplicative)\n- Total = 115\n\n**Step 2: Express in terms of Monday**\nLet Monday = x\nTuesday = x + 15\nWednesday = 2x\n\n**Step 3: Solve**\nx + (x+15) + 2x = 115\n4x + 15 = 115\n4x = 100\nx = 25\n\n**Answer:** Wednesday = 2x = 2 × 25 = 50\n\n**Check:** Monday = 25, Tuesday = 40, Wednesday = 50. Total = 25 + 40 + 50 = 115 ✓",
       "hints": [
         {
           "level": 1,
@@ -1419,7 +1419,7 @@
         },
         {
           "level": 3,
-          "content": "x + (x+15) + 2x = 4x + 15 = 120. Solve for x, then double it.",
+          "content": "4x + 15 = 115. Solve: 4x = 100, x = 25. Wednesday = 2 × 25 = 50.",
           "revealsCriticalInfo": true
         }
       ],
@@ -1442,9 +1442,9 @@
         "methodologySteps": [
           "Read: Note both additive (+15) and multiplicative (×2) relationships",
           "Express: Monday = x, Tuesday = x+15, Wednesday = 2x",
-          "Equation: 4x + 15 = 120",
-          "Solve: x = 26.25, Wednesday = 52.5 ≈ 52",
-          "Check: 26 + 41 + 52 ≈ 119 (close to 120)"
+          "Equation: 4x + 15 = 115",
+          "Solve: x = 25, Wednesday = 50",
+          "Check: 25 + 40 + 50 = 115 ✓"
         ],
         "timeTarget": 75,
         "commonErrors": [
@@ -1475,40 +1475,40 @@
     {
       "questionId": "nsw-sel-qa10-015",
       "questionType": "MCQ",
-      "stem": "Three numbers have a product of 120. The second number is twice the first, and the third is three times the first. What is the first number?",
+      "stem": "Three numbers have a product of 48. The second number is twice the first, and the third is three times the first. What is the first number?",
       "mcqOptions": [
         {
           "id": "A",
-          "text": "5",
+          "text": "1",
           "isCorrect": false,
-          "feedback": "If first = 5, then 5 × 10 × 15 = 750, way more than 120."
+          "feedback": "If first = 1, then 1 × 2 × 3 = 6, not 48."
         },
         {
           "id": "B",
-          "text": "10",
+          "text": "4",
           "isCorrect": false,
-          "feedback": "If first = 10, then 10 × 20 × 30 = 6000, far too large."
+          "feedback": "If first = 4, then 4 × 8 × 12 = 384, way more than 48."
         },
         {
           "id": "C",
           "text": "2",
           "isCorrect": true,
-          "feedback": "Correct! Let first = x, second = 2x, third = 3x. Product: x × 2x × 3x = 6x³ = 120, so x³ = 20, x = ∛20 ≈ 2.71. Closest whole number is about 2 or 3. If x = 2: 2 × 4 × 6 = 48 ≠ 120. If x = 3: 3 × 6 × 9 = 162 ≠ 120. Actually ∛20 ≈ 2.71."
+          "feedback": "Correct! Let first = x, second = 2x, third = 3x. Product: x × 2x × 3x = 6x³ = 48, so x³ = 8, x = 2. Check: 2 × 4 × 6 = 48 ✓"
         },
         {
           "id": "D",
           "text": "3",
           "isCorrect": false,
-          "feedback": "If first = 3, then 3 × 6 × 9 = 162, not 120."
+          "feedback": "If first = 3, then 3 × 6 × 9 = 162, not 48."
         },
         {
           "id": "E",
-          "text": "4",
+          "text": "6",
           "isCorrect": false,
-          "feedback": "If first = 4, then 4 × 8 × 12 = 384, not 120."
+          "feedback": "If first = 6, then 6 × 12 × 18 = 1296, far too large."
         }
       ],
-      "solution": "**Methodology: Multiplicative Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Second = 2 × First\n- Third = 3 × First\n- Product = 120\n\n**Step 2: Express and solve**\nLet first = x\nSecond = 2x\nThird = 3x\n\nProduct: x × 2x × 3x = 6x³ = 120\nx³ = 20\nx = ∛20 ≈ 2.71\n\n**Check:** 2.71 × 5.42 × 8.13 ≈ 119.4 ≈ 120 ✓",
+      "solution": "**Methodology: Multiplicative Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Second = 2 × First\n- Third = 3 × First\n- Product = 48\n\n**Step 2: Express and solve**\nLet first = x\nSecond = 2x\nThird = 3x\n\nProduct: x × 2x × 3x = 6x³ = 48\nx³ = 8\nx = ∛8 = 2\n\n**Answer:** First number = 2\n\n**Check:** 2 × 4 × 6 = 48 ✓",
       "hints": [
         {
           "level": 1,
@@ -1522,7 +1522,7 @@
         },
         {
           "level": 3,
-          "content": "6x³ = 120, so x³ = 20, x = ∛20 ≈ 2.71 ≈ 3",
+          "content": "6x³ = 48, so x³ = 8, x = ∛8 = 2.",
           "revealsCriticalInfo": true
         }
       ],
@@ -1541,13 +1541,13 @@
           "D": "computation_error",
           "E": "computation_error"
         },
-        "solutionApproach": "Product relationship → 6x³ = 120 → x³ = 20 → Find cube root",
+        "solutionApproach": "Product relationship → 6x³ = 48 → x³ = 8 → Find cube root",
         "methodologySteps": [
           "Read: Note PRODUCT (not sum) relationship",
           "Express: first = x, second = 2x, third = 3x",
-          "Equation: x × 2x × 3x = 6x³ = 120",
-          "Solve: x³ = 20, x ≈ 2.71",
-          "Check: 2.71 × 5.42 × 8.13 ≈ 120 ✓"
+          "Equation: x × 2x × 3x = 6x³ = 48",
+          "Solve: x³ = 8, x = 2",
+          "Check: 2 × 4 × 6 = 48 ✓"
         ],
         "timeTarget": 90,
         "commonErrors": [
@@ -1584,8 +1584,8 @@
         {
           "id": "A",
           "text": "35",
-          "isCorrect": true,
-          "feedback": "Correct! Let younger = x, older = x+3, father = x+27. Sum: x + (x+3) + (x+27) = 3x + 30 = 60, so 3x = 30, x = 10. Father = 10 + 27 = 37... Let me recalculate: younger = 10, older = 13, father = 13 + 24 = 37. Sum = 60 ✓. So father is 37, not 35."
+          "isCorrect": false,
+          "feedback": "If father = 35, then older = 11, younger = 8. Check: 8 + 11 + 35 = 54 ≠ 60."
         },
         {
           "id": "B",
@@ -1603,13 +1603,13 @@
           "id": "D",
           "text": "40",
           "isCorrect": false,
-          "feedback": "This is too old. Check your algebra."
+          "feedback": "If father = 40, then older = 16, younger = 13. Check: 13 + 16 + 40 = 69 ≠ 60."
         },
         {
           "id": "E",
           "text": "37",
-          "isCorrect": false,
-          "feedback": "Let me verify: younger = 10, older = 13, father = 37. Sum = 60 ✓ and 37 - 13 = 24 ✓. This is correct!"
+          "isCorrect": true,
+          "feedback": "Correct! Let younger = x, older = x+3, father = x+27. Sum: 3x + 30 = 60, so x = 10. Younger = 10, older = 13, father = 37. Check: 10 + 13 + 37 = 60 ✓"
         }
       ],
       "solution": "**Methodology: Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Father = Older child + 24\n- Older child = Younger child + 3\n- Total ages = 60\n\n**Step 2: Express in terms of younger**\nLet younger = x\nOlder = x + 3\nFather = (x + 3) + 24 = x + 27\n\n**Step 3: Solve**\nx + (x+3) + (x+27) = 60\n3x + 30 = 60\n3x = 30\nx = 10\n\n**Answer:** Father = 10 + 27 = 37\n\n**Check:** 10 + 13 + 37 = 60 ✓",
@@ -1894,33 +1894,33 @@
       "mcqOptions": [
         {
           "id": "A",
-          "text": "9",
+          "text": "11",
           "isCorrect": false,
-          "feedback": "This is Nadia's age from 2 years ago. Check your setup."
+          "feedback": "This is Nadia's age from 2 years ago (13 - 2 = 11). The question asks for Maya's current age."
         },
         {
           "id": "B",
           "text": "14",
-          "isCorrect": true,
-          "feedback": "Correct! Let Nadia = x, Maya = x+5. In 4 years: Maya = x+9. Two years ago: Nadia = x-2. Equation: x+9 = 2(x-2), so x+9 = 2x-4, 13 = x. Nadia = 13, Maya = 18... Let me recheck: Maya now = x+5 = 18. But answer A is 14. Let me recalculate."
+          "isCorrect": false,
+          "feedback": "If Maya = 14, then Nadia = 9. In 4 years Maya = 18. Two years ago Nadia = 7. Is 18 = 2×7? No, 18 ≠ 14."
         },
         {
           "id": "C",
           "text": "16",
           "isCorrect": false,
-          "feedback": "Close but check your algebra carefully."
+          "feedback": "If Maya = 16, then Nadia = 11. In 4 years Maya = 20. Two years ago Nadia = 9. Is 20 = 2×9? No, 20 ≠ 18."
         },
         {
           "id": "D",
           "text": "13",
           "isCorrect": false,
-          "feedback": "This might be Nadia's current age. Maya is 5 years older."
+          "feedback": "This is Nadia's current age. Maya is 5 years older than Nadia."
         },
         {
           "id": "E",
           "text": "18",
-          "isCorrect": false,
-          "feedback": "Let me verify this answer..."
+          "isCorrect": true,
+          "feedback": "Correct! Let Nadia = x, Maya = x+5. In 4 years: Maya = x+9. Two years ago: Nadia = x-2. Equation: x+9 = 2(x-2), so x = 13. Maya = 13 + 5 = 18. Check: In 4 years Maya = 22, 2 years ago Nadia = 11. Is 22 = 2×11? Yes! ✓"
         }
       ],
       "solution": "**Methodology: Age Problem with Time Shifts**\n\n**Step 1: Define variables**\nLet Nadia's current age = x\nMaya's current age = x + 5\n\n**Step 2: Set up time-shifted ages**\n- In 4 years: Maya = x + 5 + 4 = x + 9\n- 2 years ago: Nadia = x - 2\n\n**Step 3: Create equation**\nMaya in 4 years = 2 × (Nadia 2 years ago)\nx + 9 = 2(x - 2)\nx + 9 = 2x - 4\n13 = x\n\n**Answer:** Nadia = 13, Maya = 13 + 5 = 18\n\n**Check:** In 4 years Maya = 22. 2 years ago Nadia = 11. Is 22 = 2 × 11? Yes! ✓",
@@ -2120,14 +2120,14 @@
         {
           "id": "D",
           "text": "$112.50",
-          "isCorrect": false,
-          "feedback": "Let me verify this calculation..."
+          "isCorrect": true,
+          "feedback": "Correct! Let Quinn = x, then Peter = x+100, Rachel = 2x. Sum: x + (x+100) + 2x = 4x + 100 = 550, so 4x = 450, x = 112.50. Check: Quinn = $112.50, Peter = $212.50, Rachel = $225. Total = $550 ✓"
         },
         {
           "id": "E",
           "text": "$100",
-          "isCorrect": true,
-          "feedback": "Correct! Let Quinn = x, then Rachel = 2x, Peter = x+100. Sum: (x+100) + x + 2x = 4x + 100 = 550, so 4x = 450, x = 112.5. Hmm, let me recheck... Actually x = 112.5, so answer should be about $112.50."
+          "isCorrect": false,
+          "feedback": "If Quinn = $100, then Peter = $200 and Rachel = $200. Total = $500 ≠ $550. The correct calculation gives x = 112.50."
         }
       ],
       "solution": "**Methodology: Mixed Relationship**\n\n**Step 1: Identify relationships**\n- Peter = Quinn + 100 (additive)\n- Quinn = Rachel/2 → Rachel = 2 × Quinn (multiplicative)\n- Total = $550\n\n**Step 2: Express in terms of Quinn**\nLet Quinn = x\nPeter = x + 100\nRachel = 2x\n\n**Step 3: Solve**\n(x+100) + x + 2x = 550\n4x + 100 = 550\n4x = 450\nx = 112.50\n\n**Answer:** Quinn = $112.50\n\n**Check:** Peter = 212.50, Quinn = 112.50, Rachel = 225. Sum = 550 ✓",
@@ -2521,26 +2521,26 @@
         {
           "id": "B",
           "text": "$20",
-          "isCorrect": true,
-          "feedback": "Correct! Let Chris = x, Bob = x/2 + 5, Ali = 2(x/2 + 5) - 10 = x + 10 - 10 = x. Sum: x + (x/2 + 5) + x = 2.5x + 5 = 95, so 2.5x = 90, x = 36. Bob = 36/2 + 5 = 18 + 5 = 23... Let me recalculate."
+          "isCorrect": false,
+          "feedback": "If Bob = $20, then Chris = 2 × (20-5) = 30, Ali = 2×20 - 10 = 30. Total = 80 ≠ 95. The correct calculation gives Bob = $23."
         },
         {
           "id": "C",
           "text": "$25",
           "isCorrect": false,
-          "feedback": "Close but check your algebra carefully."
+          "feedback": "Close but check your algebra carefully. Bob = Chris/2 + 5, and the total must equal $95."
         },
         {
           "id": "D",
           "text": "$30",
           "isCorrect": false,
-          "feedback": "This might be Ali's amount. Check your equation setup."
+          "feedback": "This might be Ali's amount. The question asks for Bob."
         },
         {
           "id": "E",
           "text": "$23",
-          "isCorrect": false,
-          "feedback": "Let me verify this calculation..."
+          "isCorrect": true,
+          "feedback": "Correct! Let Chris = x, Bob = x/2 + 5, Ali = 2(x/2 + 5) - 10 = x. Sum: x + (x/2 + 5) + x = 2.5x + 5 = 95, so x = 36. Bob = 36/2 + 5 = 18 + 5 = $23. Check: Chris = 36, Bob = 23, Ali = 36. Total = 95 ✓"
         }
       ],
       "solution": "**Methodology: Complex Three-Way Relationship**\n\n**Step 1: Identify relationships**\n- Ali = 2 × Bob - 10\n- Bob = Chris/2 + 5\n- Total = $95\n\n**Step 2: Express in terms of Chris**\nLet Chris = x\nBob = x/2 + 5\nAli = 2(x/2 + 5) - 10 = x + 10 - 10 = x\n\n**Step 3: Solve**\nAli + Bob + Chris = 95\nx + (x/2 + 5) + x = 95\n2.5x + 5 = 95\n2.5x = 90\nx = 36\n\n**Answer:** Bob = 36/2 + 5 = 18 + 5 = $23\n\n**Check:** Chris = 36, Bob = 23, Ali = 36. Sum = 95 ✓",

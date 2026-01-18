@@ -1,0 +1,530 @@
+{
+  "topic": "Percentages and Applications",
+  "topicId": "percentages-applications",
+  "outcomeCode": "ACMNA187",
+  "nswOutcomeCode": "MA4-FRC-C-02",
+  "year": 8,
+  "researchedAt": "2026-01-15",
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5784045/",
+    "https://thirdspacelearning.com/gcse-maths/number/reverse-percentages/",
+    "https://mathsathome.com/reverse-percentages/",
+    "https://taxsuperandyou.gov.au/activity/mathematics/percentages-and-gst",
+    "https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory-practice-guide.pdf",
+    "https://the-learning-agency-lab.com/the-learning-curve/math-misconceptions-mappingmajor-math-misunderstandings/",
+    "https://onlinelibrary.wiley.com/doi/abs/10.1002/pits.22448"
+  ],
+
+  "targetAudience": {
+    "performancePercentile": "75th+",
+    "cognitiveLevel": "intermediate-to-advanced",
+    "assumedPriorKnowledge": [
+      "Fluent conversion between percentages, decimals, and fractions",
+      "Calculating percentage of a quantity using multipliers",
+      "Basic understanding of percentage increase/decrease",
+      "Comfort with decimal operations"
+    ],
+    "designPrinciples": [
+      "Positive skew in cognitive demand",
+      "Emphasis on nuanced applications over definitions",
+      "Multi-step reasoning required",
+      "Transfer to novel contexts expected"
+    ]
+  },
+
+  "curriculumAlignment": {
+    "outcomeDescription": "Solve problems involving percentages including increases, decreases and financial applications using mathematical modelling",
+    "strand": "Number and Algebra",
+    "stage": "Stage 4",
+    "prerequisiteOutcomes": ["ACMNA184"],
+    "progressionOutcomes": ["ACMNA187", "ACMNA189", "ACMNA211"],
+    "prerequisiteTopics": ["fractions-decimals-percentages", "integers-operations"],
+    "progressionTopics": ["financial-mathematics", "ratios-rates", "compound-interest"],
+    "extensionLinks": ["exponential-growth", "algebraic-modelling", "financial-decision-making"]
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Decimal multiplier method for percentage change",
+      "description": "Using multipliers efficiently: increase by r% = ×(1+r/100), decrease by r% = ×(1-r/100). Recognising when to multiply vs divide.",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c2", "c3", "c4"],
+      "criticalForSuccess": true,
+      "advancedNote": "Students should select method based on efficiency, not just familiarity"
+    },
+    {
+      "id": "c2",
+      "name": "Reverse percentage calculations",
+      "description": "Working backwards from final amount: if new = original × multiplier, then original = new ÷ multiplier. Applying to both increases and decreases.",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c4", "c5", "c6"],
+      "criticalForSuccess": true,
+      "advancedNote": "Focus on identifying WHICH percentage the final amount represents (not assuming it's the change)"
+    },
+    {
+      "id": "c3",
+      "name": "Successive percentage changes",
+      "description": "Understanding that consecutive changes compound: final = original × m₁ × m₂ × ... Order doesn't matter for multiplication, but intermediate values change.",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c5", "c7", "c8"],
+      "criticalForSuccess": true,
+      "advancedNote": "Explore why +20% then -20% ≠ original (algebraically: 1.2 × 0.8 = 0.96)"
+    },
+    {
+      "id": "c4",
+      "name": "GST and tax calculations (bidirectional)",
+      "description": "Adding GST (×1.1) and removing GST (÷1.1). Finding GST component from inclusive price (÷11). Extending to other tax rates.",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c6", "c7"],
+      "criticalForSuccess": true,
+      "advancedNote": "Apply same logic to international VAT rates (e.g., UK 20% → ×1.2, ÷1.2)"
+    },
+    {
+      "id": "c5",
+      "name": "Profit, loss, mark-up, and margin distinctions",
+      "description": "Profit % = (profit/cost)×100. Margin % = (profit/selling)×100. Mark-up % = profit %. Converting between these measures.",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c7", "c8"],
+      "criticalForSuccess": true,
+      "advancedNote": "Given any two of {cost, selling price, profit %, margin %}, calculate the others"
+    },
+    {
+      "id": "c6",
+      "name": "Percentage change vs percentage point change",
+      "description": "Distinguishing 'increased by 5%' (multiplicative) from 'increased by 5 percentage points' (additive). Critical for interpreting statistics.",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c8"],
+      "criticalForSuccess": true,
+      "advancedNote": "Interest rate going from 4% to 5% is +1pp but +25% relative increase"
+    },
+    {
+      "id": "c7",
+      "name": "Simple interest with variable manipulation",
+      "description": "I = PRT applied flexibly: finding any variable given the others. Comparing interest scenarios. Annualising rates for comparison.",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c8"],
+      "criticalForSuccess": false,
+      "advancedNote": "Transition point to compound interest concept (preview Year 9)"
+    },
+    {
+      "id": "c8",
+      "name": "Multi-step financial modelling",
+      "description": "Combining discounts, taxes, fees, and percentage changes in realistic scenarios. Determining optimal financial decisions.",
+      "vocabularyLevel": "extension",
+      "prerequisiteFor": [],
+      "criticalForSuccess": false,
+      "advancedNote": "Problems requiring students to set up their own calculation sequence"
+    },
+    {
+      "id": "c9",
+      "name": "Expressing relationships as percentage equations",
+      "description": "Translating 'A is p% more than B' into A = B(1 + p/100). Setting up equations to find unknowns in percentage relationships.",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c8"],
+      "criticalForSuccess": true,
+      "advancedNote": "Bridge to algebraic representation of percentage problems"
+    },
+    {
+      "id": "c10",
+      "name": "Percentage error and approximation",
+      "description": "Calculating percentage error = |actual - estimated|/actual × 100. Understanding acceptable error margins in different contexts.",
+      "vocabularyLevel": "extension",
+      "prerequisiteFor": [],
+      "criticalForSuccess": false,
+      "advancedNote": "Connects to scientific measurement and data analysis"
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "misconception": "Treating reverse percentages symmetrically (subtracting/adding the percentage from the new amount)",
+      "correction": "The final amount IS a percentage of the original. After 20% increase, final = 120% of original, so original = final ÷ 1.2, NOT final - 20%",
+      "prevalence": "very high",
+      "source": "Third Space Learning; PMC research",
+      "questionPhase": 2,
+      "exampleError": "Jacket costs $160 after 20% off. Student: $160 × 1.2 = $192 (wrong). Correct: $160 ÷ 0.8 = $200",
+      "remediation": "Ask 'What percentage OF THE ORIGINAL is $160?' Answer: 80%. So $160 = 0.8 × original",
+      "targetedAt": "Even strong students make this error when rushing or not visualising"
+    },
+    {
+      "id": "m2",
+      "misconception": "Believing successive opposite percentage changes return to original",
+      "correction": "Each percentage applies to the CURRENT amount. +10% then -10%: 1.1 × 0.9 = 0.99. The order doesn't matter but you never return to original.",
+      "prevalence": "very high",
+      "source": "PMC - The problem with percentages (Chen & Rao, 2007)",
+      "questionPhase": 3,
+      "exampleError": "Stock rises 25%, then falls 25%. Student says 'back to original'. Actual: 1.25 × 0.75 = 0.9375 (6.25% loss)",
+      "remediation": "Algebraic proof: (1+r)(1-r) = 1-r² < 1 for any r ≠ 0. Always a net loss!",
+      "targetedAt": "Sophisticated error requiring algebraic reasoning to fully understand"
+    },
+    {
+      "id": "m3",
+      "misconception": "Confusing percentage change with percentage point change in statistics",
+      "correction": "Percentage points are additive (4% to 5% = +1pp). Percentage change is relative (4% to 5% = 25% increase).",
+      "prevalence": "high",
+      "source": "Statistical literacy research; Media reporting analysis",
+      "questionPhase": 4,
+      "exampleError": "'Approval rating rose from 40% to 50%' - student says 10% increase instead of 25% relative increase (or 10pp)",
+      "remediation": "Practice with real statistical contexts; identify which interpretation makes sense",
+      "targetedAt": "Critical for interpreting news, surveys, and research findings"
+    },
+    {
+      "id": "m4",
+      "misconception": "Applying single equivalent discount to successive discounts",
+      "correction": "30% off then 20% off ≠ 50% off. Multiply: 0.7 × 0.8 = 0.56, so equivalent to 44% off.",
+      "prevalence": "high",
+      "source": "Marketing mathematics research; Consumer behaviour studies",
+      "questionPhase": 3,
+      "exampleError": "40% + 25% off = 65% off (wrong). Correct: 0.6 × 0.75 = 0.45 = 55% off",
+      "remediation": "Calculate 'what single multiplier achieves the same result?' then convert to percentage off",
+      "targetedAt": "Real-world application error with financial consequences"
+    },
+    {
+      "id": "m5",
+      "misconception": "Inconsistent base selection for percentage calculations",
+      "correction": "Always identify the base (denominator) first. Profit % uses cost as base. Margin % uses selling price. Change % uses original.",
+      "prevalence": "high",
+      "source": "Financial literacy research; Business mathematics",
+      "questionPhase": 3,
+      "exampleError": "Cost $80, sold $100. Student calculates 20/100 = 20% profit instead of 20/80 = 25% profit",
+      "remediation": "Create decision tree: 'Percentage OF WHAT?' determines denominator",
+      "targetedAt": "Common in business contexts; critical for financial literacy"
+    },
+    {
+      "id": "m6",
+      "misconception": "Treating GST as simple addition/subtraction rather than multiplicative",
+      "correction": "GST is multiplicative: inc GST = ex GST × 1.1. To remove: ex GST = inc GST ÷ 1.1, NOT inc GST - 10%",
+      "prevalence": "medium",
+      "source": "ATO Tax Super + You; Consumer mathematics research",
+      "questionPhase": 2,
+      "exampleError": "$110 inc GST → student says GST = $11 (10% of 110). Correct: GST = $110 ÷ 11 = $10",
+      "remediation": "Think: 'If pre-GST was $100, GST adds $10 to make $110. So $110 ÷ 11 = GST amount'",
+      "targetedAt": "Practical error affecting real purchasing decisions"
+    },
+    {
+      "id": "m7",
+      "misconception": "Assuming percentage problems are always straightforward calculations",
+      "correction": "Many problems require setting up equations or identifying what's being asked before calculating.",
+      "prevalence": "medium",
+      "source": "Problem-solving research; Mathematical modelling studies",
+      "questionPhase": 4,
+      "exampleError": "'After 15% discount and 10% GST, price is $93.50. Find original.' Student doesn't know where to start.",
+      "remediation": "Systematic approach: identify variables, write relationships, solve algebraically",
+      "targetedAt": "Higher-order thinking required; common struggle for procedurally-focused students"
+    },
+    {
+      "id": "m8",
+      "misconception": "Misinterpreting 'increased BY x%' vs 'increased TO x%'",
+      "correction": "'Increased BY 25%' means new = 1.25 × old. 'Increased TO 125%' means new = 1.25 × old. 'Increased TO 25%' means new = 0.25 × old.",
+      "prevalence": "medium",
+      "source": "Language in mathematics research",
+      "questionPhase": 2,
+      "exampleError": "'Sales increased to 150% of last year' interpreted as +150% (250%) instead of 150% (50% increase)",
+      "remediation": "Parse language carefully: 'to' indicates final value, 'by' indicates change amount",
+      "targetedAt": "Linguistic precision critical for word problem interpretation"
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "Stacked sales promotions: 'Extra 20% off already reduced prices'",
+      "concepts": ["c1", "c3", "c4"],
+      "curiosityHook": "A store advertises '40% off storewide, PLUS extra 25% off at checkout'. Is this better than 65% off?",
+      "context": "$200 item: 40% off = $120, then 25% off = $90. Single 65% off = $70. Stacked = 55% total discount!",
+      "questionPhase": 2,
+      "australianRelevance": "EOFY sales, Click Frenzy, Black Friday - JB Hi-Fi, Myer often stack discounts",
+      "cognitiveComplexity": "Requires calculating equivalent single discount; comparing scenarios"
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Uber surge pricing and reverse calculation",
+      "concepts": ["c2", "c4", "c8"],
+      "curiosityHook": "Your Uber shows $45.50 with 1.3× surge. What would it cost without surge? Is the 30% extra actually 30% more?",
+      "context": "With surge: $45.50. Without: $45.50 ÷ 1.3 = $35. Surge added $10.50, which is 30% of $35 (the base), not 30% of $45.50",
+      "questionPhase": 2,
+      "australianRelevance": "Uber, DiDi, Ola - common transport for teens; NYE/event surge pricing",
+      "cognitiveComplexity": "Reverse percentage with unfamiliar multiplier; distinguishing percentage bases"
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Cryptocurrency volatility: '50% crash then 50% recovery'",
+      "concepts": ["c3", "c5"],
+      "curiosityHook": "Bitcoin dropped 50% in June, then recovered 50% in July. Are you back to where you started?",
+      "context": "$10,000 investment: -50% = $5,000. Then +50% = $7,500. Still down 25% despite 'equal' movements!",
+      "questionPhase": 3,
+      "australianRelevance": "Crypto interest among teens; CoinSpot, Binance discussions; financial literacy",
+      "cognitiveComplexity": "Successive changes with different bases; counter-intuitive result requiring proof"
+    },
+    {
+      "id": "p4",
+      "phenomenon": "GST-inclusive pricing with discounts",
+      "concepts": ["c2", "c4", "c8"],
+      "curiosityHook": "A $550 laptop (inc GST) is 15% off. The receipt shows discount, GST, and final price separately. Can you verify each?",
+      "context": "Original ex-GST: $500. Discount: $75 (15% of $500). New ex-GST: $425. GST: $42.50. Total: $467.50",
+      "questionPhase": 3,
+      "australianRelevance": "JB Hi-Fi, Harvey Norman business pricing; understanding receipts",
+      "cognitiveComplexity": "Multi-step with interleaved operations; verify intermediate calculations"
+    },
+    {
+      "id": "p5",
+      "phenomenon": "Casual loading vs hourly rate comparison",
+      "concepts": ["c2", "c5", "c9"],
+      "curiosityHook": "Part-time gets $22/hr + 10% super. Casual gets $27.50/hr (inc 25% loading) but no super. Which earns more?",
+      "context": "Part-time: $22 + $2.20 super = $24.20 total. Casual: $27.50 ÷ 1.25 = $22 base, so 25% more than base but no super.",
+      "questionPhase": 3,
+      "australianRelevance": "First jobs at Woolies, Coles, Maccas; Award rates; superannuation",
+      "cognitiveComplexity": "Comparing different percentage structures; interpreting loaded rates"
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Shrinkflation: same price, smaller package",
+      "concepts": ["c5", "c6", "c9"],
+      "curiosityHook": "Shapes went from 175g to 150g but price stayed at $4.50. What's the real percentage price increase per gram?",
+      "context": "Old: $4.50/175g = 2.57c/g. New: $4.50/150g = 3.00c/g. Increase: (3.00-2.57)/2.57 × 100 = 16.7% stealth increase!",
+      "questionPhase": 3,
+      "australianRelevance": "CHOICE investigations; Woolworths/Coles; household budgets; consumer awareness",
+      "cognitiveComplexity": "Unit rate calculation combined with percentage change; requires setting up comparison"
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Bank account interest rate comparisons",
+      "concepts": ["c6", "c7", "c9"],
+      "curiosityHook": "ING offers 5.0% p.a. on first $100k. Up Bank offers 4.75% p.a. with no cap. At what balance does ING become worse?",
+      "context": "At $100k: ING = $5000 interest, Up = $4750. Above $100k, extra $ earn 0% at ING. Break-even analysis required.",
+      "questionPhase": 4,
+      "australianRelevance": "Teen savings accounts; Up, ING, Macquarie comparisons; intro to financial decision-making",
+      "cognitiveComplexity": "Piecewise function thinking; optimisation context"
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Sports statistics: efficiency ratings across different sample sizes",
+      "concepts": ["c1", "c6", "c10"],
+      "curiosityHook": "Player A: 45% shooting on 200 attempts. Player B: 48% on 50 attempts. Who's actually better?",
+      "context": "A: 90 makes. B: 24 makes. Percentage error consideration: smaller sample = less reliable. Expected range analysis.",
+      "questionPhase": 4,
+      "australianRelevance": "NBL, AFL, NRL statistics; fantasy sports; data literacy",
+      "cognitiveComplexity": "Percentage interpretation with statistical nuance; sample size effects"
+    },
+    {
+      "id": "p9",
+      "phenomenon": "Afterpay/buy now pay later fee structures",
+      "concepts": ["c3", "c5", "c7"],
+      "curiosityHook": "Afterpay charges merchants 4-6% per transaction. If a store adds 5% 'card fee', what's the real cost to you?",
+      "context": "$100 item + 5% fee = $105. If you pay over 4 instalments with no interest, effective cost analysis vs upfront.",
+      "questionPhase": 4,
+      "australianRelevance": "Afterpay, Zip, Klarna popular with young Australians; financial literacy",
+      "cognitiveComplexity": "Fee structure analysis; comparing payment scenarios; hidden cost identification"
+    },
+    {
+      "id": "p10",
+      "phenomenon": "Property price changes and stamp duty calculations",
+      "concepts": ["c2", "c3", "c8"],
+      "curiosityHook": "A house was $800k in 2020, now $1M. If stamp duty is approximately 4% of purchase price, how much more duty is paid?",
+      "context": "2020: $32k duty. Now: $40k duty. Price increased 25%, but duty increased by $8k ($40k vs $32k) = 25% too. Why same %?",
+      "questionPhase": 4,
+      "australianRelevance": "Housing affordability discussions; NSW stamp duty; parental conversations about property",
+      "cognitiveComplexity": "Linear percentage relationship; proportional reasoning; real adult financial context"
+    }
+  ],
+
+  "scaffoldingSequence": [
+    {
+      "phase": 1,
+      "name": "Consolidation - Multiplier Fluency",
+      "focus": "Rapid application of decimal multipliers; choosing efficient methods; mixed increase/decrease",
+      "concepts": ["c1"],
+      "questionDistribution": {
+        "recall": "20%",
+        "application": "60%",
+        "analysis": "20%"
+      },
+      "activities": [
+        "Speed drill: percentage change to multiplier (both directions)",
+        "Choose-your-method problems (mental vs calculator efficiency)",
+        "Estimation challenges: 'Which is larger? 78% of 240 or 82% of 230?'"
+      ],
+      "questionCount": 10,
+      "difficultyRange": "medium-high"
+    },
+    {
+      "phase": 2,
+      "name": "Core Application - Reverse and Tax Calculations",
+      "focus": "Working backwards fluently; GST both directions; real-world pricing scenarios",
+      "concepts": ["c2", "c4"],
+      "questionDistribution": {
+        "recall": "10%",
+        "application": "50%",
+        "analysis": "40%"
+      },
+      "activities": [
+        "Reverse percentage with unfamiliar percentages (not just 10%, 20%)",
+        "GST-inclusive/exclusive conversions with verification",
+        "Receipt interpretation: calculate and verify each component"
+      ],
+      "questionCount": 20,
+      "difficultyRange": "medium-high"
+    },
+    {
+      "phase": 3,
+      "name": "Complex Scenarios - Successive and Combined",
+      "focus": "Multiple percentage changes; stacked discounts; comparing scenarios",
+      "concepts": ["c3", "c5", "c6"],
+      "questionDistribution": {
+        "recall": "5%",
+        "application": "40%",
+        "analysis": "55%"
+      },
+      "activities": [
+        "Successive percentage changes (prove result algebraically)",
+        "Stacked discount vs single discount comparisons",
+        "Profit/margin conversions; percentage point vs percentage change",
+        "Error identification: 'Why is this calculation wrong?'"
+      ],
+      "questionCount": 25,
+      "difficultyRange": "high"
+    },
+    {
+      "phase": 4,
+      "name": "Financial Modelling - Multi-step Problems",
+      "focus": "Complex real-world scenarios; setting up calculations; optimal decision-making",
+      "concepts": ["c7", "c8", "c9"],
+      "questionDistribution": {
+        "recall": "0%",
+        "application": "30%",
+        "analysis": "70%"
+      },
+      "activities": [
+        "Simple interest comparisons with different rates/times",
+        "Multi-step scenarios: discount + GST + fees",
+        "Setting up percentage equations from word problems",
+        "Financial decision problems with justification required"
+      ],
+      "questionCount": 20,
+      "difficultyRange": "high-extension"
+    },
+    {
+      "phase": 5,
+      "name": "Extension - Challenge and Transfer",
+      "focus": "Novel contexts; algebraic reasoning; proof and generalisation",
+      "concepts": ["c8", "c9", "c10"],
+      "questionDistribution": {
+        "recall": "0%",
+        "application": "20%",
+        "analysis": "80%"
+      },
+      "activities": [
+        "Percentage error in measurement contexts",
+        "Prove why +r% then -r% always results in net loss",
+        "Create your own multi-step percentage problem",
+        "Analyse misleading statistics using percentage point vs percentage"
+      ],
+      "questionCount": 5,
+      "difficultyRange": "extension",
+      "targetPercentile": "90th+"
+    }
+  ],
+
+  "vocabularyProgression": {
+    "phase1": ["multiplier", "factor", "efficiency", "equivalent"],
+    "phase2": ["reverse percentage", "GST-inclusive", "GST-exclusive", "pre-tax", "post-tax", "base amount"],
+    "phase3": ["successive", "compound", "stacked discount", "profit margin", "mark-up", "percentage point", "relative change"],
+    "phase4": ["principal", "interest rate", "per annum", "annualised", "optimise", "break-even"],
+    "phase5": ["percentage error", "absolute error", "relative error", "generalise", "algebraic proof"]
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": [
+      "Assume foundational procedures are automated; focus cognitive load on problem analysis",
+      "Use completion problems (partial working shown) for complex scenarios initially",
+      "Interleave problem types early to prevent procedural fixation",
+      "Require estimation BEFORE calculation to develop number sense",
+      "Introduce algebraic representation alongside numerical to build connections"
+    ],
+    "engagementStrategies": [
+      "Use current, relevant financial contexts (Uber, Afterpay, crypto)",
+      "Error analysis with realistic student mistakes - 'find and explain the error'",
+      "Comparative scenarios requiring decision-making and justification",
+      "Counter-intuitive results that challenge assumptions (successive % changes)",
+      "Real receipt/bill analysis from Australian retailers"
+    ],
+    "motivationFactors": [
+      "Financial empowerment: detecting misleading sales and fee structures",
+      "Intellectual challenge: proving why intuitions fail",
+      "Real adult decisions: understanding job pay, savings, purchases",
+      "Critical thinking: analysing statistics in news and social media",
+      "Strategic thinking: optimising financial choices"
+    ],
+    "spacedRepetitionPoints": ["c2", "c3", "c5", "c6"],
+    "interleaving": {
+      "recommended": true,
+      "rationale": "High-performing students benefit more from early interleaving (Rohrer & Taylor, 2007). Prevents over-reliance on surface cues.",
+      "implementation": "From Phase 2 onwards, every problem set mixes at least 3 problem types. Students must identify problem type before solving."
+    },
+    "desirableDifficulties": [
+      "Unfamiliar percentage values (17%, 23%, 8.5%) not just standard ones",
+      "Problems requiring identification of problem type before solving",
+      "Scenarios where common approaches fail (successive changes)",
+      "Insufficient information problems: identify what's missing",
+      "Over-determined problems: identify redundant information"
+    ],
+    "testingEffect": {
+      "implementation": "Weekly cumulative retrieval covering all prior phases",
+      "timing": "Short diagnostic at start of each session; comprehensive review every 5th session",
+      "format": "Mix of: rapid-fire procedural, word problem interpretation, error identification, explain-your-reasoning"
+    },
+    "transferExpectations": [
+      "Apply percentage reasoning to novel contexts not explicitly taught",
+      "Recognise percentage problems embedded in larger scenarios",
+      "Self-correct by checking reasonableness of answers",
+      "Explain why common errors are incorrect"
+    ]
+  },
+
+  "differentiationStrategies": {
+    "support": [
+      "Provide worked example before similar problem",
+      "Allow calculator for arithmetic to focus on reasoning",
+      "Highlight key words in word problems",
+      "Offer bar model visualisation for reverse percentages"
+    ],
+    "extension": [
+      "Compound interest preview (Year 9 content)",
+      "Algebraic proofs for percentage relationships",
+      "Create and solve their own multi-step scenarios",
+      "Analyse real financial products (term deposits, loans)",
+      "Statistical significance and margin of error contexts"
+    ]
+  },
+
+  "assessmentGuidelines": {
+    "formative": [
+      "Rapid-fire multiplier conversion (timed)",
+      "Error identification and correction tasks",
+      "Verbal explanation of method choice",
+      "Estimation accuracy check before calculation"
+    ],
+    "summative": [
+      "Multi-step scenario requiring full working",
+      "Comparison problem with justified recommendation",
+      "Reverse percentage with non-standard percentage",
+      "Interpretation of real financial document"
+    ],
+    "successCriteria": [
+      "Fluently applies multiplier method in both directions",
+      "Correctly identifies base for percentage calculations",
+      "Accurately calculates successive percentage changes",
+      "Distinguishes percentage change from percentage point change",
+      "Sets up and solves multi-step percentage problems independently",
+      "Verifies answers using estimation and inverse operations"
+    ],
+    "advancedSuccessCriteria": [
+      "Proves general results algebraically (e.g., why +r% then -r% < original)",
+      "Identifies optimal financial decisions with justification",
+      "Transfers percentage reasoning to novel unfamiliar contexts",
+      "Analyses and critiques percentage claims in media/advertising"
+    ]
+  }
+}
