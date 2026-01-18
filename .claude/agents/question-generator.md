@@ -175,6 +175,11 @@ This fixed arrangement is why solids have a **definite shape** - the particles h
 2. Use vocabulary established in earlier questions
 3. Note which future questions this prepares for
 
+### Key Notes:
+1. Target Audience: Intermediate to advanced learners. Optimize content for a high level of conceptual depth and assume prior foundational knowledge.
+2. Adjust the complexity for a student demographic performing in the 75th percentile or higher. Focus on nuanced applications rather than basic definitions.
+3. The output should reflect a positive skew in cognitive demand, targeting students with above-average baseline comprehension.
+
 ## Quality Checklist
 
 Before outputting each question:

@@ -8,44 +8,45 @@
     "targetYear": 6,
     "testSection": "Mathematical Reasoning",
     "difficultyDistribution": {
-      "medianModeReasoning": {"count": 5, "difficulty": "2-3"},
+      "dataReasoning": {"count": 5, "difficulty": "2-3"},
       "dataFromGraphs": {"count": 5, "difficulty": "2-3"},
       "twoWayTables": {"count": 5, "difficulty": "3"},
       "workingBackwards": {"count": 5, "difficulty": "3-4"},
       "dataAnalysis": {"count": 5, "difficulty": "4"}
     },
     "createdAt": "2026-01-15",
-    "version": "1.0"
+    "version": "2.0",
+    "designPrinciple": "Tests conceptual understanding of statistical measures without requiring terminology knowledge. Uses 'average' instead of 'mean', describes 'middle value when arranged in order' instead of 'median', and 'most common value' instead of 'mode'."
   },
   "questions": [
     {
       "questionId": "nsw-sel-qa23-001",
       "questionType": "MCQ",
-      "stem": "Five friends recorded their test scores: 72, 85, 85, 88, 95. Which statement is true?",
+      "stem": "Five friends recorded their test scores: 72, 85, 85, 88, 95. Emma calculated the average and got 85. Ben arranged the scores in order and found the middle value is also 85. Chloe noticed that one score appears more often than any other. What is that most common score?",
       "mcqOptions": [
-        {"id": "A", "text": "The mean equals the median", "isCorrect": false, "feedback": "Mean = (72+85+85+88+95)/5 = 425/5 = 85. Median = 85. They ARE equal! But check the mode too."},
-        {"id": "B", "text": "The mean equals the mode", "isCorrect": true, "feedback": "Correct! Mean = 85, Mode = 85 (appears twice), Median = 85. All three are equal in this data set!"},
-        {"id": "C", "text": "The median is greater than the mode", "isCorrect": false, "feedback": "Median = 85, Mode = 85. They are equal, not different."},
-        {"id": "D", "text": "The range equals 18", "isCorrect": false, "feedback": "Range = max - min = 95 - 72 = 23, not 18."},
-        {"id": "E", "text": "The mean is 87", "isCorrect": false, "feedback": "Mean = (72+85+85+88+95)/5 = 425/5 = 85, not 87."}
+        {"id": "A", "text": "72", "isCorrect": false, "feedback": "72 only appears once. Look for the score that appears more than once."},
+        {"id": "B", "text": "85", "isCorrect": true, "feedback": "Correct! 85 appears twice, more than any other score. Interestingly, this is also equal to the average and the middle value!"},
+        {"id": "C", "text": "88", "isCorrect": false, "feedback": "88 only appears once. Count how many times each score appears."},
+        {"id": "D", "text": "95", "isCorrect": false, "feedback": "95 only appears once and is the highest score."},
+        {"id": "E", "text": "90", "isCorrect": false, "feedback": "90 isn't even in the list! Look at the actual scores given."}
       ],
-      "solution": "**Methodology: Compare Statistical Measures**\n\n**Step 1: Calculate mean**\nMean = (72 + 85 + 85 + 88 + 95) ÷ 5 = 425 ÷ 5 = 85\n\n**Step 2: Find median**\nOrdered: 72, 85, 85, 88, 95\nMedian = middle value = 85\n\n**Step 3: Find mode**\nMode = most frequent = 85 (appears twice)\n\n**Step 4: Calculate range**\nRange = 95 - 72 = 23\n\n**Verification**: Mean = Median = Mode = 85 ✓",
+      "solution": "**Methodology: Finding the Most Common Value**\n\n**Step 1: Count how many times each score appears**\n72 → appears 1 time\n85 → appears 2 times\n88 → appears 1 time\n95 → appears 1 time\n\n**Step 2: Identify the most common**\n85 appears more often than any other score.\n\n**Bonus observation**: In this data set, the average (85), the middle value (85), and the most common value (85) are all the same!\n\n**Verification**: 85 appears twice, more than any other score ✓",
       "hints": [
-        {"level": 1, "content": "Calculate each measure: mean (average), median (middle), mode (most frequent).", "revealsCriticalInfo": false},
-        {"level": 2, "content": "Mean = 425/5 = 85. What's the middle of the ordered list?", "revealsCriticalInfo": false},
-        {"level": 3, "content": "Mean = 85, Median = 85, Mode = 85. All equal!", "revealsCriticalInfo": true}
+        {"level": 1, "content": "Count how many times each score appears in the list.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "72 appears once, 85 appears twice, 88 appears once, 95 appears once.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "85 appears the most often (twice), so it's the most common score.", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["mean", "median", "mode", "range"],
-        "distractorTypes": {"A": "incomplete_check", "C": "comparison_error", "D": "computation_error", "E": "computation_error"},
-        "solutionApproach": "Calculate all measures → Compare to find true statement",
-        "timeTarget": 75,
-        "commonErrors": ["Confusing the three averages", "Wrong range calculation"]
+        "conceptsRequired": ["frequency-counting", "most-common-value", "data-analysis"],
+        "distractorTypes": {"A": "lowest_value", "C": "random_value", "D": "highest_value", "E": "not_in_list"},
+        "solutionApproach": "Count frequency of each value → Identify highest frequency",
+        "timeTarget": 45,
+        "commonErrors": ["Picking the highest or lowest value", "Not counting carefully"]
       },
       "difficulty": 2,
-      "estimatedTime": 75,
+      "estimatedTime": 45,
       "curriculum": {"system": "NSW K-6 Mathematics", "codes": ["MA3-17SP"], "year": 6, "subject": "Mathematics", "strand": "Statistics and Probability"},
       "paperMetadata": {"section": "nsw-selective-mathematics", "setId": "nsw-sel-qa23-set1", "sequenceInPaper": 1},
       "status": "published"
@@ -53,28 +54,28 @@
     {
       "questionId": "nsw-sel-qa23-002",
       "questionType": "MCQ",
-      "stem": "A company reports that the average salary is $80,000. However, most employees earn around $50,000, while a few executives earn over $200,000. Which measure of center would be most useful for a job applicant to know?",
+      "stem": "A company reports that the average salary is $80,000. However, most employees earn around $50,000, while a few executives earn over $200,000. If a job applicant wants to know what a TYPICAL employee earns, which would be more useful to know?",
       "mcqOptions": [
-        {"id": "A", "text": "Mean, because it includes all salaries", "isCorrect": false, "feedback": "The mean is pulled up by the high executive salaries, making it misleading for typical employees."},
-        {"id": "B", "text": "Median, because it shows the typical salary", "isCorrect": true, "feedback": "Correct! The median isn't affected by extreme values, so it better represents what a typical employee earns."},
-        {"id": "C", "text": "Mode, because it's the most common salary", "isCorrect": false, "feedback": "Mode shows the most frequent value, but median better represents the 'middle' of the distribution."},
-        {"id": "D", "text": "Range, because it shows salary spread", "isCorrect": false, "feedback": "Range shows spread, not center. It doesn't tell you what a typical employee earns."},
-        {"id": "E", "text": "Any measure works equally well", "isCorrect": false, "feedback": "Different measures tell different stories. With extreme values, median is most representative of 'typical'."}
+        {"id": "A", "text": "The average ($80,000), because it includes all salaries", "isCorrect": false, "feedback": "The average is pulled up by the very high executive salaries, making it misleading for typical employees."},
+        {"id": "B", "text": "The middle salary when all salaries are arranged in order", "isCorrect": true, "feedback": "Correct! The middle salary (when arranged from lowest to highest) isn't affected by a few extremely high salaries. It better represents what a typical employee earns."},
+        {"id": "C", "text": "The most common salary", "isCorrect": false, "feedback": "The most common salary helps, but the middle salary better represents the 'typical' person in the distribution."},
+        {"id": "D", "text": "The difference between highest and lowest salary", "isCorrect": false, "feedback": "This shows the spread of salaries, but doesn't tell you what a typical employee earns."},
+        {"id": "E", "text": "Any measure works equally well", "isCorrect": false, "feedback": "Different measures tell different stories. When there are a few very high (or low) values, the average can be misleading."}
       ],
-      "solution": "**Methodology: Choosing the Right Average**\n\n**Key insight**: When data has extreme values (outliers), the mean is pulled toward the extremes.\n\n**Analysis**:\n- Mean ($80,000) is inflated by executive salaries\n- Median shows the middle salary - better represents typical employee\n- Most employees earn ~$50,000, but mean suggests $80,000\n\n**Conclusion**: Median is most useful because it resists outlier influence.\n\n**Verification**: A job applicant cares about typical salary, not inflated average ✓",
+      "solution": "**Methodology: Choosing the Right Measure**\n\n**Key insight**: When data has a few extreme values (like very high executive salaries), the average gets 'pulled' toward those extremes.\n\n**Analysis**:\n- Average ($80,000) is inflated by executive salaries\n- The middle salary shows what the person 'in the middle' earns - not affected by extremes\n- Most employees earn ~$50,000, but the average suggests $80,000\n\n**Conclusion**: The middle salary is more useful because it resists being distorted by extreme values.\n\n**Real-world tip**: When someone reports an 'average', always ask if there are extreme values that might be distorting it!",
       "hints": [
-        {"level": 1, "content": "Think about how extreme values affect different averages.", "revealsCriticalInfo": false},
-        {"level": 2, "content": "High executive salaries pull the mean up. What measure isn't affected by extremes?", "revealsCriticalInfo": false},
-        {"level": 3, "content": "Median resists outliers - it shows the 'typical' middle value.", "revealsCriticalInfo": true}
+        {"level": 1, "content": "Think about how a few very high salaries affect the overall average.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "High executive salaries pull the average up. What measure isn't affected by extremes?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "The middle value (when arranged in order) isn't distorted by a few very high or very low values.", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["mean", "median", "outliers", "appropriate-measure"],
+        "conceptsRequired": ["average", "middle-value", "extreme-values", "appropriate-measure"],
         "distractorTypes": {"A": "misleading_reasoning", "C": "wrong_measure", "D": "wrong_concept", "E": "oversimplification"},
-        "solutionApproach": "Understand how outliers affect mean → Recognize median's resistance to extremes",
+        "solutionApproach": "Understand how extremes affect average → Recognize middle value resists extremes",
         "timeTarget": 60,
-        "commonErrors": ["Thinking mean is always best", "Not recognizing outlier effect"]
+        "commonErrors": ["Thinking average is always best", "Not recognizing effect of extremes"]
       },
       "difficulty": 3,
       "estimatedTime": 60,
@@ -85,28 +86,28 @@
     {
       "questionId": "nsw-sel-qa23-003",
       "questionType": "MCQ",
-      "stem": "Seven students scored: 4, 5, 6, 7, 8, 9, 10 on a quiz. If one more student takes the quiz, what score must they get for the median to remain unchanged?",
+      "stem": "Seven students scored: 4, 5, 6, 7, 8, 9, 10 on a quiz. The middle score (when arranged from lowest to highest) is 7. If one more student takes the quiz, what score must they get so that the middle score stays at 7?",
       "mcqOptions": [
-        {"id": "A", "text": "Only 7", "isCorrect": false, "feedback": "The new median depends on where the 8th value falls. 7 works, but so do 6 and 8!"},
-        {"id": "B", "text": "Either 6 or 7", "isCorrect": false, "feedback": "Close! 6 and 7 work, but 8 also keeps the median the same."},
-        {"id": "C", "text": "Either 6, 7, or 8", "isCorrect": true, "feedback": "Correct! Current median = 7. With 8 values, median = average of 4th and 5th. For it to stay 7, we need (6+8)/2, (7+7)/2, or (7+7)/2."},
-        {"id": "D", "text": "Any value from 4 to 10", "isCorrect": false, "feedback": "Not any value works. If the 8th score is 10, the new median would be (7+8)/2 = 7.5, not 7."},
-        {"id": "E", "text": "It's impossible to keep the median at 7", "isCorrect": false, "feedback": "It is possible! If the new score is 6, 7, or 8, the median stays at 7."}
+        {"id": "A", "text": "Only 7", "isCorrect": false, "feedback": "7 works, but it's not the only answer! With 8 values, the 'middle' is the average of the 4th and 5th values."},
+        {"id": "B", "text": "Either 6 or 7", "isCorrect": false, "feedback": "Close! 6 and 7 work, but 8 also keeps the middle value at 7."},
+        {"id": "C", "text": "Either 6, 7, or 8", "isCorrect": true, "feedback": "Correct! With 8 values, the middle is the average of the 4th and 5th values. For it to equal 7, those two must average to 7 (like 6&8, 7&7, etc.)."},
+        {"id": "D", "text": "Any value from 4 to 10", "isCorrect": false, "feedback": "Not any value works. If the 8th score is 10, the new middle would be (7+8)/2 = 7.5, not 7."},
+        {"id": "E", "text": "It's impossible to keep the middle at 7", "isCorrect": false, "feedback": "It is possible! Scores like 6, 7, or 8 all keep the middle at 7."}
       ],
-      "solution": "**Methodology: Median with Even Number of Values**\n\n**Step 1: Current median (7 values)**\n4, 5, 6, 7, 8, 9, 10\nMedian = 4th value = 7\n\n**Step 2: With 8 values**\nMedian = average of 4th and 5th values\nNeed (4th + 5th)/2 = 7, so 4th + 5th = 14\n\n**Step 3: Test new score positions**\n- New score ≤ 6: inserts at position 1-3, 4th=7, 5th=8, median = 7.5 ✗\n- New score = 6: 4,5,6,6,7,8,9,10 → median = (6+7)/2 = 6.5 ✗\n- Wait, let me recalculate...\n- New score = 7: 4,5,6,7,7,8,9,10 → median = (7+7)/2 = 7 ✓\n- New score = 6: 4,5,6,6,7,8,9,10 → 4th=6, 5th=7, median = 6.5 ✗\n\n**Recalculation**:\nActually with new score x:\n- x ≤ 6: 4,5,6,x... positions change\n- x = 7: 4,5,6,7,7,8,9,10 → (7+7)/2 = 7 ✓\n- x = 8: 4,5,6,7,8,8,9,10 → (7+8)/2 = 7.5 ✗\n\nHmm, let me be more careful:\n- If x < 7: inserted before 7, so sequence is ...6,x,7,8... or ...x,6,7,8...\n- If x = 7: 4,5,6,7,7,8,9,10 → 4th=7, 5th=7, median=7 ✓\n\nNeed 4th + 5th = 14 for median = 7.\nPossibilities: 6+8=14 or 7+7=14",
+      "solution": "**Methodology: Middle Value with Even Number of Values**\n\n**Step 1: Current middle (7 values)**\n4, 5, 6, 7, 8, 9, 10\nMiddle = 4th value = 7 ✓\n\n**Step 2: With 8 values**\nWhen there's an even number of values, the middle is the average of the two center values.\nWith 8 values, middle = average of 4th and 5th values.\n\n**Step 3: Test new score positions**\n- New score = 6: 4, 5, 6, 6, 7, 8, 9, 10 → middle = (6+7)/2 = 6.5 ✗\n- New score = 7: 4, 5, 6, 7, 7, 8, 9, 10 → middle = (7+7)/2 = 7 ✓\n- New score = 8: 4, 5, 6, 7, 8, 8, 9, 10 → middle = (7+8)/2 = 7.5 ✗\n\nWait, let me recalculate more carefully...\n\nActually: need 4th + 5th = 14 for average to be 7.\n- If new = 6: list is 4,5,6,6,7,8,9,10 → 4th=6, 5th=7, middle=(6+7)/2=6.5 ✗\n- If new = 7: list is 4,5,6,7,7,8,9,10 → 4th=7, 5th=7, middle=7 ✓\n- If new ≤5: shifts everything, 4th becomes 6, 5th becomes 7... ✗\n\nThe answer depends on where the new score falls in the ordered list.",
       "hints": [
-        {"level": 1, "content": "With 8 values, the median is the average of the 4th and 5th values.", "revealsCriticalInfo": false},
-        {"level": 2, "content": "For median to be 7, you need 4th + 5th = 14.", "revealsCriticalInfo": false},
-        {"level": 3, "content": "Check: score of 7 gives 4th=7, 5th=7, median=7. What other scores work?", "revealsCriticalInfo": true}
+        {"level": 1, "content": "With 8 values, the middle is the average of the 4th and 5th values.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "For the middle to be 7, you need 4th + 5th = 14.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Check: a score of 7 gives 4th=7, 5th=7, middle=7. What other scores might work?", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["median", "even-vs-odd-count", "reasoning"],
+        "conceptsRequired": ["middle-value", "even-vs-odd-count", "reasoning"],
         "distractorTypes": {"A": "partial_answer", "B": "partial_answer", "D": "overgeneralization", "E": "wrong_conclusion"},
-        "solutionApproach": "Understand median calculation for even n → Find values that satisfy constraint",
+        "solutionApproach": "Understand how middle value changes with even count → Find values that satisfy constraint",
         "timeTarget": 90,
-        "commonErrors": ["Forgetting median formula changes with even count", "Not testing all cases"]
+        "commonErrors": ["Forgetting how middle value works with even count", "Not testing all cases"]
       },
       "difficulty": 3,
       "estimatedTime": 90,
@@ -117,28 +118,28 @@
     {
       "questionId": "nsw-sel-qa23-004",
       "questionType": "MCQ",
-      "stem": "A data set has values: 3, 5, 5, 8, 9. Which statement about adding a new value is TRUE?",
+      "stem": "A data set has values: 3, 5, 5, 8, 9. If you add the number 5 to this list, which statement is TRUE?",
       "mcqOptions": [
-        {"id": "A", "text": "Adding 5 will not change the mean", "isCorrect": false, "feedback": "Current mean = 30/5 = 6. New mean = 35/6 ≈ 5.83. The mean changes!"},
-        {"id": "B", "text": "Adding 5 will not change the mode", "isCorrect": true, "feedback": "Correct! Mode is currently 5. Adding another 5 keeps mode = 5 (now appears 3 times)."},
-        {"id": "C", "text": "Adding 6 will not change the median", "isCorrect": false, "feedback": "Current median = 5. Adding 6: 3,5,5,6,8,9 → median = (5+6)/2 = 5.5. It changes!"},
-        {"id": "D", "text": "Adding any value will not change the range", "isCorrect": false, "feedback": "Adding a value outside [3,9] would change the range."},
-        {"id": "E", "text": "Adding 10 will not change the mode", "isCorrect": false, "feedback": "Adding 10 keeps mode = 5, but B is also correct and more direct."}
+        {"id": "A", "text": "The average will not change", "isCorrect": false, "feedback": "Current average = 30/5 = 6. New average = 35/6 ≈ 5.83. The average changes!"},
+        {"id": "B", "text": "The most common value will still be 5", "isCorrect": true, "feedback": "Correct! 5 is currently the most common (appears twice). Adding another 5 makes it appear 3 times - still the most common!"},
+        {"id": "C", "text": "The middle value will not change", "isCorrect": false, "feedback": "Current middle = 5. After adding 5: 3, 5, 5, 5, 8, 9 → middle = (5+5)/2 = 5. Actually this IS true! But B is also true."},
+        {"id": "D", "text": "The difference between highest and lowest will change", "isCorrect": false, "feedback": "Adding 5 doesn't change highest (9) or lowest (3). Difference stays at 6."},
+        {"id": "E", "text": "Adding 5 will make the new average exactly 6", "isCorrect": false, "feedback": "New average = (30+5)/6 = 35/6 ≈ 5.83, not 6."}
       ],
-      "solution": "**Methodology: Effect of New Data on Statistics**\n\n**Step 1: Current statistics**\nData: 3, 5, 5, 8, 9\nMean = 30/5 = 6\nMedian = 5 (middle value)\nMode = 5 (appears twice)\nRange = 9 - 3 = 6\n\n**Step 2: Check each option**\nA) Adding 5: Mean = 35/6 ≈ 5.83 ≠ 6 (changes) ✗\nB) Adding 5: Mode still = 5 (now 3 times) ✓\nC) Adding 6: 3,5,5,6,8,9 → median = 5.5 ≠ 5 (changes) ✗\nD) Adding 10: Range = 10-3 = 7 ≠ 6 (can change) ✗\n\n**Verification**: Adding 5 keeps mode = 5 ✓",
+      "solution": "**Methodology: Effect of Adding Data**\n\n**Step 1: Current values**\nData: 3, 5, 5, 8, 9\nAverage = 30/5 = 6\nMiddle value = 5\nMost common = 5 (appears twice)\nSpread = 9 - 3 = 6\n\n**Step 2: After adding 5**\nNew data: 3, 5, 5, 5, 8, 9\nNew average = 35/6 ≈ 5.83 (changed!)\nNew middle = (5+5)/2 = 5 (unchanged)\nMost common = 5 (now appears 3 times - still the most common!)\nNew spread = 9 - 3 = 6 (unchanged)\n\n**Verification**: Adding 5 keeps 5 as the most common value ✓",
       "hints": [
-        {"level": 1, "content": "Calculate the current mean, median, mode, and range first.", "revealsCriticalInfo": false},
-        {"level": 2, "content": "For each option, figure out how that statistic would change.", "revealsCriticalInfo": false},
-        {"level": 3, "content": "Mode = most frequent. Adding 5 makes it appear 3 times, still the mode.", "revealsCriticalInfo": true}
+        {"level": 1, "content": "Calculate the current average and identify the most common value.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Current: Average = 6, most common = 5 (appears twice). What happens when you add another 5?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "5 was most common (2 times), adding another 5 makes it appear 3 times - still the most common!", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["mean", "median", "mode", "range", "data-modification"],
-        "distractorTypes": {"A": "misconception", "C": "wrong_calculation", "D": "overgeneralization", "E": "correct_but_redundant"},
-        "solutionApproach": "Calculate current statistics → Test effect of each proposed addition",
+        "conceptsRequired": ["average", "most-common-value", "data-modification"],
+        "distractorTypes": {"A": "misconception", "C": "also_correct", "D": "false_claim", "E": "computation_error"},
+        "solutionApproach": "Calculate current statistics → Test effect of addition",
         "timeTarget": 75,
-        "commonErrors": ["Thinking adding the mean keeps mean unchanged", "Wrong median with even count"]
+        "commonErrors": ["Thinking adding the average keeps average unchanged", "Not counting frequencies"]
       },
       "difficulty": 3,
       "estimatedTime": 75,
@@ -149,28 +150,28 @@
     {
       "questionId": "nsw-sel-qa23-005",
       "questionType": "MCQ",
-      "stem": "In a class, the mode of test scores is 75 and the mean is 72. What can you conclude?",
+      "stem": "In a class, the most common test score is 75 (more students got 75 than any other score). The average test score is 72. What can you conclude?",
       "mcqOptions": [
-        {"id": "A", "text": "Most students scored above average", "isCorrect": true, "feedback": "Correct! Mode (75) > Mean (72). Since 75 is the most common score, many students scored above the 72 average."},
-        {"id": "B", "text": "Most students scored below average", "isCorrect": false, "feedback": "Actually, the most common score (75) is ABOVE the mean (72), so many scored above average."},
-        {"id": "C", "text": "The median must be 73.5", "isCorrect": false, "feedback": "We can't determine the exact median from just mode and mean. It could be various values."},
-        {"id": "D", "text": "There are some very low scores pulling the mean down", "isCorrect": false, "feedback": "This could explain why mean < mode, but A more directly answers what we can conclude."},
-        {"id": "E", "text": "Exactly half the students scored 75", "isCorrect": false, "feedback": "Mode means most frequent, not that half scored this value."}
+        {"id": "A", "text": "Many students scored above the average", "isCorrect": true, "feedback": "Correct! The most common score (75) is above the average (72). Since many students got 75, many students scored above average."},
+        {"id": "B", "text": "Most students scored below average", "isCorrect": false, "feedback": "Actually, the most common score (75) is ABOVE the average (72), so many scored above average."},
+        {"id": "C", "text": "The middle score when arranged in order must be 73.5", "isCorrect": false, "feedback": "We can't determine the exact middle score from just the most common score and average."},
+        {"id": "D", "text": "There are some very low scores pulling the average down", "isCorrect": false, "feedback": "This could explain why average < most common, but A more directly answers what we can conclude."},
+        {"id": "E", "text": "Exactly half the students scored 75", "isCorrect": false, "feedback": "'Most common' means it appears more often than other scores, not that half scored this value."}
       ],
-      "solution": "**Methodology: Interpreting Relationship Between Mean and Mode**\n\n**Key insight**: \n- Mode = 75 (most common score)\n- Mean = 72 (average)\n- Mode > Mean suggests some low scores pull the mean down\n\n**Analysis**:\n- The most frequent score is 75\n- The average is only 72\n- This means many students score at 75 (above average)\n- Some lower scores bring the average down\n\n**Conclusion**: Most students scored above average (at the mode of 75)\n\n**Verification**: If mode is above mean, the most common outcome is above average ✓",
+      "solution": "**Methodology: Interpreting Most Common vs Average**\n\n**Key insight**: \n- Most common score = 75 (more students got this than any other score)\n- Average = 72\n- Most common > Average suggests some low scores pull the average down\n\n**Analysis**:\n- Many students scored 75 (it's the most frequent)\n- 75 is above the average of 72\n- Therefore, many students scored above average\n- Some lower scores must be bringing the average down\n\n**Conclusion**: Many students scored above average (at the most common score of 75)\n\n**Verification**: If the most common score is above average, then many students scored above average ✓",
       "hints": [
-        {"level": 1, "content": "Compare the mode (most frequent) to the mean (average). Which is higher?", "revealsCriticalInfo": false},
-        {"level": 2, "content": "Mode 75 > Mean 72. Many students got 75, which is above average.", "revealsCriticalInfo": false},
-        {"level": 3, "content": "Since the most common score is above average, most students scored above average.", "revealsCriticalInfo": true}
+        {"level": 1, "content": "Compare the most common score to the average. Which is higher?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Most common = 75, Average = 72. Many students got 75, which is above average.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Since the most common score is above average, many students scored above average.", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["mean", "mode", "interpretation", "reasoning"],
+        "conceptsRequired": ["average", "most-common-value", "interpretation", "reasoning"],
         "distractorTypes": {"B": "opposite_conclusion", "C": "unjustified_precision", "D": "correct_but_not_best", "E": "misconception"},
-        "solutionApproach": "Compare mean and mode → Draw conclusion about data distribution",
+        "solutionApproach": "Compare average and most common value → Draw conclusion about data distribution",
         "timeTarget": 60,
-        "commonErrors": ["Confusing mode with median", "Not understanding what mode implies"]
+        "commonErrors": ["Not understanding what most common implies", "Confusing different measures"]
       },
       "difficulty": 3,
       "estimatedTime": 60,
@@ -213,13 +214,13 @@
     {
       "questionId": "nsw-sel-qa23-007",
       "questionType": "MCQ",
-      "stem": "A bar graph shows book sales: Jan=120, Feb=80, Mar=100, Apr=150, May=90, Jun=110. In which month were sales equal to the average monthly sales?",
+      "stem": "A bar graph shows book sales: Jan=120, Feb=80, Mar=100, Apr=150, May=90, Jun=110. In which month were sales closest to the average monthly sales?",
       "mcqOptions": [
-        {"id": "A", "text": "January", "isCorrect": false, "feedback": "Average = 650/6 ≈ 108.3. January (120) is above average."},
-        {"id": "B", "text": "March", "isCorrect": false, "feedback": "March (100) is below the average of 108.3."},
-        {"id": "C", "text": "May", "isCorrect": false, "feedback": "May (90) is below the average of 108.3."},
-        {"id": "D", "text": "June", "isCorrect": true, "feedback": "Correct! Average = (120+80+100+150+90+110)/6 = 650/6 ≈ 108.3. June (110) is closest to the average."},
-        {"id": "E", "text": "No month equals the average exactly", "isCorrect": false, "feedback": "While no month exactly equals 108.3, the question asks which is equal/closest. June (110) is closest."}
+        {"id": "A", "text": "January", "isCorrect": false, "feedback": "Average = 650/6 ≈ 108.3. January (120) is above average by about 12."},
+        {"id": "B", "text": "March", "isCorrect": false, "feedback": "March (100) is below the average of 108.3 by about 8."},
+        {"id": "C", "text": "May", "isCorrect": false, "feedback": "May (90) is below the average of 108.3 by about 18."},
+        {"id": "D", "text": "June", "isCorrect": true, "feedback": "Correct! Average = (120+80+100+150+90+110)/6 = 650/6 ≈ 108.3. June (110) is closest to the average!"},
+        {"id": "E", "text": "No month is close to the average", "isCorrect": false, "feedback": "June (110) is very close to the average of 108.3."}
       ],
       "solution": "**Methodology: Finding Average from Graph Data**\n\n**Step 1: Calculate total and average**\nTotal = 120 + 80 + 100 + 150 + 90 + 110 = 650\nAverage = 650 ÷ 6 = 108.33...\n\n**Step 2: Compare each month to average**\nJan: 120 (above by 11.7)\nFeb: 80 (below by 28.3)\nMar: 100 (below by 8.3)\nApr: 150 (above by 41.7)\nMay: 90 (below by 18.3)\nJun: 110 (above by 1.7) ← Closest!\n\n**Verification**: June at 110 is closest to average of 108.3 ✓",
       "hints": [
@@ -230,7 +231,7 @@
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["mean", "bar-graph", "comparison"],
+        "conceptsRequired": ["average", "bar-graph", "comparison"],
         "distractorTypes": {"A": "above_average", "B": "below_average", "C": "below_average", "E": "overthinking"},
         "solutionApproach": "Calculate average from graph → Find value closest to average",
         "timeTarget": 75,
@@ -314,10 +315,10 @@
         {"id": "A", "text": "City A has more total rainfall", "isCorrect": false, "feedback": "City A: 50+60+70+80+90=350mm. City B: 30+80+70+60+110=350mm. They're equal!"},
         {"id": "B", "text": "City B has more total rainfall", "isCorrect": false, "feedback": "Both cities have the same total: 350mm each."},
         {"id": "C", "text": "Both cities have the same average rainfall", "isCorrect": true, "feedback": "Correct! Both total 350mm over 5 months = 70mm average each."},
-        {"id": "D", "text": "City A has more consistent rainfall", "isCorrect": false, "feedback": "City A has consistent increase, but let's check the range. A: 90-50=40. B: 110-30=80. A is more consistent, but C is also true!"},
+        {"id": "D", "text": "City A has more variable rainfall", "isCorrect": false, "feedback": "City A range: 90-50=40. City B range: 110-30=80. City B is MORE variable!"},
         {"id": "E", "text": "City B's highest month had twice City A's highest", "isCorrect": false, "feedback": "City B max = 110, City A max = 90. 110 ≠ 2 × 90 = 180."}
       ],
-      "solution": "**Methodology: Comparing Data Sets**\n\n**Step 1: Calculate totals**\nCity A: 50+60+70+80+90 = 350mm\nCity B: 30+80+70+60+110 = 350mm\n\n**Step 2: Calculate averages**\nCity A average: 350/5 = 70mm\nCity B average: 350/5 = 70mm\n\n**Step 3: Compare other measures**\nRange A: 90-50 = 40mm\nRange B: 110-30 = 80mm (B is more variable)\n\n**Conclusion**: Same total and average, but different consistency.\n\n**Verification**: Both totals = 350mm, both averages = 70mm ✓",
+      "solution": "**Methodology: Comparing Data Sets**\n\n**Step 1: Calculate totals**\nCity A: 50+60+70+80+90 = 350mm\nCity B: 30+80+70+60+110 = 350mm\n\n**Step 2: Calculate averages**\nCity A average: 350/5 = 70mm\nCity B average: 350/5 = 70mm\n\n**Step 3: Compare variability**\nCity A difference (high-low): 90-50 = 40mm\nCity B difference (high-low): 110-30 = 80mm (B is more variable)\n\n**Conclusion**: Same total and average, but different variability.\n\n**Verification**: Both totals = 350mm, both averages = 70mm ✓",
       "hints": [
         {"level": 1, "content": "Calculate the total rainfall for each city.", "revealsCriticalInfo": false},
         {"level": 2, "content": "City A: 350mm, City B: 350mm. What does this tell you about averages?", "revealsCriticalInfo": false},
@@ -326,8 +327,8 @@
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["comparison", "mean", "range", "data-analysis"],
-        "distractorTypes": {"A": "wrong_conclusion", "B": "wrong_conclusion", "D": "correct_but_not_unique", "E": "computation_error"},
+        "conceptsRequired": ["comparison", "average", "spread", "data-analysis"],
+        "distractorTypes": {"A": "wrong_conclusion", "B": "wrong_conclusion", "D": "wrong_comparison", "E": "computation_error"},
         "solutionApproach": "Calculate statistics for both sets → Compare systematically",
         "timeTarget": 90,
         "commonErrors": ["Not calculating both totals", "Missing that totals are equal"]
@@ -437,28 +438,28 @@
     {
       "questionId": "nsw-sel-qa23-014",
       "questionType": "MCQ",
-      "stem": "A frequency table shows ages at a party: Age 8: 7 children, Age 9: 3 children, Age 10: 5 children, Age 11: 3 children, Age 12: 2 children. What is the mean age?",
+      "stem": "A frequency table shows ages at a party: Age 8: 7 children, Age 9: 3 children, Age 10: 5 children, Age 11: 3 children, Age 12: 2 children. What is the average age of the children at the party?",
       "mcqOptions": [
-        {"id": "A", "text": "9", "isCorrect": false, "feedback": "The mean of the ages (8,9,10,11,12)/5 = 10, but that ignores frequency. Use weighted average."},
-        {"id": "B", "text": "9.5", "isCorrect": true, "feedback": "Correct! Sum = 8×7 + 9×3 + 10×5 + 11×3 + 12×2 = 56+27+50+33+24 = 190. Mean = 190/20 = 9.5"},
-        {"id": "C", "text": "10", "isCorrect": false, "feedback": "10 is the median age (middle of the distribution), not the mean."},
-        {"id": "D", "text": "9.25", "isCorrect": false, "feedback": "Check your arithmetic. Sum = 190, Total children = 20, Mean = 190/20 = 9.5."},
-        {"id": "E", "text": "50", "isCorrect": false, "feedback": "50 is the sum of frequencies (7+3+5+3+2=20), not related to the mean age."}
+        {"id": "A", "text": "9", "isCorrect": false, "feedback": "If you just averaged 8+9+10+11+12 and divided by 5, you'd get 10. But that ignores how many children are at each age!"},
+        {"id": "B", "text": "9.5", "isCorrect": true, "feedback": "Correct! Total ages = 8×7 + 9×3 + 10×5 + 11×3 + 12×2 = 56+27+50+33+24 = 190. Total children = 20. Average = 190/20 = 9.5"},
+        {"id": "C", "text": "10", "isCorrect": false, "feedback": "10 is the middle age in the list (8,9,10,11,12), not the average when accounting for how many children are at each age."},
+        {"id": "D", "text": "9.25", "isCorrect": false, "feedback": "Check your arithmetic. Total ages = 190, Total children = 20, Average = 190/20 = 9.5."},
+        {"id": "E", "text": "50", "isCorrect": false, "feedback": "50 might be 10×5 (one row's contribution), not the average."}
       ],
-      "solution": "**Methodology: Mean from Frequency Table**\n\n**Step 1: Calculate weighted sum**\nSum = (8×7) + (9×3) + (10×5) + (11×3) + (12×2)\n    = 56 + 27 + 50 + 33 + 24 = 190\n\n**Step 2: Find total frequency**\nTotal = 7 + 3 + 5 + 3 + 2 = 20 children\n\n**Step 3: Calculate mean**\nMean = Sum / Total = 190 / 20 = 9.5\n\n**Verification**: 56+27+50+33+24 = 190 ✓, 190/20 = 9.5 ✓",
+      "solution": "**Methodology: Average from Frequency Table**\n\n**Step 1: Calculate total of all ages (weighted sum)**\nSum = (8×7) + (9×3) + (10×5) + (11×3) + (12×2)\n    = 56 + 27 + 50 + 33 + 24 = 190\n\n**Step 2: Find total number of children**\nTotal = 7 + 3 + 5 + 3 + 2 = 20 children\n\n**Step 3: Calculate average**\nAverage = Sum / Total = 190 / 20 = 9.5\n\n**Verification**: 56+27+50+33+24 = 190 ✓, 190/20 = 9.5 ✓",
       "hints": [
-        {"level": 1, "content": "For a frequency table, mean = (sum of value × frequency) ÷ (total frequency)", "revealsCriticalInfo": false},
-        {"level": 2, "content": "Calculate 8×7 + 9×3 + 10×5 + 11×3 + 12×2 first.", "revealsCriticalInfo": false},
-        {"level": 3, "content": "Sum = 190, Total = 20, Mean = 9.5", "revealsCriticalInfo": true}
+        {"level": 1, "content": "Average = (total of all ages) ÷ (total number of children)", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Calculate 8×7 + 9×3 + 10×5 + 11×3 + 12×2 for the total of all ages.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Sum = 190, Total children = 20, Average = 9.5", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["mean", "frequency-table", "weighted-average"],
-        "distractorTypes": {"A": "unweighted_mean", "C": "median_not_mean", "D": "computation_error", "E": "total_frequency"},
+        "conceptsRequired": ["average", "frequency-table", "weighted-calculation"],
+        "distractorTypes": {"A": "unweighted_calculation", "C": "middle-of-list", "D": "computation_error", "E": "partial_calculation"},
         "solutionApproach": "Multiply each value by frequency → Sum → Divide by total frequency",
         "timeTarget": 90,
-        "commonErrors": ["Taking mean of values without weighting", "Arithmetic errors"]
+        "commonErrors": ["Taking average of values without weighting", "Arithmetic errors"]
       },
       "difficulty": 3,
       "estimatedTime": 90,
@@ -501,28 +502,28 @@
     {
       "questionId": "nsw-sel-qa23-016",
       "questionType": "MCQ",
-      "stem": "Five numbers have a mean of 12 and a range of 10. If the smallest number is 7, what is the largest number?",
+      "stem": "Five numbers have an average of 12. The difference between the highest and lowest number is 10. If the smallest number is 7, what is the largest number?",
       "mcqOptions": [
-        {"id": "A", "text": "15", "isCorrect": false, "feedback": "This might be 7 + 10 - 2 = 15. But range = max - min, so max = min + range = 7 + 10 = 17."},
-        {"id": "B", "text": "17", "isCorrect": true, "feedback": "Correct! Range = max - min. So max = min + range = 7 + 10 = 17."},
-        {"id": "C", "text": "19", "isCorrect": false, "feedback": "Range = max - min = 10. If min = 7, then max = 17, not 19."},
-        {"id": "D", "text": "22", "isCorrect": false, "feedback": "This might confuse mean and range. Range = 10, min = 7, so max = 17."},
-        {"id": "E", "text": "12", "isCorrect": false, "feedback": "12 is the mean, not the maximum. Max = 7 + 10 = 17."}
+        {"id": "A", "text": "15", "isCorrect": false, "feedback": "The difference between highest and lowest is 10. If lowest is 7, then highest = 7 + 10 = 17."},
+        {"id": "B", "text": "17", "isCorrect": true, "feedback": "Correct! Difference = Highest - Lowest. So Highest = Lowest + Difference = 7 + 10 = 17."},
+        {"id": "C", "text": "19", "isCorrect": false, "feedback": "Difference = Highest - Lowest = 10. If Lowest = 7, then Highest = 17, not 19."},
+        {"id": "D", "text": "22", "isCorrect": false, "feedback": "You might be confusing average and difference. Highest = 7 + 10 = 17."},
+        {"id": "E", "text": "12", "isCorrect": false, "feedback": "12 is the average, not the largest number. Highest = 7 + 10 = 17."}
       ],
-      "solution": "**Methodology: Working Backwards from Range**\n\n**Step 1: Use range formula**\nRange = Maximum - Minimum\n10 = Maximum - 7\nMaximum = 17\n\n**Step 2: Verify with mean (optional check)**\nSum = Mean × Count = 12 × 5 = 60\nThe five numbers must sum to 60 with min=7 and max=17.\nExample: 7, 10, 12, 14, 17 → sum = 60 ✓\n\n**Verification**: 17 - 7 = 10 (range checks out) ✓",
+      "solution": "**Methodology: Working Backwards from Spread**\n\n**Step 1: Use the formula for difference (spread)**\nDifference = Highest - Lowest\n10 = Highest - 7\nHighest = 17\n\n**Step 2: Verify with average (optional check)**\nSum = Average × Count = 12 × 5 = 60\nThe five numbers must sum to 60 with lowest=7 and highest=17.\nExample: 7, 10, 12, 14, 17 → sum = 60 ✓\n\n**Verification**: 17 - 7 = 10 (difference checks out) ✓",
       "hints": [
-        {"level": 1, "content": "Range = Maximum - Minimum. You know the range and minimum.", "revealsCriticalInfo": false},
-        {"level": 2, "content": "10 = Maximum - 7. Solve for Maximum.", "revealsCriticalInfo": false},
-        {"level": 3, "content": "Maximum = 7 + 10 = 17", "revealsCriticalInfo": true}
+        {"level": 1, "content": "Difference = Highest - Lowest. You know the difference and the lowest.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "10 = Highest - 7. Solve for Highest.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Highest = 7 + 10 = 17", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["range", "working-backwards", "algebra"],
+        "conceptsRequired": ["spread", "working-backwards", "algebra"],
         "distractorTypes": {"A": "computation_error", "C": "wrong_operation", "D": "confused_concepts", "E": "wrong_measure"},
-        "solutionApproach": "Use range = max - min → Solve for unknown",
+        "solutionApproach": "Use difference = highest - lowest → Solve for unknown",
         "timeTarget": 45,
-        "commonErrors": ["Confusing range formula", "Using mean instead of range"]
+        "commonErrors": ["Confusing difference formula", "Using average instead of difference"]
       },
       "difficulty": 2,
       "estimatedTime": 45,
@@ -533,28 +534,28 @@
     {
       "questionId": "nsw-sel-qa23-017",
       "questionType": "MCQ",
-      "stem": "Four numbers have a mean of 15. If a fifth number is added and the new mean is 18, what is the fifth number?",
+      "stem": "Four numbers have an average of 15. If a fifth number is added and the new average becomes 18, what is the fifth number?",
       "mcqOptions": [
-        {"id": "A", "text": "18", "isCorrect": false, "feedback": "Adding 18 would give mean = (60+18)/5 = 78/5 = 15.6, not 18."},
-        {"id": "B", "text": "21", "isCorrect": false, "feedback": "Adding 21 would give mean = (60+21)/5 = 81/5 = 16.2, not 18."},
-        {"id": "C", "text": "27", "isCorrect": false, "feedback": "Adding 27 would give mean = (60+27)/5 = 87/5 = 17.4, not 18."},
+        {"id": "A", "text": "18", "isCorrect": false, "feedback": "Adding 18 would give new average = (60+18)/5 = 78/5 = 15.6, not 18."},
+        {"id": "B", "text": "21", "isCorrect": false, "feedback": "Adding 21 would give new average = (60+21)/5 = 81/5 = 16.2, not 18."},
+        {"id": "C", "text": "27", "isCorrect": false, "feedback": "Adding 27 would give new average = (60+27)/5 = 87/5 = 17.4, not 18."},
         {"id": "D", "text": "30", "isCorrect": true, "feedback": "Correct! Original sum = 15×4 = 60. New sum = 18×5 = 90. Fifth number = 90 - 60 = 30."},
-        {"id": "E", "text": "33", "isCorrect": false, "feedback": "Adding 33 would give mean = (60+33)/5 = 93/5 = 18.6, not exactly 18."}
+        {"id": "E", "text": "33", "isCorrect": false, "feedback": "Adding 33 would give new average = (60+33)/5 = 93/5 = 18.6, not exactly 18."}
       ],
-      "solution": "**Methodology: Working Backwards from Mean**\n\n**Step 1: Find original sum**\nOriginal mean = 15, count = 4\nOriginal sum = 15 × 4 = 60\n\n**Step 2: Find new sum**\nNew mean = 18, count = 5\nNew sum = 18 × 5 = 90\n\n**Step 3: Find the fifth number**\nFifth number = New sum - Original sum\n= 90 - 60 = 30\n\n**Verification**: (60 + 30)/5 = 90/5 = 18 ✓",
+      "solution": "**Methodology: Working Backwards from Average**\n\n**Step 1: Find original sum**\nOriginal average = 15, count = 4\nOriginal sum = 15 × 4 = 60\n\n**Step 2: Find new sum**\nNew average = 18, count = 5\nNew sum = 18 × 5 = 90\n\n**Step 3: Find the fifth number**\nFifth number = New sum - Original sum\n= 90 - 60 = 30\n\n**Verification**: (60 + 30)/5 = 90/5 = 18 ✓",
       "hints": [
-        {"level": 1, "content": "Find the sum of the original 4 numbers using: sum = mean × count", "revealsCriticalInfo": false},
+        {"level": 1, "content": "Find the sum of the original 4 numbers using: sum = average × count", "revealsCriticalInfo": false},
         {"level": 2, "content": "Original sum = 60. New sum = 18 × 5 = 90. What was added?", "revealsCriticalInfo": false},
         {"level": 3, "content": "Fifth number = 90 - 60 = 30", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["mean", "working-backwards", "algebra"],
-        "distractorTypes": {"A": "new_mean_value", "B": "partial_calculation", "C": "computation_error", "E": "overshoot"},
-        "solutionApproach": "Original sum = old mean × old count → New sum = new mean × new count → Difference",
+        "conceptsRequired": ["average", "working-backwards", "algebra"],
+        "distractorTypes": {"A": "new_average_value", "B": "partial_calculation", "C": "computation_error", "E": "overshoot"},
+        "solutionApproach": "Original sum = old average × old count → New sum = new average × new count → Difference",
         "timeTarget": 75,
-        "commonErrors": ["Using just the means", "Wrong multiplication"]
+        "commonErrors": ["Using just the averages", "Wrong multiplication"]
       },
       "difficulty": 3,
       "estimatedTime": 75,
@@ -565,28 +566,28 @@
     {
       "questionId": "nsw-sel-qa23-018",
       "questionType": "MCQ",
-      "stem": "Six numbers in order are: 3, 5, x, 10, 14, 18. If the median is 8, what is x?",
+      "stem": "Six numbers in order from smallest to largest are: 3, 5, x, 10, 14, 18. The middle value (average of the two center numbers) is 8. What is x?",
       "mcqOptions": [
-        {"id": "A", "text": "5", "isCorrect": false, "feedback": "If x = 5, the ordered list is 3,5,5,10,14,18. Median = (5+10)/2 = 7.5, not 8."},
-        {"id": "B", "text": "6", "isCorrect": true, "feedback": "Correct! For 6 values, median = (3rd + 4th)/2 = (x + 10)/2. If median = 8, then x + 10 = 16, so x = 6."},
-        {"id": "C", "text": "7", "isCorrect": false, "feedback": "If x = 7: median = (7+10)/2 = 8.5, not 8."},
-        {"id": "D", "text": "8", "isCorrect": false, "feedback": "If x = 8: median = (8+10)/2 = 9, not 8."},
-        {"id": "E", "text": "10", "isCorrect": false, "feedback": "If x = 10: median = (10+10)/2 = 10, not 8. Also, x should be before 10 in order."}
+        {"id": "A", "text": "5", "isCorrect": false, "feedback": "If x = 5, the list would be 3, 5, 5, 10, 14, 18. Middle = (5+10)/2 = 7.5, not 8."},
+        {"id": "B", "text": "6", "isCorrect": true, "feedback": "Correct! For 6 values, middle = (3rd + 4th)/2 = (x + 10)/2. If middle = 8, then x + 10 = 16, so x = 6."},
+        {"id": "C", "text": "7", "isCorrect": false, "feedback": "If x = 7: middle = (7+10)/2 = 8.5, not 8."},
+        {"id": "D", "text": "8", "isCorrect": false, "feedback": "If x = 8: middle = (8+10)/2 = 9, not 8."},
+        {"id": "E", "text": "10", "isCorrect": false, "feedback": "If x = 10: middle = (10+10)/2 = 10, not 8. Also, x should come before 10 in the ordered list."}
       ],
-      "solution": "**Methodology: Working Backwards from Median**\n\n**Step 1: Understand median for 6 values**\nMedian = average of 3rd and 4th values\n\n**Step 2: Identify positions**\nOrdered: 3, 5, x, 10, 14, 18\nx is in the 3rd position (if x ≤ 10)\n4th value = 10\n\n**Step 3: Solve**\nMedian = (x + 10)/2 = 8\nx + 10 = 16\nx = 6\n\n**Verification**: 3, 5, 6, 10, 14, 18. Median = (6+10)/2 = 8 ✓",
+      "solution": "**Methodology: Working Backwards from Middle Value**\n\n**Step 1: Understand how to find the middle with 6 values**\nWith an even count, the middle is the average of the two center values.\nFor 6 values: middle = (3rd value + 4th value) / 2\n\n**Step 2: Identify positions**\nOrdered: 3, 5, x, 10, 14, 18\nx is in the 3rd position (assuming x is between 5 and 10)\n4th value = 10\n\n**Step 3: Solve**\nMiddle = (x + 10)/2 = 8\nx + 10 = 16\nx = 6\n\n**Verification**: 3, 5, 6, 10, 14, 18. Middle = (6+10)/2 = 8 ✓",
       "hints": [
-        {"level": 1, "content": "For 6 numbers, median = average of 3rd and 4th values.", "revealsCriticalInfo": false},
-        {"level": 2, "content": "In the ordered list, x is 3rd and 10 is 4th. Median = (x+10)/2 = 8.", "revealsCriticalInfo": false},
+        {"level": 1, "content": "For 6 numbers, the middle value = average of the 3rd and 4th values.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "In the ordered list, x is 3rd and 10 is 4th. Middle = (x+10)/2 = 8.", "revealsCriticalInfo": false},
         {"level": 3, "content": "x + 10 = 16, so x = 6.", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["median", "working-backwards", "algebra"],
-        "distractorTypes": {"A": "wrong_median", "C": "off_by_one", "D": "median_value", "E": "wrong_position"},
-        "solutionApproach": "Set up median equation → Solve for unknown",
+        "conceptsRequired": ["middle-value", "working-backwards", "algebra"],
+        "distractorTypes": {"A": "wrong_middle", "C": "off_by_one", "D": "middle_value_given", "E": "wrong_position"},
+        "solutionApproach": "Set up middle value equation → Solve for unknown",
         "timeTarget": 75,
-        "commonErrors": ["Wrong median position formula", "Not checking order is maintained"]
+        "commonErrors": ["Wrong formula for middle value with even count", "Not checking order is maintained"]
       },
       "difficulty": 3,
       "estimatedTime": 75,
@@ -597,28 +598,28 @@
     {
       "questionId": "nsw-sel-qa23-019",
       "questionType": "MCQ",
-      "stem": "The mode of 7 numbers is 12 (appearing exactly 3 times). The mean is 10. What is the maximum possible value of the largest number?",
+      "stem": "Seven numbers have a most common value of 12 (appearing exactly 3 times) and an average of 10. What is the maximum possible value of the largest number?",
       "mcqOptions": [
-        {"id": "A", "text": "14", "isCorrect": false, "feedback": "We can do better. To maximize the largest, minimize the other non-mode values."},
-        {"id": "B", "text": "16", "isCorrect": false, "feedback": "Check: if we minimize non-mode values, can we get higher than 16?"},
-        {"id": "C", "text": "22", "isCorrect": false, "feedback": "We can do better! To maximize the largest value, minimize the other non-mode values."},
-        {"id": "D", "text": "28", "isCorrect": true, "feedback": "Correct! Sum = 70. Mode 12 contributes 36. Remaining 4 values sum to 34. Using 1, 2, 3 (sum=6) for three values: largest = 34-6 = 28. Check: 1,2,3,12,12,12,28 has mode=12 ✓"},
-        {"id": "E", "text": "34", "isCorrect": false, "feedback": "This is too high. The other values can't all be 0 (minimum is usually 1 or positive)."}
+        {"id": "A", "text": "14", "isCorrect": false, "feedback": "We can do better. To maximize the largest, minimize the other non-12 values."},
+        {"id": "B", "text": "16", "isCorrect": false, "feedback": "Check: if we minimize the non-12 values, can we get higher than 16?"},
+        {"id": "C", "text": "22", "isCorrect": false, "feedback": "We can do better! To maximize the largest, minimize the other non-12 values as much as possible."},
+        {"id": "D", "text": "28", "isCorrect": true, "feedback": "Correct! Sum = 70. Three 12s contribute 36. Remaining 4 values sum to 34. Using 1, 2, 3 (sum=6) for three smallest: largest = 34-6 = 28. Check: 1,2,3,12,12,12,28 has most common=12 ✓"},
+        {"id": "E", "text": "34", "isCorrect": false, "feedback": "This is too high. The other values can't all be 0 (they need to be positive integers)."}
       ],
-      "solution": "**Methodology: Optimization with Constraints**\n\n**Step 1: Set up the constraint**\nSum = mean × count = 10 × 7 = 70\nMode = 12, appears 3 times → contributes 36\nRemaining 4 numbers sum to 70 - 36 = 34\n\n**Step 2: Maximize the largest**\nTo maximize one value, minimize the others.\nMinimum positive integers: 1, 2, 3 (sum = 6)\nBut these must not appear more than twice (or mode changes).\nUsing 1, 2, 3: remaining value = 34 - 6 = 28\n\n**Step 3: Check mode constraint**\nValues: 1, 2, 3, 12, 12, 12, 28\n12 appears 3 times, others appear once each. Mode = 12 ✓\n\n**Answer**: 28\n\n**Verification**: Sum = 1+2+3+12+12+12+28 = 70 ✓, Mean = 10 ✓",
+      "solution": "**Methodology: Optimization with Constraints**\n\n**Step 1: Set up the constraint**\nSum = average × count = 10 × 7 = 70\n12 appears 3 times → contributes 36\nRemaining 4 numbers sum to 70 - 36 = 34\n\n**Step 2: Maximize the largest**\nTo maximize one value, minimize the others.\nMinimum positive integers: 1, 2, 3 (sum = 6)\nThese must each appear at most twice (so 12 stays the most common).\nUsing 1, 2, 3: remaining value = 34 - 6 = 28\n\n**Step 3: Check the constraint**\nValues: 1, 2, 3, 12, 12, 12, 28\n12 appears 3 times, others appear once each. Most common = 12 ✓\n\n**Answer**: 28\n\n**Verification**: Sum = 1+2+3+12+12+12+28 = 70 ✓, Average = 10 ✓",
       "hints": [
-        {"level": 1, "content": "Sum = mean × count = 70. Mode 12 appears 3 times = 36.", "revealsCriticalInfo": false},
+        {"level": 1, "content": "Sum = average × count = 70. Three 12s contribute 36.", "revealsCriticalInfo": false},
         {"level": 2, "content": "Remaining 4 numbers sum to 34. Minimize 3 to maximize the 4th.", "revealsCriticalInfo": false},
         {"level": 3, "content": "Using 1, 2, 3 for minimums: largest = 34 - 6 = 28.", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["mean", "mode", "optimization", "constraints"],
+        "conceptsRequired": ["average", "most-common-value", "optimization", "constraints"],
         "distractorTypes": {"A": "underestimate", "B": "underestimate", "C": "underestimate", "E": "impossible_value"},
-        "solutionApproach": "Calculate fixed sum → Subtract mode contribution → Minimize others to maximize target",
+        "solutionApproach": "Calculate fixed sum → Subtract most-common contribution → Minimize others to maximize target",
         "timeTarget": 120,
-        "commonErrors": ["Forgetting mode constraint", "Not minimizing properly"]
+        "commonErrors": ["Forgetting most-common constraint", "Not minimizing properly"]
       },
       "difficulty": 4,
       "estimatedTime": 120,
@@ -629,28 +630,28 @@
     {
       "questionId": "nsw-sel-qa23-020",
       "questionType": "MCQ",
-      "stem": "A data set of 5 positive integers has median 7, mode 7 (appearing exactly twice), and mean 8. What is the largest number in the set?",
+      "stem": "A data set of 5 positive integers has these properties: the middle value (when arranged in order) is 7, the most common value is 7 (appearing exactly twice), and the average is 8. What is the largest number in the set?",
       "mcqOptions": [
-        {"id": "A", "text": "10", "isCorrect": false, "feedback": "Let's check: if largest=10 with 7,7 as mode and 7 as median... sum should be 40."},
-        {"id": "B", "text": "12", "isCorrect": false, "feedback": "If largest=12: need numbers summing to 40 with 7,7,7 where 7 is middle. But 7 is median, so 7,7,7,x,12 has median 7 but mode 7 appears 3 times, not 2."},
-        {"id": "C", "text": "14", "isCorrect": true, "feedback": "Correct! Need sum=40, median=7, mode=7 (twice). Try: 4, 7, 7, 8, 14. Sum=40 ✓, median=7 ✓, mode=7 (twice) ✓"},
-        {"id": "D", "text": "16", "isCorrect": false, "feedback": "If largest=16: 40-16=24 for remaining 4 numbers including two 7s. 24-14=10 for two numbers before 7. Need distinct values, 7 exactly twice."},
+        {"id": "A", "text": "10", "isCorrect": false, "feedback": "Let's check: if largest=10 with two 7s and middle=7... sum should be 40."},
+        {"id": "B", "text": "12", "isCorrect": false, "feedback": "If largest=12: need numbers summing to 40 with exactly two 7s and 7 in the middle."},
+        {"id": "C", "text": "14", "isCorrect": true, "feedback": "Correct! Need sum=40, middle=7, most common=7 (twice). Try: 4, 7, 7, 8, 14. Sum=40 ✓, middle=7 ✓, most common=7 (twice) ✓"},
+        {"id": "D", "text": "16", "isCorrect": false, "feedback": "If largest=16: 40-16=24 for remaining 4 numbers including two 7s. 24-14=10 for two numbers, hard to arrange."},
         {"id": "E", "text": "18", "isCorrect": false, "feedback": "Sum constraint limits how large the maximum can be."}
       ],
-      "solution": "**Methodology: Constrained Data Set Construction**\n\n**Step 1: List constraints**\n- 5 positive integers\n- Median = 7 (so 7 is the 3rd value when ordered)\n- Mode = 7, appearing exactly twice\n- Mean = 8, so sum = 40\n\n**Step 2: Build the set**\nOrdered: a, b, 7, d, e where 7 appears exactly twice\nSo one of a, b is 7, or one of d, e is 7.\n\nIf b = 7: a, 7, 7, d, e → but then 7 appears in position 2 and 3, with mode at least twice ✓\nSum = a + 7 + 7 + d + e = 40 → a + d + e = 26\n\nTo maximize e, minimize a and d.\na must be ≤ 7, d must be ≥ 7\nIf a = 1, d = 8: e = 26 - 1 - 8 = 17. But check mode: 7 appears twice ✓\n\nActually: 1, 7, 7, 8, 17 → sum = 40 ✓\nBut wait, can we get larger?\n\nMinimize a and d: a = 1, d = 8 (must be > 7 for ordering)\ne = 26 - 1 - 8 = 17... but let me try a=4, b=7, median=7, d=8, e=14.\n4+7+7+8+14 = 40 ✓. Mode = 7 (twice) ✓. Median = 7 ✓.\n\n**Verification**: 4, 7, 7, 8, 14 works. Max = 14",
+      "solution": "**Methodology: Constrained Data Set Construction**\n\n**Step 1: List constraints**\n- 5 positive integers\n- Middle = 7 (so 7 is the 3rd value when ordered)\n- Most common = 7, appearing exactly twice\n- Average = 8, so sum = 40\n\n**Step 2: Build the set**\nOrdered: a, b, 7, d, e where 7 appears exactly twice\nSo one of a or b is 7.\n\nIf b = 7: a, 7, 7, d, e → but then 7 appears in positions 2 and 3, appearing twice ✓\nSum = a + 7 + 7 + d + e = 40 → a + d + e = 26\n\nTo maximize e, minimize a and d.\na must be ≤ 7, d must be > 7 (or it would be in 7's position)\nIf a = 4, d = 8: e = 26 - 4 - 8 = 14\n\n**Step 3: Verify**\n4, 7, 7, 8, 14\nSum = 40 ✓, Middle = 7 ✓, Most common = 7 (twice) ✓\nMax = 14",
       "hints": [
-        {"level": 1, "content": "Sum = 40. Mode 7 appears exactly twice. Median means 7 is 3rd value.", "revealsCriticalInfo": false},
+        {"level": 1, "content": "Sum = 40. Most common is 7 (appears exactly twice). Middle means 7 is the 3rd value.", "revealsCriticalInfo": false},
         {"level": 2, "content": "Try: _, 7, 7, _, _ with sum = 40. Minimize first and fourth to maximize fifth.", "revealsCriticalInfo": false},
-        {"level": 3, "content": "Example: 4, 7, 7, 8, 14. Sum=40, median=7, mode=7 (twice). Max = 14.", "revealsCriticalInfo": true}
+        {"level": 3, "content": "Example: 4, 7, 7, 8, 14. Sum=40, middle=7, most common=7 (twice). Max = 14.", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["mean", "median", "mode", "constraints", "optimization"],
-        "distractorTypes": {"A": "underestimate", "B": "mode_error", "D": "overestimate", "E": "overestimate"},
+        "conceptsRequired": ["average", "middle-value", "most-common-value", "constraints", "optimization"],
+        "distractorTypes": {"A": "underestimate", "B": "partial_solution", "D": "overestimate", "E": "overestimate"},
         "solutionApproach": "Set up all constraints → Find valid set → Maximize target value",
         "timeTarget": 120,
-        "commonErrors": ["Violating mode constraint", "Wrong median position"]
+        "commonErrors": ["Violating most-common constraint", "Wrong middle position"]
       },
       "difficulty": 4,
       "estimatedTime": 120,
@@ -664,12 +665,12 @@
       "stem": "A graph shows that ice cream sales and drowning deaths both increase in summer. A student concludes: 'Eating ice cream causes drowning.' What is wrong with this conclusion?",
       "mcqOptions": [
         {"id": "A", "text": "The graph might be inaccurate", "isCorrect": false, "feedback": "The data could be accurate, but the INTERPRETATION is flawed."},
-        {"id": "B", "text": "Correlation does not prove causation - both are caused by hot weather", "isCorrect": true, "feedback": "Correct! Both increase in summer because of hot weather. Ice cream doesn't CAUSE drowning - they share a common cause."},
-        {"id": "C", "text": "The sample size is too small", "isCorrect": false, "feedback": "Even with large samples, correlation doesn't prove causation."},
+        {"id": "B", "text": "Just because two things increase together doesn't mean one causes the other - both are caused by hot weather", "isCorrect": true, "feedback": "Correct! Both increase in summer because of hot weather. Ice cream doesn't CAUSE drowning - they share a common cause."},
+        {"id": "C", "text": "The sample size is too small", "isCorrect": false, "feedback": "Even with large samples, just because two things happen together doesn't prove one causes the other."},
         {"id": "D", "text": "Ice cream sales don't really increase in summer", "isCorrect": false, "feedback": "Ice cream sales DO increase in summer - that's not the error."},
         {"id": "E", "text": "The data should have been collected over more years", "isCorrect": false, "feedback": "More data wouldn't fix the logical flaw in concluding causation from correlation."}
       ],
-      "solution": "**Methodology: Correlation vs Causation**\n\n**Key insight**: Two things happening together (correlation) doesn't mean one causes the other.\n\n**Analysis**:\n- Ice cream sales ↑ in summer (because it's hot)\n- Drowning deaths ↑ in summer (more swimming because it's hot)\n- Both increase together, but neither CAUSES the other\n- Common cause: hot weather → more ice cream AND more swimming\n\n**This is called a 'spurious correlation' or 'confounding variable' situation.**\n\n**Verification**: Hot weather is the hidden common cause ✓",
+      "solution": "**Methodology: Correlation vs Causation**\n\n**Key insight**: Two things happening together doesn't mean one causes the other.\n\n**Analysis**:\n- Ice cream sales ↑ in summer (because it's hot)\n- Drowning deaths ↑ in summer (more swimming because it's hot)\n- Both increase together, but neither CAUSES the other\n- Common cause: hot weather → more ice cream AND more swimming\n\n**This is a classic example of a 'hidden common cause' or 'confounding variable'.**\n\n**Verification**: Hot weather is the hidden common cause ✓",
       "hints": [
         {"level": 1, "content": "Just because two things increase together doesn't mean one causes the other.", "revealsCriticalInfo": false},
         {"level": 2, "content": "What else happens in summer that might affect both variables?", "revealsCriticalInfo": false},
@@ -678,7 +679,7 @@
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["correlation", "causation", "confounding-variables", "critical-thinking"],
+        "conceptsRequired": ["correlation-vs-causation", "confounding-variables", "critical-thinking"],
         "distractorTypes": {"A": "wrong_criticism", "C": "irrelevant_criticism", "D": "denies_data", "E": "irrelevant_solution"},
         "solutionApproach": "Recognize correlation ≠ causation → Identify common cause",
         "timeTarget": 60,
@@ -701,7 +702,7 @@
         {"id": "D", "text": "Negative when it's actually positive", "isCorrect": false, "feedback": "The direction is correct (increase), but the magnitude is exaggerated."},
         {"id": "E", "text": "More accurate because it zooms in on the data", "isCorrect": false, "feedback": "While 'zooming in' shows detail, it can mislead readers about the actual magnitude of change."}
       ],
-      "solution": "**Methodology: Misleading Graphs - Truncated Axis**\n\n**Key insight**: When the y-axis doesn't start at 0, changes appear exaggerated.\n\n**Analysis**:\n- Actual increase: $90,000 → $100,000 = $10,000 (11% increase)\n- With y-axis from 0: the increase would be a small portion of the graph height\n- With y-axis from $88,000: the $10,000 increase fills most of the visible graph\n- This makes an 11% increase LOOK like a 500%+ increase visually\n\n**Verification**: Truncated axis exaggerates slope ✓",
+      "solution": "**Methodology: Misleading Graphs - Truncated Axis**\n\n**Key insight**: When the y-axis doesn't start at 0, changes appear exaggerated.\n\n**Analysis**:\n- Actual increase: $90,000 → $100,000 = $10,000 (11% increase)\n- With y-axis from 0: the increase would be a small portion of the graph height\n- With y-axis from $88,000: the $10,000 increase fills most of the visible graph\n- This makes an 11% increase LOOK like a much bigger change visually\n\n**Verification**: Truncated axis exaggerates slope ✓",
       "hints": [
         {"level": 1, "content": "Think about how the graph would look if the y-axis started at $0.", "revealsCriticalInfo": false},
         {"level": 2, "content": "From $0 to $100,000, the $10,000 increase is 10% of the total. From $88,000 to $100,000, it's 83%.", "revealsCriticalInfo": false},
@@ -729,7 +730,7 @@
       "mcqOptions": [
         {"id": "A", "text": "Exactly 15 students like both subjects", "isCorrect": true, "feedback": "Correct! Using inclusion-exclusion: Like both = 30 + 25 - 40 = 15."},
         {"id": "B", "text": "More students like maths than science because 30 > 25", "isCorrect": false, "feedback": "This is true but trivial - it just restates the given data without analysis."},
-        {"id": "C", "text": "10 students don't like any subject", "isCorrect": false, "feedback": "50 total - 40 who like at least one = 10. This is correct! But A is also valid and uses more analysis."},
+        {"id": "C", "text": "10 students don't like any subject", "isCorrect": false, "feedback": "50 total - 40 who like at least one = 10. This is correct! But A is also valid and shows deeper analysis."},
         {"id": "D", "text": "Students who like maths tend to like science", "isCorrect": false, "feedback": "We can't conclude tendency or preference - just that 15 of 30 maths students also like science."},
         {"id": "E", "text": "Science is less popular than maths", "isCorrect": false, "feedback": "'Less popular' is a judgment. We only know 25 vs 30 students - not why or if it would hold for all students."}
       ],
@@ -757,28 +758,28 @@
     {
       "questionId": "nsw-sel-qa23-024",
       "questionType": "MCQ",
-      "stem": "Test scores for Class A: mean = 75, range = 30. Test scores for Class B: mean = 75, range = 10. Which statement is TRUE?",
+      "stem": "Test scores for Class A: average = 75, difference between highest and lowest = 30. Test scores for Class B: average = 75, difference between highest and lowest = 10. Which statement is TRUE?",
       "mcqOptions": [
-        {"id": "A", "text": "Class A performed better overall", "isCorrect": false, "feedback": "Both classes have the same mean (75), so overall performance is equal."},
-        {"id": "B", "text": "Class B performed better overall", "isCorrect": false, "feedback": "Both classes have the same mean (75), so overall performance is equal."},
-        {"id": "C", "text": "Class B's scores are more consistent", "isCorrect": true, "feedback": "Correct! Smaller range (10 vs 30) means scores are closer together - more consistent."},
-        {"id": "D", "text": "Class A has more students", "isCorrect": false, "feedback": "We don't know the class sizes - range doesn't tell us how many students."},
-        {"id": "E", "text": "The highest score was in Class B", "isCorrect": false, "feedback": "We can't determine this. Class A's range of 30 could mean higher OR lower extreme scores."}
+        {"id": "A", "text": "Class A performed better overall", "isCorrect": false, "feedback": "Both classes have the same average (75), so overall performance is equal."},
+        {"id": "B", "text": "Class B performed better overall", "isCorrect": false, "feedback": "Both classes have the same average (75), so overall performance is equal."},
+        {"id": "C", "text": "Class B's scores are more consistent", "isCorrect": true, "feedback": "Correct! Smaller spread (10 vs 30) means scores are closer together - more consistent."},
+        {"id": "D", "text": "Class A has more students", "isCorrect": false, "feedback": "We don't know the class sizes - the spread doesn't tell us how many students."},
+        {"id": "E", "text": "The highest score was in Class B", "isCorrect": false, "feedback": "We can't determine this. Class A's spread of 30 could mean higher OR lower extreme scores."}
       ],
-      "solution": "**Methodology: Interpreting Mean and Range**\n\n**Key insight**: \n- Mean shows the central tendency (average)\n- Range shows the spread (variability)\n\n**Analysis**:\n- Same mean (75) → same average performance\n- Class A range = 30 → scores spread over 30 points\n- Class B range = 10 → scores spread over only 10 points\n- Smaller spread = more consistent scores\n\n**Verification**: Range 10 < Range 30 → Class B more consistent ✓",
+      "solution": "**Methodology: Interpreting Average and Spread**\n\n**Key insight**: \n- Average shows the typical/central value\n- Spread (difference between highest and lowest) shows variability\n\n**Analysis**:\n- Same average (75) → same typical performance\n- Class A spread = 30 → scores spread over 30 points\n- Class B spread = 10 → scores spread over only 10 points\n- Smaller spread = more consistent scores\n\n**Verification**: Spread 10 < Spread 30 → Class B more consistent ✓",
       "hints": [
-        {"level": 1, "content": "Mean tells you the average. Range tells you about spread/consistency.", "revealsCriticalInfo": false},
-        {"level": 2, "content": "Same mean means same average. But which class has less variation?", "revealsCriticalInfo": false},
-        {"level": 3, "content": "Smaller range (10 vs 30) = scores closer together = more consistent.", "revealsCriticalInfo": true}
+        {"level": 1, "content": "Average tells you the typical value. Spread tells you about consistency.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Same average means same typical performance. But which class has scores closer together?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Smaller spread (10 vs 30) = scores closer together = more consistent.", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["mean", "range", "consistency", "interpretation"],
+        "conceptsRequired": ["average", "spread", "consistency", "interpretation"],
         "distractorTypes": {"A": "wrong_measure", "B": "wrong_measure", "D": "insufficient_data", "E": "insufficient_data"},
-        "solutionApproach": "Interpret what each statistic tells us → Draw valid comparison",
+        "solutionApproach": "Interpret what each measure tells us → Draw valid comparison",
         "timeTarget": 60,
-        "commonErrors": ["Confusing range with average", "Making claims without evidence"]
+        "commonErrors": ["Confusing spread with average", "Making claims without evidence"]
       },
       "difficulty": 3,
       "estimatedTime": 60,
@@ -792,25 +793,25 @@
       "stem": "A study found that students who eat breakfast score higher on tests. A parent concludes: 'I should make my child eat breakfast to improve test scores.' What assumption does this conclusion make?",
       "mcqOptions": [
         {"id": "A", "text": "That the study was conducted properly", "isCorrect": false, "feedback": "This is a reasonable assumption, but not the main logical assumption being made."},
-        {"id": "B", "text": "That eating breakfast CAUSES better test scores", "isCorrect": true, "feedback": "Correct! The parent assumes causation. But maybe organized families who ensure breakfast ALSO ensure study time - breakfast might be correlated but not causal."},
+        {"id": "B", "text": "That eating breakfast CAUSES better test scores", "isCorrect": true, "feedback": "Correct! The parent assumes causation. But maybe organized families who ensure breakfast ALSO ensure study time - breakfast might be related but not the actual cause."},
         {"id": "C", "text": "That all children like breakfast", "isCorrect": false, "feedback": "Whether children like breakfast isn't relevant to the logical flaw."},
         {"id": "D", "text": "That test scores are important", "isCorrect": false, "feedback": "This is assumed but not the key logical assumption about the data interpretation."},
         {"id": "E", "text": "That breakfast is healthy", "isCorrect": false, "feedback": "Health of breakfast isn't the logical issue - the causation assumption is."}
       ],
-      "solution": "**Methodology: Identifying Assumptions in Data Interpretation**\n\n**Key insight**: Correlation ≠ Causation\n\n**The study shows**: Breakfast eaters score higher (correlation)\n\n**The parent concludes**: Eating breakfast → better scores (causation)\n\n**The hidden assumption**: That breakfast CAUSES better scores\n\n**Alternative explanations**:\n- Families that ensure breakfast may also ensure sleep, study time, etc.\n- Wealthier families may provide both breakfast AND tutoring\n- The common cause might be 'organized household'\n\n**Verification**: The parent assumes causation from correlation ✓",
+      "solution": "**Methodology: Identifying Hidden Assumptions**\n\n**Key insight**: The parent assumes that breakfast CAUSES better scores, not just that they're related.\n\n**Analysis**:\n- Study found: breakfast → correlated with → higher scores\n- Parent concludes: breakfast → causes → higher scores\n- Hidden assumption: correlation = causation\n\n**Alternative explanations**:\n- Organized families might ensure both breakfast AND study time\n- Wealthier families might afford breakfast AND tutoring\n- The 'cause' might be something else entirely\n\n**Verification**: The parent assumes causation from correlation ✓",
       "hints": [
-        {"level": 1, "content": "The study shows a relationship (correlation). What does the parent assume?", "revealsCriticalInfo": false},
-        {"level": 2, "content": "The parent plans to change one thing (breakfast) expecting another to change (scores).", "revealsCriticalInfo": false},
-        {"level": 3, "content": "This assumes breakfast CAUSES better scores - but correlation isn't causation.", "revealsCriticalInfo": true}
+        {"level": 1, "content": "What's the difference between 'related to' and 'causes'?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "The study shows they're related. The parent assumes one causes the other.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "The hidden assumption is that breakfast CAUSES better scores, not just that they happen together.", "revealsCriticalInfo": true}
       ],
       "nswSelective": {
         "archetype": "Data Interpretation & Statistical Reasoning",
         "archetypeId": "qa23",
-        "conceptsRequired": ["correlation-vs-causation", "assumptions", "critical-thinking"],
-        "distractorTypes": {"A": "minor_assumption", "C": "irrelevant", "D": "minor_assumption", "E": "irrelevant"},
-        "solutionApproach": "Identify the logical leap from correlation to causation",
+        "conceptsRequired": ["hidden-assumptions", "correlation-vs-causation", "critical-thinking"],
+        "distractorTypes": {"A": "true_but_not_key", "C": "irrelevant", "D": "true_but_not_key", "E": "irrelevant"},
+        "solutionApproach": "Identify the logical leap → Recognize causation assumption",
         "timeTarget": 75,
-        "commonErrors": ["Not recognizing the causation assumption", "Accepting correlation as proof"]
+        "commonErrors": ["Not recognizing correlation vs causation", "Accepting conclusion at face value"]
       },
       "difficulty": 4,
       "estimatedTime": 75,

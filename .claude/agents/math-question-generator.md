@@ -247,6 +247,11 @@ Create questions array:
 }
 ```
 
+### Key Notes:
+1. Target Audience: Intermediate to advanced learners. Optimize content for a high level of conceptual depth and assume prior foundational knowledge.
+2. Adjust the complexity for a student demographic performing in the 75th percentile or higher. Focus on nuanced applications rather than basic definitions.
+3. The output should reflect a positive skew in cognitive demand, targeting students with above-average baseline comprehension.
+
 ## Quality Checklist (VERIFY EACH QUESTION)
 
 - [ ] `questionType` is `"WORKED_SOLUTION"`

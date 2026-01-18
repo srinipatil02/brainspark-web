@@ -40,6 +40,9 @@ When analyzing progressions:
 2. Identify foundational concepts required
 3. Map to Stage descriptors (Stage 4 = Years 7-8, Stage 5 = Years 9-10)
 4. Note complexity increases at each level
+5. Target Audience: Intermediate to advanced learners. Optimize content for a high level of conceptual depth and assume prior foundational knowledge.
+6. Adjust the complexity for a student demographic performing in the 75th percentile or higher. Focus on nuanced applications rather than basic definitions.
+7. The output should reflect a positive skew in cognitive demand, targeting students with above-average baseline comprehension.
 
 ## Key Resources
 

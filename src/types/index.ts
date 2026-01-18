@@ -125,6 +125,208 @@ export interface NswSelectiveMetadata {
 }
 
 // =============================================================================
+// NSW SELECTIVE READING TYPES (Reading Comprehension)
+// =============================================================================
+// DOMAIN: NSW Selective Exam - Reading Section
+// PURPOSE: Types for passage-based reading comprehension questions
+// DO NOT: Mix with mathematics archetype types
+
+/**
+ * Reading Comprehension Archetype IDs
+ * Maps to 18 question patterns for reading comprehension
+ */
+export type ReadingArchetypeId =
+  | 'rc01'  // Nuanced Inference
+  | 'rc02'  // Author's Purpose/Rhetorical Intent
+  | 'rc03'  // Tone/Attitude Recognition
+  | 'rc04'  // Cross-Text Synthesis
+  | 'rc05'  // Vocabulary in Context
+  | 'rc06'  // Word Choice Effect
+  | 'rc07'  // Structural/Organizational Analysis
+  | 'rc08'  // Supporting Evidence
+  | 'rc09'  // Main Idea with Nuance
+  | 'rc10'  // Poetry: Imagery Interpretation
+  | 'rc11'  // Poetry: Figurative Language Effect
+  | 'rc12'  // Poetry: Speaker/Voice Analysis
+  | 'rc13'  // Poetry: Sound and Form Effect
+  | 'rc14'  // Cloze: Semantic Coherence
+  | 'rc15'  // Cloze: Logical Coherence
+  | 'rc16'  // Extract Matching: Source Identification
+  | 'rc17'  // Critical Evaluation
+  | 'rc18'; // Irony/Satire Recognition
+
+/**
+ * Reading-specific distractor types
+ * Designed to diagnose specific reading comprehension errors
+ */
+export type ReadingDistractorType =
+  | 'out_of_scope'              // Answer introduces info not in passage
+  | 'too_extreme'               // Uses absolute language when passage is nuanced
+  | 'opposite_meaning'          // Directly contradicts passage
+  | 'half_right'                // Starts correctly but includes unsupported detail
+  | 'true_but_irrelevant'       // Correct fact but doesn't answer question
+  | 'wordplay_trap'             // Uses passage words but changes meaning
+  | 'wrong_tone'                // Similar meaning but wrong emotional coloring
+  | 'literal_interpretation'    // Takes figurative/ironic at face value
+  | 'speaker_author_confusion'  // Confuses speaker's views with author's
+  | 'overgeneralization'        // Extends specific example beyond scope
+  | 'wrong_source';             // Multi-text: correct info from wrong passage
+
+/**
+ * NAEP Cognitive Targets for reading comprehension
+ */
+export type CognitiveTarget =
+  | 'locate_recall'       // Literal: find directly stated info
+  | 'integrate_interpret' // Inferential: read between the lines
+  | 'critique_evaluate';  // Critical: judge, analyze, synthesize
+
+/**
+ * Comprehension levels (Pearson & Johnson taxonomy)
+ * 1 = Literal/Explicit, 2 = Inferential, 3 = Script-Based, 4 = Evaluative
+ */
+export type ComprehensionLevel = 1 | 2 | 3 | 4;
+
+/**
+ * Passage text types for reading comprehension
+ */
+export type PassageTextType = 'prose' | 'poetry' | 'multi-text';
+export type ProseSubType = 'fiction' | 'non-fiction';
+export type ProseGenre = 'narrative' | 'expository' | 'argumentative' | 'descriptive';
+export type NarratorType = 'first_person' | 'third_person_limited' | 'third_person_omniscient';
+
+/**
+ * Extended passage interface for Reading comprehension
+ */
+export interface ReadingPassage {
+  passageId: string;
+  title: string;
+  content: string;
+  wordCount: number;
+  readingLevel: string;
+  textType: PassageTextType;
+
+  // For prose passages
+  subType?: ProseSubType;
+  genre?: ProseGenre;
+  theme?: string;
+  author?: string;
+  source?: string;
+  narrativeElements?: {
+    setting?: string;
+    characters?: string[];
+    narrator?: NarratorType;
+  };
+
+  // For poetry passages
+  form?: string;
+  lineCount?: number;
+  stanzaCount?: number;
+  rhymeScheme?: string;
+  literaryDevices?: string[];
+
+  // For multi-text passages
+  texts?: {
+    id: string;           // A, B, C, D
+    title: string;
+    content: string;
+    perspective: string;
+    wordCount: number;
+  }[];
+  relationshipType?: 'complementary' | 'contrasting' | 'qualifying' | 'mixed';
+  sharedTheme?: string;
+
+  // Metadata
+  curriculum?: FirestoreCurriculum;
+  tags?: string[];
+}
+
+/**
+ * Inference types for reading comprehension questions
+ * Describes the specific type of inference required
+ */
+export type InferenceType =
+  | 'thematic_synthesis'      // Synthesizing themes across passage
+  | 'psychological_state'     // Understanding character emotions/motivations
+  | 'causal_reasoning'        // Understanding cause and effect
+  | 'authorial_intent'        // Understanding author's purpose
+  | 'textual_implication'     // Drawing logical conclusions
+  | 'symbolic_meaning'        // Understanding figurative/symbolic language
+  | 'tone_atmosphere'         // Inferring mood and tone
+  | 'character_development'   // Understanding character growth/change
+  | 'contextual_meaning';     // Understanding meaning from context
+
+/**
+ * NSW Selective Reading metadata for questions
+ * Every Reading question MUST include this for archetype-based learning
+ */
+export interface NswSelectiveReadingMetadata {
+  archetype: string;                                    // Human-readable: "Nuanced Inference"
+  archetypeId: ReadingArchetypeId;                      // Machine ID: "rc01"
+  cognitiveTarget: CognitiveTarget;                     // NAEP target
+  comprehensionLevel: ComprehensionLevel;               // 1-4 Pearson & Johnson
+  distractorTypes: Record<string, ReadingDistractorType>; // {"B": "out_of_scope", ...}
+  skillsRequired: string[];                             // ["inference", "synthesis"]
+  lineReferences?: number[];                            // [12, 15] - lines referenced
+  textEvidence: string | {                              // Key quote/evidence supporting answer
+    required: boolean;
+    location?: string;
+    quoteHint?: string;
+  };
+  readingStrategy: string;                              // Approach to solve
+  timeTarget: number;                                   // Seconds for this question
+  inferenceType?: InferenceType | string;               // Type of inference (for rc01 and similar)
+}
+
+/**
+ * Reading testlet - a passage with its associated questions
+ */
+export interface ReadingTestlet {
+  testletId: string;
+  passage: ReadingPassage;
+  passageId: string;
+  questions: FirestoreQuestion[];
+  questionCount: number;
+  recommendedTime: number;
+  metadata: {
+    archetypesRepresented: ReadingArchetypeId[];
+    cognitiveTargetDistribution: {
+      locate_recall: number;
+      integrate_interpret: number;
+      critique_evaluate: number;
+    };
+    difficultyProgression: boolean;
+    section: 'nsw-selective-reading';
+  };
+}
+
+/**
+ * Combined archetype ID type (Math + Reading)
+ */
+export type AnyArchetypeId = ArchetypeId | ReadingArchetypeId;
+
+/**
+ * Type guard to check if archetype is a Reading archetype
+ */
+export function isReadingArchetype(id: string): id is ReadingArchetypeId {
+  return id.startsWith('rc');
+}
+
+/**
+ * Type guard to check if archetype is a Math archetype
+ */
+export function isMathArchetype(id: string): id is ArchetypeId {
+  return id.startsWith('qa');
+}
+
+/**
+ * Type guard to check if a question is an NSW Selective Reading question
+ */
+export function isNswSelectiveReadingQuestion(question: FirestoreQuestion): boolean {
+  return question.paperMetadata?.section === 'nsw-selective-reading' &&
+         'nswSelectiveReading' in question;
+}
+
+// =============================================================================
 // VISUAL CONTENT TYPES (for diagrams, graphs, images)
 // =============================================================================
 // DOMAIN: Shared infrastructure
@@ -335,7 +537,8 @@ export interface FirestoreQuestion {
   // =============================================================================
   // NSW SELECTIVE FIELDS (archetype-based exam preparation)
   // =============================================================================
-  nswSelective?: NswSelectiveMetadata;  // Required for NSW Selective questions
+  nswSelective?: NswSelectiveMetadata;  // Required for NSW Selective Math questions
+  nswSelectiveReading?: NswSelectiveReadingMetadata;  // Required for NSW Selective Reading questions
   version?: number;
   status: string;       // "published", "draft"
   createdAt?: string;
