@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set1",
+    "setNumber": 1,
+    "questionRange": "Q1-10",
+    "phase": "foundation",
+    "difficulty": "1-2",
+    "focus": "Ratio notation, simplifying ratios"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-001",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "In a class, there are 12 boys and 18 girls.\n\nWrite the ratio of boys to girls in its simplest form.\n\nShow your working.",
+      "solution": "**Solution:**\n\nBoys : Girls = 12 : 18\n\nFind the HCF of 12 and 18:\nFactors of 12: 1, 2, 3, 4, 6, 12\nFactors of 18: 1, 2, 3, 6, 9, 18\nHCF = 6\n\nDivide both parts by 6:\n$$\\frac{12}{6} : \\frac{18}{6} = 2 : 3$$\n\n**Answer: 2 : 3**\n\n**Check:** 2 × 6 = 12, 3 × 6 = 18 ✓",
+      "hints": [
+        {"level": 1, "content": "Write the ratio in the order mentioned: boys first, then girls.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Find the highest common factor (HCF) of 12 and 18 to simplify.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "HCF of 12 and 18 is 6. Divide both by 6.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Start by writing the ratio as boys : girls with the actual numbers.",
+          "encouragement": "Order matters in ratios - follow the question!",
+          "questionPrompt": "What is the ratio before simplifying?"
+        },
+        {
+          "level": 2,
+          "content": "To simplify, divide both parts by their highest common factor.",
+          "encouragement": "This is just like simplifying fractions!",
+          "questionPrompt": "What's the largest number that divides both 12 and 18?"
+        },
+        {
+          "level": 3,
+          "content": "HCF = 6. Divide: 12÷6 = 2, 18÷6 = 3",
+          "encouragement": "You've simplified the ratio!",
+          "questionPrompt": "What is 12÷6 : 18÷6?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Boys : Girls = 12 : 18",
+        "expectedAnswers": ["2:3", "2 : 3", "2 to 3", "2:3"],
+        "gradingGuidance": "Student must simplify 12:18 to 2:3. Accept with or without spaces around colon. Common error: writing girls:boys (3:2) - check order matches question.",
+        "sampleSolutions": [
+          "12 : 18\n÷6  ÷6\n2 : 3",
+          "12 : 18 = 2 : 3 (dividing both by 6)"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio notation", "simplifying ratios", "HCF"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA188"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 1,
+        "conceptsUsed": ["c1", "c2"],
+        "buildsOn": [],
+        "preparesFor": ["ratio-rate-y8-002"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can write and simplify ratios!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-ratios-rates-set1",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-002",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Simplify the ratio 24 : 36.\n\nShow your working.",
+      "solution": "**Solution:**\n\n24 : 36\n\nFind the HCF of 24 and 36:\nHCF = 12\n\nDivide both parts by 12:\n$$\\frac{24}{12} : \\frac{36}{12} = 2 : 3$$\n\n**Answer: 2 : 3**",
+      "hints": [
+        {"level": 1, "content": "Find a common factor of 24 and 36.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Both numbers are divisible by 12.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "24÷12 = 2, 36÷12 = 3", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Look for a number that divides evenly into both 24 and 36.",
+          "encouragement": "Start with small factors if you're unsure!",
+          "questionPrompt": "Can both numbers be divided by 2? By 3? By a larger number?"
+        },
+        {
+          "level": 2,
+          "content": "The HCF is 12. This gives the simplest form in one step.",
+          "encouragement": "Finding the HCF is efficient!",
+          "questionPrompt": "What is 24 ÷ 12 and 36 ÷ 12?"
+        },
+        {
+          "level": 3,
+          "content": "24 ÷ 12 = 2 and 36 ÷ 12 = 3",
+          "encouragement": "You've found the simplest form!",
+          "questionPrompt": "Is 2:3 fully simplified?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "24 : 36",
+        "expectedAnswers": ["2:3", "2 : 3", "2 to 3"],
+        "gradingGuidance": "Accept any method that reaches 2:3. Student may simplify in steps (24:36 → 12:18 → 6:9 → 2:3) or in one step using HCF. All valid.",
+        "sampleSolutions": [
+          "24 : 36\n÷12 ÷12\n2 : 3",
+          "24 : 36 → 12 : 18 → 6 : 9 → 2 : 3"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["simplifying ratios", "HCF"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA188"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 2,
+        "conceptsUsed": ["c2"],
+        "buildsOn": ["ratio-rate-y8-001"],
+        "preparesFor": ["ratio-rate-y8-003"]
+      },
+      "pedagogy": {
+        "type": "practice",
+        "targetFeeling": "Simplifying ratios is routine!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-ratios-rates-set1",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-003",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Simplify the ratio 45 : 30.\n\nShow your working.",
+      "solution": "**Solution:**\n\n45 : 30\n\nFind the HCF of 45 and 30:\nHCF = 15\n\nDivide both parts by 15:\n$$\\frac{45}{15} : \\frac{30}{15} = 3 : 2$$\n\n**Answer: 3 : 2**",
+      "hints": [
+        {"level": 1, "content": "Find a common factor of 45 and 30.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Both are divisible by 5, but also by 15.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "45÷15 = 3, 30÷15 = 2", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Both numbers end in 5 or 0, so they're divisible by 5.",
+          "encouragement": "Look for the largest common factor!",
+          "questionPrompt": "What's the largest number that divides both 45 and 30?"
+        },
+        {
+          "level": 2,
+          "content": "The HCF of 45 and 30 is 15.",
+          "encouragement": "Using HCF gets you there in one step!",
+          "questionPrompt": "What is 45 ÷ 15 and 30 ÷ 15?"
+        },
+        {
+          "level": 3,
+          "content": "45 ÷ 15 = 3 and 30 ÷ 15 = 2",
+          "encouragement": "Perfect simplification!",
+          "questionPrompt": "What's the final ratio?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "45 : 30",
+        "expectedAnswers": ["3:2", "3 : 2", "3 to 2"],
+        "gradingGuidance": "Answer is 3:2 (NOT 2:3 - order matters). Accept stepwise simplification. Common error: reversing the order.",
+        "sampleSolutions": [
+          "45 : 30\n÷15 ÷15\n3 : 2",
+          "45 : 30 → 9 : 6 → 3 : 2"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["simplifying ratios", "order matters"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA188"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 3,
+        "conceptsUsed": ["c2"],
+        "buildsOn": ["ratio-rate-y8-002"],
+        "preparesFor": ["ratio-rate-y8-004"]
+      },
+      "pedagogy": {
+        "type": "practice",
+        "targetFeeling": "I keep the order consistent!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-ratios-rates-set1",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-004",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Write the ratio 1.5 : 2.5 as a ratio of whole numbers in simplest form.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Multiply both parts by 10 to eliminate decimals\n$$1.5 : 2.5 = 15 : 25$$\n\n**Step 2:** Simplify by dividing by HCF (5)\n$$15 : 25 = 3 : 5$$\n\n**Answer: 3 : 5**",
+      "hints": [
+        {"level": 1, "content": "First, convert the decimals to whole numbers by multiplying.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Multiply both by 10 to get 15 : 25.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Now simplify 15 : 25 by dividing by 5.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Ratios should be in whole numbers. What can you multiply by to remove decimals?",
+          "encouragement": "Multiply both parts by the same number!",
+          "questionPrompt": "What do you multiply 1.5 and 2.5 by to get whole numbers?"
+        },
+        {
+          "level": 2,
+          "content": "×10 gives 15 : 25. Now simplify this ratio.",
+          "encouragement": "You've converted to whole numbers!",
+          "questionPrompt": "What is the HCF of 15 and 25?"
+        },
+        {
+          "level": 3,
+          "content": "HCF = 5. So 15÷5 : 25÷5 = 3 : 5",
+          "encouragement": "Two-step process mastered!",
+          "questionPrompt": "What is 15÷5 : 25÷5?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "1.5 : 2.5",
+        "expectedAnswers": ["3:5", "3 : 5", "3 to 5"],
+        "gradingGuidance": "Two-step problem: (1) eliminate decimals, (2) simplify. Accept multiplication by 2 (getting 3:5 directly) or by 10 then simplify. Both valid.",
+        "sampleSolutions": [
+          "1.5 : 2.5\n×10 ×10\n15 : 25\n÷5  ÷5\n3 : 5",
+          "1.5 : 2.5 = 3 : 5 (multiply both by 2)"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["decimal ratios", "simplifying ratios"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA188"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 4,
+        "conceptsUsed": ["c2"],
+        "buildsOn": ["ratio-rate-y8-003"],
+        "preparesFor": ["ratio-rate-y8-005"]
+      },
+      "pedagogy": {
+        "type": "extension",
+        "targetFeeling": "I can handle decimal ratios!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-ratios-rates-set1",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-005",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Write the ratio $\\frac{1}{2} : \\frac{3}{4}$ as a ratio of whole numbers.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Find the LCM of the denominators (2 and 4)\nLCM = 4\n\n**Step 2:** Multiply both fractions by 4\n$$\\frac{1}{2} \\times 4 : \\frac{3}{4} \\times 4 = 2 : 3$$\n\n**Answer: 2 : 3**",
+      "hints": [
+        {"level": 1, "content": "Multiply both parts by a number that eliminates the fractions.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "The LCM of 2 and 4 is 4. Multiply both fractions by 4.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "½ × 4 = 2 and ¾ × 4 = 3", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "To convert fraction ratios to whole numbers, multiply by a common denominator.",
+          "encouragement": "Same principle as decimal ratios!",
+          "questionPrompt": "What's a number that both 2 and 4 divide into?"
+        },
+        {
+          "level": 2,
+          "content": "Multiply both by 4 (the LCM of 2 and 4).",
+          "encouragement": "This eliminates both fractions!",
+          "questionPrompt": "What is ½ × 4 and ¾ × 4?"
+        },
+        {
+          "level": 3,
+          "content": "½ × 4 = 2 and ¾ × 4 = 3",
+          "encouragement": "You've converted fractions to whole numbers!",
+          "questionPrompt": "What's the final ratio?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "½ : ¾",
+        "expectedAnswers": ["2:3", "2 : 3", "2 to 3"],
+        "gradingGuidance": "Student must convert fractions to whole numbers. Multiplying by 4 is most efficient. Accept any valid method that reaches 2:3.",
+        "sampleSolutions": [
+          "½ : ¾\n×4 ×4\n2 : 3",
+          "½ = 2/4, so 2/4 : 3/4 = 2 : 3"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["fraction ratios", "LCM"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA188"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 5,
+        "conceptsUsed": ["c2"],
+        "buildsOn": ["ratio-rate-y8-004"],
+        "preparesFor": ["ratio-rate-y8-006"]
+      },
+      "pedagogy": {
+        "type": "extension",
+        "targetFeeling": "Fraction ratios are manageable!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-ratios-rates-set1",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-006",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Complete the equivalent ratio:\n\n$$5 : 8 = 20 : \\text{?}$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nFind what 5 was multiplied by to get 20:\n$$5 \\times 4 = 20$$\n\nMultiply the second part by the same number:\n$$8 \\times 4 = 32$$\n\n**Answer: 32**\n\n**Check:** 5 : 8 = 20 : 32 (both simplify to 5 : 8) ✓",
+      "hints": [
+        {"level": 1, "content": "What was 5 multiplied by to get 20?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "5 × 4 = 20, so multiply the other part by 4 too.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "8 × 4 = 32", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Equivalent ratios use the same multiplier on both parts.",
+          "encouragement": "Find what happened to the first number!",
+          "questionPrompt": "What do you multiply 5 by to get 20?"
+        },
+        {
+          "level": 2,
+          "content": "The multiplier is 4 (since 5 × 4 = 20).",
+          "encouragement": "Now use the same multiplier on 8!",
+          "questionPrompt": "What is 8 × 4?"
+        },
+        {
+          "level": 3,
+          "content": "8 × 4 = 32",
+          "encouragement": "You've found the equivalent ratio!",
+          "questionPrompt": "Is 20:32 equivalent to 5:8?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "5 : 8 = 20 : ?",
+        "expectedAnswers": ["32"],
+        "gradingGuidance": "Student must find the multiplier (4) and apply it to 8. Accept cross-multiplication method as well.",
+        "sampleSolutions": [
+          "5 × 4 = 20\n8 × 4 = 32\nAnswer: 32",
+          "5/8 = 20/x\n5x = 160\nx = 32"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["equivalent ratios", "multiplier"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA188"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 6,
+        "conceptsUsed": ["c3"],
+        "buildsOn": ["ratio-rate-y8-005"],
+        "preparesFor": ["ratio-rate-y8-007"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can find equivalent ratios!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-ratios-rates-set1",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-007",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Complete the equivalent ratio:\n\n$$12 : 18 = \\text{?} : 3$$\n\nShow your working.",
+      "solution": "**Solution:**\n\nFind what 18 was divided by to get 3:\n$$18 \\div 6 = 3$$\n\nDivide the first part by the same number:\n$$12 \\div 6 = 2$$\n\n**Answer: 2**\n\n**Check:** 12 : 18 = 2 : 3 ✓",
+      "hints": [
+        {"level": 1, "content": "What was 18 divided by to get 3?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "18 ÷ 6 = 3, so divide the other part by 6 too.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "12 ÷ 6 = 2", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "We're going from a larger ratio to a smaller one - that means division.",
+          "encouragement": "Same principle, just dividing instead of multiplying!",
+          "questionPrompt": "What do you divide 18 by to get 3?"
+        },
+        {
+          "level": 2,
+          "content": "The divisor is 6 (since 18 ÷ 6 = 3).",
+          "encouragement": "Apply the same operation to 12!",
+          "questionPrompt": "What is 12 ÷ 6?"
+        },
+        {
+          "level": 3,
+          "content": "12 ÷ 6 = 2",
+          "encouragement": "You can scale ratios up or down!",
+          "questionPrompt": "So the missing number is?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "12 : 18 = ? : 3",
+        "expectedAnswers": ["2"],
+        "gradingGuidance": "Student must find the divisor (6) and apply it to 12. This is essentially simplifying the ratio.",
+        "sampleSolutions": [
+          "18 ÷ 6 = 3\n12 ÷ 6 = 2\nAnswer: 2",
+          "12 : 18 simplified is 2 : 3"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["equivalent ratios", "simplifying"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA188"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 7,
+        "conceptsUsed": ["c3"],
+        "buildsOn": ["ratio-rate-y8-006"],
+        "preparesFor": ["ratio-rate-y8-008"]
+      },
+      "pedagogy": {
+        "type": "practice",
+        "targetFeeling": "Equivalent ratios work both ways!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-ratios-rates-set1",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-008",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A recipe uses flour and sugar in the ratio 3 : 1.\n\nIf you use 450g of flour, how much sugar do you need?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method: Find the multiplier**\n\nFlour : Sugar = 3 : 1\n\n3 parts = 450g\n1 part = 450 ÷ 3 = 150g\n\nSugar = 1 part = 150g\n\n**Answer: 150g of sugar**\n\n**Check:** 450 : 150 = 3 : 1 ✓",
+      "hints": [
+        {"level": 1, "content": "450g of flour represents 3 parts. Find what 1 part equals.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = 450 ÷ 3 = 150g", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Sugar is 1 part, so sugar = 150g", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "In the ratio 3:1, flour is 3 parts and sugar is 1 part.",
+          "encouragement": "Find the value of one part first!",
+          "questionPrompt": "If 3 parts = 450g, how much is 1 part?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = 450g ÷ 3 = 150g",
+          "encouragement": "That's the unitary method!",
+          "questionPrompt": "How many parts is the sugar?"
+        },
+        {
+          "level": 3,
+          "content": "Sugar = 1 part = 150g",
+          "encouragement": "You've applied ratios to recipes!",
+          "questionPrompt": "Does 450:150 simplify to 3:1?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Flour : Sugar = 3 : 1, Flour = 450g",
+        "expectedAnswers": ["150g", "150 g", "150", "150 grams"],
+        "gradingGuidance": "Student should find 1 part = 150g using unitary method. Accept ratio scaling method as well.",
+        "sampleSolutions": [
+          "3 parts = 450g\n1 part = 450 ÷ 3 = 150g\nSugar = 150g",
+          "450 ÷ 3 = 150g per part\nSugar = 1 × 150 = 150g"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio application", "unitary method"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA188"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 8,
+        "conceptsUsed": ["c3", "c5"],
+        "buildsOn": ["ratio-rate-y8-007"],
+        "preparesFor": ["ratio-rate-y8-009"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "Ratios solve real problems!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-ratios-rates-set1",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-009",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Orange paint is made by mixing red and yellow paint in the ratio 2 : 5.\n\nHow much yellow paint is needed if you use 6 litres of red paint?\n\nShow your working.",
+      "solution": "**Solution:**\n\nRed : Yellow = 2 : 5\n\nRed = 2 parts = 6 litres\n1 part = 6 ÷ 2 = 3 litres\n\nYellow = 5 parts = 5 × 3 = 15 litres\n\n**Answer: 15 litres of yellow paint**\n\n**Check:** 6 : 15 = 2 : 5 ✓",
+      "hints": [
+        {"level": 1, "content": "6 litres of red represents 2 parts. Find what 1 part equals.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = 6 ÷ 2 = 3 litres", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Yellow = 5 parts = 5 × 3 = 15 litres", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Red is 2 parts in the ratio. Use this to find 1 part.",
+          "encouragement": "Unitary method again!",
+          "questionPrompt": "If 2 parts = 6 litres, what is 1 part?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = 3 litres. Yellow needs 5 parts.",
+          "encouragement": "Now scale up to 5 parts!",
+          "questionPrompt": "What is 5 × 3?"
+        },
+        {
+          "level": 3,
+          "content": "5 × 3 = 15 litres of yellow",
+          "encouragement": "You're mixing paint like a pro!",
+          "questionPrompt": "Does 6:15 equal 2:5?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Red : Yellow = 2 : 5, Red = 6L",
+        "expectedAnswers": ["15 litres", "15 L", "15", "15L", "15 liters"],
+        "gradingGuidance": "Two-step: find 1 part (3L), then multiply by 5. Common error: confusing which number corresponds to which colour.",
+        "sampleSolutions": [
+          "2 parts = 6L\n1 part = 3L\n5 parts = 15L",
+          "Red/Yellow = 2/5 = 6/x\n2x = 30\nx = 15L"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio application", "unitary method"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA188"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 9,
+        "conceptsUsed": ["c3", "c5"],
+        "buildsOn": ["ratio-rate-y8-008"],
+        "preparesFor": ["ratio-rate-y8-010"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I can scale ratios to find quantities!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-ratios-rates-set1",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-010",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "The ratio of cats to dogs in a shelter is 4 : 7.\n\nIf there are 28 dogs, how many cats are there?\n\nShow your working.",
+      "solution": "**Solution:**\n\nCats : Dogs = 4 : 7\n\nDogs = 7 parts = 28\n1 part = 28 ÷ 7 = 4\n\nCats = 4 parts = 4 × 4 = 16\n\n**Answer: 16 cats**\n\n**Check:** 16 : 28 = 4 : 7 ✓",
+      "hints": [
+        {"level": 1, "content": "28 dogs represents 7 parts. Find what 1 part equals.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = 28 ÷ 7 = 4", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Cats = 4 parts = 4 × 4 = 16", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Dogs correspond to 7 parts in the ratio.",
+          "encouragement": "Find the value of one part!",
+          "questionPrompt": "If 7 parts = 28, what is 1 part?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = 4. Cats need 4 parts.",
+          "encouragement": "You're getting quick at this!",
+          "questionPrompt": "What is 4 × 4?"
+        },
+        {
+          "level": 3,
+          "content": "4 × 4 = 16 cats",
+          "encouragement": "Ratio problems are routine now!",
+          "questionPrompt": "Verify: does 16:28 simplify to 4:7?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Cats : Dogs = 4 : 7, Dogs = 28",
+        "expectedAnswers": ["16", "16 cats"],
+        "gradingGuidance": "Student finds 1 part = 4, then multiplies by 4 to get 16 cats. Common error: giving 28 ÷ 4 = 7 instead of finding cats.",
+        "sampleSolutions": [
+          "7 parts = 28\n1 part = 4\n4 parts = 16 cats",
+          "4/7 = x/28\n7x = 112\nx = 16"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio application", "unitary method"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA188"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 1,
+        "phasePosition": 10,
+        "conceptsUsed": ["c3", "c5"],
+        "buildsOn": ["ratio-rate-y8-009"],
+        "preparesFor": ["ratio-rate-y8-011"]
+      },
+      "pedagogy": {
+        "type": "consolidation",
+        "targetFeeling": "I've mastered basic ratio calculations!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-ratios-rates-set1",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

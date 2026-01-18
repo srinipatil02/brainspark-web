@@ -1,0 +1,760 @@
+{
+  "setInfo": {
+    "setNumber": 8,
+    "phase": "connection",
+    "questions": "Q71-80",
+    "focus": "Percentage point vs percentage change, complex successive changes, shrinkflation"
+  },
+  "questions": [
+    {
+      "questionId": "pct-app-y8-071",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A bank's interest rate increased from 4% to 5%.\n\nA news article states: \"Bank increases rate by 25%.\"\nAnother says: \"Bank increases rate by 1 percentage point.\"\n\nAre both correct? Explain the difference.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Both statements are correct - they measure different things:**\n\n**Percentage point change (additive):**\nNew rate - Old rate = 5% - 4% = 1 percentage point\nThis is the simple difference between the rates.\n\n**Percentage change (relative/multiplicative):**\nChange = 1% (the difference in rates)\nOriginal = 4%\nPercentage change = (1 ÷ 4) × 100 = 25%\nThe rate is 25% LARGER than it was.\n\n**Answer: Both are correct. 1 percentage point increase AND 25% relative increase.**\n\n**Key insight:** Percentage points measure additive change in rates. Percentage change measures how much the rate itself grew proportionally.",
+      "hints": [
+        {"level": 1, "content": "These are two different ways of measuring the same change.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Percentage points = simple subtraction (5% - 4%). Percentage change = relative change.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "1 pp change. And (1/4) × 100 = 25% relative increase.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is an important distinction for understanding news and statistics!",
+          "encouragement": "This comes up constantly in financial news!",
+          "questionPrompt": "What is 5% minus 4%?"
+        },
+        {
+          "level": 2,
+          "content": "5% - 4% = 1 percentage point. But 1 is what percentage of 4?",
+          "encouragement": "These are two valid ways to describe the same change!",
+          "questionPrompt": "What is 1 ÷ 4 as a percentage?"
+        },
+        {
+          "level": 3,
+          "content": "1 ÷ 4 = 0.25 = 25%. So the rate increased by 25% (relatively).",
+          "encouragement": "You understand percentage points vs percentage change!",
+          "questionPrompt": "When would you use each measure?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Rate: 4% → 5%",
+        "expectedAnswers": ["Both correct", "Yes both correct", "1pp = 25% relative", "Both are correct"],
+        "gradingGuidance": "Full credit requires explaining BOTH measures and why they're both valid. Student should show 5%-4%=1pp AND (1/4)×100=25%.",
+        "sampleSolutions": [
+          "Percentage point: 5% - 4% = 1pp increase\nPercentage: (1/4) × 100 = 25% increase\nBoth correct - different measures",
+          "Additive: +1 percentage point\nMultiplicative: 1÷4 = 25% relative increase\nBoth statements are accurate"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["percentage point", "percentage change", "statistical literacy"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 11,
+        "conceptsUsed": ["percentage-point", "percentage-change", "statistical-literacy"],
+        "buildsOn": ["pct-app-y8-053"],
+        "preparesFor": ["pct-app-y8-072"]
+      },
+      "pedagogy": {
+        "type": "conceptual-distinction",
+        "targetFeeling": "I understand the difference between percentage points and percentages!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set8",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-072",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A packet of chips used to weigh 175g and cost $4.20.\nNow it weighs 150g but still costs $4.20.\n\nCalculate the percentage increase in price per gram.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Old price per gram:**\n$4.20 ÷ 175g = $0.024 per gram (2.4 cents/g)\n\n**New price per gram:**\n$4.20 ÷ 150g = $0.028 per gram (2.8 cents/g)\n\n**Price per gram increase:**\nIncrease = $0.028 - $0.024 = $0.004 per gram\n\n**Percentage increase:**\n($0.004 ÷ $0.024) × 100 = 16.67%\n\n**Answer: 16.67% increase** (price per gram)\n\n**This is called 'shrinkflation' - the price stays the same but you get less!**",
+      "hints": [
+        {"level": 1, "content": "Calculate the price per gram for both the old and new sizes.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Old: $4.20/175g. New: $4.20/150g. Then find the percentage change.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Old: 2.4c/g. New: 2.8c/g. Increase = (0.4/2.4) × 100 = 16.67%", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "To compare fairly, calculate price per gram for each size.",
+          "encouragement": "This is how consumer groups detect shrinkflation!",
+          "questionPrompt": "What is $4.20 ÷ 175?"
+        },
+        {
+          "level": 2,
+          "content": "Old: $0.024/g (2.4c/g). New: $0.028/g (2.8c/g).",
+          "encouragement": "Now find the percentage increase!",
+          "questionPrompt": "What is the increase in price per gram?"
+        },
+        {
+          "level": 3,
+          "content": "Increase = 0.4c/g. (0.4/2.4) × 100 = 16.67% increase",
+          "encouragement": "You can detect hidden price increases!",
+          "questionPrompt": "Why is this called 'shrinkflation'?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Old: 175g for $4.20. New: 150g for $4.20",
+        "expectedAnswers": ["16.67%", "16.7%", "16.66%", "16⅔%", "approximately 17%"],
+        "gradingGuidance": "Student must calculate unit price for both, then find percentage change. Accept 16.67%, 16.7%, or 16⅔%. Must use original unit price as base.",
+        "sampleSolutions": [
+          "Old: $4.20/175 = $0.024/g\nNew: $4.20/150 = $0.028/g\nIncrease = (0.028-0.024)/0.024 × 100 = 16.67%",
+          "Price per gram:\nOld = 2.4 cents/g\nNew = 2.8 cents/g\n% increase = 0.4/2.4 × 100 = 16.67%"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["unit rate", "percentage change", "shrinkflation", "consumer maths"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 12,
+        "conceptsUsed": ["unit-rate", "percentage-change", "consumer-maths"],
+        "buildsOn": ["pct-app-y8-053", "pct-app-y8-054"],
+        "preparesFor": ["pct-app-y8-073"]
+      },
+      "pedagogy": {
+        "type": "real-world-analysis",
+        "targetFeeling": "I can detect hidden price increases!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set8",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-073",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A company's profit margin decreased from 30% to 24%.\n\nCalculate:\na) The decrease in percentage points\nb) The percentage decrease in the margin\n\nShow your working.",
+      "solution": "**Solution:**\n\n**a) Percentage point decrease:**\n30% - 24% = 6 percentage points\n\n**b) Percentage decrease:**\nChange = 6 (percentage points)\nOriginal = 30%\nPercentage decrease = (6 ÷ 30) × 100 = 20%\n\n**Answers: a) 6 percentage points, b) 20%**\n\n**Explanation:** The margin dropped by 6 percentage points (additive), which represents a 20% decrease in the margin (relative/multiplicative).",
+      "hints": [
+        {"level": 1, "content": "Percentage points = simple subtraction. Percentage decrease = relative change.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "PP decrease: 30 - 24 = 6. % decrease: 6 is what % of 30?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "(6/30) × 100 = 20% decrease", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Same concept as Q71, but applied to a decrease.",
+          "encouragement": "You've learned this distinction!",
+          "questionPrompt": "What is 30% minus 24%?"
+        },
+        {
+          "level": 2,
+          "content": "6 percentage points is the simple difference. Now find 6 as a % of 30.",
+          "encouragement": "Two different measures of the same change!",
+          "questionPrompt": "What is 6 ÷ 30?"
+        },
+        {
+          "level": 3,
+          "content": "6 ÷ 30 = 0.2 = 20%. The margin decreased by 20% (relatively).",
+          "encouragement": "You can express margin changes in two valid ways!",
+          "questionPrompt": "Which measure would sound worse in a news report?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Margin: 30% → 24%",
+        "expectedAnswers": ["a) 6pp b) 20%", "6 percentage points, 20%", "6pp and 20%"],
+        "gradingGuidance": "Both parts needed. Part (a) is simple subtraction. Part (b) uses 30% as the base. Students often confuse these.",
+        "sampleSolutions": [
+          "a) 30% - 24% = 6 percentage points\nb) (6/30) × 100 = 20% decrease",
+          "a) 6pp drop\nb) 6 ÷ 30 = 0.2 = 20% relative decrease"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["percentage point", "percentage change", "margin"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 13,
+        "conceptsUsed": ["percentage-point", "percentage-change"],
+        "buildsOn": ["pct-app-y8-071"],
+        "preparesFor": ["pct-app-y8-074"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I can calculate both measures of change!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set8",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-074",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A item increased by 10% then decreased by 10%.\nAnother item decreased by 10% then increased by 10%.\n\nDoes the order of changes matter? Show why or why not.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Item 1 (increase then decrease):**\nStart at 100 → × 1.10 → 110 → × 0.90 → 99\n\n**Item 2 (decrease then increase):**\nStart at 100 → × 0.90 → 90 → × 1.10 → 99\n\n**Both end at 99!**\n\n**Mathematical proof:**\n1.10 × 0.90 = 0.99\n0.90 × 1.10 = 0.99\n\n**Answer: No, the order doesn't matter. Both result in a 1% net loss.**\n\nThis is because multiplication is commutative: a × b = b × a.\nBut neither returns to the original (100)!",
+      "hints": [
+        {"level": 1, "content": "Try both orders with an example starting value.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Multiply the factors: 1.10 × 0.90 and 0.90 × 1.10. Compare.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Both = 0.99. Order doesn't matter, but you still lose 1%!", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Test both orders with $100 as the starting value.",
+          "encouragement": "Let's see what happens!",
+          "questionPrompt": "What is $100 × 1.10 × 0.90?"
+        },
+        {
+          "level": 2,
+          "content": "Order 1: 100 × 1.10 × 0.90 = 99. Order 2: 100 × 0.90 × 1.10 = ?",
+          "encouragement": "Same final value?",
+          "questionPrompt": "What is $100 × 0.90 × 1.10?"
+        },
+        {
+          "level": 3,
+          "content": "Both give 99! Multiplication is commutative: a × b = b × a.",
+          "encouragement": "But notice: neither returns to 100!",
+          "questionPrompt": "Why don't you get back to $100 either way?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "+10% then -10% vs -10% then +10%",
+        "expectedAnswers": ["Order doesn't matter", "No, same result", "Both 99, order irrelevant", "Same (1% loss)"],
+        "gradingGuidance": "Student must show both orders give same result AND explain why (commutative). Bonus for noting neither returns to original.",
+        "sampleSolutions": [
+          "+10% then -10%: 1.10 × 0.90 = 0.99\n-10% then +10%: 0.90 × 1.10 = 0.99\nSame! Order doesn't matter.",
+          "100 → +10% → 110 → -10% → 99\n100 → -10% → 90 → +10% → 99\nBoth end at 99. Multiplication is commutative."
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["successive changes", "commutativity", "order of operations"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 14,
+        "conceptsUsed": ["successive-changes", "commutativity"],
+        "buildsOn": ["pct-app-y8-061"],
+        "preparesFor": ["pct-app-y8-075"]
+      },
+      "pedagogy": {
+        "type": "mathematical-proof",
+        "targetFeeling": "I can prove mathematical properties of percentages!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set8",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-075",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A shop sells an item with a 35% profit margin (based on selling price).\n\nIf the selling price is $260, what was the cost price?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Key insight:** 35% margin means profit = 35% of selling price.\n\nProfit = 35% of $260 = 0.35 × $260 = $91\n\nCost = Selling price - Profit\nCost = $260 - $91 = $169\n\n**Answer: $169**\n\n**Check:** Profit = $260 - $169 = $91. Margin = $91/$260 = 0.35 = 35% ✓",
+      "hints": [
+        {"level": 1, "content": "Margin % is profit as a percentage of SELLING price.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Profit = 35% of $260. Then Cost = Selling - Profit.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Profit = $91. Cost = $260 - $91 = $169", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Margin is based on selling price, not cost.",
+          "encouragement": "Remember the distinction from Q64!",
+          "questionPrompt": "If margin is 35%, profit = 35% of what?"
+        },
+        {
+          "level": 2,
+          "content": "Profit = 35% of $260 = $91",
+          "encouragement": "Now find the cost!",
+          "questionPrompt": "What is $260 - $91?"
+        },
+        {
+          "level": 3,
+          "content": "Cost = $260 - $91 = $169",
+          "encouragement": "You can work backwards from margin!",
+          "questionPrompt": "Verify: Is $91/$260 = 35%?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Selling: $260, Margin: 35%",
+        "expectedAnswers": ["169", "$169", "169 dollars", "$169.00"],
+        "gradingGuidance": "Student must recognise margin uses selling price as base. Profit = 35% of selling, not 35% of cost. Common error: using cost as base.",
+        "sampleSolutions": [
+          "Margin = 35% of selling\nProfit = 0.35 × $260 = $91\nCost = $260 - $91 = $169",
+          "Margin means: Profit/Selling = 35%\nProfit = $260 × 0.35 = $91\nCost = $260 - $91 = $169"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["margin", "cost price", "selling price"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 15,
+        "conceptsUsed": ["margin", "reverse-calculation"],
+        "buildsOn": ["pct-app-y8-064"],
+        "preparesFor": ["pct-app-y8-076"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I can work backwards from margin!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set8",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-076",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A population grew by 5% each year for 3 years.\n\nStarting from 10,000 people, what is the population after 3 years?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method 1: Year by year**\nYear 1: 10,000 × 1.05 = 10,500\nYear 2: 10,500 × 1.05 = 11,025\nYear 3: 11,025 × 1.05 = 11,576.25 ≈ 11,576\n\n**Method 2: Combined multiplier**\n1.05³ = 1.05 × 1.05 × 1.05 = 1.157625\n10,000 × 1.157625 = 11,576.25 ≈ 11,576\n\n**Answer: 11,576 (or 11,576.25 if not rounding)**\n\n**Note:** This is NOT 15% total growth!\n3 × 5% = 15% would give 11,500.\nActual growth = 15.7625% (compound growth).",
+      "hints": [
+        {"level": 1, "content": "Apply 5% growth three times in succession.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Each year: × 1.05. After 3 years: × 1.05 × 1.05 × 1.05 = × 1.05³", "revealsCriticalInfo": false},
+        {"level": 3, "content": "1.05³ = 1.157625. Population = 10,000 × 1.157625 ≈ 11,576", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Each year's growth builds on the previous year's population.",
+          "encouragement": "This is how populations actually grow!",
+          "questionPrompt": "What is 10,000 × 1.05?"
+        },
+        {
+          "level": 2,
+          "content": "Year 1: 10,500. Now apply 5% again.",
+          "encouragement": "Keep going for all 3 years!",
+          "questionPrompt": "What is 10,500 × 1.05?"
+        },
+        {
+          "level": 3,
+          "content": "Year 2: 11,025. Year 3: 11,576. Or use 10,000 × 1.05³",
+          "encouragement": "You've discovered compound growth!",
+          "questionPrompt": "Why isn't it just 10,000 × 1.15 = 11,500?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Start: 10,000, Growth: 5%/year for 3 years",
+        "expectedAnswers": ["11576", "11,576", "11576 people", "11576.25", "11,576.25"],
+        "gradingGuidance": "Accept year-by-year or combined multiplier (1.05³). Student should NOT simply calculate 10,000 × 1.15 = 11,500. Accept rounded whole number.",
+        "sampleSolutions": [
+          "Y1: 10,000 × 1.05 = 10,500\nY2: 10,500 × 1.05 = 11,025\nY3: 11,025 × 1.05 = 11,576",
+          "10,000 × 1.05³ = 10,000 × 1.157625 = 11,576"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["repeated percentage change", "compound growth", "population"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 16,
+        "conceptsUsed": ["repeated-percentage-change", "compound-growth"],
+        "buildsOn": ["pct-app-y8-063"],
+        "preparesFor": ["pct-app-y8-077"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I understand repeated percentage growth!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set8",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-077",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Error analysis: A student calculated:\n\n\"An item was $80, now $100. Percentage increase = (100-80)/100 × 100 = 20%\"\n\nFind and correct the error.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**The error:** The student used NEW price ($100) as the base instead of ORIGINAL price ($80).\n\n**Correct calculation:**\nIncrease = $100 - $80 = $20\nPercentage increase = (Increase ÷ ORIGINAL) × 100\nPercentage increase = ($20 ÷ $80) × 100\nPercentage increase = 0.25 × 100 = 25%\n\n**Answer: Correct answer is 25% (not 20%)**\n\n**Explanation:** Percentage change is ALWAYS calculated relative to the original value, not the new value.",
+      "hints": [
+        {"level": 1, "content": "Percentage change uses the ORIGINAL value as the base.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "The student divided by 100 (new) instead of 80 (original).", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Correct: (20/80) × 100 = 25%, not 20%", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Check: what number should be in the denominator?",
+          "encouragement": "This is a very common error!",
+          "questionPrompt": "Is the base the old value or the new value?"
+        },
+        {
+          "level": 2,
+          "content": "The student used $100 as the base. Should be $80 (original).",
+          "encouragement": "You've found the error!",
+          "questionPrompt": "What is 20/80 × 100?"
+        },
+        {
+          "level": 3,
+          "content": "20/80 × 100 = 25%. The correct answer is 25%, not 20%.",
+          "encouragement": "You can spot and correct common percentage errors!",
+          "questionPrompt": "Why is using the original as base important?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Student's work: (100-80)/100 × 100 = 20%",
+        "expectedAnswers": ["25%", "25", "Correct is 25%", "Should be 25%", "Error: used new not original"],
+        "gradingGuidance": "Full credit requires: identifying the error (wrong base), explaining it should be original, AND calculating correct answer (25%).",
+        "sampleSolutions": [
+          "Error: Used $100 (new) instead of $80 (original)\nCorrect: (20/80) × 100 = 25%",
+          "Student divided by new price, should divide by original\n20 ÷ 80 = 0.25 = 25% (not 20%)"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["error analysis", "percentage change", "base selection"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 17,
+        "conceptsUsed": ["error-analysis", "percentage-change"],
+        "buildsOn": ["pct-app-y8-047", "pct-app-y8-053"],
+        "preparesFor": ["pct-app-y8-078"]
+      },
+      "pedagogy": {
+        "type": "error-analysis",
+        "targetFeeling": "I can identify and correct percentage errors!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set8",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-078",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A retailer applies a 50% mark-up to cost price, then offers customers 20% off.\n\nWhat is the retailer's actual profit percentage on cost?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let cost = $100 (for easy calculation)**\n\n**Step 1: Apply 50% mark-up**\nSelling price = $100 × 1.50 = $150\n\n**Step 2: Apply 20% discount**\nFinal price = $150 × 0.80 = $120\n\n**Step 3: Calculate actual profit**\nProfit = $120 - $100 = $20\nProfit % = ($20 ÷ $100) × 100 = 20%\n\n**Answer: 20% profit on cost**\n\n**Algebraically:** 1.50 × 0.80 = 1.20, so final = 120% of cost = 20% profit",
+      "hints": [
+        {"level": 1, "content": "Use $100 as the cost to make calculations easy.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "After 50% mark-up: $150. After 20% off: $150 × 0.80.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Final = $120. Profit = $20 = 20% of cost.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Assume cost = $100 to make the maths simple.",
+          "encouragement": "This is a standard technique for percentage problems!",
+          "questionPrompt": "What is $100 with 50% mark-up?"
+        },
+        {
+          "level": 2,
+          "content": "Marked up to $150. Now apply 20% discount.",
+          "encouragement": "Track through each step!",
+          "questionPrompt": "What is $150 × 0.80?"
+        },
+        {
+          "level": 3,
+          "content": "Final = $120. Profit = $20 = 20% of the $100 cost.",
+          "encouragement": "The retailer still makes profit even with the discount!",
+          "questionPrompt": "What is the combined multiplier? (1.50 × 0.80)"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Cost → +50% mark-up → -20% discount → ?% profit",
+        "expectedAnswers": ["20%", "20", "20% profit", "20 percent"],
+        "gradingGuidance": "Accept calculation with specific cost ($100) or algebraic approach (combined multiplier = 1.20). Must show profit is 20% of cost.",
+        "sampleSolutions": [
+          "Cost $100 → Mark-up 50% → $150 → Discount 20% → $120\nProfit = $120 - $100 = $20 = 20% of cost",
+          "Combined: 1.50 × 0.80 = 1.20\nFinal = 120% of cost = 20% profit"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["mark-up", "discount", "profit calculation"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 18,
+        "conceptsUsed": ["mark-up", "discount", "profit"],
+        "buildsOn": ["pct-app-y8-059", "pct-app-y8-062"],
+        "preparesFor": ["pct-app-y8-079"]
+      },
+      "pedagogy": {
+        "type": "synthesis",
+        "targetFeeling": "I can analyse business pricing strategies!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set8",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-079",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A savings account balance grew from $5,000 to $5,512.50 over 2 years with the same interest rate each year.\n\nWhat was the annual interest rate?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Find the combined multiplier:**\nFinal ÷ Start = $5,512.50 ÷ $5,000 = 1.1025\n\n**Find the annual multiplier:**\nIf same rate both years, annual multiplier² = 1.1025\nAnnual multiplier = √1.1025 = 1.05\n\n**Find the interest rate:**\nMultiplier = 1.05 means 5% growth\n\n**Answer: 5% per year**\n\n**Check:** $5,000 × 1.05 = $5,250, then $5,250 × 1.05 = $5,512.50 ✓",
+      "hints": [
+        {"level": 1, "content": "First find the total growth over 2 years.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Total multiplier = 1.1025. If r is annual rate, (1+r)² = 1.1025.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "√1.1025 = 1.05, so rate = 5%", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Find the overall multiplier first.",
+          "encouragement": "Then work backwards to find the annual rate!",
+          "questionPrompt": "What is $5,512.50 ÷ $5,000?"
+        },
+        {
+          "level": 2,
+          "content": "Combined = 1.1025. Same rate twice means (annual)² = 1.1025.",
+          "encouragement": "You need to find the square root!",
+          "questionPrompt": "What number squared gives 1.1025?"
+        },
+        {
+          "level": 3,
+          "content": "√1.1025 = 1.05. So annual multiplier = 1.05 = 5% growth.",
+          "encouragement": "You've worked backwards to find the interest rate!",
+          "questionPrompt": "Verify: Does $5,000 × 1.05² = $5,512.50?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "$5,000 → ? rate × 2 years → $5,512.50",
+        "expectedAnswers": ["5%", "5", "5% per year", "5 percent"],
+        "gradingGuidance": "Student must find combined multiplier (1.1025), take square root (1.05), and identify rate (5%). Accept trial and error if verified.",
+        "sampleSolutions": [
+          "Combined: 5512.50/5000 = 1.1025\nAnnual: √1.1025 = 1.05\nRate = 5% per year",
+          "Let rate = r. Then 5000 × (1+r)² = 5512.50\n(1+r)² = 1.1025\n1+r = 1.05, so r = 5%"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["compound growth", "square root", "interest rate"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 19,
+        "conceptsUsed": ["compound-growth", "reverse-calculation"],
+        "buildsOn": ["pct-app-y8-076"],
+        "preparesFor": ["pct-app-y8-080"]
+      },
+      "pedagogy": {
+        "type": "analysis",
+        "targetFeeling": "I can find interest rates from final amounts!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set8",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-080",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A shop makes 25% profit on cost when selling at full price.\n\nDuring a 20% off sale, does the shop make a profit or loss? How much?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let cost = $100**\n\n**Full price (25% profit on cost):**\nFull price = $100 × 1.25 = $125\n\n**Sale price (20% off full price):**\nSale price = $125 × 0.80 = $100\n\n**Profit/Loss:**\nProfit = Sale price - Cost = $100 - $100 = $0\n\n**Answer: The shop breaks even (no profit, no loss)**\n\n**Combined multiplier:** 1.25 × 0.80 = 1.00 = exactly cost price!",
+      "hints": [
+        {"level": 1, "content": "Use $100 as cost. Calculate full price, then sale price.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Full price = $125. Sale price = $125 × 0.80.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Sale price = $100 = cost. The shop breaks even!", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Track the price through both changes.",
+          "encouragement": "This is a realistic business scenario!",
+          "questionPrompt": "If cost is $100 and profit is 25%, what's the full price?"
+        },
+        {
+          "level": 2,
+          "content": "Full price = $125. Now apply the 20% sale discount.",
+          "encouragement": "What happens to the profit margin?",
+          "questionPrompt": "What is $125 × 0.80?"
+        },
+        {
+          "level": 3,
+          "content": "Sale price = $100 = the original cost. Zero profit!",
+          "encouragement": "You've discovered when discounts eliminate profit entirely!",
+          "questionPrompt": "What's 1.25 × 0.80?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Cost → +25% profit → -20% sale → ?",
+        "expectedAnswers": ["Break even", "No profit", "$0", "Zero profit", "Breaks even"],
+        "gradingGuidance": "Student should show: cost → full price (×1.25) → sale price (×0.80) = cost. Combined multiplier = 1.00. Answer: breaks even / no profit or loss.",
+        "sampleSolutions": [
+          "Cost $100 → +25% → $125 → -20% → $100\nSale price = cost, so $0 profit (break even)",
+          "Combined: 1.25 × 0.80 = 1.00\nSale price = 100% of cost = break even"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["profit", "discount", "break-even"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 3,
+        "phasePosition": 20,
+        "conceptsUsed": ["profit", "discount", "break-even"],
+        "buildsOn": ["pct-app-y8-078"],
+        "preparesFor": ["pct-app-y8-081"]
+      },
+      "pedagogy": {
+        "type": "analysis",
+        "targetFeeling": "I can analyse when businesses break even!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set8",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

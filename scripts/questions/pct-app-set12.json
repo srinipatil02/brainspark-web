@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "setId": "year8-percentages-applications-set12",
+    "setNumber": 12,
+    "questionRange": "Q111-120",
+    "phase": "mastery",
+    "difficulty": "4",
+    "focus": "Complex multi-step problems, synthesis of all concepts"
+  },
+  "questions": [
+    {
+      "questionId": "pct-app-y8-111",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A company's revenue was $2.4 million. Operating costs were 65% of revenue, and tax was 30% of the profit before tax.\n\nCalculate the company's profit after tax.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Calculate operating costs\n$$\\text{Operating costs} = \\$2,400,000 \\times 0.65 = \\$1,560,000$$\n\n**Step 2:** Calculate profit before tax\n$$\\text{Profit before tax} = \\$2,400,000 - \\$1,560,000 = \\$840,000$$\n\n**Step 3:** Calculate tax\n$$\\text{Tax} = \\$840,000 \\times 0.30 = \\$252,000$$\n\n**Step 4:** Calculate profit after tax\n$$\\text{Profit after tax} = \\$840,000 - \\$252,000 = \\$588,000$$\n\n**Answer: $588,000**\n\n**Alternative calculation:**\n$$\\text{Profit after tax} = \\$2,400,000 \\times 0.35 \\times 0.70 = \\$588,000$$",
+      "hints": [
+        {"level": 1, "content": "Work through the profit calculation step by step: Revenue → Costs → Profit before tax → Tax → Profit after tax", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Costs = 65% of revenue. Profit before tax = 35% of revenue. Tax applies to profit.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Profit before tax = $840,000. After 30% tax: $840,000 × 0.70 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Break this into steps: Find costs, then profit before tax, then apply tax.",
+          "encouragement": "You're doing real financial analysis!",
+          "questionPrompt": "What are the operating costs if they're 65% of $2.4 million?"
+        },
+        {
+          "level": 2,
+          "content": "Costs = $1,560,000, so profit before tax = $840,000. Now apply tax.",
+          "encouragement": "Great progress!",
+          "questionPrompt": "Tax is 30% of profit. What's 30% of $840,000?"
+        },
+        {
+          "level": 3,
+          "content": "Tax = $252,000. Subtract from profit before tax.",
+          "encouragement": "Final step!",
+          "questionPrompt": "What is $840,000 - $252,000?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Revenue = $2.4M, Costs = 65%, Tax = 30% of profit",
+        "expectedAnswers": ["$588,000", "588000", "$588000", "588,000", "$0.588 million", "588 thousand"],
+        "gradingGuidance": "Multi-step problem requiring: (1) Costs = 2.4M × 0.65 = 1.56M, (2) Profit before tax = 2.4M - 1.56M = 0.84M, (3) Tax = 0.84M × 0.30 = 0.252M, (4) Profit after tax = 0.84M - 0.252M = 0.588M. Alternative: 2.4M × 0.35 × 0.70. Common errors: applying tax to revenue, or calculating costs incorrectly.",
+        "sampleSolutions": [
+          "Costs = $2,400,000 × 0.65 = $1,560,000\nProfit before tax = $2,400,000 - $1,560,000 = $840,000\nTax = $840,000 × 0.30 = $252,000\nProfit after tax = $840,000 - $252,000 = $588,000",
+          "Revenue × (1 - cost%) × (1 - tax%)\n= $2,400,000 × 0.35 × 0.70\n= $588,000"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "financial-modelling",
+        "year": 8,
+        "keyConcepts": ["profit calculation", "tax", "multi-step percentages"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 1,
+        "conceptsUsed": ["c1", "c8"],
+        "buildsOn": ["pct-app-y8-104", "pct-app-y8-107"],
+        "preparesFor": ["pct-app-y8-112"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can model complex business scenarios!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set12",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-112",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A store offers a 20% discount on all items. On top of that, members get an additional 15% off the discounted price.\n\nIf a jacket originally costs $180, what is the final price for a member?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Apply the 20% store discount\n$$\\text{After first discount} = \\$180 \\times 0.80 = \\$144$$\n\n**Step 2:** Apply the 15% member discount\n$$\\text{Final price} = \\$144 \\times 0.85 = \\$122.40$$\n\n**Alternative: Combined multiplier**\n$$\\text{Final} = \\$180 \\times 0.80 \\times 0.85 = \\$180 \\times 0.68 = \\$122.40$$\n\n**Answer: $122.40**\n\n**Note:** The combined discount is 32% (not 35%), because the second discount applies to the reduced price.",
+      "hints": [
+        {"level": 1, "content": "The discounts are applied sequentially, not added together.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "First: $180 × 0.80. Then apply 15% off that result.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "After first discount: $144. Final: $144 × 0.85 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Stacked discounts work one after the other, not by adding percentages.",
+          "encouragement": "This is how real retail discounts work!",
+          "questionPrompt": "What is $180 after a 20% discount?"
+        },
+        {
+          "level": 2,
+          "content": "$180 × 0.80 = $144. Now apply the member discount to $144.",
+          "encouragement": "You're navigating multiple discounts!",
+          "questionPrompt": "What is 15% off $144?"
+        },
+        {
+          "level": 3,
+          "content": "$144 × 0.85 = $122.40",
+          "encouragement": "You've mastered stacked discounts!",
+          "questionPrompt": "What's the total percentage saved compared to $180?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Original = $180, Store discount = 20%, Member discount = 15%",
+        "expectedAnswers": ["$122.40", "122.40", "$122.4", "122.4", "122.40 dollars"],
+        "gradingGuidance": "Sequential discount application. Student must: (1) Apply 20% off first ($180 × 0.80 = $144), (2) Apply 15% off that ($144 × 0.85 = $122.40). Common error: adding 20% + 15% = 35% and calculating $180 × 0.65 = $117. Award full credit for understanding sequential application.",
+        "sampleSolutions": [
+          "After store discount: $180 × 0.80 = $144\nAfter member discount: $144 × 0.85 = $122.40",
+          "Combined: $180 × 0.80 × 0.85 = $180 × 0.68 = $122.40"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "successive-discounts",
+        "year": 8,
+        "keyConcepts": ["stacked discounts", "sequential percentages", "multiplicative thinking"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 2,
+        "conceptsUsed": ["c4", "c7"],
+        "buildsOn": ["pct-app-y8-071", "pct-app-y8-072", "pct-app-y8-073"],
+        "preparesFor": ["pct-app-y8-113"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I understand how multiple discounts combine!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set12",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-113",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "An investment grows by 12% in the first year, then loses 8% in the second year.\n\nWhat is the overall percentage change over the two years?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method: Use a starting value of 100 (or multipliers)**\n\n**Step 1:** After 12% increase\n$$100 \\times 1.12 = 112$$\n\n**Step 2:** After 8% decrease\n$$112 \\times 0.92 = 103.04$$\n\n**Step 3:** Calculate overall change\n$$\\text{Overall change} = 103.04 - 100 = 3.04$$\n$$\\text{Percentage change} = 3.04\\%$$\n\n**Alternative: Combined multiplier**\n$$1.12 \\times 0.92 = 1.0304$$\n$$\\text{Overall change} = 1.0304 - 1 = 0.0304 = 3.04\\%$$\n\n**Answer: 3.04% increase**",
+      "hints": [
+        {"level": 1, "content": "Assume you start with $100 and track what happens to it.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "After +12%: $112. After -8%: $112 × 0.92", "revealsCriticalInfo": false},
+        {"level": 3, "content": "112 × 0.92 = 103.04. Overall change = 3.04%", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Using $100 as a starting point makes percentage calculations easy.",
+          "encouragement": "This technique works for any successive percentage problem!",
+          "questionPrompt": "What is $100 after a 12% increase?"
+        },
+        {
+          "level": 2,
+          "content": "$100 → $112 after year 1. Now apply the 8% decrease.",
+          "encouragement": "You're tracking the investment!",
+          "questionPrompt": "What is 8% less than $112?"
+        },
+        {
+          "level": 3,
+          "content": "$112 × 0.92 = $103.04. That's $3.04 more than you started with.",
+          "encouragement": "You've found the net effect!",
+          "questionPrompt": "What percentage increase is $3.04 out of $100?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Year 1: +12%, Year 2: -8%",
+        "expectedAnswers": ["3.04%", "3.04", "+3.04%", "3.04% increase", "increase of 3.04%", "3.04 percent"],
+        "gradingGuidance": "Student should find overall multiplier 1.12 × 0.92 = 1.0304, giving 3.04% increase. Common errors: adding 12% - 8% = 4%, or calculating (12-8)/2 = 2%. Award full credit for correct answer showing understanding that the percentages apply sequentially.",
+        "sampleSolutions": [
+          "Start: 100\nAfter year 1: 100 × 1.12 = 112\nAfter year 2: 112 × 0.92 = 103.04\nOverall change: 103.04 - 100 = 3.04%",
+          "Combined multiplier: 1.12 × 0.92 = 1.0304\nOverall change: 1.0304 - 1 = 0.0304 = 3.04%"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "successive-percentage-changes",
+        "year": 8,
+        "keyConcepts": ["combined percentage changes", "multiplicative relationships", "net change"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 3,
+        "conceptsUsed": ["c7", "m2"],
+        "buildsOn": ["pct-app-y8-105", "pct-app-y8-112"],
+        "preparesFor": ["pct-app-y8-114"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can find net percentage changes!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set12",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-114",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Three friends invest in a business:\n- Aisha invests 40% of the total\n- Ben invests 35% of the total\n- Carlos invests the rest\n\nThe business makes a profit of $12,000 which is shared in proportion to investment.\n\nHow much profit does each person receive?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Find Carlos's share\n$$\\text{Carlos's investment} = 100\\% - 40\\% - 35\\% = 25\\%$$\n\n**Step 2:** Calculate each person's profit\n$$\\text{Aisha} = \\$12,000 \\times 0.40 = \\$4,800$$\n$$\\text{Ben} = \\$12,000 \\times 0.35 = \\$4,200$$\n$$\\text{Carlos} = \\$12,000 \\times 0.25 = \\$3,000$$\n\n**Answer:**\n- Aisha: $4,800\n- Ben: $4,200\n- Carlos: $3,000\n\n**Check:** $4,800 + $4,200 + $3,000 = $12,000 ✓",
+      "hints": [
+        {"level": 1, "content": "First find what percentage Carlos invested, then distribute the profit.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Carlos = 100% - 40% - 35% = 25%. Each person's profit = their % × $12,000", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Aisha: 12000 × 0.40, Ben: 12000 × 0.35, Carlos: 12000 × 0.25", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "If Aisha and Ben together have 75%, what does Carlos have?",
+          "encouragement": "This is how business partnerships work!",
+          "questionPrompt": "What is 100% - 40% - 35%?"
+        },
+        {
+          "level": 2,
+          "content": "Carlos has 25%. Now find each person's share of $12,000.",
+          "encouragement": "You're dividing profits fairly!",
+          "questionPrompt": "What is 40% of $12,000?"
+        },
+        {
+          "level": 3,
+          "content": "Aisha: $4,800, Ben: $4,200, Carlos: $3,000",
+          "encouragement": "Check: do these add up to $12,000?",
+          "questionPrompt": "Does $4,800 + $4,200 + $3,000 = $12,000?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Aisha 40%, Ben 35%, Carlos rest, Profit = $12,000",
+        "expectedAnswers": ["$4,800, $4,200, $3,000", "Aisha $4800 Ben $4200 Carlos $3000", "4800, 4200, 3000"],
+        "gradingGuidance": "Three-part answer. Student must: (1) Find Carlos's share (25%), (2) Calculate each person's profit. Award partial credit for correct method with calculation errors. All three amounts must be stated for full credit. Check: amounts should sum to $12,000.",
+        "sampleSolutions": [
+          "Carlos = 100% - 40% - 35% = 25%\nAisha: $12,000 × 0.40 = $4,800\nBen: $12,000 × 0.35 = $4,200\nCarlos: $12,000 × 0.25 = $3,000",
+          "Aisha gets 40% of $12,000 = $4,800\nBen gets 35% of $12,000 = $4,200\nCarlos gets 25% of $12,000 = $3,000"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentage-distribution",
+        "year": 8,
+        "keyConcepts": ["proportional distribution", "complementary percentages", "profit sharing"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 4,
+        "conceptsUsed": ["c1", "c8"],
+        "buildsOn": ["pct-app-y8-081", "pct-app-y8-082"],
+        "preparesFor": ["pct-app-y8-115"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can distribute amounts proportionally!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set12",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-115",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A phone plan costs $65 per month. The company announces a 12% price increase.\n\nAt the same time, a competitor offers a plan for $70 per month with a 5% new customer discount.\n\nWhich plan is cheaper after the changes? By how much?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Calculate new price of original plan\n$$\\text{Original plan} = \\$65 \\times 1.12 = \\$72.80$$\n\n**Step 2:** Calculate competitor's discounted price\n$$\\text{Competitor} = \\$70 \\times 0.95 = \\$66.50$$\n\n**Step 3:** Compare\n$$\\text{Difference} = \\$72.80 - \\$66.50 = \\$6.30$$\n\n**Answer: The competitor's plan is cheaper by $6.30 per month**",
+      "hints": [
+        {"level": 1, "content": "Calculate each plan's final price, then compare.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Original: $65 × 1.12. Competitor: $70 × 0.95.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Original becomes $72.80. Competitor becomes $66.50.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Work out each plan's new price independently.",
+          "encouragement": "You're making an informed consumer decision!",
+          "questionPrompt": "What is $65 after a 12% increase?"
+        },
+        {
+          "level": 2,
+          "content": "Original: $72.80. Now find the competitor's price after discount.",
+          "encouragement": "Almost ready to compare!",
+          "questionPrompt": "What is $70 with a 5% discount?"
+        },
+        {
+          "level": 3,
+          "content": "Competitor: $66.50. Which is cheaper and by how much?",
+          "encouragement": "Make the comparison!",
+          "questionPrompt": "What's the difference between $72.80 and $66.50?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Plan A: $65 + 12%, Plan B: $70 - 5%",
+        "expectedAnswers": ["Competitor cheaper by $6.30", "Competitor by $6.30", "$6.30 cheaper competitor", "competitor, $6.30"],
+        "gradingGuidance": "Two-part answer required: (1) Identify which is cheaper (competitor), (2) State the difference ($6.30). Calculations: Original = $65 × 1.12 = $72.80, Competitor = $70 × 0.95 = $66.50, Difference = $6.30. Award partial credit for correct calculations but incomplete comparison.",
+        "sampleSolutions": [
+          "Original plan: $65 × 1.12 = $72.80\nCompetitor: $70 × 0.95 = $66.50\nDifference: $72.80 - $66.50 = $6.30\nCompetitor is cheaper by $6.30",
+          "After changes:\n- Current plan: $65 + 12% = $72.80\n- Competitor: $70 - 5% = $66.50\nThe competitor is $6.30 cheaper per month"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentage-comparison",
+        "year": 8,
+        "keyConcepts": ["price comparison", "percentage increase", "percentage decrease"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 5,
+        "conceptsUsed": ["c1", "c4", "c8"],
+        "buildsOn": ["pct-app-y8-031", "pct-app-y8-041"],
+        "preparesFor": ["pct-app-y8-116"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can compare real-world options using percentages!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set12",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-116",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A car depreciated by 15% in its first year and 12% in its second year.\n\nIf the car is now worth $44,880, what was its original price?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Find the combined multiplier\n$$\\text{After 15% decrease} \\rightarrow \\times 0.85$$\n$$\\text{After 12% decrease} \\rightarrow \\times 0.88$$\n$$\\text{Combined} = 0.85 \\times 0.88 = 0.748$$\n\n**Step 2:** Set up equation\n$$\\text{Original} \\times 0.748 = \\$44,880$$\n\n**Step 3:** Solve for original\n$$\\text{Original} = \\frac{\\$44,880}{0.748} = \\$60,000$$\n\n**Answer: $60,000**\n\n**Check:** $60,000 × 0.85 = $51,000 → $51,000 × 0.88 = $44,880 ✓",
+      "hints": [
+        {"level": 1, "content": "Work backwards from the current value using the combined percentage change.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Combined multiplier = 0.85 × 0.88 = 0.748. Current value = Original × 0.748", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Original = $44,880 ÷ 0.748 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Two depreciations combine multiplicatively: × 0.85 then × 0.88",
+          "encouragement": "You're reversing a complex calculation!",
+          "questionPrompt": "What is 0.85 × 0.88?"
+        },
+        {
+          "level": 2,
+          "content": "The car is now worth 74.8% of its original value.",
+          "encouragement": "Great! Now reverse the calculation.",
+          "questionPrompt": "If 0.748 × Original = $44,880, what is the Original?"
+        },
+        {
+          "level": 3,
+          "content": "$44,880 ÷ 0.748 = $60,000",
+          "encouragement": "You've mastered reverse percentage calculations!",
+          "questionPrompt": "Check: does $60,000 depreciate to $44,880?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Current value = $44,880, Year 1: -15%, Year 2: -12%",
+        "expectedAnswers": ["$60,000", "60000", "$60000", "60,000", "$60,000.00"],
+        "gradingGuidance": "Reverse calculation with successive percentages. Student must: (1) Find combined multiplier (0.85 × 0.88 = 0.748), (2) Divide current value by combined multiplier. Common errors: adding 15% + 12% = 27%, or dividing by 0.27. Award full credit for correct reverse calculation method.",
+        "sampleSolutions": [
+          "Combined multiplier = 0.85 × 0.88 = 0.748\nOriginal × 0.748 = $44,880\nOriginal = $44,880 ÷ 0.748 = $60,000",
+          "After year 1: P × 0.85\nAfter year 2: P × 0.85 × 0.88 = $44,880\nP × 0.748 = $44,880\nP = $60,000"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "reverse-successive-percentages",
+        "year": 8,
+        "keyConcepts": ["reverse calculation", "successive depreciation", "combined multipliers"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 6,
+        "conceptsUsed": ["c3", "c7"],
+        "buildsOn": ["pct-app-y8-042", "pct-app-y8-113"],
+        "preparesFor": ["pct-app-y8-117"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can reverse successive percentage changes!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set12",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-117",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "In a survey of 800 people:\n- 62.5% said they exercise regularly\n- Of those who exercise, 40% go to a gym\n- Of the gym-goers, 75% attend more than twice per week\n\nHow many people attend a gym more than twice per week?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Find people who exercise\n$$800 \\times 0.625 = 500 \\text{ people}$$\n\n**Step 2:** Find gym-goers\n$$500 \\times 0.40 = 200 \\text{ people}$$\n\n**Step 3:** Find frequent gym-goers\n$$200 \\times 0.75 = 150 \\text{ people}$$\n\n**Alternative: Combined calculation**\n$$800 \\times 0.625 \\times 0.40 \\times 0.75 = 150$$\n\n**Answer: 150 people**",
+      "hints": [
+        {"level": 1, "content": "Apply each percentage in sequence, narrowing down the group each time.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Exercise: 800 × 0.625 = 500. Gym: 500 × 0.40 = 200. Now apply 75%.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "200 × 0.75 = 150 people attend gym more than twice per week", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Each percentage applies to a subset of the previous group.",
+          "encouragement": "You're filtering survey data!",
+          "questionPrompt": "How many of the 800 people exercise regularly?"
+        },
+        {
+          "level": 2,
+          "content": "500 exercise. Of these, 40% go to a gym. That's 200 gym-goers.",
+          "encouragement": "Keep narrowing down!",
+          "questionPrompt": "How many of the 200 gym-goers attend more than twice per week?"
+        },
+        {
+          "level": 3,
+          "content": "75% of 200 = 150",
+          "encouragement": "You've navigated nested percentages!",
+          "questionPrompt": "What percentage of all 800 people is 150?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "800 people → 62.5% exercise → 40% gym → 75% frequent",
+        "expectedAnswers": ["150", "150 people", "150 gym-goers"],
+        "gradingGuidance": "Three-step nested percentage. Student must apply percentages sequentially: 800 × 0.625 = 500, then 500 × 0.40 = 200, then 200 × 0.75 = 150. Common errors: applying percentages to wrong base, or multiplying all percentages together incorrectly. Award partial credit for correct method with arithmetic errors.",
+        "sampleSolutions": [
+          "Exercise: 800 × 62.5% = 500\nGym: 500 × 40% = 200\nFrequent: 200 × 75% = 150 people",
+          "800 × 0.625 × 0.40 × 0.75 = 150 people"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "nested-percentages",
+        "year": 8,
+        "keyConcepts": ["compound percentages", "survey analysis", "subset calculations"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 7,
+        "conceptsUsed": ["c1", "c7"],
+        "buildsOn": ["pct-app-y8-109"],
+        "preparesFor": ["pct-app-y8-118"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can analyse nested percentage data!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set12",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-118",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A bank offers two savings options:\n\n**Option A:** 4% simple interest per year\n**Option B:** 3.8% simple interest per year, plus a $50 bonus after 2 years\n\nJamie has $2,500 to invest for 2 years.\n\nWhich option gives more money after 2 years? By how much?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Option A (4% simple interest):**\n$$I = P \\times R \\times T = \\$2,500 \\times 0.04 \\times 2 = \\$200$$\n$$\\text{Total A} = \\$2,500 + \\$200 = \\$2,700$$\n\n**Option B (3.8% + bonus):**\n$$I = \\$2,500 \\times 0.038 \\times 2 = \\$190$$\n$$\\text{Total B} = \\$2,500 + \\$190 + \\$50 = \\$2,740$$\n\n**Comparison:**\n$$\\$2,740 - \\$2,700 = \\$40$$\n\n**Answer: Option B is better by $40**",
+      "hints": [
+        {"level": 1, "content": "Calculate the total return for each option separately, then compare.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Option A interest = $2,500 × 0.04 × 2. Option B interest = $2,500 × 0.038 × 2, plus $50 bonus.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "A: $2,700 total. B: $2,740 total. Difference = $40", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Calculate each option's total separately using I = PRT for interest.",
+          "encouragement": "You're comparing real investment options!",
+          "questionPrompt": "What interest does Option A earn over 2 years?"
+        },
+        {
+          "level": 2,
+          "content": "Option A: $200 interest. Option B: $190 interest + $50 bonus.",
+          "encouragement": "Now add the principal back!",
+          "questionPrompt": "What's the total for each option?"
+        },
+        {
+          "level": 3,
+          "content": "A: $2,700. B: $2,740. Which is more?",
+          "encouragement": "Make your recommendation!",
+          "questionPrompt": "By how much is the better option ahead?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 4% p.a. | B: 3.8% p.a. + $50 bonus | P = $2,500, T = 2 years",
+        "expectedAnswers": ["Option B by $40", "B by $40", "Option B, $40", "B is better by $40"],
+        "gradingGuidance": "Two-part answer required: (1) Identify winner (Option B), (2) State margin ($40). Calculations: A = $2,500 + $2,500 × 0.04 × 2 = $2,700. B = $2,500 + $2,500 × 0.038 × 2 + $50 = $2,740. Common error: forgetting the $50 bonus or applying compound interest. Award partial credit for correct calculations without comparison.",
+        "sampleSolutions": [
+          "Option A: I = $2,500 × 0.04 × 2 = $200\nTotal A = $2,700\n\nOption B: I = $2,500 × 0.038 × 2 = $190\nTotal B = $2,500 + $190 + $50 = $2,740\n\nOption B is $40 better",
+          "A: 2500 + (2500 × 4% × 2) = 2500 + 200 = $2,700\nB: 2500 + (2500 × 3.8% × 2) + 50 = 2500 + 190 + 50 = $2,740\nB wins by $40"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "financial-comparison",
+        "year": 8,
+        "keyConcepts": ["simple interest comparison", "bonus structures", "financial decision-making"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 8,
+        "conceptsUsed": ["c8", "c9"],
+        "buildsOn": ["pct-app-y8-091", "pct-app-y8-094"],
+        "preparesFor": ["pct-app-y8-119"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can compare complex financial products!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set12",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-119",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A café buys coffee beans for $18 per kg. After roasting, 12% of the weight is lost.\n\nThe café wants a 60% markup on the cost of the roasted beans.\n\nWhat price per kg should they charge for roasted coffee?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Find weight after roasting\n$$\\text{Remaining weight} = 1 \\text{ kg} \\times 0.88 = 0.88 \\text{ kg}$$\n\n**Step 2:** Find cost per kg of roasted beans\n$$\\text{Cost per kg roasted} = \\frac{\\$18}{0.88} = \\$20.45 \\text{ (rounded)}$$\n\n**Step 3:** Apply 60% markup\n$$\\text{Selling price} = \\$20.45 \\times 1.60 = \\$32.73$$\n\n**Answer: $32.73 per kg (or $32.72)**\n\n**Note:** The weight loss increases the cost per kg before markup is applied.",
+      "hints": [
+        {"level": 1, "content": "The 12% weight loss means each kg of raw beans produces only 0.88 kg roasted.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Cost per kg roasted = $18 ÷ 0.88. Then apply 60% markup to this.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Roasted cost = $20.45. With 60% markup: $20.45 × 1.60 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Weight loss means less product, so cost per kg increases.",
+          "encouragement": "You're thinking like a business owner!",
+          "questionPrompt": "If 1 kg becomes 0.88 kg, what's the new cost per kg?"
+        },
+        {
+          "level": 2,
+          "content": "$18 ÷ 0.88 = $20.45 per kg of roasted beans.",
+          "encouragement": "Now add the markup!",
+          "questionPrompt": "What is $20.45 with a 60% markup?"
+        },
+        {
+          "level": 3,
+          "content": "$20.45 × 1.60 = $32.72",
+          "encouragement": "You've handled a complex pricing problem!",
+          "questionPrompt": "Does this price seem reasonable for specialty coffee?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Raw: $18/kg, 12% weight loss, 60% markup",
+        "expectedAnswers": ["$32.73", "32.73", "$32.72", "32.72", "$32.70", "32.7"],
+        "gradingGuidance": "Three-step problem: (1) Find yield (0.88 kg), (2) Find cost per kg roasted ($18 ÷ 0.88 ≈ $20.45), (3) Apply markup (× 1.60). Accept $32.72-$32.73 depending on rounding. Common errors: applying markup to $18 directly, or calculating 12% of $18. Award partial credit for correct method with rounding differences.",
+        "sampleSolutions": [
+          "1 kg raw → 0.88 kg roasted\nCost/kg roasted = $18 ÷ 0.88 = $20.45\nWith 60% markup = $20.45 × 1.60 = $32.72",
+          "Weight after roasting = 88%\nEffective cost = $18 / 0.88 = $20.45\nSelling price = $20.45 × 1.6 = $32.73"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "business-pricing",
+        "year": 8,
+        "keyConcepts": ["weight loss", "cost adjustment", "markup pricing"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 9,
+        "conceptsUsed": ["c3", "c5", "c8"],
+        "buildsOn": ["pct-app-y8-107", "pct-app-y8-108"],
+        "preparesFor": ["pct-app-y8-120"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can solve complex real-world pricing problems!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set12",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-120",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A student's test scores this term were 72%, 68%, 80%, and 76%.\n\nThe final exam is worth 40% of the overall grade, while the four tests together are worth 60%.\n\nWhat minimum percentage does the student need on the final exam to achieve an overall grade of at least 75%?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Calculate the average test score\n$$\\text{Test average} = \\frac{72 + 68 + 80 + 76}{4} = \\frac{296}{4} = 74\\%$$\n\n**Step 2:** Set up the weighted average equation\n$$\\text{Overall} = (\\text{Test average} \\times 0.60) + (\\text{Exam} \\times 0.40)$$\n$$75 = (74 \\times 0.60) + (E \\times 0.40)$$\n\n**Step 3:** Solve for E\n$$75 = 44.4 + 0.40E$$\n$$75 - 44.4 = 0.40E$$\n$$30.6 = 0.40E$$\n$$E = \\frac{30.6}{0.40} = 76.5$$\n\n**Answer: The student needs at least 76.5% on the final exam**\n\n**Check:** (74 × 0.60) + (76.5 × 0.40) = 44.4 + 30.6 = 75% ✓",
+      "hints": [
+        {"level": 1, "content": "First find the average of the four test scores.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Test average = 74%. Now set up: 75 = (74 × 0.60) + (E × 0.40)", "revealsCriticalInfo": false},
+        {"level": 3, "content": "75 = 44.4 + 0.40E. Solve: 30.6 = 0.40E, so E = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The tests are averaged first, then weighted against the exam.",
+          "encouragement": "This is how most courses calculate grades!",
+          "questionPrompt": "What is the average of 72, 68, 80, and 76?"
+        },
+        {
+          "level": 2,
+          "content": "Average = 74%. The tests contribute 74 × 0.60 = 44.4 to the grade.",
+          "encouragement": "Now find what the exam must contribute!",
+          "questionPrompt": "If tests give 44.4 and you need 75 total, what must the exam contribute?"
+        },
+        {
+          "level": 3,
+          "content": "Exam must contribute 30.6, and it's weighted at 40%.",
+          "encouragement": "Final calculation!",
+          "questionPrompt": "If 0.40 × E = 30.6, what is E?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Tests: 72%, 68%, 80%, 76% (60%), Exam: ? (40%), Target: 75%",
+        "expectedAnswers": ["76.5%", "76.5", "77%", "at least 76.5%", "minimum 76.5%", "76.5 percent"],
+        "gradingGuidance": "Multi-step problem: (1) Average tests (296/4 = 74%), (2) Set up weighted equation (75 = 74×0.60 + E×0.40), (3) Solve (E = 30.6/0.40 = 76.5%). Accept 76.5% or 77% (rounded up since 'at least'). Common errors: not averaging tests, or incorrect weights. Award partial credit for correct setup with calculation errors.",
+        "sampleSolutions": [
+          "Test average = (72+68+80+76)/4 = 74%\n75 = (74 × 0.60) + (E × 0.40)\n75 = 44.4 + 0.40E\n30.6 = 0.40E\nE = 76.5%",
+          "Average = 74%\nTests contribute: 74 × 0.6 = 44.4\nNeed from exam: 75 - 44.4 = 30.6\nExam score: 30.6 ÷ 0.4 = 76.5%"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "weighted-averages",
+        "year": 8,
+        "keyConcepts": ["weighted average", "percentage equations", "reverse calculation"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 10,
+        "conceptsUsed": ["c1", "c9"],
+        "buildsOn": ["pct-app-y8-095", "pct-app-y8-096"],
+        "preparesFor": []
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can solve complex weighted percentage problems!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set12",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

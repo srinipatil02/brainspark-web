@@ -1,0 +1,505 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set2",
+    "setNumber": 2,
+    "questionRange": "Q11-20",
+    "phase": "foundation",
+    "difficulty": "2",
+    "focus": "Dividing quantities in ratios"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-011",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Divide $60 between Amy and Ben in the ratio 2 : 3.\n\nHow much does each person get?\n\nShow your working.",
+      "solution": "**Solution:**\n\nTotal parts = 2 + 3 = 5 parts\n\nValue of 1 part = $60 ÷ 5 = $12\n\nAmy (2 parts) = 2 × $12 = $24\nBen (3 parts) = 3 × $12 = $36\n\n**Answer: Amy gets $24, Ben gets $36**\n\n**Check:** $24 + $36 = $60 ✓ and 24:36 = 2:3 ✓",
+      "hints": [
+        {"level": 1, "content": "First find the total number of parts (2 + 3).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Total = 5 parts. Divide $60 by 5 to find 1 part.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "1 part = $12. Amy = 2×$12, Ben = 3×$12", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The ratio 2:3 means a total of 5 parts to share.",
+          "encouragement": "Add the ratio numbers to find total parts!",
+          "questionPrompt": "What is 2 + 3?"
+        },
+        {
+          "level": 2,
+          "content": "5 parts = $60, so 1 part = $12.",
+          "encouragement": "You've found the value of one part!",
+          "questionPrompt": "How many parts does Amy get? How many does Ben get?"
+        },
+        {
+          "level": 3,
+          "content": "Amy = 2 × $12 = $24, Ben = 3 × $12 = $36",
+          "encouragement": "Always check: do the amounts add to the total?",
+          "questionPrompt": "Does $24 + $36 = $60?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "$60 in ratio 2:3",
+        "expectedAnswers": ["Amy $24, Ben $36", "$24 and $36", "24, 36", "Amy: $24, Ben: $36"],
+        "gradingGuidance": "Both amounts needed. Method: total parts = 5, value of 1 part = $12, multiply for each share. Common error: giving $60 × 2/3 = $40 for Ben (using fraction instead of parts).",
+        "sampleSolutions": [
+          "Total = 2+3 = 5 parts\n1 part = $60÷5 = $12\nAmy = 2×$12 = $24\nBen = 3×$12 = $36",
+          "Amy = 2/5 × $60 = $24\nBen = 3/5 × $60 = $36"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["dividing in ratio", "total parts"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 11, "conceptsUsed": ["c4"], "buildsOn": ["ratio-rate-y8-010"], "preparesFor": ["ratio-rate-y8-012"]},
+      "pedagogy": {"type": "scaffolded", "targetFeeling": "I can divide amounts in ratios!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set2", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-012",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Divide 72 lollies between three children in the ratio 2 : 3 : 4.\n\nHow many lollies does each child get?\n\nShow your working.",
+      "solution": "**Solution:**\n\nTotal parts = 2 + 3 + 4 = 9 parts\n\nValue of 1 part = 72 ÷ 9 = 8 lollies\n\nChild 1 (2 parts) = 2 × 8 = 16 lollies\nChild 2 (3 parts) = 3 × 8 = 24 lollies\nChild 3 (4 parts) = 4 × 8 = 32 lollies\n\n**Answer: 16, 24, and 32 lollies**\n\n**Check:** 16 + 24 + 32 = 72 ✓",
+      "hints": [
+        {"level": 1, "content": "Add all three parts of the ratio first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Total = 9 parts. Find what 1 part equals.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "1 part = 8. Multiply: 2×8, 3×8, 4×8", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "A three-part ratio works the same way - just more parts to add!",
+          "encouragement": "Same method as two-part ratios!",
+          "questionPrompt": "What is 2 + 3 + 4?"
+        },
+        {
+          "level": 2,
+          "content": "9 parts = 72, so 1 part = 8 lollies.",
+          "encouragement": "Now distribute to each child!",
+          "questionPrompt": "What is 72 ÷ 9?"
+        },
+        {
+          "level": 3,
+          "content": "2×8=16, 3×8=24, 4×8=32",
+          "encouragement": "Check: do they add to 72?",
+          "questionPrompt": "Is 16 + 24 + 32 = 72?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "72 lollies in ratio 2:3:4",
+        "expectedAnswers": ["16, 24, 32", "16 24 32", "16, 24, and 32"],
+        "gradingGuidance": "All three amounts needed. Total parts = 9, 1 part = 8. Check answers sum to 72.",
+        "sampleSolutions": ["Total = 9 parts\n1 part = 8\nShares: 16, 24, 32"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["three-part ratio", "dividing in ratio"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 12, "conceptsUsed": ["c4"], "buildsOn": ["ratio-rate-y8-011"], "preparesFor": ["ratio-rate-y8-013"]},
+      "pedagogy": {"type": "extension", "targetFeeling": "Three-part ratios are just as easy!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set2", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-013",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Two business partners share profits in the ratio 3 : 5.\n\nIf the total profit is $4,800, how much more does the second partner receive than the first?\n\nShow your working.",
+      "solution": "**Solution:**\n\nTotal parts = 3 + 5 = 8\n1 part = $4,800 ÷ 8 = $600\n\nPartner 1 = 3 × $600 = $1,800\nPartner 2 = 5 × $600 = $3,000\n\nDifference = $3,000 - $1,800 = $1,200\n\n**Answer: $1,200 more**",
+      "hints": [
+        {"level": 1, "content": "Find each partner's share first, then calculate the difference.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Partner 1 = $1,800, Partner 2 = $3,000", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Difference = $3,000 - $1,800", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "First divide the profit, then compare the shares.",
+          "encouragement": "Two-step problem - you can do this!",
+          "questionPrompt": "How much does each partner get?"
+        },
+        {
+          "level": 2,
+          "content": "Partner 1 gets $1,800 and Partner 2 gets $3,000.",
+          "encouragement": "Now find the difference!",
+          "questionPrompt": "What is $3,000 - $1,800?"
+        },
+        {
+          "level": 3,
+          "content": "$3,000 - $1,800 = $1,200",
+          "encouragement": "You answered the actual question asked!",
+          "questionPrompt": "Could you also find this as (5-3) parts = 2 × $600?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "$4,800 in ratio 3:5, find difference",
+        "expectedAnswers": ["$1,200", "1200", "$1200", "1,200"],
+        "gradingGuidance": "Question asks for DIFFERENCE, not individual shares. Common error: giving $3,000 or both shares. Shortcut: difference = 2 parts = 2 × $600.",
+        "sampleSolutions": ["1 part = $600\nDiff = 5-3 = 2 parts = $1,200", "P1=$1800, P2=$3000\nDiff = $1,200"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["dividing in ratio", "difference"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 13, "conceptsUsed": ["c4"], "buildsOn": ["ratio-rate-y8-012"], "preparesFor": ["ratio-rate-y8-014"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I read questions carefully!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set2", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-014",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Concrete is made by mixing cement, sand, and gravel in the ratio 1 : 2 : 3.\n\nHow much sand is needed to make 180 kg of concrete?\n\nShow your working.",
+      "solution": "**Solution:**\n\nTotal parts = 1 + 2 + 3 = 6\n1 part = 180 ÷ 6 = 30 kg\n\nSand = 2 parts = 2 × 30 = 60 kg\n\n**Answer: 60 kg of sand**\n\n**Check:** Cement=30, Sand=60, Gravel=90. Total=180 ✓",
+      "hints": [
+        {"level": 1, "content": "The question asks for sand only. Still need to find total parts.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "6 parts = 180 kg. Sand is 2 parts.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "1 part = 30 kg, so sand = 2 × 30 = 60 kg", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Even though we only need sand, we must consider all parts.",
+          "encouragement": "The total is key!",
+          "questionPrompt": "What's the total number of parts?"
+        },
+        {
+          "level": 2,
+          "content": "6 parts = 180 kg, so 1 part = 30 kg.",
+          "encouragement": "Sand is 2 parts...",
+          "questionPrompt": "What is 2 × 30?"
+        },
+        {
+          "level": 3,
+          "content": "Sand = 60 kg",
+          "encouragement": "You extracted just the information needed!",
+          "questionPrompt": "What fraction of the concrete is sand?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Cement:Sand:Gravel = 1:2:3, Total = 180kg",
+        "expectedAnswers": ["60 kg", "60kg", "60", "60 kilograms"],
+        "gradingGuidance": "Only sand amount required. 1 part = 30 kg, sand = 2 parts = 60 kg. Alternative: sand = 2/6 × 180 = 60 kg.",
+        "sampleSolutions": ["Total = 6 parts = 180 kg\n1 part = 30 kg\nSand = 2 × 30 = 60 kg"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["three-part ratio", "extracting one component"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 14, "conceptsUsed": ["c4"], "buildsOn": ["ratio-rate-y8-012"], "preparesFor": ["ratio-rate-y8-015"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can find specific parts of a ratio!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set2", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-015",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A map has a scale of 1 : 50,000.\n\nTwo towns are 3 cm apart on the map. What is the actual distance between them in kilometres?\n\nShow your working.",
+      "solution": "**Solution:**\n\nScale 1 : 50,000 means 1 cm on map = 50,000 cm actual\n\nActual distance = 3 × 50,000 = 150,000 cm\n\nConvert to km:\n150,000 cm = 1,500 m = 1.5 km\n\n**Answer: 1.5 km**",
+      "hints": [
+        {"level": 1, "content": "1 cm on the map = 50,000 cm in reality.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "3 cm = 3 × 50,000 = 150,000 cm. Now convert to km.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "150,000 cm = 1,500 m = 1.5 km", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The scale tells you how many real cm each map cm represents.",
+          "encouragement": "Scales are just ratios!",
+          "questionPrompt": "If 1 cm = 50,000 cm, what does 3 cm equal?"
+        },
+        {
+          "level": 2,
+          "content": "3 × 50,000 = 150,000 cm. Don't forget to convert units!",
+          "encouragement": "Nearly there - just change units!",
+          "questionPrompt": "How many metres in 150,000 cm?"
+        },
+        {
+          "level": 3,
+          "content": "150,000 cm ÷ 100 = 1,500 m ÷ 1000 = 1.5 km",
+          "encouragement": "You've navigated scale and unit conversion!",
+          "questionPrompt": "Is 1.5 km a reasonable distance between towns?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Scale 1:50,000, Map distance = 3 cm",
+        "expectedAnswers": ["1.5 km", "1.5km", "1.5 kilometres", "1.5"],
+        "gradingGuidance": "Two-step: multiply by scale factor, then convert cm→km. Common error: forgetting unit conversion or converting incorrectly.",
+        "sampleSolutions": ["3 × 50,000 = 150,000 cm\n= 1,500 m = 1.5 km"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["scale", "unit conversion"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 15, "conceptsUsed": ["c3", "c5"], "buildsOn": ["ratio-rate-y8-014"], "preparesFor": ["ratio-rate-y8-016"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can use map scales!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set2", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-016",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "The ratio of boys to girls in a school is 5 : 6.\n\nIf there are 180 girls, how many students are in the school altogether?\n\nShow your working.",
+      "solution": "**Solution:**\n\nGirls = 6 parts = 180\n1 part = 180 ÷ 6 = 30\n\nBoys = 5 parts = 5 × 30 = 150\n\nTotal students = 150 + 180 = 330\n\n**Answer: 330 students**",
+      "hints": [
+        {"level": 1, "content": "Find 1 part using the girls information, then find boys.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = 30. Boys = 5 × 30 = 150.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Total = 150 + 180 = 330", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Girls = 6 parts = 180. Find the value of 1 part.",
+          "encouragement": "Start with what you know!",
+          "questionPrompt": "What is 180 ÷ 6?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = 30, so boys = 5 × 30 = 150.",
+          "encouragement": "Now find the total!",
+          "questionPrompt": "What is the total number of students?"
+        },
+        {
+          "level": 3,
+          "content": "Total = 150 + 180 = 330 students",
+          "encouragement": "You found the whole from a part!",
+          "questionPrompt": "Alternative: total = 11 parts = 11 × 30 = ?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Boys:Girls = 5:6, Girls = 180",
+        "expectedAnswers": ["330", "330 students"],
+        "gradingGuidance": "Question asks for TOTAL, not just boys. Alternative: total = 11 parts = 330. Common error: giving boys only (150).",
+        "sampleSolutions": ["1 part = 30\nTotal = 11 parts = 330", "Boys = 150, Girls = 180\nTotal = 330"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio to total", "multi-step"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 16, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-015"], "preparesFor": ["ratio-rate-y8-017"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can find totals from ratios!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set2", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-017",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Purple paint is made by mixing blue and red paint in the ratio 7 : 3.\n\nA painter has 2.1 litres of blue paint. How much red paint does she need?\n\nShow your working.",
+      "solution": "**Solution:**\n\nBlue : Red = 7 : 3\n\nBlue = 7 parts = 2.1 L\n1 part = 2.1 ÷ 7 = 0.3 L\n\nRed = 3 parts = 3 × 0.3 = 0.9 L\n\n**Answer: 0.9 litres of red paint**",
+      "hints": [
+        {"level": 1, "content": "2.1 L of blue = 7 parts. Find 1 part.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = 2.1 ÷ 7 = 0.3 L", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Red = 3 × 0.3 = 0.9 L", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Blue paint represents 7 parts in the ratio.",
+          "encouragement": "Find the value of one part!",
+          "questionPrompt": "What is 2.1 ÷ 7?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = 0.3 L. Red needs 3 parts.",
+          "encouragement": "Decimals work the same way!",
+          "questionPrompt": "What is 3 × 0.3?"
+        },
+        {
+          "level": 3,
+          "content": "Red = 0.9 L",
+          "encouragement": "You've handled decimal ratios!",
+          "questionPrompt": "Does 2.1 : 0.9 simplify to 7 : 3?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Blue:Red = 7:3, Blue = 2.1L",
+        "expectedAnswers": ["0.9 L", "0.9L", "0.9 litres", "0.9", "900 mL"],
+        "gradingGuidance": "1 part = 0.3 L, red = 3 × 0.3 = 0.9 L. Accept 900 mL as equivalent.",
+        "sampleSolutions": ["7 parts = 2.1 L\n1 part = 0.3 L\n3 parts = 0.9 L"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio with decimals", "unitary method"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 17, "conceptsUsed": ["c3", "c5"], "buildsOn": ["ratio-rate-y8-016"], "preparesFor": ["ratio-rate-y8-018"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Decimal ratios are manageable!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set2", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-018",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "The ratio of Tom's savings to Jerry's savings is 4 : 9.\n\nJerry has $63 more than Tom. How much does each person have?\n\nShow your working.",
+      "solution": "**Solution:**\n\nDifference in parts = 9 - 4 = 5 parts\n5 parts = $63\n1 part = $63 ÷ 5 = $12.60\n\nTom = 4 × $12.60 = $50.40\nJerry = 9 × $12.60 = $113.40\n\n**Answer: Tom has $50.40, Jerry has $113.40**\n\n**Check:** $113.40 - $50.40 = $63 ✓",
+      "hints": [
+        {"level": 1, "content": "The difference ($63) represents the difference in parts (9 - 4).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "5 parts = $63, so 1 part = $12.60", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Tom = 4 × $12.60, Jerry = 9 × $12.60", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The $63 difference corresponds to the difference in ratio parts.",
+          "encouragement": "This is a clever approach!",
+          "questionPrompt": "How many more parts does Jerry have than Tom?"
+        },
+        {
+          "level": 2,
+          "content": "5 parts = $63, so 1 part = $12.60.",
+          "encouragement": "Now you can find both amounts!",
+          "questionPrompt": "What is 4 × $12.60 and 9 × $12.60?"
+        },
+        {
+          "level": 3,
+          "content": "Tom = $50.40, Jerry = $113.40",
+          "encouragement": "Always verify: is the difference $63?",
+          "questionPrompt": "Does $113.40 - $50.40 = $63?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Tom:Jerry = 4:9, Jerry has $63 more",
+        "expectedAnswers": ["Tom $50.40, Jerry $113.40", "$50.40 and $113.40"],
+        "gradingGuidance": "Use difference in parts (5) to find 1 part. Both amounts needed. Check: difference should be $63.",
+        "sampleSolutions": ["Diff = 5 parts = $63\n1 part = $12.60\nTom = $50.40, Jerry = $113.40"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio from difference", "multi-step"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 18, "conceptsUsed": ["c4"], "buildsOn": ["ratio-rate-y8-013"], "preparesFor": ["ratio-rate-y8-019"]},
+      "pedagogy": {"type": "challenge", "targetFeeling": "I can solve ratio problems from differences!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set2", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-019",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A recipe for 4 people uses 300g of rice.\n\nHow much rice is needed for 10 people?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method: Unitary**\n\n4 people → 300g\n1 person → 300 ÷ 4 = 75g\n10 people → 75 × 10 = 750g\n\n**Answer: 750g of rice**\n\n**Alternative:** 10/4 = 2.5 times as many people\n300 × 2.5 = 750g",
+      "hints": [
+        {"level": 1, "content": "Find how much rice 1 person needs first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 person = 300 ÷ 4 = 75g", "revealsCriticalInfo": false},
+        {"level": 3, "content": "10 people = 75 × 10 = 750g", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The unitary method: find the amount for 1 person first.",
+          "encouragement": "A powerful technique!",
+          "questionPrompt": "What is 300g ÷ 4?"
+        },
+        {
+          "level": 2,
+          "content": "75g per person. Now multiply for 10 people.",
+          "encouragement": "Scale up to 10!",
+          "questionPrompt": "What is 75 × 10?"
+        },
+        {
+          "level": 3,
+          "content": "750g of rice",
+          "encouragement": "You've scaled a recipe!",
+          "questionPrompt": "Is 750g more or less than double 300g? Does that make sense?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "4 people = 300g rice, find for 10 people",
+        "expectedAnswers": ["750g", "750 g", "750", "750 grams"],
+        "gradingGuidance": "Unitary method or direct proportion. Either: 300÷4×10=750 or 300×(10/4)=750. Both valid.",
+        "sampleSolutions": ["1 person = 75g\n10 people = 750g", "Multiplier = 10/4 = 2.5\n300 × 2.5 = 750g"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["unitary method", "recipe scaling"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 19, "conceptsUsed": ["c5"], "buildsOn": ["ratio-rate-y8-017"], "preparesFor": ["ratio-rate-y8-020"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can scale recipes!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set2", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-020",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "In a bag of marbles, the ratio of red to blue to green marbles is 2 : 5 : 3.\n\nIf there are 15 blue marbles, find:\na) The number of red marbles\nb) The total number of marbles\n\nShow your working.",
+      "solution": "**Solution:**\n\nBlue = 5 parts = 15 marbles\n1 part = 15 ÷ 5 = 3 marbles\n\na) Red = 2 parts = 2 × 3 = 6 marbles\n\nb) Total parts = 2 + 5 + 3 = 10\nTotal marbles = 10 × 3 = 30 marbles\n\n**Answers: a) 6 red marbles, b) 30 total marbles**",
+      "hints": [
+        {"level": 1, "content": "Blue = 5 parts = 15. Find 1 part.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = 3 marbles. Red = 2 parts.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Red = 6. Total = 10 parts = 30", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Start with what you know: blue = 5 parts = 15 marbles.",
+          "encouragement": "Find the value of one part!",
+          "questionPrompt": "What is 15 ÷ 5?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = 3 marbles. Now find red (2 parts) and total (10 parts).",
+          "encouragement": "You've cracked the code!",
+          "questionPrompt": "What is 2 × 3 and 10 × 3?"
+        },
+        {
+          "level": 3,
+          "content": "Red = 6, Total = 30",
+          "encouragement": "You've mastered multi-part ratios!",
+          "questionPrompt": "Verify: 6 + 15 + ? = 30. What's green?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Red:Blue:Green = 2:5:3, Blue = 15",
+        "expectedAnswers": ["a) 6, b) 30", "6 red, 30 total", "6 and 30"],
+        "gradingGuidance": "Both parts required. 1 part = 3, red = 6, total = 30. Green = 9 (not asked but verifies: 6+15+9=30).",
+        "sampleSolutions": ["1 part = 3\na) Red = 6\nb) Total = 30"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["three-part ratio", "finding parts and total"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 20, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-012", "ratio-rate-y8-016"], "preparesFor": ["ratio-rate-y8-021"]},
+      "pedagogy": {"type": "consolidation", "targetFeeling": "I've mastered Foundation ratio problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set2", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set3",
+    "setNumber": 3,
+    "questionRange": "Q21-30",
+    "phase": "foundation",
+    "difficulty": "2",
+    "focus": "Introduction to rates, unit rates"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-021",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A car travels 240 km in 3 hours.\n\nCalculate the speed in km/h.\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}$$\n$$= \\frac{240 \\text{ km}}{3 \\text{ h}}$$\n$$= 80 \\text{ km/h}$$\n\n**Answer: 80 km/h**",
+      "hints": [
+        {"level": 1, "content": "Speed = Distance ÷ Time", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Speed = 240 ÷ 3", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Speed = 80 km/h", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Speed is a rate - distance per unit time.",
+          "encouragement": "This is your first rate calculation!",
+          "questionPrompt": "What formula connects speed, distance, and time?"
+        },
+        {
+          "level": 2,
+          "content": "Speed = Distance ÷ Time = 240 ÷ 3",
+          "encouragement": "Divide to find the rate!",
+          "questionPrompt": "What is 240 ÷ 3?"
+        },
+        {
+          "level": 3,
+          "content": "80 km/h means 80 kilometres every hour.",
+          "encouragement": "You've calculated speed!",
+          "questionPrompt": "Is 80 km/h a reasonable driving speed?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Distance = 240 km, Time = 3 h",
+        "expectedAnswers": ["80 km/h", "80km/h", "80 kmh", "80", "80 km per hour"],
+        "gradingGuidance": "Speed = D/T = 240/3 = 80 km/h. Include unit in answer. Common error: multiplying instead of dividing.",
+        "sampleSolutions": ["S = D/T = 240/3 = 80 km/h"],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["speed", "rate", "division"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 21, "conceptsUsed": ["c6", "c9"], "buildsOn": ["ratio-rate-y8-020"], "preparesFor": ["ratio-rate-y8-022"]},
+      "pedagogy": {"type": "introduction", "targetFeeling": "Speed is just distance per time!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set3", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-022",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A worker earns $504 for 7 hours of work.\n\nCalculate the hourly rate of pay.\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$\\text{Hourly rate} = \\frac{\\text{Total pay}}{\\text{Hours worked}}$$\n$$= \\frac{\\$504}{7}$$\n$$= \\$72 \\text{ per hour}$$\n\n**Answer: $72 per hour**",
+      "hints": [
+        {"level": 1, "content": "Rate = Total ÷ Number of units", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Hourly rate = $504 ÷ 7", "revealsCriticalInfo": false},
+        {"level": 3, "content": "= $72 per hour", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Hourly rate means dollars per hour - another rate!",
+          "encouragement": "Same concept as speed!",
+          "questionPrompt": "What operation finds 'per hour'?"
+        },
+        {
+          "level": 2,
+          "content": "$504 ÷ 7 hours",
+          "encouragement": "Division gives you the rate!",
+          "questionPrompt": "What is 504 ÷ 7?"
+        },
+        {
+          "level": 3,
+          "content": "$72 per hour",
+          "encouragement": "You've found the unit rate!",
+          "questionPrompt": "What would 10 hours of work earn?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Pay = $504, Hours = 7",
+        "expectedAnswers": ["$72/hour", "$72 per hour", "$72/h", "72", "$72"],
+        "gradingGuidance": "Rate = 504 ÷ 7 = $72 per hour. This is a unit rate (per 1 hour).",
+        "sampleSolutions": ["Hourly rate = $504 ÷ 7 = $72/hour"],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["unit rate", "hourly pay"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 22, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-021"], "preparesFor": ["ratio-rate-y8-023"]},
+      "pedagogy": {"type": "practice", "targetFeeling": "Rates are useful in everyday life!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set3", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-023",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A printer prints 180 pages in 6 minutes.\n\nHow many pages does it print per minute?\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$\\text{Rate} = \\frac{180 \\text{ pages}}{6 \\text{ minutes}}$$\n$$= 30 \\text{ pages per minute}$$\n\n**Answer: 30 pages per minute**",
+      "hints": [
+        {"level": 1, "content": "Find pages per 1 minute by dividing.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "180 ÷ 6 = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "30 pages per minute", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "'Per minute' means for every 1 minute.",
+          "encouragement": "Find the unit rate!",
+          "questionPrompt": "What is 180 ÷ 6?"
+        },
+        {
+          "level": 2,
+          "content": "180 ÷ 6 = 30",
+          "encouragement": "That's pages per minute!",
+          "questionPrompt": "How many pages in 10 minutes at this rate?"
+        },
+        {
+          "level": 3,
+          "content": "30 pages per minute",
+          "encouragement": "Unit rates make scaling easy!",
+          "questionPrompt": "What would 30 × 10 give you?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "180 pages in 6 minutes",
+        "expectedAnswers": ["30 pages per minute", "30 pages/min", "30", "30 ppm"],
+        "gradingGuidance": "Simple division: 180 ÷ 6 = 30 pages per minute.",
+        "sampleSolutions": ["180 ÷ 6 = 30 pages per minute"],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["unit rate", "printing rate"]
+      },
+      "difficulty": 1,
+      "estimatedTime": 60,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 23, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-022"], "preparesFor": ["ratio-rate-y8-024"]},
+      "pedagogy": {"type": "practice", "targetFeeling": "Rates describe how fast things happen!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set3", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-024",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A 400g box of cereal costs $6.00.\n\nCalculate the cost per 100g.\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$\\text{Cost per gram} = \\frac{\\$6.00}{400 \\text{g}} = \\$0.015 \\text{ per gram}$$\n\n$$\\text{Cost per 100g} = \\$0.015 \\times 100 = \\$1.50$$\n\n**Alternative:**\n$$\\text{Cost per 100g} = \\frac{\\$6.00}{4} = \\$1.50$$\n\n**Answer: $1.50 per 100g**",
+      "hints": [
+        {"level": 1, "content": "400g = 4 lots of 100g. How does that help?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "$6.00 ÷ 4 gives cost per 100g", "revealsCriticalInfo": false},
+        {"level": 3, "content": "$6.00 ÷ 4 = $1.50 per 100g", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Think: how many 100g portions are in 400g?",
+          "encouragement": "This is a common supermarket calculation!",
+          "questionPrompt": "What is 400 ÷ 100?"
+        },
+        {
+          "level": 2,
+          "content": "4 portions of 100g. Divide the cost by 4.",
+          "encouragement": "You're comparing value!",
+          "questionPrompt": "What is $6.00 ÷ 4?"
+        },
+        {
+          "level": 3,
+          "content": "$1.50 per 100g",
+          "encouragement": "This helps compare different packet sizes!",
+          "questionPrompt": "How much would 200g cost at this rate?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "400g costs $6.00",
+        "expectedAnswers": ["$1.50", "$1.50 per 100g", "1.50", "$1.50/100g"],
+        "gradingGuidance": "Either divide by 4 directly, or find cost per gram then multiply by 100. Both methods valid.",
+        "sampleSolutions": ["$6.00 ÷ 4 = $1.50 per 100g", "$6.00/400g = $0.015/g\n$0.015 × 100 = $1.50 per 100g"],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["unit price", "cost comparison"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 24, "conceptsUsed": ["c7"], "buildsOn": ["ratio-rate-y8-023"], "preparesFor": ["ratio-rate-y8-025"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can compare prices fairly!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set3", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-025",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A car travels at 90 km/h.\n\nHow far will it travel in 2.5 hours?\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$\\text{Distance} = \\text{Speed} \\times \\text{Time}$$\n$$= 90 \\times 2.5$$\n$$= 225 \\text{ km}$$\n\n**Answer: 225 km**",
+      "hints": [
+        {"level": 1, "content": "Distance = Speed × Time", "revealsCriticalInfo": false},
+        {"level": 2, "content": "D = 90 × 2.5", "revealsCriticalInfo": false},
+        {"level": 3, "content": "D = 225 km", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "If you know speed and time, multiply to find distance.",
+          "encouragement": "This is the reverse of finding speed!",
+          "questionPrompt": "What is Distance = Speed × Time?"
+        },
+        {
+          "level": 2,
+          "content": "D = 90 × 2.5",
+          "encouragement": "Multiply to scale up!",
+          "questionPrompt": "What is 90 × 2.5?"
+        },
+        {
+          "level": 3,
+          "content": "225 km",
+          "encouragement": "You can use rates in both directions!",
+          "questionPrompt": "90 × 2 = 180, plus 90 × 0.5 = 45. Total?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Speed = 90 km/h, Time = 2.5 h",
+        "expectedAnswers": ["225 km", "225km", "225", "225 kilometres"],
+        "gradingGuidance": "D = S × T = 90 × 2.5 = 225 km. Accept breaking down: 90×2 + 90×0.5 = 180 + 45.",
+        "sampleSolutions": ["D = 90 × 2.5 = 225 km"],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["speed-distance-time", "multiplication"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 25, "conceptsUsed": ["c9"], "buildsOn": ["ratio-rate-y8-021"], "preparesFor": ["ratio-rate-y8-026"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can find distance from speed and time!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set3", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-026",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A train travels 315 km at an average speed of 105 km/h.\n\nHow long does the journey take?\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}}$$\n$$= \\frac{315}{105}$$\n$$= 3 \\text{ hours}$$\n\n**Answer: 3 hours**",
+      "hints": [
+        {"level": 1, "content": "Time = Distance ÷ Speed", "revealsCriticalInfo": false},
+        {"level": 2, "content": "T = 315 ÷ 105", "revealsCriticalInfo": false},
+        {"level": 3, "content": "T = 3 hours", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Rearrange: Time = Distance ÷ Speed",
+          "encouragement": "You know two values, find the third!",
+          "questionPrompt": "What is 315 ÷ 105?"
+        },
+        {
+          "level": 2,
+          "content": "315 ÷ 105 = 3",
+          "encouragement": "Simple division!",
+          "questionPrompt": "Is 3 hours reasonable for 315 km?"
+        },
+        {
+          "level": 3,
+          "content": "3 hours",
+          "encouragement": "You've mastered all three SDT formulas!",
+          "questionPrompt": "Verify: 105 × 3 = 315?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Distance = 315 km, Speed = 105 km/h",
+        "expectedAnswers": ["3 hours", "3 h", "3", "3 hrs"],
+        "gradingGuidance": "T = D/S = 315/105 = 3 hours. Simple division.",
+        "sampleSolutions": ["T = D/S = 315/105 = 3 hours"],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["speed-distance-time", "finding time"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 26, "conceptsUsed": ["c9"], "buildsOn": ["ratio-rate-y8-025"], "preparesFor": ["ratio-rate-y8-027"]},
+      "pedagogy": {"type": "practice", "targetFeeling": "I can rearrange SDT formulas!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set3", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-027",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Exchange rate: $1 AUD = ¥85 Japanese Yen\n\nHow many yen will you get for $250 AUD?\n\nShow your working.",
+      "solution": "**Solution:**\n\n$1 AUD = ¥85\n\n$250 AUD = 250 × ¥85 = ¥21,250\n\n**Answer: ¥21,250**",
+      "hints": [
+        {"level": 1, "content": "If $1 = ¥85, multiply to find the value of $250.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "$250 × 85 = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "¥21,250", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Exchange rates work like unit rates - scale up by multiplying.",
+          "encouragement": "Useful for travel planning!",
+          "questionPrompt": "If $1 = ¥85, what is $250?"
+        },
+        {
+          "level": 2,
+          "content": "Multiply: 250 × 85",
+          "encouragement": "That's a lot of yen!",
+          "questionPrompt": "What is 250 × 85?"
+        },
+        {
+          "level": 3,
+          "content": "¥21,250",
+          "encouragement": "You're ready for Japan!",
+          "questionPrompt": "If you spent ¥8,500, how many AUD is that?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "$1 AUD = ¥85, Convert $250 AUD",
+        "expectedAnswers": ["¥21,250", "21250 yen", "21,250", "21250"],
+        "gradingGuidance": "Simple multiplication: 250 × 85 = 21,250 yen.",
+        "sampleSolutions": ["$250 × 85 = ¥21,250"],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["exchange rate", "currency conversion"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 27, "conceptsUsed": ["c5", "c7"], "buildsOn": ["ratio-rate-y8-026"], "preparesFor": ["ratio-rate-y8-028"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Rates help with currency exchange!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set3", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-028",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A tap fills a tank at a rate of 15 litres per minute.\n\nHow long will it take to fill a 450 litre tank?\n\nShow your working.",
+      "solution": "**Solution:**\n\n$$\\text{Time} = \\frac{\\text{Volume}}{\\text{Rate}}$$\n$$= \\frac{450 \\text{ L}}{15 \\text{ L/min}}$$\n$$= 30 \\text{ minutes}$$\n\n**Answer: 30 minutes**",
+      "hints": [
+        {"level": 1, "content": "Time = Volume ÷ Rate", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Time = 450 ÷ 15", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Time = 30 minutes", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is like finding time in SDT problems.",
+          "encouragement": "Same structure, different context!",
+          "questionPrompt": "What is 450 ÷ 15?"
+        },
+        {
+          "level": 2,
+          "content": "450 ÷ 15 = 30",
+          "encouragement": "Division finds how many 'units'.",
+          "questionPrompt": "Does 30 minutes seem right?"
+        },
+        {
+          "level": 3,
+          "content": "30 minutes",
+          "encouragement": "Rates apply to many situations!",
+          "questionPrompt": "Check: 15 × 30 = 450?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Rate = 15 L/min, Volume = 450 L",
+        "expectedAnswers": ["30 minutes", "30 min", "30", "30 mins"],
+        "gradingGuidance": "Time = Volume/Rate = 450/15 = 30 minutes.",
+        "sampleSolutions": ["Time = 450 ÷ 15 = 30 minutes"],
+        "minimumWorkLines": 1,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["rate application", "flow rate"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 28, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-026"], "preparesFor": ["ratio-rate-y8-029"]},
+      "pedagogy": {"type": "application", "targetFeeling": "Rates describe filling and emptying!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set3", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-029",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A cyclist travels 12 km in 45 minutes.\n\nCalculate the cyclist's speed in km/h.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Convert time to hours\n45 minutes = 45/60 hours = 0.75 hours\n\n**Step 2:** Calculate speed\n$$\\text{Speed} = \\frac{12 \\text{ km}}{0.75 \\text{ h}} = 16 \\text{ km/h}$$\n\n**Answer: 16 km/h**",
+      "hints": [
+        {"level": 1, "content": "Convert 45 minutes to hours first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "45 min = 0.75 h. Now use S = D/T.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "S = 12 ÷ 0.75 = 16 km/h", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Speed in km/h needs time in hours, not minutes.",
+          "encouragement": "Unit conversion is key!",
+          "questionPrompt": "What is 45 minutes as a fraction of an hour?"
+        },
+        {
+          "level": 2,
+          "content": "45/60 = 0.75 hours. Now divide distance by time.",
+          "encouragement": "You've handled the conversion!",
+          "questionPrompt": "What is 12 ÷ 0.75?"
+        },
+        {
+          "level": 3,
+          "content": "12 ÷ 0.75 = 16 km/h",
+          "encouragement": "Unit conversion + rate calculation!",
+          "questionPrompt": "Is 16 km/h a reasonable cycling speed?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Distance = 12 km, Time = 45 min",
+        "expectedAnswers": ["16 km/h", "16km/h", "16", "16 km per hour"],
+        "gradingGuidance": "Two-step: convert 45 min = 0.75 h, then S = 12/0.75 = 16 km/h. Common error: dividing 12 by 45.",
+        "sampleSolutions": ["45 min = 0.75 h\nS = 12/0.75 = 16 km/h"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["speed", "unit conversion"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 29, "conceptsUsed": ["c9"], "buildsOn": ["ratio-rate-y8-021"], "preparesFor": ["ratio-rate-y8-030"]},
+      "pedagogy": {"type": "challenge", "targetFeeling": "I can handle unit conversions with rates!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set3", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-030",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A heart beats 72 times per minute.\n\na) How many times does it beat in 1 hour?\nb) How many times does it beat in 24 hours?\n\nShow your working.",
+      "solution": "**Solution:**\n\na) Beats per hour:\n72 × 60 = 4,320 beats\n\nb) Beats per day:\n4,320 × 24 = 103,680 beats\n\n**Answers: a) 4,320 beats, b) 103,680 beats**",
+      "hints": [
+        {"level": 1, "content": "For part a, how many minutes in an hour?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 hour = 60 minutes. 72 × 60 = 4,320", "revealsCriticalInfo": false},
+        {"level": 3, "content": "For part b, multiply 4,320 by 24", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Scale up from per minute to per hour.",
+          "encouragement": "Your heart works hard!",
+          "questionPrompt": "What is 72 × 60?"
+        },
+        {
+          "level": 2,
+          "content": "4,320 beats per hour. Now scale to a day.",
+          "encouragement": "That's a lot of beats!",
+          "questionPrompt": "What is 4,320 × 24?"
+        },
+        {
+          "level": 3,
+          "content": "103,680 beats per day",
+          "encouragement": "Over 100,000 beats every day!",
+          "questionPrompt": "About how many beats per year?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Heart rate = 72 beats/min",
+        "expectedAnswers": ["a) 4,320 b) 103,680", "4320 and 103680"],
+        "gradingGuidance": "Part a: 72 × 60 = 4,320. Part b: 4,320 × 24 = 103,680. Both needed.",
+        "sampleSolutions": ["a) 72 × 60 = 4,320\nb) 4,320 × 24 = 103,680"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["rate scaling", "time conversion"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 1, "phasePosition": 30, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-029"], "preparesFor": ["ratio-rate-y8-031"]},
+      "pedagogy": {"type": "consolidation", "targetFeeling": "I've mastered Foundation ratios and rates!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set3", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

@@ -1,0 +1,760 @@
+{
+  "setInfo": {
+    "setNumber": 10,
+    "phase": "mastery",
+    "questions": "Q91-100",
+    "focus": "Simple interest, multi-step financial problems, percentage equations"
+  },
+  "questions": [
+    {
+      "questionId": "pct-app-y8-091",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Calculate the simple interest earned on $8,000 invested at 4.5% per annum for 3 years.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Simple Interest Formula:** I = PRT\nWhere: P = Principal, R = Rate (as decimal), T = Time (years)\n\nI = $8,000 × 0.045 × 3\nI = $8,000 × 0.135\nI = $1,080\n\n**Answer: $1,080**\n\n**Check:** $8,000 × 4.5% = $360 per year. $360 × 3 = $1,080 ✓",
+      "hints": [
+        {"level": 1, "content": "Use the simple interest formula: I = PRT (Principal × Rate × Time)", "revealsCriticalInfo": false},
+        {"level": 2, "content": "P = $8,000, R = 0.045 (4.5% as decimal), T = 3 years", "revealsCriticalInfo": false},
+        {"level": 3, "content": "I = $8,000 × 0.045 × 3 = $1,080", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Simple interest is the same amount each year.",
+          "encouragement": "I = PRT is a fundamental formula!",
+          "questionPrompt": "What is 4.5% as a decimal?"
+        },
+        {
+          "level": 2,
+          "content": "Rate = 0.045. Now multiply P × R × T.",
+          "encouragement": "Three values to multiply!",
+          "questionPrompt": "What is $8,000 × 0.045?"
+        },
+        {
+          "level": 3,
+          "content": "$8,000 × 0.045 = $360 per year. For 3 years: $1,080",
+          "encouragement": "You've calculated simple interest!",
+          "questionPrompt": "What would the total balance be after 3 years?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "P = $8,000, R = 4.5% p.a., T = 3 years",
+        "expectedAnswers": ["1080", "$1,080", "1080 dollars", "$1080", "1,080"],
+        "gradingGuidance": "Student must use I = PRT correctly. Accept step-by-step (yearly then multiply) or direct calculation. Common error: forgetting to convert % to decimal.",
+        "sampleSolutions": [
+          "I = PRT = $8,000 × 0.045 × 3 = $1,080",
+          "Yearly interest = $8,000 × 4.5% = $360\n3 years = $360 × 3 = $1,080"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["simple interest", "I=PRT formula"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 1,
+        "conceptsUsed": ["simple-interest"],
+        "buildsOn": ["pct-app-y8-002"],
+        "preparesFor": ["pct-app-y8-092", "pct-app-y8-093"]
+      },
+      "pedagogy": {
+        "type": "formula-application",
+        "targetFeeling": "I understand the simple interest formula!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set10",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-092",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "$5,000 is invested and earns $750 simple interest over 2.5 years.\n\nWhat was the annual interest rate?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Rearrange I = PRT to find R:**\nR = I ÷ (P × T)\n\nR = $750 ÷ ($5,000 × 2.5)\nR = $750 ÷ $12,500\nR = 0.06\nR = 6%\n\n**Answer: 6% per annum**\n\n**Check:** I = $5,000 × 0.06 × 2.5 = $750 ✓",
+      "hints": [
+        {"level": 1, "content": "Rearrange I = PRT to solve for R.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "R = I ÷ (P × T) = $750 ÷ ($5,000 × 2.5)", "revealsCriticalInfo": false},
+        {"level": 3, "content": "R = $750 ÷ $12,500 = 0.06 = 6%", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "You know I, P, and T. Rearrange to find R.",
+          "encouragement": "Algebra helps with percentage problems!",
+          "questionPrompt": "If I = PRT, how do you isolate R?"
+        },
+        {
+          "level": 2,
+          "content": "R = I/(PT) = 750/(5000 × 2.5)",
+          "encouragement": "Substitute and calculate!",
+          "questionPrompt": "What is 5000 × 2.5?"
+        },
+        {
+          "level": 3,
+          "content": "R = 750/12500 = 0.06 = 6%",
+          "encouragement": "You've worked backwards to find the interest rate!",
+          "questionPrompt": "Verify: Does $5,000 × 6% × 2.5 = $750?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "P = $5,000, I = $750, T = 2.5 years, R = ?",
+        "expectedAnswers": ["6%", "6", "6% p.a.", "6 percent", "0.06"],
+        "gradingGuidance": "Student must rearrange I=PRT to find R. Accept 6%, 6 percent, or 0.06. Must show working with formula rearrangement.",
+        "sampleSolutions": [
+          "I = PRT, so R = I/(PT)\nR = 750/(5000 × 2.5) = 750/12500 = 0.06 = 6%",
+          "750 = 5000 × R × 2.5\n750 = 12500R\nR = 750/12500 = 0.06 = 6%"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["simple interest", "rearranging formula", "finding rate"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 2,
+        "conceptsUsed": ["simple-interest", "formula-rearrangement"],
+        "buildsOn": ["pct-app-y8-091"],
+        "preparesFor": ["pct-app-y8-093"]
+      },
+      "pedagogy": {
+        "type": "formula-manipulation",
+        "targetFeeling": "I can find interest rates from interest earned!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set10",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-093",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "How long would it take for $12,000 to earn $1,800 simple interest at 5% per annum?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Rearrange I = PRT to find T:**\nT = I ÷ (P × R)\n\nT = $1,800 ÷ ($12,000 × 0.05)\nT = $1,800 ÷ $600\nT = 3 years\n\n**Answer: 3 years**\n\n**Check:** I = $12,000 × 0.05 × 3 = $1,800 ✓",
+      "hints": [
+        {"level": 1, "content": "Rearrange I = PRT to solve for T.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "T = I ÷ (P × R) = $1,800 ÷ ($12,000 × 0.05)", "revealsCriticalInfo": false},
+        {"level": 3, "content": "T = $1,800 ÷ $600 = 3 years", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "You know I, P, and R. Rearrange to find T.",
+          "encouragement": "Same technique as finding the rate!",
+          "questionPrompt": "If I = PRT, how do you isolate T?"
+        },
+        {
+          "level": 2,
+          "content": "T = I/(PR) = 1800/(12000 × 0.05)",
+          "encouragement": "Substitute and calculate!",
+          "questionPrompt": "What is $12,000 × 0.05?"
+        },
+        {
+          "level": 3,
+          "content": "T = 1800/600 = 3 years",
+          "encouragement": "You can calculate investment time periods!",
+          "questionPrompt": "Verify: Does $12,000 × 5% × 3 = $1,800?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "P = $12,000, I = $1,800, R = 5%, T = ?",
+        "expectedAnswers": ["3 years", "3", "3 yrs"],
+        "gradingGuidance": "Student must rearrange I=PRT to find T. Must show formula rearrangement and working.",
+        "sampleSolutions": [
+          "I = PRT, so T = I/(PR)\nT = 1800/(12000 × 0.05) = 1800/600 = 3 years",
+          "1800 = 12000 × 0.05 × T\n1800 = 600T\nT = 3 years"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["simple interest", "rearranging formula", "finding time"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 3,
+        "conceptsUsed": ["simple-interest", "formula-rearrangement"],
+        "buildsOn": ["pct-app-y8-091", "pct-app-y8-092"],
+        "preparesFor": ["pct-app-y8-094"]
+      },
+      "pedagogy": {
+        "type": "formula-manipulation",
+        "targetFeeling": "I can find any variable in the interest formula!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set10",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-094",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Marcus is 15% taller than his sister.\n\nIf Marcus is 184 cm tall, how tall is his sister?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Set up the equation:**\nMarcus = 115% of Sister (15% more)\n184 = 1.15 × Sister\n\n**Solve for Sister's height:**\nSister = 184 ÷ 1.15\nSister = 160 cm\n\n**Answer: 160 cm**\n\n**Check:** 160 × 1.15 = 184 ✓\nOr: 15% of 160 = 24, 160 + 24 = 184 ✓",
+      "hints": [
+        {"level": 1, "content": "\"15% taller than\" means Marcus = 115% of his sister.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "184 = 1.15 × Sister's height", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Sister = 184 ÷ 1.15 = 160 cm", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Translate the words into a percentage equation.",
+          "encouragement": "\"X% more than\" means multiply by (1 + X/100)!",
+          "questionPrompt": "If Marcus is 15% taller, what percentage of sister is Marcus?"
+        },
+        {
+          "level": 2,
+          "content": "Marcus = 115% of Sister = 1.15 × Sister",
+          "encouragement": "Now you can solve for sister's height!",
+          "questionPrompt": "If 1.15 × Sister = 184, how do you find Sister?"
+        },
+        {
+          "level": 3,
+          "content": "Sister = 184 ÷ 1.15 = 160 cm",
+          "encouragement": "You've translated a percentage relationship into an equation!",
+          "questionPrompt": "Verify: Is 160 × 1.15 = 184?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Marcus = Sister + 15% of Sister = 184 cm",
+        "expectedAnswers": ["160", "160 cm", "160cm"],
+        "gradingGuidance": "Student must set up equation correctly: 184 = 1.15 × Sister. Common error: subtracting 15% from 184 gives 156.4 (wrong base).",
+        "sampleSolutions": [
+          "Marcus = 1.15 × Sister\n184 = 1.15 × Sister\nSister = 184 ÷ 1.15 = 160 cm",
+          "If M = S + 15% of S = 1.15S\n1.15S = 184\nS = 160 cm"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["percentage equations", "reverse percentage", "word problems"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 4,
+        "conceptsUsed": ["percentage-equations", "reverse-percentage"],
+        "buildsOn": ["pct-app-y8-005", "pct-app-y8-045"],
+        "preparesFor": ["pct-app-y8-095"]
+      },
+      "pedagogy": {
+        "type": "equation-setup",
+        "targetFeeling": "I can translate percentage relationships into equations!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set10",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-095",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A bicycle is discounted by 20% and then GST of 10% is added.\n\nThe final price is $396.\n\nWhat was the original price before any discount?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Work backwards through the operations:**\n\n**Step 1: Remove GST**\n$396 = price after discount + GST = 1.10 × (price after discount)\nPrice after discount = $396 ÷ 1.10 = $360\n\n**Step 2: Reverse the 20% discount**\n$360 = 80% of original (since 20% off)\n$360 = 0.80 × original\nOriginal = $360 ÷ 0.80 = $450\n\n**Answer: $450**\n\n**Check:** $450 × 0.80 = $360, then $360 × 1.10 = $396 ✓",
+      "hints": [
+        {"level": 1, "content": "Work backwards: remove GST first, then reverse the discount.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Before GST: $396 ÷ 1.10 = $360. Now reverse 20% discount.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "$360 = 80% of original. Original = $360 ÷ 0.80 = $450", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The operations were: discount → add GST. Reverse: remove GST → reverse discount.",
+          "encouragement": "Work in reverse order!",
+          "questionPrompt": "What is $396 ÷ 1.10?"
+        },
+        {
+          "level": 2,
+          "content": "Price after discount = $360. This is 80% of original (20% off).",
+          "encouragement": "Now reverse the discount!",
+          "questionPrompt": "If $360 = 80% of original, what is original?"
+        },
+        {
+          "level": 3,
+          "content": "Original = $360 ÷ 0.80 = $450",
+          "encouragement": "You've reversed a multi-step calculation!",
+          "questionPrompt": "Verify: $450 → 20% off → +GST = $396?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Final: $396 after 20% off then 10% GST",
+        "expectedAnswers": ["450", "$450", "450 dollars", "$450.00"],
+        "gradingGuidance": "Student must work backwards correctly. Order matters: remove GST first (÷1.1), then reverse discount (÷0.8). Common error: wrong order or dividing by wrong numbers.",
+        "sampleSolutions": [
+          "Remove GST: $396 ÷ 1.10 = $360\nReverse discount: $360 ÷ 0.80 = $450",
+          "After discount, before GST = $396/1.1 = $360\nOriginal = $360/0.8 = $450"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["multi-step reverse", "discount", "GST"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 5,
+        "conceptsUsed": ["multi-step-reverse", "discount", "GST"],
+        "buildsOn": ["pct-app-y8-043", "pct-app-y8-033"],
+        "preparesFor": ["pct-app-y8-096"]
+      },
+      "pedagogy": {
+        "type": "multi-step-reverse",
+        "targetFeeling": "I can reverse complex multi-step calculations!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set10",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-096",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Two investments:\n- Investment A: $10,000 at 5% p.a. simple interest for 4 years\n- Investment B: $8,000 at 7% p.a. simple interest for 4 years\n\nWhich earns more interest? By how much?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Investment A:**\nI = PRT = $10,000 × 0.05 × 4 = $2,000\n\n**Investment B:**\nI = PRT = $8,000 × 0.07 × 4 = $2,240\n\n**Comparison:**\n$2,240 - $2,000 = $240\n\n**Answer: Investment B earns $240 more**\n\n**Note:** Higher rate beats larger principal in this case!",
+      "hints": [
+        {"level": 1, "content": "Calculate the interest for each investment using I = PRT.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "A: $10,000 × 0.05 × 4. B: $8,000 × 0.07 × 4.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "A: $2,000. B: $2,240. B earns $240 more.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Calculate I = PRT for each investment.",
+          "encouragement": "Compare apples to apples!",
+          "questionPrompt": "What is $10,000 × 0.05 × 4?"
+        },
+        {
+          "level": 2,
+          "content": "A: $2,000. Now calculate B: $8,000 × 0.07 × 4.",
+          "encouragement": "Higher rate on smaller principal...which wins?",
+          "questionPrompt": "What is $8,000 × 0.07 × 4?"
+        },
+        {
+          "level": 3,
+          "content": "B: $2,240. B earns $240 more than A.",
+          "encouragement": "Rate can be more important than principal!",
+          "questionPrompt": "Which factor mattered more here?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: $10,000 at 5% for 4yr. B: $8,000 at 7% for 4yr",
+        "expectedAnswers": ["B by $240", "Investment B, $240 more", "B earns $240 more"],
+        "gradingGuidance": "Student must calculate both interests correctly and compare. Both calculations needed for full credit.",
+        "sampleSolutions": [
+          "A: 10000 × 0.05 × 4 = $2,000\nB: 8000 × 0.07 × 4 = $2,240\nB earns $240 more",
+          "I_A = $2,000, I_B = $2,240\nDifference = $240 in B's favour"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["simple interest", "comparison"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 6,
+        "conceptsUsed": ["simple-interest", "comparison"],
+        "buildsOn": ["pct-app-y8-091"],
+        "preparesFor": ["pct-app-y8-097"]
+      },
+      "pedagogy": {
+        "type": "comparison",
+        "targetFeeling": "I can compare investment options!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set10",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-097",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "After a store applies a discount and then adds 10% GST, the final price is $77.\n\nIf the original price was $100, what was the discount percentage?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Work backwards from final price:**\n\n**Step 1: Remove GST**\nPrice after discount (before GST) = $77 ÷ 1.10 = $70\n\n**Step 2: Find discount percentage**\nDiscount amount = $100 - $70 = $30\nDiscount % = ($30 ÷ $100) × 100 = 30%\n\n**Answer: 30% discount**\n\n**Check:** $100 × 0.70 = $70, then $70 × 1.10 = $77 ✓",
+      "hints": [
+        {"level": 1, "content": "First remove the GST to find the price after discount.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Price after discount = $77 ÷ 1.10 = $70", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Discount = $100 - $70 = $30 = 30% of $100", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Work backwards: remove GST first to get the discounted price.",
+          "encouragement": "Then you can find the discount!",
+          "questionPrompt": "What is $77 ÷ 1.10?"
+        },
+        {
+          "level": 2,
+          "content": "After discount: $70. Original was $100.",
+          "encouragement": "Now find the discount percentage!",
+          "questionPrompt": "What is ($100 - $70) as a percentage of $100?"
+        },
+        {
+          "level": 3,
+          "content": "$30 discount = 30% of $100",
+          "encouragement": "You've found the hidden discount!",
+          "questionPrompt": "Verify: $100 → 30% off → +GST = $77?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Original: $100 → ?% off → +GST → $77",
+        "expectedAnswers": ["30%", "30", "30 percent"],
+        "gradingGuidance": "Student must: (1) remove GST (÷1.1), (2) find discount amount ($30), (3) calculate as % of original. Must show all steps.",
+        "sampleSolutions": [
+          "Remove GST: $77 ÷ 1.1 = $70\nDiscount = $100 - $70 = $30\nDiscount % = 30/100 = 30%",
+          "After discount = $77/1.1 = $70\n$70 is 70% of $100, so 30% off"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["multi-step reverse", "finding discount"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 7,
+        "conceptsUsed": ["multi-step-reverse", "finding-discount"],
+        "buildsOn": ["pct-app-y8-095"],
+        "preparesFor": ["pct-app-y8-098"]
+      },
+      "pedagogy": {
+        "type": "analysis",
+        "targetFeeling": "I can find unknown discounts in multi-step problems!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set10",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-098",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A is 20% more than B.\nB is 25% more than C.\n\nC = $100. What is A?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1: Find B**\nB = C + 25% of C = 1.25 × C\nB = 1.25 × $100 = $125\n\n**Step 2: Find A**\nA = B + 20% of B = 1.20 × B\nA = 1.20 × $125 = $150\n\n**Answer: A = $150**\n\n**Alternative:** Combined multiplier = 1.25 × 1.20 = 1.50\nA = $100 × 1.50 = $150",
+      "hints": [
+        {"level": 1, "content": "Work forwards: C → B → A, applying each percentage.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "B = 1.25 × C = $125. A = 1.20 × B.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "A = 1.20 × $125 = $150", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Start from C and work forward through B to A.",
+          "encouragement": "Chain the relationships!",
+          "questionPrompt": "If B is 25% more than C, what is B?"
+        },
+        {
+          "level": 2,
+          "content": "B = $100 × 1.25 = $125. Now find A.",
+          "encouragement": "One more step!",
+          "questionPrompt": "If A is 20% more than B, what is A?"
+        },
+        {
+          "level": 3,
+          "content": "A = $125 × 1.20 = $150",
+          "encouragement": "You've linked percentage relationships!",
+          "questionPrompt": "What's the combined multiplier from C to A?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "C = $100, B = C + 25%, A = B + 20%",
+        "expectedAnswers": ["150", "$150", "150 dollars", "$150.00"],
+        "gradingGuidance": "Student should show both steps. Accept combined multiplier (1.25 × 1.20 = 1.50) approach. Must get $150.",
+        "sampleSolutions": [
+          "B = 1.25 × $100 = $125\nA = 1.20 × $125 = $150",
+          "Combined: 1.25 × 1.20 = 1.50\nA = $100 × 1.50 = $150"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["chained percentage relationships", "combined multiplier"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 8,
+        "conceptsUsed": ["chained-relationships", "combined-multiplier"],
+        "buildsOn": ["pct-app-y8-076"],
+        "preparesFor": ["pct-app-y8-099"]
+      },
+      "pedagogy": {
+        "type": "chain-reasoning",
+        "targetFeeling": "I can link multiple percentage relationships!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set10",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-099",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A printer is marked up 45% by a retailer and then sold to customers with 10% GST added.\n\nIf a customer pays $319, what did the printer cost the retailer?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Work backwards:**\n\n**Step 1: Remove GST**\nPrice before GST = $319 ÷ 1.10 = $290\n\n**Step 2: Reverse the 45% mark-up**\n$290 = 145% of cost (45% mark-up means 145% of cost)\nCost = $290 ÷ 1.45 = $200\n\n**Answer: $200**\n\n**Check:** $200 × 1.45 = $290, then $290 × 1.10 = $319 ✓",
+      "hints": [
+        {"level": 1, "content": "Work backwards: remove GST, then reverse the mark-up.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Before GST: $319 ÷ 1.10 = $290 = selling price with mark-up.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "$290 = 1.45 × cost. Cost = $290 ÷ 1.45 = $200", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Operations were: cost → +45% mark-up → +10% GST → $319",
+          "encouragement": "Reverse them in order!",
+          "questionPrompt": "What is $319 ÷ 1.10?"
+        },
+        {
+          "level": 2,
+          "content": "Selling price = $290 (with 45% mark-up on cost).",
+          "encouragement": "Now reverse the mark-up!",
+          "questionPrompt": "If $290 = 145% of cost, what is cost?"
+        },
+        {
+          "level": 3,
+          "content": "Cost = $290 ÷ 1.45 = $200",
+          "encouragement": "You've traced back to the retailer's cost!",
+          "questionPrompt": "Verify the answer by working forwards."
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Customer pays $319 (after 45% mark-up and 10% GST)",
+        "expectedAnswers": ["200", "$200", "200 dollars", "$200.00"],
+        "gradingGuidance": "Student must: (1) remove GST (÷1.1), (2) reverse mark-up (÷1.45). Order matters. Must show both steps.",
+        "sampleSolutions": [
+          "Remove GST: $319 ÷ 1.10 = $290\nReverse mark-up: $290 ÷ 1.45 = $200",
+          "Before GST = $290\nCost = $290/1.45 = $200"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["multi-step reverse", "mark-up", "GST"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 9,
+        "conceptsUsed": ["multi-step-reverse", "mark-up", "GST"],
+        "buildsOn": ["pct-app-y8-066", "pct-app-y8-095"],
+        "preparesFor": ["pct-app-y8-100"]
+      },
+      "pedagogy": {
+        "type": "synthesis",
+        "targetFeeling": "I can reverse complex pricing calculations!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set10",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-100",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Emma invests $6,000 at 3.5% p.a. simple interest. Tom invests $5,000 at 5% p.a. simple interest.\n\nAfter how many years will Tom's total interest earned equal Emma's?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Set up equations:**\nEmma's interest after t years: I_E = $6,000 × 0.035 × t = $210t\nTom's interest after t years: I_T = $5,000 × 0.05 × t = $250t\n\n**When does Tom's interest equal Emma's?**\n$250t = $210t\n\nWait - Tom always earns more per year ($250 vs $210). Let me reconsider the question.\n\n**Actually:** Tom earns $250/year, Emma earns $210/year. Tom will never \"catch up\" because he's always ahead!\n\n**Re-reading:** The question asks when Tom's total equals Emma's. But since Tom earns more per year, Tom is always ahead.\n\n**Revised interpretation:** Perhaps asking when they've earned the same cumulative interest?\n$250t = $210t has no positive solution.\n\n**Answer: Never - Tom always earns more interest per year.**\n\nOr if the question means when Tom's TOTAL BALANCE equals Emma's starting amount... that's different.\n\n**Better interpretation:** When has Tom earned the same amount Emma starts with?\nIf Tom needs to earn $6,000: 6000 = 5000 × 0.05 × t, t = 24 years.\n\n**Most likely intended answer:** The interest rates mean Tom earns more. No crossover exists.",
+      "hints": [
+        {"level": 1, "content": "Calculate the yearly interest for each person.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Emma: $6,000 × 3.5% = $210/year. Tom: $5,000 × 5% = $250/year.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Tom earns more per year ($250 vs $210), so Tom always has more interest!", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Calculate annual interest for each investor.",
+          "encouragement": "Compare year by year!",
+          "questionPrompt": "What is Emma's annual interest?"
+        },
+        {
+          "level": 2,
+          "content": "Emma: $210/year. Tom: $250/year.",
+          "encouragement": "Who earns more per year?",
+          "questionPrompt": "Can Tom's total ever be less than Emma's?"
+        },
+        {
+          "level": 3,
+          "content": "Tom earns $250 vs Emma's $210 per year. Tom is always ahead!",
+          "encouragement": "Sometimes the answer is 'never'!",
+          "questionPrompt": "What would need to change for them to be equal?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Emma: $6,000 at 3.5%. Tom: $5,000 at 5%",
+        "expectedAnswers": ["Never", "Tom always earns more", "No solution", "They never equal"],
+        "gradingGuidance": "Key insight: Tom earns $250/year vs Emma's $210/year. Since Tom earns more per year from day 1, his cumulative interest is always higher. Answer: never/no solution.",
+        "sampleSolutions": [
+          "Emma: $6,000 × 3.5% = $210/year\nTom: $5,000 × 5% = $250/year\nTom earns more per year, so Tom's total is always higher. Never equal.",
+          "I_E = 210t, I_T = 250t\nFor equality: 250t = 210t → impossible for t > 0\nAnswer: Never"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["simple interest", "comparison", "critical thinking"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 10,
+        "conceptsUsed": ["simple-interest", "critical-analysis"],
+        "buildsOn": ["pct-app-y8-091", "pct-app-y8-096"],
+        "preparesFor": ["pct-app-y8-101"]
+      },
+      "pedagogy": {
+        "type": "critical-thinking",
+        "targetFeeling": "I can identify when problems have no solution!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set10",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

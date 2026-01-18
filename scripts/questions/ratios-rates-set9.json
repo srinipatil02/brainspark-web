@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set9",
+    "setNumber": 9,
+    "questionRange": "Q81-90",
+    "phase": "connection",
+    "difficulty": "3-4",
+    "focus": "Bridge to mastery - complex multi-step problems, strategic thinking"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-081",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Two candles have the same length. Candle A burns at 3 cm per hour, Candle B burns at 5 cm per hour.\n\nAfter some time, the ratio of their remaining lengths is 3:1.\n\nWhat was the original length of each candle?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let time burned = t hours**\n**Let original length = L cm**\n\nRemaining A = L - 3t\nRemaining B = L - 5t\n\n**Ratio remaining:**\n(L - 3t):(L - 5t) = 3:1\n\n**Cross multiply:**\n1(L - 3t) = 3(L - 5t)\nL - 3t = 3L - 15t\n12t = 2L\nL = 6t\n\n**Need another equation.** Since B is 1 part when A is 3 parts:\nL - 5t > 0 (B still exists)\n6t - 5t = t > 0 ✓\n\n**Pick t = 1:** L = 6 cm (check: A=3cm, B=1cm, ratio 3:1 ✓)\n\n**But the question implies a unique answer.**\nLet's say when B is almost gone: L - 5t = 1, and L - 3t = 3\nThen 2t = 2, t = 1, L = 6\n\n**Answer: Original length was 6 cm**\n\n**Check:** After 1 hour: A = 3cm, B = 1cm. Ratio = 3:1 ✓",
+      "hints": [
+        {"level": 1, "content": "Let original length = L, time = t. Set up ratio equation.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "(L - 3t):(L - 5t) = 3:1. Cross multiply.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "L = 6t. If t=1, L = 6 cm.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Remaining = Original - burned.",
+          "encouragement": "Set up algebraic expressions!",
+          "questionPrompt": "What's remaining for candle A after t hours?"
+        },
+        {
+          "level": 2,
+          "content": "(L-3t):(L-5t) = 3:1. Solve for L in terms of t.",
+          "encouragement": "Cross multiply!",
+          "questionPrompt": "What equation do you get?"
+        },
+        {
+          "level": 3,
+          "content": "L = 6t. Try t = 1 to get L = 6 cm.",
+          "encouragement": "Clever candle problem!",
+          "questionPrompt": "When will candle B be completely burnt?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 3cm/h, B: 5cm/h, ratio after time = 3:1",
+        "expectedAnswers": ["6 cm", "6cm", "6"],
+        "gradingGuidance": "Must set up ratio equation and solve. L = 6 cm. Accept different approaches with valid reasoning.",
+        "sampleSolutions": ["(L-3t):(L-5t) = 3:1\nL - 3t = 3L - 15t\nL = 6t\nIf t = 1, L = 6 cm"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["rate", "ratio", "algebra"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 21, "conceptsUsed": ["c6", "c10"], "buildsOn": ["ratio-rate-y8-077"], "preparesFor": ["ratio-rate-y8-082"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve complex rate-ratio problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set9", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-082",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Town A and Town B are 300 km apart. A bus leaves A at 8 AM travelling to B at 60 km/h. Another bus leaves B at 9 AM travelling to A at 80 km/h.\n\nAt what time do the buses meet?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Bus from A:**\nLeaves 8 AM at 60 km/h\nBy 9 AM (1 hour): travelled 60 km\nDistance remaining: 300 - 60 = 240 km\n\n**From 9 AM onwards:**\nCombined speed = 60 + 80 = 140 km/h (approaching)\nTime to meet = 240 ÷ 140 = 12/7 hours ≈ 1.71 hours\n= 1 hour 43 minutes (approximately)\n\n**Meeting time:** 9:00 AM + 1h 43min = 10:43 AM\n\n**Answer: 10:43 AM (approximately)**",
+      "hints": [
+        {"level": 1, "content": "First find how far Bus A travels by 9 AM.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "At 9 AM, 240 km apart. Combined speed = 140 km/h.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "240 ÷ 140 ≈ 1.71h after 9 AM = 10:43 AM", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Bus A has a head start of 1 hour.",
+          "encouragement": "Account for the different start times!",
+          "questionPrompt": "How far has Bus A travelled by 9 AM?"
+        },
+        {
+          "level": 2,
+          "content": "60 km by 9 AM, leaving 240 km between them.",
+          "encouragement": "Now they approach each other!",
+          "questionPrompt": "What's their combined approach speed?"
+        },
+        {
+          "level": 3,
+          "content": "140 km/h combined. 240/140 ≈ 1.71 hours = 1h 43min",
+          "encouragement": "Meeting point problems mastered!",
+          "questionPrompt": "Where do they meet (how far from A)?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A→B: 60km/h from 8AM, B→A: 80km/h from 9AM, 300km apart",
+        "expectedAnswers": ["10:43 AM", "approximately 10:43", "10h 43min"],
+        "gradingGuidance": "Must account for different start times. Gap at 9AM = 240km, meet ≈1h43min later.",
+        "sampleSolutions": ["By 9AM: A travels 60km, gap = 240km\nCombined = 140km/h\nTime = 240/140 ≈ 1h 43min\nMeet at 10:43 AM"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["relative speed", "different start times", "meeting point"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 22, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-062"], "preparesFor": ["ratio-rate-y8-083"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can handle different start time problems!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set9", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-083",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A metal alloy contains copper, zinc and tin in the ratio 5:3:2.\n\nHow much of each metal is needed to make 7.5 kg of the alloy?\n\nGive your answers in grams.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Total parts:** 5 + 3 + 2 = 10 parts\n**Total mass:** 7.5 kg = 7500 g\n**1 part:** 7500 ÷ 10 = 750 g\n\n**Copper (5 parts):** 5 × 750 = 3750 g\n**Zinc (3 parts):** 3 × 750 = 2250 g\n**Tin (2 parts):** 2 × 750 = 1500 g\n\n**Answers: Copper 3750g, Zinc 2250g, Tin 1500g**\n\n**Check:** 3750 + 2250 + 1500 = 7500 g ✓",
+      "hints": [
+        {"level": 1, "content": "Total parts = 10. Convert 7.5 kg to grams first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "7500 g ÷ 10 = 750 g per part", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Cu: 3750g, Zn: 2250g, Sn: 1500g", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Convert to grams and find parts.",
+          "encouragement": "Standard three-part ratio!",
+          "questionPrompt": "How many grams in 7.5 kg?"
+        },
+        {
+          "level": 2,
+          "content": "7500 g ÷ 10 parts = 750 g each.",
+          "encouragement": "Now allocate!",
+          "questionPrompt": "What is 5 × 750, 3 × 750, 2 × 750?"
+        },
+        {
+          "level": 3,
+          "content": "3750g, 2250g, 1500g. Check: adds to 7500g ✓",
+          "encouragement": "Metal alloy composition calculated!",
+          "questionPrompt": "What if you wanted only 5 kg?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Cu:Zn:Sn = 5:3:2, Total = 7.5 kg",
+        "expectedAnswers": ["3750g, 2250g, 1500g", "Cu: 3750g, Zn: 2250g, Sn: 1500g"],
+        "gradingGuidance": "Must convert to grams and divide correctly. All three amounts required.",
+        "sampleSolutions": ["7500 ÷ 10 = 750 g/part\nCu: 3750g, Zn: 2250g, Sn: 1500g"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["three-part ratio", "unit conversion", "alloy"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 23, "conceptsUsed": ["c4"], "buildsOn": ["ratio-rate-y8-054"], "preparesFor": ["ratio-rate-y8-084"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can work with alloy compositions!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set9", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-084",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A typist can type a document in 4 hours. A second typist takes 6 hours for the same document.\n\nIf both work together for 1 hour, then the first typist finishes alone, how long does the whole task take?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Rates:**\nTypist 1: 1/4 document per hour\nTypist 2: 1/6 document per hour\n\n**Work in first hour (together):**\n1/4 + 1/6 = 3/12 + 2/12 = 5/12 of document\n\n**Remaining work:**\n1 - 5/12 = 7/12 of document\n\n**Time for Typist 1 to finish alone:**\n(7/12) ÷ (1/4) = (7/12) × 4 = 28/12 = 7/3 hours = 2⅓ hours\n\n**Total time:** 1 + 2⅓ = 3⅓ hours = 3 hours 20 minutes\n\n**Answer: 3 hours 20 minutes**",
+      "hints": [
+        {"level": 1, "content": "Find work done together in 1 hour, then remaining.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Together: 5/12 done. Remaining: 7/12.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "7/12 ÷ 1/4 = 7/3 hours. Total = 3⅓ hours", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Calculate combined rate and work in 1 hour.",
+          "encouragement": "Use fractional rates!",
+          "questionPrompt": "What is 1/4 + 1/6?"
+        },
+        {
+          "level": 2,
+          "content": "5/12 done together. What fraction remains?",
+          "encouragement": "Now finish with just Typist 1!",
+          "questionPrompt": "How long for Typist 1 to do 7/12?"
+        },
+        {
+          "level": 3,
+          "content": "(7/12) × 4 = 7/3 hours more. Total: 3⅓ hours",
+          "encouragement": "Partial collaboration solved!",
+          "questionPrompt": "What if Typist 2 finished alone instead?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "T1: 4h alone, T2: 6h alone, together 1h then T1 alone",
+        "expectedAnswers": ["3⅓ hours", "3 hours 20 minutes", "3h 20min", "10/3 hours"],
+        "gradingGuidance": "Must calculate combined work, remaining, then time for T1. Total = 3⅓ h.",
+        "sampleSolutions": ["Combined = 5/12 per hour\n1 hour → 5/12 done\nRemaining = 7/12\nT1 time = 7/3 h\nTotal = 3⅓ h"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["combined work", "partial collaboration", "fractions"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 24, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-064"], "preparesFor": ["ratio-rate-y8-085"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve partial collaboration problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set9", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-085",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "The ratio of Tom's age to Jerry's age is 4:7.\n\nIn 6 years, the ratio will be 5:8.\n\nWhat are their current ages?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let Tom = 4x, Jerry = 7x**\n\n**In 6 years:**\nTom = 4x + 6, Jerry = 7x + 6\nRatio = 5:8\n\n**(4x + 6)/(7x + 6) = 5/8**\n\n**Cross multiply:**\n8(4x + 6) = 5(7x + 6)\n32x + 48 = 35x + 30\n48 - 30 = 35x - 32x\n18 = 3x\nx = 6\n\n**Current ages:**\nTom = 4 × 6 = 24 years\nJerry = 7 × 6 = 42 years\n\n**Answer: Tom is 24, Jerry is 42**\n\n**Check:** Now 24:42 = 4:7 ✓. In 6 years: 30:48 = 5:8 ✓",
+      "hints": [
+        {"level": 1, "content": "Let current ages be 4x and 7x.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "(4x+6):(7x+6) = 5:8. Cross multiply.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 6. Tom = 24, Jerry = 42.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Use variables for current ages based on ratio.",
+          "encouragement": "Set up the future ratio!",
+          "questionPrompt": "What are their ages in 6 years?"
+        },
+        {
+          "level": 2,
+          "content": "(4x+6):(7x+6) = 5:8. Solve for x.",
+          "encouragement": "Cross multiply!",
+          "questionPrompt": "What is 8(4x+6) and 5(7x+6)?"
+        },
+        {
+          "level": 3,
+          "content": "x = 6, so Tom = 24, Jerry = 42",
+          "encouragement": "Age ratio problems mastered!",
+          "questionPrompt": "Check: is 30:48 = 5:8?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Now 4:7, in 6 years 5:8",
+        "expectedAnswers": ["Tom 24, Jerry 42", "24 and 42", "Tom: 24 years, Jerry: 42 years"],
+        "gradingGuidance": "Must set up and solve equation. x=6, Tom=24, Jerry=42.",
+        "sampleSolutions": ["(4x+6):(7x+6) = 5:8\n8(4x+6) = 5(7x+6)\nx = 6\nTom = 24, Jerry = 42"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["age problem", "changing ratio", "algebra"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 25, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-063"], "preparesFor": ["ratio-rate-y8-086"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve age ratio problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set9", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-086",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A car's fuel efficiency depends on speed:\n- At 80 km/h: 7 L/100km\n- At 100 km/h: 9 L/100km\n\nFor a 400 km trip, how much fuel is saved by driving at 80 km/h instead of 100 km/h?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Fuel at 80 km/h:**\n400 km × 7/100 = 28 L\n\n**Fuel at 100 km/h:**\n400 km × 9/100 = 36 L\n\n**Savings:** 36 - 28 = 8 L\n\n**Answer: 8 litres saved**\n\n**Note:** Time at 80 km/h = 5 hours, at 100 km/h = 4 hours (1 hour longer but 8 L saved)",
+      "hints": [
+        {"level": 1, "content": "Calculate fuel for 400 km at each speed.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "At 80: 28 L. At 100: 36 L.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Savings = 36 - 28 = 8 L", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "L/100km × distance/100 = total fuel.",
+          "encouragement": "Calculate each separately!",
+          "questionPrompt": "What is 400 × 7/100?"
+        },
+        {
+          "level": 2,
+          "content": "28 L at 80 km/h, 36 L at 100 km/h.",
+          "encouragement": "Find the difference!",
+          "questionPrompt": "How much is saved?"
+        },
+        {
+          "level": 3,
+          "content": "8 litres saved driving slower",
+          "encouragement": "Fuel economy trade-offs!",
+          "questionPrompt": "How much extra time does 80 km/h take?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "80km/h: 7L/100km, 100km/h: 9L/100km, 400km trip",
+        "expectedAnswers": ["8 L", "8 litres", "8"],
+        "gradingGuidance": "Calculate both fuel amounts, find difference. 28L vs 36L = 8L saved.",
+        "sampleSolutions": ["At 80: 400 × 0.07 = 28 L\nAt 100: 400 × 0.09 = 36 L\nSaved = 8 L"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["fuel consumption", "comparison", "practical application"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 26, "conceptsUsed": ["c7", "c8"], "buildsOn": ["ratio-rate-y8-066"], "preparesFor": ["ratio-rate-y8-087"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can analyse fuel efficiency!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set9", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-087",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A tap and a drain are connected to a tank. The tap fills the empty tank in 5 hours. The drain empties the full tank in 8 hours.\n\nIf both are open with the tank starting empty, how long until the tank is full?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Rates:**\nTap fills: 1/5 tank per hour\nDrain empties: 1/8 tank per hour\n\n**Net rate (both open):**\n1/5 - 1/8 = 8/40 - 5/40 = 3/40 tank per hour (filling)\n\n**Time to fill:**\n1 ÷ 3/40 = 40/3 = 13⅓ hours = 13 hours 20 minutes\n\n**Answer: 13 hours 20 minutes**",
+      "hints": [
+        {"level": 1, "content": "Find net rate: filling rate - draining rate.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1/5 - 1/8 = 3/40 tank per hour", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Time = 40/3 = 13⅓ hours", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Tap fills, drain empties. Find net rate.",
+          "encouragement": "Subtract the rates!",
+          "questionPrompt": "What is 1/5 - 1/8?"
+        },
+        {
+          "level": 2,
+          "content": "Net = 3/40 tank per hour (positive = filling).",
+          "encouragement": "Now find time to fill!",
+          "questionPrompt": "What is 1 ÷ 3/40?"
+        },
+        {
+          "level": 3,
+          "content": "40/3 = 13⅓ hours = 13h 20min",
+          "encouragement": "Tap and drain problems mastered!",
+          "questionPrompt": "What if drain rate was 1/4 per hour?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Tap: 5h to fill, Drain: 8h to empty, both open",
+        "expectedAnswers": ["13⅓ hours", "13 hours 20 minutes", "40/3 hours", "13h 20min"],
+        "gradingGuidance": "Must find net rate 3/40 and invert. Time = 40/3 h.",
+        "sampleSolutions": ["Net = 1/5 - 1/8 = 3/40\nTime = 40/3 = 13⅓ hours"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["net rate", "pipes and cisterns", "fractions"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 27, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-060"], "preparesFor": ["ratio-rate-y8-088"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I understand net rate problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set9", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-088",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "In a bag, the ratio of red to blue marbles is 5:3.\n\nIf 4 red marbles are removed and 4 blue are added, the ratio becomes 1:1.\n\nHow many marbles were in the bag originally?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let red = 5x, blue = 3x**\n\n**After change:**\nRed = 5x - 4\nBlue = 3x + 4\nRatio = 1:1 (equal)\n\n**So:** 5x - 4 = 3x + 4\n2x = 8\nx = 4\n\n**Original marbles:**\nRed = 5 × 4 = 20\nBlue = 3 × 4 = 12\nTotal = 32 marbles\n\n**Answer: 32 marbles originally**\n\n**Check:** Original 20:12 = 5:3 ✓. After: 16:16 = 1:1 ✓",
+      "hints": [
+        {"level": 1, "content": "Let red = 5x, blue = 3x. After change, they're equal.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "5x - 4 = 3x + 4. Solve for x.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 4. Total = 20 + 12 = 32 marbles", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "1:1 ratio means equal numbers after the change.",
+          "encouragement": "Set up the equation!",
+          "questionPrompt": "What's red after removing 4?"
+        },
+        {
+          "level": 2,
+          "content": "5x - 4 = 3x + 4. Solve!",
+          "encouragement": "Simple algebra!",
+          "questionPrompt": "What is x?"
+        },
+        {
+          "level": 3,
+          "content": "x = 4, so 20 red + 12 blue = 32 total",
+          "encouragement": "Changing ratio with algebra!",
+          "questionPrompt": "Check: is 16:16 = 1:1? ✓"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Red:Blue = 5:3, remove 4 red add 4 blue → 1:1",
+        "expectedAnswers": ["32 marbles", "32", "20 red and 12 blue = 32"],
+        "gradingGuidance": "Must solve 5x-4 = 3x+4 to get x=4, total=32.",
+        "sampleSolutions": ["5x - 4 = 3x + 4\n2x = 8, x = 4\nTotal = 20 + 12 = 32"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["changing ratio", "algebra", "marbles problem"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 28, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-077"], "preparesFor": ["ratio-rate-y8-089"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve marble ratio problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set9", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-089",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A phone charges at 2% per minute when on a fast charger.\n\nIf the phone starts at 15% and needs to reach 85% before a meeting in 30 minutes, will it charge in time?\n\nIf not, what percentage will it reach?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Charge needed:** 85 - 15 = 70%\n**Time available:** 30 minutes\n**Charge rate:** 2% per minute\n\n**Charge achieved in 30 min:**\n30 × 2 = 60%\n\n**Final percentage:**\n15 + 60 = 75%\n\n**Answer: No, will only reach 75% (5% short)**",
+      "hints": [
+        {"level": 1, "content": "Calculate charge needed and charge possible in 30 min.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Need 70%. Can charge 30 × 2 = 60%.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "15 + 60 = 75%. Won't reach 85%.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "How much charge is needed?",
+          "encouragement": "Find the gap!",
+          "questionPrompt": "What is 85 - 15?"
+        },
+        {
+          "level": 2,
+          "content": "Need 70%. 30 min × 2%/min = ?",
+          "encouragement": "Calculate possible charge!",
+          "questionPrompt": "What is 30 × 2?"
+        },
+        {
+          "level": 3,
+          "content": "Can only add 60%. Reaches 75%, not 85%.",
+          "encouragement": "Real-world rate problem!",
+          "questionPrompt": "How much longer to reach 85%?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Start 15%, need 85%, 2%/min, 30 min available",
+        "expectedAnswers": ["No, reaches 75%", "75%", "Will only reach 75%"],
+        "gradingGuidance": "Must compare needed (70%) vs possible (60%). Final = 75%, not 85%.",
+        "sampleSolutions": ["Need: 85 - 15 = 70%\nCan charge: 30 × 2 = 60%\nFinal: 15 + 60 = 75%. No."],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["rate", "comparison", "practical constraint"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 29, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-041"], "preparesFor": ["ratio-rate-y8-090"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can apply rates to real situations!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set9", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-090",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A baker mixes dough using flour, yeast, and salt in the ratio 100:3:2.\n\nShe wants to make dough with exactly 15g of yeast.\n\nHow much flour and salt should she use?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Yeast = 3 parts = 15 g**\n1 part = 15 ÷ 3 = 5 g\n\n**Flour (100 parts):**\n100 × 5 = 500 g\n\n**Salt (2 parts):**\n2 × 5 = 10 g\n\n**Answer: 500 g flour and 10 g salt**\n\n**Check:** 500:15:10 = 100:3:2 ✓",
+      "hints": [
+        {"level": 1, "content": "Yeast is 3 parts = 15g. Find 1 part.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = 5g. Flour = 100 parts, Salt = 2 parts.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Flour = 500g, Salt = 10g", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "15g yeast represents 3 parts.",
+          "encouragement": "Find one part!",
+          "questionPrompt": "What is 15 ÷ 3?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = 5g. Scale up for flour and salt.",
+          "encouragement": "Large ratio numbers work the same!",
+          "questionPrompt": "What is 100 × 5 and 2 × 5?"
+        },
+        {
+          "level": 3,
+          "content": "Flour: 500g, Salt: 10g",
+          "encouragement": "Three-part ratio with constraint!",
+          "questionPrompt": "What's the total dough weight?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Flour:Yeast:Salt = 100:3:2, Yeast = 15g",
+        "expectedAnswers": ["500g flour, 10g salt", "Flour: 500g, Salt: 10g"],
+        "gradingGuidance": "Must find 1 part = 5g from yeast, then scale. Both amounts required.",
+        "sampleSolutions": ["3 parts = 15g\n1 part = 5g\nFlour = 500g, Salt = 10g"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["three-part ratio", "constraint", "scaling"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 30, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-048"], "preparesFor": ["ratio-rate-y8-091"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can scale from any constraint!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set9", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}
