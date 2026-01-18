@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set6",
+    "setNumber": 6,
+    "questionRange": "Q51-60",
+    "phase": "application",
+    "difficulty": "3",
+    "focus": "Complex applications, multi-step problems bridging to Connection phase"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-051",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A drink is made by mixing cordial and water in the ratio 1:4.\n\nHow much water should be added to 350 mL of cordial?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Cordial = 1 part = 350 mL**\n\nWater = 4 parts = 4 × 350 = 1400 mL\n\n**Answer: 1400 mL of water**\n\n**Check:** Ratio = 350:1400 = 1:4 ✓",
+      "hints": [
+        {"level": 1, "content": "Cordial is 1 part. What does 1 part equal?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = 350 mL. Water = 4 parts.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4 × 350 = 1400 mL water", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The cordial amount tells you what 1 part equals.",
+          "encouragement": "This is a direct scaling problem!",
+          "questionPrompt": "What is 1 part in mL?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = 350 mL. Water needs 4 parts.",
+          "encouragement": "Multiply to find the water!",
+          "questionPrompt": "What is 4 × 350?"
+        },
+        {
+          "level": 3,
+          "content": "1400 mL of water needed",
+          "encouragement": "Quick ratio scaling!",
+          "questionPrompt": "What's the total drink volume?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Cordial:Water = 1:4, Cordial = 350 mL",
+        "expectedAnswers": ["1400 mL", "1400mL", "1.4 L", "1400"],
+        "gradingGuidance": "Simple scaling: 350×4=1400mL. Accept litres or mL.",
+        "sampleSolutions": ["1 part = 350 mL\nWater = 4 × 350 = 1400 mL"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio", "direct scaling", "drink mixing"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 60,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 21, "conceptsUsed": ["c3", "c5"], "buildsOn": ["ratio-rate-y8-050"], "preparesFor": ["ratio-rate-y8-052"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can scale ratios quickly!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set6", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-052",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A cyclist travels 24 km to school. On Monday she took 45 minutes, on Tuesday she took 40 minutes.\n\nBy how much did her speed increase from Monday to Tuesday?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Monday speed:**\n45 min = 0.75 hours\nSpeed = 24 ÷ 0.75 = 32 km/h\n\n**Tuesday speed:**\n40 min = 2/3 hours ≈ 0.667 hours\nSpeed = 24 ÷ (40/60) = 24 × 60/40 = 36 km/h\n\n**Increase:** 36 - 32 = 4 km/h\n\n**Answer: Speed increased by 4 km/h**",
+      "hints": [
+        {"level": 1, "content": "Speed = distance ÷ time. Convert minutes to hours.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Monday: 24 ÷ 0.75 = 32 km/h. Tuesday: 24 ÷ (40/60) = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Tuesday = 36 km/h. Increase = 4 km/h", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Convert minutes to hours: 45 min = 0.75 h, 40 min = ?",
+          "encouragement": "Time in hours for km/h!",
+          "questionPrompt": "What is 40 minutes as a fraction of an hour?"
+        },
+        {
+          "level": 2,
+          "content": "40 min = 2/3 hour. Now calculate both speeds.",
+          "encouragement": "Speed = distance ÷ time",
+          "questionPrompt": "What are the two speeds?"
+        },
+        {
+          "level": 3,
+          "content": "32 km/h and 36 km/h. Difference = 4 km/h",
+          "encouragement": "Speed comparison complete!",
+          "questionPrompt": "What percentage faster was Tuesday?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "24 km in 45 min (Mon) vs 40 min (Tue)",
+        "expectedAnswers": ["4 km/h", "4km/h", "4 km/h faster", "increased by 4 km/h"],
+        "gradingGuidance": "Must convert time to hours correctly. Mon: 32km/h, Tue: 36km/h, Difference: 4km/h.",
+        "sampleSolutions": ["Mon: 24/0.75 = 32 km/h\nTue: 24/(40/60) = 36 km/h\nIncrease = 4 km/h"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["speed", "time conversion", "comparison"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 22, "conceptsUsed": ["c9"], "buildsOn": ["ratio-rate-y8-043"], "preparesFor": ["ratio-rate-y8-053"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can compare speeds with different times!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set6", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-053",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A factory has two machines:\n- Machine A produces 120 items per hour\n- Machine B produces 80 items per hour\n\nHow long will it take both machines working together to produce 600 items?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Combined rate:**\n120 + 80 = 200 items per hour\n\n**Time for 600 items:**\n600 ÷ 200 = 3 hours\n\n**Answer: 3 hours**",
+      "hints": [
+        {"level": 1, "content": "Add the rates to find combined production.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Combined = 200 items/hour", "revealsCriticalInfo": false},
+        {"level": 3, "content": "600 ÷ 200 = 3 hours", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Working together, their rates combine.",
+          "encouragement": "Add the rates!",
+          "questionPrompt": "What is 120 + 80?"
+        },
+        {
+          "level": 2,
+          "content": "200 items per hour combined.",
+          "encouragement": "Now find time for 600 items!",
+          "questionPrompt": "What is 600 ÷ 200?"
+        },
+        {
+          "level": 3,
+          "content": "3 hours for both machines together",
+          "encouragement": "Combined work rates in action!",
+          "questionPrompt": "How long for each machine alone?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 120/h, B: 80/h, Target: 600 items",
+        "expectedAnswers": ["3 hours", "3h", "3", "three hours"],
+        "gradingGuidance": "Must add rates (200/h) then divide (600/200=3h). Common error: averaging rates.",
+        "sampleSolutions": ["Combined: 120 + 80 = 200 items/h\nTime = 600 ÷ 200 = 3 hours"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["combined rates", "work rate", "production"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 23, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-044"], "preparesFor": ["ratio-rate-y8-054"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can combine work rates!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set6", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-054",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Bronze is made from copper and tin in the ratio 9:1.\n\nA sculptor needs to make 2.5 kg of bronze.\n\na) How much copper is needed?\nb) How much tin is needed?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Total parts:** 9 + 1 = 10 parts\n**Total mass:** 2.5 kg = 2500 g\n**1 part:** 2500 ÷ 10 = 250 g\n\n**a) Copper (9 parts):** 9 × 250 = 2250 g = 2.25 kg\n**b) Tin (1 part):** 1 × 250 = 250 g = 0.25 kg\n\n**Answers: a) 2.25 kg copper, b) 0.25 kg tin**",
+      "hints": [
+        {"level": 1, "content": "Total parts = 9 + 1 = 10", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2.5 kg ÷ 10 = 0.25 kg per part", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Copper: 9 × 0.25 = 2.25 kg, Tin: 0.25 kg", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Find total parts and value of 1 part.",
+          "encouragement": "Standard ratio division method!",
+          "questionPrompt": "How many parts total?"
+        },
+        {
+          "level": 2,
+          "content": "10 parts. Each part = 2.5 ÷ 10 = 0.25 kg",
+          "encouragement": "Now multiply for each metal!",
+          "questionPrompt": "What is 9 × 0.25?"
+        },
+        {
+          "level": 3,
+          "content": "2.25 kg copper and 0.25 kg tin",
+          "encouragement": "Real metallurgy calculations!",
+          "questionPrompt": "Check: do they add to 2.5 kg?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Copper:Tin = 9:1, Total = 2.5 kg",
+        "expectedAnswers": ["2.25 kg and 0.25 kg", "a) 2.25kg b) 0.25kg", "2250g, 250g"],
+        "gradingGuidance": "Must divide total by 10 parts, then allocate. Accept g or kg.",
+        "sampleSolutions": ["10 parts = 2.5 kg\n1 part = 0.25 kg\nCopper: 2.25 kg, Tin: 0.25 kg"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio", "dividing quantities", "alloys"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 24, "conceptsUsed": ["c4"], "buildsOn": ["ratio-rate-y8-048"], "preparesFor": ["ratio-rate-y8-055"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can apply ratios to materials!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set6", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-055",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Water flows into a tank at 12 L/min and drains out at 5 L/min.\n\nStarting empty, how long until the tank contains 140 litres?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Net flow rate:**\n12 - 5 = 7 L/min (filling)\n\n**Time to reach 140 L:**\n140 ÷ 7 = 20 minutes\n\n**Answer: 20 minutes**",
+      "hints": [
+        {"level": 1, "content": "Find the net rate (inflow minus outflow).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Net = 12 - 5 = 7 L/min", "revealsCriticalInfo": false},
+        {"level": 3, "content": "140 ÷ 7 = 20 minutes", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The tank fills at the difference between in and out.",
+          "encouragement": "Net rate = inflow - outflow",
+          "questionPrompt": "What is 12 - 5?"
+        },
+        {
+          "level": 2,
+          "content": "7 L/min net filling rate.",
+          "encouragement": "Now find time for 140 L!",
+          "questionPrompt": "What is 140 ÷ 7?"
+        },
+        {
+          "level": 3,
+          "content": "20 minutes to reach 140 litres",
+          "encouragement": "Net rate problems solved!",
+          "questionPrompt": "What if the drain was 10 L/min?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Inflow: 12 L/min, Outflow: 5 L/min, Target: 140 L",
+        "expectedAnswers": ["20 minutes", "20 min", "20"],
+        "gradingGuidance": "Must calculate net rate (7 L/min) then divide. Common error: using 12 L/min alone.",
+        "sampleSolutions": ["Net rate = 12 - 5 = 7 L/min\nTime = 140 ÷ 7 = 20 min"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["net rate", "flow rate", "difference"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 25, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-044"], "preparesFor": ["ratio-rate-y8-056"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can handle net rate problems!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set6", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-056",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "The ratio of cats to dogs at a shelter is 5:8.\n\nIf there are 24 more dogs than cats, how many animals are there in total?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Difference in parts:**\n8 - 5 = 3 parts = 24 animals\n\n**Value of 1 part:**\n24 ÷ 3 = 8 animals\n\n**Total animals:**\nCats: 5 × 8 = 40\nDogs: 8 × 8 = 64\nTotal: 40 + 64 = 104 animals\n\n**Answer: 104 animals**",
+      "hints": [
+        {"level": 1, "content": "The difference (24 more dogs) equals the difference in parts.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "8 - 5 = 3 parts = 24. So 1 part = 8", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Total = 13 parts = 104 animals", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The 24 extra dogs represent the part difference.",
+          "encouragement": "This connects the ratio to the actual numbers!",
+          "questionPrompt": "What is 8 - 5 in the ratio?"
+        },
+        {
+          "level": 2,
+          "content": "3 parts = 24, so 1 part = 8 animals",
+          "encouragement": "Now find total parts!",
+          "questionPrompt": "What is 5 + 8?"
+        },
+        {
+          "level": 3,
+          "content": "13 parts × 8 = 104 animals total",
+          "encouragement": "Difference method mastered!",
+          "questionPrompt": "Verify: 40 cats + 64 dogs = 104 ✓"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Cats:Dogs = 5:8, Dogs - Cats = 24",
+        "expectedAnswers": ["104", "104 animals", "40 cats and 64 dogs = 104"],
+        "gradingGuidance": "Must use difference method: 3 parts = 24 → 1 part = 8 → total = 104. Accept showing 40+64.",
+        "sampleSolutions": ["8-5 = 3 parts = 24\n1 part = 8\nTotal = 13 × 8 = 104"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio", "difference method", "finding total"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 26, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-019"], "preparesFor": ["ratio-rate-y8-057"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can use ratio differences!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set6", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-057",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A bus travels 180 km from City A to City B at 60 km/h, then returns at 45 km/h.\n\nWhat is the average speed for the entire round trip?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Time going:** 180 ÷ 60 = 3 hours\n**Time returning:** 180 ÷ 45 = 4 hours\n\n**Total distance:** 180 + 180 = 360 km\n**Total time:** 3 + 4 = 7 hours\n\n**Average speed:** 360 ÷ 7 = 51.43 km/h\n\n**Answer: 51.4 km/h (approximately)**",
+      "hints": [
+        {"level": 1, "content": "Average speed = total distance ÷ total time (NOT average of speeds!)", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Time out = 3h, Time back = 4h. Total = 7h for 360 km", "revealsCriticalInfo": false},
+        {"level": 3, "content": "360 ÷ 7 ≈ 51.4 km/h", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Find time for each leg, then total distance ÷ total time.",
+          "encouragement": "Don't average the speeds directly!",
+          "questionPrompt": "What's the time for each direction?"
+        },
+        {
+          "level": 2,
+          "content": "3h + 4h = 7h total for 360 km round trip.",
+          "encouragement": "Now divide!",
+          "questionPrompt": "What is 360 ÷ 7?"
+        },
+        {
+          "level": 3,
+          "content": "≈ 51.4 km/h average (not 52.5 from averaging speeds!)",
+          "encouragement": "The correct method matters!",
+          "questionPrompt": "Why isn't it simply (60+45)/2 = 52.5?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "180 km at 60 km/h out, 45 km/h return",
+        "expectedAnswers": ["51.43 km/h", "51.4 km/h", "approximately 51 km/h", "360/7 km/h"],
+        "gradingGuidance": "MUST use total distance/total time. Wrong answer: (60+45)/2=52.5. Correct: 360/7≈51.43.",
+        "sampleSolutions": ["Time: 3h + 4h = 7h\nDistance: 360 km\nAverage = 360/7 ≈ 51.4 km/h"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["average speed", "round trip", "common misconception"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 27, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-049"], "preparesFor": ["ratio-rate-y8-058"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I understand average speed correctly!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set6", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-058",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "In Year 8, the ratio of students studying French to Spanish is 7:4.\n\nThere are 132 students in total.\n\na) How many study French?\nb) How many study Spanish?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Total parts:** 7 + 4 = 11 parts\n**Students per part:** 132 ÷ 11 = 12 students\n\n**a) French (7 parts):** 7 × 12 = 84 students\n**b) Spanish (4 parts):** 4 × 12 = 48 students\n\n**Answers: a) 84 students, b) 48 students**\n\n**Check:** 84 + 48 = 132 ✓",
+      "hints": [
+        {"level": 1, "content": "Total parts = 7 + 4 = 11", "revealsCriticalInfo": false},
+        {"level": 2, "content": "132 ÷ 11 = 12 students per part", "revealsCriticalInfo": false},
+        {"level": 3, "content": "French: 84, Spanish: 48", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Find total parts and divide.",
+          "encouragement": "Standard ratio division!",
+          "questionPrompt": "What is 7 + 4?"
+        },
+        {
+          "level": 2,
+          "content": "11 parts total. 132 ÷ 11 = 12 per part.",
+          "encouragement": "Now allocate to each language!",
+          "questionPrompt": "What is 7 × 12 and 4 × 12?"
+        },
+        {
+          "level": 3,
+          "content": "French: 84, Spanish: 48. Check: 84 + 48 = 132 ✓",
+          "encouragement": "Always verify your answer adds up!",
+          "questionPrompt": "What if 22 more students joined French?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "French:Spanish = 7:4, Total = 132",
+        "expectedAnswers": ["84 and 48", "a) 84 b) 48", "French: 84, Spanish: 48"],
+        "gradingGuidance": "Standard ratio division. Both answers required and should sum to 132.",
+        "sampleSolutions": ["11 parts = 132\n1 part = 12\nFrench: 84, Spanish: 48"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio", "dividing total", "school context"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 28, "conceptsUsed": ["c4"], "buildsOn": ["ratio-rate-y8-014"], "preparesFor": ["ratio-rate-y8-059"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can divide totals using ratios!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set6", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-059",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A photocopier can print 35 pages per minute in black and white, but only 14 pages per minute in colour.\n\nEmma needs to print a document with 70 colour pages and 175 black and white pages.\n\nHow long will printing take in total?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Colour printing time:**\n70 ÷ 14 = 5 minutes\n\n**B&W printing time:**\n175 ÷ 35 = 5 minutes\n\n**Total time:** 5 + 5 = 10 minutes\n\n**Answer: 10 minutes**",
+      "hints": [
+        {"level": 1, "content": "Calculate time for each type separately, then add.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Colour: 70 ÷ 14 = 5 min. B&W: 175 ÷ 35 = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "5 + 5 = 10 minutes total", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Time = pages ÷ rate for each type.",
+          "encouragement": "Handle each separately!",
+          "questionPrompt": "How long for the colour pages?"
+        },
+        {
+          "level": 2,
+          "content": "Colour: 5 min. Now calculate B&W time.",
+          "encouragement": "Then add them together!",
+          "questionPrompt": "What is 175 ÷ 35?"
+        },
+        {
+          "level": 3,
+          "content": "5 + 5 = 10 minutes total printing time",
+          "encouragement": "Multi-rate problems handled!",
+          "questionPrompt": "What if there were 140 colour pages?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "B&W: 35 ppm, Colour: 14 ppm; Print 70 colour + 175 B&W",
+        "expectedAnswers": ["10 minutes", "10 min", "10"],
+        "gradingGuidance": "Must calculate both times separately then add. Colour: 5 min, B&W: 5 min, Total: 10 min.",
+        "sampleSolutions": ["Colour: 70 ÷ 14 = 5 min\nB&W: 175 ÷ 35 = 5 min\nTotal = 10 min"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["different rates", "time calculation", "addition"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 29, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-047"], "preparesFor": ["ratio-rate-y8-060"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can handle problems with different rates!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set6", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-060",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A swimming pool can be filled in 6 hours using one pipe, or emptied in 8 hours using the drain.\n\nIf both the pipe and drain are open (by mistake), how long would it take to fill the empty pool?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Fill rate:** 1 pool ÷ 6 hours = 1/6 pool per hour\n**Drain rate:** 1 pool ÷ 8 hours = 1/8 pool per hour\n\n**Net rate:** 1/6 - 1/8 = 4/24 - 3/24 = 1/24 pool per hour\n\n**Time to fill:** 1 ÷ (1/24) = 24 hours\n\n**Answer: 24 hours**",
+      "hints": [
+        {"level": 1, "content": "Express each as 'pool per hour' then find net rate.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Fill: 1/6 pool/h, Drain: 1/8 pool/h. Net = 1/6 - 1/8", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Net = 1/24 pool/h. Time = 24 hours", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Express rates as fractions of the pool per hour.",
+          "encouragement": "This is a classic rate problem!",
+          "questionPrompt": "If it fills in 6 hours, what fraction fills per hour?"
+        },
+        {
+          "level": 2,
+          "content": "Fill: 1/6, Drain: 1/8. Find the difference.",
+          "encouragement": "You need a common denominator!",
+          "questionPrompt": "What is 1/6 - 1/8?"
+        },
+        {
+          "level": 3,
+          "content": "1/24 pool per hour. So 24 hours to fill.",
+          "encouragement": "Classic combined rate problem solved!",
+          "questionPrompt": "Would it ever fill if drain was faster?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Fill: 6 hours, Drain: 8 hours, Both open",
+        "expectedAnswers": ["24 hours", "24h", "24"],
+        "gradingGuidance": "Must use fractional rates: 1/6 - 1/8 = 1/24, so 24 hours. Accept any correct algebraic method.",
+        "sampleSolutions": ["Fill rate: 1/6, Drain rate: 1/8\nNet: 1/6 - 1/8 = 4/24 - 3/24 = 1/24\nTime = 24 hours"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["fractional rates", "net rate", "pipes and cisterns"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 30, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-055"], "preparesFor": ["ratio-rate-y8-061"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can solve complex rate problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set6", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

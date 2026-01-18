@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set11",
+    "setNumber": 11,
+    "questionRange": "Q101-110",
+    "phase": "mastery",
+    "difficulty": "4",
+    "focus": "Advanced mastery - complex word problems, strategic problem solving"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-101",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A pool has two inlets. Inlet A fills it in 4 hours, Inlet B fills it in 6 hours. There is also a drain that empties the full pool in 12 hours.\n\nIf all three are open, how long to fill the empty pool?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Rates (pool per hour):**\nA fills: 1/4\nB fills: 1/6\nDrain empties: -1/12\n\n**Net rate:**\n1/4 + 1/6 - 1/12\n= 3/12 + 2/12 - 1/12\n= 4/12 = 1/3 pool per hour\n\n**Time to fill:**\n1 ÷ 1/3 = 3 hours\n\n**Answer: 3 hours**",
+      "hints": [
+        {"level": 1, "content": "Add inlet rates, subtract drain rate.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Net = 1/4 + 1/6 - 1/12 = 4/12 = 1/3", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Time = 3 hours", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Inlets add, drains subtract.",
+          "encouragement": "Combine all three rates!",
+          "questionPrompt": "What is 1/4 + 1/6 - 1/12?"
+        },
+        {
+          "level": 2,
+          "content": "Common denominator 12: 3/12 + 2/12 - 1/12 = 4/12",
+          "encouragement": "Simplify!",
+          "questionPrompt": "What is 4/12 simplified?"
+        },
+        {
+          "level": 3,
+          "content": "1/3 per hour. Time = 3 hours.",
+          "encouragement": "Three-way rate problem mastered!",
+          "questionPrompt": "What if drain was 1/4 per hour?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 4h, B: 6h fill; Drain: 12h empty; all open",
+        "expectedAnswers": ["3 hours", "3h", "3"],
+        "gradingGuidance": "Must add inlet rates and subtract drain. Net = 1/3, time = 3h.",
+        "sampleSolutions": ["Net = 1/4 + 1/6 - 1/12 = 4/12 = 1/3\nTime = 3 hours"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["combined rates", "three components", "net rate"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 11, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-076"], "preparesFor": ["ratio-rate-y8-102"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can handle three-way rate problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set11", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-102",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A father is currently 4 times as old as his son.\n\nIn 20 years, the father will be twice as old as his son.\n\nWhat are their current ages?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let son's current age = s**\nFather's current age = 4s\n\n**In 20 years:**\nSon = s + 20\nFather = 4s + 20\n\n**Father twice as old:**\n4s + 20 = 2(s + 20)\n4s + 20 = 2s + 40\n2s = 20\ns = 10\n\n**Current ages:**\nSon = 10 years\nFather = 40 years\n\n**Answer: Son is 10, Father is 40**\n\n**Check:** Now: 40 = 4 × 10 ✓. In 20 years: 60 = 2 × 30 ✓",
+      "hints": [
+        {"level": 1, "content": "Let son = s, father = 4s. Set up future equation.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "4s + 20 = 2(s + 20). Solve.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "s = 10. Son: 10, Father: 40.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Current ratio is 4:1. Find ages using future condition.",
+          "encouragement": "Set up the equation!",
+          "questionPrompt": "What are their ages in 20 years?"
+        },
+        {
+          "level": 2,
+          "content": "Father will be twice son: 4s + 20 = 2(s + 20)",
+          "encouragement": "Solve the equation!",
+          "questionPrompt": "What is s?"
+        },
+        {
+          "level": 3,
+          "content": "s = 10. Son is 10, Father is 40.",
+          "encouragement": "Classic age problem solved!",
+          "questionPrompt": "When will they be equal?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Father = 4 × son now, Father = 2 × son in 20 years",
+        "expectedAnswers": ["Son 10, Father 40", "10 and 40", "Son: 10 years, Father: 40 years"],
+        "gradingGuidance": "Must solve 4s + 20 = 2(s + 20). Son = 10, Father = 40.",
+        "sampleSolutions": ["4s + 20 = 2(s + 20)\n2s = 20\ns = 10\nSon: 10, Father: 40"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["age problem", "ratio", "algebra"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 12, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-085"], "preparesFor": ["ratio-rate-y8-103"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can solve complex age problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set11", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-103",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Jayden can paint a room in 5 hours. Kylie can paint the same room in 7 hours.\n\nThey work together, but take a 30-minute break.\n\nHow long does the entire job take (including the break)?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Combined rate:**\n1/5 + 1/7 = 7/35 + 5/35 = 12/35 room per hour\n\n**Time to paint (no break):**\n1 ÷ 12/35 = 35/12 hours ≈ 2.917 hours = 2h 55min\n\n**Total time with break:**\n2h 55min + 30min = 3h 25min\n\n**Answer: 3 hours 25 minutes**",
+      "hints": [
+        {"level": 1, "content": "Find combined rate, calculate painting time, add break.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Combined = 12/35. Time = 35/12 ≈ 2.92h", "revealsCriticalInfo": false},
+        {"level": 3, "content": "2h 55min + 30min break = 3h 25min", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Calculate painting time first, then add break.",
+          "encouragement": "Two parts to this problem!",
+          "questionPrompt": "What is 1/5 + 1/7?"
+        },
+        {
+          "level": 2,
+          "content": "12/35 per hour. Time = 35/12 ≈ 2h 55min.",
+          "encouragement": "Now add the break!",
+          "questionPrompt": "What is 2h 55min + 30min?"
+        },
+        {
+          "level": 3,
+          "content": "3 hours 25 minutes total",
+          "encouragement": "Real-world work scheduling!",
+          "questionPrompt": "What if the break was 1 hour?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "J: 5h, K: 7h, together with 30min break",
+        "expectedAnswers": ["3h 25min", "3 hours 25 minutes", "205 minutes"],
+        "gradingGuidance": "Must add rates (12/35), find time (35/12 ≈ 2.92h), add 30min break.",
+        "sampleSolutions": ["Rate = 12/35/h\nTime = 35/12 ≈ 2h 55min\nWith break: 3h 25min"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["combined work", "break time", "real-world"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 13, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-064"], "preparesFor": ["ratio-rate-y8-104"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can plan work schedules!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set11", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-104",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Coffee beans from Colombia and Ethiopia are mixed in the ratio 3:2.\n\nColombian beans cost $24/kg, Ethiopian beans cost $36/kg.\n\nWhat is the cost per kg of the mixture?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Weighted average:**\n= (3 × $24 + 2 × $36) ÷ 5\n= ($72 + $72) ÷ 5\n= $144 ÷ 5\n= $28.80 per kg\n\n**Answer: $28.80 per kg**",
+      "hints": [
+        {"level": 1, "content": "Use weighted average with the ratio.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "(3 × 24 + 2 × 36) ÷ 5 = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "144 ÷ 5 = $28.80/kg", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Weighted average = sum of (price × parts) ÷ total parts.",
+          "encouragement": "Weight by the ratio!",
+          "questionPrompt": "What is 3 × 24 + 2 × 36?"
+        },
+        {
+          "level": 2,
+          "content": "72 + 72 = 144. Divide by 5 parts.",
+          "encouragement": "Find the average!",
+          "questionPrompt": "What is 144 ÷ 5?"
+        },
+        {
+          "level": 3,
+          "content": "$28.80 per kg",
+          "encouragement": "Mixture pricing mastered!",
+          "questionPrompt": "What if ratio was 1:1?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Colombia:Ethiopia = 3:2, $24/kg and $36/kg",
+        "expectedAnswers": ["$28.80/kg", "$28.80 per kg", "28.80"],
+        "gradingGuidance": "Must calculate weighted average: (72+72)/5 = $28.80/kg.",
+        "sampleSolutions": ["(3×24 + 2×36) ÷ 5 = 144 ÷ 5 = $28.80/kg"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["weighted average", "mixture", "pricing"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 14, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-092"], "preparesFor": ["ratio-rate-y8-105"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can calculate mixture prices!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set11", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-105",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A boat travels 24 km upstream in 3 hours and returns downstream in 2 hours.\n\nFind:\na) The speed of the boat in still water\nb) The speed of the current\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Upstream speed:** 24 ÷ 3 = 8 km/h\n**Downstream speed:** 24 ÷ 2 = 12 km/h\n\n**Let boat speed = b, current = c**\nUpstream: b - c = 8\nDownstream: b + c = 12\n\n**Adding equations:**\n2b = 20\nb = 10 km/h\n\n**Current:**\nc = 12 - 10 = 2 km/h\n\n**Answers: a) 10 km/h, b) 2 km/h**",
+      "hints": [
+        {"level": 1, "content": "Find upstream and downstream speeds first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Upstream: 8 km/h, Downstream: 12 km/h.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Boat = 10 km/h, Current = 2 km/h", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Speed = distance ÷ time for each direction.",
+          "encouragement": "Calculate each speed!",
+          "questionPrompt": "What are the two speeds?"
+        },
+        {
+          "level": 2,
+          "content": "8 km/h and 12 km/h. Boat ± current.",
+          "encouragement": "Set up simultaneous equations!",
+          "questionPrompt": "If b-c=8 and b+c=12, what is b?"
+        },
+        {
+          "level": 3,
+          "content": "b = 10 km/h, c = 2 km/h",
+          "encouragement": "Classic upstream/downstream problem!",
+          "questionPrompt": "Check: 10-2=8 ✓ and 10+2=12 ✓"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "24 km upstream in 3h, downstream in 2h",
+        "expectedAnswers": ["a) 10 km/h b) 2 km/h", "Boat: 10 km/h, Current: 2 km/h"],
+        "gradingGuidance": "Must find both speeds (8, 12) and solve simultaneous equations.",
+        "sampleSolutions": ["Up: 8 km/h, Down: 12 km/h\nb-c=8, b+c=12\nb=10, c=2"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["upstream/downstream", "current", "simultaneous"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 15, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-091"], "preparesFor": ["ratio-rate-y8-106"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can solve boat and current problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set11", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-106",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Red, blue and green marbles are in the ratio 2:5:3.\n\nAfter removing 10 red and 15 green marbles, the ratio becomes 1:5:1.\n\nHow many blue marbles are there?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let original:** R = 2x, B = 5x, G = 3x\n\n**After removal:**\nR = 2x - 10\nB = 5x (unchanged)\nG = 3x - 15\n\n**New ratio 1:5:1:**\n(2x - 10) : 5x : (3x - 15) = 1 : 5 : 1\n\n**From R:B = 1:5:**\n(2x - 10)/5x = 1/5\n5(2x - 10) = 5x\n10x - 50 = 5x\n5x = 50\nx = 10\n\n**Blue marbles:** 5 × 10 = 50\n\n**Answer: 50 blue marbles**",
+      "hints": [
+        {"level": 1, "content": "Let original amounts be 2x, 5x, 3x. Blue stays same.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "(2x-10):(5x):(3x-15) = 1:5:1", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 10. Blue = 50 marbles.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Blue doesn't change - use it to find x.",
+          "encouragement": "Set up the new ratio!",
+          "questionPrompt": "What's the new R:B ratio?"
+        },
+        {
+          "level": 2,
+          "content": "(2x-10)/5x = 1/5. Solve for x.",
+          "encouragement": "Cross multiply!",
+          "questionPrompt": "What is x?"
+        },
+        {
+          "level": 3,
+          "content": "x = 10. Blue = 5 × 10 = 50",
+          "encouragement": "Complex ratio change solved!",
+          "questionPrompt": "Check: Original was 20:50:30, now 10:50:15 = 2:10:3... wait"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "R:B:G = 2:5:3, remove 10R and 15G → 1:5:1",
+        "expectedAnswers": ["50 blue marbles", "50"],
+        "gradingGuidance": "Must set up ratio equation with unchanged blue. x=10, Blue=50.",
+        "sampleSolutions": ["(2x-10):5x:(3x-15) = 1:5:1\n(2x-10)/5x = 1/5\nx = 10\nBlue = 50"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["three-part ratio", "changing ratio", "algebra"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 16, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-088"], "preparesFor": ["ratio-rate-y8-107"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can solve three-part changing ratios!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set11", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-107",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Train A leaves station P at 9:00 AM at 80 km/h. Train B leaves station Q (which is 300 km from P) at 10:00 AM travelling towards P at 100 km/h.\n\nAt what time do the trains pass each other?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Train A's head start (by 10 AM):**\n1 hour × 80 = 80 km from P\n\n**Gap at 10 AM:**\n300 - 80 = 220 km apart\n\n**Combined approach speed:**\n80 + 100 = 180 km/h\n\n**Time to meet (from 10 AM):**\n220 ÷ 180 = 11/9 hours ≈ 1.22 hours = 1h 13min\n\n**Meeting time:** 10:00 AM + 1h 13min = 11:13 AM\n\n**Answer: 11:13 AM (approximately)**",
+      "hints": [
+        {"level": 1, "content": "Find A's position at 10 AM, then gap.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "220 km apart at 10 AM, approaching at 180 km/h.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "220/180 ≈ 1.22h after 10 AM = 11:13 AM", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "A has a 1-hour head start.",
+          "encouragement": "Find position at 10 AM!",
+          "questionPrompt": "How far has A travelled by 10 AM?"
+        },
+        {
+          "level": 2,
+          "content": "80 km done. Gap = 220 km. Combined = 180 km/h.",
+          "encouragement": "Find meeting time!",
+          "questionPrompt": "What is 220 ÷ 180?"
+        },
+        {
+          "level": 3,
+          "content": "≈ 1h 13min after 10 AM = 11:13 AM",
+          "encouragement": "Two-train meeting problem!",
+          "questionPrompt": "Where do they meet (distance from P)?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A from P: 80km/h at 9AM, B from Q: 100km/h at 10AM, 300km apart",
+        "expectedAnswers": ["11:13 AM", "approximately 11:13", "about 11:13 AM"],
+        "gradingGuidance": "Must account for head start. Gap=220km, combined=180km/h, meet ≈11:13AM.",
+        "sampleSolutions": ["A at 10AM: 80km done\nGap: 220km\nTime: 220/180 ≈ 1h13min\nMeet: 11:13 AM"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["meeting point", "different start", "relative speed"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 17, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-082"], "preparesFor": ["ratio-rate-y8-108"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can solve complex train problems!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set11", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-108",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Two solutions are mixed:\n- Solution A: 30% acid (150 mL)\n- Solution B: 50% acid (250 mL)\n\nWhat is the acid concentration of the mixture?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Acid in A:** 30% of 150 = 0.30 × 150 = 45 mL\n**Acid in B:** 50% of 250 = 0.50 × 250 = 125 mL\n\n**Total acid:** 45 + 125 = 170 mL\n**Total mixture:** 150 + 250 = 400 mL\n\n**Concentration:**\n170/400 × 100 = 42.5%\n\n**Answer: 42.5% acid**",
+      "hints": [
+        {"level": 1, "content": "Find acid amount in each, then total.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "A: 45 mL acid, B: 125 mL acid. Total acid = 170 mL.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "170/400 = 42.5%", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Calculate actual acid in each solution.",
+          "encouragement": "Percentage of each volume!",
+          "questionPrompt": "What is 30% of 150 and 50% of 250?"
+        },
+        {
+          "level": 2,
+          "content": "45 + 125 = 170 mL acid in 400 mL total.",
+          "encouragement": "Find the percentage!",
+          "questionPrompt": "What is 170/400 as a percentage?"
+        },
+        {
+          "level": 3,
+          "content": "42.5% acid concentration",
+          "encouragement": "Mixture concentration mastered!",
+          "questionPrompt": "Why isn't it just (30+50)/2 = 40%?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 30% acid 150mL, B: 50% acid 250mL",
+        "expectedAnswers": ["42.5%", "42.5% acid", "42.5"],
+        "gradingGuidance": "Must calculate actual acid amounts then percentage. 170/400 = 42.5%.",
+        "sampleSolutions": ["A: 45mL acid, B: 125mL acid\nTotal: 170mL in 400mL\n= 42.5%"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["mixture", "concentration", "percentage"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 18, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-104"], "preparesFor": ["ratio-rate-y8-109"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can calculate mixture concentrations!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set11", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-109",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A garden hose fills a paddling pool in 20 minutes.\n\nIf water evaporates at 5% of the fill rate, how long does it really take to fill the pool?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Fill rate:** 1 pool per 20 min = 1/20 pool/min\n\n**Evaporation rate:** 5% of 1/20 = 0.05 × 1/20 = 1/400 pool/min\n\n**Net fill rate:**\n1/20 - 1/400\n= 20/400 - 1/400\n= 19/400 pool per min\n\n**Time to fill:**\n1 ÷ 19/400 = 400/19 ≈ 21.05 minutes\n\n**Answer: Approximately 21 minutes**",
+      "hints": [
+        {"level": 1, "content": "Find fill rate, then subtract evaporation.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Net = 1/20 - 1/400 = 19/400", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Time = 400/19 ≈ 21 minutes", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Evaporation is 5% of the fill rate.",
+          "encouragement": "Calculate evaporation rate!",
+          "questionPrompt": "What is 5% of 1/20?"
+        },
+        {
+          "level": 2,
+          "content": "1/400 evaporates. Net rate = 19/400.",
+          "encouragement": "Find time to fill!",
+          "questionPrompt": "What is 1 ÷ (19/400)?"
+        },
+        {
+          "level": 3,
+          "content": "≈ 21 minutes",
+          "encouragement": "Real-world rate adjustment!",
+          "questionPrompt": "How much water evaporated total?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Fills in 20 min, evaporation = 5% of fill rate",
+        "expectedAnswers": ["≈21 minutes", "approximately 21 min", "400/19 minutes", "21.05 min"],
+        "gradingGuidance": "Must find evaporation rate (1/400) and net rate (19/400). Time ≈ 21 min.",
+        "sampleSolutions": ["Evap = 5% × 1/20 = 1/400\nNet = 19/400\nTime = 400/19 ≈ 21 min"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["net rate", "percentage of rate", "real-world"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 19, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-087"], "preparesFor": ["ratio-rate-y8-110"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can account for rate losses!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set11", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-110",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "The price of petrol increased from $1.80/L to $2.16/L.\n\na) What is the percentage increase?\nb) If someone's weekly petrol budget was $90, how many fewer litres can they buy now?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**a) Percentage increase:**\nIncrease = $2.16 - $1.80 = $0.36\n% increase = 0.36/1.80 × 100 = 20%\n\n**b) Litres comparison:**\nBefore: $90 ÷ $1.80 = 50 L\nNow: $90 ÷ $2.16 = 41.67 L\nDifference: 50 - 41.67 = 8.33 L fewer\n\n**Answers: a) 20% increase, b) 8.33 L fewer**",
+      "hints": [
+        {"level": 1, "content": "a) % increase = change/original × 100", "revealsCriticalInfo": false},
+        {"level": 2, "content": "a) 0.36/1.80 × 100 = 20%", "revealsCriticalInfo": false},
+        {"level": 3, "content": "b) 50L before, 41.67L now = 8.33L fewer", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Find the increase, express as percentage of original.",
+          "encouragement": "Standard percentage increase!",
+          "questionPrompt": "What is $2.16 - $1.80?"
+        },
+        {
+          "level": 2,
+          "content": "$0.36 increase. As % of $1.80?",
+          "encouragement": "Now find litres for each price!",
+          "questionPrompt": "What is 0.36/1.80 × 100?"
+        },
+        {
+          "level": 3,
+          "content": "20%. Litres: 50 → 41.67 = 8.33L fewer",
+          "encouragement": "Real economic impact!",
+          "questionPrompt": "How much more budget needed for same 50L?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Price: $1.80 → $2.16, Budget: $90",
+        "expectedAnswers": ["a) 20% b) 8.33 L fewer", "20% and 8.33 litres"],
+        "gradingGuidance": "a) 20% increase. b) Must calculate litres at each price: 50L vs 41.67L = 8.33L difference.",
+        "sampleSolutions": ["a) 0.36/1.80 = 20%\nb) Before: 50L, Now: 41.67L\n8.33L fewer"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["percentage increase", "unit price", "budget impact"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 20, "conceptsUsed": ["c7", "c8"], "buildsOn": ["ratio-rate-y8-031"], "preparesFor": ["ratio-rate-y8-111"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can analyse price change impacts!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set11", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

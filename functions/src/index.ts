@@ -72,7 +72,10 @@ export {
   nswSelectiveStudyPlanHealth,
   // Phase 8.4: Concept Explanation
   nswSelectiveConceptExplainer,
-  nswSelectiveConceptExplainerHealth
+  nswSelectiveConceptExplainerHealth,
+  // Phase 8.5: Teach Me (Direct Teaching Mode)
+  nswSelectiveTeachMe,
+  nswSelectiveTeachMeHealth
 } from "./nsw-selective";
 
 // Teacher Module - REMOVED (35 functions)

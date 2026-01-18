@@ -214,6 +214,67 @@ interface StudyPlanRequest {
   };
 }
 
+// =============================================================================
+// TEACH ME TYPES (Direct Teaching Mode)
+// =============================================================================
+
+interface TeachMeRequest {
+  question: {
+    questionId: string;
+    stem: string;
+    options: { id: string; text: string; isCorrect: boolean }[];
+    methodologySteps: string[];
+    solution: string;
+    difficulty: number;
+  };
+  archetype: {
+    id: ArchetypeId;
+    name: string;
+    shortName: string;
+    methodology: string;
+    commonErrors: string[];
+  };
+  studentContext: {
+    wrongAnswersSelected: string[];
+    hintsAlreadySeen: number;
+    timeOnQuestionSeconds: number;
+    socraticExchanges: number;
+    masteryLevel: number;
+    previousTeachingApproaches?: string[];
+  };
+  specificConfusion?: string;
+}
+
+interface TeachMeResponse {
+  success: boolean;
+  keyInsight?: string;
+  relatable?: {
+    setup: string;
+    connection: string;
+    whyItMatters: string;
+  };
+  workedExample?: {
+    problemStatement: string;
+    stepByStep: Array<{
+      stepNumber: number;
+      action: string;
+      result: string;
+      insight: string;
+    }>;
+    finalAnswer: string;
+    keyTakeaway: string;
+  };
+  trapToAvoid?: {
+    trap: string;
+    whyTempting: string;
+    howToAvoid: string;
+  };
+  tryYourProblem?: string;
+  encouragement?: string;
+  error?: string;
+  processingTime?: number;
+}
+
 interface PriorityArchetype {
   archetypeId: ArchetypeId;
   reason: string;
@@ -951,6 +1012,7 @@ export type {
   ConceptExplanation,
   StudyPlanResponse,
   PriorityArchetype,
+  TeachMeResponse,
 };
 
 export default {

@@ -109,7 +109,7 @@ function KeyInsightSection({ insight }: { insight: string }) {
           <LightbulbIcon className="w-5 h-5 text-amber-600" />
         </div>
         <div>
-          <h4 className="font-semibold text-amber-800 mb-1">The Key Insight</h4>
+          <h4 className="font-semibold text-amber-800 mb-1">💡 The Key Insight</h4>
           <p className="text-amber-900 text-lg leading-relaxed">{insight}</p>
         </div>
       </div>
@@ -127,7 +127,7 @@ function RelatableSection({ relatable }: {
       </h4>
       <div className="space-y-3">
         <p className="text-blue-900 text-base leading-relaxed italic">
-          &quot;{relatable.setup}&quot;
+          "{relatable.setup}"
         </p>
         <p className="text-blue-800 text-sm">
           <span className="font-medium">How it connects:</span> {relatable.connection}
@@ -182,7 +182,7 @@ function WorkedExampleSection({ example }: {
       {/* Final Answer */}
       <div className="bg-emerald-100 rounded-xl p-4 mb-3">
         <p className="text-emerald-800">
-          <span className="font-semibold">Answer:</span> {example.finalAnswer}
+          <span className="font-semibold">✓ Answer:</span> {example.finalAnswer}
         </p>
       </div>
 
@@ -203,18 +203,18 @@ function TrapToAvoidSection({ trap }: {
     <div className="bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-2xl p-5 mb-4">
       <h4 className="font-semibold text-red-800 mb-3 flex items-center gap-2">
         <WarningIcon className="w-5 h-5 text-red-600" />
-        <span>Trap to Avoid</span>
+        <span>⚠️ Trap to Avoid</span>
       </h4>
       <div className="space-y-3">
         <div className="bg-white rounded-lg p-3 border border-red-200">
           <p className="text-red-800 font-medium">{trap.trap}</p>
         </div>
         <p className="text-red-700 text-sm">
-          <span className="font-medium">Why it&apos;s tempting:</span> {trap.whyTempting}
+          <span className="font-medium">Why it's tempting:</span> {trap.whyTempting}
         </p>
         <div className="bg-green-50 border border-green-200 rounded-lg p-3">
           <p className="text-green-800 text-sm">
-            <span className="font-medium">How to avoid it:</span> {trap.howToAvoid}
+            <span className="font-medium">✓ How to avoid it:</span> {trap.howToAvoid}
           </p>
         </div>
       </div>
@@ -320,7 +320,7 @@ export function TeachMeModal({
                 Let me teach you this! 📚
               </h3>
               <p className="text-emerald-100 text-sm mt-1">
-                A worked example with different numbers - you&apos;ll still solve yours!
+                A worked example with different numbers - you'll still solve yours!
               </p>
             </div>
             <button
@@ -390,13 +390,13 @@ export function TeachMeModal({
         <div className="px-6 py-4 bg-gray-50 border-t">
           <div className="flex items-center justify-between">
             <p className="text-xs text-gray-500">
-              You&apos;ve got the method now - go solve YOUR problem!
+              You've got the method now - go solve YOUR problem! 💪
             </p>
             <button
               onClick={handleClose}
               className="px-6 py-2.5 bg-emerald-600 text-white rounded-xl hover:bg-emerald-700 transition-colors text-sm font-medium flex items-center gap-2"
             >
-              <span>I&apos;m ready to try!</span>
+              <span>I'm ready to try!</span>
               <ArrowRightIcon className="w-4 h-4" />
             </button>
           </div>

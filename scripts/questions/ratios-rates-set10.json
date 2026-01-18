@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set10",
+    "setNumber": 10,
+    "questionRange": "Q91-100",
+    "phase": "mastery",
+    "difficulty": "3-4",
+    "focus": "Complex multi-step problems, integration of concepts"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-091",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A train travels from A to B at 90 km/h and returns at 60 km/h.\n\nThe total journey time is 5 hours.\n\nWhat is the distance from A to B?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let distance = d km**\n\nTime out = d/90 hours\nTime back = d/60 hours\n\n**Total time:**\nd/90 + d/60 = 5\n\n**Common denominator (180):**\n2d/180 + 3d/180 = 5\n5d/180 = 5\n5d = 900\nd = 180 km\n\n**Answer: 180 km**\n\n**Check:** Out: 180/90 = 2h, Back: 180/60 = 3h, Total: 5h ✓",
+      "hints": [
+        {"level": 1, "content": "Let distance = d. Set up time equation.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "d/90 + d/60 = 5. Find common denominator.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "5d = 900, d = 180 km", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Time = distance/speed for each direction.",
+          "encouragement": "Set up the algebraic equation!",
+          "questionPrompt": "What's the total time equation?"
+        },
+        {
+          "level": 2,
+          "content": "d/90 + d/60 = 5. LCD = 180.",
+          "encouragement": "Solve the equation!",
+          "questionPrompt": "What is 2d + 3d in terms of d/180?"
+        },
+        {
+          "level": 3,
+          "content": "5d/180 = 5, so d = 180 km",
+          "encouragement": "Classic round trip problem!",
+          "questionPrompt": "What's the average speed for the trip?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Out: 90km/h, Back: 60km/h, Total: 5 hours",
+        "expectedAnswers": ["180 km", "180km", "180"],
+        "gradingGuidance": "Must set up and solve d/90 + d/60 = 5. d = 180 km.",
+        "sampleSolutions": ["d/90 + d/60 = 5\n5d/180 = 5\nd = 180 km"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["speed", "round trip", "algebra"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 1, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-074"], "preparesFor": ["ratio-rate-y8-092"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can solve algebraic speed problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set10", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-092",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Gold and silver are mixed in the ratio 3:7 to make an alloy.\n\nThe alloy is worth $85 per gram.\nPure gold is worth $60 per gram, pure silver is worth $95 per gram.\n\nVerify this price is correct by calculating the weighted average.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Weighted average price:**\n\nGold: 3 parts at $60/g\nSilver: 7 parts at $95/g\nTotal parts: 10\n\n**Weighted average:**\n= (3 × 60 + 7 × 95) ÷ 10\n= (180 + 665) ÷ 10\n= 845 ÷ 10\n= $84.50 per gram\n\n**Answer: Calculated price is $84.50/g, not $85/g. The given price is incorrect (50c too high).**",
+      "hints": [
+        {"level": 1, "content": "Calculate weighted average: (sum of value × parts) ÷ total parts.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "(3 × 60 + 7 × 95) ÷ 10 = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "845 ÷ 10 = $84.50, not $85", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Weighted average = sum of (value × proportion).",
+          "encouragement": "Weight each component!",
+          "questionPrompt": "What is 3 × 60 + 7 × 95?"
+        },
+        {
+          "level": 2,
+          "content": "180 + 665 = 845. Divide by 10 parts.",
+          "encouragement": "Find the average!",
+          "questionPrompt": "What is 845 ÷ 10?"
+        },
+        {
+          "level": 3,
+          "content": "$84.50, not $85. The claim is wrong!",
+          "encouragement": "Critical thinking applied!",
+          "questionPrompt": "What ratio would give exactly $85/g?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Gold:Silver = 3:7, Gold $60/g, Silver $95/g, claimed $85/g",
+        "expectedAnswers": ["$84.50, incorrect", "$84.50/g not $85/g", "No, it's $84.50"],
+        "gradingGuidance": "Must calculate weighted average correctly: $84.50. Must state the claim is wrong.",
+        "sampleSolutions": ["(3×60 + 7×95)/10 = 845/10 = $84.50\nClaim of $85 is incorrect"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["weighted average", "ratio", "verification"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 2, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-054"], "preparesFor": ["ratio-rate-y8-093"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can verify claims using mathematics!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set10", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-093",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Pump A fills a pool in 8 hours. Pump B fills it in 12 hours.\n\nBoth pumps start together, but Pump A breaks down after 3 hours.\n\nHow much longer does Pump B take to finish filling the pool alone?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Rates:**\nA: 1/8 pool/hour, B: 1/12 pool/hour\n\n**Work in first 3 hours (both):**\n3 × (1/8 + 1/12) = 3 × (3/24 + 2/24) = 3 × 5/24 = 15/24 = 5/8 pool\n\n**Remaining work:**\n1 - 5/8 = 3/8 pool\n\n**Time for B alone:**\n(3/8) ÷ (1/12) = (3/8) × 12 = 36/8 = 4.5 hours\n\n**Answer: 4.5 hours more (4 hours 30 minutes)**",
+      "hints": [
+        {"level": 1, "content": "Find combined work in 3 hours, then remaining.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "5/8 done in 3h. Remaining = 3/8.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "(3/8) × 12 = 4.5 hours for B alone", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Calculate combined rate and work done in 3 hours.",
+          "encouragement": "Then find what's left!",
+          "questionPrompt": "What is 1/8 + 1/12?"
+        },
+        {
+          "level": 2,
+          "content": "5/24 per hour combined. 3h = 5/8 done. Remaining?",
+          "encouragement": "Now B finishes alone!",
+          "questionPrompt": "How long for B to do 3/8?"
+        },
+        {
+          "level": 3,
+          "content": "(3/8) ÷ (1/12) = 4.5 hours more",
+          "encouragement": "Breakdown problems mastered!",
+          "questionPrompt": "What was the total time?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 8h, B: 12h, A breaks after 3h",
+        "expectedAnswers": ["4.5 hours", "4h 30min", "4.5h", "4½ hours"],
+        "gradingGuidance": "Must calculate 5/8 done in 3h, then 3/8 remaining takes 4.5h for B.",
+        "sampleSolutions": ["Combined = 5/24/h\n3h: 5/8 done\nRemaining = 3/8\nB time = 3/8 × 12 = 4.5h"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["combined work", "breakdown", "remaining work"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 3, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-084"], "preparesFor": ["ratio-rate-y8-094"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can handle equipment breakdown scenarios!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set10", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-094",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Three friends A, B, C share profits in the ratio 2:3:5.\n\nA's share is $800 less than C's share.\n\nFind the total profit.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Difference in parts:**\nC - A = 5 - 2 = 3 parts = $800\n\n**1 part = $800 ÷ 3 = $266.67 (or $800/3)**\n\n**Total parts:** 2 + 3 + 5 = 10 parts\n\n**Total profit:**\n10 × (800/3) = 8000/3 = $2666.67\n\n**Answer: $2666.67 (or $8000/3)**",
+      "hints": [
+        {"level": 1, "content": "C - A = 3 parts = $800.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = $800/3 ≈ $266.67", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Total = 10 × 800/3 = $2666.67", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The $800 difference tells us the value of 3 parts.",
+          "encouragement": "Use the difference method!",
+          "questionPrompt": "What is 5 - 2?"
+        },
+        {
+          "level": 2,
+          "content": "3 parts = $800, so 1 part = $800/3",
+          "encouragement": "Now find total!",
+          "questionPrompt": "How many parts total?"
+        },
+        {
+          "level": 3,
+          "content": "10 parts = 10 × 800/3 = $2666.67",
+          "encouragement": "Difference method for totals!",
+          "questionPrompt": "What does each person get?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A:B:C = 2:3:5, C - A = $800",
+        "expectedAnswers": ["$2666.67", "$8000/3", "approximately $2667"],
+        "gradingGuidance": "Must use difference: 3 parts = $800. Total = 10 × 800/3 = $2666.67.",
+        "sampleSolutions": ["C - A = 3 parts = $800\n1 part = $800/3\nTotal = 10 × 800/3 = $2666.67"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["three-part ratio", "difference", "profit sharing"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 4, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-069"], "preparesFor": ["ratio-rate-y8-095"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can find totals from differences!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set10", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-095",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A runner completes a 10 km race. She runs the first 6 km at 12 km/h, then walks the remaining 4 km.\n\nHer average speed for the whole race was 8 km/h.\n\nAt what speed did she walk?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Total time from average speed:**\nTotal time = 10 km ÷ 8 km/h = 1.25 hours\n\n**Time for first 6 km:**\n6 ÷ 12 = 0.5 hours\n\n**Time for walking:**\n1.25 - 0.5 = 0.75 hours\n\n**Walking speed:**\n4 km ÷ 0.75 h = 5.33 km/h (or 16/3 km/h)\n\n**Answer: 5.33 km/h (approximately)**",
+      "hints": [
+        {"level": 1, "content": "Use average speed to find total time.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Total = 1.25h. Running = 0.5h. Walking time = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "0.75h for 4km. Speed = 5.33 km/h", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Average speed gives you total time.",
+          "encouragement": "Work backwards!",
+          "questionPrompt": "What is 10 ÷ 8?"
+        },
+        {
+          "level": 2,
+          "content": "1.25h total. Running took 0.5h.",
+          "encouragement": "Find walking time!",
+          "questionPrompt": "What is 1.25 - 0.5?"
+        },
+        {
+          "level": 3,
+          "content": "0.75h for 4km. Speed = 4/0.75 ≈ 5.33 km/h",
+          "encouragement": "Reverse engineering speed problems!",
+          "questionPrompt": "Check: verify the average speed."
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "10km race: 6km at 12km/h, 4km walking, avg 8km/h",
+        "expectedAnswers": ["5.33 km/h", "16/3 km/h", "approximately 5.3 km/h"],
+        "gradingGuidance": "Must find total time (1.25h) from average, subtract running time (0.5h), get walking speed.",
+        "sampleSolutions": ["Total time = 10/8 = 1.25h\nRunning = 6/12 = 0.5h\nWalking time = 0.75h\nSpeed = 4/0.75 = 5.33 km/h"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["average speed", "working backwards", "two-part journey"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 5, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-078"], "preparesFor": ["ratio-rate-y8-096"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can work backwards from average speed!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set10", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-096",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Orange juice is made by mixing concentrate and water in the ratio 1:5.\n\nTo make it weaker, water is added so the new ratio is 1:8.\n\nIf 600 mL of water was added, how much orange juice was there originally?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let original concentrate = x mL**\nOriginal water = 5x mL\n\n**After adding 600 mL water:**\nConcentrate = x (unchanged)\nWater = 5x + 600\n\n**New ratio:**\nx : (5x + 600) = 1 : 8\n\n**Cross multiply:**\n8x = 5x + 600\n3x = 600\nx = 200 mL concentrate\n\n**Original juice:**\n200 + 5(200) = 200 + 1000 = 1200 mL\n\n**Answer: 1200 mL originally**",
+      "hints": [
+        {"level": 1, "content": "Concentrate stays the same. Only water increases.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "x : (5x + 600) = 1 : 8. Solve for x.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 200. Original = 1200 mL", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Set up the equation with concentrate unchanged.",
+          "encouragement": "Only water changes!",
+          "questionPrompt": "What's the new water amount?"
+        },
+        {
+          "level": 2,
+          "content": "x : (5x+600) = 1:8. Cross multiply!",
+          "encouragement": "Solve for x!",
+          "questionPrompt": "What is 8x = 5x + 600?"
+        },
+        {
+          "level": 3,
+          "content": "x = 200. Original total = 1200 mL",
+          "encouragement": "Dilution problems solved!",
+          "questionPrompt": "What's the new total?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Original 1:5, add 600mL water → 1:8",
+        "expectedAnswers": ["1200 mL", "1200mL", "1.2 L", "1200"],
+        "gradingGuidance": "Must set up ratio equation with unchanged concentrate. x=200, total=1200mL.",
+        "sampleSolutions": ["x:(5x+600) = 1:8\n8x = 5x + 600\nx = 200\nOriginal = 1200 mL"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["changing ratio", "dilution", "constant component"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 6, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-077"], "preparesFor": ["ratio-rate-y8-097"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can solve dilution problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set10", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-097",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A car's speed is measured as 58 km/h by a radar gun, but the actual speed is 60 km/h.\n\nWhat is the percentage error in the measurement?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Error:** |58 - 60| = 2 km/h\n\n**Percentage error:**\n= (Error / Actual value) × 100\n= (2 / 60) × 100\n= 3.33%\n\n**Answer: 3.33% error (or 10/3%)**",
+      "hints": [
+        {"level": 1, "content": "Error = |measured - actual|", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Percentage error = (error/actual) × 100", "revealsCriticalInfo": false},
+        {"level": 3, "content": "(2/60) × 100 = 3.33%", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Find the absolute difference first.",
+          "encouragement": "Error = difference!",
+          "questionPrompt": "What is |58 - 60|?"
+        },
+        {
+          "level": 2,
+          "content": "2 km/h error. Express as percentage of actual.",
+          "encouragement": "Error relative to actual!",
+          "questionPrompt": "What is 2/60 × 100?"
+        },
+        {
+          "level": 3,
+          "content": "3.33% percentage error",
+          "encouragement": "Measurement error analysis!",
+          "questionPrompt": "Is this underestimate or overestimate?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Measured: 58 km/h, Actual: 60 km/h",
+        "expectedAnswers": ["3.33%", "3.3%", "10/3%", "approximately 3.3%"],
+        "gradingGuidance": "Must use actual value as denominator. Error = 2/60 × 100 = 3.33%.",
+        "sampleSolutions": ["Error = |58-60| = 2\n% error = (2/60) × 100 = 3.33%"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["percentage error", "measurement", "rates"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 7, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-027"], "preparesFor": ["ratio-rate-y8-098"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can calculate percentage errors!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set10", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-098",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A group of 15 friends can finish building a sandcastle in 2 hours.\n\n5 friends leave after 1 hour.\n\nHow much longer will it take the remaining 10 friends to finish?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Total work:**\n15 friends × 2 hours = 30 friend-hours\n\n**Work done in first hour:**\n15 × 1 = 15 friend-hours\n\n**Remaining work:**\n30 - 15 = 15 friend-hours\n\n**Time for 10 friends:**\n15 ÷ 10 = 1.5 hours\n\n**Answer: 1.5 hours more (1 hour 30 minutes)**",
+      "hints": [
+        {"level": 1, "content": "Total work = 30 friend-hours.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "15 friend-hours done. 15 remaining.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "15 ÷ 10 = 1.5 hours more", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Calculate total work in friend-hours.",
+          "encouragement": "15 × 2 = ?",
+          "questionPrompt": "What's the total work?"
+        },
+        {
+          "level": 2,
+          "content": "30 total. 15 done in first hour. What's left?",
+          "encouragement": "Now divide among remaining friends!",
+          "questionPrompt": "What is 30 - 15?"
+        },
+        {
+          "level": 3,
+          "content": "15 work units ÷ 10 friends = 1.5 hours",
+          "encouragement": "Friend-hours is like worker-days!",
+          "questionPrompt": "What's the total time for the project?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "15 friends, 2 hours. 5 leave after 1 hour.",
+        "expectedAnswers": ["1.5 hours", "1h 30min", "1.5h", "90 minutes"],
+        "gradingGuidance": "Must use friend-hours: 30 total, 15 done, 15 remaining for 10 people = 1.5h.",
+        "sampleSolutions": ["Total = 30 friend-hours\n1 hour: 15 done\nRemaining: 15 for 10 friends\nTime = 1.5 hours"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["work rate", "changing workers", "friend-hours"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 8, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-072"], "preparesFor": ["ratio-rate-y8-099"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can handle changing team size!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set10", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-099",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A scale model of a building is built at 1:200 scale.\n\nThe model is 45 cm tall and has a base area of 180 cm².\n\nCalculate:\na) The actual height of the building in metres\nb) The actual base area in m²\n\nShow your working.",
+      "solution": "**Solution:**\n\n**a) Height (linear):**\nActual = 45 cm × 200 = 9000 cm = 90 m\n\n**b) Area (square):**\nScale factor for area = 200² = 40,000\nActual area = 180 cm² × 40,000 = 7,200,000 cm²\n= 720 m²\n\n**Answers: a) 90 metres, b) 720 m²**",
+      "hints": [
+        {"level": 1, "content": "Heights scale by 200, areas scale by 200².", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Height: 45 × 200 = 9000 cm = 90 m", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Area: 180 × 40000 = 7,200,000 cm² = 720 m²", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Length scales linearly, area scales quadratically.",
+          "encouragement": "Different scaling for different dimensions!",
+          "questionPrompt": "What is 45 × 200?"
+        },
+        {
+          "level": 2,
+          "content": "Height = 9000 cm = 90 m. Area scale = 200².",
+          "encouragement": "Square the scale factor for area!",
+          "questionPrompt": "What is 200²?"
+        },
+        {
+          "level": 3,
+          "content": "40000 × 180 = 7,200,000 cm² = 720 m²",
+          "encouragement": "Scale models in architecture!",
+          "questionPrompt": "What about volume scaling?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Scale 1:200, Model: 45cm height, 180cm² base",
+        "expectedAnswers": ["a) 90 m b) 720 m²", "90m and 720m²", "90 metres, 720 square metres"],
+        "gradingGuidance": "Must scale height by 200 and area by 40000. Height=90m, Area=720m².",
+        "sampleSolutions": ["a) 45 × 200 = 9000cm = 90m\nb) 180 × 200² = 7,200,000cm² = 720m²"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["scale model", "area scaling", "unit conversion"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 9, "conceptsUsed": ["c3", "c5"], "buildsOn": ["ratio-rate-y8-067"], "preparesFor": ["ratio-rate-y8-100"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I understand scale and dimensional analysis!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set10", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-100",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Two cyclists start from the same point. Cyclist A goes east at 18 km/h, Cyclist B goes north at 24 km/h.\n\nAfter 2 hours, how far apart are they?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Distances after 2 hours:**\nA (east): 18 × 2 = 36 km\nB (north): 24 × 2 = 48 km\n\n**Using Pythagoras (perpendicular directions):**\nDistance² = 36² + 48²\n= 1296 + 2304\n= 3600\nDistance = √3600 = 60 km\n\n**Answer: 60 km apart**",
+      "hints": [
+        {"level": 1, "content": "They travel at right angles - use Pythagoras.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "A: 36 km east, B: 48 km north.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "√(36² + 48²) = √3600 = 60 km", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "East and North are perpendicular.",
+          "encouragement": "This forms a right triangle!",
+          "questionPrompt": "How far does each travel in 2 hours?"
+        },
+        {
+          "level": 2,
+          "content": "36 km and 48 km. Use Pythagoras!",
+          "encouragement": "a² + b² = c²",
+          "questionPrompt": "What is 36² + 48²?"
+        },
+        {
+          "level": 3,
+          "content": "1296 + 2304 = 3600. √3600 = 60 km",
+          "encouragement": "Rates meet geometry!",
+          "questionPrompt": "Is this a 3-4-5 triangle scaled up?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 18km/h east, B: 24km/h north, after 2 hours",
+        "expectedAnswers": ["60 km", "60km", "60"],
+        "gradingGuidance": "Must use Pythagoras on perpendicular distances. 36² + 48² = 60².",
+        "sampleSolutions": ["A = 36km, B = 48km\nDistance = √(36² + 48²) = √3600 = 60km"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["speed", "Pythagoras", "perpendicular motion"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 4, "phasePosition": 10, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-062"], "preparesFor": ["ratio-rate-y8-101"]},
+      "pedagogy": {"type": "mastery", "targetFeeling": "I can combine rates with geometry!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set10", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

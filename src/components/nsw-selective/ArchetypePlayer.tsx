@@ -756,6 +756,8 @@ export function ArchetypePlayer({
     setWrongOptionsThisQuestion([]);
     setHintsSeenThisQuestion([]);
     setShowSocraticChat(false);
+    setShowTeachMe(false);
+    setSocraticExchangeCount(0);
   }, [currentIndex]);
 
   // Handle option selection
@@ -1012,6 +1014,9 @@ export function ArchetypePlayer({
     setHintsSeenThisQuestion([]);
     setShowConceptExplainer(false);
     setPreviousExplanationsSeen([]);
+    // Clear Teach Me state
+    setShowTeachMe(false);
+    setSocraticExchangeCount(0);
     // Start a new session (clears storage and creates fresh session)
     session.startNewSession(questionIds);
   }, [session, questionIds]);

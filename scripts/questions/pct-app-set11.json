@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "setId": "year8-percentages-applications-set11",
+    "setNumber": 11,
+    "questionRange": "Q101-110",
+    "phase": "mastery",
+    "difficulty": "3-4",
+    "focus": "Percentage error, financial modelling, algebraic manipulation"
+  },
+  "questions": [
+    {
+      "questionId": "pct-app-y8-101",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A student measures the length of a table as 1.85 m. The actual length is 1.80 m.\n\nCalculate the percentage error in the measurement.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Find the absolute error\n$$\\text{Absolute error} = |\\text{Measured} - \\text{Actual}|$$\n$$= |1.85 - 1.80| = 0.05 \\text{ m}$$\n\n**Step 2:** Calculate percentage error\n$$\\text{Percentage error} = \\frac{\\text{Absolute error}}{\\text{Actual value}} \\times 100\\%$$\n$$= \\frac{0.05}{1.80} \\times 100\\%$$\n$$= 0.0278 \\times 100\\%$$\n$$\\approx 2.78\\%$$\n\n**Answer: 2.78% (or 2.8%)**\n\n**Check:** 2.78% of 1.80 = 0.05 m ✓",
+      "hints": [
+        {"level": 1, "content": "Percentage error compares the error to the actual value, not the measured value.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "First find how much the measurement differs from reality.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Error = 0.05 m. Divide by actual (1.80) and multiply by 100%", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Percentage error tells us how significant an error is relative to what we're measuring.",
+          "encouragement": "This is a key skill in science and engineering!",
+          "questionPrompt": "What's the difference between the measured value and the actual value?"
+        },
+        {
+          "level": 2,
+          "content": "The error is 0.05 m. Now express this as a percentage of the true value.",
+          "encouragement": "You're thinking like a scientist!",
+          "questionPrompt": "What fraction is 0.05 of 1.80?"
+        },
+        {
+          "level": 3,
+          "content": "0.05 ÷ 1.80 = 0.0278. Multiply by 100 to get the percentage.",
+          "encouragement": "Nearly there!",
+          "questionPrompt": "What is 0.0278 × 100?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Measured = 1.85 m, Actual = 1.80 m",
+        "expectedAnswers": ["2.78%", "2.78", "2.8%", "2.8", "2.77%", "2.77", "2.778%", "25/9%", "≈2.78%", "approximately 2.78%"],
+        "gradingGuidance": "Student must: (1) Find absolute error = 0.05 m, (2) Divide by ACTUAL value (1.80, not 1.85), (3) Convert to percentage. Common error: dividing by measured value instead of actual. Accept 2.78% or 2.8% (rounded). Award partial credit for correct formula with wrong denominator.",
+        "sampleSolutions": [
+          "Error = 1.85 - 1.80 = 0.05\n% error = (0.05/1.80) × 100 = 2.78%",
+          "Absolute error = |1.85 - 1.80| = 0.05 m\nPercentage error = 0.05 ÷ 1.80 × 100% = 2.78%"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "percentage-error",
+        "year": 8,
+        "keyConcepts": ["percentage error", "absolute error", "measurement accuracy"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 1,
+        "conceptsUsed": ["c10"],
+        "buildsOn": ["pct-app-y8-091", "pct-app-y8-095"],
+        "preparesFor": ["pct-app-y8-102", "pct-app-y8-103"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can analyse measurement accuracy!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set11",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-102",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A recipe calls for 250 g of flour. Maya measures out 238 g.\n\nCalculate the percentage error in Maya's measurement.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Find the absolute error\n$$\\text{Absolute error} = |238 - 250| = 12 \\text{ g}$$\n\n**Step 2:** Calculate percentage error\n$$\\text{Percentage error} = \\frac{12}{250} \\times 100\\%$$\n$$= 0.048 \\times 100\\%$$\n$$= 4.8\\%$$\n\n**Answer: 4.8%**\n\n**Check:** 4.8% of 250 = 12 g ✓",
+      "hints": [
+        {"level": 1, "content": "How many grams short is Maya's measurement?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "The error is 12 g. Express this as a percentage of the required amount.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "12 ÷ 250 × 100% = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "First find how much Maya's measurement differs from what's needed.",
+          "encouragement": "Cooking is full of practical maths!",
+          "questionPrompt": "What's the difference between 250 g and 238 g?"
+        },
+        {
+          "level": 2,
+          "content": "The error is 12 g. Now find what percentage 12 is of 250.",
+          "encouragement": "You're analysing accuracy like a quality controller!",
+          "questionPrompt": "What is 12 ÷ 250?"
+        },
+        {
+          "level": 3,
+          "content": "12 ÷ 250 = 0.048. Now multiply by 100 for the percentage.",
+          "encouragement": "One more step!",
+          "questionPrompt": "What is 0.048 × 100?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Required: 250 g, Measured: 238 g",
+        "expectedAnswers": ["4.8%", "4.8", "4.80%", "4.80", "24/5%", "4.8 percent"],
+        "gradingGuidance": "Student must: (1) Find absolute error = 12 g, (2) Divide by required amount (250 g), (3) Convert to percentage. Note: error is negative (undermeasure) but we report the absolute percentage. Award full credit for 4.8% with clear working.",
+        "sampleSolutions": [
+          "Error = 250 - 238 = 12 g\n% error = (12/250) × 100 = 4.8%",
+          "|238 - 250| = 12\n12 ÷ 250 = 0.048\n0.048 × 100% = 4.8%"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "percentage-error",
+        "year": 8,
+        "keyConcepts": ["percentage error", "measurement", "practical applications"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 2,
+        "conceptsUsed": ["c10"],
+        "buildsOn": ["pct-app-y8-101"],
+        "preparesFor": ["pct-app-y8-103"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can calculate practical measurement errors!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set11",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-103",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "An architect's drawing shows a room 8 cm wide. The scale is 1:50.\n\nThe actual room is measured and found to be 4.08 m wide.\n\nCalculate the percentage error between the planned width and actual width.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Find the planned actual width from the drawing\n$$\\text{Planned width} = 8 \\text{ cm} \\times 50 = 400 \\text{ cm} = 4.00 \\text{ m}$$\n\n**Step 2:** Find the absolute error\n$$\\text{Absolute error} = |4.08 - 4.00| = 0.08 \\text{ m}$$\n\n**Step 3:** Calculate percentage error\n$$\\text{Percentage error} = \\frac{0.08}{4.00} \\times 100\\%$$\n$$= 0.02 \\times 100\\%$$\n$$= 2\\%$$\n\n**Answer: 2%**\n\n**Check:** 2% of 4.00 m = 0.08 m ✓",
+      "hints": [
+        {"level": 1, "content": "First convert the drawing measurement to the planned real-world size.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Planned width = 8 × 50 = 400 cm = 4.00 m. Now compare to actual.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Error = 0.08 m. Percentage error = (0.08/4.00) × 100%", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "A 1:50 scale means the real size is 50 times the drawing size.",
+          "encouragement": "Architects use this type of calculation constantly!",
+          "questionPrompt": "What is 8 cm × 50 in metres?"
+        },
+        {
+          "level": 2,
+          "content": "The planned width is 4.00 m, but the actual room is 4.08 m. Find the difference.",
+          "encouragement": "You're checking construction accuracy!",
+          "questionPrompt": "What's the difference between 4.08 m and 4.00 m?"
+        },
+        {
+          "level": 3,
+          "content": "Error = 0.08 m. Express as a percentage of the planned value.",
+          "encouragement": "Almost there!",
+          "questionPrompt": "What is 0.08 ÷ 4.00 as a percentage?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Drawing: 8 cm at 1:50 scale, Actual: 4.08 m",
+        "expectedAnswers": ["2%", "2", "2.0%", "2.0", "2 percent", "2.00%"],
+        "gradingGuidance": "Three-step problem: (1) Convert drawing to planned size (8 × 50 = 400 cm = 4 m), (2) Find error (0.08 m), (3) Calculate percentage (2%). Common error: Using actual as denominator instead of planned, or scale conversion errors. Award partial credit for correct method with calculation errors.",
+        "sampleSolutions": [
+          "Planned = 8 cm × 50 = 400 cm = 4.00 m\nError = |4.08 - 4.00| = 0.08 m\n% error = (0.08/4.00) × 100% = 2%",
+          "8 × 50 = 400 cm = 4 m (planned)\nDifference = 4.08 - 4 = 0.08 m\nPercentage error = 0.08/4 × 100 = 2%"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentage-error",
+        "year": 8,
+        "keyConcepts": ["percentage error", "scale drawings", "unit conversion"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 3,
+        "conceptsUsed": ["c10", "c8"],
+        "buildsOn": ["pct-app-y8-101", "pct-app-y8-102"],
+        "preparesFor": ["pct-app-y8-104"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can work with scale drawings and accuracy!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set11",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-104",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A company's profit increased from $45,000 to $54,000 over one year.\n\nThe following year, profit decreased by 10%.\n\nCalculate the profit at the end of the second year.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Identify the starting profit for year 2\n$$\\text{Start of Year 2 profit} = \\$54,000$$\n\n**Step 2:** Calculate the 10% decrease\n$$\\text{Multiplier for 10% decrease} = 1 - 0.10 = 0.90$$\n$$\\text{End of Year 2 profit} = \\$54,000 \\times 0.90$$\n$$= \\$48,600$$\n\n**Answer: $48,600**\n\n**Check:** 10% of $54,000 = $5,400; $54,000 - $5,400 = $48,600 ✓",
+      "hints": [
+        {"level": 1, "content": "The 10% decrease applies to the Year 2 starting profit, not the original.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Year 2 starts at $54,000. A 10% decrease means multiplying by 0.90.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "$54,000 × 0.90 = ?", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The decrease happens in the SECOND year, so it applies to the Year 2 starting value.",
+          "encouragement": "Tracking changes over time is a real business skill!",
+          "questionPrompt": "What profit value does the 10% decrease apply to?"
+        },
+        {
+          "level": 2,
+          "content": "The 10% decrease applies to $54,000. Use the decimal multiplier method.",
+          "encouragement": "You're modelling business performance!",
+          "questionPrompt": "What multiplier represents a 10% decrease?"
+        },
+        {
+          "level": 3,
+          "content": "Multiplier = 0.90. Calculate $54,000 × 0.90.",
+          "encouragement": "One calculation to go!",
+          "questionPrompt": "What is 54,000 × 0.90?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Year 1: $45,000 → $54,000, Year 2: 10% decrease",
+        "expectedAnswers": ["$48,600", "48600", "$48600", "48,600", "$48,600.00", "48600.00"],
+        "gradingGuidance": "Key insight: the 10% decrease applies to $54,000, not $45,000. Student should show recognition that Year 2 starts at $54,000 and apply 10% decrease. Common error: applying decrease to $45,000 or calculating overall change. Award full credit for correct answer with clear working.",
+        "sampleSolutions": [
+          "Year 2 starts at $54,000\n10% decrease: $54,000 × 0.90 = $48,600",
+          "Starting profit for year 2 = $54,000\nDecrease = 10% of $54,000 = $5,400\nFinal profit = $54,000 - $5,400 = $48,600"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "successive-percentage-changes",
+        "year": 8,
+        "keyConcepts": ["sequential changes", "financial modelling", "decimal multiplier"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 4,
+        "conceptsUsed": ["c7", "c8"],
+        "buildsOn": ["pct-app-y8-071", "pct-app-y8-072"],
+        "preparesFor": ["pct-app-y8-105"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can track business performance over time!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set11",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-105",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A population of 80,000 grows by 5% in the first year, then decreases by 5% in the second year.\n\nCalculate the population at the end of the second year.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Calculate after 5% increase\n$$\\text{After Year 1} = 80,000 \\times 1.05 = 84,000$$\n\n**Step 2:** Calculate after 5% decrease\n$$\\text{After Year 2} = 84,000 \\times 0.95 = 79,800$$\n\n**Alternative combined method:**\n$$\\text{Final} = 80,000 \\times 1.05 \\times 0.95$$\n$$= 80,000 \\times 0.9975 = 79,800$$\n\n**Answer: 79,800**\n\n**Key insight:** A 5% increase followed by a 5% decrease does NOT return to the original value!",
+      "hints": [
+        {"level": 1, "content": "Apply each percentage change in sequence, or combine the multipliers.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "After Year 1: 80,000 × 1.05. The decrease then applies to this new value.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "84,000 × 0.95 = ? (or use 80,000 × 1.05 × 0.95)", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is a successive percentage problem. The 5% decrease applies to the increased amount.",
+          "encouragement": "This concept surprises many people!",
+          "questionPrompt": "What's the population after the 5% increase?"
+        },
+        {
+          "level": 2,
+          "content": "After Year 1: 80,000 × 1.05 = 84,000. Now apply the 5% decrease.",
+          "encouragement": "You're uncovering an important mathematical truth!",
+          "questionPrompt": "What is 84,000 × 0.95?"
+        },
+        {
+          "level": 3,
+          "content": "84,000 × 0.95 = 79,800. Notice this is LESS than the original!",
+          "encouragement": "You've discovered why symmetric changes don't cancel!",
+          "questionPrompt": "Why isn't the answer 80,000?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "80,000 → +5% → -5% → ?",
+        "expectedAnswers": ["79,800", "79800", "79,800 people", "79800 people"],
+        "gradingGuidance": "Students must recognize that symmetric percentage changes don't cancel. Either sequential calculation (80,000 × 1.05 = 84,000, then 84,000 × 0.95) or combined multiplier (80,000 × 1.05 × 0.95) is acceptable. Common error: thinking the answer is 80,000. Award full credit for showing understanding that 5% of 84,000 differs from 5% of 80,000.",
+        "sampleSolutions": [
+          "Year 1: 80,000 × 1.05 = 84,000\nYear 2: 84,000 × 0.95 = 79,800",
+          "Combined: 80,000 × 1.05 × 0.95 = 80,000 × 0.9975 = 79,800"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "successive-percentage-changes",
+        "year": 8,
+        "keyConcepts": ["successive changes", "percentage misconception", "non-commutative"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 5,
+        "conceptsUsed": ["c7", "m2"],
+        "buildsOn": ["pct-app-y8-071", "pct-app-y8-072", "pct-app-y8-104"],
+        "preparesFor": ["pct-app-y8-106"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I understand why symmetric changes don't cancel!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set11",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-106",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Liam invests $2,000 in a term deposit that earns 4.5% simple interest per year.\n\nAfter how many years will Liam have earned $270 in interest?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Write the simple interest formula\n$$I = P \\times R \\times T$$\nwhere I = interest, P = principal, R = rate, T = time\n\n**Step 2:** Substitute known values\n$$270 = 2000 \\times 0.045 \\times T$$\n$$270 = 90 \\times T$$\n\n**Step 3:** Solve for T\n$$T = \\frac{270}{90} = 3$$\n\n**Answer: 3 years**\n\n**Check:** $2,000 × 4.5% × 3 = $2,000 × 0.045 × 3 = $270 ✓",
+      "hints": [
+        {"level": 1, "content": "Use the simple interest formula: I = PRT", "revealsCriticalInfo": false},
+        {"level": 2, "content": "You know I = 270, P = 2000, R = 0.045. Solve for T.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "270 = 2000 × 0.045 × T, so 270 = 90T. Solve for T.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The simple interest formula connects principal, rate, time, and interest.",
+          "encouragement": "You're working with real investment calculations!",
+          "questionPrompt": "Can you write down I = PRT with the values you know?"
+        },
+        {
+          "level": 2,
+          "content": "Interest = $270, Principal = $2,000, Rate = 4.5% = 0.045. Time = ?",
+          "encouragement": "You've set up the equation!",
+          "questionPrompt": "If 270 = 2000 × 0.045 × T, what is 2000 × 0.045?"
+        },
+        {
+          "level": 3,
+          "content": "2000 × 0.045 = 90. So 270 = 90T.",
+          "encouragement": "One division to solve it!",
+          "questionPrompt": "What is 270 ÷ 90?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "P = $2,000, R = 4.5%, I = $270, T = ?",
+        "expectedAnswers": ["3", "3 years", "3 yrs", "T = 3", "T = 3 years"],
+        "gradingGuidance": "Student must rearrange I = PRT to solve for T. Key steps: (1) Write formula, (2) Substitute values (270 = 2000 × 0.045 × T), (3) Simplify (270 = 90T), (4) Solve (T = 3). Common errors: percentage not converted to decimal, or incorrect rearrangement.",
+        "sampleSolutions": [
+          "I = PRT\n270 = 2000 × 0.045 × T\n270 = 90T\nT = 270/90 = 3 years",
+          "Interest per year = $2,000 × 4.5% = $90\nYears needed = $270 ÷ $90 = 3 years"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "simple-interest",
+        "year": 8,
+        "keyConcepts": ["simple interest", "formula rearrangement", "solving for time"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 6,
+        "conceptsUsed": ["c8", "c9"],
+        "buildsOn": ["pct-app-y8-091", "pct-app-y8-092", "pct-app-y8-093"],
+        "preparesFor": ["pct-app-y8-107"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can solve for any variable in the interest formula!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set11",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-107",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A shop buys a bicycle for $320 and sells it for $440.\n\na) Calculate the profit as a percentage of the cost price.\n\nb) Calculate the profit as a percentage of the selling price (profit margin).\n\nShow your working for both parts.",
+      "solution": "**Solution:**\n\n**Part a) Percentage profit (markup)**\n$$\\text{Profit} = \\$440 - \\$320 = \\$120$$\n$$\\text{% of cost} = \\frac{120}{320} \\times 100\\% = 37.5\\%$$\n\n**Part b) Profit margin**\n$$\\text{% of selling price} = \\frac{120}{440} \\times 100\\%$$\n$$= 0.2727... \\times 100\\% \\approx 27.3\\%$$\n\n**Answers:**\n- a) 37.5% markup\n- b) 27.3% profit margin",
+      "hints": [
+        {"level": 1, "content": "First find the profit amount. Then calculate it as a percentage of different bases.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Profit = $120. Part (a) divides by cost ($320), part (b) divides by selling price ($440).", "revealsCriticalInfo": false},
+        {"level": 3, "content": "a) 120/320 × 100%. b) 120/440 × 100%", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Both parts use the same profit, but express it relative to different amounts.",
+          "encouragement": "Retailers use both metrics for different purposes!",
+          "questionPrompt": "What's the profit in dollars?"
+        },
+        {
+          "level": 2,
+          "content": "Profit = $120. For (a), what percentage is $120 of $320? For (b), of $440?",
+          "encouragement": "You're learning real business analysis!",
+          "questionPrompt": "Can you calculate both percentages?"
+        },
+        {
+          "level": 3,
+          "content": "(a) 120 ÷ 320 = 0.375 = 37.5%. (b) 120 ÷ 440 = 0.273 = 27.3%.",
+          "encouragement": "Notice how the same profit gives different percentages!",
+          "questionPrompt": "Why are these percentages different?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Cost = $320, Selling Price = $440",
+        "expectedAnswers": ["37.5%, 27.3%", "a) 37.5% b) 27.3%", "37.5% and 27.3%", "(a) 37.5% (b) 27.27%", "37.5, 27.3"],
+        "gradingGuidance": "Two-part question. (a) Markup = profit/cost × 100 = 120/320 × 100 = 37.5%. (b) Margin = profit/selling price × 100 = 120/440 × 100 = 27.27% (accept 27.3%). Key concept: same profit, different percentages based on denominator. Award half marks for one correct part.",
+        "sampleSolutions": [
+          "Profit = $440 - $320 = $120\n(a) 120/320 × 100% = 37.5%\n(b) 120/440 × 100% = 27.3%",
+          "(a) Markup on cost = (440-320)/320 = 120/320 = 37.5%\n(b) Profit margin = (440-320)/440 = 120/440 ≈ 27.3%"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentage-markup-margin",
+        "year": 8,
+        "keyConcepts": ["markup", "profit margin", "percentage base selection"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 7,
+        "conceptsUsed": ["c5", "c8"],
+        "buildsOn": ["pct-app-y8-083", "pct-app-y8-084"],
+        "preparesFor": ["pct-app-y8-108"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I understand markup vs margin!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set11",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-108",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A shop wants a profit margin of 25% on all items.\n\nIf an item costs the shop $60 to buy, what selling price should they set?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Understanding profit margin:**\nProfit margin = 25% means profit is 25% of selling price.\nSo: Profit = 0.25 × Selling Price\n\n**Step 1:** Express the relationship\n$$\\text{Selling Price} = \\text{Cost} + \\text{Profit}$$\n$$\\text{Selling Price} = 60 + 0.25 \\times \\text{Selling Price}$$\n\n**Step 2:** Let S = Selling Price\n$$S = 60 + 0.25S$$\n$$S - 0.25S = 60$$\n$$0.75S = 60$$\n$$S = \\frac{60}{0.75} = 80$$\n\n**Answer: $80**\n\n**Check:** Profit = $80 - $60 = $20. Margin = 20/80 = 25% ✓",
+      "hints": [
+        {"level": 1, "content": "Profit margin means profit as a percentage of SELLING price, not cost.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "If margin is 25%, then cost is 75% of selling price.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Cost = 75% of Selling Price. So $60 = 0.75 × S", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Profit margin = profit/selling price. If margin is 25%, what's left is the cost portion.",
+          "encouragement": "This is how retailers actually set prices!",
+          "questionPrompt": "If profit is 25% of selling price, what percentage is the cost?"
+        },
+        {
+          "level": 2,
+          "content": "Cost represents 100% - 25% = 75% of the selling price.",
+          "encouragement": "You've found the key relationship!",
+          "questionPrompt": "If $60 is 75% of the selling price, how do you find 100%?"
+        },
+        {
+          "level": 3,
+          "content": "$60 = 0.75 × Selling Price. Divide both sides by 0.75.",
+          "encouragement": "One calculation to go!",
+          "questionPrompt": "What is 60 ÷ 0.75?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Cost = $60, Required margin = 25%",
+        "expectedAnswers": ["$80", "80", "$80.00", "80.00"],
+        "gradingGuidance": "Key insight: 25% margin means cost = 75% of selling price. Student can either: (1) Set up equation S = 60 + 0.25S and solve, or (2) Recognize 60 = 0.75S and divide. Common error: calculating 60 × 1.25 = 75 (this gives markup, not margin). Full credit for correct answer with understanding shown.",
+        "sampleSolutions": [
+          "If margin = 25%, cost = 75% of SP\n60 = 0.75 × SP\nSP = 60 ÷ 0.75 = $80",
+          "Let S = selling price\nS = 60 + 0.25S\n0.75S = 60\nS = 80"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "percentage-margin",
+        "year": 8,
+        "keyConcepts": ["profit margin", "reverse calculation", "percentage equations"]
+      },
+      "difficulty": 4,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 8,
+        "conceptsUsed": ["c5", "c8", "c9"],
+        "buildsOn": ["pct-app-y8-107"],
+        "preparesFor": ["pct-app-y8-109"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can set prices to achieve target margins!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set11",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-109",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "In a school of 1,200 students:\n- 40% play a sport\n- Of those who play a sport, 35% play basketball\n\nHow many students play basketball?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method 1: Step by step**\n\n**Step 1:** Find students who play a sport\n$$1200 \\times 0.40 = 480 \\text{ students}$$\n\n**Step 2:** Find basketball players (35% of those)\n$$480 \\times 0.35 = 168 \\text{ students}$$\n\n**Method 2: Combined calculation**\n$$1200 \\times 0.40 \\times 0.35 = 1200 \\times 0.14 = 168$$\n\n**Answer: 168 students**",
+      "hints": [
+        {"level": 1, "content": "The 35% applies to sports players, not all students.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "First find 40% of 1,200, then find 35% of that result.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Sports players = 480. Basketball = 480 × 0.35", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is a percentage of a percentage. Work step by step.",
+          "encouragement": "You're analyzing data like a statistician!",
+          "questionPrompt": "How many students play a sport?"
+        },
+        {
+          "level": 2,
+          "content": "40% of 1,200 = 480 sports players. Now apply the 35%.",
+          "encouragement": "Great! You've found the intermediate value.",
+          "questionPrompt": "What is 35% of 480?"
+        },
+        {
+          "level": 3,
+          "content": "480 × 0.35 = 168",
+          "encouragement": "You've navigated nested percentages!",
+          "questionPrompt": "Does 168 basketball players out of 1,200 students seem reasonable?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "1,200 students, 40% sport, 35% of sport = basketball",
+        "expectedAnswers": ["168", "168 students", "168 people"],
+        "gradingGuidance": "Two-step percentage calculation. Student must: (1) Find 40% of 1,200 = 480, (2) Find 35% of 480 = 168. Common error: finding 35% of 1,200 directly. Either sequential or combined method acceptable. Full credit for showing understanding that 35% applies to the sports players, not all students.",
+        "sampleSolutions": [
+          "Sports players = 1200 × 0.40 = 480\nBasketball = 480 × 0.35 = 168 students",
+          "1200 × 40% × 35% = 1200 × 0.14 = 168 students"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "compound-percentages",
+        "year": 8,
+        "keyConcepts": ["percentage of a percentage", "nested calculations", "data analysis"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 9,
+        "conceptsUsed": ["c1", "c7"],
+        "buildsOn": ["pct-app-y8-071", "pct-app-y8-072"],
+        "preparesFor": ["pct-app-y8-110"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can work with percentages of percentages!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set11",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-110",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Amara's weekly pay increased by 8% to $594.\n\nShe saves 15% of her new pay each week.\n\nHow much does Amara save per week?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Note that we don't need to find the old pay\nNew pay = $594 (given)\n\n**Step 2:** Calculate 15% of new pay\n$$\\text{Savings} = \\$594 \\times 0.15$$\n$$= \\$89.10$$\n\n**Answer: $89.10 per week**\n\n**Check:** $89.10 ÷ $594 = 0.15 = 15% ✓\n\n*Note: The 8% increase information is a distractor. The savings are calculated on the current pay.*",
+      "hints": [
+        {"level": 1, "content": "What information do you actually need? Read the question carefully.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "The savings are based on her NEW pay, which is $594.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Savings = 15% of $594 = $594 × 0.15", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Not all given information is needed. What does she save from?",
+          "encouragement": "Identifying relevant data is a key skill!",
+          "questionPrompt": "Does Amara save from her old pay or her new pay?"
+        },
+        {
+          "level": 2,
+          "content": "She saves 15% of her NEW pay ($594). The 8% increase is extra information.",
+          "encouragement": "You've identified what matters!",
+          "questionPrompt": "What is 15% of $594?"
+        },
+        {
+          "level": 3,
+          "content": "$594 × 0.15 = ?",
+          "encouragement": "One calculation!",
+          "questionPrompt": "Can you calculate 594 × 0.15?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "New pay = $594, Saves 15%",
+        "expectedAnswers": ["$89.10", "89.10", "$89.1", "89.1", "89.10 dollars"],
+        "gradingGuidance": "This question tests ability to identify relevant information. The 8% increase is a distractor. Student only needs to calculate 15% of $594 = $89.10. Common error: trying to find old pay or incorporating the 8% unnecessarily. Award full credit for recognizing the direct calculation.",
+        "sampleSolutions": [
+          "New pay = $594\nSavings = 15% of $594 = $594 × 0.15 = $89.10",
+          "She saves 15% of her current pay\n0.15 × 594 = $89.10 per week"
+        ],
+        "minimumWorkLines": 1,
+        "topic": "percentage-word-problems",
+        "year": 8,
+        "keyConcepts": ["identifying relevant information", "percentage calculation", "problem interpretation"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 4,
+        "phasePosition": 10,
+        "conceptsUsed": ["c1", "c8"],
+        "buildsOn": ["pct-app-y8-109"],
+        "preparesFor": ["pct-app-y8-111"]
+      },
+      "pedagogy": {
+        "type": "scaffolded",
+        "targetFeeling": "I can identify relevant information in word problems!"
+      },
+      "richContent": {
+        "hasEquations": true,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set11",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

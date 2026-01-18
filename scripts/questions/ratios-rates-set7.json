@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set7",
+    "setNumber": 7,
+    "questionRange": "Q61-70",
+    "phase": "connection",
+    "difficulty": "3",
+    "focus": "Combining ratio and rate concepts, multiple methods"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-061",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A store sells two paint can sizes:\n- Small: 2.5 L for $45\n- Large: 4 L for $68\n\nMarcos needs exactly 10 L of paint. What is the cheapest way to buy it and how much does it cost?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Option 1: All small cans**\n10 ÷ 2.5 = 4 cans × $45 = $180\n\n**Option 2: All large cans**\n10 ÷ 4 = 2.5 cans (need 3) = 3 × $68 = $204\n\n**Option 3: Mix (2 large + 1 small)**\n2 × 4L + 2.5L = 10.5L (slightly over but exact coverage)\n2 × $68 + $45 = $181\n\n**Option 4: 4 small cans = exactly 10L = $180**\n\n**Answer: 4 small cans for $180**",
+      "hints": [
+        {"level": 1, "content": "Try different combinations to get 10L or just over.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "4 small = $180. What about using large cans?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4 small cans ($180) is cheapest for exactly 10L", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Consider all possible combinations.",
+          "encouragement": "Real-world optimisation!",
+          "questionPrompt": "How many of each size gives 10L?"
+        },
+        {
+          "level": 2,
+          "content": "Small: 4 cans = 10L = $180. Large: need 3 cans = 12L = $204.",
+          "encouragement": "Compare total costs!",
+          "questionPrompt": "Are there any mix options?"
+        },
+        {
+          "level": 3,
+          "content": "4 small cans at $180 is cheapest for exactly 10L",
+          "encouragement": "Sometimes simple is best!",
+          "questionPrompt": "What if he needed 12L?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Small: 2.5L/$45, Large: 4L/$68, Need: 10L",
+        "expectedAnswers": ["4 small cans for $180", "$180 with 4 small cans", "4 small, $180"],
+        "gradingGuidance": "Must compare at least 2 options. Best: 4 small = $180. Award partial credit for correct reasoning but wrong conclusion.",
+        "sampleSolutions": ["4 small = 10L = $180\n3 large = 12L = $204\n4 small is cheapest"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["best buy", "optimisation", "comparison"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 1, "conceptsUsed": ["c7", "c8"], "buildsOn": ["ratio-rate-y8-031"], "preparesFor": ["ratio-rate-y8-062"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can optimise purchases!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set7", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-062",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Two trains leave the same station at 9:00 AM travelling in opposite directions. Train A travels at 95 km/h and Train B at 85 km/h.\n\nAt what time will they be 540 km apart?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Combined separation rate:**\n95 + 85 = 180 km/h (moving apart)\n\n**Time to be 540 km apart:**\n540 ÷ 180 = 3 hours\n\n**Time:** 9:00 AM + 3 hours = 12:00 PM (noon)\n\n**Answer: 12:00 PM (noon)**",
+      "hints": [
+        {"level": 1, "content": "Opposite directions means add the speeds for separation rate.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "95 + 85 = 180 km/h apart", "revealsCriticalInfo": false},
+        {"level": 3, "content": "540 ÷ 180 = 3 hours. 9AM + 3h = 12 noon", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "When travelling apart, distances add up.",
+          "encouragement": "Add the speeds!",
+          "questionPrompt": "What is 95 + 85?"
+        },
+        {
+          "level": 2,
+          "content": "180 km/h separation rate.",
+          "encouragement": "Now find time to reach 540 km apart!",
+          "questionPrompt": "What is 540 ÷ 180?"
+        },
+        {
+          "level": 3,
+          "content": "3 hours from 9 AM = 12:00 noon",
+          "encouragement": "Relative motion mastered!",
+          "questionPrompt": "How far has each train travelled?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 95 km/h, B: 85 km/h, opposite directions, target: 540 km apart",
+        "expectedAnswers": ["12:00 PM", "12 noon", "noon", "12:00"],
+        "gradingGuidance": "Must add speeds (180 km/h) then find time (3h). Accept 12:00 or noon.",
+        "sampleSolutions": ["Combined rate = 180 km/h\nTime = 540/180 = 3h\n9AM + 3h = 12 noon"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["relative speed", "opposite directions", "time calculation"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 2, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-036"], "preparesFor": ["ratio-rate-y8-063"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I understand relative motion!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set7", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-063",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "The ratio of boys to girls in a class is 3:4.\n\nAfter 5 boys and 2 girls join, the ratio becomes 4:5.\n\nHow many students were originally in the class?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let original:** Boys = 3x, Girls = 4x\n\n**After joining:**\nBoys = 3x + 5, Girls = 4x + 2\nRatio = 4:5\n\n**(3x + 5)/(4x + 2) = 4/5**\n\n**Cross multiply:**\n5(3x + 5) = 4(4x + 2)\n15x + 25 = 16x + 8\n25 - 8 = 16x - 15x\n17 = x\n\n**Original students:**\n3(17) + 4(17) = 51 + 68 = 119 students\n\n**Answer: 119 students originally**",
+      "hints": [
+        {"level": 1, "content": "Let boys = 3x, girls = 4x. Set up equation for new ratio.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "(3x+5):(4x+2) = 4:5. Cross multiply.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 17, so original = 7 × 17 = 119", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Use algebra: let 1 part = x.",
+          "encouragement": "Set up the equation for after students join!",
+          "questionPrompt": "What's the expression for boys after 5 join?"
+        },
+        {
+          "level": 2,
+          "content": "(3x+5)/(4x+2) = 4/5. Now solve.",
+          "encouragement": "Cross multiply to clear fractions!",
+          "questionPrompt": "What is 5(3x+5) and 4(4x+2)?"
+        },
+        {
+          "level": 3,
+          "content": "x = 17. Original = 51 + 68 = 119 students",
+          "encouragement": "Algebra and ratios combined!",
+          "questionPrompt": "Check: is (51+5):(68+2) = 56:70 = 4:5? ✓"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Original 3:4, after +5 boys +2 girls becomes 4:5",
+        "expectedAnswers": ["119", "119 students"],
+        "gradingGuidance": "Must set up algebraic equation. x=17 gives 51 boys + 68 girls = 119 originally.",
+        "sampleSolutions": ["3x+5 : 4x+2 = 4:5\n5(3x+5) = 4(4x+2)\nx = 17\nOriginal = 119"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["changing ratios", "algebra", "simultaneous reasoning"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 3, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-056"], "preparesFor": ["ratio-rate-y8-064"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve changing ratio problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set7", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-064",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A builder can complete a wall in 6 days. An apprentice takes 10 days to build the same wall.\n\nIf they work together, how long will it take?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Work rates:**\nBuilder: 1/6 wall per day\nApprentice: 1/10 wall per day\n\n**Combined rate:**\n1/6 + 1/10 = 5/30 + 3/30 = 8/30 = 4/15 wall per day\n\n**Time together:**\n1 ÷ 4/15 = 15/4 = 3.75 days (3 days 18 hours)\n\n**Answer: 3.75 days (or 3¾ days)**",
+      "hints": [
+        {"level": 1, "content": "Express each rate as fraction of wall per day.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Builder: 1/6, Apprentice: 1/10. Add them.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Combined: 4/15 per day. Time: 15/4 = 3.75 days", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "If it takes 6 days, rate = 1/6 wall per day.",
+          "encouragement": "Work rate = 1/time",
+          "questionPrompt": "What's the apprentice's rate?"
+        },
+        {
+          "level": 2,
+          "content": "1/6 + 1/10. Find common denominator.",
+          "encouragement": "Add the fractions!",
+          "questionPrompt": "What is 1/6 + 1/10?"
+        },
+        {
+          "level": 3,
+          "content": "4/15 wall per day. Time = 15/4 days.",
+          "encouragement": "Classic combined work problem!",
+          "questionPrompt": "Is 3.75 days reasonable?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Builder: 6 days alone, Apprentice: 10 days alone",
+        "expectedAnswers": ["3.75 days", "3¾ days", "15/4 days", "3 days 18 hours"],
+        "gradingGuidance": "Must use fractional work rates: 1/6 + 1/10 = 4/15, time = 15/4 days.",
+        "sampleSolutions": ["Rates: 1/6 + 1/10 = 5/30 + 3/30 = 8/30 = 4/15\nTime = 1/(4/15) = 15/4 = 3.75 days"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["work rate", "combined rates", "fractions"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 4, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-060"], "preparesFor": ["ratio-rate-y8-065"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve work rate problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set7", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-065",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Purple paint is made by mixing red and blue in the ratio 2:3.\n\nLavender is made by mixing purple and white in the ratio 1:2.\n\nTo make 90 mL of lavender, how much of each colour (red, blue, white) is needed?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Lavender composition:**\nPurple:White = 1:2, Total = 3 parts\nPurple = 90/3 = 30 mL\nWhite = 60 mL\n\n**Purple composition:**\nRed:Blue = 2:3, Total = 5 parts in 30 mL\nRed = 2/5 × 30 = 12 mL\nBlue = 3/5 × 30 = 18 mL\n\n**Answer: Red: 12 mL, Blue: 18 mL, White: 60 mL**\n\n**Check:** 12 + 18 + 60 = 90 mL ✓",
+      "hints": [
+        {"level": 1, "content": "Work backwards: first find purple and white amounts.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Purple = 30 mL, White = 60 mL. Now break down purple.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Red: 12 mL, Blue: 18 mL, White: 60 mL", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Start with lavender = purple + white.",
+          "encouragement": "Work in stages!",
+          "questionPrompt": "How much purple in 90 mL lavender?"
+        },
+        {
+          "level": 2,
+          "content": "30 mL purple, 60 mL white. Now split the purple.",
+          "encouragement": "Apply the red:blue ratio!",
+          "questionPrompt": "What's 2/5 and 3/5 of 30?"
+        },
+        {
+          "level": 3,
+          "content": "Red: 12 mL, Blue: 18 mL, White: 60 mL",
+          "encouragement": "Nested ratios solved!",
+          "questionPrompt": "What's the final red:blue:white ratio?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Purple = Red:Blue 2:3, Lavender = Purple:White 1:2, Make 90mL",
+        "expectedAnswers": ["12 mL red, 18 mL blue, 60 mL white", "Red:12, Blue:18, White:60"],
+        "gradingGuidance": "Must work in two stages. Purple=30mL, then split 2:3. All three amounts required.",
+        "sampleSolutions": ["Lavender: 1+2=3 parts in 90mL\nPurple=30mL, White=60mL\nPurple breakdown: Red=12mL, Blue=18mL"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["nested ratios", "multi-step", "ratio of ratio"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 5, "conceptsUsed": ["c3", "c4"], "buildsOn": ["ratio-rate-y8-050"], "preparesFor": ["ratio-rate-y8-066"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can handle nested ratios!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set7", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-066",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A car uses fuel at 8 L/100km in the city and 6 L/100km on the highway.\n\nSophie drives 50 km in the city and 150 km on the highway.\n\nHow much fuel does she use in total?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**City fuel:**\n50 km × 8/100 = 4 L\n\n**Highway fuel:**\n150 km × 6/100 = 9 L\n\n**Total fuel:** 4 + 9 = 13 L\n\n**Answer: 13 litres**",
+      "hints": [
+        {"level": 1, "content": "Calculate fuel for each section separately.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "City: 50 × 0.08 = 4 L. Highway: 150 × 0.06 = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4 + 9 = 13 litres total", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "L/100km means multiply km by rate/100.",
+          "encouragement": "Handle each section!",
+          "questionPrompt": "How many litres for 50 km city driving?"
+        },
+        {
+          "level": 2,
+          "content": "City: 4 L. Highway: 150 × 0.06 = 9 L.",
+          "encouragement": "Now add them!",
+          "questionPrompt": "What is 4 + 9?"
+        },
+        {
+          "level": 3,
+          "content": "13 litres total fuel used",
+          "encouragement": "Real fuel economy calculations!",
+          "questionPrompt": "What's the overall L/100km for this trip?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "City: 8L/100km for 50km, Highway: 6L/100km for 150km",
+        "expectedAnswers": ["13 L", "13 litres", "13"],
+        "gradingGuidance": "City: 4L, Highway: 9L, Total: 13L. Accept any correct method.",
+        "sampleSolutions": ["City: 50 × 8/100 = 4 L\nHighway: 150 × 6/100 = 9 L\nTotal = 13 L"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["fuel consumption", "different rates", "practical application"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 6, "conceptsUsed": ["c7", "c8"], "buildsOn": ["ratio-rate-y8-033"], "preparesFor": ["ratio-rate-y8-067"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can calculate with different rates!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set7", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-067",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "The scale on a map is 1:25,000.\n\na) If a lake is 3.2 cm wide on the map, how wide is it in real life (in metres)?\nb) If a walking track is 4.5 km long, how long is it on the map (in cm)?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**a) Map to real:**\n3.2 cm × 25,000 = 80,000 cm = 800 m\n\n**b) Real to map:**\n4.5 km = 450,000 cm\n450,000 ÷ 25,000 = 18 cm\n\n**Answers: a) 800 m, b) 18 cm**",
+      "hints": [
+        {"level": 1, "content": "a) Multiply by scale. b) Divide by scale.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "a) 3.2 × 25000 = 80000 cm = 800 m", "revealsCriticalInfo": false},
+        {"level": 3, "content": "b) 4.5 km = 450000 cm, ÷ 25000 = 18 cm", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Map to real: multiply. Real to map: divide.",
+          "encouragement": "Both directions of scale conversion!",
+          "questionPrompt": "What is 3.2 × 25000?"
+        },
+        {
+          "level": 2,
+          "content": "80000 cm = 800 m. Now convert 4.5 km to cm.",
+          "encouragement": "Keep units consistent!",
+          "questionPrompt": "How many cm in 4.5 km?"
+        },
+        {
+          "level": 3,
+          "content": "450000 ÷ 25000 = 18 cm on the map",
+          "encouragement": "Scale conversions both ways!",
+          "questionPrompt": "What's the shortcut for 1:25000?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Scale 1:25000, a) 3.2cm on map, b) 4.5km in real",
+        "expectedAnswers": ["a) 800 m b) 18 cm", "800m, 18cm", "a) 800 metres b) 18 centimetres"],
+        "gradingGuidance": "Both directions required. a) 800m b) 18cm. Unit conversion must be correct.",
+        "sampleSolutions": ["a) 3.2 × 25000 = 80000cm = 800m\nb) 4.5km = 450000cm, ÷25000 = 18cm"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["map scale", "two-way conversion", "unit conversion"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 7, "conceptsUsed": ["c3", "c5"], "buildsOn": ["ratio-rate-y8-046"], "preparesFor": ["ratio-rate-y8-068"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can convert scales both ways!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set7", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-068",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A motorcycle travels at 75 km/h. A car starts from the same place 30 minutes later and travels at 90 km/h in the same direction.\n\nHow long after the car starts will it catch up to the motorcycle?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Motorcycle's head start:**\n30 min = 0.5 hours\nHead start distance = 75 × 0.5 = 37.5 km\n\n**Closing speed:**\n90 - 75 = 15 km/h (car gains 15 km per hour)\n\n**Time to catch up:**\n37.5 ÷ 15 = 2.5 hours\n\n**Answer: 2.5 hours (2 hours 30 minutes)**",
+      "hints": [
+        {"level": 1, "content": "Find motorcycle's head start distance, then closing speed.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Head start = 37.5 km. Closing speed = 15 km/h.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "37.5 ÷ 15 = 2.5 hours", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "How far ahead is the motorcycle when the car starts?",
+          "encouragement": "Calculate the head start distance!",
+          "questionPrompt": "What is 75 × 0.5?"
+        },
+        {
+          "level": 2,
+          "content": "37.5 km ahead. The car is faster - how much per hour?",
+          "encouragement": "Find the closing speed!",
+          "questionPrompt": "What is 90 - 75?"
+        },
+        {
+          "level": 3,
+          "content": "Gains 15 km/h. Time = 37.5/15 = 2.5 hours",
+          "encouragement": "Catch-up problems solved!",
+          "questionPrompt": "How far will the car have travelled?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Motorcycle: 75km/h, 30min head start. Car: 90km/h",
+        "expectedAnswers": ["2.5 hours", "2 hours 30 min", "2h 30min", "2.5h"],
+        "gradingGuidance": "Must find head start (37.5km) and closing speed (15km/h). Time = 2.5h.",
+        "sampleSolutions": ["Head start = 75 × 0.5 = 37.5km\nClosing = 90-75 = 15km/h\nTime = 37.5/15 = 2.5h"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["relative speed", "catch-up problem", "same direction"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 8, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-062"], "preparesFor": ["ratio-rate-y8-069"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve catch-up problems!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set7", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-069",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Ali, Ben and Chris share prize money in the ratio 2:3:5.\n\nBen receives $45 more than Ali.\n\nHow much does Chris receive?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Difference between Ben and Ali:**\n3 - 2 = 1 part = $45\n\n**Chris's share (5 parts):**\n5 × $45 = $225\n\n**Answer: Chris receives $225**",
+      "hints": [
+        {"level": 1, "content": "Ben - Ali = 3 - 2 = 1 part = $45", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = $45. Chris has 5 parts.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "5 × $45 = $225", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The $45 difference tells you what 1 part equals.",
+          "encouragement": "Use the difference method!",
+          "questionPrompt": "What is 3 - 2?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = $45. Chris has how many parts?",
+          "encouragement": "Look at Chris's share in the ratio!",
+          "questionPrompt": "What is 5 × $45?"
+        },
+        {
+          "level": 3,
+          "content": "Chris receives $225",
+          "encouragement": "Quick solution using the difference!",
+          "questionPrompt": "What's the total prize money?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A:B:C = 2:3:5, B - A = $45",
+        "expectedAnswers": ["$225", "225 dollars", "225"],
+        "gradingGuidance": "Must identify 1 part = $45 from difference, then 5 × 45 = $225.",
+        "sampleSolutions": ["Ben - Ali = 1 part = $45\nChris = 5 parts = $225"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["three-part ratio", "difference method", "prize money"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 9, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-056"], "preparesFor": ["ratio-rate-y8-070"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can use ratio differences efficiently!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set7", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-070",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A tank is 3/8 full. After adding 45 litres, it becomes 5/8 full.\n\na) What is the full capacity of the tank?\nb) How many litres were in the tank initially?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Fraction added:**\n5/8 - 3/8 = 2/8 = 1/4 of tank = 45 litres\n\n**a) Full capacity:**\n1/4 = 45 L\nFull = 45 × 4 = 180 L\n\n**b) Initial amount:**\n3/8 of 180 = 3/8 × 180 = 67.5 L\n\n**Answers: a) 180 L capacity, b) 67.5 L initially**",
+      "hints": [
+        {"level": 1, "content": "The 45 L represents the change from 3/8 to 5/8.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2/8 = 1/4 of tank = 45 L. So full = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Full = 180 L. Initial = 3/8 × 180 = 67.5 L", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "What fraction of the tank did 45 L fill?",
+          "encouragement": "Find the difference in fractions!",
+          "questionPrompt": "What is 5/8 - 3/8?"
+        },
+        {
+          "level": 2,
+          "content": "2/8 = 1/4 = 45 L. Scale to full capacity.",
+          "encouragement": "If 1/4 = 45 L...",
+          "questionPrompt": "What is 45 × 4?"
+        },
+        {
+          "level": 3,
+          "content": "180 L capacity. Initial = 3/8 × 180 = 67.5 L",
+          "encouragement": "Fractions and ratios combined!",
+          "questionPrompt": "Check: 67.5 + 45 = 112.5 = 5/8 × 180 ✓"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "3/8 full → +45L → 5/8 full",
+        "expectedAnswers": ["a) 180 L b) 67.5 L", "180L, 67.5L", "capacity 180L, initial 67.5L"],
+        "gradingGuidance": "Must find 2/8=45L → full=180L → initial=67.5L. Both parts required.",
+        "sampleSolutions": ["5/8 - 3/8 = 2/8 = 45L\n1/4 = 45L → Full = 180L\nInitial = 3/8 × 180 = 67.5L"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["fractions", "ratio reasoning", "capacity problem"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 10, "conceptsUsed": ["c5", "c4"], "buildsOn": ["ratio-rate-y8-044"], "preparesFor": ["ratio-rate-y8-071"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can combine fractions with ratio reasoning!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set7", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

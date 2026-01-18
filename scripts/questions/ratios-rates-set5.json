@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set5",
+    "setNumber": 5,
+    "questionRange": "Q41-50",
+    "phase": "application",
+    "difficulty": "2-3",
+    "focus": "Work rates, proportional reasoning, combined rates"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-041",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A factory worker can pack 45 boxes in 3 hours.\n\na) How many boxes can they pack per hour?\nb) How many boxes in a 7-hour shift?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**a) Boxes per hour:**\n45 boxes ÷ 3 hours = 15 boxes/hour\n\n**b) Boxes in 7 hours:**\n15 boxes/hour × 7 hours = 105 boxes\n\n**Answers: a) 15 boxes/hour, b) 105 boxes**",
+      "hints": [
+        {"level": 1, "content": "First find the rate per hour.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "45 ÷ 3 = 15 boxes per hour", "revealsCriticalInfo": false},
+        {"level": 3, "content": "15 × 7 = 105 boxes in 7 hours", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Find the unit rate first - how many per ONE hour.",
+          "encouragement": "Unit rates are the key to scaling!",
+          "questionPrompt": "What is 45 ÷ 3?"
+        },
+        {
+          "level": 2,
+          "content": "15 boxes per hour. Now scale to 7 hours.",
+          "encouragement": "Once you have the unit rate, you can find any amount!",
+          "questionPrompt": "What is 15 × 7?"
+        },
+        {
+          "level": 3,
+          "content": "15 × 7 = 105 boxes in a 7-hour shift.",
+          "encouragement": "Work rate problems solved!",
+          "questionPrompt": "How many hours to pack 200 boxes?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "45 boxes in 3 hours",
+        "expectedAnswers": ["15 boxes/hour, 105 boxes", "a) 15 b) 105", "15, 105"],
+        "gradingGuidance": "Part a) must show 45÷3=15. Part b) must show 15×7=105. Both parts required.",
+        "sampleSolutions": ["a) 45 ÷ 3 = 15 boxes/hour\nb) 15 × 7 = 105 boxes"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["work rate", "unit rate", "scaling"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 11, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-034"], "preparesFor": ["ratio-rate-y8-042"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can solve work rate problems!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set5", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-042",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A recipe uses flour and sugar in the ratio 5:2.\n\nIf you use 350g of flour, how much sugar do you need?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method:** Use the unitary method\n\n5 parts = 350g\n1 part = 350 ÷ 5 = 70g\n\nSugar = 2 parts = 2 × 70 = 140g\n\n**Answer: 140g of sugar**",
+      "hints": [
+        {"level": 1, "content": "Flour represents 5 parts. Find the value of 1 part.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = 350 ÷ 5 = 70g", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Sugar = 2 parts = 2 × 70g = 140g", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The flour amount tells you what 5 parts equals.",
+          "encouragement": "Find the value of one part first!",
+          "questionPrompt": "What is 350 ÷ 5?"
+        },
+        {
+          "level": 2,
+          "content": "Each part = 70g. Sugar needs 2 parts.",
+          "encouragement": "Now multiply by the number of parts for sugar!",
+          "questionPrompt": "What is 2 × 70?"
+        },
+        {
+          "level": 3,
+          "content": "Sugar = 2 × 70 = 140g",
+          "encouragement": "Perfect recipe scaling!",
+          "questionPrompt": "What's the total mixture weight?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Flour:Sugar = 5:2, Flour = 350g",
+        "expectedAnswers": ["140g", "140 grams", "140"],
+        "gradingGuidance": "Must show unitary method: 350÷5=70g per part, then 2×70=140g. Accept equivalent ratio method.",
+        "sampleSolutions": ["5 parts = 350g\n1 part = 70g\n2 parts = 140g sugar"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio", "unitary method", "recipe scaling"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 12, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-016"], "preparesFor": ["ratio-rate-y8-043"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can scale recipes using ratios!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set5", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-043",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Tom drove 156 km in 2 hours. Jane drove 260 km in 3.25 hours.\n\nWho drove faster and by how much?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Calculate speeds:**\nTom: 156 ÷ 2 = 78 km/h\nJane: 260 ÷ 3.25 = 80 km/h\n\n**Difference:** 80 - 78 = 2 km/h\n\n**Answer: Jane drove faster by 2 km/h**",
+      "hints": [
+        {"level": 1, "content": "Speed = distance ÷ time. Calculate each person's speed.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Tom: 156÷2 = 78 km/h. Jane: 260÷3.25 = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Jane = 80 km/h. She was faster by 2 km/h.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Find each person's speed in km/h.",
+          "encouragement": "Speed = distance ÷ time",
+          "questionPrompt": "What is Tom's speed?"
+        },
+        {
+          "level": 2,
+          "content": "Tom = 78 km/h. Now calculate Jane's.",
+          "encouragement": "260 ÷ 3.25 - you can do this!",
+          "questionPrompt": "What is 260 ÷ 3.25?"
+        },
+        {
+          "level": 3,
+          "content": "Jane = 80 km/h. 80 - 78 = 2 km/h faster.",
+          "encouragement": "Great speed comparison!",
+          "questionPrompt": "How far would each drive in 5 hours?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Tom: 156km/2h, Jane: 260km/3.25h",
+        "expectedAnswers": ["Jane by 2 km/h", "Jane, 2 km/h faster", "Jane 80 km/h vs Tom 78 km/h"],
+        "gradingGuidance": "Both speeds required. Tom=78km/h, Jane=80km/h. Must state who is faster and by how much.",
+        "sampleSolutions": ["Tom: 156÷2 = 78 km/h\nJane: 260÷3.25 = 80 km/h\nJane is 2 km/h faster"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["speed", "rate comparison", "division"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 13, "conceptsUsed": ["c7", "c9"], "buildsOn": ["ratio-rate-y8-027"], "preparesFor": ["ratio-rate-y8-044"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can compare speeds!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set5", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-044",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A tap fills a 60 L tank at 4 L per minute.\n\na) How long to fill the tank?\nb) If another tap (5 L/min) is also used, how long now?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**a) One tap:**\nTime = 60 ÷ 4 = 15 minutes\n\n**b) Both taps:**\nCombined rate = 4 + 5 = 9 L/min\nTime = 60 ÷ 9 = 6.67 minutes (6 min 40 sec)\n\n**Answers: a) 15 minutes, b) 6⅔ minutes (or 6 min 40 sec)**",
+      "hints": [
+        {"level": 1, "content": "Time = volume ÷ rate", "revealsCriticalInfo": false},
+        {"level": 2, "content": "a) 60 ÷ 4 = 15 min. b) Combined rate = 4 + 5 = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "b) 60 ÷ 9 = 6⅔ minutes", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Part a) is straightforward: time = tank size ÷ flow rate",
+          "encouragement": "One step at a time!",
+          "questionPrompt": "What is 60 ÷ 4?"
+        },
+        {
+          "level": 2,
+          "content": "15 minutes for one tap. Two taps work together = add rates.",
+          "encouragement": "Two taps fill faster!",
+          "questionPrompt": "What is the combined rate in L/min?"
+        },
+        {
+          "level": 3,
+          "content": "9 L/min combined. Time = 60 ÷ 9 = 6.67 min",
+          "encouragement": "Combined rates are powerful!",
+          "questionPrompt": "How much faster is that?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Tank = 60L, Tap1 = 4L/min, Tap2 = 5L/min",
+        "expectedAnswers": ["15 min and 6.67 min", "a) 15 b) 6⅔", "15, 6 min 40 sec"],
+        "gradingGuidance": "a) 60÷4=15min. b) Must add rates (4+5=9) then divide (60÷9=6.67min). Accept fractions or decimals.",
+        "sampleSolutions": ["a) 60 ÷ 4 = 15 min\nb) 4 + 5 = 9 L/min, 60 ÷ 9 = 6⅔ min"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["flow rate", "combined rates", "time calculation"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 14, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-039"], "preparesFor": ["ratio-rate-y8-045"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can combine rates!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set5", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-045",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Three friends share a bill in the ratio 2:3:5.\n\nIf Sarah (who pays the '3' part) pays $36, what is the total bill?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Find value of 1 part:**\n3 parts = $36\n1 part = $36 ÷ 3 = $12\n\n**Total parts:** 2 + 3 + 5 = 10 parts\n**Total bill:** 10 × $12 = $120\n\n**Answer: $120**",
+      "hints": [
+        {"level": 1, "content": "Sarah's $36 represents 3 parts. Find 1 part.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = $36 ÷ 3 = $12", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Total = 10 parts × $12 = $120", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Sarah's share tells you what 3 parts equals.",
+          "encouragement": "Find one part first!",
+          "questionPrompt": "What is $36 ÷ 3?"
+        },
+        {
+          "level": 2,
+          "content": "$12 per part. How many parts in total?",
+          "encouragement": "Add up all the parts: 2 + 3 + 5",
+          "questionPrompt": "What is 2 + 3 + 5?"
+        },
+        {
+          "level": 3,
+          "content": "10 parts × $12 = $120 total",
+          "encouragement": "You worked backwards from one share to the total!",
+          "questionPrompt": "How much does the person with 5 parts pay?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Ratio 2:3:5, '3' part = $36",
+        "expectedAnswers": ["$120", "120 dollars", "120"],
+        "gradingGuidance": "Must show: 3 parts=$36 → 1 part=$12 → 10 parts=$120. Accept other valid methods.",
+        "sampleSolutions": ["3 parts = $36\n1 part = $12\nTotal = 10 parts = $120"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["three-part ratio", "unitary method", "reverse problem"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 15, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-040"], "preparesFor": ["ratio-rate-y8-046"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can work backwards with ratios!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set5", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-046",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A map has a scale of 1:50,000.\n\nTwo towns are 8.5 cm apart on the map.\n\nWhat is the actual distance between them in kilometres?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Apply scale:**\nActual = 8.5 × 50,000 = 425,000 cm\n\n**Convert to km:**\n425,000 cm ÷ 100 = 4,250 m\n4,250 m ÷ 1,000 = 4.25 km\n\n**Answer: 4.25 km**",
+      "hints": [
+        {"level": 1, "content": "Scale 1:50,000 means 1 cm on map = 50,000 cm actual.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "8.5 × 50,000 = 425,000 cm. Now convert to km.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "425,000 cm = 4,250 m = 4.25 km", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Multiply map distance by scale factor.",
+          "encouragement": "1:50,000 means multiply by 50,000!",
+          "questionPrompt": "What is 8.5 × 50,000?"
+        },
+        {
+          "level": 2,
+          "content": "425,000 cm. Now convert to more useful units.",
+          "encouragement": "cm → m → km",
+          "questionPrompt": "How many metres in 425,000 cm?"
+        },
+        {
+          "level": 3,
+          "content": "4,250 m = 4.25 km",
+          "encouragement": "Map scales in action!",
+          "questionPrompt": "What's 20 cm on this map in real life?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Scale 1:50,000, Map distance = 8.5 cm",
+        "expectedAnswers": ["4.25 km", "4.25km", "4.25 kilometres", "4250m"],
+        "gradingGuidance": "Must multiply by 50,000 and convert units correctly. Accept metres or km.",
+        "sampleSolutions": ["8.5 × 50,000 = 425,000 cm\n= 4,250 m = 4.25 km"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["map scale", "unit conversion", "ratio application"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 16, "conceptsUsed": ["c3", "c5"], "buildsOn": ["ratio-rate-y8-028"], "preparesFor": ["ratio-rate-y8-047"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can use map scales!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set5", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-047",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A printer prints 28 pages in 2 minutes.\n\na) What is its printing rate in pages per minute?\nb) How long to print a 98-page document?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**a) Rate:**\n28 ÷ 2 = 14 pages/minute\n\n**b) Time for 98 pages:**\n98 ÷ 14 = 7 minutes\n\n**Answers: a) 14 pages/min, b) 7 minutes**",
+      "hints": [
+        {"level": 1, "content": "Rate = pages ÷ time", "revealsCriticalInfo": false},
+        {"level": 2, "content": "28 ÷ 2 = 14 pages/min", "revealsCriticalInfo": false},
+        {"level": 3, "content": "98 ÷ 14 = 7 minutes", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Find pages per minute first.",
+          "encouragement": "Divide to find the unit rate!",
+          "questionPrompt": "What is 28 ÷ 2?"
+        },
+        {
+          "level": 2,
+          "content": "14 pages/min. How many minutes for 98 pages?",
+          "encouragement": "Now divide the total by the rate!",
+          "questionPrompt": "What is 98 ÷ 14?"
+        },
+        {
+          "level": 3,
+          "content": "7 minutes to print 98 pages.",
+          "encouragement": "Rate problems mastered!",
+          "questionPrompt": "How many pages in 15 minutes?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "28 pages in 2 minutes, 98-page document",
+        "expectedAnswers": ["14 pages/min, 7 minutes", "a) 14 b) 7", "14, 7"],
+        "gradingGuidance": "a) 28÷2=14 pages/min. b) 98÷14=7 min. Both parts required.",
+        "sampleSolutions": ["a) 28 ÷ 2 = 14 pages/min\nb) 98 ÷ 14 = 7 minutes"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["rate", "unit rate", "time calculation"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 17, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-041"], "preparesFor": ["ratio-rate-y8-048"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can calculate with rates!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set5", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-048",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Concrete mix uses cement, sand, and gravel in the ratio 1:2:4.\n\nHow much of each is needed to make 35 kg of concrete?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Total parts:** 1 + 2 + 4 = 7 parts\n**Weight per part:** 35 ÷ 7 = 5 kg\n\nCement = 1 × 5 = 5 kg\nSand = 2 × 5 = 10 kg\nGravel = 4 × 5 = 20 kg\n\n**Answer: 5 kg cement, 10 kg sand, 20 kg gravel**\n\n**Check:** 5 + 10 + 20 = 35 kg ✓",
+      "hints": [
+        {"level": 1, "content": "Total parts = 1 + 2 + 4 = 7", "revealsCriticalInfo": false},
+        {"level": 2, "content": "35 kg ÷ 7 = 5 kg per part", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Cement: 5kg, Sand: 10kg, Gravel: 20kg", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Find total number of parts in the ratio.",
+          "encouragement": "Add all the parts together!",
+          "questionPrompt": "What is 1 + 2 + 4?"
+        },
+        {
+          "level": 2,
+          "content": "7 parts total. Each part = 35 ÷ 7 = 5 kg",
+          "encouragement": "Now multiply by each ratio number!",
+          "questionPrompt": "What is 1 × 5, 2 × 5, and 4 × 5?"
+        },
+        {
+          "level": 3,
+          "content": "5 kg, 10 kg, 20 kg - check they add to 35!",
+          "encouragement": "Three-part ratios handled!",
+          "questionPrompt": "How much cement for 70 kg of concrete?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Ratio 1:2:4, Total = 35 kg",
+        "expectedAnswers": ["5kg, 10kg, 20kg", "5, 10, 20", "cement 5kg sand 10kg gravel 20kg"],
+        "gradingGuidance": "Must show: 7 parts total, 5kg per part, then multiply. All three amounts required.",
+        "sampleSolutions": ["7 parts total\n35 ÷ 7 = 5 kg/part\nCement: 5kg, Sand: 10kg, Gravel: 20kg"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["three-part ratio", "dividing quantities", "practical application"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 18, "conceptsUsed": ["c4"], "buildsOn": ["ratio-rate-y8-040"], "preparesFor": ["ratio-rate-y8-049"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can divide into three parts!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set5", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-049",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A car travels at 90 km/h for 2 hours, then at 60 km/h for 1.5 hours.\n\nWhat is the average speed for the whole journey?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Calculate distances:**\nFirst part: 90 × 2 = 180 km\nSecond part: 60 × 1.5 = 90 km\nTotal distance: 180 + 90 = 270 km\n\n**Calculate total time:**\n2 + 1.5 = 3.5 hours\n\n**Average speed:**\n270 ÷ 3.5 = 77.14 km/h\n\n**Answer: 77.1 km/h (approximately)**",
+      "hints": [
+        {"level": 1, "content": "Average speed = total distance ÷ total time", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Distance: 180 + 90 = 270 km. Time: 3.5 hours", "revealsCriticalInfo": false},
+        {"level": 3, "content": "270 ÷ 3.5 = 77.14 km/h", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Average speed is NOT (90+60)/2. Find total distance and total time.",
+          "encouragement": "A common mistake to avoid!",
+          "questionPrompt": "What distance was covered in the first part? Second part?"
+        },
+        {
+          "level": 2,
+          "content": "180 km + 90 km = 270 km total. 2 + 1.5 = 3.5 hours total.",
+          "encouragement": "Now apply the average speed formula!",
+          "questionPrompt": "What is 270 ÷ 3.5?"
+        },
+        {
+          "level": 3,
+          "content": "270 ÷ 3.5 = 77.14 km/h average speed",
+          "encouragement": "You avoided the averaging speeds trap!",
+          "questionPrompt": "Why is this different from (90+60)/2 = 75?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "90 km/h for 2h, then 60 km/h for 1.5h",
+        "expectedAnswers": ["77.14 km/h", "77.1 km/h", "approximately 77 km/h", "77.14"],
+        "gradingGuidance": "MUST use total distance ÷ total time method. Common error: (90+60)/2=75 is WRONG. Correct: 270/3.5≈77.14km/h",
+        "sampleSolutions": ["D1 = 90×2 = 180km, D2 = 60×1.5 = 90km\nTotal = 270km in 3.5h\nAvg = 270/3.5 = 77.14 km/h"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["average speed", "total distance", "total time"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 19, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-036"], "preparesFor": ["ratio-rate-y8-050"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I understand average speed!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set5", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-050",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Blue and yellow paint are mixed in the ratio 3:2 to make green.\n\nMarcus has 450 mL of blue paint. What is the maximum amount of green paint he can make (assuming he has unlimited yellow)?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Blue represents 3 parts:**\n3 parts = 450 mL\n1 part = 450 ÷ 3 = 150 mL\n\n**Yellow needed (2 parts):**\n2 × 150 = 300 mL\n\n**Total green paint:**\n450 + 300 = 750 mL\n\n**Answer: 750 mL of green paint**",
+      "hints": [
+        {"level": 1, "content": "Blue is 3 parts. Find 1 part, then calculate total.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1 part = 150 mL. Total parts = 3 + 2 = 5", "revealsCriticalInfo": false},
+        {"level": 3, "content": "5 × 150 = 750 mL green", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The blue paint limits how much green you can make.",
+          "encouragement": "Find what 3 parts equals first!",
+          "questionPrompt": "If 3 parts = 450 mL, what is 1 part?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = 150 mL. Green = blue + yellow = 3 + 2 = 5 parts",
+          "encouragement": "Now find the total green!",
+          "questionPrompt": "What is 5 × 150?"
+        },
+        {
+          "level": 3,
+          "content": "750 mL of green paint maximum",
+          "encouragement": "You've solved a limiting factor problem!",
+          "questionPrompt": "What if he only had 400 mL of yellow?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Blue:Yellow = 3:2, Blue available = 450 mL",
+        "expectedAnswers": ["750 mL", "750mL", "750 millilitres", "750"],
+        "gradingGuidance": "Must show: 3 parts = 450mL → 1 part = 150mL → Total = 5 parts = 750mL. Accept 450+300=750.",
+        "sampleSolutions": ["3 parts = 450 mL\n1 part = 150 mL\nTotal = 5 parts = 750 mL green"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio", "limiting factor", "total from parts"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 20, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-042"], "preparesFor": ["ratio-rate-y8-051"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can work with ratio constraints!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set5", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

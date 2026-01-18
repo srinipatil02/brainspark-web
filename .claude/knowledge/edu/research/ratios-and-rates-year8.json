@@ -1,0 +1,543 @@
+{
+  "topic": "Ratios and Rates",
+  "topicId": "ratios-rates",
+  "outcomeCode": "ACMNA188",
+  "nswOutcomeCode": "MA4-RAT-C-01",
+  "year": 8,
+  "researchedAt": "2026-01-16",
+  "sources": [
+    "https://www.sciencedirect.com/science/article/abs/pii/S0732312319300550",
+    "https://files.eric.ed.gov/fulltext/EJ1187432.pdf",
+    "https://www.researchgate.net/publication/372152659_Mathematics_Teachers'_Knowledge_on_Misconceptions_and_Solution_Suggestions_Ratio-Proportion_Topic",
+    "https://www.tandfonline.com/doi/full/10.1080/19477503.2018.1548222",
+    "https://thirdspacelearning.com/gcse-maths/ratio-and-proportion/speed-distance-time-triangle/",
+    "https://mr-mathematics.com/average-speed-for-two-part-journeys/",
+    "https://accc.gov.au/consumers/groceries/grocery-unit-prices",
+    "https://www.mathsteacher.com.au/year8/ch06_ratios/06_scale/draw.htm",
+    "https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory-practice-guide.pdf"
+  ],
+
+  "targetAudience": {
+    "performancePercentile": "75th+",
+    "cognitiveLevel": "intermediate-to-advanced",
+    "assumedPriorKnowledge": [
+      "Fluent simplification of fractions to lowest terms",
+      "Confident multiplication and division of decimals",
+      "Understanding of equivalent fractions",
+      "Basic ratio notation (a:b)",
+      "Conversion between common units (km/m, hr/min, etc.)"
+    ],
+    "designPrinciples": [
+      "Positive skew in cognitive demand",
+      "Emphasis on multiplicative reasoning over additive",
+      "Multi-step problems requiring strategy selection",
+      "Transfer across contexts (ratios, rates, scales, speed)"
+    ]
+  },
+
+  "curriculumAlignment": {
+    "outcomeDescription": "Solve problems involving rates and ratios with and without digital technologies",
+    "strand": "Number and Algebra",
+    "stage": "Stage 4",
+    "prerequisiteOutcomes": ["ACMNA184"],
+    "progressionOutcomes": ["ACMNA188", "ACMNA208", "ACMNA210"],
+    "prerequisiteTopics": ["fractions-decimals-percentages"],
+    "progressionTopics": ["linear-relationships", "similar-figures", "trigonometric-ratios"],
+    "extensionLinks": ["direct-proportion", "inverse-proportion", "linear-functions"]
+  },
+
+  "keyConcepts": [
+    {
+      "id": "c1",
+      "name": "Ratio as multiplicative comparison",
+      "description": "Understanding ratio as comparing quantities multiplicatively, not additively. If a:b = 2:3, then a is 2/3 of b, not 'one less than b'.",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c2", "c3", "c4"],
+      "criticalForSuccess": true,
+      "advancedNote": "Strong students should recognise ratio as a function: a = (2/3)b"
+    },
+    {
+      "id": "c2",
+      "name": "Equivalent ratios and scaling",
+      "description": "Generating equivalent ratios by multiplying/dividing both parts by the same factor. Recognising the constant multiplicative relationship.",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c3", "c5", "c6"],
+      "criticalForSuccess": true,
+      "advancedNote": "Connect to linear proportionality: y = kx where k is the constant of proportionality"
+    },
+    {
+      "id": "c3",
+      "name": "Dividing quantities in given ratios",
+      "description": "Partitioning a total into parts with a given ratio. Understanding 'total parts' approach and algebraic method.",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c5", "c7"],
+      "criticalForSuccess": true,
+      "advancedNote": "Extend to three-part ratios and finding one part given another"
+    },
+    {
+      "id": "c4",
+      "name": "Rate as ratio of different units",
+      "description": "Understanding rate as comparison of quantities with different units. Recognising that rates create a multiplicative relationship between two variables.",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c5", "c6", "c7", "c8"],
+      "criticalForSuccess": true,
+      "advancedNote": "Rate as the gradient of a linear relationship through origin"
+    },
+    {
+      "id": "c5",
+      "name": "Unit rate and its applications",
+      "description": "Converting to 'per one' form for comparison. Understanding unit rate as the constant of proportionality. Applying to best buy problems.",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c6", "c7", "c8"],
+      "criticalForSuccess": true,
+      "advancedNote": "Unit rate enables direct comparison; $/kg, km/hr are unit rates"
+    },
+    {
+      "id": "c6",
+      "name": "Speed, distance, time relationships",
+      "description": "Flexible use of s = d/t in all three arrangements. Understanding speed as a rate. Converting units within problems.",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c7", "c9"],
+      "criticalForSuccess": true,
+      "advancedNote": "Multiple-leg journey problems; distinguishing instantaneous vs average speed"
+    },
+    {
+      "id": "c7",
+      "name": "Average speed for multi-leg journeys",
+      "description": "Calculating average speed as total distance ÷ total time, NOT the arithmetic mean of individual speeds. Handling different distances or times.",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c9"],
+      "criticalForSuccess": true,
+      "advancedNote": "Classic misconception target: 60km at 30km/h + 60km at 60km/h ≠ average 45km/h"
+    },
+    {
+      "id": "c8",
+      "name": "Scale drawings and maps",
+      "description": "Interpreting scale ratios (1:50000). Converting between scale and actual measurements in both directions. Using scale bars.",
+      "vocabularyLevel": "core",
+      "prerequisiteFor": ["c9", "c10"],
+      "criticalForSuccess": true,
+      "advancedNote": "Area scales as square of length scale; volume scales as cube"
+    },
+    {
+      "id": "c9",
+      "name": "Rate conversion between units",
+      "description": "Converting rates to different units (km/h to m/s, $/kg to $/100g). Understanding dimensional analysis approach.",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c10"],
+      "criticalForSuccess": true,
+      "advancedNote": "Systematic approach: multiply by conversion factors as fractions"
+    },
+    {
+      "id": "c10",
+      "name": "Comparing and combining rates",
+      "description": "Comparing rates with different units by converting to common form. Combining rates in work problems (pipes filling tanks, workers completing jobs).",
+      "vocabularyLevel": "extension",
+      "prerequisiteFor": [],
+      "criticalForSuccess": false,
+      "advancedNote": "Preview of inverse proportionality and combined rate problems"
+    },
+    {
+      "id": "c11",
+      "name": "Proportional reasoning in context",
+      "description": "Identifying proportional relationships in real contexts. Setting up and solving proportion equations. Verifying proportionality.",
+      "vocabularyLevel": "advanced",
+      "prerequisiteFor": ["c10"],
+      "criticalForSuccess": true,
+      "advancedNote": "Determine IF relationship is proportional before applying proportional methods"
+    }
+  ],
+
+  "commonMisconceptions": [
+    {
+      "id": "m1",
+      "misconception": "Using additive rather than multiplicative reasoning for ratios",
+      "correction": "Ratios compare quantities multiplicatively. If 2:3, then one quantity is 2/3 (or 1.5× or 66.7%) of the other, NOT 'one less'.",
+      "prevalence": "very high",
+      "source": "ScienceDirect - Analysis of proportional reasoning; ERIC EJ1187432",
+      "questionPhase": 1,
+      "exampleError": "Ratio is 2:5. To scale up to 4:?, student adds 2 to get 4:7 instead of multiplying to get 4:10",
+      "remediation": "Use double number lines; emphasise 'times' not 'plus'; verify with multiplication",
+      "targetedAt": "Fundamental misconception that persists even in strong students under time pressure"
+    },
+    {
+      "id": "m2",
+      "misconception": "Averaging speeds arithmetically for multi-leg journeys",
+      "correction": "Average speed = Total Distance ÷ Total Time. Cannot average speeds directly unless time travelled at each speed is equal.",
+      "prevalence": "very high",
+      "source": "Mr-Mathematics.com; OnlineMathLearning",
+      "questionPhase": 3,
+      "exampleError": "Travel 60km at 30km/h, then 60km at 60km/h. Student: average = (30+60)/2 = 45km/h. Correct: 120km ÷ 3hrs = 40km/h",
+      "remediation": "Always calculate total distance and total time separately first; only then divide",
+      "targetedAt": "Classic 'trick' problem that catches even mathematically strong students"
+    },
+    {
+      "id": "m3",
+      "misconception": "Confusing part-part ratio with part-whole fraction",
+      "correction": "Ratio 2:3 means parts are 2 and 3. Total is 5 parts. Part-whole fractions are 2/5 and 3/5, NOT 2/3 and 3/3.",
+      "prevalence": "high",
+      "source": "Tandfonline - Misconceptions on part-part-whole proportional relationships",
+      "questionPhase": 2,
+      "exampleError": "Boys to girls is 3:5. Student says 3/5 of class are boys. Correct: 3/8 are boys (3 out of 3+5)",
+      "remediation": "Explicitly distinguish ratio (part:part) from fraction (part/whole); draw bar models",
+      "targetedAt": "Linguistic confusion between ratio and fraction terminology"
+    },
+    {
+      "id": "m4",
+      "misconception": "Ignoring units when comparing rates",
+      "correction": "Rates must be in same units to compare directly. Convert to common unit or unit rate before comparison.",
+      "prevalence": "high",
+      "source": "Matrix Education Year 8 Guide",
+      "questionPhase": 2,
+      "exampleError": "$3.50 for 500g vs $6.80/kg - student compares 3.50 to 6.80 directly",
+      "remediation": "Always convert to same units first; unit rates (per 1 unit) make comparison easiest",
+      "targetedAt": "Rushing through best buy problems without unit conversion"
+    },
+    {
+      "id": "m5",
+      "misconception": "Incorrect direction of scale conversion",
+      "correction": "Scale 1:1000 means 1cm on map = 1000cm real. Map to real: MULTIPLY by scale factor. Real to map: DIVIDE.",
+      "prevalence": "high",
+      "source": "Third Space Learning; Mathsteacher.com.au",
+      "questionPhase": 3,
+      "exampleError": "Scale 1:50000. Distance on map is 3cm. Student divides: 3÷50000. Correct: 3×50000 = 150000cm = 1.5km",
+      "remediation": "Ask 'Is real bigger or smaller than map?' Real is bigger, so multiply; verbal logic check",
+      "targetedAt": "Procedural confusion about when to multiply vs divide"
+    },
+    {
+      "id": "m6",
+      "misconception": "Converting time decimals incorrectly (0.5 hours = 50 minutes)",
+      "correction": "Decimal hours convert to minutes by ×60. 0.5 hours = 30 minutes. 0.3 hours = 18 minutes, NOT 30 minutes.",
+      "prevalence": "high",
+      "source": "CIMT MEP Year 8 Book; Mr-Mathematics",
+      "questionPhase": 3,
+      "exampleError": "12 miles at 40mph: 12÷40 = 0.3 hours. Student interprets as 30 minutes instead of 18 minutes",
+      "remediation": "Explicitly teach decimal-to-time conversion; use fractions (0.3 = 3/10 = 18/60)",
+      "targetedAt": "Common error in speed-distance-time problems"
+    },
+    {
+      "id": "m7",
+      "misconception": "Assuming all relationships are proportional",
+      "correction": "Not all relationships are proportional. Proportional relationships pass through origin and have constant rate of change.",
+      "prevalence": "medium",
+      "source": "Proportional reasoning research; IM Blog",
+      "questionPhase": 4,
+      "exampleError": "Taxi costs $4 flag fall + $2/km. Student treats as proportional: 10km = $20, but correct is $24",
+      "remediation": "Check: does doubling input double output? Does (0,0) make sense? If no, not proportional",
+      "targetedAt": "Over-applying proportional methods to non-proportional situations"
+    },
+    {
+      "id": "m8",
+      "misconception": "Swapping ratio terms or units when setting up proportions",
+      "correction": "Corresponding quantities must align in proportions. If comparing apples to oranges, both ratios must have apples first (or both oranges first).",
+      "prevalence": "medium",
+      "source": "ResearchGate - Teacher Knowledge on Ratio Misconceptions",
+      "questionPhase": 2,
+      "exampleError": "3 workers take 12 days. How long for 4 workers? Student sets up 3/12 = 4/x instead of recognising inverse proportion",
+      "remediation": "Label all quantities; check logical direction (more workers = less time?); verify answer makes sense",
+      "targetedAt": "Setting up proportion equations incorrectly"
+    }
+  ],
+
+  "realWorldPhenomena": [
+    {
+      "id": "p1",
+      "phenomenon": "Supermarket unit pricing and 'specials'",
+      "concepts": ["c4", "c5"],
+      "curiosityHook": "Is the 'family size' really better value? Woolworths shows $/100g - but what if one is $/100mL?",
+      "context": "Weetbix 750g for $5.50 vs 1.2kg for $8.40. Convert to $/100g: $0.733 vs $0.70. Larger is better by 3.3c/100g.",
+      "questionPhase": 2,
+      "australianRelevance": "ACCC unit pricing laws; Woolworths, Coles shelf labels; consumer mathematics",
+      "cognitiveComplexity": "Requires unit conversion and comparison; real consumer decision-making"
+    },
+    {
+      "id": "p2",
+      "phenomenon": "Sydney to Melbourne road trip planning",
+      "concepts": ["c6", "c7", "c9"],
+      "curiosityHook": "Google Maps says 9 hours for 878km. But you'll drive faster on highways and slower through towns. What's your real average speed?",
+      "context": "Plan: 700km at 100km/h + 178km at 60km/h. Time: 7 + 2.97 = 9.97hrs. Average: 878/9.97 = 88km/h, not (100+60)/2 = 80km/h",
+      "questionPhase": 3,
+      "australianRelevance": "Hume Highway trips; family holiday planning; fuel stop calculations",
+      "cognitiveComplexity": "Multi-leg journey with different speeds; unit conversions; average speed misconception"
+    },
+    {
+      "id": "p3",
+      "phenomenon": "Petrol prices and fuel efficiency comparison",
+      "concepts": ["c4", "c5", "c9"],
+      "curiosityHook": "Your car does 8.5L/100km. Petrol is $1.89/L. Your friend's car does 42mpg (US). Who has the cheaper running cost?",
+      "context": "Your cost: 8.5 × $1.89 = $16.07/100km. Convert 42mpg: 42 miles/gallon = 67.6km/3.785L = 5.6L/100km → $10.58/100km",
+      "questionPhase": 4,
+      "australianRelevance": "Petrol prices; L/100km vs mpg confusion; comparing car efficiency",
+      "cognitiveComplexity": "Cross-system unit conversion (metric/imperial); rate comparison; multi-step"
+    },
+    {
+      "id": "p4",
+      "phenomenon": "Recipe scaling for different group sizes",
+      "concepts": ["c2", "c3", "c11"],
+      "curiosityHook": "A recipe serves 6 but you're cooking for 15. Some ingredients come in fixed pack sizes. How do you scale up efficiently?",
+      "context": "Recipe: 400g pasta, 250g mince, 700mL sauce for 6. For 15: need 2.5× each. Pasta packs are 500g - buy 2 packs (have 1000g, need exactly).",
+      "questionPhase": 2,
+      "australianRelevance": "Home cooking; hospitality studies; practical mathematics",
+      "cognitiveComplexity": "Scaling with real constraints; rounding decisions with pack sizes"
+    },
+    {
+      "id": "p5",
+      "phenomenon": "House floor plans and room dimensions",
+      "concepts": ["c8", "c9"],
+      "curiosityHook": "A floor plan has scale 1:100. The bedroom measures 4cm × 3.5cm on paper. Will your queen bed (153cm × 203cm) fit with space around it?",
+      "context": "Real room: 4m × 3.5m = 400cm × 350cm. Bed needs ~180cm × 230cm with walking space. Yes, fits with 220cm and 120cm clearance.",
+      "questionPhase": 3,
+      "australianRelevance": "Real estate; interior design; moving house; furniture planning",
+      "cognitiveComplexity": "Scale conversion both directions; practical constraint checking"
+    },
+    {
+      "id": "p6",
+      "phenomenon": "Cricket and sports statistics",
+      "concepts": ["c4", "c5", "c11"],
+      "curiosityHook": "Smith averages 61.8 runs per innings. Warner averages 44.3 but scores faster at 4.5 runs per over. Who's the better Test opener?",
+      "context": "Different rates measure different things. Run rate (runs/over) vs batting average (runs/dismissal). Both are rates but answer different questions.",
+      "questionPhase": 3,
+      "australianRelevance": "Cricket obsession; BBL, Test cricket; sports analytics; AFL stats (disposals/game)",
+      "cognitiveComplexity": "Understanding what different rates measure; contextual interpretation"
+    },
+    {
+      "id": "p7",
+      "phenomenon": "Mobile data plans and usage",
+      "concepts": ["c4", "c5", "c9"],
+      "curiosityHook": "You have 80GB/month. You've used 23GB in 9 days. At this rate, will you run out before the month ends?",
+      "context": "Usage rate: 23GB/9 days = 2.56GB/day. Monthly projection: 2.56 × 30 = 76.7GB. Safe! But if 31-day month: 79.3GB - still safe.",
+      "questionPhase": 2,
+      "australianRelevance": "Telstra, Optus, Vodafone plans; data management; teen phone usage",
+      "cognitiveComplexity": "Rate projection; proportional reasoning; practical decision-making"
+    },
+    {
+      "id": "p8",
+      "phenomenon": "Currency exchange for overseas trips",
+      "concepts": ["c4", "c5", "c9"],
+      "curiosityHook": "AUD to Japanese Yen is 98.5. You have $2000 AUD. In Tokyo, a meal costs ¥1500. How many meals can you buy?",
+      "context": "$2000 × 98.5 = ¥197,000. Meals: 197,000 ÷ 1500 = 131 meals. Rate as multiplier; inverse for reverse conversion.",
+      "questionPhase": 3,
+      "australianRelevance": "Japan trips popular; Bali (IDR), NZ (NZD); exchange rates in news",
+      "cognitiveComplexity": "Exchange rate as ratio; forward and reverse conversion; large numbers"
+    },
+    {
+      "id": "p9",
+      "phenomenon": "Running pace and marathon times",
+      "concepts": ["c6", "c7", "c9"],
+      "curiosityHook": "A marathon is 42.195km. If you run the first half at 5:00/km pace and tire to 5:30/km for the second half, what's your finish time?",
+      "context": "First 21.1km at 5:00/km = 105.5 min. Second 21.1km at 5:30/km = 116 min. Total: 221.5 min = 3:41:30. Average pace: 5:15/km.",
+      "questionPhase": 4,
+      "australianRelevance": "City2Surf; parkrun popularity; fitness tracking apps (Strava)",
+      "cognitiveComplexity": "Pace (min/km) as rate; time arithmetic; average pace calculation"
+    },
+    {
+      "id": "p10",
+      "phenomenon": "Work rate problems: painting, building, filling",
+      "concepts": ["c10", "c11"],
+      "curiosityHook": "One painter takes 6 hours to paint a room. Another takes 4 hours. Working together, is it (6+4)/2 = 5 hours? Or faster?",
+      "context": "Painter A: 1/6 room/hr. Painter B: 1/4 room/hr. Together: 1/6 + 1/4 = 5/12 room/hr. Time: 12/5 = 2.4 hours = 2hrs 24min.",
+      "questionPhase": 4,
+      "australianRelevance": "Tradie work; pool filling; project planning; collaborative work",
+      "cognitiveComplexity": "Combined rates; adding rates not times; fraction arithmetic"
+    }
+  ],
+
+  "scaffoldingSequence": [
+    {
+      "phase": 1,
+      "name": "Consolidation - Ratio Fluency",
+      "focus": "Multiplicative reasoning mastery; equivalent ratios; ratio vs fraction distinction",
+      "concepts": ["c1", "c2"],
+      "questionDistribution": {
+        "recall": "15%",
+        "application": "60%",
+        "analysis": "25%"
+      },
+      "activities": [
+        "Speed drill: simplify ratios and generate equivalents",
+        "Identify multiplicative relationship in ratio problems",
+        "Error analysis: spot additive reasoning mistakes"
+      ],
+      "questionCount": 10,
+      "difficultyRange": "medium-high"
+    },
+    {
+      "phase": 2,
+      "name": "Core Application - Rates and Unit Rates",
+      "focus": "Rate as ratio with units; unit rate for comparison; best buy problems",
+      "concepts": ["c3", "c4", "c5"],
+      "questionDistribution": {
+        "recall": "10%",
+        "application": "55%",
+        "analysis": "35%"
+      },
+      "activities": [
+        "Dividing quantities in 2-part and 3-part ratios",
+        "Convert rates to unit rates for comparison",
+        "Best buy problems with unit conversion required"
+      ],
+      "questionCount": 20,
+      "difficultyRange": "medium-high"
+    },
+    {
+      "phase": 3,
+      "name": "Speed, Distance, Time Mastery",
+      "focus": "SDT formula in all arrangements; multi-leg journeys; average speed",
+      "concepts": ["c6", "c7", "c8"],
+      "questionDistribution": {
+        "recall": "5%",
+        "application": "45%",
+        "analysis": "50%"
+      },
+      "activities": [
+        "Multi-leg journey with different speeds",
+        "Average speed problems (total dist ÷ total time)",
+        "Scale drawing problems with unit conversion",
+        "Time decimal conversion (0.75 hours = 45 minutes)"
+      ],
+      "questionCount": 25,
+      "difficultyRange": "high"
+    },
+    {
+      "phase": 4,
+      "name": "Advanced Applications",
+      "focus": "Rate conversion; combined rates; proportional reasoning in context",
+      "concepts": ["c9", "c10", "c11"],
+      "questionDistribution": {
+        "recall": "0%",
+        "application": "35%",
+        "analysis": "65%"
+      },
+      "activities": [
+        "Convert rates between unit systems (km/h to m/s)",
+        "Identify proportional vs non-proportional relationships",
+        "Work rate problems (combined painters/pipes)",
+        "Multi-step problems requiring rate conversion"
+      ],
+      "questionCount": 20,
+      "difficultyRange": "high-extension"
+    },
+    {
+      "phase": 5,
+      "name": "Extension - Challenge and Transfer",
+      "focus": "Novel contexts; inverse proportion preview; problem creation",
+      "concepts": ["c10", "c11"],
+      "questionDistribution": {
+        "recall": "0%",
+        "application": "20%",
+        "analysis": "80%"
+      },
+      "activities": [
+        "Inverse proportion problems (more workers, less time)",
+        "Currency + rate multi-step problems",
+        "Create and solve own rate comparison problem",
+        "Analyse whether given scenario is proportional"
+      ],
+      "questionCount": 5,
+      "difficultyRange": "extension",
+      "targetPercentile": "90th+"
+    }
+  ],
+
+  "vocabularyProgression": {
+    "phase1": ["ratio", "equivalent ratio", "simplify", "multiplicative", "scale factor", "proportion"],
+    "phase2": ["rate", "unit rate", "per", "cost per unit", "best buy", "partition", "share"],
+    "phase3": ["speed", "distance", "time", "average speed", "scale", "scale drawing", "actual", "represented"],
+    "phase4": ["conversion factor", "dimensional analysis", "combined rate", "work rate", "proportional relationship"],
+    "phase5": ["inverse proportion", "constant of proportionality", "linear relationship", "direct variation"]
+  },
+
+  "behavioralScience": {
+    "cognitiveLoadNotes": [
+      "Ensure multiplicative reasoning is automatic before complex applications",
+      "Use worked examples for average speed problems (high misconception area)",
+      "Separate unit conversion from rate calculation initially, then combine",
+      "Visual representations (double number lines, ratio tables) reduce load",
+      "Introduce dimensional analysis as systematic method for conversions"
+    ],
+    "engagementStrategies": [
+      "Use current Australian prices and contexts (petrol, groceries, data plans)",
+      "Counter-intuitive average speed problems create productive struggle",
+      "Real decision-making contexts (best buy, trip planning, recipe scaling)",
+      "Error analysis: 'Find and explain the mistake' builds metacognition",
+      "Sports statistics appeal to competitive and analytical students"
+    ],
+    "motivationFactors": [
+      "Consumer empowerment: making better purchasing decisions",
+      "Travel planning: real-world application for holidays",
+      "Sports analytics: understanding player statistics",
+      "Financial literacy: exchange rates, data usage, fuel costs",
+      "Intellectual challenge: average speed 'trick' problems"
+    ],
+    "spacedRepetitionPoints": ["c1", "c5", "c7", "c9"],
+    "interleaving": {
+      "recommended": true,
+      "rationale": "High performers benefit from early interleaving (Rohrer & Taylor). Mix ratio, rate, and speed problems to prevent context-dependent learning.",
+      "implementation": "From Phase 2, every problem set includes at least 3 different contexts. Students must identify problem type before solving."
+    },
+    "desirableDifficulties": [
+      "Unfamiliar unit combinations (not just km/h and $/kg)",
+      "Problems requiring rate conversion before comparison",
+      "Multi-leg journeys with different distances AND speeds",
+      "Non-proportional relationships embedded with proportional ones",
+      "Insufficient information problems: identify what's missing"
+    ],
+    "testingEffect": {
+      "implementation": "Weekly cumulative retrieval covering all prior phases",
+      "timing": "Short diagnostic at start of each session; comprehensive review every 5th session",
+      "format": "Mix of: rapid calculation, word problem interpretation, error identification, explain-your-reasoning"
+    },
+    "transferExpectations": [
+      "Apply ratio/rate reasoning to novel contexts not explicitly taught",
+      "Recognise when proportional methods apply vs when they don't",
+      "Self-correct using estimation and unit analysis",
+      "Explain why additive reasoning fails for ratios"
+    ]
+  },
+
+  "differentiationStrategies": {
+    "support": [
+      "Provide ratio table templates for complex problems",
+      "Offer unit conversion reference sheet initially",
+      "Break multi-step problems into guided sub-steps",
+      "Allow calculator for arithmetic to focus on reasoning"
+    ],
+    "extension": [
+      "Inverse proportion problems (Year 9 preview)",
+      "Dimensional analysis for complex unit conversions",
+      "Create and solve multi-step real-world scenarios",
+      "Compare rates involving compound units (kg/m³, kWh)",
+      "Rates of change preview (gradient as rate)"
+    ]
+  },
+
+  "assessmentGuidelines": {
+    "formative": [
+      "Rapid-fire equivalent ratio generation (timed)",
+      "Error identification in ratio/rate calculations",
+      "Verbal explanation of strategy choice",
+      "Estimation check before calculation"
+    ],
+    "summative": [
+      "Multi-step rate problem requiring unit conversion",
+      "Average speed problem for multi-leg journey",
+      "Best buy comparison with mixed units",
+      "Scale drawing problem with both conversions (map↔real)"
+    ],
+    "successCriteria": [
+      "Consistently uses multiplicative (not additive) reasoning for ratios",
+      "Accurately calculates and compares unit rates",
+      "Correctly applies average speed = total distance ÷ total time",
+      "Confidently converts between scale and actual measurements",
+      "Identifies when proportional methods are appropriate",
+      "Verifies answers using estimation and inverse operations"
+    ],
+    "advancedSuccessCriteria": [
+      "Converts rates between any unit systems using dimensional analysis",
+      "Solves combined rate problems (work rate, filling tanks)",
+      "Distinguishes proportional from non-proportional relationships",
+      "Creates and solves novel rate problems for peers",
+      "Explains WHY average speed ≠ arithmetic mean of speeds"
+    ]
+  }
+}

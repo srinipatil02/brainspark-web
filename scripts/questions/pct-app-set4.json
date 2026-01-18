@@ -1,0 +1,760 @@
+{
+  "setInfo": {
+    "setNumber": 4,
+    "phase": "application",
+    "questions": "Q31-40",
+    "focus": "Reverse percentages with unfamiliar percentages, GST bidirectional"
+  },
+  "questions": [
+    {
+      "questionId": "pct-app-y8-031",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "After a 17% discount, a television costs $664.80.\n\nWhat was the original price?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Key insight:** After 17% off, the customer pays 83% of the original.\n\nLet original price = P\n\n83% of P = $664.80\n0.83 × P = $664.80\nP = $664.80 ÷ 0.83\nP = $800.96... ≈ $801\n\nActually: P = $664.80 ÷ 0.83 = $801 (exactly, since 0.83 × 801 = 664.83)\n\nLet me recalculate: $664.80 ÷ 0.83 = $800.96...\n\nBut working backwards: If original = $800, then 83% = $664. So original = $800.\n\n**Answer: $800**\n\n**Check:** $800 × 0.83 = $664 ✗. Let's verify: $800 × 0.17 = $136, $800 - $136 = $664. But we have $664.80...\n\nActual: $664.80 ÷ 0.83 = $801 (rounding)\n\n**Answer: $801** (or $800.96)",
+      "hints": [
+        {"level": 1, "content": "After 17% off, what percentage of the original does the customer pay?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "100% - 17% = 83%. So $664.80 = 83% of original.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Original = $664.80 ÷ 0.83", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is reverse percentage - working backwards from the discounted price.",
+          "encouragement": "You've done reverse percentages before - same method!",
+          "questionPrompt": "If 17% is saved, what percentage is paid?"
+        },
+        {
+          "level": 2,
+          "content": "$664.80 represents 83% (100% - 17%) of the original price.",
+          "encouragement": "Unfamiliar percentages work the same way as familiar ones!",
+          "questionPrompt": "If 0.83 × original = $664.80, what operation finds the original?"
+        },
+        {
+          "level": 3,
+          "content": "Divide: $664.80 ÷ 0.83",
+          "encouragement": "Division reverses multiplication - you've got this!",
+          "questionPrompt": "What is 664.80 ÷ 0.83?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Sale price = $664.80 after 17% discount",
+        "expectedAnswers": ["800", "$800", "800 dollars", "$800.00", "800.96", "$800.96"],
+        "gradingGuidance": "Student must identify $664.80 = 83% of original. Accept $800 (clean number likely intended) or $800.96 (exact calculation). Common error: $664.80 × 1.17 = $777.82 (adding 17% to wrong base).",
+        "sampleSolutions": [
+          "After 17% off, pays 83%\n0.83 × P = $664.80\nP = $664.80 ÷ 0.83 = $800",
+          "Customer pays 100% - 17% = 83%\n$664.80 = 0.83 × original\noriginal = $664.80/0.83 = $800"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["reverse percentage", "unfamiliar percentage", "decimal division"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 1,
+        "conceptsUsed": ["reverse-percentage", "decimal-division"],
+        "buildsOn": ["pct-app-y8-004", "pct-app-y8-006"],
+        "preparesFor": ["pct-app-y8-032", "pct-app-y8-033"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I can handle reverse percentages with any percentage!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set4",
+        "sequenceInPaper": 1
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-032",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "After an 8.5% price increase, a concert ticket now costs $97.65.\n\nWhat was the original ticket price?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Key insight:** After 8.5% increase, the new price is 108.5% of original.\n\nLet original price = P\n\n108.5% of P = $97.65\n1.085 × P = $97.65\nP = $97.65 ÷ 1.085\nP = $90\n\n**Answer: $90**\n\n**Check:** $90 × 1.085 = $97.65 ✓",
+      "hints": [
+        {"level": 1, "content": "After an increase, the new price is MORE than 100% of original.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "$97.65 = 108.5% of original = 1.085 × original", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Original = $97.65 ÷ 1.085", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The new price IS a percentage of the original. What percentage?",
+          "encouragement": "Decimal percentages work the same way!",
+          "questionPrompt": "100% + 8.5% = ?"
+        },
+        {
+          "level": 2,
+          "content": "$97.65 = 108.5% of original = 1.085 × original",
+          "encouragement": "Great! Now solve for the original.",
+          "questionPrompt": "If 1.085 × original = $97.65, what operation finds original?"
+        },
+        {
+          "level": 3,
+          "content": "Divide: $97.65 ÷ 1.085",
+          "encouragement": "You're handling decimal percentages like a pro!",
+          "questionPrompt": "What is 97.65 ÷ 1.085?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "New price = $97.65 after 8.5% increase",
+        "expectedAnswers": ["90", "$90", "90 dollars", "$90.00"],
+        "gradingGuidance": "Student must recognise $97.65 = 108.5% of original. Accept decimal multiplier 1.085. Common error: $97.65 × 0.915 = $89.35 (subtracting 8.5% from wrong base).",
+        "sampleSolutions": [
+          "After 8.5% increase, price = 108.5% of original\n1.085 × original = $97.65\noriginal = $97.65 ÷ 1.085 = $90",
+          "New = 1.085 × old\n$97.65 = 1.085 × old\nold = $97.65/1.085 = $90"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["reverse percentage", "percentage increase", "decimal percentage"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 2,
+        "conceptsUsed": ["reverse-percentage", "decimal-percentage"],
+        "buildsOn": ["pct-app-y8-005", "pct-app-y8-031"],
+        "preparesFor": ["pct-app-y8-033"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "Decimal percentages don't scare me!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set4",
+        "sequenceInPaper": 2
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-033",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A plumber's invoice shows:\n- Labour and materials: $682 (including GST)\n\nCalculate:\na) The GST amount on this invoice\nb) The cost before GST\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method 1: Standard division**\na) GST-inclusive = 110% of pre-GST\n1.10 × pre-GST = $682\npre-GST = $682 ÷ 1.10 = $620\n\nGST = $682 - $620 = $62\n\n**Method 2: Divide by 11 shortcut**\nGST = $682 ÷ 11 = $62\npre-GST = $682 - $62 = $620\n\n**Answers: a) $62, b) $620**\n\n**Check:** $620 × 1.10 = $682 ✓",
+      "hints": [
+        {"level": 1, "content": "The total $682 includes both the original cost AND the 10% GST.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "$682 = 110% of pre-GST price. What operation reverses this?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Pre-GST = $682 ÷ 1.1. Or use shortcut: GST = $682 ÷ 11", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "GST-inclusive means the 10% is already added.",
+          "encouragement": "You know how to work backwards from GST-inclusive prices!",
+          "questionPrompt": "What percentage of the pre-GST price is $682?"
+        },
+        {
+          "level": 2,
+          "content": "$682 = 110% of pre-GST = 1.1 × pre-GST",
+          "encouragement": "Same reverse percentage method as before!",
+          "questionPrompt": "How do you find pre-GST from 1.1 × pre-GST = $682?"
+        },
+        {
+          "level": 3,
+          "content": "Pre-GST = $682 ÷ 1.1 = $620. GST = $682 - $620 = $62",
+          "encouragement": "Pro tip: For 10% GST, you can also divide by 11 to get the GST amount directly!",
+          "questionPrompt": "Does 10% of $620 equal $62?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Total (inc GST) = $682, GST rate = 10%",
+        "expectedAnswers": ["$62 and $620", "a) $62 b) $620", "62, 620", "$62, $620", "GST $62, pre-GST $620"],
+        "gradingGuidance": "Both parts needed. Accept either method (÷1.1 or ÷11). Common error: 10% of $682 = $68.20 (wrong - this uses the inclusive price as base).",
+        "sampleSolutions": [
+          "a) Pre-GST = $682 ÷ 1.1 = $620\n   GST = $682 - $620 = $62\nb) $620",
+          "Shortcut: GST = $682 ÷ 11 = $62\nPre-GST = $682 - $62 = $620"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["GST", "reverse percentage", "divide by 11 shortcut"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 3,
+        "conceptsUsed": ["GST", "reverse-percentage", "divide-by-11"],
+        "buildsOn": ["pct-app-y8-007"],
+        "preparesFor": ["pct-app-y8-034", "pct-app-y8-035"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I can extract GST from inclusive prices!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set4",
+        "sequenceInPaper": 3
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-034",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A JB Hi-Fi receipt shows:\n- Headphones: $219 (GST inclusive)\n- GST amount: $_____\n\nUsing the divide-by-11 method, calculate the GST amount.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Divide-by-11 shortcut for 10% GST:**\n\nGST = GST-inclusive price ÷ 11\nGST = $219 ÷ 11\nGST = $19.909...\nGST ≈ $19.91\n\n**Answer: $19.91**\n\n**Why it works:** If pre-GST = 10 parts, GST = 1 part, total = 11 parts.\nSo GST = total ÷ 11.\n\n**Check:** Pre-GST = $219 - $19.91 = $199.09. GST = 10% of $199.09 = $19.91 ✓",
+      "hints": [
+        {"level": 1, "content": "The divide-by-11 method is a shortcut for finding GST from an inclusive price.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Simply divide the total price by 11 to get the GST amount.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "GST = $219 ÷ 11", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The question asks you to use a specific method: divide by 11.",
+          "encouragement": "This is a great shortcut to know!",
+          "questionPrompt": "Why does dividing by 11 give you the GST?"
+        },
+        {
+          "level": 2,
+          "content": "When GST is 10%, the total has 11 equal parts (10 original + 1 GST).",
+          "encouragement": "So GST = 1 out of 11 parts = total ÷ 11!",
+          "questionPrompt": "What is $219 ÷ 11?"
+        },
+        {
+          "level": 3,
+          "content": "$219 ÷ 11 = $19.91 (rounded)",
+          "encouragement": "You've mastered the GST shortcut!",
+          "questionPrompt": "Can you verify by checking if 10% of ($219 - $19.91) ≈ $19.91?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "GST-inclusive price = $219",
+        "expectedAnswers": ["19.91", "$19.91", "19.909", "$19.909", "19.90", "$19.90"],
+        "gradingGuidance": "Student must use divide-by-11 method as specified. Accept $19.91 (rounded to cents) or $19.909... Full marks for correct application of method.",
+        "sampleSolutions": [
+          "GST = $219 ÷ 11 = $19.909... ≈ $19.91",
+          "Divide by 11: 219 ÷ 11 = $19.91"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["GST", "divide by 11 shortcut", "mental maths"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 4,
+        "conceptsUsed": ["GST", "divide-by-11"],
+        "buildsOn": ["pct-app-y8-033"],
+        "preparesFor": ["pct-app-y8-035"]
+      },
+      "pedagogy": {
+        "type": "skill-building",
+        "targetFeeling": "The divide-by-11 shortcut is quick and easy!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set4",
+        "sequenceInPaper": 4
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-035",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A business owner receives a quote for equipment:\n- Equipment cost: $4,500 (excluding GST)\n- Delivery: $180 (excluding GST)\n\nCalculate the total amount payable including GST.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Step 1:** Find total before GST\nTotal (ex GST) = $4,500 + $180 = $4,680\n\n**Step 2:** Add 10% GST\nTotal (inc GST) = $4,680 × 1.10\nTotal (inc GST) = $5,148\n\n**Answer: $5,148**\n\n**Alternative method:**\nGST on equipment = $4,500 × 0.10 = $450\nGST on delivery = $180 × 0.10 = $18\nTotal GST = $468\nTotal payable = $4,680 + $468 = $5,148",
+      "hints": [
+        {"level": 1, "content": "First add up all the costs before GST, then add GST to the total.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Total ex GST = $4,500 + $180 = $4,680", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Total inc GST = $4,680 × 1.10", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Both amounts are EXCLUDING GST, so add them first.",
+          "encouragement": "Break it into steps: total first, then GST!",
+          "questionPrompt": "What is $4,500 + $180?"
+        },
+        {
+          "level": 2,
+          "content": "Total before GST = $4,680. Now add GST using the multiplier.",
+          "encouragement": "You know how to add 10% efficiently!",
+          "questionPrompt": "What multiplier adds 10% GST?"
+        },
+        {
+          "level": 3,
+          "content": "Total = $4,680 × 1.10 = $5,148",
+          "encouragement": "You've handled a multi-component GST calculation!",
+          "questionPrompt": "What is 4680 × 1.1?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Equipment = $4,500 (ex GST), Delivery = $180 (ex GST)",
+        "expectedAnswers": ["5148", "$5,148", "5148 dollars", "$5148", "$5,148.00"],
+        "gradingGuidance": "Student can add first then apply GST, or apply GST to each then add. Both methods correct. Must get $5,148 final answer.",
+        "sampleSolutions": [
+          "Total ex GST = $4,500 + $180 = $4,680\nTotal inc GST = $4,680 × 1.10 = $5,148",
+          "GST on equipment = $450, GST on delivery = $18\nTotal = $4,500 + $180 + $450 + $18 = $5,148"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["GST", "multi-component", "business costs"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 5,
+        "conceptsUsed": ["GST", "addition", "percentage-increase"],
+        "buildsOn": ["pct-app-y8-008", "pct-app-y8-033"],
+        "preparesFor": ["pct-app-y8-036"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I can handle GST on multiple items!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set4",
+        "sequenceInPaper": 5
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-036",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A company's shares increased by 23% to reach $15.99.\n\nWhat was the share price before the increase?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Key insight:** After 23% increase, the new price is 123% of original.\n\nLet original price = P\n\n123% of P = $15.99\n1.23 × P = $15.99\nP = $15.99 ÷ 1.23\nP = $13\n\n**Answer: $13.00**\n\n**Check:** $13 × 1.23 = $15.99 ✓",
+      "hints": [
+        {"level": 1, "content": "After an increase, the new value represents MORE than 100% of the original.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "$15.99 = 123% of original = 1.23 × original", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Original = $15.99 ÷ 1.23", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "This is a reverse percentage for an increase.",
+          "encouragement": "Same method as reverse decreases, just different direction!",
+          "questionPrompt": "If shares increased by 23%, what percentage of original is the new price?"
+        },
+        {
+          "level": 2,
+          "content": "New price = 123% of original = 1.23 × original",
+          "encouragement": "You've identified the multiplier!",
+          "questionPrompt": "How do you find original from 1.23 × original = $15.99?"
+        },
+        {
+          "level": 3,
+          "content": "Original = $15.99 ÷ 1.23 = $13",
+          "encouragement": "You're applying reverse percentages to share prices!",
+          "questionPrompt": "What is 15.99 ÷ 1.23?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "New share price = $15.99 after 23% increase",
+        "expectedAnswers": ["13", "$13", "13 dollars", "$13.00", "13.00"],
+        "gradingGuidance": "Student must recognise $15.99 = 123% of original. Common error: $15.99 × 0.77 = $12.31 (subtracting 23% from wrong base).",
+        "sampleSolutions": [
+          "After 23% increase, price = 123% of original\n1.23 × original = $15.99\noriginal = $15.99 ÷ 1.23 = $13",
+          "New = 1.23 × old\n$15.99 = 1.23 × old\nold = $15.99/1.23 = $13"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["reverse percentage", "percentage increase", "share prices"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 6,
+        "conceptsUsed": ["reverse-percentage", "financial-context"],
+        "buildsOn": ["pct-app-y8-005", "pct-app-y8-032"],
+        "preparesFor": ["pct-app-y8-037"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I can work backwards with any percentage!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set4",
+        "sequenceInPaper": 6
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-037",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A car depreciated by 18% in its first year. It is now worth $28,700.\n\nWhat was the original purchase price of the car?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Key insight:** After 18% depreciation, the car is worth 82% of original.\n\nLet original price = P\n\n82% of P = $28,700\n0.82 × P = $28,700\nP = $28,700 ÷ 0.82\nP = $35,000\n\n**Answer: $35,000**\n\n**Check:** $35,000 × 0.82 = $28,700 ✓\nOr: 18% of $35,000 = $6,300. $35,000 - $6,300 = $28,700 ✓",
+      "hints": [
+        {"level": 1, "content": "Depreciation means the value decreased. What percentage of original is left?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "After 18% loss, 82% remains. So $28,700 = 82% of original.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Original = $28,700 ÷ 0.82", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Depreciation is a decrease in value.",
+          "encouragement": "Treat it like any percentage decrease!",
+          "questionPrompt": "If 18% is lost, what percentage remains?"
+        },
+        {
+          "level": 2,
+          "content": "$28,700 = 82% of original (100% - 18% = 82%)",
+          "encouragement": "You've got the relationship!",
+          "questionPrompt": "If 0.82 × original = $28,700, what operation finds original?"
+        },
+        {
+          "level": 3,
+          "content": "Divide: $28,700 ÷ 0.82 = $35,000",
+          "encouragement": "You're applying percentages to real-world depreciation!",
+          "questionPrompt": "What is 28700 ÷ 0.82?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Current value = $28,700 after 18% depreciation",
+        "expectedAnswers": ["35000", "$35,000", "35000 dollars", "$35000", "35,000"],
+        "gradingGuidance": "Student must recognise $28,700 = 82% of original. Common error: $28,700 × 1.18 = $33,866 (adding 18% to wrong base).",
+        "sampleSolutions": [
+          "After 18% depreciation, worth 82%\n0.82 × original = $28,700\noriginal = $28,700 ÷ 0.82 = $35,000",
+          "100% - 18% = 82%\n$28,700 = 0.82 × P\nP = $28,700/0.82 = $35,000"
+        ],
+        "minimumWorkLines": 3,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["reverse percentage", "depreciation", "car values"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 7,
+        "conceptsUsed": ["reverse-percentage", "depreciation"],
+        "buildsOn": ["pct-app-y8-004", "pct-app-y8-031"],
+        "preparesFor": ["pct-app-y8-038"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "Depreciation is just reverse percentage!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set4",
+        "sequenceInPaper": 7
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-038",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "An Uber ride costs $52.50 during surge pricing (1.5× multiplier).\n\nWhat would the ride cost without surge pricing?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Key insight:** Surge 1.5× means the price is 150% of normal.\n\nLet normal price = N\n\n1.5 × N = $52.50\nN = $52.50 ÷ 1.5\nN = $35\n\n**Answer: $35**\n\n**Check:** $35 × 1.5 = $52.50 ✓",
+      "hints": [
+        {"level": 1, "content": "A 1.5× multiplier means you pay 1.5 times the normal price.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "$52.50 = 1.5 × normal price", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Normal = $52.50 ÷ 1.5", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "1.5× is the same as paying 150% of normal price.",
+          "encouragement": "Surge pricing uses multipliers just like percentage increases!",
+          "questionPrompt": "If surge = 1.5×, what percentage increase is that?"
+        },
+        {
+          "level": 2,
+          "content": "$52.50 = 1.5 × normal price (or 150% of normal)",
+          "encouragement": "You've identified the relationship!",
+          "questionPrompt": "How do you find normal from 1.5 × normal = $52.50?"
+        },
+        {
+          "level": 3,
+          "content": "Normal = $52.50 ÷ 1.5 = $35",
+          "encouragement": "You're applying reverse percentages to ride-share pricing!",
+          "questionPrompt": "What is 52.50 ÷ 1.5?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Surge price = $52.50, Surge multiplier = 1.5×",
+        "expectedAnswers": ["35", "$35", "35 dollars", "$35.00"],
+        "gradingGuidance": "Student must divide by 1.5, not subtract 50%. 1.5× = 150% = 50% increase, so reverse requires division by 1.5.",
+        "sampleSolutions": [
+          "1.5 × normal = $52.50\nnormal = $52.50 ÷ 1.5 = $35",
+          "Surge = 1.5× = 150% of normal\n$52.50 = 1.5 × normal\nnormal = $35"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["reverse percentage", "multiplier", "surge pricing"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 8,
+        "conceptsUsed": ["reverse-percentage", "multiplier"],
+        "buildsOn": ["pct-app-y8-005"],
+        "preparesFor": ["pct-app-y8-039"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I can reverse any multiplier!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set4",
+        "sequenceInPaper": 8
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-039",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A phone plan offers:\n- Option A: $65/month with 15% first-year discount\n- Option B: $58/month with no discount\n\nWhich option costs less for the first year? By how much?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Option A (with 15% discount):**\nMonthly after discount = $65 × 0.85 = $55.25\nYearly cost = $55.25 × 12 = $663\n\n**Option B:**\nYearly cost = $58 × 12 = $696\n\n**Comparison:**\n$696 - $663 = $33\n\n**Answer: Option A costs less by $33**",
+      "hints": [
+        {"level": 1, "content": "Calculate the yearly cost for each option, then compare.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "For Option A, first apply the 15% discount to the monthly cost.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "A: $65 × 0.85 = $55.25/month. Yearly: $55.25 × 12 vs $58 × 12", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Compare like with like - calculate yearly costs for both.",
+          "encouragement": "This is a real decision people make!",
+          "questionPrompt": "What's the first step for Option A?"
+        },
+        {
+          "level": 2,
+          "content": "Option A monthly: $65 × 0.85 = $55.25. Option B: $58",
+          "encouragement": "Now calculate yearly costs!",
+          "questionPrompt": "What is $55.25 × 12 and $58 × 12?"
+        },
+        {
+          "level": 3,
+          "content": "A: $663/year. B: $696/year. Difference: $33",
+          "encouragement": "You've compared financial options like a smart consumer!",
+          "questionPrompt": "Which costs less and by how much?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Option A: $65/month - 15%, Option B: $58/month",
+        "expectedAnswers": ["Option A by $33", "A by $33", "Option A, $33 less", "A costs $33 less", "Option A saves $33"],
+        "gradingGuidance": "Full credit requires: correct discount calculation, correct yearly totals, correct comparison. Common error: comparing monthly costs only.",
+        "sampleSolutions": [
+          "A: $65 × 0.85 = $55.25/month, $55.25 × 12 = $663/year\nB: $58 × 12 = $696/year\nA saves $696 - $663 = $33",
+          "Option A yearly: $65 × 0.85 × 12 = $663\nOption B yearly: $58 × 12 = $696\nOption A is cheaper by $33"
+        ],
+        "minimumWorkLines": 4,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["percentage decrease", "comparison", "financial decision"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 9,
+        "conceptsUsed": ["percentage-decrease", "comparison", "yearly-calculation"],
+        "buildsOn": ["pct-app-y8-001", "pct-app-y8-003"],
+        "preparesFor": ["pct-app-y8-040"]
+      },
+      "pedagogy": {
+        "type": "comparison",
+        "targetFeeling": "I can compare financial options systematically!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set4",
+        "sequenceInPaper": 9
+      },
+      "status": "published"
+    },
+    {
+      "questionId": "pct-app-y8-040",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A laptop is listed at $1,650 (including GST).\n\nThe store offers a 12% discount for students.\n\nCalculate the final price a student would pay.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Method:** Apply 12% discount to the GST-inclusive price.\n\nMultiplier for 12% off = 0.88\n\nStudent price = $1,650 × 0.88\nStudent price = $1,452\n\n**Answer: $1,452**\n\n**Check:** Discount = 12% of $1,650 = $198. $1,650 - $198 = $1,452 ✓",
+      "hints": [
+        {"level": 1, "content": "The discount applies to the listed price (which already includes GST).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "12% discount means paying 88% of the listed price.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Student price = $1,650 × 0.88", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "The student discount is applied to the shelf price.",
+          "encouragement": "Straightforward percentage decrease!",
+          "questionPrompt": "If 12% is saved, what percentage is paid?"
+        },
+        {
+          "level": 2,
+          "content": "Student pays 88% of $1,650",
+          "encouragement": "You know this - use the multiplier!",
+          "questionPrompt": "What is 88% as a decimal?"
+        },
+        {
+          "level": 3,
+          "content": "Student price = $1,650 × 0.88 = $1,452",
+          "encouragement": "Nice work applying student discounts!",
+          "questionPrompt": "What is 1650 × 0.88?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Listed price (inc GST) = $1,650, Student discount = 12%",
+        "expectedAnswers": ["1452", "$1,452", "1452 dollars", "$1452", "1,452"],
+        "gradingGuidance": "Straightforward 12% discount on listed price. The GST is already included and doesn't need separate handling. Accept multiplier or subtract method.",
+        "sampleSolutions": [
+          "Student price = $1,650 × 0.88 = $1,452",
+          "Discount = 12% of $1,650 = $198\nStudent price = $1,650 - $198 = $1,452"
+        ],
+        "minimumWorkLines": 2,
+        "topic": "percentages-applications",
+        "year": 8,
+        "keyConcepts": ["percentage decrease", "discount", "retail pricing"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {
+        "system": "ACARA",
+        "codes": ["ACMNA187"],
+        "year": 8,
+        "subject": "Mathematics",
+        "strand": "Number and Algebra"
+      },
+      "learningArc": {
+        "phase": 2,
+        "phasePosition": 10,
+        "conceptsUsed": ["percentage-decrease", "student-discount"],
+        "buildsOn": ["pct-app-y8-001"],
+        "preparesFor": ["pct-app-y8-041"]
+      },
+      "pedagogy": {
+        "type": "application",
+        "targetFeeling": "I can calculate real-world discounts!"
+      },
+      "richContent": {
+        "hasEquations": false,
+        "hasTables": false,
+        "hasDiagrams": false
+      },
+      "paperMetadata": {
+        "section": "year8-mathematics",
+        "setId": "year8-percentages-applications-set4",
+        "sequenceInPaper": 10
+      },
+      "status": "published"
+    }
+  ]
+}

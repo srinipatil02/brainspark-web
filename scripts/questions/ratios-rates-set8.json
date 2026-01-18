@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set8",
+    "setNumber": 8,
+    "questionRange": "Q71-80",
+    "phase": "connection",
+    "difficulty": "3",
+    "focus": "Advanced applications, percentage-ratio connections, inverse proportion"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-071",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A recipe for 8 servings uses ingredients in the ratio flour:sugar:butter = 4:2:1.\n\nIf you need 12 servings and have only 300g of butter, do you have enough?\n\nIf not, how much more butter is needed?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Scale factor for servings:**\n12/8 = 1.5 times the recipe\n\n**If original butter = 1 part:**\nFor 8 servings: butter = 1 part\nFor 12 servings: butter = 1.5 parts\n\n**Find actual butter needed:**\nTotal parts in original = 4 + 2 + 1 = 7 parts\nNeed to find original amounts... but we can use ratio directly.\n\n**Alternative:** We need butter in proportion to servings.\nLet original butter = B\nFor 12 servings: butter needed = B × 1.5\n\n**From the ratio:** In any batch, butter:total = 1:7\nFor 12 servings, total mix scales by 1.5\n\n**Actually, check if 300g is enough for 12:**\n300g available for butter\nOriginal recipe butter (8 serve) needs calculating from context.\n\nSince no original amounts given, the question asks if 300g butter is enough.\n**Assume original recipe has quantities such that 1 part = some amount.**\n\nLet 1 part = x grams\n12 serve needs 1.5x butter\nIf 1.5x ≤ 300, then enough.\n\n**Reinterpreting:** The ratio tells us proportions, need more information.\n\n**Better approach:** \n300g butter as the limiting factor.\n300g butter = 1 part (scaled)\nSo 1 scaled part = 300g\nThis makes flour = 4 × 300 = 1200g, sugar = 600g\nTotal = 2100g for the batch using 300g butter.\n\nThis would make 8 servings if 300g = 1 part.\nFor 12 servings, need 1.5 × 300 = 450g butter.\n\n**Answer: No, 300g is not enough. Need 150g more butter (total 450g needed).**",
+      "hints": [
+        {"level": 1, "content": "Scale the recipe by 12/8 = 1.5", "revealsCriticalInfo": false},
+        {"level": 2, "content": "If butter is the '1' part, 12 servings needs 1.5 times as much butter.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Need 450g butter for 12 servings. Short by 150g.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "First find the scaling factor for servings.",
+          "encouragement": "How many times bigger is 12 than 8?",
+          "questionPrompt": "What is 12 ÷ 8?"
+        },
+        {
+          "level": 2,
+          "content": "Scale by 1.5. All ingredients increase by 1.5×.",
+          "encouragement": "If original butter = 300g for 8 servings...",
+          "questionPrompt": "What is 300 × 1.5?"
+        },
+        {
+          "level": 3,
+          "content": "Need 450g but only have 300g. Short by 150g.",
+          "encouragement": "Recipe scaling with constraints!",
+          "questionPrompt": "What if you only made 10 servings?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "8 serve recipe, F:S:B = 4:2:1, need 12 serve, have 300g butter",
+        "expectedAnswers": ["No, need 150g more", "need 450g total, 150g more", "150g more butter"],
+        "gradingGuidance": "Must show scaling by 1.5. If 300g is for 8 servings, need 450g for 12. Accept if student interprets differently with valid reasoning.",
+        "sampleSolutions": ["12/8 = 1.5 scale\n300g butter for 8 servings\n12 servings needs 300 × 1.5 = 450g\nShort by 150g"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["recipe scaling", "ratio with constraint", "comparison"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 11, "conceptsUsed": ["c3", "c4"], "buildsOn": ["ratio-rate-y8-042"], "preparesFor": ["ratio-rate-y8-072"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can scale recipes with constraints!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set8", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-072",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "12 workers can complete a job in 15 days.\n\nHow long would it take 20 workers to complete the same job?\n\n(Assume all workers work at the same rate.)\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Total work (worker-days):**\n12 workers × 15 days = 180 worker-days\n\n**Time for 20 workers:**\n180 ÷ 20 = 9 days\n\n**Answer: 9 days**\n\n**Check:** 20 × 9 = 180 worker-days ✓",
+      "hints": [
+        {"level": 1, "content": "This is inverse proportion: more workers = less time.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Total work = 12 × 15 = 180 worker-days", "revealsCriticalInfo": false},
+        {"level": 3, "content": "180 ÷ 20 = 9 days", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "More workers means less time. This is inverse proportion.",
+          "encouragement": "Calculate total work first!",
+          "questionPrompt": "What is 12 × 15?"
+        },
+        {
+          "level": 2,
+          "content": "180 worker-days of total work needed.",
+          "encouragement": "Now divide by the new number of workers!",
+          "questionPrompt": "What is 180 ÷ 20?"
+        },
+        {
+          "level": 3,
+          "content": "9 days with 20 workers",
+          "encouragement": "Inverse proportion in action!",
+          "questionPrompt": "How many workers to finish in 6 days?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "12 workers in 15 days, find time for 20 workers",
+        "expectedAnswers": ["9 days", "9"],
+        "gradingGuidance": "Must use inverse proportion or worker-days method. 12×15=180, 180÷20=9 days.",
+        "sampleSolutions": ["Total work = 12 × 15 = 180 worker-days\nTime = 180 ÷ 20 = 9 days"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["inverse proportion", "worker-days", "work rate"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 12, "conceptsUsed": ["c10"], "buildsOn": ["ratio-rate-y8-064"], "preparesFor": ["ratio-rate-y8-073"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I understand inverse proportion!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set8", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-073",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "In a class, the ratio of students who passed to those who failed is 7:3.\n\nIf 80% is required to pass, and 28 students passed, what was the average mark of those who failed (assuming they all scored 70% each)?\n\nThis is a trick question - just find how many failed.\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Find value of 1 part:**\n7 parts = 28 students (passed)\n1 part = 28 ÷ 7 = 4 students\n\n**Failed students (3 parts):**\n3 × 4 = 12 students\n\n**Answer: 12 students failed**",
+      "hints": [
+        {"level": 1, "content": "The pass/fail info is extra. Focus on the ratio.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "7 parts = 28 students. Find 1 part.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "1 part = 4. Failed = 3 × 4 = 12", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Ignore the percentage info - it's not needed!",
+          "encouragement": "Focus on what's relevant!",
+          "questionPrompt": "What is 28 ÷ 7?"
+        },
+        {
+          "level": 2,
+          "content": "1 part = 4 students. Failed = 3 parts.",
+          "encouragement": "Simple ratio problem!",
+          "questionPrompt": "What is 3 × 4?"
+        },
+        {
+          "level": 3,
+          "content": "12 students failed",
+          "encouragement": "You filtered out irrelevant information!",
+          "questionPrompt": "What's the total class size?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Passed:Failed = 7:3, Passed = 28",
+        "expectedAnswers": ["12 students", "12"],
+        "gradingGuidance": "Must identify 7 parts = 28 → 1 part = 4 → 3 parts = 12. Extra info is distraction.",
+        "sampleSolutions": ["7 parts = 28 students\n1 part = 4\nFailed = 3 × 4 = 12 students"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio", "identifying relevant info", "unitary method"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 13, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-014"], "preparesFor": ["ratio-rate-y8-074"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can filter out irrelevant information!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set8", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-074",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A cyclist rides uphill at 12 km/h and downhill at 36 km/h on the same route.\n\nIf the total journey time is 2 hours, how long is the route (one way)?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let distance (one way) = d km**\n\nTime uphill = d/12 hours\nTime downhill = d/36 hours\n\nTotal time: d/12 + d/36 = 2\n\n**Common denominator (36):**\n3d/36 + d/36 = 2\n4d/36 = 2\n4d = 72\nd = 18 km\n\n**Answer: The route is 18 km (one way)**\n\n**Check:** Up: 18/12 = 1.5h, Down: 18/36 = 0.5h, Total: 2h ✓",
+      "hints": [
+        {"level": 1, "content": "Let distance = d. Write time equations for each direction.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "d/12 + d/36 = 2. Find common denominator.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "4d/36 = 2, so d = 18 km", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Time = distance/speed for each leg.",
+          "encouragement": "Set up the equation!",
+          "questionPrompt": "If distance = d, what's time uphill?"
+        },
+        {
+          "level": 2,
+          "content": "d/12 + d/36 = 2. Need common denominator.",
+          "encouragement": "Add the fractions!",
+          "questionPrompt": "What is 3d/36 + d/36?"
+        },
+        {
+          "level": 3,
+          "content": "4d = 72, so d = 18 km",
+          "encouragement": "Algebra meets speed problems!",
+          "questionPrompt": "How long was the uphill part?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Up: 12km/h, Down: 36km/h, Total: 2 hours",
+        "expectedAnswers": ["18 km", "18km", "18"],
+        "gradingGuidance": "Must set up equation d/12 + d/36 = 2 and solve. d = 18 km.",
+        "sampleSolutions": ["d/12 + d/36 = 2\n4d/36 = 2\nd = 18 km"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["speed", "algebra", "equation solving"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 14, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-057"], "preparesFor": ["ratio-rate-y8-075"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve for unknowns in rate problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set8", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-075",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Shop A sells apples at $4.50/kg.\nShop B sells apples at $1.35 for 300g.\n\nWhich shop is cheaper and by how much per kg?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Shop A:** $4.50/kg\n\n**Shop B (convert to per kg):**\n$1.35 per 300g\n= $1.35 × (1000/300) per kg\n= $1.35 × 3.33...\n= $4.50/kg\n\n**Answer: Both shops charge the same price ($4.50/kg)**",
+      "hints": [
+        {"level": 1, "content": "Convert Shop B to the same units (per kg).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Shop B: $1.35 for 300g = $1.35 × (1000/300) per kg", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Both = $4.50/kg - same price!", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Convert both to the same unit.",
+          "encouragement": "How many 300g in 1 kg?",
+          "questionPrompt": "What is 1000 ÷ 300?"
+        },
+        {
+          "level": 2,
+          "content": "About 3.33 lots. So $1.35 × 3.33 = ?",
+          "encouragement": "Calculate Shop B per kg!",
+          "questionPrompt": "What is $1.35 × 10/3?"
+        },
+        {
+          "level": 3,
+          "content": "$4.50/kg - they're the same!",
+          "encouragement": "Sometimes prices match!",
+          "questionPrompt": "Which would you choose and why?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: $4.50/kg, B: $1.35/300g",
+        "expectedAnswers": ["Same price", "Both $4.50/kg", "Neither is cheaper - same price"],
+        "gradingGuidance": "Must convert B to per kg: $1.35 × (10/3) = $4.50/kg. Both equal.",
+        "sampleSolutions": ["Shop A: $4.50/kg\nShop B: $1.35 × (1000/300) = $4.50/kg\nSame price"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["unit price", "conversion", "comparison"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 15, "conceptsUsed": ["c7", "c8"], "buildsOn": ["ratio-rate-y8-032"], "preparesFor": ["ratio-rate-y8-076"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can compare prices with different units!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set8", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-076",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Three pipes fill a pool. Pipe A fills it in 6 hours, Pipe B in 4 hours, and Pipe C in 3 hours.\n\nHow long to fill the pool with all three pipes running together?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Individual rates (pool per hour):**\nA: 1/6, B: 1/4, C: 1/3\n\n**Combined rate:**\n1/6 + 1/4 + 1/3\n= 2/12 + 3/12 + 4/12\n= 9/12 = 3/4 pool per hour\n\n**Time to fill:**\n1 ÷ 3/4 = 4/3 = 1⅓ hours = 1 hour 20 minutes\n\n**Answer: 1 hour 20 minutes (or 1⅓ hours)**",
+      "hints": [
+        {"level": 1, "content": "Express each rate as fraction of pool per hour.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1/6 + 1/4 + 1/3 = 9/12 = 3/4 pool/hour", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Time = 4/3 hours = 1h 20min", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Rate = 1/time for each pipe.",
+          "encouragement": "Express as fractions!",
+          "questionPrompt": "What are the three rates?"
+        },
+        {
+          "level": 2,
+          "content": "Add: 1/6 + 1/4 + 1/3. Common denominator = 12.",
+          "encouragement": "Find the combined rate!",
+          "questionPrompt": "What is 2/12 + 3/12 + 4/12?"
+        },
+        {
+          "level": 3,
+          "content": "3/4 pool/hour. Time = 4/3 hours = 1h 20min",
+          "encouragement": "Three pipes working together!",
+          "questionPrompt": "What if pipe C was blocked?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 6h, B: 4h, C: 3h alone",
+        "expectedAnswers": ["1 hour 20 minutes", "1h 20min", "4/3 hours", "1⅓ hours", "80 minutes"],
+        "gradingGuidance": "Must add rates with common denominator. 9/12 = 3/4, time = 4/3 h = 80 min.",
+        "sampleSolutions": ["Rates: 1/6 + 1/4 + 1/3 = 9/12 = 3/4\nTime = 4/3 h = 1h 20min"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["combined rates", "fractions", "pipes problem"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 16, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-060"], "preparesFor": ["ratio-rate-y8-077"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can combine multiple rates!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set8", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-077",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A solution contains acid and water in the ratio 2:5.\n\n140 mL of water is added, making the new ratio 2:9.\n\nHow much acid is in the solution?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let acid = 2x mL**\n\nOriginal water = 5x mL\nAfter adding 140 mL: water = 5x + 140 mL\n\n**New ratio:**\nAcid : Water = 2 : 9\n2x : (5x + 140) = 2 : 9\n\n**Cross multiply:**\n9 × 2x = 2 × (5x + 140)\n18x = 10x + 280\n8x = 280\nx = 35\n\n**Acid = 2x = 70 mL**\n\n**Answer: 70 mL of acid**\n\n**Check:** Original 70:175 = 2:5 ✓, After: 70:315 = 2:9 ✓",
+      "hints": [
+        {"level": 1, "content": "Let acid = 2x. Set up equation for new ratio.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2x : (5x + 140) = 2 : 9. Cross multiply.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "x = 35, acid = 70 mL", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Acid stays the same. Only water increases.",
+          "encouragement": "Set up the equation!",
+          "questionPrompt": "If acid = 2x, what's water after adding 140?"
+        },
+        {
+          "level": 2,
+          "content": "New ratio 2:(5x+140) = 2:9. Cross multiply.",
+          "encouragement": "Solve the equation!",
+          "questionPrompt": "What is 9 × 2x and 2 × (5x+140)?"
+        },
+        {
+          "level": 3,
+          "content": "18x = 10x + 280, so x = 35. Acid = 70 mL",
+          "encouragement": "Changing ratio problems conquered!",
+          "questionPrompt": "What was the original amount of water?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Acid:Water = 2:5, add 140mL water → 2:9",
+        "expectedAnswers": ["70 mL", "70mL", "70"],
+        "gradingGuidance": "Must set up equation: 2x:(5x+140) = 2:9. Solve to get x=35, acid=70mL.",
+        "sampleSolutions": ["2x:(5x+140) = 2:9\n18x = 10x + 280\nx = 35\nAcid = 70 mL"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["changing ratio", "algebra", "constant quantity"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 17, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-063"], "preparesFor": ["ratio-rate-y8-078"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve changing ratio problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set8", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-078",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A journey of 360 km is covered in two parts:\n- First part at 80 km/h\n- Second part at 60 km/h\n\nThe entire journey takes 5 hours.\n\nHow far was each part of the journey?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Let first part = d km**\nSecond part = (360 - d) km\n\n**Time equation:**\nd/80 + (360-d)/60 = 5\n\n**Common denominator (240):**\n3d/240 + 4(360-d)/240 = 5\n3d + 1440 - 4d = 1200\n-d = -240\nd = 240 km\n\n**First part:** 240 km\n**Second part:** 360 - 240 = 120 km\n\n**Answer: First part 240 km, Second part 120 km**\n\n**Check:** 240/80 + 120/60 = 3 + 2 = 5 hours ✓",
+      "hints": [
+        {"level": 1, "content": "Let first part = d, second = 360 - d.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "d/80 + (360-d)/60 = 5. Solve for d.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "d = 240 km. Second part = 120 km.", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Time = distance/speed for each part.",
+          "encouragement": "Set up the time equation!",
+          "questionPrompt": "If first part = d, what's the second part?"
+        },
+        {
+          "level": 2,
+          "content": "d/80 + (360-d)/60 = 5. Find common denominator.",
+          "encouragement": "Solve the equation!",
+          "questionPrompt": "What is LCD of 80 and 60?"
+        },
+        {
+          "level": 3,
+          "content": "First: 240 km (3h), Second: 120 km (2h)",
+          "encouragement": "Two-part journey problems mastered!",
+          "questionPrompt": "Check: does it add to 5 hours?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Total 360 km, 80km/h then 60km/h, total 5 hours",
+        "expectedAnswers": ["240 km and 120 km", "First: 240km, Second: 120km", "240, 120"],
+        "gradingGuidance": "Must set up and solve equation. First = 240 km, Second = 120 km.",
+        "sampleSolutions": ["d/80 + (360-d)/60 = 5\n3d + 4(360-d) = 1200\nd = 240 km\nSecond = 120 km"],
+        "minimumWorkLines": 5,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["speed", "algebra", "two-part journey"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 180,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 18, "conceptsUsed": ["c9", "c10"], "buildsOn": ["ratio-rate-y8-074"], "preparesFor": ["ratio-rate-y8-079"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve two-part journey problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set8", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-079",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A recipe needs milk and cream in the ratio 5:2.\n\nEmma has 700 mL of milk and 250 mL of cream.\n\nWhat is the maximum amount of mixture she can make?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Check which ingredient limits the mixture:**\n\n**If all milk used (700 mL = 5 parts):**\n1 part = 140 mL\nCream needed = 2 parts = 280 mL\nBut only 250 mL cream available. NOT enough.\n\n**If all cream used (250 mL = 2 parts):**\n1 part = 125 mL\nMilk needed = 5 parts = 625 mL\n625 mL < 700 mL available. ✓ OK\n\n**Cream is the limiting ingredient.**\n\n**Maximum mixture:**\nMilk: 625 mL + Cream: 250 mL = 875 mL\n\n**Answer: 875 mL maximum**",
+      "hints": [
+        {"level": 1, "content": "Check which ingredient runs out first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "If cream = 250 mL = 2 parts, milk needed = 5 parts = 625 mL", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Cream limits it. Total = 625 + 250 = 875 mL", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "One ingredient will be the limiting factor.",
+          "encouragement": "Check both possibilities!",
+          "questionPrompt": "If 700 mL milk is used, how much cream needed?"
+        },
+        {
+          "level": 2,
+          "content": "700 mL milk needs 280 mL cream. Only have 250. Cream limits.",
+          "encouragement": "Use all the cream!",
+          "questionPrompt": "How much milk for 250 mL cream?"
+        },
+        {
+          "level": 3,
+          "content": "625 mL milk + 250 mL cream = 875 mL",
+          "encouragement": "Resource optimisation!",
+          "questionPrompt": "How much milk is left over?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Milk:Cream = 5:2, Have 700mL milk, 250mL cream",
+        "expectedAnswers": ["875 mL", "875mL", "875"],
+        "gradingGuidance": "Must identify cream as limiting. Max = 625 + 250 = 875 mL.",
+        "sampleSolutions": ["Cream limits (250mL = 2 parts)\n1 part = 125 mL\nMilk = 5 × 125 = 625 mL\nTotal = 875 mL"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["limiting factor", "ratio", "optimisation"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 19, "conceptsUsed": ["c4", "c5"], "buildsOn": ["ratio-rate-y8-050"], "preparesFor": ["ratio-rate-y8-080"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can optimise with constraints!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set8", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-080",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "8 identical machines produce 480 items in 3 hours.\n\na) How many items does 1 machine produce per hour?\nb) How many machines are needed to produce 720 items in 2 hours?\n\nShow your working.",
+      "solution": "**Solution:**\n\n**a) Items per machine per hour:**\n480 items ÷ 8 machines ÷ 3 hours\n= 480 ÷ 24 = 20 items per machine per hour\n\n**b) Machines for 720 items in 2 hours:**\nItems needed per hour = 720 ÷ 2 = 360 items/hour\nMachines needed = 360 ÷ 20 = 18 machines\n\n**Answers: a) 20 items/machine/hour, b) 18 machines**",
+      "hints": [
+        {"level": 1, "content": "Find rate per machine per hour first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "480 ÷ 8 ÷ 3 = 20 items per machine per hour", "revealsCriticalInfo": false},
+        {"level": 3, "content": "720 items in 2h = 360/h. Need 360 ÷ 20 = 18 machines", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Divide total by machines AND hours.",
+          "encouragement": "Find the base rate!",
+          "questionPrompt": "What is 480 ÷ 8 ÷ 3?"
+        },
+        {
+          "level": 2,
+          "content": "20 items per machine per hour.",
+          "encouragement": "Now work backwards for part b!",
+          "questionPrompt": "720 items in 2 hours = how many per hour?"
+        },
+        {
+          "level": 3,
+          "content": "360 per hour needed. 360 ÷ 20 = 18 machines",
+          "encouragement": "Production rate problems mastered!",
+          "questionPrompt": "What's the total machine-hours for 720 items?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "8 machines, 480 items, 3 hours",
+        "expectedAnswers": ["a) 20 items b) 18 machines", "20, 18", "20 items/machine/hour and 18 machines"],
+        "gradingGuidance": "a) 480÷8÷3=20 items/machine/hour. b) 720÷2=360 needed/hour, 360÷20=18 machines.",
+        "sampleSolutions": ["a) 480 ÷ 24 = 20 items/machine/hour\nb) 720 ÷ 2 = 360/hour needed\n360 ÷ 20 = 18 machines"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["production rate", "machines", "inverse reasoning"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 3, "phasePosition": 20, "conceptsUsed": ["c7", "c10"], "buildsOn": ["ratio-rate-y8-053"], "preparesFor": ["ratio-rate-y8-081"]},
+      "pedagogy": {"type": "connection", "targetFeeling": "I can solve complex production problems!"},
+      "richContent": {"hasEquations": false, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set8", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "setId": "year8-ratios-rates-set4",
+    "setNumber": 4,
+    "questionRange": "Q31-40",
+    "phase": "application",
+    "difficulty": "2-3",
+    "focus": "Best buys, comparing rates"
+  },
+  "questions": [
+    {
+      "questionId": "ratio-rate-y8-031",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Which is better value?\n\n- Option A: 500g of pasta for $3.50\n- Option B: 750g of pasta for $4.80\n\nShow your working.",
+      "solution": "**Solution:**\n\n**Find cost per 100g for each:**\n\nOption A: $3.50 ÷ 5 = $0.70 per 100g\nOption B: $4.80 ÷ 7.5 = $0.64 per 100g\n\n**Answer: Option B is better value (64c vs 70c per 100g)**",
+      "hints": [
+        {"level": 1, "content": "Compare by finding the cost per 100g for each.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "A: $3.50 ÷ 5 = $0.70/100g. B: $4.80 ÷ 7.5 = ?", "revealsCriticalInfo": false},
+        {"level": 3, "content": "B = $0.64/100g, which is cheaper", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "To compare fairly, find the unit price (cost per 100g).",
+          "encouragement": "This is real shopping maths!",
+          "questionPrompt": "How many 100g portions in 500g? In 750g?"
+        },
+        {
+          "level": 2,
+          "content": "A = 5 portions, B = 7.5 portions. Divide prices accordingly.",
+          "encouragement": "You're comparing like with like!",
+          "questionPrompt": "Which has the lower cost per 100g?"
+        },
+        {
+          "level": 3,
+          "content": "A = $0.70, B = $0.64. Option B is better value.",
+          "encouragement": "You've found the best buy!",
+          "questionPrompt": "How much would you save buying 1.5 kg of B vs A?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 500g/$3.50, B: 750g/$4.80",
+        "expectedAnswers": ["B", "Option B", "B is better value", "750g option"],
+        "gradingGuidance": "Must calculate unit price for both and compare. Accept per 100g or per gram comparisons. Common error: choosing cheaper total price without comparing unit cost.",
+        "sampleSolutions": ["A: $3.50/5 = $0.70/100g\nB: $4.80/7.5 = $0.64/100g\nB is better value"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["best buy", "unit price", "comparison"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 1, "conceptsUsed": ["c7", "c8"], "buildsOn": ["ratio-rate-y8-024"], "preparesFor": ["ratio-rate-y8-032"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can find the best buy!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set4", "sequenceInPaper": 1},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-032",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "At a supermarket:\n- 1.5 L bottle of juice costs $4.50\n- 600 mL bottle of the same juice costs $2.10\n\nWhich bottle is better value? Show your working.",
+      "solution": "**Solution:**\n\n**Convert to same units and compare per 100mL:**\n\n1.5 L = 1500 mL\nLarge: $4.50 ÷ 15 = $0.30 per 100mL\nSmall: $2.10 ÷ 6 = $0.35 per 100mL\n\n**Answer: The 1.5 L bottle is better value (30c vs 35c per 100mL)**",
+      "hints": [
+        {"level": 1, "content": "Convert to the same units first (mL).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "1.5 L = 1500 mL. Find cost per 100 mL for each.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Large: 30c/100mL, Small: 35c/100mL", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Different sizes need a common unit for fair comparison.",
+          "encouragement": "Convert litres to millilitres!",
+          "questionPrompt": "How many mL in 1.5 L?"
+        },
+        {
+          "level": 2,
+          "content": "1500 mL and 600 mL. Find cost per 100 mL.",
+          "encouragement": "Same comparison method!",
+          "questionPrompt": "What is $4.50 ÷ 15 and $2.10 ÷ 6?"
+        },
+        {
+          "level": 3,
+          "content": "30c vs 35c per 100 mL. The larger bottle wins.",
+          "encouragement": "Bigger isn't always better, but here it is!",
+          "questionPrompt": "How much would you save on 3 L if you buy large bottles?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "1.5L/$4.50 vs 600mL/$2.10",
+        "expectedAnswers": ["1.5 L bottle", "Large bottle", "1.5L", "the larger one"],
+        "gradingGuidance": "Must convert units and compare per 100 mL. Large = $0.30, Small = $0.35 per 100 mL. Accept per litre comparison too.",
+        "sampleSolutions": ["Large: $4.50/15 = $0.30/100mL\nSmall: $2.10/6 = $0.35/100mL\n1.5L is better value"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["best buy", "unit conversion", "comparison"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 2, "conceptsUsed": ["c7", "c8"], "buildsOn": ["ratio-rate-y8-031"], "preparesFor": ["ratio-rate-y8-033"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can compare with unit conversion!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set4", "sequenceInPaper": 2},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-033",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A car uses 35 litres of petrol to travel 420 km.\n\na) Calculate the fuel consumption in L/100km.\nb) How many litres would the car need for a 600 km trip?\n\nShow your working.",
+      "solution": "**Solution:**\n\na) Fuel consumption:\n$$\\frac{35 \\text{ L}}{420 \\text{ km}} = \\frac{35}{420} \\times 100 = 8.33 \\text{ L/100km}$$\n\nb) Fuel for 600 km:\n$$\\frac{8.33}{100} \\times 600 = 50 \\text{ L}$$\n\n**Answers: a) 8.33 L/100km, b) 50 L**",
+      "hints": [
+        {"level": 1, "content": "L/100km means litres per 100 kilometres.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "a) 35 L for 420 km. Scale to 100 km: 35 × (100/420)", "revealsCriticalInfo": false},
+        {"level": 3, "content": "a) 8.33 L/100km. b) 8.33 × 6 = 50 L", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Fuel consumption is often expressed as L/100km in Australia.",
+          "encouragement": "This is how car efficiency is measured!",
+          "questionPrompt": "If 35L goes 420km, how much for 100km?"
+        },
+        {
+          "level": 2,
+          "content": "35 ÷ 420 × 100 = 8.33 L/100km",
+          "encouragement": "Now use this rate for part b!",
+          "questionPrompt": "How many 100km segments in 600km?"
+        },
+        {
+          "level": 3,
+          "content": "6 segments × 8.33 L = 50 L (or 35/420 × 600)",
+          "encouragement": "You can plan road trips!",
+          "questionPrompt": "At $2/L, what's the fuel cost for 600 km?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "35 L for 420 km",
+        "expectedAnswers": ["a) 8.33 L/100km b) 50 L", "8.33 and 50", "8.3 L/100km, 50L"],
+        "gradingGuidance": "a) 35/420 × 100 = 8.33 L/100km (accept 8.3). b) 8.33 × 6 = 50 L (or 35 × 600/420). Both parts needed.",
+        "sampleSolutions": ["a) 35/4.2 = 8.33 L/100km\nb) 8.33 × 6 = 50 L"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["fuel consumption", "L/100km", "rate application"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 3, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-032"], "preparesFor": ["ratio-rate-y8-034"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I understand fuel consumption rates!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set4", "sequenceInPaper": 3},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-034",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Worker A can pack 45 boxes in 3 hours.\nWorker B can pack 64 boxes in 4 hours.\n\nWho works faster? By how many boxes per hour?\n\nShow your working.",
+      "solution": "**Solution:**\n\nWorker A: 45 ÷ 3 = 15 boxes/hour\nWorker B: 64 ÷ 4 = 16 boxes/hour\n\nDifference: 16 - 15 = 1 box/hour\n\n**Answer: Worker B is faster by 1 box per hour**",
+      "hints": [
+        {"level": 1, "content": "Find each worker's rate in boxes per hour.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "A: 45÷3 = 15/h. B: 64÷4 = 16/h", "revealsCriticalInfo": false},
+        {"level": 3, "content": "B is faster by 16-15 = 1 box/hour", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Compare rates by finding boxes per hour for each.",
+          "encouragement": "Fair comparison needs the same units!",
+          "questionPrompt": "What is 45 ÷ 3 and 64 ÷ 4?"
+        },
+        {
+          "level": 2,
+          "content": "A = 15 boxes/h, B = 16 boxes/h",
+          "encouragement": "Now compare and find the difference!",
+          "questionPrompt": "Who is faster and by how much?"
+        },
+        {
+          "level": 3,
+          "content": "B is 1 box/hour faster",
+          "encouragement": "You've compared work rates!",
+          "questionPrompt": "Over 8 hours, how many more boxes would B pack?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "A: 45 boxes/3h, B: 64 boxes/4h",
+        "expectedAnswers": ["B by 1 box/hour", "Worker B, 1 box per hour faster", "B faster by 1"],
+        "gradingGuidance": "Must identify B as faster AND give the difference (1 box/h). Common error: comparing totals instead of rates.",
+        "sampleSolutions": ["A: 15 boxes/h, B: 16 boxes/h\nB faster by 1 box/h"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["comparing rates", "work rate"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 4, "conceptsUsed": ["c7", "c8"], "buildsOn": ["ratio-rate-y8-033"], "preparesFor": ["ratio-rate-y8-035"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can compare work rates!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set4", "sequenceInPaper": 4},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-035",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A phone plan offers 50 GB of data for $45 per month.\n\nAnother plan offers 80 GB for $64 per month.\n\nWhich plan offers better value per GB?\n\nShow your working.",
+      "solution": "**Solution:**\n\nPlan 1: $45 ÷ 50 GB = $0.90 per GB\nPlan 2: $64 ÷ 80 GB = $0.80 per GB\n\n**Answer: Plan 2 is better value ($0.80/GB vs $0.90/GB)**",
+      "hints": [
+        {"level": 1, "content": "Find the cost per GB for each plan.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Plan 1: $45/50. Plan 2: $64/80", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Plan 1: $0.90/GB. Plan 2: $0.80/GB", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Compare cost per GB to find value.",
+          "encouragement": "Phone plan maths!",
+          "questionPrompt": "How do you find cost per GB?"
+        },
+        {
+          "level": 2,
+          "content": "Divide cost by data: $45/50 and $64/80",
+          "encouragement": "Lower cost per GB = better value!",
+          "questionPrompt": "Which calculation gives less?"
+        },
+        {
+          "level": 3,
+          "content": "Plan 2 at $0.80/GB beats Plan 1 at $0.90/GB",
+          "encouragement": "You're a smart consumer!",
+          "questionPrompt": "If you use 100GB, how much would each plan cost?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Plan 1: 50GB/$45, Plan 2: 80GB/$64",
+        "expectedAnswers": ["Plan 2", "80GB plan", "Second plan"],
+        "gradingGuidance": "Compare $/GB. Plan 1 = $0.90/GB, Plan 2 = $0.80/GB. Plan 2 is better value.",
+        "sampleSolutions": ["P1: $0.90/GB, P2: $0.80/GB\nPlan 2 is better value"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["unit price", "value comparison"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 5, "conceptsUsed": ["c7", "c8"], "buildsOn": ["ratio-rate-y8-031"], "preparesFor": ["ratio-rate-y8-036"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can compare phone plans!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set4", "sequenceInPaper": 5},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-036",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A train travels at 120 km/h. A car travels at 90 km/h.\n\nThey both leave at 9:00 AM from the same station travelling in the same direction.\n\nHow far apart are they at 11:30 AM?\n\nShow your working.",
+      "solution": "**Solution:**\n\nTime travelled: 9:00 to 11:30 = 2.5 hours\n\nTrain distance: 120 × 2.5 = 300 km\nCar distance: 90 × 2.5 = 225 km\n\nDifference: 300 - 225 = 75 km\n\n**Answer: 75 km apart**",
+      "hints": [
+        {"level": 1, "content": "First find the time travelled (from 9:00 to 11:30).", "revealsCriticalInfo": false},
+        {"level": 2, "content": "2.5 hours. Find distance for each: D = S × T", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Train: 300 km, Car: 225 km. Difference = 75 km", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Both travel for the same time. Find that time first.",
+          "encouragement": "Time from 9:00 to 11:30?",
+          "questionPrompt": "How many hours is 9:00 AM to 11:30 AM?"
+        },
+        {
+          "level": 2,
+          "content": "2.5 hours each. Calculate distance for each vehicle.",
+          "encouragement": "D = S × T for each!",
+          "questionPrompt": "What is 120 × 2.5 and 90 × 2.5?"
+        },
+        {
+          "level": 3,
+          "content": "Train: 300 km, Car: 225 km. Find the gap.",
+          "encouragement": "They're pulling apart!",
+          "questionPrompt": "What is 300 - 225?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Train 120km/h, Car 90km/h, 9:00-11:30",
+        "expectedAnswers": ["75 km", "75km", "75 kilometres", "75"],
+        "gradingGuidance": "Time = 2.5h. Train = 300 km, Car = 225 km. Gap = 75 km. Alternative: speed difference × time = 30 × 2.5 = 75 km.",
+        "sampleSolutions": ["2.5 h travel time\nTrain: 300 km, Car: 225 km\nGap = 75 km", "Speed diff = 30 km/h\n30 × 2.5 = 75 km"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["relative speed", "SDT problems"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 6, "conceptsUsed": ["c9"], "buildsOn": ["ratio-rate-y8-025", "ratio-rate-y8-026"], "preparesFor": ["ratio-rate-y8-037"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can solve relative motion problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set4", "sequenceInPaper": 6},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-037",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A recipe for 6 people requires:\n- 400g of mince\n- 200g of pasta\n- 150g of cheese\n\nHow much of each ingredient is needed for 9 people?\n\nShow your working.",
+      "solution": "**Solution:**\n\nMultiplier = 9 ÷ 6 = 1.5\n\nMince: 400 × 1.5 = 600g\nPasta: 200 × 1.5 = 300g\nCheese: 150 × 1.5 = 225g\n\n**Answer: 600g mince, 300g pasta, 225g cheese**",
+      "hints": [
+        {"level": 1, "content": "Find the scaling factor: 9 people ÷ 6 people.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Multiplier = 1.5. Apply to each ingredient.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "Mince: 600g, Pasta: 300g, Cheese: 225g", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Scale all ingredients by the same factor.",
+          "encouragement": "Ratios keep the recipe balanced!",
+          "questionPrompt": "What is 9 ÷ 6?"
+        },
+        {
+          "level": 2,
+          "content": "Multiply each amount by 1.5.",
+          "encouragement": "That's 50% more of everything!",
+          "questionPrompt": "What is 400 × 1.5, 200 × 1.5, 150 × 1.5?"
+        },
+        {
+          "level": 3,
+          "content": "600g, 300g, 225g",
+          "encouragement": "You've scaled a recipe perfectly!",
+          "questionPrompt": "What if you wanted to serve 3 people?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "6 people recipe, scale to 9 people",
+        "expectedAnswers": ["600g, 300g, 225g", "Mince 600g Pasta 300g Cheese 225g"],
+        "gradingGuidance": "Multiplier = 1.5. All three amounts needed. Accept working per ingredient or using multiplier for all.",
+        "sampleSolutions": ["×1.5: Mince=600g, Pasta=300g, Cheese=225g"],
+        "minimumWorkLines": 3,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["recipe scaling", "proportional reasoning"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 7, "conceptsUsed": ["c3", "c5"], "buildsOn": ["ratio-rate-y8-019"], "preparesFor": ["ratio-rate-y8-038"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can scale recipes with multiple ingredients!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set4", "sequenceInPaper": 7},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-038",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Exchange rate: $1 AUD = $0.65 USD\n\nA laptop costs $1,200 USD.\n\nHow much is this in Australian dollars?\n\nShow your working.",
+      "solution": "**Solution:**\n\n$1 AUD = $0.65 USD\n\nTo find how many AUD equals $1,200 USD:\n$$\\text{AUD} = \\frac{1200}{0.65} = 1846.15$$\n\n**Answer: $1,846.15 AUD (or approx $1,846)**",
+      "hints": [
+        {"level": 1, "content": "You're converting FROM USD TO AUD. What operation?", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Divide USD by the exchange rate.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "$1,200 ÷ 0.65 = $1,846.15 AUD", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "If $1 AUD = $0.65 USD, then AUD is worth MORE than USD.",
+          "encouragement": "Think about which direction to convert!",
+          "questionPrompt": "Should the AUD amount be more or less than 1,200?"
+        },
+        {
+          "level": 2,
+          "content": "Since AUD buys less USD, you need MORE AUD. Divide.",
+          "encouragement": "Currency conversion logic!",
+          "questionPrompt": "What is 1,200 ÷ 0.65?"
+        },
+        {
+          "level": 3,
+          "content": "$1,846.15 AUD",
+          "encouragement": "You've converted currencies both ways!",
+          "questionPrompt": "Check: $1,846.15 × 0.65 ≈ $1,200?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "$1 AUD = $0.65 USD, Convert $1,200 USD to AUD",
+        "expectedAnswers": ["$1,846.15", "$1846.15", "1846.15", "$1,846", "approximately $1846"],
+        "gradingGuidance": "Divide by exchange rate: 1200/0.65 = 1846.15. Accept rounded to $1,846. Common error: multiplying instead of dividing.",
+        "sampleSolutions": ["AUD = $1,200 ÷ 0.65 = $1,846.15"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["exchange rate", "reverse conversion"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 120,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 8, "conceptsUsed": ["c5", "c7"], "buildsOn": ["ratio-rate-y8-027"], "preparesFor": ["ratio-rate-y8-039"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can convert currencies both ways!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set4", "sequenceInPaper": 8},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-039",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "A swimming pool holds 45,000 litres. A pump fills it at 250 litres per minute.\n\nHow long will it take to fill the pool? Give your answer in hours and minutes.\n\nShow your working.",
+      "solution": "**Solution:**\n\nTime in minutes = 45,000 ÷ 250 = 180 minutes\n\nConvert to hours and minutes:\n180 min = 3 hours 0 minutes\n\n**Answer: 3 hours**",
+      "hints": [
+        {"level": 1, "content": "Time = Volume ÷ Rate", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Time = 45,000 ÷ 250 = 180 minutes", "revealsCriticalInfo": false},
+        {"level": 3, "content": "180 min = 3 hours", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "How many minutes to fill? Then convert to hours.",
+          "encouragement": "Same structure as SDT problems!",
+          "questionPrompt": "What is 45,000 ÷ 250?"
+        },
+        {
+          "level": 2,
+          "content": "180 minutes. Convert to hours and minutes.",
+          "encouragement": "Almost there!",
+          "questionPrompt": "How many hours is 180 minutes?"
+        },
+        {
+          "level": 3,
+          "content": "180 ÷ 60 = 3 hours exactly",
+          "encouragement": "You've solved a practical rate problem!",
+          "questionPrompt": "What if the pump was twice as fast?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "45,000 L, Rate = 250 L/min",
+        "expectedAnswers": ["3 hours", "3 h", "3h 0min", "180 minutes", "3 hours 0 minutes"],
+        "gradingGuidance": "45,000 ÷ 250 = 180 min = 3 h. Accept either format.",
+        "sampleSolutions": ["45,000 ÷ 250 = 180 min = 3 hours"],
+        "minimumWorkLines": 2,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["rate application", "time conversion"]
+      },
+      "difficulty": 2,
+      "estimatedTime": 90,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 9, "conceptsUsed": ["c6", "c7"], "buildsOn": ["ratio-rate-y8-028"], "preparesFor": ["ratio-rate-y8-040"]},
+      "pedagogy": {"type": "application", "targetFeeling": "I can solve practical rate problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set4", "sequenceInPaper": 9},
+      "status": "published"
+    },
+    {
+      "questionId": "ratio-rate-y8-040",
+      "questionType": "WORKED_SOLUTION",
+      "stem": "Three friends share a prize in the ratio of their ages.\nEmma is 12, Finn is 15, and Grace is 18.\n\nIf the total prize is $900, how much does each person receive?\n\nShow your working.",
+      "solution": "**Solution:**\n\nRatio of ages = 12 : 15 : 18\nSimplify by dividing by 3: = 4 : 5 : 6\n\nTotal parts = 4 + 5 + 6 = 15\n1 part = $900 ÷ 15 = $60\n\nEmma (4 parts) = 4 × $60 = $240\nFinn (5 parts) = 5 × $60 = $300\nGrace (6 parts) = 6 × $60 = $360\n\n**Answer: Emma $240, Finn $300, Grace $360**\n\n**Check:** $240 + $300 + $360 = $900 ✓",
+      "hints": [
+        {"level": 1, "content": "The ratio is their ages: 12 : 15 : 18. Simplify first.", "revealsCriticalInfo": false},
+        {"level": 2, "content": "Simplified ratio = 4 : 5 : 6. Total = 15 parts.", "revealsCriticalInfo": false},
+        {"level": 3, "content": "1 part = $60. Emma=$240, Finn=$300, Grace=$360", "revealsCriticalInfo": true}
+      ],
+      "encouragingHints": [
+        {
+          "level": 1,
+          "content": "Ages form the ratio. Simplify to make calculation easier.",
+          "encouragement": "12:15:18 can be simplified!",
+          "questionPrompt": "What's the HCF of 12, 15, and 18?"
+        },
+        {
+          "level": 2,
+          "content": "÷3 gives 4:5:6. Total = 15 parts = $900.",
+          "encouragement": "Find the value of one part!",
+          "questionPrompt": "What is $900 ÷ 15?"
+        },
+        {
+          "level": 3,
+          "content": "$60 per part. Multiply for each person.",
+          "encouragement": "Check: do they add to $900?",
+          "questionPrompt": "Is $240 + $300 + $360 = $900?"
+        }
+      ],
+      "workedSolutionConfig": {
+        "startingExpression": "Ages 12:15:18, Prize = $900",
+        "expectedAnswers": ["Emma $240, Finn $300, Grace $360", "$240 $300 $360", "240, 300, 360"],
+        "gradingGuidance": "Can use 12:15:18 directly or simplify to 4:5:6. Both valid. All three amounts must sum to $900.",
+        "sampleSolutions": ["4:5:6, total=15 parts\n1 part=$60\nE=$240, F=$300, G=$360"],
+        "minimumWorkLines": 4,
+        "topic": "ratios-rates",
+        "year": 8,
+        "keyConcepts": ["ratio from context", "three-part division"]
+      },
+      "difficulty": 3,
+      "estimatedTime": 150,
+      "curriculum": {"system": "ACARA", "codes": ["ACMNA188"], "year": 8, "subject": "Mathematics", "strand": "Number and Algebra"},
+      "learningArc": {"phase": 2, "phasePosition": 10, "conceptsUsed": ["c2", "c4"], "buildsOn": ["ratio-rate-y8-012"], "preparesFor": ["ratio-rate-y8-041"]},
+      "pedagogy": {"type": "consolidation", "targetFeeling": "I can solve real-world ratio problems!"},
+      "richContent": {"hasEquations": true, "hasTables": false, "hasDiagrams": false},
+      "paperMetadata": {"section": "year8-mathematics", "setId": "year8-ratios-rates-set4", "sequenceInPaper": 10},
+      "status": "published"
+    }
+  ]
+}
