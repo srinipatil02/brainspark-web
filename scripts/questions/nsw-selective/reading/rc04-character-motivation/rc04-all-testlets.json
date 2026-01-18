@@ -1,0 +1,2418 @@
+{
+  "testlets": [
+    {
+      "testletId": "nsw-sel-rc04-testlet-001",
+      "passage": {
+        "passageId": "passage-rc04-001",
+        "title": "The New Student",
+        "textType": "prose",
+        "genre": "realistic_fiction",
+        "wordCount": 510,
+        "readingLevel": "Year 6+",
+        "content": "Maya watched from across the cafeteria as the new girl sat alone at the corner table, methodically unwrapping her sandwich as if it required her complete concentration. Three days now, and nobody had talked to her.\n\nIt wasn't that people were being mean, exactly. It was more that everyone already had their groups, their tables, their established orbits. The new girl—Sarah, Maya thought her name was—had arrived in the middle of the school year, which was basically the social equivalent of showing up to a movie twenty minutes late and trying to find a seat in the dark.\n\nMaya knew she should go over. She knew it because she remembered being new once, back in Year 3, standing at the edge of the playground like someone waiting for permission to exist. A girl named Priya had walked over that day and asked if Maya wanted to play handball. Just like that. Seven years later, Priya was still her best friend.\n\nBut Priya wasn't here today—she was home with the flu—and somehow that made everything harder. Without Priya beside her, Maya felt like a different person, a quieter person, someone who noticed things like girls eating alone but didn't necessarily do anything about it.\n\nShe could text Priya for advice. Her phone was right there in her pocket, and Priya always knew what to say. But even as Maya's hand moved toward it, she stopped. She knew exactly what Priya would text back: 'Just go talk to her, dummy. You're making it weird.'\n\nThe thing was, Sarah didn't look sad, exactly. She looked careful. She ate her sandwich in small, deliberate bites, her eyes occasionally scanning the room in a way that seemed almost strategic. Maya recognised that look—it was the look of someone trying very hard to seem fine while cataloguing every detail, waiting to understand the rules before playing the game.\n\nMaya thought about what would happen if she walked over. Sarah might be grateful. Or Sarah might want to be left alone. Or Sarah might be perfectly happy with her sandwich and her strategic observations and might wonder why some random girl was suddenly invading her carefully constructed solitude.\n\nThe lunch period was half over now. Maya had spent fifteen minutes watching and thinking and not doing, which was probably worse than doing nothing at all.\n\nShe stood up before she could talk herself out of it.\n\n'Hey,' Maya said, sliding into the seat across from Sarah. 'I'm Maya. I don't really have a reason to be here, I just noticed you were new and I remembered being new once and it was the worst, so. Yeah. Hi.'\n\nSarah looked at her for a long moment, her expression unreadable. Then something in her face shifted—not quite a smile, but something close to it. Something like relief.\n\n'I'm Sarah,' she said. 'And honestly? I've been waiting three days for someone to do exactly this. I was starting to think you all had a rule against talking to new people.'\n\nMaya laughed. 'No rule. We're just really bad at not being awkward.'\n\n'Good to know,' Sarah said. 'I can work with awkward.'",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "950-1050L",
+        "themes": [
+          "empathy",
+          "social courage",
+          "belonging",
+          "memory shaping action"
+        ],
+        "literaryDevices": [
+          "internal monologue",
+          "simile",
+          "parallel structure"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc04-001",
+          "questionType": "MCQ",
+          "stem": "Maya's primary motivation for watching Sarah from across the cafeteria is that she:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Feels obligated because a teacher asked her to help",
+              "isCorrect": false,
+              "feedback": "No teacher is mentioned. Maya's sense of obligation comes from her OWN memory of being new—it's self-generated, not assigned by anyone else."
+            },
+            {
+              "id": "B",
+              "text": "Wants to impress Priya by making a new friend",
+              "isCorrect": false,
+              "feedback": "There's no indication Maya wants to impress anyone. In fact, Priya isn't even there ('home with the flu'). Maya's motivation is internal, not about impressing others."
+            },
+            {
+              "id": "C",
+              "text": "Recognises Sarah's situation from her own past experience",
+              "isCorrect": true,
+              "feedback": "Correct! Maya specifically remembers 'being new once, back in Year 3' and connects her own experience to what Sarah must be feeling. Her observation is driven by recognition and empathy."
+            },
+            {
+              "id": "D",
+              "text": "Is curious about why Sarah chooses to eat alone",
+              "isCorrect": false,
+              "feedback": "Maya isn't puzzled by WHY Sarah eats alone—she understands it perfectly ('everyone already had their groups'). Her focus is on whether she should DO something, not on curiosity about Sarah's choice."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 2,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 3",
+              "quoteHint": "she remembered being new once"
+            },
+            "distractorTypes": {
+              "D": "half_right",
+              "B": "out_of_scope",
+              "A": "out_of_scope"
+            },
+            "inferenceType": "character_motivation",
+            "questionFunction": "Identify primary motivation through textual evidence"
+          },
+          "difficulty": 2,
+          "estimatedTime": 45,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What memory does Maya have while watching Sarah?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How did Maya feel when she was new? How does this connect to Sarah?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Maya remembers her own experience being new in Year 3—she sees herself in Sarah.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-001",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-002",
+          "questionType": "MCQ",
+          "stem": "Maya hesitates to approach Sarah primarily because she:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Worries that Sarah might be rude to her",
+              "isCorrect": false,
+              "feedback": "Maya's concerns are more nuanced. She worries Sarah might 'want to be left alone' or might be 'perfectly happy'—not that Sarah would be rude. She's uncertain, not afraid of rudeness."
+            },
+            {
+              "id": "B",
+              "text": "Believes the other students will judge her",
+              "isCorrect": false,
+              "feedback": "Maya never thinks about what other students will think. Her hesitation is entirely internal—about her own confidence and uncertainty about Sarah's reaction."
+            },
+            {
+              "id": "C",
+              "text": "Does not know what to say to someone new",
+              "isCorrect": false,
+              "feedback": "When Maya does approach, she speaks easily. The hesitation isn't about not knowing what to say—it's about lacking confidence without her friend there."
+            },
+            {
+              "id": "D",
+              "text": "Feels uncertain of herself without Priya's presence",
+              "isCorrect": true,
+              "feedback": "Correct! The text explicitly states 'Without Priya beside her, Maya felt like a different person, a quieter person.' Priya's absence makes Maya feel less confident."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 2,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 4",
+              "quoteHint": "Without Priya beside her"
+            },
+            "distractorTypes": {
+              "A": "half_right",
+              "B": "out_of_scope",
+              "C": "half_right"
+            },
+            "inferenceType": "character_motivation",
+            "questionFunction": "Identify source of character's hesitation"
+          },
+          "difficulty": 2,
+          "estimatedTime": 45,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What's different about this day compared to normal for Maya?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How does Maya describe herself 'without Priya beside her'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Without Priya, Maya feels like 'a different person, a quieter person'—less confident.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-001",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-003",
+          "questionType": "MCQ",
+          "stem": "Maya stops herself from texting Priya because she:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Does not want to disturb Priya while she is sick",
+              "isCorrect": false,
+              "feedback": "While Priya is sick, this isn't why Maya stops. The text shows Maya stops because she 'knew exactly what Priya would text back'—she already has the answer."
+            },
+            {
+              "id": "B",
+              "text": "Already knows what Priya would tell her to do",
+              "isCorrect": true,
+              "feedback": "Correct! Maya thinks 'She knew exactly what Priya would text back.' She doesn't need to ask because she already knows the answer—she just needs to act on it."
+            },
+            {
+              "id": "C",
+              "text": "Decides the situation is not important enough",
+              "isCorrect": false,
+              "feedback": "Maya clearly thinks the situation IS important—she spends fifteen minutes thinking about it and ultimately acts. She doesn't dismiss it as unimportant."
+            },
+            {
+              "id": "D",
+              "text": "Realises her phone battery is low",
+              "isCorrect": false,
+              "feedback": "There's no mention of battery issues. This is completely absent from the text—Maya's reason is psychological, not practical."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 2,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 5",
+              "quoteHint": "She knew exactly what Priya would text back"
+            },
+            "distractorTypes": {
+              "A": "half_right",
+              "D": "out_of_scope",
+              "C": "opposite_meaning"
+            },
+            "inferenceType": "character_decision",
+            "questionFunction": "Understand reasoning behind character's choice"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Maya think about just after her hand moves toward her phone?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Does Maya need Priya's advice, or does she already know it?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "She 'knew exactly what Priya would text back'—she doesn't need to ask what she already knows.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-001",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-004",
+          "questionType": "MCQ",
+          "stem": "Sarah's behaviour of eating 'in small, deliberate bites' while 'scanning the room' suggests she is motivated by a desire to:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Avoid drawing attention to herself",
+              "isCorrect": false,
+              "feedback": "While Sarah is quiet, she's not trying to hide—she's OBSERVING. The 'strategic' scanning suggests active information-gathering, not avoidance. She wants to learn, not disappear."
+            },
+            {
+              "id": "B",
+              "text": "Understand the social rules before participating",
+              "isCorrect": true,
+              "feedback": "Correct! Maya explicitly interprets this as 'waiting to understand the rules before playing the game.' Sarah is observing strategically, trying to figure out how things work."
+            },
+            {
+              "id": "C",
+              "text": "Show that she does not need friends",
+              "isCorrect": false,
+              "feedback": "Sarah's final revelation ('I've been waiting three days for someone to do exactly this') proves she DOES want connection. Her careful behaviour was caution, not rejection of friendship."
+            },
+            {
+              "id": "D",
+              "text": "Make the other students feel guilty for ignoring her",
+              "isCorrect": false,
+              "feedback": "Nothing suggests Sarah is trying to create guilt. Her behaviour is about observation and self-protection, not manipulation or making others feel bad."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 6",
+              "quoteHint": "waiting to understand the rules before playing the game"
+            },
+            "distractorTypes": {
+              "A": "half_right",
+              "C": "opposite_meaning",
+              "D": "wrong_tone"
+            },
+            "inferenceType": "character_motivation",
+            "questionFunction": "Infer motivation from observed behaviour"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "How does Maya interpret Sarah's scanning of the room?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What word does Maya use to describe Sarah's observations?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Strategic' and 'waiting to understand the rules before playing the game'—she's studying the social environment.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-001",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-005",
+          "questionType": "MCQ",
+          "stem": "Maya finally approaches Sarah because she:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Realises that overthinking is worse than taking action",
+              "isCorrect": true,
+              "feedback": "Correct! Maya explicitly thinks that 'spending fifteen minutes watching and thinking and not doing' was 'probably worse than doing nothing at all.' She stands up to break the cycle of overthinking."
+            },
+            {
+              "id": "B",
+              "text": "Receives encouragement from another student",
+              "isCorrect": false,
+              "feedback": "No other student interacts with Maya. She makes the decision entirely on her own, without external encouragement from anyone present."
+            },
+            {
+              "id": "C",
+              "text": "Wants to prove she can make friends without Priya",
+              "isCorrect": false,
+              "feedback": "Maya's motivation isn't about proving herself. There's no competitive element—she acts because overthinking felt worse than acting, not to prove anything."
+            },
+            {
+              "id": "D",
+              "text": "Sees that Sarah looks sad and needs comfort",
+              "isCorrect": false,
+              "feedback": "The text explicitly states 'Sarah didn't look sad, exactly.' Maya isn't responding to visible distress—she's acting on her own values despite uncertainty about Sarah's feelings."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 8",
+              "quoteHint": "probably worse than doing nothing at all"
+            },
+            "distractorTypes": {
+              "D": "opposite_meaning",
+              "B": "out_of_scope",
+              "C": "out_of_scope"
+            },
+            "inferenceType": "turning_point",
+            "questionFunction": "Identify what triggers character's decision to act"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Maya realise about her fifteen minutes of watching?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does she think is 'probably worse than doing nothing at all'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "She realises overthinking and 'not doing' was worse—so she acts to break the cycle.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-001",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-006",
+          "questionType": "MCQ",
+          "stem": "Sarah's final comment—'I can work with awkward'—reveals that her underlying motivation throughout was to:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Lower Maya's expectations so Maya would not be disappointed",
+              "isCorrect": false,
+              "feedback": "Sarah isn't managing Maya's expectations—she's expressing genuine acceptance. 'I can work with awkward' is welcoming, not setting up low expectations."
+            },
+            {
+              "id": "B",
+              "text": "Find genuine connection rather than perfect social performance",
+              "isCorrect": true,
+              "feedback": "Correct! Sarah accepts 'awkward' because she values authenticity over polished social behaviour. She was waiting for real connection, not a flawless introduction."
+            },
+            {
+              "id": "C",
+              "text": "Test whether Maya was patient enough to be a real friend",
+              "isCorrect": false,
+              "feedback": "Sarah wasn't testing Maya. She reveals she was 'waiting' for someone—not evaluating people. Her comment is relief and acceptance, not the end of a test."
+            },
+            {
+              "id": "D",
+              "text": "Make a joke to hide how uncomfortable she felt",
+              "isCorrect": false,
+              "feedback": "While the line is light, it's not deflecting discomfort. Sarah's 'something like relief' shows she's genuinely pleased. The comment expresses acceptance, not hidden discomfort."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraph",
+              "quoteHint": "I can work with awkward"
+            },
+            "distractorTypes": {
+              "A": "out_of_scope",
+              "C": "out_of_scope",
+              "D": "half_right"
+            },
+            "inferenceType": "revealed_motivation",
+            "questionFunction": "Understand character values through dialogue"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What had Sarah been waiting for? Did she get it?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Maya calls herself 'awkward.' What does Sarah's response tell us about what Sarah values?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Sarah accepts awkwardness because she wants genuine connection—imperfect is fine if it's real.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-001",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Character Motivation",
+        "archetypeId": "rc04",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "2-4",
+        "comprehensionLevelDistribution": {
+          "level2": 3,
+          "level3": 3
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc04-testlet-002",
+      "passage": {
+        "passageId": "passage-rc04-002",
+        "title": "The Championship Game",
+        "textType": "prose",
+        "genre": "sports_fiction",
+        "wordCount": 495,
+        "readingLevel": "Year 6+",
+        "content": "Coach Rivera called a timeout with forty-seven seconds left and the team down by two points. Everyone on the bench knew what was coming: the play would go to Jackson. It always went to Jackson.\n\nJackson was the best player on the team—probably the best player in the league. He could hit three-pointers with defenders hanging off him. He had a crossover that made opponents look like they were standing on ice. Every highlight reel from the season featured Jackson doing something impossible.\n\nBut as the team huddled around Coach Rivera, Marcus noticed something he'd never seen before: Jackson's hands were shaking.\n\n'Jackson takes the final shot,' Coach said, exactly as expected. 'Marcus, you set the screen. Everyone else clears out.'\n\nMarcus nodded, but he kept watching Jackson. The shaking hadn't stopped. Jackson's eyes were fixed on the floor, his jaw tight, his breathing shallow. Marcus had seen this look before—not on Jackson, but on his little brother Daniel before piano recitals. It was the look of someone carrying too much pressure.\n\nThe thing was, Jackson hadn't missed a game-winning shot all season. Four times now, the team had been in exactly this situation, and four times Jackson had delivered. That was the problem, Marcus realised. Jackson wasn't afraid of missing. He was afraid of what missing would mean—that the one thing everyone counted on him for might not be true anymore.\n\n'Hey,' Marcus said quietly, leaning closer to Jackson while Coach continued diagramming the play. 'You know you don't have to make it, right?'\n\nJackson looked up, surprised. 'What?'\n\n'The shot. You don't have to make it. We're still going to be a team tomorrow either way. This isn't... everything.'\n\nJackson stared at him for a long moment. Something in his expression shifted—the tightness in his jaw loosened just slightly.\n\n'Thanks,' Jackson said. It wasn't much, but his hands had stopped shaking.\n\nThe buzzer sounded and the team broke the huddle. Marcus set the screen exactly as planned, and Jackson caught the ball at the three-point line with three seconds left. A defender rushed toward him, arms raised.\n\nJackson pump-faked, and the defender flew past. Then, instead of shooting, Jackson did something no one expected: he passed. The ball found Marcus, alone on the baseline, with no time to think.\n\nMarcus shot. The ball arced through the air, hit the back of the rim, bounced twice, and dropped through the net as the buzzer sounded.\n\nThe crowd erupted. Teammates mobbed Marcus, shouting his name. But through the chaos, Marcus found Jackson standing at half-court, smiling.\n\nLater, after the celebration had died down, Marcus caught up with Jackson in the parking lot.\n\n'Why'd you pass?' Marcus asked. 'You had the shot.'\n\nJackson shrugged. 'You told me I didn't have to make it. I figured that meant I didn't have to take it either.' He paused. 'Besides, you were more open than I was. It was the right play.'\n\nMarcus laughed. 'Since when do you make the right play?'\n\n'Since someone reminded me it's not everything,' Jackson said.",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "950-1050L",
+        "themes": [
+          "pressure and performance",
+          "teamwork",
+          "redefining success",
+          "emotional support"
+        ],
+        "literaryDevices": [
+          "foreshadowing",
+          "internal monologue",
+          "contrast"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc04-007",
+          "questionType": "MCQ",
+          "stem": "Marcus's primary motivation for speaking to Jackson during the timeout is that he:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Wants Jackson to pass him the ball instead",
+              "isCorrect": false,
+              "feedback": "Marcus never suggests he wants the ball. His words ('You don't have to make it') are about relieving pressure, not about getting the shot himself."
+            },
+            {
+              "id": "B",
+              "text": "Thinks the play should go to someone else",
+              "isCorrect": false,
+              "feedback": "Marcus never questions the play call. He accepts his role ('Marcus nodded') and speaks to Jackson privately about pressure, not about changing the strategy."
+            },
+            {
+              "id": "C",
+              "text": "Is angry that Jackson gets all the attention",
+              "isCorrect": false,
+              "feedback": "There's no indication of jealousy or anger. Marcus's words are supportive and kind—he's trying to help Jackson, not express resentment."
+            },
+            {
+              "id": "D",
+              "text": "Recognises Jackson is struggling under pressure and wants to help",
+              "isCorrect": true,
+              "feedback": "Correct! Marcus notices Jackson's shaking hands and connects it to 'the look of someone carrying too much pressure.' His quiet words are an attempt to relieve that pressure."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 2,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 5",
+              "quoteHint": "carrying too much pressure"
+            },
+            "distractorTypes": {
+              "A": "opposite_meaning",
+              "C": "wrong_tone",
+              "B": "out_of_scope"
+            },
+            "inferenceType": "character_motivation",
+            "questionFunction": "Identify motivation behind supportive action"
+          },
+          "difficulty": 2,
+          "estimatedTime": 45,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Marcus observe about Jackson that others might miss?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does Marcus compare Jackson's look to? What does that comparison tell us?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "He sees 'someone carrying too much pressure'—he speaks up to help relieve it.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-002",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-008",
+          "questionType": "MCQ",
+          "stem": "According to Marcus's insight, Jackson's fear before the shot comes from:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Lack of confidence in his shooting ability",
+              "isCorrect": false,
+              "feedback": "The TEXT states: 'Jackson wasn't afraid of missing.' He HAS confidence in his ability. The fear is about what missing would MEAN, not about whether he CAN make it."
+            },
+            {
+              "id": "B",
+              "text": "Physical fatigue from playing the entire game",
+              "isCorrect": false,
+              "feedback": "There's no mention of tiredness. Marcus explicitly identifies this as PRESSURE, not exhaustion. Jackson's hands shake from anxiety, not physical fatigue."
+            },
+            {
+              "id": "C",
+              "text": "Worry that missing would change how people see his identity",
+              "isCorrect": true,
+              "feedback": "Correct! Marcus realises Jackson fears 'what missing would mean—that the one thing everyone counted on him for might not be true anymore.' It's about identity, not just one miss."
+            },
+            {
+              "id": "D",
+              "text": "Concern that his teammates will be angry with him",
+              "isCorrect": false,
+              "feedback": "The fear isn't about teammates' anger. It's about Jackson's IDENTITY—being the person who always makes the shot. The fear is about who he is, not others' reactions."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 6",
+              "quoteHint": "afraid of what missing would mean"
+            },
+            "distractorTypes": {
+              "D": "half_right",
+              "B": "out_of_scope",
+              "A": "opposite_meaning"
+            },
+            "inferenceType": "character_fear",
+            "questionFunction": "Distinguish surface fear from deeper motivation"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Marcus say Jackson is NOT afraid of?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does Marcus say Jackson IS actually afraid of?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Afraid of what missing would mean'—losing his identity as the reliable star.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-002",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-009",
+          "questionType": "MCQ",
+          "stem": "Marcus's words 'We're still going to be a team tomorrow either way' are designed to:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Remind Jackson that there will be more games next season",
+              "isCorrect": false,
+              "feedback": "Marcus isn't talking about future games—he's talking about TOMORROW, about the team's relationships continuing regardless of tonight's result."
+            },
+            {
+              "id": "B",
+              "text": "Suggest that the game does not matter",
+              "isCorrect": false,
+              "feedback": "Marcus doesn't say the game doesn't matter—he says 'This isn't everything.' There's a difference between important and EVERYTHING. He's putting it in perspective, not dismissing it."
+            },
+            {
+              "id": "C",
+              "text": "Warn Jackson that losing might affect the team",
+              "isCorrect": false,
+              "feedback": "This is the OPPOSITE of Marcus's message. He's saying the team bond WON'T be affected—'still going to be a team'—not that it will."
+            },
+            {
+              "id": "D",
+              "text": "Separate Jackson's worth from the outcome of one shot",
+              "isCorrect": true,
+              "feedback": "Correct! Marcus is telling Jackson that team relationships and Jackson's value aren't dependent on making this shot. He's separating Jackson's worth from one performance."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 8",
+              "quoteHint": "still going to be a team tomorrow"
+            },
+            "distractorTypes": {
+              "B": "too_extreme",
+              "C": "opposite_meaning",
+              "A": "half_right"
+            },
+            "inferenceType": "character_intent",
+            "questionFunction": "Analyze purpose of specific dialogue"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What was Jackson worried about (from Marcus's insight)?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How do Marcus's words address that specific worry?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Jackson fears losing his identity; Marcus says 'team tomorrow'—worth isn't tied to outcome.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-002",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-010",
+          "questionType": "MCQ",
+          "stem": "Jackson's decision to pass instead of shoot is motivated by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Desire to prove Marcus's words wrong",
+              "isCorrect": false,
+              "feedback": "Jackson's explanation ('you were more open than I was') shows he's AGREEING with Marcus's philosophy, not trying to prove him wrong."
+            },
+            {
+              "id": "B",
+              "text": "Wanting Marcus to experience success for once",
+              "isCorrect": false,
+              "feedback": "While Marcus does succeed, Jackson explains his reason: 'It was the right play.' The decision was about basketball strategy, not about giving Marcus a moment."
+            },
+            {
+              "id": "C",
+              "text": "Freedom from the need to be the one who always scores",
+              "isCorrect": true,
+              "feedback": "Correct! Marcus freed Jackson from the pressure of having to make the shot. This freedom allowed Jackson to see and make 'the right play'—passing to the open player."
+            },
+            {
+              "id": "D",
+              "text": "Fear that he would miss the shot",
+              "isCorrect": false,
+              "feedback": "Jackson's hands stopped shaking after Marcus's words—the fear was addressed. The pass wasn't about fear; it was about being free to make the best play."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "final conversation",
+              "quoteHint": "didn't have to take it either"
+            },
+            "distractorTypes": {
+              "D": "half_right",
+              "A": "opposite_meaning",
+              "B": "out_of_scope"
+            },
+            "inferenceType": "character_action",
+            "questionFunction": "Connect earlier dialogue to later action"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What did Marcus tell Jackson he didn't have to do?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How does Jackson extend Marcus's message in his explanation?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Didn't have to make it' became 'didn't have to take it'—freedom to choose the best play.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-002",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-011",
+          "questionType": "MCQ",
+          "stem": "Jackson's explanation that 'you were more open than I was' reveals that his true motivation was:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Showing that he does not care about his statistics",
+              "isCorrect": false,
+              "feedback": "The pass wasn't about making a statement about statistics—it was about making 'the right play.' Jackson is explaining basketball logic, not rejecting stats."
+            },
+            {
+              "id": "B",
+              "text": "Making the best decision for the team rather than for himself",
+              "isCorrect": true,
+              "feedback": "Correct! Jackson could have taken the shot for personal glory but chose the objectively better play. The pass was about team success, not individual heroics."
+            },
+            {
+              "id": "C",
+              "text": "Hoping the defender would look foolish",
+              "isCorrect": false,
+              "feedback": "While Jackson does fake out the defender, his explanation focuses entirely on Marcus being open—not on embarrassing anyone."
+            },
+            {
+              "id": "D",
+              "text": "Testing whether Marcus could handle pressure",
+              "isCorrect": false,
+              "feedback": "Jackson didn't have time to test anything—there were three seconds left. The decision was immediate and strategic, not an experiment."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraph",
+              "quoteHint": "you were more open"
+            },
+            "distractorTypes": {
+              "A": "out_of_scope",
+              "D": "out_of_scope",
+              "C": "out_of_scope"
+            },
+            "inferenceType": "values_revealed",
+            "questionFunction": "Understand character growth through action explanation"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What reason does Jackson give for passing?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Is 'you were more open' about Jackson or about winning?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'More open' = best chance to score = team success over personal glory.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-002",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-012",
+          "questionType": "MCQ",
+          "stem": "Jackson's final statement—'Since someone reminded me it's not everything'—suggests his overall change in motivation from:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Carrying the burden of always performing to playing freely as part of a team",
+              "isCorrect": true,
+              "feedback": "Correct! Before, Jackson felt he HAD to deliver (burden). After Marcus's words, he could play without that pressure—making the right play freely rather than feeling forced to be the hero."
+            },
+            {
+              "id": "B",
+              "text": "Being selfish to being generous with his teammates",
+              "isCorrect": false,
+              "feedback": "The passage doesn't portray Jackson as selfish before. Taking shots when you're the best player isn't selfish—it's strategic. The change is about PRESSURE, not selfishness."
+            },
+            {
+              "id": "C",
+              "text": "Disliking Marcus to respecting him",
+              "isCorrect": false,
+              "feedback": "There's no indication Jackson ever disliked Marcus. The change isn't about their relationship—it's about Jackson's relationship with PRESSURE."
+            },
+            {
+              "id": "D",
+              "text": "Wanting to win to not caring about the outcome",
+              "isCorrect": false,
+              "feedback": "Jackson still wanted to win—he made 'the right play' to maximise chances. He didn't stop caring; he stopped feeling the outcome defined him."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "final line",
+              "quoteHint": "it's not everything"
+            },
+            "distractorTypes": {
+              "D": "too_extreme",
+              "B": "wrong_tone",
+              "C": "out_of_scope"
+            },
+            "inferenceType": "character_arc",
+            "questionFunction": "Evaluate overall character transformation"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What was Jackson like at the beginning (shaking hands, tight jaw)?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What did Jackson feel he HAD to do before? What could he CHOOSE to do after?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Before: burden of always delivering. After: freedom to make the right play.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-002",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Character Motivation",
+        "archetypeId": "rc04",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "2-4",
+        "comprehensionLevelDistribution": {
+          "level2": 1,
+          "level3": 4,
+          "level4": 1
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc04-testlet-003",
+      "passage": {
+        "passageId": "passage-rc04-003",
+        "title": "The Inheritance",
+        "textType": "prose",
+        "genre": "literary_fiction",
+        "wordCount": 520,
+        "readingLevel": "Year 6+",
+        "content": "The envelope arrived three weeks after Grandmother's funeral, addressed to Lily Chen in handwriting she would have recognized anywhere—thin, elegant loops that Grandmother had spent her whole life perfecting.\n\nInside was a single key and a note: 'The workshop. Everything there is yours now.'\n\nLily had never been allowed in Grandmother's workshop. As a child, she'd pressed her face against the frosted glass window, catching glimpses of shapes and shadows, watching Grandmother's silhouette move with purpose through the space. The door was always locked, and whenever Lily asked what was inside, Grandmother would only say, 'Someday.'\n\nNow someday had arrived, and Lily wasn't sure she wanted it.\n\nShe stood outside the workshop for fifteen minutes, key in hand, making excuses. The weather was too cold. She hadn't slept well. She should wait for her mother. But the real reason, the one she wouldn't admit even to herself, was simpler: opening that door would mean Grandmother was truly gone.\n\nAs long as the workshop remained locked, there was still a secret between them. Still something left to discover. Opening it felt like reading the last page of a book she never wanted to end.\n\nFinally, her frozen fingers found the lock.\n\nThe workshop was smaller than she'd imagined—barely larger than a walk-in closet. But every surface held treasures: jade figurines, half-finished embroidery, delicate paper cuttings, and stacks of notebooks filled with Grandmother's handwriting. On the workbench sat a partially completed sculpture of a crane, its wings outstretched, its head turned as if listening.\n\nLily lifted one of the notebooks and found it wasn't recipes or finances, as she'd assumed. It was drawings—hundreds of them—dated over sixty years. And scattered throughout, dozens of them showed a little girl with two pigtails and a curious expression, peering through a frosted window.\n\nGrandmother had been drawing her. All those years, while Lily had watched from outside, Grandmother had watched right back.\n\nAt the bottom of the notebook, on the very last page, Grandmother had written: 'She has my eyes, and my restlessness. When the time is right, she will understand why some doors must stay closed—until the person on the other side is ready to walk through.'\n\nLily's hands trembled as she set down the notebook. She'd always assumed Grandmother kept her out to protect the workshop. But that wasn't it at all. Grandmother had been protecting something far more fragile: the moment when Lily would be old enough to receive not just the objects, but their meaning.\n\nLily picked up the unfinished crane. Its eyes were still hollow, waiting. She found Grandmother's carving tools right where they'd always been, arranged with the precision of someone who expected to return.\n\nShe didn't know how to carve. But she knew that Grandmother had once stood exactly here, just as uncertain, facing her own first blank piece of jade.\n\nLily lifted a tool and began.\n\nSome inheritances aren't given. They're accepted—when the person is ready.",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "980-1080L",
+        "themes": [
+          "legacy",
+          "readiness",
+          "emotional inheritance",
+          "connection across time"
+        ],
+        "literaryDevices": [
+          "symbolism",
+          "circular structure",
+          "delayed revelation"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc04-013",
+          "questionType": "MCQ",
+          "stem": "Lily hesitates to unlock the workshop primarily because she:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Fears that entering will make her grandmother's death feel final",
+              "isCorrect": true,
+              "feedback": "Correct! The text states 'opening that door would mean Grandmother was truly gone.' Lily delays because the locked door maintains a connection to her grandmother."
+            },
+            {
+              "id": "B",
+              "text": "Does not know how to use the key in the lock",
+              "isCorrect": false,
+              "feedback": "There's no mechanical problem—'her frozen fingers found the lock' and it opens. Her hesitation is emotional, not practical."
+            },
+            {
+              "id": "C",
+              "text": "Is worried the workshop will be disappointing",
+              "isCorrect": false,
+              "feedback": "Lily doesn't fear disappointment—she fears finality. Her concern is emotional (losing connection to Grandmother), not about the workshop's contents."
+            },
+            {
+              "id": "D",
+              "text": "Believes she was not meant to receive the key",
+              "isCorrect": false,
+              "feedback": "Grandmother clearly intended Lily to have it ('Everything there is yours now'). Lily doesn't question the rightness of receiving it—she struggles with the emotional weight of using it."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 2,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 5",
+              "quoteHint": "Grandmother was truly gone"
+            },
+            "distractorTypes": {
+              "C": "out_of_scope",
+              "D": "out_of_scope",
+              "B": "literal_interpretation"
+            },
+            "inferenceType": "character_hesitation",
+            "questionFunction": "Identify emotional barrier to action"
+          },
+          "difficulty": 2,
+          "estimatedTime": 45,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What are the 'excuses' Lily makes? What is the 'real reason' she won't admit?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What would opening the door 'mean' to Lily?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Opening it 'would mean Grandmother was truly gone'—finality is what she fears.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-003",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-014",
+          "questionType": "MCQ",
+          "stem": "Lily compares opening the workshop to 'reading the last page of a book' because:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Her grandmother was a writer who kept stories there",
+              "isCorrect": false,
+              "feedback": "The workshop contains art and crafts, not stories. The book comparison is metaphorical—about endings—not literal about the workshop's contents."
+            },
+            {
+              "id": "B",
+              "text": "She expects to find books inside the workshop",
+              "isCorrect": false,
+              "feedback": "This interprets the metaphor literally. Lily doesn't expect books—she's using the metaphor to express her fear of finality, not describing contents."
+            },
+            {
+              "id": "C",
+              "text": "Once done, there will be nothing left to discover about her grandmother",
+              "isCorrect": true,
+              "feedback": "Correct! Lily worries that opening the workshop uses up the last mystery—'still something left to discover.' Like finishing a book, once done, the journey ends."
+            },
+            {
+              "id": "D",
+              "text": "She prefers to skip to endings rather than experience things fully",
+              "isCorrect": false,
+              "feedback": "The OPPOSITE is implied—Lily doesn't WANT the ending. She says it's 'a book she never wanted to end.' She's avoiding the end, not seeking it."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 6",
+              "quoteHint": "last page of a book she never wanted to end"
+            },
+            "distractorTypes": {
+              "B": "literal_interpretation",
+              "A": "literal_interpretation",
+              "D": "opposite_meaning"
+            },
+            "inferenceType": "figurative_meaning",
+            "questionFunction": "Interpret metaphor to understand motivation"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What happens when you read the last page of a book?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What is Lily saying she doesn't want to happen with her connection to Grandmother?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Last page = story ends = nothing more to discover. She wants the 'story' with Grandmother to continue.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-003",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-015",
+          "questionType": "MCQ",
+          "stem": "Grandmother's motivation for keeping Lily out of the workshop all those years was to:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Test whether Lily would respect boundaries",
+              "isCorrect": false,
+              "feedback": "This wasn't a test of obedience. Grandmother's note shows she was waiting for readiness, not evaluating Lily's behaviour."
+            },
+            {
+              "id": "B",
+              "text": "Maintain privacy for her secret artistic practice",
+              "isCorrect": false,
+              "feedback": "Grandmother wasn't hiding that she made art—Lily could see her through the window. The locked door wasn't about secrecy; it was about timing the revelation."
+            },
+            {
+              "id": "C",
+              "text": "Keep her valuable art pieces safe from damage",
+              "isCorrect": false,
+              "feedback": "Lily initially 'assumed Grandmother kept her out to protect the workshop'—but the text says 'that wasn't it at all.' The protection was about timing, not security."
+            },
+            {
+              "id": "D",
+              "text": "Wait until Lily was emotionally ready to receive the inheritance's meaning",
+              "isCorrect": true,
+              "feedback": "Correct! Grandmother wrote that 'some doors must stay closed—until the person on the other side is ready to walk through.' She was waiting for Lily's readiness, not protecting objects."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 11",
+              "quoteHint": "until the person on the other side is ready"
+            },
+            "distractorTypes": {
+              "C": "half_right",
+              "B": "half_right",
+              "A": "out_of_scope"
+            },
+            "inferenceType": "character_motivation",
+            "questionFunction": "Understand revealed motivation through evidence"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What did Lily first ASSUME about why Grandmother locked the door?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does Grandmother's note say about when doors should open?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Ready to walk through'—Grandmother was protecting the moment, not the objects.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-003",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-016",
+          "questionType": "MCQ",
+          "stem": "Lily's discovery that Grandmother drew her 'watching from outside' reveals that Grandmother was motivated by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Deep attention and love for Lily throughout the years",
+              "isCorrect": true,
+              "feedback": "Correct! Grandmother wasn't ignoring Lily—she was watching back, documenting her granddaughter. The drawings show loving attention across sixty years."
+            },
+            {
+              "id": "B",
+              "text": "Amusement at Lily's curiosity about the workshop",
+              "isCorrect": false,
+              "feedback": "Grandmother's note is tender and wise, not amused. She writes about Lily having her 'eyes' and 'restlessness'—this is recognition and love, not entertainment."
+            },
+            {
+              "id": "C",
+              "text": "A desire to record memories for her own reference",
+              "isCorrect": false,
+              "feedback": "The drawings weren't just personal records—they were LEFT for Lily to find. The note addresses Lily directly. This was communication, not just documentation."
+            },
+            {
+              "id": "D",
+              "text": "Frustration that Lily would not leave her alone",
+              "isCorrect": false,
+              "feedback": "There's no frustration in the drawings or note. Grandmother describes Lily warmly ('my eyes, my restlessness') and prepared this inheritance thoughtfully."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 10",
+              "quoteHint": "Grandmother had watched right back"
+            },
+            "distractorTypes": {
+              "C": "half_right",
+              "B": "wrong_tone",
+              "D": "opposite_meaning"
+            },
+            "inferenceType": "revealed_emotion",
+            "questionFunction": "Infer emotion through discovered evidence"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "How many drawings of Lily did Grandmother make?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does creating 'dozens' of drawings over 'sixty years' suggest about attention?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Consistent attention over decades = deep, sustained love.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-003",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-017",
+          "questionType": "MCQ",
+          "stem": "Lily's decision to pick up the carving tools at the end is motivated by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Obligation to finish the crane before showing anyone",
+              "isCorrect": false,
+              "feedback": "There's no mention of obligation or showing anyone. Lily's action is internal—about connection and continuation—not about completing a task for others."
+            },
+            {
+              "id": "B",
+              "text": "Anger that Grandmother left the crane unfinished",
+              "isCorrect": false,
+              "feedback": "There's no anger in this scene. Lily's trembling hands and careful actions show reverence and emotion, not frustration about the unfinished state."
+            },
+            {
+              "id": "C",
+              "text": "A desire to continue her grandmother's work and legacy",
+              "isCorrect": true,
+              "feedback": "Correct! Lily imagines Grandmother 'once stood exactly here, just as uncertain' and chooses to begin where Grandmother left off. She's accepting and continuing the legacy."
+            },
+            {
+              "id": "D",
+              "text": "Confidence that she has inherited artistic talent",
+              "isCorrect": false,
+              "feedback": "The text says 'She didn't know how to carve' and imagines Grandmother being 'just as uncertain' at first. This isn't confidence—it's courage despite uncertainty."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraphs",
+              "quoteHint": "Grandmother had once stood exactly here"
+            },
+            "distractorTypes": {
+              "A": "out_of_scope",
+              "D": "opposite_meaning",
+              "B": "wrong_tone"
+            },
+            "inferenceType": "symbolic_action",
+            "questionFunction": "Interpret meaning of character's final action"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Lily imagine about Grandmother before beginning?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Does Lily feel skilled or uncertain? Why does she begin anyway?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "She begins 'just as uncertain' as Grandmother once was—continuing a legacy, not demonstrating skill.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-003",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-018",
+          "questionType": "MCQ",
+          "stem": "The final line—'Some inheritances aren't given. They're accepted—when the person is ready'—suggests that Lily's motivation throughout was actually about:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Waiting for permission from other family members",
+              "isCorrect": false,
+              "feedback": "Lily already had permission (the key, the note). The 'readiness' is internal—emotional maturity—not about getting others' approval."
+            },
+            {
+              "id": "B",
+              "text": "Proving to herself that she deserved the inheritance",
+              "isCorrect": false,
+              "feedback": "The story isn't about deserving or earning. 'Accepted—when ready' is about emotional capacity, not worthiness. Lily never questions whether she deserves it."
+            },
+            {
+              "id": "C",
+              "text": "Understanding the monetary value of the objects",
+              "isCorrect": false,
+              "feedback": "The passage explicitly contrasts objects with 'meaning' ('not just the objects, but their meaning'). The inheritance is emotional and spiritual, not financial."
+            },
+            {
+              "id": "D",
+              "text": "Reaching a point of emotional readiness to receive what was always offered",
+              "isCorrect": true,
+              "feedback": "Correct! The inheritance was always there (Grandmother intended it). Lily's journey was about becoming READY—not about earning or receiving something new, but about being able to accept it."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "final line",
+              "quoteHint": "accepted—when the person is ready"
+            },
+            "distractorTypes": {
+              "B": "wrong_tone",
+              "A": "out_of_scope",
+              "C": "literal_interpretation"
+            },
+            "inferenceType": "thematic_synthesis",
+            "questionFunction": "Evaluate how final statement illuminates character journey"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Did Lily ever doubt that the inheritance was MEANT for her?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What changed between Lily hesitating at the door and Lily picking up the tools?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The inheritance was always hers—what changed was her READINESS to accept it.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-003",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Character Motivation",
+        "archetypeId": "rc04",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "2-4",
+        "comprehensionLevelDistribution": {
+          "level2": 1,
+          "level3": 4,
+          "level4": 1
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc04-testlet-004",
+      "passage": {
+        "passageId": "passage-rc04-004",
+        "title": "The Understudy",
+        "textType": "prose",
+        "genre": "realistic_fiction",
+        "wordCount": 505,
+        "readingLevel": "Year 6+",
+        "content": "Emma stood in the wings, script clutched against her chest, watching Rachel command the stage. Rachel was everything Emma wasn't: confident, radiant, born to be watched. When Rachel delivered Juliet's lines, the whole auditorium seemed to lean forward.\n\nEmma knew every word. She had to—that was the point of being an understudy. For three months, she'd memorised blocking, practiced inflections in her bedroom mirror, imagined herself in that spotlight. But imagining was all it would ever be. Rachel didn't get sick. Rachel didn't sprain ankles. Rachel was, as Ms Chen liked to say, 'completely reliable.'\n\n'You're not just backup,' Ms Chen had told Emma at the first rehearsal. 'You're insurance. The show can't go on without someone who knows every moment.'\n\nEmma had nodded and smiled and told herself that mattered. But watching from the wings, night after night, she'd started to wonder if she'd taken the role because she was genuinely content to support—or because she was too afraid to audition for something bigger.\n\nTomorrow was the final performance. Then it would be over, and Emma would have learned every line of a play she never performed, and she would tell herself it was valuable experience, and she would almost believe it.\n\n'Emma?' Rachel's voice cut through her thoughts. The lead actress had stepped off-stage during the scene change, breathing heavily. 'Can I ask you something weird?'\n\n'Sure.'\n\n'Do you actually like being understudy? Like, genuinely?'\n\nEmma opened her mouth to say yes—that was the easy answer, the expected one—but something stopped her. Rachel wasn't asking to be polite. Her eyes held a genuine curiosity that demanded honesty.\n\n'I don't know,' Emma admitted. 'I thought I did. But lately I've been wondering if I chose it because it felt... safe.'\n\nRachel nodded slowly. 'That's what I figured.'\n\n'How?'\n\n'Because I've watched you watch me. You know this part better than I do. When I mess up a line, you mouth the right one before I've even corrected myself.' Rachel paused. 'You're not watching to learn. You're watching because you wish it was you.'\n\nEmma felt her face flush. 'I didn't—'\n\n'It's okay,' Rachel said. 'I'm not offended. I just think you should know that next year, they're doing Hamlet. And Ms Chen is going to remember this year—not as the year you were reliable, but as the year you didn't try.'\n\nThe scene change ended. Rachel walked back on stage, and the audience's attention followed her like sunlight.\n\nEmma stayed in the wings, script still pressed against her heart. Tomorrow the show would close. But auditions for Hamlet would open in September.\n\nShe thought about what Rachel had said: 'the year you didn't try.' It stung because it was true. She had chosen safety. She had called it contentment. She had convinced herself that wanting was the same as not being brave enough to reach.\n\nEmma set down the script.\n\nNext year, she decided, the stage wouldn't be something she watched from the wings.\n\nNext year, she would step into the light.",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "960-1060L",
+        "themes": [
+          "fear of failure",
+          "self-deception",
+          "potential vs safety",
+          "peer insight"
+        ],
+        "literaryDevices": [
+          "internal monologue",
+          "contrast",
+          "epiphany"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc04-019",
+          "questionType": "MCQ",
+          "stem": "Emma's initial motivation for accepting the understudy role was:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Friendship with Rachel and wanting to support her",
+              "isCorrect": false,
+              "feedback": "There's no indication Emma and Rachel were friends before this conversation. The passage shows them interacting meaningfully for what seems like the first time."
+            },
+            {
+              "id": "B",
+              "text": "Uncertain even to herself—possibly fear disguised as contentment",
+              "isCorrect": true,
+              "feedback": "Correct! Emma 'started to wonder if she'd taken the role because she was genuinely content to support—or because she was too afraid to audition for something bigger.' She's questioning her own motivation."
+            },
+            {
+              "id": "C",
+              "text": "A strategic plan to prove herself for next year's show",
+              "isCorrect": false,
+              "feedback": "Emma didn't have a long-term strategy—she 'told herself it was valuable experience, and she would almost believe it.' The decision wasn't strategic; it was avoidant."
+            },
+            {
+              "id": "D",
+              "text": "A clear desire to learn from watching Rachel perform",
+              "isCorrect": false,
+              "feedback": "Rachel explicitly says Emma ISN'T 'watching to learn.' And Emma herself doubts her original reasoning. Learning wasn't the real motivation."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 4",
+              "quoteHint": "too afraid to audition for something bigger"
+            },
+            "distractorTypes": {
+              "D": "half_right",
+              "A": "out_of_scope",
+              "C": "out_of_scope"
+            },
+            "inferenceType": "character_self_doubt",
+            "questionFunction": "Identify uncertain/conflicted motivation"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Emma start to 'wonder' about her choice?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What two possible motivations does Emma consider?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Content to support' OR 'too afraid'—she's uncertain which was true.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-004",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-020",
+          "questionType": "MCQ",
+          "stem": "Rachel's motivation for asking Emma about being an understudy is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "To find out if Emma is planning to audition against her",
+              "isCorrect": false,
+              "feedback": "Rachel brings up NEXT year's show (Hamlet), not competition for Juliet. She's encouraging Emma to audition for future roles, not worried about current competition."
+            },
+            {
+              "id": "B",
+              "text": "To challenge Emma to recognise her own unfulfilled ambition",
+              "isCorrect": true,
+              "feedback": "Correct! Rachel has 'watched you watch me' and says Emma 'wish[es] it was you.' Her question isn't casual—it's designed to make Emma confront what Rachel has already observed."
+            },
+            {
+              "id": "C",
+              "text": "To make conversation during a boring scene change",
+              "isCorrect": false,
+              "feedback": "Rachel's question is explicitly described as 'weird' and her eyes show 'genuine curiosity.' This is purposeful, not casual time-filling."
+            },
+            {
+              "id": "D",
+              "text": "To reassure herself that Emma doesn't want her role",
+              "isCorrect": false,
+              "feedback": "Rachel isn't insecure about her position. She's confident enough to tell Emma 'you know this part better than I do.' Her question is about EMMA, not about protecting herself."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 10-11",
+              "quoteHint": "you wish it was you"
+            },
+            "distractorTypes": {
+              "D": "opposite_meaning",
+              "A": "out_of_scope",
+              "C": "wrong_tone"
+            },
+            "inferenceType": "character_intent",
+            "questionFunction": "Identify purpose behind character's question"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Has Rachel been paying attention to Emma during rehearsals?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What has Rachel noticed about how Emma watches?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Rachel saw Emma mouthing lines—she's helping Emma face what she already knows.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-004",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-021",
+          "questionType": "MCQ",
+          "stem": "Emma's decision to answer Rachel honestly—'I don't know'—is motivated by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "A desire to make Rachel feel superior",
+              "isCorrect": false,
+              "feedback": "Emma's honesty isn't about making Rachel feel anything. The moment is about Emma confronting HERSELF, not about managing Rachel's feelings."
+            },
+            {
+              "id": "B",
+              "text": "Frustration that finally boils over",
+              "isCorrect": false,
+              "feedback": "Emma's response isn't frustrated—she 'admitted' something quietly. There's no anger or boiling point. This is reflection, not eruption."
+            },
+            {
+              "id": "C",
+              "text": "Strategy to gain Rachel's sympathy",
+              "isCorrect": false,
+              "feedback": "Emma isn't being strategic—she's being genuine. The text shows her preparing to give 'the easy answer, the expected one' before something stops her."
+            },
+            {
+              "id": "D",
+              "text": "Recognition that Rachel deserves and demands genuine response",
+              "isCorrect": true,
+              "feedback": "Correct! The text says Rachel's 'genuine curiosity' in her eyes 'demanded honesty.' Emma responds to Rachel's sincerity with her own—she sees this isn't a conversation for easy answers."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 8",
+              "quoteHint": "genuine curiosity that demanded honesty"
+            },
+            "distractorTypes": {
+              "A": "out_of_scope",
+              "B": "wrong_tone",
+              "C": "out_of_scope"
+            },
+            "inferenceType": "character_response",
+            "questionFunction": "Understand what triggers honest self-reflection"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What answer was Emma about to give before stopping?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does Emma notice about Rachel's eyes that changes things?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Rachel's 'genuine curiosity' demanded honesty—easy answers wouldn't do.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-004",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-022",
+          "questionType": "MCQ",
+          "stem": "Rachel tells Emma about the Hamlet auditions primarily to:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Suggest that Emma try for a smaller role in the next play",
+              "isCorrect": false,
+              "feedback": "Rachel says Ms Chen will remember that Emma 'didn't try'—implying Emma SHOULD try for a real part. There's no suggestion of taking a small role."
+            },
+            {
+              "id": "B",
+              "text": "Show off her knowledge of the theatre department's plans",
+              "isCorrect": false,
+              "feedback": "Rachel mentions Hamlet to help EMMA, not to demonstrate her own insider knowledge. The focus is entirely on what Emma should do, not on Rachel's information."
+            },
+            {
+              "id": "C",
+              "text": "Give Emma a concrete opportunity to act on her hidden desire",
+              "isCorrect": true,
+              "feedback": "Correct! Rachel transforms abstract challenge into specific action. After identifying Emma's wish, she provides a real next step—auditions for Hamlet. It's practical, not just philosophical."
+            },
+            {
+              "id": "D",
+              "text": "Warn Emma that competition will be difficult next year",
+              "isCorrect": false,
+              "feedback": "Rachel isn't warning about difficulty—she's ENCOURAGING Emma to try. 'Ms Chen is going to remember' the year Emma 'didn't try' is motivation, not warning."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 12",
+              "quoteHint": "next year, they're doing Hamlet"
+            },
+            "distractorTypes": {
+              "D": "wrong_tone",
+              "B": "out_of_scope",
+              "A": "opposite_meaning"
+            },
+            "inferenceType": "character_intent",
+            "questionFunction": "Identify purpose of providing specific information"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "After telling Emma she wishes it was her on stage, what does Rachel offer?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Why mention Hamlet auditions specifically?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Identifying the desire isn't enough—Rachel gives a specific opportunity to act on it.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-004",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-023",
+          "questionType": "MCQ",
+          "stem": "The phrase 'wanting was the same as not being brave enough to reach' reveals that Emma had been motivated by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Past experience of failing at auditions",
+              "isCorrect": false,
+              "feedback": "There's no mention of past audition failures. The issue is that Emma DIDN'T TRY—she avoided auditioning, she didn't fail at it."
+            },
+            {
+              "id": "B",
+              "text": "Advice from Ms Chen about realistic expectations",
+              "isCorrect": false,
+              "feedback": "Ms Chen told Emma her role mattered as 'insurance'—not that she shouldn't want more. Emma's self-deception came from within, not from anyone's advice."
+            },
+            {
+              "id": "C",
+              "text": "A mature understanding that not everyone can be the lead",
+              "isCorrect": false,
+              "feedback": "This would make Emma's realisation positive, but she describes it negatively—as something she 'convinced herself' of. It 'stung because it was true.' It wasn't wisdom; it was rationalisation."
+            },
+            {
+              "id": "D",
+              "text": "Self-deception that reframed fear as acceptance",
+              "isCorrect": true,
+              "feedback": "Correct! Emma had convinced herself that 'wanting' was the same as not reaching—she reframed her fear of trying as contentment with not having. This is self-deception to avoid facing fear."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 14",
+              "quoteHint": "convinced herself that wanting was the same"
+            },
+            "distractorTypes": {
+              "C": "opposite_meaning",
+              "B": "out_of_scope",
+              "A": "out_of_scope"
+            },
+            "inferenceType": "self_deception",
+            "questionFunction": "Recognize psychological defense mechanism"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What two things did Emma equate as 'the same'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Is wanting something truly the same as not being brave enough to try?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Emma convinced herself of a false equivalence to avoid facing her fear of trying.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-004",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-024",
+          "questionType": "MCQ",
+          "stem": "Emma's act of setting down the script at the end symbolises her motivation to:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Return the script to the theatre's prop department",
+              "isCorrect": false,
+              "feedback": "This completely misses the symbolic meaning. Emma isn't doing a practical task—she's making an internal decision that the physical action represents."
+            },
+            {
+              "id": "B",
+              "text": "Release her identity as someone who only watches and prepares",
+              "isCorrect": true,
+              "feedback": "Correct! The script symbolises her understudy role—always prepared, never performing. Setting it down represents releasing that identity to become someone who will 'step into the light.'"
+            },
+            {
+              "id": "C",
+              "text": "Show disrespect for the role she has been playing",
+              "isCorrect": false,
+              "feedback": "Setting down the script isn't disrespectful—it's transitional. Emma doesn't reject what she learned; she's ready to move beyond it."
+            },
+            {
+              "id": "D",
+              "text": "Indicate that she no longer needs to memorise lines",
+              "isCorrect": false,
+              "feedback": "This is too literal. Emma already knows all the lines ('she knew every word'). Setting down the script is symbolic, not practical."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraphs",
+              "quoteHint": "set down the script"
+            },
+            "distractorTypes": {
+              "C": "wrong_tone",
+              "D": "literal_interpretation",
+              "A": "literal_interpretation"
+            },
+            "inferenceType": "symbolic_action",
+            "questionFunction": "Interpret symbolic meaning of physical action"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What has Emma been doing with the script throughout the passage?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does she decide about 'next year' right after setting it down?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Script = understudy identity. Setting it down = releasing that role for something new.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-004",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Character Motivation",
+        "archetypeId": "rc04",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevelDistribution": {
+          "level3": 5,
+          "level4": 1
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc04-testlet-005",
+      "passage": {
+        "passageId": "passage-rc04-005",
+        "title": "The Bridge Builder",
+        "textType": "prose",
+        "genre": "historical_fiction",
+        "wordCount": 515,
+        "readingLevel": "Year 6+",
+        "content": "The village elders said Mei was foolish. A bridge across the Dragon's Throat? Impossible. The ravine was too wide, the winds too fierce, the wood too precious. Her father had tried twenty years ago and failed. Why should his daughter succeed?\n\nMei listened to their objections with the same quiet attention she gave to the wind patterns and the behaviour of the ancient pines. She had been watching the ravine since she was seven years old—not with her father's engineering drawings, but with the patient observation of someone who wanted to understand rather than conquer.\n\n'The wind doesn't fight the bridge,' she told the elders. 'The wind shows the bridge where to bend.'\n\nThey shook their heads. Mei's father had been a respected engineer, educated in the city, armed with formulas and calculations. He had fought the wind with rigid beams and precise angles, and the wind had won. What could his daughter—a girl who spent her days watching trees—possibly know that he hadn't?\n\nBut Mei had learned something in her years of watching that her father never had time to see. The ancient pines that grew at the ravine's edge didn't stand straight against the wind. They curved, they bowed, they let the gusts pass through their branches. The ones that tried to stand rigid were the ones that broke.\n\nShe didn't argue with the elders. Instead, she began building.\n\nHer bridge was nothing like her father's design. Where he had used heavy timber, she used rope. Where he had built rigid platforms, she created sections that could shift and sway. The village children gathered to watch, whispering that the bridge looked like it was made of spider silk and hope.\n\nWhen the first storm came, the elders waited for the collapse. They had seen her father's bridge tear itself apart in such weather, its unyielding frame no match for the ravine's violence.\n\nBut Mei's bridge did something different. It danced. The ropes swayed and the platforms tilted, but nothing broke. The bridge moved WITH the wind, absorbing its force instead of fighting it.\n\nAfter the storm passed, Elder Wu crossed to the other side—the first person to do so in twenty years. When he returned, his eyes were wet.\n\n'Your father,' he said quietly, 'would not understand this bridge. He would call it too flexible, too uncertain.'\n\n'I know,' Mei said.\n\n'But he would be proud of you anyway.'\n\nMei thought about her father, about his careful drawings and his absolute certainty. She had loved watching him work, even as she sensed something missing in his approach. He had seen the ravine as a problem to solve with force. She had learned to see it as a conversation to join.\n\n'I didn't build this bridge to prove him wrong,' she said finally. 'I built it because the people on the other side needed a way home.'\n\nElder Wu nodded. 'That,' he said, 'is exactly why it worked.'\n\nThe wind picked up again, and the bridge swayed gently—not fighting, not breaking, just being exactly what it needed to be.",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "970-1070L",
+        "themes": [
+          "different ways of knowing",
+          "flexibility vs rigidity",
+          "honouring while innovating",
+          "purpose-driven creation"
+        ],
+        "literaryDevices": [
+          "metaphor",
+          "contrast",
+          "personification"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc04-025",
+          "questionType": "MCQ",
+          "stem": "Mei's motivation for spending years watching the ravine, unlike her father, was to:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Wait until she was old enough to receive permission",
+              "isCorrect": false,
+              "feedback": "Mei doesn't wait for permission—she begins building even when elders object. Her years of watching were about learning, not waiting for approval."
+            },
+            {
+              "id": "B",
+              "text": "Prove the village elders wrong about the bridge",
+              "isCorrect": false,
+              "feedback": "Mei explicitly says she 'didn't build this bridge to prove him wrong.' Her motivation was never about proving anyone wrong—it was about helping people cross."
+            },
+            {
+              "id": "C",
+              "text": "Understand the environment rather than simply overcome it",
+              "isCorrect": true,
+              "feedback": "Correct! Mei watched 'with the patient observation of someone who wanted to understand rather than conquer.' Her father tried to defeat the wind; Mei wanted to comprehend it."
+            },
+            {
+              "id": "D",
+              "text": "Find her father's engineering errors",
+              "isCorrect": false,
+              "feedback": "Mei wasn't looking for mistakes—she was developing her own understanding. The text contrasts their APPROACHES (understanding vs conquering), not accuracy."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 2,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 2",
+              "quoteHint": "understand rather than conquer"
+            },
+            "distractorTypes": {
+              "D": "out_of_scope",
+              "B": "opposite_meaning",
+              "A": "out_of_scope"
+            },
+            "inferenceType": "character_motivation",
+            "questionFunction": "Identify fundamental approach to problem"
+          },
+          "difficulty": 2,
+          "estimatedTime": 45,
+          "hints": [
+            {
+              "level": 1,
+              "content": "How does the passage describe what Mei 'wanted'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What two words are contrasted in describing her approach vs her father's?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Understand rather than conquer'—Mei wanted to learn from nature, not fight it.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-005",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-026",
+          "questionType": "MCQ",
+          "stem": "Mei's father's bridge failed primarily because he was motivated by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Using inferior materials to save money",
+              "isCorrect": false,
+              "feedback": "There's no mention of cost-cutting. He used 'heavy timber'—substantial materials. His failure was APPROACH, not materials."
+            },
+            {
+              "id": "B",
+              "text": "Lack of proper education in engineering",
+              "isCorrect": false,
+              "feedback": "The OPPOSITE is stated—he was 'a respected engineer, educated in the city, armed with formulas and calculations.' He had MORE formal training, not less."
+            },
+            {
+              "id": "C",
+              "text": "A desire to impose control over the environment",
+              "isCorrect": true,
+              "feedback": "Correct! Mei's father 'fought the wind with rigid beams and precise angles.' He saw the ravine as a 'problem to solve with force'—imposing his will rather than adapting."
+            },
+            {
+              "id": "D",
+              "text": "Rushing the project without proper planning",
+              "isCorrect": false,
+              "feedback": "The passage describes 'careful drawings' and 'absolute certainty'—he planned extensively. He failed despite careful planning because his approach was wrong."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 10",
+              "quoteHint": "problem to solve with force"
+            },
+            "distractorTypes": {
+              "B": "opposite_meaning",
+              "A": "out_of_scope",
+              "D": "opposite_meaning"
+            },
+            "inferenceType": "character_flaw",
+            "questionFunction": "Identify root cause of failure through motivation"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What did Mei's father try to do TO the wind?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How does Mei describe her father's approach in paragraph 10?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "He saw it as a 'problem to solve with force'—domination rather than cooperation.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-005",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-027",
+          "questionType": "MCQ",
+          "stem": "Mei's observation that 'the wind doesn't fight the bridge' reveals her understanding that success requires:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Building a bridge too small for the wind to affect",
+              "isCorrect": false,
+              "feedback": "The bridge is substantial enough for Elder Wu to cross. The solution isn't smallness—it's flexibility. The bridge 'danced' with the wind."
+            },
+            {
+              "id": "B",
+              "text": "Using magic or supernatural assistance",
+              "isCorrect": false,
+              "feedback": "Despite the mythological-sounding 'Dragon's Throat,' this is a realistic story about engineering philosophy. Mei's success comes from observation, not magic."
+            },
+            {
+              "id": "C",
+              "text": "Waiting for calm weather to build",
+              "isCorrect": false,
+              "feedback": "Mei doesn't avoid the wind—she designs for it. Her bridge is tested in a storm and succeeds. The point is adaptation, not avoidance."
+            },
+            {
+              "id": "D",
+              "text": "Learning from natural forces rather than opposing them",
+              "isCorrect": true,
+              "feedback": "Correct! Mei sees the wind not as an enemy but as a teacher: 'The wind shows the bridge where to bend.' Her insight is about working WITH natural forces."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 3",
+              "quoteHint": "shows the bridge where to bend"
+            },
+            "distractorTypes": {
+              "C": "half_right",
+              "A": "out_of_scope",
+              "B": "out_of_scope"
+            },
+            "inferenceType": "character_insight",
+            "questionFunction": "Interpret meaning of character's key statement"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Mei say the wind DOES for the bridge?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Is the wind an enemy in Mei's view? What role does it play?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The wind 'shows the bridge where to bend'—it's a guide, not an enemy.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-005",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-028",
+          "questionType": "MCQ",
+          "stem": "Mei responds to Elder Wu's comment about her father with 'I know' because she:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Feels guilty about not following her father's design",
+              "isCorrect": false,
+              "feedback": "There's no guilt in 'I know'—it's acceptance. Mei explains she built the bridge for people who 'needed a way home,' not as rejection of her father."
+            },
+            {
+              "id": "B",
+              "text": "Wants to change the subject away from her father",
+              "isCorrect": false,
+              "feedback": "Mei doesn't avoid talking about her father—she reflects on him thoughtfully afterward. 'I know' is acknowledgment, not deflection."
+            },
+            {
+              "id": "C",
+              "text": "Is annoyed that Elder Wu is criticising her father",
+              "isCorrect": false,
+              "feedback": "Elder Wu isn't criticising—he says her father 'would be proud.' And Mei shows no annoyance, only quiet understanding."
+            },
+            {
+              "id": "D",
+              "text": "Has already accepted that her approach differs from her father's",
+              "isCorrect": true,
+              "feedback": "Correct! Mei isn't surprised by the observation. She had 'sensed something missing in his approach' while 'watching him work.' She understands and has already made peace with their differences."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 10",
+              "quoteHint": "sensed something missing in his approach"
+            },
+            "distractorTypes": {
+              "A": "wrong_tone",
+              "B": "out_of_scope",
+              "C": "wrong_tone"
+            },
+            "inferenceType": "character_awareness",
+            "questionFunction": "Understand what brief response reveals about self-knowledge"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Does 'I know' sound surprised or already understood?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What had Mei sensed about her father's approach even while loving to watch him?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "She 'sensed something missing' long ago—she already understood the difference.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-005",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-029",
+          "questionType": "MCQ",
+          "stem": "Mei's statement—'I built it because the people on the other side needed a way home'—reveals her ultimate motivation was:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Serving the community's practical needs",
+              "isCorrect": true,
+              "feedback": "Correct! Mei's purpose wasn't to succeed where her father failed or to prove herself right. It was fundamentally about helping people—a practical, community-focused goal."
+            },
+            {
+              "id": "B",
+              "text": "Demonstrating her superior engineering skills",
+              "isCorrect": false,
+              "feedback": "Mei shows no interest in being seen as superior. Her explanation focuses entirely on helping others, not on her own abilities or reputation."
+            },
+            {
+              "id": "C",
+              "text": "Escaping the village to live elsewhere",
+              "isCorrect": false,
+              "feedback": "Mei builds a bridge for OTHERS to come home, not for herself to leave. There's no indication she wants to escape anywhere."
+            },
+            {
+              "id": "D",
+              "text": "Honouring her father's memory",
+              "isCorrect": false,
+              "feedback": "While Mei respects her father, she explicitly says she 'didn't build this bridge to prove him wrong.' The motivation is about PEOPLE'S NEEDS, not her father's legacy."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 11",
+              "quoteHint": "needed a way home"
+            },
+            "distractorTypes": {
+              "D": "half_right",
+              "B": "opposite_meaning",
+              "C": "out_of_scope"
+            },
+            "inferenceType": "core_motivation",
+            "questionFunction": "Identify character's stated purpose"
+          },
+          "difficulty": 3,
+          "estimatedTime": 45,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What reason does Mei give for building the bridge?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Who benefits from the bridge according to Mei?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'People on the other side needed a way home'—community need, not personal glory.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-005",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc04-030",
+          "questionType": "MCQ",
+          "stem": "Elder Wu's response—'That is exactly why it worked'—suggests he believes Mei succeeded because her motivation was:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Based on more advanced technical knowledge",
+              "isCorrect": false,
+              "feedback": "Elder Wu doesn't praise Mei's technical knowledge—he responds to her statement about people needing a way home. It's about PURPOSE, not expertise."
+            },
+            {
+              "id": "B",
+              "text": "Supported by better weather conditions",
+              "isCorrect": false,
+              "feedback": "The bridge was tested in a storm—conditions were harsh. Elder Wu's statement is about Mei's MOTIVATION, not external circumstances."
+            },
+            {
+              "id": "C",
+              "text": "Inspired by anger at those who doubted her",
+              "isCorrect": false,
+              "feedback": "Mei explicitly rejects 'proving' motivations. Elder Wu affirms her focus on helping, not her response to doubt."
+            },
+            {
+              "id": "D",
+              "text": "Focused on purpose rather than on proving a point",
+              "isCorrect": true,
+              "feedback": "Correct! Elder Wu connects Mei's success directly to her PURPOSE-driven motivation. Building for the right reason (helping people) led to the right approach (flexibility, understanding)."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Character Motivation",
+            "archetypeId": "rc04",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 12",
+              "quoteHint": "exactly why it worked"
+            },
+            "distractorTypes": {
+              "A": "out_of_scope",
+              "C": "opposite_meaning",
+              "B": "out_of_scope"
+            },
+            "inferenceType": "thematic_connection",
+            "questionFunction": "Understand thematic link between motivation and outcome"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Elder Wu say 'That' refers to?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What did Mei say just before Elder Wu's response?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'That' = helping people get home. Purpose-driven creation leads to true success.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc04-testlet-005",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Character Motivation",
+        "archetypeId": "rc04",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "2-4",
+        "comprehensionLevelDistribution": {
+          "level2": 1,
+          "level3": 4,
+          "level4": 1
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    }
+  ],
+  "metadata": {
+    "archetype": "Character Motivation",
+    "archetypeId": "rc04",
+    "section": "nsw-selective-reading",
+    "targetYear": 6,
+    "questionCount": 6,
+    "difficultyRange": "2-4",
+    "comprehensionLevelDistribution": {
+      "level2": 3,
+      "level3": 3
+    },
+    "createdAt": "2026-01-16",
+    "version": "1.0",
+    "testletCount": 5,
+    "totalQuestions": 30
+  }
+}

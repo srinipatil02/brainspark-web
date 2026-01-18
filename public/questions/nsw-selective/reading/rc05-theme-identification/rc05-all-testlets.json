@@ -1,0 +1,2411 @@
+{
+  "testlets": [
+    {
+      "testletId": "nsw-sel-rc05-testlet-001",
+      "passage": {
+        "passageId": "passage-rc05-001",
+        "title": "The Mapmaker's Daughter",
+        "textType": "prose",
+        "genre": "literary_fiction",
+        "wordCount": 530,
+        "readingLevel": "Year 6+",
+        "content": "Elara had inherited her father's maps but not his certainty. The maps were beautiful—hand-drawn coastlines, mountains rendered in careful crosshatching, forests suggested by clusters of tiny triangles. Every one bore the same confident inscription in the corner: 'Complete and Accurate.'\n\nBut Elara knew they weren't. Not really.\n\nHer father had been the royal cartographer for forty years, mapping the kingdom from the Jade Mountains to the Silver Sea. Kings had trusted his maps. Generals had marched armies based on his contour lines. And for the most part, the maps worked. You could follow them from city to city and arrive where you expected.\n\nIt was the edges that troubled Elara. The places where her father had never actually travelled but had filled in anyway, borrowing from older maps or from merchants' tales or sometimes—she suspected—from nothing but confident imagination. He had drawn a forest in the eastern borderlands that no one she'd spoken to had ever seen. He had placed a river where the actual ground was dry desert.\n\n'A map must be complete,' her father had always said. 'People need to believe they understand the whole picture.'\n\n'But what if the picture is wrong?' she had asked once, as a child.\n\n'Then they'll discover that when they get there,' he had replied. 'But at least they'll have the courage to go.'\n\nNow Elara sat at her father's desk, a blank parchment before her. The Council had commissioned a new map of the northern territories—lands her father had never visited, lands where the old map showed only the word 'Unknown' in elegant script.\n\nShe could do what he had done. She could gather stories, make educated guesses, fill the empty spaces with plausible forests and probable rivers. The Council wanted a complete map, and a complete map was what cartographers provided.\n\nOr she could do something different.\n\nElara picked up her pen and began to draw. She marked the settlements she knew existed, verified by three independent sources. She drew the confirmed roads and rivers. And then, where her knowledge ended, she did something her father had never done.\n\nShe left the space empty.\n\nNot completely empty—she added a note in careful script: 'Territory not yet surveyed. Accuracy unknown.' It looked strange on the parchment, that honest blank space surrounded by detailed geography. It looked incomplete.\n\nBut it was true.\n\nWhen she presented the map to the Council, they frowned at the emptiness. 'Your father never delivered unfinished work,' the Chancellor said.\n\n'It isn't unfinished,' Elara replied. 'It's honest. What we know is drawn. What we don't know is marked as unknown. Anyone who travels there will know they're entering uncertain territory—and they can send back accurate reports to fill in the gaps.'\n\nThe Council debated for hours. Some wanted a different cartographer, one who would provide the comfortable certainty they expected. But in the end, they accepted Elara's map.\n\n'Accurate maps,' she told them as she left, 'are more useful than confident ones.'\n\nShe didn't know if that was true yet. But she believed it.\n\nAnd perhaps, she thought, that belief was her own kind of map—incomplete, uncertain, but pointing in a direction worth travelling.",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "980-1080L",
+        "themes": [
+          "intellectual honesty vs comfortable certainty",
+          "the courage to admit not-knowing",
+          "different kinds of truth"
+        ],
+        "literaryDevices": [
+          "extended metaphor",
+          "irony",
+          "parallel structure"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc05-001",
+          "questionType": "MCQ",
+          "stem": "Which statement best expresses a central theme of this passage?",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Admitting uncertainty can be more valuable than projecting false confidence",
+              "isCorrect": true,
+              "feedback": "Correct! The passage contrasts her father's confident but sometimes inaccurate maps with Elara's honest acknowledgment of 'territory not yet surveyed.' The theme is about the value of intellectual honesty."
+            },
+            {
+              "id": "B",
+              "text": "Maps are unreliable and should never be trusted",
+              "isCorrect": false,
+              "feedback": "This is TOO EXTREME. Elara doesn't reject maps—she makes them differently. Her point is that HONEST maps are more useful, not that maps are worthless."
+            },
+            {
+              "id": "C",
+              "text": "Authority figures will always resist new ideas",
+              "isCorrect": false,
+              "feedback": "While the Council hesitates, they ultimately accept Elara's map. The theme isn't about resistance to change—it's about the nature of honesty and knowledge."
+            },
+            {
+              "id": "D",
+              "text": "Children should always follow the traditions set by their parents",
+              "isCorrect": false,
+              "feedback": "This is the OPPOSITE of the passage's message. Elara deliberately breaks from her father's tradition of filling gaps with confident guesses. The theme is about questioning inherited practices."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "throughout",
+              "quoteHint": "Accurate maps are more useful than confident ones"
+            },
+            "distractorTypes": {
+              "D": "opposite_meaning",
+              "B": "too_extreme",
+              "C": "half_right"
+            },
+            "inferenceType": "central_theme",
+            "questionFunction": "Identify overarching theme from narrative"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What choice does Elara make that's different from her father's approach?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does Elara's final statement suggest about accuracy vs confidence?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Accurate maps are more useful than confident ones'—honesty matters more than false certainty.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-001",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-002",
+          "questionType": "MCQ",
+          "stem": "The father's statement—'at least they'll have the courage to go'—develops the theme of:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "The importance of bravery in all circumstances",
+              "isCorrect": false,
+              "feedback": "This is too general. The father isn't praising bravery universally—he's specifically arguing that confident maps give people courage to travel. The theme is about certainty and its effects."
+            },
+            {
+              "id": "B",
+              "text": "How false certainty can enable action even when it misleads",
+              "isCorrect": true,
+              "feedback": "Correct! The father argues that even inaccurate maps serve a purpose—they give people confidence to travel. This shows how certainty (even false) enables action, setting up Elara's counter-theme about truth."
+            },
+            {
+              "id": "C",
+              "text": "Why maps should be made more carefully",
+              "isCorrect": false,
+              "feedback": "The father is actually DEFENDING less-careful maps. His point is that 'complete' maps (even if partly fictional) serve a purpose. This contradicts the idea of more careful mapmaking."
+            },
+            {
+              "id": "D",
+              "text": "The dangers of travel in unknown lands",
+              "isCorrect": false,
+              "feedback": "The passage isn't about travel dangers. It's about different philosophies of knowledge—the father's view that confident completeness is useful even when wrong."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 7",
+              "quoteHint": "courage to go"
+            },
+            "distractorTypes": {
+              "A": "too_extreme",
+              "C": "opposite_meaning",
+              "D": "out_of_scope"
+            },
+            "inferenceType": "theme_development",
+            "questionFunction": "Analyze how specific quote develops theme"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What is the father's justification for filling in unknown areas?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Does the father value accuracy or confidence more?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "He values the courage that confidence provides—even when the basis is uncertain.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-001",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-003",
+          "questionType": "MCQ",
+          "stem": "The repeated description of Elara's father's maps as 'Complete and Accurate' develops irony because:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "The Council prefers incomplete maps",
+              "isCorrect": false,
+              "feedback": "The Council actually DISLIKES Elara's incomplete map at first. The irony isn't about preferences—it's about the gap between the label and reality."
+            },
+            {
+              "id": "B",
+              "text": "All cartographers use this inscription",
+              "isCorrect": false,
+              "feedback": "Even if all cartographers used it, the irony would still exist because the SPECIFIC maps discussed contained invented sections. The irony is about this particular claim being false."
+            },
+            {
+              "id": "C",
+              "text": "The maps were neither complete nor truly accurate",
+              "isCorrect": true,
+              "feedback": "Correct! The passage reveals the father filled in areas 'from nothing but confident imagination.' The phrase 'Complete and Accurate' is ironic because Elara knows it's false."
+            },
+            {
+              "id": "D",
+              "text": "Elara's maps will be more beautiful",
+              "isCorrect": false,
+              "feedback": "Beauty isn't the point. The irony is about TRUTH—the label claims accuracy while the maps contain guesswork. Elara's maps are more honest, not more beautiful."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraphs 1-4",
+              "quoteHint": "Complete and Accurate"
+            },
+            "distractorTypes": {
+              "D": "out_of_scope",
+              "B": "half_right",
+              "A": "opposite_meaning"
+            },
+            "inferenceType": "literary_irony",
+            "questionFunction": "Recognize irony and its thematic function"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Elara know about areas her father 'filled in'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "If some parts were invented, can the maps truly be called 'Complete and Accurate'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The label claims truth; Elara knows parts are 'confident imagination'—that's irony.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-001",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-004",
+          "questionType": "MCQ",
+          "stem": "Elara's note—'Territory not yet surveyed. Accuracy unknown'—represents the theme that:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Mapmakers should avoid difficult territories",
+              "isCorrect": false,
+              "feedback": "Elara isn't avoiding the territory—she's being honest about not having surveyed it yet. She invites future travelers to 'send back accurate reports.' The theme is about honesty, not avoidance."
+            },
+            {
+              "id": "B",
+              "text": "Writing notes on maps is unprofessional",
+              "isCorrect": false,
+              "feedback": "The passage doesn't suggest notes are unprofessional—even Elara's father marked 'Unknown' on old maps. The significance is WHAT she writes, not that she writes at all."
+            },
+            {
+              "id": "C",
+              "text": "Acknowledging limits of knowledge has its own kind of integrity",
+              "isCorrect": true,
+              "feedback": "Correct! Elara's note admits what she doesn't know—this represents intellectual integrity. The theme is that honesty about uncertainty is more valuable than false completeness."
+            },
+            {
+              "id": "D",
+              "text": "Survey work is too expensive for cartographers",
+              "isCorrect": false,
+              "feedback": "Cost is never mentioned. The issue is about epistemology—what can be known vs claimed—not about economics of mapmaking."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 11",
+              "quoteHint": "Territory not yet surveyed"
+            },
+            "distractorTypes": {
+              "A": "half_right",
+              "B": "out_of_scope",
+              "D": "out_of_scope"
+            },
+            "inferenceType": "symbolic_meaning",
+            "questionFunction": "Connect specific detail to theme"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "How is Elara's note different from what her father would have written?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What quality does admitting 'accuracy unknown' demonstrate?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Admitting uncertainty = intellectual honesty = integrity about knowledge limits.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-001",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-005",
+          "questionType": "MCQ",
+          "stem": "The passage's final paragraph—comparing belief to 'a map—incomplete, uncertain, but pointing in a direction worth travelling'—develops the theme by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Suggesting Elara will become a philosopher instead of a mapmaker",
+              "isCorrect": false,
+              "feedback": "Elara isn't changing careers—she's reflecting on her experience. The metaphor doesn't indicate a career change; it deepens the theme's application."
+            },
+            {
+              "id": "B",
+              "text": "Showing that Elara still doubts her decision",
+              "isCorrect": false,
+              "feedback": "While Elara says she doesn't know if her belief is 'true yet,' she also says it's 'worth travelling.' This is confident uncertainty, not doubt about her decision."
+            },
+            {
+              "id": "C",
+              "text": "Proving that maps and beliefs are completely different",
+              "isCorrect": false,
+              "feedback": "The OPPOSITE is true—the passage draws a PARALLEL between maps and beliefs. Elara sees similarity in how both involve navigating uncertainty."
+            },
+            {
+              "id": "D",
+              "text": "Extending the map metaphor to show that honest uncertainty applies to life, not just cartography",
+              "isCorrect": true,
+              "feedback": "Correct! Elara applies her mapmaking philosophy to her own beliefs. The theme about honest uncertainty extends beyond maps to how we navigate life's uncertainties."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraph",
+              "quoteHint": "her own kind of map"
+            },
+            "distractorTypes": {
+              "A": "out_of_scope",
+              "B": "half_right",
+              "C": "opposite_meaning"
+            },
+            "inferenceType": "metaphorical_extension",
+            "questionFunction": "Analyze how concluding metaphor deepens theme"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Elara compare her belief TO?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How does describing belief as 'incomplete, uncertain' connect to her mapmaking?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Maps and beliefs both involve honest uncertainty—the theme applies to life, not just cartography.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-001",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-006",
+          "questionType": "MCQ",
+          "stem": "Which theme is NOT developed in this passage?",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Hard work always leads to recognition and reward",
+              "isCorrect": true,
+              "feedback": "Correct! This theme is NOT in the passage. While Elara works hard, the passage focuses on truth vs certainty, not on work leading to reward. The Council's acceptance is about the map's value, not rewarding effort."
+            },
+            {
+              "id": "B",
+              "text": "Children may find different truths than their parents",
+              "isCorrect": false,
+              "feedback": "This theme IS developed—Elara reaches different conclusions than her father about what makes a good map. She questions and ultimately rejects his approach."
+            },
+            {
+              "id": "C",
+              "text": "What we don't know can be as important as what we know",
+              "isCorrect": false,
+              "feedback": "This theme IS developed—Elara's deliberate marking of unknown territory shows the importance of acknowledging ignorance, not just displaying knowledge."
+            },
+            {
+              "id": "D",
+              "text": "Honesty may be uncomfortable but has value",
+              "isCorrect": false,
+              "feedback": "This theme IS developed—Elara's honest map 'looked strange' and made the Council uncomfortable, but they ultimately accepted it for its truthfulness."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "throughout",
+              "quoteHint": "N/A - identifying absent theme"
+            },
+            "distractorTypes": {
+              "B": "true_but_irrelevant",
+              "D": "true_but_irrelevant",
+              "C": "true_but_irrelevant"
+            },
+            "inferenceType": "theme_absence",
+            "questionFunction": "Distinguish themes present from themes absent"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is there any mention of Elara working hard or expecting a reward?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Does the Council accept the map because of Elara's effort or because of its honesty?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The acceptance is about the map's APPROACH (honesty), not about rewarding hard work.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-001",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Theme Identification",
+        "archetypeId": "rc05",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevelDistribution": {
+          "level3": 4,
+          "level4": 2
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc05-testlet-002",
+      "passage": {
+        "passageId": "passage-rc05-002",
+        "title": "The Last Day of the Library",
+        "textType": "prose",
+        "genre": "literary_fiction",
+        "wordCount": 510,
+        "readingLevel": "Year 6+",
+        "content": "The demolition notice had been posted for three months, but somehow it still felt sudden when the day arrived. Mrs Webb stood at the circulation desk for the last time, watching volunteers pack books into cardboard boxes.\n\n'They're building a technology centre,' the mayor had explained at the town meeting. 'A state-of-the-art facility with computers, interactive screens, virtual learning pods. Everything the modern community needs.'\n\nNo one had argued. How do you argue against the future?\n\nBut as Mrs Webb watched the shelves empty, she thought about all the things that couldn't be packed into boxes. The corner where Mr Hendricks had read the newspaper every morning for fifteen years, talking to no one but seeming less alone just by being there. The children's section where three generations of the Patel family had learned to read. The window seat where teenagers had hidden from the world, or found themselves, or both.\n\nThe new technology centre would have better lighting. Faster internet. Cleaner bathrooms. It would offer coding classes and 3D printing workshops and resume-building seminars. It would be everything a modern community needed.\n\nMrs Webb wondered what Mr Hendricks would do with a coding class.\n\nShe found herself thinking about her grandmother, who had worked in this same building sixty years ago. 'A library isn't really about books,' her grandmother had once said. 'It's about the space between the books—the quiet places where people can figure things out.'\n\nThe technology centre would have many things. She wasn't sure it would have quiet places.\n\nA little girl wandered in—couldn't be more than six—holding her mother's hand. The girl looked around at the chaos of boxes and stripped shelves with wide, confused eyes.\n\n'Are all the stories going away?' she asked.\n\nMrs Webb knelt down to her level. 'The stories are moving to a new place,' she said. It was true, technically. The collection would be split between the new centre and the regional library forty minutes away.\n\n'But I like THIS place,' the girl said.\n\nMrs Webb felt something crack behind her carefully maintained composure. 'I know, sweetheart. I do too.'\n\nThe mother pulled the girl gently toward the door. 'Say goodbye to the library, Emma.'\n\n'Goodbye, library,' Emma whispered. And then, quieter still, 'I'll remember you.'\n\nAfter they left, Mrs Webb stood alone among the boxes. Tomorrow, the bulldozers would come. The technology centre would rise, modern and bright, full of everything a community could want.\n\nBut she found herself wondering: in their rush to build the future, had anyone asked what of the past was worth keeping? Progress wasn't wrong—she believed in computers and coding and all the possibilities they offered. But some things couldn't be upgraded. Some things could only be lost.\n\nShe picked up the last book on the donation cart—a battered copy of 'The Velveteen Rabbit'—and tucked it into her bag. The book was about becoming real through love, through being worn and used and needed.\n\nThe library had been real.\n\nShe hoped that was worth something, even if no one had thought to measure it.",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "960-1060L",
+        "themes": [
+          "progress vs preservation",
+          "intangible value",
+          "community spaces",
+          "memory and loss"
+        ],
+        "literaryDevices": [
+          "symbolism",
+          "contrast",
+          "rhetorical question"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc05-007",
+          "questionType": "MCQ",
+          "stem": "Which statement best expresses a central theme of this passage?",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Elderly people resist change",
+              "isCorrect": false,
+              "feedback": "Mrs Webb isn't resisting change—she accepts the demolition. Her reflection is philosophical, not oppositional. The theme is about awareness, not resistance."
+            },
+            {
+              "id": "B",
+              "text": "Technology is always harmful to communities",
+              "isCorrect": false,
+              "feedback": "This is TOO EXTREME. Mrs Webb explicitly says she 'believed in computers and coding.' The theme is about balance and awareness, not anti-technology."
+            },
+            {
+              "id": "C",
+              "text": "Libraries should never be closed",
+              "isCorrect": false,
+              "feedback": "The passage is more nuanced than a simple policy position. It explores what libraries mean, not whether they should always be preserved. The theme is about value, not a rule."
+            },
+            {
+              "id": "D",
+              "text": "Progress can bring gains while also creating unmeasurable losses",
+              "isCorrect": true,
+              "feedback": "Correct! The passage doesn't reject the technology centre—Mrs Webb 'believed in computers and coding.' But it explores what gets lost in progress: 'some things couldn't be upgraded.'"
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 13",
+              "quoteHint": "some things couldn't be upgraded"
+            },
+            "distractorTypes": {
+              "B": "too_extreme",
+              "C": "too_extreme",
+              "A": "wrong_tone"
+            },
+            "inferenceType": "central_theme",
+            "questionFunction": "Identify nuanced central theme"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Does Mrs Webb oppose all technology? What does she say she believes in?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does Mrs Webb say 'couldn't be upgraded' or 'could only be lost'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "She accepts progress but mourns what can't be measured or preserved—nuanced loss.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-002",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-008",
+          "questionType": "MCQ",
+          "stem": "The grandmother's quote—'A library isn't really about books... it's about the space between the books'—develops the theme of:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "The importance of proper library architecture",
+              "isCorrect": false,
+              "feedback": "The grandmother isn't talking about physical architecture—'space between the books' is metaphorical, referring to atmosphere and community, not floor plans."
+            },
+            {
+              "id": "B",
+              "text": "How libraries were better in the past",
+              "isCorrect": false,
+              "feedback": "The grandmother's wisdom applies to libraries generally, not just old ones. The theme is about intangible value, not about past vs present superiority."
+            },
+            {
+              "id": "C",
+              "text": "How intangible qualities matter more than measurable features",
+              "isCorrect": true,
+              "feedback": "Correct! 'Space between the books' represents unmeasurable value—community, quiet, belonging. The theme contrasts what can be counted (books, computers) with what can only be felt."
+            },
+            {
+              "id": "D",
+              "text": "Why books should be arranged with more gaps",
+              "isCorrect": false,
+              "feedback": "This interprets the metaphor literally. The grandmother is talking about the EXPERIENCE of being in a library, not about shelving arrangements."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 8",
+              "quoteHint": "space between the books"
+            },
+            "distractorTypes": {
+              "A": "literal_interpretation",
+              "D": "literal_interpretation",
+              "B": "half_right"
+            },
+            "inferenceType": "metaphor_meaning",
+            "questionFunction": "Interpret figurative language in relation to theme"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is 'space between the books' literal or metaphorical?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What do 'quiet places where people can figure things out' represent?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The 'space' is the atmosphere, community, refuge—intangible value beyond physical books.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-002",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-009",
+          "questionType": "MCQ",
+          "stem": "The description of the technology centre's features—'better lighting. Faster internet. Cleaner bathrooms'—develops the theme by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Proving that the technology centre will be worse",
+              "isCorrect": false,
+              "feedback": "The passage acknowledges these are genuine improvements. Mrs Webb doesn't claim the centre will be worse—she wonders about what won't be measured or preserved."
+            },
+            {
+              "id": "B",
+              "text": "Listing things libraries should have had",
+              "isCorrect": false,
+              "feedback": "This isn't a criticism of the old library's facilities. The list illustrates HOW progress is typically justified—through measurable features—not what was missing before."
+            },
+            {
+              "id": "C",
+              "text": "Showing how progress is measured in practical, quantifiable terms",
+              "isCorrect": true,
+              "feedback": "Correct! The list emphasizes MEASURABLE improvements—lighting, speed, cleanliness. This contrasts with the unmeasurable qualities Mrs Webb mourns, developing the theme about what counts."
+            },
+            {
+              "id": "D",
+              "text": "Explaining why the mayor made the right decision",
+              "isCorrect": false,
+              "feedback": "The passage doesn't judge the mayor's decision as right or wrong. These features illustrate the TYPE of value that gets counted in progress decisions."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 5",
+              "quoteHint": "better lighting. Faster internet"
+            },
+            "distractorTypes": {
+              "A": "too_extreme",
+              "B": "out_of_scope",
+              "D": "out_of_scope"
+            },
+            "inferenceType": "contrast_function",
+            "questionFunction": "Analyze how details develop thematic contrast"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What kind of improvements are listed? Can they be measured?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How does this list contrast with what Mrs Webb thinks about?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Measurable features vs unmeasurable memories—the contrast shows what gets valued.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-002",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-010",
+          "questionType": "MCQ",
+          "stem": "Emma's whisper—'I'll remember you'—develops the theme of:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "How memory preserves value that physical spaces cannot",
+              "isCorrect": true,
+              "feedback": "Correct! Emma promises to remember what buildings and committees cannot preserve. The theme suggests that some things survive only through memory—an intangible form of preservation."
+            },
+            {
+              "id": "B",
+              "text": "Why children should visit libraries more often",
+              "isCorrect": false,
+              "feedback": "The passage isn't advocating for library visits. Emma's statement is thematically significant for what it says about memory and value, not for promoting library attendance."
+            },
+            {
+              "id": "C",
+              "text": "Children's confusion about adult decisions",
+              "isCorrect": false,
+              "feedback": "While Emma is confused, her whisper isn't about confusion—it's about connection and memory. The significance is what she OFFERS (memory), not what she doesn't understand."
+            },
+            {
+              "id": "D",
+              "text": "The importance of saying proper goodbyes",
+              "isCorrect": false,
+              "feedback": "This is too literal. The moment isn't about goodbye etiquette—it's about how memory becomes a form of preservation when physical things disappear."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 12",
+              "quoteHint": "I'll remember you"
+            },
+            "distractorTypes": {
+              "C": "half_right",
+              "D": "literal_interpretation",
+              "B": "out_of_scope"
+            },
+            "inferenceType": "symbolic_dialogue",
+            "questionFunction": "Analyze how child's words carry thematic weight"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What is the library losing physically? What does Emma offer instead?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "If the building is demolished, how can the library 'survive'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Memory preserves what buildings cannot—Emma offers the only preservation possible.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-002",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-011",
+          "questionType": "MCQ",
+          "stem": "The reference to 'The Velveteen Rabbit'—a book 'about becoming real through love, through being worn and used and needed'—develops the theme by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Showing Mrs Webb prefers old books to new technology",
+              "isCorrect": false,
+              "feedback": "The book choice isn't about old vs new. It's about the book's THEME—becoming real through love—which parallels what made the library valuable."
+            },
+            {
+              "id": "B",
+              "text": "Indicating the library collection had valuable rare books",
+              "isCorrect": false,
+              "feedback": "The book is described as 'battered,' not rare or valuable in the collector's sense. Its value is symbolic and thematic, not monetary."
+            },
+            {
+              "id": "C",
+              "text": "Suggesting the library became 'real' through community connection over time",
+              "isCorrect": true,
+              "feedback": "Correct! Just as the toy rabbit becomes real through being loved, the library became meaningful through years of community use. This develops the theme about value created through relationship, not measurement."
+            },
+            {
+              "id": "D",
+              "text": "Proving children's literature is underappreciated",
+              "isCorrect": false,
+              "feedback": "The passage isn't making a point about children's literature in general. The specific book is chosen for its thematic relevance to being 'worn and used and needed.'"
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 14",
+              "quoteHint": "becoming real through love"
+            },
+            "distractorTypes": {
+              "A": "half_right",
+              "B": "literal_interpretation",
+              "D": "out_of_scope"
+            },
+            "inferenceType": "intertextual_reference",
+            "questionFunction": "Analyze how literary reference deepens theme"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What is 'The Velveteen Rabbit' about according to the passage?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How does 'becoming real through being worn and used' apply to the library?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The library, like the rabbit, became 'real' through years of being loved and needed.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-002",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-012",
+          "questionType": "MCQ",
+          "stem": "The final sentence—'She hoped that was worth something, even if no one had thought to measure it'—reinforces the theme by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Showing Mrs Webb's uncertainty about her own beliefs",
+              "isCorrect": false,
+              "feedback": "'Hoped' doesn't indicate uncertainty about the library's value—Mrs Webb clearly believes it was valuable. The hope is that others will recognize what wasn't measured, not doubt about the value itself."
+            },
+            {
+              "id": "B",
+              "text": "Suggesting libraries should start charging admission",
+              "isCorrect": false,
+              "feedback": "Charging admission would be another form of measurement. The statement is about value that CAN'T be measured, not about finding new ways to quantify."
+            },
+            {
+              "id": "C",
+              "text": "Criticising the community for not counting library visitors",
+              "isCorrect": false,
+              "feedback": "The statement isn't about visitor counts. 'Measure' here refers to valuing intangible qualities, not collecting statistics. The theme is philosophical, not administrative."
+            },
+            {
+              "id": "D",
+              "text": "Emphasising that some valuable things cannot be quantified",
+              "isCorrect": true,
+              "feedback": "Correct! 'No one had thought to measure it' directly states the passage's core tension—valuable things exist that our measurement systems don't capture. The theme is about unmeasurable worth."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "final sentence",
+              "quoteHint": "no one had thought to measure it"
+            },
+            "distractorTypes": {
+              "A": "half_right",
+              "C": "literal_interpretation",
+              "B": "out_of_scope"
+            },
+            "inferenceType": "thematic_conclusion",
+            "questionFunction": "Analyze how final sentence crystallizes theme"
+          },
+          "difficulty": 4,
+          "estimatedTime": 55,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What has Mrs Webb established the library 'was'? (previous sentence)",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does 'no one had thought to measure it' suggest about how we value things?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The library was 'real' (valuable) but unmeasured—some worth exists beyond quantification.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-002",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Theme Identification",
+        "archetypeId": "rc05",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevelDistribution": {
+          "level3": 4,
+          "level4": 2
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc05-testlet-003",
+      "passage": {
+        "passageId": "passage-rc05-003",
+        "title": "The Weight of Wings",
+        "textType": "prose",
+        "genre": "literary_fiction",
+        "wordCount": 495,
+        "readingLevel": "Year 6+",
+        "content": "The birds had stopped coming to Grandmother's garden three years ago, but she still filled the feeder every morning. I watched her from the kitchen window, scattering seeds into the empty air.\n\n'They'll come back,' she said when I finally asked. 'Things always come back when you keep making space for them.'\n\nThe garden had changed since Grandfather died. The vegetable patches had gone wild, tomato cages rusting into strange sculptures. The roses she used to prune with mathematical precision now sprawled in every direction, their thorns catching sunlight. Only the bird feeder remained the same—cleaned weekly, filled daily, its perch worn smooth from years of tiny feet that no longer visited.\n\n'Maybe if we put up new feeders,' I suggested. 'Different colours, different seeds.'\n\nGrandmother smiled in that way she had when I was being young and helpful but missing the point. 'It's not about the feeders, love.'\n\nI was sixteen and impatient with things that didn't make sense. 'Then what is it about?'\n\nShe was quiet for a long time, her weathered hands still on the bag of seeds. 'When your grandfather was alive, I used to watch him with these birds. He'd stand here for hours, perfectly still, waiting for them to trust him. He never rushed. Never demanded. Just... offered, and waited.'\n\n'But he's gone now,' I said, more gently than I'd intended.\n\n'Yes.' She lifted another handful of seeds. 'But the offering isn't really about the birds, is it? It's about who I become while I'm offering. Patient. Hopeful. Still believing in things that might not happen.'\n\nI thought about that for weeks afterward. The way she found the seedlings in the wild tomato patch and didn't uproot them. The way she let the roses grow past their borders, creating spaces no one had planned. The way she kept filling a feeder for birds that might never return.\n\n'What happens if they never come back?' I asked her one evening.\n\n'Then I'll have spent my last years practicing hope,' she said. 'That's not nothing.'\n\nGrandmother died the following spring. I inherited the house, the wild garden, the empty bird feeder. My first instinct was to fix things—replant the vegetables, prune the roses, take down the useless feeder.\n\nBut I found myself filling it instead. Every morning, like she had. Scattering seeds into empty air. Not because I believed the birds would come back, but because the action itself had become something else—a way of being in the world. Patient. Hopeful. Still believing.\n\nThe birds never did return.\n\nBut I discovered she was right about one thing: the offering changes you, whether or not it's accepted. Some mornings, standing where she stood, I could feel myself becoming the kind of person who makes space for things that might not happen. Who practices hope like a daily discipline.\n\nThat, I learned, is its own kind of arrival.",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "970-1070L",
+        "themes": [
+          "hope as practice rather than expectation",
+          "transformation through ritual",
+          "continuing bonds with those we've lost"
+        ],
+        "literaryDevices": [
+          "symbolism",
+          "extended metaphor",
+          "first-person reflection"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc05-013",
+          "questionType": "MCQ",
+          "stem": "Which statement best expresses the central theme of this passage?",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Gardens require constant maintenance to remain beautiful",
+              "isCorrect": false,
+              "feedback": "The passage shows the garden going WILD and frames this positively—the narrator doesn't 'fix' it. The theme isn't about garden maintenance; it's about hope and transformation."
+            },
+            {
+              "id": "B",
+              "text": "Elderly people often struggle with loss",
+              "isCorrect": false,
+              "feedback": "While loss is present, Grandmother isn't 'struggling'—she's found meaning through continued practice. The theme is about how to LIVE with loss, not about struggling with it."
+            },
+            {
+              "id": "C",
+              "text": "Birds can sense when environments have changed",
+              "isCorrect": false,
+              "feedback": "The passage isn't about bird behaviour—the birds are symbolic. The theme concerns human practices of hope, not ornithology."
+            },
+            {
+              "id": "D",
+              "text": "Hope is valuable as a practice, not only when it leads to results",
+              "isCorrect": true,
+              "feedback": "Correct! Grandmother says 'I'll have spent my last years practicing hope. That's not nothing.' The theme is that hope itself is meaningful, regardless of whether the desired outcome occurs."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 9",
+              "quoteHint": "practicing hope"
+            },
+            "distractorTypes": {
+              "A": "literal_interpretation",
+              "B": "half_right",
+              "C": "literal_interpretation"
+            },
+            "inferenceType": "central_theme",
+            "questionFunction": "Identify overarching theme from symbolic narrative"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does Grandmother say she'll have spent her last years doing?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Is the value of filling the feeder dependent on birds coming back?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Practicing hope'—the value is in the practice itself, not the outcome.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-003",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-014",
+          "questionType": "MCQ",
+          "stem": "Grandmother's statement—'the offering isn't really about the birds... It's about who I become while I'm offering'—develops the theme of:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "How loneliness affects elderly people's behaviour",
+              "isCorrect": false,
+              "feedback": "Grandmother isn't presented as lonely or her behaviour as a symptom. She's described as wise, finding meaning through practice. The theme is positive, not pathological."
+            },
+            {
+              "id": "B",
+              "text": "Why we should not expect gratitude for our kindness",
+              "isCorrect": false,
+              "feedback": "The theme isn't about gratitude or expecting thanks. It's about how PRACTICE transforms the practitioner—internal change, not external recognition."
+            },
+            {
+              "id": "C",
+              "text": "The importance of bird conservation efforts",
+              "isCorrect": false,
+              "feedback": "The passage uses birds symbolically—it's not about conservation. The theme concerns human transformation through practice, not wildlife protection."
+            },
+            {
+              "id": "D",
+              "text": "How our actions shape our character regardless of external outcomes",
+              "isCorrect": true,
+              "feedback": "Correct! Grandmother explains that the practice transforms HER ('who I become')—patient, hopeful, believing. The theme is that our actions shape us internally, separate from their external effects."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 7",
+              "quoteHint": "who I become while I'm offering"
+            },
+            "distractorTypes": {
+              "B": "half_right",
+              "C": "literal_interpretation",
+              "A": "wrong_tone"
+            },
+            "inferenceType": "theme_statement",
+            "questionFunction": "Analyze explicit thematic statement"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What three qualities does Grandmother say she becomes while offering?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Does she say the practice changes her or the birds?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Patient, hopeful, believing—the practice transforms the person, not the external world.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-003",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-015",
+          "questionType": "MCQ",
+          "stem": "The description of the garden—'tomato cages rusting into strange sculptures' and roses that 'sprawled in every direction'—develops the theme by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Warning about the dangers of abandoned property",
+              "isCorrect": false,
+              "feedback": "The passage doesn't frame the garden as dangerous or problematic. The wild growth is presented neutrally or positively, as part of the grandmother's philosophy."
+            },
+            {
+              "id": "B",
+              "text": "Explaining why the birds left the garden",
+              "isCorrect": false,
+              "feedback": "The passage never explains why birds left, and the wild garden might actually ATTRACT birds. The description develops theme about acceptance, not about bird behaviour."
+            },
+            {
+              "id": "C",
+              "text": "Showing how acceptance of change can create unexpected beauty",
+              "isCorrect": true,
+              "feedback": "Correct! The wild garden isn't described as ruined—it becomes 'strange sculptures' and creates 'spaces no one had planned.' The theme is that letting go of control can reveal different kinds of value."
+            },
+            {
+              "id": "D",
+              "text": "Illustrating how grief causes people to neglect responsibilities",
+              "isCorrect": false,
+              "feedback": "The description isn't negative—'strange sculptures' and 'catching sunlight' are evocative, not critical. The narrator doesn't 'fix' the garden. This suggests acceptance, not neglect."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 3",
+              "quoteHint": "strange sculptures"
+            },
+            "distractorTypes": {
+              "D": "wrong_tone",
+              "A": "wrong_tone",
+              "B": "out_of_scope"
+            },
+            "inferenceType": "setting_symbolism",
+            "questionFunction": "Analyze how setting details develop theme"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Are the descriptions of the wild garden negative or neutral/positive?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Does the narrator 'fix' the garden? Why or why not?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Strange sculptures, catching sunlight—the wild garden has its own beauty.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-003",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-016",
+          "questionType": "MCQ",
+          "stem": "The narrator's decision to fill the feeder 'not because I believed the birds would come back'—develops the theme that:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Grief can cause irrational behaviour",
+              "isCorrect": false,
+              "feedback": "The narrator's action isn't presented as irrational—it's shown as wise, continuing Grandmother's philosophy. The theme is about finding meaning, not about grief-driven irrationality."
+            },
+            {
+              "id": "B",
+              "text": "Inheritances should be respected regardless of practicality",
+              "isCorrect": false,
+              "feedback": "The narrator doesn't continue out of respect for inheritance. The choice is active and understood—continuing because the PRACTICE has value, not because it was inherited."
+            },
+            {
+              "id": "C",
+              "text": "Young people often copy their grandparents without understanding why",
+              "isCorrect": false,
+              "feedback": "The narrator DOES understand—that's the point. The passage shows the narrator grasping why Grandmother did it and choosing to continue for the SAME reasons."
+            },
+            {
+              "id": "D",
+              "text": "Meaningful rituals can exist independently of their original purpose",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator continues the practice WITHOUT expecting results. The action has transformed into something meaningful in itself—a ritual that creates identity rather than achieving goals."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 11",
+              "quoteHint": "not because I believed"
+            },
+            "distractorTypes": {
+              "C": "opposite_meaning",
+              "A": "wrong_tone",
+              "B": "half_right"
+            },
+            "inferenceType": "character_understanding",
+            "questionFunction": "Analyze how narrator's reasoning develops theme"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Does the narrator expect birds to return?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "If not for birds, what reason does the narrator give for continuing?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The 'action itself had become something else'—meaningful independent of results.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-003",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-017",
+          "questionType": "MCQ",
+          "stem": "The phrase 'practices hope like a daily discipline' suggests the theme that:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Daily routines can become boring over time",
+              "isCorrect": false,
+              "feedback": "The passage presents the routine as MEANINGFUL, not boring. 'Discipline' here means committed practice, not tedious obligation."
+            },
+            {
+              "id": "B",
+              "text": "Religious rituals are important for emotional health",
+              "isCorrect": false,
+              "feedback": "While the feeder ritual has spiritual qualities, the passage isn't specifically about religion. The theme is about practice and transformation, applicable to any meaningful ritual."
+            },
+            {
+              "id": "C",
+              "text": "Hope requires intentional cultivation through repeated action",
+              "isCorrect": true,
+              "feedback": "Correct! 'Practice' and 'discipline' are active words—hope isn't passive feeling but something you DO. The theme is that hope is a skill developed through deliberate repetition."
+            },
+            {
+              "id": "D",
+              "text": "Hopeful people are naturally more disciplined",
+              "isCorrect": false,
+              "feedback": "This reverses the relationship. The passage suggests discipline creates hope, not that hope creates discipline. Practice leads to becoming hopeful."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 12",
+              "quoteHint": "daily discipline"
+            },
+            "distractorTypes": {
+              "D": "opposite_meaning",
+              "B": "out_of_scope",
+              "A": "opposite_meaning"
+            },
+            "inferenceType": "phrase_meaning",
+            "questionFunction": "Analyze how specific phrase captures theme"
+          },
+          "difficulty": 4,
+          "estimatedTime": 55,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What two words describe how hope is treated in this phrase?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Is hope portrayed as a feeling that happens TO you or something you DO?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Practice' and 'discipline'—hope is something cultivated through intentional action.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-003",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-018",
+          "questionType": "MCQ",
+          "stem": "The final line—'That, I learned, is its own kind of arrival'—develops the theme by suggesting that:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "The birds will eventually return",
+              "isCorrect": false,
+              "feedback": "The passage explicitly states 'The birds never did return.' The 'arrival' isn't about birds—it's about the narrator's internal transformation."
+            },
+            {
+              "id": "B",
+              "text": "Journeys are more important than destinations",
+              "isCorrect": false,
+              "feedback": "This is too general a cliche. The passage is more specific—the practice transforms you into someone, and THAT TRANSFORMATION is the arrival. It's about becoming, not just journeying."
+            },
+            {
+              "id": "C",
+              "text": "Grandmother was wrong about the birds coming back",
+              "isCorrect": false,
+              "feedback": "Grandmother never firmly predicted birds would return—she said 'things always come back when you keep making space.' The theme isn't about proving her wrong but understanding her wisdom."
+            },
+            {
+              "id": "D",
+              "text": "Becoming the person you practice being IS the destination",
+              "isCorrect": true,
+              "feedback": "Correct! The 'arrival' isn't birds returning—it's becoming someone who 'makes space for things that might not happen.' The theme is that transformation through practice is itself the goal."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "final line",
+              "quoteHint": "its own kind of arrival"
+            },
+            "distractorTypes": {
+              "A": "opposite_meaning",
+              "B": "half_right",
+              "C": "wrong_tone"
+            },
+            "inferenceType": "thematic_conclusion",
+            "questionFunction": "Analyze how final line reframes the narrative's meaning"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What did the narrator NOT achieve? (Think about birds)",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What DID the narrator achieve? (Think about who they became)",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "No birds returned, but the narrator became a hopeful person—THAT is the 'arrival.'",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-003",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Theme Identification",
+        "archetypeId": "rc05",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevelDistribution": {
+          "level3": 4,
+          "level4": 2
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc05-testlet-004",
+      "passage": {
+        "passageId": "passage-rc05-004",
+        "title": "The Translator's Dilemma",
+        "textType": "prose",
+        "genre": "literary_fiction",
+        "wordCount": 505,
+        "readingLevel": "Year 6+",
+        "content": "The word didn't translate. Kenji stared at it for the hundredth time: 'komorebi'—the sunlight filtering through leaves. English had no equivalent. He could describe it, of course: 'dappled light,' 'leafy shadows,' 'the play of sunshine through foliage.' But none of these captured what 'komorebi' truly meant.\n\nKenji was translating his grandmother's poems from Japanese to English, a project that had seemed simple when he started and impossible now that he was knee-deep in it. Every poem contained words that existed in Japanese because his grandmother's world needed them to exist, words that English had never bothered to invent because English speakers apparently didn't need them.\n\n'Wabi-sabi'—the beauty of imperfection and transience. 'Mono no aware'—the bittersweet awareness of life's passing nature. 'Ikigai'—the reason for being that makes life worth living.\n\nHow do you translate a worldview?\n\n'Just do your best,' his mother had said when he complained. 'Close enough is fine.'\n\nBut Kenji didn't want close enough. His grandmother had chosen each word precisely, the way a painter selects colours. Giving English readers an approximation felt like showing them a photocopy of a masterpiece and calling it the original.\n\nHe tried different approaches. He kept the Japanese words and added footnotes, which made the poems feel like academic texts. He invented new English phrases, which made them feel pretentious. He used the closest equivalent terms, which made them feel... diminished. Like someone had turned down the volume on his grandmother's voice.\n\nOne night, frustrated, Kenji called his aunt in Osaka. She had helped his grandmother write some of these poems.\n\n'You're thinking about it wrong,' she said after listening to his complaint. 'Translation isn't about finding equal words. It's about creating the same feeling in a different language.'\n\n'But what if the feeling doesn't exist in the other language?'\n\nHis aunt was quiet for a moment. 'Then maybe the translation's job is to create space for a feeling that didn't exist before. You're not just translating words. You're introducing English speakers to something they didn't know they were missing.'\n\nKenji thought about that for days. What if translation wasn't about equivalence but about expansion? What if bringing 'komorebi' into English—even imperfectly—gave English speakers something new to notice and name?\n\nHe returned to the poems with a different approach. Where there were no English words, he created new combinations that hinted at meanings. Where feelings were untranslatable, he wrote poems that circled around the absence, making readers feel the shape of what couldn't be said.\n\nThe translations weren't perfect. They couldn't be. But they were something better than close enough: they were invitations. Each poem opened a door to a way of seeing that English speakers might never have encountered otherwise.\n\n'I wish I could speak Japanese,' an early reader told him. 'These translations make me feel like I'm missing something beautiful.'\n\nKenji smiled. 'That's the point,' he said. 'Now you know it's there to look for.'",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "980-1080L",
+        "themes": [
+          "limitation as invitation",
+          "language shapes perception",
+          "imperfection as opening"
+        ],
+        "literaryDevices": [
+          "extended metaphor",
+          "rhetorical question",
+          "irony"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc05-019",
+          "questionType": "MCQ",
+          "stem": "Which statement best expresses the central theme of this passage?",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Translations should always be literal and precise",
+              "isCorrect": false,
+              "feedback": "The passage argues AGAINST this. Kenji learns translation is about 'creating the same feeling,' not finding 'equal words.' The theme rejects pure literalism."
+            },
+            {
+              "id": "B",
+              "text": "Japanese is a more expressive language than English",
+              "isCorrect": false,
+              "feedback": "The passage doesn't rank languages. It explores how DIFFERENT languages contain different concepts—not that one is superior to another."
+            },
+            {
+              "id": "C",
+              "text": "Limitations can become opportunities to create new understanding",
+              "isCorrect": true,
+              "feedback": "Correct! Kenji transforms the 'problem' of untranslatable words into 'invitations.' The theme is that limitation (what can't be translated) becomes opportunity (introducing new ways of seeing)."
+            },
+            {
+              "id": "D",
+              "text": "Family obligations can be overwhelming",
+              "isCorrect": false,
+              "feedback": "While Kenji is translating his grandmother's work, the theme isn't about family obligation. It's about language, limitation, and creative transformation."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 11",
+              "quoteHint": "expansion"
+            },
+            "distractorTypes": {
+              "B": "half_right",
+              "A": "opposite_meaning",
+              "D": "out_of_scope"
+            },
+            "inferenceType": "central_theme",
+            "questionFunction": "Identify overarching theme about limitation and possibility"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What problem does Kenji face? How does he eventually solve it?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How does the aunt reframe what translation's 'job' is?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Create space for a feeling that didn't exist before'—limitation becomes expansion.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-004",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-020",
+          "questionType": "MCQ",
+          "stem": "The examples of 'komorebi,' 'wabi-sabi,' and 'mono no aware' develop the theme by showing that:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Japanese poetry is more sophisticated than English poetry",
+              "isCorrect": false,
+              "feedback": "The passage doesn't compare poetry traditions' sophistication. It explores how different languages capture different aspects of experience."
+            },
+            {
+              "id": "B",
+              "text": "English speakers are less observant than Japanese speakers",
+              "isCorrect": false,
+              "feedback": "The passage doesn't claim English speakers are less observant. It suggests they have different concepts available—not inferior perception."
+            },
+            {
+              "id": "C",
+              "text": "Kenji is not a skilled translator",
+              "isCorrect": false,
+              "feedback": "The difficulty isn't about Kenji's skill—it's about inherent differences between languages. Any translator would face the same challenges with these concepts."
+            },
+            {
+              "id": "D",
+              "text": "Languages contain concepts that reflect different ways of experiencing the world",
+              "isCorrect": true,
+              "feedback": "Correct! These words exist because Japanese culture 'needed them to exist.' The theme is that language shapes what we notice and value—different languages embody different worldviews."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 2-3",
+              "quoteHint": "because his grandmother's world needed them"
+            },
+            "distractorTypes": {
+              "A": "too_extreme",
+              "C": "wrong_tone",
+              "B": "too_extreme"
+            },
+            "inferenceType": "example_function",
+            "questionFunction": "Analyze how specific examples support theme"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Why does the passage say these words 'exist' in Japanese?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does 'needed them to exist' suggest about language and culture?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Languages develop words for what cultures value and notice—different worldviews.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-004",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-021",
+          "questionType": "MCQ",
+          "stem": "Kenji's comparison of approximations to 'showing them a photocopy of a masterpiece' develops the theme of:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "How 'close enough' can mean a loss of essential qualities",
+              "isCorrect": true,
+              "feedback": "Correct! A photocopy captures information but loses the essence of a painting. The metaphor develops the theme that some things can't be closely approximated without losing what matters most."
+            },
+            {
+              "id": "B",
+              "text": "Why printing technology is inferior to original art",
+              "isCorrect": false,
+              "feedback": "This interprets the metaphor too literally. Kenji isn't commenting on printing technology—he's using it to illustrate what's lost in linguistic approximation."
+            },
+            {
+              "id": "C",
+              "text": "How his grandmother's poems are like famous paintings",
+              "isCorrect": false,
+              "feedback": "While 'masterpiece' is flattering, the comparison is about TRANSLATION, not about ranking his grandmother's poems. The theme concerns what's lost in approximation."
+            },
+            {
+              "id": "D",
+              "text": "The difficulty of creating good photocopies",
+              "isCorrect": false,
+              "feedback": "The quality of photocopies isn't the point. The metaphor is about the gap between original and copy—applicable to translation, not copying technology."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 5",
+              "quoteHint": "photocopy of a masterpiece"
+            },
+            "distractorTypes": {
+              "B": "literal_interpretation",
+              "D": "literal_interpretation",
+              "C": "half_right"
+            },
+            "inferenceType": "metaphor_function",
+            "questionFunction": "Analyze how metaphor develops thematic concern"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What's the difference between a painting and its photocopy?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What aspect of translation is Kenji comparing to photocopying?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Photocopies lose the essence—'close enough' translations miss the original's true quality.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-004",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-022",
+          "questionType": "MCQ",
+          "stem": "The aunt's advice—'create space for a feeling that didn't exist before'—represents a shift in thinking about:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Why Japanese should not be translated",
+              "isCorrect": false,
+              "feedback": "The aunt isn't saying translation is impossible—she's redefining what translation CAN do. The theme is about transforming approach, not abandoning the task."
+            },
+            {
+              "id": "B",
+              "text": "The importance of family support",
+              "isCorrect": false,
+              "feedback": "While the aunt is supportive, her advice is about translation philosophy, not about family relationships. The theme concerns creative transformation."
+            },
+            {
+              "id": "C",
+              "text": "How emotions are universal across cultures",
+              "isCorrect": false,
+              "feedback": "The passage suggests the OPPOSITE—some feelings don't exist in certain languages. The aunt's advice is about introducing NEW feelings, not about universal emotions."
+            },
+            {
+              "id": "D",
+              "text": "How limitations can become creative opportunities",
+              "isCorrect": true,
+              "feedback": "Correct! Instead of seeing untranslatable words as problems, the aunt reframes them as opportunities to EXPAND what exists in English. Limitation becomes invitation."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 9",
+              "quoteHint": "create space for a feeling"
+            },
+            "distractorTypes": {
+              "A": "too_extreme",
+              "B": "out_of_scope",
+              "C": "opposite_meaning"
+            },
+            "inferenceType": "turning_point",
+            "questionFunction": "Identify how advice creates thematic pivot"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What was Kenji's problem before the aunt's advice?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How does 'create space' differ from 'find equivalent'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Instead of finding what exists, CREATE what's missing—limitation becomes expansion.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-004",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-023",
+          "questionType": "MCQ",
+          "stem": "The description of the translations as 'invitations' rather than 'equivalences' develops the theme by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Suggesting that imperfect translations can open doors to new understanding",
+              "isCorrect": true,
+              "feedback": "Correct! 'Invitations' implies welcoming readers to discover something new, not delivering a completed package. The theme is that imperfection can be generative rather than merely deficient."
+            },
+            {
+              "id": "B",
+              "text": "Explaining why translations should be free",
+              "isCorrect": false,
+              "feedback": "'Invitations' is metaphorical, not about cost. The term describes the FUNCTION of his translations—inviting discovery—not their pricing."
+            },
+            {
+              "id": "C",
+              "text": "Showing that Kenji has lowered his standards",
+              "isCorrect": false,
+              "feedback": "Kenji hasn't lowered standards—he's transformed his APPROACH. 'Invitations' is a positive reframing, not an excuse for lower quality."
+            },
+            {
+              "id": "D",
+              "text": "Warning readers that the translations are incomplete",
+              "isCorrect": false,
+              "feedback": "'Invitations' isn't a warning—it's a positive description. The theme is that incompleteness has VALUE, not that it's a defect to warn about."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 12",
+              "quoteHint": "they were invitations"
+            },
+            "distractorTypes": {
+              "C": "wrong_tone",
+              "B": "literal_interpretation",
+              "D": "half_right"
+            },
+            "inferenceType": "word_choice",
+            "questionFunction": "Analyze how key term crystallizes theme"
+          },
+          "difficulty": 4,
+          "estimatedTime": 55,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does an 'invitation' ask someone to do?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "How is inviting someone to discover different from delivering a complete answer?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Invitations open doors, leave room for exploration—incompleteness becomes opportunity.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-004",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-024",
+          "questionType": "MCQ",
+          "stem": "The final exchange—'These translations make me feel like I'm missing something beautiful' / 'That's the point'—reveals the theme that:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Perfect translation is impossible and attempts are futile",
+              "isCorrect": false,
+              "feedback": "This is too pessimistic. The passage shows translation as VALUABLE despite imperfection. The theme is about the productivity of limitation, not futility."
+            },
+            {
+              "id": "B",
+              "text": "Awareness of what we lack can inspire us to seek new understanding",
+              "isCorrect": true,
+              "feedback": "Correct! The reader's feeling of 'missing something' isn't failure—it's success. Kenji's goal was to make readers aware of beauty they didn't know existed. Awareness of lack creates seeking."
+            },
+            {
+              "id": "C",
+              "text": "Kenji intentionally created confusing translations",
+              "isCorrect": false,
+              "feedback": "The translations aren't confusing—they're evocative. Making readers feel they're 'missing something' isn't confusion; it's awareness of possibility."
+            },
+            {
+              "id": "D",
+              "text": "English speakers should learn Japanese",
+              "isCorrect": false,
+              "feedback": "While the reader expresses wanting to learn Japanese, Kenji's response shows the translation ITSELF has value. The theme isn't that everyone must learn Japanese."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "final exchange",
+              "quoteHint": "That's the point"
+            },
+            "distractorTypes": {
+              "C": "wrong_tone",
+              "D": "half_right",
+              "A": "too_extreme"
+            },
+            "inferenceType": "thematic_irony",
+            "questionFunction": "Analyze how ending reframes 'failure' as success"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is the reader's reaction negative or positive?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Why does Kenji say 'That's the point'? What has been achieved?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Feeling you're 'missing something' = knowing it exists = reason to seek it.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-004",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Theme Identification",
+        "archetypeId": "rc05",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevelDistribution": {
+          "level3": 4,
+          "level4": 2
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc05-testlet-005",
+      "passage": {
+        "passageId": "passage-rc05-005",
+        "title": "The Debate",
+        "textType": "prose",
+        "genre": "realistic_fiction",
+        "wordCount": 510,
+        "readingLevel": "Year 6+",
+        "content": "Aisha had won every debate this year by destroying her opponents. That was the word Coach Martinez used: 'destroyed.' He said it like a compliment.\n\n'You find their weakest argument and you hammer it,' he'd explained early in the season. 'Make the judges forget they ever had a point worth making.'\n\nIt worked. Aisha's reputation preceded her. When opponents saw her name on the bracket, their confidence visibly wilted. She had perfected the art of making other people's ideas sound foolish.\n\nThe state championship was against a boy named David Chen from a school across the city. The topic was whether standardised testing helped or harmed education. Aisha was assigned the 'helped' side—not her personal belief, but that didn't matter. Debate was about winning, not truth.\n\nDavid's opening argument was emotional, full of personal stories about anxious classmates and teachers forced to 'teach to the test.' Aisha smiled. Emotional arguments were easy targets. She would destroy him.\n\nBut something happened during her rebuttal that she didn't expect. As she systematically dismantled David's points, pointing out logical flaws and unsupported claims, she watched his face. He wasn't angry. He wasn't defeated. He was... listening. Really listening, as if her critiques might actually improve his thinking.\n\nWhen it was his turn again, David did something she'd never seen an opponent do: he agreed with her.\n\n'She's right that I relied too heavily on anecdotal evidence,' he said. 'Let me offer better support for my position.' And then he did—restructuring his argument to address every weakness she'd exposed.\n\nAisha felt something unfamiliar: respect for someone she was supposed to be beating. Not because he was winning—he probably wasn't—but because he was treating her arguments as gifts rather than attacks.\n\nIn her closing statement, Aisha did something that shocked herself. Instead of going for the rhetorical kill, she acknowledged the legitimate concerns David had raised. 'While standardised testing offers important benefits,' she said, 'any thoughtful observer must recognise that these benefits come with real costs that deserve serious attention.'\n\nShe won the debate. The judges' decision was unanimous. But walking off the stage, she felt strange—not triumphant, but confused.\n\nDavid found her afterward. 'That was the best debate I've ever had,' he said.\n\n'I won,' Aisha pointed out.\n\n'I know. But I'm a better thinker now than I was an hour ago. Aren't you?'\n\nAisha thought about all the debates she'd won by destruction. Had any of them made her smarter? Or had she just gotten better at making other people look foolish while leaving her own thinking unchanged?\n\n'Maybe,' she admitted.\n\nDavid shrugged. 'Winning's great. But learning something you didn't know before—that's the real prize, isn't it?'\n\nAisha didn't answer. She was too busy wondering if she'd been winning all along while somehow losing the more important game.\n\nThe trophy would look good on her shelf. But David's question would stay with her longer: What's the point of winning if you end exactly where you started?",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "970-1070L",
+        "themes": [
+          "true victory vs apparent success",
+          "learning vs winning",
+          "competition vs collaboration"
+        ],
+        "literaryDevices": [
+          "irony",
+          "contrast",
+          "epiphany"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc05-025",
+          "questionType": "MCQ",
+          "stem": "Which statement best expresses the central theme of this passage?",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Debate competitions are harmful to students",
+              "isCorrect": false,
+              "feedback": "The passage doesn't condemn debate—it questions a particular APPROACH to debate. Aisha's experience in THIS debate was valuable; her past approach was limited."
+            },
+            {
+              "id": "B",
+              "text": "Being nice to opponents is more important than winning",
+              "isCorrect": false,
+              "feedback": "The theme isn't simply about being nice. Aisha still wins, and that matters. The theme is about whether winning includes growth, not about niceness over victory."
+            },
+            {
+              "id": "C",
+              "text": "Standardised testing harms education",
+              "isCorrect": false,
+              "feedback": "The debate topic is a vehicle for the story, not its theme. The passage doesn't take a position on testing—it uses the debate to explore competition and growth."
+            },
+            {
+              "id": "D",
+              "text": "True success involves growth, not just defeating others",
+              "isCorrect": true,
+              "feedback": "Correct! David asks if Aisha is 'a better thinker now.' The passage contrasts winning through destruction (no growth) with winning while learning (true success)."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraphs",
+              "quoteHint": "winning while somehow losing"
+            },
+            "distractorTypes": {
+              "A": "too_extreme",
+              "B": "half_right",
+              "C": "literal_interpretation"
+            },
+            "inferenceType": "central_theme",
+            "questionFunction": "Identify overarching theme about success"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What question does David ask about being 'a better thinker'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does Aisha wonder about 'winning while somehow losing'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Winning without growth = losing the important game. True success includes learning.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-005",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-026",
+          "questionType": "MCQ",
+          "stem": "The word 'destroyed' being used 'like a compliment' develops the theme by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Indicating that debate is a violent sport",
+              "isCorrect": false,
+              "feedback": "Debate isn't physically violent. The word choice reveals METAPHORICAL violence—treating intellectual exchange as combat rather than collaboration."
+            },
+            {
+              "id": "B",
+              "text": "Explaining why Aisha became interested in debate",
+              "isCorrect": false,
+              "feedback": "We don't learn why Aisha started debating. The detail about 'destroyed' establishes the VALUES she's been taught, not her original motivation."
+            },
+            {
+              "id": "C",
+              "text": "Proving that Coach Martinez is a poor teacher",
+              "isCorrect": false,
+              "feedback": "The passage isn't judging Coach Martinez as a person—it's examining a CULTURE of debate. The coach represents common attitudes, not individual failure."
+            },
+            {
+              "id": "D",
+              "text": "Showing how competitive culture can celebrate harmful approaches",
+              "isCorrect": true,
+              "feedback": "Correct! 'Destroyed' is violent language presented positively. This establishes the theme: a culture that celebrates destruction (making others 'sound foolish') rather than mutual growth."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 1",
+              "quoteHint": "destroyed"
+            },
+            "distractorTypes": {
+              "C": "out_of_scope",
+              "B": "out_of_scope",
+              "A": "literal_interpretation"
+            },
+            "inferenceType": "word_choice_significance",
+            "questionFunction": "Analyze how opening word choice establishes thematic concern"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is 'destroyed' typically a positive or negative word?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does it reveal that the coach uses this word as praise?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Celebrating 'destruction' of opponents shows a culture that values defeat over growth.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-005",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-027",
+          "questionType": "MCQ",
+          "stem": "David's reaction to Aisha's rebuttal—'listening' and 'agreeing'—develops the theme by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Demonstrating an alternative approach that treats criticism as valuable feedback",
+              "isCorrect": true,
+              "feedback": "Correct! David treats Aisha's critiques 'as gifts rather than attacks.' This contrasts with the destruction model—showing how criticism can be productive rather than merely defeating."
+            },
+            {
+              "id": "B",
+              "text": "Indicating that Aisha's arguments were wrong",
+              "isCorrect": false,
+              "feedback": "Aisha's arguments were EFFECTIVE—David agrees they identified real weaknesses. The theme isn't about Aisha being wrong; it's about how to respond to criticism."
+            },
+            {
+              "id": "C",
+              "text": "Showing that David is a weak competitor",
+              "isCorrect": false,
+              "feedback": "Agreeing isn't weakness—it's intellectual strength. David IMPROVES his argument after acknowledging flaws. The passage presents this as admirable, not weak."
+            },
+            {
+              "id": "D",
+              "text": "Proving that David wanted to lose the debate",
+              "isCorrect": false,
+              "feedback": "David didn't want to lose—he wanted to LEARN. There's a difference between giving up and being open to growth while still competing."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 8",
+              "quoteHint": "gifts rather than attacks"
+            },
+            "distractorTypes": {
+              "C": "opposite_meaning",
+              "B": "half_right",
+              "D": "wrong_tone"
+            },
+            "inferenceType": "contrast_function",
+            "questionFunction": "Analyze how character behaviour presents alternative model"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "How is David's response to criticism different from what Aisha expected?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does David DO with Aisha's critique?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "He improves his argument—criticism becomes a tool for growth, not just defeat.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-005",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-028",
+          "questionType": "MCQ",
+          "stem": "Aisha's decision to acknowledge 'legitimate concerns' in her closing statement develops the theme by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Showing her beginning to value understanding over mere victory",
+              "isCorrect": true,
+              "feedback": "Correct! Instead of 'going for the rhetorical kill,' she acknowledges valid points. This shift represents the theme's value—engaging genuinely rather than just destroying."
+            },
+            {
+              "id": "B",
+              "text": "Revealing that she secretly agreed with David's position",
+              "isCorrect": false,
+              "feedback": "The passage says she didn't personally believe the 'helped' side—but she still argued it. Her acknowledgment isn't about changing positions; it's about intellectual honesty."
+            },
+            {
+              "id": "C",
+              "text": "Demonstrating proper debate technique",
+              "isCorrect": false,
+              "feedback": "Her usual technique was 'destruction,' which had won before. This was a DEPARTURE from technique—something that 'shocked herself.' The theme is about values, not proper technique."
+            },
+            {
+              "id": "D",
+              "text": "Explaining why she ultimately lost the debate",
+              "isCorrect": false,
+              "feedback": "She WON the debate—unanimously. The acknowledgment didn't cause her to lose; it changed HOW she won and how she felt about winning."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 9",
+              "quoteHint": "shocked herself"
+            },
+            "distractorTypes": {
+              "B": "half_right",
+              "D": "opposite_meaning",
+              "C": "out_of_scope"
+            },
+            "inferenceType": "character_change",
+            "questionFunction": "Analyze how character's action embodies thematic shift"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What did Aisha NOT do that she usually would have?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does it mean that she 'shocked herself'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "She chose engagement over destruction—valuing understanding over pure victory.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-005",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-029",
+          "questionType": "MCQ",
+          "stem": "David's statement—'learning something you didn't know before—that's the real prize'—expresses the theme that:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Aisha should have let David win",
+              "isCorrect": false,
+              "feedback": "David doesn't want to be given victory. He values the DEBATE itself—the exchange that made him 'a better thinker.' The theme isn't about letting people win."
+            },
+            {
+              "id": "B",
+              "text": "Competition should be abolished",
+              "isCorrect": false,
+              "feedback": "David still participated in competition and valued it. The theme is about HOW to compete (with learning as the goal), not about eliminating competition."
+            },
+            {
+              "id": "C",
+              "text": "Trophies are meaningless",
+              "isCorrect": false,
+              "feedback": "David doesn't say trophies are meaningless—he says 'winning's great.' The theme is about what MATTERS MORE, not about dismissing winning entirely."
+            },
+            {
+              "id": "D",
+              "text": "Growth through exchange is more valuable than victory through domination",
+              "isCorrect": true,
+              "feedback": "Correct! David explicitly values learning over winning. The theme is that true 'prizes' are about becoming better, not about defeating others."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 14",
+              "quoteHint": "the real prize"
+            },
+            "distractorTypes": {
+              "C": "too_extreme",
+              "A": "out_of_scope",
+              "B": "too_extreme"
+            },
+            "inferenceType": "explicit_theme",
+            "questionFunction": "Identify theme as stated by character"
+          },
+          "difficulty": 3,
+          "estimatedTime": 45,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What two things does David compare: winning and what?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Which one does David call 'the real prize'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Learning = 'real prize.' Growth matters more than victory alone.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-005",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc05-030",
+          "questionType": "MCQ",
+          "stem": "The final question—'What's the point of winning if you end exactly where you started?'—crystallises the theme by:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Proving that Aisha should not have participated in debates",
+              "isCorrect": false,
+              "feedback": "The question doesn't reject participation—it questions HOW to participate. Aisha gained something from THIS debate; the question is about her past approach."
+            },
+            {
+              "id": "B",
+              "text": "Suggesting that beginning and ending in the same place is always bad",
+              "isCorrect": false,
+              "feedback": "The context specifies winning without growth. The question isn't a universal rule—it's about whether 'winning' alone is sufficient when there's no development."
+            },
+            {
+              "id": "C",
+              "text": "Explaining why David was the better debater",
+              "isCorrect": false,
+              "feedback": "Aisha won the debate—she was technically 'better' by competitive standards. The question challenges what 'better' means, not who won."
+            },
+            {
+              "id": "D",
+              "text": "Challenging whether success without growth is truly successful",
+              "isCorrect": true,
+              "feedback": "Correct! The question suggests that 'winning' without changing means missing the point. The theme is that meaningful success involves transformation, not just achievement."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Theme Identification",
+            "archetypeId": "rc05",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "final sentence",
+              "quoteHint": "end exactly where you started"
+            },
+            "distractorTypes": {
+              "A": "too_extreme",
+              "B": "too_extreme",
+              "C": "half_right"
+            },
+            "inferenceType": "rhetorical_question_function",
+            "questionFunction": "Analyze how final rhetorical question embodies theme"
+          },
+          "difficulty": 4,
+          "estimatedTime": 55,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is this a question with an obvious answer, or one meant to provoke thought?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does 'end exactly where you started' mean in terms of the passage's concern?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Winning without growth = no change. The question asks: is that really winning?",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc05-testlet-005",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Theme Identification",
+        "archetypeId": "rc05",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevelDistribution": {
+          "level3": 4,
+          "level4": 2
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    }
+  ],
+  "metadata": {
+    "archetype": "Theme Identification",
+    "archetypeId": "rc05",
+    "section": "nsw-selective-reading",
+    "targetYear": 6,
+    "questionCount": 6,
+    "difficultyRange": "3-4",
+    "comprehensionLevelDistribution": {
+      "level3": 4,
+      "level4": 2
+    },
+    "createdAt": "2026-01-16",
+    "version": "1.0",
+    "testletCount": 5,
+    "totalQuestions": 30
+  }
+}

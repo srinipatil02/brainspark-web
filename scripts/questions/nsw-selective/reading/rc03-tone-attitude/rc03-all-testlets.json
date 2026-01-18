@@ -1,0 +1,2362 @@
+{
+  "testlets": [
+    {
+      "testletId": "nsw-sel-rc03-testlet-001",
+      "passage": {
+        "passageId": "passage-rc03-001",
+        "title": "The Last Summer",
+        "textType": "prose",
+        "genre": "literary_fiction",
+        "wordCount": 468,
+        "readingLevel": "Year 6+",
+        "lexileRange": "950-1010L",
+        "content": "The house smelled of cardboard boxes and dust, the particular scent of endings. Mia ran her fingers along the kitchen counter one last time, feeling the familiar chip near the stove where she'd dropped a pan when she was seven. Her mother had been furious, but even then, Mia had secretly liked having a mark on something, proof that she'd been there.\n\nOutside, the moving truck waited with the patience of something that knew it would win. Her father was already loading boxes, his movements mechanical, his face carefully arranged into an expression that said nothing was wrong, everything was fine, this was just another ordinary day.\n\nBut it wasn't ordinary. Twelve years of mornings at this kitchen table. Twelve years of running through that back door. Twelve years of her handprints on the glass, her secrets whispered to the walls, her tears soaked into the carpet of her bedroom.\n\nThe new house was bigger. Her parents kept reminding her of this, as if square footage could compensate for the willow tree in the backyard where she'd read a thousand books, or the creek behind the fence where tadpoles became frogs every spring, or the way the afternoon light came through her window at exactly the right angle to make rainbow patterns on her wall.\n\n'Almost ready?' Her mother appeared in the doorway, her voice bright in that particular way that meant she was trying too hard. Behind her cheerfulness, Mia could see exhaustion, and something else—a flicker of the same grief Mia was drowning in, carefully hidden behind a grown-up mask.\n\n'I just need a minute.'\n\nHer mother nodded, understanding passing between them without words. For a moment, the mask slipped, and Mia saw her own sadness reflected back. Then her mother turned away, returning to the business of leaving.\n\nMia walked through each room one final time. The living room where she'd built blanket forts. The bathroom where she'd cried the night Sarah stopped being her friend. The hallway where she'd measured her height each birthday, pencil marks climbing the doorframe like a ladder through time.\n\nThey'd painted over those marks last week. Preparation for the next family, the realtor had said. As if twelve years could be erased with a coat of white paint.\n\nShe paused at the front door, hand on the knob, and looked back at the empty house. It didn't look like home anymore—just rooms, just walls, just a shell of what had been.\n\n'Goodbye,' she whispered, the word catching in her throat.\n\nThe house, of course, said nothing back. Houses never do. But Mia could have sworn she felt something—a warmth, a sigh, an acknowledgment of all the living that had happened within these walls.\n\nShe stepped outside and didn't look back again.",
+        "source": "Original (AI-generated for educational purposes)",
+        "themes": [
+          "loss",
+          "nostalgia",
+          "growing up",
+          "memory",
+          "change"
+        ],
+        "literaryDevices": [
+          "sensory imagery",
+          "personification",
+          "repetition",
+          "symbolism",
+          "understated emotion"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc03-001",
+          "questionType": "MCQ",
+          "stem": "The overall tone of this passage is best described as:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "excited and optimistic",
+              "isCorrect": false,
+              "feedback": "This is the OPPOSITE of the passage's tone. Though the new house is 'bigger,' Mia doesn't value this. The prevailing emotions are loss and sadness, not excitement about the future."
+            },
+            {
+              "id": "B",
+              "text": "wistful and bittersweet",
+              "isCorrect": true,
+              "feedback": "Correct! The passage combines sadness ('grief Mia was drowning in') with fond memory ('where she'd read a thousand books'). This mixture of sorrow and tenderness is wistfulness—feeling both sad about loss and grateful for what was."
+            },
+            {
+              "id": "C",
+              "text": "indifferent and detached",
+              "isCorrect": false,
+              "feedback": "Mia is deeply emotionally connected to the house. The detailed memories ('chip near the stove,' 'tadpoles became frogs'), physical sensations, and whispered goodbye show the opposite of detachment."
+            },
+            {
+              "id": "D",
+              "text": "furious and resentful",
+              "isCorrect": false,
+              "feedback": "While Mia doesn't want to leave, her emotions are sad rather than angry. Words like 'grief,' 'tears,' and 'goodbye' suggest sorrow, not fury. There's no resentment toward her parents—just shared sadness."
+            }
+          ],
+          "solution": "The tone combines sadness over loss with warm appreciation of memories. 'Wistful' captures this mixture—longing for something gone while cherishing its memory. 'Bittersweet' adds the complexity of finding beauty in painful endings.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "throughout",
+              "quoteHint": "proof that she'd been there... grief Mia was drowning in"
+            },
+            "distractorTypes": {
+              "D": "too_extreme",
+              "A": "opposite_meaning",
+              "C": "opposite_meaning"
+            },
+            "inferenceType": "overall_tone",
+            "questionFunction": "Synthesizes emotional atmosphere from multiple textual elements"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is Mia angry about leaving, or sad? Does she hate her memories, or treasure them?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Look for emotion words: 'grief,' 'tears,' but also 'rainbow patterns,' 'thousand books.' What combination of feelings does this suggest?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Mia is sad (grief, tears) but also loving (detailed memories). This mixture of sorrow and fondness is 'wistful'—longing for something lost while remembering it warmly.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-002",
+          "questionType": "MCQ",
+          "stem": "The phrase 'the moving truck waited with the patience of something that knew it would win' suggests that Mia views the move as:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "a complete surprise she didn't expect",
+              "isCorrect": false,
+              "feedback": "The passage shows Mia has had time to prepare emotionally—she walks through rooms 'one final time' and has already painted over height marks. This isn't sudden; it's a long-anticipated goodbye."
+            },
+            {
+              "id": "B",
+              "text": "an inevitable loss she cannot prevent",
+              "isCorrect": true,
+              "feedback": "Correct! Personifying the truck as 'patient' and certain to 'win' presents the move as a force Mia cannot fight. The truck isn't rushing because it knows Mia's resistance is futile—the move will happen regardless."
+            },
+            {
+              "id": "C",
+              "text": "an exciting adventure she's eager to begin",
+              "isCorrect": false,
+              "feedback": "If Mia were excited, she wouldn't frame the truck as an opponent who 'wins.' The word 'win' implies defeat—Mia is losing something, not gaining an adventure."
+            },
+            {
+              "id": "D",
+              "text": "a minor inconvenience she can easily overcome",
+              "isCorrect": false,
+              "feedback": "The language suggests the opposite. The truck 'wins,' implying Mia loses. Her detailed, emotional farewells indicate this is anything but minor to her."
+            }
+          ],
+          "solution": "The personification of the truck as patient and inevitable reveals Mia's attitude: the move is a force she cannot stop, an opponent certain of victory. This language choice shows Mia feels powerless against the change.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 2",
+              "quoteHint": "waited with the patience of something that knew it would win"
+            },
+            "distractorTypes": {
+              "C": "opposite_meaning",
+              "D": "too_extreme",
+              "A": "out_of_scope"
+            },
+            "inferenceType": "attitude_through_imagery",
+            "questionFunction": "Interprets personification to reveal character's perspective"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "The truck is given human qualities ('patience,' 'knew it would win'). What does treating the truck as an opponent reveal?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "If the truck 'wins,' what does Mia 'lose'? What does this framing tell us about how she sees the move?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The truck is personified as a patient winner—something that can't be stopped. This reveals Mia sees the move as inevitable loss, a battle she's already lost.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-003",
+          "questionType": "MCQ",
+          "stem": "The author describes Mia's father's face as 'carefully arranged into an expression that said nothing was wrong.' This detail suggests his attitude is one of:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "complete indifference to the family's feelings",
+              "isCorrect": false,
+              "feedback": "An indifferent person wouldn't bother arranging their face at all. The effort to APPEAR fine suggests he CARES about not upsetting others—the opposite of indifference."
+            },
+            {
+              "id": "B",
+              "text": "genuine happiness about the new house",
+              "isCorrect": false,
+              "feedback": "The word 'arranged' suggests the expression is CONSTRUCTED, not genuine. A truly happy person wouldn't need to 'carefully arrange' their face—the feeling would show naturally."
+            },
+            {
+              "id": "C",
+              "text": "confusion about why they're moving",
+              "isCorrect": false,
+              "feedback": "Nothing suggests confusion. The father's deliberate expression shows he understands the situation but is managing how he shows emotion—he's hiding feelings, not lacking understanding."
+            },
+            {
+              "id": "D",
+              "text": "concealed emotion hidden behind forced normalcy",
+              "isCorrect": true,
+              "feedback": "Correct! 'Carefully arranged' suggests effort—his calm expression is deliberate, not natural. This implies emotions hidden beneath the surface, masked by a performance of normalcy."
+            }
+          ],
+          "solution": "'Carefully arranged' is key—it reveals effort and performance. The father isn't naturally calm; he's WORKING to appear calm. This adult behaviour of masking emotion parallels the mother's 'mask' mentioned later.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 2",
+              "quoteHint": "carefully arranged"
+            },
+            "distractorTypes": {
+              "B": "literal_interpretation",
+              "A": "opposite_meaning",
+              "C": "out_of_scope"
+            },
+            "inferenceType": "word_choice_reveals_attitude",
+            "questionFunction": "Interprets subtle word choice to reveal hidden emotional state"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Focus on 'carefully arranged.' Do we 'arrange' expressions that come naturally?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does it mean when someone WORKS to look normal? What might they be hiding?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'Arranged' implies effort and construction. The father is performing calmness—his real emotions are hidden beneath a deliberately crafted expression.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-004",
+          "questionType": "MCQ",
+          "stem": "In paragraph 4, the author lists specific memories: 'the willow tree,' 'the creek,' 'rainbow patterns.' The effect of this list is to create a tone of:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "bitter criticism of the new house",
+              "isCorrect": false,
+              "feedback": "While Mia contrasts the old house favourably, the tone isn't bitter or critical. She's not attacking the new house—she's mourning the old one. The difference is important: grief, not anger."
+            },
+            {
+              "id": "B",
+              "text": "impatient frustration with her parents' reasoning",
+              "isCorrect": false,
+              "feedback": "Mia doesn't seem frustrated with her parents—she later shares a moment of mutual understanding with her mother. The list shows what she values, not anger at others."
+            },
+            {
+              "id": "C",
+              "text": "tender reverence for irreplaceable experiences",
+              "isCorrect": true,
+              "feedback": "Correct! The specific, sensory details ('afternoon light at exactly the right angle') show these aren't generic memories but cherished, unique experiences. The careful listing creates a tone of treasuring what's being lost."
+            },
+            {
+              "id": "D",
+              "text": "objective comparison between two properties",
+              "isCorrect": false,
+              "feedback": "The passage isn't objective—it's deeply emotional. Words like 'rainbow patterns' are sensory and personal, not factual comparisons. Mia isn't evaluating real estate; she's grieving memories."
+            }
+          ],
+          "solution": "The specific sensory details—light 'at exactly the right angle,' tadpoles becoming frogs 'every spring'—show Mia has observed and treasured these moments carefully. This precision creates tender reverence for unique, irreplaceable experiences.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 4",
+              "quoteHint": "exactly the right angle to make rainbow patterns"
+            },
+            "distractorTypes": {
+              "A": "wrong_tone",
+              "D": "opposite_meaning",
+              "B": "out_of_scope"
+            },
+            "inferenceType": "listing_creates_tone",
+            "questionFunction": "Analyzes how accumulated details create emotional atmosphere"
+          },
+          "difficulty": 4,
+          "estimatedTime": 75,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Notice the specificity: not just 'a tree' but 'the willow tree,' not just 'light' but 'at exactly the right angle.' What does this precision suggest about how Mia feels?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Why include sensory details like 'rainbow patterns'? What emotional effect does this create?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The precise, sensory details show Mia has TREASURED these experiences. The listing creates reverence—these aren't generic memories but cherished, irreplaceable moments.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-005",
+          "questionType": "MCQ",
+          "stem": "The tone shifts in paragraph 5 when Mia notices her mother's hidden grief. The new tone between them is best described as:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "quietly connected through shared unspoken pain",
+              "isCorrect": true,
+              "feedback": "Correct! 'Understanding passing between them without words' and 'her own sadness reflected back' show a moment of silent connection. The tone shifts from Mia's individual grief to shared, acknowledged loss."
+            },
+            {
+              "id": "B",
+              "text": "professionally polite but emotionally distant",
+              "isCorrect": false,
+              "feedback": "The moment is intimate, not professional. 'Her own sadness reflected back' shows deep emotional recognition. The mother lets her mask slip—the opposite of maintaining professional distance."
+            },
+            {
+              "id": "C",
+              "text": "openly joyful about their new beginning",
+              "isCorrect": false,
+              "feedback": "Nothing in this moment is joyful. The mother's 'mask slips' to reveal grief, not happiness. The connection is through shared SADNESS, not joy."
+            },
+            {
+              "id": "D",
+              "text": "awkwardly tense with unresolved conflict",
+              "isCorrect": false,
+              "feedback": "There's no conflict between Mia and her mother. 'Understanding passing between them' suggests connection, not tension. They're united in grief, not opposing each other."
+            }
+          ],
+          "solution": "The passage moves from Mia's private grief to a shared moment with her mother. Key phrases: 'understanding passing without words,' 'sadness reflected back.' The tone becomes one of quiet connection through acknowledged, shared pain.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 5-6",
+              "quoteHint": "understanding passing between them without words"
+            },
+            "distractorTypes": {
+              "C": "opposite_meaning",
+              "D": "wrong_tone",
+              "B": "opposite_meaning"
+            },
+            "inferenceType": "tone_shift",
+            "questionFunction": "Identifies change in emotional atmosphere"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What happens when the mother's 'mask slips'? What emotion does Mia see?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "'Understanding passing between them without words'—what kind of connection is this? What are they both feeling?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The mother reveals hidden grief, and Mia recognises it. They connect through shared sadness—quietly, wordlessly. The tone becomes one of unspoken, shared pain.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-006",
+          "questionType": "MCQ",
+          "stem": "The author writes: 'As if twelve years could be erased with a coat of white paint.' The tone of this sentence is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "quietly defiant, rejecting the idea that memories can be painted over",
+              "isCorrect": true,
+              "feedback": "Correct! 'As if' signals disbelief—Mia doesn't accept that paint can erase her life here. The sentence quietly insists that her memories are more permanent than physical marks, pushing back against the realtor's practical attitude."
+            },
+            {
+              "id": "B",
+              "text": "enthusiastically supportive of the painting decision",
+              "isCorrect": false,
+              "feedback": "The opposite is true. 'As if' expresses scepticism, not support. Mia clearly doesn't believe paint can erase meaning—she's rejecting, not endorsing, the idea."
+            },
+            {
+              "id": "C",
+              "text": "loudly angry at the realtor's suggestion",
+              "isCorrect": false,
+              "feedback": "'Loud' anger doesn't match the passage's understated tone. The defiance is quiet—expressed through 'as if' rather than exclamation. Mia's resistance is thoughtful, not explosive."
+            },
+            {
+              "id": "D",
+              "text": "neutrally informative about house preparation",
+              "isCorrect": false,
+              "feedback": "The sentence isn't neutral—'as if' adds emotional commentary. A neutral description would be: 'They painted over the marks.' The 'as if' adds Mia's disbelieving, protective attitude."
+            }
+          ],
+          "solution": "'As if' is a phrase of disbelief that creates quiet defiance. Mia doesn't shout her disagreement—she simply refuses to accept that physical erasure equals emotional erasure. Her memories outlast the paint.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 8",
+              "quoteHint": "As if twelve years could be erased"
+            },
+            "distractorTypes": {
+              "B": "opposite_meaning",
+              "D": "opposite_meaning",
+              "C": "too_extreme"
+            },
+            "inferenceType": "sentence_level_tone",
+            "questionFunction": "Analyzes how specific phrasing creates attitude"
+          },
+          "difficulty": 4,
+          "estimatedTime": 75,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does 'as if' usually signal? Does Mia believe paint can erase her twelve years?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Compare the realtor's practical view (preparing for next family) with Mia's. What is she pushing back against?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'As if' expresses disbelief. Mia quietly refuses to accept that paint erases meaning. The tone is defiant but understated—resistance through scepticism, not shouting.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "archetype": "Tone/Attitude Recognition",
+        "archetypeId": "rc03",
+        "archetypeSlug": "tone-attitude",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevels": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "createdAt": "2026-01-16",
+        "version": "1.0",
+        "researchSource": ".claude/knowledge/edu/research/nsw-selective-reading-archetypes.json"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc03-testlet-002",
+      "passage": {
+        "passageId": "passage-rc03-002",
+        "title": "Letters from Grandfather",
+        "textType": "prose",
+        "genre": "memoir",
+        "wordCount": 452,
+        "readingLevel": "Year 6+",
+        "lexileRange": "940-1000L",
+        "content": "I found the letters in a shoebox at the back of the wardrobe, bundled with a rubber band that crumbled when I touched it. The paper was thin, almost translucent, the handwriting careful and slanted in a way nobody writes anymore.\n\nMy grandfather died before I was born. I know him only through photographs where he's always squinting into sunlight, and through these letters—forty-seven of them, written to my grandmother during the war.\n\nThe early letters are bright with hope. 'I'll be home by Christmas,' he promises in August 1942. 'Save me a piece of your mother's fruitcake.' He writes about the jokes his mates tell, the card games that pass the time, the strange beauty of desert stars. Reading these, I can almost hear him laughing.\n\nBut the letters change. By 1943, the sentences grow shorter. The jokes disappear. 'Don't worry about me,' he writes, which my grandmother must have known meant exactly the opposite. He asks about home with an intensity that aches: 'Is the rosebush still blooming? Has the Henderson boy come back yet? What colour did you paint the kitchen?'\n\nI understand now why my grandmother kept these letters but never showed them to anyone. They're too intimate, too raw. In one, written in shaky handwriting unlike his usual careful script, he simply writes: 'I am tired, Eleanor. So very tired.' No explanation, no details. My grandmother wouldn't have needed any.\n\nThe last letter is dated March 1944. 'Whatever happens,' he writes, 'know that these years of loving you have been worth every difficulty. You gave me something to come home to. Even if home becomes just a word, it was real because of you.'\n\nHe did come home, eventually. But my mother says he was different—quieter, more careful with his words, as if speech had become something precious that shouldn't be wasted. My grandmother never spoke about the war years, and now I understand that silence too. Some things are too heavy for everyday conversation.\n\nI put the letters back in their box, but I kept one thing: a photograph that had been tucked inside the last envelope. My grandfather, young and grinning, holding a sign that reads 'See you soon, Eleanor.' He's giving a thumbs-up, his eyes crinkled with a smile I've never seen in later photographs.\n\nI don't know who that young man with the easy smile became. I know only who he was afterward—the quiet man my mother remembers, the careful handwriting that still slants across these fragile pages. But I'm glad he existed once, bright and hopeful under desert stars.",
+        "source": "Original (AI-generated for educational purposes)",
+        "themes": [
+          "war's impact",
+          "memory",
+          "loss of innocence",
+          "family history",
+          "unspoken pain"
+        ],
+        "literaryDevices": [
+          "tone shift",
+          "understated emotion",
+          "contrast",
+          "imagery",
+          "epistolary elements"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc03-007",
+          "questionType": "MCQ",
+          "stem": "The tone of the passage shifts between the early letters (1942) and later letters (1943). This shift moves from:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "hopeful optimism to weary resignation",
+              "isCorrect": true,
+              "feedback": "Correct! The early letters are 'bright with hope' with jokes and promises. By 1943, 'the jokes disappear,' sentences are shorter, and he writes 'I am tired... So very tired.' This shows a shift from hope to exhausted acceptance."
+            },
+            {
+              "id": "B",
+              "text": "confused uncertainty to confident clarity",
+              "isCorrect": false,
+              "feedback": "The opposite is more true. The early letters have confident promises ('home by Christmas'); the later ones have uncertainty and exhaustion. The grandfather loses confidence, not gains it."
+            },
+            {
+              "id": "C",
+              "text": "formal politeness to casual familiarity",
+              "isCorrect": false,
+              "feedback": "The letters are always to his wife, so they're personal throughout. The change isn't in formality but in EMOTIONAL CONTENT—from bright to exhausted."
+            },
+            {
+              "id": "D",
+              "text": "angry protest to peaceful acceptance",
+              "isCorrect": false,
+              "feedback": "There's no anger in the early letters—they're hopeful and lighthearted. The shift is from HOPE to weariness, not from anger to peace."
+            }
+          ],
+          "solution": "The passage explicitly marks this shift: 'But the letters change.' Early letters have jokes, promises, beauty; later letters have shorter sentences, no jokes, and 'So very tired.' This tracks the erosion of hope through war's exhaustion.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraphs 3-4",
+              "quoteHint": "But the letters change... The jokes disappear"
+            },
+            "distractorTypes": {
+              "D": "out_of_scope",
+              "C": "half_right",
+              "B": "opposite_meaning"
+            },
+            "inferenceType": "tone_shift",
+            "questionFunction": "Identifies and describes change in emotional register"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Compare paragraph 3 ('bright with hope,' 'jokes') with paragraph 4 ('The jokes disappear,' 'tired'). What changed?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What emotions does 'bright with hope' suggest? What about 'I am tired... So very tired'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Early: hopeful, joking, promising. Later: exhausted, quiet, worn down. The shift is from optimism to resignation—hope wearing away under war's weight.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-008",
+          "questionType": "MCQ",
+          "stem": "The narrator states that the grandmother 'kept these letters but never showed them to anyone.' The narrator's attitude toward this choice is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "angry criticism of unnecessary secrecy",
+              "isCorrect": false,
+              "feedback": "There's no anger or criticism. The narrator calls the letters 'too intimate, too raw' and says they 'understand'—this is empathy, not criticism."
+            },
+            {
+              "id": "B",
+              "text": "frustrated resentment at being excluded",
+              "isCorrect": false,
+              "feedback": "The narrator shows no resentment. 'I understand now' suggests acceptance and respect, not frustration at being kept out."
+            },
+            {
+              "id": "C",
+              "text": "respectful understanding of private grief",
+              "isCorrect": true,
+              "feedback": "Correct! 'I understand now' and 'They're too intimate, too raw' show the narrator appreciates WHY the grandmother protected these letters. There's respect for the privacy of deep emotion, not criticism."
+            },
+            {
+              "id": "D",
+              "text": "confused bewilderment about the decision",
+              "isCorrect": false,
+              "feedback": "The narrator isn't confused—they explicitly say 'I understand now.' They comprehend the grandmother's reasons and accept them."
+            }
+          ],
+          "solution": "The narrator explicitly states 'I understand now' and explains WHY the letters were kept private ('too intimate, too raw'). This shows mature understanding of grief's privacy, not criticism or confusion.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 5",
+              "quoteHint": "I understand now why my grandmother kept these letters"
+            },
+            "distractorTypes": {
+              "B": "opposite_meaning",
+              "D": "opposite_meaning",
+              "A": "too_extreme"
+            },
+            "inferenceType": "narrator_attitude",
+            "questionFunction": "Identifies narrator's attitude toward another character's choices"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does 'I understand now' suggest about the narrator's attitude? Is this acceptance or criticism?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "The narrator explains: 'They're too intimate, too raw.' Does this sound like a complaint or an acknowledgment?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'I understand now' signals acceptance. The narrator respects that some grief is too private to share—this is empathy for the grandmother's choice, not criticism.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-009",
+          "questionType": "MCQ",
+          "stem": "The grandfather writes: 'Don't worry about me.' The narrator comments that the grandmother 'must have known meant exactly the opposite.' This comment reveals the narrator's tone as:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "completely confused by contradictory messages",
+              "isCorrect": false,
+              "feedback": "The narrator isn't confused—they EXPLAIN the contradiction with confidence. 'Must have known meant exactly the opposite' shows they understand this emotional code perfectly."
+            },
+            {
+              "id": "B",
+              "text": "gently perceptive about unspoken emotional truth",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator notices the gap between what's said and what's meant, showing emotional intelligence. The tone is gentle—there's understanding, not mockery, in recognising this human tendency to hide worry behind reassurance."
+            },
+            {
+              "id": "C",
+              "text": "bitterly sarcastic about war-time promises",
+              "isCorrect": false,
+              "feedback": "There's no sarcasm here. The narrator is EMPATHETIC—understanding both what the grandfather wrote AND what the grandmother understood. This is tender observation, not bitter mockery."
+            },
+            {
+              "id": "D",
+              "text": "harshly critical of dishonest communication",
+              "isCorrect": false,
+              "feedback": "The narrator isn't criticising the grandfather for being 'dishonest.' They're UNDERSTANDING why he said this—love and protection, not deception. The tone is perceptive, not harsh."
+            }
+          ],
+          "solution": "The narrator demonstrates emotional literacy—reading between lines, understanding that 'Don't worry' from a soldier means 'There's plenty to worry about.' The tone is gentle perception, not criticism of the grandfather's protective phrasing.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 4",
+              "quoteHint": "must have known meant exactly the opposite"
+            },
+            "distractorTypes": {
+              "D": "wrong_tone",
+              "C": "too_extreme",
+              "A": "opposite_meaning"
+            },
+            "inferenceType": "narrator_insight",
+            "questionFunction": "Analyzes narrator's tone when interpreting others' communication"
+          },
+          "difficulty": 4,
+          "estimatedTime": 75,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is the narrator criticising the grandfather for this statement, or understanding why he wrote it?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What does noticing that 'Don't worry' means 'do worry' show about the narrator's emotional intelligence?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator reads between lines with empathy, not judgment. They understand the protective love behind the reassurance—this is gentle perception.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-010",
+          "questionType": "MCQ",
+          "stem": "In the final paragraph, the narrator describes the young grandfather in the photograph as having 'an easy smile I've never seen in later photographs.' The narrator's attitude toward this observation is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "tender sorrow for what war took away",
+              "isCorrect": true,
+              "feedback": "Correct! The contrast between the 'easy smile' that was lost and the 'quiet man' he became implies gentle mourning for the person who disappeared. 'I'm glad he existed once' shows tender appreciation mixed with sadness."
+            },
+            {
+              "id": "B",
+              "text": "detached scientific interest in psychological change",
+              "isCorrect": false,
+              "feedback": "The narrator's tone is emotional, not scientific. 'I'm glad he existed once' shows personal connection and feeling, not clinical detachment."
+            },
+            {
+              "id": "C",
+              "text": "complete indifference to family history",
+              "isCorrect": false,
+              "feedback": "The entire passage shows deep engagement with family history. Keeping the photograph, reading all letters, reflecting carefully—this is the opposite of indifference."
+            },
+            {
+              "id": "D",
+              "text": "angry accusation against those who changed him",
+              "isCorrect": false,
+              "feedback": "There's no accusation or blame. The narrator acknowledges change happened ('war's impact') but doesn't angrily blame anyone. The tone is sad, not angry."
+            }
+          ],
+          "solution": "The narrator mourns the 'easy smile' that was lost, while expressing gratitude it existed at all. 'I'm glad he existed once, bright and hopeful' combines sorrow (he's gone) with tender appreciation (he was real). This is grief mixed with gratitude.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraph",
+              "quoteHint": "I'm glad he existed once, bright and hopeful"
+            },
+            "distractorTypes": {
+              "D": "too_extreme",
+              "B": "opposite_meaning",
+              "C": "opposite_meaning"
+            },
+            "inferenceType": "complex_emotional_attitude",
+            "questionFunction": "Identifies nuanced emotional response combining multiple feelings"
+          },
+          "difficulty": 4,
+          "estimatedTime": 75,
+          "hints": [
+            {
+              "level": 1,
+              "content": "The narrator contrasts the 'easy smile' with 'the quiet man' he became. What feeling does this contrast create?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "'I'm glad he existed once'—why 'glad'? What is the narrator grateful for despite the loss?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator mourns what was lost (the easy smile) while treasuring that it existed at all. This is tender sorrow—grief combined with grateful appreciation.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-011",
+          "questionType": "MCQ",
+          "stem": "The passage describes the grandmother's silence about the war years and says 'now I understand that silence too.' The narrator's tone toward this silence is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "impatient frustration at poor communication",
+              "isCorrect": false,
+              "feedback": "There's no frustration. The narrator UNDERSTANDS and ACCEPTS the silence, recognising that 'some things are too heavy for everyday conversation.' This is acceptance, not impatience."
+            },
+            {
+              "id": "B",
+              "text": "mature acceptance of unspoken grief",
+              "isCorrect": true,
+              "feedback": "Correct! 'Now I understand' signals growth—the narrator has gained insight into why some pain isn't spoken. The tone accepts silence as a valid response to trauma, not as a failure to communicate."
+            },
+            {
+              "id": "C",
+              "text": "enthusiastic approval of keeping secrets",
+              "isCorrect": false,
+              "feedback": "'Enthusiastic' doesn't match the passage's quiet, reflective tone. The narrator accepts the silence with understanding, not enthusiasm. It's sad acceptance, not cheerful approval."
+            },
+            {
+              "id": "D",
+              "text": "suspicious doubt about what really happened",
+              "isCorrect": false,
+              "feedback": "The narrator doesn't doubt or suspect anything hidden. They simply accept that the grandmother had reasons for silence that deserve respect, not investigation."
+            }
+          ],
+          "solution": "The phrase 'now I understand' appears twice in the passage, marking the narrator's growing comprehension of family grief. By the end, they accept that some experiences are 'too heavy for everyday conversation'—mature respect for the weight of unspoken pain.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 7",
+              "quoteHint": "Some things are too heavy for everyday conversation"
+            },
+            "distractorTypes": {
+              "A": "opposite_meaning",
+              "C": "wrong_tone",
+              "D": "out_of_scope"
+            },
+            "inferenceType": "narrator_growth",
+            "questionFunction": "Identifies narrator's mature attitude toward family secrecy"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "'Now I understand' suggests the narrator has LEARNED something. What have they come to accept?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "'Some things are too heavy for everyday conversation'—is this criticism of the grandmother, or acceptance of her choice?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator has matured into accepting that silence can be a valid response to trauma. This is understanding, not criticism—mature acceptance of unspoken grief.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-012",
+          "questionType": "MCQ",
+          "stem": "The overall tone of this passage is best described as:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "humorous and lighthearted",
+              "isCorrect": false,
+              "feedback": "Nothing in this passage is humorous. The subject—war, loss, trauma, family grief—is treated with seriousness and sadness throughout."
+            },
+            {
+              "id": "B",
+              "text": "suspicious and accusatory",
+              "isCorrect": false,
+              "feedback": "The narrator doesn't suspect or accuse anyone. They seek to UNDERSTAND family history with empathy, not to uncover wrongdoing or assign blame."
+            },
+            {
+              "id": "C",
+              "text": "urgent and alarming",
+              "isCorrect": false,
+              "feedback": "The tone is quiet and contemplative, not urgent. The narrator is reflecting on past events calmly, not responding to present danger."
+            },
+            {
+              "id": "D",
+              "text": "reflective and elegiac",
+              "isCorrect": true,
+              "feedback": "Correct! 'Reflective' captures the narrator's thoughtful examination of family history. 'Elegiac' (expressing sorrow for something lost) fits the mourning for the grandfather's lost innocence and the grandmother's silent grief."
+            }
+          ],
+          "solution": "'Reflective' describes the narrator's thoughtful, examining approach to the letters. 'Elegiac' captures the mourning quality—for the grandfather's lost youth, for unspoken grief, for people who can't be fully known. Together, these words capture the passage's quiet sadness and deep thinking.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "throughout",
+              "quoteHint": "I found the letters... I'm glad he existed once"
+            },
+            "distractorTypes": {
+              "A": "opposite_meaning",
+              "B": "out_of_scope",
+              "C": "wrong_tone"
+            },
+            "inferenceType": "overall_tone",
+            "questionFunction": "Synthesizes tone from entire passage"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What is the narrator doing throughout the passage? (Reading, thinking, understanding.) What emotion accompanies this?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "'Elegiac' means expressing sorrow for something lost. What has been lost in this passage?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator REFLECTS thoughtfully and MOURNS what was lost (the grandfather's innocence, the grandmother's joy). Reflective + elegiac captures both the thinking and the sadness.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "archetype": "Tone/Attitude Recognition",
+        "archetypeId": "rc03",
+        "archetypeSlug": "tone-attitude",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevels": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "createdAt": "2026-01-16",
+        "version": "1.0",
+        "researchSource": ".claude/knowledge/edu/research/nsw-selective-reading-archetypes.json"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc03-testlet-003",
+      "passage": {
+        "passageId": "passage-rc03-003",
+        "title": "The Art Teacher's Last Lesson",
+        "textType": "prose",
+        "genre": "literary_fiction",
+        "wordCount": 445,
+        "readingLevel": "Year 6+",
+        "lexileRange": "960-1020L",
+        "content": "Mrs Yamamoto was retiring after thirty-seven years, and nobody quite knew how to say goodbye. She had been ancient when I started high school—or so it seemed to my thirteen-year-old eyes—and she was ancient still, though I now understood that her silver hair and lined face had nothing to do with her energy.\n\nOn her last day, she gathered us in the art room one final time. The walls were bare now, stripped of the student work that had always hung there in vibrant chaos. The emptiness felt wrong, like a mouth missing teeth.\n\nShe didn't give a speech about following your dreams or believing in yourself. Mrs Yamamoto had never been one for inspirational clichés. Instead, she walked to the centre of the room and picked up a piece of charcoal.\n\n'Art isn't about talent,' she said, beginning to sketch on the large paper pinned to the easel. Her strokes were quick, confident, careless in a way that made them beautiful. 'Talent is something people talk about when they don't want to admit that practice and attention matter more.'\n\nShe was drawing a bird—not a perfect bird, but a bird in motion, caught mid-flight. As we watched, she made what most teachers would call a mistake: a line went wrong, veered where it shouldn't have.\n\n'You see that?' She pointed to the errant line. 'Most of you would erase this. Start over. Try to make it perfect.' She smiled, the creases around her eyes deepening. 'I'm going to leave it. And now watch.'\n\nShe kept drawing, and somehow the mistake became part of the bird—a shadow, a suggestion of wind, something that made the image more alive than any perfect line could.\n\n'This is what I want you to remember,' she said, stepping back from the easel. 'Not despite the mistakes, but through them. Every wrong line is a door. Whether it leads somewhere interesting depends on whether you're brave enough to walk through it.'\n\nThe bell rang then, cutting off whatever else she might have said. Students gathered their bags, some lingering awkwardly, unsure whether to thank her or simply leave. Mrs Yamamoto didn't seem to mind either way. She stood looking at her imperfect bird, and I could have sworn she was proud of it.\n\nI kept that lesson longer than I kept any fact about colour theory or perspective. Twenty years later, when my own lines go wrong—in art, in life—I still hear her voice: brave enough to walk through it.\n\nThe walls of that art room are hung with different work now. Different teacher, different students. But somewhere in the paint-splattered floors, I like to think, a trace of Mrs Yamamoto remains.",
+        "source": "Original (AI-generated for educational purposes)",
+        "themes": [
+          "creative wisdom",
+          "imperfection",
+          "legacy",
+          "teaching and learning",
+          "courage"
+        ],
+        "literaryDevices": [
+          "extended metaphor",
+          "anecdote",
+          "contrast",
+          "reflection",
+          "sensory imagery"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc03-013",
+          "questionType": "MCQ",
+          "stem": "The narrator's attitude toward Mrs Yamamoto throughout the passage is best described as:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "critically skeptical of her teaching methods",
+              "isCorrect": false,
+              "feedback": "The narrator never criticises Mrs Yamamoto. They describe her methods admiringly ('confident, careless in a way that made them beautiful') and credit her with lasting wisdom."
+            },
+            {
+              "id": "B",
+              "text": "fearfully intimidated by her authority",
+              "isCorrect": false,
+              "feedback": "There's no fear in this passage. The narrator views Mrs Yamamoto with warmth, not intimidation. Even her 'ancient' appearance is described with affection, not fear."
+            },
+            {
+              "id": "C",
+              "text": "warmly admiring with lasting gratitude",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator treasures this lesson 'longer than any fact,' still hears Mrs Yamamoto's voice after twenty years, and imagines her trace remains in the classroom. This is sustained admiration and gratitude."
+            },
+            {
+              "id": "D",
+              "text": "politely respectful but emotionally distant",
+              "isCorrect": false,
+              "feedback": "The narrator isn't distant—they've carried this lesson for twenty years and still hear Mrs Yamamoto's voice. This is deep emotional connection, not polite distance."
+            }
+          ],
+          "solution": "The narrator keeps the lesson 'longer than any fact,' still hears Mrs Yamamoto's voice at important moments, and imagines her trace in the classroom. These details show sustained admiration that has deepened into gratitude over time.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraphs",
+              "quoteHint": "I kept that lesson longer than I kept any fact"
+            },
+            "distractorTypes": {
+              "D": "half_right",
+              "A": "opposite_meaning",
+              "B": "out_of_scope"
+            },
+            "inferenceType": "narrator_attitude",
+            "questionFunction": "Synthesizes narrator's sustained attitude across passage"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "How long has the narrator remembered this lesson? What does that duration suggest about their feelings?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "The narrator still 'hears her voice' twenty years later. Is this distance, or deep connection?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Keeping the lesson for decades, still hearing her voice, imagining her trace remains—this is sustained admiration that has become lasting gratitude.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-014",
+          "questionType": "MCQ",
+          "stem": "The narrator describes Mrs Yamamoto as 'ancient when I started high school' and 'ancient still.' The tone of this description is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "cruelly mocking of elderly appearance",
+              "isCorrect": false,
+              "feedback": "There's no cruelty here. The narrator immediately clarifies this was young perception, and notes that Mrs Yamamoto's appearance 'had nothing to do with her energy.' This is fond, not cruel."
+            },
+            {
+              "id": "B",
+              "text": "bitterly resentful of authority figures",
+              "isCorrect": false,
+              "feedback": "There's no resentment anywhere in the passage. The narrator admires Mrs Yamamoto deeply and treasures her lesson for decades."
+            },
+            {
+              "id": "C",
+              "text": "affectionately humorous about youthful perception",
+              "isCorrect": true,
+              "feedback": "Correct! 'Or so it seemed to my thirteen-year-old eyes' shows self-awareness—the narrator recognises their young self's limited perspective. The humour is gentle, affectionate, not mocking."
+            },
+            {
+              "id": "D",
+              "text": "clinically objective about physical aging",
+              "isCorrect": false,
+              "feedback": "The description isn't clinical—it's personal and reflective. The narrator is describing their own PERCEPTION, not objective facts about aging."
+            }
+          ],
+          "solution": "The qualifier 'or so it seemed to my thirteen-year-old eyes' shows the narrator understands their young self's perception was limited. This self-aware humour is affectionate—both toward their younger self and toward Mrs Yamamoto.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 1",
+              "quoteHint": "or so it seemed to my thirteen-year-old eyes"
+            },
+            "distractorTypes": {
+              "A": "too_extreme",
+              "D": "wrong_tone",
+              "B": "out_of_scope"
+            },
+            "inferenceType": "word_choice_reveals_attitude",
+            "questionFunction": "Identifies self-aware humour in description"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does 'or so it seemed to my thirteen-year-old eyes' add to the description? Is the narrator still claiming she was 'ancient'?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "The narrator is looking back at their own young perception. What tone does this self-awareness create?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator gently mocks their OWN younger self's perception, not Mrs Yamamoto. This self-aware humour is affectionate, not cruel.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-015",
+          "questionType": "MCQ",
+          "stem": "The narrator describes the bare walls as feeling 'like a mouth missing teeth.' The tone created by this simile is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "cheerful anticipation of new beginnings",
+              "isCorrect": false,
+              "feedback": "A mouth missing teeth isn't cheerful imagery. The narrator isn't excited about change—they're unsettled by emptiness. The feeling is loss, not anticipation."
+            },
+            {
+              "id": "B",
+              "text": "neutral observation of physical space",
+              "isCorrect": false,
+              "feedback": "The simile is emotional, not neutral. 'Felt wrong' explicitly states the narrator's reaction. A neutral observer would just say 'the walls were bare.'"
+            },
+            {
+              "id": "C",
+              "text": "peaceful acceptance of natural change",
+              "isCorrect": false,
+              "feedback": "'Wrong' and 'missing teeth' don't suggest peace or acceptance. The narrator is disturbed by the emptiness, not at peace with it."
+            },
+            {
+              "id": "D",
+              "text": "uncomfortable wrongness at something missing",
+              "isCorrect": true,
+              "feedback": "Correct! A 'mouth missing teeth' evokes discomfort and incompleteness. The narrator feels the empty walls are WRONG—something essential is missing. The image creates unease, not neutrality."
+            }
+          ],
+          "solution": "The simile connects two uncomfortable images: empty walls and missing teeth. Both evoke something that SHOULD be there but ISN'T. This creates a tone of wrongness—the narrator feels the absence as a kind of wound.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 2",
+              "quoteHint": "The emptiness felt wrong"
+            },
+            "distractorTypes": {
+              "A": "opposite_meaning",
+              "B": "opposite_meaning",
+              "C": "wrong_tone"
+            },
+            "inferenceType": "imagery_creates_tone",
+            "questionFunction": "Analyzes how figurative language creates emotional atmosphere"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What feeling does 'a mouth missing teeth' create? Comfortable or uncomfortable?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "The narrator says the emptiness 'felt wrong.' How does the simile reinforce this feeling?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Both missing teeth and bare walls suggest something SHOULD be there but isn't. The simile creates a tone of uncomfortable wrongness—absence felt as wound.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-016",
+          "questionType": "MCQ",
+          "stem": "Mrs Yamamoto's tone when she says 'Talent is something people talk about when they don't want to admit that practice and attention matter more' is best described as:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "coldly indifferent to student reactions",
+              "isCorrect": false,
+              "feedback": "She's teaching, engaging students in her final lesson. The entire scene shows she cares about communicating something important to them—the opposite of indifference."
+            },
+            {
+              "id": "B",
+              "text": "nervously uncertain about her opinion",
+              "isCorrect": false,
+              "feedback": "Her strokes are 'quick, confident, careless'—she speaks from decades of experience. There's no nervousness; she presents her view with assured wisdom."
+            },
+            {
+              "id": "C",
+              "text": "angrily attacking talented students",
+              "isCorrect": false,
+              "feedback": "She's not attacking anyone, especially not students. She's critiquing a BELIEF about talent, not talented people. Her tone is instructive, not angry."
+            },
+            {
+              "id": "D",
+              "text": "gently challenging a comfortable myth",
+              "isCorrect": true,
+              "feedback": "Correct! Mrs Yamamoto contradicts a common belief (talent matters most) but without harshness. She's offering a different perspective with quiet confidence, challenging students to think differently without attacking them."
+            }
+          ],
+          "solution": "Mrs Yamamoto challenges a widely-held belief (talent matters most) but does so through demonstration, not lecture. Her tone is confident but not aggressive—she's sharing hard-won wisdom, not demanding agreement.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 4",
+              "quoteHint": "quick, confident, careless in a way that made them beautiful"
+            },
+            "distractorTypes": {
+              "C": "too_extreme",
+              "B": "opposite_meaning",
+              "A": "opposite_meaning"
+            },
+            "inferenceType": "character_tone",
+            "questionFunction": "Identifies tone of character's speech"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is Mrs Yamamoto attacking students, or sharing a perspective? What's the difference in tone?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "She speaks while drawing 'confidently.' Does her physical manner suggest anger or quiet certainty?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Mrs Yamamoto challenges a myth (talent matters most) but gently, through teaching. Her tone is challenging but kind—wisdom shared, not forced.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-017",
+          "questionType": "MCQ",
+          "stem": "At the end of the passage, the narrator imagines that 'a trace of Mrs Yamamoto remains' in the paint-splattered floors. The tone of this final image is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "anxiously worried about building maintenance",
+              "isCorrect": false,
+              "feedback": "The passage isn't about building maintenance. The 'trace' is metaphorical—Mrs Yamamoto's influence, not literal preservation of floors."
+            },
+            {
+              "id": "B",
+              "text": "quietly hopeful about lasting influence",
+              "isCorrect": true,
+              "feedback": "Correct! 'I like to think' shows gentle hope, not certainty. The narrator finds comfort in imagining Mrs Yamamoto's presence endures. This is hopeful but understated—quiet belief in lasting legacy."
+            },
+            {
+              "id": "C",
+              "text": "bitterly sad about inevitable forgetting",
+              "isCorrect": false,
+              "feedback": "The tone isn't bitter—imagining a 'trace remains' is hopeful, not despairing. The narrator finds comfort in this idea, not bitterness."
+            },
+            {
+              "id": "D",
+              "text": "scientifically certain about physical evidence",
+              "isCorrect": false,
+              "feedback": "'I like to think' isn't scientific certainty—it's wishful imagination. The narrator doesn't claim proof; they express a comforting belief."
+            }
+          ],
+          "solution": "'I like to think' signals gentle, unprovable hope. The narrator finds comfort in imagining Mrs Yamamoto's presence persists—not literally, but in the spirit of the place. This is quiet hopefulness about legacy, not certain knowledge.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraph",
+              "quoteHint": "I like to think"
+            },
+            "distractorTypes": {
+              "D": "wrong_tone",
+              "C": "opposite_meaning",
+              "A": "out_of_scope"
+            },
+            "inferenceType": "closing_tone",
+            "questionFunction": "Identifies tone of final reflective statement"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What does 'I like to think' suggest about certainty? Is the narrator claiming fact or expressing hope?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "The narrator doesn't say 'a trace DOES remain' but 'I like to think' one does. What emotional tone does this create?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "'I like to think' expresses hopeful imagination, not certainty. The narrator finds comfort in believing Mrs Yamamoto's influence persists—quiet hope about lasting legacy.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-018",
+          "questionType": "MCQ",
+          "stem": "The overall tone of this passage is best described as:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "bitterly regretful about missed opportunities",
+              "isCorrect": false,
+              "feedback": "There's no bitterness or regret. The narrator treasures what they DID learn, not what they missed. The tone is grateful, not regretful."
+            },
+            {
+              "id": "B",
+              "text": "coldly analytical about educational methods",
+              "isCorrect": false,
+              "feedback": "The passage is emotional and personal, not analytical. The narrator doesn't evaluate teaching methods objectively—they share personal impact and gratitude."
+            },
+            {
+              "id": "C",
+              "text": "warmly nostalgic with quiet reverence",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator looks back fondly ('I kept that lesson'), shows deep respect for Mrs Yamamoto, and finds meaning in her teaching decades later. Nostalgia (fond memory) combines with reverence (deep respect)."
+            },
+            {
+              "id": "D",
+              "text": "anxiously uncertain about artistic ability",
+              "isCorrect": false,
+              "feedback": "The passage isn't about the narrator's anxiety. It's about what they learned and how they carry it forward. The tone is reflective and grateful, not anxious."
+            }
+          ],
+          "solution": "The passage combines fond looking-back (nostalgia: 'I kept that lesson') with deep respect (reverence: still hearing her voice). The warmth of memory and the depth of respect create the overall tone.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "throughout",
+              "quoteHint": "I still hear her voice"
+            },
+            "distractorTypes": {
+              "B": "opposite_meaning",
+              "A": "wrong_tone",
+              "D": "out_of_scope"
+            },
+            "inferenceType": "overall_tone",
+            "questionFunction": "Synthesizes tone from entire passage"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "How does the narrator feel about looking back? Fond or regretful? What about Mrs Yamamoto—respectful or critical?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "The narrator treasures the memory AND deeply respects the teacher. What two-part tone does this create?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Fond memory = nostalgia. Deep respect = reverence. Together: warmly nostalgic with quiet reverence—looking back lovingly at someone deeply admired.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "archetype": "Tone/Attitude Recognition",
+        "archetypeId": "rc03",
+        "archetypeSlug": "tone-attitude",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevels": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "createdAt": "2026-01-16",
+        "version": "1.0",
+        "researchSource": ".claude/knowledge/edu/research/nsw-selective-reading-archetypes.json"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc03-testlet-004",
+      "passage": {
+        "passageId": "passage-rc03-004",
+        "title": "The Restaurant Review",
+        "textType": "prose",
+        "genre": "personal_essay",
+        "wordCount": 438,
+        "readingLevel": "Year 6+",
+        "lexileRange": "950-1010L",
+        "content": "They closed my favourite restaurant last month. I found out through a sign on the window—handwritten, apologetic, thanking customers for twenty-three years of support. Just like that, a place I'd been going since I was five years old became past tense.\n\nIt wasn't fancy. Food critics would have called it unremarkable: sticky vinyl booths, laminated menus with faded photographs, the same dishes decade after decade. The lighting was too bright, the napkins were paper, and the background music was whatever radio station the cook preferred that day.\n\nBut my family had celebrated every birthday there since I could remember. My grandmother always ordered the same thing—chicken parmigiana with extra sauce—and always pronounced it wrong, and my grandfather always corrected her, and she always ignored him. This was their ritual, as sacred as any prayer.\n\nThe food wasn't what I'll miss. I'll miss the way the owner, Maria, remembered our names. The way she'd bring out a free dessert when she heard someone was having a hard week. The way she'd scold us—gently, lovingly—if we hadn't visited in too long. 'You forget about Maria,' she'd say, hand over her heart, performing hurt so convincingly that my mother would apologise every time.\n\nI drove past the building yesterday. The sign is gone now. The windows are papered over, hiding whatever transformation is happening inside. A new restaurant will open eventually—something sleeker, probably, with small portions and large prices. It will have better reviews and trendier food and absolutely nothing that matters to me.\n\nMaybe I'm being sentimental. Restaurants close all the time; it's the nature of the business. New places rise to take their old ones' spots, and life continues. The world doesn't owe me a preserved childhood, frozen in time like a museum exhibit.\n\nBut sentiment isn't always foolishness. Sometimes it's just love wearing different clothes. I loved that restaurant not for what it was but for what it held: my grandmother's voice, my grandfather's gentle corrections, Maria's theatrical scolding, the accumulated weight of ordinary moments that somehow became irreplaceable.\n\nSo yes, I'm mourning a restaurant. It sounds absurd when I say it that way. But I think Maria would understand. She knew that her place was never really about the food—it was about the belonging. And now that belonging has lost its address.\n\nSomewhere in the city, other families are making their own rituals in their own unremarkable restaurants. I hope they have twenty-three years. I hope they have more.",
+        "source": "Original (AI-generated for educational purposes)",
+        "themes": [
+          "nostalgia",
+          "loss",
+          "ordinary moments",
+          "belonging",
+          "memory"
+        ],
+        "literaryDevices": [
+          "understated emotion",
+          "contrast",
+          "anecdote",
+          "self-reflection",
+          "gentle humour"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc03-019",
+          "questionType": "MCQ",
+          "stem": "In paragraph 2, the narrator describes the restaurant as having 'sticky vinyl booths, laminated menus with faded photographs.' The tone of this description is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "affectionately honest about beloved imperfections",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator acknowledges flaws ('sticky,' 'faded') but these details are presented with tenderness, not criticism. The imperfections are part of what makes the place beloved—they're described with fond honesty."
+            },
+            {
+              "id": "B",
+              "text": "harshly critical of poor hygiene standards",
+              "isCorrect": false,
+              "feedback": "The narrator isn't criticising—they're MOURNING this restaurant. The imperfections are presented as characteristics to miss, not problems to complain about."
+            },
+            {
+              "id": "C",
+              "text": "neutrally objective like a health inspector",
+              "isCorrect": false,
+              "feedback": "The description is emotional, not objective. The narrator LOVES this place. A health inspector wouldn't say 'favourite restaurant' or mourn its closure."
+            },
+            {
+              "id": "D",
+              "text": "enthusiastically praising luxurious decor",
+              "isCorrect": false,
+              "feedback": "The narrator explicitly says 'It wasn't fancy' and the details confirm this. There's no pretence that the decor was luxurious—the affection is DESPITE the simplicity, not because of glamour."
+            }
+          ],
+          "solution": "The narrator admits flaws but frames them affectionately. 'Food critics would have called it unremarkable'—acknowledging outside judgment while implying the narrator sees differently. The imperfections become endearing details of a beloved place.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 2",
+              "quoteHint": "Food critics would have called it unremarkable"
+            },
+            "distractorTypes": {
+              "B": "opposite_meaning",
+              "D": "opposite_meaning",
+              "C": "wrong_tone"
+            },
+            "inferenceType": "descriptive_tone",
+            "questionFunction": "Identifies affectionate tone despite negative descriptors"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "The narrator calls it their 'favourite restaurant' but describes it as 'unremarkable.' How do these coexist?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Is the narrator complaining about the sticky booths, or remembering them with fondness? Consider the context of mourning the restaurant.",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator is honest about imperfections but doesn't criticise them—these details are PART of what they love. Affectionate honesty about beloved flaws.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-020",
+          "questionType": "MCQ",
+          "stem": "The narrator describes Maria 'performing hurt so convincingly' when customers hadn't visited recently. The narrator's attitude toward this behaviour is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "fondly amused by a cherished ritual",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator recognises Maria was 'performing'—not genuinely hurt—yet describes this with affection. 'Gently, lovingly' shows the narrator understood and enjoyed this playful scolding as part of what made Maria special."
+            },
+            {
+              "id": "B",
+              "text": "seriously concerned about emotional manipulation",
+              "isCorrect": false,
+              "feedback": "The narrator doesn't see this as manipulation—it's described as 'gentle' and 'loving.' The word 'performing' shows the narrator knows it's theatre, and they find it endearing, not concerning."
+            },
+            {
+              "id": "C",
+              "text": "angrily resentful of guilt-tripping tactics",
+              "isCorrect": false,
+              "feedback": "There's no anger here. 'Gently, lovingly' describes Maria's scolding positively. The narrator treasures this behaviour as part of what they miss about Maria."
+            },
+            {
+              "id": "D",
+              "text": "completely confused by contradictory behaviour",
+              "isCorrect": false,
+              "feedback": "The narrator isn't confused—they clearly understand Maria was performing affection through playful scolding. They describe it with knowing amusement, not bewilderment."
+            }
+          ],
+          "solution": "Key phrases: 'gently, lovingly' and 'performing'—the narrator knows Maria wasn't really hurt but appreciates the performance as an expression of care. This is fond amusement at a cherished interaction pattern.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 4",
+              "quoteHint": "scold us—gently, lovingly"
+            },
+            "distractorTypes": {
+              "B": "too_extreme",
+              "C": "opposite_meaning",
+              "D": "out_of_scope"
+            },
+            "inferenceType": "attitude_toward_character",
+            "questionFunction": "Identifies narrator's affectionate view of character behaviour"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "The narrator says Maria 'performed' hurt. Does this sound like criticism or understanding?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Maria's scolding is described as 'gentle' and 'loving.' What attitude do these adjectives reveal?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator sees through Maria's performance but LOVES it—recognising theatrical affection as genuine care. This is fond amusement at a cherished ritual.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-021",
+          "questionType": "MCQ",
+          "stem": "In paragraph 5, the narrator predicts a new restaurant 'with small portions and large prices' will open. The tone of this prediction is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "neutrally descriptive about market trends",
+              "isCorrect": false,
+              "feedback": "The narrator isn't neutral—'absolutely nothing that matters to me' is personal and emotional. This is judgment, not objective market analysis."
+            },
+            {
+              "id": "B",
+              "text": "hopefully optimistic about new opportunities",
+              "isCorrect": false,
+              "feedback": "There's no hope here. The narrator expects the new restaurant will have 'nothing that matters'—this is pessimism about the replacement, not optimism."
+            },
+            {
+              "id": "C",
+              "text": "quietly bitter about inevitable change",
+              "isCorrect": true,
+              "feedback": "Correct! 'Small portions and large prices' is dismissive—the narrator doesn't expect to like the new place. 'Absolutely nothing that matters to me' confirms quiet bitterness about losing what they valued to something they find hollow."
+            },
+            {
+              "id": "D",
+              "text": "enthusiastically excited about improvement",
+              "isCorrect": false,
+              "feedback": "The opposite is true. 'Small portions and large prices' is criticism, not praise. 'Nothing that matters to me' shows displeasure, not excitement."
+            }
+          ],
+          "solution": "'Small portions and large prices' is dismissive shorthand for trendy restaurants the narrator doesn't value. Combined with 'absolutely nothing that matters to me,' this reveals quiet bitterness that something meaningful will be replaced by something empty.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 5",
+              "quoteHint": "absolutely nothing that matters to me"
+            },
+            "distractorTypes": {
+              "D": "opposite_meaning",
+              "A": "wrong_tone",
+              "B": "opposite_meaning"
+            },
+            "inferenceType": "word_choice_reveals_attitude",
+            "questionFunction": "Identifies dismissive prediction tone"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is 'small portions and large prices' praise or criticism? What does the narrator think of trendy restaurants?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "'Better reviews' but 'nothing that matters'—what does the narrator value that they expect the new place won't have?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The prediction is dismissive—the narrator expects the new restaurant to be superficially successful but emotionally meaningless. This is quiet bitterness about losing depth to trendiness.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-022",
+          "questionType": "MCQ",
+          "stem": "The narrator writes: 'Maybe I'm being sentimental.' The function of this statement in the passage is to:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "completely reject all emotional responses to loss",
+              "isCorrect": false,
+              "feedback": "The narrator doesn't reject emotion—they DEFEND it. 'Sentiment isn't always foolishness' argues FOR emotional attachment, not against it."
+            },
+            {
+              "id": "B",
+              "text": "acknowledge potential criticism before defending emotional attachment",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator anticipates readers thinking they're being foolish about a restaurant. But then defends sentiment: 'Sometimes it's just love wearing different clothes.' This is pre-emptive acknowledgment followed by gentle refutation."
+            },
+            {
+              "id": "C",
+              "text": "apologise for having feelings about the restaurant",
+              "isCorrect": false,
+              "feedback": "'Maybe' isn't an apology—it's acknowledgment of how others might view them. The narrator then argues sentiment is VALID, not something requiring apology."
+            },
+            {
+              "id": "D",
+              "text": "express genuine uncertainty about their own emotions",
+              "isCorrect": false,
+              "feedback": "The narrator isn't uncertain—they know they're sentimental and defend it. 'Maybe' is a rhetorical move (considering outside views), not actual doubt about their feelings."
+            }
+          ],
+          "solution": "This is a rhetorical concession—the narrator voices a potential criticism ('being sentimental') before countering it. By acknowledging how others might judge them, then defending their position, the argument becomes more persuasive.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 6-7",
+              "quoteHint": "But sentiment isn't always foolishness"
+            },
+            "distractorTypes": {
+              "A": "opposite_meaning",
+              "C": "half_right",
+              "D": "half_right"
+            },
+            "inferenceType": "rhetorical_self_awareness",
+            "questionFunction": "Identifies self-aware rhetorical positioning"
+          },
+          "difficulty": 4,
+          "estimatedTime": 75,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What comes AFTER 'Maybe I'm being sentimental'? Does the narrator then reject or defend sentiment?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Why acknowledge being sentimental before arguing sentiment is valid? What rhetorical purpose does this serve?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator anticipates criticism, then counters it. Acknowledging 'being sentimental' makes the defence 'sentiment isn't foolishness' more persuasive—they've considered and rejected the objection.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-023",
+          "questionType": "MCQ",
+          "stem": "The narrator says: 'It sounds absurd when I say it that way.' This statement reveals a tone of:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "ashamed rejection of their previous statements",
+              "isCorrect": false,
+              "feedback": "The narrator doesn't reject what they've said—they continue defending it. 'I think Maria would understand' shows they stand by their grief despite acknowledging it sounds absurd."
+            },
+            {
+              "id": "B",
+              "text": "aggressive defiance against outside judgment",
+              "isCorrect": false,
+              "feedback": "The tone isn't aggressive—it's gentle and self-aware. The narrator acknowledges how they might be perceived without attacking those who might judge them."
+            },
+            {
+              "id": "C",
+              "text": "confident certainty about social approval",
+              "isCorrect": false,
+              "feedback": "'Sounds absurd' is the opposite of expecting approval. The narrator acknowledges others might find their grief strange—this is vulnerability, not confidence in approval."
+            },
+            {
+              "id": "D",
+              "text": "self-aware vulnerability while owning their grief",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator admits their grief might seem silly ('absurd') but doesn't retract it. This is vulnerable self-awareness—acknowledging how feelings might appear while still claiming them as valid."
+            }
+          ],
+          "solution": "By admitting 'it sounds absurd,' the narrator shows vulnerability—they know others might not understand. But they don't withdraw the sentiment, showing they're owning their grief while being honest about how it might appear.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 8",
+              "quoteHint": "So yes, I'm mourning a restaurant"
+            },
+            "distractorTypes": {
+              "A": "opposite_meaning",
+              "C": "opposite_meaning",
+              "B": "too_extreme"
+            },
+            "inferenceType": "self_aware_tone",
+            "questionFunction": "Identifies vulnerable self-awareness in reflection"
+          },
+          "difficulty": 4,
+          "estimatedTime": 75,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Does admitting something 'sounds absurd' mean the narrator takes it back?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "'So yes, I'm mourning'—after acknowledging absurdity, the narrator still claims their grief. What does this combination show?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator is vulnerable (admitting how it sounds) but unashamed (still claiming the grief). This is self-aware vulnerability—honest about perception while owning the feeling.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        },
+        {
+          "questionId": "nsw-sel-rc03-024",
+          "questionType": "MCQ",
+          "stem": "The final paragraph's tone shifts from personal grief to hope for others. This shift creates a feeling of:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "complete indifference to the wider world",
+              "isCorrect": false,
+              "feedback": "The final paragraph explicitly considers other families—the opposite of indifference. The narrator's thoughts expand outward to wish others well."
+            },
+            {
+              "id": "B",
+              "text": "generous goodwill extending beyond personal loss",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator moves from their own grief to wishing others 'twenty-three years' of their own rituals. This expansion from self to others creates a tone of generous goodwill—hoping others find what they had."
+            },
+            {
+              "id": "C",
+              "text": "jealous resentment toward other families",
+              "isCorrect": false,
+              "feedback": "The narrator HOPES others have what they had—'I hope they have more.' This is generous, not jealous. There's no resentment toward other families."
+            },
+            {
+              "id": "D",
+              "text": "anxious worry about restaurant industry trends",
+              "isCorrect": false,
+              "feedback": "The final paragraph isn't about industry trends—it's about wishing human connection for others. The narrator thinks about PEOPLE, not business."
+            }
+          ],
+          "solution": "The passage ends by expanding beyond personal loss to wish others similar experiences. 'I hope they have twenty-three years. I hope they have more.' This movement from 'I' to hoping for others creates generous goodwill.",
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraph",
+              "quoteHint": "I hope they have more"
+            },
+            "distractorTypes": {
+              "C": "opposite_meaning",
+              "A": "opposite_meaning",
+              "D": "out_of_scope"
+            },
+            "inferenceType": "tone_shift",
+            "questionFunction": "Identifies generous expansion from personal to universal"
+          },
+          "difficulty": 3,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "The final paragraph mentions 'other families' making their own rituals. What does the narrator wish for them?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "'I hope they have more'—is this resentment or generosity? What does hoping others have MORE than you had suggest?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator moves from their own loss to hoping others find similar belonging—and hoping they keep it longer. This expansion from self to others creates generous goodwill.",
+              "revealsCriticalInfo": true
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "archetype": "Tone/Attitude Recognition",
+        "archetypeId": "rc03",
+        "archetypeSlug": "tone-attitude",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevels": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "createdAt": "2026-01-16",
+        "version": "1.0",
+        "researchSource": ".claude/knowledge/edu/research/nsw-selective-reading-archetypes.json"
+      }
+    },
+    {
+      "testletId": "nsw-sel-rc03-testlet-005",
+      "passage": {
+        "passageId": "passage-rc03-005",
+        "title": "The Science Fair",
+        "textType": "prose",
+        "genre": "humorous_personal_narrative",
+        "wordCount": 485,
+        "readingLevel": "Year 6+",
+        "content": "My science fair project was, according to my mother, 'ambitious.' According to my father, it was 'certainly something.' According to my little sister, who has no filter whatsoever, it was 'the ugliest volcano she'd ever seen.' She wasn't wrong.\n\nThe thing about building a model volcano is that everyone assumes it's easy. Every year, approximately fourteen thousand students build volcanoes for science fairs, and approximately fourteen thousand of them work perfectly. Mine, however, had decided to be an individual.\n\nI'd followed the instructions precisely. Well, mostly precisely. The recipe called for baking soda and vinegar, which I had. It also called for dish soap, which I substituted with shampoo because the bottle was closer. It called for red food colouring, which I replaced with purple because red seemed too obvious. These small creative choices, I was certain, would make my volcano stand out.\n\nIt stood out, all right.\n\nOn the morning of the science fair, I carried my masterpiece into the gymnasium with the careful reverence of someone transporting a sleeping baby—if sleeping babies occasionally leaked purple foam from their nostrils. The gymnasium had been transformed into a temple of scientific achievement. There were solar system models with planets that actually rotated. There were electrical circuits that lit up like Christmas trees. There was a girl named Priya whose robot could sort coloured blocks faster than I could say 'I should have built a robot.'\n\nAnd then there was my volcano, sitting on its cardboard base like a melting dessert, already beginning to ooze purple rivulets down its lumpy brown sides.\n\nThe judges arrived at my table with their clipboards and their encouraging smiles—the kind of smiles adults wear when they're trying very hard not to laugh. 'And what do we have here?' asked the head judge, a man whose eyebrows seemed to be having a private conversation with each other.\n\n'It's a volcano,' I said, because sometimes stating the obvious is all you've got.\n\n'Wonderful!' he said, in the same tone you'd use to compliment a toddler's drawing. 'And can you tell us about the scientific principle you're demonstrating?'\n\nI pressed the hidden button. The volcano made a sound like a disappointed sigh, then proceeded to erupt with all the enthusiasm of a sneeze. Purple foam dribbled down the sides with the urgency of cold honey.\n\n'Chemical reactions,' I said weakly. 'Acid and base.'\n\nThe judge nodded, wrote something on his clipboard that was definitely not 'first place,' and moved on to Priya's robot, which had started sorting blocks to what I swear was applause from the other judges.\n\nI didn't win, obviously. I didn't even place. But as I carried my defeated volcano back to the car, my father put his arm around my shoulder. 'You know what I love about this?' he said.\n\n'What?'\n\n'Next year, you'll have a really great story about why you're not building a volcano.'\n\nHe wasn't wrong either.",
+        "source": "Original (AI-generated for educational purposes)",
+        "lexileRange": "950-1050L",
+        "themes": [
+          "failure as learning",
+          "self-deprecating humor",
+          "family support",
+          "perspective on disappointment"
+        ],
+        "literaryDevices": [
+          "self-deprecation",
+          "hyperbole",
+          "irony",
+          "humor through understatement"
+        ]
+      },
+      "questions": [
+        {
+          "questionId": "nsw-sel-rc03-025",
+          "questionType": "MCQ",
+          "stem": "The overall tone of this passage is best described as:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Bitter and resentful",
+              "isCorrect": false,
+              "feedback": "This misreads the tone. While the narrator describes failure, they're laughing AT themselves, not expressing bitterness. Lines like 'she wasn't wrong' show acceptance, not resentment."
+            },
+            {
+              "id": "B",
+              "text": "Self-deprecating and humorous",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator consistently makes fun of their own failure ('the ugliest volcano,' 'melting dessert,' 'disappointed sigh') while maintaining a light, comedic tone throughout."
+            },
+            {
+              "id": "C",
+              "text": "Anxious and stressed",
+              "isCorrect": false,
+              "feedback": "While the situation could be stressful, the narrator tells the story with RETROSPECTIVE humour, not anxiety. The relaxed, joking narration ('approximately fourteen thousand') shows they're not stressed."
+            },
+            {
+              "id": "D",
+              "text": "Proud and boastful",
+              "isCorrect": false,
+              "feedback": "This is the OPPOSITE of the narrator's attitude. They openly acknowledge their volcano was terrible and they didn't win. There's no boasting—only self-aware humor about failure."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "throughout",
+              "quoteHint": "she wasn't wrong"
+            },
+            "distractorTypes": {
+              "A": "too_extreme",
+              "C": "wrong_tone",
+              "D": "opposite_meaning"
+            },
+            "inferenceType": "overall_tone",
+            "questionFunction": "Identify dominant tone across entire passage"
+          },
+          "difficulty": 3,
+          "estimatedTime": 45,
+          "hints": [
+            {
+              "level": 1,
+              "content": "How does the narrator describe their own volcano and their performance?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "When the narrator says 'she wasn't wrong' about the ugly volcano, what attitude does this show?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator laughs at themselves throughout—this is self-deprecating humour.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc03-testlet-005",
+            "sequenceInPaper": 1
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc03-026",
+          "questionType": "MCQ",
+          "stem": "The narrator's use of specific numbers in 'approximately fourteen thousand students build volcanoes' creates a tone that is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Serious, establishing credibility",
+              "isCorrect": false,
+              "feedback": "This misses the humour entirely. The narrator is being playfully MOCK-serious. 'Approximately fourteen thousand' is obviously made up—it's meant to be funny, not credible."
+            },
+            {
+              "id": "B",
+              "text": "Scientifically accurate, demonstrating research skills",
+              "isCorrect": false,
+              "feedback": "The number isn't real research—it's DELIBERATELY exaggerated for comic effect. The word 'approximately' followed by such a specific number is the joke."
+            },
+            {
+              "id": "C",
+              "text": "Mockingly precise, emphasizing the irony of their failure",
+              "isCorrect": true,
+              "feedback": "Correct! The fake-precise number ('approximately fourteen thousand') is deliberately absurd—creating ironic humour by using 'scientific' precision for an unscientific estimate."
+            },
+            {
+              "id": "D",
+              "text": "Complaining, suggesting unfair competition",
+              "isCorrect": false,
+              "feedback": "The narrator isn't complaining about competition being unfair. They're making a joke about how common (and usually successful) volcano projects are—highlighting their own unique failure."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 2",
+              "quoteHint": "approximately fourteen thousand"
+            },
+            "distractorTypes": {
+              "B": "literal_interpretation",
+              "D": "wrong_tone",
+              "A": "opposite_meaning"
+            },
+            "inferenceType": "tonal_device",
+            "questionFunction": "Analyze how specific language choices create tone"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is 'approximately fourteen thousand' a real statistic the narrator researched?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Why would someone use 'approximately' with such a specific number?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The combination of 'approximately' with a precise number is deliberately absurd—mock precision for humorous effect.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc03-testlet-005",
+            "sequenceInPaper": 2
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc03-027",
+          "questionType": "MCQ",
+          "stem": "The narrator's description of the judges' smiles as 'the kind of smiles adults wear when they're trying very hard not to laugh' reveals an attitude that is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Defensive about the quality of their project",
+              "isCorrect": false,
+              "feedback": "The narrator shows NO defensiveness. They openly admit the volcano was ridiculous. Describing the judges' suppressed laughter shows they AGREE their project was funny-bad."
+            },
+            {
+              "id": "B",
+              "text": "Oblivious to the judges' true reaction",
+              "isCorrect": false,
+              "feedback": "The OPPOSITE is true. The narrator is highly AWARE of what the judges were thinking—that's the point of this description. They understand perfectly that their volcano was laughable."
+            },
+            {
+              "id": "C",
+              "text": "Angry at the judges for being unprofessional",
+              "isCorrect": false,
+              "feedback": "The narrator isn't angry—they're in on the joke! They describe the smiles with humour, not criticism. They seem to understand and even appreciate the judges' restraint."
+            },
+            {
+              "id": "D",
+              "text": "Self-aware and accepting of their own ridiculousness",
+              "isCorrect": true,
+              "feedback": "Correct! The narrator recognizes exactly how the judges saw them—and shares the joke with us rather than being embarrassed. This shows mature self-awareness about the situation."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 6",
+              "quoteHint": "trying very hard not to laugh"
+            },
+            "distractorTypes": {
+              "C": "wrong_tone",
+              "B": "opposite_meaning",
+              "A": "opposite_meaning"
+            },
+            "inferenceType": "narrator_awareness",
+            "questionFunction": "Assess narrator's self-awareness through description of others' reactions"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Does the narrator seem upset that the judges wanted to laugh?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "If the narrator was oblivious, would they describe the smiles this way?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "The narrator sees exactly what's happening AND shares the joke—showing self-awareness.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc03-testlet-005",
+            "sequenceInPaper": 3
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc03-028",
+          "questionType": "MCQ",
+          "stem": "The phrase 'with all the enthusiasm of a sneeze' to describe the eruption creates a tone that is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Technical and descriptive",
+              "isCorrect": false,
+              "feedback": "This is the opposite of technical! A scientific description would explain the chemical reaction. 'Enthusiasm of a sneeze' is deliberately non-scientific—it's humorous imagery."
+            },
+            {
+              "id": "B",
+              "text": "Comically deflating, emphasizing anticlimax",
+              "isCorrect": true,
+              "feedback": "Correct! Comparing an 'eruption' (explosive, dramatic) to a 'sneeze' (small, involuntary, undignified) creates humorous anticlimax—the exact opposite of what volcanoes are supposed to do."
+            },
+            {
+              "id": "C",
+              "text": "Impressed and amazed",
+              "isCorrect": false,
+              "feedback": "Comparing something to a sneeze is NOT a compliment! The narrator is mocking their own volcano's pathetic performance, not expressing amazement."
+            },
+            {
+              "id": "D",
+              "text": "Disgusted and repelled",
+              "isCorrect": false,
+              "feedback": "While a sneeze might seem gross, the comparison isn't about disgust—it's about how SMALL and WEAK the eruption was. The humour is in the contrast, not revulsion."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraph 7",
+              "quoteHint": "enthusiasm of a sneeze"
+            },
+            "distractorTypes": {
+              "D": "half_right",
+              "A": "opposite_meaning",
+              "C": "opposite_meaning"
+            },
+            "inferenceType": "figurative_tone",
+            "questionFunction": "Analyze how figurative language creates comic tone"
+          },
+          "difficulty": 3,
+          "estimatedTime": 45,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Is a sneeze typically enthusiastic or impressive?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "What are volcanoes SUPPOSED to do? How does a sneeze compare?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Eruption (dramatic) vs sneeze (pathetic) = anticlimax = humour.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc03-testlet-005",
+            "sequenceInPaper": 4
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc03-029",
+          "questionType": "MCQ",
+          "stem": "The father's final comment—'Next year, you'll have a really great story about why you're not building a volcano'—establishes a tone that is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Demanding that the narrator try harder next time",
+              "isCorrect": false,
+              "feedback": "There's no demand in the father's words. He's not pushing for improvement—he's offering comfort by reframing failure as a future source of humour."
+            },
+            {
+              "id": "B",
+              "text": "Sarcastic and critical of the narrator's effort",
+              "isCorrect": false,
+              "feedback": "The father's tone isn't critical—it's affectionate. He puts his arm around the narrator and finds the silver lining. There's gentle teasing, but no criticism or sarcasm."
+            },
+            {
+              "id": "C",
+              "text": "Warmly supportive while acknowledging the failure",
+              "isCorrect": true,
+              "feedback": "Correct! The father doesn't pretend the volcano was good (no false praise), but he finds the positive: a funny story. This is warm support that accepts reality with good humour."
+            },
+            {
+              "id": "D",
+              "text": "Dismissive of the science fair's importance",
+              "isCorrect": false,
+              "feedback": "The father isn't dismissing the event as unimportant. He's helping the narrator see that failure today creates a good story—not that the whole thing didn't matter."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 3,
+            "cognitiveTarget": "integrate_interpret",
+            "textEvidence": {
+              "required": true,
+              "location": "final paragraphs",
+              "quoteHint": "a really great story"
+            },
+            "distractorTypes": {
+              "B": "wrong_tone",
+              "D": "out_of_scope",
+              "A": "opposite_meaning"
+            },
+            "inferenceType": "character_tone",
+            "questionFunction": "Analyze how dialogue reveals attitude and relationship"
+          },
+          "difficulty": 3,
+          "estimatedTime": 50,
+          "hints": [
+            {
+              "level": 1,
+              "content": "What physical action accompanies the father's words?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "Does the father say the volcano was actually good? What DOES he offer instead?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Arm around shoulder + finding humour in failure = warm support without false praise.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc03-testlet-005",
+            "sequenceInPaper": 5
+          }
+        },
+        {
+          "questionId": "nsw-sel-rc03-030",
+          "questionType": "MCQ",
+          "stem": "The narrator's repetition of 'wasn't wrong' (about the sister and the father) creates a unifying tone that is:",
+          "mcqOptions": [
+            {
+              "id": "A",
+              "text": "Sarcastic and secretly disagreeing",
+              "isCorrect": false,
+              "feedback": "There's no secret disagreement. The narrator genuinely agrees their volcano was ugly and that failure makes good stories. The repetition reinforces sincere acceptance, not hidden sarcasm."
+            },
+            {
+              "id": "B",
+              "text": "Passive and defeated by others' judgments",
+              "isCorrect": false,
+              "feedback": "The narrator isn't passive or defeated—they're actively AGREEING with good humour. There's confidence in saying 'you're right' rather than defeat. The final tone is upbeat."
+            },
+            {
+              "id": "C",
+              "text": "Confused about whether the project succeeded",
+              "isCorrect": false,
+              "feedback": "The narrator is not confused at all! They clearly know the project failed ('I didn't win, obviously'). The repeated phrase shows CLARITY, not confusion."
+            },
+            {
+              "id": "D",
+              "text": "Accepting and graceful about honest criticism",
+              "isCorrect": true,
+              "feedback": "Correct! By saying both the harsh critic (sister) and the kind supporter (father) 'weren't wrong,' the narrator shows grace in accepting all perspectives. They can hear hard truths without resentment."
+            }
+          ],
+          "nswSelectiveReading": {
+            "archetype": "Tone/Attitude Recognition",
+            "archetypeId": "rc03",
+            "comprehensionLevel": 4,
+            "cognitiveTarget": "critique_evaluate",
+            "textEvidence": {
+              "required": true,
+              "location": "paragraphs 1 and final",
+              "quoteHint": "wasn't wrong"
+            },
+            "distractorTypes": {
+              "B": "wrong_tone",
+              "A": "opposite_meaning",
+              "C": "out_of_scope"
+            },
+            "inferenceType": "structural_repetition",
+            "questionFunction": "Evaluate how structural repetition creates unified tone"
+          },
+          "difficulty": 4,
+          "estimatedTime": 60,
+          "hints": [
+            {
+              "level": 1,
+              "content": "Who says something that 'wasn't wrong' at the start? Who at the end?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 2,
+              "content": "The sister was harsh; the father was kind. What does agreeing with BOTH show?",
+              "revealsCriticalInfo": false
+            },
+            {
+              "level": 3,
+              "content": "Accepting criticism (ugly volcano) AND comfort (good story) = graceful acceptance.",
+              "revealsCriticalInfo": true
+            }
+          ],
+          "paperMetadata": {
+            "section": "nsw-selective-reading",
+            "setId": "nsw-sel-rc03-testlet-005",
+            "sequenceInPaper": 6
+          }
+        }
+      ],
+      "metadata": {
+        "archetype": "Tone/Attitude Recognition",
+        "archetypeId": "rc03",
+        "section": "nsw-selective-reading",
+        "targetYear": 6,
+        "questionCount": 6,
+        "difficultyRange": "3-4",
+        "comprehensionLevelDistribution": {
+          "level3": 5,
+          "level4": 1
+        },
+        "createdAt": "2026-01-16",
+        "version": "1.0"
+      }
+    }
+  ],
+  "metadata": {
+    "archetype": "Tone/Attitude Recognition",
+    "archetypeId": "rc03",
+    "archetypeSlug": "tone-attitude",
+    "section": "nsw-selective-reading",
+    "targetYear": 6,
+    "questionCount": 6,
+    "difficultyRange": "3-4",
+    "comprehensionLevels": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "createdAt": "2026-01-16",
+    "version": "1.0",
+    "researchSource": ".claude/knowledge/edu/research/nsw-selective-reading-archetypes.json",
+    "testletCount": 5,
+    "totalQuestions": 30
+  }
+}
