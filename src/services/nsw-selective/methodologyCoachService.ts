@@ -292,10 +292,27 @@ export function generateSocraticIntervention(
     errorHistory?: Partial<Record<DistractorType, number>>;
     previousAttempts?: string[];
     consecutiveWrong?: number;
+    isTimeBasedNudge?: boolean; // True when triggered by 30-second timeout
   }
 ): SocraticIntervention {
   const archetype = getArchetypeDefinition(archetypeId);
   const mostCommonError = context.errorHistory ? getMostCommonError(context.errorHistory) : null;
+
+  // Time-based nudge: Gentler intervention when student is taking time (not wrong answers)
+  if (context.isTimeBasedNudge) {
+    return {
+      type: 'socratic',
+      title: "Need a Little Help?",
+      encouragement: "Taking your time is good! Let me give you a gentle nudge in the right direction.",
+      questions: [
+        { question: "What type of problem is this?", hint: archetype.pattern },
+        { question: "What information does the question give you?", hint: "List all the key values" },
+        { question: "What's your first step?", hint: archetype.solutionApproach }
+      ],
+      methodologyReminder: `Remember: ${archetype.solutionApproach}`,
+      adaptedToError: undefined
+    };
+  }
 
   // Select Socratic questions based on error patterns
   let questions: SocraticQuestion[] = [];

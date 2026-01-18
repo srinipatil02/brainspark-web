@@ -662,6 +662,7 @@ export function ArchetypePlayer({
   const [methodologyGuidance, setMethodologyGuidance] = useState<MethodologyGuidance | null>(null);
   const [hasSeenIntro, setHasSeenIntro] = useState(false);
   const [consecutiveWrong, setConsecutiveWrong] = useState(0);
+  const [hasShownTimeNudge, setHasShownTimeNudge] = useState(false); // 30-second nudge tracking
 
   // Adaptive Hints state
   const [currentAdaptiveHint, setCurrentAdaptiveHint] = useState<AdaptiveHint | null>(null);
@@ -758,7 +759,35 @@ export function ArchetypePlayer({
     setShowSocraticChat(false);
     setShowTeachMe(false);
     setSocraticExchangeCount(0);
+    setHasShownTimeNudge(false); // Reset 30-second nudge for new question
   }, [currentIndex]);
+
+  // 30-second coaching nudge - show guidance if student is stuck
+  useEffect(() => {
+    const NUDGE_THRESHOLD_SECONDS = 30;
+
+    // Only trigger if: 30+ seconds passed, still answering, hasn't been shown, and have a question
+    if (
+      timer.elapsedSeconds >= NUDGE_THRESHOLD_SECONDS &&
+      questionState === 'answering' &&
+      !hasShownTimeNudge &&
+      currentQuestion
+    ) {
+      setHasShownTimeNudge(true);
+
+      // Generate a gentle nudge intervention
+      const timeNudge = generateSocraticIntervention(archetypeId, {
+        question: currentQuestion,
+        errorHistory: sessionErrorHistory,
+        previousAttempts: wrongOptionsThisQuestion,
+        consecutiveWrong: 0, // Not from wrong answers - just time-based
+        isTimeBasedNudge: true // Flag to indicate this is a time-based nudge
+      });
+
+      setMethodologyGuidance(timeNudge);
+      setShowMethodologyCoach(true);
+    }
+  }, [timer.elapsedSeconds, questionState, hasShownTimeNudge, currentQuestion, archetypeId, sessionErrorHistory, wrongOptionsThisQuestion]);
 
   // Handle option selection
   const handleSelectOption = useCallback((optionId: string) => {
